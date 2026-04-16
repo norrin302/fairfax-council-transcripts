@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fairfax City Council Meeting - April 14, 2026</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .search-container { margin: 20px 0; }
+        #transcript-search { 
+            width: 100%; padding: 12px 20px; font-size: 16px; 
+            border: 2px solid #2b6cb0; border-radius: 25px;
+            outline: none;
+        }
+        #transcript-search:focus { border-color: #1a365d; box-shadow: 0 0 0 3px rgba(43,108,176,0.2); }
+        .agenda-nav { 
+            background: #f7fafc; padding: 20px; border-radius: 8px; 
+            margin-bottom: 30px; border-left: 4px solid #1a365d;
+        }
+        .agenda-nav ul { list-style: none; padding: 0; }
+        .agenda-nav li { margin: 8px 0; }
+        .agenda-nav a { color: #2b6cb0; text-decoration: none; font-weight: 500; }
+        .agenda-nav a:hover { color: #1a365d; text-decoration: underline; }
+        .speaker-legend { margin: 20px 0; padding: 15px; background: #f7fafc; border-radius: 8px; }
+        .speaker-badge { 
+            display: inline-block; color: white; padding: 4px 12px; 
+            border-radius: 20px; margin-right: 10px; font-size: 14px;
+        }
+        .section-marker { 
+            background: linear-gradient(135deg, #1a365d, #2b6cb0); 
+            color: white; padding: 15px 20px; margin: 30px 0 15px;
+            border-radius: 8px; font-weight: bold;
+        }
+        .transcript-segment { 
+            padding: 12px; border-bottom: 1px solid #e2e8f0; 
+            transition: background 0.3s;
+        }
+        .transcript-segment:hover { background: #f7fafc; }
+        .transcript-segment .speaker { font-weight: 600; margin-right: 10px; }
+        .transcript-segment .timestamp { 
+            color: #718096; font-size: 14px; margin-right: 10px;
+        }
+        .video-source { margin: 20px 0; }
+        .btn-primary {
+            display: inline-block; background: linear-gradient(135deg, #1a365d, #2b6cb0);
+            color: white; padding: 12px 24px; border-radius: 25px;
+            text-decoration: none; font-weight: 600;
+        }
+        .btn-primary:hover { opacity: 0.9; }
+    </style>
+</head>
+<body>
+<header class="site-header">
+    <div class="container">
+        <h1>🏛️ Fairfax City Council Transcript</h1>
+        <p class="tagline">April 14, 2026 Regular Meeting - First 10 Minutes</p>
+    </div>
+</header>
+
+<main class="container">
+    <article class="meeting-header">
+        <h2>City Council Meeting</h2>
+        <div class="meeting-meta">
+            <span>📅 April 14, 2026</span>
+            <span>⏱️ Duration: 10 minutes</span>
+            <span>🌐 English</span>
+            <span>📍 Full Meeting: 2h 47m</span>
+        </div>
+    </article>
+
+    <!-- Video Link -->
+    <div class="video-source">
+        <a href="https://fairfax.granicus.com/player/clip/4519" target="_blank" class="btn-primary">
+            📺 Watch Full Meeting on Granicus (2h 47m)
+        </a>
+    </div>
+
+    <!-- Search Box -->
+    <div class="search-container">
+        <input type="text" id="transcript-search" placeholder="🔍 Search transcript content...">
+    </div>
+
+    <!-- Agenda Navigation -->
+    <nav class="agenda-nav">
+        <h4>📋 Agenda Items</h4>
+        <ul>
+            <li><a href="#section-call">1. Call to Order</a></li>
+            <li><a href="#section-pledge">2. Pledge of Allegiance</a></li>
+            <li><a href="#section-library">3. National Library Week Proclamation</a></li>
+        </ul>
+    </nav>
+
+    <!-- Speaker Legend -->
+    <div class="speaker-legend">
+        <h4>🎙️ Identified Speakers</h4>
+        <div class="speakers">
+            <span class="speaker-badge" style="background:#1a365d">Mayor Catherine Read</span>
+            <span class="speaker-badge" style="background:#805ad5">Library Staff</span>
+        </div>
+    </div>
+
+    <section class="transcript-content">
+
+    <!-- Section: Call to Order -->
+    <div class="section-marker" id="section-call">📋 1. Call to Order</div>
+    
+    <div class="transcript-segment" data-speaker="Mayor">
+        <span class="speaker" style="color:#1a365d">🏛️ Mayor Read:</span>
+        <span class="timestamp">[01:12]</span>
+        <span class="text">Good evening. I would like to call the regular meeting of April 14th, 2026 to order.</span>
+    </div>
+    <div class="transcript-segment" data-speaker="Mayor">
+        <span class="speaker" style="color:#1a365d"></span>
+        <span class="timestamp">[01:17]</span>
+        <span class="text">It's good to see the chamber full. We have a lot of things to celebrate tonight.</span>
+    </div>
+
+    <!-- Section: Pledge -->
+    <div class="section-marker" id="section-pledge">🇺🇸 2. Pledge of Allegiance</div>
+    
+    <div class="transcript-segment" data-speaker="Mayor">
+        <span class="speaker" style="color:#1a365d">🏛️ Mayor Read:</span>
+        <span class="timestamp">[01:21]</span>
+        <span class="text">If you are able and so choose, please rise for the Pledge of Allegiance.</span>
+    </div>
+    <div class="transcript-segment" data-speaker="Council">
+        <span class="speaker" style="color:#805ad5">👥 Assembly:</span>
+        <span class="timestamp">[01:25]</span>
+        <span class="text">I pledge allegiance to the flag of the United States of America, and to the republic for which it stands, one nation, under God, indivisible, with liberty and justice for all.</span>
+    </div>
+
+    <!-- Section: Library Week -->
+    <div class="section-marker" id="section-library">📚 3. National Library Week Proclamation</div>
+    
+    <div class="transcript-segment" data-speaker="Mayor">
+        <span class="speaker" style="color:#1a365d">🏛️ Mayor Read:</span>
+        <span class="timestamp">[01:42]</span>
+        <span class="text">I will now ask Suzanne Levy, Eric Carson, and Alana Quarles with the City of Fairfax Library to come down for the proclamation acknowledging National Library Week.</span>
+    </div>
+    <div class="transcript-segment" data-speaker="Mayor">
+        <span class="speaker" style="color:#1a365d"></span>
+        <span class="timestamp">[02:13]</span>
+        <span class="text">Whereas, libraries spark creativity, fuel imagination, and inspire lifelong learning, offering a space where individuals of all ages can find joy through exploration and discovery.</span>
+    </div>
+    <div class="transcript-segment" data-speaker="Mayor">
+        <span class="speaker" style="color:#1a365d"></span>
+        <span class="timestamp">[02:28]</span>
+        <span class="text">And whereas libraries serve as vibrant community hubs connecting people with knowledge, technology, and resources while fostering civic engagement, critical thinking, and cultural enrichment.</span>
+    </div>
+    <div class="transcript-segment" data-speaker="Mayor">
+        <span class="speaker" style="color:#1a365d"></span>
+        <span class="timestamp">[02:39]</span>
+        <span class="text">And whereas libraries provide free and equitable access to books, digital tools, and innovative programming, ensuring that all individuals, regardless of background, have the support they need to learn, connect, and thrive.</span>
+    </div>
+
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <p>Generated with OpenAI Whisper | City of Fairfax, Virginia | Public Records</p>
+        <p><small>Transcripts are AI-generated and may contain minor errors</small></p>
+    </div>
+</footer>
+
+<script>
+function searchTranscript() {
+    const query = document.getElementById('transcript-search').value.toLowerCase();
+    const segments = document.querySelectorAll('.transcript-segment');
+    let firstMatch = true;
+    
+    segments.forEach(seg => {
+        const text = seg.querySelector('.text').textContent.toLowerCase();
+        if (query.length > 2 && text.includes(query)) {
+            seg.style.backgroundColor = '#fff3cd';
+            if (firstMatch) {
+                seg.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                firstMatch = false;
+            }
+        } else {
+            seg.style.backgroundColor = '';
+        }
+    });
+}
+</script>
+</body>
+</html>
