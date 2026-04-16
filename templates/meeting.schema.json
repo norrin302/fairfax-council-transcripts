@@ -1,0 +1,187 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Fairfax City Council Meeting",
+  "description": "Canonical data model for a Fairfax City Council meeting transcript",
+  "type": "object",
+  "required": ["id", "title", "meeting_type", "date", "language", "city"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier (YYYY-MM-DD format)",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "title": {
+      "type": "string",
+      "description": "Full meeting title"
+    },
+    "meeting_type": {
+      "type": "string",
+      "enum": ["regular", "work_session", "special", "public_hearing"],
+      "description": "Type of meeting"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Meeting date in ISO format"
+    },
+    "duration_seconds": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Total meeting duration in seconds"
+    },
+    "language": {
+      "type": "string",
+      "default": "en",
+      "description": "ISO 639-1 language code"
+    },
+    "city": {
+      "type": "string",
+      "default": "Fairfax, VA",
+      "description": "City name"
+    },
+    "source_video_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Original video URL from Granicus"
+    },
+    "source_meeting_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Meeting portal page URL"
+    },
+    "source_agenda_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Official agenda PDF/link"
+    },
+    "source_minutes_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Official minutes PDF/link"
+    },
+    "mp3_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Audio-only download link"
+    },
+    "mp4_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Video download link"
+    },
+    "speakers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "role": { "type": "string" },
+          "first_segment_id": { "type": "string" },
+          "segment_count": { "type": "integer" }
+        }
+      },
+      "description": "Identified speakers with metadata"
+    },
+    "agenda_items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "number": { "type": "string" },
+          "title": { "type": "string" },
+          "type": { "type": "string" },
+          "start_segment_id": { "type": "string" },
+          "end_segment_id": { "type": "string" }
+        }
+      },
+      "description": "Agenda items with timestamps"
+    },
+    "segments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "start", "end", "text"],
+        "properties": {
+          "id": { "type": "string" },
+          "start": { "type": "number" },
+          "end": { "type": "number" },
+          "text": { "type": "string" },
+          "speaker_id": { "type": "string" },
+          "agenda_item_id": { "type": "string" },
+          "confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+        }
+      },
+      "description": "Transcript segments with timestamps"
+    },
+    "summary": {
+      "type": "string",
+      "description": "AI-generated meeting summary"
+    },
+    "topics": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Key topics discussed"
+    },
+    "motions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": { "type": "string" },
+          "mover": { "type": "string" },
+          "seconder": { "type": "string" },
+          "result": { "type": "string", "enum": ["passed", "failed", "tabled"] },
+          "vote": {
+            "type": "object",
+            "properties": {
+              "yeas": { "type": "integer" },
+              "nays": { "type": "integer" },
+              "abstentions": { "type": "integer" }
+            }
+          }
+        }
+      },
+      "description": "Motions and votes"
+    },
+    "action_items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "description": { "type": "string" },
+          "assigned_to": { "type": "string" },
+          "due_date": { "type": "string" }
+        }
+      },
+      "description": "Action items from the meeting"
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": { "type": "string", "enum": ["agenda", "minutes", "presentation", "proclamation", "other"] },
+          "title": { "type": "string" },
+          "url": { "type": "string", "format": "uri" }
+        }
+      },
+      "description": "Official meeting documents"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When this JSON was generated"
+    },
+    "transcript_engine": {
+      "type": "string",
+      "default": "openai-whisper",
+      "description": "Transcription engine used"
+    },
+    "transcript_model": {
+      "type": "string",
+      "description": "Specific model used (e.g., 'large-v3')"
+    }
+  }
+}

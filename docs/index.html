@@ -6,6 +6,7 @@
     <title>Fairfax City Council Transcripts</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/search.css">
 </head>
 <body>
     <header class="site-header">
@@ -16,6 +17,28 @@
     </header>
 
     <main class="container">
+        <!-- Cross-Meeting Search -->
+        <section class="global-search">
+            <h2><i class="fas fa-search"></i> Search All Transcripts</h2>
+            <div class="search-box">
+                <input type="text" id="global-search" placeholder="Search across all meetings...">
+                <button id="search-btn"><i class="fas fa-search"></i> Search</button>
+            </div>
+            <div class="search-filters">
+                <label><i class="fas fa-user"></i> Speaker:
+                    <select id="filter-speaker">
+                        <option value="">All Speakers</option>
+                    </select>
+                </label>
+                <label><i class="fas fa-calendar"></i> Date Range:
+                    <input type="date" id="filter-date-from">
+                    <span>to</span>
+                    <input type="date" id="filter-date-to">
+                </label>
+            </div>
+            <div id="search-results" class="search-results"></div>
+        </section>
+
         <section class="intro">
             <h2><i class="fas fa-info-circle"></i> About This Project</h2>
             <p>
@@ -24,8 +47,8 @@
                 speaker identification, and agenda item linking where possible.
             </p>
             <p>
-                <strong>Councilwoman Stacy Hall</strong> is proud to support transparency
-                in local government. All meeting videos are public records from the
+                <strong>Councilwoman Stacy Hall</strong> is proud to support transparency in local government.
+                All meeting videos are public records from the
                 <a href="https://www.fairfaxva.gov/Government/Public-Meetings/City-Meetings" target="_blank">
                     City of Fairfax official archive <i class="fas fa-external-link-alt"></i>
                 </a>.
@@ -40,16 +63,8 @@
                         <i class="fas fa-calendar"></i> April 14, 2026
                     </div>
                     <h3>City Council Meeting</h3>
-                    <p>Most recent - Library Week Proclamation, community updates</p>
+                    <p>Library Week Proclamation, community updates</p>
                     <a href="transcripts/apr-14-2026.html"><i class="fas fa-file-alt"></i> View Transcript</a>
-                </div>
-                <div class="meeting-card">
-                    <div class="meeting-date">
-                        <i class="fas fa-calendar"></i> December 9, 2025
-                    </div>
-                    <h3>City Council Meeting</h3>
-                    <p>Police Department CALEA Accreditation Presentation</p>
-                    <a href="transcripts/dec-9-2025.html"><i class="fas fa-file-alt"></i> View Transcript</a>
                 </div>
             </div>
         </section>
@@ -59,13 +74,13 @@
             <div class="features-grid">
                 <div class="feature">
                     <i class="fas fa-search"></i>
-                    <h3>Full-Text Search</h3>
-                    <p>Search across all transcripts to find exactly what was said.</p>
+                    <h3>Cross-Meeting Search</h3>
+                    <p>Search across all meeting transcripts to find exactly what was said.</p>
                 </div>
                 <div class="feature">
                     <i class="fas fa-clock"></i>
-                    <h3>Timestamped</h3>
-                    <p>Jump to any moment in the video from the transcript.</p>
+                    <h3>Clickable Timestamps</h3>
+                    <p>Click any timestamp to jump to that moment in the source video.</p>
                 </div>
                 <div class="feature">
                     <i class="fas fa-users"></i>
@@ -74,7 +89,7 @@
                 </div>
                 <div class="feature">
                     <i class="fas fa-file-alt"></i>
-                    <h3>Agenda Linking</h3>
+                    <h3>Agenda Navigation</h3>
                     <p>Transcripts are organized by agenda item for easy navigation.</p>
                 </div>
             </div>
@@ -94,5 +109,7 @@
             </p>
         </div>
     </footer>
+    <script src="./js/search-index.js"></script>
+    <script src="./js/search.js"></script>
 </body>
 </html>
