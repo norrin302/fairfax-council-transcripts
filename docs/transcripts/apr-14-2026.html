@@ -1,260 +1,2070 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fairfax City Council Meeting - April 14, 2026</title>
-<link rel="stylesheet" href="../css/style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<style>
-.search-container { margin: 20px 0; }
-#transcript-search { width: 100%; padding: 12px 20px; font-size: 16px; border: 2px solid #2b6cb0; border-radius: 25px; outline: none; }
-#transcript-search:focus { border-color: #1a365d; box-shadow: 0 0 0 3px rgba(43,108,176,0.2); }
-.agenda-nav { background: #f7fafc; padding: 20px; border-radius: 8px; margin-bottom: 30px; border-left: 4px solid #1a365d; }
-.agenda-nav ul { list-style: none; padding: 0; }
-.agenda-nav li { margin: 8px 0; }
-.agenda-nav a { color: #2b6cb0; text-decoration: none; font-weight: 500; }
-.agenda-nav a:hover { color: #1a365d; text-decoration: underline; }
-.speaker-legend { margin: 20px 0; padding: 15px; background: #f7fafc; border-radius: 8px; }
-.speaker-badge { display: inline-block; color: white; padding: 4px 12px; border-radius: 20px; margin-right: 10px; font-size: 14px; }
-.section-marker { background: linear-gradient(135deg, #1a365d, #2b6cb0); color: white; padding: 15px 20px; margin: 30px 0 15px; border-radius: 8px; font-weight: bold; }
-.transcript-segment { padding: 12px; border-bottom: 1px solid #e2e8f0; transition: background 0.3s; position: relative; }
-.transcript-segment:hover { background: #f7fafc; }
-.transcript-segment.highlighted { background: #bee3f8; }
-.transcript-segment .speaker { font-weight: 600; margin-right: 10px; }
-.transcript-segment .timestamp { color: #2b6cb0; font-size: 14px; margin-right: 10px; cursor: pointer; text-decoration: none; }
-.transcript-segment .timestamp:hover { text-decoration: underline; color: #1a365d; }
-.transcript-segment .text { flex: 1; }
-.transcript-segment .copy-btn { opacity: 0; background: #e2e8f0; border: none; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px; margin-left: 10px; transition: opacity 0.2s; }
-.transcript-segment:hover .copy-btn { opacity: 1; }
-.transcript-segment .copy-btn:hover { background: #cbd5e0; }
-
-/* Official Documents Box */
-.official-docs { background: linear-gradient(135deg, #edf2f7, #e2e8f0); padding: 20px; border-radius: 12px; margin: 20px 0; border-left: 4px solid #2b6cb0; }
-.official-docs h3 { margin-top: 0; color: #1a365d; }
-.official-docs ul { list-style: none; padding: 0; margin: 0; }
-.official-docs li { margin: 10px 0; }
-.official-docs a { display: inline-flex; align-items: center; color: #2b6cb0; text-decoration: none; font-weight: 500; }
-.official-docs a:hover { color: #1a365d; }
-
-/* AI Notice */
-.ai-notice { background: #fffaf0; border: 2px dashed #ed8936; border-radius: 8px; padding: 15px; margin: 20px 0; }
-.ai-notice h4 { margin: 0 0 10px 0; color: #c05621; }
-.ai-notice p { margin: 0; font-size: 14px; color: #744210; }
-
-/* AI Summary */
-.ai-summary { background: linear-gradient(135deg, #f0fff4, #e6fffa); border: 2px solid #38a169; border-radius: 12px; padding: 20px; margin: 25px 0; }
-.ai-summary h3 { color: #276749; margin-top: 0; }
-.ai-summary-label { display: inline-block; background: #38a169; color: white; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 12px; }
-.ai-summary ul { margin: 10px 0; padding-left: 20px; }
-.ai-summary li { margin: 8px 0; }
-
-.btn-primary { display: inline-block; background: linear-gradient(135deg, #1a365d, #2b6cb0); color: white; padding: 12px 24px; border-radius: 25px; text-decoration: none; font-weight: 600; }
-.btn-primary:hover { opacity: 0.9; }
-
-.toast { position: fixed; bottom: 20px; right: 20px; background: #38a169; color: white; padding: 12px 24px; border-radius: 8px; opacity: 0; transition: opacity 0.3s; z-index: 1000; }
-.toast.show { opacity: 1; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fairfax City Council Meeting - April 14, 2026 (Full Transcript)</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .transcript-container { max-width: 900px; margin: 0 auto; }
+        .search-box { margin: 20px 0; padding: 15px; background: #f7fafc; border-radius: 8px; }
+        #search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #2b6cb0; border-radius: 8px; }
+        .segment { padding: 15px; border-bottom: 1px solid #e2e8f0; display: flex; gap: 15px; }
+        .segment:hover { background: #f7fafc; }
+        .timestamp { color: #2b6cb0; font-weight: 600; min-width: 80px; }
+        .timestamp a { color: inherit; text-decoration: none; }
+        .timestamp a:hover { text-decoration: underline; }
+        .text { flex: 1; line-height: 1.6; }
+        .ai-notice { background: #fffaf0; border: 2px dashed #ed8936; border-radius: 8px; padding: 15px; margin: 20px 0; }
+        .stats { background: linear-gradient(135deg, #1a365d, #2b6cb0); color: white; padding: 20px; border-radius: 12px; margin: 20px 0; }
+    </style>
 </head>
 <body>
 <header class="site-header">
-<div class="container">
-<h1><i class="fas fa-landmark"></i> Fairfax City Council Transcript</h1>
-<p class="tagline">April 14, 2026 Regular Meeting</p>
-</div>
+    <div class="container">
+        <h1><i class="fas fa-landmark"></i> Fairfax City Council Transcript</h1>
+        <p class="tagline">April 14, 2026 - Full Meeting</p>
+    </div>
 </header>
 
-<main class="container">
-<article class="meeting-header">
-<h2>City Council Meeting</h2>
-<div class="meeting-meta">
-<span><i class="fas fa-calendar"></i> April 14, 2026</span>
-<span><i class="fas fa-clock"></i> Duration: 10 minutes (excerpt)</span>
-<span><i class="fas fa-globe"></i> English</span>
-</div>
-</article>
+<main class="container transcript-container">
+    <div class="stats">
+        <h2><i class="fas fa-clock"></i> Meeting Statistics</h2>
+        <p><strong>Duration:</strong> 2 hours 47 minutes</p>
+        <p><strong>Segments:</strong> 2825 timestamped segments</p>
+        <p><strong>Word Count:</strong> ~24650 words</p>
+    </div>
 
-<!-- AI-Generated Summary -->
-<div class="ai-summary">
-<span class="ai-summary-label"><i class="fas fa-robot"></i> AI-Generated Summary</span>
-<h3>Meeting Summary - April 14, 2026</h3>
-<p><strong>Overview:</strong> Regular meeting of the Fairfax City Council with standard opening procedures and a special proclamation.</p>
-<p><strong>Key Events:</strong></p>
-<ul>
-<li><strong>Call to Order (01:12):</strong> Mayor Catherine Read called the meeting to order, noting a full chamber.</li>
-<li><strong>Pledge of Allegiance (01:21):</strong> Assembly recited the Pledge.</li>
-<li><strong>National Library Week Proclamation (01:42):</strong> Mayor Read presented a proclamation recognizing National Library Week. Library staff Suzanne Levy, Eric Carson, and Alana Quarles were recognized. The proclamation highlighted libraries' roles in creativity, lifelong learning, community connection, and equitable access to knowledge.</li>
-</ul>
-<p><strong>Key Speakers:</strong> Mayor Catherine Read presided. Library staff were recognized.</p>
-</div>
+    <div class="ai-notice">
+        <h4><i class="fas fa-robot"></i> AI-Generated Transcript</h4>
+        <p>This transcript was generated using OpenAI Whisper. While highly accurate, it may contain minor errors. For official records, refer to the <a href="https://fairfax.granicus.com/player/clip/4519">city's video archive</a>.</p>
+    </div>
 
-<!-- Official City Documents -->
-<aside class="official-docs">
-<h3><i class="fas fa-landmark"></i> Official City Documents</h3>
-<p style="font-size: 14px; color: #4a5568; margin-bottom: 15px;">Links to official City of Fairfax resources:</p>
-<ul>
-<li>
-<a href="https://fairfax.granicus.com/player/clip/4519" target="_blank">
-<i class="fas fa-video"></i> Official Video (Granicus) - Full 2h 47m
-</a>
-</li>
-<li>
-<a href="https://www.fairfaxva.gov/Government/Public-Meetings/City-Meetings" target="_blank">
-<i class="fas fa-globe"></i> City Meeting Portal & Agendas
-</a>
-</li>
-</ul>
-</aside>
+    <div class="search-box">
+        <input type="text" id="search" placeholder="Search transcript... (Ctrl+F)">
+    </div>
 
-<!-- AI Transcript Notice -->
-<div class="ai-notice">
-<h4><i class="fas fa-robot"></i> AI-Generated Transcript</h4>
-<p>This transcript is <strong>AI-generated</strong> using OpenAI Whisper and may contain minor errors. For the official record, refer to the <a href="https://fairfax.granicus.com/player/clip/4519" target="_blank" style="color: #2b6cb0;">official video</a>.</p>
-</div>
-
-<!-- Search Box -->
-<div class="search-container">
-<input type="text" id="transcript-search" placeholder="Search transcript content...">
-</div>
-
-<!-- Agenda Navigation -->
-<nav class="agenda-nav">
-<h4><i class="fas fa-list"></i> Agenda Items</h4>
-<ul>
-<li><a href="#section-call">1. Call to Order</a></li>
-<li><a href="#section-pledge">2. Pledge of Allegiance</a></li>
-<li><a href="#section-library">3. National Library Week Proclamation</a></li>
-</ul>
-</nav>
-
-<!-- Speaker Legend -->
-<div class="speaker-legend">
-<h4><i class="fas fa-users"></i> Identified Speakers</h4>
-<div class="speakers">
-<span class="speaker-badge" style="background:#1a365d">Mayor Catherine Read</span>
-<span class="speaker-badge" style="background:#805ad5">Assembly</span>
-</div>
-</div>
-
-<section class="transcript-content">
-<!-- Section: Call to Order -->
-<div class="section-marker" id="section-call">1. Call to Order</div>
-<div class="transcript-segment" data-time="72">
-<span class="speaker" style="color:#1a365d"><i class="fas fa-user"></i> Mayor Read:</span>
-<a href="#t=72" class="timestamp" title="Click to link to this moment">[01:12]</a>
-<span class="text">Good evening. I would like to call the regular meeting of April 14th, 2026 to order.</span>
-<button class="copy-btn" onclick="copyCitation(72, 'Mayor Read', 'Good evening. I would like to call the regular meeting of April 14th, 2026 to order.')"><i class="fas fa-quote-right"></i> Copy</button>
-</div>
-<div class="transcript-segment" data-time="77">
-<span class="speaker" style="color:#1a365d"></span>
-<a href="#t=77" class="timestamp" title="Click to link to this moment">[01:17]</a>
-<span class="text">It's good to see the chamber full. We have a lot of things to celebrate tonight.</span>
-<button class="copy-btn" onclick="copyCitation(77, 'Mayor Read', 'It\'s good to see the chamber full. We have a lot of things to celebrate tonight.')"><i class="fas fa-quote-right"></i> Copy</button>
-</div>
-
-<!-- Section: Pledge -->
-<div class="section-marker" id="section-pledge">2. Pledge of Allegiance</div>
-<div class="transcript-segment" data-time="81">
-<span class="speaker" style="color:#1a365d"><i class="fas fa-user"></i> Mayor Read:</span>
-<a href="#t=81" class="timestamp" title="Click to link to this moment">[01:21]</a>
-<span class="text">If you are able and so choose, please rise for the Pledge of Allegiance.</span>
-<button class="copy-btn" onclick="copyCitation(81, 'Mayor Read', 'If you are able and so choose, please rise for the Pledge of Allegiance.')"><i class="fas fa-quote-right"></i> Copy</button>
-</div>
-<div class="transcript-segment" data-time="85">
-<span class="speaker" style="color:#805ad5"><i class="fas fa-users"></i> Assembly:</span>
-<a href="#t=85" class="timestamp" title="Click to link to this moment">[01:25]</a>
-<span class="text">I pledge allegiance to the flag of the United States of America, and to the republic for which it stands, one nation, under God, indivisible, with liberty and justice for all.</span>
-<button class="copy-btn" onclick="copyCitation(85, 'Assembly', 'I pledge allegiance to the flag of the United States of America...')"><i class="fas fa-quote-right"></i> Copy</button>
-</div>
-
-<!-- Section: Library Week -->
-<div class="section-marker" id="section-library">3. National Library Week Proclamation</div>
-<div class="transcript-segment" data-time="102">
-<span class="speaker" style="color:#1a365d"><i class="fas fa-user"></i> Mayor Read:</span>
-<a href="#t=102" class="timestamp" title="Click to link to this moment">[01:42]</a>
-<span class="text">I will now ask Suzanne Levy, Eric Carson, and Alana Quarrel with the City of Fairfax Library to come down for the proclamation acknowledging National Library Week.</span>
-<button class="copy-btn" onclick="copyCitation(102, 'Mayor Read', 'I will now ask Suzanne Levy, Eric Carson, and Alana Quarrel with the City of Fairfax Library...')"><i class="fas fa-quote-right"></i> Copy</button>
-</div>
-<div class="transcript-segment" data-time="133">
-<span class="speaker" style="color:#1a365d"></span>
-<a href="#t=133" class="timestamp" title="Click to link to this moment">[02:13]</a>
-<span class="text">Whereas, libraries spark creativity, fuel imagination, and inspire lifelong learning, offering a space where individuals of all ages can find joy through exploration and discovery.</span>
-<button class="copy-btn" onclick="copyCitation(133, 'Mayor Read', 'Whereas, libraries spark creativity, fuel imagination, and inspire lifelong learning...')"><i class="fas fa-quote-right"></i> Copy</button>
-</div>
-<div class="transcript-segment" data-time="148">
-<span class="speaker" style="color:#1a365d"></span>
-<a href="#t=148" class="timestamp" title="Click to link to this moment">[02:28]</a>
-<span class="text">And whereas libraries serve as vibrant community hubs connecting people with knowledge, technology, and resources while fostering civic engagement, critical thinking, and cultural enrichment.</span>
-<button class="copy-btn" onclick="copyCitation(148, 'Mayor Read', 'And whereas libraries serve as vibrant community hubs...')"><i class="fas fa-quote-right"></i> Copy</button>
-</div>
-<div class="transcript-segment" data-time="159">
-<span class="speaker" style="color:#1a365d"></span>
-<a href="#t=159" class="timestamp" title="Click to link to this moment">[02:39]</a>
-<span class="text">And whereas libraries provide free and equitable access to books, digital tools, and innovative programming, ensuring that all individuals, regardless of background, have the support they need to learn, connect, and thrive.</span>
-<button class="copy-btn" onclick="copyCitation(159, 'Mayor Read', 'And whereas libraries provide free and equitable access...')"><i class="fas fa-quote-right"></i> Copy</button>
-</div>
-</section>
+    <div id="transcript">
+        <div class="segment" data-time="0.0" data-index="0">
+            <span class="timestamp"><a href="#t=0" title="Jump to 00:00:00">00:00:00</a></span>
+            <span class="text">Oh</span>
+        </div>
+        <div class="segment" data-time="30.0" data-index="1">
+            <span class="timestamp"><a href="#t=30" title="Jump to 00:00:30">00:00:30</a></span>
+            <span class="text">I</span>
+        </div>
+        <div class="segment" data-time="60.0" data-index="2">
+            <span class="timestamp"><a href="#t=60" title="Jump to 00:01:00">00:01:00</a></span>
+            <span class="text">Would like to call the regular meeting of April 14th 2026 to order. It's good to see the chamber full</span>
+        </div>
+        <div class="segment" data-time="66.76000213623047" data-index="3">
+            <span class="timestamp"><a href="#t=66" title="Jump to 00:01:06">00:01:06</a></span>
+            <span class="text">We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the Pledge of Allegiance</span>
+        </div>
+        <div class="segment" data-time="77.04000091552734" data-index="4">
+            <span class="timestamp"><a href="#t=77" title="Jump to 00:01:17">00:01:17</a></span>
+            <span class="text">I</span>
+        </div>
+        <div class="segment" data-time="79.04000091552734" data-index="5">
+            <span class="timestamp"><a href="#t=79" title="Jump to 00:01:19">00:01:19</a></span>
+            <span class="text">Play a little bit of the Pledge of Allegiance</span>
+        </div>
+        <div class="segment" data-time="81.04000091552734" data-index="6">
+            <span class="timestamp"><a href="#t=81" title="Jump to 00:01:21">00:01:21</a></span>
+            <span class="text">It's a little bit of the Pledge of Allegiance. It's a little bit of the Pledge of Allegiance</span>
+        </div>
+        <div class="segment" data-time="85.04000091552734" data-index="7">
+            <span class="timestamp"><a href="#t=85" title="Jump to 00:01:25">00:01:25</a></span>
+            <span class="text">I</span>
+        </div>
+        <div class="segment" data-time="104.30000305175781" data-index="8">
+            <span class="timestamp"><a href="#t=104" title="Jump to 00:01:44">00:01:44</a></span>
+            <span class="text">Will now ask Suzanne Levy Eric Carson and Alana quarrels with the city of Fairfax Library to come down for the proclamation acknowledging</span>
+        </div>
+        <div class="segment" data-time="112.63999938964844" data-index="9">
+            <span class="timestamp"><a href="#t=112" title="Jump to 00:01:52">00:01:52</a></span>
+            <span class="text">National Library Week</span>
+        </div>
+        <div class="segment" data-time="115.04000091552734" data-index="10">
+            <span class="timestamp"><a href="#t=115" title="Jump to 00:01:55">00:01:55</a></span>
+            <span class="text">I</span>
+        </div>
+        <div class="segment" data-time="130.1999969482422" data-index="11">
+            <span class="timestamp"><a href="#t=130" title="Jump to 00:02:10">00:02:10</a></span>
+            <span class="text">Will you be in the middle? Okay. I'll be in the middle. That sounds reasonable. All right, whereas</span>
+        </div>
+        <div class="segment" data-time="137.39999389648438" data-index="12">
+            <span class="timestamp"><a href="#t=137" title="Jump to 00:02:17">00:02:17</a></span>
+            <span class="text">Libraries spark creativity fuel imagination and inspire lifelong learning</span>
+        </div>
+        <div class="segment" data-time="142.8000030517578" data-index="13">
+            <span class="timestamp"><a href="#t=142" title="Jump to 00:02:22">00:02:22</a></span>
+            <span class="text">Offering a space where individuals of all ages can find joy through exploration and discovery</span>
+        </div>
+        <div class="segment" data-time="147.47999572753906" data-index="14">
+            <span class="timestamp"><a href="#t=147" title="Jump to 00:02:27">00:02:27</a></span>
+            <span class="text">And whereas libraries serve is vibrant community hubs connecting people with knowledge technology and resources</span>
+        </div>
+        <div class="segment" data-time="154.27999877929688" data-index="15">
+            <span class="timestamp"><a href="#t=154" title="Jump to 00:02:34">00:02:34</a></span>
+            <span class="text">While fostering civic engagement critical thinking and cultural enrichment and whereas libraries provide free and equitable</span>
+        </div>
+        <div class="segment" data-time="161.0399932861328" data-index="16">
+            <span class="timestamp"><a href="#t=161" title="Jump to 00:02:41">00:02:41</a></span>
+            <span class="text">Provide free and equitable access to books digital tools and innovative programming ensuring that all</span>
+        </div>
+        <div class="segment" data-time="167.52000427246094" data-index="17">
+            <span class="timestamp"><a href="#t=167" title="Jump to 00:02:47">00:02:47</a></span>
+            <span class="text">Individuals regardless of background have the support they need to learn connect and thrive and whereas libraries partner with schools</span>
+        </div>
+        <div class="segment" data-time="175.67999267578125" data-index="18">
+            <span class="timestamp"><a href="#t=175" title="Jump to 00:02:55">00:02:55</a></span>
+            <span class="text">businesses and organizations</span>
+        </div>
+        <div class="segment" data-time="177.36000061035156" data-index="19">
+            <span class="timestamp"><a href="#t=177" title="Jump to 00:02:57">00:02:57</a></span>
+            <span class="text">Connecting the dots to maximize resources increasing efficiency and expand access to essential services</span>
+        </div>
+        <div class="segment" data-time="184.16000366210938" data-index="20">
+            <span class="timestamp"><a href="#t=184" title="Jump to 00:03:04">00:03:04</a></span>
+            <span class="text">Strengthening the entire community and whereas libraries empower job seekers</span>
+        </div>
+        <div class="segment" data-time="189.32000732421875" data-index="21">
+            <span class="timestamp"><a href="#t=189" title="Jump to 00:03:09">00:03:09</a></span>
+            <span class="text">entrepreneurs and lifelong learners by providing access to resources training and</span>
+        </div>
+        <div class="segment" data-time="194.1199951171875" data-index="22">
+            <span class="timestamp"><a href="#t=194" title="Jump to 00:03:14">00:03:14</a></span>
+            <span class="text">Opportunities that support career growth and economic success and whereas libraries nurture young minds through story times</span>
+        </div>
+        <div class="segment" data-time="201.55999755859375" data-index="23">
+            <span class="timestamp"><a href="#t=201" title="Jump to 00:03:21">00:03:21</a></span>
+            <span class="text">steam programs and literacy initiatives fostering curiosity and a love of learning that lasts a lifetime and</span>
+        </div>
+        <div class="segment" data-time="208.75999450683594" data-index="24">
+            <span class="timestamp"><a href="#t=208" title="Jump to 00:03:28">00:03:28</a></span>
+            <span class="text">Whereas libraries protect the right to read think and explore without censorship</span>
+        </div>
+        <div class="segment" data-time="213.8000030517578" data-index="25">
+            <span class="timestamp"><a href="#t=213" title="Jump to 00:03:33">00:03:33</a></span>
+            <span class="text">standing as champions of intellectual freedom and free expert expression and</span>
+        </div>
+        <div class="segment" data-time="218.60000610351562" data-index="26">
+            <span class="timestamp"><a href="#t=218" title="Jump to 00:03:38">00:03:38</a></span>
+            <span class="text">Whereas dedicated librarians and library workers provide welcoming spaces that inspire discovery</span>
+        </div>
+        <div class="segment" data-time="225.47999572753906" data-index="27">
+            <span class="timestamp"><a href="#t=225" title="Jump to 00:03:45">00:03:45</a></span>
+            <span class="text">collaboration and creativity for all and whereas libraries</span>
+        </div>
+        <div class="segment" data-time="230.0" data-index="28">
+            <span class="timestamp"><a href="#t=230" title="Jump to 00:03:50">00:03:50</a></span>
+            <span class="text">Librarians and library workers across the country are joining together to celebrate National Library Week under the theme</span>
+        </div>
+        <div class="segment" data-time="236.67999267578125" data-index="29">
+            <span class="timestamp"><a href="#t=236" title="Jump to 00:03:56">00:03:56</a></span>
+            <span class="text">Find your joy</span>
+        </div>
+        <div class="segment" data-time="239.8000030517578" data-index="30">
+            <span class="timestamp"><a href="#t=239" title="Jump to 00:03:59">00:03:59</a></span>
+            <span class="text">Now therefore I Catherine S Reid mayor of the city of Fairfax do hereby proclaim April 19 to the 25th</span>
+        </div>
+        <div class="segment" data-time="247.16000366210938" data-index="31">
+            <span class="timestamp"><a href="#t=247" title="Jump to 00:04:07">00:04:07</a></span>
+            <span class="text">2026 is National Library Week in the city of Fairfax and encourage the community during this week to visit their library</span>
+        </div>
+        <div class="segment" data-time="254.0399932861328" data-index="32">
+            <span class="timestamp"><a href="#t=254" title="Jump to 00:04:14">00:04:14</a></span>
+            <span class="text">Explore its resources and celebrate all the ways that the library helps our community find joy</span>
+        </div>
+        <div class="segment" data-time="260.55999755859375" data-index="33">
+            <span class="timestamp"><a href="#t=260" title="Jump to 00:04:20">00:04:20</a></span>
+            <span class="text">And with that I turn it over to miss Suzanne Levy. Okay</span>
+        </div>
+        <div class="segment" data-time="265.0400085449219" data-index="34">
+            <span class="timestamp"><a href="#t=265" title="Jump to 00:04:25">00:04:25</a></span>
+            <span class="text">Thank You mayor</span>
+        </div>
+        <div class="segment" data-time="267.1199951171875" data-index="35">
+            <span class="timestamp"><a href="#t=267" title="Jump to 00:04:27">00:04:27</a></span>
+            <span class="text">I'm honored to be your representative to</span>
+        </div>
+        <div class="segment" data-time="270.7200012207031" data-index="36">
+            <span class="timestamp"><a href="#t=270" title="Jump to 00:04:30">00:04:30</a></span>
+            <span class="text">Representative to the Fairfax County Public Library Board of Trustees. I'm in my second year as chairman of the board</span>
+        </div>
+        <div class="segment" data-time="277.55999755859375" data-index="37">
+            <span class="timestamp"><a href="#t=277" title="Jump to 00:04:37">00:04:37</a></span>
+            <span class="text">Fortunately, you can only serve two years. So I'll be turning it over to somebody in July, but it's a real honor and</span>
+        </div>
+        <div class="segment" data-time="285.239990234375" data-index="38">
+            <span class="timestamp"><a href="#t=285" title="Jump to 00:04:45">00:04:45</a></span>
+            <span class="text">Some of you may know my career was at the Fairfax City Regional Library</span>
+        </div>
+        <div class="segment" data-time="289.760009765625" data-index="39">
+            <span class="timestamp"><a href="#t=289" title="Jump to 00:04:49">00:04:49</a></span>
+            <span class="text">And so this is just a continuation of what I did for many years and I wanted to interview</span>
+        </div>
+        <div class="segment" data-time="295.6000061035156" data-index="40">
+            <span class="timestamp"><a href="#t=295" title="Jump to 00:04:55">00:04:55</a></span>
+            <span class="text">Deuce our library director Eric Carzon</span>
+        </div>
+        <div class="segment" data-time="299.1600036621094" data-index="41">
+            <span class="timestamp"><a href="#t=299" title="Jump to 00:04:59">00:04:59</a></span>
+            <span class="text">Elena corals is the branch manager at City of Fairfax and Jackie</span>
+        </div>
+        <div class="segment" data-time="303.9200134277344" data-index="42">
+            <span class="timestamp"><a href="#t=303" title="Jump to 00:05:03">00:05:03</a></span>
+            <span class="text">Consolvo is the head of the circulation department</span>
+        </div>
+        <div class="segment" data-time="306.79998779296875" data-index="43">
+            <span class="timestamp"><a href="#t=306" title="Jump to 00:05:06">00:05:06</a></span>
+            <span class="text">So when you go into the library next week to celebrate National Library Week</span>
+        </div>
+        <div class="segment" data-time="312.0400085449219" data-index="44">
+            <span class="timestamp"><a href="#t=312" title="Jump to 00:05:12">00:05:12</a></span>
+            <span class="text">Please say hi to everybody and if you don't have a library card</span>
+        </div>
+        <div class="segment" data-time="316.79998779296875" data-index="45">
+            <span class="timestamp"><a href="#t=316" title="Jump to 00:05:16">00:05:16</a></span>
+            <span class="text">We have beautiful new cards that were designed by citizens in the community and</span>
+        </div>
+        <div class="segment" data-time="322.0" data-index="46">
+            <span class="timestamp"><a href="#t=322" title="Jump to 00:05:22">00:05:22</a></span>
+            <span class="text">You can replace your old card with a pretty new one or you can get a card for the first time</span>
+        </div>
+        <div class="segment" data-time="328.0400085449219" data-index="47">
+            <span class="timestamp"><a href="#t=328" title="Jump to 00:05:28">00:05:28</a></span>
+            <span class="text">We really want to have you</span>
+        </div>
+        <div class="segment" data-time="330.2799987792969" data-index="48">
+            <span class="timestamp"><a href="#t=330" title="Jump to 00:05:30">00:05:30</a></span>
+            <span class="text">Coming in our doors seeing all the wonderful things that are going on and check out our book sale</span>
+        </div>
+        <div class="segment" data-time="335.67999267578125" data-index="49">
+            <span class="timestamp"><a href="#t=335" title="Jump to 00:05:35">00:05:35</a></span>
+            <span class="text">The children's book sale is the first weekend in May and the adult book sale is in the second week of May and our wonderful</span>
+        </div>
+        <div class="segment" data-time="343.4200134277344" data-index="50">
+            <span class="timestamp"><a href="#t=343" title="Jump to 00:05:43">00:05:43</a></span>
+            <span class="text">Friends of the library raise money to support</span>
+        </div>
+        <div class="segment" data-time="347.17999267578125" data-index="51">
+            <span class="timestamp"><a href="#t=347" title="Jump to 00:05:47">00:05:47</a></span>
+            <span class="text">library</span>
+        </div>
+        <div class="segment" data-time="348.5400085449219" data-index="52">
+            <span class="timestamp"><a href="#t=348" title="Jump to 00:05:48">00:05:48</a></span>
+            <span class="text">activities and</span>
+        </div>
+        <div class="segment" data-time="349.94000244140625" data-index="53">
+            <span class="timestamp"><a href="#t=349" title="Jump to 00:05:49">00:05:49</a></span>
+            <span class="text">Help us purchase materials that are not in the budget to be purchased. So thank you for this honor</span>
+        </div>
+        <div class="segment" data-time="355.4200134277344" data-index="54">
+            <span class="timestamp"><a href="#t=355" title="Jump to 00:05:55">00:05:55</a></span>
+            <span class="text">We really appreciate the opportunity to be here</span>
+        </div>
+        <div class="segment" data-time="364.8599853515625" data-index="55">
+            <span class="timestamp"><a href="#t=364" title="Jump to 00:06:04">00:06:04</a></span>
+            <span class="text">And really if you don't have a library card really</span>
+        </div>
+        <div class="segment" data-time="373.1400146484375" data-index="56">
+            <span class="timestamp"><a href="#t=373" title="Jump to 00:06:13">00:06:13</a></span>
+            <span class="text">Mayor Reed has the name to have a library card. We expect</span>
+        </div>
+        <div class="segment" data-time="383.29998779296875" data-index="57">
+            <span class="timestamp"><a href="#t=383" title="Jump to 00:06:23">00:06:23</a></span>
+            <span class="text">Even more</span>
+        </div>
+        <div class="segment" data-time="385.29998779296875" data-index="58">
+            <span class="timestamp"><a href="#t=385" title="Jump to 00:06:25">00:06:25</a></span>
+            <span class="text">Oh</span>
+        </div>
+        <div class="segment" data-time="400.94000244140625" data-index="59">
+            <span class="timestamp"><a href="#t=400" title="Jump to 00:06:40">00:06:40</a></span>
+            <span class="text">Thank you so much and thank you for this and the staff is going to take it back to the library</span>
+        </div>
+        <div class="segment" data-time="407.4599914550781" data-index="60">
+            <span class="timestamp"><a href="#t=407" title="Jump to 00:06:47">00:06:47</a></span>
+            <span class="text">And I'll put it in a prominent place. I will see you at the library</span>
+        </div>
+        <div class="segment" data-time="415.29998779296875" data-index="61">
+            <span class="timestamp"><a href="#t=415" title="Jump to 00:06:55">00:06:55</a></span>
+            <span class="text">I</span>
+        </div>
+        <div class="segment" data-time="419.6600036621094" data-index="62">
+            <span class="timestamp"><a href="#t=419" title="Jump to 00:06:59">00:06:59</a></span>
+            <span class="text">Am now going to ask Stephanie Kupka and a Safford City</span>
+        </div>
+        <div class="segment" data-time="423.8599853515625" data-index="63">
+            <span class="timestamp"><a href="#t=423" title="Jump to 00:07:03">00:07:03</a></span>
+            <span class="text">Environmental Sustainability Committee members Faisal alam rusty Russell and everyone else who is here from the ESC</span>
+        </div>
+        <div class="segment" data-time="430.7799987792969" data-index="64">
+            <span class="timestamp"><a href="#t=430" title="Jump to 00:07:10">00:07:10</a></span>
+            <span class="text">To come come down here so we can talk about Earth Day and Arbor Day</span>
+        </div>
+        <div class="segment" data-time="439.17999267578125" data-index="65">
+            <span class="timestamp"><a href="#t=439" title="Jump to 00:07:19">00:07:19</a></span>
+            <span class="text">All right, all right, all right</span>
+        </div>
+        <div class="segment" data-time="445.9800109863281" data-index="66">
+            <span class="timestamp"><a href="#t=445" title="Jump to 00:07:25">00:07:25</a></span>
+            <span class="text">Oh, there you go monarch butterfly later, okay, not that I want to have any spoilers here, but</span>
+        </div>
+        <div class="segment" data-time="453.0199890136719" data-index="67">
+            <span class="timestamp"><a href="#t=453" title="Jump to 00:07:33">00:07:33</a></span>
+            <span class="text">whereas the city of Fairfax</span>
+        </div>
+        <div class="segment" data-time="455.3800048828125" data-index="68">
+            <span class="timestamp"><a href="#t=455" title="Jump to 00:07:35">00:07:35</a></span>
+            <span class="text">Recognizes the natural environment as the foundation of a healthy society and a robust economy</span>
+        </div>
+        <div class="segment" data-time="460.7799987792969" data-index="69">
+            <span class="timestamp"><a href="#t=460" title="Jump to 00:07:40">00:07:40</a></span>
+            <span class="text">providing essential resources that sustain life and contribute to the well-being of all and whereas the global community faces</span>
+        </div>
+        <div class="segment" data-time="468.260009765625" data-index="70">
+            <span class="timestamp"><a href="#t=468" title="Jump to 00:07:48">00:07:48</a></span>
+            <span class="text">extraordinary environmental challenges including environmental degradation</span>
+        </div>
+        <div class="segment" data-time="472.05999755859375" data-index="71">
+            <span class="timestamp"><a href="#t=472" title="Jump to 00:07:52">00:07:52</a></span>
+            <span class="text">Global health issues loss of habitat</span>
+        </div>
+        <div class="segment" data-time="474.6199951171875" data-index="72">
+            <span class="timestamp"><a href="#t=474" title="Jump to 00:07:54">00:07:54</a></span>
+            <span class="text">climate change and water and energy crises and whereas Earth Day and Arbor Day serve as</span>
+        </div>
+        <div class="segment" data-time="480.7799987792969" data-index="73">
+            <span class="timestamp"><a href="#t=480" title="Jump to 00:08:00">00:08:00</a></span>
+            <span class="text">Annual reminders that we are all caretakers of our planet and have an obligation to engage in environmental activism</span>
+        </div>
+        <div class="segment" data-time="488.05999755859375" data-index="74">
+            <span class="timestamp"><a href="#t=488" title="Jump to 00:08:08">00:08:08</a></span>
+            <span class="text">stewardship commitments and sustainability efforts to preserve the earth's beauty and resources for current and future generations and</span>
+        </div>
+        <div class="segment" data-time="495.70001220703125" data-index="75">
+            <span class="timestamp"><a href="#t=495" title="Jump to 00:08:15">00:08:15</a></span>
+            <span class="text">whereas the first Earth Day was celebrated in</span>
+        </div>
+        <div class="segment" data-time="499.05999755859375" data-index="76">
+            <span class="timestamp"><a href="#t=499" title="Jump to 00:08:19">00:08:19</a></span>
+            <span class="text">1970 calling upon millions of Americans to act for a cleaner safer and healthier environment</span>
+        </div>
+        <div class="segment" data-time="504.739990234375" data-index="77">
+            <span class="timestamp"><a href="#t=504" title="Jump to 00:08:24">00:08:24</a></span>
+            <span class="text">And whereas the city of Fairfax has been recognized nationally as a tree City USA by the Arbor Day Foundation for 40 years</span>
+        </div>
+        <div class="segment" data-time="512.0999755859375" data-index="78">
+            <span class="timestamp"><a href="#t=512" title="Jump to 00:08:32">00:08:32</a></span>
+            <span class="text">setting aside a special day each year for the planting and celebration of trees is vital to our quality of life and</span>
+        </div>
+        <div class="segment" data-time="518.4600219726562" data-index="79">
+            <span class="timestamp"><a href="#t=518" title="Jump to 00:08:38">00:08:38</a></span>
+            <span class="text">environmental health and</span>
+        </div>
+        <div class="segment" data-time="520.02001953125" data-index="80">
+            <span class="timestamp"><a href="#t=520" title="Jump to 00:08:40">00:08:40</a></span>
+            <span class="text">whereas Earth Day and Arbor Day provide opportunities for the community to come together and</span>
+        </div>
+        <div class="segment" data-time="524.97998046875" data-index="81">
+            <span class="timestamp"><a href="#t=524" title="Jump to 00:08:44">00:08:44</a></span>
+            <span class="text">Participate in activities that promote a cleaner healthier and more sustainable environment</span>
+        </div>
+        <div class="segment" data-time="530.7000122070312" data-index="82">
+            <span class="timestamp"><a href="#t=530" title="Jump to 00:08:50">00:08:50</a></span>
+            <span class="text">Now therefore I Catherine S Reid mayor of the city of Fairfax do hereby</span>
+        </div>
+        <div class="segment" data-time="535.739990234375" data-index="83">
+            <span class="timestamp"><a href="#t=535" title="Jump to 00:08:55">00:08:55</a></span>
+            <span class="text">proclaim April 22nd 2026 as Earth Day and April 24th</span>
+        </div>
+        <div class="segment" data-time="541.02001953125" data-index="84">
+            <span class="timestamp"><a href="#t=541" title="Jump to 00:09:01">00:09:01</a></span>
+            <span class="text">2026 as Arbor Day in the city of Fairfax and hereby encourage our community and</span>
+        </div>
+        <div class="segment" data-time="546.3400268554688" data-index="85">
+            <span class="timestamp"><a href="#t=546" title="Jump to 00:09:06">00:09:06</a></span>
+            <span class="text">Businesses to observe these days by taking action to protect and enhance our environment</span>
+        </div>
+        <div class="segment" data-time="551.219970703125" data-index="86">
+            <span class="timestamp"><a href="#t=551" title="Jump to 00:09:11">00:09:11</a></span>
+            <span class="text">This includes participating in activities such as planting trees</span>
+        </div>
+        <div class="segment" data-time="555.1799926757812" data-index="87">
+            <span class="timestamp"><a href="#t=555" title="Jump to 00:09:15">00:09:15</a></span>
+            <span class="text">reducing waste</span>
+        </div>
+        <div class="segment" data-time="556.3400268554688" data-index="88">
+            <span class="timestamp"><a href="#t=556" title="Jump to 00:09:16">00:09:16</a></span>
+            <span class="text">recycling picking up litter</span>
+        </div>
+        <div class="segment" data-time="558.3400268554688" data-index="89">
+            <span class="timestamp"><a href="#t=558" title="Jump to 00:09:18">00:09:18</a></span>
+            <span class="text">conserving energy and clean water and otherwise engaging in actions big and small to</span>
+        </div>
+        <div class="segment" data-time="563.9400024414062" data-index="90">
+            <span class="timestamp"><a href="#t=563" title="Jump to 00:09:23">00:09:23</a></span>
+            <span class="text">Preserve our natural resources for the benefit of all living things and with that I will turn it over to Faisal Alam</span>
+        </div>
+        <div class="segment" data-time="570.739990234375" data-index="91">
+            <span class="timestamp"><a href="#t=570" title="Jump to 00:09:30">00:09:30</a></span>
+            <span class="text">Is this you? I think so</span>
+        </div>
+        <div class="segment" data-time="574.7000122070312" data-index="92">
+            <span class="timestamp"><a href="#t=574" title="Jump to 00:09:34">00:09:34</a></span>
+            <span class="text">Good evening everyone</span>
+        </div>
+        <div class="segment" data-time="576.219970703125" data-index="93">
+            <span class="timestamp"><a href="#t=576" title="Jump to 00:09:36">00:09:36</a></span>
+            <span class="text">so I'm here to as a</span>
+        </div>
+        <div class="segment" data-time="578.3400268554688" data-index="94">
+            <span class="timestamp"><a href="#t=578" title="Jump to 00:09:38">00:09:38</a></span>
+            <span class="text">Science teacher standing here in front of you and the ESC committee member</span>
+        </div>
+        <div class="segment" data-time="582.739990234375" data-index="95">
+            <span class="timestamp"><a href="#t=582" title="Jump to 00:09:42">00:09:42</a></span>
+            <span class="text">To kind of this is a great day for all of us. We all are here</span>
+        </div>
+        <div class="segment" data-time="586.3400268554688" data-index="96">
+            <span class="timestamp"><a href="#t=586" title="Jump to 00:09:46">00:09:46</a></span>
+            <span class="text">We breathe oxygen and we all breathe it. Thanks to our trees</span>
+        </div>
+        <div class="segment" data-time="589.8599853515625" data-index="97">
+            <span class="timestamp"><a href="#t=589" title="Jump to 00:09:49">00:09:49</a></span>
+            <span class="text">So, please join us on the Arbor Day event on April 25th</span>
+        </div>
+        <div class="segment" data-time="593.3400268554688" data-index="98">
+            <span class="timestamp"><a href="#t=593" title="Jump to 00:09:53">00:09:53</a></span>
+            <span class="text">And I would also like to make a pitch for making our carbon footprint a little better than what?</span>
+        </div>
+        <div class="segment" data-time="600.0" data-index="99">
+            <span class="timestamp"><a href="#t=600" title="Jump to 00:10:00">00:10:00</a></span>
+            <span class="text">what we do. I am one of the persons who benefited from the city's Solarize Virginia program</span>
+        </div>
+        <div class="segment" data-time="606.1199998855591" data-index="100">
+            <span class="timestamp"><a href="#t=606" title="Jump to 00:10:06">00:10:06</a></span>
+            <span class="text">last year, and I have solar panels on my house and a few other friends who are also in this</span>
+        </div>
+        <div class="segment" data-time="611.5600004196167" data-index="101">
+            <span class="timestamp"><a href="#t=611" title="Jump to 00:10:11">00:10:11</a></span>
+            <span class="text">room have that. And since October, I have not paid anything to Dominion other than $7</span>
+        </div>
+        <div class="segment" data-time="617.2399997711182" data-index="102">
+            <span class="timestamp"><a href="#t=617" title="Jump to 00:10:17">00:10:17</a></span>
+            <span class="text">something, and I have exported a lot of power out there. So this year again, the Solarize</span>
+        </div>
+        <div class="segment" data-time="622.4400005340576" data-index="103">
+            <span class="timestamp"><a href="#t=622" title="Jump to 00:10:22">00:10:22</a></span>
+            <span class="text">Virginia is a great program. It's opening up again on April 16th, Stephanie?</span>
+        </div>
+        <div class="segment" data-time="626.8799991607666" data-index="104">
+            <span class="timestamp"><a href="#t=626" title="Jump to 00:10:26">00:10:26</a></span>
+            <span class="text">Yes.</span>
+        </div>
+        <div class="segment" data-time="627.8799991607666" data-index="105">
+            <span class="timestamp"><a href="#t=627" title="Jump to 00:10:27">00:10:27</a></span>
+            <span class="text">On April 15th, and it will continue. It is a very good vetted program. It's the best</span>
+        </div>
+        <div class="segment" data-time="632.9599990844727" data-index="106">
+            <span class="timestamp"><a href="#t=632" title="Jump to 00:10:32">00:10:32</a></span>
+            <span class="text">rate you're going to get. So just spread the word out and do that. And please join us on</span>
+        </div>
+        <div class="segment" data-time="638.2799987792969" data-index="107">
+            <span class="timestamp"><a href="#t=638" title="Jump to 00:10:38">00:10:38</a></span>
+            <span class="text">the Arbor Day on April 25th. The event begins at 9 a.m. We will have some students who are</span>
+        </div>
+        <div class="segment" data-time="644.4799995422363" data-index="108">
+            <span class="timestamp"><a href="#t=644" title="Jump to 00:10:44">00:10:44</a></span>
+            <span class="text">written beautiful poetries. They will be reciting. We'll have tree giveaways, tree plantations,</span>
+        </div>
+        <div class="segment" data-time="649.3600006103516" data-index="109">
+            <span class="timestamp"><a href="#t=649" title="Jump to 00:10:49">00:10:49</a></span>
+            <span class="text">and a lot of fun. So please join us.</span>
+        </div>
+        <div class="segment" data-time="651.3600006103516" data-index="110">
+            <span class="timestamp"><a href="#t=651" title="Jump to 00:10:51">00:10:51</a></span>
+            <span class="text">All right. Any other remarks?</span>
+        </div>
+        <div class="segment" data-time="654.3600006103516" data-index="111">
+            <span class="timestamp"><a href="#t=654" title="Jump to 00:10:54">00:10:54</a></span>
+            <span class="text">Okay.</span>
+        </div>
+        <div class="segment" data-time="655.8400001525879" data-index="112">
+            <span class="timestamp"><a href="#t=655" title="Jump to 00:10:55">00:10:55</a></span>
+            <span class="text">Thank you.</span>
+        </div>
+        <div class="segment" data-time="658.8400001525879" data-index="113">
+            <span class="timestamp"><a href="#t=658" title="Jump to 00:10:58">00:10:58</a></span>
+            <span class="text">And I think that's at Pat Rodeo Park?</span>
+        </div>
+        <div class="segment" data-time="660.8400001525879" data-index="114">
+            <span class="timestamp"><a href="#t=660" title="Jump to 00:11:00">00:11:00</a></span>
+            <span class="text">Yes.</span>
+        </div>
+        <div class="segment" data-time="661.8400001525879" data-index="115">
+            <span class="timestamp"><a href="#t=661" title="Jump to 00:11:01">00:11:01</a></span>
+            <span class="text">Pat Rodeo Park. I think that's a new venue for us.</span>
+        </div>
+        <div class="segment" data-time="663.8400001525879" data-index="116">
+            <span class="timestamp"><a href="#t=663" title="Jump to 00:11:03">00:11:03</a></span>
+            <span class="text">Okay. Picture.</span>
+        </div>
+        <div class="segment" data-time="665.8399963378906" data-index="117">
+            <span class="timestamp"><a href="#t=665" title="Jump to 00:11:05">00:11:05</a></span>
+            <span class="text">Squeeze in.</span>
+        </div>
+        <div class="segment" data-time="668.3199996948242" data-index="118">
+            <span class="timestamp"><a href="#t=668" title="Jump to 00:11:08">00:11:08</a></span>
+            <span class="text">All right. Excellent. Excellent. Thank you all. Thank you all for being here. All right.</span>
+        </div>
+        <div class="segment" data-time="695.8000030517578" data-index="119">
+            <span class="timestamp"><a href="#t=695" title="Jump to 00:11:35">00:11:35</a></span>
+            <span class="text">All right. So joining Stephanie and Anna, I'm looking for Janet Jaworski, Mary Driver-Downs,</span>
+        </div>
+        <div class="segment" data-time="701.8000030517578" data-index="120">
+            <span class="timestamp"><a href="#t=701" title="Jump to 00:11:41">00:11:41</a></span>
+            <span class="text">Faza Alam, and Rusty Russell. You guys, where'd you go? All right. More and more things to</span>
+        </div>
+        <div class="segment" data-time="717.2799987792969" data-index="121">
+            <span class="timestamp"><a href="#t=717" title="Jump to 00:11:57">00:11:57</a></span>
+            <span class="text">So many things. Whereas the monarch butterfly is an iconic North American species whose</span>
+        </div>
+        <div class="segment" data-time="726.2799987792969" data-index="122">
+            <span class="timestamp"><a href="#t=726" title="Jump to 00:12:06">00:12:06</a></span>
+            <span class="text">multi-generational migration and metamorphosis from caterpillar to butterfly has captured</span>
+        </div>
+        <div class="segment" data-time="731.3999938964844" data-index="123">
+            <span class="timestamp"><a href="#t=731" title="Jump to 00:12:11">00:12:11</a></span>
+            <span class="text">the imagination of millions of Americans. And whereas both the Western and Eastern monarch</span>
+        </div>
+        <div class="segment" data-time="736.3999938964844" data-index="124">
+            <span class="timestamp"><a href="#t=736" title="Jump to 00:12:16">00:12:16</a></span>
+            <span class="text">populations have seen significant declines with less than 1% of the Western monarch population</span>
+        </div>
+        <div class="segment" data-time="742.1199951171875" data-index="125">
+            <span class="timestamp"><a href="#t=742" title="Jump to 00:12:22">00:12:22</a></span>
+            <span class="text">remaining, while the Eastern population has fallen by as much as 90%. And whereas the</span>
+        </div>
+        <div class="segment" data-time="748.1600036621094" data-index="126">
+            <span class="timestamp"><a href="#t=748" title="Jump to 00:12:28">00:12:28</a></span>
+            <span class="text">city of Fairfax recognizes that human health ultimately depends on well-functioning ecosystems</span>
+        </div>
+        <div class="segment" data-time="753.9600067138672" data-index="127">
+            <span class="timestamp"><a href="#t=753" title="Jump to 00:12:33">00:12:33</a></span>
+            <span class="text">and that biodiverse regions can better support food production, healthy soil and air quality,</span>
+        </div>
+        <div class="segment" data-time="759.1199951171875" data-index="128">
+            <span class="timestamp"><a href="#t=759" title="Jump to 00:12:39">00:12:39</a></span>
+            <span class="text">and can foster healthy connections between humans and wildlife. And whereas cities, towns,</span>
+        </div>
+        <div class="segment" data-time="764.3999938964844" data-index="129">
+            <span class="timestamp"><a href="#t=764" title="Jump to 00:12:44">00:12:44</a></span>
+            <span class="text">and counties have a critical role to play in helping save the monarch butterfly by providing</span>
+        </div>
+        <div class="segment" data-time="769.4400024414062" data-index="130">
+            <span class="timestamp"><a href="#t=769" title="Jump to 00:12:49">00:12:49</a></span>
+            <span class="text">habitat at public parks and median strips, community gardens, and municipal buildings</span>
+        </div>
+        <div class="segment" data-time="774.5200042724609" data-index="131">
+            <span class="timestamp"><a href="#t=774" title="Jump to 00:12:54">00:12:54</a></span>
+            <span class="text">that serve as community hubs such as recreation centers, libraries, and schools. And whereas</span>
+        </div>
+        <div class="segment" data-time="780.1199951171875" data-index="132">
+            <span class="timestamp"><a href="#t=780" title="Jump to 00:13:00">00:13:00</a></span>
+            <span class="text">simple changes in landscaping, ordinances, or school policies can make a big difference</span>
+        </div>
+        <div class="segment" data-time="785.2400054931641" data-index="133">
+            <span class="timestamp"><a href="#t=785" title="Jump to 00:13:05">00:13:05</a></span>
+            <span class="text">for the monarch, educating citizens about how to provide essential habitat for monarchs</span>
+        </div>
+        <div class="segment" data-time="790.4400024414062" data-index="134">
+            <span class="timestamp"><a href="#t=790" title="Jump to 00:13:10">00:13:10</a></span>
+            <span class="text">and where and how to grow milkweed, which is a key piece of the puzzle in creating habitat</span>
+        </div>
+        <div class="segment" data-time="795.5599975585938" data-index="135">
+            <span class="timestamp"><a href="#t=795" title="Jump to 00:13:15">00:13:15</a></span>
+            <span class="text">and educating citizens benefits other pollinators that need healthy habitats as well. Now therefore,</span>
+        </div>
+        <div class="segment" data-time="802.8000030517578" data-index="136">
+            <span class="timestamp"><a href="#t=802" title="Jump to 00:13:22">00:13:22</a></span>
+            <span class="text">I, Catherine S. Reed, Mayor of the City of Fairfax, do hereby commit to the Mayor's Monarch</span>
+        </div>
+        <div class="segment" data-time="807.4400024414062" data-index="137">
+            <span class="timestamp"><a href="#t=807" title="Jump to 00:13:27">00:13:27</a></span>
+            <span class="text">Pledge, this is a nationwide thing, the Mayor's Monarch Pledge, and encourage all residents</span>
+        </div>
+        <div class="segment" data-time="813.5599975585938" data-index="138">
+            <span class="timestamp"><a href="#t=813" title="Jump to 00:13:33">00:13:33</a></span>
+            <span class="text">to participate in community activities that support and celebrate monarch conservation</span>
+        </div>
+        <div class="segment" data-time="819.1600036621094" data-index="139">
+            <span class="timestamp"><a href="#t=819" title="Jump to 00:13:39">00:13:39</a></span>
+            <span class="text">so that these magnificent butterflies will once again flourish across this continent.</span>
+        </div>
+        <div class="segment" data-time="825.3999938964844" data-index="140">
+            <span class="timestamp"><a href="#t=825" title="Jump to 00:13:45">00:13:45</a></span>
+            <span class="text">And with that, I will turn it over to Ms. Janet Jaworski.</span>
+        </div>
+        <div class="segment" data-time="831.3999938964844" data-index="141">
+            <span class="timestamp"><a href="#t=831" title="Jump to 00:13:51">00:13:51</a></span>
+            <span class="text">Thank you, Mayor Reed. Following up on the Mayor's comments, I have a certified monarch</span>
+        </div>
+        <div class="segment" data-time="839.0399932861328" data-index="142">
+            <span class="timestamp"><a href="#t=839" title="Jump to 00:13:59">00:13:59</a></span>
+            <span class="text">way station in our yard, which some of you may have heard of, it's through Monarch Watch</span>
+        </div>
+        <div class="segment" data-time="843.6000061035156" data-index="143">
+            <span class="timestamp"><a href="#t=843" title="Jump to 00:14:03">00:14:03</a></span>
+            <span class="text">at the University of Kansas. So besides in public parks and public spaces, individual</span>
+        </div>
+        <div class="segment" data-time="849.3200073242188" data-index="144">
+            <span class="timestamp"><a href="#t=849" title="Jump to 00:14:09">00:14:09</a></span>
+            <span class="text">homeowners really can make a difference for the monarch butterfly. Really, even one milkweed</span>
+        </div>
+        <div class="segment" data-time="855.1199951171875" data-index="145">
+            <span class="timestamp"><a href="#t=855" title="Jump to 00:14:15">00:14:15</a></span>
+            <span class="text">plant in your yard can make a huge difference because, as the Mayor said, that is the only</span>
+        </div>
+        <div class="segment" data-time="859.6400146484375" data-index="146">
+            <span class="timestamp"><a href="#t=859" title="Jump to 00:14:19">00:14:19</a></span>
+            <span class="text">food that the monarch caterpillar will eat. And so if you have a milkweed plant in your</span>
+        </div>
+        <div class="segment" data-time="865.1600036621094" data-index="147">
+            <span class="timestamp"><a href="#t=865" title="Jump to 00:14:25">00:14:25</a></span>
+            <span class="text">yard, the caterpillars can start their life cycle and of course metamorphosis into the</span>
+        </div>
+        <div class="segment" data-time="872.3999938964844" data-index="148">
+            <span class="timestamp"><a href="#t=872" title="Jump to 00:14:32">00:14:32</a></span>
+            <span class="text">butterfly. The other thing you can do as a homeowner is have nectar plants in your yard,</span>
+        </div>
+        <div class="segment" data-time="877.239990234375" data-index="149">
+            <span class="timestamp"><a href="#t=877" title="Jump to 00:14:37">00:14:37</a></span>
+            <span class="text">particularly late blooming nectar plants in the fall. The migration to Mexico in this</span>
+        </div>
+        <div class="segment" data-time="882.8399963378906" data-index="150">
+            <span class="timestamp"><a href="#t=882" title="Jump to 00:14:42">00:14:42</a></span>
+            <span class="text">area is August through October. And so if you have a nectar source in your yard that</span>
+        </div>
+        <div class="segment" data-time="887.9200134277344" data-index="151">
+            <span class="timestamp"><a href="#t=887" title="Jump to 00:14:47">00:14:47</a></span>
+            <span class="text">the butterflies can access during that southward migration, that is very helpful to them. So</span>
+        </div>
+        <div class="segment" data-time="893.9200134277344" data-index="152">
+            <span class="timestamp"><a href="#t=893" title="Jump to 00:14:53">00:14:53</a></span>
+            <span class="text">some ideas for planting in your yard would be goldenrod or aster so that they've got</span>
+        </div>
+        <div class="segment" data-time="899.7200012207031" data-index="153">
+            <span class="timestamp"><a href="#t=899" title="Jump to 00:14:59">00:14:59</a></span>
+            <span class="text">that nectar source on their way to Mexico. The good news is that in this past overwintering</span>
+        </div>
+        <div class="segment" data-time="905.0799865722656" data-index="154">
+            <span class="timestamp"><a href="#t=905" title="Jump to 00:15:05">00:15:05</a></span>
+            <span class="text">season in Mexico, there was a 64% increase in the amount of butterfly, in the amount</span>
+        </div>
+        <div class="segment" data-time="911.3599853515625" data-index="155">
+            <span class="timestamp"><a href="#t=911" title="Jump to 00:15:11">00:15:11</a></span>
+            <span class="text">of monarchs that were there. So we're showing some improvement. We're not really there yet</span>
+        </div>
+        <div class="segment" data-time="915.6400146484375" data-index="156">
+            <span class="timestamp"><a href="#t=915" title="Jump to 00:15:15">00:15:15</a></span>
+            <span class="text">to the goal, but we're moving in the right direction. So that was good news from the</span>
+        </div>
+        <div class="segment" data-time="920.3999938964844" data-index="157">
+            <span class="timestamp"><a href="#t=920" title="Jump to 00:15:20">00:15:20</a></span>
+            <span class="text">overwintering sites in Mexico. So you can, if anyone wants to visit my yard this summer,</span>
+        </div>
+        <div class="segment" data-time="926.8800048828125" data-index="158">
+            <span class="timestamp"><a href="#t=926" title="Jump to 00:15:26">00:15:26</a></span>
+            <span class="text">you can reach out to the city clerk and get my address, but you can actually have butterflies</span>
+        </div>
+        <div class="segment" data-time="932.9200134277344" data-index="159">
+            <span class="timestamp"><a href="#t=932" title="Jump to 00:15:32">00:15:32</a></span>
+            <span class="text">flying around you. You can see caterpillars in the yard and it's very exciting. Mary,</span>
+        </div>
+        <div class="segment" data-time="937.6799926757812" data-index="160">
+            <span class="timestamp"><a href="#t=937" title="Jump to 00:15:37">00:15:37</a></span>
+            <span class="text">my colleague from the women's club also has a lot of milkweed in her yard. Cindy Meyer</span>
+        </div>
+        <div class="segment" data-time="942.7999877929688" data-index="161">
+            <span class="timestamp"><a href="#t=942" title="Jump to 00:15:42">00:15:42</a></span>
+            <span class="text">has milkweed in her yard and there are probably a number of you who also have that. It's very</span>
+        </div>
+        <div class="segment" data-time="946.6799926757812" data-index="162">
+            <span class="timestamp"><a href="#t=946" title="Jump to 00:15:46">00:15:46</a></span>
+            <span class="text">exciting. It's a science project going on right in your yard. I've had field trips from</span>
+        </div>
+        <div class="segment" data-time="951.2799987792969" data-index="163">
+            <span class="timestamp"><a href="#t=951" title="Jump to 00:15:51">00:15:51</a></span>
+            <span class="text">our daycare down the street. I've done some stuff virtually for the science teacher at</span>
+        </div>
+        <div class="segment" data-time="957.2000122070312" data-index="164">
+            <span class="timestamp"><a href="#t=957" title="Jump to 00:15:57">00:15:57</a></span>
+            <span class="text">Daniel's Run. So it's very exciting. So I'm happy to guide anybody who wants to do this</span>
+        </div>
+        <div class="segment" data-time="962.0" data-index="165">
+            <span class="timestamp"><a href="#t=962" title="Jump to 00:16:02">00:16:02</a></span>
+            <span class="text">project. So turn it over to Stephanie.</span>
+        </div>
+        <div class="segment" data-time="965.3200073242188" data-index="166">
+            <span class="timestamp"><a href="#t=965" title="Jump to 00:16:05">00:16:05</a></span>
+            <span class="text">Well, thank you, Jen. You covered all of it.</span>
+        </div>
+        <div class="segment" data-time="970.3200073242188" data-index="167">
+            <span class="timestamp"><a href="#t=970" title="Jump to 00:16:10">00:16:10</a></span>
+            <span class="text">Well, so the commitment to, you know, and I've got asters in my yard and these plants</span>
+        </div>
+        <div class="segment" data-time="974.760009765625" data-index="168">
+            <span class="timestamp"><a href="#t=974" title="Jump to 00:16:14">00:16:14</a></span>
+            <span class="text">are beautiful too. So think about the fact that when you choose what you plant in your</span>
+        </div>
+        <div class="segment" data-time="977.9200134277344" data-index="169">
+            <span class="timestamp"><a href="#t=977" title="Jump to 00:16:17">00:16:17</a></span>
+            <span class="text">yard, there's all kinds of benefits, like you get to have butterflies. Okay, with that, a photo.</span>
+        </div>
+        <div class="segment" data-time="995.3200073242188" data-index="170">
+            <span class="timestamp"><a href="#t=995" title="Jump to 00:16:35">00:16:35</a></span>
+            <span class="text">All right.</span>
+        </div>
+        <div class="segment" data-time="1017.3200073242188" data-index="171">
+            <span class="timestamp"><a href="#t=1017" title="Jump to 00:16:57">00:16:57</a></span>
+            <span class="text">So I'm going to now invite the women's club of Fairfax to join me up here so that we can</span>
+        </div>
+        <div class="segment" data-time="1022.5599975585938" data-index="172">
+            <span class="timestamp"><a href="#t=1022" title="Jump to 00:17:02">00:17:02</a></span>
+            <span class="text">talk about the 70th anniversary of this very august body of women who exist here in our city.</span>
+        </div>
+        <div class="segment" data-time="1036.5599975585938" data-index="173">
+            <span class="timestamp"><a href="#t=1036" title="Jump to 00:17:16">00:17:16</a></span>
+            <span class="text">Everybody, this is wonderful. Everybody in, everybody in, everybody in.</span>
+        </div>
+        <div class="segment" data-time="1042.5599975585938" data-index="174">
+            <span class="timestamp"><a href="#t=1042" title="Jump to 00:17:22">00:17:22</a></span>
+            <span class="text">Lovely to see everyone. Lovely to see everyone. Is everybody in? Okay.</span>
+        </div>
+        <div class="segment" data-time="1048.5599975585938" data-index="175">
+            <span class="timestamp"><a href="#t=1048" title="Jump to 00:17:28">00:17:28</a></span>
+            <span class="text">Who's over there?</span>
+        </div>
+        <div class="segment" data-time="1051.5599975585938" data-index="176">
+            <span class="timestamp"><a href="#t=1051" title="Jump to 00:17:31">00:17:31</a></span>
+            <span class="text">We all here? Okay. Whereas, the women's club of Fairfax was established in 1956 by friends</span>
+        </div>
+        <div class="segment" data-time="1059.5599975585938" data-index="177">
+            <span class="timestamp"><a href="#t=1059" title="Jump to 00:17:39">00:17:39</a></span>
+            <span class="text">wanting to make a difference in the community and further their commitment by registering</span>
+        </div>
+        <div class="segment" data-time="1064.5599975585938" data-index="178">
+            <span class="timestamp"><a href="#t=1064" title="Jump to 00:17:44">00:17:44</a></span>
+            <span class="text">their club with the state and national general federation of women's clubs. And whereas,</span>
+        </div>
+        <div class="segment" data-time="1070.5599975585938" data-index="179">
+            <span class="timestamp"><a href="#t=1070" title="Jump to 00:17:50">00:17:50</a></span>
+            <span class="text">as the town of Fairfax became the city of Fairfax, the area grew from a quiet rural</span>
+        </div>
+        <div class="segment" data-time="1075.5599975585938" data-index="180">
+            <span class="timestamp"><a href="#t=1075" title="Jump to 00:17:55">00:17:55</a></span>
+            <span class="text">community into a bustling region. The women's club was an active participant in keeping</span>
+        </div>
+        <div class="segment" data-time="1080.5599975585938" data-index="181">
+            <span class="timestamp"><a href="#t=1080" title="Jump to 00:18:00">00:18:00</a></span>
+            <span class="text">the history and small town feel alive through generous contributions of time and financial</span>
+        </div>
+        <div class="segment" data-time="1085.5599975585938" data-index="182">
+            <span class="timestamp"><a href="#t=1085" title="Jump to 00:18:05">00:18:05</a></span>
+            <span class="text">support of many worthy causes. And whereas, the women's club of Fairfax continues to</span>
+        </div>
+        <div class="segment" data-time="1090.5599975585938" data-index="183">
+            <span class="timestamp"><a href="#t=1090" title="Jump to 00:18:10">00:18:10</a></span>
+            <span class="text">contribute funds and volunteer services to Fairfax cultural and civic organizations and</span>
+        </div>
+        <div class="segment" data-time="1096.5599975585938" data-index="184">
+            <span class="timestamp"><a href="#t=1096" title="Jump to 00:18:16">00:18:16</a></span>
+            <span class="text">events such as the Independence Day celebration, City of Fairfax Band Association, Fairfax</span>
+        </div>
+        <div class="segment" data-time="1102.5599975585938" data-index="185">
+            <span class="timestamp"><a href="#t=1102" title="Jump to 00:18:22">00:18:22</a></span>
+            <span class="text">Volunteer Fire Department, the Inter-Service Club Council and the Chocolate Lovers Festival</span>
+        </div>
+        <div class="segment" data-time="1107.5599975585938" data-index="186">
+            <span class="timestamp"><a href="#t=1107" title="Jump to 00:18:27">00:18:27</a></span>
+            <span class="text">and has adopted the School Street Park, providing quarterly maintenance of weeding and planting</span>
+        </div>
+        <div class="segment" data-time="1112.5599975585938" data-index="187">
+            <span class="timestamp"><a href="#t=1112" title="Jump to 00:18:32">00:18:32</a></span>
+            <span class="text">as well as donating a park bench to encourage use of the park. And whereas, the women's</span>
+        </div>
+        <div class="segment" data-time="1118.5599975585938" data-index="188">
+            <span class="timestamp"><a href="#t=1118" title="Jump to 00:18:38">00:18:38</a></span>
+            <span class="text">club of Fairfax supported the construction of the Turning Point Suffragist Memorial in</span>
+        </div>
+        <div class="segment" data-time="1122.5599975585938" data-index="189">
+            <span class="timestamp"><a href="#t=1122" title="Jump to 00:18:42">00:18:42</a></span>
+            <span class="text">Occoquan Regional Park and annually offers an achievement scholarship to a graduating</span>
+        </div>
+        <div class="segment" data-time="1128.5599975585938" data-index="190">
+            <span class="timestamp"><a href="#t=1128" title="Jump to 00:18:48">00:18:48</a></span>
+            <span class="text">local high school senior who will attend a Virginia university or college. And whereas,</span>
+        </div>
+        <div class="segment" data-time="1133.5599975585938" data-index="191">
+            <span class="timestamp"><a href="#t=1133" title="Jump to 00:18:53">00:18:53</a></span>
+            <span class="text">the women's club of Fairfax offers programs focusing on issues of importance to women,</span>
+        </div>
+        <div class="segment" data-time="1138.5599975585938" data-index="192">
+            <span class="timestamp"><a href="#t=1138" title="Jump to 00:18:58">00:18:58</a></span>
+            <span class="text">families and the community and continues today as a unified and diverse group of women dedicated</span>
+        </div>
+        <div class="segment" data-time="1144.5599975585938" data-index="193">
+            <span class="timestamp"><a href="#t=1144" title="Jump to 00:19:04">00:19:04</a></span>
+            <span class="text">to enhancing the lives of families and strengthening their community through volunteer service.</span>
+        </div>
+        <div class="segment" data-time="1150.5599975585938" data-index="194">
+            <span class="timestamp"><a href="#t=1150" title="Jump to 00:19:10">00:19:10</a></span>
+            <span class="text">Now, therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, Virginia, in concert</span>
+        </div>
+        <div class="segment" data-time="1155.5599975585938" data-index="195">
+            <span class="timestamp"><a href="#t=1155" title="Jump to 00:19:15">00:19:15</a></span>
+            <span class="text">with the City Council, do hereby commend the Women's Club of Fairfax on their 70th</span>
+        </div>
+        <div class="segment" data-time="1160.5599975585938" data-index="196">
+            <span class="timestamp"><a href="#t=1160" title="Jump to 00:19:20">00:19:20</a></span>
+            <span class="text">anniversary and encourage all citizens of the City of Fairfax to recognize, commemorate</span>
+        </div>
+        <div class="segment" data-time="1165.5599975585938" data-index="197">
+            <span class="timestamp"><a href="#t=1165" title="Jump to 00:19:25">00:19:25</a></span>
+            <span class="text">and celebrate the wonderful contributions the Women's Club of Fairfax has made to the</span>
+        </div>
+        <div class="segment" data-time="1170.5599975585938" data-index="198">
+            <span class="timestamp"><a href="#t=1170" title="Jump to 00:19:30">00:19:30</a></span>
+            <span class="text">betterment of the City of Fairfax. And with that, who is speaking?</span>
+        </div>
+        <div class="segment" data-time="1176.5599975585938" data-index="199">
+            <span class="timestamp"><a href="#t=1176" title="Jump to 00:19:36">00:19:36</a></span>
+            <span class="text">Martha, come on, the President of the Women's Club.</span>
+        </div>
+        <div class="segment" data-time="1181.5599975585938" data-index="200">
+            <span class="timestamp"><a href="#t=1181" title="Jump to 00:19:41">00:19:41</a></span>
+            <span class="text">Good evening. I just want to say that we feel very fortunate to be a part of the city</span>
+        </div>
+        <div class="segment" data-time="1188.5599975585938" data-index="201">
+            <span class="timestamp"><a href="#t=1188" title="Jump to 00:19:48">00:19:48</a></span>
+            <span class="text">and we enjoy doing as much as we can to be supportive of the city. And I think it's pretty</span>
+        </div>
+        <div class="segment" data-time="1195.5599975585938" data-index="202">
+            <span class="timestamp"><a href="#t=1195" title="Jump to 00:19:55">00:19:55</a></span>
+            <span class="text">impressive that we have sustained ourselves for 70 years.</span>
+        </div>
+        <div class="segment" data-time="1200.0" data-index="203">
+            <span class="timestamp"><a href="#t=1200" title="Jump to 00:20:00">00:20:00</a></span>
+            <span class="text">years, considering all the different ups and downs of the past 70 years.</span>
+        </div>
+        <div class="segment" data-time="1205.4000000953674" data-index="204">
+            <span class="timestamp"><a href="#t=1205" title="Jump to 00:20:05">00:20:05</a></span>
+            <span class="text">And we look forward to serving you for many more years.</span>
+        </div>
+        <div class="segment" data-time="1208.3599996566772" data-index="205">
+            <span class="timestamp"><a href="#t=1208" title="Jump to 00:20:08">00:20:08</a></span>
+            <span class="text">Thank you.</span>
+        </div>
+        <div class="segment" data-time="1209.3599996566772" data-index="206">
+            <span class="timestamp"><a href="#t=1209" title="Jump to 00:20:09">00:20:09</a></span>
+            <span class="text">Thank you.</span>
+        </div>
+        <div class="segment" data-time="1210.3599996566772" data-index="207">
+            <span class="timestamp"><a href="#t=1210" title="Jump to 00:20:10">00:20:10</a></span>
+            <span class="text">All right.</span>
+        </div>
+        <div class="segment" data-time="1211.3599996566772" data-index="208">
+            <span class="timestamp"><a href="#t=1211" title="Jump to 00:20:11">00:20:11</a></span>
+            <span class="text">Everybody scrunch on in.</span>
+        </div>
+        <div class="segment" data-time="1218.3600006103516" data-index="209">
+            <span class="timestamp"><a href="#t=1218" title="Jump to 00:20:18">00:20:18</a></span>
+            <span class="text">Yeah, big turn.</span>
+        </div>
+        <div class="segment" data-time="1222.3600006103516" data-index="210">
+            <span class="timestamp"><a href="#t=1222" title="Jump to 00:20:22">00:20:22</a></span>
+            <span class="text">Big turn.</span>
+        </div>
+        <div class="segment" data-time="1224.3600006103516" data-index="211">
+            <span class="timestamp"><a href="#t=1224" title="Jump to 00:20:24">00:20:24</a></span>
+            <span class="text">Okay.</span>
+        </div>
+        <div class="segment" data-time="1225.3600006103516" data-index="212">
+            <span class="timestamp"><a href="#t=1225" title="Jump to 00:20:25">00:20:25</a></span>
+            <span class="text">Come forward.</span>
+        </div>
+        <div class="segment" data-time="1226.3600006103516" data-index="213">
+            <span class="timestamp"><a href="#t=1226" title="Jump to 00:20:26">00:20:26</a></span>
+            <span class="text">Come on.</span>
+        </div>
+        <div class="segment" data-time="1227.3600006103516" data-index="214">
+            <span class="timestamp"><a href="#t=1227" title="Jump to 00:20:27">00:20:27</a></span>
+            <span class="text">Somebody reach out.</span>
+        </div>
+        <div class="segment" data-time="1228.3600006103516" data-index="215">
+            <span class="timestamp"><a href="#t=1228" title="Jump to 00:20:28">00:20:28</a></span>
+            <span class="text">Okay, there we go.</span>
+        </div>
+        <div class="segment" data-time="1229.3600006103516" data-index="216">
+            <span class="timestamp"><a href="#t=1229" title="Jump to 00:20:29">00:20:29</a></span>
+            <span class="text">Okay.</span>
+        </div>
+        <div class="segment" data-time="1230.3600006103516" data-index="217">
+            <span class="timestamp"><a href="#t=1230" title="Jump to 00:20:30">00:20:30</a></span>
+            <span class="text">Okay.</span>
+        </div>
+        <div class="segment" data-time="1231.3600006103516" data-index="218">
+            <span class="timestamp"><a href="#t=1231" title="Jump to 00:20:31">00:20:31</a></span>
+            <span class="text">So, I think it's not working.</span>
+        </div>
+        <div class="segment" data-time="1232.3600006103516" data-index="219">
+            <span class="timestamp"><a href="#t=1232" title="Jump to 00:20:32">00:20:32</a></span>
+            <span class="text">Okay.</span>
+        </div>
+        <div class="segment" data-time="1233.3600006103516" data-index="220">
+            <span class="timestamp"><a href="#t=1233" title="Jump to 00:20:33">00:20:33</a></span>
+            <span class="text">Okay.</span>
+        </div>
+        <div class="segment" data-time="1234.3600006103516" data-index="221">
+            <span class="timestamp"><a href="#t=1234" title="Jump to 00:20:34">00:20:34</a></span>
+            <span class="text">Okay.</span>
+        </div>
+        <div class="segment" data-time="1235.3600006103516" data-index="222">
+            <span class="timestamp"><a href="#t=1235" title="Jump to 00:20:35">00:20:35</a></span>
+            <span class="text">Okay.</span>
+        </div>
+        <div class="segment" data-time="1236.3600006103516" data-index="223">
+            <span class="timestamp"><a href="#t=1236" title="Jump to 00:20:36">00:20:36</a></span>
+            <span class="text">Okay.</span>
+        </div>
+        <div class="segment" data-time="1237.3600006103516" data-index="224">
+            <span class="timestamp"><a href="#t=1237" title="Jump to 00:20:37">00:20:37</a></span>
+            <span class="text">Okay.</span>
+        </div>
+        <div class="segment" data-time="1238.3600006103516" data-index="225">
+            <span class="timestamp"><a href="#t=1238" title="Jump to 00:20:38">00:20:38</a></span>
+            <span class="text">Okay.</span>
+        </div>
+        <div class="segment" data-time="1239.3600006103516" data-index="226">
+            <span class="timestamp"><a href="#t=1239" title="Jump to 00:20:39">00:20:39</a></span>
+            <span class="text">Okay.</span>
+        </div>
+        <div class="segment" data-time="1240.3600006103516" data-index="227">
+            <span class="timestamp"><a href="#t=1240" title="Jump to 00:20:40">00:20:40</a></span>
+            <span class="text">Okay.</span>
+        </div>
+        <div class="segment" data-time="1241.3600006103516" data-index="228">
+            <span class="timestamp"><a href="#t=1241" title="Jump to 00:20:41">00:20:41</a></span>
+            <span class="text">Okay.</span>
+        </div>
+        <div class="segment" data-time="1242.3600006103516" data-index="229">
+            <span class="timestamp"><a href="#t=1242" title="Jump to 00:20:42">00:20:42</a></span>
+            <span class="text">Okay.</span>
+        </div>
+        <div class="segment" data-time="1243.3600006103516" data-index="230">
+            <span class="timestamp"><a href="#t=1243" title="Jump to 00:20:43">00:20:43</a></span>
+            <span class="text">Okay.</span>
+        </div>
+        <div class="segment" data-time="1244.3600006103516" data-index="231">
+            <span class="timestamp"><a href="#t=1244" title="Jump to 00:20:44">00:20:44</a></span>
+            <span class="text">Okay.</span>
+        </div>
+        <div class="segment" data-time="1245.3600006103516" data-index="232">
+            <span class="timestamp"><a href="#t=1245" title="Jump to 00:20:45">00:20:45</a></span>
+            <span class="text">Thanks.</span>
+        </div>
+        <div class="segment" data-time="1246.3600006103516" data-index="233">
+            <span class="timestamp"><a href="#t=1246" title="Jump to 00:20:46">00:20:46</a></span>
+            <span class="text">Okay.</span>
+        </div>
+        <div class="segment" data-time="1247.3600006103516" data-index="234">
+            <span class="timestamp"><a href="#t=1247" title="Jump to 00:20:47">00:20:47</a></span>
+            <span class="text">Okay.</span>
+        </div>
+        <div class="segment" data-time="1248.3600006103516" data-index="235">
+            <span class="timestamp"><a href="#t=1248" title="Jump to 00:20:48">00:20:48</a></span>
+            <span class="text">Okay.</span>
+        </div>
+        <div class="segment" data-time="1249.3600006103516" data-index="236">
+            <span class="timestamp"><a href="#t=1249" title="Jump to 00:20:49">00:20:49</a></span>
+            <span class="text">Okay.</span>
+        </div>
+        <div class="segment" data-time="1250.3600006103516" data-index="237">
+            <span class="timestamp"><a href="#t=1250" title="Jump to 00:20:50">00:20:50</a></span>
+            <span class="text">All right.</span>
+        </div>
+        <div class="segment" data-time="1251.3600006103516" data-index="238">
+            <span class="timestamp"><a href="#t=1251" title="Jump to 00:20:51">00:20:51</a></span>
+            <span class="text">And Eddie and Martha.</span>
+        </div>
+        <div class="segment" data-time="1252.3600006103516" data-index="239">
+            <span class="timestamp"><a href="#t=1252" title="Jump to 00:20:52">00:20:52</a></span>
+            <span class="text">Thank you so much.</span>
+        </div>
+        <div class="segment" data-time="1253.3600006103516" data-index="240">
+            <span class="timestamp"><a href="#t=1253" title="Jump to 00:20:53">00:20:53</a></span>
+            <span class="text">And Alison, you guys look fantastic.</span>
+        </div>
+        <div class="segment" data-time="1254.3600006103516" data-index="241">
+            <span class="timestamp"><a href="#t=1254" title="Jump to 00:20:54">00:20:54</a></span>
+            <span class="text">Just so awesome to hear you Pauling.</span>
+        </div>
+        <div class="segment" data-time="1255.3600006103516" data-index="242">
+            <span class="timestamp"><a href="#t=1255" title="Jump to 00:20:55">00:20:55</a></span>
+            <span class="text">Thank you so much.</span>
+        </div>
+        <div class="segment" data-time="1256.3600006103516" data-index="243">
+            <span class="timestamp"><a href="#t=1256" title="Jump to 00:20:56">00:20:56</a></span>
+            <span class="text">All right.</span>
+        </div>
+        <div class="segment" data-time="1257.3600006103516" data-index="244">
+            <span class="timestamp"><a href="#t=1257" title="Jump to 00:20:57">00:20:57</a></span>
+            <span class="text">It's so great to hear you call it.</span>
+        </div>
+        <div class="segment" data-time="1258.3800010681152" data-index="245">
+            <span class="timestamp"><a href="#t=1258" title="Jump to 00:20:58">00:20:58</a></span>
+            <span class="text">And no, I'm not going to start over.</span>
+        </div>
+        <div class="segment" data-time="1262.7999992370605" data-index="246">
+            <span class="timestamp"><a href="#t=1262" title="Jump to 00:21:02">00:21:02</a></span>
+            <span class="text">I said I was going to say, no not going to start over.</span>
+        </div>
+        <div class="segment" data-time="1267.0800018310547" data-index="247">
+            <span class="timestamp"><a href="#t=1267" title="Jump to 00:21:07">00:21:07</a></span>
+            <span class="text">I just wanted to hear you call it.</span>
+        </div>
+        <div class="segment" data-time="1268.0800018310547" data-index="248">
+            <span class="timestamp"><a href="#t=1268" title="Jump to 00:21:08">00:21:08</a></span>
+            <span class="text">Yes, it's fine.</span>
+        </div>
+        <div class="segment" data-time="1269.0800018310547" data-index="249">
+            <span class="timestamp"><a href="#t=1269" title="Jump to 00:21:09">00:21:09</a></span>
+            <span class="text">You're welcome.</span>
+        </div>
+        <div class="segment" data-time="1270.0800018310547" data-index="250">
+            <span class="timestamp"><a href="#t=1270" title="Jump to 00:21:10">00:21:10</a></span>
+            <span class="text">I'm going to get all the New York City police dispatchers to come down here so we can celebrate</span>
+        </div>
+        <div class="segment" data-time="1274.9199981689453" data-index="251">
+            <span class="timestamp"><a href="#t=1274" title="Jump to 00:21:14">00:21:14</a></span>
+            <span class="text">you.</span>
+        </div>
+        <div class="segment" data-time="1275.9199981689453" data-index="252">
+            <span class="timestamp"><a href="#t=1275" title="Jump to 00:21:15">00:21:15</a></span>
+            <span class="text">Come on.</span>
+        </div>
+        <div class="segment" data-time="1277.8399963378906" data-index="253">
+            <span class="timestamp"><a href="#t=1277" title="Jump to 00:21:17">00:21:17</a></span>
+            <span class="text">It's cool to stand up here and just be stared at.</span>
+        </div>
+        <div class="segment" data-time="1280.4400024414062" data-index="254">
+            <span class="timestamp"><a href="#t=1280" title="Jump to 00:21:20">00:21:20</a></span>
+            <span class="text">Trust me, not awkward at all.</span>
+        </div>
+        <div class="segment" data-time="1289.0" data-index="255">
+            <span class="timestamp"><a href="#t=1289" title="Jump to 00:21:29">00:21:29</a></span>
+            <span class="text">All good.</span>
+        </div>
+        <div class="segment" data-time="1290.0" data-index="256">
+            <span class="timestamp"><a href="#t=1290" title="Jump to 00:21:30">00:21:30</a></span>
+            <span class="text">All good.</span>
+        </div>
+        <div class="segment" data-time="1291.0" data-index="257">
+            <span class="timestamp"><a href="#t=1291" title="Jump to 00:21:31">00:21:31</a></span>
+            <span class="text">You guys are important.</span>
+        </div>
+        <div class="segment" data-time="1292.0" data-index="258">
+            <span class="timestamp"><a href="#t=1292" title="Jump to 00:21:32">00:21:32</a></span>
+            <span class="text">So important.</span>
+        </div>
+        <div class="segment" data-time="1293.0" data-index="259">
+            <span class="timestamp"><a href="#t=1293" title="Jump to 00:21:33">00:21:33</a></span>
+            <span class="text">Very important.</span>
+        </div>
+        <div class="segment" data-time="1294.0" data-index="260">
+            <span class="timestamp"><a href="#t=1294" title="Jump to 00:21:34">00:21:34</a></span>
+            <span class="text">All right.</span>
+        </div>
+        <div class="segment" data-time="1295.0" data-index="261">
+            <span class="timestamp"><a href="#t=1295" title="Jump to 00:21:35">00:21:35</a></span>
+            <span class="text">Everybody in the cutest.</span>
+        </div>
+        <div class="segment" data-time="1296.0" data-index="262">
+            <span class="timestamp"><a href="#t=1296" title="Jump to 00:21:36">00:21:36</a></span>
+            <span class="text">All right.</span>
+        </div>
+        <div class="segment" data-time="1297.0" data-index="263">
+            <span class="timestamp"><a href="#t=1297" title="Jump to 00:21:37">00:21:37</a></span>
+            <span class="text">Whereas, the week of April 12th through 18th, 2026 has been designated as National Public</span>
+        </div>
+        <div class="segment" data-time="1308.0400009155273" data-index="264">
+            <span class="timestamp"><a href="#t=1308" title="Jump to 00:21:48">00:21:48</a></span>
+            <span class="text">Safety Telecommunicators Week, a time to raise awareness and recognize the critical contributions</span>
+        </div>
+        <div class="segment" data-time="1314.4800033569336" data-index="265">
+            <span class="timestamp"><a href="#t=1314" title="Jump to 00:21:54">00:21:54</a></span>
+            <span class="text">of highly trained telecommunications professionals who provide vital 911 emergency assistance</span>
+        </div>
+        <div class="segment" data-time="1320.2799987792969" data-index="266">
+            <span class="timestamp"><a href="#t=1320" title="Jump to 00:22:00">00:22:00</a></span>
+            <span class="text">to those in need.</span>
+        </div>
+        <div class="segment" data-time="1322.1999969482422" data-index="267">
+            <span class="timestamp"><a href="#t=1322" title="Jump to 00:22:02">00:22:02</a></span>
+            <span class="text">And whereas, emergencies requiring police, fire, or emergency medical services can occur</span>
+        </div>
+        <div class="segment" data-time="1326.9599990844727" data-index="268">
+            <span class="timestamp"><a href="#t=1326" title="Jump to 00:22:06">00:22:06</a></span>
+            <span class="text">at any time, and the prompt response of police officers, firefighters, and paramedics is</span>
+        </div>
+        <div class="segment" data-time="1332.1600036621094" data-index="269">
+            <span class="timestamp"><a href="#t=1332" title="Jump to 00:22:12">00:22:12</a></span>
+            <span class="text">essential to the protection of life and preservation of property.</span>
+        </div>
+        <div class="segment" data-time="1336.1799926757812" data-index="270">
+            <span class="timestamp"><a href="#t=1336" title="Jump to 00:22:16">00:22:16</a></span>
+            <span class="text">And whereas, the safety of police officers, firefighters, and paramedics depends upon</span>
+        </div>
+        <div class="segment" data-time="1340.0" data-index="271">
+            <span class="timestamp"><a href="#t=1340" title="Jump to 00:22:20">00:22:20</a></span>
+            <span class="text">the quality and accuracy of information obtained from citizens who contact the City of Fairfax</span>
+        </div>
+        <div class="segment" data-time="1345.5599975585938" data-index="272">
+            <span class="timestamp"><a href="#t=1345" title="Jump to 00:22:25">00:22:25</a></span>
+            <span class="text">Emergency Communications Center.</span>
+        </div>
+        <div class="segment" data-time="1348.0" data-index="273">
+            <span class="timestamp"><a href="#t=1348" title="Jump to 00:22:28">00:22:28</a></span>
+            <span class="text">And whereas, public safety telecommunicators are the first and most critical point of contact</span>
+        </div>
+        <div class="segment" data-time="1352.9600067138672" data-index="274">
+            <span class="timestamp"><a href="#t=1352" title="Jump to 00:22:32">00:22:32</a></span>
+            <span class="text">our residents have with emergency services, serving as the vital link between the public</span>
+        </div>
+        <div class="segment" data-time="1357.6799926757812" data-index="275">
+            <span class="timestamp"><a href="#t=1357" title="Jump to 00:22:37">00:22:37</a></span>
+            <span class="text">and emergency responders.</span>
+        </div>
+        <div class="segment" data-time="1359.759994506836" data-index="276">
+            <span class="timestamp"><a href="#t=1359" title="Jump to 00:22:39">00:22:39</a></span>
+            <span class="text">And whereas, public safety telecommunicators contribute substantially to the apprehension</span>
+        </div>
+        <div class="segment" data-time="1365.2799987792969" data-index="277">
+            <span class="timestamp"><a href="#t=1365" title="Jump to 00:22:45">00:22:45</a></span>
+            <span class="text">of criminals, the suppression of fires, and the treatment of patients, demonstrating professionalism,</span>
+        </div>
+        <div class="segment" data-time="1370.6799926757812" data-index="278">
+            <span class="timestamp"><a href="#t=1370" title="Jump to 00:22:50">00:22:50</a></span>
+            <span class="text">understanding, and dedication in every call they handle.</span>
+        </div>
+        <div class="segment" data-time="1374.759994506836" data-index="279">
+            <span class="timestamp"><a href="#t=1374" title="Jump to 00:22:54">00:22:54</a></span>
+            <span class="text">And whereas, within the Police Department, a Dispatcher of the Year is nominated by police</span>
+        </div>
+        <div class="segment" data-time="1379.3999938964844" data-index="280">
+            <span class="timestamp"><a href="#t=1379" title="Jump to 00:22:59">00:22:59</a></span>
+            <span class="text">personnel to recognize an individual for exceptional performance, exemplifying the commitment and</span>
+        </div>
+        <div class="segment" data-time="1385.3600006103516" data-index="281">
+            <span class="timestamp"><a href="#t=1385" title="Jump to 00:23:05">00:23:05</a></span>
+            <span class="text">excellence demonstrated by all emergency dispatch professionals in our city each and every day,</span>
+        </div>
+        <div class="segment" data-time="1391.6399993896484" data-index="282">
+            <span class="timestamp"><a href="#t=1391" title="Jump to 00:23:11">00:23:11</a></span>
+            <span class="text">24 hours a day, and 7 days a week.</span>
+        </div>
+        <div class="segment" data-time="1395.0" data-index="283">
+            <span class="timestamp"><a href="#t=1395" title="Jump to 00:23:15">00:23:15</a></span>
+            <span class="text">Now therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, do hereby proclaim</span>
+        </div>
+        <div class="segment" data-time="1398.8800048828125" data-index="284">
+            <span class="timestamp"><a href="#t=1398" title="Jump to 00:23:18">00:23:18</a></span>
+            <span class="text">April 12-18, 2026 as National Public Safety Telecommunicators Week in the City of Fairfax,</span>
+        </div>
+        <div class="segment" data-time="1405.9600067138672" data-index="285">
+            <span class="timestamp"><a href="#t=1405" title="Jump to 00:23:25">00:23:25</a></span>
+            <span class="text">and encourage all members of our community to join in extending our warmest measure of</span>
+        </div>
+        <div class="segment" data-time="1410.0800018310547" data-index="286">
+            <span class="timestamp"><a href="#t=1410" title="Jump to 00:23:30">00:23:30</a></span>
+            <span class="text">gratitude and support to our Public Safety Telecommunications Dispatchers, including</span>
+        </div>
+        <div class="segment" data-time="1415.479995727539" data-index="287">
+            <span class="timestamp"><a href="#t=1415" title="Jump to 00:23:35">00:23:35</a></span>
+            <span class="text">our award recipient, Aliyah Tibbs, Aliyah Tibbs, Elijah, okay, Elijah Tibbs, the 2025</span>
+        </div>
+        <div class="segment" data-time="1427.2799987792969" data-index="288">
+            <span class="timestamp"><a href="#t=1427" title="Jump to 00:23:47">00:23:47</a></span>
+            <span class="text">Dispatcher of the Year who provides critical and essential services daily to the countless</span>
+        </div>
+        <div class="segment" data-time="1431.240005493164" data-index="289">
+            <span class="timestamp"><a href="#t=1431" title="Jump to 00:23:51">00:23:51</a></span>
+            <span class="text">number of residents, business owners, and visitors within our community.</span>
+        </div>
+        <div class="segment" data-time="1436.3999938964844" data-index="290">
+            <span class="timestamp"><a href="#t=1436" title="Jump to 00:23:56">00:23:56</a></span>
+            <span class="text">So with that, Elijah, Chief.</span>
+        </div>
+        <div class="segment" data-time="1451.9199981689453" data-index="291">
+            <span class="timestamp"><a href="#t=1451" title="Jump to 00:24:11">00:24:11</a></span>
+            <span class="text">Good evening everybody.</span>
+        </div>
+        <div class="segment" data-time="1453.4400024414062" data-index="292">
+            <span class="timestamp"><a href="#t=1453" title="Jump to 00:24:13">00:24:13</a></span>
+            <span class="text">You know, it's a great opportunity to be here with you and celebrating such an important,</span>
+        </div>
+        <div class="segment" data-time="1458.0400085449219" data-index="293">
+            <span class="timestamp"><a href="#t=1458" title="Jump to 00:24:18">00:24:18</a></span>
+            <span class="text">important group of professionals in our public safety world.</span>
+        </div>
+        <div class="segment" data-time="1461.760009765625" data-index="294">
+            <span class="timestamp"><a href="#t=1461" title="Jump to 00:24:21">00:24:21</a></span>
+            <span class="text">I just want to introduce everybody really quickly.</span>
+        </div>
+        <div class="segment" data-time="1464.0" data-index="295">
+            <span class="timestamp"><a href="#t=1464" title="Jump to 00:24:24">00:24:24</a></span>
+            <span class="text">Our Dispatcher, Ms. Araceli Gonzalez, Ms. Courtney Ellis, Elijah Tibbs, who was just introduced</span>
+        </div>
+        <div class="segment" data-time="1470.1600036621094" data-index="296">
+            <span class="timestamp"><a href="#t=1470" title="Jump to 00:24:30">00:24:30</a></span>
+            <span class="text">as our Dispatcher of the Year for 2025, our Communications and Records Supervisor, Ms.</span>
+        </div>
+        <div class="segment" data-time="1475.0400085449219" data-index="297">
+            <span class="timestamp"><a href="#t=1475" title="Jump to 00:24:35">00:24:35</a></span>
+            <span class="text">Cynthia Tetherton, our Lieutenant, Ms. Stephanie Sharp, who oversees the entire operation,</span>
+        </div>
+        <div class="segment" data-time="1480.6000061035156" data-index="298">
+            <span class="timestamp"><a href="#t=1480" title="Jump to 00:24:40">00:24:40</a></span>
+            <span class="text">and then Captain Brock Rutter, who oversees the Administrative Services Division.</span>
+        </div>
+        <div class="segment" data-time="1485.6799926757812" data-index="299">
+            <span class="timestamp"><a href="#t=1485" title="Jump to 00:24:45">00:24:45</a></span>
+            <span class="text">With them, there's another six Dispatchers that help answer all the phone calls from</span>
+        </div>
+        <div class="segment" data-time="1491.5599975585938" data-index="300">
+            <span class="timestamp"><a href="#t=1491" title="Jump to 00:24:51">00:24:51</a></span>
+            <span class="text">people within our city, whether you're living here, working here, visiting, if you have</span>
+        </div>
+        <div class="segment" data-time="1495.5599975585938" data-index="301">
+            <span class="timestamp"><a href="#t=1495" title="Jump to 00:24:55">00:24:55</a></span>
+            <span class="text">any type of emergency, if you need direction somewhere, you call the police and they answer.</span>
+        </div>
+        <div class="segment" data-time="1501.3200073242188" data-index="302">
+            <span class="timestamp"><a href="#t=1501" title="Jump to 00:25:01">00:25:01</a></span>
+            <span class="text">And it's something beautiful to watch if you ever have the opportunity to be in a 911 center</span>
+        </div>
+        <div class="segment" data-time="1506.2799987792969" data-index="303">
+            <span class="timestamp"><a href="#t=1506" title="Jump to 00:25:06">00:25:06</a></span>
+            <span class="text">and to see what happens, particularly when there's a critical situation occurring in</span>
+        </div>
+        <div class="segment" data-time="1510.5599975585938" data-index="304">
+            <span class="timestamp"><a href="#t=1510" title="Jump to 00:25:10">00:25:10</a></span>
+            <span class="text">the city, and all of them come together, and whether it's, you have to understand what</span>
+        </div>
+        <div class="segment" data-time="1516.0799865722656" data-index="305">
+            <span class="timestamp"><a href="#t=1516" title="Jump to 00:25:16">00:25:16</a></span>
+            <span class="text">they do.</span>
+        </div>
+        <div class="segment" data-time="1517.0799865722656" data-index="306">
+            <span class="timestamp"><a href="#t=1517" title="Jump to 00:25:17">00:25:17</a></span>
+            <span class="text">They take the phone call, they're a detective, they're asking questions, they're figuring</span>
+        </div>
+        <div class="segment" data-time="1520.7999877929688" data-index="307">
+            <span class="timestamp"><a href="#t=1520" title="Jump to 00:25:20">00:25:20</a></span>
+            <span class="text">out what it is that's happening, where it's happening, what's that vital information that</span>
+        </div>
+        <div class="segment" data-time="1524.4800109863281" data-index="308">
+            <span class="timestamp"><a href="#t=1524" title="Jump to 00:25:24">00:25:24</a></span>
+            <span class="text">has to get routed to our responding police or fire personnel.</span>
+        </div>
+        <div class="segment" data-time="1528.8599853515625" data-index="309">
+            <span class="timestamp"><a href="#t=1528" title="Jump to 00:25:28">00:25:28</a></span>
+            <span class="text">At the same time, they're typing it all and routing it to the police officers and emergency</span>
+        </div>
+        <div class="segment" data-time="1533.1199951171875" data-index="310">
+            <span class="timestamp"><a href="#t=1533" title="Jump to 00:25:33">00:25:33</a></span>
+            <span class="text">personnel real-time.</span>
+        </div>
+        <div class="segment" data-time="1534.1199951171875" data-index="311">
+            <span class="timestamp"><a href="#t=1534" title="Jump to 00:25:34">00:25:34</a></span>
+            <span class="text">As they're typing it, figuring out what to ask, what's the next question, typing it in</span>
+        </div>
+        <div class="segment" data-time="1538.3599853515625" data-index="312">
+            <span class="timestamp"><a href="#t=1538" title="Jump to 00:25:38">00:25:38</a></span>
+            <span class="text">and routing it to the right people, and assigning the right personnel to respond to that call.</span>
+        </div>
+        <div class="segment" data-time="1543.8399963378906" data-index="313">
+            <span class="timestamp"><a href="#t=1543" title="Jump to 00:25:43">00:25:43</a></span>
+            <span class="text">It's incredible.</span>
+        </div>
+        <div class="segment" data-time="1544.8800048828125" data-index="314">
+            <span class="timestamp"><a href="#t=1544" title="Jump to 00:25:44">00:25:44</a></span>
+            <span class="text">And so I really thank all of our Dispatchers, appreciate everybody supporting them, and</span>
+        </div>
+        <div class="segment" data-time="1549.5599975585938" data-index="315">
+            <span class="timestamp"><a href="#t=1549" title="Jump to 00:25:49">00:25:49</a></span>
+            <span class="text">for our proclamation.</span>
+        </div>
+        <div class="segment" data-time="1550.5599975585938" data-index="316">
+            <span class="timestamp"><a href="#t=1550" title="Jump to 00:25:50">00:25:50</a></span>
+            <span class="text">Mayor, thank you so much.</span>
+        </div>
+        <div class="segment" data-time="1551.8399963378906" data-index="317">
+            <span class="timestamp"><a href="#t=1551" title="Jump to 00:25:51">00:25:51</a></span>
+            <span class="text">Thank you.</span>
+        </div>
+        <div class="segment" data-time="1552.8399963378906" data-index="318">
+            <span class="timestamp"><a href="#t=1552" title="Jump to 00:25:52">00:25:52</a></span>
+            <span class="text">And who is, who is this officer, officer?</span>
+        </div>
+        <div class="segment" data-time="1560.3599853515625" data-index="319">
+            <span class="timestamp"><a href="#t=1560" title="Jump to 00:26:00">00:26:00</a></span>
+            <span class="text">I forgot to introduce Sherry.</span>
+        </div>
+        <div class="segment" data-time="1563.7200012207031" data-index="320">
+            <span class="timestamp"><a href="#t=1563" title="Jump to 00:26:03">00:26:03</a></span>
+            <span class="text">Officer Sherry?</span>
+        </div>
+        <div class="segment" data-time="1564.7200012207031" data-index="321">
+            <span class="timestamp"><a href="#t=1564" title="Jump to 00:26:04">00:26:04</a></span>
+            <span class="text">Okay, Officer Sherry?</span>
+        </div>
+        <div class="segment" data-time="1565.7200012207031" data-index="322">
+            <span class="timestamp"><a href="#t=1565" title="Jump to 00:26:05">00:26:05</a></span>
+            <span class="text">Okay.</span>
+        </div>
+        <div class="segment" data-time="1566.7200012207031" data-index="323">
+            <span class="timestamp"><a href="#t=1566" title="Jump to 00:26:06">00:26:06</a></span>
+            <span class="text">Wonderful, wonderful.</span>
+        </div>
+        <div class="segment" data-time="1567.7200012207031" data-index="324">
+            <span class="timestamp"><a href="#t=1567" title="Jump to 00:26:07">00:26:07</a></span>
+            <span class="text">Sherry's our pure wellness dog, so she's here to support everybody.</span>
+        </div>
+        <div class="segment" data-time="1574.0799865722656" data-index="325">
+            <span class="timestamp"><a href="#t=1574" title="Jump to 00:26:14">00:26:14</a></span>
+            <span class="text">So we are going to now have a picture.</span>
+        </div>
+        <div class="segment" data-time="1575.0799865722656" data-index="326">
+            <span class="timestamp"><a href="#t=1575" title="Jump to 00:26:15">00:26:15</a></span>
+            <span class="text">All right.</span>
+        </div>
+        <div class="segment" data-time="1636.0799865722656" data-index="327">
+            <span class="timestamp"><a href="#t=1636" title="Jump to 00:27:16">00:27:16</a></span>
+            <span class="text">We can move on to the adoption of the agenda.</span>
+        </div>
+        <div class="segment" data-time="1643.8800048828125" data-index="328">
+            <span class="timestamp"><a href="#t=1643" title="Jump to 00:27:23">00:27:23</a></span>
+            <span class="text">Is there a motion to approve the agenda?</span>
+        </div>
+        <div class="segment" data-time="1645.6799926757812" data-index="329">
+            <span class="timestamp"><a href="#t=1645" title="Jump to 00:27:25">00:27:25</a></span>
+            <span class="text">I move to adopt the agenda as presented.</span>
+        </div>
+        <div class="segment" data-time="1648.8399963378906" data-index="330">
+            <span class="timestamp"><a href="#t=1648" title="Jump to 00:27:28">00:27:28</a></span>
+            <span class="text">Is there a second?</span>
+        </div>
+        <div class="segment" data-time="1649.8399963378906" data-index="331">
+            <span class="timestamp"><a href="#t=1649" title="Jump to 00:27:29">00:27:29</a></span>
+            <span class="text">Second.</span>
+        </div>
+        <div class="segment" data-time="1650.8399963378906" data-index="332">
+            <span class="timestamp"><a href="#t=1650" title="Jump to 00:27:30">00:27:30</a></span>
+            <span class="text">The motion has been made and seconded.</span>
+        </div>
+        <div class="segment" data-time="1653.0400085449219" data-index="333">
+            <span class="timestamp"><a href="#t=1653" title="Jump to 00:27:33">00:27:33</a></span>
+            <span class="text">A roll call vote.</span>
+        </div>
+        <div class="segment" data-time="1655.2000122070312" data-index="334">
+            <span class="timestamp"><a href="#t=1655" title="Jump to 00:27:35">00:27:35</a></span>
+            <span class="text">Councilmember Amos?</span>
+        </div>
+        <div class="segment" data-time="1656.2000122070312" data-index="335">
+            <span class="timestamp"><a href="#t=1656" title="Jump to 00:27:36">00:27:36</a></span>
+            <span class="text">Aye.</span>
+        </div>
+        <div class="segment" data-time="1657.2000122070312" data-index="336">
+            <span class="timestamp"><a href="#t=1657" title="Jump to 00:27:37">00:27:37</a></span>
+            <span class="text">Councilmember Hall?</span>
+        </div>
+        <div class="segment" data-time="1658.2000122070312" data-index="337">
+            <span class="timestamp"><a href="#t=1658" title="Jump to 00:27:38">00:27:38</a></span>
+            <span class="text">Aye.</span>
+        </div>
+        <div class="segment" data-time="1659.2000122070312" data-index="338">
+            <span class="timestamp"><a href="#t=1659" title="Jump to 00:27:39">00:27:39</a></span>
+            <span class="text">Councilmember Hardy-Chandler?</span>
+        </div>
+        <div class="segment" data-time="1660.2000122070312" data-index="339">
+            <span class="timestamp"><a href="#t=1660" title="Jump to 00:27:40">00:27:40</a></span>
+            <span class="text">Aye.</span>
+        </div>
+        <div class="segment" data-time="1661.2000122070312" data-index="340">
+            <span class="timestamp"><a href="#t=1661" title="Jump to 00:27:41">00:27:41</a></span>
+            <span class="text">Councilmember Peterson?</span>
+        </div>
+        <div class="segment" data-time="1662.2000122070312" data-index="341">
+            <span class="timestamp"><a href="#t=1662" title="Jump to 00:27:42">00:27:42</a></span>
+            <span class="text">Aye.</span>
+        </div>
+        <div class="segment" data-time="1663.2000122070312" data-index="342">
+            <span class="timestamp"><a href="#t=1663" title="Jump to 00:27:43">00:27:43</a></span>
+            <span class="text">Councilmember Bates?</span>
+        </div>
+        <div class="segment" data-time="1664.2000122070312" data-index="343">
+            <span class="timestamp"><a href="#t=1664" title="Jump to 00:27:44">00:27:44</a></span>
+            <span class="text">Aye.</span>
+        </div>
+        <div class="segment" data-time="1665.2000122070312" data-index="344">
+            <span class="timestamp"><a href="#t=1665" title="Jump to 00:27:45">00:27:45</a></span>
+            <span class="text">Motion passed unanimously.</span>
+        </div>
+        <div class="segment" data-time="1666.2000122070312" data-index="345">
+            <span class="timestamp"><a href="#t=1666" title="Jump to 00:27:46">00:27:46</a></span>
+            <span class="text">Sorry.</span>
+        </div>
+        <div class="segment" data-time="1667.2000122070312" data-index="346">
+            <span class="timestamp"><a href="#t=1667" title="Jump to 00:27:47">00:27:47</a></span>
+            <span class="text">All right.</span>
+        </div>
+        <div class="segment" data-time="1668.2000122070312" data-index="347">
+            <span class="timestamp"><a href="#t=1668" title="Jump to 00:27:48">00:27:48</a></span>
+            <span class="text">We will go on to initial general public comment.</span>
+        </div>
+        <div class="segment" data-time="1671.760009765625" data-index="348">
+            <span class="timestamp"><a href="#t=1671" title="Jump to 00:27:51">00:27:51</a></span>
+            <span class="text">I had 10 speakers sign up by 5 o'clock p.m. today, so I will call the first one up, which</span>
+        </div>
+        <div class="segment" data-time="1676.8399963378906" data-index="349">
+            <span class="timestamp"><a href="#t=1676" title="Jump to 00:27:56">00:27:56</a></span>
+            <span class="text">will be Anita Light.</span>
+        </div>
+        <div class="segment" data-time="1679.7999877929688" data-index="350">
+            <span class="timestamp"><a href="#t=1679" title="Jump to 00:27:59">00:27:59</a></span>
+            <span class="text">Good evening, Mayor Reed and members of City Council.</span>
+        </div>
+        <div class="segment" data-time="1690.0799865722656" data-index="351">
+            <span class="timestamp"><a href="#t=1690" title="Jump to 00:28:10">00:28:10</a></span>
+            <span class="text">My name is Anita Light, and I'm here tonight in three capacities.</span>
+        </div>
+        <div class="segment" data-time="1694.9200134277344" data-index="352">
+            <span class="timestamp"><a href="#t=1694" title="Jump to 00:28:14">00:28:14</a></span>
+            <span class="text">First as the chair of the Fairfax Village in the City Advisory Board, resident of Fairfax</span>
+        </div>
+        <div class="segment" data-time="1700.8399963378906" data-index="353">
+            <span class="timestamp"><a href="#t=1700" title="Jump to 00:28:20">00:28:20</a></span>
+            <span class="text">City, obviously, and as an older adult.</span>
+        </div>
+        <div class="segment" data-time="1704.7999877929688" data-index="354">
+            <span class="timestamp"><a href="#t=1704" title="Jump to 00:28:24">00:28:24</a></span>
+            <span class="text">As chair of the Fairfax Village in the City Advisory Board, we wanted to emphasize our</span>
+        </div>
+        <div class="segment" data-time="1710.2799987792969" data-index="355">
+            <span class="timestamp"><a href="#t=1710" title="Jump to 00:28:30">00:28:30</a></span>
+            <span class="text">support for the Willard Sherwood Center, as noted in our letter to you all dated April</span>
+        </div>
+        <div class="segment" data-time="1715.7999877929688" data-index="356">
+            <span class="timestamp"><a href="#t=1715" title="Jump to 00:28:35">00:28:35</a></span>
+            <span class="text">6th.</span>
+        </div>
+        <div class="segment" data-time="1716.9199829101562" data-index="357">
+            <span class="timestamp"><a href="#t=1716" title="Jump to 00:28:36">00:28:36</a></span>
+            <span class="text">In that letter, we noted that supporting the new Willard Sherwood Center would help make</span>
+        </div>
+        <div class="segment" data-time="1721.9600219726562" data-index="358">
+            <span class="timestamp"><a href="#t=1721" title="Jump to 00:28:41">00:28:41</a></span>
+            <span class="text">accessibility for older adults easier and safer.</span>
+        </div>
+        <div class="segment" data-time="1725.6799926757812" data-index="359">
+            <span class="timestamp"><a href="#t=1725" title="Jump to 00:28:45">00:28:45</a></span>
+            <span class="text">We also noted that this project was a community partnership effort with the county, as well</span>
+        </div>
+        <div class="segment" data-time="1731.52001953125" data-index="360">
+            <span class="timestamp"><a href="#t=1731" title="Jump to 00:28:51">00:28:51</a></span>
+            <span class="text">as the residents of both the city and the county.</span>
+        </div>
+        <div class="segment" data-time="1734.6400146484375" data-index="361">
+            <span class="timestamp"><a href="#t=1734" title="Jump to 00:28:54">00:28:54</a></span>
+            <span class="text">And finally, we highlighted that this project is a long-term investment for the future of</span>
+        </div>
+        <div class="segment" data-time="1738.760009765625" data-index="362">
+            <span class="timestamp"><a href="#t=1738" title="Jump to 00:28:58">00:28:58</a></span>
+            <span class="text">the city.</span>
+        </div>
+        <div class="segment" data-time="1740.1599731445312" data-index="363">
+            <span class="timestamp"><a href="#t=1740" title="Jump to 00:29:00">00:29:00</a></span>
+            <span class="text">And as an additional note on the advisory board, and for a more important reason, we</span>
+        </div>
+        <div class="segment" data-time="1746.5599975585938" data-index="364">
+            <span class="timestamp"><a href="#t=1746" title="Jump to 00:29:06">00:29:06</a></span>
+            <span class="text">really support advancing the Willard Sherwood Center to help enhance the Villages Expo that</span>
+        </div>
+        <div class="segment" data-time="1753.5599975585938" data-index="365">
+            <span class="timestamp"><a href="#t=1753" title="Jump to 00:29:13">00:29:13</a></span>
+            <span class="text">we had this past Friday, which was a huge success.</span>
+        </div>
+        <div class="segment" data-time="1757.280029296875" data-index="366">
+            <span class="timestamp"><a href="#t=1757" title="Jump to 00:29:17">00:29:17</a></span>
+            <span class="text">And if we had even better facility with better parking, it would help that event even better.</span>
+        </div>
+        <div class="segment" data-time="1764.6400146484375" data-index="367">
+            <span class="timestamp"><a href="#t=1764" title="Jump to 00:29:24">00:29:24</a></span>
+            <span class="text">And as a resident of the city, I support the Willard Sherwood Center because this facility</span>
+        </div>
+        <div class="segment" data-time="1769.280029296875" data-index="368">
+            <span class="timestamp"><a href="#t=1769" title="Jump to 00:29:29">00:29:29</a></span>
+            <span class="text">will afford a generational opportunity for programming for older adults and children</span>
+        </div>
+        <div class="segment" data-time="1775.3200073242188" data-index="369">
+            <span class="timestamp"><a href="#t=1775" title="Jump to 00:29:35">00:29:35</a></span>
+            <span class="text">and support the health care needs of our city.</span>
+        </div>
+        <div class="segment" data-time="1778.280029296875" data-index="370">
+            <span class="timestamp"><a href="#t=1778" title="Jump to 00:29:38">00:29:38</a></span>
+            <span class="text">The partnership with the county has been longstanding, and as a result, the city is able to do more</span>
+        </div>
+        <div class="segment" data-time="1784.9199829101562" data-index="371">
+            <span class="timestamp"><a href="#t=1784" title="Jump to 00:29:44">00:29:44</a></span>
+            <span class="text">for the residents than they would otherwise be able to do, for instance, on social services,</span>
+        </div>
+        <div class="segment" data-time="1790.280029296875" data-index="372">
+            <span class="timestamp"><a href="#t=1790" title="Jump to 00:29:50">00:29:50</a></span>
+            <span class="text">emergency dispatch, libraries, court services, and schools, to name a few.</span>
+        </div>
+        <div class="segment" data-time="1795.47998046875" data-index="373">
+            <span class="timestamp"><a href="#t=1795" title="Jump to 00:29:55">00:29:55</a></span>
+            <span class="text">Without these partnerships, the cost to our residents would be significantly more.</span>
+        </div>
+        <div class="segment" data-time="1800.0" data-index="374">
+            <span class="timestamp"><a href="#t=1800" title="Jump to 00:30:00">00:30:00</a></span>
+            <span class="text">if we had to provide these basic services on our own.</span>
+        </div>
+        <div class="segment" data-time="1803.6800000667572" data-index="375">
+            <span class="timestamp"><a href="#t=1803" title="Jump to 00:30:03">00:30:03</a></span>
+            <span class="text">I've been a lifelong proponent of continuous improvement in organizations</span>
+        </div>
+        <div class="segment" data-time="1808.0" data-index="376">
+            <span class="timestamp"><a href="#t=1808" title="Jump to 00:30:08">00:30:08</a></span>
+            <span class="text">and while the Willard Sherwood Center is not an organization it is a joint</span>
+        </div>
+        <div class="segment" data-time="1811.7600002288818" data-index="377">
+            <span class="timestamp"><a href="#t=1811" title="Jump to 00:30:11">00:30:11</a></span>
+            <span class="text">partnership with the county that needs to be continuously improved</span>
+        </div>
+        <div class="segment" data-time="1815.6800003051758" data-index="378">
+            <span class="timestamp"><a href="#t=1815" title="Jump to 00:30:15">00:30:15</a></span>
+            <span class="text">and nurtured to avoid even further cost. As an older adult, which I'm getting</span>
+        </div>
+        <div class="segment" data-time="1821.6800003051758" data-index="379">
+            <span class="timestamp"><a href="#t=1821" title="Jump to 00:30:21">00:30:21</a></span>
+            <span class="text">older and older by the minute, I support the Willard Sherwood Center</span>
+        </div>
+        <div class="segment" data-time="1825.840000152588" data-index="380">
+            <span class="timestamp"><a href="#t=1825" title="Jump to 00:30:25">00:30:25</a></span>
+            <span class="text">project because participating in programs at</span>
+        </div>
+        <div class="segment" data-time="1829.2800006866455" data-index="381">
+            <span class="timestamp"><a href="#t=1829" title="Jump to 00:30:29">00:30:29</a></span>
+            <span class="text">Green Acres is potentially hazardous to my physical well-being.</span>
+        </div>
+        <div class="segment" data-time="1834.6399993896484" data-index="382">
+            <span class="timestamp"><a href="#t=1834" title="Jump to 00:30:34">00:30:34</a></span>
+            <span class="text">When I attended events at the Green Acres Center</span>
+        </div>
+        <div class="segment" data-time="1837.9199981689453" data-index="383">
+            <span class="timestamp"><a href="#t=1837" title="Jump to 00:30:37">00:30:37</a></span>
+            <span class="text">I had had recent knee surgery and since parking at the</span>
+        </div>
+        <div class="segment" data-time="1842.8800010681152" data-index="384">
+            <span class="timestamp"><a href="#t=1842" title="Jump to 00:30:42">00:30:42</a></span>
+            <span class="text">Green Acres Center is at a premium, walking to the entrance</span>
+        </div>
+        <div class="segment" data-time="1846.3199996948242" data-index="385">
+            <span class="timestamp"><a href="#t=1846" title="Jump to 00:30:46">00:30:46</a></span>
+            <span class="text">was very difficult and walking down those steps to get to the front door was</span>
+        </div>
+        <div class="segment" data-time="1850.7200012207031" data-index="386">
+            <span class="timestamp"><a href="#t=1850" title="Jump to 00:30:50">00:30:50</a></span>
+            <span class="text">even more difficult and then once you get inside the</span>
+        </div>
+        <div class="segment" data-time="1853.6800003051758" data-index="387">
+            <span class="timestamp"><a href="#t=1853" title="Jump to 00:30:53">00:30:53</a></span>
+            <span class="text">building you have more steps to get to some of</span>
+        </div>
+        <div class="segment" data-time="1856.4799995422363" data-index="388">
+            <span class="timestamp"><a href="#t=1856" title="Jump to 00:30:56">00:30:56</a></span>
+            <span class="text">the rooms and that gets increasingly difficult for</span>
+        </div>
+        <div class="segment" data-time="1860.7200012207031" data-index="389">
+            <span class="timestamp"><a href="#t=1860" title="Jump to 00:31:00">00:31:00</a></span>
+            <span class="text">the older people. Having access to a new modernized Willard</span>
+        </div>
+        <div class="segment" data-time="1865.3600006103516" data-index="390">
+            <span class="timestamp"><a href="#t=1865" title="Jump to 00:31:05">00:31:05</a></span>
+            <span class="text">Sherwood Center, so while I urge you to,</span>
+        </div>
+        <div class="segment" data-time="1870.5599975585938" data-index="391">
+            <span class="timestamp"><a href="#t=1870" title="Jump to 00:31:10">00:31:10</a></span>
+            <span class="text">while there is a cost to modernization and there will be additional costs to</span>
+        </div>
+        <div class="segment" data-time="1873.9199981689453" data-index="392">
+            <span class="timestamp"><a href="#t=1873" title="Jump to 00:31:13">00:31:13</a></span>
+            <span class="text">the center, I urge you to support its development that will help the more</span>
+        </div>
+        <div class="segment" data-time="1877.9199981689453" data-index="393">
+            <span class="timestamp"><a href="#t=1877" title="Jump to 00:31:17">00:31:17</a></span>
+            <span class="text">than 9,000 older adults in Fairfax City and</span>
+        </div>
+        <div class="segment" data-time="1883.3600006103516" data-index="394">
+            <span class="timestamp"><a href="#t=1883" title="Jump to 00:31:23">00:31:23</a></span>
+            <span class="text">we appreciate and thank you for your consideration. Thank you.</span>
+        </div>
+        <div class="segment" data-time="1888.1600036621094" data-index="395">
+            <span class="timestamp"><a href="#t=1888" title="Jump to 00:31:28">00:31:28</a></span>
+            <span class="text">Our next speaker is Kevin Anderson.</span>
+        </div>
+        <div class="segment" data-time="1902.0800018310547" data-index="396">
+            <span class="timestamp"><a href="#t=1902" title="Jump to 00:31:42">00:31:42</a></span>
+            <span class="text">I want to thank you for this opportunity. I am a</span>
+        </div>
+        <div class="segment" data-time="1905.6800003051758" data-index="397">
+            <span class="timestamp"><a href="#t=1905" title="Jump to 00:31:45">00:31:45</a></span>
+            <span class="text">county resident and a member of the Young at Heart Senior Center</span>
+        </div>
+        <div class="segment" data-time="1909.7600021362305" data-index="398">
+            <span class="timestamp"><a href="#t=1909" title="Jump to 00:31:49">00:31:49</a></span>
+            <span class="text">Council and I'm here to speak in favor of the</span>
+        </div>
+        <div class="segment" data-time="1915.8399963378906" data-index="399">
+            <span class="timestamp"><a href="#t=1915" title="Jump to 00:31:55">00:31:55</a></span>
+            <span class="text">Willard Sherwood project.</span>
+        </div>
+        <div class="segment" data-time="1920.3199996948242" data-index="400">
+            <span class="timestamp"><a href="#t=1920" title="Jump to 00:32:00">00:32:00</a></span>
+            <span class="text">Green Acres is a apt name when you consider the ball fields and the</span>
+        </div>
+        <div class="segment" data-time="1924.9599990844727" data-index="401">
+            <span class="timestamp"><a href="#t=1924" title="Jump to 00:32:04">00:32:04</a></span>
+            <span class="text">surrounding grounds but the building, the HVAC system and the utilities can</span>
+        </div>
+        <div class="segment" data-time="1930.9600067138672" data-index="402">
+            <span class="timestamp"><a href="#t=1930" title="Jump to 00:32:10">00:32:10</a></span>
+            <span class="text">hardly be considered green.</span>
+        </div>
+        <div class="segment" data-time="1935.6000061035156" data-index="403">
+            <span class="timestamp"><a href="#t=1935" title="Jump to 00:32:15">00:32:15</a></span>
+            <span class="text">Since I don't have access to the specifics of Green Acres, I utilized</span>
+        </div>
+        <div class="segment" data-time="1939.759994506836" data-index="404">
+            <span class="timestamp"><a href="#t=1939" title="Jump to 00:32:19">00:32:19</a></span>
+            <span class="text">AI to assist me with my research and I could have used the AI to write</span>
+        </div>
+        <div class="segment" data-time="1945.8399963378906" data-index="405">
+            <span class="timestamp"><a href="#t=1945" title="Jump to 00:32:25">00:32:25</a></span>
+            <span class="text">my comments for me but I was thinking that might be a little bit</span>
+        </div>
+        <div class="segment" data-time="1949.0399932861328" data-index="406">
+            <span class="timestamp"><a href="#t=1949" title="Jump to 00:32:29">00:32:29</a></span>
+            <span class="text">of cheating. Plus I didn't want to sprout a six-finger on my hand either.</span>
+        </div>
+        <div class="segment" data-time="1955.8399963378906" data-index="407">
+            <span class="timestamp"><a href="#t=1955" title="Jump to 00:32:35">00:32:35</a></span>
+            <span class="text">So my research found that a 41,000 square foot</span>
+        </div>
+        <div class="segment" data-time="1960.240005493164" data-index="408">
+            <span class="timestamp"><a href="#t=1960" title="Jump to 00:32:40">00:32:40</a></span>
+            <span class="text">school built in 1961 currently has an average cost for utilities ranging from</span>
+        </div>
+        <div class="segment" data-time="1965.3600006103516" data-index="409">
+            <span class="timestamp"><a href="#t=1965" title="Jump to 00:32:45">00:32:45</a></span>
+            <span class="text">$30,000 to $54,000.</span>
+        </div>
+        <div class="segment" data-time="1969.6799926757812" data-index="410">
+            <span class="timestamp"><a href="#t=1969" title="Jump to 00:32:49">00:32:49</a></span>
+            <span class="text">Considering the GSA, I'm sorry, has the original 163 steel frame</span>
+        </div>
+        <div class="segment" data-time="1977.759994506836" data-index="411">
+            <span class="timestamp"><a href="#t=1977" title="Jump to 00:32:57">00:32:57</a></span>
+            <span class="text">windows and six exterior doors with windows, all single pane,</span>
+        </div>
+        <div class="segment" data-time="1984.240005493164" data-index="412">
+            <span class="timestamp"><a href="#t=1984" title="Jump to 00:33:04">00:33:04</a></span>
+            <span class="text">I'm pretty comfortable with the idea that</span>
+        </div>
+        <div class="segment" data-time="1989.520004272461" data-index="413">
+            <span class="timestamp"><a href="#t=1989" title="Jump to 00:33:09">00:33:09</a></span>
+            <span class="text">that the expense is on the higher end of that range.</span>
+        </div>
+        <div class="segment" data-time="1995.2799987792969" data-index="414">
+            <span class="timestamp"><a href="#t=1995" title="Jump to 00:33:15">00:33:15</a></span>
+            <span class="text">Compared to the energy efficient and sustainable features planned for the</span>
+        </div>
+        <div class="segment" data-time="1998.5599975585938" data-index="415">
+            <span class="timestamp"><a href="#t=1998" title="Jump to 00:33:18">00:33:18</a></span>
+            <span class="text">project, the anticipated savings would be in the</span>
+        </div>
+        <div class="segment" data-time="2001.4400024414062" data-index="416">
+            <span class="timestamp"><a href="#t=2001" title="Jump to 00:33:21">00:33:21</a></span>
+            <span class="text">30 to 50 percent annually and it could be even as high as 70 percent.</span>
+        </div>
+        <div class="segment" data-time="2009.1199951171875" data-index="417">
+            <span class="timestamp"><a href="#t=2009" title="Jump to 00:33:29">00:33:29</a></span>
+            <span class="text">This of course will have to be observed with the actual charge</span>
+        </div>
+        <div class="segment" data-time="2013.9199981689453" data-index="418">
+            <span class="timestamp"><a href="#t=2013" title="Jump to 00:33:33">00:33:33</a></span>
+            <span class="text">and that we incur to see what percentages</span>
+        </div>
+        <div class="segment" data-time="2017.759994506836" data-index="419">
+            <span class="timestamp"><a href="#t=2017" title="Jump to 00:33:37">00:33:37</a></span>
+            <span class="text">actually saved but I'm willing to bet that it'll be on the higher end.</span>
+        </div>
+        <div class="segment" data-time="2023.3600006103516" data-index="420">
+            <span class="timestamp"><a href="#t=2023" title="Jump to 00:33:43">00:33:43</a></span>
+            <span class="text">Beyond the potential cost savings though, there are the numerous</span>
+        </div>
+        <div class="segment" data-time="2027.2799987792969" data-index="421">
+            <span class="timestamp"><a href="#t=2027" title="Jump to 00:33:47">00:33:47</a></span>
+            <span class="text">environmental benefits to the project design</span>
+        </div>
+        <div class="segment" data-time="2030.0" data-index="422">
+            <span class="timestamp"><a href="#t=2030" title="Jump to 00:33:50">00:33:50</a></span>
+            <span class="text">and it'll have a positive impact on the planet that we hand off to our children</span>
+        </div>
+        <div class="segment" data-time="2034.1600036621094" data-index="423">
+            <span class="timestamp"><a href="#t=2034" title="Jump to 00:33:54">00:33:54</a></span>
+            <span class="text">or if you're like me to your grandchildren.</span>
+        </div>
+        <div class="segment" data-time="2037.520004272461" data-index="424">
+            <span class="timestamp"><a href="#t=2037" title="Jump to 00:33:57">00:33:57</a></span>
+            <span class="text">Some of these elements are the fact that the project is LED</span>
+        </div>
+        <div class="segment" data-time="2041.4400024414062" data-index="425">
+            <span class="timestamp"><a href="#t=2041" title="Jump to 00:34:01">00:34:01</a></span>
+            <span class="text">gold certified and it has features like rooftop solar panels,</span>
+        </div>
+        <div class="segment" data-time="2046.240005493164" data-index="426">
+            <span class="timestamp"><a href="#t=2046" title="Jump to 00:34:06">00:34:06</a></span>
+            <span class="text">indoor water reductions features, LED lighting,</span>
+        </div>
+        <div class="segment" data-time="2050.3200073242188" data-index="427">
+            <span class="timestamp"><a href="#t=2050" title="Jump to 00:34:10">00:34:10</a></span>
+            <span class="text">light pollution remediation and high performance building elements</span>
+        </div>
+        <div class="segment" data-time="2056.5599975585938" data-index="428">
+            <span class="timestamp"><a href="#t=2056" title="Jump to 00:34:16">00:34:16</a></span>
+            <span class="text">to retain heating and cooling and many others.</span>
+        </div>
+        <div class="segment" data-time="2061.2000122070312" data-index="429">
+            <span class="timestamp"><a href="#t=2061" title="Jump to 00:34:21">00:34:21</a></span>
+            <span class="text">Another subject I'd like to talk about is routines. We all have them.</span>
+        </div>
+        <div class="segment" data-time="2064.8800048828125" data-index="430">
+            <span class="timestamp"><a href="#t=2064" title="Jump to 00:34:24">00:34:24</a></span>
+            <span class="text">They usually evolve over life events but if this project fails to move</span>
+        </div>
+        <div class="segment" data-time="2071.279998779297" data-index="431">
+            <span class="timestamp"><a href="#t=2071" title="Jump to 00:34:31">00:34:31</a></span>
+            <span class="text">forward and Greenacres has to close down for</span>
+        </div>
+        <div class="segment" data-time="2075.6000061035156" data-index="432">
+            <span class="timestamp"><a href="#t=2075" title="Jump to 00:34:35">00:34:35</a></span>
+            <span class="text">major renovations or rebuild, it's going to be an abrupt change to</span>
+        </div>
+        <div class="segment" data-time="2079.760009765625" data-index="433">
+            <span class="timestamp"><a href="#t=2079" title="Jump to 00:34:39">00:34:39</a></span>
+            <span class="text">many of our members routines and basically what I'm saying is that</span>
+        </div>
+        <div class="segment" data-time="2086.1600036621094" data-index="434">
+            <span class="timestamp"><a href="#t=2086" title="Jump to 00:34:46">00:34:46</a></span>
+            <span class="text">if we build a new center and we do a gradual transition to</span>
+        </div>
+        <div class="segment" data-time="2090.480010986328" data-index="435">
+            <span class="timestamp"><a href="#t=2090" title="Jump to 00:34:50">00:34:50</a></span>
+            <span class="text">the new one, it'll be more of an evolutionary change to the routine.</span>
+        </div>
+        <div class="segment" data-time="2095.1199951171875" data-index="436">
+            <span class="timestamp"><a href="#t=2095" title="Jump to 00:34:55">00:34:55</a></span>
+            <span class="text">So I beseech you to approve this project and I thank you for your time.</span>
+        </div>
+        <div class="segment" data-time="2099.8399963378906" data-index="437">
+            <span class="timestamp"><a href="#t=2099" title="Jump to 00:34:59">00:34:59</a></span>
+            <span class="text">Thank you. Our next speaker is Douglas Stewart.</span>
+        </div>
+        <div class="segment" data-time="2114.6400146484375" data-index="438">
+            <span class="timestamp"><a href="#t=2114" title="Jump to 00:35:14">00:35:14</a></span>
+            <span class="text">Good evening. Douglas Stewart, 10822 Maple Street.</span>
+        </div>
+        <div class="segment" data-time="2119.040008544922" data-index="439">
+            <span class="timestamp"><a href="#t=2119" title="Jump to 00:35:19">00:35:19</a></span>
+            <span class="text">I'm here to also voice my support for moving forward with the</span>
+        </div>
+        <div class="segment" data-time="2123.519989013672" data-index="440">
+            <span class="timestamp"><a href="#t=2123" title="Jump to 00:35:23">00:35:23</a></span>
+            <span class="text">Willard Sherwood Center. I appreciate the discussions you've had about this</span>
+        </div>
+        <div class="segment" data-time="2128.0" data-index="441">
+            <span class="timestamp"><a href="#t=2128" title="Jump to 00:35:28">00:35:28</a></span>
+            <span class="text">project. My wife and I have lived here for 22</span>
+        </div>
+        <div class="segment" data-time="2130.8800048828125" data-index="442">
+            <span class="timestamp"><a href="#t=2130" title="Jump to 00:35:30">00:35:30</a></span>
+            <span class="text">years and I realize this project has both</span>
+        </div>
+        <div class="segment" data-time="2133.760009765625" data-index="443">
+            <span class="timestamp"><a href="#t=2133" title="Jump to 00:35:33">00:35:33</a></span>
+            <span class="text">operating and capital costs that we have to reckon with</span>
+        </div>
+        <div class="segment" data-time="2137.2000122070312" data-index="444">
+            <span class="timestamp"><a href="#t=2137" title="Jump to 00:35:37">00:35:37</a></span>
+            <span class="text">and that we'll see in our tax bills. The costs are significant</span>
+        </div>
+        <div class="segment" data-time="2141.4400024414062" data-index="445">
+            <span class="timestamp"><a href="#t=2141" title="Jump to 00:35:41">00:35:41</a></span>
+            <span class="text">but I believe the benefits will far outweigh them</span>
+        </div>
+        <div class="segment" data-time="2145.1199951171875" data-index="446">
+            <span class="timestamp"><a href="#t=2145" title="Jump to 00:35:45">00:35:45</a></span>
+            <span class="text">and really we're talking about a multi-generational community center,</span>
+        </div>
+        <div class="segment" data-time="2149.1199951171875" data-index="447">
+            <span class="timestamp"><a href="#t=2149" title="Jump to 00:35:49">00:35:49</a></span>
+            <span class="text">something for all ages, with first-class preventive health</span>
+        </div>
+        <div class="segment" data-time="2152.720001220703" data-index="448">
+            <span class="timestamp"><a href="#t=2152" title="Jump to 00:35:52">00:35:52</a></span>
+            <span class="text">services. We're talking about a new third place</span>
+        </div>
+        <div class="segment" data-time="2156.1600036621094" data-index="449">
+            <span class="timestamp"><a href="#t=2156" title="Jump to 00:35:56">00:35:56</a></span>
+            <span class="text">for our youth and people of all ages. We're talking about outstanding</span>
+        </div>
+        <div class="segment" data-time="2160.959991455078" data-index="450">
+            <span class="timestamp"><a href="#t=2160" title="Jump to 00:36:00">00:36:00</a></span>
+            <span class="text">facilities that the whole community can congregate in</span>
+        </div>
+        <div class="segment" data-time="2164.0799865722656" data-index="451">
+            <span class="timestamp"><a href="#t=2164" title="Jump to 00:36:04">00:36:04</a></span>
+            <span class="text">and enjoy. People from 8 to 80 to 90 or even 6 to 90 or what I mean.</span>
+        </div>
+        <div class="segment" data-time="2170.7999877929688" data-index="452">
+            <span class="timestamp"><a href="#t=2170" title="Jump to 00:36:10">00:36:10</a></span>
+            <span class="text">There's something in this for everyone and also just the</span>
+        </div>
+        <div class="segment" data-time="2173.760009765625" data-index="453">
+            <span class="timestamp"><a href="#t=2173" title="Jump to 00:36:13">00:36:13</a></span>
+            <span class="text">preventive health, including serving our residents in</span>
+        </div>
+        <div class="segment" data-time="2177.4400024414062" data-index="454">
+            <span class="timestamp"><a href="#t=2177" title="Jump to 00:36:17">00:36:17</a></span>
+            <span class="text">Fairfax City, will be outstanding including</span>
+        </div>
+        <div class="segment" data-time="2180.959991455078" data-index="455">
+            <span class="timestamp"><a href="#t=2180" title="Jump to 00:36:20">00:36:20</a></span>
+            <span class="text">dentistry. It's going to improve quality of life</span>
+        </div>
+        <div class="segment" data-time="2183.760009765625" data-index="456">
+            <span class="timestamp"><a href="#t=2183" title="Jump to 00:36:23">00:36:23</a></span>
+            <span class="text">for so many people in so many different ways.</span>
+        </div>
+        <div class="segment" data-time="2187.3599853515625" data-index="457">
+            <span class="timestamp"><a href="#t=2187" title="Jump to 00:36:27">00:36:27</a></span>
+            <span class="text">The costs are significant. We know we're going to see higher tax bills.</span>
+        </div>
+        <div class="segment" data-time="2191.8399963378906" data-index="458">
+            <span class="timestamp"><a href="#t=2191" title="Jump to 00:36:31">00:36:31</a></span>
+            <span class="text">We know that and sometimes when you're looking at the future, what are we going</span>
+        </div>
+        <div class="segment" data-time="2195.2000122070312" data-index="459">
+            <span class="timestamp"><a href="#t=2195" title="Jump to 00:36:35">00:36:35</a></span>
+            <span class="text">to have in the future here? It's uncertain. It's an investment</span>
+        </div>
+        <div class="segment" data-time="2200.0" data-index="460">
+            <span class="timestamp"><a href="#t=2200" title="Jump to 00:36:40">00:36:40</a></span>
+            <span class="text">but it's going to be here for generations and I'm confident</span>
+        </div>
+        <div class="segment" data-time="2204.3999938964844" data-index="461">
+            <span class="timestamp"><a href="#t=2204" title="Jump to 00:36:44">00:36:44</a></span>
+            <span class="text">that in 30 years our kids today or the grandkids</span>
+        </div>
+        <div class="segment" data-time="2211.040008544922" data-index="462">
+            <span class="timestamp"><a href="#t=2211" title="Jump to 00:36:51">00:36:51</a></span>
+            <span class="text">of our kids, the kids of our kids are going to be talking about this and have</span>
+        </div>
+        <div class="segment" data-time="2215.6799926757812" data-index="463">
+            <span class="timestamp"><a href="#t=2215" title="Jump to 00:36:55">00:36:55</a></span>
+            <span class="text">memories. I did this. Do you remember when we did this at the</span>
+        </div>
+        <div class="segment" data-time="2219.040008544922" data-index="464">
+            <span class="timestamp"><a href="#t=2219" title="Jump to 00:36:59">00:36:59</a></span>
+            <span class="text">community center? It's going to be part of our community and it couldn't be in a</span>
+        </div>
+        <div class="segment" data-time="2221.9200134277344" data-index="465">
+            <span class="timestamp"><a href="#t=2221" title="Jump to 00:37:01">00:37:01</a></span>
+            <span class="text">better place right near our signature park</span>
+        </div>
+        <div class="segment" data-time="2224.3200073242188" data-index="466">
+            <span class="timestamp"><a href="#t=2224" title="Jump to 00:37:04">00:37:04</a></span>
+            <span class="text">and our downtown. So I think it's a fantastic investment.</span>
+        </div>
+        <div class="segment" data-time="2228.480010986328" data-index="467">
+            <span class="timestamp"><a href="#t=2228" title="Jump to 00:37:08">00:37:08</a></span>
+            <span class="text">The previous speaker mentioned the LEED Gold and I just would</span>
+        </div>
+        <div class="segment" data-time="2232.480010986328" data-index="468">
+            <span class="timestamp"><a href="#t=2232" title="Jump to 00:37:12">00:37:12</a></span>
+            <span class="text">just emphasize that I hope you stick to that LEED Gold</span>
+        </div>
+        <div class="segment" data-time="2235.760009765625" data-index="469">
+            <span class="timestamp"><a href="#t=2235" title="Jump to 00:37:15">00:37:15</a></span>
+            <span class="text">standard. That's a really high standard for energy and water efficiency</span>
+        </div>
+        <div class="segment" data-time="2240.239990234375" data-index="470">
+            <span class="timestamp"><a href="#t=2240" title="Jump to 00:37:20">00:37:20</a></span>
+            <span class="text">and if we hold to that as the previous speaker mentioned, we're going to</span>
+        </div>
+        <div class="segment" data-time="2243.760009765625" data-index="471">
+            <span class="timestamp"><a href="#t=2243" title="Jump to 00:37:23">00:37:23</a></span>
+            <span class="text">significantly save in energy costs and other costs from</span>
+        </div>
+        <div class="segment" data-time="2248.480010986328" data-index="472">
+            <span class="timestamp"><a href="#t=2248" title="Jump to 00:37:28">00:37:28</a></span>
+            <span class="text">like stormwater management. So I think this is going to change</span>
+        </div>
+        <div class="segment" data-time="2252.5599975585938" data-index="473">
+            <span class="timestamp"><a href="#t=2252" title="Jump to 00:37:32">00:37:32</a></span>
+            <span class="text">people's experiences of the city for generations and I</span>
+        </div>
+        <div class="segment" data-time="2255.9200134277344" data-index="474">
+            <span class="timestamp"><a href="#t=2255" title="Jump to 00:37:35">00:37:35</a></span>
+            <span class="text">strongly support it. Thank you.</span>
+        </div>
+        <div class="segment" data-time="2260.0799865722656" data-index="475">
+            <span class="timestamp"><a href="#t=2260" title="Jump to 00:37:40">00:37:40</a></span>
+            <span class="text">Our next speaker is Janet Jaworski.</span>
+        </div>
+        <div class="segment" data-time="2267.519989013672" data-index="476">
+            <span class="timestamp"><a href="#t=2267" title="Jump to 00:37:47">00:37:47</a></span>
+            <span class="text">Good evening Mayor Reed and members of the City Council.</span>
+        </div>
+        <div class="segment" data-time="2271.760009765625" data-index="477">
+            <span class="timestamp"><a href="#t=2271" title="Jump to 00:37:51">00:37:51</a></span>
+            <span class="text">I also am here to, Janet Jaworski 3621 Heritage Lane for the record.</span>
+        </div>
+        <div class="segment" data-time="2278.3200073242188" data-index="478">
+            <span class="timestamp"><a href="#t=2278" title="Jump to 00:37:58">00:37:58</a></span>
+            <span class="text">I also am here to lend my support to the Willard Sherwood project.</span>
+        </div>
+        <div class="segment" data-time="2282.720001220703" data-index="479">
+            <span class="timestamp"><a href="#t=2282" title="Jump to 00:38:02">00:38:02</a></span>
+            <span class="text">I do wear a number of hats in the city as you know so these are my comments</span>
+        </div>
+        <div class="segment" data-time="2286.959991455078" data-index="480">
+            <span class="timestamp"><a href="#t=2286" title="Jump to 00:38:06">00:38:06</a></span>
+            <span class="text">as a resident and not representing any organization or department for which I</span>
+        </div>
+        <div class="segment" data-time="2292.239990234375" data-index="481">
+            <span class="timestamp"><a href="#t=2292" title="Jump to 00:38:12">00:38:12</a></span>
+            <span class="text">volunteer. Pete and I have lived here for 26 years</span>
+        </div>
+        <div class="segment" data-time="2296.0799865722656" data-index="482">
+            <span class="timestamp"><a href="#t=2296" title="Jump to 00:38:16">00:38:16</a></span>
+            <span class="text">and honestly I think the need for a community center has</span>
+        </div>
+        <div class="segment" data-time="2300.1600036621094" data-index="483">
+            <span class="timestamp"><a href="#t=2300" title="Jump to 00:38:20">00:38:20</a></span>
+            <span class="text">been part of the dialogue for the entire time that we've lived</span>
+        </div>
+        <div class="segment" data-time="2303.2000122070312" data-index="484">
+            <span class="timestamp"><a href="#t=2303" title="Jump to 00:38:23">00:38:23</a></span>
+            <span class="text">here. In fact, during my six-year tenure on the</span>
+        </div>
+        <div class="segment" data-time="2306.959991455078" data-index="485">
+            <span class="timestamp"><a href="#t=2306" title="Jump to 00:38:26">00:38:26</a></span>
+            <span class="text">Planning Commission from 2014 to 2020, including a three-year stint on PRAB,</span>
+        </div>
+        <div class="segment" data-time="2314.0" data-index="486">
+            <span class="timestamp"><a href="#t=2314" title="Jump to 00:38:34">00:38:34</a></span>
+            <span class="text">this was a huge topic of conversation and this is going back</span>
+        </div>
+        <div class="segment" data-time="2317.3599853515625" data-index="487">
+            <span class="timestamp"><a href="#t=2317" title="Jump to 00:38:37">00:38:37</a></span>
+            <span class="text">you know more than 10 years from now. The need for a full service community center.</span>
+        </div>
+        <div class="segment" data-time="2322.1599731445312" data-index="488">
+            <span class="timestamp"><a href="#t=2322" title="Jump to 00:38:42">00:38:42</a></span>
+            <span class="text">So I do support it for all the reasons that you've been hearing from</span>
+        </div>
+        <div class="segment" data-time="2325.9199829101562" data-index="489">
+            <span class="timestamp"><a href="#t=2325" title="Jump to 00:38:45">00:38:45</a></span>
+            <span class="text">from all of the other residents coming up to support it. I'm going to focus on</span>
+        </div>
+        <div class="segment" data-time="2329.6799926757812" data-index="490">
+            <span class="timestamp"><a href="#t=2329" title="Jump to 00:38:49">00:38:49</a></span>
+            <span class="text">something a little bit different, although I am a member of the Senior</span>
+        </div>
+        <div class="segment" data-time="2332.47998046875" data-index="491">
+            <span class="timestamp"><a href="#t=2332" title="Jump to 00:38:52">00:38:52</a></span>
+            <span class="text">Center, but I'm going to try to highlight some</span>
+        </div>
+        <div class="segment" data-time="2335.9199829101562" data-index="492">
+            <span class="timestamp"><a href="#t=2335" title="Jump to 00:38:55">00:38:55</a></span>
+            <span class="text">benefits for adults of all ages. As a former competitive athlete, I think</span>
+        </div>
+        <div class="segment" data-time="2341.9199829101562" data-index="493">
+            <span class="timestamp"><a href="#t=2341" title="Jump to 00:39:01">00:39:01</a></span>
+            <span class="text">the walking track, the gym, the fitness center</span>
+        </div>
+        <div class="segment" data-time="2346.239990234375" data-index="494">
+            <span class="timestamp"><a href="#t=2346" title="Jump to 00:39:06">00:39:06</a></span>
+            <span class="text">are going to be so key to both the physical and mental health of our</span>
+        </div>
+        <div class="segment" data-time="2350.3200073242188" data-index="495">
+            <span class="timestamp"><a href="#t=2350" title="Jump to 00:39:10">00:39:10</a></span>
+            <span class="text">residents. As we all know, mental health and physical</span>
+        </div>
+        <div class="segment" data-time="2353.52001953125" data-index="496">
+            <span class="timestamp"><a href="#t=2353" title="Jump to 00:39:13">00:39:13</a></span>
+            <span class="text">health are intertwined and a happy healthy both mentally and</span>
+        </div>
+        <div class="segment" data-time="2357.9199829101562" data-index="497">
+            <span class="timestamp"><a href="#t=2357" title="Jump to 00:39:17">00:39:17</a></span>
+            <span class="text">physically population here is really something that</span>
+        </div>
+        <div class="segment" data-time="2361.52001953125" data-index="498">
+            <span class="timestamp"><a href="#t=2361" title="Jump to 00:39:21">00:39:21</a></span>
+            <span class="text">you cannot put a price tag on. I realize as Mr. Stewart said we all</span>
+        </div>
+        <div class="segment" data-time="2365.2000122070312" data-index="499">
+            <span class="timestamp"><a href="#t=2365" title="Jump to 00:39:25">00:39:25</a></span>
+            <span class="text">know there's a price tag involved. We're mindful of that, but to me the</span>
+        </div>
+    </div>
 </main>
 
-<footer class="site-footer">
-<div class="container">
-<p><i class="fas fa-robot"></i> AI-Generated Transcript | <i class="fas fa-landmark"></i> City of Fairfax, VA | <i class="fas fa-balance-scale"></i> Public Records</p>
-<p><a href="../index.html"><i class="fas fa-arrow-left"></i> Back to All Transcripts</a></p>
-</div>
-</footer>
-
 <script>
-// Search functionality
-document.getElementById('transcript-search').addEventListener('input', function() {
-    const query = this.value.toLowerCase();
-    const segments = document.querySelectorAll('.transcript-segment');
-    let firstMatch = true;
-    segments.forEach(seg => {
+document.getElementById('search').addEventListener('input', function(e) {
+    const query = e.target.value.toLowerCase();
+    document.querySelectorAll('.segment').forEach(seg => {
         const text = seg.querySelector('.text').textContent.toLowerCase();
-        if (query.length > 2 && text.includes(query)) {
-            seg.style.backgroundColor = '#fff3cd';
-            if (firstMatch) {
-                seg.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                firstMatch = false;
-            }
-        } else {
-            seg.style.backgroundColor = '';
-        }
+        seg.style.display = text.includes(query) ? 'flex' : 'none';
     });
 });
 
-// Copy citation function
-function copyCitation(seconds, speaker, text) {
-    const citation = `[April 14, 2026 - Fairfax City Council Meeting]\nSpeaker: ${speaker}\nTime: ${formatTime(seconds)}\nQuote: "${text}"\nSource: https://norrin302.github.io/fairfax-council-transcripts/transcripts/apr-14-2026.html#t=${seconds}`;
-    navigator.clipboard.writeText(citation).then(() => showToast('Citation copied!'));
+// Handle deep links
+if (window.location.hash.startsWith('#t=')) {
+    const time = parseInt(window.location.hash.slice(3));
+    const segment = document.querySelector(`[data-time="${time}"]`);
+    if (segment) segment.scrollIntoView({ behavior: 'smooth' });
 }
-
-function formatTime(seconds) {
-    const mins = Math.floor(seconds / 60);
-    const secs = seconds % 60;
-    return `${mins}:${secs.toString().padStart(2, '0')}`;
-}
-
-function showToast(message) {
-    const toast = document.createElement('div');
-    toast.className = 'toast show';
-    toast.textContent = message;
-    document.body.appendChild(toast);
-    setTimeout(() => toast.remove(), 2000);
-}
-
-// Handle deep-linking to timestamps
-window.addEventListener('load', function() {
-    const hash = window.location.hash;
-    if (hash && hash.startsWith('#t=')) {
-        const seconds = parseInt(hash.substring(3));
-        const segment = document.querySelector(`[data-time="${seconds}"]`);
-        if (segment) {
-            segment.classList.add('highlighted');
-            segment.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }
-    }
-});
 </script>
+
 </body>
 </html>
