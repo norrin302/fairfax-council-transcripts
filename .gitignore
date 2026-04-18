@@ -5,5 +5,8 @@ videos/*.ytdl
 
 .venv/
 
+__pycache__/
+*.pyc
+
 # Large media/chunks
 videos/**

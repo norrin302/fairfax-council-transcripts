@@ -56,12 +56,12 @@ def _make_snippet(text: str, max_len: int = 220) -> str:
 
 def _extract_turns_from_js(js_path: Path) -> list[dict[str, Any]]:
     raw = js_path.read_text(encoding="utf-8")
-    m = re.search(r"const\s+TRANSCRIPT_TURNS\s*=\s*(\[.*?\n\];)\s*$", raw, re.S)
+    # Note: published data files may include CommonJS exports after the array,
+    # so we cannot anchor to end-of-file.
+    m = re.search(r"const\s+TRANSCRIPT_TURNS\s*=\s*(\[[\s\S]*?\]\s*);", raw)
     if not m:
         raise RuntimeError(f"Could not find TRANSCRIPT_TURNS array in {js_path}")
     arr = m.group(1).strip()
-    if arr.endswith(";"):
-        arr = arr[:-1]
     turns = json.loads(arr)
     if not isinstance(turns, list):
         raise RuntimeError("TRANSCRIPT_TURNS did not parse to a list")
