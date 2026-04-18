@@ -20,6 +20,7 @@ import json
 import math
 import re
 import sys
+import urllib.request
 from pathlib import Path
 from typing import Any
 
@@ -85,6 +86,95 @@ def chunk_segments(segments: list[dict[str, Any]], target_seconds: int = 30, max
 
     flush()
     return turns
+
+
+def _parse_vtt_timestamp(ts: str) -> float:
+    # Format: HH:MM:SS.mmm
+    h, m, rest = ts.split(":")
+    s, ms = rest.split(".")
+    return int(h) * 3600 + int(m) * 60 + int(s) + int(ms) / 1000.0
+
+
+def segments_from_webvtt(vtt_text: str) -> list[dict[str, Any]]:
+    """Parse WebVTT text into a Whisper-like segments[] list.
+
+    Granicus captions are generally accurate and timestamp-aligned with the player.
+    We treat each cue as a segment.
+    """
+    lines = [ln.rstrip("\n") for ln in (vtt_text or "").splitlines()]
+    segs: list[dict[str, Any]] = []
+    i = 0
+    sid = 0
+
+    def normalize_caption(text: str) -> str:
+        t = normalize_ws(text)
+        # Strip common closed-caption speaker marker
+        t = re.sub(r"^>>\s*", "", t)
+        return t
+
+    while i < len(lines):
+        line = lines[i].lstrip("\ufeff").strip()
+
+        # Skip header and blank lines
+        if not line:
+            i += 1
+            continue
+        if line.upper().startswith("WEBVTT"):
+            i += 1
+            continue
+
+        # Optional cue identifier line: if the next line is a timing line, skip id.
+        if (i + 1) < len(lines) and ("-->" in lines[i + 1]):
+            i += 1
+            line = lines[i].strip()
+
+        if "-->" not in line:
+            i += 1
+            continue
+
+        m = re.match(r"(\d\d:\d\d:\d\d\.\d\d\d)\s*-->\s*(\d\d:\d\d:\d\d\.\d\d\d)", line)
+        if not m:
+            i += 1
+            continue
+
+        start = _parse_vtt_timestamp(m.group(1))
+        end = _parse_vtt_timestamp(m.group(2))
+
+        i += 1
+        buf: list[str] = []
+        while i < len(lines) and lines[i].strip() != "":
+            buf.append(lines[i].strip())
+            i += 1
+
+        text = normalize_caption(" ".join(buf))
+
+        # Drop vendor watermarks/noise
+        if re.search(r"aberdeen\s+captioning|www\.|\b\d{3}-\d{3}-\d{4}\b", text, flags=re.I):
+            continue
+
+        if text:
+            segs.append({
+                "id": sid,
+                "start": float(start),
+                "end": float(end),
+                "text": text,
+            })
+            sid += 1
+
+        i += 1
+
+    return segs
+
+
+def fetch_granicus_captions_vtt(source_video_url: str) -> str:
+    """Fetch Granicus captions.vtt for a clip URL like https://fairfax.granicus.com/player/clip/4519"""
+    m = re.search(r"/clip/(\d+)", source_video_url or "")
+    if not m:
+        raise RuntimeError(f"Could not extract clip id from source_video_url: {source_video_url}")
+    clip_id = m.group(1)
+    url = f"https://fairfax.granicus.com/videos/{clip_id}/captions.vtt"
+    with urllib.request.urlopen(url, timeout=60) as resp:
+        return resp.read().decode("utf-8", errors="ignore")
 
 
 def label_speakers(turns: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -221,20 +311,49 @@ def write_transcript_html(meeting: dict[str, Any], out_path: Path) -> None:
 def main() -> int:
     ap = argparse.ArgumentParser(description="Publish a meeting to docs/")
     ap.add_argument("meeting_id", help="Meeting id (must match meetings/<meeting_id>.json)")
-    ap.add_argument("--input", "-i", required=True, help="Whisper verbose_json transcript (with segments[])")
+    ap.add_argument("--input", "-i", help="Whisper verbose_json transcript (with segments[])")
+    ap.add_argument(
+        "--captions",
+        action="store_true",
+        help="Use official Granicus captions.vtt (derived from meeting.source_video_url) instead of --input",
+    )
     ap.add_argument("--chunk-seconds", type=int, default=30, help="Target chunk size in seconds")
     ap.add_argument("--max-chars", type=int, default=650, help="Max chars per chunk before forcing a boundary")
+    ap.add_argument(
+        "--label-speakers",
+        action="store_true",
+        help="Enable heuristic speaker labeling (can be inaccurate). Default is disabled for safety.",
+    )
     args = ap.parse_args()
 
     meeting = load_meeting(args.meeting_id)
-    input_path = (REPO_ROOT / args.input).resolve() if not Path(args.input).is_absolute() else Path(args.input)
-    data = json.loads(input_path.read_text(encoding="utf-8"))
-    segments = data.get("segments")
-    if not isinstance(segments, list) or not segments:
-        raise SystemExit("Input JSON missing segments[]")
+    if args.captions:
+        vtt = fetch_granicus_captions_vtt(str(meeting.get("source_video_url") or ""))
+        segments = segments_from_webvtt(vtt)
+        if not segments:
+            raise SystemExit("No segments parsed from captions.vtt")
+    else:
+        if not args.input:
+            raise SystemExit("Missing --input (or pass --captions)")
+        input_path = (REPO_ROOT / args.input).resolve() if not Path(args.input).is_absolute() else Path(args.input)
+        data = json.loads(input_path.read_text(encoding="utf-8"))
+        segments = data.get("segments")
+        if not isinstance(segments, list) or not segments:
+            raise SystemExit("Input JSON missing segments[]")
 
     raw_turns = chunk_segments(segments, target_seconds=args.chunk_seconds, max_chars=args.max_chars)
-    labeled_turns = label_speakers(raw_turns)
+    if args.label_speakers:
+        labeled_turns = label_speakers(raw_turns)
+    else:
+        labeled_turns = [
+            {
+                "speaker": "Unknown Speaker",
+                "start": float(t["start"]),
+                "end": float(t["end"]),
+                "text": str(t.get("text", "") or ""),
+            }
+            for t in raw_turns
+        ]
 
     turns_out = REPO_ROOT / "docs" / "transcripts" / f"{args.meeting_id}-data.js"
     html_out = REPO_ROOT / "docs" / "transcripts" / f"{args.meeting_id}.html"

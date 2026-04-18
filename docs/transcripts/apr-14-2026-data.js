@@ -3,1845 +3,1779 @@
 const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
-    "start": 0.0,
-    "end": 32.0,
-    "text": "Oh I"
+    "start": 76.626,
+    "end": 111.725,
+    "text": "good evening. I would like to call the regular meeting of APRIL 14, 2026 to order. It is good to see the chamber full. We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the pledge of allegiance. I pledge allegiance to the flag of the united states of america and to the republic for which it stands, one nation, under GOD, indivisible, with liberty and justice for all."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 60.0,
-    "end": 112.13999938964844,
-    "text": "Would like to call the regular meeting of April 14th 2026 to order. It's good to see the chamber full We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the Pledge of Allegiance I Play a little bit of the Pledge of Allegiance It's a little bit of the Pledge of Allegiance. It's a little bit of the Pledge of Allegiance I Will now ask Suzanne Levy Eric Carson and Alana quarrels with the city of Fairfax Library to come down for the proclamation acknowledging"
+    "start": 113.229,
+    "end": 143.79,
+    "text": "I will ask suzanne levy, eric carlson and alana karls with the fairfax library for the proim acknowledging e ing ing e ing ing -- for the proclamation acknowledging national library week. you be in the middle. >> okay. I'll be in the middle."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 112.63999938964844,
-    "end": 147.47999572753906,
-    "text": "National Library Week I Will you be in the middle? Okay. I'll be in the middle. That sounds reasonable. All right, whereas Libraries spark creativity fuel imagination and inspire lifelong learning Offering a space where individuals of all ages can find joy through exploration and discovery"
+    "start": 144.127,
+    "end": 176.257,
+    "text": "Whereas library sparks creativity, fuel imagination and inspire life-long learning, offering a space where individuals of all sage ages can find joy through discovery, whereas vibrant hubs connecting people with resources, and whereas libraries provide free and equitable access to books, digital tools and innovative programming ensuring all individuals regardless of background have the support they"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 147.47999572753906,
-    "end": 183.67999267578125,
-    "text": "And whereas libraries serve is vibrant community hubs connecting people with knowledge technology and resources While fostering civic engagement critical thinking and cultural enrichment and whereas libraries provide free and equitable Provide free and equitable access to books digital tools and innovative programming ensuring that all Individuals regardless of background have the support they need to learn connect and thrive and whereas libraries partner with schools businesses and organizations Connecting the dots to maximize resources increasing efficiency and expand access to essential services"
+    "start": 177.27,
+    "end": 212.16,
+    "text": "need to learn, connect and thrive. and whereas libraries partner with schools, businesses and organizations, connecting the dots to maximize resources, increasing efficiency and expand access to essential services strengthening the entire community. Whereas libraries empower job seekers, entrepreneurs and life-long learners with opportunities that support career growth and economic success. Whereas library nurtures young minds, fostering curiosity and a"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 184.16000366210938,
-    "end": 217.8800048828125,
-    "text": "Strengthening the entire community and whereas libraries empower job seekers entrepreneurs and lifelong learners by providing access to resources training and Opportunities that support career growth and economic success and whereas libraries nurture young minds through story times steam programs and literacy initiatives fostering curiosity and a love of learning that lasts a lifetime and Whereas libraries protect the right to read think and explore without censorship standing as champions of intellectual freedom and free expert expression and"
+    "start": 213.195,
+    "end": 245.626,
+    "text": "love of learning that lasts a life time. And whereas libraries protect the right to read, think and explore without censorship, standing as champions of intellectual freedom and freedom expression. Whereas dedicated librarians and library workers inspire discovery, collaboration and creativity for all. Whereas librarians and library workers are joining together under the theme find your joy"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 218.60000610351562,
-    "end": 253.8800048828125,
-    "text": "Whereas dedicated librarians and library workers provide welcoming spaces that inspire discovery collaboration and creativity for all and whereas libraries Librarians and library workers across the country are joining together to celebrate National Library Week under the theme Find your joy Now therefore I Catherine S Reid mayor of the city of Fairfax do hereby proclaim April 19 to the 25th 2026 is National Library Week in the city of Fairfax and encourage the community during this week to visit their library"
+    "start": 246.562,
+    "end": 278.125,
+    "text": "for national library work. I katherine s. Read do hereby proclaim APRIL 19-25, 2026 as national library week in the city of fairfax. We encourage you to visit your library and see all the ways the library finds our community find joy. I turn it over to suzanne levy with that. thank you, mayor."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 254.0399932861328,
-    "end": 284.44000244140625,
-    "text": "Explore its resources and celebrate all the ways that the library helps our community find joy And with that I turn it over to miss Suzanne Levy. Okay Thank You mayor I'm honored to be your representative to Representative to the Fairfax County Public Library Board of Trustees. I'm in my second year as chairman of the board Fortunately, you can only serve two years. So I'll be turning it over to somebody in July, but it's a real honor and"
+    "start": 281.96,
+    "end": 317.733,
+    "text": "I'm honored to be your representative to the fairfax board of trustees. I'm second year as CHAIRMAN. You can only serve two years, so I will turn it over. My career was at the fairfax city regional library. This is a continuation for what I did for many years. I wanted to introduce our library director, eric carzon, alaina corrals and jackie consalvo."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 285.239990234375,
-    "end": 316.55999755859375,
-    "text": "Some of you may know my career was at the Fairfax City Regional Library And so this is just a continuation of what I did for many years and I wanted to interview Deuce our library director Eric Carzon Elena corals is the branch manager at City of Fairfax and Jackie Consolvo is the head of the circulation department So when you go into the library next week to celebrate National Library Week Please say hi to everybody and if you don't have a library card"
+    "start": 320.17,
+    "end": 352.566,
+    "text": "When you go to the library next week, say hi to everybody. If you don't have a library card we have beautiful new cards designed by citizens in the community. You can replace your old one with a pretty new one or get a card for the first time. We want to have you coming in our doors, seeing all the wonderful things that are going on. Check out our book sale. The children's book sale is the first week in MAY and the adult book sale is the second week of MAY. Our wonderful friends of the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 316.79998779296875,
-    "end": 348.5400085449219,
-    "text": "We have beautiful new cards that were designed by citizens in the community and You can replace your old card with a pretty new one or you can get a card for the first time We really want to have you Coming in our doors seeing all the wonderful things that are going on and check out our book sale The children's book sale is the first weekend in May and the adult book sale is in the second week of May and our wonderful Friends of the library raise money to support library"
+    "start": 353.135,
+    "end": 386.935,
+    "text": "library raised money to support library activities and help us purchase materials that are not in the budget to be purchased. Thank you for this honor. We appreciate the opportunity to be here. thank you. Now we are going to get a picture. and really, if you don't have a library card, really? it is time to get one. coming in our doors, seeing all the wonderful things going on and check out our book sale. The children's book sale is the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 348.5400085449219,
-    "end": 385.29998779296875,
-    "text": "activities and Help us purchase materials that are not in the budget to be purchased. So thank you for this honor We really appreciate the opportunity to be here And really if you don't have a library card really Mayor Reed has the name to have a library card. We expect Even more"
+    "start": 387.837,
+    "end": 428.75,
+    "text": "first weekend in MAY and the adult book sale is in the second week of MAY. Our wonderful friends of the library raised money. thank you so much. The staff is going to take it back to the library and put it in a prominent place. I will see you at the library."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 385.29998779296875,
-    "end": 417.29998779296875,
-    "text": "Oh Thank you so much and thank you for this and the staff is going to take it back to the library And I'll put it in a prominent place. I will see you at the library I"
+    "start": 429.779,
+    "end": 460.676,
+    "text": "I'm going to ask stephanie kucka and sustainability committee members to come down here so we can talk about earth day and arbor day. All right. All right. All right. monarch butterfly later. Whereas the city of fairfax recognizes the natural"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 419.6600036621094,
-    "end": 451.8999938964844,
-    "text": "Am now going to ask Stephanie Kupka and a Safford City Environmental Sustainability Committee members Faisal alam rusty Russell and everyone else who is here from the ESC To come come down here so we can talk about Earth Day and Arbor Day All right, all right, all right Oh, there you go monarch butterfly later, okay, not that I want to have any spoilers here, but"
+    "start": 460.676,
+    "end": 492.239,
+    "text": "environment as the foundation of a healthy society and a robust economy. Providing essential resources that sustain life and contribute to the well being of all. And whereas the global community faces extraordinary environmental challenges including environmental degradation, global health issues, los of habitat, climate change and water and energy crises. Whereas earth day and arbor day serve as annual reminders that we are all care takers of our planet and have an obligation to"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 453.0199890136719,
-    "end": 487.5,
-    "text": "whereas the city of Fairfax Recognizes the natural environment as the foundation of a healthy society and a robust economy providing essential resources that sustain life and contribute to the well-being of all and whereas the global community faces extraordinary environmental challenges including environmental degradation Global health issues loss of habitat climate change and water and energy crises and whereas Earth Day and Arbor Day serve as Annual reminders that we are all caretakers of our planet and have an obligation to engage in environmental activism"
+    "start": 492.474,
+    "end": 526.373,
+    "text": "engage in environmental activism, stewardship, commitments and sustainability efforts to preserve the earth's beauty anz resources for current and futch generations. Whereas the first earth day was celebrated in 1970, calling upon millions of americans to call for a cleaner, safer environment. City of fairfax has been recognized nationally as tree city by the arbor day foundation setting aside time for planting"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 488.05999755859375,
-    "end": 518.260009765625,
-    "text": "stewardship commitments and sustainability efforts to preserve the earth's beauty and resources for current and future generations and whereas the first Earth Day was celebrated in 1970 calling upon millions of Americans to act for a cleaner safer and healthier environment And whereas the city of Fairfax has been recognized nationally as a tree City USA by the Arbor Day Foundation for 40 years setting aside a special day each year for the planting and celebration of trees is vital to our quality of life and"
+    "start": 527.576,
+    "end": 559.574,
+    "text": "trees is required for our health. Earth day and arbor day promote activities of a cleaner, sustainable environment. Now I, catherine s read, mayor of city of fairfax, hereby proclaim APRIL 22 and earth day and APRIL 24, 2026 as arbor day. Take action to protect and enhance our environment. This including participating in"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 518.4600219726562,
-    "end": 551.0599975585938,
-    "text": "environmental health and whereas Earth Day and Arbor Day provide opportunities for the community to come together and Participate in activities that promote a cleaner healthier and more sustainable environment Now therefore I Catherine S Reid mayor of the city of Fairfax do hereby proclaim April 22nd 2026 as Earth Day and April 24th 2026 as Arbor Day in the city of Fairfax and hereby encourage our community and Businesses to observe these days by taking action to protect and enhance our environment"
+    "start": 560.943,
+    "end": 593.274,
+    "text": "activities such as planting trees, reducing waste, recycling, picking up litter, conserving clean water and engaging in actions big and small to preserve our natural resources for the benefit of all living things. With that, I will turn it over. good evening, everyone. I'm here as a science teacher standing here in front of you and the committee members. This is a great day for all of us."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 551.219970703125,
-    "end": 582.4400024414062,
-    "text": "This includes participating in activities such as planting trees reducing waste recycling picking up litter conserving energy and clean water and otherwise engaging in actions big and small to Preserve our natural resources for the benefit of all living things and with that I will turn it over to Faisal Alam Is this you? I think so Good evening everyone so I'm here to as a Science teacher standing here in front of you and the ESC committee member"
+    "start": 594.276,
+    "end": 624.38,
+    "text": "We breathe oxygen thanks to our trees. Join us on the arbor day event on APRIL 25th. I would like to make a pitch for making our carbon footprint a little better than what we do. I am one of the persons who benefitted from the city's solarized virginia program last year. And I have solar panels on my house and a few other friends who are also in this room have that and since OCTOBER I have not paid anything to dominion other than $7 and something and"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 582.739990234375,
-    "end": 617.2399997711182,
-    "text": "To kind of this is a great day for all of us. We all are here We breathe oxygen and we all breathe it. Thanks to our trees So, please join us on the Arbor Day event on April 25th And I would also like to make a pitch for making our carbon footprint a little better than what? what we do. I am one of the persons who benefited from the city's Solarize Virginia program last year, and I have solar panels on my house and a few other friends who are also in this room have that. And since October, I have not paid anything to Dominion other than $7"
+    "start": 625.741,
+    "end": 656.504,
+    "text": "have exported a lot of power out there. The solarize virginia is a great program. It is opening up again APRIL 16th, stephanie. 15th. It will continue. It is a good vetted program. it is the best rate you will get. Spread the word out and do that and join us on arbor day on APRIL 25th, the event begins at 9:00 A.M. We have students who have written beautiful poetry, we will have tree giveaways, tree plantations and a lot of fun so"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 617.2399997711182,
-    "end": 649.3600006103516,
-    "text": "something, and I have exported a lot of power out there. So this year again, the Solarize Virginia is a great program. It's opening up again on April 16th, Stephanie? Yes. On April 15th, and it will continue. It is a very good vetted program. It's the best rate you're going to get. So just spread the word out and do that. And please join us on the Arbor Day on April 25th. The event begins at 9 a.m. We will have some students who are written beautiful poetries. They will be reciting. We'll have tree giveaways, tree plantations,"
+    "start": 663.779,
+    "end": 702.82,
+    "text": "please join us. >> I think that is at pat rodeo park."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 649.3600006103516,
-    "end": 695.3199996948242,
-    "text": "and a lot of fun. So please join us. All right. Any other remarks? Okay. Thank you. And I think that's at Pat Rodeo Park? Yes. Pat Rodeo Park. I think that's a new venue for us. Okay. Picture. Squeeze in. All right. Excellent. Excellent. Thank you all. Thank you all for being here. All right."
+    "start": 705.22,
+    "end": 735.48,
+    "text": "joining stephanie and anna, I'm looking for anna jaworski -- you guys? Where did you go? More and more things to celebrate. So many things. Whereas the monarch butterfly is an iconic north american species whose multigenerational"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 695.8000030517578,
-    "end": 726.2799987792969,
-    "text": "All right. So joining Stephanie and Anna, I'm looking for Janet Jaworski, Mary Driver-Downs, Faza Alam, and Rusty Russell. You guys, where'd you go? All right. More and more things to So many things. Whereas the monarch butterfly is an iconic North American species whose"
+    "start": 736.218,
+    "end": 769.317,
+    "text": "migration and metamorphosis from caterpillar to butterfly has captured the imagination of americans. The westererern and eastern monarch populations have seen significant declines, less than 1% of the western remaining and the eastern population has fallen by 90%. The city of fairfax recognizes human health depends on well functioning ecosystems and bioodiverse regions can foster healthy connections with humans"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 726.2799987792969,
-    "end": 759.1199951171875,
-    "text": "multi-generational migration and metamorphosis from caterpillar to butterfly has captured the imagination of millions of Americans. And whereas both the Western and Eastern monarch populations have seen significant declines with less than 1% of the Western monarch population remaining, while the Eastern population has fallen by as much as 90%. And whereas the city of Fairfax recognizes that human health ultimately depends on well-functioning ecosystems and that biodiverse regions can better support food production, healthy soil and air quality,"
+    "start": 770.619,
+    "end": 801.181,
+    "text": "and wild life. Cities, towns and counties have a critical role to save the monarch butterfly, habitat at public parks, community gardens and municipal buildings such as recreation snertss, libraries and schools. Simple changes in landscaping, ordinances or school policies can make a big difference for the monarch. educating citizens on how to grow milkweed which is a key"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 759.1199951171875,
-    "end": 790.4400024414062,
-    "text": "and can foster healthy connections between humans and wildlife. And whereas cities, towns, and counties have a critical role to play in helping save the monarch butterfly by providing habitat at public parks and median strips, community gardens, and municipal buildings that serve as community hubs such as recreation centers, libraries, and schools. And whereas simple changes in landscaping, ordinances, or school policies can make a big difference for the monarch, educating citizens about how to provide essential habitat for monarchs"
+    "start": 801.717,
+    "end": 834.649,
+    "text": "piece of the puzzle creating habitats and educating citizens benefits other pollinators. I catherine s. Read commit to the mayor's monarch pledge. This is a nationalwide thing. The mayor's monarch pledge and encourage all residents to participate in community activities that support and celebrate monarch conservation so these magnificent butterflies will once again flourish on this continent."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 790.4400024414062,
-    "end": 825.3600006103516,
-    "text": "and where and how to grow milkweed, which is a key piece of the puzzle in creating habitat and educating citizens benefits other pollinators that need healthy habitats as well. Now therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, do hereby commit to the Mayor's Monarch Pledge, this is a nationwide thing, the Mayor's Monarch Pledge, and encourage all residents to participate in community activities that support and celebrate monarch conservation so that these magnificent butterflies will once again flourish across this continent."
+    "start": 837.953,
+    "end": 869.585,
+    "text": "I will turn it over to MS. Janet jaworski. thank you, mayor read. Following up on the mayor's comments, I have a certified monarch way station in our yard. It is through monarch watch at the university of kansas. Besides in public parks and public spaces, individual home owners can make a difference for the monarch butterfly. One milkweed plant in your yard can make a huge different. As the mayor said, that is the only food the monarch caterpillar will eat."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 825.3999938964844,
-    "end": 859.6400146484375,
-    "text": "And with that, I will turn it over to Ms. Janet Jaworski. Thank you, Mayor Reed. Following up on the Mayor's comments, I have a certified monarch way station in our yard, which some of you may have heard of, it's through Monarch Watch at the University of Kansas. So besides in public parks and public spaces, individual homeowners really can make a difference for the monarch butterfly. Really, even one milkweed plant in your yard can make a huge difference because, as the Mayor said, that is the only"
+    "start": 873.289,
+    "end": 905.452,
+    "text": "If you have a milkweed plant the caterpillars can start their life cycle and metamorphosis into a butterfly. You can have nectar plants, particularly late blooming nectar plants in the the fall. The migration to mexico in this area is AUGUST to OCTOBER. If you have a nectar source butterflies can access during tht migration. It is helpful. Some ideas of planting is golden"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 859.6400146484375,
-    "end": 893.9200134277344,
-    "text": "food that the monarch caterpillar will eat. And so if you have a milkweed plant in your yard, the caterpillars can start their life cycle and of course metamorphosis into the butterfly. The other thing you can do as a homeowner is have nectar plants in your yard, particularly late blooming nectar plants in the fall. The migration to Mexico in this area is August through October. And so if you have a nectar source in your yard that the butterflies can access during that southward migration, that is very helpful to them. So"
+    "start": 905.955,
+    "end": 939.487,
+    "text": "rod or aster, so they have the nectar source on the way to mexico. the good news in the past wintering season in mexico, there was a 64% increase in the amount of monarchs that were there. So we are showing some improvement. We are not really there yet to the goal, but we are moving in the right direction. That was good news from the over wintering sites in mexico. If anyone wants to visit my yard this summer, you can reach out to the city clerk and get my address. You can have butterflies flying"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 893.9200134277344,
-    "end": 926.8800048828125,
-    "text": "some ideas for planting in your yard would be goldenrod or aster so that they've got that nectar source on their way to Mexico. The good news is that in this past overwintering season in Mexico, there was a 64% increase in the amount of butterfly, in the amount of monarchs that were there. So we're showing some improvement. We're not really there yet to the goal, but we're moving in the right direction. So that was good news from the overwintering sites in Mexico. So you can, if anyone wants to visit my yard this summer,"
+    "start": 943.959,
+    "end": 975.89,
+    "text": "around you, you can see caterpillars. Mary, from the women's club has milkweed, cindy meier has milkweed in your yard. It is a science project in your yard. I have had field trips for the day care, I have done some stuff for the science teacher at daniel's run. I'm happy to guide anyone who wants to do this project. >> thank you. You covered all the points."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 926.8800048828125,
-    "end": 957.2000122070312,
-    "text": "you can reach out to the city clerk and get my address, but you can actually have butterflies flying around you. You can see caterpillars in the yard and it's very exciting. Mary, my colleague from the women's club also has a lot of milkweed in her yard. Cindy Meyer has milkweed in her yard and there are probably a number of you who also have that. It's very exciting. It's a science project going on right in your yard. I've had field trips from our daycare down the street. I've done some stuff virtually for the science teacher at"
+    "start": 976.892,
+    "end": 1023.238,
+    "text": "so the commitment to -- I've got asters in my yard. These plants are beautiful. Think about when you choose what you plant in your yard there are all kinds of benefits like you get to have butterflies. Okay, with that, a photo. >> so I'm going to now invite"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 957.2000122070312,
-    "end": 997.3200073242188,
-    "text": "Daniel's Run. So it's very exciting. So I'm happy to guide anybody who wants to do this project. So turn it over to Stephanie. Well, thank you, Jen. You covered all of it. Well, so the commitment to, you know, and I've got asters in my yard and these plants are beautiful too. So think about the fact that when you choose what you plant in your yard, there's all kinds of benefits, like you get to have butterflies. Okay, with that, a photo. All right."
+    "start": 1024.207,
+    "end": 1062.443,
+    "text": "the women's club of fairfax to join me up here so we can talk about the 70th anniversary of this very AUGUST body of women who exist in our city. This is wonderful. Lovely to see everyone. Is everybody in? Okay. whereas the woman's club of"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1017.3200073242188,
-    "end": 1047.5599975585938,
-    "text": "So I'm going to now invite the women's club of Fairfax to join me up here so that we can talk about the 70th anniversary of this very august body of women who exist here in our city. Everybody, this is wonderful. Everybody in, everybody in, everybody in. Lovely to see everyone. Lovely to see everyone. Is everybody in? Okay."
+    "start": 1063.179,
+    "end": 1095.643,
+    "text": "fairfax was established in 1956 by friends wanting to make a difference in the community and further their commitment by registering their club with the state and national general federation of women's clubs. And whereas as the town of fairfax became city of fairfax the area grew from a quiet rural community into a bustling region. The women's club was active participant in keeping history and small town feel alive with generous contributions of time and financial support of many worthy causes."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1048.5599975585938,
-    "end": 1080.5599975585938,
-    "text": "Who's over there? We all here? Okay. Whereas, the women's club of Fairfax was established in 1956 by friends wanting to make a difference in the community and further their commitment by registering their club with the state and national general federation of women's clubs. And whereas, as the town of Fairfax became the city of Fairfax, the area grew from a quiet rural community into a bustling region. The women's club was an active participant in keeping"
+    "start": 1098.247,
+    "end": 1128.511,
+    "text": "Whereas the women's club of fairfax continues to volunteer services to events such as the independence day celebration, city of fairfax band association, fairfax volunteer fire department, the interservice club council and the chocolate lover's festival and adopted the school/street park quarterly maintenance of weeding and planting and donating a park bench to encourage use of the park. Whereas the woman's club of fairfax supported the turning"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1080.5599975585938,
-    "end": 1112.5599975585938,
-    "text": "the history and small town feel alive through generous contributions of time and financial support of many worthy causes. And whereas, the women's club of Fairfax continues to contribute funds and volunteer services to Fairfax cultural and civic organizations and events such as the Independence Day celebration, City of Fairfax Band Association, Fairfax Volunteer Fire Department, the Inter-Service Club Council and the Chocolate Lovers Festival and has adopted the School Street Park, providing quarterly maintenance of weeding and planting"
+    "start": 1130.479,
+    "end": 1164.379,
+    "text": "point of the suffragist memorial and annually offering an achievement scholarship to a graduating senior who will attend a virginia university or college. Whereas they offer programs on issues important to women, families and the community and continues today as a unified and diverse group of women dedicated to enhancing the lives of families and strengthening their community through volunteer service. now therefore I catherine s. Read mayor of the city of fairfax, virginia, in concert with the city council do hereby"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1112.5599975585938,
-    "end": 1144.5599975585938,
-    "text": "as well as donating a park bench to encourage use of the park. And whereas, the women's club of Fairfax supported the construction of the Turning Point Suffragist Memorial in Occoquan Regional Park and annually offers an achievement scholarship to a graduating local high school senior who will attend a Virginia university or college. And whereas, the women's club of Fairfax offers programs focusing on issues of importance to women, families and the community and continues today as a unified and diverse group of women dedicated"
+    "start": 1165.816,
+    "end": 1200.648,
+    "text": "commend the women's club of fairfax on their 70th anniversary and encourage all citizens to recognize, commemorate and celebrate the wonderful contributions the women club of fairfax has made to the betterment of the city of fairfax. With that, who is speaking? Is martha, come on. PRESIDENT Of the woman's club. >> thank you. Good evening. I just want to say that we feel very fortunate to be a part of the city and we enjoy doing as much as we can to be supportive"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1144.5599975585938,
-    "end": 1176.5599975585938,
-    "text": "to enhancing the lives of families and strengthening their community through volunteer service. Now, therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, Virginia, in concert with the City Council, do hereby commend the Women's Club of Fairfax on their 70th anniversary and encourage all citizens of the City of Fairfax to recognize, commemorate and celebrate the wonderful contributions the Women's Club of Fairfax has made to the betterment of the City of Fairfax. And with that, who is speaking?"
+    "start": 1200.684,
+    "end": 1273.755,
+    "text": "of the city. I think it is impressive we have sustained ourselves for 70 years, considering all the different ups and downs of the past 70 years. We look forward to serving you for many more years. Thank you. >> thank you. All right. A photo. >> all right."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1176.5599975585938,
-    "end": 1208.3599996566772,
-    "text": "Martha, come on, the President of the Women's Club. Good evening. I just want to say that we feel very fortunate to be a part of the city and we enjoy doing as much as we can to be supportive of the city. And I think it's pretty impressive that we have sustained ourselves for 70 years. years, considering all the different ups and downs of the past 70 years. And we look forward to serving you for many more years."
+    "start": 1274.991,
+    "end": 1306.889,
+    "text": "I will now ask our fairfax city police dispatchers to come down here so we can celebrate you. Come on. It's cool to stand up here and just be stared at. Trust me. Not awkward at all. All good. You guys are important, so important, very important. All right."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1208.3599996566772,
-    "end": 1238.3600006103516,
-    "text": "Thank you. Thank you. All right. Everybody scrunch on in. Yeah, big turn. Big turn. Okay. Come forward. Come on. Somebody reach out. Okay, there we go. Okay. Okay. So, I think it's not working. Okay. Okay. Okay. Okay. Okay. Okay."
+    "start": 1309.925,
+    "end": 1342.689,
+    "text": "Whereas the week of APRIL 12-18, 2026, has been designated as national public safety telecommunicators week. A time to raise awareness and recognize the critical contributions of highly trained telekmupcations professionals who provide vital 9-1-1 emergency assistance to those in needs. Whereas emergencies requiring police, fire or emergency medical services can occur at any time and the prompt response of police officers, firefighters and paramedics is flael to the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1238.3600006103516,
-    "end": 1269.0800018310547,
-    "text": "Okay. Okay. Okay. Okay. Okay. Okay. Okay. Thanks. Okay. Okay. Okay. Okay. All right. And Eddie and Martha. Thank you so much. And Alison, you guys look fantastic. Just so awesome to hear you Pauling. Thank you so much. All right. It's so great to hear you call it. And no, I'm not going to start over. I said I was going to say, no not going to start over. I just wanted to hear you call it. Yes, it's fine."
+    "start": 1342.725,
+    "end": 1374.39,
+    "text": "protection of life and preservation of property. Whereas it depends on the quality of accuracy maintaining from stit zens who contact the communication center. Whereas public safety telecommunicators are the first and most critical point of contact our residents have with emergency services, serving as the vital link between the public and emergency responders. Whereas public safety telecommunicators contribute substantially to apprehension of criminals, suppression of fires"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1269.0800018310547,
-    "end": 1308.0400009155273,
-    "text": "You're welcome. I'm going to get all the New York City police dispatchers to come down here so we can celebrate you. Come on. It's cool to stand up here and just be stared at. Trust me, not awkward at all. All good. All good. You guys are important. So important. Very important. All right. Everybody in the cutest. All right. Whereas, the week of April 12th through 18th, 2026 has been designated as National Public"
+    "start": 1375.392,
+    "end": 1407.388,
+    "text": "a and demonstrating professionalism, understanding and dedication in every call they handle. Whereas within the police department a dispatcher of the year is nominated by police personnel to recognize an individual for exemptional performance, exemplifies the commitment and excellence demonstrated by all emergency dispatch professionals in our city each and every day 24 hours a day and seven days a week. Now therefore I catherine s. Read mayor of the city of fairfax do hereby proclaim APRIL"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1308.0400009155273,
-    "end": 1340.0,
-    "text": "Safety Telecommunicators Week, a time to raise awareness and recognize the critical contributions of highly trained telecommunications professionals who provide vital 911 emergency assistance to those in need. And whereas, emergencies requiring police, fire, or emergency medical services can occur at any time, and the prompt response of police officers, firefighters, and paramedics is essential to the protection of life and preservation of property. And whereas, the safety of police officers, firefighters, and paramedics depends upon"
+    "start": 1408.858,
+    "end": 1439.52,
+    "text": "12-18, 2026, as nan public financing authority in the city of fairfax. And encourage all members of our community to join in extending our warmest measure of gratitude and support to our public safety telecommunications dispatchers, and elijah tibbs, the 2025 dispatcher of the years who provides services to the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1340.0,
-    "end": 1370.6799926757812,
-    "text": "the quality and accuracy of information obtained from citizens who contact the City of Fairfax Emergency Communications Center. And whereas, public safety telecommunicators are the first and most critical point of contact our residents have with emergency services, serving as the vital link between the public and emergency responders. And whereas, public safety telecommunicators contribute substantially to the apprehension of criminals, the suppression of fires, and the treatment of patients, demonstrating professionalism,"
+    "start": 1439.623,
+    "end": 1471.386,
+    "text": "countless numbers of residents, and business owners within our community. So with that, elijah. Chief. >> good evening, everybody. It is a great opportunity to be here with you and celebrating such an important, important group of professionals in our public safety world. I want to introduce everybody really quickly."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1370.6799926757812,
-    "end": 1405.9600067138672,
-    "text": "understanding, and dedication in every call they handle. And whereas, within the Police Department, a Dispatcher of the Year is nominated by police personnel to recognize an individual for exceptional performance, exemplifying the commitment and excellence demonstrated by all emergency dispatch professionals in our city each and every day, 24 hours a day, and 7 days a week. Now therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, do hereby proclaim April 12-18, 2026 as National Public Safety Telecommunicators Week in the City of Fairfax,"
+    "start": 1473.55,
+    "end": 1504.86,
+    "text": "Dispatcher, aricely, gonzalez, courtney ellis, elijah tibbs, communications and record supervisors cynthia tetterton, stephanie sharp who oversees the entire operation and captain brock rudder. With them there is another six dispatchers that help answer all the phone calls from people within our city, whether you are living here, working here, visiting. If you have any type of emergency, you need directions"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1405.9600067138672,
-    "end": 1436.3999938964844,
-    "text": "and encourage all members of our community to join in extending our warmest measure of gratitude and support to our Public Safety Telecommunications Dispatchers, including our award recipient, Aliyah Tibbs, Aliyah Tibbs, Elijah, okay, Elijah Tibbs, the 2025 Dispatcher of the Year who provides critical and essential services daily to the countless number of residents, business owners, and visitors within our community."
+    "start": 1504.86,
+    "end": 1536.5,
+    "text": "somewhere, you call the police and they answer. It is something beautiful to watch if you have an opportunity to be in a 9-1-1 center and see what happens. Particularly when there is a critical situation happening in the city. All of them come together. You have to understand what they do. they take the phone call. They are a detective. They are asking questions. They are figuring out what is happening where it is happening, the vital information to get routed to responding police or fire personnel."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1436.3999938964844,
-    "end": 1470.1600036621094,
-    "text": "So with that, Elijah, Chief. Good evening everybody. You know, it's a great opportunity to be here with you and celebrating such an important, important group of professionals in our public safety world. I just want to introduce everybody really quickly. Our Dispatcher, Ms. Araceli Gonzalez, Ms. Courtney Ellis, Elijah Tibbs, who was just introduced"
+    "start": 1537.154,
+    "end": 1571.619,
+    "text": "At the same time typing it and routing it to the police officers and emergency personnel. And assigning the right personnel to respond to that call. It is incredible. I thanks all of our dispatchers. Appreciate everybody supporting them and for our proclamation, mayor. Thank you very much. who is this officer -- I forgot to introduce sherry. >> okay."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1470.1600036621094,
-    "end": 1501.3200073242188,
-    "text": "as our Dispatcher of the Year for 2025, our Communications and Records Supervisor, Ms. Cynthia Tetherton, our Lieutenant, Ms. Stephanie Sharp, who oversees the entire operation, and then Captain Brock Rutter, who oversees the Administrative Services Division. With them, there's another six Dispatchers that help answer all the phone calls from people within our city, whether you're living here, working here, visiting, if you have any type of emergency, if you need direction somewhere, you call the police and they answer."
+    "start": 1574.623,
+    "end": 1644.593,
+    "text": "Officer sherry. Okay. Wonderful. Wonderful. she is here to support everybody. we are going to nab a picture. >> we can move on to the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1501.3200073242188,
-    "end": 1533.1199951171875,
-    "text": "And it's something beautiful to watch if you ever have the opportunity to be in a 911 center and to see what happens, particularly when there's a critical situation occurring in the city, and all of them come together, and whether it's, you have to understand what they do. They take the phone call, they're a detective, they're asking questions, they're figuring out what it is that's happening, where it's happening, what's that vital information that has to get routed to our responding police or fire personnel. At the same time, they're typing it all and routing it to the police officers and emergency"
+    "start": 1646.328,
+    "end": 1677.759,
+    "text": "adoption of the agenda. Is there a motion to approve the agenda? I move to adopt the agenda as presented. >> is there a second? >> second. the motion has been made and seconded. A roll call vote. >> councilmember amos. >> aye. councilmember hall. >> aye. councilmember hardy-chandler. >> aye. councilmember peterson. >> aye. councilmember bates. >> aye. councilmember Mcquillen."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1533.1199951171875,
-    "end": 1563.7200012207031,
-    "text": "personnel real-time. As they're typing it, figuring out what to ask, what's the next question, typing it in and routing it to the right people, and assigning the right personnel to respond to that call. It's incredible. And so I really thank all of our Dispatchers, appreciate everybody supporting them, and for our proclamation. Mayor, thank you so much. Thank you. And who is, who is this officer, officer? I forgot to introduce Sherry."
+    "start": 1679.361,
+    "end": 1710.123,
+    "text": "aye. We will go into initial general public comment. I had 10 speakers sign up prior to 5:00 P.M. Today. So I will call the first one up. Anita light. good evening, mayor read and members of city council. My name is anita light. Here in three capacities, first as the chair of the fairfax village in the city advisory board, resident of fairfax city and as an older adult."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1563.7200012207031,
-    "end": 1643.8800048828125,
-    "text": "Officer Sherry? Okay, Officer Sherry? Okay. Wonderful, wonderful. Sherry's our pure wellness dog, so she's here to support everybody. So we are going to now have a picture. All right. We can move on to the adoption of the agenda."
+    "start": 1710.26,
+    "end": 1742.357,
+    "text": "As chair of the fairfax village in the city advisory board, we wanted to emphasize our support for the willard sherwood center as noted in our letter dated APRIL 6. In that letter we noted that supporting the new willard sherwood center would help make accessibility for older adults easier and safer. We noted this projec was a community partnership effort with the county as well as the residences of the city and county. Finally, we highlighted this project is a long-term"
   },
   {
-    "speaker": "Amos",
-    "start": 1643.8800048828125,
-    "end": 1676.8399963378906,
-    "text": "Is there a motion to approve the agenda? I move to adopt the agenda as presented. Is there a second? Second. The motion has been made and seconded. A roll call vote. Councilmember Amos? Aye. Councilmember Hall? Aye. Councilmember Hardy-Chandler? Aye. Councilmember Peterson? Aye. Councilmember Bates? Aye. Motion passed unanimously. Sorry. All right. We will go on to initial general public comment. I had 10 speakers sign up by 5 o'clock p.m. today, so I will call the first one up, which"
+    "speaker": "Unknown Speaker",
+    "start": 1743.459,
+    "end": 1776.623,
+    "text": "investment for the future of the city. And as an additional note on the advisory board and for a more important reason, we really support advancing the willard sherwood center to help enhance the villages expo we had this past friday which was a huge success. If we had an even better facility with bet epark ter parking it would help that event even better. As a resident I support the"
   },
   {
-    "speaker": "Amos",
-    "start": 1676.8399963378906,
-    "end": 1710.2799987792969,
-    "text": "will be Anita Light. Good evening, Mayor Reed and members of City Council. My name is Anita Light, and I'm here tonight in three capacities. First as the chair of the Fairfax Village in the City Advisory Board, resident of Fairfax City, obviously, and as an older adult. As chair of the Fairfax Village in the City Advisory Board, we wanted to emphasize our"
+    "speaker": "Unknown Speaker",
+    "start": 1776.992,
+    "end": 1808.79,
+    "text": "willard sherwood center because this will afford a generation of opportunity and support the health care needs of our city. The partnership with the county has been long standing and as a result the city is able to do more for the residents than they would otherwise be able to do. For instance, on social services, emergency dispatch, libraries, court services and schools, to name a few. Without these partnerships the costs to our residents would be significantly more if we had to provide these basic services on"
   },
   {
-    "speaker": "Amos",
-    "start": 1710.2799987792969,
-    "end": 1746.5599975585938,
-    "text": "support for the Willard Sherwood Center, as noted in our letter to you all dated April 6th. In that letter, we noted that supporting the new Willard Sherwood Center would help make accessibility for older adults easier and safer. We also noted that this project was a community partnership effort with the county, as well as the residents of both the city and the county. And finally, we highlighted that this project is a long-term investment for the future of the city. And as an additional note on the advisory board, and for a more important reason, we"
+    "speaker": "Unknown Speaker",
+    "start": 1809.225,
+    "end": 1839.455,
+    "text": "our own. I have been a life-long proponent of continuous improvement in organizes. Willard sherwood is not an o, but it is a joint partnership with the county. As an older adult, which I'm getting older and older by the minute, I support the willard sherwood project because participating at programs at green acres is potentially hazardous to my physical well"
   },
   {
-    "speaker": "Amos",
-    "start": 1746.5599975585938,
-    "end": 1778.280029296875,
-    "text": "really support advancing the Willard Sherwood Center to help enhance the Villages Expo that we had this past Friday, which was a huge success. And if we had even better facility with better parking, it would help that event even better. And as a resident of the city, I support the Willard Sherwood Center because this facility will afford a generational opportunity for programming for older adults and children and support the health care needs of our city."
+    "speaker": "Unknown Speaker",
+    "start": 1839.455,
+    "end": 1873.121,
+    "text": "being. When I attended events at green acres center I had recent knee surgery. Since parking at the green acres center is a premium, walking to the entrance was very difficult and walking down those steps to get to the front door was even more difficult. And once you get inside the building, you have more steps to get to some of the rooms and that gets increasingly difficult for the older people. Having access to new modernized"
   },
   {
-    "speaker": "Amos",
-    "start": 1778.280029296875,
-    "end": 1811.7600002288818,
-    "text": "The partnership with the county has been longstanding, and as a result, the city is able to do more for the residents than they would otherwise be able to do, for instance, on social services, emergency dispatch, libraries, court services, and schools, to name a few. Without these partnerships, the cost to our residents would be significantly more. if we had to provide these basic services on our own. I've been a lifelong proponent of continuous improvement in organizations and while the Willard Sherwood Center is not an organization it is a joint"
+    "speaker": "Unknown Speaker",
+    "start": 1873.322,
+    "end": 1907.88,
+    "text": "willard sherwood center -- so while I urge you -- while there is a cost to modernization and additional costs to the center, I urge you to support its development a that will help the more than 9,000 older adults in fairfax city and we appreciate and thank you for your consideration. Thank you. our next speaker is kevin anderson."
   },
   {
-    "speaker": "Amos",
-    "start": 1811.7600002288818,
-    "end": 1842.8800010681152,
-    "text": "partnership with the county that needs to be continuously improved and nurtured to avoid even further cost. As an older adult, which I'm getting older and older by the minute, I support the Willard Sherwood Center project because participating in programs at Green Acres is potentially hazardous to my physical well-being. When I attended events at the Green Acres Center I had had recent knee surgery and since parking at the"
+    "speaker": "Unknown Speaker",
+    "start": 1909.124,
+    "end": 1941.54,
+    "text": "I want to thank you for this opportunity. I am a county resident and a member of the young at heart senior center's council. I'm here to speak in favor of the willard sherwood project. Green acres is -- when you consider the ball fields and the surrounding grounds. The building, hvac and utilities"
   },
   {
-    "speaker": "Amos",
-    "start": 1842.8800010681152,
-    "end": 1873.9199981689453,
-    "text": "Green Acres Center is at a premium, walking to the entrance was very difficult and walking down those steps to get to the front door was even more difficult and then once you get inside the building you have more steps to get to some of the rooms and that gets increasingly difficult for the older people. Having access to a new modernized Willard Sherwood Center, so while I urge you to, while there is a cost to modernization and there will be additional costs to"
+    "speaker": "Unknown Speaker",
+    "start": 1941.79,
+    "end": 1972.619,
+    "text": "can hardly be considered green. I don't have access to green acres, I used ai to assist my research. I could have used ai to make my comments, but I didn't want to cheat and I didn't want to sprout a sixth finger on my hand either. My research found 41,000 square foot school built in 1961 has an average cost of utilities"
   },
   {
-    "speaker": "Amos",
-    "start": 1873.9199981689453,
-    "end": 1905.6800003051758,
-    "text": "the center, I urge you to support its development that will help the more than 9,000 older adults in Fairfax City and we appreciate and thank you for your consideration. Thank you. Our next speaker is Kevin Anderson. I want to thank you for this opportunity. I am a"
+    "speaker": "Unknown Speaker",
+    "start": 1976.58,
+    "end": 2006.954,
+    "text": "ranging from $30,000 to $54,000. Considering the ga has original 163 steel frame windows and six exterior doors with windows, all single pane, I'm pretty comfortable with the idea that the expense is on the higher end of that range. Compared to the energy initiate and sustainable features planned for the project, the anticipated"
   },
   {
-    "speaker": "Amos",
-    "start": 1905.6800003051758,
-    "end": 1939.759994506836,
-    "text": "county resident and a member of the Young at Heart Senior Center Council and I'm here to speak in favor of the Willard Sherwood project. Green Acres is a apt name when you consider the ball fields and the surrounding grounds but the building, the HVAC system and the utilities can hardly be considered green. Since I don't have access to the specifics of Green Acres, I utilized"
+    "speaker": "Unknown Speaker",
+    "start": 2008.123,
+    "end": 2038.619,
+    "text": "savings would be in 30% to 50% annually and could be even as high as 70%. this, of course, will have to be observed with the actual charge and that we incur to see what percentages actually save. I'm willing to bet they will be on the higher end. Beyond potential cost savings numerous benefits to the project design. It will have a positive impact"
   },
   {
-    "speaker": "Amos",
-    "start": 1939.759994506836,
-    "end": 1977.759994506836,
-    "text": "AI to assist me with my research and I could have used the AI to write my comments for me but I was thinking that might be a little bit of cheating. Plus I didn't want to sprout a six-finger on my hand either. So my research found that a 41,000 square foot school built in 1961 currently has an average cost for utilities ranging from $30,000 to $54,000. Considering the GSA, I'm sorry, has the original 163 steel frame"
+    "speaker": "Unknown Speaker",
+    "start": 2038.622,
+    "end": 2071.285,
+    "text": "on the planet we hand off to our children or if you are like me to our grandchildren. Some of the elements is that the fact that the project is led gold certified and features like roof top solar panels, indoor water reduction, light pollution remediation and high-performance building elements to retain heating and cooling and many others. Another subject I would like to talk about is routines. We all have them."
   },
   {
-    "speaker": "Amos",
-    "start": 1977.759994506836,
-    "end": 2009.0399932861328,
-    "text": "windows and six exterior doors with windows, all single pane, I'm pretty comfortable with the idea that that the expense is on the higher end of that range. Compared to the energy efficient and sustainable features planned for the project, the anticipated savings would be in the 30 to 50 percent annually and it could be even as high as 70 percent."
+    "speaker": "Unknown Speaker",
+    "start": 2072.489,
+    "end": 2105.386,
+    "text": "They usually evolve over life events. But if this project fails to move forward and green acres has to close down for major renovations or rebuild, it is going be an abrupt change to many of our members routines. Basically I'm saying if we build a new center and do a gradual tansition to the new one, it will be more of an evolutionary change to the routine. I beseech you to approve this"
   },
   {
-    "speaker": "Amos",
-    "start": 2009.1199951171875,
-    "end": 2041.4400024414062,
-    "text": "This of course will have to be observed with the actual charge and that we incur to see what percentages actually saved but I'm willing to bet that it'll be on the higher end. Beyond the potential cost savings though, there are the numerous environmental benefits to the project design and it'll have a positive impact on the planet that we hand off to our children or if you're like me to your grandchildren. Some of these elements are the fact that the project is LED"
+    "speaker": "Unknown Speaker",
+    "start": 2105.654,
+    "end": 2138.252,
+    "text": "project and thank you for your time. >> thank you. Next speaker is douglas stewart. >> good evening. Douglas stewart, 10822 maple street. I'm here to voice my support for moving forward with the willard sherwood center. I appreciate the discussions you've had about this project. My wife and I have lived here for 22 years and I realize this"
   },
   {
-    "speaker": "Amos",
-    "start": 2041.4400024414062,
-    "end": 2075.6000061035156,
-    "text": "gold certified and it has features like rooftop solar panels, indoor water reductions features, LED lighting, light pollution remediation and high performance building elements to retain heating and cooling and many others. Another subject I'd like to talk about is routines. We all have them. They usually evolve over life events but if this project fails to move forward and Greenacres has to close down for"
+    "speaker": "Unknown Speaker",
+    "start": 2138.32,
+    "end": 2171.85,
+    "text": "project has both operating and capital costs we have to reckon with. And we'll see in our tax bills. The costs are significant, but I believe the benefits will far outweigh them. Really, we are talking about a multigenerational community center, something for all ages, with first class preventive health services. A place for our youth and people of all ages. We are talking about outstanding facilities the whole community"
   },
   {
-    "speaker": "Amos",
-    "start": 2075.6000061035156,
-    "end": 2119.040008544922,
-    "text": "major renovations or rebuild, it's going to be an abrupt change to many of our members routines and basically what I'm saying is that if we build a new center and we do a gradual transition to the new one, it'll be more of an evolutionary change to the routine. So I beseech you to approve this project and I thank you for your time. Thank you. Our next speaker is Douglas Stewart. Good evening. Douglas Stewart, 10822 Maple Street."
+    "speaker": "Unknown Speaker",
+    "start": 2174.623,
+    "end": 2205.652,
+    "text": "can congregate, people from 8 to 80 or 90. There is something in this for everyone. This preventive health including surveying our residents. Including dentistry. It is going to improve life for so many people in so many significant ways. We know we will see higher tax bills. When we look at the future, it is uncertain. It is an investment."
   },
   {
-    "speaker": "Amos",
-    "start": 2119.040008544922,
-    "end": 2149.1199951171875,
-    "text": "I'm here to also voice my support for moving forward with the Willard Sherwood Center. I appreciate the discussions you've had about this project. My wife and I have lived here for 22 years and I realize this project has both operating and capital costs that we have to reckon with and that we'll see in our tax bills. The costs are significant but I believe the benefits will far outweigh them and really we're talking about a multi-generational community center,"
+    "speaker": "Unknown Speaker",
+    "start": 2206.623,
+    "end": 2237.718,
+    "text": "But it is going to be here for generations and I'm confident that in 30 years our kids today or the grandkids of our -- the kids of our kids are going to be talking about this and have memories, I did this. Do you remember when we did this at the community center? It couldn't be in a better place near our signature park and downtown. It is a fantastic investment."
   },
   {
-    "speaker": "Amos",
-    "start": 2149.1199951171875,
-    "end": 2180.959991455078,
-    "text": "something for all ages, with first-class preventive health services. We're talking about a new third place for our youth and people of all ages. We're talking about outstanding facilities that the whole community can congregate in and enjoy. People from 8 to 80 to 90 or even 6 to 90 or what I mean. There's something in this for everyone and also just the preventive health, including serving our residents in Fairfax City, will be outstanding including"
+    "speaker": "Unknown Speaker",
+    "start": 2240.222,
+    "end": 2272.387,
+    "text": "The previous speaker mentioned led gold standard. That is a high standard for energy and water efficiency. If we hold to that as the previous speaker mentioned, we will significantly save in energy costs and other costs from stormwater management. I strongly support this and think it will change things for people for generations. our next speaker is jan jaworski."
   },
   {
-    "speaker": "Amos",
-    "start": 2180.959991455078,
-    "end": 2211.040008544922,
-    "text": "dentistry. It's going to improve quality of life for so many people in so many different ways. The costs are significant. We know we're going to see higher tax bills. We know that and sometimes when you're looking at the future, what are we going to have in the future here? It's uncertain. It's an investment but it's going to be here for generations and I'm confident that in 30 years our kids today or the grandkids"
+    "speaker": "Unknown Speaker",
+    "start": 2275.24,
+    "end": 2308.857,
+    "text": "good evening, mayor read and members of the city council. Janet jaworski, 3621 heritage lane, for the record. I also am here to lend my support to the willard sherwood. I do wear a number of hats in this city, as you know, these are my comments as a resident and not representing any organization or department for which I volunteer. Pete and I have lived here for 26 years. Honestly, I think the need for a community center has been part of the dialogue for the entire time that we've lived here."
   },
   {
-    "speaker": "Amos",
-    "start": 2211.040008544922,
-    "end": 2243.760009765625,
-    "text": "of our kids, the kids of our kids are going to be talking about this and have memories. I did this. Do you remember when we did this at the community center? It's going to be part of our community and it couldn't be in a better place right near our signature park and our downtown. So I think it's a fantastic investment. The previous speaker mentioned the LEED Gold and I just would just emphasize that I hope you stick to that LEED Gold standard. That's a really high standard for energy and water efficiency and if we hold to that as the previous speaker mentioned, we're going to"
+    "speaker": "Unknown Speaker",
+    "start": 2310.59,
+    "end": 2343.23,
+    "text": "In fact, during my six-year tenure on the planning commission from 2014 to 2020, including a three-year stint on prab, this was a huge topic of conversation. This is going back more than 10 years from now, the need for a full-service community center. I do support it for all the reasons you have been hearing from all of the other residents coming up to support it. I'm going to focus on something different although I am a member of the senior center. I'm going to try to highlight"
   },
   {
-    "speaker": "Amos",
-    "start": 2243.760009765625,
-    "end": 2278.3200073242188,
-    "text": "significantly save in energy costs and other costs from like stormwater management. So I think this is going to change people's experiences of the city for generations and I strongly support it. Thank you. Our next speaker is Janet Jaworski. Good evening Mayor Reed and members of the City Council. I also am here to, Janet Jaworski 3621 Heritage Lane for the record."
+    "speaker": "Unknown Speaker",
+    "start": 2343.492,
+    "end": 2374.956,
+    "text": "the benefits for adults of all ages. As a former competitive athlete, I think the walking track, the gym, the fitness center are going to be so key to both the physical and mental health of our residents. As we all know, mental health and physical health are intertwined and a happy, healthy, both mentally and physically population here is not something you can put a price tag on. As MR. Stewart said, we all know there is a price tag lved. We are mindful of that."
   },
   {
-    "speaker": "Amos",
-    "start": 2278.3200073242188,
-    "end": 2314.0,
-    "text": "I also am here to lend my support to the Willard Sherwood project. I do wear a number of hats in the city as you know so these are my comments as a resident and not representing any organization or department for which I volunteer. Pete and I have lived here for 26 years and honestly I think the need for a community center has been part of the dialogue for the entire time that we've lived here. In fact, during my six-year tenure on the Planning Commission from 2014 to 2020, including a three-year stint on PRAB,"
+    "speaker": "Unknown Speaker",
+    "start": 2376.158,
+    "end": 2407.322,
+    "text": "To me, the advantages far outweigh the disadvantages. I love the fact that it will be multigenerational. Our city motto is live life connected. This is a great way we can all connect and share experiences together. There will be a number of meeting rooms there, as you know. It will be a place to gather, exercise and really build community. Secondly, it is going to be walkable for a lot of us. I know that is not true for all neighborhoods, but for any"
   },
   {
-    "speaker": "Amos",
-    "start": 2314.0,
-    "end": 2346.239990234375,
-    "text": "this was a huge topic of conversation and this is going back you know more than 10 years from now. The need for a full service community center. So I do support it for all the reasons that you've been hearing from from all of the other residents coming up to support it. I'm going to focus on something a little bit different, although I am a member of the Senior Center, but I'm going to try to highlight some benefits for adults of all ages. As a former competitive athlete, I think the walking track, the gym, the fitness center"
+    "speaker": "Unknown Speaker",
+    "start": 2408.19,
+    "end": 2442.825,
+    "text": "neighborhood in daniels run woods it will be walkable. We can get a jump start in our workout routine by walking to and from. It is accessible to public transportation, which is wonderful. Lastly, our relationship with the county. I was so pleased to hear that you had a successful meeting with the county last week. That's fantastic. I appreciate the fact that there were no objections to the timeline and that is really great news. I think continuing to nurture"
   },
   {
-    "speaker": "Amos",
-    "start": 2346.239990234375,
-    "end": 2378.3200073242188,
-    "text": "are going to be so key to both the physical and mental health of our residents. As we all know, mental health and physical health are intertwined and a happy healthy both mentally and physically population here is really something that you cannot put a price tag on. I realize as Mr. Stewart said we all know there's a price tag involved. We're mindful of that, but to me the advantages far outweigh the disadvantages. I love the fact that it will be multi-generational."
+    "speaker": "Unknown Speaker",
+    "start": 2442.993,
+    "end": 2474.788,
+    "text": "that relationship with the county is huge and this is a great way to partne with the county moving forward. I ask for your yes vote on APRIL 28th to move this forward and I appreciate your time. Thank you. >> our next speaker is janice miller. a little shorter than janet. Good evening, ladies and gentlemen."
   },
   {
-    "speaker": "Amos",
-    "start": 2378.3200073242188,
-    "end": 2409.079999923706,
-    "text": "You know our city motto is Live Life Connected. I think this is a great way that we can all connect and share experiences together. There will be a number of meeting rooms there as you know, so it will be a place to gather exercise and really build community. Secondly, it's going to be walkable for a lot of us. I know that's not true for all neighbors. but for my neighborhood in Daniels run woods it will be walkable and we can get a jumpstart on our workout routine by walking to and from which I think will"
+    "speaker": "Unknown Speaker",
+    "start": 2475.191,
+    "end": 2507.88,
+    "text": "Mayor read, members of council, my name is janice miller and I'm here to support moving forward with the willard sherwood and I support councilmembers authorizing the eda to sell revenue bonds to finance this project. Questions have been raised recently regarding the economic advantages of this proposed project. Please consider the following. Willard sherwood would be a long-term economic anchor. It would strengthen downtown vitality due to it central"
   },
   {
-    "speaker": "Amos",
-    "start": 2409.079999923706,
-    "end": 2439.9599990844727,
-    "text": "be great it also is accessible for public transportation which is wonderful lastly our relationship with the county I was so pleased to hear that you had a successful meeting with the county last week that's fantastic I appreciate the fact that there were no objections to the timeline and that's really great news I think continuing to nurture that relationship with the county is huge and this is a great way that we can partner with the county"
+    "speaker": "Unknown Speaker",
+    "start": 2507.88,
+    "end": 2539.554,
+    "text": "location. It would generate consistent weekday activity that will support downtown retail and services. It would increase pedestrian activity in the downtown area. Reinforce old town as the hub for daily life and not solely as a spot for dining out, night life and/or special events. Willard sherwood would demonstrate capital leverage and fiscal efficiency. The capital costs are divided between the county and the city"
   },
   {
-    "speaker": "Amos",
-    "start": 2439.9599990844727,
-    "end": 2472.4400024414062,
-    "text": "moving forward so I would ask for your yes vote on April 28th to move this forward and I appreciate your time thank you our next speakers Janice Miller I'm a little shorter than Janet good evening ladies and gentlemen Mayor Reed members of council staff residents and guests my name is Janice Miller and I am"
+    "speaker": "Unknown Speaker",
+    "start": 2539.99,
+    "end": 2571.921,
+    "text": "based on programmatic usage. The city avoids land acquisition costs, demolition cost and site preparation costs. The shared infrastructure in parking reduce capital duplication. Energy efficient design lowers operating cost. Willard sherwood will support workforce and talent competitiveness. It will help attract and retain public and private sector employees and professional households. It will reinforce the city's identity as a service-rich"
   },
   {
-    "speaker": "Amos",
-    "start": 2472.4400024414062,
-    "end": 2503.720001220703,
-    "text": "here to support moving forward with the Willard Sherwood project and I support council members authorizing the EDA to sell revenue bonds to finance this project questions have been raised recently regarding the economic advantages of this proposed projects please consider the following Willard Sherwood would be a long-term economic economic anchor it would strengthen downtown vitality due to its central location it would generate consistent"
+    "speaker": "Unknown Speaker",
+    "start": 2571.921,
+    "end": 2604.585,
+    "text": "community. It will enhance the city's appeal relative to competing jurisdictions. Unlike market driven projects, the center provides enduring economic value across all business cycles. All these factors support office occupancy, mixed use development and economic security. Willard sherwood advances the city's strategic priorities in economic development goals,"
   },
   {
-    "speaker": "Amos",
-    "start": 2503.720001220703,
-    "end": 2536.5800018310547,
-    "text": "weekday activity that will support downtown retail and services it would increase pedestrian activity in the downtown area it would reinforce Old Town as a hub for daily life and not solely as a spot for dining out night life and or special events Willard Sherwood would demonstrate capital leverage and fiscal efficiency the capital costs are divided between the county and the city based on programmatic usage the city avoids land"
+    "speaker": "Unknown Speaker",
+    "start": 2605.321,
+    "end": 2636.485,
+    "text": "maximizes limited land resources and uses external funding to reduce city exposure, it strengthens downtown vitality, it supports quality of life, it builds on past city/county partnerships and establishes a model for future collaboration. In summary, providing the opportunity for enhanced business tax income this project will sustain economic value that will far exceed direct fiscal costs."
   },
   {
-    "speaker": "Amos",
-    "start": 2536.5800018310547,
-    "end": 2568.979995727539,
-    "text": "acquisition costs demolition costs and site preparation costs the shared infrastructure and parking reduce capital duplication energy efficient design lowers operating costs Willard Sherwood will support workforce and talent competitiveness it will help attract and retain public and private sector employees and professional households it will reinforce the city's identity as a service rich community it will enhance the city's appeal"
+    "speaker": "Unknown Speaker",
+    "start": 2638.154,
+    "end": 2672.254,
+    "text": "Many in the audience support willard sherwood. Will those who support this project, are willing to pay reasonable fees for usage and their tax money supporting capital costs and operating cost please stand up. our next speak is dale lath ex-n"
   },
   {
-    "speaker": "Amos",
-    "start": 2568.979995727539,
-    "end": 2602.5,
-    "text": "relatively relative to competing jurisdictions unlike mark market driven projects the center provides enduring economic value across all business cycles all these factors support office occupancy mixed-use development and economic security Willard Sherwood advances the city's strategic priorities and economic development goals it maximizes limited land resources and preserve green space through joint development it uses external funding to"
+    "speaker": "Unknown Speaker",
+    "start": 2679.963,
+    "end": 2710.492,
+    "text": "thank you. >> good evening. MADAM Mayor, city councilmembers, aabled -- assembled city staff. I would like to speak to two issues in my allotted time. The first is the willard sherwood. All of the good things that have been said about it, I support. I would add one other thing that I didn't hear yet and that is combining the community center and the center of the city I think just makes sense to me."
   },
   {
-    "speaker": "Amos",
-    "start": 2602.5,
-    "end": 2634.539993286133,
-    "text": "reduce city exposure it strengthens downtown downtown vitality it supports quality of life it builds on past city-county partnerships and establishes a model for future city-county collaboration in summary by providing the opportunity for enhanced business tax income this project will deliver sustained economic value that will ultimately far exceed its direct fiscal cost there are many in the audience who support Willard Sherwood with those who"
+    "speaker": "Unknown Speaker",
+    "start": 2713.662,
+    "end": 2745.626,
+    "text": "And it is a great opportunity to reinforce old town as a hub of daily activities. Which has been necessary for a long time. We have talked about that quite a bit. So I recommend that you support that issue. The other one has to do with the fairfax renaissance housing corporation. Which is an organization that provides the city of fairfax homeowners an attractive opportunity to upgrade and"
   },
   {
-    "speaker": "Amos",
-    "start": 2634.539993286133,
-    "end": 2682.5,
-    "text": "support this project are willing to pay reasonable fees for usage and approve of their tax dollars paying both capital cost and operating costs please stand up our next speaker is Dale Lucena thank you you good evening madam mayor city council members and assembled city staff I have"
+    "speaker": "Unknown Speaker",
+    "start": 2745.828,
+    "end": 2777.724,
+    "text": "improve the qualities of the city's residential neighborhoods. Over the past 23 years of its existence, it has provided funding to 290 improvement loans and has not lost a single penny to a bad loan. Plus the city gets back money from the incorporation program due to the permanent improvement"
   },
   {
-    "speaker": "Amos",
-    "start": 2682.7000122070312,
-    "end": 2718.2999877929688,
-    "text": "I'd like to speak to just two issues with my in my a lot of time the first is the Willard Community Center all the good things that have been said about it I support I would add one other thing that I didn't hear yet and that is combining the community center in the center of the city I think is it just makes sense to me and it's a great opportunity to reinforce old town as a hub of daily activities which has been necessary for a long time and we've"
+    "speaker": "Unknown Speaker",
+    "start": 2779.128,
+    "end": 2811.458,
+    "text": "center made and thus the tax that goes with that permanent improvement goes with the home. okay. And so when the increase comes for that, the city receives a return on its investment. And it continues and continues. So this program was not funded last year and now it can't do any loans at all because they don't have funds for it."
   },
   {
-    "speaker": "Amos",
-    "start": 2718.2999877929688,
-    "end": 2748.3800048828125,
-    "text": "talked about that quite a bit so I recommend that you support the that issue the other one has to do with the Fairfax Renaissance Housing Corporation which is an organization that provides the city of Fairfax homeowners an attractive opportunity to upgrade and improve the quality of the city's residential neighborhoods over the past 23 years of its existence it has"
+    "speaker": "Unknown Speaker",
+    "start": 2812.628,
+    "end": 2844.894,
+    "text": "I strongly urge that this city council fund it for next year so that we can continue this program because it returns money to you and the person, the people that get the improvements like it a lot, believe me. I thank you for your kind attention. our next speaker is rebecca raider. >> good evening."
   },
   {
-    "speaker": "Amos",
-    "start": 2748.3800048828125,
-    "end": 2785.220001220703,
-    "text": "provided funding to 290 improvement loans and has not lost a single penny to a bad loan plus the city gets back money from the housing corporation program due to the permanent improvements that are made and thus the tax that goes with that permanent improvement goes with the home okay and so when the increase comes"
+    "speaker": "Unknown Speaker",
+    "start": 2845.28,
+    "end": 2879.494,
+    "text": "Thank you for the opportunity to speak with you tonight. My name is becky raider. I live 4141 evergreen drive. Been there for 31 years. I'm a current member of the fairfax village in the city advisory board. I spoke to you last month in overall support of the willard sherwood health center and the community center. I'm here today to briefly express how the village in the city could enhance services as a result of the new facility. I'm mentioning a few"
   },
   {
-    "speaker": "Amos",
-    "start": 2785.220001220703,
-    "end": 2817.3800048828125,
-    "text": "for that and the city which receives a return on its investment and it continues and continues so this program was not funded last year and now we can't do any loans at all because they don't have funds for it and so I strongly urge that this City Council fund it for next year so that we can continue this program because it returns money to you and the person is that the"
+    "speaker": "Unknown Speaker",
+    "start": 2879.628,
+    "end": 2911.794,
+    "text": "possibilities today. As we move forward the advisory board members, village members and volunteers can brainstorm other possibilities for expanding services that directly support older adults and those with disabilities beyond what is currently available. We will also work with the willard health center and the green acres staff to create new programs, which could include, and I'm just listing a few, intergenerational activities such as tutoring or reading to the children in the childcare center."
   },
   {
-    "speaker": "Amos",
-    "start": 2817.3800048828125,
-    "end": 2849.5799865722656,
-    "text": "people that get the improvements like it a lot believe me I thank you for your kind attention our next speakers Rebecca Rader good evening thank you for the opportunity to speak with you tonight my name is Becky Rager I live at 4141 Evergreen Drive been there for 31 years"
+    "speaker": "Unknown Speaker",
+    "start": 2915.465,
+    "end": 2946.428,
+    "text": "Working on shared craft projects in dedicated spaces where projects could remain until completed. Growing and maintaining a roof top herb garden and creating a gardening circle. Working with the neighboring willard health center to have a memory cafe once a month for people who are in the early stages of cognitive impairment and their caregivers can meet, socialize and trade ideas. Developing workshops designed to improve memory and cognitive"
   },
   {
-    "speaker": "Amos",
-    "start": 2849.5799865722656,
-    "end": 2882.2999877929688,
-    "text": "I'm a current member of the Fairfax Village in the City Advisory Board I spoke to you last month in overall support of the Willard Sherwood Health Center and the Community Center I'm here today to briefly express how the village in the city could enhance services as a result of the new facility I'm mentioning a few possibilities today as we move forward the Advisory Board members village members and volunteers can brainstorm other possibilities for"
+    "speaker": "Unknown Speaker",
+    "start": 2946.595,
+    "end": 2977.624,
+    "text": "function. Creating a digital storytelling club where seniors use technology and record their life stories. Conducting a vintage hat showcase. Where members bring in vintage pieces and show them and discuss the stories behind them. All of these could be done without additional staffing costs as members are not just consumers, they are staff. Our village consists of members"
   },
   {
-    "speaker": "Amos",
-    "start": 2882.2999877929688,
-    "end": 2915.1400146484375,
-    "text": "expanded services that directly support older adults and those with disabilities beyond what is currently available we will also work with the Willard Health Center and the Green Acres staff to create new programs which could include and I'm just listing a few intergenerational activities such as tutoring or reading to the children in the child care center working on shared craft projects in dedicated spaces where projects could remain until completed"
+    "speaker": "Unknown Speaker",
+    "start": 2979.61,
+    "end": 3011.56,
+    "text": "and volunteers with an extensive variety of backgrounds and experience. For example, a member might receive a ride to the doctor one day and facilitate a workshop the next. This creating a sustainable model for future programs without additional costs. I believe the new willard sherwood with all the infrastructure enhancements will provide is necessary to continue to deliver modern, equitable services to the entire community. Thank you. >> our next speaker is alan"
   },
   {
-    "speaker": "Amos",
-    "start": 2915.1400146484375,
-    "end": 2948.9000244140625,
-    "text": "growing and maintaining a rooftop or the garden and creating a gardening circle working with the neighboring Willard Health Center to have a memory cafe once a month where people who are in the early stages of cognitive impairment and their caregivers can meet socialize and trade ideas developing workshops designed to improve memory and cognitive function creating a digital storytelling club where seniors use technology and record their life stories and conducting a"
+    "speaker": "Unknown Speaker",
+    "start": 3019.768,
+    "end": 3050.797,
+    "text": "glen. thank you. Alan glen. Long time resident of the city and now a resident just outside the city. I wanted to speak tonight also in favor of the project the willard health center, sherwood center. Both on my wife's behalf, judy blanchard, and myself, we are both strongly in support of it. We have benefitted from some of the services over the years."
   },
   {
-    "speaker": "Amos",
-    "start": 2948.9000244140625,
-    "end": 2980.97998046875,
-    "text": "vintage hat and fashion showcase where members bring in their vintage collections and show them and then discuss the stories behind them all of these proposed suggestions could be done without additional staffing costs as members are not just consumers they are staff our village consists of members and volunteers with an extensive variety of backgrounds and experience for example a member might receive a ride to the doctor one day and"
+    "speaker": "Unknown Speaker",
+    "start": 3051.967,
+    "end": 3084.598,
+    "text": "Our kids were vaccinated at the health center in their early childhood period. We've had other counseling and services over the years. We've both of us have used the senior center and continue to be members there. I think the expanded opportunities for childcare and public health will be offered and available through this project, very much in demand. To me, this project is one of a"
   },
   {
-    "speaker": "Amos",
-    "start": 2981.0599975585938,
-    "end": 3017.579999923706,
-    "text": "facilitate a workshop the next this creates a sustainable model for future programs without additional cost I believe the new Willard Sherwood facility with all the infrastructure enhancements will provide is necessary to continue to deliver modern equitable full services for the entire community. Thank you. Our next speaker is Alan Glenn. Thank you."
+    "speaker": "Unknown Speaker",
+    "start": 3085.267,
+    "end": 3118.365,
+    "text": "number that I consider crown jewels in the community. The city partners with the county in coming up with a wonderful facility to serve everyone, including the public schools where both of our kids went and the public library that we've used and the health centers. Prsonally, I think you all have a difficult job as elected"
   },
   {
-    "speaker": "Amos",
-    "start": 3017.579999923706,
-    "end": 3048.4799995422363,
-    "text": "Alan Glenn, long time resident of the city and now a resident just outside the city. I wanted to speak tonight also in favor of the project that Willard Health Center, Sherwood Center. Both on my wife's behalf, Judy Blanchard and myself, we're strongly in support of it. We've benefited from some of the services over the years. Our kids were vaccinated at the health center"
+    "speaker": "Unknown Speaker",
+    "start": 3118.467,
+    "end": 3152.333,
+    "text": "leaders to a two-year term where you have to consider the strategic needs of the community and balance them against costs and budgetary issues, but I think in this case the project will solve a need to update and replace the senior center that is now at green acres and provide better health and public services and childcare and early childhood health for residents. The nice thing about this is it serves everybody in the"
   },
   {
-    "speaker": "Amos",
-    "start": 3048.4799995422363,
-    "end": 3079.400001525879,
-    "text": "in their early childhood period. We've had other counseling and services over the years. We've both of us have used the senior center and continue to be members there. I think the expanded opportunities for childcare and public health that'll be offered and available through this project are very much in demand. To me, this project is one of a number"
+    "speaker": "Unknown Speaker",
+    "start": 3154.603,
+    "end": 3185.366,
+    "text": "community, regardless of age, income, strata or which neighborhood you live in. To me, it is definitely needed and I strongly support it. Thank you very much. Oh, as long as I have 30 seconds left, let me just say MR. Lustina, the previous speaker, I would like to endorse his comments. I worked on the housing renaissance corporation board. One of the three city boards I had the privilege to serve on"
   },
   {
-    "speaker": "Amos",
-    "start": 3079.400001525879,
-    "end": 3109.4599990844727,
-    "text": "that I consider crown jewels in the community where the city partners with the county in coming up with a wonderful facility to serve everyone, including the public schools where both our kids went and the public library that we've used and the health centers. Personally, I think you all have a difficult job"
+    "speaker": "Unknown Speaker",
+    "start": 3185.601,
+    "end": 3217.131,
+    "text": "over the years. I think that board and the funding for the city served an important need to maintain and upgrade existing housing stock in the city. Thank you. our next speaker is william pitchford. >> good evening. Thank you for the opportunity to speak this this evening."
   },
   {
-    "speaker": "Amos",
-    "start": 3109.4599990844727,
-    "end": 3142.6199951171875,
-    "text": "as elected leaders to a two-year term where you have to consider the strategic needs of the community and balance them against costs and budgetary issues. But I think in this case, the project will serve a need to re-update and replace the senior center that's now at Green Acres and provide better health and public services and childcare and early childhood health for residents."
+    "speaker": "Unknown Speaker",
+    "start": 3217.733,
+    "end": 3251.99,
+    "text": "I live on school street in the city of fairfax. In two weeks at the APRIL 28th city koups council meeting you will be asked to approve a resolution to proceed with the willard sherwood center and a resolution for the economic development authority to issue bonds to finance such capital projects. I'm asking you to approve both resolutions, as it is the best option for the citizens of fairfax city and the city's overall economic and infrastructure development."
   },
   {
-    "speaker": "Amos",
-    "start": 3142.6199951171875,
-    "end": 3173.740005493164,
-    "text": "The nice thing about this is it serves everybody in the community, regardless of age, income, strata, or which neighborhood you live in. So to me, it's definitely needed and I strongly support it. Thank you very much. Oh, as long as I've got 30 seconds left, let me just say Mr. Lustina, who was the previous speaker, I would like to endorse his comments. I served on the board with him for five years of the Housing Renaissance Corporation."
+    "speaker": "Unknown Speaker",
+    "start": 3252.569,
+    "end": 3286.434,
+    "text": "I would like to offer a few points why you should approve these two measures. As you have heard throughout this evening, the citizens of pharynx city are in desperate need of a community center that meets their needs. Two years of design review with broad support of the project -- design reviews and approvals from previous and current city council. This is probably the most vetted capital improvement project this"
   },
   {
-    "speaker": "Amos",
-    "start": 3173.740005493164,
-    "end": 3207.740005493164,
-    "text": "That was one of three city boards that I've had the privilege to serve on over the years. And I think that board and the funding from the city served a important need to maintain and upgrade existing housing stock in the city. Thank you. Our next speaker is William Pitchford. Thank you. Good evening and thank you"
+    "speaker": "Unknown Speaker",
+    "start": 3286.602,
+    "end": 3317.333,
+    "text": "city has undertaken. The new willard sherwood community center will be a joint venture product with fairfax county, the cost of building is shared reducing significantly the burden to the city taxpayers. This is a generational opportunity for the citizens of the city of fairfax. Another opportunity like this will most likely not come around again in our life time. The current green acres facility is completely inadequate to meet the community's current and"
   },
   {
-    "speaker": "Amos",
-    "start": 3207.740005493164,
-    "end": 3238.0599975585938,
-    "text": "for the opportunity to speak this evening. My name is William Pitchford. I live on School Street in the city of Fairfax. In two weeks at the April 28th city council meeting, you will be asked to approve a resolution to proceed with the Willard Sherwood Health and Community Center Project and a resolution for the Economic Development Authority to issue bonds to finance such capital projects. I'm asking you to approve both resolutions"
+    "speaker": "Unknown Speaker",
+    "start": 3317.333,
+    "end": 3348.464,
+    "text": "future needs. The facility was built in 1961 as an elementary school. That was before schools had air conditions. It was retired in 2000. It was never intended to be a community or senior center. The building is well beyond its useful life span. It is located in the center of a residential community, has no public transportation access, poor ada compliance, and a dangerous parking lot,"
   },
   {
-    "speaker": "Amos",
-    "start": 3238.0599975585938,
-    "end": 3271.0599975585938,
-    "text": "as it is the best option for the citizens of Fairfax City and the city's overall economic and infrastructure development. I'd like to offer a few points on why you should approve these two measures. As you have heard throughout this evening, the citizens of Fairfax City are in desperate need for a community center that meets their needs and have expressed this with broad support for the project through two years of design reviews with broad support for the project, oh, with two years of design reviews"
+    "speaker": "Unknown Speaker",
+    "start": 3348.464,
+    "end": 3379.593,
+    "text": "especially at night. I had the honor of attending a fairfax city citizens for smarter growth meeting at green acres in FEBRUARY of this year. Like most community service organizations, this is where they have meetings. And just like this council meeting, it started at 7:00 P.M. Unlike the normal council meetings it ended at the decent hour of 8:30, which was still well past sunset."
   },
   {
-    "speaker": "Amos",
-    "start": 3271.0599975585938,
-    "end": 3301.6600036621094,
-    "text": "and approvals from previous and current city council. This is probably the most vetted capital improvement project the city has undertaken. The new Willard Sherwood Community Center will be a joint venture project with Fairfax County. The cost of building and operating the facility is shared, significantly reducing the burden to the city taxpayers. This is a generational opportunity for the citizens of Fairfax. Another opportunity like this"
+    "speaker": "Unknown Speaker",
+    "start": 3380.396,
+    "end": 3412.593,
+    "text": "When leaving the meeting I was absolutely shocked to walk out to a dark parking lot. Having to traverse a narrow steep staircase to find my car. I had to imagine whoa someone 10 to 15 years older than me would do. Basically they would stop participating after dark. I challenge you to hold an official city meeting at green acres. It doesn't have to be the next"
   },
   {
-    "speaker": "Amos",
-    "start": 3301.6600036621094,
-    "end": 3332.6199951171875,
-    "text": "will most likely not come around again in our lifetime. The current Green Acres facility is completely inadequate to meet the community's current and future needs. The facility was built in 1961 as an elementary school. That was before schools had air conditioning. It was retired in 2000. It was never intended to be a community or senior center. The building is well beyond its useful lifespan."
+    "speaker": "Unknown Speaker",
+    "start": 3413.429,
+    "end": 3446.27,
+    "text": "council meeting, but it could be a planning commission or economic development authority meeting. In conclusion, I ask you to approve the two resolutions at the APRIL 28th council meeting. Thank you. our last speaker is toby sorensen. good evening, toby sorensen, spring lake terrace."
   },
   {
-    "speaker": "Amos",
-    "start": 3332.6199951171875,
-    "end": 3362.6400146484375,
-    "text": "It's located in the center of a residential community, has no public transportation access, poor ADA compliance, and a dangerous parking lot, especially at night. I had the honor of attending a Fairfax City Citizens for Smarter Growth meeting at Green Acres in February of this year. Like most community service organizations, this is where they have meetings. And just like this council meeting, it started at 7 p.m."
+    "speaker": "Unknown Speaker",
+    "start": 3447.863,
+    "end": 3481.28,
+    "text": "Mayor read and councilmembers the reason I'm here to speak once again about supporting the willard sherwood center because many of us do not if you are going to vote to fund it. If you are still undecided to vote, please consider the following. If you vote for the funding there are many things we do know. We know what the city's share of the joint project will be thanks to the guaranteed maximum pricing contract. We know what the operating costs will be thanks to the research done by the project consultants."
   },
   {
-    "speaker": "Amos",
-    "start": 3363.480010986328,
-    "end": 3394.980010986328,
-    "text": "Unlike the normal council meetings, it ended at the decent hour of 8.30, which was still well past sunset. When leaving, when leaving the meeting, I was absolutely shocked to walk out to a darkened parking lot. Having to reverse the narrow, steep staircase to find my car, I tried to imagine what someone 10 to 15 years older than I would do. Basically, they would stop participating in their community after dark."
+    "speaker": "Unknown Speaker",
+    "start": 3482.598,
+    "end": 3513.61,
+    "text": "We know the basic level of class and rental fees that cover operating expenses, the higher level that cover operating expenses plus provide a surplus put toward the yearly bond payment. We know what the bond payment will be if the city goes to bond this string. We will be able to keep a senior center in a modern facility with better services. We know we would be able to keep a much needed preschool in the city."
   },
   {
-    "speaker": "Amos",
-    "start": 3395.9400024414062,
-    "end": 3431.0599975585938,
-    "text": "For those of you who have any reservations about the Neifert Project, I would challenge you to hold an official city meeting at Green Acres. It doesn't have to be the next council meeting, but it could be a planning commission or economic development authority meeting. In conclusion, I'm asking you to approve the two resolutions at the April 28th council meeting. Thank you. Our last speaker is Toby Sorenson. Thank you."
+    "speaker": "Unknown Speaker",
+    "start": 3515.331,
+    "end": 3547.628,
+    "text": "We know we will have a well located community center that will draw people and businesses to the downtown area. We know we will have continued access to important health department services in the middle of the city. Finally, we know when this project will be completed. If you do not vote to fund willard sherwood, there are many things we will not know. Would we begin again to create a plan to build or rebuild a community center? How much would that new planning cost? Would a new project be located"
   },
   {
-    "speaker": "Amos",
-    "start": 3434.6199951171875,
-    "end": 3468.3800048828125,
-    "text": "Good evening. Toby Sorenson, 10137 Spring Lake Terrace. Mayor Reed and council members, the reason I am once again here to speak about supporting the Willard Sherwood Health and Community Center is because many of us still do not know whether you are going to vote to fund it on April 28th or not. If any of you are still undecided to vote, please consider the following. If you vote for the funding, there are many things we do know. We know what the city's share of the joint project will be thanks to the guaranteed maximum pricing contract."
+    "speaker": "Unknown Speaker",
+    "start": 3547.93,
+    "end": 3580.328,
+    "text": "at green acres? Would a new project be located elsewhere? Where would that be and how much would it cost? How far into the future will we be looking and how much will the cost of bonds be at that time? If we do nothing, will we lose the senior center and the preschool? Since the city council and the county board of supervisors signed a letter of understanding for full design and construction of the full project, would the county expect the city to compensate them for the money"
   },
   {
-    "speaker": "Amos",
-    "start": 3468.3800048828125,
-    "end": 3498.6199951171875,
-    "text": "We know what the operating costs will be thanks to the research done by the project consultants. We know the basic level of class and rental fees that will cover operating expenses. We know the higher level of class and rental fees that will cover operating expenses plus provide a surplus that can be put toward the yearly bond payment. We know what the bond payment will be if the city goes to bond this spring. We know that we will be able to keep a senior center"
+    "speaker": "Unknown Speaker",
+    "start": 3580.863,
+    "end": 3612.495,
+    "text": "they have spent on the project so far? Would the county expect the city to compensate them for the money they need to begin their planning and design process anu? Would the county choose a different location for the health center, one that would not be in in city? If the county chose a different location, what would they decide to do with the land they own next to the sherwood center? We want to continue to have a senior center and preschool and community spaces for our residents as well as have a health department located within"
   },
   {
-    "speaker": "Amos",
-    "start": 3498.6199951171875,
-    "end": 3528.9000244140625,
-    "text": "and have it located in a modern facility with better services. We know that we will be able to keep a much needed preschool in the city. We know that we will have a well-located community center that will draw people and businesses to the downtown area. We know that we will have continued access to important health department services right in the middle of the city. Finally, we know when this project will be completed. If you do not vote to fund Willard Sherwood,"
+    "speaker": "Unknown Speaker",
+    "start": 3612.495,
+    "end": 3645.693,
+    "text": "he city. If you believe you have a hard decision to make about funding willard sherwood, think also about the really hard decisions you will have to make if you don't vote to fund it. Thank you for listening. we can move to the consent agenda. >> okay. Before we move forward, I want to take a moment to briefly address consent agenda items 6f-6k and 6m."
   },
   {
-    "speaker": "Amos",
-    "start": 3528.9000244140625,
-    "end": 3559.9400024414062,
-    "text": "there are many things we will not know. Would we begin again to create a plan to build or rebuild a community center? How much would that new planning cost? Would a new project be located at Green Acres? Would a new project be located elsewhere? Where would that be and how much would it cost? How far into the future will we be looking and how much will the cost of bonds be at that time? If we do nothing, will we lose the senior center"
+    "speaker": "Unknown Speaker",
+    "start": 3646.595,
+    "end": 3678.126,
+    "text": "These items are administrative in nature and represent the first step in a multistep process. What we refer to as the introduction phase. This step is intended to formally notify our residents and business community of the city's proposed actions. There will be a full opportunity for public input at the next stage, cl is the public hearing scheduled for our next regular meets on APRIL 28th. Following that, the third and final step will be council"
   },
   {
-    "speaker": "Amos",
-    "start": 3559.9400024414062,
-    "end": 3591.780029296875,
-    "text": "and the preschool? Since the city council and the county board of supervisors signed a letter of understanding for full design and construction of the joint project, would the county expect the city to compensate them for the money they have spent on the project so far? Would the county expect the city to compensate them for the money it will need to begin their planning and design process anew? Would the county choose a different location for the health center, one that would not be in the city?"
+    "speaker": "Unknown Speaker",
+    "start": 3678.627,
+    "end": 3709.623,
+    "text": "consideration and action as part of budget adoption night on MAY 5th. So, again, tonight's action is simply to move these items forward in the process and ensure the community is informed and has the opportunity to participate. Are there any questions on any of the items on the consent agenda from the dais? Seeing none, is there a motion? I move to approve the consent"
   },
   {
-    "speaker": "Amos",
-    "start": 3591.780029296875,
-    "end": 3623.079999923706,
-    "text": "If the county chose a different location, what would they decide to do with the land that they own next to the Sherwood Center? We want to continue to have a senior center and a preschool and community spaces for our residents, as well as to have a health department located within the city. If you believe you have a hard decision to make about funding Willard Sherwood, think also about the really hard decisions you will have to make if you don't vote to fund it. Thank you for listening."
+    "speaker": "Unknown Speaker",
+    "start": 3711.76,
+    "end": 3748.395,
+    "text": "agenda items 6a-m as presented and the accompanying motions in the staff reports. >> is there a second? >> second. we have a motion made by councilmember stacey hardy-chandler and seconded by councilmember peterson. A roll call vote. >> councilmember Mcquillen. aye. >> councilmember bates. >> aye. councilmember peterson. >> aye. councilmember hardy-chandler. >> aye. councilmember hall. >> aye. councilmember amos. >> aye. Motion passes unanimously, we"
   },
   {
-    "speaker": "Amos",
-    "start": 3623.079999923706,
-    "end": 3653.4799995422363,
-    "text": "We can move to the consent agenda. OK, before we move forward, I want to take a moment to briefly address consent agenda items 6F through 6K and 6M. These items are administrative in nature and represent the first step in a multi-step process, what we refer to as the introduction phase. This step is intended to formally"
+    "speaker": "Unknown Speaker",
+    "start": 3748.43,
+    "end": 3778.827,
+    "text": "will move considerations of appoints to boards, commission and advisory committees. commission of the arts melissa miller the remainder of a three year term through JULY 9, 2027, kenneth craftcheck for a remainder of a third year term, appoint ann morrison for a three-year term extending through APRIL 24, 2029. Reappoint sharon clark channing"
   },
   {
-    "speaker": "Amos",
-    "start": 3653.4799995422363,
-    "end": 3685.1600036621094,
-    "text": "notify our residents and business community of the city's proposed actions. There will be a full opportunity for public input at the next stage, which is the public hearing scheduled for our next regular meeting on April 28. Following that, the third and final step will be council consideration and action as part of budget adoption night on May 5. So again, tonight's action is simply to move these items forward in the process"
+    "speaker": "Unknown Speaker",
+    "start": 3779.595,
+    "end": 3810.358,
+    "text": "extending through FEBRUARY 11, 2029. Continuum of care appoint james gillespie for a two-year period extending APRIL, 2028. Environmental sustainability committee, appoint lauren oliver for a remainder of a three-year term extending FEBRUARY 2028. David fleischer for a three year term through APRIL 2029. And exclude nova parks appointment until MAY 12th. >> is there a second?"
   },
   {
-    "speaker": "Stacy",
-    "start": 3685.1600036621094,
-    "end": 3716.0800018310547,
-    "text": "and ensure the community is informed and has the opportunity to participate. Are there any questions on any of the items on the consent agenda from the dais? Seeing none, is there a motion? I move to approve the consent agenda items 6A through M as presented and the accompanying motions in the staff reports. Is there a second? Second. We have a motion made by Council Member Stacy Hardy-Chandler"
+    "speaker": "Unknown Speaker",
+    "start": 3811.293,
+    "end": 3843.993,
+    "text": "second. >> there has been a motion and a second. Is there discussion on this motion? >> yes. >> councilmember peterson. MAY I ask why the final two appointments are being pulled? >> councilmember hardy-chandler. there has been additional clarity on procedure that allows more input while safeguarding conflict of interest and I want additional time for that to happen. >> can you clarify that? I'm not following that. >> each candidate can be"
   },
   {
-    "speaker": "Peterson",
-    "start": 3716.0800018310547,
-    "end": 3748.520004272461,
-    "text": "and seconded by Council Member Peterson, a roll call vote. Council Member McQuillan? Aye. Council Member Bates? Aye. Council Member Peterson? Aye. Council Member Hardy-Chandler? Aye. Council Member Hall? Aye. Council Member Amos? Aye. Motion passed unanimously. We'll go to appointments to boards, commissions, and advisory committees. Is there a motion to approve the appointments to boards, commissions, and advisory commissions? Council Member Hardy-Chandler? I move to appoint the following applicants. Commission on the Arts, appoint Melissa Miller"
+    "speaker": "Unknown Speaker",
+    "start": 3844.294,
+    "end": 3874.924,
+    "text": "considered individually and while I would recuse myself from one of the candidates, I do want to have input on the other candidates. are you saying that you are going to vote on slots on which your husband is an applicant? >> I'm going to -- individual people are on their own merit. I would like to have input on the individuals who are candidates on their own merit. >> so we have three applicants for two slots, one of whom is your husband. >> right."
   },
   {
-    "speaker": "Peterson",
-    "start": 3748.520004272461,
-    "end": 3779.3200073242188,
-    "text": "for a remainder of a three-year term extending through July 9, 2027. Appoint Kenneth Krafchick for a remainder of a three-year term extending through October 26, 2028. Appoint Ann Morrison for a three-year term extending through April 14, 2029. Reappoint Sharon Clark-Chang for a three-year term extending through February 11, 2029. Continuum of Care, appoint James Gillespie"
+    "speaker": "Unknown Speaker",
+    "start": 3875.625,
+    "end": 3907.388,
+    "text": "under state law, for jurisdictions that follow it, that is normally considered a conflict of interest. >> I would recuse myself as I have historically on my husband. >> will you recuse yourself from the slot in which your husband is one of the applicants? it is my understanding that there is appropriate input that can be made on other candidates for this position and I would like to have that input. okay, so the simple question"
   },
   {
-    "speaker": "Peterson",
-    "start": 3779.3200073242188,
-    "end": 3811.199996948242,
-    "text": "for a two-year term extending through April 14, 2028. Environmental Sustainability Committee, appoint Lauren Oliver for a remainder of a three-year term extending through February 11, 2028. Appoint David Fleischer for a three-year term extending through April 14, 2029. And exclude Nova Park's appointments until May 12. Is there a second? Second. There has been a motion and a second."
+    "speaker": "Unknown Speaker",
+    "start": 3908.959,
+    "end": 3939.155,
+    "text": "here is whether you are going to be voting on a slot -- there's two slots with three applicants where your husband is an applicant. Because normally, under state law, for jurisdictions that follow it, this is regarded as a clear conflict of interest. each slot is independent. >> okay. they are not the same slot. >> okay. I think that's -- let me recognize councilmember Mcquillen."
   },
   {
-    "speaker": "Peterson",
-    "start": 3811.199996948242,
-    "end": 3843.4400024414062,
-    "text": "Is there discussion on this motion? Yes. Council Member Peterson? May I ask why the final two appointments are being pulled? Council Member Hardy-Chandler? There has been additional clarity on procedure that allows for input while safeguarding conflict of interest. And I want additional time for that to happen. Can you clarify that? I'm not following that. Each candidate can be considered individually. And while I would recuse myself from one of the candidates,"
+    "speaker": "Unknown Speaker",
+    "start": 3939.788,
+    "end": 3970.25,
+    "text": "our residents applied for these roles in good faith. They interviewed in good faith. Council discusses these applications through the established process. We should respect the process, vote and move forward. That is how I feel. >> councilmember hall. I also think that we have taken a very, very long time,"
   },
   {
-    "speaker": "Peterson",
-    "start": 3843.4400024414062,
-    "end": 3874.3599853515625,
-    "text": "I do want to have input on other candidates. Are you saying that you are going to vote on slots in which your husband is an applicant? Individual people are on their own merit. And I would like to have input on the individuals who are candidates on their own merit. So we have three applicants for two slots, one of whom is your husband. Right. Under state law for jurisdictions that follow it,"
+    "speaker": "Unknown Speaker",
+    "start": 3970.352,
+    "end": 4003.384,
+    "text": "especially on this one item. There are two people that are currently serving in this role who are now one year beyond their designated term. And I do not and have not thought that it was appropriate that they continue to serve simply because this council can't come to an agreement. And I think we had, what I thought, was a very productive meeting a few weeks ago where we came out with two names that you can see on the motion. And I understand that maybe you"
   },
   {
-    "speaker": "Peterson",
-    "start": 3874.3599853515625,
-    "end": 3907.0799865722656,
-    "text": "that's normally considered a conflict of interest. I would recuse myself, as I have historically, on the vote for my husband. For the slot. Will you recuse yourself from a slot in which your husband is one of the applicants? It is my understanding that there is appropriate input that can be made on other candidates for this position. And I would like to have that input. OK. So the simple question here is whether you are going to be voting on a slot."
+    "speaker": "Unknown Speaker",
+    "start": 4004.688,
+    "end": 4038.386,
+    "text": "have a different thought now that you understand maybe you can vote on a different spot or a different thing, but I still think that this is veries mess y y s ies -- very messy. And we are in a situation with a split vote. Unfortunately, math is often used against certain members of council when it comes to making decisions on other things. Many high-density housing options have passed simply"
   },
   {
-    "speaker": "Mcquillan",
-    "start": 3907.0799865722656,
-    "end": 3939.6799926757812,
-    "text": "There's two slots with three applicants where your husband is an applicant. Because normally, under state law, for jurisdictions that follow it, this is regarded as a clear conflict of interest. Each slot is independent. OK. And they're not the same slot. OK. I think that's. Let me recognize Council Member McQuillan. Our residents applied for these roles in good faith."
+    "speaker": "Unknown Speaker",
+    "start": 4038.621,
+    "end": 4071.519,
+    "text": "because there is a vote and it is split and the mayor can break a tie. I do not agree with that in its own merit. And I simply do not agree with it now. >> thank you. I would point out that the first 63 years of this city's history the mayor was not excluded from the discussions or appointments to boards and commissions until this council. Whether I have feelings about that or not, this council decided that. Which is why we have an even number of people voting on appointments."
   },
   {
-    "speaker": "Hall",
-    "start": 3939.6799926757812,
-    "end": 3971.480010986328,
-    "text": "They interviewed in good faith. Council discusses these applications through the established process. We should respect the process, vote, and move forward. That's how I feel. Thank you. Council Member Hall. I also think that we have taken a very, very long time, especially on this one item. There are two people that are currently serving in this role who are now one year"
+    "speaker": "Unknown Speaker",
+    "start": 4072.188,
+    "end": 4102.84,
+    "text": "Up until this council, as far as the mayors I have spoken with, this was not an issue. There are issues on many fronts. Councilmember amos. >> so when the initial discussion happened in MARCH I was clearly not here for that towards the end since I was out of the country. I got back and I understand there was supposed to be a recusal. For me there is only one question that needs to be answered. That would probably come from our city attorney."
   },
   {
-    "speaker": "Hall",
-    "start": 3971.480010986328,
-    "end": 4004.959991455078,
-    "text": "beyond their designated term. And I do not and have not thought that it was appropriate that they continue to serve simply because this council can't come to an agreement. And I think we had what I thought was a very productive meeting a few weeks ago, where we came out with two names that you can see on the motion. And I understand that maybe you have a different thought now, that you understand maybe you can vote on a different spot"
+    "speaker": "Unknown Speaker",
+    "start": 4104.653,
+    "end": 4138.487,
+    "text": "Is that, per your review, should councilmember hardy-chandler been included in the vote for two of the appointees, excluding her husband? so one of the nice things about the state-local government conflict of interest act that decision is left to the individual member. I have my opinions as to whether it is appropriate for a member to vote for a position in which his or her husband, family member is a candidate."
   },
   {
-    "speaker": "Hall",
-    "start": 4004.959991455078,
-    "end": 4036.720001220703,
-    "text": "or different thing. But I still think that this is very messy. And I think that we are in a situation where we are at a split vote. And unfortunately, math often is used against certain members of council when it comes to making decisions on other things. There have been many high-density housing options that have passed simply because there is a vote, and it is split, and the mayor can break a tie."
+    "speaker": "Unknown Speaker",
+    "start": 4140.289,
+    "end": 4171.618,
+    "text": "I will say I think the answer to that question is not really a legal one. So councilmember hardy-chandler is taking her own counsel on this and that is all I will say on that. >> thank you. to follow up on that, I completely understand this is frustrating circumstance and has been for some time. Ultimately, due to policy and procedure and the existing rules it would be hardy-chandler would be necessary to push it to MAY"
   },
   {
-    "speaker": "Hall",
-    "start": 4036.720001220703,
-    "end": 4067.6000061035156,
-    "text": "And I do not agree with that in its own merit. And I simply do not agree with it now. Thank you. And I would point out that the first 63 years of this city's history, the mayor was not excluded from the discussions or appointments to boards and commission until this council. And so whether I have feelings about that or not, this council decided that, which is why we have an even number of people voting on these appointments. Up until this council, as far as the mayors that I have spoken with previously,"
+    "speaker": "Unknown Speaker",
+    "start": 4171.854,
+    "end": 4204.787,
+    "text": "12 and have additional discussion. councilmember Mcquillen. I have questions for you MR. Lubkeman. the appointments to boards and commissions are made by the body? can you confirm that the discussions occur in closed"
   },
   {
-    "speaker": "Amos",
-    "start": 4067.6000061035156,
-    "end": 4100.6400146484375,
-    "text": "this was not an issue. So there are issues here. For sure, there are on many fronts. Council Member Amos. So when the initial discussion happened in March, I was clearly not here for that towards the end since I was out of the country. I got back on my understanding, was there supposed to be a recusal? And I really think, for me, there's only one question that really needs to be answered, and that would probably come from our city attorney, is that, per your review, should Council Member Hardy-Chandler"
+    "speaker": "Unknown Speaker",
+    "start": 4204.787,
+    "end": 4236.885,
+    "text": "session. yes. >> can the city attorney talk about whether a person's recusal does not change collective authority to proceed under established appointment procedures. would you restate that question? whether any individual members recusal on any appointment does or does not change to under accomplishment procedure."
   },
   {
-    "speaker": "Amos",
-    "start": 4100.6400146484375,
-    "end": 4130.8800048828125,
-    "text": "have been included in the vote for two of the appointees excluding her husband? So one of the nice things about the State and Local Government Conflict of Interest Act is that decision is left to the individual member. I have my opinions as to whether it's appropriate for a member to vote for a position in which his or her husband, family"
+    "speaker": "Unknown Speaker",
+    "start": 4238.587,
+    "end": 4269.15,
+    "text": "it changes the number of votes required. 'even if a majority of councilmembers recuse on an item, it becomes the remaining members vote on a particular appointment. excellent. Thank you. The city's own materials say appointments are made by city council and coordinated through the city clerk. I'm restating the city's own rules on the record. That is all I'm doing."
   },
   {
-    "speaker": "Hardy",
-    "start": 4130.8800048828125,
-    "end": 4163.0,
-    "text": "member is a candidate. I will say, I think the answer to that question is not really a legal one. So Council Member Hardy-Chandler is taking her own counsel on this, and that is all I will say on that. Thank you. So to follow up on that, I completely understand that this is a frustrating circumstance and has been for some time. Ultimately, due to policy and procedure and the existing rules, it would be on Stacey Hardy-Chandler, which means I believe that it would"
+    "speaker": "Unknown Speaker",
+    "start": 4271.587,
+    "end": 4302.649,
+    "text": "I do have a few more questions. sorry. I'm kind of going through here. I asked those. Double checking. Making sure of my notes here. Sorry. I'm just going through my notes. mayor read, MAY I ask a"
   },
   {
-    "speaker": "Mcquillan",
-    "start": 4163.0,
-    "end": 4194.760009765625,
-    "text": "be necessary to push it to May 12th and have additional discussion. Council Member McQuillan. I have questions for you, Mr. Lefferman. Can the city attorney confirm for the public that the city of Fairfax operates under a council manager form of government and that the appointments to boards and commissions are made by the city council as a body? Yes, that is clear in the city charter. Thank you. Can the city attorney confirm that interviews and deliberations on applicants occur in closed session"
+    "speaker": "Unknown Speaker",
+    "start": 4303.219,
+    "end": 4334.781,
+    "text": "question in the meantime. >> councilmember hardy-chandler, to my recollection, each time we have met to discuss this board or commission you have recused yourself. Every time we have had discussions and conversations you have on your own chosen to remove yourself. that was without clarification that I could have input on the other candidates. Having received that clarification, I want to exercise that. I see an appointment for a four-year term extending through"
   },
   {
-    "speaker": "Mcquillan",
-    "start": 4194.760009765625,
-    "end": 4226.479999542236,
-    "text": "and the final appointments are voted in open session at a regular meeting? Yes. And can the city? The attorney also clarified for the public whether any individual member's recusal on a particular appointment does or does not change the council's collective authority to proceed under its established appointment procedures. Could you restate that question, please? Whether any individual member's recusal on a particular appointment does or does not change the council's collective authority to proceed under its established appointment procedures."
+    "speaker": "Unknown Speaker",
+    "start": 4334.985,
+    "end": 4366.115,
+    "text": "APRIL 14, 2030 and serving as a representative to parks and recreation advisory board as separate from the other appointment, which I recused myself from, extending through SEPTEMBER 30, 2029. These are separate, independent appointments. If these candidates were coming up for candidacy separately, if that was without the second one, I would certainly have a voice on the other position. So in my opinion, with this new"
   },
   {
-    "speaker": "Mcquillan",
-    "start": 4226.479999542236,
-    "end": 4257.840000152588,
-    "text": "An individual's recusal simply changes the number of votes required. And it also, even if a majority of council members recuse on an item, it doesn't affect the quorum for purposes of voting on an item. So it just simply becomes the remaining members vote on the particular appointment. Excellent, thank you. The city's own materials say appointments are made by city council and coordinated through the city clerk. I'm asking that we simply restate the city's"
+    "speaker": "Unknown Speaker",
+    "start": 4367.616,
+    "end": 4403.451,
+    "text": "information, I do want to have input on this other position which is a separate appointment. >> okay. I understand your perspective on it. I happen to disagree. I think if a spouse or family member serves on a board or commission it makes perfect sent to be recusing and clearly the stte code does state that. I did have a question before I pass back to councilmember Mcquillen. MR. Lubkeman, do you have information where a mayor has voted?"
   },
   {
-    "speaker": "Mcquillan",
-    "start": 4257.840000152588,
-    "end": 4288.440002441406,
-    "text": "own rules on the record. That's all I'm doing. I also want to, I do have a few more questions. Sorry, I'm kind of going through here. OK, I asked those. Just double checking, making sure my note's here. I'm sorry, I'm just going through my notes"
+    "speaker": "Unknown Speaker",
+    "start": 4404.22,
+    "end": 4435.95,
+    "text": "most appointments tend to be close to unanimous by the body. That is the fair statement. so I think we can inter that, a mayor's vote is not needed, is the charter worded to that? the mayor can vote on procedural aspects. Deferring action on an appointment. Those type of things are perfectly legitimate. I have always taken the position that the appointments to boards"
   },
   {
-    "speaker": "Holt",
-    "start": 4288.440002441406,
-    "end": 4319.040000915527,
-    "text": "because I knew this was going to come up. May I read and ask a question in the meantime? Is that OK? Council Member Holt? Yes, of course. Go for it. Council Member Hardy-Chandler, to my recollection, each time we have met to discuss this board and commission, you have refused yourself. OK, so every single time we've had discussions and conversations, you have, on your own, chosen to remove yourself. That was without clarification that I could have"
+    "speaker": "Unknown Speaker",
+    "start": 4437.754,
+    "end": 4469.417,
+    "text": "and commissions legally is the providence of the city council. It is also true and people throw the word tradition, it is not an incorrect statement how it was characterized previous by previous actions by councils and mayors. That is simply an agreement among the parties. we hired you as our attorney and consider you an expert in all things city legal and thank you for your service frequently,"
   },
   {
-    "speaker": "Holt",
-    "start": 4319.040000915527,
-    "end": 4351.440002441406,
-    "text": "input on the other candidates. Having received that clarification, I want to exercise that. I see an appointment for a four-year term extending through April 14, 2030, and serving as a representative to Parks and Recreation Advisory Board as separate from the other appointment, which I recused myself from, extending through September 30, 2029. These are separate, independent appointments. If these candidates were coming up for candidacy separately,"
+    "speaker": "Unknown Speaker",
+    "start": 4469.485,
+    "end": 4503.618,
+    "text": "we should understand you are making a statement that says that the mayor legally is not entitled to vote on these things and council votes on board and commissions. I'm not making a legal statement on the mayor voting. I didn't write the city's charter. we rely on you to give us your best opinion. on matters of recusal, those are the province of individual members of this body and the mayor. I will give it back to councilmember Mcquillen."
   },
   {
-    "speaker": "Mcquillan",
-    "start": 4351.440002441406,
-    "end": 4383.800003051758,
-    "text": "if that was without the second one, I would certainly have a voice on the other position. So in my opinion, with this new information, I do want to have input on this other position, which is a separate appointment. OK, and I understand your perspective on it. I happen to disagree. And I think that if a spouse or a family member serves on a board or commission, it makes perfect sense to be recusing. And clearly, the state code seems to support that. I did have one other question in the meantime before I pass the floor back to Councilman McQuillan."
+    "speaker": "Unknown Speaker",
+    "start": 4508.859,
+    "end": 4539.588,
+    "text": "no, act -- actually, I will give it back because I am running this meeting. When discussions were held about appointments to boards and commissions there were seven people, if even seven people who gave input. This is not about my voting from the dais. This is about the body acting like a body. What a concept. And I am still running this meeting. So councilmember Mcquillen, would you like to make further comments? yes, please. Thank you. What concerns me is the"
   },
   {
-    "speaker": "Mcquillan",
-    "start": 4383.800003051758,
-    "end": 4414.520004272461,
-    "text": "Mr. Lubkin, are you aware of any times in which the mayor has voted on a board or commission nomination? In the 20 years I've been city attorney, well, I'll turn it around by saying my experience has been that most appointments to boards and commissions tend to be close to unanimous by the body. That's the fair statement. So I think we can enter that to how we would like it to. But it sounds like in most cases, a mayor's vote would not be needed. But is the charter wording such that the mayor"
+    "speaker": "Unknown Speaker",
+    "start": 4539.655,
+    "end": 4571.985,
+    "text": "appearance problem. If a member properly recuses from a specific appointment because of a spouse's candidacy but after learning the outcome seeks to delay the process because the full result is not what she wanted that creates an appearance of personal influence over a public appointment. Even the appearance of that is damaging. That is my concern. Thank you. >> councilmember hardy-chandler. I think that would be an issue if I had a concern about"
   },
   {
-    "speaker": "Mcquillan",
-    "start": 4414.520004272461,
-    "end": 4448.520004272461,
-    "text": "does have a vote in that? The mayor can vote on procedural aspects related to the appointment. So for example, deferring action on an appointment, those type of things are perfectly legitimate. I have always taken the position that the appointments to boards and commissions legally is the province of the city council. It is also true, and people throw the word tradition around, it is also not an incorrect statement how it was characterized previously as to previous actions by previous councils and mayors."
+    "speaker": "Unknown Speaker",
+    "start": 4572.521,
+    "end": 4603.15,
+    "text": "my husband being appointed. In my absence my husband was appointed. That has nothing to do with me. I want to input on that, whether he is appointed or not. What I want input on are the other candidates for the other position just as I have input on other candidates for other commissions. >> councilmember peterson. as a matter of practice, in this case, which is common, we have more than one slot open on a board and commission. We have multiple candidates."
   },
   {
-    "speaker": "Mcquillan",
-    "start": 4448.520004272461,
-    "end": 4479.0,
-    "text": "But that is not a legal requirement. That is just simply an agreement among the parties. OK, so I think if we have hired you as our attorney, and we tend to consider you an expert in all things city legal, and we thank you very much for your service frequently, we should understand that you are making a statement that says that the mayor legally is not entitled to vote on these things, and that it has been council that votes on boards and commission nominations. I'm not making a legal statement on the mayor voting."
+    "speaker": "Unknown Speaker",
+    "start": 4603.752,
+    "end": 4636.417,
+    "text": "And it is not uncommon for the council to exercise flexibility and discretion on whether those appointments fall among those set of slots that exist. This has happened frequently. In fact, it has involved councils appointing applicants to other committees than they had actually applied to. So this is certainly within the discretion of the council to decide who is appointed to which slot? The practical reality, again, is"
   },
   {
-    "speaker": "Mcquillan",
-    "start": 4479.0,
-    "end": 4510.079986572266,
-    "text": "I didn't write the city's charter. I understand, but we rely on you to interpret and to give us your best legal opinion. Absolutely, and it's also true that on matters such as recusal, et cetera, those are the province of individual members of this body and the mayor. Yes, OK. I will give it back to Council Member McQuillan now. Actually, I give it back to Council Member McQuillan because I'm running this business meeting. So thank you. So let me clarify. Let me clarify by saying, when I said vote, I don't mean vote from the dais. What I'm saying is when discussions were held in closed session about appointments"
+    "speaker": "Unknown Speaker",
+    "start": 4637.53,
+    "end": 4667.582,
+    "text": "it is very common to have multiple applicants for one or more slots. As a consequence of that, in this case, and anything like it, we have a candidate, an applicant who is the husband of a councilmember who has applied for two different slots by virtue of applying in this area. And the council could be making appointments for that person in eithr of those slots. And as long as that applicant is still an applicant and as long as the slots either of them are still open, then the dilemma"
   },
   {
-    "speaker": "Mcquillan",
-    "start": 4510.079986572266,
-    "end": 4541.079986572266,
-    "text": "to boards and commissions, there were seven people, if there were even seven people, in the room who gave input. This is not about my voting from the dais for this. This is about the body acting like a body. What a concept. And I am still running this meeting. So Council Member McQuillan, would you like to make further comments? Yes, please. Thank you. What concerns me is the appearance problem. If a member properly recuses from a specific appointment"
+    "speaker": "Unknown Speaker",
+    "start": 4669.351,
+    "end": 4701.549,
+    "text": "that we have here is we have a spouse making an appointment of another spouse. And that, to me, is not just something that appears improper. I think this is an ethical issue. And I can't imagine that this council would want to exist without proper conflicts of interest procedures to prevent this very kind of thing from happening. We see that state law very clearly avoids this and very clearly for localities to follow this. Whether or not we have taken the"
   },
   {
-    "speaker": "Hardy",
-    "start": 4541.079986572266,
-    "end": 4572.200012207031,
-    "text": "because of a spouse's candidacy, but then after learning the outcome, seeks to delay the process because the full result is not what she wanted, that creates an appearance of personal influence over a public appointment. Even the appearance of that is damaging. And that's my concern. Thank you. Council Member Hardy-Chandler. I think that would be an issue if I had a concern about my husband being appointed. So in my absence, my husband was appointed. And that has nothing to do with me."
+    "speaker": "Unknown Speaker",
+    "start": 4702.218,
+    "end": 4732.579,
+    "text": "step we need to in codifying this is another matter. I believe we should. This clearly is something that fits within the realm of our practice that we now find ourselves being faced with a conflict. >> we have a motion on the floor. It has been properly made and second. Let's go to a roll call vote to see if we have votes on this dais to move that motion forward. >> councilmember amos. aye."
   },
   {
-    "speaker": "Peterson",
-    "start": 4572.200012207031,
-    "end": 4603.320007324219,
-    "text": "I want no input on that, whether he's appointed or not. What I want input on are the other candidates for the other positions, just as I have input on the other candidates for other commissions. Council Member Peterson. So as a matter of practice, in this case, which is common, we have more than one slot open on a board and commission. We have multiple candidates. And it is not uncommon. for the council to exercise flexibility and discretion"
+    "speaker": "Unknown Speaker",
+    "start": 4735.684,
+    "end": 4767.149,
+    "text": "councilmember hall. >> I'm sorry. Read the motion we are voting on right now. [Off mic] >> to MAY 12. hardy-chandler. aye. Councilmember peterson. no. With a caveat some questions were not finished or details we didn't get a chance to ask act during this process. councilmember bates. >> aye. >> councilmember Mcquillen. no. >> okay. Molt failed 3-3."
   },
   {
-    "speaker": "Peterson",
-    "start": 4603.320007324219,
-    "end": 4634.679992675781,
-    "text": "on where those appointments fall among those set of slots that exist. This has happened frequently. In fact, it has involved councils actually appointing applicants to other committees than they had actually applied to. So this is certainly within the discretion of the council to decide who is appointed to which slot. The practical reality, again, is that it is very common to have multiple applicants for one or more slots."
+    "speaker": "Unknown Speaker",
+    "start": 4769.618,
+    "end": 4800.781,
+    "text": "We are going to move on to the public hearings. >> the only public hearing is for the fy 27 budget. This is the third and final hearing of the fy 27 budget the city manager presented on FEBRUARY 24, 2026. I had two speakers sign up prior to the meeting. After I call those two speakers up, if there is anybody else in the room who wants to speak MAY come forward. The first speaker is douglas"
   },
   {
-    "speaker": "Peterson",
-    "start": 4634.679992675781,
-    "end": 4669.3599853515625,
-    "text": "As a consequence of that, in this case, and anything like it, we have a candidate, an applicant, who is the husband of a council member, who has applied for two different slots by virtue of applying in this area. And the council could be making appointments for that person in either of those slots. And as long as that applicant is still an applicant, and as long as these slots, either of them are still open, then the dilemma that we have here is we have a spouse making an appointment of another spouse."
+    "speaker": "Unknown Speaker",
+    "start": 4802.585,
+    "end": 4833.615,
+    "text": "stewart. >> good evening. So as I mentioned in my previous comments, my wife and I have lived in fairfax city for 22 years. Our son is a proud graduate of fairfax high school. The city provides exceptional areas. One area we need to improve is energy costs. The cost of electricity is increasing significantly and"
   },
   {
-    "speaker": "Peterson",
-    "start": 4669.3599853515625,
-    "end": 4699.6199951171875,
-    "text": "And that, to me, is not just something that appears improper. I think this is an ethical issue. And I can't imagine that this council would want to exist without proper conflicts of interest procedures to prevent this very kind of thing from happening. And we see that state law intends very clearly to avoid this, and very clearly for localities to follow this. Whether or not we've taken the step we need to in codifying this is another matter."
+    "speaker": "Unknown Speaker",
+    "start": 4834.75,
+    "end": 4865.413,
+    "text": "fuel costs for vehicles is very volatile. This has consequences for our public buildings and fleets and city residents and businesses. Just in our one household it takes some work to keep track of our utility bill and identify where we are spending too much and could save energy. Imagine that multiplied by hundreds if not thousands of different utility accounts at a complex entity such that our city needs to manage. Who is keeping track of these costs and looking to realize more efficiencies and savings?"
   },
   {
-    "speaker": "Amos",
-    "start": 4699.6199951171875,
-    "end": 4732.179992675781,
-    "text": "I believe we should. But this clearly is something that fits within the realm of our practice that we now find ourselves being faced with a conflict. We have a motion on the floor. It's been properly made and seconded. Let's go to a roll call vote to see if we have votes on this dais to move that motion forward. Ms. Shinaberry? Council Member Amos? Aye. Council Member Hall? I'm sorry."
+    "speaker": "Unknown Speaker",
+    "start": 4867.784,
+    "end": 4900.18,
+    "text": "Solar is now the cheapest, cleanest and fastest to deploy energy source in virginia. We should you solar for more public operations and buildings including schools. The city has green building policy that can drive savings. Without dedicated staffing, we can't put it in place. I think a dedicated energy manager can save the city significant energy expenses above the cost to fund this new position. They can report on the savings"
   },
   {
-    "speaker": "Peterson",
-    "start": 4732.179992675781,
-    "end": 4764.9000244140625,
-    "text": "Read the motion, please, that we are voting on right now. So the hardy chandler. Yeah. To me, 12. Hardy Chandler? Aye. Council Member Peterson? No, with a caveat to just the questions. We're not finished here. Some other important details we didn't get a chance to ask about during this process. Council Member Bates? Aye. Council Member McQuillan? No. OK, motion failed 3 to 3. And we are going to move on to the public hearings."
+    "speaker": "Unknown Speaker",
+    "start": 4900.349,
+    "end": 4930.78,
+    "text": "so you as a council and we as citizens know what we are saving and what we could do better. Beyond this an energy manager can help the city secure more outside funding from grants and connect with financing instruments that will support the upfront costs of new solar. For private developments, we can't hold developers to building higher withou a manager to implement the policy. Those will save our residents money in the form of reduced utility bills."
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 4768.3800048828125,
-    "end": 4801.219970703125,
-    "text": "The only public hearing tonight is for the FY 27 budget. This is the third and final public hearing of the proposed FY 27 budget the city manager presented on February 24, 2026. I had two speakers sign up prior to the meeting. After I call those two speakers up, if there's anybody else in the room that wants to speak on the budget, may come forward. So the first speaker is Douglas Stewart. Good evening."
+    "speaker": "Unknown Speaker",
+    "start": 4932.314,
+    "end": 4962.945,
+    "text": "So to conclude, I would urge inclusion of a full-time position for an energy manager in the city budget. Thank you. >> our next speaker is jennifer rose. good evening, mayor, and members of council. Jennifer rose, executive director of the central fairfax chamber of commerce."
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 4800.0,
-    "end": 4830.559999465942,
-    "text": "So, as I mentioned in my previous comments, my wife and I have lived in Fairfax City for 22 years. Our son's a proud graduate of Fairfax High School. And the city provides an exceptional level of public services and education at a lower tax rate than most nearby jurisdictions. But I think that one area where we need to improve is reducing our energy costs. The cost of electricity is increasing significantly. And fuel costs for vehicles are, as we know, very volatile."
+    "speaker": "Unknown Speaker",
+    "start": 4963.145,
+    "end": 4993.64,
+    "text": "Thank you for the opportunity to speak and this significant work by fairfax city staff that has gone into developing the fiscal year 27 proposed budget. We recognize the real fiscal proirks the city is managing, particularly increasing in school tuition and debt service and we appreciate your commitment to maintaining services without adding new full-time equivalent positions. From the chamber's perspective I want to focus on one key issue. Ensuring fairfax remains competitive for small businesses"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 4830.559999465942,
-    "end": 4867.519996643066,
-    "text": "This has consequences both for our public buildings and fleets, and for city residents and businesses. Just in our one household, it takes some work to keep track of our utility bill and identify where we are spending too much and could save energy. Now imagine that multiplied by hundreds, if not thousands, of different utility accounts at a complex entity such as our city needs to manage. Who's keeping track of these costs and looking to realize more efficiencies and savings? Solar is now the cheapest, cleanest, and fastest to deploy energy source available in Virginia."
+    "speaker": "Unknown Speaker",
+    "start": 4994.511,
+    "end": 5027.141,
+    "text": "while making necessary revenue decisions. First, the proposed meal tax increase from 4% to 4.5%. We understand the goal of diversifying revenue. A meals tax is in practice a sungle industry tax. It places the greatest burden on restaurants, many of them small, locally owned businesses, we know this. They operate on thin margins and on the customers who support them. Restaurants are not just another sector, they are a cornerstone of our local economy, draw foot traffic, support vibrancy of old"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 4867.519996643066,
-    "end": 4900.319999694824,
-    "text": "We should be using solar for more of our public operations and buildings, including our schools. The city has a green building policy that can drive more energy savings, both for our public buildings and for new private development. But without dedicated staffing, we can't put it in place. I think a dedicated energy manager can save the city significant energy expenses above the cost to fund this new position. They can also report on the savings so that you as a council and we, the citizens, know what we are saving and what we could do better."
+    "speaker": "Unknown Speaker",
+    "start": 5027.643,
+    "end": 5061.209,
+    "text": "town and commercial corridors. I would like to point out for the first time in more than 20 years restaurants are on a level playing field with fairfax county restaurants now the county has implemented a 4% meals tax. We respectfully urge council to revisit this or a sunset that is reinvested in ways that support the hospitality and service community. There are more balanced alternatives."
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 4900.319999694824,
-    "end": 4930.440002441406,
-    "text": "Beyond this, an energy manager can also help the city secure more outside funding from grants and connect with financing instruments that will support the upfront costs of new solar. For private developments, we can't hold developers to building higher performance buildings without the energy manager to implement our green building policy. And those higher performance buildings will save our residents money in the form of reduced utility bills. So, to conclude, I would urge inclusion of"
+    "speaker": "Unknown Speaker",
+    "start": 5062.244,
+    "end": 5092.407,
+    "text": "We support aligning the transient occupancy tax. This approach brings in is revenue from visitors than putting additional strain on businesses. It is critical to protect small businesses t city's current threshold of $10,000 is very low and captures many microbusinesses. Any changes should include raising the threshold and"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 4930.440002441406,
-    "end": 4966.320007324219,
-    "text": "a full-time position for an energy manager in the city budget. Thank you. Our next speaker is Jennifer Rose. Good evening, Mayor and members of council. Jennifer Rose, Executive Director of the Central Fairfax Chamber of Commerce. Thank you for the opportunity to speak and for the significant work by Fairfax City staff that has gone into developing the fiscal year 27 proposed budget."
+    "speaker": "Unknown Speaker",
+    "start": 5094.577,
+    "end": 5125.137,
+    "text": "phasing increases to avoid unintended impact. We urge you not to increase rates but grow the tax base. That requires investment in business attraction, retension and faster and more predictable permitting. If we want fairfax to maintain competitive in attracting businesses we must continue nvtsing in the systems that support the growth. Our request is straight forward. Avoid disproportionate impacts"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 4967.279998779297,
-    "end": 4998.0,
-    "text": "We recognize the real fiscal pressures the city is managing, particularly increases in school tuition and debt service. And we appreciate your commitment to maintaining services without adding new full-time equivalent positions. From the Chamber's perspective, I want to focus on one key issue, ensuring that Fairfax remains competitive for small businesses while making necessary revenue decisions. First, the proposed meals tax increase from four percent to four and a half percent. We understand the goal of diversifying revenue."
+    "speaker": "Unknown Speaker",
+    "start": 5126.176,
+    "end": 5159.541,
+    "text": "on any one industry, pursue a more balanced visitor informed revenue strategy and continue investing in the economic development efforts that will strengthen fairfax over the long time. Thank you for your leadership and we look forward to continuing to partner with you. >> is there anybody else in the room that would like to speak on the proposed fy 27 budget? >> okay. I will now close the public hearing on the proposed fy 27 budget. Budget adoption will be on MAY"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 4998.0,
-    "end": 5031.199996948242,
-    "text": "However, a meals tax is, in practice, a single industry tax. It places the greatest burden on restaurants, many of them small, locally owned businesses. We know this. They operate on thin margins and on the customers who support them. Restaurants are not just another sector. They are a cornerstone of our local economy. They drive foot traffic, support tourism, and contribute to the vibrancy of Old Town and our commercial corridors. And I would like to point out, for the first time in more than 20 years, our restaurants are finally on a level playing field with Fairfax County restaurants,"
+    "speaker": "Unknown Speaker",
+    "start": 5164.947,
+    "end": 5198.278,
+    "text": "5, 2026, beginning at 7:00 P.M. we will move forward to second general comment. I had one prior to the start of the meeting. I will call them forward. Mary Mcdaniel. >> thank you. I'm mary Mcdaniel, a resident of fairfax city and my comments are unrelated to my role on the city's electoral board. I'm speaking in support of the willard sherwood center and I'm asking that the city council advance this project."
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5031.199996948242,
-    "end": 5061.920013427734,
-    "text": "now that the county's implemented its own four percent meals tax. We respectfully urge Council to reconsider this increase or, at minimum, include a clear sunset and ensure that any new revenue is reinvested in ways that directly support the hospitality and small business community. Second, if additional revenue is needed, there are more balanced alternatives. The Chamber supports exploring visitor-based revenue options, such as aligning the transient occupancy tax with regional levels, if authorized by the General Assembly."
+    "speaker": "Unknown Speaker",
+    "start": 5199.381,
+    "end": 5231.412,
+    "text": "It is an essential facility for our growing city. I have attended a ton of open houses and always supported the project. As I look at it it seems obviously we should move ahead. Why would you cancel the project? One might be the services that are going to be covered are not needed anymore, but, in fact, the services are needed more now than 10 years ago when project planning started. Speaking to a few, a daycare center. Population has grown and the"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5061.920013427734,
-    "end": 5092.799987792969,
-    "text": "This approach brings in revenue from visitors rather than placing additional strain on local businesses and residents. Similarly, if B-Poll adjustments are considered, it is critical to protect small businesses. The City's current threshold of $10,000 is very low and captures many micro-businesses. Any changes should include raising the threshold and phasing in increases to avoid unintended impacts on startups and small firms. Third, and just as important, we encourage you to protect economic development capacity."
+    "speaker": "Unknown Speaker",
+    "start": 5232.281,
+    "end": 5263.112,
+    "text": "need for childcare. Public health services, again, larger population needs more demand. The federal government has significantly reduced spending on public health and plans to continue to do more so states and localities have to step up. Community space. In the past 10 years we have learned a lot about the importance of personal contact and mental health. Texting is fine for some things, but face-to-face communication is far more important as is exercise. So the senior center is really critical. Something that doesn't get"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5093.600006103516,
-    "end": 5124.320007324219,
-    "text": "The most sustainable way to reduce long-term tax pressure is not by increasing rates, but by growing the commercial tax base. That requires continued investment in business attraction, retention, and, critically, faster and more predictable permitting. If we want Fairfax to remain competitive in attracting and retaining businesses, we must continue investing in the systems and resources that support the growth. So our request is straightforward. Avoid disproportionate impacts on any one industry. Pursue a more balanced, visitor-informed revenue strategy."
+    "speaker": "Unknown Speaker",
+    "start": 5265.114,
+    "end": 5296.61,
+    "text": "talked about much is parking. The sherwood center parking center fills up when popular programs are taking place in the evening. Having a parking garage attached to the building would help solve that problem. I am well aware this building would raise my property taxes. I have owned two houses in the city over the space of 35 years. My real estate taxes have never gone down. The rate MAY have decreased, but the amount I pay always went up. I understand that because every year the cost of living goes up."
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5124.320007324219,
-    "end": 5158.399993896484,
-    "text": "And continue investing in the economic development efforts that will strengthen Fairfax over the long term. Thank you for your time, your leadership, and your commitment to our community. We look forward to continuing to partner with you. Is there anybody else in the room that would like to speak on the proposed FY27 budget? Okay. I will now close the public hearing on the proposed FY27 budget. Budget adoption will be on May 5th, 2026, beginning at 7 p.m."
+    "speaker": "Unknown Speaker",
+    "start": 5297.646,
+    "end": 5329.544,
+    "text": "In my life the consumer price index increased one time. Hundreds of citizens have spoken for more than a decade in open houses about wanting this project. We know the city will need to raise taxes and sell bonds. This has been openly disclosed and discussioned throughout -- discussed throughout the process. We have had experts weigh in, and the dedicated city staff who worked diligently to pack as much as possible into this site."
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5160.0,
-    "end": 5190.320007324219,
-    "text": "Ms. Schoenberg? We will move forward to second general public comment. I had one person sign up prior to the start of the meeting. I will call them forward. Mary McDaniel? Thank you. I'm Mary McDaniel, a resident of the Fairfax City, and my comments tonight are unrelated to my role on the city's electoral board. I'm speaking in support of the Willard Sherwood Center, and I'm asking that the city council"
+    "speaker": "Unknown Speaker",
+    "start": 5330.613,
+    "end": 5361.608,
+    "text": "Over the years, I never heard a city councilmember campaign on the idea of canceling this project and I don't think now that any of you did. What I ask at this point is this. You've heard from the experts about what can be put into this building and how it benefits the community and you have heard the community speak about the wants that we have. I ask that you follow up on promises that have been made, advance this project and finance it as needed."
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5190.320007324219,
-    "end": 5222.980010986328,
-    "text": "advance this project. It's an essential facility for our growing city. I have attended a ton of open houses on this and have always supported the project. As I look at it, it seems very obvious that we should move ahead, and I started thinking about why would you maybe cancel the project? And one might be that the services that are going to be covered are not needed anymore. But in fact, the services are needed more now than 10 years ago when project planning started. Speaking to a few of them, the daycare center."
+    "speaker": "Unknown Speaker",
+    "start": 5362.111,
+    "end": 5392.606,
+    "text": "is there anybody else in the room who would like to speak under the general public comment? >> all right. I will you recess the regular meeting -- before you do that. >> excuse me. I have not recognized you councilmember peterson. I am now adjourned the regular meeting to go into a work session. We will stay in the chamber. >> our work session is proposed fy 2027 budget, city council"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5222.980010986328,
-    "end": 5255.059997558594,
-    "text": "Our population has grown, and along with that is the need for child care. Public health services. Again, larger population means more demand. On top of that, the federal government has significantly reduced spending on public health and plans to continue to do more. So states and localities have to step up. Community space. In the past 10 years, we have learned a lot about the importance of personal contact and mental health. You know, texting is fine for some things, but face-to-face communication is far more important as is exercise."
+    "speaker": "Unknown Speaker",
+    "start": 5393.643,
+    "end": 5423.871,
+    "text": "identified topics. I will recognize daniel alexander for staff discussion. good evening mayor and council, to frame this discussion, this will be revenues and expenditures. We have some moving items. We have things out of richmond relative to their process. There will be additional conversations around how those numbers are shifting."
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5255.059997558594,
-    "end": 5288.179992675781,
-    "text": "So the senior center is really critical. Something that doesn't get talked about much is parking. The Sherwood Center parking center fills up when popular programs are taking place in the evening. So having a parking garage attached to the building would help solve that problem. I am well aware that this building would raise my property taxes. I've owned two houses in the city over the space of 35 years. My real estate taxes have never gone down. The rate may have decreased, but the amount I paid always went up. And I understand that because every year the cost of living goes up."
+    "speaker": "Unknown Speaker",
+    "start": 5424.708,
+    "end": 5457.272,
+    "text": "For the most part, where we are in the process is a good place to talk about some of the things that have come up regarding revenues and expenditures and answer some of the questions you have requested and prep us to move forward to a constructive markup session on the 28th and hopefully adoption on the 5th. I will turn it over to assistant city manager and cfo MR. Martinez. >> thank you. If you can go to the next slide. Tonight's presentation is"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5288.179992675781,
-    "end": 5322.340026855469,
-    "text": "In my adult life, the consumer price index has decreased only one time. Hundreds of citizens like me have spoken for more than a decade in open houses about wanting this project. And we know that the city will need to raise taxes to do this and may need to sell bonds. This has been openly disclosed and discussed throughout the planning process. We've had a ton of experts weigh in from architects, building engineers, landscape people, and the dedicated city staff who have worked diligently to pack as much as possible into"
+    "speaker": "Unknown Speaker",
+    "start": 5459.142,
+    "end": 5489.971,
+    "text": "intended to provide a high level update on the fy 2027 budgets focusing on revenues and expenditures assumptions. This is not the final iteration, staff will return for options for council's consideration as we move toward finalizing the budget. We will begin with revenues. Listed on the sheet on the screen before you previously discussed proposed changes of"
   },
   {
-    "speaker": "Campaign",
-    "start": 5322.340026855469,
-    "end": 5356.820007324219,
-    "text": "this site. Over the years, I've never heard a city council member campaign on the idea of canceling this project. And I don't think now that any of you did. What I ask at this point is this. You've heard from the experts about what can be put into this building and how it benefits the community. And you've heard the community speak about the wants that we have. I ask that you follow up on promises that have been made, advance this project, and finance it as needed. Is there anybody else in the room that would like to speak under the general public comment?"
+    "speaker": "Unknown Speaker",
+    "start": 5491.473,
+    "end": 5521.635,
+    "text": "three revenue sources, two within the b pole and one on tot. These were introduced earlier this evening and represent a potential maximum increase. As communicated budget memos, the associated funds are on the right side. These were reviewed and revised"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5359.3800048828125,
-    "end": 5389.539978027344,
-    "text": "All right. I will now recess the record. Well, hang on before you do that. Excuse me. I have not recognized you, Council Member Peterson. I am now adjourning the meeting to go into a work session. We will stay in the chamber. Our work session item is discussion on the proposed after-sales plan. Our work session item is discussion on the proposed FY 2027 budget. City Council identified topics. I'm going to recognize Daniel Alexander, City Manager, for the staff discussion."
+    "speaker": "Unknown Speaker",
+    "start": 5522.105,
+    "end": 5554.568,
+    "text": "upward the personal property revenue projection originally budgeted in the proposed fy 27 budget by an additional $400,000. Let me be clear this increase does not represent any change to the personal property tax rate and is solely due to a revised forecasting and modelling. Next slide. Turning to expenditure, there are a few important highlights."
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5390.260009765625,
-    "end": 5420.520000457764,
-    "text": "All right. Good evening, Mayor and Council. To frame this discussion, tonight will largely be a conversation around revenues and expenditures. It's not going to be the full picture. We've had some conversations up to this point. We have some moving items. We still have some things that we expect out of Richmond relative to their process, and so there will be some additional conversations around how those numbers are shifting. But I think for the most part, as where we are in the process, we're a good place to"
+    "speaker": "Unknown Speaker",
+    "start": 5554.803,
+    "end": 5584.998,
+    "text": "Health insurance costs above projection projections. We are projecting 5.5% increase above the 8% forecast largely driven by higher than anticipated claims activity. In response staff is taking a proactive approach. We have a meeting scheduled this friday with our insurance representative to explore strategies to curtail future cost increases, including evaluating plan design options and potential rebidding of our"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5420.520000457764,
-    "end": 5452.0,
-    "text": "talk about some things that have come up regarding revenues and expenditures, answer some of the questions that you've asked around those items, and then prep us to move forward into a constructive markup session on the 28th, and hopefully adoption on the 5th. So with that, I'm going to turn it over to our Assistant City Manager and CFO, Mr. Martinez. Thank you, Mr. Alexander, Mayor, Council. This evening, if we can go to the next slide, Ms. Riddle, tonight's presentation is intended"
+    "speaker": "Unknown Speaker",
+    "start": 5587.27,
+    "end": 5617.699,
+    "text": "insurance contract. Secondly, you will see personnel expense savings reflected. Half of these savings result from a review of current staffing levels where we are prioritizing the reallocation of existing vacant positions rather than adding new FTEs. This allowed us to meet operational needs while maintaining fiscal discipline. The remaining savings are anticipationed from projected"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5452.0,
-    "end": 5482.839996337891,
-    "text": "to provide a high-level update on the FY 2027 budget, specifically focusing, as the Manager stated, on revenues and expenditures assumptions. As a reminder, this is not the final iteration. Staff will return on April 28th with more detailed scenarios and options for Council's consideration as we move toward finalizing the budget. We'll begin with revenues. Listed on the sheet that's on the screen and before you are previously discussed additional"
+    "speaker": "Unknown Speaker",
+    "start": 5618.267,
+    "end": 5650.164,
+    "text": "employee retirement and turnover and increase the current budget vacancies savings factor. Not reflected on the current sheet are two additional items still under evaluation, first. There is a payment to vdot. Staff is currently assessing the most appropriate structure with a preliminary approach that would phase the payment approximately one third in fy 27 and the remaining two thirds in fy 28. Second, we are considering a"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5482.839996337891,
-    "end": 5517.160003662109,
-    "text": "proposed changes of three revenue sources, two within the BPOL and one on TOT. These three items were introduced earlier this evening and represent a potential maximum increase. As communicated in several respective budget memos, the associated revenue from these increases are listed on the right side. Additionally, the Commissioner of the Revenue, in collaboration with the Budget Director, reviewed and revised upward the anticipated personal property revenue projection originally"
+    "speaker": "Unknown Speaker",
+    "start": 5651.667,
+    "end": 5683.63,
+    "text": "modification to the timing of school-relawsuited debt. Rather commit the full amount in fy 27, the proposed approach would include $600,000 in the baseline budget through a contingency within the assigned fund balance. The $1.1 million remaining deferred for future consideration. This approach is intended to improve flexibility as we monitor potential changes at the state level. Specifically current virginia senate bill amend language would"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5517.160003662109,
-    "end": 5548.839996337891,
-    "text": "budgeted in the proposed FY 2027 budget by an additional $400,000. Let me be clear that this increase does not represent any change to the personal property tax rate and is solely due to a revised forecasting and modeling. Turning to expenditures, there are a few important updates to highlight. First, health insurance costs have increased beyond our original projections."
+    "speaker": "Unknown Speaker",
+    "start": 5683.833,
+    "end": 5715.231,
+    "text": "authorize the 1% sales tax dedication to school projects contingent on voter approval through local referendum. Importantly, those revenues would be restricted to construction or major renovation projects and could not be used to supplant existing local funding that has already been budgeted or appropriated. That is the key language in the change that is in the current draft language. the general assembly will be reconvening a special session"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5548.839996337891,
-    "end": 5580.0,
-    "text": "Specifically, we are now projecting an additional 5.5% increase above the initial 8% forecast, largely driven by higher than anticipated claims activity. In response, staff is taking a proactive approach. We have a meeting scheduled this Friday with our insurance representative to explore strategies to help curtail future cost increases, including evaluating plan design options and potential rebidding of our insurance contract."
+    "speaker": "Unknown Speaker",
+    "start": 5716.899,
+    "end": 5749.29,
+    "text": "and hopefully we will know more by the end of this month or the beginning of MAY. Next slide. Fund balance really quickly provides a high level look of our fund balance status. This is intended as a preview and reminder of more detailed analysis that is presented during our quarterly financial review with councils that our budget director does. Our next quarterly update is scheduled for APRIL 28 prior to the last budget work session."
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5580.600006103516,
-    "end": 5611.679992675781,
-    "text": "Secondly, you will see personal expense savings reflected in the updated numbers. Approximately half of these savings result from a review of current staffing levels where we are prioritizing the reallocation of existing vacant positions rather than adding new FTEs. This approach allows us to meet operational needs while maintaining fiscal discipline. The remaining savings are anticipated from projected employee retirements and turnover,"
+    "speaker": "Unknown Speaker",
+    "start": 5749.166,
+    "end": 5780.763,
+    "text": "Part of the reviews, we not only walk through the fund balance levels but provide updated senate shot of revenues versus expenditures as well as a refreshed five-year financial projection. And then lastly, next slide. Thank you. You have seen this. We want to reiterate the last slide outlines our budget calendar and where we are in the process. At this point we are more than halfway through the fy 27 budget development cycle and entering"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5611.679992675781,
-    "end": 5646.679992675781,
-    "text": "which will increase the current budgeted vacancy savings factor. Not reflected on the current sheet are two additional items still under evaluation. First, there is a payment to VDOT. Staff is currently assessing the most appropriate structure with a preliminary approach that would phase the payment approximately one-third in FY27 and the remaining two-thirds in FY28. Second, we are considering a modification to the timing of school-related debt."
+    "speaker": "Unknown Speaker",
+    "start": 5781.33,
+    "end": 5813.429,
+    "text": "the phase where council direction becomes critical in shaping the final document. I also want to highlight one upcoming engagement opportunit the engage fairfax fiscal 2027 community budget exchange is scheduled for APRIL 16th. Has been updated. Let me say that one more time. Has been updated to reflect a revised access link that will now be held via zoom instead of teams. We were notified by microsoft teams there was a bug."
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5646.679992675781,
-    "end": 5677.8800048828125,
-    "text": "Rather than committing the full $1.7 million in FY27, the proposed approach would include only $600,000 in the baseline budget through a contingency within the assigned fund balance, with the remaining $1.1 million deferred for future consideration. This approach is intended to preserve flexibility as we monitor potential changes at the state level. Specifically, current Virginia Senate bill amendment language would authorize the 1%"
+    "speaker": "Unknown Speaker",
+    "start": 5814.664,
+    "end": 5844.759,
+    "text": "We had to pivot very quickly. As of this afternoon, a few hours ago, the communication staff has updated all links and distribute list with the new zoom updated link. Looking ahead APRIL 28th is a key milestone with multiple public hearings and our final work session where staff will present, refine options and draft changes for council deliberation. In closing tonight's update is meant to keep council informed"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5677.8800048828125,
-    "end": 5710.959991455078,
-    "text": "sales tax dedication to school projects contingent upon voter approval through local referendum. Importantly, those revenues would be restricted to construction or major renovation projects and could not be used to supplant existing local funding that has already been budgeted or appropriated. That is the key language in the change that is in the current draft language. The General Assembly will be reconvening a special session, and hopefully we will know"
+    "speaker": "Unknown Speaker",
+    "start": 5845.661,
+    "end": 5876.123,
+    "text": "of where we stand today. We will return on APRIL 28 with more detailed analysis, refined assumptions to help guide your decision maybing. kmeb councilmember amos. I generated questions before I went on my trip. I know you are still working on them. Whatever works best. The only other question and"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5710.959991455078,
-    "end": 5742.200012207031,
-    "text": "more by the end of this month or the beginning of May. Next slide. Fund balance, really quickly, provides a high-level look of our fund balance status. This is intended as a preview and a reminder of more detailed analysis that is regularly presented during our quarterly financial review with councils that our budget director does. Our next quarterly update is also scheduled for April 28th. That will happen prior to the last budget work session."
+    "speaker": "Unknown Speaker",
+    "start": 5876.525,
+    "end": 5909.19,
+    "text": "follow-up I would like to discuss, the chamber just brought it up. I would want to add serious consideration of the sunset on the meals tax contingent on the 1% being activated. I MAY be misunderstanding, this, when we get the 1% restaurants will be at 5.5% not the 4.5% at least until they are paid off. Is that correct? it depends on the current language."
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5742.200012207031,
-    "end": 5774.600006103516,
-    "text": "As part of those reviews, we not only walk through the fund balance levels, but also provide an updated snapshot of our current fiscal position, revenues versus expenditures, as well as a refreshed five-year financial projection. And then lastly, next slide, thank you. You're probably used to seeing this. We just want to reiterate, the last slide outlines our budget calendar and where we are in the process. At this point, we are more than halfway through the FY27 budget development cycle, and we"
+    "speaker": "Unknown Speaker",
+    "start": 5910.25,
+    "end": 5940.922,
+    "text": "The last language I saw, I'm looking at the budget director, the language MAY not be applicable to meals or restaurant meals for the additional 1%. That is still something that is being evaluated. We won't know and I think that is sort of the biggest predicament we are in right now. There has been no final determination by richmond. We are trying to be as adaptive as possible. I know we are still waiting for legislative updates. Once we get that clarification,"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5774.600006103516,
-    "end": 5809.679992675781,
-    "text": "are entering the phase where council direction becomes critical in shaping the final document. I also want to highlight one upcoming engagement opportunity. The Engage Fairfax Fiscal Year 2027 Community Budget Exchange is scheduled for April 16th, and has been updated, let me say that one more time, has been updated to reflect a revised access link that will now be held via Zoom instead of Teams. We were notified by Microsoft Teams that there was a bug, so we had to pivot very quickly,"
+    "speaker": "Unknown Speaker",
+    "start": 5942.559,
+    "end": 5974.288,
+    "text": "I think it is worth a follow-up discussion. Thank you. >> councilmember peterson. you went through a number of specifics and I don't think we had numbers on slides in front of us. Is there going to be a listing that we can refer back to with all of this? definitely. So I think this traditionally is being uploaded the next morning. So tomorrow morning. As mentioned, on APRIL 28, we will present at least four to five options or scenarios very"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 5809.679992675781,
-    "end": 5839.839996337891,
-    "text": "and as of this afternoon, a few hours ago, the communications staff has updated all links and all distribution lists with the new Zoom updated link. Looking ahead, April 28th is a key milestone with multiple public hearings, and our final work session where staff will present, again, refined options and draft changes for council deliberation. In closing, tonight's update is meant to keep council informed of where things stand today."
+    "speaker": "Unknown Speaker",
+    "start": 5974.323,
+    "end": 6005.688,
+    "text": "similarly to what we did last year to council. It is my understanding we have meetings sort of scheduled one-on-ones starting next week with council to sort of walk through some of those potential scenarios but definitely have it at public forum on the 28 lt. thank you. To put this in context, you had a series of numbers. Are these numbers tied to any particular scenario at this stage? >> not 100%."
   },
   {
-    "speaker": "Amos",
-    "start": 5839.839996337891,
-    "end": 5871.8800048828125,
-    "text": "We will return on April 28th with more detailed analysis, refined assumptions, and actionable options to help guide your decision making. Happy to answer any questions. Councilmember Amos? Thank you. I know I submitted a number of questions prior to going on my trip, and I know you're still working on those, and I'm assuming generating a response to circulate to everyone, or to me, whatever works best. The only other question and follow-up I'd like to discuss is specifically, I know that"
+    "speaker": "Unknown Speaker",
+    "start": 6006.789,
+    "end": 6039.219,
+    "text": "So what was displayed in some of the other slides, the revenues and the expenditures are what we know of right now. The most traditional way we have displayed this is the budget change sheet that will be part of it, the sort of debit and credits. The changes that have -- that are now known when the manager proposed the budget at the end of FEBRUARY. We are keeping track of that. We are not anticipating any other changes between now and the end of MAY other than the two we have identified that were"
   },
   {
-    "speaker": "Amos",
-    "start": 5871.8800048828125,
-    "end": 5904.720001220703,
-    "text": "the chamber just brought it up, I would like to have a more serious discussion on adding a sunset to the increase in the meals tax contingent on the 1% being activated. And I may be misunderstanding this, but once we get the 1% for school construction, essentially restaurants would be at 5.5% versus 4.5%, at least for the time being until they're paid off, is that correct? It's going to depend on the current language. The last language I saw, I think, on meals tax, I'm looking at the budget director,"
+    "speaker": "Unknown Speaker",
+    "start": 6039.421,
+    "end": 6071.119,
+    "text": "not listed on here the vdot repayment and the potential school deferral on debt. Besides that, we are trying to formulate an option and scenarios for council. so when we get back together again APRIL 28, you'll have scenarios for us to discuss and we will have a scenario, then, that this information will be factored into, which will be at least one of the scenarios, the manager's proposed budget, is that correct? correct. >> okay."
   },
   {
-    "speaker": "Amos",
-    "start": 5904.720001220703,
-    "end": 5936.039978027344,
-    "text": "because I think she showed it to me, the language may not be applicable to meals, or restaurant meals for the additional 1%. That is still something that is being evaluated. We won't know, and I think that's sort of the biggest predicament that we're in right now is there has been no final determination by Richmond, so we're trying to be as adaptive and as prudent as possible. Yeah, I know we're still waiting for legislative updates, but once we get that clarification if that is the case, I think it's worth a follow-up discussion."
+    "speaker": "Unknown Speaker",
+    "start": 6071.654,
+    "end": 6104.385,
+    "text": "We will have additional scenarios you have been able to develop based on further work that you've done on all of these items including revenue and expense improvements that you have been able to identify? Is that fair? correct, councilmember. >> okay. Thank you very much. councilmember Mcquillen. >> okay, sorry. Going back to what you stated prior to councilmember amos' question, could you please repeat that? I think you are referring, councilmember, to the potential"
   },
   {
-    "speaker": "Peterson",
-    "start": 5936.039978027344,
-    "end": 5967.679992675781,
-    "text": "Thank you. Council Member Peterson. You went through a number of specifics, and I don't think we had numbers on slides in front of us. Is there going to be a listing that we can refer back to with all of this? Definitely. So, I think this traditionally is being uploaded the next morning, so tomorrow morning, and then as mentioned, on April 28th, we will present at least four to five options or scenarios"
+    "speaker": "Unknown Speaker",
+    "start": 6106.55,
+    "end": 6139.587,
+    "text": "1% sales tax for school capital. >> sorry. I couldn't hear the whole thing. I was just needing a little bit of clarification on that. Thank you. >> sure. I did want to mention to my council colleagues that I am the representative on the food and agricultural regional membership policy committee, farm, and we recently had a meeting in which, and I just want to share a few little updates and facts. This supports my position on the meals tax. You guys all know where I stand on that. National restaurant association"
   },
   {
-    "speaker": "Peterson",
-    "start": 5967.679992675781,
-    "end": 5998.1199951171875,
-    "text": "very similarly, what we did last year to council. It's my understanding that we also have meetings sort of scheduled one-on-ones, starting next week with council to sort of walk through some of those potential scenarios, but definitely have it in a public forum on the 28th. And so, thank you. To put this in context, then, you had a series of numbers. Are these numbers tied to any particular scenario at this stage?"
+    "speaker": "Unknown Speaker",
+    "start": 6141.525,
+    "end": 6172.553,
+    "text": "reporting saying 42% of operators were not profitable and limited ability to raise menu prices in 2025. Restaurants do not absorb taxes, inflation, labor costs, rent and supply, volatility in separate buckets. It saul in one. It all hits the same operating margin. Consumers are already paying more. Food away from home the cpi shows 3.8% and full service meal"
   },
   {
-    "speaker": "Peterson",
-    "start": 6000.0,
-    "end": 6030.799999237061,
-    "text": "Not 100%, so what was displayed in some of the other slides, the revenues and the expenditures are what we know of right now. The most traditional way that we've displayed this is the budget change sheet. That will be a part of it. That's sort of the debit and the credits. The changes that are now known as of when the manager proposed his budget at the end of February, we're keeping track of that. We're not anticipating any other changes between now and the end of May other than"
+    "speaker": "Unknown Speaker",
+    "start": 6173.522,
+    "end": 6204.552,
+    "text": "up 4.3%, in that pricing, in the washington region. Food away from home went up 3.7% with overall food prices up 4.5%. So this is not happening in a low inflation environment for food. Also the virginia gas prices being elevated, aaa is showing virginia's regular gas average is $3.99 and national reporting shows fuel prices climbed sharply in APRIL with"
   },
   {
-    "speaker": "Peterson",
-    "start": 6030.799999237061,
-    "end": 6061.840000152588,
-    "text": "the two that we've identified that were not listed on here, the VDOT repayment and then the potential school deferral on debt. Besides that, we're trying to formulate an option and scenarios for council. So when we get back together again April 28th, you'll have scenarios for us to discuss and we will have a scenario then that this information will be factored into, which will be at least"
+    "speaker": "Unknown Speaker",
+    "start": 6207.355,
+    "end": 6237.652,
+    "text": "geopolitical zigs -- disruption. We are seeing an uptick of food insecurity especially lower and middle class families. Please keep this in mind when discussing the meals tax. It is just not one meal. People eat hundreds of meals over their life time or over a year. When we talk about increasing the tax, it sounds like a small amount, but it is hitting our restaurants hard. We like to brag, we are celebrating the city's"
   },
   {
-    "speaker": "Mcquillan",
-    "start": 6061.840000152588,
-    "end": 6095.199996948242,
-    "text": "one of the scenarios, the manager's proposed budget. Is that correct? Correct. Okay. And then we will have additional scenarios that you've been able to develop based on further work that you've done on all of these items, including revenue and expense improvements that you've been able to identify. Is that fair? Correct, Councilmember. Okay. Thank you very much. Councilmember McQuillan? Okay. Sorry. Going back to what you stated prior to Councilmember Amos' question, could you please repeat that?"
+    "speaker": "Unknown Speaker",
+    "start": 6238.621,
+    "end": 6270.584,
+    "text": "restaurant scene as unique and defining cultural strengths. Just recognize this is impacting those businesses when we do this. That is all I wanted to share. Thank you. >> councilmember hall. thank you. I, in anticipation of the conversation about -- I reached out to two people, one with a large car dealership and another person is a professional in the legal area."
   },
   {
-    "speaker": "Mcquillan",
-    "start": 6095.199996948242,
-    "end": 6126.300003051758,
-    "text": "I think you're referring, Councilmember, to the potential 1% sales tax for school capital. Okay. Sorry, I couldn't hear the whole thing, so I was just needing a little bit of clarification on that. Thank you. Sure. I just want to say to my council colleagues that I am the representative of the Food and Agricultural Regional Membership Policy Committee, FARM, and we recently had a meeting in which, and I just want to share a few little updates and facts."
+    "speaker": "Unknown Speaker",
+    "start": 6273.79,
+    "end": 6305.621,
+    "text": "So the, I think they are both, the car b pole conversation was more about the lesser of two evils of real estate taxes versus b pole tax. The conversation we had focused very heavily on the fact that the majority of the the b pole, I actually didn't realize we collected it on car sales. I thought it was service portion. That was passed through to purchasers. That will have an impact on car dealerships and service centers, the impact would be likely less than an increase to the real"
   },
   {
-    "speaker": "Mcquillan",
-    "start": 6126.300003051758,
-    "end": 6156.300003051758,
-    "text": "This supports my position on the meals tax. You guys all know where I stand on that. I've been really open about that. National Restaurant Association reporting this year says that 42% of operators were not profitable and had limited ability to raise menu prices further in 2025. It matters because restaurants do not absorb taxes, inflation, labor costs, insurance, rent and supply, volatility in separate buckets. It's all in one. It all hits the same operating margin."
+    "speaker": "Unknown Speaker",
+    "start": 6305.621,
+    "end": 6338.452,
+    "text": "estate taxes. I did have concerns after speaking with multiple people about the rate and what we were discussing as far as the professional services. And I will be the first to say I was the one who asked these questions and I reached out to people intense -- intentionally to get more information. Just to say what they were suggesting is that, unfortunately, people really might pick up and move to the county if we go from the 40"
   },
   {
-    "speaker": "Mcquillan",
-    "start": 6156.300003051758,
-    "end": 6186.3800048828125,
-    "text": "Consumers are already paying more. The national CPI shows food away from home is up 3.8% over the year, and full service meals are up 4.3%, and that's their pricing. In the Washington region, food away from home went up 3.7% over the year, with overall food prices up 4.5%. So this is not happening in a low-inflation environment for food. Also, the Virginia gas prices being elevated, AAA is showing that Virginia's regular gas"
+    "speaker": "Unknown Speaker",
+    "start": 6340.556,
+    "end": 6372.921,
+    "text": "cents to 48 cents. The county is at.31, 31 cents. There was some concern an abrupt hike like that would suggest that people are leaving or will leave in the coming years. This personal also had some very interesting information with rath to the meals tax. Specifically said a restaurant has a chain here and one in the county. He purposely doesn't go to the one in the county because it had the 4% meals tax."
   },
   {
-    "speaker": "Mcquillan",
-    "start": 6186.3800048828125,
-    "end": 6216.3800048828125,
-    "text": "average is about $3.99 per gallon, and AAA's national reporting shows fuel prices climbed sharply in early April amid high crude prices and geopolitical disruption. That's affecting the grocery stores. It's affecting everyone in the food industry. We're seeing an uptick of food insecurity, especially among our lower middle class families. So please keep all of this in mind when we're discussing increasing the meals tax, because it doesn't, it's just not one meal. This is several meals."
+    "speaker": "Unknown Speaker",
+    "start": 6374.557,
+    "end": 6409.723,
+    "text": "He was fairly shocked when he went to the county counterpart restaurant and found that meals tax is there now. He said he could go back to the city one. He did suggest maybe we consider reducing the meals tax rate to 2%. I understand that will have financial impacts and staff's thoughts on this, would that be an opportunity to capitalize on county people are unhappy. It is a huge promotion we can do"
   },
   {
-    "speaker": "Hall",
-    "start": 6216.3800048828125,
-    "end": 6247.0,
-    "text": "People eat hundreds of meals over their lifetime, or over a year. So when we're talking about increasing the tax, yeah, it sounds like a small amount, but it's really hitting our restaurants hard. And we like to brag, we're often celebrating the city's restaurant scene as unique and defining these cultural strengths. Just recognize that this is impacting those businesses when we do this. That's all I wanted to share. Thank you. Council Member Hall. Thank you."
+    "speaker": "Unknown Speaker",
+    "start": 6409.859,
+    "end": 6442.257,
+    "text": "with the chamber, all the restaurants and try it for six months and see how we are doing with it. I would be open to having this conversation with others on the dais. we got an e-mail today from a woman who went to the grocery store and bought a prepared chicken. The tax was 4 cents higher. She said 4 cents is not a lot, but 4 cents consistently all the time felt like a lot. Doing the correlation of what that half cent would be."
   },
   {
-    "speaker": "Hall",
-    "start": 6247.440002441406,
-    "end": 6277.440002441406,
-    "text": "In anticipation of the conversation about BPOL, I reached out to two different people, one specifically with a very large car dealership who does repairs and car sales, and then another person that I reached out to is a professional in the legal area. So the, I think they're both, the car tax was, or the car BPOL conversation was more about the lesser of two evils of real estate taxes versus BPOL tax."
+    "speaker": "Unknown Speaker",
+    "start": 6442.892,
+    "end": 6473.354,
+    "text": "Personally, I hate the meals tax. I have always hated the meals tax. I'm happy the county now has one. It makes us comparable. I do recognize in order to generate that $1.25 million, the meals tax increase of half a percent would require 1.417 cents on the real estate tax rate. I understand it is one or the other or both. But these are just some ideas and some thoughts I would like to hear about."
   },
   {
-    "speaker": "Hall",
-    "start": 6277.440002441406,
-    "end": 6308.679992675781,
-    "text": "The conversation that we had focused very heavily on the fact that the majority of the BPOL, I actually didn't realize we collected it on car sales. I thought it was only on the service portion, but that is passed through to purchasers. So while that will have an impact on car dealerships and on service centers, the impact would be likely less than an increase to the real estate taxes. I did have concerns after speaking with multiple people about the rate and what we were discussing"
+    "speaker": "Unknown Speaker",
+    "start": 6473.856,
+    "end": 6504.486,
+    "text": "The other thing is everyone I talk to when I talk about the lesser or two taxes or we raise it one cent. All they ask back is why are we not reducing our expenses. So I'm happy to see the slides talking about reductions, but I think it is a very valid question. I don't expect a response now. I do have specific questions I would like responses to, but I wanted to give you overall thoughts. I personally am very interested"
   },
   {
-    "speaker": "Hall",
-    "start": 6308.679992675781,
-    "end": 6340.3800048828125,
-    "text": "as far as the professional services, and I will be the first to say I was the one who asked these questions and I reached out to people intentionally to get additional information. So just to say that what they were suggesting was that unfortunately people really might pick up and move to the county if we go from the 40 cents to the 48 cents or 0.48, whatever the phrasing is, and that, you know, the county I think is at 0.31, 31 cents."
+    "speaker": "Unknown Speaker",
+    "start": 6505.387,
+    "end": 6535.416,
+    "text": "in seeing ways that we can try to bridge the gap between what the eda was receiving and is no longer receiving. I personally would really like to see the renaissance program reinstated. I know I was the one who suggested that maybe we put a pause on it. It was meant to be a pause. It was not meant to be a removal from future consideration. I did reach out to the staff counterpart today and asked if it were to be reinstated how many loans would we be able to"
   },
   {
-    "speaker": "Hall",
-    "start": 6340.3800048828125,
-    "end": 6372.320007324219,
-    "text": "So there was some concern that an abrupt hike like that would suggest that people are leaving or will leave in the coming years. This person also had some very interesting information with regard to the meals tax and specifically said that there's a restaurant that has a chain here that also has one near us in the county, and he said that he purposely doesn't go to the one in the city because it had the 4% meals tax. So I think he was fairly shocked when he went to the county counterpart restaurant and found"
+    "speaker": "Unknown Speaker",
+    "start": 6535.751,
+    "end": 6567.316,
+    "text": "service and get that similar information we were provided with last year, which made me more willing to consider putting a pause on it. Now my questions are going to come in. So the conversation about the $600,000 for the schools versus the $1.1 deferred. We have school board member kelsey here and superintendent dustin wright. I understand there was a meeting last night with the school board. I didn't get a chance to watch all of it. Was it a good conversation? Are the schools in favor of this?"
   },
   {
-    "speaker": "Hall",
-    "start": 6372.320007324219,
-    "end": 6402.559997558594,
-    "text": "that that meals tax was there now. So he said, I guess I can go back to the local city one. However, what he did suggest was that maybe we consider reducing the meals tax rate to 2%. And I understand that will have financial impacts. And I would also just like to have staff's thoughts and feelings on this. But would that be an opportunity for us to capitalize on the fact that county people are unhappy with this? It could be a huge promotion that we could do in combination with the Chamber of Commerce, all the restaurants."
+    "speaker": "Unknown Speaker",
+    "start": 6569.652,
+    "end": 6601.95,
+    "text": "I would like to hear from the shools, if that is possible. Not to put you on the spot, but you are here. certainly MR. Wright, if you would like to add something. thank you. >> thank you mayor read and good evening to the council. Councilmember hall, I'm here to observe and listen, but I'm"
   },
   {
-    "speaker": "Hall",
-    "start": 6402.559997558594,
-    "end": 6433.239990234375,
-    "text": "You know, maybe we talk about trying it for six months or a year or something and see how we are doing with it. I would be open to having this conversation if it's supported by others on the dais to at least entertain it and see what staff thinks. I think, you know, we got an email from a woman today. I think everyone got it about, you know, she went to the grocery store and she bought a prepared chicken. And, you know, the tax now was four cents higher than it was before. I mean, she said four cents is not a lot, but four cents consistently all the time felt"
+    "speaker": "Unknown Speaker",
+    "start": 6602.952,
+    "end": 6633.682,
+    "text": "happy to answer your question that you just posed. The conversation last night was around our elementary school capital projects. And the current state of them and the path moving forward. none of it was related to the proposal we heard this evening. We were not aware of a proposal at that time. >> thank you. Okay. I thought that was being discussed with the schools prior to our conversation tonight. >> MR. Alexander."
   },
   {
-    "speaker": "Hall",
-    "start": 6433.239990234375,
-    "end": 6465.679992675781,
-    "text": "like a lot. And so she was, you know, doing the correlation of just what that half cent would be. So personally, I hate the meals tax. I've always hated the meals tax. I'm happy the county now has one because I think it makes us comparable. I also do recognize that in order to generate that 1.25 million that the meals tax increase of a half a cent, sorry, half a percent will bring in would also require, I believe it's 1.417 cents on the real estate tax rate. So I understand that's a one or the other or both, but these are just some ideas and"
+    "speaker": "Unknown Speaker",
+    "start": 6633.682,
+    "end": 6668.82,
+    "text": "yeah. So we have talked to council about it up to this point. We have talked today with them about it. And so I don't know the degree to which MR. Wright has socialized that with the board yet. We are calling it an option. In respect to the council and also in respect to schools. And so it is going to, like the other things we brought up tonight, beg some further conversation around that. okay. Thank you. Sorry to call out the very uncomfortable elephant in the"
   },
   {
-    "speaker": "Hall",
-    "start": 6465.679992675781,
-    "end": 6496.760009765625,
-    "text": "some thoughts that I would like to hear about. The other thing is, you know, everyone I talk to when I talk about the lesser of two taxes or what if we only had to raise it one cent, all they continue to ask back is why are we not reducing our expenses? And so I'm happy to see some of the slides and things that you're showing forth here that are talking about reductions, but I think it's a very valid question. So I don't expect a response now. I do have specific questions that I would like responses to, but I wanted to just give you some overall thoughts."
+    "speaker": "Unknown Speaker",
+    "start": 6668.784,
+    "end": 6699.414,
+    "text": "room but I was just curious where our schools were on this. Thank you. >> councilmember peterson. I wanted to build a little bit on some of the inflation related information that councilmember Mcquillen provided because it is an important part of the inflation equation, but it is only a part of the equation. Just to note, we heard some testimony tonight about the concern about energy prices."
   },
   {
-    "speaker": "Hall",
-    "start": 6496.760009765625,
-    "end": 6528.8800048828125,
-    "text": "I personally am very interested in seeing ways that we can try to bridge the gap between what the EDA was receiving and then is no longer receiving. I personally would really like to see the renaissance program reinstated. I know I was the one I believe last year who suggested that maybe we put a pause on it and it was truly meant to be a pause. It was not meant to be a removal from future consideration. I did reach out to the staff counterpart today and asked if it were to be reinstated, how"
+    "speaker": "Unknown Speaker",
+    "start": 6699.481,
+    "end": 6730.111,
+    "text": "We know from earlier information provided by staff that dominion energy has notified us we should be expecting a 32% increase in electricity. we know also that we are looking at a 13% increase in natural gas. So on the energy front, those are two sources that serve what we call the stationary source sector buildings, facilities, et cetera. It affects the city's own budget. I understand our projection on increased electricity costs if"
   },
   {
-    "speaker": "Hall",
-    "start": 6528.8800048828125,
-    "end": 6561.47998046875,
-    "text": "many loans would we be able to service and get that similar information that we were provided with last year, which made me more willing to consider putting a pause on it. Now my questions are going to come in. So the conversation about the $600,000 for the schools versus the 1.1 deferred, I understand, or I don't understand, I see we have school board member Sarah Kelsey here as well as our superintendent Dustin Wright, and I understand that there was a meeting last night with the school board. I didn't get a chance to watch all of it. Are there, was it a good conversation?"
+    "speaker": "Unknown Speaker",
+    "start": 6731.647,
+    "end": 6763.644,
+    "text": "that materializes will knock on the door of $400,000 in incremental expenses, a correct recollection of the impact of that cost increase. it is based off the assumption that rate increase is going to hold. That has not been confirmed. Dominion put that out. It is my understanding that will more than likely not happen. More probably like 10% or 12%."
   },
   {
-    "speaker": "Hall",
-    "start": 6561.47998046875,
-    "end": 6593.1199951171875,
-    "text": "Are the schools in favor of this? I'd like to just hear from the schools if that's possible. Not to put you on the spot or anything, but you're here, so you probably expected to be brought up. Certainly, Mr. Wright, if you would like to add something. Thank you. Thank you, Mayor Reed, and good evening to the council."
+    "speaker": "Unknown Speaker",
+    "start": 6764.948,
+    "end": 6796.978,
+    "text": "that would be good news. There is a lot of concern that the unexpected changes are on the upward side. We are not there yet. Clearly energy is up. I would note health care expenses are up, maybe the highest and fastest rate of inflation for any household expenses that we experienced, the latest I saw for unreimbursed health care expenses, running an increase of 21 21.5%."
   },
   {
-    "speaker": "Hall",
-    "start": 6593.1199951171875,
-    "end": 6625.139999389648,
-    "text": "Council Member Hall, I'm here to observe and listen, but I'm happy to answer your question. that you just posed. The conversation last night was around our elementary school capital projects, and the current state of them, and the path moving forward. None of it was related to the proposal that you heard this evening. We were not aware of that proposal at that time. Thank you. OK, I thought that was being discussed with the schools"
+    "speaker": "Unknown Speaker",
+    "start": 6798.13,
+    "end": 6828.676,
+    "text": "Obama care has not been refunded. People dependent on that and the reimbursements, this is a big load. For an average family of four in the city of fairfax the mean is $27,000 a year. Translate that out with other household expenses, including the ones we said about, $150,000 median income is what you have to have to swing it to deal with this cost load. Helicopter"
   },
   {
-    "speaker": "Hall",
-    "start": 6625.139999389648,
-    "end": 6658.299999237061,
-    "text": "prior to our conversation tonight. Mr. Alexander. Yeah. So we have talked to council about it up to this point. We have talked today with them about it. And so I don't know the degree to which Mr. Wright has socialized that with the board yet. We're calling it an option in respect to, I think, the council and also in respect to schools. And so it's going to, like the other things that we brought up tonight, beg some further conversation around that."
+    "speaker": "Unknown Speaker",
+    "start": 6829.945,
+    "end": 6860.275,
+    "text": "health care is a big one. There are things we can control, our property taxes, real estate taxes and other fees. It is not surprising that people, as we've heard, are hoping we will do everything we can to manage that cost agenda recognizing there are things that are changing in a major way we can't control. There are things we can control. To switch gears to the renaissance housing program, just out of curiosity, I believe, based on prior"
   },
   {
-    "speaker": "Peterson",
-    "start": 6658.299999237061,
-    "end": 6689.980003356934,
-    "text": "OK. Thank you. Sorry to call out the very uncomfortable elephant in the room, but I was just curious where schools were on this. So thank you. Council Member Peterson. I wanted to just build a little bit on some of the inflation-related information that Council Member McQuillan provided, because it is an important part of the inflation equation, but it's only a part of the equation. And just to note, we heard some testimony tonight"
+    "speaker": "Unknown Speaker",
+    "start": 6861.744,
+    "end": 6892.607,
+    "text": "conversations and some of the staff consultations on housing issues of a variety of types, we are taking a hard look at housing programs and that is not limited to affordable housing, but looking at the sector and what do with that. If and as you come back with thoughts around any of our housing programs, but including the renaissance housing program, I'm wondering if you might be able to think through what a slightly more integrated"
   },
   {
-    "speaker": "Peterson",
-    "start": 6689.980003356934,
-    "end": 6720.440002441406,
-    "text": "about the concern about energy prices. We know from earlier information provided by staff that Dominion Energy has notified us we should be expecting a 32% increase in electricity. We know also that we're looking at a 13% increase in natural gas on the energy front. Those are two sources that serve what we call the stationary source sector, buildings, facilities, et cetera. And it affects the city's own budget."
+    "speaker": "Unknown Speaker",
+    "start": 6893.276,
+    "end": 6926.106,
+    "text": "approach to the renaissance housing program might be given I know you are looking hard at an integrated approach to this housing area might look like in the future. I'm wondering if that might be -- >> -- councilmember, that is how we want to look at an integrated pogram. I don't believe we are prepared to introduce that as part of the current plan. It certainly should be part of the way we look at our complete approach to our housing. That certainly will be something"
   },
   {
-    "speaker": "Peterson",
-    "start": 6720.440002441406,
-    "end": 6753.800003051758,
-    "text": "And I understand that our projection on increased electricity costs, if that materializes, will knock on the door $400,000 incremental expense. Is that a correct recollection of the impact of that cost increase? It is based off of the assumption that that rate increase is going to hold. That has not been confirmed. Dominion put that out. It is my understanding that that will more than likely not happen. You will have a more realistic increase based off historical trends, probably around 10% or 12%,"
+    "speaker": "Unknown Speaker",
+    "start": 6926.942,
+    "end": 6959.24,
+    "text": "we bring back to council as we discuss everything related to housing. I think you framed it exact lip ly the way we are looking at it. just another note, we are not there yet in terms of going through the efficiency and innovation audit that last year we passed and requested that as going to happen sometime in the not too distant future we hope and expect. The point is we are not there yet in terms of knowing what potential that might have in"
   },
   {
-    "speaker": "Peterson",
-    "start": 6753.800003051758,
-    "end": 6783.800003051758,
-    "text": "not 35%. That would certainly be good news if that happened. I know there's a lot of concern that those rates are going to go up and that the unexpected changes will be on the upward side, but we're not there yet. It's good to know. But clearly, energy is up. I would just note also that health care expenses are up and that may be the highest and fastest rate of inflation for any household expenses that we experience. The latest that I saw for unreimbursed health care"
+    "speaker": "Unknown Speaker",
+    "start": 6959.475,
+    "end": 6990.438,
+    "text": "terms of freeing up financial efficiency here. So we don't have the advantage of plugging that in now, but I think we have something to look forward to. So just to note that. Then on the, just to take a step back, on the energy issue, there is an enormous amount of interest everywhere right now in getting ahead of the curve on that issue. We have heard about it here. This is something pretty much everywhere and the load growth"
   },
   {
-    "speaker": "Peterson",
-    "start": 6783.800003051758,
-    "end": 6816.360000610352,
-    "text": "expenses, it's running an increase of 21.5% this year. And there's a big caveat there because Obamacare has not been refunded yet, and it's not clear that it will be. So for people who are dependent upon that and the reimbursements associated with it, this is a big load. For an average family of four in the city of Fairfax, the mean right now is looking at about $27,000 a year. You translate that out with other household expenses, including the ones we just heard about, and it's really saying that $150,000 median income is what you've got to have to swing it in terms of dealing"
+    "speaker": "Unknown Speaker",
+    "start": 6990.874,
+    "end": 7023.339,
+    "text": "issue is not going to go away. It is a very big one. I think the real challenge that we have is to address this really rapid runaway train we call load growth, but to do it in an environmentally and economically friendly manner. I think there is a way to do that. This happens to be my profession so I know a lot of people are involved in this right now. As we hear back from you on your thoughts on how the city can approach its part of this issue, it would just be great to know as we are doing that and looking"
   },
   {
-    "speaker": "Peterson",
-    "start": 6816.360000610352,
-    "end": 6849.039993286133,
-    "text": "with this cost load. So health care is a really big one. There isn't much, if anything, we can do about that except to stay well and get all the help we can doing that. But there are things we can control, and those are our property taxes, our real estate taxes, and other fees. So it's not surprising that people, as we've heard, are hoping that we will do everything we can to manage that cost agenda, recognizing that there are things that are changing in a major way that we cannot control. But there are things that we can control. To switch gears and go to the Renaissance Housing Program,"
+    "speaker": "Unknown Speaker",
+    "start": 7025.741,
+    "end": 7057.137,
+    "text": "through the energy lens, we are looking at cost savings, economic gains from doing this and ways in which that can be done in an environmentally friendly manner. That is the win-win everyone is looking for. I know we got a head start on that because we have talented staff. They are looking at that. Thee -- themematically, all jurisdictions are looking this way. Thank you. councilmember hardy-chandler."
   },
   {
-    "speaker": "Peterson",
-    "start": 6849.039993286133,
-    "end": 6879.040008544922,
-    "text": "just out of curiosity, I believe, based on prior conversations and some of the staff consultations on housing issues of a variety of types, we're taking a really hard look at how we are approaching our housing programs here in the city. And that's not limited to affordable housing, but it's looking at the sector and what to do with that. If and as you come back with thoughts around any of our housing programs,"
+    "speaker": "Unknown Speaker",
+    "start": 7057.673,
+    "end": 7090.172,
+    "text": "I hate to ask for data I didn't previously ask you to prepare. I'm curious if there is historic knowledge of sort of the, for lack of a better word, restaurant migration sort of behavior historically when there have been changes in the meals tax. I might not be recalling this accurately, but I believe that there was sort of some landscape, multijurisdictional information that was previously"
   },
   {
-    "speaker": "Peterson",
-    "start": 6879.040008544922,
-    "end": 6911.399993896484,
-    "text": "but including the Renaissance Housing Program, I'm wondering if you might be able to think through what a slightly more integrated approach to something like the Renaissance Housing Program might be, given that I know you're looking hard at what an integrated approach to this housing area maybe might look like in the future. I'm wondering if that might be a possible thing. I think you framed it well, Council Member. It certainly is part of the way we'd want to look at, as you say, an integrated program. I don't believe that we're prepared to, obviously, introduce that as part of the current plan,"
+    "speaker": "Unknown Speaker",
+    "start": 7090.172,
+    "end": 7127.274,
+    "text": "presented. I'm just wondering in addition to the anecdotal conversations we might have with residents, what sort of the trends show in terms of what actually happens and what actually has happened in the past when there have been those changes. I am going to try to go off of memory, councilmember. We did present something at a work session with some historical data that actually compared the city of alexandra"
   },
   {
-    "speaker": "Peterson",
-    "start": 6911.399993896484,
-    "end": 6942.760009765625,
-    "text": "but certainly should be, I think, should be part of the way we look at our complete approach to our housing. That certainly will be something that we bring back to Council as we discuss everything related to housing. I think you framed it exactly the way we're looking at it. OK, and then just another note that I think we've talked about before. We are not there yet in terms of going through the efficiency and innovation audit that last year we passed and requested."
+    "speaker": "Unknown Speaker",
+    "start": 7129.845,
+    "end": 7160.742,
+    "text": "who has a similar tax to our 4% as well. Additionally, in that presentation there was increase of restaurants in the same 10 to 15 year period. Not a migration out, but more of an expansion. I want to say it was on average two and a half to three and a half per year we increased the restaurant count between the time frame we looked at, 10 or is a years. There was an increase, net increase."
   },
   {
-    "speaker": "Peterson",
-    "start": 6942.760009765625,
-    "end": 6975.320007324219,
-    "text": "That is going to happen sometime in the not too distant future. We hope and expect. But I think the point is that we're not there yet in terms of knowing what potential that might have in terms of freeing up financial efficiency here. So we don't have the advantage of plugging that in now, but I think we have something to look forward to. So just to note that. Then on the, just to take a step back, on the energy issue, there is an enormous amount of interest everywhere right now"
+    "speaker": "Unknown Speaker",
+    "start": 7161.442,
+    "end": 7191.939,
+    "text": "Here goes, commend, thank you, MS. Riddle. Go to the next couple of slides and you can see the comparison -- I don't have my glasses. Here we go. There you go. Go back one. On the 20-year time frame, 2016 to 2025, a net increase of 59 restaurants or about 30% from where we started on average"
   },
   {
-    "speaker": "Peterson",
-    "start": 6975.320007324219,
-    "end": 7007.040008544922,
-    "text": "in getting ahead of the curve on that issue. And we've heard about it here. This is something that is pretty much everywhere, and for very good reason. The load growth issue is not going to go away. It's a very big one. I think the real challenge that we have is to address this really rapid runaway train we call load growth, but to do it in an environmentally and economically friendly manner. And I think there's a way to do that. This happens to be my profession, so I know a lot of people are involved in this right now."
+    "speaker": "Unknown Speaker",
+    "start": 7196.11,
+    "end": 7228.743,
+    "text": "looking at -- I can't read 3% per year, about 7 u per year increase so we are seeing an increase overall. Ink inc. A I think that has to do with the work the economic development office does. Move want to move into the city. It shows about 3% is passed through or back to the restaurants while they file their timely receipts to the city as well so over that same course time frame, over $2 million is given back to"
   },
   {
-    "speaker": "Peterson",
-    "start": 7007.040008544922,
-    "end": 7038.239990234375,
-    "text": "But I think as we hear back from you about your thoughts on how the city can approach its part of this issue, it would just be great to know that as we're doing that and we're looking through the energy lens, we're looking at cost savings, we're looking at economic gains from doing this, and we're looking at ways in which that can be done in an environmentally friendly manner, because I think that's the win-win everybody is looking for. And I know we've probably gotten a head start on that because we have talented staff that are looking at that. But that thematically is, I think,"
+    "speaker": "Unknown Speaker",
+    "start": 7230.913,
+    "end": 7264.745,
+    "text": "these businesses as a form of collecting the tax on behalf of the city. >> I'm impressed with how you had that available, so thank you very much. Shifting gears a little bit, the renaissance housing program, I believe that there was comment earlier about revenues coming back to the city because of property improvements. I'm also curious about whether or not there is flexibility in"
   },
   {
-    "speaker": "Hardy",
-    "start": 7038.239990234375,
-    "end": 7068.480010986328,
-    "text": "where really all jurisdictions are kind of heading this way. Thank you. Council Member Hardy-Chandler. And I hate to ask for data that I didn't previously ask you to prepare, but I'm just curious if there is just historic knowledge of sort of the, for lack of a better word, sort of restaurant migration sort of behavior historically when there have been changes"
+    "speaker": "Unknown Speaker",
+    "start": 7266.315,
+    "end": 7297.779,
+    "text": "terms of -- I'm not sure if the program's parameters allow flexibility to have input on some targeting around or developing matrices for who gets those loans and if that isn't the case, do we have flexibility to have input on how that might serve our longer-term goals a little bit better or are the program's parameters more rigid? >> excellent question,"
   },
   {
-    "speaker": "Hardy",
-    "start": 7068.480010986328,
-    "end": 7101.0,
-    "text": "in the meals tax. I might not be recalling this accurately, but I believe that there was sort of some landscape multi-jurisdictional information that was previously presented. I'm just wondering if, in addition to the anecdotal conversations that we might have with residents, what sort of the trends show in terms of what actually happens and what actually has happened in the past"
+    "speaker": "Unknown Speaker",
+    "start": 7299.49,
+    "end": 7330.945,
+    "text": "councilmember. And unfortunately, the renaissance housing corporation is an independent body so it does not directly fall under the city. It receives almost exclusively all its generating revenues or funds from the city when we . When we do fund them, there are their own independent parameters of how individuals would qualify for a loan, what those qualification standards are in the sense of disbursement. They have their own limitations."
   },
   {
-    "speaker": "Hardy",
-    "start": 7101.0,
-    "end": 7134.080017089844,
-    "text": "when there have been those changes. I'm going to try to go off of memory, Council Member. We did present something at a work session with some historical data that actually compared the city of Alexandria, who has a 5% meals tax compared to the city. They've had it for about 20 years, so very similar to our 4% as well. Additionally, in that presentation, there was an actual number of increased restaurants over the same 10 to 15 year period in the city."
+    "speaker": "Unknown Speaker",
+    "start": 7332.147,
+    "end": 7365.612,
+    "text": "To me, it would make sense if the city is providing the majority of the funding that we MAY, if council so chooses and if the city attorney would help, we could probably great an agreement to sort of put some structure on maybe put some \"x\" number percentage to lower-income housing or lower thresholds that would impact a different population. so just to clarify, there is an opportunity for like an mou process to find some common ground to meet the program aims"
   },
   {
-    "speaker": "Hardy",
-    "start": 7134.080017089844,
-    "end": 7165.840026855469,
-    "text": "So not necessarily a migration out, more of an expansion. I want to say it was on average 2 and 1 half or 3 and 1 half per year that we increased the restaurant count between the time frame that we looked at, 10 or 15 years. It was actually an increase, a net increase. Here goes. Excellent. Thank you, Ms. Riddle. So go to the next couple of slides, and you can actually see the comparison. I don't have my glasses. Here we go."
+    "speaker": "Unknown Speaker",
+    "start": 7366.148,
+    "end": 7398.413,
+    "text": "as well as the city's aims potentially. >> I would say yes. >> good to hear. Thank you so much. councilmember mcquillen. >> thank you. I too would like more discussion on the renaissance housing program and to look into that to see what we can do since I think that really is a great program specifically for a certain group that does not seem to qualify for a lot else out there. I also just wanted to let you all know or update you on some information I just found from"
   },
   {
-    "speaker": "Hardy",
-    "start": 7165.840026855469,
-    "end": 7196.960021972656,
-    "text": "There you go. Go back one. There you go. So on there, over the 20-year time frame, 2016 to 2025, a net increase of 59 restaurants, or about 30% from where we started. On average, looking at, I can't read it from here, sorry. 3% per year, about 7U per year increase."
+    "speaker": "Unknown Speaker",
+    "start": 7398.914,
+    "end": 7429.11,
+    "text": "the northern virginia regional commission. This is about restaurants in northern virginia. It says that on average they have grown at an average annual rate roughly of 3 to 5% over the past decade so that is what we've seen here. But it says that key factors driving that growth include rising household incomes, urbanization, expansion of federal and tech employment which we know isn't expanding right now, increased demand for dining in suburban and mixed-use developments and growth of food delivery and e-commerce so I"
   },
   {
-    "speaker": "Hardy",
-    "start": 7196.960021972656,
-    "end": 7231.920000076294,
-    "text": "So we are seeing an increase overall. I think a lot of that has to do. to do just with the work that our economic development office does. People want to move into the city. Also on the left hand side, it does show that about 3% is sort of passed through or back to the restaurants while they file their timely receipts to the city as well. So over that same course time frame, over $2 million was given back to these businesses as a form of collecting the tax on behalf of the city."
+    "speaker": "Unknown Speaker",
+    "start": 7429.512,
+    "end": 7459.808,
+    "text": "want to -- since some of those actually correlate to the things that I mention, gas prices, things that have increased the struggle for our small businesses and specifically our restaurants, I just wanted to provide that extra information. Thank you. >> councilmember hall. >> thank you. I had one question I forgot to ask. You mention health insurance had gone up about 5%, 300 and some thousand. And I know that I've asked this"
   },
   {
-    "speaker": "Hardy",
-    "start": 7231.920000076294,
-    "end": 7266.040000915527,
-    "text": "I'm impressed with how you had that available, so thank you very much. Shifting gears a little bit, the Renaissance Housing Program, I believe that there was comment earlier about revenues coming back to the city because of property improvements. I'm also curious about whether or not there is flexibility in terms of, I'm not sure if the program's parameters allow flexibility"
+    "speaker": "Unknown Speaker",
+    "start": 7459.808,
+    "end": 7492.842,
+    "text": "question before and I'm sorry I don't remember your answer but when was the last time that we did bid and look at our provider and look at our plan types and see are we offering things that are competitive? it's been a while. Is the best answer that I can give right now. >> that's what I thought. but as I stated, we are meeting with our rep this friday and given the increases year-over-year, I think councilmember peterson also alluded to, these are one of the inflationary increases we can't necessarily control but we're"
   },
   {
-    "speaker": "Hardy",
-    "start": 7266.040000915527,
-    "end": 7299.480003356934,
-    "text": "to have input on some targeting around or developing matrices for who gets those loans. And if that hasn't been the case, do we have the flexibility to have input on how that might serve some of our longer term goals a little bit better? Or are the program's parameters more rigid? Excellent question, council member. And unfortunately, the Renaissance Housing Corporation"
+    "speaker": "Unknown Speaker",
+    "start": 7493.91,
+    "end": 7526.106,
+    "text": "going to try to get ahead of it and, if need be, really look at a potential rebid on that contract or break away from that plan and go independent. >> and is that something that could be done in this upcoming fiscal year or are we locked into what we have right now? >> we're pretty much locked in because we are just advertising what those rates are to the employees. We have open enrollment MAY 1 so we would probably have to wait an entire year before we could do that. But we would do that legwork now in preparation for fy 28. >> okay. So I do this for my company as"
   },
   {
-    "speaker": "Hardy",
-    "start": 7299.480003356934,
-    "end": 7330.300003051758,
-    "text": "is its independent body, so it does not directly fall. Under the city, it receives almost exclusively all its generating revenues or funds from the city. When we do fund them, there are their own independent parameters of how individuals would qualify for a loan, what those qualification standards are in the sense of disbursement. They have their own limitations. To me, it would make sense that if the city is providing"
+    "speaker": "Unknown Speaker",
+    "start": 7526.842,
+    "end": 7559.72,
+    "text": "well so I know nobody likes to have two deductibles in a year but what we ended up doing is renewed JANUARY 1st instead of doing it JULY 1st renewal so we had six months of one plan and then looped it back in. I understand we operate on a fiscal year so that might create some challenges, but I would think that if it's attractive enough to consider a move, that we should potentially see what our timeline options are. My other question is do we currently offer hsa-compatible"
   },
   {
-    "speaker": "Hardy",
-    "start": 7330.300003051758,
-    "end": 7361.100006103516,
-    "text": "the majority of the funding that we may, if council so choose, and if the city attorney would help, we could probably create an agreement to sort of put some structure on maybe put some x number percentage to lower income housing or lower thresholds that would impact a different population. So just to clarify, there is an opportunity for like an MOU process to find some common ground to meet the program's aims as well"
+    "speaker": "Unknown Speaker",
+    "start": 7559.341,
+    "end": 7591.338,
+    "text": "plans, like high deductible plans? >> we do. do we have fsa options as well? >> we do. >> okay. Do you know what our employes tend to choose most of? >> it varies. We looked at the plan, I'll look at MISS Riddle.% we had those statistics, we reviewed them again when we got the renewal notices. I will say that given that the employer, the city's not the only one taking some of this burden, the employee will also"
   },
   {
-    "speaker": "Mcquillan",
-    "start": 7361.100006103516,
-    "end": 7392.580001831055,
-    "text": "as the city's aims, potentially? I would say yes. Good to hear. Thank you so much. Council Member McQuillan. Thank you. I, too, would like more discussion on the Renaissance Housing Program and to look into that to see what we can do since I think that really is a great program specifically for a certain group that does not seem to qualify for a lot else out there. I also just wanted to let you all know or update you"
+    "speaker": "Unknown Speaker",
+    "start": 7592.641,
+    "end": 7623.304,
+    "text": "see an increase of about 12%. That MAY actually move some people out of those higher plans into lower plans so there MAY actually be some, when I say savings, lessen the impact of the 325 overall because they're going to see an increase in one plan while some other plans were stagnant, they MAY migrate to those. okay. I know we're not the overseers of all of the things, I just happen to have a personal interest in education in this"
   },
   {
-    "speaker": "Mcquillan",
-    "start": 7392.580001831055,
-    "end": 7422.6199951171875,
-    "text": "on some information I just found from the Northern Virginia Regional Commission. This is about restaurants in Northern Virginia. It says that, on average, they've grown at an average annual rate roughly of 3% to 5% over the past decade. So that is what we've seen here. But it says that key factors driving that growth include rising household incomes, urbanization, expansion of federal and tech employment, which we know isn't expanding right now, increased demand for dining in suburban and mixed use developments, and growth of food delivery and e-commerce."
+    "speaker": "Unknown Speaker",
+    "start": 7623.405,
+    "end": 7654.236,
+    "text": "area. If it's possible, if it's on our website or you could direct me to somewhere that I could see what we pay versus what the employee pays just so I can see what that cost sharing looks like. Is that an option? I'm just curious if we cap at a certain rate or what we cover for families and other individuals and whatnot. (Indiscernible) As it goes to all employees."
   },
   {
-    "speaker": "Hull",
-    "start": 7422.6199951171875,
-    "end": 7454.3800048828125,
-    "text": "So I just wanted to, since some of those actually correlate to the things that I mentioned, gas prices, things that have increased the struggle for our small businesses and specifically our restaurants, I just wanted to provide that extra information. Thank you. Council Member Hull. Thank you. I had one question I forgot to ask. You mentioned that the health insurance had gone up here 5%, which I think was about 400,000, 300 and some thousand?"
+    "speaker": "Unknown Speaker",
+    "start": 7656.872,
+    "end": 7689.637,
+    "text": "my apologies, I wasn't really planning on discussing this in detail tonight. to give you context, we have just over 80% of eligible employees that have our health insurance. The majority is with anthem. We have two plans with anthem. And then we have about I think it's about 20 to 30% of employees are with kaiser. okay. And I just have one other thing and I know I've asked this a couple times previously and I definitive \"yes\" or \"no\" but I would like to suggest when we either send out our final tax"
   },
   {
-    "speaker": "Peterson",
-    "start": 7454.3800048828125,
-    "end": 7484.459991455078,
-    "text": "OK. And I know that I've asked this question before, and I'm sorry I don't remember your answer. But when was the last time that we did bid and look at our provider and look at our plan types and see are we offering things that are competitive? It's been a while is the best answer that I can give right now. But as I stated, we are meeting with our rep this Friday. And given the increases year over year, I think Council Member Peterson also alluded to,"
+    "speaker": "Unknown Speaker",
+    "start": 7690.739,
+    "end": 7721.169,
+    "text": "bills or send a response saying, hey, thank you for what you paid, I would strongly like to send a letter, not me personally, but the city, that says thank you for paying your real estate taxes, here are some of the things that you funded and just make it more of a personal impact opportunity to let people know that we know things are tough. So I don't know if that needs consensus from council or not but that would be something that I would recommend to the finance department. So thank you. >> councilmember peterson. just another quick note on the inflation thing, maybe this"
   },
   {
-    "speaker": "Peterson",
-    "start": 7484.459991455078,
-    "end": 7516.220001220703,
-    "text": "these are one of those inflationary increases that we can't necessarily control, but we're going to try to get ahead of it. And then if need be, really look at a potential rebid on that contract or break away from that plan and go independent. And is that something that could be done in this upcoming fiscal year, or are we locked into what we have right now? We're pretty much locked in because we are just advertising what those rates are to the employees. We have open enrollment May 1, so we would probably have to wait an entire year before we could do that."
+    "speaker": "Unknown Speaker",
+    "start": 7721.704,
+    "end": 7753.34,
+    "text": "is good news, maybe it's not. But the latest numbers I saw for the area on housing is that price of housing has gone down a third of a percent this year. The forecast northern virginia realtors through the end of the year, high end of that is 1.9% so housing is not one of the inflationary variables in terms of price that's going up. But we know that the cost of housing nonetheless is high. Going back to a little bit of"
   },
   {
-    "speaker": "Peterson",
-    "start": 7516.220001220703,
-    "end": 7547.019989013672,
-    "text": "But we would do that legwork now in preparation for FY 28. OK, so I do this for my company as well. And so I know nobody likes to have two deductibles in a year, but what we ended up doing was we actually renewed January 1 instead of doing a July 1 renewal. So we had six months of one plan and then looped it back in. I understand we operate on a fiscal year, so that might create some challenges. But I would think that if it's attractive enough to consider a move that we should potentially"
+    "speaker": "Unknown Speaker",
+    "start": 7753.669,
+    "end": 7786.668,
+    "text": "the big picture here in terms of what we will see as we go forward, I know other councilmembers have talked with you about this in terms of information that is of interest, so I think one of the things that would be helpful is to the best of your ability to forecast four or five years to see what this trajectory looks like for the city in terms of expenses and revenues to avoid us being on a yo-yo. This destabilizing pattern that has happened in the past where"
   },
   {
-    "speaker": "Peterson",
-    "start": 7547.019989013672,
-    "end": 7578.260009765625,
-    "text": "see what our timeline options are. My other question is, do we currently offer HSA compatible plans, like high deductible plans? We do. We do. And do we have the FSA options as well? We do. OK. Do you know what our employees tend to choose most of? It varies. We looked at the plan. I'll look at Ms. Riddle if she remembers a little bit better. But we had those statistics. We just reviewed them again about a couple of weeks, maybe three weeks ago, when we got the renewal notices."
+    "speaker": "Unknown Speaker",
+    "start": 7787.537,
+    "end": 7819.601,
+    "text": "we've gone too far up, too far down and then had to play catch-up and it's had a destabilizing effect. So if we could understand to the best of your ability what a smoother trajectory looks like and how we are consistent with that so we could avoid the deviations in either direction, that would really be very helpful. the good thing is we're scheduled for third quarter? Third quarter update and within that, and I know from councilmember hall, too, of getting an idea of projecting for the future so the timing is right for us on the 28th to"
   },
   {
-    "speaker": "Peterson",
-    "start": 7578.260009765625,
-    "end": 7610.179992675781,
-    "text": "I will say that given that the employer, the city, is not the only one taking some of this burden, the employee will also see a increase of about 12%. That may actually move some people out of those higher plans into lower plans. So there may actually be some, when I say savings, lessen the impact of the 325 overall. Because they're going to see an increase in one plan. While some other plans were stagnant, they may migrate to those."
+    "speaker": "Unknown Speaker",
+    "start": 7819.935,
+    "end": 7851.833,
+    "text": "actually have that discussion in conjunction with our budget discussion. >> great. Really appreciate it, again, because we saw some rollercoaster stuff in the past that I think we always want to try to avoid in the future. Very helpful. >> councilmember bates. so as before, I support the proposed increase in the meals tax. It's much more modest than what was proposed last time around"
   },
   {
-    "speaker": "Peterson",
-    "start": 7610.179992675781,
-    "end": 7641.700012207031,
-    "text": "OK. I know we're not the overseers of all of the things. I just happen to have a personal interest and education in this area. If it's possible, if it's on our website, or you could direct me to somewhere that I could see what we pay versus what the employee pays, just so I can see what that cost sharing looks like, is that an option? I'm just curious if we cap at a certain rate or what we cover for families and other individuals and whatnot. The FY27 rates have not been released yet to employees."
+    "speaker": "Unknown Speaker",
+    "start": 7854.903,
+    "end": 7887.87,
+    "text": "and at the end of the day, you know, certainly not something that we love to do but even if we're able to make up that revenue through an increase in the b poll tax or fees or, you know, some other revenue source, that ends up being that much less funding that we could use to perhaps further support our employees, our public safety employees who respond to emergencies that occur at the"
   },
   {
-    "speaker": "Peterson",
-    "start": 7641.700012207031,
-    "end": 7671.940002441406,
-    "text": "But 26, I believe, are on the website. OK. And I'm assuming you'll get it when 27 comes out as it goes to all employees. OK, my apologies. I wasn't really planning on discussing this in detail tonight. Yeah, no, and just to give you a little bit of context, we have just over 80% of our eligible employees that have our health insurance. The majority is with Anthem. We have two plans with Anthem. And then we have about, I think it's about 20% to 30% of employees"
+    "speaker": "Unknown Speaker",
+    "start": 7887.87,
+    "end": 7918.234,
+    "text": "restaurants in the city and at the end of the day, housing is certainly more of a necessity than eating at a restaurant. Certainly some people don't have time to cook. However, there are, you know, frozen meals available at the grocery store, that kind of thing, so, you know, that's also kind of locking ourselves out of if we wanted to use part of that to alleviate some of the burden"
   },
   {
-    "speaker": "Peterson",
-    "start": 7671.940002441406,
-    "end": 7703.540008544922,
-    "text": "are with Kaiser. OK. Yeah. OK. And I just have one other thing. And I know I've asked this a couple of times previously. And I don't know that we ever really come to a definitive yes or no. I would like to suggest that when we either send out our final tax bills or when we send a response saying, hey, thank you for what you paid, I would strongly like to send a letter, not me personally, but the city that says, thank you for paying your real estate taxes. Here are some of the things that you funded. And just make it more of a personal impact opportunity to let people know that we know things are tough."
+    "speaker": "Unknown Speaker",
+    "start": 7919.468,
+    "end": 7952.499,
+    "text": "on our home owners through the real estate tax rate so it's something that I think I again want to encourage caution in ruling out as we go forward. >> yes, MR. Martinez. thank you, mayor. Just want to add a couple clarifying notes. Regarding the meals tax, a potential 2% reduction with each half percent being about 1.3,"
   },
   {
-    "speaker": "Peterson",
-    "start": 7703.540008544922,
-    "end": 7733.580017089844,
-    "text": "So I don't know if that needs consensus from council or not. But that would be something that I would recommend to the finance department. So thank you. Council Member Peterson. Just another quick note on the inflation thing. Maybe this is good news. Maybe it's not. But the latest numbers I saw for the area on housing is that the price of housing has gone down a third of a percent this year. The forecast for the Virginia realtors through the end of the year,"
+    "speaker": "Unknown Speaker",
+    "start": 7954.77,
+    "end": 7986.868,
+    "text": "that's $5.8 million, almost $6 million, that would be reduced or, I'm sorry, that would be -- 1.3, over $5 million is the equivalent of almost 6 cents, 5.8 cents on the current real estate tax rate, and I think councilmember hall made that statement. And additionally, just to clarify, it's not on the screen per se, but when the manager proposed his budget, we realized about $1.3 million in savings"
   },
   {
-    "speaker": "Peterson",
-    "start": 7733.580017089844,
-    "end": 7766.97998046875,
-    "text": "the high end of that is 1.9%. So housing is not one of the inflationary variables in terms of price that's going up. But we know that the cost of housing, nonetheless, is high. Going back to a little bit of the big picture here in terms of what we will see as we go forward, I know other council members have talked with you about this in terms of information that is of interest. So I think one of the things that would be helpful"
+    "speaker": "Unknown Speaker",
+    "start": 7986.969,
+    "end": 8019.99,
+    "text": "from available balances specifically in operating cip funds that came over to the general funds side and now we've shown another $400,000 so in totality, the city has saved about $1.7 million in the fy 27 budget so not an insignificant amount given our size. Just wanted to make those two statements. >> councilmember peterson. am I correct that also in a"
   },
   {
-    "speaker": "Peterson",
-    "start": 7766.97998046875,
-    "end": 7798.02001953125,
-    "text": "is to the best of your ability to forecast forward five years to see what this trajectory looks like for the city in terms of expenses and revenues to avoid us being on a yo-yo, this destabilizing pattern that has happened in the past where we've gone too far up, too far down, and then had to play catch up. And it's had a destabilizing effect. So if we can understand to the best of your ability what a smoother trajectory looks like and how we are consistent with that so we could avoid"
+    "speaker": "Unknown Speaker",
+    "start": 8020.837,
+    "end": 8051.833,
+    "text": "prior session, you indicated that we're looking at an unexpected increase in revenues of 2.7 million? >> we were, in the second quarter financial review, the budget director displayed a 2.7, 2 point some odd million dollar additional revenue that has not been realized but is anticipated for fy 26 with the understanding that that additional revenue would go to unassigned or assigned fund balance to bridge"
   },
   {
-    "speaker": "Ruhal",
-    "start": 7798.02001953125,
-    "end": 7829.559999465942,
-    "text": "the deviations in either direction. That would really be very helpful. Yeah, the good thing is we're scheduled for a third quarter update. And within that, and I know I've heard it from Councilman Ruhal, too, of getting an idea about projecting for the future. So the timing is right for us on the 28th to actually have that discussion in conjunction with our budget discussion. Great, great. Really appreciate it again, because we saw some roller coaster stuff in the past"
+    "speaker": "Unknown Speaker",
+    "start": 8053.435,
+    "end": 8087.167,
+    "text": "the gap for fy 27. >> excellent, thank you. so speaking of the unassigned fund balance, we had encumbered funds in anticipation of a repayment to did d dot out of the unassigned fund balance for this year, I believe. But now that we've actually gotten the bill from d dot for the repayment, there is a plan, I believe, that is going to be explored about how to repay that, and I bring this up"
   },
   {
-    "speaker": "Bates",
-    "start": 7829.559999465942,
-    "end": 7861.799999237061,
-    "text": "that I think we always want to try to avoid in the future. Very helpful. Council Member Bates. So as before, I support the proposed increase in the meals tax. It's much more modest than what was proposed last time around. And at the end of the day, certainly not something that we love to do, but even if we're able to make up that revenue through an increase in the BPOL"
+    "speaker": "Unknown Speaker",
+    "start": 8088.3,
+    "end": 8121.569,
+    "text": "because we have the budget event on APRIL 16th, and I think we need to explain how the $3.5 million is going to be paid back and the fact that while we had encumbered but not actually allocated that money from the unassigned fund balance, there's now a different plan. And I just think it's important, before we get to APRIL 28th, for people to understand what that plan is for the fy 27 and potentially the fy 28 budget."
   },
   {
-    "speaker": "Bates",
-    "start": 7861.799999237061,
-    "end": 7894.160003662109,
-    "text": "tax, or fees, or some other revenue source, that ends up being that much less funding that we could use to perhaps further support our employees, our public safety employees, who respond to emergencies that occur at the restaurants in the city. At the end of the day, housing is certainly more of a necessity than eating at a restaurant."
+    "speaker": "Unknown Speaker",
+    "start": 8123.739,
+    "end": 8153.901,
+    "text": "So will there be a budget memo or how will you kind of put this, for the sake of transparency, to the public when they come to discuss the budget on the 16th, how will that be rolled out? yeah, we have a process for those changes on a change sheet. I'm getting a nod in the affirmative. That's one element of a few elements that we've discussed tonight that we're going to need to work through, some of which we have kind of pushed out just recently. So all of those changes from a"
   },
   {
-    "speaker": "Bates",
-    "start": 7894.160003662109,
-    "end": 7926.2399978637695,
-    "text": "Certainly some people don't have time to cook. However, there are frozen meals available at the grocery store, that kind of thing. So that's also kind of locking ourselves out of if we wanted to use part of that to alleviate some of the burden on our homeowners through the real estate tax rate. So it's something that I think I, again, want to encourage caution in ruling out as we go forward."
+    "speaker": "Unknown Speaker",
+    "start": 8154.203,
+    "end": 8186.935,
+    "text": "revenue and expenditure perspective will be part of the scenarios that we bring to you on the 28th. >> I guess my question is will there be anything prior to the 28th? Because we're having this event on the 16th and we have not discussed this since it is a very new -- it's a very new thing that just happened. yeah, I think that, and again I apologize, the thing's a little clunky as we have talked about our options there, so from a revenue and expense"
   },
   {
-    "speaker": "Bates",
-    "start": 7929.639999389648,
-    "end": 7959.960006713867,
-    "text": "Yes, Mr. Martinez. Thank you, Mary. I just want to add a couple of clarifying notes. Regarding the meals tax, a potential 2% reduction with each half percent being about 1.3, that's $5.8 million, almost $6 million that would be reduced. Or I'm sorry, that would be 1.3, so about over $5 million"
+    "speaker": "Unknown Speaker",
+    "start": 8187.703,
+    "end": 8221.503,
+    "text": "perspective, these things are going to change as we move along. I think the 28th is our opportunity for us to have a full discussion on all of those and all those scenarios which will include how we have given the council options for decisions on how to approach that. What we've even brought up tonight are options and suggestions. Council MAY not like those and we MAY need to pivot and so we'll have those discussions over the next couple weeks. I think thursday's a great opportunity for the public to come out and ask the questions, be engaged and be responsive and we'll certainly bring that back to you."
   },
   {
-    "speaker": "Hall",
-    "start": 7959.960006713867,
-    "end": 7992.0,
-    "text": "to the equivalent of almost $0.06, $0.058 on the current real estate tax rate. And I think Council Member Hall made that statement. And then additionally, just to clarify, and it's not on the screen per se, but when the manager proposed his budget, we realized about $1.3 million in savings from available balances, specifically in operating CIP funds that came over to the general fund side. And now we've shown another $400,000."
+    "speaker": "Unknown Speaker",
+    "start": 8222.838,
+    "end": 8254.835,
+    "text": "You don't have that yet either. We've had plenty of hearings and engagement, engaged platform has been up, we've done a lot of that but that's another element we're going to bring to you on the 28th and have a full transparent discussion around everything related to revenues and expenditures. >> fantastic. Councilmember mcquillen. I just want to thank you. I recognize that this is not a fun topic to discuss and I'm sure it's not great unless you're MR. Martinez to work on"
   },
   {
-    "speaker": "Peterson",
-    "start": 7992.0,
-    "end": 8025.1199951171875,
-    "text": "So in totality, the city has saved about $1.7 million in the FY27 budget. So not an insignificant amount given our size. Just wanted to make those two statements. Council Member Peterson. Am I correct that also in a prior session you indicated that we were looking at an unexpected increase in revenues of $2.7 million?"
+    "speaker": "Unknown Speaker",
+    "start": 8255.704,
+    "end": 8288.803,
+    "text": "it, but I recognize the amount of work you're doing, the amount of time it takes. You're continuing to do it with a smile on your face, and I can feel this isn't a fun process for anyone, but you all -- this is what you have to do for your job and you don't get to just decide you're done. So I just want to say thank you to all of the employees and staff that are working hard right now, especially you all that are in the room because hearing the speed in which you're responsive to our requests about engage and the budget, we're throwing"
   },
   {
-    "speaker": "Peterson",
-    "start": 8025.1199951171875,
-    "end": 8058.920013427734,
-    "text": "We were in the second quarter financial review. The budget director displayed a $2.7, $2. some odd million additional revenue that has not been realized but is anticipated for FY26 with the understanding that that additional revenue would go to unassigned or assigned fund balance to sort of bridge the gap for FY27. Excellent, thank you. So speaking of the unassigned fund balance, we had encumbered funds in anticipation"
+    "speaker": "Unknown Speaker",
+    "start": 8289.638,
+    "end": 8321.102,
+    "text": "everything at you, and you all are just handling it and rolling with it, and I just wanted to say thank you. Because I don't think we do that enough here and acknowledge how much work that is on you. So thank you. >> okay. Any other questions/comments? Councilmember peterson. yeah, just to build on that, great thanks to all of you. And I think the APRIL 16th engagement is a very helpful and important time. I know we're all gettin emails from people with questions and thoughts and what have you. And I'm encouraging them to"
   },
   {
-    "speaker": "Peterson",
-    "start": 8058.920013427734,
-    "end": 8091.1199951171875,
-    "text": "of a repayment to VDOT out of the unassigned fund balance for this year, I believe. But now that we've actually gotten the bill from VDOT for the repayment, there is a plan, I believe, that is going to be explored about how to repay that. And I bring this up because we have the budget event on April 16. And I think we need to explain how the $3.5 million"
+    "speaker": "Unknown Speaker",
+    "start": 8322.271,
+    "end": 8354.103,
+    "text": "please try to attend APRIL 16th or tune in because it's a substantive point in time where you can ask those specific questions and really get into the granular side of this so we've got a lot of that still coming in that really indicates the desire for people to understand things at a specific level so the event was really made for that purpose and this is your opportunity. You try to make it easy so folks can tune in remotely as well and I want to encourage everybody to take advantage of that. And just a note that I"
   },
   {
-    "speaker": "Peterson",
-    "start": 8091.1199951171875,
-    "end": 8123.239990234375,
-    "text": "is going to be paid back. And the fact that while we had encumbered but not actually allocated that money from the unassigned fund balance, there's now a different plan. And I just think it's important before we get to April 28 for people to understand what that plan is for the FY27 and potentially the FY28 budget. So will there be a budget memo? Or how will you kind of put this up"
+    "speaker": "Unknown Speaker",
+    "start": 8354.136,
+    "end": 8384.764,
+    "text": "personally like zoom a lot better than I like teams. any other questions or comments? Before we -- okay, I am now going to reconvene the regular meeting. MR. Alexander, for future meeting topics. thank you, mayor and council. Looking ahead to the 28th, we've had a lot of conversation up to this point, and so much of"
   },
   {
-    "speaker": "Peterson",
-    "start": 8123.239990234375,
-    "end": 8156.079986572266,
-    "text": "for the sake of transparency to the public when they come to discuss the budget on the 16th? How will that be rolled out? Yeah, we have a process for those changes on a change sheet. I'm getting a nod in the affirmative. That's one element of a few elements that we've discussed tonight that we're going to need to work through, some of which we have kind of pushed out just recently. So all of those changes from a revenue and expenditure perspective will be part of the scenarios that we bring to you on the 28th."
+    "speaker": "Unknown Speaker",
+    "start": 8385.168,
+    "end": 8416.63,
+    "text": "this will be focused on public hearings related to the budget. There will be some items not requiring a public hearing to include significantly the blenheim boulevard project and then as we mentioned before, we'll be talking about sherwood and the items that we've talked about tonight and also on there is consideration of bond resolution for general obligation bonds for the school project. Work session-wise, we are again"
   },
   {
-    "speaker": "Peterson",
-    "start": 8156.079986572266,
-    "end": 8187.920013427734,
-    "text": "I guess my question is, will there be anything prior to the 28th that, you know, because we're having this event on the 16th and we have not discussed this since it is a very new thing that just happened? Yeah, I think that, and again, I apologize even with the school things, a little clunky, right, as we have talked about our options there. So from a revenue and expense perspective, these things are going to change as we move along. I think the 28th is our opportunity for us"
+    "speaker": "Unknown Speaker",
+    "start": 8416.6,
+    "end": 8448.62,
+    "text": "planning the third quarter financial review so we're looking forward to that. And then as we discuss the budget draft changes presented and deliberated on that night also. may 5th committed to budget in its entirety. And then looking ahead, moving forward into MAY, significantly we'll have items and public hearings on financial cost --"
   },
   {
-    "speaker": "Peterson",
-    "start": 8187.920013427734,
-    "end": 8218.320007324219,
-    "text": "to have a full discussion on all of those and all those scenarios, which will include how we have given the council options for decisions on how to approach that. What we've even brought up tonight are options and suggestions. Council may not like those, and we may need to pivot. And so we'll have those discussions over the next couple of weeks. I think Thursday is a great opportunity for the public to come out and ask their questions, be engaged, and be responsive. And we'll certainly bring that back to you."
+    "speaker": "Unknown Speaker",
+    "start": 8448.465,
+    "end": 8479.693,
+    "text": "capital costs related to the sewer system and bonds related to that. Also we will bring back the noise discussion on that night. We'll talk potential options for detached accessory dwelling units and the council salaries will be back on that night. We've talked to council up to this point getting later into MAY about wilcox and trail extensions so we'll bring that back to you with a presenation."
   },
   {
-    "speaker": "Mcquillan",
-    "start": 8218.320007324219,
-    "end": 8248.959991455078,
-    "text": "You don't have that yet either. You have, we've had plenty of hearings and engagement. Engaged platform's been up. We've done a lot of that. But that's another element that we're going to bring to you on the 28th and have a fully transparent discussion around everything related to revenues and expenditures. Fantastic. Any council member McQuillan? Sorry. I just want to thank you. I recognize that this is not a fun topic to discuss, and I'm sure it's not great unless you're Mr. Martinez"
+    "speaker": "Unknown Speaker",
+    "start": 8479.995,
+    "end": 8512.328,
+    "text": "And that gets us into JUNE. Happy to answer any questions relative to what we've discussed on these meetings or looking out through the remainder of the year at council's pleasure. >> councilmember peterson. on MAY 5th, the very last item, 7, considering adopting the budget, et cetera, et cetera, is that a single vote that is on both budget and appropriations or are we doing a two-step budget, then"
   },
   {
-    "speaker": "Mcquillan",
-    "start": 8248.959991455078,
-    "end": 8281.359985351562,
-    "text": "to work on it. But I just, I recognize the amount of work you're doing, the amount of time it takes. You're continuing to do it with a smile on your face. And I can feel this isn't a fun process for anyone, but you all, this is what you have to do for your job, and you don't get to just decide you're done. So I just want to say thank you to all of the employees and staff that are working hard right now, especially you all that are in the room. Because hearing the speed in which"
+    "speaker": "Unknown Speaker",
+    "start": 8516.899,
+    "end": 8550.465,
+    "text": "appropriation? I think it's multiple parts. I confess I didn't go back and look at last year's script so you caught me a little bit -- >> that's why I'm asking. we can go back and look at the agenda from that meeting if you'd like. okay. It would be wonderful just to have that nice and clear so we sort of know what we're doing with that. other questions? On the futures agenda. portion of this. Okay."
   },
   {
-    "speaker": "Peterson",
-    "start": 8281.359985351562,
-    "end": 8312.719970703125,
-    "text": "you're responsive to our requests about engage in the budget, I mean, we're throwing everything at you, and you all are just handling it and rolling with it. And I just wanted to say thank you, because I don't think we do that enough here, and acknowledge how much work that is on you. So thank you. OK, any other questions, comments? Council member Peterson. Yeah, just to build on that, great thanks to all of you. And I think the April 16th engagement is a very helpful and important time. I know we're all getting emails from people with questions"
+    "speaker": "Unknown Speaker",
+    "start": 8556.172,
+    "end": 8588.771,
+    "text": "If there's no more questions on that, then we will look for council comments starting with the city manager. >> yeah, I will just reinforce our event on the 16th here in chambers 6:00. Few ways to participate, remote, in-person, and so -- and just watching on cable if you so desire. So we look forward to engaging the public around the fiscal year budget and as you know most of our work has been around that. Look forward over the next couple weeks engaging with council, answering questions."
   },
   {
-    "speaker": "Peterson",
-    "start": 8312.719970703125,
-    "end": 8342.960021972656,
-    "text": "and thoughts and what have you, and I'm encouraging them to please try to attend April 16th or tune in, because it's a substantive point in time where you can ask those specific questions and really get into the granular side of this. So we've got a lot of that still coming in that really indicates the desire for people to understand things at a specific level. So the event was really made for that purpose, and this is your opportunity. Again, I know you've tried to make it easy,"
+    "speaker": "Unknown Speaker",
+    "start": 8589.139,
+    "end": 8619.67,
+    "text": "To councilmember mcquillen's comment earlier, we're thankful to the council. At the risk of sounding gratuitous, you presented a lot of challenges, a lot of questions, a lot of good food for thought relative to this process. Look forward to a little more of that over the next couple weeks and certainly help us inform the process as we move forward so thank you very much. >> councilmember mcquillen, comments? >> thank you. Yes, thank you. APRIL is always an energizing time in our city."
   },
   {
-    "speaker": "Peterson",
-    "start": 8342.960021972656,
-    "end": 8373.400024414062,
-    "text": "so folks can tune in remotely as well. I want to encourage everybody to take advantage of that. And just a note that I personally like Zoom a lot better than I like Teams. Any other questions or comments before we? OK, I'm now going to reconvene the regular meeting. Mr. Alexander for future meeting topics. Thank you, Mayor and Council."
+    "speaker": "Unknown Speaker",
+    "start": 8619.469,
+    "end": 8653.535,
+    "text": "Our parks are full, our neighborhoods are active, there's a real sense of connection across the city that reflects the strength of this community. With early voting under way and a state-wide amendment on the ballot next week, I encourage residents to stay informed and participate. Engagement at every level is what keeps our democracy strong. At the city level, we're deep in budget season and these are some of the most important decisions we make all year. Right now, we are focused on ensuring strong support for our schools, maintaining public safety services, and investing responsibly in infrastructure that residents rely on every"
   },
   {
-    "speaker": "Peterson",
-    "start": 8373.400024414062,
-    "end": 8405.079999923706,
-    "text": "Looking ahead to the 28th, we've had a lot of conversation up to this point, and so much of this will be focused on public hearings related to the budget. There will be some items not requiring a public hearing to include significantly the Blenheim Boulevard project. And then as we mentioned before, we'll be talking about Willard Sherwood and the item. that we've talked about tonight and also on there is the consideration of bond resolution"
+    "speaker": "Unknown Speaker",
+    "start": 8654.737,
+    "end": 8686.867,
+    "text": "day. That includes continued coordination through our shared services partnership with fairfax county, on-going investments in roadway and pedestrian safety, and critical stormwater infrastructure projects that help protect our neighborhoods long-term. We've also continued to support accessible public transportation through our fare free queue bus system and working through on-going discussions around housing and affordability to help ensure fairfax city remains a place where people can live, work and stay."
   },
   {
-    "speaker": "Peterson",
-    "start": 8405.079999923706,
-    "end": 8437.479999542236,
-    "text": "for general obligation bonds for the school project. Work session wise, we are again planning the third quarter financial review. So we're looking forward to that. And then as we've discussed, the budget draft changes presented and deliberated on that night also. May 5th, committed to budget. In its entirety. And then looking ahead, moving forward into May,"
+    "speaker": "Unknown Speaker",
+    "start": 8687.37,
+    "end": 8717.932,
+    "text": "This month also invites us to reflect on our environment and I'm proud of the continued focus on protecting our green spaces, improving resilience and ensuring we are planning thoughtfully for the future of this city. With that, I'd also like to congratulate the women of influence that received her award this evening, katie johnson. Congratulations. Thank you for all you've done for our community. i'd also like to just point out, though, what guides my work most are the conversations I have with our residents."
   },
   {
-    "speaker": "Peterson",
-    "start": 8437.479999542236,
-    "end": 8467.559997558594,
-    "text": "significantly, we'll have items on public hearings on financial costs, capital costs related to the sewer system and bonds related to that. Also, we will bring back the noise discussion on that night. We'll talk potential options for detached accessory dwelling units and the council salaries will be back on that night. We've talked to council up to this point,"
+    "speaker": "Unknown Speaker",
+    "start": 8718.601,
+    "end": 8750.966,
+    "text": "Whether it's concerns about safety, affordability, or overall quality of life, I deeply value all of those perspectives. They directly shape how I approach the work we do here. I also want to recognize how important it is that everyone in our community, especially students and families, feel supported and safe and that there is confidence in coming forward when something is wrong. This month, as we observe sexual assault awareness month, that message feels especially meaningful and timely. It's a reminder of the"
   },
   {
-    "speaker": "Peterson",
-    "start": 8467.559997558594,
-    "end": 8503.040000915527,
-    "text": "getting later into May about Wilcoxon Trail Extension. So we'll bring that back to you with a presentation. And that gets us into June. Happy to answer any questions relative to what we've discussed on these meetings or looking out through the remainder of the year at council's pleasure. Council Member Peterson. On May 5th, the very last item, seven, considering adopting the budget, et cetera, et cetera. Is that a single vote that is on both"
+    "speaker": "Unknown Speaker",
+    "start": 8751.7,
+    "end": 8786.35,
+    "text": "importance of fostering a community where individuals feel heard, respected, and protected and where speaking up is met with support and care. I want to close by sincerely thanking everyone who has taken the time to reach out, share your thoughts and engage in these conversations. That participation matters. It's democracy at work, and I truly value it. Thank you. >> councilmember bates. I want to second the comments in support of survivors of sexual assault. In recognition of sexual assault awareness month."
   },
   {
-    "speaker": "Peterson",
-    "start": 8503.440002441406,
-    "end": 8538.720001220703,
-    "text": "budget and appropriations? Or are we doing a two-step budget then appropriation? I think it's multiple parts. I confess I didn't go back and look at last year's script, so you caught me a little off-track. That's why I'm asking. We can go back and look at the agenda from that meeting if you'd like. Okay, it would be wonderful just to have that nice and clear so we sort of know what we're doing with that. Other questions on the futures agenda portion of this?"
+    "speaker": "Unknown Speaker",
+    "start": 8787.102,
+    "end": 8819.1,
+    "text": "Thank you. >> councilmember peterson. I wanted to share a personal health note really as a part of just general awareness to help everybody. So it's sort of a funny thing and after you turn 65, suddenly your doctor starts spending a lot more time paying attention to you and they start running you through all kinds of tests that you probably should have been doing about 25 years earlier. It's like oops, you know. So interesting process, takes a"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 8538.720001220703,
-    "end": 8573.360000610352,
-    "text": "Okay, if there's no more questions on that, then we will look for council comments starting with the city manager. Yeah, I will just reinforce our event on the 16th here in chambers at six o'clock. A few ways to participate remote in person and just watching on cable if you so desire."
+    "speaker": "Unknown Speaker",
+    "start": 8820.604,
+    "end": 8851.298,
+    "text": "little time, just heads-up, but I ended up as a part of that having a sleep test and finding out that I had sleep apnea. For those who don't know, it means you stop breathing while sleeping which is not exactly a great thing to do. And there's various levels, I have what's known as moderate sleep apnea which means technically between 15 and 30 times an hour you stop breathing and in my case, it's 17. And while that MAY not seem like a big deal, it adds up so you could end up losing a couple hours of sleep every night from that."
   },
   {
-    "speaker": "Quillen",
-    "start": 8573.360000610352,
-    "end": 8603.580001831055,
-    "text": "So we look forward to engaging public around the fiscal year budget. And as you know, most of our work has been around that. Look forward to over the next couple weeks engaging with council, answering questions. To Council Member Quillen's comment earlier, we're thankful to council. At the risk of sounding a little gratuitous, you presented a lot of challenges, a lot of questions, a lot of good food for thought relative to this process. Look forward to a little more of that over the next couple weeks. And it'll certainly help us inform the process"
+    "speaker": "Unknown Speaker",
+    "start": 8853.836,
+    "end": 8884.431,
+    "text": "The average in terms of how much people slop breathing for moderate is not that long, 10 to 20 seconds but for some of us, it's longer. It's between 50, 5-0, and 130 seconds per episode. When I stop breathing. So, you know, you get a little bit tired the next day if you're trying to get to sleep like that. So the bad news is that. But the good news is it's eminently treatable. It's very easy to get a sleep test. It's just take it home, you do it, it's not a problem."
   },
   {
-    "speaker": "Mcquillan",
-    "start": 8603.580001831055,
-    "end": 8635.139999389648,
-    "text": "as we move forward, so thank you very much. Council Member McQuillan, comments? Yes, thank you. Yes, thank you. April is always an energizing time in our city. Our parks are full, our neighborhoods are active. There's a real sense of connection across the city that reflects the strength of this community. With early voting underway and a statewide amendment on the ballot next week, I encourage residents to stay informed and participate. Engagement at every level is what keeps our democracy strong."
+    "speaker": "Unknown Speaker",
+    "start": 8885.268,
+    "end": 8916.364,
+    "text": "And the remedy for it, if you have apnea, is to wear a sleep mask. I do that and what a game changer. I can't say that I'm leaping tall buildings but pretty close to it. It really has been a complete game changer. One of the things I learned is that people are apparently really good about detecting acute fatigue and really terrible about detecting chronic fatigue until you've gotten over it and it's like I can't believe all this time I did that. So I would encourage everybody if you haven't already to"
   },
   {
-    "speaker": "Mcquillan",
-    "start": 8635.139999389648,
-    "end": 8665.859985351562,
-    "text": "At the city level, we're deep in budget season and these are some of the most important decisions we make all year. Right now, we are focused on ensuring strong support for our schools, maintaining public safety services, and investing responsibly in infrastructure that residents rely on every day. That includes continued coordination through our shared services partnership with Fairfax County, ongoing investments in roadway and pedestrian safety, and critical stormwater infrastructure projects that help protect our neighborhoods long-term."
+    "speaker": "Unknown Speaker",
+    "start": 8916.366,
+    "end": 8947.794,
+    "text": "seriously consider getting a sleep test and don't wait until you're 65. My doctor says you need to be doing this at 40 and go tell your insurance company to take care of and you do that. And there's a lot of things in that category, so I would heartly recommend it, again, easy to do. The thing to be aware of also is it can be lethal so unfortunately my family has friends and relations who didn't survive these episodes that took place at night. So it's serious business."
   },
   {
-    "speaker": "Mcquillan",
-    "start": 8665.859985351562,
-    "end": 8698.220001220703,
-    "text": "We've also continued to support accessible public transportation through our fare-free Q-Bus system while working through ongoing discussions around housing and affordability to help ensure Fairfax City remains a place where people can live, work, and stay. This month also invites us to reflect on our environment and I'm proud of the continued focus on protecting our green spaces, improving resilience, and ensuring we are planning thoughtfully for the future of this city. With that, I'd also like to congratulate"
+    "speaker": "Unknown Speaker",
+    "start": 8947.997,
+    "end": 8978.192,
+    "text": "The other thing, just to be aware of, is that it can catch up with you if you don't treat it. At pretty inconvenient times so somebody in our family, no names mentioned, fell asleep at a stop light. And the person behind him thought he was texting, right, so came up and knocked on the window which is a good thing and said, dude, what are you doing here, and he was like snoring, so you should try to protect yourself but just remember we share the roads and we need to"
   },
   {
-    "speaker": "Mcquillan",
-    "start": 8698.220001220703,
-    "end": 8729.5,
-    "text": "the women of influence that received her award this evening, Katie Johnson, congratulations. Thank you for all you've done for our community. I'd also like to just point out though what guides my work most are the conversations I have with our residents. Whether it's concerns about safety, affordability, or overall quality of life, I deeply value all of those perspectives. They directly shape how I approach the work we do here. I also want to recognize how important it is"
+    "speaker": "Unknown Speaker",
+    "start": 8978.46,
+    "end": 9009.557,
+    "text": "protect each other too. So we have a responsibility in our personal health to avoid health impacts to other people at the same time so it's just one more reason to do this. And I would reach back also to the earlier conversation we had about health care. We're very fortunate, this area has bar none the best health care anywhere. We're really, really fortunate to live in an area that has the kind of advanced accessible health care we do but it comes at a price."
   },
   {
-    "speaker": "Mcquillan",
-    "start": 8729.5,
-    "end": 8760.100006103516,
-    "text": "that everyone in our community, especially students and families, feel supported and safe and that there's confidence in coming forward when something is wrong. This month, as we observe Sexual Assault Awareness Month, that message feels especially meaningful and timely. It's a reminder of the importance of fostering a community where individuals feel heard, respected, and protected and where speaking up is met with support and care. I want to close by sincerely thanking everyone"
+    "speaker": "Unknown Speaker",
+    "start": 9010.659,
+    "end": 9043.192,
+    "text": "Not everybody can get access, and we'll talk a bit more about the willard sherwood center and the health center there but public health is an incredibly part of our system. But then the commercial healthcare system and the insurance-based system as well but it's not equally accessible to everybody and this is a pretty tough time right now because we haven't gotten reimbursements for obama care, a lot of people simply don't know what they're going to do. We do hear a lot of people saying they're making very hard choices about funding their health care and getting groceries, things like that, and"
   },
   {
-    "speaker": "Bates",
-    "start": 8760.100006103516,
-    "end": 8790.220001220703,
-    "text": "who has taken the time to reach out, share your thoughts, and engage in these conversations. That participation matters. It's democracy at work and I truly value it. Thank you. Council Member Bates. I want to second the comments in support of survivors of sexual assault in recognition of Sexual Assault Awareness Month. Thank you. Council Member Peterson. I wanted to share a personal health note,"
+    "speaker": "Unknown Speaker",
+    "start": 9043.759,
+    "end": 9077.191,
+    "text": "those are really for-real conversations I think we need to internalize and appreciate as we go through what we can do here in the city to take care of all these things. The other thing I say based on earlier discussion this evening is I would like I think a resolution here that would be quite timely and constructive would be for the city attorney to come back to us at some time in the not too distant future with a recommendation on how we might put in place a conflicts of interest policy that would deal with the potential for"
   },
   {
-    "speaker": "Bates",
-    "start": 8790.220001220703,
-    "end": 8823.140014648438,
-    "text": "really as a part of just general awareness to help everybody. So, it's sort of a funny thing, you know, after you turn 65, suddenly your doctors start spending a lot more time paying attention to you and they start running you through all kinds of tests that you probably should have been doing like 25 years earlier and it's like, oops, you know. So, interesting process, takes a little time, just heads up, but I ended up, as a part of that, having a sleep test and finding out that I had sleep apnea"
+    "speaker": "Unknown Speaker",
+    "start": 9077.594,
+    "end": 9110.426,
+    "text": "family conflicts related to slots that are under consideration for appointments. I think this is done rather commonly and there are standard templates for that. I think it would be very helpful for us to look at that and get the benefit of your advice on how that might be handled. I think it also would be very helpful for us to see what the options might be for us changing our holdover policy because it seems to have become a point of conflict and concern for the council. So I would hope that the committee would be open -- the council, rather, would be open to having our attorney come back and provide us best advice in"
   },
   {
-    "speaker": "Bates",
-    "start": 8823.140014648438,
-    "end": 8853.179992675781,
-    "text": "and for those of you who don't know, it means you stop breathing while you're sleeping, which is not exactly a great thing to do. And there's various levels. I have what's known as moderate sleep apnea, which means technically between 15 and 30 times an hour you stop breathing and in my case it's 17 and while that may not seem like a big deal, it adds up so you could end up losing a couple hours of sleep every night from that. I mean, the average in terms of how much people stop breathing for a moderate is not that long,"
+    "speaker": "Unknown Speaker",
+    "start": 9111.227,
+    "end": 9142.69,
+    "text": "both of these areas. And let me just ask if there's anybody who doesn't agree with that. >> MR. -- appreciate the promotion. Just so I understand, we have talked with every council in the years I've been here about doing a code of ethics and councils have not adopted it. Are you all suggesting that we bring back a suggested code of ethics? We're certainly prepared to do that."
   },
   {
-    "speaker": "Bates",
-    "start": 8853.179992675781,
-    "end": 8884.019989013672,
-    "text": "10 to 20 seconds, but for some of us it's a whole lot longer. For me it's between 50, five zero, and 130 seconds per episode when I stop breathing. So, you know, you get a little bit tired the next day if you're trying to get to sleep like that. So the bad news is that, but the good news is it's eminently treatable. It's very easy to get a sleep test. You take it home, you do it, it's not a problem. And the remedy for it, if you have apnea,"
+    "speaker": "Unknown Speaker",
+    "start": 9143.225,
+    "end": 9177.793,
+    "text": "We have the materials that we've updated year after year, or how suggesting bringing forward a one-off related just to that discreet issue which is a different thing but could be included in your policy with respect to boards and commissions, for example? I want to understand the tasking. I'm sorry. >> well, sequentially, the latter. But then ultimately, the former. I mean, I think we're overdue having a code of ethics, but the approximate thing we need to deal with is conflict."
   },
   {
-    "speaker": "Bates",
-    "start": 8884.019989013672,
-    "end": 8914.059997558594,
-    "text": "is to wear a sleep mask. I do that and what a game changer. I can't say that I'm leaping tall buildings, but pretty close to it. It really has been a complete game changer. One of the things I learned is that people are apparently really good about detecting acute fatigue and really terrible about detecting chronic fatigue until you've gotten over it and it's like, oh my God, I can't believe all this time I did that. So I would encourage everybody, if you haven't already, to seriously consider getting a sleep test"
+    "speaker": "Unknown Speaker",
+    "start": 9178.494,
+    "end": 9211.124,
+    "text": "We did not advance the board and commission appointments tonight because of the distraction and frankly destabilization associated with the conflicts of interest issue and I think that's a shadow that is cast over the whole appointment process that we need to remove the way the state has encouraged us to remove it through adherence of policy so that would be the first order of business and turn to the broader issue of code of ethics. I would note, all credit to you and our city clerk nor working"
   },
   {
-    "speaker": "Bates",
-    "start": 8914.059997558594,
-    "end": 8945.460021972656,
-    "text": "and don't wait until you're 65. My doctor says, you need to be doing this at 40 and go tell your insurance company, you know, to take care of you and do that. And there's a lot of things in that category. So I would heartily recommend it. Again, easy to do. The thing to be aware of also is it can be lethal. And so unfortunately my family has friends and relations who didn't survive these episodes that took place at night. So it's serious business. The other thing, just to be aware of,"
+    "speaker": "Unknown Speaker",
+    "start": 9211.661,
+    "end": 9246.161,
+    "text": "very hard, putting in place for the first time a board and commission handbook that covers many, many issues including conflicts of interest. We I think recognize that was a work in progress there were outstanding issues that would need to be updated and added to that. I think tonight's discussion underscores the urgency of doing that in key areas and this is one of those areas that is urgent and needs to be done so we can get back on track with our board and commission appointments which at this stage are apparently frozen. >> so just looking at the"
   },
   {
-    "speaker": "Bates",
-    "start": 8945.460021972656,
-    "end": 8975.559997558594,
-    "text": "is that it can catch up with you if you don't treat it at pretty inconvenient times. So somebody in our family, no names mentioned, fell asleep at a stoplight. And the person behind him thought he was texting, right? So he came up and knocked on the window, which is a good thing. He said, dude, what are you doing here? And he was like snoring. So you should try to protect yourself, but just remember we share the roads and we need to protect each other too."
+    "speaker": "Unknown Speaker",
+    "start": 9246.329,
+    "end": 9277.559,
+    "text": "calendar, considering you're in the middle of budget season, I would assume that perhaps the meeting or a couple meetings after budget adoption would be a good target for this discussion. And it will be a discussion because I assume there are differing views on this. But we'll be prepared to bring some information back at a work session if that's the will of the council. Happy to do it. we can, yes, and we can look to the city manager to look at a futures list to put that discussion. Thank you."
   },
   {
-    "speaker": "Bates",
-    "start": 8975.559997558594,
-    "end": 9006.599999904633,
-    "text": "So we have a responsibility in our personal health to avoid health impacts to other people at the same time. So it's just one more reason to do this. And I would reach back also to the earlier conversation we had about healthcare. We're very fortunate. This area has, bar none, the best healthcare anywhere. We are really, really fortunate. to live in an area that has the kind of advanced accessible health care we do, but it comes at a price."
+    "speaker": "Unknown Speaker",
+    "start": 9281.3,
+    "end": 9312.593,
+    "text": "Councilmember hardy-chandler. so first of all, I want to acknowledge the civic connections kick-off that happened APRIL 8th. Jennifer rose and her curriculum trying to support residents and business owners to understand the inner workings of our city and come from an informed place and an engaged place, I think was a second cohort. We even have alumni from the first cohort here so it really is a program that I hope we can"
   },
   {
-    "speaker": "Bates",
-    "start": 9006.599999904633,
-    "end": 9036.840000152588,
-    "text": "Not everybody can get access, and we'll talk a bit more about the Willard Sherwood Center and the health center there, but public health is an incredibly important part of our system, but then the commercial health care system and the insurance-based system as well, but it's not equally accessible to everybody, and this is a pretty tough time right now because we haven't gotten reimbursements for Obamacare. A lot of people simply don't know what they're going to do. We do hear a lot of people saying they're making very hard choices about funding their health care and getting"
+    "speaker": "Unknown Speaker",
+    "start": 9313.128,
+    "end": 9345.76,
+    "text": "continue to support and rally around. So I was very honored to be there and to welcome that cohort. So thank you very much. I also want to highlight a very successful home for life expo. I continue to be honored and impressed with being the liaison to the village and the city and to emphasize every time I get an opportunity that that is a working, very healthy, very dynamic advisory group."
   },
   {
-    "speaker": "Bates",
-    "start": 9036.840000152588,
-    "end": 9067.919998168945,
-    "text": "groceries, things like that, and those are really for real conversations that I think we need to internalize and appreciate as we go through what we can do here in the city to take care of all these things. So the other thing I would just say based on our earlier discussion this evening is I would like I think a resolution here that would be quite timely and constructive would be for the city attorney to come back to us at some time in the not too distant future with a recommendation on how we might put in place a conflicts of interest policy that would deal"
+    "speaker": "Unknown Speaker",
+    "start": 9347.83,
+    "end": 9379.427,
+    "text": "And the work that they do not only for the city but as a role model nationally I think is really tremendous. My understanding is that the home for life attendees were significantly higher than last year so continuing to expand access to resources and information for various people throughout our community. And I think that the benefits of that will go along beyond APRIL 10th. I also want to acknowledge the commission for women event today."
   },
   {
-    "speaker": "Bates",
-    "start": 9067.919998168945,
-    "end": 9098.620002746582,
-    "text": "with the potential for family conflicts related to slots that are under consideration for appointments. I think this is done rather commonly and probably standard templates for that. I think it would be very helpful for us to be able to have a look at that and get the benefit of your advice on how that might be handled. I think it also would be very helpful for us to see what the options might be for us changing our holdover policy because it seems to have become a point of conflict and concern for the"
+    "speaker": "Unknown Speaker",
+    "start": 9380.563,
+    "end": 9410.959,
+    "text": "I was very honored to be a part of the commission during the time when the woman of influence award was created. During my five-year tenure on that commission, so I know that they do good work and really want to celebrate contributions to the community. Beyond that, I also want to just highlight in spite of the discussion today, part of being a servant is that you're going to work with people who have differences of opinion and"
   },
   {
-    "speaker": "Bates",
-    "start": 9098.620002746582,
-    "end": 9131.759994506836,
-    "text": "council. So I would hope that the committee would be open to or the council rather would be open to having our attorney come back and provide us best advice in both of these areas. And let me just ask if there's anybody who doesn't agree with that. Mr. Luebkeman. I appreciate the promotion. Just so I understand, we have talked with every council in the 20 years that I've been here about doing a code of ethics generally and councils have not adopted it."
+    "speaker": "Unknown Speaker",
+    "start": 9411.727,
+    "end": 9442.924,
+    "text": "express those differences, that's healthy. So I think that there was a dynamic discussion earlier, and although we come to this with different perspectives, I was raised and will continue to respect everyone and that that respect comes through no matter whether there's agreement or disagreement. And I do believe that one of the aspects that would have prevented the discussion earlier"
   },
   {
-    "speaker": "Bates",
-    "start": 9131.759994506836,
-    "end": 9166.419998168945,
-    "text": "Are you all suggesting that we bring back a suggested code of ethics? We're certainly prepared to do that. We have the materials that we've updated year after year. Or are you suggesting bringing forward a one-off related just to that discrete issue, which is a different thing but could be included in your policy with respect to boards and commissions, for example? I just want to understand the tasking. I'm sorry. Well, sequentially, the latter, but then ultimately the former."
+    "speaker": "Unknown Speaker",
+    "start": 9443.793,
+    "end": 9475.223,
+    "text": "or can prevent future conflicts is more expedient appointments. because I think that part of the delay contributed to the dynamic that happened. But I really hope that we can get people on boards earlier. So with that, I'll just wrap up and appreciate it. councilmember hall. thank you very much. I want to thank the county and our staff for putting on a great point meeting last week."
   },
   {
-    "speaker": "Bates",
-    "start": 9166.419998168945,
-    "end": 9199.320007324219,
-    "text": "I mean, I think we're overdue having a code of ethics, but the proximate thing we need to deal with here is a conflict. We did not advance the board and commission appointments tonight because of the distraction and frankly destabilization associated with the conflicts of interest issue. And I think that's a shadow that is cast over the whole appointment process that we need to remove the way the state has encouraged us to remove it through adherence of policy here. So that would be the first order of business to take care of that and then turn to the broader issue of the code of ethics."
+    "speaker": "Unknown Speaker",
+    "start": 9475.558,
+    "end": 9507.155,
+    "text": "I don't think we had an opportunity with the work session to properly thank you all for doing that. I know there were a lot of questions that were answered and communication was really good and it was nice to just have an open and upfront, honest conversation which I think was very, very helpful. I had a great time at my very first ever fire truck push in ceremony on friday. I was very happy -- I actually asked the question, I'm like they're going to turn this on, right, because otherwise, there's some older people here, they might hurt their back, I was feeling like risk management"
   },
   {
-    "speaker": "Bates",
-    "start": 9199.320007324219,
-    "end": 9231.320007324219,
-    "text": "I would note that we all credit to you and to our city clerk for working very hard, putting in place for the first time a board and commission handbook that covers many, many issues, including conflicts of interest. We, I think, recognize that was a work in progress. There were outstanding issues that would need to be updated and added to that. I think tonight's discussion underscores the urgency of doing that in key areas, and this is one of those areas that is urgent and needs to be done so that we can get back on track"
+    "speaker": "Unknown Speaker",
+    "start": 9509.125,
+    "end": 9542.624,
+    "text": "nor a moment and they're like we got this, it goes in reverse, it's all good. I was barely able to touch the truck but I did get to push. It was great to see all these retired chiefs and all these other positions that worked here for so long and now have gone off to retirement and come back, and they're such a camaraderie that you just see with firefighters and police, too, and there's some finessing between the two departments I think, too. They rub each other in good ways, but it's just such a great"
   },
   {
-    "speaker": "Bates",
-    "start": 9231.320007324219,
-    "end": 9262.260009765625,
-    "text": "with our board and commission appointments, which at this stage are apparently frozen. So just looking at the calendar, considering you're in the middle of budget season, I would assume that perhaps the meeting or a couple meetings after budget adoption would be a good target for this discussion. And it will be a discussion because I assume there are differing views on this, but we'll be prepared to bring some information back at a work session if that's the will of the"
+    "speaker": "Unknown Speaker",
+    "start": 9544.294,
+    "end": 9574.657,
+    "text": "group of people that just get together and just -- they just exist and they all support each other and it was a really, really great opportunity for community, I'll say. There was an adorable little boy named fireman schultz, and he apparently was told to show up at 10 A.M. In order to be there for the push in. He got there ten minutes early but we had already pushed it in and I felt terrible for this little boy but I will say they all did a great job. They took pictures in front of the truck but my heart went out to this little kid, clearly this"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 9262.260009765625,
-    "end": 9294.679992675781,
-    "text": "council. Happy to do it. We can, yes, and we can look to the city manager to look at a futures list to put that discussion. Thank you. Council Member Hardy-Chandler. So first of all, first of all, I want to acknowledge the civic connections kickoff that happened April 8th. Jennifer Rose and her curriculum trying to support residents and business owners to understand the inner workings of our city"
+    "speaker": "Unknown Speaker",
+    "start": 9576.392,
+    "end": 9608.39,
+    "text": "was the highlight of his month. I am excited for the women's club of fairfax fashion show on saturday. There is also on sunday APRIL 19th a spring community clean-up at van dyck park starting at 9 A.M. I want to give a huge congratulations to katie johnson who is still here to the bitter end for back our 2026 woman of influence recipient and your time, your energy, your dedication, it is seen, it is recognized, and you are just an amazing resident here and I"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 9294.679992675781,
-    "end": 9329.519989013672,
-    "text": "and come from an informed place and an engaged place, I think, was second cohort. We even have alumni from the first cohort here. So it really is a program that I hope we can continue to support and rally around. So I was very honored to be there and to welcome that cohort. So thank you very much. I also want to highlight a very successful Home for Life Expo. I continue to be honored and impressed with being the liaison"
+    "speaker": "Unknown Speaker",
+    "start": 9609.425,
+    "end": 9640.488,
+    "text": "think one of your greatest abilities is the ability to rally those around you. Anybody can go out and pull weeds and do whatever, but you do it in such a way that makes people want to be a part of whatever organization or entity or group that you're working with and you can find common ground with anybody on all of these different things and it's just very, very spectacular and impressive to see so thank you. I do also want to tell people that my campaign slogan when I ran was \"this is your city and"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 9329.519989013672,
-    "end": 9361.079986572266,
-    "text": "to the village and the city and to emphasize every time I get an opportunity that that is a working, very healthy, very dynamic advisory group. And the work that they do, not only for the city, but as a role model nationally, I think it's really tremendous. My understanding is that the Home for Life attendees were significantly higher than last year. So continuing to expand access to resources and information for"
+    "speaker": "Unknown Speaker",
+    "start": 9640.789,
+    "end": 9672.754,
+    "text": "your opinion matters\" and I wholeheartedly stand by that. And just as a reminder, you have two more weeks essentially to reach out to council, to send us questions, send us comments, let us know what you think about things. I hope you won't save it until the very last minute so we're scrambling the morning of the 28th, but I do know that we also get to see many of you throughout our days and nights and things that we're doing. So this will never be your last chance to have input on a budget. It's a living document that kind of goes on and on. Yes, we set it for one year but"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 9361.179992675781,
-    "end": 9395.119995117188,
-    "text": "various people throughout our community. And I think that the benefits of that will go along beyond April 10th. I also want to acknowledge the Commission for Women event today. I was very honored to be a part of the commission during the time when the Woman of Influence Award was created during my five-year tenure on that commission. So I know that they do good work and really want to celebrate contributions to the community."
+    "speaker": "Unknown Speaker",
+    "start": 9672.855,
+    "end": 9703.453,
+    "text": "then we immediately move on to the next one. So I would strongly encourage you to attend the virtual or in-person event on thursday. I will certainly be there because we know budget day, we enjoy it. And thank you. Please, please, please continue to share your thoughts and ideas honestly on ways that we could do this whole thing better. So thank you. >> councilmember amos. I would also extend that, remember the noise ordinance is still open for discussion and comment until MAY 12th so keep"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 9395.119995117188,
-    "end": 9426.579986572266,
-    "text": "Beyond that, I also want to just highlight, in spite of the discussion today, you know, part of being a servant is that you're going to work with people who have differences of opinion and express those differences. That's healthy. So I think that there was a dynamic discussion earlier. And although we come from this, come to this with different perspectives, I was raised and will continue to respect everyone and that that respect comes through no matter whether"
+    "speaker": "Unknown Speaker",
+    "start": 9703.453,
+    "end": 9735.45,
+    "text": "that in mind. I'm going to apologize in advance, I wish I didn't have so many announcements but I'll try to run through quick. I want to echo the congratulations to katie johnson for your award. Very well-deserved. I know that the county held an absolutely wonderful celebration for michael fry at the government center. I know I saw the mayor there, former supervisor who did a lot of special things when it comes to animal rights and protections and has the animal shelter in the county named after him so just want to echo our sentiments to his family and that he was"
   },
   {
-    "speaker": "City Manager David Coll",
-    "start": 9426.579986572266,
-    "end": 9462.679992675781,
-    "text": "there's agreement or disagreement. And I do believe that one of the aspects that would have prevented the discussion earlier or can prevent future conflicts is more expedient appointments because I think that part of the delay contributed to the dynamic that happened. But I really hope that we can get people on boards earlier. So with that, I'll just wrap up and appreciate it."
+    "speaker": "Unknown Speaker",
+    "start": 9735.885,
+    "end": 9766.313,
+    "text": "such a phenomenal human being% for everything he's done. Columbia was great. If you want to see pictures, talk to me after or another day because I know interesting night. -- colombia. I do want to share that tomorrow at fairfax high school is the hire a lion fare, going to look at jennifer rose sharply, thanks to her, I would love to thank the fairfax forward foundation, central fairfax chamber, city"
   },
   {
-    "speaker": "Hall",
-    "start": 9462.679992675781,
-    "end": 9493.679992675781,
-    "text": "Council Member Hall. Thank you very much. I want to thank the county and our staff for putting on a great joint meeting last week. I don't think we had an opportunity with the work session to properly thank you all for doing that. I know there were a lot of questions that were answered and communication was really good and it was nice to just have an open and upfront, honest conversation, which I think was very, very helpful. I had a great time at my very first ever fire truck push-in ceremony on Friday."
+    "speaker": "Unknown Speaker",
+    "start": 9769.18,
+    "end": 9800.148,
+    "text": "schools, dan phillips and marie kim, my colleagues on the dais and all the businesses who signed up, we hit our max for businesses tomorrow so it should be very solid turn-out. Wish I could have got in contact with woody's ice cream, I tried, I tried. Should be a good time. Hope everyone can make it starting at 9:50 A.M. During lion time. And excited to share poetry night for a spotlight on the arts. I guess I kind of got put in charge of that for some reason."
   },
   {
-    "speaker": "Hall",
-    "start": 9493.679992675781,
-    "end": 9525.02001953125,
-    "text": "I was very happy. I actually asked the question, I'm like, they're going to turn this on, right, because otherwise, like there's some older people here, somebody might hurt their back. I was feeling like risk management for a moment and they were like, we got this, it goes in reverse, it's all good. So it was fun. There were so many people there, I was barely able to like touch part of the truck, but I did get to push. So that was very exciting. We had a great, great turnout. It was really, really great to see all these retired chiefs and, you know, all these other positions that have worked here for so long and now have gone off to retirement and come back."
+    "speaker": "Unknown Speaker",
+    "start": 9800.716,
+    "end": 9830.776,
+    "text": "It's not my intention but it kind of fell into my lap, and it's very well-fitting for national poetry month. And I've always said that I feel like so much attention is given to the visual arts, I would love to see more emphasis on the literary arts, and sharon chang has talked to all of us about that. But also excited to announce that we confirmed that angelique palmer, the fairfax poet laureate, will be in attendance so she will be headlining the event so we're very excited to have her there. It will be monday APRIL 27th"
   },
   {
-    "speaker": "Hall",
-    "start": 9525.02001953125,
-    "end": 9556.679992675781,
-    "text": "And they just, there's such this camaraderie that you just see with firefighters and police too. And, you know, there's some, you know, finessing between the two departments, I think, too. You know, they rub each other in good ways. But it's just such a great group of people that just get together and just, they just exist and they all support each other. And it was just, it was a really, really great opportunity for community, I'll say. There was an adorable little boy named Fireman Schultz, and he apparently was told to show up at 10 a.m."
+    "speaker": "Unknown Speaker",
+    "start": 9831.313,
+    "end": 9864.946,
+    "text": "starting at 6 P.M. In the top section of old fire station 3. Very excited for that. And the last thing I will say, a special thanks to leadership fairfax for honoring me with the 40 under 40 award earlier today. I have a weird feeling about awards, I greatly appreciate it, you know, starting off as a car salesman when I first got here and kind of being relatively unknown to where I am now, I just feel like I'm a culmination of everyone I've ever met and I'm just eternally grateful for"
   },
   {
-    "speaker": "Hall",
-    "start": 9556.679992675781,
-    "end": 9587.820007324219,
-    "text": "in order to be there for the push-in. He got there ten minutes early, but we had already pushed it in and I felt terrible for this little boy. But I will say they all did a great job. They took pictures of him in front of the truck. But my heart went out to this little kid who clearly was, this was like the highlight of his month. So I am excited for the Women's Club of Fairfax Fashion Show on Saturday. There is also on Sunday, April 19th, a Spring Community Cleanup at Van Dyke Park starting at 9 a.m. I want to give a huge congratulations to Katie Johnson"
+    "speaker": "Unknown Speaker",
+    "start": 9865.248,
+    "end": 9895.643,
+    "text": "everyone I've met and those who came before me. And that's it. councilmember hardy-chandler. Apologies, just one more follow-up. I did want to acknowledge the celebration of the educational and charitable foundation celebrating 25 years serving the fairfax region and that celebration as always offers scholarships to incredible students that definitely give you hope and optimism for the future."
   },
   {
-    "speaker": "Hall",
-    "start": 9587.820007324219,
-    "end": 9619.5,
-    "text": "who is still here to the bitter end for being our 2026 Woman of Influence recipient. And your time, your energy, your dedication, it is seen, it is recognized. And you are just an amazing resident here. And I think one of your greatest abilities is the ability to rally those around you, right? Anybody can go out and pull weeds and do whatever, but you do it in such a way that makes people want to be a part of whatever organization or entity or group that you're working with."
+    "speaker": "Unknown Speaker",
+    "start": 9895.911,
+    "end": 9927.208,
+    "text": "And I really appreciate the mayor coming to the event and doing a proclamation and acknowledgement of all the work that the educational and charitable foundation does for our region. Really dedicated to community service and also a great interview with an author. But thank you, mayor, for coming to that. >> so APRIL, super busy month. Spotlight on the arts. Gotta talk about it because in 1985 our former mayor john mason really put together spotlight on I think that it showed our commitment."
   },
   {
-    "speaker": "Hall",
-    "start": 9619.5,
-    "end": 9649.520000457764,
-    "text": "And you can find common ground with anybody on all of these different things. And it's just very, very spectacular and impressive to see. So thank you. I do also want to tell people that my campaign slogan when I ran was, this is your city and your opinion matters. And I wholeheartedly stand by that. And just as a reminder, you have two more weeks essentially to reach out to council, to send us questions, send us comments, let us know what you think about things."
+    "speaker": "Unknown Speaker",
+    "start": 9929.312,
+    "end": 9959.741,
+    "text": "We recently got an award for being one of the best small towns in america with our art scene and spotlight on the arts has a number of events, the poetry event is one of them, that councilmember amos not only is apparently organizing the whole thing but he is presenting there because councilmember amos is a poet. Own it. There is an event on friday, the 17th, there is spotlight on the arts event, there is also the opening reception on APRIL 24th which is the following friday, but there are"
   },
   {
-    "speaker": "Hall",
-    "start": 9649.520000457764,
-    "end": 9680.480003356934,
-    "text": "I hope you won't save it until the very last minute. So we're scrambling, you know, the morning of the 28th. But I do know that we also get to see many of you throughout our days and nights and, you know, the things that we're doing. So this will never be your last chance to have input on a budget, right? It's a living document that kind of goes on and on. Yes, we set it for one year, but then we immediately move on to the next one. So I would strongly encourage you to attend the virtual or in-person event on Thursday. I will certainly be there because we know budget's my jam, right?"
-  },
-  {
-    "speaker": "Amos",
-    "start": 9680.480003356934,
-    "end": 9711.0,
-    "text": "Having to enjoy it. So thank you. And again, please, please, please continue to share your thoughts. And ideas, honestly, on ways that we could do this whole thing better. So thank you. Council Member Amos. I would also extend that to remember the noise ordinance is still open for discussion and comment until May 12th. So keep that in mind. I'm gonna apologize in advance. I wish I didn't have so many announcements, but I'll try to run through real quick. I want to echo the congratulations to Katie Johnson for your award, very well deserved."
-  },
-  {
-    "speaker": "Amos",
-    "start": 9711.879997253418,
-    "end": 9742.639999389648,
-    "text": "I know that the county held an absolutely wonderful celebration for Michael Fry at the government center. I know I saw the mayor there, former supervisor who did a lot, especially when it comes to animal rights and protections, and has the animal shelter in the county named after him. So just wanted to echo our sentiments to his family and that he was such a phenomenal human being for everything he's done. Columbia was great. If y'all want to see pictures, just talk to me after or another day because I know, interesting night."
-  },
-  {
-    "speaker": "Amos",
-    "start": 9743.639999389648,
-    "end": 9776.399993896484,
-    "text": "I do want to share that tomorrow at Fairfax High School is the Hire a Lion Fair. I'm going to look at Jennifer Rose very sharply because it was really, really thanks to her. So I would love to thank the Fairfax Forward Foundation, Central Fairfax Chamber, city schools, Dan Phillips and Maureen Kim came in so clutch on making this happen, my colleagues on the dais, and all the businesses who signed up. We ended up hitting our max for businesses tomorrow. So it should be very solid turnout, good mix of folks."
-  },
-  {
-    "speaker": "Amos",
-    "start": 9776.399993896484,
-    "end": 9806.679992675781,
-    "text": "I wish I could have gotten in contact with Woody's Ice Cream, but I tried, I tried. But so there should be 20 vendors there and it should be a really good time. Hope everyone can make it. Starting at 9.50 a.m. during lion time. Also excited to share Poetry Night for Spotlight on the Arts. I guess I kind of got put in charge of that for some reason. It's not my intention, but it kind of just fell into my lap. And it's very well fitting for National Poetry Month. And I've always said that I feel like so much attention"
-  },
-  {
-    "speaker": "Amos",
-    "start": 9806.679992675781,
-    "end": 9837.440002441406,
-    "text": "is given to the visual arts. I would love to see more emphasis on the literary arts. And Sharon Chang has talked to all of us about that. But also excited to announce that we confirmed that Angelique Palmer, the Fairfax Poet Laureate will be in attendance. So she will be headlining the event. So we're very excited to have her there. It'll be Monday, April 27th, starting at 6 p.m. in the top section of Old Fire Station 3. So very excited for that. And then the last thing I will say is I just wanted to give a special thanks"
-  },
-  {
-    "speaker": "Hardy",
-    "start": 9837.440002441406,
-    "end": 9869.140014648438,
-    "text": "to Leadership Fairfax for honoring me with the 40 Under 40 Award earlier today. I have a weird feeling about awards. I greatly appreciate it. Starting off as a car salesman when I first got here and kind of being relatively unknown to where I am now, I just feel like I'm a culmination of everyone I've ever met. And I'm just eternally grateful for everyone I've met and those who came before me. And that's it. Council Member Hardy-Chandler."
-  },
-  {
-    "speaker": "Hardy",
-    "start": 9869.140014648438,
-    "end": 9902.66000366211,
-    "text": "Apologies, just one more follow-up. I did wanna acknowledge the celebration of the Educational and Charitable Foundation celebrating 25 years serving the Fairfax region. And that celebration, as always, offers scholarships to incredible students that definitely give you hope and optimism for the future. And I really appreciate the mayor coming to the event and doing a proclamation and acknowledgement of all of the work that the Educational and Charitable Foundation does for our region."
-  },
-  {
-    "speaker": "Hardy",
-    "start": 9902.66000366211,
-    "end": 9933.459991455078,
-    "text": "Really dedicated to community service and also a great interview with an author. But thank you, Mayor, for coming to that. So April, super busy month. Spotlight on the arts. Gotta talk about it because in 1985, our former mayor, John Mason, really put together Spotlight on the Arts. I think that it showed our commitment. We recently got an award for being one of the best small towns in America with our art scene. And Spotlight on the Arts has a number of events."
-  },
-  {
-    "speaker": "Amos",
-    "start": 9933.459991455078,
-    "end": 9963.940002441406,
-    "text": "The poetry event is one of them that Council Member Amos not only is apparently organizing the whole thing, but he is presenting there because Council Member Amos is a poet. Own it. There is an event on Friday the 17th. There is a Spotlight on the Arts event. There is also the opening reception on April 24th, which is the following Friday. But there are events for the rest of April and into the first part of May. So please check online for all of the events"
-  },
-  {
-    "speaker": "Amos",
-    "start": 9963.940002441406,
-    "end": 9994.140014648438,
-    "text": "happening all over. Fairfax High School has their Rotten Tomatoes show at the high school. And there's a lot of other events. There's music and theater going on in the next three weeks that celebrate the arts and is an important part of Spotlight on the Arts. So with that, I am now going to adjourn this meeting at 9.46 p.m. on Tuesday. ♪♪"
-  },
-  {
-    "speaker": "Amos",
-    "start": 10002.540008544922,
-    "end": 10018.540008544922,
-    "text": "♪♪ ♪♪ ♪♪"
+    "speaker": "Unknown Speaker",
+    "start": 9961.377,
+    "end": 9989.971,
+    "text": "events for the rest of APRIL and into the first part of MAY so please check online for all of the events happening all over. Fairfax high school has their rotten tomatoes show at the high school and there's a lot of other events, music and theater, going on in the next three weeks that celebrate the arts and is an important part of spotlight on the arts. So with that, I am now going to adjourn this meeting at"
   }
 ];
 
