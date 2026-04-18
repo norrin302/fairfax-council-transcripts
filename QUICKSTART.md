@@ -33,6 +33,12 @@ export OPENAI_API_KEY='sk-...'
 python scripts/transcribe.py "https://fairfax.granicus.com/player/clip/4519" --meeting-id apr-14-2026 --output .
 ```
 
+After transcription, you can import the official agenda index points from Granicus:
+
+```bash
+python3 scripts/import_granicus_agenda_index.py apr-14-2026
+```
+
 ### Option B: Run the 5-minute demo (Whisper API)
 
 ```bash

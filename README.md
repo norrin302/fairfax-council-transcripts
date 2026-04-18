@@ -14,6 +14,7 @@ This project provides searchable, timestamped transcripts of Fairfax City Counci
 - 🎙️ Best-effort automated speaker labels (may contain errors)
 - ⏱️ Clickable timestamps (video deep links + shareable transcript deep links)
 - 📋 Copy citation feature (quote + timestamp + links)
+- 🧭 Agenda index navigation (when available via Granicus)
 - 🔗 Links to official city video archives
 
 ## Current Transcripts
