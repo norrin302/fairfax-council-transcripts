@@ -184,6 +184,9 @@ def write_transcript_html(meeting: dict[str, Any], out_path: Path) -> None:
         {'&bull; <a href="' + minutes_url + '" target="_blank" rel="noopener"><i class="fas fa-file-signature"></i> Minutes</a>' if minutes_url else ''}
         {'&bull; <a href="' + portal_url + '" target="_blank" rel="noopener"><i class="fas fa-file"></i> Meeting Portal</a>' if portal_url else ''}
       </p>
+      <p style=\"margin: 10px 0 0 0; font-size: 14px; color: #4a5568;\">
+        Video note: the city has reported Granicus streaming issues in Google Chrome. If playback fails, try Firefox, Safari, or Edge.
+      </p>
     </div>
 
     <div class=\"official-links\">
