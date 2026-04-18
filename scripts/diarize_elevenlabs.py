@@ -28,6 +28,39 @@ import requests
 API_URL = "https://api.elevenlabs.io/v1/speech-to-text"
 
 
+def _load_key_from_env_files() -> str:
+    """Best-effort load ELEVENLABS_API_KEY from common .env locations.
+
+    We avoid printing the key. This is only to reduce friction when Russ stores
+    the key outside process env.
+    """
+
+    candidates = [
+        # Repo-local
+        Path.cwd() / ".env",
+        # OpenClaw common locations
+        Path("~/.openclaw/.env").expanduser(),
+        Path("~/.openclaw/secrets.env").expanduser(),
+        # Fallback
+        Path("~/.env").expanduser(),
+    ]
+
+    for p in candidates:
+        try:
+            if not p.exists():
+                continue
+            for line in p.read_text(encoding="utf-8").splitlines():
+                if not line or line.lstrip().startswith("#"):
+                    continue
+                if line.startswith("ELEVENLABS_API_KEY="):
+                    v = line.split("=", 1)[1].strip().strip('"\'')
+                    if v:
+                        return v
+        except Exception:
+            continue
+    return ""
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("audio", help="Path to an audio file (mp3/wav/etc)")
@@ -38,7 +71,7 @@ def main() -> int:
     ap.add_argument("--language", default="", help="Optional language code hint (e.g. eng)")
     args = ap.parse_args()
 
-    key = os.environ.get("ELEVENLABS_API_KEY")
+    key = os.environ.get("ELEVENLABS_API_KEY") or _load_key_from_env_files()
     if not key:
         print("ERROR: ELEVENLABS_API_KEY is not set", file=sys.stderr)
         return 2
@@ -90,4 +123,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

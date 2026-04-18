@@ -8,5 +8,8 @@ videos/*.ytdl
 __pycache__/
 *.pyc
 
+# Raw vendor diarization outputs (debug artifacts)
+transcripts/elevenlabs/
+
 # Large media/chunks
 videos/**
