@@ -148,8 +148,16 @@
 
         const filtered = SEARCH_INDEX.segments.filter(function(segment) {
             // Text match
-            const textMatch = segment.transcript_text.toLowerCase().includes(query) ||
-                              segment.snippet.toLowerCase().includes(query);
+            const text = (segment.transcript_text || '').toLowerCase();
+            const snip = (segment.snippet || '').toLowerCase();
+
+            const tokens = normalizeText(query).split(' ').filter(Boolean);
+            const tokenMatch = tokens.length >= 2 ? tokens.every(function(tok) {
+                if (tok.length < 2) return true;
+                return normalizeText(text).includes(tok) || normalizeText(snip).includes(tok);
+            }) : false;
+
+            const textMatch = text.includes(query) || snip.includes(query) || tokenMatch;
 
             if (!textMatch) return false;
 
