@@ -63,6 +63,10 @@ fairfax-council-transcripts/
    ```
 3. Publish the meeting to the static site:
     - Create `meetings/<meeting_id>.json` (meeting metadata + sections + official links)
+    - Optional: auto-import official agenda index points (times + labels) from Granicus into `sections`:
+      ```bash
+      python3 scripts/import_granicus_agenda_index.py <meeting_id>
+      ```
     - Generate the transcript page + turns JS from Whisper JSON:
       ```bash
       python3 scripts/publish_meeting.py <meeting_id> --input transcripts/<meeting_id>_complete.json
