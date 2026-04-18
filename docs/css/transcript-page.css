@@ -89,18 +89,19 @@ body {
   color: #4a5568;
 }
 
-.speaker-group {
+.speaker-block {
   margin: 20px 0;
   padding: 15px;
   border-left: 4px solid #2b6cb0;
   background: #f7fafc;
   border-radius: 0 8px 8px 0;
+  cursor: pointer;
 }
 
-.speaker-group.mayor { border-left-color: #38a169; }
-.speaker-group.council { border-left-color: #2b6cb0; }
-.speaker-group.staff { border-left-color: #ed8936; }
-.speaker-group.public { border-left-color: #9f7aea; }
+.speaker-block.mayor { border-left-color: #38a169; }
+.speaker-block.council { border-left-color: #2b6cb0; }
+.speaker-block.staff { border-left-color: #ed8936; }
+.speaker-block.public { border-left-color: #9f7aea; }
 
 .group-header {
   display: flex;
@@ -202,11 +203,11 @@ body {
   cursor: not-allowed;
 }
 
-.turn-text { line-height: 1.7; color: #2d3748; }
+.turn-text { line-height: 1.7; color: #2d3748; white-space: pre-wrap; }
 .turn-text mark { background: #fef08a; padding: 2px 4px; border-radius: 2px; }
 
 .hidden { display: none; }
-.turn-line.highlighted { background: #fef08a; border-radius: 8px; padding-left: 10px; padding-right: 10px; }
+.speaker-block.highlighted { background: #fef08a; border-radius: 8px; }
 
 /* Speaker chips */
 .speaker-chips {

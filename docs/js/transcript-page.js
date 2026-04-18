@@ -207,7 +207,7 @@
   }
 
   function clearHighlights() {
-    document.querySelectorAll('.turn-line.highlighted').forEach((el) => el.classList.remove('highlighted'));
+    document.querySelectorAll('.speaker-block.highlighted').forEach((el) => el.classList.remove('highlighted'));
   }
 
   function syncChipState() {
@@ -272,65 +272,63 @@
 
   function renderTranscript(turns, meeting) {
     const container = document.getElementById('transcript');
-    if (!container) return;
+    if (!container) return [];
     container.innerHTML = '';
 
     if (!turns || !Array.isArray(turns) || turns.length === 0) {
       container.innerHTML = '<p style="color: #e53e3e;">Error loading transcript data. Please refresh the page.</p>';
-      return;
+      return [];
     }
 
-    let currentSpeaker = null;
-    let currentGroup = null;
-    let currentGroupLines = null;
-
-    turns.forEach((turn, idx) => {
+    // Merge consecutive turns by the same speaker into a single block.
+    const blocks = [];
+    turns.forEach((turn) => {
       let speaker = String(turn.speaker || 'Unknown').trim();
       if (!speaker || speaker.toLowerCase() === 'speaker' || speaker.toLowerCase() === 'unknown') {
         speaker = 'Unknown Speaker';
       }
-      const text = String(turn.text || '');
       const start = Number(turn.start) || 0;
+      const end = Number(turn.end) || start;
+      const text = String(turn.text || '').replace(/\s+/g, ' ').trim();
+      if (!text) return;
+
+      const last = blocks.length ? blocks[blocks.length - 1] : null;
+      if (last && String(last.speaker) === speaker) {
+        last.end = Math.max(Number(last.end) || 0, end);
+        last.texts.push(text);
+      } else {
+        blocks.push({ speaker, start, end, texts: [text] });
+      }
+    });
+
+    blocks.forEach((b, idx) => {
+      const speaker = String(b.speaker || 'Unknown Speaker');
+      const start = Number(b.start) || 0;
+      const end = Number(b.end) || start;
+      const speakerClass = speakerClassFor(speaker);
+
       const sectionKey = sectionKeyForSeconds(start, meeting.sections);
       const sectionLabel = sectionLabelForKey(sectionKey, meeting.sections);
 
-      if (speaker !== currentSpeaker) {
-        currentSpeaker = speaker;
-        const speakerClass = speakerClassFor(speaker);
+      const text = (b.texts || []).join('\n\n');
 
-        currentGroup = document.createElement('div');
-        currentGroup.className = `speaker-group ${speakerClass}`;
-        currentGroup.dataset.speaker = speaker.toLowerCase();
+      const div = document.createElement('div');
+      div.className = `speaker-block ${speakerClass}`;
+      div.id = `turn-${idx}`;
+      div.dataset.index = String(idx);
+      div.dataset.speaker = speaker.toLowerCase();
+      div.dataset.text = text.toLowerCase();
+      div.dataset.time = String(Math.floor(start));
+      div.dataset.sectionKey = String(sectionKey || '');
+      div.dataset.sectionLabel = String(sectionLabel || '');
 
-        const header = document.createElement('div');
-        header.className = 'group-header';
+      const header = document.createElement('div');
+      header.className = 'turn-header';
 
-        const nameSpan = document.createElement('span');
-        nameSpan.className = 'speaker-name';
-        nameSpan.textContent = speaker;
-        header.appendChild(nameSpan);
-
-        currentGroup.appendChild(header);
-
-        currentGroupLines = document.createElement('div');
-        currentGroupLines.className = 'group-lines';
-        currentGroup.appendChild(currentGroupLines);
-
-        container.appendChild(currentGroup);
-      }
-
-      const line = document.createElement('div');
-      line.className = 'turn-line';
-      line.id = `turn-${idx}`;
-      line.dataset.index = String(idx);
-      line.dataset.speaker = String(currentSpeaker || '').toLowerCase();
-      line.dataset.text = text.toLowerCase();
-      line.dataset.time = String(Math.floor(start));
-      line.dataset.sectionKey = String(sectionKey || '');
-      line.dataset.sectionLabel = String(sectionLabel || '');
-
-      const meta = document.createElement('div');
-      meta.className = 'turn-line-meta';
+      const nameSpan = document.createElement('span');
+      nameSpan.className = 'speaker-name';
+      nameSpan.textContent = speaker;
+      header.appendChild(nameSpan);
 
       const timeLink = document.createElement('a');
       timeLink.href = makeVideoUrl(meeting.source_url, start);
@@ -338,7 +336,8 @@
       timeLink.className = 'timestamp-link';
       timeLink.title = 'Open video at this time';
       timeLink.innerHTML = '<i class="fas fa-play-circle"></i> ' + formatTime(start);
-      meta.appendChild(timeLink);
+      timeLink.addEventListener('click', (e) => e.stopPropagation());
+      header.appendChild(timeLink);
 
       const citeBtn = document.createElement('button');
       citeBtn.className = 'cite-btn';
@@ -347,12 +346,12 @@
       citeBtn.innerHTML = '<i class="fas fa-quote-right"></i> Copy citation';
       citeBtn.addEventListener('click', (e) => {
         e.stopPropagation();
-        const citation = buildCitation({ ...turn, speaker: currentSpeaker }, meeting);
+        const citation = buildCitation({ speaker, start, end, text }, meeting);
         copyText(citation)
           .then(() => showToast('Citation copied'))
           .catch(() => showToast('Copy failed'));
       });
-      meta.appendChild(citeBtn);
+      header.appendChild(citeBtn);
 
       const saveBtn = document.createElement('button');
       saveBtn.className = 'save-btn';
@@ -372,7 +371,7 @@
           items.push({
             id,
             meeting_id: meetingId,
-            speaker: String(currentSpeaker || ''),
+            speaker: String(speaker || ''),
             start: Math.max(0, Math.floor(Number(start) || 0)),
             text: String(text || ''),
             created_at: new Date().toISOString()
@@ -382,27 +381,28 @@
         }
         renderHighlights(meeting);
       });
-      meta.appendChild(saveBtn);
+      header.appendChild(saveBtn);
 
-      line.appendChild(meta);
+      div.appendChild(header);
 
       const textDiv = document.createElement('div');
       textDiv.className = 'turn-text';
       textDiv.textContent = text;
       textDiv.dataset.originalText = text;
-      line.appendChild(textDiv);
+      div.appendChild(textDiv);
 
-      // Clicking a line updates the URL hash (shareable deep link)
-      line.addEventListener('click', () => {
+      div.addEventListener('click', () => {
         const sec = Math.floor(start);
         CURRENT_T = sec;
         const next = `t=${sec}`;
         if (window.location.hash !== `#${next}`) window.location.hash = next;
-        highlightTurn(line);
+        highlightTurn(div);
       });
 
-      if (currentGroupLines) currentGroupLines.appendChild(line);
+      container.appendChild(div);
     });
+
+    return blocks;
   }
 
   function applyTranscriptFilters() {
@@ -412,50 +412,39 @@
     const speaker = String(ACTIVE_SPEAKER || '').toLowerCase().trim();
     const sectionKey = String(ACTIVE_SECTION_KEY || '').trim();
 
-    const groups = document.querySelectorAll('.speaker-group');
-    let visibleLines = 0;
+    const blocks = document.querySelectorAll('.speaker-block');
+    let visibleBlocks = 0;
 
-    groups.forEach((group) => {
-      let anyVisible = false;
-      const lines = group.querySelectorAll('.turn-line');
-      lines.forEach((line) => {
-        const lineSpeaker = String(line.dataset.speaker || '');
-        const lineSectionKey = String(line.dataset.sectionKey || '');
-        const text = String(line.dataset.text || '');
-        const textEl = line.querySelector('.turn-text');
-        const originalText = textEl ? (textEl.dataset.originalText || textEl.textContent || '') : '';
+    blocks.forEach((block) => {
+      const blockSpeaker = String(block.dataset.speaker || '');
+      const blockSectionKey = String(block.dataset.sectionKey || '');
+      const text = String(block.dataset.text || '');
+      const textEl = block.querySelector('.turn-text');
+      const originalText = textEl ? (textEl.dataset.originalText || textEl.textContent || '') : '';
 
-        const speakerOk = !speaker || lineSpeaker === speaker;
-        const sectionOk = !sectionKey || lineSectionKey === sectionKey;
-        const queryOk = !query || text.includes(query);
+      const speakerOk = !speaker || blockSpeaker === speaker;
+      const sectionOk = !sectionKey || blockSectionKey === sectionKey;
+      const queryOk = !query || text.includes(query);
 
-        if (speakerOk && sectionOk && queryOk) {
-          line.classList.remove('hidden');
-          anyVisible = true;
-          visibleLines++;
-          if (textEl) {
-            if (!query) {
-              textEl.textContent = originalText;
-            } else {
-              setHighlightedText(textEl, originalText, query);
-            }
-          }
-        } else {
-          line.classList.add('hidden');
-          if (textEl) textEl.textContent = originalText;
+      if (speakerOk && sectionOk && queryOk) {
+        block.classList.remove('hidden');
+        visibleBlocks++;
+        if (textEl) {
+          if (!query) textEl.textContent = originalText;
+          else setHighlightedText(textEl, originalText, query);
         }
-      });
-
-      if (anyVisible) group.classList.remove('hidden');
-      else group.classList.add('hidden');
+      } else {
+        block.classList.add('hidden');
+        if (textEl) textEl.textContent = originalText;
+      }
     });
 
     // Build match list for Next/Prev when query is set
     MATCH_IDS = [];
     MATCH_INDEX = -1;
     if (query) {
-      document.querySelectorAll('.turn-line').forEach((line) => {
-        if (!line.classList.contains('hidden')) MATCH_IDS.push(line.id);
+      document.querySelectorAll('.speaker-block').forEach((b) => {
+        if (!b.classList.contains('hidden')) MATCH_IDS.push(b.id);
       });
       if (MATCH_IDS.length) MATCH_INDEX = 0;
     }
@@ -467,9 +456,9 @@
       return;
     }
     if (query) {
-      countEl.textContent = `${visibleLines} match${visibleLines === 1 ? '' : 'es'} found`;
+      countEl.textContent = `${visibleBlocks} match block${visibleBlocks === 1 ? '' : 's'} found`;
     } else {
-      countEl.textContent = `${visibleLines} turn${visibleLines === 1 ? '' : 's'} shown`;
+      countEl.textContent = `${visibleBlocks} block${visibleBlocks === 1 ? '' : 's'} shown`;
     }
   }
 
@@ -647,7 +636,7 @@
 
   function exportVisible(meeting, format) {
     const query = ((document.getElementById('search-input') || {}).value || '');
-    const lines = Array.from(document.querySelectorAll('.turn-line')).filter((el) => !el.classList.contains('hidden'));
+    const lines = Array.from(document.querySelectorAll('.speaker-block')).filter((el) => !el.classList.contains('hidden'));
     const rows = lines.map((el) => {
       const sec = parseInt(el.dataset.time || '0', 10) || 0;
       const speakerKey = String(el.dataset.speaker || '');
@@ -894,10 +883,10 @@
     };
     const turns = (typeof TRANSCRIPT_TURNS !== 'undefined') ? TRANSCRIPT_TURNS : [];
 
-    renderTranscript(turns, meeting);
+    const blocks = renderTranscript(turns, meeting);
     renderOfficialResources(meeting);
     renderSectionLinks(meeting);
-    renderSpeakerChips(turns);
+    renderSpeakerChips(blocks);
     renderSectionChips(meeting);
     renderTools(meeting);
     wireInPageSearch();
@@ -909,7 +898,7 @@
     applyTranscriptFilters();
 
     // Deep links from global search: #t=seconds
-    handleDeepLink(turns);
-    window.addEventListener('hashchange', () => handleDeepLink(turns));
+    handleDeepLink(blocks);
+    window.addEventListener('hashchange', () => handleDeepLink(blocks));
   });
 })();
