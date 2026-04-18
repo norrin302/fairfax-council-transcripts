@@ -2,6 +2,9 @@
 openai>=1.0.0
 yt-dlp>=2024.1.0
 
+# Optional (speaker diarization via ElevenLabs API)
+requests>=2.31.0
+
 # Optional (local/free transcription):
 # openai-whisper
 # torch
