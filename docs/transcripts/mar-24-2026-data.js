@@ -1766,13 +1766,13 @@ const TRANSCRIPT_TURNS = [
     "text": "obligation to repay that service. And technically an expecting to make good to the payments regardless if go-bond or repaid."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 7560.943,
     "end": 7593.607,
     "text": "councilmember peterson, correct it does not affect our rating. Issuing a referendum or not, there is a defined time frame when referendum is approved and debt issue. Eight years is typically what the range is with a typical two-year extension that you get the circuit court involved to ask two years before that. And that is the window that is established and because we are"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 7594.643,
     "end": 7607.688,
     "text": "talking about sherwood and at year 12 and issued referendum at the beginning stages of that and would be abutting against that eight-ten year mark now for consideration."
@@ -1808,7 +1808,7 @@ const TRANSCRIPT_TURNS = [
     "text": "25-30 years what has gone to the referendum. And pfrb or lease revenue bonds, different names at different times, those are tend to be used on an annual basis for routine annual type of capital projects that oftentimes you want and need flexibility on what types of projects done and when done and so forth and so on."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
     "start": 7770.786,
     "end": 7773.355,
     "text": "Hopefully more color to it. councilmember hardy-chandler."
@@ -1832,7 +1832,7 @@ const TRANSCRIPT_TURNS = [
     "text": "as a city, you employed and used those public facility revenue bonds with success. What I mean by that, you affirmed the aaa ratings in the process. We bid though bonds competitively and lots of follow through, meaning lots of bidders for the bonds themselves and you were able to use those proceeds flexible. So far as available for the city council and working with professional staff to help fund the variety of capital needs"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 7867.983,
     "end": 7870.285,
     "text": "that you have within the city. councilmember hall."
@@ -1988,7 +1988,7 @@ const TRANSCRIPT_TURNS = [
     "text": "okay, thank you. And you did give us that information, I think went out to the public too what the behind agency -- bond agencies said."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 8380.162,
     "end": 8382.162,
     "text": "councilmember amos."
@@ -2018,7 +2018,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Clearly the arpa dollars came through at the same time period as we saw some value increases and so forth and so on. And those arpa dollars will need to be spent by the end of this calendar year. That clearly is a source of funding for local governments at large. That will be gone at the end of 2026 calendar year."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Rachel McQuillen",
     "start": 8484.9,
     "end": 8486.9,
     "text": "councilmember Mcquillen."
@@ -2090,7 +2090,7 @@ const TRANSCRIPT_TURNS = [
     "text": "next 5 to 10 years. that was my thought process and plenty of capacity and the rate and planned for the rates conservatively. And that makes me feel good and wonder what happens if that's off. You just answered my question, thank you so muc I appreciate"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "start": 8710.6,
     "end": 8712.727,
     "text": "that and MR. Martinez, appreciate that. councilmember bates."
@@ -2480,7 +2480,7 @@ const TRANSCRIPT_TURNS = [
     "text": "ordinance and really look for council and a public hearing and action at your MAY meeting. And that would authorize us to move forward with the var program which would provide funds in hand in the early AUGUST time frame. With that happy to address, answer any questions as it"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 10697.98,
     "end": 10699.581,
     "text": "relates to the wastewater fund. councilmember hall."
@@ -2792,7 +2792,7 @@ const TRANSCRIPT_TURNS = [
     "text": "worth 16-25,000 each. okay. That's significant. Okay. I think that's all of my questions now and hopefully e-mail others. Thank you."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 11626.108,
     "end": 11628.108,
     "text": "councilmember peterson."
@@ -3212,7 +3212,7 @@ const TRANSCRIPT_TURNS = [
     "text": "and one thing missing the stormwater utility funds the"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 13250.332,
     "end": 13252.534,
     "text": "urban forest program. councilmember hall."
@@ -3320,7 +3320,7 @@ const TRANSCRIPT_TURNS = [
     "text": "is it the desire of council to have a work session on it? Or a budget memo with historical information in the city and commonly and other references to put on a budget memo would that suffice?"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 13562.344,
     "end": 13564.312,
     "text": "councilmember amos, a budget memo or work session."
@@ -3344,7 +3344,7 @@ const TRANSCRIPT_TURNS = [
     "text": "yeah clad include that in a budget"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 13598.514,
     "end": 13600.548,
     "text": "memo is fine. councilmember hall."
@@ -3374,13 +3374,13 @@ const TRANSCRIPT_TURNS = [
     "text": "I see you shaking your head and read data on this and good for that to be examined here as we go forward."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "start": 13649.799,
     "end": 13651.965,
     "text": "councilmember bates. budget memo."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Rachel McQuillen",
     "start": 13652.768,
     "end": 13661.276,
     "text": "councilmember Mcquillen. I am comfortable starting with the budget memo but probably have a lot of questions."
@@ -3488,7 +3488,7 @@ const TRANSCRIPT_TURNS = [
     "text": "yeah, I still have questions they have been formulateing and not spend piecemeal, mine are still coming in some fashion. Thank you."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 13915.398,
     "end": 13917.398,
     "text": "councilmember amos."
@@ -3512,7 +3512,7 @@ const TRANSCRIPT_TURNS = [
     "text": "when we talk about educating the public these meetings are part of that educational process. I think this provides more transparency without the retreat, which is less accessible to our community. So --"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 13956.505,
     "end": 13976.291,
     "text": "councilmember peterson. no comment or quarrel with this but a question, that is and forgive me for not recalling, did we decide that we did not need a budget open house during this cycle?"
@@ -3530,7 +3530,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I brought it up and no direction. That's pretty much what"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 14008.524,
     "end": 14010.392,
     "text": "happened. councilmember peterson."
@@ -3548,7 +3548,7 @@ const TRANSCRIPT_TURNS = [
     "text": "turn out that we expected. I am flexible and open I think if it's something that we want to consider and reach a decision"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Rachel McQuillen",
     "start": 14052.201,
     "end": 14054.269,
     "text": "point rather quickly about it. councilmember Mcquillen."
@@ -3560,7 +3560,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I agree with that, I have heard a lot from residents last year following the budget season that, that was a very helpful thing to have that open house there, they could walk in and ask any question of staff. I heard a lot of overwhelming feedback, positive feedback about that. I think it would be helpful and beneficial to our community to"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
     "start": 14081.197,
     "end": 14083.498,
     "text": "do that again this time. councilmember hardy-chandler."

@@ -21,6 +21,7 @@ import math
 import re
 import sys
 import urllib.request
+import difflib
 from pathlib import Path
 from typing import Any
 
@@ -53,21 +54,40 @@ def chunk_segments(segments: list[dict[str, Any]], target_seconds: int = 30, max
     buf: list[str] = []
     start = None
     end = None
+    buf_hint = ""
+    active_hint = ""
 
     def flush():
-        nonlocal buf, start, end
+        nonlocal buf, start, end, buf_hint
         if start is None or end is None:
             return
         text = normalize_ws(" ".join(buf))
         if text:
-            turns.append({"start": float(start), "end": float(end), "text": text})
+            out = {"start": float(start), "end": float(end), "text": text}
+            if buf_hint:
+                out["speaker_hint"] = str(buf_hint)
+            turns.append(out)
         buf = []
         start = None
         end = None
+        buf_hint = ""
 
     for seg in segments:
-        if bool(seg.get("new_speaker")) and buf:
-            flush()
+        # Preserve explicit speaker-change boundaries (from captions parsing).
+        if bool(seg.get("new_speaker")):
+            if buf:
+                flush()
+            # New speaker started. If a hint is provided, use it; otherwise clear.
+            active_hint = str(seg.get("speaker_hint") or "").strip()
+            if not active_hint:
+                active_hint = ""
+
+        # If we see a new hint mid-stream, treat it as a boundary.
+        seg_hint = str(seg.get("speaker_hint") or "").strip()
+        if seg_hint and seg_hint != active_hint:
+            if buf:
+                flush()
+            active_hint = seg_hint
 
         s = float(seg.get("start", 0) or 0)
         e = float(seg.get("end", s) or s)
@@ -80,6 +100,7 @@ def chunk_segments(segments: list[dict[str, Any]], target_seconds: int = 30, max
             start = s
             end = e
             buf = [t]
+            buf_hint = active_hint
         else:
             end = e
             buf.append(t)
@@ -117,6 +138,100 @@ def segments_from_webvtt(vtt_text: str) -> list[dict[str, Any]]:
     def normalize_caption(text: str) -> str:
         return normalize_ws(text)
 
+    def titleize_name(raw: str) -> str:
+        # Handles hyphenated/compound names like hardy-chandler
+        parts = re.split(r"([\-'])", raw.strip())
+        out = []
+        for p in parts:
+            if p in {"-", "'"}:
+                out.append(p)
+            else:
+                out.append(p[:1].upper() + p[1:].lower() if p else "")
+        return "".join(out)
+
+    def parse_speaker_hint(line: str) -> str:
+        """Parse a speaker hint from a caption line after stripping leading '>>'.
+
+        Only returns hints for explicit, trustworthy patterns.
+        """
+        l = (line or "").strip()
+        low = l.lower()
+
+        # Known 2026 Fairfax, VA council roster (last token in captions is often last name).
+        # We canonicalize common caption misspellings via fuzzy matching.
+        roster_last_to_full = {
+            "amos": "Anthony Amos",
+            "bates": "Billy Bates",
+            "hall": "Stacy Hall",
+            "hardy-chandler": "Stacy Hardy-Chandler",
+            "mcquillen": "Rachel McQuillen",
+            "peterson": "Tom Peterson",
+        }
+        roster_keys = list(roster_last_to_full.keys())
+
+        def canon_last(raw_last: str) -> str:
+            raw_last = (raw_last or "").strip().lower()
+            raw_last = re.sub(r"[^a-z\-']", "", raw_last)
+            if not raw_last:
+                return ""
+            if raw_last in roster_last_to_full:
+                return raw_last
+
+            # Try fuzzy match against roster keys.
+            best = None
+            best_ratio = 0.0
+            second_ratio = 0.0
+            for k in roster_keys:
+                r = difflib.SequenceMatcher(a=raw_last, b=k).ratio()
+                if r > best_ratio:
+                    second_ratio = best_ratio
+                    best_ratio = r
+                    best = k
+                elif r > second_ratio:
+                    second_ratio = r
+
+            # Accept if reasonably close, or clearly better than the runner-up.
+            if best and (best_ratio >= 0.66 or (best_ratio >= 0.58 and (best_ratio - second_ratio) >= 0.12)):
+                return best
+
+            # As a last resort, map by unique first-letter (works for pern->peterson, aye->amos, etc.).
+            first = raw_last[:1]
+            if first:
+                candidates = [k for k in roster_keys if k.startswith(first)]
+                if len(candidates) == 1:
+                    return candidates[0]
+
+            # Unknown/unreliable token.
+            return ""
+
+        m = re.match(r"^(councilmember)\s+([a-z][a-z\-']+)", low)
+        if m:
+            last = canon_last(m.group(2))
+            if not last:
+                return ""
+            full = roster_last_to_full.get(last)
+            if full:
+                return f"Councilmember {full}"
+            return f"Councilmember {titleize_name(last)}"
+
+        m = re.match(r"^(mayor)\s+([a-z][a-z\-']+)", low)
+        if m:
+            # Only trust mayor name if it's clearly Read (Fairfax, VA).
+            token = re.sub(r"[^a-z\-']", "", m.group(2) or "").strip().lower()
+            ratio = difflib.SequenceMatcher(a=token, b="read").ratio() if token else 0.0
+            if ratio >= 0.7:
+                return "Mayor Catherine Read"
+            return ""
+
+        m = re.match(r"^(city\s+manager)\s+([a-z][a-z\-']+)", low)
+        if m:
+            # City manager labels are rarely present in captions. Avoid guessing.
+            token = re.sub(r"[^a-z\-']", "", m.group(2) or "").strip().lower()
+            if difflib.SequenceMatcher(a=token, b="coll").ratio() >= 0.7:
+                return "City Manager David Coll"
+            return ""
+        return ""
+
     while i < len(lines):
         line = lines[i].lstrip("\ufeff").strip()
 
@@ -148,11 +263,14 @@ def segments_from_webvtt(vtt_text: str) -> list[dict[str, Any]]:
         i += 1
         buf_lines: list[str] = []
         new_speaker = False
+        speaker_hint = ""
         while i < len(lines) and lines[i].strip() != "":
             ln = lines[i].strip()
             if ln.startswith(">>"):
                 new_speaker = True
                 ln = ln[2:].lstrip()
+                if not speaker_hint:
+                    speaker_hint = parse_speaker_hint(ln)
             buf_lines.append(ln)
             i += 1
 
@@ -169,6 +287,7 @@ def segments_from_webvtt(vtt_text: str) -> list[dict[str, Any]]:
                 "end": float(end),
                 "text": text,
                 "new_speaker": bool(new_speaker),
+                "speaker_hint": speaker_hint,
             })
             sid += 1
 
@@ -358,7 +477,7 @@ def main() -> int:
     else:
         labeled_turns = [
             {
-                "speaker": "Unknown Speaker",
+                "speaker": str(t.get("speaker_hint") or "").strip() or "Unknown Speaker",
                 "start": float(t["start"]),
                 "end": float(t["end"]),
                 "text": str(t.get("text", "") or ""),

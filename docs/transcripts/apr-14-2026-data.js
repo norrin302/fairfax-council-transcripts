@@ -362,37 +362,37 @@ const TRANSCRIPT_TURNS = [
     "text": "the motion has been made and seconded."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 1658.407,
     "end": 1660.943,
     "text": "A roll call vote. councilmember amos. aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 1661.577,
     "end": 1662.811,
     "text": "councilmember hall. aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
     "start": 1664.46,
     "end": 1665.58,
     "text": "councilmember hardy-chandler. aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 1666.482,
     "end": 1668.551,
     "text": "councilmember peterson. aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "start": 1670.619,
     "end": 1672.654,
     "text": "councilmember bates. aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Rachel McQuillen",
     "start": 1675.759,
     "end": 1677.759,
     "text": "councilmember Mcquillen."
@@ -848,37 +848,37 @@ const TRANSCRIPT_TURNS = [
     "text": "we have a motion made by councilmember stacey hardy-chandler and seconded by councilmember peterson."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Rachel McQuillen",
     "start": 3723.34,
     "end": 3725.574,
     "text": "A roll call vote. councilmember Mcquillen."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "start": 3725.574,
     "end": 3728.543,
     "text": "aye. councilmember bates. aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 3728.844,
     "end": 3731.313,
     "text": "councilmember peterson. aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
     "start": 3732.47,
     "end": 3734.115,
     "text": "councilmember hardy-chandler. aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 3734.483,
     "end": 3735.949,
     "text": "councilmember hall. aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 3737.621,
     "end": 3752.7,
     "text": "councilmember amos. aye. Motion passes unanimously, we will move considerations of appoints to boards, commission and advisory committees."
@@ -908,7 +908,7 @@ const TRANSCRIPT_TURNS = [
     "text": "second. there has been a motion and a second. Is there discussion on this"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 3817.399,
     "end": 3819.935,
     "text": "motion? yes. councilmember peterson."
@@ -920,7 +920,7 @@ const TRANSCRIPT_TURNS = [
     "text": "MAY I ask why the final two"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
     "start": 3824.707,
     "end": 3827.75,
     "text": "appointments are being pulled? councilmember hardy-chandler."
@@ -1016,7 +1016,7 @@ const TRANSCRIPT_TURNS = [
     "text": "our residents applied for these roles in good faith. They interviewed in good faith. Council discusses these applications through the established process. We should respect the process, vote and move forward."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 3960.609,
     "end": 3962.51,
     "text": "That is how I feel. councilmember hall."
@@ -1070,7 +1070,7 @@ const TRANSCRIPT_TURNS = [
     "text": "this and that is all I will say on that. thank you. to follow up on that, I completely understand this is frustrating circumstance and has been for some time. Ultimately, due to policy and procedure and the existing rules it would be hardy-chandler would be necessary to push it to MAY 12 and have additional discussion."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Rachel McQuillen",
     "start": 4174.925,
     "end": 4176.925,
     "text": "councilmember Mcquillen."
@@ -1130,13 +1130,13 @@ const TRANSCRIPT_TURNS = [
     "text": "Making sure of my notes here. Sorry. I'm just going through my notes."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Mayor Catherine Read",
     "start": 4300.649,
     "end": 4302.649,
     "text": "mayor read, MAY I ask a"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
     "start": 4303.219,
     "end": 4320.101,
     "text": "question in the meantime. councilmember hardy-chandler, to my recollection, each time we have met to discuss this board or commission you have recused yourself. Every time we have had discussions and conversations you have on your own chosen to remove yourself."
@@ -1226,7 +1226,7 @@ const TRANSCRIPT_TURNS = [
     "text": "yes, please. Thank you. What concerns me is the appearance problem. If a member properly recuses from a specific appointment because of a spouse's candidacy but after learning the outcome seeks to delay the process because the full result is not what she wanted that creates an appearance of personal influence over a public appointment. Even the appearance of that is damaging."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
     "start": 4564.713,
     "end": 4567.448,
     "text": "That is my concern. Thank you. councilmember hardy-chandler."
@@ -1238,7 +1238,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I think that would be an issue if I had a concern about my husband being appointed. In my absence my husband was appointed. That has nothing to do with me. I want to input on that, whether he is appointed or not. What I want input on are the other candidates for the other position just as I have input on"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 4590.105,
     "end": 4592.374,
     "text": "other candidates for other commissions. councilmember peterson."
@@ -1274,7 +1274,7 @@ const TRANSCRIPT_TURNS = [
     "text": "conflict. we have a motion on the floor. It has been properly made and second. Let's go to a roll call vote to see if we have votes on this"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 4728.544,
     "end": 4730.579,
     "text": "dais to move that motion forward. councilmember amos."
@@ -1286,7 +1286,7 @@ const TRANSCRIPT_TURNS = [
     "text": "aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 4735.684,
     "end": 4744.592,
     "text": "councilmember hall. I'm sorry. Read the motion we are voting on right now."
@@ -1316,7 +1316,7 @@ const TRANSCRIPT_TURNS = [
     "text": "no. With a caveat some questions were not finished or details we didn't get a chance to ask act during this process."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "start": 4761.811,
     "end": 4764.312,
     "text": "councilmember bates. aye. councilmember Mcquillen."
@@ -1604,7 +1604,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I know we are still waiting for legislative updates. Once we get that clarification, I think it is worth a follow-up discussion."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 5944.56,
     "end": 5946.294,
     "text": "Thank you. councilmember peterson."
@@ -1658,7 +1658,7 @@ const TRANSCRIPT_TURNS = [
     "text": "correct, councilmember. okay. Thank you very much."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Rachel McQuillen",
     "start": 6088.204,
     "end": 6099.581,
     "text": "councilmember Mcquillen. okay, sorry. Going back to what you stated prior to councilmember amos' question, could you please repeat that?"
@@ -1706,7 +1706,7 @@ const TRANSCRIPT_TURNS = [
     "text": "middle class families. Please keep this in mind when discussing the meals tax. It is just not one meal. People eat hundreds of meals over their life time or over a year. When we talk about increasing the tax, it sounds like a small amount, but it is hitting our restaurants hard. We like to brag, we are celebrating the city's restaurant scene as unique and defining cultural strengths. Just recognize this is impacting those businesses when we do this."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 6247.229,
     "end": 6250.164,
     "text": "That is all I wanted to share. Thank you. councilmember hall."
@@ -1814,7 +1814,7 @@ const TRANSCRIPT_TURNS = [
     "text": "okay. Thank you. Sorry to call out the very uncomfortable elephant in the room but I was just curious"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 6671.822,
     "end": 6673.721,
     "text": "where our schools were on this. Thank you. councilmember peterson."
@@ -1904,7 +1904,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I know we got a head start on that because we have talented staff. They are looking at that. Thee -- themematically, all jurisdictions are looking this way. Thank you."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
     "start": 7055.137,
     "end": 7057.137,
     "text": "councilmember hardy-chandler."
@@ -1982,25 +1982,25 @@ const TRANSCRIPT_TURNS = [
     "text": "as well as the city's aims potentially. I would say yes. good to hear. Thank you so much."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Rachel McQuillen",
     "start": 7372.888,
     "end": 7404.486,
     "text": "councilmember mcquillen. thank you. I too would like more discussion on the renaissance housing program and to look into that to see what we can do since I think that really is a great program specifically for a certain group that does not seem to qualify for a lot else out there. I also just wanted to let you all know or update you on some information I just found from the northern virginia regional commission. This is about restaurants in northern virginia. It says that on average they"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Rachel McQuillen",
     "start": 7405.455,
     "end": 7438.52,
     "text": "have grown at an average annual rate roughly of 3 to 5% over the past decade so that is what we've seen here. But it says that key factors driving that growth include rising household incomes, urbanization, expansion of federal and tech employment which we know isn't expanding right now, increased demand for dining in suburban and mixed-use developments and growth of food delivery and e-commerce so I want to -- since some of those actually correlate to the things that I mention, gas prices, things that have increased the struggle for our small"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Rachel McQuillen",
     "start": 7439.255,
     "end": 7444.224,
     "text": "businesses and specifically our restaurants, I just wanted to provide that extra information."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 7447.364,
     "end": 7474.88,
     "text": "Thank you. councilmember hall. thank you. I had one question I forgot to ask. You mention health insurance had gone up about 5%, 300 and some thousand. And I know that I've asked this question before and I'm sorry I don't remember your answer but when was the last time that we did bid and look at our provider and look at our plan types and see are we offering things that are competitive?"
@@ -2108,7 +2108,7 @@ const TRANSCRIPT_TURNS = [
     "text": "So I don't know if that needs consensus from council or not but that would be something that I would recommend to the finance department."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 7715.798,
     "end": 7718.766,
     "text": "So thank you. councilmember peterson."
@@ -2144,7 +2144,7 @@ const TRANSCRIPT_TURNS = [
     "text": "discussion. great. Really appreciate it, again, because we saw some rollercoaster stuff in the past that I think we always want to try to avoid in the future."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "start": 7842.24,
     "end": 7843.558,
     "text": "Very helpful. councilmember bates."
@@ -2192,7 +2192,7 @@ const TRANSCRIPT_TURNS = [
     "text": "about $1.7 million in the fy 27 budget so not an insignificant amount given our size. Just wanted to make those two"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 8011.494,
     "end": 8013.428,
     "text": "statements. councilmember peterson."
@@ -2324,7 +2324,7 @@ const TRANSCRIPT_TURNS = [
     "text": "extensions so we'll bring that back to you with a presenation. And that gets us into JUNE. Happy to answer any questions relative to what we've discussed on these meetings or looking out through the remainder of the"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 8491.941,
     "end": 8494.677,
     "text": "year at council's pleasure. councilmember peterson."
@@ -2378,7 +2378,7 @@ const TRANSCRIPT_TURNS = [
     "text": "to the council. At the risk of sounding gratuitous, you presented a lot of challenges, a lot of questions, a lot of good food for thought relative to this process. Look forward to a little more of that over the next couple weeks and certainly help us inform the process as we move forward so"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Rachel McQuillen",
     "start": 8608.858,
     "end": 8611.293,
     "text": "thank you very much. councilmember mcquillen,"
@@ -2414,7 +2414,7 @@ const TRANSCRIPT_TURNS = [
     "text": "forward when something is wrong. This month, as we observe sexual assault awareness month, that message feels especially meaningful and timely. It's a reminder of the importance of fostering a community where individuals feel heard, respected, and protected and where speaking up is met with support and care. I want to close by sincerely thanking everyone who has taken the time to reach out, share your thoughts and engage in these conversations. That participation matters. It's democracy at work, and I truly value it."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "start": 8773.789,
     "end": 8776.392,
     "text": "Thank you. councilmember bates."
@@ -2426,7 +2426,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I want to second the comments in support of survivors of sexual assault. In recognition of sexual assault awareness month."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 8787.102,
     "end": 8789.437,
     "text": "Thank you. councilmember peterson."
@@ -2582,7 +2582,7 @@ const TRANSCRIPT_TURNS = [
     "text": "is more expedient appointments. because I think that part of the delay contributed to the dynamic that happened. But I really hope that we can get people on boards earlier. So with that, I'll just wrap up and appreciate it."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 9466.815,
     "end": 9468.815,
     "text": "councilmember hall."
@@ -2630,7 +2630,7 @@ const TRANSCRIPT_TURNS = [
     "text": "throughout our days and nights and things that we're doing. So this will never be your last chance to have input on a budget. It's a living document that kind of goes on and on. Yes, we set it for one year but then we immediately move on to the next one. So I would strongly encourage you to attend the virtual or in-person event on thursday. I will certainly be there because we know budget day, we enjoy it. And thank you. Please, please, please continue to share your thoughts and ideas honestly on ways that we could do this whole thing better."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 9696.245,
     "end": 9697.847,
     "text": "So thank you. councilmember amos."
@@ -2672,13 +2672,13 @@ const TRANSCRIPT_TURNS = [
     "text": "of everyone I've ever met and I'm just eternally grateful for everyone I've met and those who came before me. And that's it."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
     "start": 9871.72,
     "end": 9902.5,
     "text": "councilmember hardy-chandler. Apologies, just one more follow-up. I did want to acknowledge the celebration of the educational and charitable foundation celebrating 25 years serving the fairfax region and that celebration as always offers scholarships to incredible students that definitely give you hope and optimism for the future. And I really appreciate the mayor coming to the event and doing a proclamation and acknowledgement of all the work"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
     "start": 9903.152,
     "end": 9913.727,
     "text": "that the educational and charitable foundation does for our region. Really dedicated to community service and also a great interview with an author. But thank you, mayor, for coming"

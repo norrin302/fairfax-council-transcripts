@@ -488,7 +488,7 @@ const TRANSCRIPT_TURNS = [
     "text": "daunting task. Very mump appreciated. I might have a question or two in a minute after others chime in. I want to thank you for the support you have been providing us."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 2692.99,
     "end": 2694.658,
     "text": "thank you. councilmember hall?"
@@ -800,7 +800,7 @@ const TRANSCRIPT_TURNS = [
     "text": "motion made and seconded."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 3923.54,
     "end": 3934.898,
     "text": "councilmember amouse ai. Councilmember hall, ai. Hardy-chandler aye. Peterson aye. Customer cohen, aye."
@@ -1310,7 +1310,7 @@ const TRANSCRIPT_TURNS = [
     "text": "tolerate. Modernizing in one section of the city code. We don't anticipate it will take another 16 years to amend this. I think we'll see living document and continue to learn from what other jurisdictions are doing and able with law. With that, I'll stop my"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 6288.86,
     "end": 6290.654,
     "text": "15-minute discussion. Take questions. councilmember amos."
@@ -1370,13 +1370,13 @@ const TRANSCRIPT_TURNS = [
     "text": "thank you."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 6447.479,
     "end": 6479.508,
     "text": "councilmember hall. thank you. Thank you for addressing questions by some of the speakers. If you could answer this more clearly, biright development being considered seems like concern might bring trucks different hours, different times, are you fairly confident, you'll be able to target concerns and reach out to the individuals that are running the businesses and that"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 6480.612,
     "end": 6486.349,
     "text": "type of thing to remind them of what the noise ordinance is when it is enacted?"
@@ -1688,7 +1688,7 @@ const TRANSCRIPT_TURNS = [
     "text": "complexes and that information is assimilated well and evenly, and thank you again and looking forward to the hearing."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 7947.712,
     "end": 7949.712,
     "text": "councilmember peterson."
@@ -1928,7 +1928,7 @@ const TRANSCRIPT_TURNS = [
     "text": "us to build on to what we have"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
     "start": 8861.259,
     "end": 8871.401,
     "text": "here. councilmember hardy-chandler, do you have a question? Comment?"
@@ -1946,7 +1946,7 @@ const TRANSCRIPT_TURNS = [
     "text": "document that will be reviewed ononon a regular basis for me this is sufficient as a starting point. That cycle is circular, it doesn't go linear; right. And so I'm looking forward to the specificity to be built in as the process moves on and there is expansion and the capacity to do that. So thank you."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 8927.526,
     "end": 8929.526,
     "text": "councilmember peterson."
@@ -1988,7 +1988,7 @@ const TRANSCRIPT_TURNS = [
     "text": "yeah, and so for annual plan I anticipate having that done within the first quarter of the year and some time by MARCH annual plan or sooner. and at minimum reported out in the past through the state of urban forest report in terms of progress. And share the annual plan once that has been developed."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 9087.786,
     "end": 9089.786,
     "text": "councilmember peterson."
@@ -2042,19 +2042,19 @@ const TRANSCRIPT_TURNS = [
     "text": "have a starting point of kpi table that I shared a little bit ago and continue to be updated as projects implemented."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 9283.448,
     "end": 9317.247,
     "text": "councilmember amos. I'll only add I am always a fan of prioritization and a tiered framework. And I want to point out that a lot of this is contingent one on staffing and we had in the climate action plan, you don't have a sufficient staffing to do a lot of this quickly. And understand that and on us to discuss as priority ization as well. And on the other side,"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 9317.715,
     "end": 9349.346,
     "text": "assessments to set realistic and achievable goals. So I would like a report back and doesn't have to be MARCH. And annual reviews MAY touch on that and think that prioritization and tiered framework is helpful and it's evolving process and not within a month. In terms of framework to build off of and not sitting on a shelf this is sufficient for tonight."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 9350.182,
     "end": 9352.182,
     "text": "councilmember peterson."
@@ -2108,7 +2108,7 @@ const TRANSCRIPT_TURNS = [
     "text": "MR. Lubkeman. sounds like a simple amendment and included as part of the motion. And based on what the manager said staff understands the spirit of what is intended. Regardless of the language in the motion, I think staff will proceed what you discussed. Assuming there is consensus."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "start": 9495.527,
     "end": 9497.527,
     "text": "councilmember bates."
@@ -2954,7 +2954,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I want to tnk y'all for beinhere and song suppo for the priorities. And particularl pleased to s that the catherine johns turf project added to this and appriate the ratnal bind t. A lot of altertives for turf anmaterial and somhing tt needto hpen there."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Rachel McQuillen",
     "start": 13364.563,
     "end": 13371.701,
     "text": "councilmember Mcquille no? Any o else? councilmember amos."
@@ -3080,7 +3080,7 @@ const TRANSCRIPT_TURNS = [
     "text": "If15 million I hope not but 2 milln in the first yr to execute thattudy is impoant."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 13939.104,
     "end": 13941.405,
     "text": "an I ask a follow-up question councilmember hall."
@@ -3110,7 +3110,7 @@ const TRANSCRIPT_TURNS = [
     "text": "hat is very true, saw with willard-sherod I think 29 million o 31 million in fiscal year21-22 and then jumped to 40 millio ahen jumpe t 50 million and 56 and now looking like 54.3. I undersnd that happe but I think the ability to have that"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
     "start": 14050.549,
     "end": 14052.95,
     "text": "and share that goes a long wa councilmember hardy-chdler."
@@ -3236,7 +3236,7 @@ const TRANSCRIPT_TURNS = [
     "text": "and nothing done. If we don have ruirements d have better examples where c do that and a lrning less. But to cllenge a movin forward of pject in ful complice byhe cy sms singenuous if your conce is what it cost is your concernhat it costs o what it's providing?"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 14582.114,
     "end": 14583.581,
     "text": "councilmember peterson, anything se?"
@@ -4610,7 +4610,7 @@ const TRANSCRIPT_TURNS = [
     "text": "t ying we appreciateou couilmber bait."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 20950.715,
     "end": 20952.249,
     "text": "ap blackistoryon. councilmember pern?"

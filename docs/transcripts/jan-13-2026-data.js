@@ -44,7 +44,7 @@ const TRANSCRIPT_TURNS = [
     "text": "the motion is made and seconded. Roll call vote."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 224.45,
     "end": 226.619,
     "text": "councilmember amos. aye."
@@ -104,25 +104,25 @@ const TRANSCRIPT_TURNS = [
     "text": "motion by stacey hardy-chandler and seconded by councilmember peterson. Any items council would like to pull for additional discussion? Okay. Seeing none."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Rachel McQuillen",
     "start": 321.546,
     "end": 324.381,
     "text": "A roll call vote. councilmember Mcquillen. aye. councilmember bates."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 325.417,
     "end": 327.317,
     "text": "aye. councilmember peterson."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
     "start": 328.687,
     "end": 330.32,
     "text": "aye. councilmember hardy-chandler."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 331.255,
     "end": 333.157,
     "text": "aye. councilmember aye."
@@ -134,7 +134,7 @@ const TRANSCRIPT_TURNS = [
     "text": "aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 335.628,
     "end": 336.861,
     "text": "councilmember amos. aye."
@@ -272,7 +272,7 @@ const TRANSCRIPT_TURNS = [
     "text": "yes it does. okay."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
     "start": 890.282,
     "end": 893.183,
     "text": "So this is pretty typical. Okay. councilmember hardy-chandler."
@@ -518,7 +518,7 @@ const TRANSCRIPT_TURNS = [
     "text": "if not submitted, fees will be assessed without credit. These changes will create a clear and more consistent process for the plumbing and building permit applicants and it will support the implementation of availability fee payments through the portal as part of the city's broader goal of consolidating permitting fee processing. That's concludes the staff report for these few changes."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 1856.515,
     "end": 1858.616,
     "text": "I'm happy to answer any questions. councilmember amos?"
@@ -572,7 +572,7 @@ const TRANSCRIPT_TURNS = [
     "text": "councilmember, to your point, I think this is very similar to the tax releaf program, it should be evaluated on an annual basis to account for inflation factors or pressures that the economy is putting. This is light but it's proactive from staff trying to catch up for the past seven or eight years that there has been no adjustment. And going forward we will be reviewing this on an annual basis."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
     "start": 1938.564,
     "end": 1940.198,
     "text": "thank you. councilmember hardy-chandler?"
@@ -602,7 +602,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you. other questions? Other questions? councilmember bates?"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 2012.303,
     "end": 2038.696,
     "text": "councilmember amos' comments reminded me that I believe that I've seen at least at the state level, some legislation that incorporates a provision that allows for rates and what not to be adjusted for inflation on yearly basis, kind of automatically. Is that something we might consider here? Is it just kind of better to, you know, have a conscious decision-making process behind that?"
@@ -626,7 +626,7 @@ const TRANSCRIPT_TURNS = [
     "text": "do see how much is in there. thought it might be something"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 2109.535,
     "end": 2112.403,
     "text": "like that. councilmember hall."
@@ -698,31 +698,31 @@ const TRANSCRIPT_TURNS = [
     "text": "motion by stacey hardy-chandler. Second by councilmember peterson. Any discussion on the motion?"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 2255.614,
     "end": 2258.315,
     "text": "Seeing none, roll call vote. councilmember amos. aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 2259.18,
     "end": 2261.351,
     "text": "councilmember hall. aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
     "start": 2261.387,
     "end": 2263.186,
     "text": "councilmember hardy-chandler. aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 2263.655,
     "end": 2265.623,
     "text": "councilmember peterson. aye. councilmember bates."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Rachel McQuillen",
     "start": 2266.425,
     "end": 2269.394,
     "text": "aye. councilmember Mcquillen. ire aye."
@@ -782,13 +782,13 @@ const TRANSCRIPT_TURNS = [
     "text": "motion made by stacey hardy-chandler and seconded by thomas peterson. Any discussion on this motion? Seeing none."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Rachel McQuillen",
     "start": 2373.565,
     "end": 2375.933,
     "text": "a roll call vote. councilmember Mcquillen. aye. councilmember bates."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 2375.933,
     "end": 2378.569,
     "text": "aye. councilmember peterson."
@@ -800,7 +800,7 @@ const TRANSCRIPT_TURNS = [
     "text": "aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
     "start": 2382.341,
     "end": 2383.808,
     "text": "councilmember hardy-chandler stacey hardy-chandler."
@@ -842,7 +842,7 @@ const TRANSCRIPT_TURNS = [
     "text": "-- filed by FEBRUARY 1st. And additional forms for certain individuals. This also reflects state definition of what constitutes the immediate family of the positions. That is defined as any other personal who resides in the same household and dependent on those in the scope. The dependency is the reflection of that. And we also updated those corresponding with the state enabling authority 679 with --"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 2534.193,
     "end": 2535.994,
     "text": "with that, happy to answer questions. councilmember peterson."
@@ -902,25 +902,25 @@ const TRANSCRIPT_TURNS = [
     "text": "motion made by councilmember hardy-chandler and seconded by councilmember peterson. Is there any discussion on the motion? Seeing none roll call vote."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 2627.251,
     "end": 2629.319,
     "text": "councilmember amos. aye. councilmember hall."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
     "start": 2630.588,
     "end": 2632.824,
     "text": "aye. councilmember hardy-chandler. aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 2632.824,
     "end": 2634.257,
     "text": "councilmember peterson. aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "start": 2635.594,
     "end": 2637.628,
     "text": "councilmember bates. aye. councilmember Mcquillen. aye."
@@ -2678,7 +2678,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I move to approve the supplemental appropriation resolution inlet amount of 4,600,000 from transform 66 outside the beltway concession"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "start": 11256.481,
     "end": 11258.949,
     "text": "funding for george snyder trail. councilmember bates."
@@ -2774,7 +2774,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Cost escalation and environmental complexity and long-term obligations matter. We owe it to current residents and future generations to weigh those realities careful. For this reason, for these reasons I will not be supporting aproptiating funds for this"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 11706.732,
     "end": 11709.434,
     "text": "project. councilmember amos."
@@ -2816,7 +2816,7 @@ const TRANSCRIPT_TURNS = [
     "text": "And with trash pick up, similarly. So while I do intend on supporting this, I want us to acknowledge that there is legitimacy to what everyone said in this room today. And I also agree it's time to move on. We have dealt with this long enough and we keep going at each other's throats a personally I think this is unhealthy thing for our community to keep prolonging."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 11913.739,
     "end": 11915.706,
     "text": "So let's get it done. councilmember hall."
@@ -3182,7 +3182,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I won't characterize that publicly. There is approiate venue to have those dcussions and respectfully not this nue."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
     "start": 13182.54,
     "end": 13209.32,
     "text": "councilmember hardy-chdler. > and I believe our financial officer talked about havin -- okay, there are -- sorry, there are consequences. Yes,here are consequences to aecision tocanc. Just le there a csequences to a decisio not to canc. There isn'the cancellatio"
@@ -3530,19 +3530,19 @@ const TRANSCRIPT_TURNS = [
     "text": "thankyou, peect. I hadn't updated t future list. I have a couple other things at I will ask o line."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 13930.688,
     "end": 13962.754,
     "text": "councilmember peterson. justne more about JANUARY 27th, but ihink it going to repeat in subsequent meetin d that is budget. Kind of whe and when and what in terms of schede for doing budget terminations. i don' have t date in myind exactly but I know it will sak right on us in termsf when have t establish tt real estate tax ceiling, etc. Anything you can s now wt"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 13964.49,
     "end": 13994.719,
     "text": "that looks like in terms of where a when theudget srts appear? Well, definitel on the 24th I'm going t look to jc to give us more specific informaon on it but I kno we have our meing on e 24th. We've mmitted to so you know, to getting with mayor and counlhead of the city nager's proposed buet, which is sething tha we have done in theastnd we intend to do ving forward in the future"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 13996.956,
     "end": 13999.57,
     "text": "and asi from that let jc speak more specific dates if he's"
