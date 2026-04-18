@@ -272,7 +272,8 @@
     container.innerHTML = '';
     sections.forEach((s) => {
       const sec = Math.max(0, Math.floor(Number(s.start_seconds) || 0));
-      const label = String(s.label || '').trim() || formatTime(sec);
+      let label = String(s.label || '').replace(/\s+/g, ' ').trim() || formatTime(sec);
+      if (label.length > 80) label = label.slice(0, 79).trimEnd() + '…';
 
       const a = document.createElement('a');
       a.href = `#t=${sec}`;
