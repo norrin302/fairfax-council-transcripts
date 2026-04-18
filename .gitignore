@@ -2,3 +2,8 @@ videos/*.mp3
 videos/*.mp4*
 videos/*.part
 videos/*.ytdl
+
+.venv/
+
+# Large media/chunks
+videos/**

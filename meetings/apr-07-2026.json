@@ -1,0 +1,38 @@
+{
+  "meeting_id": "apr-07-2026",
+  "meeting_date": "2026-04-07",
+  "display_date": "April 7, 2026",
+  "title": "City Council Work Session",
+  "meeting_type": "work_session",
+  "city": "Fairfax, VA",
+  "source_video_url": "https://fairfax.granicus.com/player/clip/4513",
+  "official_meetings_portal_url": "https://www.fairfaxva.gov/Government/Public-Meetings/City-Meetings",
+  "official_agenda_url": "https://fairfax.granicus.com/AgendaViewer.php?clip_id=4513",
+  "official_minutes_url": "https://fairfax.granicus.com/MinutesViewer.php?clip_id=4513",
+  "official_packet_url": null,
+  "transcript_url": "transcripts/apr-07-2026.html",
+  "transcript_turns_js": "docs/transcripts/apr-07-2026-data.js",
+  "duration_seconds": 13069,
+  "sections": [
+    {
+      "start_seconds": 15,
+      "label": "a. Discussion on Third Party Event Sponsorships."
+    },
+    {
+      "start_seconds": 3449,
+      "label": "b. Discussion and update on city services and support for older adults."
+    },
+    {
+      "start_seconds": 7542,
+      "label": "c. Discussion on Translation Services for City Council Meetings."
+    },
+    {
+      "start_seconds": 9051,
+      "label": "d. Discussion on the proposed FY 2027 budget, General Fund Questions and Discussion (if needed)"
+    },
+    {
+      "start_seconds": 12969,
+      "label": "2. Adjournment."
+    }
+  ]
+}

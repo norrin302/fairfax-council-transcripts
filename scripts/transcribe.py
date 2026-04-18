@@ -89,8 +89,17 @@ def download_video(url: str, output_dir: str) -> dict:
     yt_dlp = require_yt_dlp()
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
-    
+
+    # Prefer clip_id from query parameters when present (e.g., MediaPlayer.php?...&clip_id=4513)
     video_id = url.split("/")[-1].split("?")[0]
+    try:
+        from urllib.parse import urlparse, parse_qs
+
+        qs = parse_qs(urlparse(url).query)
+        if "clip_id" in qs and qs["clip_id"]:
+            video_id = str(qs["clip_id"][0])
+    except Exception:
+        pass
     
     ydl_opts = {
         "format": "bestaudio/best",
@@ -131,6 +140,15 @@ def call_whisper_api(audio_path: str, model: str = "whisper-1") -> dict:
     Falls back to local processing instructions if no API key
     """
     api_key = os.environ.get("OPENAI_API_KEY")
+    if not api_key:
+        # Best-effort fallback used elsewhere in this repo
+        secrets_path = os.path.expanduser('~/.openclaw/secrets.env')
+        if os.path.exists(secrets_path):
+            with open(secrets_path, encoding='utf-8') as f:
+                for line in f:
+                    if line.startswith('OPENAI_API_KEY='):
+                        api_key = line.strip().split('=', 1)[1].strip().strip('"\'')
+                        break
     
     if not api_key:
         return {
