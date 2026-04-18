@@ -4,7 +4,8 @@
 Pipeline per meeting:
 1) Ensure meetings/<meeting_id>.json exists (metadata).
 2) Import Granicus Index -> sections.
-3) Chunked OpenAI Whisper transcription from official MP3.
+3) Prefer official Granicus closed captions (captions.vtt) for transcript text/timestamps.
+   Fallback: chunked OpenAI transcription if captions are unavailable.
 4) Publish to docs/ + rebuild search index.
 
 This script is resumable: it skips meetings that already have docs/transcripts/<meeting_id>.html.
@@ -20,12 +21,23 @@ import argparse
 import json
 import re
 import subprocess
+import urllib.request
 from datetime import datetime
 from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 PORTAL_URL = "https://www.fairfaxva.gov/Government/Public-Meetings/City-Meetings"
+
+
+def granicus_has_captions(clip_id: int) -> bool:
+    url = f"https://fairfax.granicus.com/videos/{int(clip_id)}/captions.vtt"
+    try:
+        req = urllib.request.Request(url, method="HEAD")
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            return int(getattr(resp, "status", 0) or 0) == 200
+    except Exception:
+        return False
 
 
 def sh(cmd: list[str], *, cwd: Path) -> None:
@@ -147,22 +159,25 @@ def main() -> int:
         # Sections from official clip index
         sh(["python3", "scripts/import_granicus_agenda_index.py", meeting_id, "--keep", "all"], cwd=REPO_ROOT)
 
-        # Transcribe (chunked)
-        sh([
-            str(REPO_ROOT / ".venv" / "bin" / "python"),
-            "scripts/transcribe_openai_chunked.py",
-            "--meeting-id",
-            meeting_id,
-            "--audio-url",
-            str(m.get("mp3_url")),
-            "--meeting-date",
-            str(m.get("date_label") or date_iso),
-            "--segment-seconds",
-            "600",
-        ], cwd=REPO_ROOT)
-
         # Publish page + index
-        sh(["python3", "scripts/publish_meeting.py", meeting_id, "-i", f"transcripts/{meeting_id}_complete.json"], cwd=REPO_ROOT)
+        if granicus_has_captions(clip_id):
+            sh(["python3", "scripts/publish_meeting.py", meeting_id, "--captions"], cwd=REPO_ROOT)
+        else:
+            # Fallback: transcribe (chunked) then publish from the merged Whisper JSON
+            sh([
+                str(REPO_ROOT / ".venv" / "bin" / "python"),
+                "scripts/transcribe_openai_chunked.py",
+                "--meeting-id",
+                meeting_id,
+                "--audio-url",
+                str(m.get("mp3_url")),
+                "--meeting-date",
+                str(m.get("date_label") or date_iso),
+                "--segment-seconds",
+                "600",
+            ], cwd=REPO_ROOT)
+
+            sh(["python3", "scripts/publish_meeting.py", meeting_id, "-i", f"transcripts/{meeting_id}_complete.json"], cwd=REPO_ROOT)
 
         # Commit + push per meeting (keeps deployments incremental)
         sh(["git", "add", "-A"], cwd=REPO_ROOT)
