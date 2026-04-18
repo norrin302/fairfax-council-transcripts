@@ -133,6 +133,8 @@ def build() -> None:
             start = int(math.floor(float(turn.get("start", 0) or 0)))
             text = str(turn.get("text", "") or "").strip()
             speaker = str(turn.get("speaker", "Unknown") or "Unknown").strip()
+            if speaker.lower() in {"speaker", "unknown", ""}:
+                speaker = "Unknown Speaker"
 
             segments_out.append(
                 {

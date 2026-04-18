@@ -135,7 +135,10 @@
     }
 
     turns.forEach((turn, idx) => {
-      const speaker = String(turn.speaker || 'Unknown');
+      let speaker = String(turn.speaker || 'Unknown').trim();
+      if (!speaker || speaker.toLowerCase() === 'speaker' || speaker.toLowerCase() === 'unknown') {
+        speaker = 'Unknown Speaker';
+      }
       const text = String(turn.text || '');
       const start = Number(turn.start) || 0;
 
