@@ -176,18 +176,7 @@ def write_transcript_html(meeting: dict[str, Any], out_path: Path) -> None:
       </p>
     </div>
 
-    <div class=\"official-links\">
-      <h3><i class=\"fas fa-external-link-alt\"></i> Official Resources</h3>
-      <p>
-        <a href=\"{source_url}\" target=\"_blank\" rel=\"noopener\"><i class=\"fas fa-video\"></i> Watch Video (Granicus)</a>
-        {'&bull; <a href="' + agenda_url + '" target="_blank" rel="noopener"><i class="fas fa-file-alt"></i> Agenda</a>' if agenda_url else ''}
-        {'&bull; <a href="' + minutes_url + '" target="_blank" rel="noopener"><i class="fas fa-file-signature"></i> Minutes</a>' if minutes_url else ''}
-        {'&bull; <a href="' + portal_url + '" target="_blank" rel="noopener"><i class="fas fa-file"></i> Meeting Portal</a>' if portal_url else ''}
-      </p>
-      <p style=\"margin: 10px 0 0 0; font-size: 14px; color: #4a5568;\">
-        Video note: the city has reported Granicus streaming issues in Google Chrome. If playback fails, try Firefox, Safari, or Edge.
-      </p>
-    </div>
+    <div class=\"official-links\" id=\"official-resources\"></div>
 
     <div class=\"official-links\">
       <h3><i class=\"fas fa-list\"></i> Jump to section</h3>
