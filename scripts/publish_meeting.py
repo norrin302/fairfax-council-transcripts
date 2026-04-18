@@ -574,6 +574,56 @@ def dominant_speaker_id(words: list[dict[str, Any]], start: float, end: float) -
     return max(counts.items(), key=lambda kv: kv[1])[0]
 
 
+def load_diarization_segments(path: Path) -> list[dict[str, Any]]:
+    """Load diarization segments from JSON.
+
+    Expected format:
+      {"segments": [{"start": <float>, "end": <float>, "speaker": "SPEAKER_00"}, ...]}
+    """
+    data = json.loads(path.read_text(encoding="utf-8"))
+    segs = data.get("segments") or []
+    if not isinstance(segs, list):
+        return []
+    out: list[dict[str, Any]] = []
+    for s in segs:
+        try:
+            start = float(s.get("start"))
+            end = float(s.get("end"))
+            sp = str(s.get("speaker") or "").strip()
+            if not sp or end <= start:
+                continue
+            out.append({"start": start, "end": end, "speaker": sp})
+        except Exception:
+            continue
+    return out
+
+
+def dominant_diar_speaker(segments: list[dict[str, Any]], start: float, end: float) -> str:
+    """Return the dominant diarization speaker label in [start, end] by overlap seconds."""
+    if not segments:
+        return ""
+    s = float(start)
+    e = float(end)
+    if e <= s:
+        return ""
+    totals: dict[str, float] = {}
+    for seg in segments:
+        ss = float(seg.get("start", -1) or -1)
+        ee = float(seg.get("end", -1) or -1)
+        if ee <= s or ss >= e:
+            continue
+        sp = str(seg.get("speaker") or "")
+        if not sp:
+            continue
+        overlap = max(0.0, min(e, ee) - max(s, ss))
+        if overlap <= 0:
+            continue
+        totals[sp] = totals.get(sp, 0.0) + overlap
+    if not totals:
+        return ""
+    return max(totals.items(), key=lambda kv: kv[1])[0]
+
+
 def label_speakers(turns: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """Best-effort speaker labeling using heuristics from scripts/transcribe.py."""
     # Import without triggering yt-dlp requirements
@@ -721,6 +771,11 @@ def main() -> int:
         default="",
         help="Optional ElevenLabs STT JSON with words[] + speaker_id to propagate council/mayor labels",
     )
+    ap.add_argument(
+        "--diarization-segments",
+        default="",
+        help="Optional diarization JSON with segments[{start,end,speaker}] to propagate speaker names across unlabeled captions",
+    )
     ap.add_argument("--chunk-seconds", type=int, default=30, help="Target chunk size in seconds")
     ap.add_argument("--max-chars", type=int, default=650, help="Max chars per chunk before forcing a boundary")
     ap.add_argument(
@@ -737,6 +792,12 @@ def main() -> int:
         dp = (REPO_ROOT / args.diarization).resolve() if not Path(args.diarization).is_absolute() else Path(args.diarization)
         if dp.exists():
             diar_words = load_elevenlabs_words(dp)
+
+    diar_segments: list[dict[str, Any]] = []
+    if args.diarization_segments:
+        sp = (REPO_ROOT / args.diarization_segments).resolve() if not Path(args.diarization_segments).is_absolute() else Path(args.diarization_segments)
+        if sp.exists():
+            diar_segments = load_diarization_segments(sp)
     if args.captions:
         vtt = fetch_granicus_captions_vtt(str(meeting.get("source_video_url") or ""))
         segments = segments_from_webvtt(vtt)
@@ -751,34 +812,49 @@ def main() -> int:
         if not isinstance(segments, list) or not segments:
             raise SystemExit("Input JSON missing segments[]")
 
-    # If we have diarization, map speaker_id -> known speaker_hint using explicit caption tags.
+    # If we have diarization, map diar speaker labels -> known speaker_hint using caption tags.
     speaker_id_to_hint: dict[str, str] = {}
-    if diar_words:
+    if diar_words or diar_segments:
         scores: dict[str, dict[str, int]] = {}
         for seg in segments:
             hint = str(seg.get("speaker_hint") or "").strip()
             if not hint:
                 continue
-            sid = dominant_speaker_id(diar_words, float(seg.get("start", 0) or 0), float(seg.get("end", 0) or 0))
+            strength = str(seg.get("speaker_hint_strength") or "").strip()
+            if strength not in {"explicit", "marker", "inline", "inline_loose"}:
+                continue
+
+            start = float(seg.get("start", 0) or 0)
+            end = float(seg.get("end", 0) or 0)
+
+            sid = ""
+            if diar_segments:
+                sid = dominant_diar_speaker(diar_segments, start, end)
+            elif diar_words:
+                sid = dominant_speaker_id(diar_words, start, end)
             if not sid:
                 continue
+
+            weight = 3 if strength in {"explicit", "marker"} else 2 if strength == "inline" else 1
             scores.setdefault(sid, {})
-            scores[sid][hint] = scores[sid].get(hint, 0) + 1
+            scores[sid][hint] = scores[sid].get(hint, 0) + weight
 
         for sid, hcounts in scores.items():
             best_hint, best = max(hcounts.items(), key=lambda kv: kv[1])
             # Require a little evidence to avoid mapping on tiny cues.
-            if best >= 2:
+            if best >= 3:
                 speaker_id_to_hint[sid] = best_hint
 
     raw_turns = chunk_segments(segments, target_seconds=args.chunk_seconds, max_chars=args.max_chars)
 
     # Propagate diarization-derived speaker hints onto turns when possible.
-    if diar_words and speaker_id_to_hint:
+    if (diar_words or diar_segments) and speaker_id_to_hint:
         for t in raw_turns:
             if str(t.get("speaker_hint") or "").strip():
                 continue
-            sid = dominant_speaker_id(diar_words, float(t.get("start", 0) or 0), float(t.get("end", 0) or 0))
+            start = float(t.get("start", 0) or 0)
+            end = float(t.get("end", 0) or 0)
+            sid = dominant_diar_speaker(diar_segments, start, end) if diar_segments else dominant_speaker_id(diar_words, start, end)
             if sid and sid in speaker_id_to_hint:
                 t["speaker_hint"] = speaker_id_to_hint[sid]
                 t["speaker_hint_strength"] = "diarization"
