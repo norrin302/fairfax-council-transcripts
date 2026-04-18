@@ -307,6 +307,52 @@ def fetch_granicus_captions_vtt(source_video_url: str) -> str:
         return resp.read().decode("utf-8", errors="ignore")
 
 
+def load_elevenlabs_words(path: Path) -> list[dict[str, Any]]:
+    """Load ElevenLabs speech-to-text JSON and return words[] entries."""
+    data = json.loads(path.read_text(encoding="utf-8"))
+    words = data.get("words") or []
+    if not isinstance(words, list):
+        return []
+    # Only keep word tokens with timestamps and speaker ids
+    out: list[dict[str, Any]] = []
+    for w in words:
+        try:
+            if str(w.get("type")) != "word":
+                continue
+            s = float(w.get("start"))
+            e = float(w.get("end"))
+            sid = str(w.get("speaker_id") or "").strip()
+            if not sid:
+                continue
+            out.append({"start": s, "end": e, "speaker_id": sid})
+        except Exception:
+            continue
+    return out
+
+
+def dominant_speaker_id(words: list[dict[str, Any]], start: float, end: float) -> str:
+    """Return the dominant speaker_id in a time range using word counts."""
+    if not words:
+        return ""
+    s = float(start)
+    e = float(end)
+    if e <= s:
+        return ""
+    counts: dict[str, int] = {}
+    for w in words:
+        ws = float(w.get("start", -1) or -1)
+        if ws < s or ws > e:
+            continue
+        sid = str(w.get("speaker_id") or "")
+        if not sid:
+            continue
+        counts[sid] = counts.get(sid, 0) + 1
+    if not counts:
+        return ""
+    # Max by count
+    return max(counts.items(), key=lambda kv: kv[1])[0]
+
+
 def label_speakers(turns: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """Best-effort speaker labeling using heuristics from scripts/transcribe.py."""
     # Import without triggering yt-dlp requirements
@@ -447,6 +493,11 @@ def main() -> int:
         action="store_true",
         help="Use official Granicus captions.vtt (derived from meeting.source_video_url) instead of --input",
     )
+    ap.add_argument(
+        "--diarization",
+        default="",
+        help="Optional ElevenLabs STT JSON with words[] + speaker_id to propagate council/mayor labels",
+    )
     ap.add_argument("--chunk-seconds", type=int, default=30, help="Target chunk size in seconds")
     ap.add_argument("--max-chars", type=int, default=650, help="Max chars per chunk before forcing a boundary")
     ap.add_argument(
@@ -457,6 +508,12 @@ def main() -> int:
     args = ap.parse_args()
 
     meeting = load_meeting(args.meeting_id)
+
+    diar_words: list[dict[str, Any]] = []
+    if args.diarization:
+        dp = (REPO_ROOT / args.diarization).resolve() if not Path(args.diarization).is_absolute() else Path(args.diarization)
+        if dp.exists():
+            diar_words = load_elevenlabs_words(dp)
     if args.captions:
         vtt = fetch_granicus_captions_vtt(str(meeting.get("source_video_url") or ""))
         segments = segments_from_webvtt(vtt)
@@ -471,7 +528,36 @@ def main() -> int:
         if not isinstance(segments, list) or not segments:
             raise SystemExit("Input JSON missing segments[]")
 
+    # If we have diarization, map speaker_id -> known speaker_hint using explicit caption tags.
+    speaker_id_to_hint: dict[str, str] = {}
+    if diar_words:
+        scores: dict[str, dict[str, int]] = {}
+        for seg in segments:
+            hint = str(seg.get("speaker_hint") or "").strip()
+            if not hint:
+                continue
+            sid = dominant_speaker_id(diar_words, float(seg.get("start", 0) or 0), float(seg.get("end", 0) or 0))
+            if not sid:
+                continue
+            scores.setdefault(sid, {})
+            scores[sid][hint] = scores[sid].get(hint, 0) + 1
+
+        for sid, hcounts in scores.items():
+            best_hint, best = max(hcounts.items(), key=lambda kv: kv[1])
+            # Require a little evidence to avoid mapping on tiny cues.
+            if best >= 2:
+                speaker_id_to_hint[sid] = best_hint
+
     raw_turns = chunk_segments(segments, target_seconds=args.chunk_seconds, max_chars=args.max_chars)
+
+    # Propagate diarization-derived speaker hints onto turns when possible.
+    if diar_words and speaker_id_to_hint:
+        for t in raw_turns:
+            if str(t.get("speaker_hint") or "").strip():
+                continue
+            sid = dominant_speaker_id(diar_words, float(t.get("start", 0) or 0), float(t.get("end", 0) or 0))
+            if sid and sid in speaker_id_to_hint:
+                t["speaker_hint"] = speaker_id_to_hint[sid]
     if args.label_speakers:
         labeled_turns = label_speakers(raw_turns)
     else:
