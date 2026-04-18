@@ -283,6 +283,29 @@
     });
   }
 
+  function renderOfficialResources(meeting) {
+    const container = document.getElementById('official-resources');
+    if (!container) return;
+
+    const video = meeting && meeting.source_url ? String(meeting.source_url) : '';
+    const agenda = meeting && meeting.official_agenda_url ? String(meeting.official_agenda_url) : '';
+    const minutes = meeting && meeting.official_minutes_url ? String(meeting.official_minutes_url) : '';
+    const portal = meeting && meeting.official_meetings_portal_url ? String(meeting.official_meetings_portal_url) : '';
+
+    const links = [];
+    if (video) links.push(`<a href="${video}" target="_blank" rel="noopener"><i class="fas fa-video"></i> Watch Video (Granicus)</a>`);
+    if (agenda) links.push(`<a href="${agenda}" target="_blank" rel="noopener"><i class="fas fa-file-alt"></i> Agenda</a>`);
+    if (minutes) links.push(`<a href="${minutes}" target="_blank" rel="noopener"><i class="fas fa-file-signature"></i> Minutes</a>`);
+    if (portal) links.push(`<a href="${portal}" target="_blank" rel="noopener"><i class="fas fa-file"></i> Meeting Portal</a>`);
+
+    container.innerHTML =
+      `<h3><i class="fas fa-external-link-alt"></i> Official Resources</h3>` +
+      `<p>${links.join(' &bull; ')}</p>` +
+      `<p style="margin: 10px 0 0 0; font-size: 14px; color: #4a5568;">` +
+      `Video note: the city has reported Granicus streaming issues in Google Chrome. If playback fails, try Firefox, Safari, or Edge.` +
+      `</p>`;
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     // These are provided by docs/transcripts/<meeting_id>-data.js + inline page script
     const meeting = (typeof MEETING !== 'undefined' && MEETING) ? MEETING : {
@@ -294,6 +317,7 @@
     const turns = (typeof TRANSCRIPT_TURNS !== 'undefined') ? TRANSCRIPT_TURNS : [];
 
     renderTranscript(turns, meeting);
+    renderOfficialResources(meeting);
     renderSectionLinks(meeting);
     wireInPageSearch();
     wireBackToTop();
