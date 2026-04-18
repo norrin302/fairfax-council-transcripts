@@ -9,6 +9,14 @@
   let CURRENT_T = 0;
   let MATCH_INDEX = -1;
   let MATCH_IDS = [];
+  let HIDE_UNLABELED = false;
+
+  function speakerKey(s) {
+    return String(s || '')
+      .toLowerCase()
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
 
   function formatTime(seconds) {
     const s = Math.max(0, Math.floor(Number(seconds) || 0));
@@ -239,6 +247,13 @@
     setTimeout(() => turnEl.classList.remove('highlighted'), 3500);
   }
 
+  function jumpToFirstVisibleBlock() {
+    const first = document.querySelector('.speaker-block:not(.hidden)');
+    if (!first) return;
+    first.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    highlightTurn(first);
+  }
+
   function handleDeepLink(turns) {
     const params = parseHashParams();
 
@@ -291,6 +306,7 @@
       }
       const speakerSource = String(turn.speaker_source || '').trim() || (speaker === 'Unknown Speaker' ? 'unknown' : '');
       const speakerSourceDetail = String(turn.speaker_source_detail || '').trim();
+      const spKey = speakerKey(speaker);
       const start = Number(turn.start) || 0;
       const end = Number(turn.end) || start;
       const text = String(turn.text || '').replace(/\s+/g, ' ').trim();
@@ -302,7 +318,7 @@
         last.end = Math.max(Number(last.end) || 0, end);
         last.texts.push(text);
       } else {
-        blocks.push({ speaker, speakerSource, speakerSourceDetail, start, end, texts: [text] });
+        blocks.push({ speaker, speakerKey: spKey, speakerSource, speakerSourceDetail, start, end, texts: [text] });
       }
     });
 
@@ -323,7 +339,7 @@
       div.className = `speaker-block ${speakerClass}`;
       div.id = `turn-${idx}`;
       div.dataset.index = String(idx);
-      div.dataset.speaker = speaker.toLowerCase();
+      div.dataset.speaker = speakerKey(speaker);
       div.dataset.text = text.toLowerCase();
       div.dataset.time = String(Math.floor(start));
       div.dataset.sectionKey = String(sectionKey || '');
@@ -432,24 +448,27 @@
     const input = document.getElementById('search-input');
     const countEl = document.getElementById('search-count');
     const query = input ? String(input.value || '').toLowerCase().trim() : '';
-    const speaker = String(ACTIVE_SPEAKER || '').toLowerCase().trim();
+    const speaker = speakerKey(ACTIVE_SPEAKER || '');
     const sectionKey = String(ACTIVE_SECTION_KEY || '').trim();
 
     const blocks = document.querySelectorAll('.speaker-block');
     let visibleBlocks = 0;
 
     blocks.forEach((block) => {
-      const blockSpeaker = String(block.dataset.speaker || '');
+      const blockSpeaker = speakerKey(block.dataset.speaker || '');
       const blockSectionKey = String(block.dataset.sectionKey || '');
       const text = String(block.dataset.text || '');
       const textEl = block.querySelector('.turn-text');
       const originalText = textEl ? (textEl.dataset.originalText || textEl.textContent || '') : '';
 
+      const isUnlabeled = blockSpeaker === speakerKey('Unknown Speaker');
+      const unlabeledOk = !HIDE_UNLABELED || !isUnlabeled;
+
       const speakerOk = !speaker || blockSpeaker === speaker;
       const sectionOk = !sectionKey || blockSectionKey === sectionKey;
       const queryOk = !query || text.includes(query);
 
-      if (speakerOk && sectionOk && queryOk) {
+      if (speakerOk && sectionOk && queryOk && unlabeledOk) {
         block.classList.remove('hidden');
         visibleBlocks++;
         if (textEl) {
@@ -573,7 +592,7 @@
     });
 
     const items = Array.from(counts.entries())
-      .map(([name, count]) => ({ name, count, cls: speakerClassFor(name), key: String(name).toLowerCase() }))
+      .map(([name, count]) => ({ name, count, cls: speakerClassFor(name), key: speakerKey(name) }))
       .sort((a, b) => (b.count - a.count) || a.name.localeCompare(b.name));
 
     chips.innerHTML = '';
@@ -585,10 +604,11 @@
       btn.dataset.speaker = key;
       btn.textContent = count != null ? `${label} (${count})` : label;
       btn.addEventListener('click', () => {
-        ACTIVE_SPEAKER = key;
+        ACTIVE_SPEAKER = speakerKey(key);
         chips.querySelectorAll('.speaker-chip').forEach((b) => b.classList.remove('active'));
         btn.classList.add('active');
         applyTranscriptFilters();
+        if (ACTIVE_SPEAKER) jumpToFirstVisibleBlock();
       });
       chips.appendChild(btn);
       return btn;
@@ -783,6 +803,7 @@
         '<h3><i class="fas fa-wand-magic-sparkles"></i> Transcript Tools</h3>' +
         '<div class="tools-row">' +
         '  <button id="btn-copy-share" type="button" class="mini-btn"><i class="fas fa-link"></i> Copy share link</button>' +
+        '  <button id="btn-toggle-unlabeled" type="button" class="mini-btn"><i class="fas fa-filter"></i> Hide unlabeled</button>' +
         '  <button id="btn-export-csv" type="button" class="mini-btn"><i class="fas fa-file-csv"></i> Export CSV</button>' +
         '  <button id="btn-export-md" type="button" class="mini-btn"><i class="fas fa-file-lines"></i> Export Markdown</button>' +
         '</div>';
@@ -815,6 +836,23 @@
     if (mdBtn && !mdBtn.dataset.bound) {
       mdBtn.dataset.bound = '1';
       mdBtn.addEventListener('click', () => exportVisible(meeting, 'md'));
+    }
+
+    const unlabeledBtn = document.getElementById('btn-toggle-unlabeled');
+    if (unlabeledBtn && !unlabeledBtn.dataset.bound) {
+      unlabeledBtn.dataset.bound = '1';
+      const sync = () => {
+        unlabeledBtn.innerHTML = HIDE_UNLABELED
+          ? '<i class="fas fa-filter-circle-xmark"></i> Show unlabeled'
+          : '<i class="fas fa-filter"></i> Hide unlabeled';
+      };
+      sync();
+      unlabeledBtn.addEventListener('click', () => {
+        HIDE_UNLABELED = !HIDE_UNLABELED;
+        sync();
+        applyTranscriptFilters();
+        if (ACTIVE_SPEAKER) jumpToFirstVisibleBlock();
+      });
     }
 
     renderHighlights(meeting);
