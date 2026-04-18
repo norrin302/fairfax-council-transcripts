@@ -67,7 +67,7 @@ fairfax-council-transcripts/
       ```bash
       python3 scripts/publish_meeting.py <meeting_id> --input transcripts/<meeting_id>_complete.json
       ```
-    - Add a meeting card to `docs/index.html` (until the homepage list is auto-generated)
+    - (Optional) If needed, update homepage copy in `docs/index.html`.
    
    (Automation is planned, but today this step is partially manual.)
 4. Commit and push
