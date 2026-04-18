@@ -1,0 +1,99 @@
+{
+  "meeting_id": "mar-10-2026",
+  "meeting_date": "2026-03-10",
+  "display_date": "Mar 10, 2026",
+  "title": "City Council Meeting",
+  "meeting_type": "regular",
+  "city": "Fairfax, VA",
+  "granicus_clip_id": 4494,
+  "source_video_url": "https://fairfax.granicus.com/player/clip/4494",
+  "official_meetings_portal_url": "https://www.fairfaxva.gov/Government/Public-Meetings/City-Meetings",
+  "official_agenda_url": "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4494",
+  "official_minutes_url": null,
+  "official_packet_url": null,
+  "transcript_url": "transcripts/mar-10-2026.html",
+  "transcript_turns_js": "docs/transcripts/mar-10-2026-data.js",
+  "duration_seconds": 15840,
+  "sections": [
+    {
+      "start_seconds": 109,
+      "label": "1. Call the regular meeting to order. 7:00 P.M."
+    },
+    {
+      "start_seconds": 126,
+      "label": "2. Pledge of Allegiance."
+    },
+    {
+      "start_seconds": 149,
+      "label": "2.a. Actions out of closed meeting (if any)."
+    },
+    {
+      "start_seconds": 244,
+      "label": "a. Presentation of a proclamation acknowledging March as Women's History Month, and March 8, 2026 as International Women's Day in the City of Fairfax."
+    },
+    {
+      "start_seconds": 606,
+      "label": "4. Adoption of the agenda."
+    },
+    {
+      "start_seconds": 629,
+      "label": "5. Initial general public comment period (A maximum of three (3) minutes per speaker for any city matters not requiring a public hearing. The speakers who have registered with the city clerk?s office (703-385-7935) prior to 5:00 p.m. the day of the meeting"
+    },
+    {
+      "start_seconds": 1207,
+      "label": "6. Consent agenda."
+    },
+    {
+      "start_seconds": 1260,
+      "label": "a. Public hearing and Council action on a request from Rise and Shine Preschool, applicant, for renewal of a Special Use Permit (SUP) pursuant to City Code Section 110-6.7 to allow a Day Care Center as an accessory use to a religious institution in the RH"
+    },
+    {
+      "start_seconds": 1872,
+      "label": "b. Public hearing on the proposed FY27 budget. (No Council action.)"
+    },
+    {
+      "start_seconds": 2583,
+      "label": "8. Second general public comment period (a maximum of three (3) minutes per speaker for any city matters not requiring a public hearing – limited to speakers who did not speak under initial general public comment period)."
+    },
+    {
+      "start_seconds": 2599,
+      "label": "a. Consideration of the maximum real estate tax rate for fiscal year (FY) 2027 to be advertised. (This action sets the maximum real estate tax rate that can be adopted as part of the FY 2027 budget.) This action does not set the real estate tax"
+    },
+    {
+      "start_seconds": 2770,
+      "label": "10. Recess the regular meeting to go into a work session."
+    },
+    {
+      "start_seconds": 3369,
+      "label": "a. Discussion on Beacon Landing Tax Grant Request."
+    },
+    {
+      "start_seconds": 6331,
+      "label": "b. Discussion of draft Small Area Plan Zoning Ordinance Amendments."
+    },
+    {
+      "start_seconds": 12161,
+      "label": "c. Discussion on Meals Tax."
+    },
+    {
+      "start_seconds": 13241,
+      "label": "d. General Fund Questions and Discussion."
+    },
+    {
+      "start_seconds": 14752,
+      "label": "13. Future Meeting Topics"
+    },
+    {
+      "start_seconds": 15412,
+      "label": "14. City Manager report out (if needed)."
+    },
+    {
+      "start_seconds": 15419,
+      "label": "15. Council Comments and Committee reports out (if needed)."
+    },
+    {
+      "start_seconds": 15818,
+      "label": "17. Adjournment."
+    }
+  ]
+}
