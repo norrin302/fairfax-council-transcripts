@@ -1,0 +1,99 @@
+{
+  "meeting_id": "feb-24-2026",
+  "meeting_date": "2026-02-24",
+  "display_date": "Feb 24, 2026",
+  "title": "City Council Meeting",
+  "meeting_type": "regular",
+  "city": "Fairfax, VA",
+  "granicus_clip_id": 4474,
+  "source_video_url": "https://fairfax.granicus.com/player/clip/4474",
+  "official_meetings_portal_url": "https://www.fairfaxva.gov/Government/Public-Meetings/City-Meetings",
+  "official_agenda_url": "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4474",
+  "official_minutes_url": null,
+  "official_packet_url": null,
+  "transcript_url": "transcripts/feb-24-2026.html",
+  "transcript_turns_js": "docs/transcripts/feb-24-2026-data.js",
+  "duration_seconds": 15480,
+  "sections": [
+    {
+      "start_seconds": 26,
+      "label": "1. Call the regular meeting to order."
+    },
+    {
+      "start_seconds": 43,
+      "label": "2. Pledge of Allegiance."
+    },
+    {
+      "start_seconds": 65,
+      "label": "3. Presentations and Proclamations."
+    },
+    {
+      "start_seconds": 100,
+      "label": "a. Presentation of a proclamation acknowledging February 23 - 27, 2026 as National Invasive Species Awareness Week in the City of Fairfax."
+    },
+    {
+      "start_seconds": 459,
+      "label": "b. Presentation of a proclamation acknowledging February 27 - March 8, 2026 as Winter 2026 Fairfax City Restaurant Week in the City of Fairfax."
+    },
+    {
+      "start_seconds": 855,
+      "label": "c. Presentation by the City Manager on the proposed FY27 Operating and CIP Budgets."
+    },
+    {
+      "start_seconds": 2703,
+      "label": "4. Adoption of the agenda."
+    },
+    {
+      "start_seconds": 2725,
+      "label": "5. Initial general public comment period (A maximum of three (3) minutes per speaker for any city matters not requiring a public hearing. The speakers who have registered with the city clerk’s office (703-385-7935) prior to 5:00 p.m. the day of the m"
+    },
+    {
+      "start_seconds": 3903,
+      "label": "7. Appointments to Boards, Commissions, and Advisory Committees."
+    },
+    {
+      "start_seconds": 3974,
+      "label": "11. Recess the regular meeting to go into a work session."
+    },
+    {
+      "start_seconds": 4488,
+      "label": "12. Work Session."
+    },
+    {
+      "start_seconds": 4493,
+      "label": "a. Presentation by Police and Human Services: A Coordinated Community Response."
+    },
+    {
+      "start_seconds": 10122,
+      "label": "b. Update and discussion of the Citywide Level of Service Study, which will assess impacts and cost implications of new development on City services and infrastructure."
+    },
+    {
+      "start_seconds": 12097,
+      "label": "c. Pre-application briefing for a potential multifamily residential development located at 10340 Democracy Lane."
+    },
+    {
+      "start_seconds": 13478,
+      "label": "d. Pre-application briefing for a potential redevelopment of the Courthouse Plaza Shopping Center at 10300 Willard Way."
+    },
+    {
+      "start_seconds": 14765,
+      "label": "13. Reconvene the regular meeting."
+    },
+    {
+      "start_seconds": 14769,
+      "label": "14. Future Meeting Topics"
+    },
+    {
+      "start_seconds": 15123,
+      "label": "15. City Manager report out (if needed)."
+    },
+    {
+      "start_seconds": 15143,
+      "label": "16. Council Comments and Committee reports out (if needed)."
+    },
+    {
+      "start_seconds": 15469,
+      "label": "18. Adjournment."
+    }
+  ]
+}
