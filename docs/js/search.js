@@ -231,7 +231,8 @@
                 if (meeting.source_url) {
                     try {
                         const u = new URL(meeting.source_url);
-                        u.searchParams.set('start', String(Math.max(0, Math.floor(segment.start_seconds || 0))));
+                        u.searchParams.set('entrytime', String(Math.max(0, Math.floor(segment.start_seconds || 0))));
+                        u.searchParams.set('autostart', '1');
                         videoUrl = u.toString();
                     } catch (e) {
                         videoUrl = meeting.source_url;
@@ -330,7 +331,8 @@
         if (meeting.source_url) {
             try {
                 const u = new URL(meeting.source_url);
-                u.searchParams.set('start', String(Math.max(0, Math.floor(segment.start_seconds || 0))));
+                u.searchParams.set('entrytime', String(Math.max(0, Math.floor(segment.start_seconds || 0))));
+                u.searchParams.set('autostart', '1');
                 videoUrl = u.toString();
             } catch (e) {
                 videoUrl = meeting.source_url;

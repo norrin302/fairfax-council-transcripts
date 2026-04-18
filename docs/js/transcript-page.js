@@ -16,11 +16,21 @@
     if (!baseUrl) return '';
     try {
       const u = new URL(baseUrl);
-      u.searchParams.set('start', String(Math.max(0, Math.floor(Number(startSeconds) || 0))));
+      // Granicus supports deep-linking via entrytime (seconds) + autostart.
+      u.searchParams.set('entrytime', String(Math.max(0, Math.floor(Number(startSeconds) || 0))));
+      u.searchParams.set('autostart', '1');
       return u.toString();
     } catch (_) {
       return baseUrl;
     }
+  }
+
+  function speakerClassFor(speaker) {
+    const s = String(speaker || '');
+    return s.includes('Mayor') ? 'mayor'
+      : s.includes('Council') ? 'council'
+        : s.includes('Manager') ? 'staff'
+          : 'public';
   }
 
   function showToast(message) {
@@ -56,6 +66,33 @@
         reject(e);
       }
     });
+  }
+
+  function setHighlightedText(el, originalText, query) {
+    if (!el) return;
+    const text = String(originalText || '');
+    const q = String(query || '').toLowerCase();
+    if (!q) {
+      el.textContent = text;
+      return;
+    }
+
+    const lower = text.toLowerCase();
+    el.textContent = '';
+
+    let i = 0;
+    while (i < text.length) {
+      const idx = lower.indexOf(q, i);
+      if (idx < 0) {
+        el.appendChild(document.createTextNode(text.slice(i)));
+        break;
+      }
+      if (idx > i) el.appendChild(document.createTextNode(text.slice(i, idx)));
+      const mark = document.createElement('mark');
+      mark.textContent = text.slice(idx, idx + q.length);
+      el.appendChild(mark);
+      i = idx + q.length;
+    }
   }
 
   function buildCitation(turn, meeting) {
@@ -98,7 +135,7 @@
   }
 
   function clearHighlights() {
-    document.querySelectorAll('.speaker-turn.highlighted').forEach((el) => el.classList.remove('highlighted'));
+    document.querySelectorAll('.turn-line.highlighted').forEach((el) => el.classList.remove('highlighted'));
   }
 
   function highlightTurn(turnEl) {
@@ -134,6 +171,10 @@
       return;
     }
 
+    let currentSpeaker = null;
+    let currentGroup = null;
+    let currentGroupLines = null;
+
     turns.forEach((turn, idx) => {
       let speaker = String(turn.speaker || 'Unknown').trim();
       if (!speaker || speaker.toLowerCase() === 'speaker' || speaker.toLowerCase() === 'unknown') {
@@ -142,26 +183,41 @@
       const text = String(turn.text || '');
       const start = Number(turn.start) || 0;
 
-      const speakerClass = speaker.includes('Mayor') ? 'mayor'
-        : speaker.includes('Council') ? 'council'
-          : speaker.includes('Manager') ? 'staff'
-            : 'public';
+      if (speaker !== currentSpeaker) {
+        currentSpeaker = speaker;
+        const speakerClass = speakerClassFor(speaker);
 
-      const div = document.createElement('div');
-      div.className = `speaker-turn ${speakerClass}`;
-      div.id = `turn-${idx}`;
-      div.dataset.index = String(idx);
-      div.dataset.speaker = speaker.toLowerCase();
-      div.dataset.text = text.toLowerCase();
-      div.dataset.time = String(Math.floor(start));
+        currentGroup = document.createElement('div');
+        currentGroup.className = `speaker-group ${speakerClass}`;
+        currentGroup.dataset.speaker = speaker.toLowerCase();
 
-      const header = document.createElement('div');
-      header.className = 'turn-header';
+        const header = document.createElement('div');
+        header.className = 'group-header';
 
-      const nameSpan = document.createElement('span');
-      nameSpan.className = 'speaker-name';
-      nameSpan.textContent = speaker;
-      header.appendChild(nameSpan);
+        const nameSpan = document.createElement('span');
+        nameSpan.className = 'speaker-name';
+        nameSpan.textContent = speaker;
+        header.appendChild(nameSpan);
+
+        currentGroup.appendChild(header);
+
+        currentGroupLines = document.createElement('div');
+        currentGroupLines.className = 'group-lines';
+        currentGroup.appendChild(currentGroupLines);
+
+        container.appendChild(currentGroup);
+      }
+
+      const line = document.createElement('div');
+      line.className = 'turn-line';
+      line.id = `turn-${idx}`;
+      line.dataset.index = String(idx);
+      line.dataset.speaker = String(currentSpeaker || '').toLowerCase();
+      line.dataset.text = text.toLowerCase();
+      line.dataset.time = String(Math.floor(start));
+
+      const meta = document.createElement('div');
+      meta.className = 'turn-line-meta';
 
       const timeLink = document.createElement('a');
       timeLink.href = makeVideoUrl(meeting.source_url, start);
@@ -169,7 +225,7 @@
       timeLink.className = 'timestamp-link';
       timeLink.title = 'Open video at this time';
       timeLink.innerHTML = '<i class="fas fa-play-circle"></i> ' + formatTime(start);
-      header.appendChild(timeLink);
+      meta.appendChild(timeLink);
 
       const citeBtn = document.createElement('button');
       citeBtn.className = 'cite-btn';
@@ -178,65 +234,144 @@
       citeBtn.innerHTML = '<i class="fas fa-quote-right"></i> Copy citation';
       citeBtn.addEventListener('click', (e) => {
         e.stopPropagation();
-        const citation = buildCitation(turn, meeting);
+        const citation = buildCitation({ ...turn, speaker: currentSpeaker }, meeting);
         copyText(citation)
           .then(() => showToast('Citation copied'))
           .catch(() => showToast('Copy failed'));
       });
-      header.appendChild(citeBtn);
+      meta.appendChild(citeBtn);
 
-      div.appendChild(header);
+      line.appendChild(meta);
 
       const textDiv = document.createElement('div');
       textDiv.className = 'turn-text';
       textDiv.textContent = text;
       textDiv.dataset.originalText = text;
-      div.appendChild(textDiv);
+      line.appendChild(textDiv);
 
-      // Clicking a turn updates the URL hash (shareable deep link)
-      div.addEventListener('click', () => {
+      // Clicking a line updates the URL hash (shareable deep link)
+      line.addEventListener('click', () => {
         const sec = Math.floor(start);
         const next = `t=${sec}`;
         if (window.location.hash !== `#${next}`) window.location.hash = next;
-        highlightTurn(div);
+        highlightTurn(line);
       });
 
-      container.appendChild(div);
+      if (currentGroupLines) currentGroupLines.appendChild(line);
     });
+  }
+
+  let ACTIVE_SPEAKER = '';
+
+  function applyTranscriptFilters() {
+    const input = document.getElementById('search-input');
+    const countEl = document.getElementById('search-count');
+    const query = input ? String(input.value || '').toLowerCase().trim() : '';
+    const speaker = String(ACTIVE_SPEAKER || '').toLowerCase().trim();
+
+    const groups = document.querySelectorAll('.speaker-group');
+    let visibleLines = 0;
+
+    groups.forEach((group) => {
+      let anyVisible = false;
+      const lines = group.querySelectorAll('.turn-line');
+      lines.forEach((line) => {
+        const lineSpeaker = String(line.dataset.speaker || '');
+        const text = String(line.dataset.text || '');
+        const textEl = line.querySelector('.turn-text');
+        const originalText = textEl ? (textEl.dataset.originalText || textEl.textContent || '') : '';
+
+        const speakerOk = !speaker || lineSpeaker === speaker;
+        const queryOk = !query || text.includes(query);
+
+        if (speakerOk && queryOk) {
+          line.classList.remove('hidden');
+          anyVisible = true;
+          visibleLines++;
+          if (textEl) {
+            if (!query) {
+              textEl.textContent = originalText;
+            } else {
+              setHighlightedText(textEl, originalText, query);
+            }
+          }
+        } else {
+          line.classList.add('hidden');
+          if (textEl) textEl.textContent = originalText;
+        }
+      });
+
+      if (anyVisible) group.classList.remove('hidden');
+      else group.classList.add('hidden');
+    });
+
+    if (!countEl) return;
+    if (!query && !speaker) {
+      countEl.textContent = '';
+      return;
+    }
+    if (query) {
+      countEl.textContent = `${visibleLines} match${visibleLines === 1 ? '' : 'es'} found`;
+    } else {
+      countEl.textContent = `${visibleLines} turn${visibleLines === 1 ? '' : 's'} shown`;
+    }
   }
 
   function wireInPageSearch() {
     const input = document.getElementById('search-input');
-    const countEl = document.getElementById('search-count');
     if (!input) return;
+    input.addEventListener('input', applyTranscriptFilters);
+  }
 
-    input.addEventListener('input', function (e) {
-      const query = String(e.target.value || '').toLowerCase().trim();
-      const turns = document.querySelectorAll('.speaker-turn');
-      let matchCount = 0;
+  function renderSpeakerChips(turns) {
+    const searchContainer = document.querySelector('.search-container');
+    if (!searchContainer || !searchContainer.parentNode) return;
 
-      turns.forEach((turn) => {
-        const text = String(turn.dataset.text || '');
-        const textEl = turn.querySelector('.turn-text');
-        if (!textEl) return;
+    let chips = document.getElementById('speaker-chips');
+    if (!chips) {
+      const block = document.createElement('div');
+      block.className = 'official-links';
+      block.id = 'speaker-chips-block';
+      block.innerHTML = '<h3><i class="fas fa-users"></i> Speakers</h3><div id="speaker-chips" class="speaker-chips"></div>';
+      searchContainer.parentNode.insertBefore(block, searchContainer);
+      chips = block.querySelector('#speaker-chips');
+    }
+    if (!chips) return;
 
-        const originalText = textEl.dataset.originalText || textEl.textContent;
-
-        if (query === '') {
-          turn.classList.remove('hidden');
-          textEl.textContent = originalText;
-        } else if (text.includes(query)) {
-          turn.classList.remove('hidden');
-          matchCount++;
-          const regex = new RegExp('(' + query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
-          textEl.innerHTML = String(originalText).replace(regex, '<mark>$1</mark>');
-        } else {
-          turn.classList.add('hidden');
-        }
-      });
-
-      if (countEl) countEl.textContent = query ? `${matchCount} match${matchCount === 1 ? '' : 'es'} found` : '';
+    // Count turns per speaker (as rendered)
+    const counts = new Map();
+    (turns || []).forEach((t) => {
+      let sp = String(t.speaker || 'Unknown').trim();
+      if (!sp || sp.toLowerCase() === 'speaker' || sp.toLowerCase() === 'unknown') sp = 'Unknown Speaker';
+      counts.set(sp, (counts.get(sp) || 0) + 1);
     });
+
+    const items = Array.from(counts.entries())
+      .map(([name, count]) => ({ name, count, cls: speakerClassFor(name), key: String(name).toLowerCase() }))
+      .sort((a, b) => (b.count - a.count) || a.name.localeCompare(b.name));
+
+    chips.innerHTML = '';
+
+    function addChip(label, key, cls, count) {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = `speaker-chip ${cls || ''}`.trim();
+      btn.dataset.speaker = key;
+      btn.textContent = count != null ? `${label} (${count})` : label;
+      btn.addEventListener('click', () => {
+        ACTIVE_SPEAKER = key;
+        chips.querySelectorAll('.speaker-chip').forEach((b) => b.classList.remove('active'));
+        btn.classList.add('active');
+        applyTranscriptFilters();
+      });
+      chips.appendChild(btn);
+      return btn;
+    }
+
+    const allBtn = addChip('All', '', 'council', null);
+    allBtn.classList.add('active');
+
+    items.forEach((it) => addChip(it.name, it.key, it.cls, it.count));
   }
 
   function wireBackToTop() {
@@ -273,17 +408,23 @@
     }
 
     container.innerHTML = '';
+    const ol = document.createElement('ol');
+    ol.className = 'section-list';
+
     sections.forEach((s) => {
       const sec = Math.max(0, Math.floor(Number(s.start_seconds) || 0));
-      let label = String(s.label || '').replace(/\s+/g, ' ').trim() || formatTime(sec);
-      if (label.length > 80) label = label.slice(0, 79).trimEnd() + '…';
+      const label = String(s.label || '').replace(/\s+/g, ' ').trim() || formatTime(sec);
 
+      const li = document.createElement('li');
       const a = document.createElement('a');
       a.href = `#t=${sec}`;
       a.setAttribute('data-jump-seconds', String(sec));
-      a.textContent = label;
-      container.appendChild(a);
+      a.textContent = `${formatTime(sec)} — ${label}`;
+      li.appendChild(a);
+      ol.appendChild(li);
     });
+
+    container.appendChild(ol);
   }
 
   function renderOfficialResources(meeting) {
@@ -322,9 +463,12 @@
     renderTranscript(turns, meeting);
     renderOfficialResources(meeting);
     renderSectionLinks(meeting);
+    renderSpeakerChips(turns);
     wireInPageSearch();
     wireBackToTop();
     wireSectionLinks();
+
+    applyTranscriptFilters();
 
     // Deep links from global search: #t=seconds
     handleDeepLink(turns);

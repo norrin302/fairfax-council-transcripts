@@ -89,19 +89,42 @@ body {
   color: #4a5568;
 }
 
-.speaker-turn {
+.speaker-group {
   margin: 20px 0;
   padding: 15px;
   border-left: 4px solid #2b6cb0;
   background: #f7fafc;
   border-radius: 0 8px 8px 0;
+}
+
+.speaker-group.mayor { border-left-color: #38a169; }
+.speaker-group.council { border-left-color: #2b6cb0; }
+.speaker-group.staff { border-left-color: #ed8936; }
+.speaker-group.public { border-left-color: #9f7aea; }
+
+.group-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.turn-line {
+  padding: 12px 0;
+  border-top: 1px solid #e2e8f0;
   cursor: pointer;
 }
 
-.speaker-turn.mayor { border-left-color: #38a169; }
-.speaker-turn.council { border-left-color: #2b6cb0; }
-.speaker-turn.staff { border-left-color: #ed8936; }
-.speaker-turn.public { border-left-color: #9f7aea; }
+.turn-line:first-child { border-top: none; }
+
+.turn-line-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
 
 .turn-header {
   display: flex;
@@ -148,7 +171,58 @@ body {
 .turn-text mark { background: #fef08a; padding: 2px 4px; border-radius: 2px; }
 
 .hidden { display: none; }
-.speaker-turn.highlighted { background: #fef08a; border-left-color: #d69e2e; }
+.turn-line.highlighted { background: #fef08a; border-radius: 8px; padding-left: 10px; padding-right: 10px; }
+
+/* Speaker chips */
+.speaker-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.speaker-chip {
+  --chip: #2b6cb0;
+  border: 1px solid var(--chip);
+  background: #fff;
+  color: #1a365d;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.speaker-chip:hover { background: #edf2f7; }
+
+.speaker-chip.mayor { --chip: #38a169; }
+.speaker-chip.council { --chip: #2b6cb0; }
+.speaker-chip.staff { --chip: #ed8936; }
+.speaker-chip.public { --chip: #9f7aea; }
+
+.speaker-chip.active {
+  background: var(--chip);
+  color: #fff;
+}
+
+/* Jump to section: readable full labels */
+.section-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.section-list li { margin: 10px 0; }
+
+.section-list a {
+  display: block;
+  padding: 10px 12px;
+  background: #fff;
+  border: 1px solid #cbd5e0;
+  border-radius: 10px;
+}
+
+.section-list a:hover {
+  background: #edf2f7;
+  text-decoration: none;
+}
 
 #back-to-top {
   position: fixed;
