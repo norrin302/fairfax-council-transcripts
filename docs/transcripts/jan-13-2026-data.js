@@ -100,8 +100,20 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 311.469,
+    "end": 313.638,
+    "text": "motion by stacey hardy-chandler and seconded by"
+  },
+  {
+    "speaker": "Councilmember Tom Peterson",
+    "start": 313.638,
+    "end": 315.974,
+    "text": "Any items council would like"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 317.71,
     "end": 320.144,
-    "text": "motion by stacey hardy-chandler and seconded by councilmember peterson. Any items council would like to pull for additional discussion? Okay. Seeing none."
+    "text": "to pull for additional discussion? Okay. Seeing none."
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
@@ -898,8 +910,20 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 2619.678,
+    "end": 2621.68,
+    "text": "motion made by councilmember hardy-chandler and seconded by"
+  },
+  {
+    "speaker": "Councilmember Tom Peterson",
+    "start": 2621.68,
+    "end": 2624.282,
+    "text": "Is there any discussion on the"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 2624.282,
     "end": 2626.683,
-    "text": "motion made by councilmember hardy-chandler and seconded by councilmember peterson. Is there any discussion on the motion? Seeing none roll call vote."
+    "text": "motion? Seeing none roll call vote."
   },
   {
     "speaker": "Councilmember Anthony Amos",
@@ -2668,8 +2692,8 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 11207.532,
-    "end": 11232.856,
-    "text": "[Gavel] all right, we are back. And I will like at this time to close the public hearing, a motion. Councilmember hardy chandler."
+    "end": 11223.348,
+    "text": "[Gavel] all right, we are back. And I will like at this time to close the public hearing, a motion."
   },
   {
     "speaker": "Unknown Speaker",
@@ -2710,8 +2734,8 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 11380.238,
-    "end": 11387.711,
-    "text": "other comments? Councilmember Mcquillen."
+    "end": 11382.238,
+    "text": "other comments?"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3046,8 +3070,8 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 12765.357,
-    "end": 12773.363,
-    "text": "no, someone nd to make the motion andeconded and voted o to amended agenda. A motion? Councilmember peterson."
+    "end": 12771.363,
+    "text": "no, someone nd to make the motion andeconded and voted o to amended agenda. A motion?"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3088,8 +3112,8 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 12901.726,
-    "end": 12919.743,
-    "text": "mayorust forhe public's ucation educatio-edification, for ts item theayor can break t t if nd be great -- justgreat. Diussion on themotion? Councilmember peters."
+    "end": 12917.442,
+    "text": "mayorust forhe public's ucation educatio-edification, for ts item theayor can break t t if nd be great -- justgreat. Diussion on themotion?"
   },
   {
     "speaker": "Unknown Speaker",

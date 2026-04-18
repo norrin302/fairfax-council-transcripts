@@ -16,38 +16,50 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 184.942,
-    "end": 217.107,
-    "text": "Wonderful. I will now invite the new director of Economic Development, Colleen Cardes up to the microphone to make a few remarks and introduce herself to our community. Welcome, Colleen. Thank you so much, Mayor Reed, members of council, I am honored and grateful to be the next director of the City of Fairfax for Economic Development. Economic development is what creates, supports, and sustains the quality of life that makes people choose this a place to"
+    "end": 202.457,
+    "text": "Wonderful. I will now invite the new director of Economic Development, Colleen Cardes up to the microphone to make a few remarks and introduce herself to our community. Welcome, Colleen. Thank you so much,"
+  },
+  {
+    "speaker": "Mayor Catherine Read",
+    "start": 202.859,
+    "end": 204.859,
+    "text": "members of council,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 218.509,
-    "end": 251.107,
-    "text": "live, a place to work, a place to learn, a place to play and grow, and I cannot wait to leave the city through this chapter and to many more to come. Thank you for bestowing your trust in me, and I look forward to getting started and serving the city. Going forward and serving your strategies, your goals, your priorities, and helping the city to attract, retain and grow businesses. Thank you so much. Thank you so much. We get, we look forward to getting to know you too. I m going to ask the commission for women to come down for the Women s History Month proclamation, if you ll just"
+    "start": 204.929,
+    "end": 238.26,
+    "text": "I am honored and grateful to be the next director of the City of Fairfax for Economic Development. Economic development is what creates, supports, and sustains the quality of life that makes people choose this a place to live, a place to work, a place to learn, a place to play and grow, and I cannot wait to leave the city through this chapter and to many more to come. Thank you for bestowing your trust in me, and I look forward to getting started and serving the city. Going forward and serving your strategies, your goals, your priorities, and helping the city to attract,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 268.258,
-    "end": 301.224,
-    "text": "join me in the well. That s what happens when you say a lot? You gets smaller and smaller and smaller. All right, ladies, look at all this. I love all this purple. All right Whereas Women s History Month was established in 1980 as a way to acknowledge the contributions of women to our country and includes International Women s Day on MARCH 8th. When we celebrate the contributions of women around the world. The theme for this year s National Women s History Month is leading the change. Women shaping a sustainable future."
+    "start": 238.762,
+    "end": 271.95,
+    "text": "retain and grow businesses. Thank you so much. Thank you so much. We get, we look forward to getting to know you too. I m going to ask the commission for women to come down for the Women s History Month proclamation, if you ll just join me in the well. That s what happens when you say a lot?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 302.293,
-    "end": 332.621,
-    "text": "And whereas one of the first women to recognize the importance of programs to support and protect Americans at every stage of life, was Francis Perkins, the first woman to hold a cabinet position as us Secretary of Labor under Franklin Delano Roosevelt from 1933 to 1945. She created the Social Security program initiated a minimum wage, established unemployment compensation, banned child labor, and enshrined the 40 hour work week through the Fair"
+    "start": 271.95,
+    "end": 304.66,
+    "text": "You gets smaller and smaller and smaller. All right, ladies, look at all this. I love all this purple. All right Whereas Women s History Month was established in 1980 as a way to acknowledge the contributions of women to our country and includes International Women s Day on MARCH 8th. When we celebrate the contributions of women around the world. The theme for this year s National Women s History Month is leading the change. Women shaping a sustainable future. And whereas one of the first women to recognize the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 333.79,
-    "end": 365.788,
-    "text": "Labor Standards Act And whereas the marine by the marine scientist and author Rachel Carson published Silent Spring in 1962, sparking the modern-day environmental movement by exposing the hazards of pesticides to the ecosystem and to humans and resulting in the banning of ddt in 1972. That movement has been taken up by activists such as Greta Thunberg, who has inspired young people around the world to safeguard our natural environment through on the ground actions against a multitude of threats. And whereas Doctor Temple Grandin"
+    "start": 305.696,
+    "end": 336.76,
+    "text": "importance of programs to support and protect Americans at every stage of life, was Francis Perkins, the first woman to hold a cabinet position as us Secretary of Labor under Franklin Delano Roosevelt from 1933 to 1945. She created the Social Security program initiated a minimum wage, established unemployment compensation, banned child labor, and enshrined the 40 hour work week through the Fair Labor Standards Act And whereas the marine by the marine"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 366.856,
+    "start": 337.694,
+    "end": 368.825,
+    "text": "scientist and author Rachel Carson published Silent Spring in 1962, sparking the modern-day environmental movement by exposing the hazards of pesticides to the ecosystem and to humans and resulting in the banning of ddt in 1972. That movement has been taken up by activists such as Greta Thunberg, who has inspired young people around the world to safeguard our natural environment through on the ground actions against a multitude of threats. And whereas Doctor Temple Grandin created modern practices of livestock management and"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 369.293,
     "end": 399.955,
-    "text": "created modern practices of livestock management and agriculture through the introduction of sustainable range land use, integrating grazing and crops and the concept of animal welfare sustainability through more humane treatment of livestock and more responsible food production ecosystems which benefit all of us. And whereas Katherine Johnson, for whom our middle school was renamed in 2021, was a gifted mathematician who contributed to the nasa Space Program and was a pioneer in early computing. Her work included calculating trajectories,"
+    "text": "agriculture through the introduction of sustainable range land use, integrating grazing and crops and the concept of animal welfare sustainability through more humane treatment of livestock and more responsible food production ecosystems which benefit all of us. And whereas Katherine Johnson, for whom our middle school was renamed in 2021, was a gifted mathematician who contributed to the nasa Space Program and was a pioneer in early computing. Her work included calculating trajectories,"
   },
   {
     "speaker": "Unknown Speaker",
@@ -256,230 +268,254 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 1529.886,
-    "end": 1560.382,
-    "text": "Appleant understands and that while we, they MAY have to take another look at it in the future. Yes, correct. We, uh, went over that and it s the proximity of the left turn to the intersection of Robertsford, that creates the issue. Understood. Thank you Councilmember Hall. Uh, you answered some of my questions. Thank you. Um, with regard to the parking, it did say that the kids arrive at scheduled times, and they don t typically conflict, which makes it easier for a drop off. Um, with a change in, I think it s an additional 54 students or children, will that same"
+    "end": 1543.299,
+    "text": "Appleant understands and that while we, they MAY have to take another look at it in the future. Yes, correct. We, uh, went over that and it s the proximity of the left turn to the intersection of Robertsford, that creates the issue. Understood. Thank you"
+  },
+  {
+    "speaker": "Councilmember Stacy Hall",
+    "start": 1543.466,
+    "end": 1545.402,
+    "text": "Uh, you answered some of my questions."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1560.484,
-    "end": 1592.47,
-    "text": "staggered and scheduled times still exist, or is that policy going to change? I would defer to the applicant on the specifics. It s our understanding though that uh it, it MAY be a a a very close but slightly broader drop off and pick up time to accommodate the additional trips, but the drive aisles, both on the site and the parking, uh, are adequate for it. Ok, yeah, I did look at it online and as council member Amas pointed out, I mean, having that, um, requirement to turn right and make the u-turn would also negate that. I was"
+    "start": 1545.803,
+    "end": 1578.735,
+    "text": "Thank you. Um, with regard to the parking, it did say that the kids arrive at scheduled times, and they don t typically conflict, which makes it easier for a drop off. Um, with a change in, I think it s an additional 54 students or children, will that same staggered and scheduled times still exist, or is that policy going to change? I would defer to the applicant on the specifics. It s our understanding though that uh it, it MAY be a a a very close but slightly broader drop off and pick up time to accommodate the additional trips, but the drive"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1592.95,
-    "end": 1624.814,
-    "text": "just curious if it had been considered. Um, just kind of a cleanup item that we did with the other, uh, two childcares that came before us. Are we able to modify the outdoor hours for this facility? Are there any that exist? Previously, I think the other two, they, the kids were not allowed to be outside until after 9:00 A.M. Or something and that was outrageous. Yes, and, and the we ll leave that up to the applicant was part of their, uh, operational plan that was provided. We didn t condition it. Obviously it s part of their package if council wants to, uh, think"
+    "start": 1579.303,
+    "end": 1609.98,
+    "text": "aisles, both on the site and the parking, uh, are adequate for it. Ok, yeah, I did look at it online and as council member Amas pointed out, I mean, having that, um, requirement to turn right and make the u-turn would also negate that. I was just curious if it had been considered. Um, just kind of a cleanup item that we did with the other, uh, two childcares that came before us. Are we able to modify the outdoor hours for this facility? Are there any that exist? Previously, I think the other two, they, the kids were not allowed to be outside until"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1625.749,
-    "end": 1657.713,
-    "text": "through some sort of clarity in the in the conditions that allows for flexibility staff would support that. Ok, is the applicant here? Yes. Ok. What I will just say is, uh, I don t know your your specifics here, but it looks like you open at 7:30 and some daycares are not allowed to have children outside playing, I believe until 9 A.M. And we waived that in other cases, so I would encourage you to see what your current standards are and if there are additional needs for allowing children to be outside sooner than that, please do so."
+    "start": 1610.233,
+    "end": 1641.863,
+    "text": "after 9:00 A.M. Or something and that was outrageous. Yes, and, and the we ll leave that up to the applicant was part of their, uh, operational plan that was provided. We didn t condition it. Obviously it s part of their package if council wants to, uh, think through some sort of clarity in the in the conditions that allows for flexibility staff would support that. Ok, is the applicant here? Yes. Ok. What I will just say is, uh, I don t know your your specifics here, but it looks like you open at"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1658.95,
-    "end": 1689.579,
-    "text": "Absolutely Any other questions before we open the public hearing? Ok, I will open the public hearing. MISS Sinnabury has the public hearing been properly advertised? Yes, it has. Ok, does the, are there, is there anyone to speak for in during the public hearing, but the applicant, did you want to, does the applicant have a presentation they d like to share? Good, good evening uh, Mayor, MADAM Mayor and council"
+    "start": 1642.265,
+    "end": 1672.996,
+    "text": "7:30 and some daycares are not allowed to have children outside playing, I believe until 9 A.M. And we waived that in other cases, so I would encourage you to see what your current standards are and if there are additional needs for allowing children to be outside sooner than that, please do so. Absolutely Any other questions before we open the public hearing? Ok, I will open the public hearing. MISS Sinnabury has the public hearing been properly advertised? Yes, it has. Ok, does the, are there, is there anyone to speak for in"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1689.913,
-    "end": 1720.91,
-    "text": "members, um, we just want to say we re, uh, we ve been in business for 13 years here in the city of Fairfax, as you know, uh, mentioned earlier, we have two locations. We re very happy, uh, to continue to expand our operations within the city of Fairfax, very happy of the support that we ve received and been given from the city of Fairfax, um, there is a need, um, right now from families and parents within the city, um, we have a, uh, waitlist. And um we are hoping to address that need through this expansion. And I don t know if you want to say"
+    "start": 1673.96,
+    "end": 1705.395,
+    "text": "during the public hearing, but the applicant, did you want to, does the applicant have a presentation they d like to share? Good, good evening uh, Mayor, MADAM Mayor and council members, um, we just want to say we re, uh, we ve been in business for 13 years here in the city of Fairfax, as you know, uh, mentioned earlier, we have two locations. We re very happy, uh, to continue to expand our operations within the city of Fairfax, very happy of the support that we ve received and been given from"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1723.481,
-    "end": 1753.81,
-    "text": "anything Thank you so much for your consideration. Thank you ok, thank you I didn t have anybody sign up prior to, oh, you go ahead. Kelly o Brien, 10213 Sager Avenue, and I just had to come, uh, my son Willie was a rise and shine child, and I can just attest to what a great program they could provide. There s people in the neighborhood who all go there. We all walk down to that cul-de-sac and most of us walk our kids down there. So even when we ve driven, it s a nice"
+    "start": 1707.13,
+    "end": 1737.694,
+    "text": "the city of Fairfax, um, there is a need, um, right now from families and parents within the city, um, we have a, uh, waitlist. And um we are hoping to address that need through this expansion. And I don t know if you want to say anything Thank you so much for your consideration. Thank you ok, thank you I didn t have anybody sign up prior to, oh, you go ahead. Kelly o Brien,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1754.679,
-    "end": 1787.376,
-    "text": "easy flow. They just, they absolutely provide a great service to our community. So I highly encourage you to increase that capability so even more children can benefit from the great um program that they offer. So, thank you. Is there anybody else in the room that would like to speak on this agenda item? All right, I will close the public hearing. Counsel, is there any questions of staff or the applicant at this. Point? Seeing none, is there a motion, Councilmember Hardy Chandler. I m both, excuse me, I move that the city council approved the request"
+    "start": 1738.329,
+    "end": 1769.758,
+    "text": "10213 Sager Avenue, and I just had to come, uh, my son Willie was a rise and shine child, and I can just attest to what a great program they could provide. There s people in the neighborhood who all go there. We all walk down to that cul-de-sac and most of us walk our kids down there. So even when we ve driven, it s a nice easy flow. They just, they absolutely provide a great service to our community. So I highly encourage you to increase that capability so even more children can benefit from the great um program that they offer. So, thank you. Is there anybody else in the room that would like to speak on"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1788.479,
-    "end": 1820.342,
-    "text": "from Monica Downs Rise and Shine Preschool applicant for the special use permit, uh, amendment to allow the expansion of the applicant s childcare operation from 3535 to 89 children as an accessory used to the Fairfax Christian Church in the rh Residential high zoning District on the premises known as 10185 Main Street and more particularly described as tax map"
+    "start": 1771.395,
+    "end": 1803.858,
+    "text": "this agenda item? All right, I will close the public hearing. Counsel, is there any questions of staff or the applicant at this. Point? Seeing none, is there a motion, Councilmember Hardy Chandler. I m both, excuse me, I move that the city council approved the request from Monica Downs Rise and Shine Preschool applicant for the special use permit, uh, amendment to allow the expansion of the applicant s childcare operation from 3535 to 89 children as an accessory"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1820.41,
-    "end": 1853.877,
-    "text": "57-4-09-001 with the following conditions, the operation of this establishment shall be consistent with the application, statement of justification and plans. The zoning administra t or shall be enabled to approve minor changes. The special use permit shall be valid only for the applicant shall not be transferable to any other entity. The applicant shall provide daycare center services for the maximum of 89 children, all required state and local permits licensure for the daycare center shall be properly maintained. Is there? Ok, wonderful. A motion"
+    "start": 1803.927,
+    "end": 1834.29,
+    "text": "used to the Fairfax Christian Church in the rh Residential high zoning District on the premises known as 10185 Main Street and more particularly described as tax map 57-4-09-001 with the following conditions, the operation of this establishment shall be consistent with the application, statement of justification and plans. The zoning administra t or shall be enabled to approve minor changes. The special use"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1853.877,
-    "end": 1884.84,
-    "text": "s been made by councilmember Hardy Chandler and seconded by Council member Peterson. Is there any discussion on this motion? Seeing none, a roll call vote. Councilmember Amos. Hi, Councilmember Hall. Hi, Council member Hardy Chandler. Council member Peterson, Councilmember Bates, Councilmember Quillan, motion passed unanimously. We ll go to the next public hearing, which is the public hearing on the proposed fy 27 budget. This is the first public hearing of the proposed fy 27 budget. The city manager present on FEBRUARY 24,"
+    "start": 1835.326,
+    "end": 1856.813,
+    "text": "permit shall be valid only for the applicant shall not be transferable to any other entity. The applicant shall provide daycare center services for the maximum of 89 children, all required state and local permits licensure for the daycare center shall be properly maintained. Is there? Ok, wonderful. A motion s been made by councilmember Hardy Chandler and seconded by"
+  },
+  {
+    "speaker": "Councilmember Tom Peterson",
+    "start": 1857.582,
+    "end": 1859.515,
+    "text": "Is there any discussion on this"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1888.511,
-    "end": 1919.108,
-    "text": "2026. Ok I will now open the public hearing mission and Barry, has this public hearing been advertised? Yes, it has. I had 5 people sign up prior to the start of the meeting, so I m gonna call those speakers up first and then if there s anybody else in the room that would like to speak on the budget, they can come afterwards. So our first speaker is Jesse Thornton. Mayor, members of council. My name is Jesse Thornton, and I m here tonight in my role as the PRESIDENT Of the City of"
+    "start": 1861.551,
+    "end": 1893.884,
+    "text": "motion? Seeing none, a roll call vote. Councilmember Amos. Hi, Councilmember Hall. Hi, Council member Hardy Chandler. Council member Peterson, Councilmember Bates, Councilmember Quillan, motion passed unanimously. We ll go to the next public hearing, which is the public hearing on the proposed fy 27 budget. This is the first public hearing of the proposed fy 27 budget. The city manager present on FEBRUARY 24, 2026. Ok I will now open the public hearing mission and Barry, has this public hearing been advertised? Yes, it has. I"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1919.276,
-    "end": 1949.606,
-    "text": "Fairfax Police Association. In policing, we don t make a habit of borrowing metaphors from our rival public safety partners, the fire department, but today it s appropriate. There is smoke in the police department. Where there is smoke, there s a risk of fire. That smoke comes from a growing staffing vulnerability driven by compensation disparities, repeated budget tightening and regional competition that has accelerated dramatically in the last few years. Our city is thriving Fairfax City remains a desirable, vibrant, and safe community. That reputation is not accidental. It s built in"
+    "start": 1894.185,
+    "end": 1925.816,
+    "text": "had 5 people sign up prior to the start of the meeting, so I m gonna call those speakers up first and then if there s anybody else in the room that would like to speak on the budget, they can come afterwards. So our first speaker is Jesse Thornton. Mayor, members of council. My name is Jesse Thornton, and I m here tonight in my role as the PRESIDENT Of the City of Fairfax Police Association. In policing, we don t make a habit of borrowing metaphors from our rival public safety partners, the fire department, but today"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1950.7,
-    "end": 1981.471,
-    "text": "part on the strength and professionalism of this police department. Yet last year our department absorbed a 10% budget reduction, losses training allocation and saw critical positions frozen. Our starting salary is low for the region, set at $64,000 and we haven t had steady costs of living adjustments to offset inflation and compensate for our uneven pay scale. Meanwhile, neighboring jurisdictions have moved aggressively in the opposite direction. Fairfax County police are in the last year of a three-year contract which provided more than 20% average raise for their"
+    "start": 1925.816,
+    "end": 1958.548,
+    "text": "it s appropriate. There is smoke in the police department. Where there is smoke, there s a risk of fire. That smoke comes from a growing staffing vulnerability driven by compensation disparities, repeated budget tightening and regional competition that has accelerated dramatically in the last few years. Our city is thriving Fairfax City remains a desirable, vibrant, and safe community. That reputation is not accidental. It s built in part on the strength and professionalism of this police department. Yet last year our department absorbed a 10% budget reduction, losses training allocation and saw"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1983.73,
-    "end": 2016.506,
-    "text": "employees. Arlington County Police will, as of JULY 1st, offer new hires, $90,000 to start, lateral officers $103,000 and provide a $25,000 hiring bonus. Alexandria police just agreed to a contract raising starting salary to $75,000 and providing existing officers 3.5% raises and retention bonuses for the next 3 years. Our officers are aware of these numbers. They attend regional training with these agencies. They speak, they compare, they make decisions accordingly. With a portable state retirement plan, the"
+    "start": 1959.849,
+    "end": 1990.11,
+    "text": "critical positions frozen. Our starting salary is low for the region, set at $64,000 and we haven t had steady costs of living adjustments to offset inflation and compensate for our uneven pay scale. Meanwhile, neighboring jurisdictions have moved aggressively in the opposite direction. Fairfax County police are in the last year of a three-year contract which provided more than 20% average raise for their employees. Arlington County Police will, as of JULY 1st, offer new hires, $90,000 to"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2016.506,
-    "end": 2048.671,
-    "text": "absence of collective bargaining and fewer employment incentives, the path outward becomes financially rational for many of our young officers. Fairfax City Police provide something rare responsive, community-based, high accountability policing. We handle the kinds of calls larger agencies might not prioritize, and we do so with the professionalism, the community values deeply. But appreciation does not offset the rising cost of life. Support must be reflected in policy. We recognize the fiscal challenges before you. Our goal is not conflict, is prevention. Addressing retention now is"
+    "start": 1990.815,
+    "end": 2021.111,
+    "text": "start, lateral officers $103,000 and provide a $25,000 hiring bonus. Alexandria police just agreed to a contract raising starting salary to $75,000 and providing existing officers 3.5% raises and retention bonuses for the next 3 years. Our officers are aware of these numbers. They attend regional training with these agencies. They speak, they compare, they make decisions accordingly. With a portable state retirement plan, the absence of collective bargaining and fewer employment incentives, the path outward becomes financially rational"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2049.139,
-    "end": 2080.17,
-    "text": "significantly less costly than rebuilding a depleted department later. Competitive compensation and meaningful retention incentives are investments in stability, safety, and long-term financial prudence. A recent public safety police employee survey showed 65% of respondents are considering leaving the agency. And 64% would not recommend working for the city of Fairfax police to others. We ask that you act decisively to preserve the strength of this department before that smoke, I mentioned earlier becomes a fire. Thank you for your time and consideration, and I"
+    "start": 2022.513,
+    "end": 2054.879,
+    "text": "for many of our young officers. Fairfax City Police provide something rare responsive, community-based, high accountability policing. We handle the kinds of calls larger agencies might not prioritize, and we do so with the professionalism, the community values deeply. But appreciation does not offset the rising cost of life. Support must be reflected in policy. We recognize the fiscal challenges before you. Our goal is not conflict, is prevention. Addressing retention now is significantly less costly than rebuilding a depleted department later. Competitive compensation and meaningful"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2080.17,
-    "end": 2111.402,
-    "text": "d be happy to speak with any of you further on any of these matters. Our next speaker is Doug Cox. Good evening, Mayor and City council, Doug Cox, Fairview Drive, Fairfax, Virginia. I reviewed the city managers. Report for the budget and with"
+    "start": 2054.879,
+    "end": 2102.224,
+    "text": "retention incentives are investments in stability, safety, and long-term financial prudence. A recent public safety police employee survey showed 65% of respondents are considering leaving the agency. And 64% would not recommend working for the city of Fairfax police to others. We ask that you act decisively to preserve the strength of this department before that smoke, I mentioned earlier becomes a fire. Thank you for your time and consideration, and I d be happy to speak with any of you further on any of these matters. Our next speaker is Doug Cox. Good evening, Mayor and City"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2111.402,
-    "end": 2142.832,
-    "text": "all due respect, folks, let s be a little more honest to the residents. All right, I get it. We re cheaper in rate than Fairfax County Falls Church couple others not so much for Prince William Arlington. Loudon, etc. Etc. Um I guess the rate of 1.080, not counting stormwater because I pay hundreds of dollars for that, folks. So that s another 0.3335"
+    "start": 2103.36,
+    "end": 2135.557,
+    "text": "council, Doug Cox, Fairview Drive, Fairfax, Virginia. I reviewed the city managers. Report for the budget and with all due respect, folks, let s be a little more honest to the residents. All right, I get it. We re cheaper in rate than Fairfax County Falls Church couple others not so much for Prince William Arlington. Loudon, etc. Etc. Um I guess"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2144.234,
-    "end": 2175.631,
-    "text": "on top of the 1.08 being advertised. So Fairfax County in the last 4 years has raised their rate 1.136%. Every jurisdiction in this area seems to be working within what they get from assessment increases, false church in the last four years has actually gone down. Fairfax City If we look at the real numbers with us at 1.055, we"
+    "start": 2137.6,
+    "end": 2168.489,
+    "text": "the rate of 1.080, not counting stormwater because I pay hundreds of dollars for that, folks. So that s another 0.3335 on top of the 1.08 being advertised. So Fairfax County in the last 4 years has raised their rate 1.136%. Every jurisdiction in this area seems to be working within what they get from assessment increases, false church in the last four years has actually gone down."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2177.634,
-    "end": 2211.168,
-    "text": "ve gone up 4.455% rate increase. Now my assessment came in 9% higher. Zillow says it s the same this JANUARY as last JANUARY, but Fairfax City says my house went up 9%. And now you guys are talking about increasing the rate to the point where if we went at 1.080. Plus the 6% stormwater increase in the last 4 years, the check I write to this city will have gone up roughly 36% It s absolutely outrageous. Start trimming the budget or something, folks. I don"
+    "start": 2168.892,
+    "end": 2201.725,
+    "text": "Fairfax City If we look at the real numbers with us at 1.055, we ve gone up 4.455% rate increase. Now my assessment came in 9% higher. Zillow says it s the same this JANUARY as last JANUARY, but Fairfax City says my house went up 9%. And now you guys are talking about increasing the rate to the point where if we went at 1.080. Plus the 6% stormwater increase in the last 4 years, the check"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2211.168,
-    "end": 2242.665,
-    "text": "t know where the hole is in the money bucket but we can t compete with Fairfax County, so quit trying to do bigger, better. All right? Now I hate comparing ourselves to other jurisdictions, but let s statewide amongst all the cities. All the counties 22, 23, 23, 24. How many of those 136 jurisdictions had rate increases in both years. 4. And now we re talking about our 4th"
+    "start": 2203.361,
+    "end": 2236.59,
+    "text": "I write to this city will have gone up roughly 36% It s absolutely outrageous. Start trimming the budget or something, folks. I don t know where the hole is in the money bucket but we can t compete with Fairfax County, so quit trying to do bigger, better. All right? Now I hate comparing ourselves to other jurisdictions, but let s statewide amongst all the cities. All the counties 22, 23, 23, 24. How many of those 136 jurisdictions had rate"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2244.1,
-    "end": 2275.765,
-    "text": "rate increase in 4 years. It s outrageous. Winning is being better. To yourself Not competing with people that are doing poorly Let s do better. Let s start trimming the budget, figuring out where the money s going. Apparently it s not going to the police. Don t worry, they re going. But let s do better, folks. All right? We already pay lots of taxes. I said, on top of property, we got stormwater. I got a bag tax to pay. My utilities, my goodness, my water bill, 26% of its for actually water. The"
+    "start": 2238.329,
+    "end": 2268.524,
+    "text": "increases in both years. 4. And now we re talking about our 4th rate increase in 4 years. It s outrageous. Winning is being better. To yourself Not competing with people that are doing poorly Let s do better. Let s start trimming the budget, figuring out where the money s going. Apparently it s not going to the police. Don t worry, they re going. But let s do better, folks. All right? We already pay lots of taxes. I said, on top of property, we"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2276.433,
-    "end": 2306.629,
-    "text": "rest of it is sewer and things coming to the city. All right? Money is coming in. We re just spending too much. Thank you. Our next speaker is Rusty Russell. Good evening. My name s Rusty Russell. I m, uh, come to you as the chair of the Environmental Sustainability Committee, uh, and I want to thank everybody for the great"
+    "start": 2268.793,
+    "end": 2300.356,
+    "text": "got stormwater. I got a bag tax to pay. My utilities, my goodness, my water bill, 26% of its for actually water. The rest of it is sewer and things coming to the city. All right? Money is coming in. We re just spending too much. Thank you. Our next speaker is Rusty Russell. Good evening. My name s Rusty Russell. I m, uh,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2307.365,
-    "end": 2339.996,
-    "text": "work session we had in early FEBRUARY. I m simply here to reinforce some of the points that we made at that time. Our community is at a point where energy costs are rising, public infrastructure is aging, and extreme weather events are increasing, and that s not news to anybody. Uh, frankly, we ve been at this intersection for years, and to be honest, we ve been discussing being at this intersection for years. There have been some moves forward. We ve allocated funds for climate action plan. The, the last municipal municipality in"
+    "start": 2301.625,
+    "end": 2332.722,
+    "text": "come to you as the chair of the Environmental Sustainability Committee, uh, and I want to thank everybody for the great work session we had in early FEBRUARY. I m simply here to reinforce some of the points that we made at that time. Our community is at a point where energy costs are rising, public infrastructure is aging, and extreme weather events are increasing, and that s not news to anybody. Uh, frankly, we ve been at this intersection for years, and to be honest, we ve been discussing being at this intersection for years. There"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2343.33,
-    "end": 2374.998,
-    "text": "the region to have one. Um, in concert with Fairfax County, we ve designed, but not constructed, at the first lead gold resilience hub in the city of Fairfax. And 3 years ago, funds were allocated for the development of a green building policy, which would provide the tools necessary for both public and private buildings to reduce energy consumption. A good thing, and save money, also a good thing. But this policy is awaiting adoption. And our former temporary climate and energy manager applied for and"
+    "start": 2333.724,
+    "end": 2364.619,
+    "text": "have been some moves forward. We ve allocated funds for climate action plan. The, the last municipal municipality in the region to have one. Um, in concert with Fairfax County, we ve designed, but not constructed, at the first lead gold resilience hub in the city of Fairfax. And 3 years ago, funds were allocated for the development of a green building policy, which would provide the tools necessary for both public and private buildings to reduce energy consumption. A good"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2374.998,
-    "end": 2408.765,
-    "text": "received an eecbg grant from the Department of Energy, which will provide 100 free energy audits for city residents. And there are other energy saving projects underway, such as gas light replacements in old town, replacement of gas equipment with electric alternatives and solar assessment of public buildings, but to recap no climate action plan, which is the primary underpinning with which municipalities protect their residents. The first lead gold resident resilience hub in the city, a completed, but not adopted green building policy"
+    "start": 2364.655,
+    "end": 2397.153,
+    "text": "thing, and save money, also a good thing. But this policy is awaiting adoption. And our former temporary climate and energy manager applied for and received an eecbg grant from the Department of Energy, which will provide 100 free energy audits for city residents. And there are other energy saving projects underway, such as gas light replacements in old town, replacement of gas equipment with electric alternatives and solar assessment of public buildings, but to recap no climate action plan, which is"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2409.433,
-    "end": 2440.797,
-    "text": "which would provide significant energy savings to both private and public structures. No staff capacity to seek external funding. Unlike surrounding municipalities, and a piecemeal approach to funding and implementing sustainability projects. I hope you don t think I just come to you with problems. I think the solution is the hiring of a full-time permanent. Climate and energy manager uh, who would shepherd the climate action plan, collapse the administrative silos within the city and realize operational efficiencies, implement the"
+    "start": 2398.89,
+    "end": 2429.519,
+    "text": "the primary underpinning with which municipalities protect their residents. The first lead gold resident resilience hub in the city, a completed, but not adopted green building policy which would provide significant energy savings to both private and public structures. No staff capacity to seek external funding. Unlike surrounding municipalities, and a piecemeal approach to funding and implementing sustainability projects. I hope you don t think I just come to you with problems. I think the solution is the hiring of a full-time"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2443.2,
-    "end": 2480.872,
-    "text": "adopted then adopted Green Building policy, saving energy and realizing significant cost savings in all public buildings and provide the staff capacity to seek and secure external funding for the wide array of sustainability projects specified in the climate action plan. I urge you to consider the considerable progress the city can realize with one single hire. Thank you. Our next speaker is Adele Wiseman. Good evening. My name is Adele"
+    "start": 2430.721,
+    "end": 2463.153,
+    "text": "permanent. Climate and energy manager uh, who would shepherd the climate action plan, collapse the administrative silos within the city and realize operational efficiencies, implement the adopted then adopted Green Building policy, saving energy and realizing significant cost savings in all public buildings and provide the staff capacity to seek and secure external funding for the wide array of sustainability projects specified in the climate action plan. I urge you to consider the considerable progress the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2480.872,
-    "end": 2511.0,
-    "text": "Wiseman. I m a student at kjms Middle School and my leadership class has done a project on environment and redevelopment in our area. When we learned that the general budget for the green building policy, um, was not adopted. Please pass and hire a climate energy manager to help with this policy, because we need to keep the growing community of Fairfax Green for the future of kids"
+    "start": 2463.286,
+    "end": 2496.5,
+    "text": "city can realize with one single hire. Thank you. Our next speaker is Adele Wiseman. Good evening. My name is Adele Wiseman. I m a student at kjms Middle School and my leadership class has done a project on environment and redevelopment in our area. When we learned that the general budget for the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2514.304,
-    "end": 2548.639,
-    "text": "like me. Thank you. Our next speaker is Henry Street. Hello, I m Henry Street. I m also a student from kgms. Um, I m also here to talk about the green building policy. Um, we, I also learned that it wasn t adopted, but it s very important because it will help to increase the green energy in the area. It will um, provide incentives for people such as slight tax"
+    "start": 2499.23,
+    "end": 2529.886,
+    "text": "green building policy, um, was not adopted. Please pass and hire a climate energy manager to help with this policy, because we need to keep the growing community of Fairfax Green for the future of kids like me. Thank you. Our next speaker is Henry Street. Hello, I m Henry Street. I m also a student from kgms. Um, I m also"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2548.639,
-    "end": 2580.935,
-    "text": "reductions for those who adopt it. Um, and we need to hire someone to market it because not many people know it exists. I d just learned that it exists a couple weeks ago. Um, so we need someone to share the word, get it out there for people to include in their new buildings. Thank you. Is there anybody else in the room that would like to speak on the proposed budget? All right then this"
+    "start": 2531.221,
+    "end": 2562.953,
+    "text": "here to talk about the green building policy. Um, we, I also learned that it wasn t adopted, but it s very important because it will help to increase the green energy in the area. It will um, provide incentives for people such as slight tax reductions for those who adopt it. Um, and we need to hire someone to market it because not many people know it exists. I d just learned that it exists a couple weeks ago. Um, so we need someone to share the word,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2581.38,
-    "end": 2613.369,
-    "text": "public hearing will stay open until APRIL 14, 2026. We ll go to 2nd general public comment. Is there anybody else in the room that would like to speak on any other item that was not a public hearing item? Right, I think we will move on then to, uh, items not requiring a public hearing. Uh, so the only item we have is the consideration of the maximum real estate tax rate for a fiscal year fy 202027 to be advertised. This action sets the maximum real estate tax"
+    "start": 2564.421,
+    "end": 2598.187,
+    "text": "get it out there for people to include in their new buildings. Thank you. Is there anybody else in the room that would like to speak on the proposed budget? All right then this public hearing will stay open until APRIL 14, 2026. We ll go to 2nd general public comment. Is there anybody else in the room that would like to speak on any other item that was not a public hearing item? Right, I"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2614.105,
-    "end": 2647.437,
-    "text": "rate that can be adopted as part of the fy 2027 budget. This action does not set the real estate tax rate for fy 2027. I m gonna recognize Daniel Alexander, a city manager to provide the staff report. I will recognize jc Martinez. Thank you, Mayor, council, the city manager s fy 27 proposed budget recommends a change in the real estate tax rate of 0.025 or 2.5 cents increasing the tax rate to 1 dollar08 per $100 of assessed"
+    "start": 2598.623,
+    "end": 2629.83,
+    "text": "think we will move on then to, uh, items not requiring a public hearing. Uh, so the only item we have is the consideration of the maximum real estate tax rate for a fiscal year fy 202027 to be advertised. This action sets the maximum real estate tax rate that can be adopted as part of the fy 2027 budget. This action does not set the real estate tax rate for fy 2027. I m gonna recognize Daniel Alexander, a city manager to provide the staff report. I will recognize jc"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2649.639,
-    "end": 2682.172,
-    "text": "value. Staff recommends advertising a maximum real estate tax rate of at least $1.08 per 100 of assessed value. Once a proposed rate is advertised, city council MAY adopt a lower rate but cannot adopt a higher rate without restarting the public hearing process. The old town Service District tax and the commercial and industrial tax are not required to be included in this advertisement. Given the discussion that we had last week on MARCH 3, 2026 work session meeting. Several"
+    "start": 2631.454,
+    "end": 2664.654,
+    "text": "Martinez. Thank you, Mayor, council, the city manager s fy 27 proposed budget recommends a change in the real estate tax rate of 0.025 or 2.5 cents increasing the tax rate to 1 dollar08 per $100 of assessed value. Staff recommends advertising a maximum real estate tax rate of at least $1.08 per 100 of assessed value. Once a proposed rate is advertised, city council MAY adopt a lower rate but cannot adopt a higher rate without"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2682.74,
-    "end": 2714.103,
-    "text": "council members expressed interest in potentially advertising a rate above the city manager s proposed rate. Therefore, an alternate motion is included for council s consideration. Advertising a rate above the manager s proposed rate provides additional flexibility. Provides council s options prior to final adoption. It keeps all options on the table during deliberations. Allows for reallocation flexibility if other revenue sources are reduced. And provides leverage to support high impact"
+    "start": 2664.788,
+    "end": 2696.86,
+    "text": "restarting the public hearing process. The old town Service District tax and the commercial and industrial tax are not required to be included in this advertisement. Given the discussion that we had last week on MARCH 3, 2026 work session meeting. Several council members expressed interest in potentially advertising a rate above the city manager s proposed rate. Therefore, an alternate motion is included for council s consideration. Advertising a rate above the manager s proposed rate provides"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2714.672,
-    "end": 2745.968,
-    "text": "community investments. Staff are happy and willing to take any questions you MAY have. Are there questions of staff? Seeing none, is there a motion, Councilmember Hardy Chandler. I move that the city council advertise a proposed real estate tax rate of 1.095 per $100 of assessed value. Is there a second 2. A motion s been made by Councilmember Hardy Chandler and seconded by Council member Amos. Is there"
+    "start": 2697.587,
+    "end": 2727.282,
+    "text": "additional flexibility. Provides council s options prior to final adoption. It keeps all options on the table during deliberations. Allows for reallocation flexibility if other revenue sources are reduced. And provides leverage to support high impact community investments. Staff are happy and willing to take any questions you MAY have. Are there questions of staff? Seeing none, is there a motion,"
+  },
+  {
+    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "start": 2728.85,
+    "end": 2730.987,
+    "text": "I move that the city council"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2747.7,
+    "start": 2731.555,
+    "end": 2762.185,
+    "text": "advertise a proposed real estate tax rate of 1.095 per $100 of assessed value. Is there a second 2. A motion s been made by Councilmember Hardy Chandler and seconded by Council member Amos. Is there any discussion on the motion? Discussion on the motion ok, um. A roll call vote. Councilor Ramis, Council member Hall, no Council member Hardy Chandler. Councilmember Peterson? No"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 2763.22,
     "end": 3370.92,
-    "text": "any discussion on the motion? Discussion on the motion ok, um. A roll call vote. Councilor Ramis, Council member Hall, no Council member Hardy Chandler. Councilmember Peterson? No Council member Bates. COUNCILMAN McLellan, No. Married? The mayor votes I. Ok, motion passed 4 to 3. Ok I will now recess the regular meeting to go into a work session. We ll take a 5-minute recess to go into the work session room. And welcome to our work session."
+    "text": "Council member Bates. COUNCILMAN McLellan, No. Married? The mayor votes I. Ok, motion passed 4 to 3. Ok I will now recess the regular meeting to go into a work session. We ll take a 5-minute recess to go into the work session room. And welcome to our work session."
   },
   {
     "speaker": "Unknown Speaker",
@@ -843,21 +879,21 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5371.62,
-    "end": 5402.924,
-    "text": "Councilmember Peterson thanks. Just to see if I capture a couple takeaways here correctly. Uh, one is that the uh situation here is a pretty unique one. This is not just a generic affordable housing issue. This is permanent supportive housing. This is reinvestment in services 24/7. That offset or reduce cost elsewhere and guarantee a level of safety that is otherwise not"
+    "start": 5374.532,
+    "end": 5406.663,
+    "text": "Just to see if I capture a couple takeaways here correctly. Uh, one is that the uh situation here is a pretty unique one. This is not just a generic affordable housing issue. This is permanent supportive housing. This is reinvestment in services 24/7. That offset or reduce cost elsewhere and guarantee a level of safety that is otherwise not attainable. So this is a unique facility and that that seems to"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5404.462,
-    "end": 5436.759,
-    "text": "attainable. So this is a unique facility and that that seems to be very apparent and that is in contrast again to more generalized affordable housing. The second thing is the strategic plan and I think this was noted in the resolution we passed uh, as we passed the, uh the furtherance of that strategic plan, it s a work in progress. It s a framework there s a heck of a lot uh, that needs to be done to make it more specific and to sort out the kinds of cases where things like this might apply, so it does not sound as if this"
+    "start": 5408.366,
+    "end": 5439.428,
+    "text": "be very apparent and that is in contrast again to more generalized affordable housing. The second thing is the strategic plan and I think this was noted in the resolution we passed uh, as we passed the, uh the furtherance of that strategic plan, it s a work in progress. It s a framework there s a heck of a lot uh, that needs to be done to make it more specific and to sort out the kinds of cases where things like this might apply, so it does not sound as if this is in fact a precedent that guides or drives the remainder"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5437.428,
+    "start": 5439.496,
     "end": 5470.927,
-    "text": "is in fact a precedent that guides or drives the remainder of that. That s an open, uh, series of questions, uh, to go forward. And then the uh actions that we choose to take or not take, um, today on this upcoming budget, it would seem to me our tied to, uh, two future, uh, sorts of actions that we take. The first is the tax exemption. And that s on our side. But then it sounds like there is, i m going to say"
+    "text": "of that. That s an open, uh, series of questions, uh, to go forward. And then the uh actions that we choose to take or not take, um, today on this upcoming budget, it would seem to me our tied to, uh, two future, uh, sorts of actions that we take. The first is the tax exemption. And that s on our side. But then it sounds like there is, i m going to say"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1835,7 +1871,7 @@ const TRANSCRIPT_TURNS = [
     "speaker": "Unknown Speaker",
     "start": 10768.326,
     "end": 10800.9,
-    "text": "differently under the proposed standards. I know you showed some of that a little bit, like the, this is what it would look like here. But were those the only two were they those the only used. Those are the only two we ve done so far. This is our first draft, and we actually had some requests from planning commission to look at others. Um, so we will certainly expand this. Excellent. Thank you so much. I appreciate all your time. Council member Hardy Chandler. I just wanted to circle back to the state legislation that you re monitoring, having read,"
+    "text": "differently under the proposed standards. I know you showed some of that a little bit, like the, this is what it would look like here. But were those the only two were they those the only used. Those are the only two we ve done so far. This is our first draft, and we actually had some requests from planning commission to look at others. Um, so we will certainly expand this. Excellent. Thank you so much. I appreciate all your time. I just wanted to circle back to the state legislation that you re monitoring, having read,"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2194,104 +2230,110 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 12748.94,
-    "end": 12783.206,
-    "text": "data from a neighboring city rather than assumptions about how diners respond. To meals tax with that, happy to answer any questions. Thank you, Councilmember Amos. Uh, thank you for the presentation. I, I don t have much to say. The only thing that I ll bring up is that we re also considering a 1% sales tax that s working its way through the state will have a conversation about that, but just worth revisiting for the fy 28 budget once, if and when that s in place. Thank you. Councilmember Hall Thank you. That s actually a question I"
+    "end": 12759.348,
+    "text": "data from a neighboring city rather than assumptions about how diners respond. To meals tax with that, happy to answer any questions. Thank you,"
+  },
+  {
+    "speaker": "Councilmember Anthony Amos",
+    "start": 12759.816,
+    "end": 12762.32,
+    "text": "Uh, thank you for the presentation. I, I don"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12784.307,
-    "end": 12816.572,
-    "text": "wanted to ask if the 1% sales tax goes through and we re allowed to put in and it passes here, that would also apply to meals as well, correct? Correct. Under the current bill structure, yes. Ok. Um, the good thing about mail s tax is we can always add it and take it away if we need to. Um, I am typically not a proponent of it, but I do have to say that trying to make that up in real estate tax dollars is an awful lot of money. Um, the only other comparison I think i"
+    "start": 12762.32,
+    "end": 12793.349,
+    "text": "t have much to say. The only thing that I ll bring up is that we re also considering a 1% sales tax that s working its way through the state will have a conversation about that, but just worth revisiting for the fy 28 budget once, if and when that s in place. Thank you. Councilmember Hall Thank you. That s actually a question I wanted to ask if the 1% sales tax goes through and we re allowed to put in and it passes here, that would also apply to meals as well, correct? Correct."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12817.7,
-    "end": 12848.938,
-    "text": "would have liked to have seen, which I feel like you gave us everything except for, um, I m wondering what the cost of food. Um, has done to those graphs? Is it because people are dining out more or is it because the cost of food has gone up exponentially, which is thereby generating additional revenue for us without it being actual extra demand for restaurants. I think that s a great question. I can go back and look at, I think last week s presentation where we actually had inflationary information over"
+    "start": 12793.584,
+    "end": 12827.751,
+    "text": "Under the current bill structure, yes. Ok. Um, the good thing about mail s tax is we can always add it and take it away if we need to. Um, I am typically not a proponent of it, but I do have to say that trying to make that up in real estate tax dollars is an awful lot of money. Um, the only other comparison I think i would have liked to have seen, which I feel like you gave us everything except for, um, I m wondering what the cost of food. Um, has done to those graphs? Is it because people are dining"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12850.374,
-    "end": 12883.106,
-    "text": "the course of the past 25 years, if I m not mistaken, and try to recalculate that out. Um, I know specifically in the last 3 or 4 years, there was high inflation that probably impacted and drove some of these numbers going up, um, but we could definitely try to calculate that out. Yeah, as the daughter of a baker, um, I was always aware of the cost of flour, you know, it was always a huge bill my dad had to pay, and it was cod so well aware of those food rising food costs. Um, are there any other industries that the General Assembly allows us to assess"
+    "start": 12828.285,
+    "end": 12862.484,
+    "text": "out more or is it because the cost of food has gone up exponentially, which is thereby generating additional revenue for us without it being actual extra demand for restaurants. I think that s a great question. I can go back and look at, I think last week s presentation where we actually had inflationary information over the course of the past 25 years, if I m not mistaken, and try to recalculate that out. Um, I know specifically in the last 3 or 4 years, there was high inflation that probably impacted and drove some of"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12883.473,
-    "end": 12914.838,
-    "text": "attacks on, like, where specifically did the meals tax come from in comparison to others? That is a great question. Uh, I don t know the answer off the top of my head. I m sure there are a lot of other industries. We have the cni tax, the commercial and industrial tax, the tot tax, the transit occupancy tax, the tobacco tax. There s a whole bunch of taxes, uh, that we could try to figure out, um, unfortunately, as was stated in earlier presentations, we are a Dylan rural state, so we have to go ask mom and dad for permission, which we are in the"
+    "start": 12863.154,
+    "end": 12893.95,
+    "text": "these numbers going up, um, but we could definitely try to calculate that out. Yeah, as the daughter of a baker, um, I was always aware of the cost of flour, you know, it was always a huge bill my dad had to pay, and it was cod so well aware of those food rising food costs. Um, are there any other industries that the General Assembly allows us to assess attacks on, like, where specifically did the meals tax come from in comparison to others? That is a great question. Uh, I don t know the answer off the top of my head. I m sure there are a lot of"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12915.839,
-    "end": 12947.27,
-    "text": "process of doing right now, at least for the transit occupancy tax as well, right? And are we, I, I know I had asked questions about the b pole before, and thank you, um, Paige Johnson for the chart and information that you sent. Are we at the maximum for the tobacco tax, or is that something that we have flexibility to go up on? I don t think that one was covered. I believe we are at the maximum and there was a change a number of years ago that prevented localities from changing. Their rates, but I m not, um, an expert. I m not"
+    "start": 12894.118,
+    "end": 12925.414,
+    "text": "other industries. We have the cni tax, the commercial and industrial tax, the tot tax, the transit occupancy tax, the tobacco tax. There s a whole bunch of taxes, uh, that we could try to figure out, um, unfortunately, as was stated in earlier presentations, we are a Dylan rural state, so we have to go ask mom and dad for permission, which we are in the process of doing right now, at least for the transit occupancy tax as well, right? And are we, I, I know I had asked questions about the b pole before, and thank you, um, Paige Johnson for the chart and information"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12947.671,
-    "end": 12978.667,
-    "text": "100% sure, but we are, I think, at the highest we can be. Ok. And I know that the conversation that was had previously with, um, with the commissioner of the Revenue was that some of these rates haven t been changed in 30 years. I think we would all love to say that our real estate taxes have not gone up in 30 years, but we know that that is certainly not true. Um, so I, I find that we are, like every other locality in Virginia, extremely dependent upon real estate taxes. And I would love to see an opportunity for us to maybe"
+    "start": 12927.717,
+    "end": 12959.349,
+    "text": "that you sent. Are we at the maximum for the tobacco tax, or is that something that we have flexibility to go up on? I don t think that one was covered. I believe we are at the maximum and there was a change a number of years ago that prevented localities from changing. Their rates, but I m not, um, an expert. I m not 100% sure, but we are, I think, at the highest we can be. Ok. And I know that the conversation that was had previously with, um, with the commissioner of the Revenue was that some of these rates haven t been changed in 30"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12978.869,
-    "end": 13011.65,
-    "text": "increase some other areas a little bit that would lessen or reduce or at least On our residents. So if there are other areas that we could jump up a little smidge like one of the, some of the ones that Paige sent us, I think that that would be a conversation to be had. Um, I understand that we maybe want to be less than we are than the county or a neighboring jurisdiction, but we can t be less than everything and everywhere all"
+    "start": 12959.483,
+    "end": 12993.15,
+    "text": "years. I think we would all love to say that our real estate taxes have not gone up in 30 years, but we know that that is certainly not true. Um, so I, I find that we are, like every other locality in Virginia, extremely dependent upon real estate taxes. And I would love to see an opportunity for us to maybe increase some other areas a little bit that would lessen or reduce or at least On our residents. So if there are other areas that we could jump up a little smidge like one of the, some of the ones that"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13011.801,
-    "end": 13043.432,
-    "text": "the time. So, um I, I just think real estate taxes are a huge burden for people and they re used to cover everything. So, thank you. Councilmember Hardy Chandler I just want to express my very quick appreciation for the data. And so that we can make data-informed decisions, particularly with the chart over, what is it, 25 years or so, um, and, uh, that s just really helpful to put, uh, maybe some assumptions that might be made in context. So I"
+    "start": 12994.84,
+    "end": 13027.984,
+    "text": "Paige sent us, I think that that would be a conversation to be had. Um, I understand that we maybe want to be less than we are than the county or a neighboring jurisdiction, but we can t be less than everything and everywhere all the time. So, um I, I just think real estate taxes are a huge burden for people and they re used to cover everything. So, thank you. Councilmember Hardy Chandler I just want to express my very quick appreciation for the data."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13043.834,
-    "end": 13075.966,
-    "text": "appreciate the work that went into providing us to the data to make data informed decisions. Thank you. So in talking about different taxes, the cigarette tax, people, the, the, the, it s a declining number of people who smoke. And, you know, we, we, once we prohibited smoking in restaurants, there was a precipitous decline. Gas tax, same thing. I mean, the gas tax, we depended on that in the Commonwealth of Virginia, but, you know, people are getting electric vehicles or they re getting hybrids and so suddenly the revenue and gas taxes has declined. And so it s"
+    "start": 13029.287,
+    "end": 13061.617,
+    "text": "And so that we can make data-informed decisions, particularly with the chart over, what is it, 25 years or so, um, and, uh, that s just really helpful to put, uh, maybe some assumptions that might be made in context. So I appreciate the work that went into providing us to the data to make data informed decisions. Thank you. So in talking about different taxes, the cigarette tax, people, the, the, the, it s a declining number of people who smoke. And, you know, we, we, once we prohibited smoking in restaurants, there"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13077.67,
-    "end": 13108.363,
-    "text": "kind of a moving target, even with the tot, the Trait occupancy tax, we don t have that many hotels, but that means as we build hotels, the potential for that to the revenue to increase gets bigger, but it is, you know, people s consumption habits and what we re taxing is sort of a moving target, but we have, we can see that the growth in the restaurant industry here that is we have a healthy restaurant industry here and people are eating out and it s not necessarily our residents. It is people coming from all over"
+    "start": 13062.186,
+    "end": 13092.481,
+    "text": "was a precipitous decline. Gas tax, same thing. I mean, the gas tax, we depended on that in the Commonwealth of Virginia, but, you know, people are getting electric vehicles or they re getting hybrids and so suddenly the revenue and gas taxes has declined. And so it s kind of a moving target, even with the tot, the Trait occupancy tax, we don t have that many hotels, but that means as we build hotels, the potential for that to the revenue to increase gets bigger, but it is, you know, people s consumption habits and what we"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13109.2,
-    "end": 13139.728,
-    "text": "because we have a enormous number of ethnic restaurants here from which which draw people in from not just the region but from out of state. And so we have to think about that too. We don t, we can t parse how many, how much of the meals tax is people from outside the city, but I think it s significant because we have very, we have a large array of very specific kinds of cu is ine s that people are coming into the city for. One of the things we don t have dedicated revenue for right now is tourism. And I just had this conversation today with Alex"
+    "start": 13092.683,
+    "end": 13123.412,
+    "text": "re taxing is sort of a moving target, but we have, we can see that the growth in the restaurant industry here that is we have a healthy restaurant industry here and people are eating out and it s not necessarily our residents. It is people coming from all over because we have a enormous number of ethnic restaurants here from which which draw people in from not just the region but from out of state. And so we have to think about that too. We don t, we can t parse how many, how much of the meals tax is people from"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13140.231,
-    "end": 13172.762,
-    "text": "over at Okinami Grill about Restaurant Week. I said, you know, it s not about promoting restaurants, it s not about restaurant week. It s about tourism. And we are just starting our effort in tourism and we don t have a dedicated funding, uh, funding source for tourism, but tourism is one of the things that underpins marketing our restaurants as one of the economic pillars of the city. All of this is very interrelated, but I think our restaurant industry is incredibly healthy because of the mix of very unique establishments you cannot find"
+    "start": 13124.382,
+    "end": 13155.711,
+    "text": "outside the city, but I think it s significant because we have very, we have a large array of very specific kinds of cu is ine s that people are coming into the city for. One of the things we don t have dedicated revenue for right now is tourism. And I just had this conversation today with Alex over at Okinami Grill about Restaurant Week. I said, you know, it s not about promoting restaurants, it s not about restaurant week. It s about tourism. And we are just starting our effort in tourism and we don t have a dedicated funding, uh, funding source for"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13174.397,
-    "end": 13204.895,
-    "text": "in other towns, in other cities. And so we have to make the assumptions since we can t how much of that tax is being paid for by non-residents and it, it s significant. So just, just to put that out there for us to think about the 1% sales tax. Is some for something very specific, like we can t use that for anything else. It has to be for this thing, but some of these other things that we wanna do, affordable housing, dedicated funding stream, tourism, dedicated funding stream, you know, all of this"
+    "start": 13156.214,
+    "end": 13187.76,
+    "text": "tourism, but tourism is one of the things that underpins marketing our restaurants as one of the economic pillars of the city. All of this is very interrelated, but I think our restaurant industry is incredibly healthy because of the mix of very unique establishments you cannot find in other towns, in other cities. And so we have to make the assumptions since we can t how much of that tax is being paid for by non-residents and it, it s significant. So just, just"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13204.996,
-    "end": 13238.761,
-    "text": "money has to come from somewhere that s not the residential real estate tax. So I think we do have to be expansive in our thinking and understand that, you know, some of the things we do MAY not have an immediate payoff, but over the long term, they MAY have a bigger payoff as we start to track it. Other comments, questions on the meals tax. Councilmember Bates. I m good. I, I think you pretty much said what I was thinking about saying. Anything else? Anybody else ok So what are you looking for from us, MR."
+    "start": 13188.579,
+    "end": 13219.541,
+    "text": "to put that out there for us to think about the 1% sales tax. Is some for something very specific, like we can t use that for anything else. It has to be for this thing, but some of these other things that we wanna do, affordable housing, dedicated funding stream, tourism, dedicated funding stream, you know, all of this money has to come from somewhere that s not the residential real estate tax. So I think we do have to be expansive in our thinking and understand that, you know, some of the things we do MAY not have an immediate payoff, but over the long term, they MAY have a bigger payoff as we"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13239.262,
-    "end": 13269.724,
-    "text": "Alexander, at this point? At, at this point, it was simply a discussion on it and then um we have about 3 slides for the next one. I ll jump to, so we re all gonna cogitate on this for, uh, we ll circle back around. A lot of cogitation. All right. Good evening, Mayor"
+    "start": 13221.478,
+    "end": 13253.909,
+    "text": "start to track it. Other comments, questions on the meals tax. Councilmember Bates. I m good. I, I think you pretty much said what I was thinking about saying. Anything else? Anybody else ok So what are you looking for from us, MR. Alexander, at this point? At, at this point, it was simply a discussion on it and then um we have about 3 slides for the next one. I ll jump to, so we re all gonna cogitate on this for, uh, we ll circle back around. A lot of cogitation."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13269.726,
+    "start": 13267.724,
     "end": 13300.322,
-    "text": "council. Um, last week during our discussion, it came up to talk about the um city expenses versus the real estate growth and the, and the assessment growth. So we pulled together a couple slides. Let s see. Um, so over the past 15 years the cost of school tuition is consistent, consistently grown faster than the city s primary revenue driver, real estate assessments, and faster than other operating expenses. The structural gap is an important factor driving long-term budget"
+    "text": "All right. Good evening, Mayor council. Um, last week during our discussion, it came up to talk about the um city expenses versus the real estate growth and the, and the assessment growth. So we pulled together a couple slides. Let s see. Um, so over the past 15 years the cost of school tuition is consistent, consistently grown faster than the city s primary revenue driver, real estate assessments, and faster than other operating expenses. The structural gap is an important factor driving long-term budget"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2530,8 +2572,14 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 14574.732,
+    "end": 14599.555,
+    "text": "t know how much our health insurance rates went up, but in some companies, like back with my company one year, it literally doubled. And so the cost of my family. Doubled, you know, pre-Obamacare, it was like $600 a year to, to do my family. Now it s like $2400 I m sorry, a month. Now it s like 240 to $2800 a month that my company pays for my family. So it s a huge, huge number that I don t see every month, but it s there. Right? So, ok, thank you."
+  },
+  {
+    "speaker": "Councilmember Tom Peterson",
+    "start": 14604.262,
     "end": 14607.196,
-    "text": "t know how much our health insurance rates went up, but in some companies, like back with my company one year, it literally doubled. And so the cost of my family. Doubled, you know, pre-Obamacare, it was like $600 a year to, to do my family. Now it s like $2400 I m sorry, a month. Now it s like 240 to $2800 a month that my company pays for my family. So it s a huge, huge number that I don t see every month, but it s there. Right? So, ok, thank you. Council member Peterson. I m not sure whether this is in the"
+    "text": "I m not sure whether this is in the"
   },
   {
     "speaker": "Unknown Speaker",

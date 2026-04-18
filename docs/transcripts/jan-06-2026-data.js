@@ -412,8 +412,14 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 2462.854,
+    "end": 2492.215,
+    "text": "typically somewhat robust, but I really want to relay some of the key intricacies of that, and then coming back one last time, you ll be tired of me at that point for a final adoption of the plan. Thank you again. I know I m a fast talker. I hear it all over. Thank you very much, but I really appreciate the feedback. It s not many places I go where I get feedback on every question from every council member. So I really appreciate that and thank you again for having me. Do you have any questions for me? Any questions, um,"
+  },
+  {
+    "speaker": "Councilmember Tom Peterson",
+    "start": 2494.17,
     "end": 2496.17,
-    "text": "typically somewhat robust, but I really want to relay some of the key intricacies of that, and then coming back one last time, you ll be tired of me at that point for a final adoption of the plan. Thank you again. I know I m a fast talker. I hear it all over. Thank you very much, but I really appreciate the feedback. It s not many places I go where I get feedback on every question from every council member. So I really appreciate that and thank you again for having me. Do you have any questions for me? Any questions, um, Councilmember Peterson. The"
+    "text": "The"
   },
   {
     "speaker": "Unknown Speaker",

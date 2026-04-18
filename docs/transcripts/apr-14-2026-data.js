@@ -574,38 +574,50 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 2470.586,
-    "end": 2501.615,
-    "text": "a little shorter than janet. Good evening, ladies and gentlemen. Mayor read, members of council, my name is janice miller and I'm here to support moving forward with the willard sherwood and I support councilmembers authorizing the eda to sell revenue bonds to finance this project. Questions have been raised recently regarding the economic advantages of this proposed project. Please consider the following. Willard sherwood would be a"
+    "end": 2474.788,
+    "text": "a little shorter than janet. Good evening, ladies and gentlemen."
+  },
+  {
+    "speaker": "Mayor Catherine Read",
+    "start": 2475.191,
+    "end": 2477.191,
+    "text": "members of council,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2501.617,
-    "end": 2532.747,
-    "text": "long-term economic anchor. It would strengthen downtown vitality due to it central location. It would generate consistent weekday activity that will support downtown retail and services. It would increase pedestrian activity in the downtown area. Reinforce old town as the hub for daily life and not solely as a spot for dining out, night life and/or special events. Willard sherwood would demonstrate capital leverage and fiscal efficiency."
+    "start": 2477.46,
+    "end": 2507.88,
+    "text": "my name is janice miller and I'm here to support moving forward with the willard sherwood and I support councilmembers authorizing the eda to sell revenue bonds to finance this project. Questions have been raised recently regarding the economic advantages of this proposed project. Please consider the following. Willard sherwood would be a long-term economic anchor. It would strengthen downtown vitality due to it central"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2533.883,
-    "end": 2564.379,
-    "text": "The capital costs are divided between the county and the city based on programmatic usage. The city avoids land acquisition costs, demolition cost and site preparation costs. The shared infrastructure in parking reduce capital duplication. Energy efficient design lowers operating cost. Willard sherwood will support workforce and talent competitiveness. It will help attract and retain"
+    "start": 2507.88,
+    "end": 2539.554,
+    "text": "location. It would generate consistent weekday activity that will support downtown retail and services. It would increase pedestrian activity in the downtown area. Reinforce old town as the hub for daily life and not solely as a spot for dining out, night life and/or special events. Willard sherwood would demonstrate capital leverage and fiscal efficiency. The capital costs are divided between the county and the city"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2564.58,
-    "end": 2595.611,
-    "text": "public and private sector employees and professional households. It will reinforce the city's identity as a service-rich community. It will enhance the city's appeal relative to competing jurisdictions. Unlike market driven projects, the center provides enduring economic value across all business cycles. All these factors support office occupancy, mixed use development and economic security."
+    "start": 2539.99,
+    "end": 2571.921,
+    "text": "based on programmatic usage. The city avoids land acquisition costs, demolition cost and site preparation costs. The shared infrastructure in parking reduce capital duplication. Energy efficient design lowers operating cost. Willard sherwood will support workforce and talent competitiveness. It will help attract and retain public and private sector employees and professional households. It will reinforce the city's identity as a service-rich"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2596.545,
-    "end": 2628.81,
-    "text": "Willard sherwood advances the city's strategic priorities in economic development goals, maximizes limited land resources and uses external funding to reduce city exposure, it strengthens downtown vitality, it supports quality of life, it builds on past city/county partnerships and establishes a model for future collaboration. In summary, providing the"
+    "start": 2571.921,
+    "end": 2604.585,
+    "text": "community. It will enhance the city's appeal relative to competing jurisdictions. Unlike market driven projects, the center provides enduring economic value across all business cycles. All these factors support office occupancy, mixed use development and economic security. Willard sherwood advances the city's strategic priorities in economic development goals,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2628.912,
+    "start": 2605.321,
+    "end": 2636.485,
+    "text": "maximizes limited land resources and uses external funding to reduce city exposure, it strengthens downtown vitality, it supports quality of life, it builds on past city/county partnerships and establishes a model for future collaboration. In summary, providing the opportunity for enhanced business tax income this project will sustain economic value that will far exceed direct fiscal costs."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 2638.154,
     "end": 2658.205,
-    "text": "opportunity for enhanced business tax income this project will sustain economic value that will far exceed direct fiscal costs. Many in the audience support willard sherwood. Will those who support this project, are willing to pay reasonable fees for usage and their tax money supporting capital costs and operating cost please stand up."
+    "text": "Many in the audience support willard sherwood. Will those who support this project, are willing to pay reasonable fees for usage and their tax money supporting capital costs and operating cost please stand up."
   },
   {
     "speaker": "Unknown Speaker",
@@ -1052,10 +1064,16 @@ const TRANSCRIPT_TURNS = [
     "text": "There are issues on many fronts."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 4081.897,
+    "end": 4084.98,
+    "text": "so when the initial"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 4084.6,
     "end": 4114.761,
-    "text": "Councilmember amos. so when the initial discussion happened in MARCH I was clearly not here for that towards the end since I was out of the country. I got back and I understand there was supposed to be a recusal. For me there is only one question that needs to be answered. That would probably come from our city attorney. Is that, per your review, should councilmember hardy-chandler been included in the vote for two of the appointees, excluding her husband?"
+    "text": "discussion happened in MARCH I was clearly not here for that towards the end since I was out of the country. I got back and I understand there was supposed to be a recusal. For me there is only one question that needs to be answered. That would probably come from our city attorney. Is that, per your review, should councilmember hardy-chandler been included in the vote for two of the appointees, excluding her husband?"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2260,8 +2278,8 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 8238.721,
-    "end": 8243.857,
-    "text": "and expenditures. fantastic. Councilmember mcquillen."
+    "end": 8240.87,
+    "text": "and expenditures. fantastic."
   },
   {
     "speaker": "Unknown Speaker",
@@ -2542,8 +2560,8 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 9267.883,
-    "end": 9283.3,
-    "text": "we can, yes, and we can look to the city manager to look at a futures list to put that discussion. Thank you. Councilmember hardy-chandler."
+    "end": 9277.559,
+    "text": "we can, yes, and we can look to the city manager to look at a futures list to put that discussion. Thank you."
   },
   {
     "speaker": "Unknown Speaker",

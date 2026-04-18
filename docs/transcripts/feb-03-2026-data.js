@@ -1336,422 +1336,464 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 7341.522,
-    "end": 7371.584,
-    "text": "presentation tonight. All right. Thank you, Melissa, giving Mayor Reed, uh, and members of council. We are so pleased to give you an update today of our waste management plan update. Um, I know there s been a lot of conversation already and we noted from council members here today on topics of waste, recycling, composting. You also touched on the Saway Enterprise Fund. We appreciate your dialogue and we have duly noted your comments, um, and so we ll be very efficient with our time today, uh, but we re going to pick up on that discussion and go a little bit deeper. So, here"
+    "end": 7344.424,
+    "text": "presentation tonight. All right. Thank you, Melissa, giving"
   },
   {
+    "speaker": "Mayor Catherine Read",
+    "start": 7344.925,
+    "end": 7346.925,
+    "text": "uh, and members of"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 7346.927,
+    "end": 7377.924,
+    "text": "council. We are so pleased to give you an update today of our waste management plan update. Um, I know there s been a lot of conversation already and we noted from council members here today on topics of waste, recycling, composting. You also touched on the Saway Enterprise Fund. We appreciate your dialogue and we have duly noted your comments, um, and so we ll be very efficient with our time today, uh, but we re going to pick up on that discussion and go a little bit deeper. So, here s the a gen da We re gonna start with our so waste management plan, why we need to update it. Our project timeline"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 7378.759,
+    "end": 7409.923,
+    "text": "and where we are today. A review of our extensive outreach and engagement, the major themes we heard from the community are key strategies we would like to get your feedback on and next steps as we prepare the final draft for council, um, consideration later this spring, uh, and this agenda mirrors kind of the structure of the drafts waste management plan ensures that we address both our regulatory requirement as well as our community priorities. So next slide All right, so what is a so waste management plan, um, a swamp, uh, is what the city s"
+  },
+  {
     "speaker": "Unknown Speaker",
-    "start": 7371.584,
-    "end": 7401.747,
-    "text": "s the a gen da We re gonna start with our so waste management plan, why we need to update it. Our project timeline and where we are today. A review of our extensive outreach and engagement, the major themes we heard from the community are key strategies we would like to get your feedback on and next steps as we prepare the final draft for council, um, consideration later this spring, uh, and this agenda mirrors kind of the structure of the drafts waste management plan ensures that we address both our regulatory requirement as well as our community"
+    "start": 7410.691,
+    "end": 7416.594,
+    "text": "long-term roadmap for how we manage all uh aspects of waste. Thank you for the chuckle there,"
   },
   {
+    "speaker": "Councilmember Tom Peterson",
+    "start": 7417.498,
+    "end": 7420.65,
+    "text": "um, this twenty-year plan contains goals"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 7420.901,
+    "end": 7452.499,
+    "text": "that shape decisions related to future infrastructure such as recycling or composting sites, programs and services including curbside recycling and drop off centers, Education and outreach to help our city residents and businesses reduce and divert waste. Um, budget and policy decisions. I know we talked a lot about that here today. Um, but those decisions that support efficient, equitable, and environmentally responsible waste operations, and this plan not only meets those state requirements. It also aligns with the city s fair um city s broader sustainability and"
+  },
+  {
     "speaker": "Unknown Speaker",
-    "start": 7402.583,
-    "end": 7433.379,
-    "text": "priorities. So next slide All right, so what is a so waste management plan, um, a swamp, uh, is what the city s long-term roadmap for how we manage all uh aspects of waste. Thank you for the chuckle there, COUNCILMAN Peterson. Um, this twenty-year plan contains goals that shape decisions related to future infrastructure such as recycling or composting sites, programs and services including curbside recycling and drop off centers, Education and outreach to help our city residents and businesses reduce and divert"
+    "start": 7452.732,
+    "end": 7485.665,
+    "text": "climate goals that we touched a little bit earlier today. So the Sawate Management plan covers the entire waste stream from reduction and reuse all the way through disposal. A few important points I would like to highlight. Um, first, Virginia has 19 years of remaining landfill capacity in the state, 19 years. And, and that s a figure that reinforces the need for a long-term planning and how the city can reduce and divert materials. The second point is that since 2007, the city s municipal saw"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7434.114,
-    "end": 7465.478,
-    "text": "waste. Um, budget and policy decisions. I know we talked a lot about that here today. Um, but those decisions that support efficient, equitable, and environmentally responsible waste operations, and this plan not only meets those state requirements. It also aligns with the city s fair um city s broader sustainability and climate goals that we touched a little bit earlier today. So the Sawate Management plan covers the entire waste stream from reduction and reuse all the way through disposal. A few important points I would like"
+    "start": 7487.701,
+    "end": 7518.43,
+    "text": "was disposal costs, so the cost to throw away our trash have increased 73%, rising from $52 to $90 per ton. This trend impacts our budget and informs our strategy and why we need to reduce our waste and divert more materials. So, also, the city is required by law to meet 25% mandatory recycling rate, um, but the city aims to exceed that, um, to support sustainability and broader stewardship goals. The city is currently at a recycling rate"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7467.982,
-    "end": 7498.945,
-    "text": "to highlight. Um, first, Virginia has 19 years of remaining landfill capacity in the state, 19 years. And, and that s a figure that reinforces the need for a long-term planning and how the city can reduce and divert materials. The second point is that since 2007, the city s municipal saw was disposal costs, so the cost to throw away our trash have increased 73%, rising from $52 to $90 per ton. This trend impacts our budget and informs"
+    "start": 7519.2,
+    "end": 7552.632,
+    "text": "of 39% for the state in 2024. So the plan is updated every 5 years, but it does guide us decisions for the next 20 ultimately needs to be adopted by council. Next. So this slide shows our project timeline from fall 2024 through spring 2026. We ve completed completed, um, our project kickoff. Number of public engagement meetings, including tabling events, meetings with the esc who kindly mentioned our update, um, in the presentation just before us. We have held a public meeting open to all and a public survey that stretched from OCTOBER through DECEMBER."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7499.813,
-    "end": 7532.277,
-    "text": "our strategy and why we need to reduce our waste and divert more materials. So, also, the city is required by law to meet 25% mandatory recycling rate, um, but the city aims to exceed that, um, to support sustainability and broader stewardship goals. The city is currently at a recycling rate of 39% for the state in 2024. So the plan is updated every 5 years, but it does guide us decisions for the next 20 ultimately needs to be adopted by council. Next. So this slide shows our project timeline from"
+    "start": 7553.2,
+    "end": 7585.397,
+    "text": "We also established an advisory committee, uh, for, for this project, uh, with 4 meetings that were scheduled across this planning period with representatives both from residents, commercial business, um, as well as, uh, students, uh, from the education area. So we re now in the JANUARY through MARCH period, finalizing recommendations and we aim to return to council in APRIL for the public hearing and adoption following a submission to Virginia Department of Environmental Quality by MAY 1 of 2026. So the city s outreach effort has"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7534.215,
-    "end": 7564.308,
-    "text": "fall 2024 through spring 2026. We ve completed completed, um, our project kickoff. Number of public engagement meetings, including tabling events, meetings with the esc who kindly mentioned our update, um, in the presentation just before us. We have held a public meeting open to all and a public survey that stretched from OCTOBER through DECEMBER. We also established an advisory committee, uh, for, for this project, uh, with 4 meetings that were scheduled across this planning period with representatives both from residents, commercial business,"
+    "start": 7587.568,
+    "end": 7618.565,
+    "text": "been robust, um, incorporating both digital and in-person engagement to ensure the greatest accessibility and equity of information, um, highlights include, um, I, I will read all the numbers, but I find it very impressive, uh, 3400 web page views, community survey that we have reached a 98% confidence level over 600 survey respondents, social media impressions that uh reached across the multiple social media platforms engagement meetings that reached 50 people in person as well as event participation"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7565.646,
-    "end": 7596.409,
-    "text": "um, as well as, uh, students, uh, from the education area. So we re now in the JANUARY through MARCH period, finalizing recommendations and we aim to return to council in APRIL for the public hearing and adoption following a submission to Virginia Department of Environmental Quality by MAY 1 of 2026. So the city s outreach effort has been robust, um, incorporating both digital and in-person engagement to ensure the greatest accessibility and equity of information, um, highlights include, um, I, I"
+    "start": 7619.566,
+    "end": 7650.33,
+    "text": "that reached over 10,000. Mailers that we distributed to residents and engagements through YouTube videos and these numbers all reflect strong community interest in waste management. An additional outreach included a feature in Fairfax Now, Cityc newsletter, um, our school outreach, uh, bus sides, 8 frame signs at community locations, postcards, um, as promotional collateral. We really did, um, as much as we could to try to reach every, you know, corner of our community and this multi-channel approach really"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7596.877,
-    "end": 7631.911,
-    "text": "will read all the numbers, but I find it very impressive, uh, 3400 web page views, community survey that we have reached a 98% confidence level over 600 survey respondents, social media impressions that uh reached across the multiple social media platforms engagement meetings that reached 50 people in person as well as event participation that reached over 10,000. Mailers that we distributed to residents and engagements through YouTube videos and these numbers all reflect strong community interest in waste management. An additional outreach included a feature in"
+    "start": 7651.398,
+    "end": 7681.828,
+    "text": "helped us reach that diverse set of audiences from families in the city to commuters to multi-unit housing residents, and to s um mar ize we had almost 50,000 engagement touch points in the city, and we re very excited to see the engagement that um our residents, the city had on this topic. All right, so we heard several consistent themes across this engagement period. And first, being that according to our survey, nearly 91.5% of our respondents either strongly"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7634.315,
-    "end": 7666.279,
-    "text": "Fairfax Now, Cityc newsletter, um, our school outreach, uh, bus sides, 8 frame signs at community locations, postcards, um, as promotional collateral. We really did, um, as much as we could to try to reach every, you know, corner of our community and this multi-channel approach really helped us reach that diverse set of audiences from families in the city to commuters to multi-unit housing residents, and to s um mar ize we had almost 50,000 engagement touch points in the city, and we re very excited to see the engagement that um our"
+    "start": 7682.263,
+    "end": 7712.324,
+    "text": "agreed or somewhat agree with the statement that they support efforts to increase recycling in the city. So City of Fairfax residents care. Uh, they care about recycling. It s it s evident in our strong turnout, um, and 2nd, 92% of our respondents reported the actively recycle. And so the data shows that residents both care when they have the means and opportunity to divert materials, and they are putting that into action. So with that said, there were opportunities"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7666.347,
-    "end": 7696.8,
-    "text": "residents, the city had on this topic. All right, so we heard several consistent themes across this engagement period. And first, being that according to our survey, nearly 91.5% of our respondents either strongly agreed or somewhat agree with the statement that they support efforts to increase recycling in the city. So City of Fairfax residents care. Uh, they care about recycling. It s it s evident in our strong turnout,"
+    "start": 7712.326,
+    "end": 7743.79,
+    "text": "um that we heard from our residents, um, from the city s residents. One, strong desire for public recycling bins adjacent to trash bins that are clearly labeled. Uh, we did hear some frustration around the lack of curbside glass recycling, and that convenience factor. Um, heightened interest in composting uh including curbside pickup, low cost bins, better guidance on what s allowed, the need for clear, consistent, multilingual recycling instructions, um, requests for greater"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7696.443,
-    "end": 7729.242,
-    "text": "um, and 2nd, 92% of our respondents reported the actively recycle. And so the data shows that residents both care when they have the means and opportunity to divert materials, and they are putting that into action. So with that said, there were opportunities um that we heard from our residents, um, from the city s residents. One, strong desire for public recycling bins adjacent to trash bins that are clearly labeled. Uh, we did hear some frustration around the lack of curbside glass recycling, and that convenience factor. Um, heightened interest"
+    "start": 7743.991,
+    "end": 7776.288,
+    "text": "transparency in how recycling its processed. You might have heard that question, Is my recycling actually getting recycled, right? Um, I see some faces, yeah, and so that I, that question of what happens to our recycling? It s it really getting recycled and that trust that we need to build. Um, the demand for expanded specialty recycling drop off options, whether that is electronics or batteries and all a lot of this is is for safe disposal, um, to not protect our environment, but for our human health as well and safety. I know safety was"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7730.411,
-    "end": 7763.775,
-    "text": "in composting uh including curbside pickup, low cost bins, better guidance on what s allowed, the need for clear, consistent, multilingual recycling instructions, um, requests for greater transparency in how recycling its processed. You might have heard that question, Is my recycling actually getting recycled, right? Um, I see some faces, yeah, and so that I, that question of what happens to our recycling? It s it really getting recycled and that trust that we need to build. Um, the demand for expanded specialty recycling"
+    "start": 7776.657,
+    "end": 7809.454,
+    "text": "mentioned earlier, um, the safe disposal batteries is paramount and the risk of fires that it poses for both our employees and, you know, for um for residents. So these themes directly inform I recommend this strategies and um I m going to share some of these quotes, um, that represented quotes that capture the community sentiments. Um, I m gonna, I m not gonna read through all, but what is clear is that residents are looking for services that are convenient, cost-effective, and equitable. And they want to participate in programs that"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7764.979,
-    "end": 7795.808,
-    "text": "drop off options, whether that is electronics or batteries and all a lot of this is is for safe disposal, um, to not protect our environment, but for our human health as well and safety. I know safety was mentioned earlier, um, the safe disposal batteries is paramount and the risk of fires that it poses for both our employees and, you know, for um for residents. So these themes directly inform I recommend this strategies and um I m going to share some of these quotes, um, that represented quotes that capture the community sentiments. Um, I m gonna, I m not gonna read"
+    "start": 7809.923,
+    "end": 7842.54,
+    "text": "help reduce and recycle more, and um curbside composting glass pickup or some of the strategies they id ent ify but they re also wanting that greater transparency, uh, as I mentioned. And I know in kind of the last session you guys uh just had council members have brought some attention to different funding mechanisms, uh, such as evaluating a saw waste center price fund, um, and that was a goal that was actually part of the 2021 version of the Sawaste Management plan. So this plan has to be updated every 5 years. This is why we re here. Um, so I did want to bring attention"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7796.843,
-    "end": 7828.41,
-    "text": "through all, but what is clear is that residents are looking for services that are convenient, cost-effective, and equitable. And they want to participate in programs that help reduce and recycle more, and um curbside composting glass pickup or some of the strategies they id ent ify but they re also wanting that greater transparency, uh, as I mentioned. And I know in kind of the last session you guys uh just had council members have brought some attention to different funding mechanisms,"
+    "start": 7842.88,
+    "end": 7874.52,
+    "text": "to that quote on the bottom right, um, there where we did have some other express, the perceived inequity between single family and multifamily housing waste services, um, who gets paid, who charges for what? What services do they receive and have heard some comments about that. And so, you know, we will go a little bit deeper and um we ll have the opportunity to hear your direct feedback, um, but that is something that we are considering. So, we also heard from residents that they also truly appreciate and acknowledge the staff, uh, that"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7828.409,
-    "end": 7859.606,
-    "text": "uh, such as evaluating a saw waste center price fund, um, and that was a goal that was actually part of the 2021 version of the Sawaste Management plan. So this plan has to be updated every 5 years. This is why we re here. Um, so I did want to bring attention to that quote on the bottom right, um, there where we did have some other express, the perceived inequity between single family and multifamily housing waste services, um, who gets paid, who charges for what? What services do they receive and have heard some comments about that. And so, you know,"
+    "start": 7874.889,
+    "end": 7904.917,
+    "text": "really work hard to support the collection, program implementation such as roll out of carts as well as outreach as you can see on the bottom left corner there, and overall these comments highlight both enthusiasm and for improvement as well as the need for thoughtful implementation. Next. So we benchmark Fairfax s draft strategies against surrounding jurisdictions and uh we, we heard the importance of that as well regionally working regionally so we looked at the city of Alexandria, Fairfax County, as well as Arlington"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7860.341,
-    "end": 7893.706,
-    "text": "we will go a little bit deeper and um we ll have the opportunity to hear your direct feedback, um, but that is something that we are considering. So, we also heard from residents that they also truly appreciate and acknowledge the staff, uh, that really work hard to support the collection, program implementation such as roll out of carts as well as outreach as you can see on the bottom left corner there, and overall these comments highlight both enthusiasm and for improvement as well as the need for thoughtful implementation. Next. So we benchmark Fairfax s draft"
+    "start": 7905.152,
+    "end": 7936.582,
+    "text": "County. And for my review, there were 3 key areas, uh, where they were focusing waste reduction, recycling, and organics. And what we found is that these strategies, that the city s neighboring jurisdiction are looking to employ, are consistent with some addressing some of the concerns and solutions proposed by the city s very own community. And so some of these themes include the desire for finding ways to reduce waste, um, and that could look like container limit policies, evaluating"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7893.706,
-    "end": 7924.704,
-    "text": "strategies against surrounding jurisdictions and uh we, we heard the importance of that as well regionally working regionally so we looked at the city of Alexandria, Fairfax County, as well as Arlington County. And for my review, there were 3 key areas, uh, where they were focusing waste reduction, recycling, and organics. And what we found is that these strategies, that the city s neighboring jurisdiction are looking to employ, are consistent with some addressing some of the concerns and solutions proposed by the city"
+    "start": 7936.75,
+    "end": 7969.817,
+    "text": "alternative funding mechanisms or maybe fees, uh, and greater benchmarking through regular audits, and consistent with the city s engagement. Uh, these jurisdictions are also focusing efforts on glass recycling, uh, multi-family recycl ing and all are working towards that strong demand from residents on composting. Um, and so these comparisons really help us align in terms of best practices and maintain that regional consistency. Next. So I recommend this strategies fall into these 5 broad categories, effective"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7924.905,
-    "end": 7958.371,
-    "text": "s very own community. And so some of these themes include the desire for finding ways to reduce waste, um, and that could look like container limit policies, evaluating alternative funding mechanisms or maybe fees, uh, and greater benchmarking through regular audits, and consistent with the city s engagement. Uh, these jurisdictions are also focusing efforts on glass recycling, uh, multi-family recycl ing and all are working towards that strong demand from residents on composting. Um, and so these comparisons really help us"
+    "start": 7969.817,
+    "end": 8001.814,
+    "text": "government operations, education outreach, reduce and reuse, recycling and organics, and within each of these categories, we have identified objectives and actions that reflect the community feedback as well as that regional alignment. So to the fun part here, all right, so today we re looking for council s feedback on a set of waste and recycling strategies that we are evaluating. I want to start by saying these are not final recommendations and your feedback today will be considered as we work towards finalizing the plan. And the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7959.24,
-    "end": 7991.704,
-    "text": "align in terms of best practices and maintain that regional consistency. Next. So I recommend this strategies fall into these 5 broad categories, effective government operations, education outreach, reduce and reuse, recycling and organics, and within each of these categories, we have identified objectives and actions that reflect the community feedback as well as that regional alignment. So to the fun part here, all right, so today we re looking for council s feedback on a set of waste and recycling strategies that we are"
+    "start": 8002.283,
+    "end": 8034.214,
+    "text": "goal we want to today is to share them at high level, explain what they do, and hear your perspectives as we refine next steps, but first, um, on the top left corner there, we re considering evaluating a container limit policy. Um, bulk pickup fees and alternative funding mechanisms. So these strategies are about making sure that our system is financially sustainable, fair, and aligned with actual service use while also supporting waste reduction. And so part of that"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7993.73,
-    "end": 8027.54,
-    "text": "evaluating. I want to start by saying these are not final recommendations and your feedback today will be considered as we work towards finalizing the plan. And the goal we want to today is to share them at high level, explain what they do, and hear your perspectives as we refine next steps, but first, um, on the top left corner there, we re considering evaluating a container limit policy. Um, bulk pickup fees and alternative funding mechanisms. So these strategies are about making sure that our system is financially sustainable, fair,"
+    "start": 8035.683,
+    "end": 8066.978,
+    "text": "might be looking at evaluating, limiting what s currently placed on the curb, um, consider perhaps fees for services, um, perhaps it s, uh, bulk pick up service, um, that s quarterly or maybe by appointment, uh, or limiting what might be on the curve. So these are all just different strategies that have been looked at from other communities. Second, we are considered twinning our recycling, um, the city s recycling bins in public areas, pairing, recycling with trash in parks along with sidewalks,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8029.343,
-    "end": 8060.34,
-    "text": "and aligned with actual service use while also supporting waste reduction. And so part of that might be looking at evaluating, limiting what s currently placed on the curb, um, consider perhaps fees for services, um, perhaps it s, uh, bulk pick up service, um, that s quarterly or maybe by appointment, uh, or limiting what might be on the curve. So these are all just different strategies that have been looked at from other communities. Second, we are considered twinning our recycling, um, the city s"
+    "start": 8068.82,
+    "end": 8099.88,
+    "text": "and, and the goal is simple. Make recycling just as convenient as disposal in public spaces. Third, we are evaluating curbside Organics collection to see whether capturing food scraps and other organics could meaningfully reduce disposal and complement existing Yahweh services. Um, next, we re evaluating glass recycling options. We heard um, from council members earlier for that, including, you know, are there different approaches to make it more convenient, that a solution that balances costs, market conditions, and"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8061.809,
-    "end": 8093.173,
-    "text": "recycling bins in public areas, pairing, recycling with trash in parks along with sidewalks, and, and the goal is simple. Make recycling just as convenient as disposal in public spaces. Third, we are evaluating curbside Organics collection to see whether capturing food scraps and other organics could meaningfully reduce disposal and complement existing Yahweh services. Um, next, we re evaluating glass recycling options. We heard um, from council members earlier for that, including, you know,"
+    "start": 8099.88,
+    "end": 8130.844,
+    "text": "that envi environmental benefit. Uh, we re also looking at a commercial waste audit to better understand from the businesses community, um, what is being disposed and where the opportunities for division are. Um, and building on that, we also seek to evaluate comprehensive commercial and multi-family recycling programs to improve access, consistency and performance in a sector that generates so much of the waste stream in the city. Um, and lastly, oh sorry, so the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8093.307,
-    "end": 8123.569,
-    "text": "are there different approaches to make it more convenient, that a solution that balances costs, market conditions, and that envi environmental benefit. Uh, we re also looking at a commercial waste audit to better understand from the businesses community, um, what is being disposed and where the opportunities for division are. Um, and building on that, we also seek to evaluate comprehensive commercial and multi-family recycling programs to improve access, consistency and performance in a sector"
+    "start": 8132.246,
+    "end": 8162.774,
+    "text": "next one is looking at our saw waste ordinances and regulations to ensure that they reflect current programs, best practices and enforcement needs. And lastly, we re proposing recycling transparency education campaigns to clearly explain what can be recycled, what happens to materials, and why programs exist to help improve that trust with our residents, um, and improve participation. So, let me pause there. We wanted to um gain some of your feedback on some of these strategies, and we,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8124.505,
-    "end": 8156.202,
-    "text": "that generates so much of the waste stream in the city. Um, and lastly, oh sorry, so the next one is looking at our saw waste ordinances and regulations to ensure that they reflect current programs, best practices and enforcement needs. And lastly, we re proposing recycling transparency education campaigns to clearly explain what can be recycled, what happens to materials, and why programs exist to help improve that trust with our residents, um, and improve participation. So, let me pause"
+    "start": 8163.244,
+    "end": 8174.386,
+    "text": "again, we heard from the former session you guys talked a lot about, um, the, the on waste, but we would like love to hear more. Yeah, well, all right. Uh,"
+  },
+  {
+    "speaker": "Councilmember Anthony Amos",
+    "start": 8174.588,
+    "end": 8176.99,
+    "text": "i think everyone already knows I m"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8158.305,
-    "end": 8190.403,
-    "text": "there. We wanted to um gain some of your feedback on some of these strategies, and we, again, we heard from the former session you guys talked a lot about, um, the, the on waste, but we would like love to hear more. Yeah, well, all right. Uh, COUNCILMAN Amis. I think everyone already knows I m going the multifamily route, but I d be extremely curious on what maybe other jurisdictions do, uh, around the country on how they can address this, cause it s not just an issue that we re dealing with here, but for example, one of the big things is Americana Drive over"
+    "start": 8177.358,
+    "end": 8208.42,
+    "text": "going the multifamily route, but I d be extremely curious on what maybe other jurisdictions do, uh, around the country on how they can address this, cause it s not just an issue that we re dealing with here, but for example, one of the big things is Americana Drive over in the Braddock district. They re facing these challenges as well, and, you know, we just don t have uh my current home in the city is the first place I ve ever lived in my life where I could not recycle, and that s been odd for me. It was an adjustment in the beginning, unfortunately, I MAY have gotten used to it. I d rather"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8190.404,
-    "end": 8224.671,
-    "text": "in the Braddock district. They re facing these challenges as well, and, you know, we just don t have uh my current home in the city is the first place I ve ever lived in my life where I could not recycle, and that s been odd for me. It was an adjustment in the beginning, unfortunately, I MAY have gotten used to it. I d rather not. So how can we mitigate those circumstances? How can we help incentivize these owners to provide the opportunity for people to be able to do that because right now there s just nothing we can do or is that an American disposal Services conversation? How can we get that moving forward. Uh, I do"
+    "start": 8208.522,
+    "end": 8241.255,
+    "text": "not. So how can we mitigate those circumstances? How can we help incentivize these owners to provide the opportunity for people to be able to do that because right now there s just nothing we can do or is that an American disposal Services conversation? How can we get that moving forward. Uh, I do also want to highlight that some of the popular programs that might be worth considering or at least models that we could look at, uh, there was actually interesting story when the pandemic hit, uh, students from Centerville High School, and I can t remember their names, but two sisters formed the glass recycling network,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8224.671,
-    "end": 8256.669,
-    "text": "also want to highlight that some of the popular programs that might be worth considering or at least models that we could look at, uh, there was actually interesting story when the pandemic hit, uh, students from Centerville High School, and I can t remember their names, but two sisters formed the glass recycling network, and they actually drove around and picked up people s glass recycling for them, but then you can also look at, for example, our scout programs. They do a significant amount with e-cycling, uh, and with, with different types of clean up or even paper shredding events are always extremely popular. So maybe it s taking"
+    "start": 8241.255,
+    "end": 8272.316,
+    "text": "and they actually drove around and picked up people s glass recycling for them, but then you can also look at, for example, our scout programs. They do a significant amount with e-cycling, uh, and with, with different types of clean up or even paper shredding events are always extremely popular. So maybe it s taking that type of model that people really like, like a free type of composting or free type of solid waste event for people to attend, and we could do that through partnership. So that might be worth considering. Thank you Council Mayor"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8257.971,
-    "end": 8292.271,
-    "text": "that type of model that people really like, like a free type of composting or free type of solid waste event for people to attend, and we could do that through partnership. So that might be worth considering. Thank you Council Mayor McQuillan Sure. So I, looking on this list, um, I think evaluation of the container limit policy both pickup fee and alternative funding mechanisms, definitely is something that I would be interested in learning more about and exploring. Um, commercial waste audit. Can you"
+    "start": 8275.723,
+    "end": 8307.86,
+    "text": "McQuillan Sure. So I, looking on this list, um, I think evaluation of the container limit policy both pickup fee and alternative funding mechanisms, definitely is something that I would be interested in learning more about and exploring. Um, commercial waste audit. Can you go into a little more detail on what that entails, please? Uh, sure. So right now the, the city has pretty good data on our residential collection because we do it ourselves. So like we have our tonnage reports for what exactly is"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8292.806,
-    "end": 8328.273,
-    "text": "go into a little more detail on what that entails, please? Uh, sure. So right now the, the city has pretty good data on our residential collection because we do it ourselves. So like we have our tonnage reports for what exactly is being recycled, composted, yard waste, brush, metals, etc. We have little to no information on what is coming out of our"
+    "start": 8307.154,
+    "end": 8338.885,
+    "text": "being recycled, composted, yard waste, brush, metals, etc. We have little to no information on what is coming out of our funky, um, and they re hard to estimate. It s like a percentage of the city businesses compared to the total county waste. So it s very inaccurate. It s guestimating at best. Um, and there s a lot of potential to"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8328.309,
-    "end": 8359.439,
-    "text": "funky, um, and they re hard to estimate. It s like a percentage of the city businesses compared to the total county waste. So it s very inaccurate. It s guestimating at best. Um, and there s a lot of potential to reduce waste from the commercial sector that we just don t know how to tap into because we don t have that baseline metric. Um, so a commercial audit, uh, could look like, it could look like a lot of things, but essentially it d be, um, consultants or city staff going to a, a mix of businesses, a random sample, and seeing like what size containers do they have? Is it adequate space for trash recycling that clearly is not"
+    "start": 8338.986,
+    "end": 8369.314,
+    "text": "reduce waste from the commercial sector that we just don t know how to tap into because we don t have that baseline metric. Um, so a commercial audit, uh, could look like, it could look like a lot of things, but essentially it d be, um, consultants or city staff going to a, a mix of businesses, a random sample, and seeing like what size containers do they have? Is it adequate space for trash recycling that clearly is not happening, even though it s technically required to, um, different issue. Um, so, um finding businesses and potentially buildings that are"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8359.807,
-    "end": 8391.671,
-    "text": "happening, even though it s technically required to, um, different issue. Um, so, um finding businesses and potentially buildings that are out of compliance with regulations and seeing how we can get them up to compliance, um, using the data that we don t have. Um, so looking at where the bins are located. Is it technically up to code? Are they in compliance? If they re not, how do we help them get there? Um, so that s kind of that baseline data that we really don t have and we don t really have a, a launching off point, um, without that. Would that also take into"
+    "start": 8369.583,
+    "end": 8401.381,
+    "text": "out of compliance with regulations and seeing how we can get them up to compliance, um, using the data that we don t have. Um, so looking at where the bins are located. Is it technically up to code? Are they in compliance? If they re not, how do we help them get there? Um, so that s kind of that baseline data that we really don t have and we don t really have a, a launching off point, um, without that. Would that also take into consideration the types of waste. I know that certain businesses have certain absolutely, and that is one of the, we do have, uh, funding through a cip for a commercial"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8391.772,
-    "end": 8421.801,
-    "text": "consideration the types of waste. I know that certain businesses have certain absolutely, and that is one of the, we do have, uh, funding through a cip for a commercial waste audit, and that is one of the projects that is, um, was on the previous presentations chart for an out-year project potentially that is one of the projects that is currently paused due to staff capacity, um, but we are hoping to get that off the ground at some point. Ok, so possibly that might assist with the multifamily that could open up"
+    "start": 8401.615,
+    "end": 8433.79,
+    "text": "waste audit, and that is one of the projects that is, um, was on the previous presentations chart for an out-year project potentially that is one of the projects that is currently paused due to staff capacity, um, but we are hoping to get that off the ground at some point. Ok, so possibly that might assist with the multifamily that could open up some more options or opportunities for us. Ok, so, um, and also going back to Councilmember Amos s comment, um, then recycling transparency"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8423.504,
-    "end": 8455.802,
-    "text": "some more options or opportunities for us. Ok, so, um, and also going back to Councilmember Amos s comment, um, then recycling transparency and educational campaign might be something that s important if we have certain residents who don t know how they can recycle in their own homes. Um, we don t want that to happen, right? So I think that s a key for us as well. Um, I d like to see that prioritized and let me just make sure there s nothing else and the twin recycling bins in public. Have we considered, um, doing anything in regards to composting in"
+    "start": 8433.647,
+    "end": 8465.78,
+    "text": "and educational campaign might be something that s important if we have certain residents who don t know how they can recycle in their own homes. Um, we don t want that to happen, right? So I think that s a key for us as well. Um, I d like to see that prioritized and let me just make sure there s nothing else and the twin recycling bins in public. Have we considered, um, doing anything in regards to composting in that way. I know some communities have compost, a composting bins with the recycle and their trash at specifically very frequented"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8457.605,
-    "end": 8488.535,
-    "text": "that way. I know some communities have compost, a composting bins with the recycle and their trash at specifically very frequented areas, parks, playgrounds, schools, things like that. Have we considered that as well? Yes and no. Uh, we do have challenges with recycling in public areas right now. A lot of it is just trashed because it s so contaminated and the bins are um some of the twins are just two black containers that have like the littlest words that say recycle, um, that could and should be improved. So a lot of our public space, uh, recycling is actually getting trashed. Um,"
+    "start": 8465.346,
+    "end": 8495.808,
+    "text": "areas, parks, playgrounds, schools, things like that. Have we considered that as well? Yes and no. Uh, we do have challenges with recycling in public areas right now. A lot of it is just trashed because it s so contaminated and the bins are um some of the twins are just two black containers that have like the littlest words that say recycle, um, that could and should be improved. So a lot of our public space, uh, recycling is actually getting trashed. Um, so we have that step to take first to better recycling in our public spaces at community events, at schools, um, work on"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8489.904,
-    "end": 8519.933,
-    "text": "so we have that step to take first to better recycling in our public spaces at community events, at schools, um, work on that and then introduce composting. So it s a couple of steps, but it s, it s on the wish list of many things. Excellent, thank you so much. The thing I would add to that, you know, and there are different localities that do different things. As far as color-coded containers so that it s very obvious what is glass or paper or plastic, but we also have to have enclosed containers, especially for"
+    "start": 8496.243,
+    "end": 8529.7,
+    "text": "that and then introduce composting. So it s a couple of steps, but it s, it s on the wish list of many things. Excellent, thank you so much. The thing I would add to that, you know, and there are different localities that do different things. As far as color-coded containers so that it s very obvious what is glass or paper or plastic, but we also have to have enclosed containers, especially for composted material because there are, uh, other residents of the city who are small and have four legs and like to feed off of the composted material"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8520.201,
-    "end": 8550.93,
-    "text": "composted material because there are, uh, other residents of the city who are small and have four legs and like to feed off of the composted material that is not really compost. It s just food waste. So we have, so there s all these unintended consequences of these efforts. And so that s the other thing we have to consider is if we do this, what is the thing over here? If it s not enclosed to prevent. People feasting, uh residents feasting on. I mean, a great suggestion"
+    "start": 8530.477,
+    "end": 8562.341,
+    "text": "that is not really compost. It s just food waste. So we have, so there s all these unintended consequences of these efforts. And so that s the other thing we have to consider is if we do this, what is the thing over here? If it s not enclosed to prevent. People feasting, uh residents feasting on. I mean, a great suggestion you just had is to add like twin recycling, like enclosed containers in public places. So that s, yeah. I d like to jump in if I MAY, yes please, um, 25"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8551.732,
-    "end": 8583.129,
-    "text": "you just had is to add like twin recycling, like enclosed containers in public places. So that s, yeah. I d like to jump in if I MAY, yes please, um, 25 years are solid waste ordinance has not changed. It s obsolete and it gives us no flexibility to enforce abuse. It is very loose, and people can put anything out, and it s very hard for us to tell them that s contractor debris or to tell them that we re not picking"
+    "start": 8564.144,
+    "end": 8598.344,
+    "text": "years are solid waste ordinance has not changed. It s obsolete and it gives us no flexibility to enforce abuse. It is very loose, and people can put anything out, and it s very hard for us to tell them that s contractor debris or to tell them that we re not picking that up. So to me uh almost non-negotiable, we have to update that ordinance. It s over 25 years old and it doesn t give us any authority to determine what we pick up and what we don"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8587.467,
-    "end": 8620.432,
-    "text": "that up. So to me uh almost non-negotiable, we have to update that ordinance. It s over 25 years old and it doesn t give us any authority to determine what we pick up and what we don t. I picked up engine blocks. I picked up rolls and rolls of carpet that obviously were from a business. People have told people, hey, dump it in the city, they ll get it. And if I try not to get it and I go to the city attorney, I usually lose because the ordinance doesn t support what I want to do. So"
+    "start": 8600.681,
+    "end": 8624.971,
+    "text": "t. I picked up engine blocks. I picked up rolls and rolls of carpet that obviously were from a business. People have told people, hey, dump it in the city, they ll get it. And if I try not to get it and I go to the city attorney, I usually lose because the ordinance doesn t support what I want to do. So my vote is for that ordinance. Very wise, very wise indeed."
+  },
+  {
+    "speaker": "Councilmember Tom Peterson",
+    "start": 8626.739,
+    "end": 8629.309,
+    "text": "So, so thank you, and to build on that,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8622.203,
-    "end": 8654.299,
-    "text": "my vote is for that ordinance. Very wise, very wise indeed. Council member Peterson. So, so thank you, and to build on that, I maybe. Two things. One, I think a review. Of these areas and identification of update needs is something that you should do, not just kind of across the board and figure out how to get on the right schedule to do that. I m curious, this gets to the question mark of, uh, getting, uh, to know your customers and let me just say the anecdote here to set this up is that I"
+    "start": 8631.812,
+    "end": 8662.942,
+    "text": "I maybe. Two things. One, I think a review. Of these areas and identification of update needs is something that you should do, not just kind of across the board and figure out how to get on the right schedule to do that. I m curious, this gets to the question mark of, uh, getting, uh, to know your customers and let me just say the anecdote here to set this up is that I think one of the things that maybe we discovered or made progress on or whatever. With"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8657.671,
-    "end": 8687.901,
-    "text": "think one of the things that maybe we discovered or made progress on or whatever. With the, uh, rollout of the, uh, trash and recycling bins was a recognition that not all households are created equal. And that the fancy term for that as market segmentation, and it s really all about understanding your different audiences, the different segments of your population and how you will tailor your programs and your policies to address those uh unique but"
+    "start": 8666.346,
+    "end": 8699.78,
+    "text": "the, uh, rollout of the, uh, trash and recycling bins was a recognition that not all households are created equal. And that the fancy term for that as market segmentation, and it s really all about understanding your different audiences, the different segments of your population and how you will tailor your programs and your policies to address those uh unique but also overlapping needs. And that s obviously a cross-cutting issue. When I look into your presentation, it looks like you re doing work that relates directly to that through the surveys and so you"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8688.702,
-    "end": 8720.4,
-    "text": "also overlapping needs. And that s obviously a cross-cutting issue. When I look into your presentation, it looks like you re doing work that relates directly to that through the surveys and so you ve got surveys and responses. What do you not have? From those surveys that you would need to go back in each of these areas and and, and go through an update that would tailor things a little bit more to unique customer segments have you got what you need already? Or do you need a"
+    "start": 8700.413,
+    "end": 8731.945,
+    "text": "ve got surveys and responses. What do you not have? From those surveys that you would need to go back in each of these areas and and, and go through an update that would tailor things a little bit more to unique customer segments have you got what you need already? Or do you need a little, a little bit more interaction with folks, and a little bit more homework to figure out how to tailor make things a little bit better. Well, it s funny you mentioned that because we are kicking off sometime in this end of the fiscal year into the next"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8720.935,
-    "end": 8752.365,
-    "text": "little, a little bit more interaction with folks, and a little bit more homework to figure out how to tailor make things a little bit better. Well, it s funny you mentioned that because we are kicking off sometime in this end of the fiscal year into the next fiscal year, the residential curbside assessment, which will look at all of our residential services and look at ways we can improve them, where the ordinance needs to be updated, what services could be changed or optimized, um, potential ly decreased There s many variables, there s many options, um, our solid waste services are beloved by the community and that s a testament to our residents, a testament to our crew members who are on the"
+    "start": 8732.68,
+    "end": 8763.71,
+    "text": "fiscal year, the residential curbside assessment, which will look at all of our residential services and look at ways we can improve them, where the ordinance needs to be updated, what services could be changed or optimized, um, potential ly decreased There s many variables, there s many options, um, our solid waste services are beloved by the community and that s a testament to our residents, a testament to our crew members who are on the back of the trucks picking up trash every day and all sorts of crazy weather conditions. Um, so there is a lot to look at. There s a lot to consider, and part of that assessment will be extensive education and outreach. Um, we did see with the carts that there"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8752.833,
-    "end": 8785.733,
-    "text": "back of the trucks picking up trash every day and all sorts of crazy weather conditions. Um, so there is a lot to look at. There s a lot to consider, and part of that assessment will be extensive education and outreach. Um, we did see with the carts that there s a lot of awareness, um, there s a lot of concern that services are gonna get cut because we are in tight financial constraints, um, and there are a lot of concerns that, you know, our crew members are working so hard like they also deserve the recognition for what they do on the back of the trucks and our operations teams who are driving those big trucks and this kind of crazy snow creek that we have out here. Um, so there is a lot of awareness of"
+    "start": 8763.744,
+    "end": 8795.641,
+    "text": "s a lot of awareness, um, there s a lot of concern that services are gonna get cut because we are in tight financial constraints, um, and there are a lot of concerns that, you know, our crew members are working so hard like they also deserve the recognition for what they do on the back of the trucks and our operations teams who are driving those big trucks and this kind of crazy snow creek that we have out here. Um, so there is a lot of awareness of potential changes that could be coming down the pipeline and part of that is extensive education and outreach. So there s definitely more to do and that assessment will look at those more specifically of"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8785.733,
-    "end": 8817.497,
-    "text": "potential changes that could be coming down the pipeline and part of that is extensive education and outreach. So there s definitely more to do and that assessment will look at those more specifically of what services could and should be, um, reviewed. Well, thank you so much, and I think it s really important information to help us help you identify what to do here if we understand how it some systematic level we re understanding our residents and what their needs are and how that, uh, fits in terms of our going forward plans. So thanks"
+    "start": 8796.509,
+    "end": 8826.973,
+    "text": "what services could and should be, um, reviewed. Well, thank you so much, and I think it s really important information to help us help you identify what to do here if we understand how it some systematic level we re understanding our residents and what their needs are and how that, uh, fits in terms of our going forward plans. So thanks for doing that. Councilmember Hall Thank you. Um, I would certainly support the twin"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8817.998,
-    "end": 8848.661,
-    "text": "for doing that. Councilmember Hall Thank you. Um, I would certainly support the twin recycling bins in the public areas. I, I do think that we don t often have enough recycling bins around town. Uh, I think the recycling transparency educational campaign is really key. I do also love when you send out the statistics on how much cleaner our recycling is of late than it was, let s say a year ago, because I think that really"
+    "start": 8827.374,
+    "end": 8858.7,
+    "text": "recycling bins in the public areas. I, I do think that we don t often have enough recycling bins around town. Uh, I think the recycling transparency educational campaign is really key. I do also love when you send out the statistics on how much cleaner our recycling is of late than it was, let s say a year ago, because I think that really helps people strive to do what they are trying to do and lets us know that those efforts are being rewarded. With regard to"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8849.83,
-    "end": 8880.226,
-    "text": "helps people strive to do what they are trying to do and lets us know that those efforts are being rewarded. With regard to the container limit policy I think, you know by and large, I think the people that collect the trash are probably the best ones to let us know when they re seeing things that don t look as they should Um, and I think that we all have someone on our street or in our neighborhood who is guilty of bringing home contractor waste"
+    "start": 8858.238,
+    "end": 8889.702,
+    "text": "the container limit policy I think, you know by and large, I think the people that collect the trash are probably the best ones to let us know when they re seeing things that don t look as they should Um, and I think that we all have someone on our street or in our neighborhood who is guilty of bringing home contractor waste or putting out debris that they did not generate themselves, and I think those are are areas that we really need to try to"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8881.195,
-    "end": 8912.559,
-    "text": "or putting out debris that they did not generate themselves, and I think those are are areas that we really need to try to key in on and then MR. Summer s point, I do think that looking at our ordinance and looking at those guidelines and giving the ability to be able to inquire further about some of those areas is really key because I do think that that ends up being a very expensive way of utilizing our services in a way that they re not really intended for. Um, I know, I think it s Montgomery County,"
+    "start": 8890.271,
+    "end": 8920.431,
+    "text": "key in on and then MR. Summer s point, I do think that looking at our ordinance and looking at those guidelines and giving the ability to be able to inquire further about some of those areas is really key because I do think that that ends up being a very expensive way of utilizing our services in a way that they re not really intended for. Um, I know, I think it s Montgomery County, and I think some of the other, other areas do a bulk pickup fee. I m not sure that I m in favor of it, but I do think it"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8913.294,
-    "end": 8944.89,
-    "text": "and I think some of the other, other areas do a bulk pickup fee. I m not sure that I m in favor of it, but I do think it is worth understanding what that might look like and understanding what the costs might be behind it, because sometimes I think that educating our residents, not by fear of a new fee or a new, you know, a reduction in service, but I think by educating them on this is how much this costs, and if you do it this way"
+    "start": 8921.569,
+    "end": 8953.632,
+    "text": "is worth understanding what that might look like and understanding what the costs might be behind it, because sometimes I think that educating our residents, not by fear of a new fee or a new, you know, a reduction in service, but I think by educating them on this is how much this costs, and if you do it this way instead, it will reduce our costs or reduce our need to clean out the machines again because they were not properly re cycl ed and instead there"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8945.86,
-    "end": 8976.187,
-    "text": "instead, it will reduce our costs or reduce our need to clean out the machines again because they were not properly re cycl ed and instead there was contamination. I think just that education component is really, really helpful for people. Um, I do think that the uh you know, we, we were big on composting early on, but and I depending upon the time of year, I think we tend to do it a little bit more. It would be nice, be nice to have that curbside, but I do think that that, um, like Mayor said,"
+    "start": 8953.634,
+    "end": 8985.864,
+    "text": "was contamination. I think just that education component is really, really helpful for people. Um, I do think that the uh you know, we, we were big on composting early on, but and I depending upon the time of year, I think we tend to do it a little bit more. It would be nice, be nice to have that curbside, but I do think that that, um, like Mayor said, sometimes might have its own challenges with other residents in the city. Um, and same thing with glass recycling, and i think that s kind of hit or MISS, but for me, maybe those"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8976.49,
-    "end": 9008.722,
-    "text": "sometimes might have its own challenges with other residents in the city. Um, and same thing with glass recycling, and i think that s kind of hit or MISS, but for me, maybe those are areas in which we could do every other week or once a month as opposed to doing it consistently every week. I don t know what that involves, but I know my sister, they re here in Southern California where I am now, and they have a bag in their freezer and all of their food waste gets scraped into that bag. And then when that bag gets full, they put it out with whatever trash bin"
+    "start": 8986.667,
+    "end": 9021.601,
+    "text": "are areas in which we could do every other week or once a month as opposed to doing it consistently every week. I don t know what that involves, but I know my sister, they re here in Southern California where I am now, and they have a bag in their freezer and all of their food waste gets scraped into that bag. And then when that bag gets full, they put it out with whatever trash bin they re supposed to do. And so I think it s again it s just changing behavior and educating people and trying to give them some ideas on how they could maybe do things better. Um with regard to the commercial waste"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9008.722,
-    "end": 9043.89,
-    "text": "they re supposed to do. And so I think it s again it s just changing behavior and educating people and trying to give them some ideas on how they could maybe do things better. Um with regard to the commercial waste audit. I know we don t provide that service for our commercial businesses. So is the hope that that would be something that would just help educate them better and help them make sure that they are having the appropriate sized bins? Can you maybe comment on that one a little bit more for me in case I missed it. Uh, absolutely. So the, the commercial waste audit"
+    "start": 9022.703,
+    "end": 9054.234,
+    "text": "audit. I know we don t provide that service for our commercial businesses. So is the hope that that would be something that would just help educate them better and help them make sure that they are having the appropriate sized bins? Can you maybe comment on that one a little bit more for me in case I missed it. Uh, absolutely. So the, the commercial waste audit would look at a myriad of things, one of which is what is going into these waste streams, um, the, the waste of a, a restaurant is very different from the waist of a yoga studio. So there s very different concepts of what is going into"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9043.123,
-    "end": 9073.886,
-    "text": "would look at a myriad of things, one of which is what is going into these waste streams, um, the, the waste of a, a restaurant is very different from the waist of a yoga studio. So there s very different concepts of what is going into a dumpster, a lot like the strip malls that have communal dumpsters, stand-alone businesses have sometimes just the 64 gallon carts that get picked up, um, so there s a lot of variables and the commercial waste audit would look at all of those variables and see like what businesses are out of compliance, maybe which ones are feeding our furry friends by accident, um, where can we"
+    "start": 9054.535,
+    "end": 9084.697,
+    "text": "a dumpster, a lot like the strip malls that have communal dumpsters, stand-alone businesses have sometimes just the 64 gallon carts that get picked up, um, so there s a lot of variables and the commercial waste audit would look at all of those variables and see like what businesses are out of compliance, maybe which ones are feeding our furry friends by accident, um, where can we help them get up to compliance if they re not recycling, um, and also where can they reduce waste from the source. So restaurants have a big opportunity with food waste and composting potentially, um, some restaurants I know do"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9074.822,
-    "end": 9106.553,
-    "text": "help them get up to compliance if they re not recycling, um, and also where can they reduce waste from the source. So restaurants have a big opportunity with food waste and composting potentially, um, some restaurants I know do great things with all their scraps and like putting that into stocks and different things, but could it be done elsewhere? Grocery stores have a lot of food waste that are still in packaging. Is there an opportunity to, um, get that, you know, not even compost it, but reuse that if it s still edible. Maybe it s a little bit ugly, but the apple is still good and tas ty um, and can it be reused elsewhere? So there s a lot of opportunity with the commercial sector, um, and the, the way we thought it would"
+    "start": 9085.32,
+    "end": 9117.43,
+    "text": "great things with all their scraps and like putting that into stocks and different things, but could it be done elsewhere? Grocery stores have a lot of food waste that are still in packaging. Is there an opportunity to, um, get that, you know, not even compost it, but reuse that if it s still edible. Maybe it s a little bit ugly, but the apple is still good and tas ty um, and can it be reused elsewhere? So there s a lot of opportunity with the commercial sector, um, and the, the way we thought it would kind of look at that, um, that is a program that is, um, currently on the shelf, so we could definitely relook at the scope of it and kind of incorporate more of these principles, um, that we have been hearing feedback from the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9107.221,
-    "end": 9138.918,
-    "text": "kind of look at that, um, that is a program that is, um, currently on the shelf, so we could definitely relook at the scope of it and kind of incorporate more of these principles, um, that we have been hearing feedback from the community and one of which food waste has come up quite a bit, especially with the amount of food waste that is edible, that is getting put into the trash. Um, this is good food that could be going to anybody for use. Um, and a big opportunity we have is with schools, hearing feedbacks from like doing school food pantries of if a kid didn t eat their bag of chips, could that bag of chips go into a communal food bank at the schools for the"
+    "start": 9117.598,
+    "end": 9149.262,
+    "text": "community and one of which food waste has come up quite a bit, especially with the amount of food waste that is edible, that is getting put into the trash. Um, this is good food that could be going to anybody for use. Um, and a big opportunity we have is with schools, hearing feedbacks from like doing school food pantries of if a kid didn t eat their bag of chips, could that bag of chips go into a communal food bank at the schools for the children who need it. Um, so there s a lot, a lot of opportunities there. The commercial waste audit, um, again, is shelved right now, but we can relook at that scope and better incorporate some of these principles as well, um,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9139.53,
-    "end": 9170.95,
-    "text": "children who need it. Um, so there s a lot, a lot of opportunities there. The commercial waste audit, um, again, is shelved right now, but we can relook at that scope and better incorporate some of these principles as well, um, as well as get the data that we need for what s going to waste, where can we reduce waste, Are the containers up to compliance? Maybe help our furry friends not get fed from the dumpster s and, you know, go back into the woods, um, all that good stuff. Thank you. That s really helpful and I, I would strongly agree that there s a lot of waste at schools and other places where, you know, you get a bag of chips or you get something that you just don t"
+    "start": 9149.864,
+    "end": 9179.958,
+    "text": "as well as get the data that we need for what s going to waste, where can we reduce waste, Are the containers up to compliance? Maybe help our furry friends not get fed from the dumpster s and, you know, go back into the woods, um, all that good stuff. Thank you. That s really helpful and I, I would strongly agree that there s a lot of waste at schools and other places where, you know, you get a bag of chips or you get something that you just don t want, but it kind of comes with your meal and then it ends up getting tossed. So I think that s a really, really good area to be considering um the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9171.618,
-    "end": 9203.416,
-    "text": "want, but it kind of comes with your meal and then it ends up getting tossed. So I think that s a really, really good area to be considering um the only other thing I will say is the comprehensive commercial and multi-family recycling program. That is, is it standard or or typical that uh multi-family places just don t do recycling. Is that what you re finding, or is that not a a requirement from their, uh, service providers. So I, I can t speak to every single commercial or multi-family building. I can only speak to"
+    "start": 9179.96,
+    "end": 9210.658,
+    "text": "only other thing I will say is the comprehensive commercial and multi-family recycling program. That is, is it standard or or typical that uh multi-family places just don t do recycling. Is that what you re finding, or is that not a a requirement from their, uh, service providers. So I, I can t speak to every single commercial or multi-family building. I can only speak to those I have, uh, interacted with personally or residents who have talked to me about this. Um, a lot of places will have our airport recycling. It"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9204.585,
-    "end": 9236.316,
-    "text": "those I have, uh, interacted with personally or residents who have talked to me about this. Um, a lot of places will have our airport recycling. It s all going to the same dumpster and all getting picked up by the same place and it s all going to the transfer station to get trashed. Um, so they have recycling provided, but it s actually getting wasted. And that s where a lot of this misconception about is my recycling getting recycled come from, um, because residents are doing their best and business owners and, um, visitors in the city are trying to recycle but it ultimately ends up going into the trash and it s disheartening. Um, so I can say for absolute certainty that our curbside"
+    "start": 9210.658,
+    "end": 9241.388,
+    "text": "s all going to the same dumpster and all getting picked up by the same place and it s all going to the transfer station to get trashed. Um, so they have recycling provided, but it s actually getting wasted. And that s where a lot of this misconception about is my recycling getting recycled come from, um, because residents are doing their best and business owners and, um, visitors in the city are trying to recycle but it ultimately ends up going into the trash and it s disheartening. Um, so I can say for absolute certainty that our curbside recycling gets recycled, but that commercial sector is unknown. Um, of who s picking it up and where it"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9236.716,
-    "end": 9267.847,
-    "text": "recycling gets recycled, but that commercial sector is unknown. Um, of who s picking it up and where it s going. So that s hard to enforce because that s the data we don t have. I just wanted to add so our current ordinance does require commercial and multi-family businesses to recycle. However, we don t, one of the things we don t do, we don t do, we don t have a commercial program where we audit and, um, enforce that. And because we don t have staff capacity, that s not happening. And that s why we requested"
+    "start": 9241.388,
+    "end": 9273.286,
+    "text": "s going. So that s hard to enforce because that s the data we don t have. I just wanted to add so our current ordinance does require commercial and multi-family businesses to recycle. However, we don t, one of the things we don t do, we don t do, we don t have a commercial program where we audit and, um, enforce that. And because we don t have staff capacity, that s not happening. And that s why we requested funding to do this so we could audit to see who s in compliance, who s not, how can"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9269.283,
-    "end": 9299.79,
-    "text": "funding to do this so we could audit to see who s in compliance, who s not, how can we get them up to code, etc. But this is a gap right now. Um, we, we, we don t really have the data to know what s going on, which is probably what s really important to get this baseline data so we can take steps forward. Many businesses, um I spoke to a handful of businesses one on one with them about their solid waste needs, and a few of them have openly said that they don t recycle anymore because they got, went right to the trash and that they were paying for two"
+    "start": 9274.288,
+    "end": 9305.84,
+    "text": "we get them up to code, etc. But this is a gap right now. Um, we, we, we don t really have the data to know what s going on, which is probably what s really important to get this baseline data so we can take steps forward. Many businesses, um I spoke to a handful of businesses one on one with them about their solid waste needs, and a few of them have openly said that they don t recycle anymore because they got, went right to the trash and that they were paying for two services that they weren t getting. Council member Berhary Chan, 00 sorry, Councilor I m"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9299.79,
-    "end": 9331.911,
-    "text": "services that they weren t getting. Council member Berhary Chan, 00 sorry, Councilor I m sorry, I just had one more thing to say. Thank you. Um, I, I, we mentioned, I, I think I used the phrase before bang for your buck when we were talking with the esc and I just wanna make it clear because I think it also applies here. Bang for your buck when I said that and when I m saying it now doesn t necessarily mean best way to spend our dollars that s going to give us the most money back, but quite honestly, with some of the things that you re describing here, bang for our buck might mean going door to"
+    "start": 9305.186,
+    "end": 9336.15,
+    "text": "sorry, I just had one more thing to say. Thank you. Um, I, I, we mentioned, I, I think I used the phrase before bang for your buck when we were talking with the esc and I just wanna make it clear because I think it also applies here. Bang for your buck when I said that and when I m saying it now doesn t necessarily mean best way to spend our dollars that s going to give us the most money back, but quite honestly, with some of the things that you re describing here, bang for our buck might mean going door to door to these commercial businesses and giving education,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9333.47,
-    "end": 9365.479,
-    "text": "door to these commercial businesses and giving education, which then might reduce waste and might provide other opportunities for education. So it s not just about a money thing or a, you know, get money back situation. I think it s about what it is that we can do or staff can do in certain ways that really produces the best outcome possible for what we have to work with. So, um, I know you, Melissa have been going door to door to do a lot of things with the trash and recycling parts, and I know you re very much boots on the ground in general, so this is just another example, I think, of what you"
+    "start": 9336.45,
+    "end": 9367.479,
+    "text": "which then might reduce waste and might provide other opportunities for education. So it s not just about a money thing or a, you know, get money back situation. I think it s about what it is that we can do or staff can do in certain ways that really produces the best outcome possible for what we have to work with. So, um, I know you, Melissa have been going door to door to do a lot of things with the trash and recycling parts, and I know you re very much boots on the ground in general, so this is just another example, I think, of what you re already doing"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9365.479,
-    "end": 9397.577,
-    "text": "re already doing and how it can produce results that are probably far beyond what we could calculate at this point. So, thank you. Ok. Thank you, COUNCILMAN Hall. Councilmember Hardy Chandler. Uh, so I really appreciate the the comment by our public works director because I think just like we talked about earlier, sequence matters, so a lot of these things make sense, but some are building blocks for other things. So I think what really sets the stage for a"
+    "start": 9368.415,
+    "end": 9400.98,
+    "text": "and how it can produce results that are probably far beyond what we could calculate at this point. So, thank you. Ok. Thank you, COUNCILMAN Hall. Uh, so I really appreciate the the comment by our public works director because I think just like we talked about earlier, sequence matters, so a lot of these things make sense, but some are building blocks for other things. So I think what really sets the stage for a subsequent thing to be successful is a good way to go"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9398.245,
-    "end": 9428.273,
-    "text": "subsequent thing to be successful is a good way to go be because these don t carry, um, all the same weight or the same um impact for future programs if that makes any kind of sense. So I do think the ordinance in order to enforce anything that you implement, if you don t have the teeth to actually have that happen, it s just paperwork, right? Or it s just, um, aspirational. I ll put it that way. So I do think"
+    "start": 9401.482,
+    "end": 9434.413,
+    "text": "be because these don t carry, um, all the same weight or the same um impact for future programs if that makes any kind of sense. So I do think the ordinance in order to enforce anything that you implement, if you don t have the teeth to actually have that happen, it s just paperwork, right? Or it s just, um, aspirational. I ll put it that way. So I do think sequencing matters. I also think synergy matters because you were taking notes as the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9428.609,
-    "end": 9461.34,
-    "text": "sequencing matters. I also think synergy matters because you were taking notes as the prior group was presenting and any opportunity to merge those efforts, I think will result in more efficiency and also a sort of um, um, you know, sort of, uh, a collective impact of those effects. So where there s opportunity to bring those things together and rather than respond to these individually I also think um that going at a little bit of a higher level, a"
+    "start": 9435.349,
+    "end": 9466.112,
+    "text": "prior group was presenting and any opportunity to merge those efforts, I think will result in more efficiency and also a sort of um, um, you know, sort of, uh, a collective impact of those effects. So where there s opportunity to bring those things together and rather than respond to these individually I also think um that going at a little bit of a higher level, a communi I loved when you talked about trust, not a social worker, right? I love when you talked about trust because I"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9461.408,
-    "end": 9493.272,
-    "text": "communi I loved when you talked about trust, not a social worker, right? I love when you talked about trust because I think that some of this, um, can be more strongly embraced, um, and more impactful when it s when it starts with community effort, right? So, one of these big blocks covering everything should be the community focus in generating some of that. And I m thinking about some of our, uh, civic groups. I m thinking"
+    "start": 9470.5,
+    "end": 9500.979,
+    "text": "think that some of this, um, can be more strongly embraced, um, and more impactful when it s when it starts with community effort, right? So, one of these big blocks covering everything should be the community focus in generating some of that. And I m thinking about some of our, uh, civic groups. I m thinking about our, um, uh, city government, civic academy, sort of workshopping some of these"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9494.642,
-    "end": 9527.707,
-    "text": "about our, um, uh, city government, civic academy, sort of workshopping some of these initiatives, um, and incentivizing those ideas and uh when we talk about behavior. In addition to the information, what really impacts a lot of behavior is peer pressure, quite frankly, and things coming from our fellow or sister residents, um, as opposed to just, you know, from the city, you should do this. When you have your civic association making that a focus"
+    "start": 9501.916,
+    "end": 9533.178,
+    "text": "initiatives, um, and incentivizing those ideas and uh when we talk about behavior. In addition to the information, what really impacts a lot of behavior is peer pressure, quite frankly, and things coming from our fellow or sister residents, um, as opposed to just, you know, from the city, you should do this. When you have your civic association making that a focus area for the year that you re a member of and that you had identified with that has a"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9527.842,
-    "end": 9559.705,
-    "text": "area for the year that you re a member of and that you had identified with that has a stronger behavioral impact for change sometimes then, you know, the newsletter, let s say. Not to eliminate those things, but I think you have a very persuasive, uh, force within groups that exist within and I m, I m just imagining all of the kind of projects and initiatives that can be community-driven versus, uh, information, you know, coming from the outside, if they can be, uh, the generators of that"
+    "start": 9534.281,
+    "end": 9564.911,
+    "text": "stronger behavioral impact for change sometimes then, you know, the newsletter, let s say. Not to eliminate those things, but I think you have a very persuasive, uh, force within groups that exist within and I m, I m just imagining all of the kind of projects and initiatives that can be community-driven versus, uh, information, you know, coming from the outside, if they can be, uh, the generators of that innovation and that um that information for their neighbors, um, for their scout troop or"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9560.174,
-    "end": 9591.971,
-    "text": "innovation and that um that information for their neighbors, um, for their scout troop or whatever it is, I think those are the things that really have a longer term impact here. So I just wanna emphasize that community-driven element that I think is kind of the backbone of a lot of these initiatives. And I ll just add to that, you know, the success of the invasives program, both awareness, training, and people feeling like they could make an impact. It s the same model, recycle, repurpose, reuse. It s just not piercing people s"
+    "start": 9565.813,
+    "end": 9596.243,
+    "text": "whatever it is, I think those are the things that really have a longer term impact here. So I just wanna emphasize that community-driven element that I think is kind of the backbone of a lot of these initiatives. And I ll just add to that, you know, the success of the invasives program, both awareness, training, and people feeling like they could make an impact. It s the same model, recycle, repurpose, reuse. It s just not piercing people s conscious. I walk my dog. There s entire households, you"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9593.607,
+    "start": 9596.243,
     "end": 9626.605,
-    "text": "conscious. I walk my dog. There s entire households, you know, furniture that s, and we have a donation center that just opened. People are not thinking when they see stuff like that, that people are not being environmentally responsible. So if we re gonna talk about environmental sustainability, then, then we need to apply that to this back to councilmember Hardy. There has to be synergy. There has to be messaging and a community has to see you can t just be environmentally focused on invasives, but you don t care what s on the curb in your"
+    "text": "know, furniture that s, and we have a donation center that just opened. People are not thinking when they see stuff like that, that people are not being environmentally responsible. So if we re gonna talk about environmental sustainability, then, then we need to apply that to this back to councilmember Hardy. There has to be synergy. There has to be messaging and a community has to see you can t just be environmentally focused on invasives, but you don t care what s on the curb in your"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1760,22 +1802,28 @@ const TRANSCRIPT_TURNS = [
     "text": "neighborhood that is, that is not being responsibly recycled, repurposed, and reused appropriately. So this has to kind of be a cultural thing that comes to our city and so we can call that education, but I don t even think it s just education I think communities, neighborhoods, HOAs, whatever, have to embrace that they re committed to this. This has to be something environmental sustainability has to apply to everything. It is a lens that applies to everything, not just this or that, but everything,"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 9657.905,
-    "end": 9688.902,
-    "text": "Councilmember Amos. And to quickly follow up on Council member Hall s question and the response, something that we do need to keep in mind that I don t want to get overlooked, is that not all multi-family housing is equal, uh, uh, as a, as a developer, pretty much recycling is kind of a standard condition now for newer developments. It was not back in 1955 when Leyden Hall was developed and some of our older, uh, naturally occurring affordable housing stock, and they weren t developed with ever having recycling put in. So someone go to Leighton and tell me where you"
+    "end": 9660.406,
+    "text": "And to quickly follow up on Council member Hall"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9689.37,
-    "end": 9719.832,
-    "text": "re going to put a massive recycling bin if you decide to do it communally like how we currently do our trash. Are you gonna take away some of the parking, Leighton hole is one of the few areas in the city, I would say does not have enough parking, so good luck with that. So I, I wanna make sure that we have a realistic conversations if we re going to go out to these folks and tell them, hey, you need to make this work without actually providing a guideline or provide any advice on how we can actually get it done."
+    "start": 9660.774,
+    "end": 9691.77,
+    "text": "s question and the response, something that we do need to keep in mind that I don t want to get overlooked, is that not all multi-family housing is equal, uh, uh, as a, as a developer, pretty much recycling is kind of a standard condition now for newer developments. It was not back in 1955 when Leyden Hall was developed and some of our older, uh, naturally occurring affordable housing stock, and they weren t developed with ever having recycling put in. So someone go to Leighton and tell me where you re going to put a massive recycling bin if"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9720.267,
+    "start": 9692.238,
+    "end": 9723.17,
+    "text": "you decide to do it communally like how we currently do our trash. Are you gonna take away some of the parking, Leighton hole is one of the few areas in the city, I would say does not have enough parking, so good luck with that. So I, I wanna make sure that we have a realistic conversations if we re going to go out to these folks and tell them, hey, you need to make this work without actually providing a guideline or provide any advice on how we can actually get it done. Councilmember McQuillan I agree with, um, everything that"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 9723.17,
     "end": 9753.8,
-    "text": "Councilmember McQuillan I agree with, um, everything that council member Hardy Chandler stated, um, in sequence of events, right? So education is huge. We need that. Um, I think something else that would be a huge tool in the updating the solid waste ordinance and regulations portion and enforcement portion is when you educate our community, they look out for each other. So you can walk on my street, but we re going to let you know that, hey, did you know the goodwill down the street is accepting, um, furniture, used furniture and you can donate it there. So having those"
+    "text": "council member Hardy Chandler stated, um, in sequence of events, right? So education is huge. We need that. Um, I think something else that would be a huge tool in the updating the solid waste ordinance and regulations portion and enforcement portion is when you educate our community, they look out for each other. So you can walk on my street, but we re going to let you know that, hey, did you know the goodwill down the street is accepting, um, furniture, used furniture and you can donate it there. So having those"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2206,152 +2254,164 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 12097.411,
-    "end": 12128.73,
-    "text": "best way we can s we ll take any fdback. Think thiss a, a, a good strucre in tms of discussion for yound, and hay to tak any feedback or go in a different dection. Councilmember Hdy Chandler. I suppose m only concern is making sure that those questions are ctained and it doesn t become ae facto work session. So, um, just reay recognizin uh structure aund"
+    "end": 12109.955,
+    "text": "best way we can s we ll take any fdback. Think thiss a, a, a good strucre in tms of discussion for yound, and hay to tak any feedback or go in a different dection."
+  },
+  {
+    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "start": 12113.27,
+    "end": 12115.895,
+    "text": "I suppose m only concern is"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12130.978,
-    "end": 12162.207,
-    "text": "that. Oth questionsn this uncil mber Peterson, thanks first off for doing this, uh, beuse I think it s we were loing at a kind of long agenda tre when we got started, um. On consent, what s the difference beten uh a coent item in a regular discussion item a I asked that becau there are t elements o it. Uh, the fst is whether the uh, item is red"
+    "start": 12116.3,
+    "end": 12148.36,
+    "text": "making sure that those questions are ctained and it doesn t become ae facto work session. So, um, just reay recognizin uh structure aund that. Oth questionsn this uncil mber Peterson, thanks first off for doing this, uh, beuse I think it s we were loing at a kind of long agenda tre when we got started, um. On consent, what s the difference beten uh a"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12163.611,
-    "end": 12194.173,
-    "text": "and, and not justed but exained so somebodyan say, here s what this is. So we and others w are listening in will hav the benefit o that. An so,hat s one element of, that. And the secon is t element o questions andh, when you re dng a rular discussi thing that you certainly it not uncommon to acmmodate a numr of questions,nd I don t knowow that appach aually works re. I m well, let me just let you respond to that more rathe"
+    "start": 12149.396,
+    "end": 12179.926,
+    "text": "coent item in a regular discussion item a I asked that becau there are t elements o it. Uh, the fst is whether the uh, item is red and, and not justed but exained so somebodyan say, here s what this is. So we and others w are listening in will hav the benefit o that. An so,hat s one element of, that. And the secon is t element o questions andh, when you re dng a rular"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12194.375,
-    "end": 12224.737,
-    "text": "than guessing how that might, I thinkhat y know, I m not goino use the analogy ofou, u ll know ithen you see it as far asonsent. I d t thinkt, you know, tha that accurate, b it is to a certain degree, um, tre s certain things that we tycally wil put on here like the initi public hearing thing, tha s something that we haveone with the understandinghat we re inginghat back to, to the counl at some point. I, I d like tohink too that still beg efficient, tha as we look at the future siscussion, and I kw it s often late wn we do tha that,hat s an"
+    "start": 12180.628,
+    "end": 12212.725,
+    "text": "discussi thing that you certainly it not uncommon to acmmodate a numr of questions,nd I don t knowow that appach aually works re. I m well, let me just let you respond to that more rathe than guessing how that might, I thinkhat y know, I m not goino use the analogy ofou, u ll know ithen you see it as far asonsent. I d t thinkt, you know, tha that accurate, b it is to a certain degree, um, tre s certain things that we tycally wil put on here like the initi public hearing thing, tha s something that we haveone with the understandinghat we re"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12225.372,
-    "end": 12256.469,
-    "text": "opportity for us to s, yeah, probably not, younow let s, let shink about you kno, whether we can place that in a different spot. Ain, if, if re gettingome of this information t us early, u, meaning w have time to loo at it. We re gonna get toou a little bit earlier than you have tim to digest it better. As the ask informed qstions even aeek or so ahead of time unr t best casecenario, I m not gonna, I m n gonna to, to set the standardow, but if we couldet you information re than a wk ahead of time, then in essen you ll have"
+    "start": 12213.494,
+    "end": 12246.92,
+    "text": "inginghat back to, to the counl at some point. I, I d like tohink too that still beg efficient, tha as we look at the future siscussion, and I kw it s often late wn we do tha that,hat s an opportity for us to s, yeah, probably not, younow let s, let shink about you kno, whether we can place that in a different spot. Ain, if, if re gettingome of this information t us early, u, meaning w have time to loo at it. We re gonna get toou a little bit earlier than you have tim to digest it better. As the ask informed qstions even aeek or so ahead of time"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12256.57,
-    "end": 12286.99,
-    "text": "information wayhead of the next meeting So we, we mig b able to ask better qstions in that time frame. S, um, I, I I think we have a ongoi dialogue. We ve madeome tweaks here, uh, ctainly open to additional twes as time go o with the understanng that we wt to b efficient in the process. So ifould guesst how that mightork. Wod it be the ce that um en we are inved to ask"
+    "start": 12246.193,
+    "end": 12277.855,
+    "text": "unr t best casecenario, I m not gonna, I m n gonna to, to set the standardow, but if we couldet you information re than a wk ahead of time, then in essen you ll have information wayhead of the next meeting So we, we mig b able to ask better qstions in that time frame. S, um, I, I I think we have a ongoi dialogue. We ve madeome tweaks here, uh, ctainly open to additional twes as time go o with the understanng that we wt to b efficient in the process. So ifould"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12288.102,
-    "end": 12320.633,
-    "text": "qutions. Aboutonsent items, um. At that stage, uh, o of the first questions wld be, um what is ts? And an explanation c be given and th following tha, it might beme evident that this needs exnded discussion, a which pointe d say, let plan to pu this from the anda, and athat point, I would go throughhe normal produre for somody saying, I d like to go ahead and pull ts so w can have a little bit moreime to talkbout it. Is that a realistic approacho, but I"
+    "start": 12278.859,
+    "end": 12309.589,
+    "text": "guesst how that mightork. Wod it be the ce that um en we are inved to ask qutions. Aboutonsent items, um. At that stage, uh, o of the first questions wld be, um what is ts? And an explanation c be given and th following tha, it might beme evident that this needs exnded discussion, a which pointe d say, let plan to pu this from the anda, and"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12321.135,
-    "end": 12352.131,
-    "text": "nt the council to, to, I think so, but I think wha the council to aee tha that s th case. We are intducing a newlement. So I wan you all to be comfortable wh that. Council member Amos.O two things. One, the proposed scdule, I lik it. I, I don want a superongeeting on the 10th.Ppreciatehat. For the second item, m my oy concern,nd I know it came u previously when we talke abo boards andommissions,s that I, ain, and when it comes to"
+    "start": 12310.491,
+    "end": 12335.681,
+    "text": "athat point, I would go throughhe normal produre for somody saying, I d like to go ahead and pull ts so w can have a little bit moreime to talkbout it. Is that a realistic approacho, but I nt the council to, to, I think so, but I think wha the council to aee tha that s th case. We are intducing a newlement. So I wan you all to be comfortable wh that."
+  },
+  {
+    "speaker": "Councilmember Anthony Amos",
+    "start": 12335.682,
+    "end": 12338.218,
+    "text": "O two things. One, the proposed"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12352.6,
-    "end": 12385.431,
-    "text": "effiency, making surehat we re not just summaring every conse item and I can alrey extend wt c might often be longer meetings.H, I understand the s certain things I need additional explanation a request to pull from the agend should probably happen beforee get o the dias anyy. So if there s somethinghat someone wts to flag for additiol information, I, I feel like overa as a council bn fairly recepve to that, uh, ase ve shift in this pross. So I, I think the me we can doarlier, the tter ratherhanaiting till esday and everyoneind of looks at each oer like, oh. So I think it s bt to aid"
+    "start": 12339.153,
+    "end": 12369.915,
+    "text": "scdule, I lik it. I, I don want a superongeeting on the 10th.Ppreciatehat. For the second item, m my oy concern,nd I know it came u previously when we talke abo boards andommissions,s that I, ain, and when it comes to effiency, making surehat we re not just summaring every conse item and I can alrey extend wt c might often be longer meetings.H, I understand the s certain things I need additional explanation a request to pull from the agend should probably happen beforee get o the dias anyy. So if there s"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12387.968,
-    "end": 12418.95,
-    "text": "that and b efficient. Council member McQuillan I agree with that. I, I d also say that I do t know that many peoe wait until le 5 minut beforehe meeting to want to row that out there. I thi it s usuly people just, y know, we trying our bt, t I think I like theroposed schedule. I think this looks really good. I appreate the futures lis and usaving the oprtunity to dcuss these things a week or two in advance. I thi we have a really good process gng and, um, I appreciate all the wk on it."
+    "start": 12370.184,
+    "end": 12402.481,
+    "text": "somethinghat someone wts to flag for additiol information, I, I feel like overa as a council bn fairly recepve to that, uh, ase ve shift in this pross. So I, I think the me we can doarlier, the tter ratherhanaiting till esday and everyoneind of looks at each oer like, oh. So I think it s bt to aid that and b efficient. Council member McQuillan I agree with that. I, I d also say that I do t know that many peoe wait until le 5 minut beforehe meeting to want to row that out there. I thi it s usuly people just, y know, we trying our bt,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12421.334,
-    "end": 12453.32,
-    "text": "Than you. Cncil member Hall thoughts, questions fdback? Ye, yeah, I, I appreciate this very much I know the connt agenda has tended to be aoint of contentio just because it s not somethinghat we often have a ton of iormation on, d I recognize thatt s inteed to be a way to move quickly through the anda items,utometimes we jus don t knowxactly what we re reeing t or why and I think th that s where se of these key queions come up. Um, I ll say from a staff persctive, I reall appreciate the advanced notic"
+    "start": 12403.383,
+    "end": 12433.413,
+    "text": "t I think I like theroposed schedule. I think this looks really good. I appreate the futures lis and usaving the oprtunity to dcuss these things a week or two in advance. I thi we have a really good process gng and, um, I appreciate all the wk on it. Than you. Cncil member Hall thoughts, questions fdback? Ye, yeah, I, I appreciate this very much I know the connt agenda has tended to be aoint of contentio just because it s not somethinghat we often"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12453.634,
-    "end": 12484.497,
-    "text": "of som of tse items that we ve beenetting most cently. It sllowed some time fore to thi about I, toespond back a ask some question tory to understand, u know what exactly is trying to be accplished by a specific im rather tha it s alreadyoo late a theublic got the agea the sameay that we did so. Thatdition of us being able toeview and as questio and understand has been extremelyelpful. So I m vy much suprtive o the oposed changes t the agenda fo thepcoming 2 weeks. I knowt"
+    "start": 12434.882,
+    "end": 12468.47,
+    "text": "have a ton of iormation on, d I recognize thatt s inteed to be a way to move quickly through the anda items,utometimes we jus don t knowxactly what we re reeing t or why and I think th that s where se of these key queions come up. Um, I ll say from a staff persctive, I reall appreciate the advanced notic of som of tse items that we ve beenetting most cently. It sllowed some time fore to thi about I, toespond back a ask some question tory to understand, u know what exactly is trying to be accplished by a specific im rather tha it s"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12485.698,
-    "end": 12518.932,
-    "text": "s a loto fit in, and I think tha this loo to be a good wayo move forward wit it. So tha you. A other question, cments, Council member Peterson?H, just to clarify, um comment I made about explaining the items,t wasn t my intenti to suggest that thectual uh item shod be read atength, but rather some qui summary of I, a lay trslation, if you will,nd just, um, t, and, and maybe any essential updat. So as an"
+    "start": 12468.182,
+    "end": 12500.779,
+    "text": "alreadyoo late a theublic got the agea the sameay that we did so. Thatdition of us being able toeview and as questio and understand has been extremelyelpful. So I m vy much suprtive o the oposed changes t the agenda fo thepcoming 2 weeks. I knowt s a loto fit in, and I think tha this loo to be a good wayo move forward wit it. So tha you. A other question, cments, Council member Peterson?H, just to clarify, um comment I made"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12519.33,
-    "end": 12550.463,
-    "text": "example tohat is the noise ordinance, which we have discussed befe, but there also bn some flow of information he in t last week, particulay related to ow remal that I think is rth calling outnd I think it wld be well for theity attorney to be abl t explain how tt s being addressed under, uh, wt welready have That wasn t necessarily tally clear borehand. So that would anxample of an explation at I think wld be very helpfu to everybody. Any other quesons, comments, Council"
+    "start": 12501.882,
+    "end": 12535.81,
+    "text": "about explaining the items,t wasn t my intenti to suggest that thectual uh item shod be read atength, but rather some qui summary of I, a lay trslation, if you will,nd just, um, t, and, and maybe any essential updat. So as an example tohat is the noise ordinance, which we have discussed befe, but there also bn some flow of information he in t last week, particulay related to ow remal that I think is rth calling outnd I think it wld be well for theity attorney to be abl t explain how tt s being addressed"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12553.333,
-    "end": 12589.902,
-    "text": "member Peterson. Just a qck note o the uh board and commission intervis. M not su what our roster looks like right now now in terms of vacancies, but I believe we ha vacanes for more than just the planning commiion, and I m justondering whether wasur intentiono limit this only tohose two or whher we mighte able to look at the broader lis. Can you help me understand the game plan the. I believe it was dueo time constraint I, I"
+    "start": 12536.283,
+    "end": 12566.946,
+    "text": "under, uh, wt welready have That wasn t necessarily tally clear borehand. So that would anxample of an explation at I think wld be very helpfu to everybody. Any other quesons, comments, Council member Peterson. Just a qck note o the uh board and commission intervis. M not su what our roster looks like right now now in terms of vacancies, but I believe we ha vacanes for more than"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12591.871,
-    "end": 12622.935,
-    "text": "cod, um. The 17thas the meetin that the cncilad agreed t have for boa and commissi interviews. My assution is it would he been full nht of interviews um Planning commiion has 2 vancies, and therere 2 applicants. Thats a hh profile profile board.O it wa sap s recommendation that ose two at the very least, those two come forward, youow have 6 agenda items aft those intervws. Pbably gonna go"
+    "start": 12567.448,
+    "end": 12599.45,
+    "text": "just the planning commiion, and I m justondering whether wasur intentiono limit this only tohose two or whher we mighte able to look at the broader lis. Can you help me understand the game plan the. I believe it was dueo time constraint I, I cod, um. The 17thas the meetin that the cncilad agreed t have for boa and commissi interviews. My assution is it would he"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12623.336,
-    "end": 12654.566,
-    "text": "we pas 10 P.M., so addin more intervis. Cncils discreon, but it lle a late nit Thank y.Hat s, that s lpful, but I am curious. Think we got a note saying tha only within the lt day or two, uh, one spotas onedp on the plaing commission. I that s thease, I m wondeng whether there has beeneally adequa time for people to exess an interest s that we would hav a full s of folks"
+    "start": 12599.78,
+    "end": 12630.41,
+    "text": "been full nht of interviews um Planning commiion has 2 vancies, and therere 2 applicants. Thats a hh profile profile board.O it wa sap s recommendation that ose two at the very least, those two come forward, youow have 6 agenda items aft those intervws. Pbably gonna go we pas 10 P.M., so addin more intervis. Cncils discreon, but it lle a late nit Thank y.Hat s, that s"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12655.2,
-    "end": 12688.1,
-    "text": "to tk to. I mea, this is like kind of an ornight deal. Is, um, hever, the prevus position has bn uh, adverted for 1 month, 2 months s for, for a couple months, um andhere are only 2 people that alied for that position. Ok, well, as a practical matter, I assum that as is aays the case, iould be the council srerogative to"
+    "start": 12631.412,
+    "end": 12661.507,
+    "text": "lpful, but I am curious. Think we got a note saying tha only within the lt day or two, uh, one spotas onedp on the plaing commission. I that s thease, I m wondeng whether there has beeneally adequa time for people to exess an interest s that we would hav a full s of folks to tk to. I mea, this is like kind of an ornight deal."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12690.437,
-    "end": 12727.606,
-    "text": "um invite addional applications o its csi, yeah. If I could jus add one other thing, um, for the 17th, originally your meeting was heduledor 7 P.M. We requesting tt you start at 30 t do those interviews so we can srt the work session orhe, uh regular special meeting. At 7 if counc, if we canet a quorum. Uh, acclamation cncil member hall, does that workor you? Yes."
+    "start": 12663.844,
+    "end": 12695.475,
+    "text": "Is, um, hever, the prevus position has bn uh, adverted for 1 month, 2 months s for, for a couple months, um andhere are only 2 people that alied for that position. Ok, well, as a practical matter, I assum that as is aays the case, iould be the council srerogative to um invite addional applications o its csi, yeah. If I could jus add one other"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12728.876,
-    "end": 12760.906,
-    "text": "Does it work for eveone else seems lik it works for everyone. If I, what is the start timeor FEBRUARY 10? I thinke MAY hav some earlier activies. The reption s at 6, and Ihink there s a csed, osed mting at 6:30. I think have a:30 closed meeng, right,hank you. So yea yeah Anythinglse? For theood of"
+    "start": 12697.745,
+    "end": 12730.643,
+    "text": "thing, um, for the 17th, originally your meeting was heduledor 7 P.M. We requesting tt you start at 30 t do those interviews so we can srt the work session orhe, uh regular special meeting. At 7 if counc, if we canet a quorum. Uh, acclamation cncil member hall, does that workor you? Yes. Does it work for eveone else seems lik it works for"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12761.208,
-    "end": 12791.87,
-    "text": "theody Anything, council member hall. No, I m good. Thank you very much. Ok, gre, all rightouncil member Amos has nhing to do withhis but Ihink we all eour appreciati for public wor staff,irst responders and everyo durg ts snow creek an shout outo city manager Dan Alexandereing out there withhe shovel. We appreate you. It was, it was a tm effort. Ias a supreme effort I think everyone wen above and beyond,nd I know a lot of"
+    "start": 12733.814,
+    "end": 12767.78,
+    "text": "everyone. If I, what is the start timeor FEBRUARY 10? I thinke MAY hav some earlier activies. The reption s at 6, and Ihink there s a csed, osed mting at 6:30. I think have a:30 closed meeng, right,hank you. So yea yeah Anythinglse? For theood of theody Anything, council member hall. No, I m good."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12791.971,
-    "end": 12822.68,
-    "text": "people on this dt got emails an tried the best to answer, respond, cooinate, forward the things tt people were saying we an issue for the. That shat sets our cit apart fr all the others, so thank you, and withat we are council member Person, just to addo that, myppreciation, um, actually jt to note that at 1 inquiredhether council might be able to eress appreciaon by stopping by t command cter with doughnuts, and I w told the re too busy"
+    "start": 12767.982,
+    "end": 12798.445,
+    "text": "Thank you very much. Ok, gre, all rightouncil member Amos has nhing to do withhis but Ihink we all eour appreciati for public wor staff,irst responders and everyo durg ts snow creek an shout outo city manager Dan Alexandereing out there withhe shovel. We appreate you. It was, it was a tm effort. Ias a supreme effort I think everyone wen above and beyond,nd I know a lot of people on this dt got emails an tried the best to answer, respond, cooinate, forward the things tt people were"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12822.937,
-    "end": 12853.999,
-    "text": "pushing snow to e any donuts. So we deal with thatater, but I do want to ne that yeah the, thehe city operatn on snow has been full court press, bust to note also in my neighborhoo on Sunday,e had not less than 5 water main baks during the day And that s um something, so, uh, tha all got resved and I do want to tha Fairfax Water becae they reall worked hard and fast to f all that, and"
+    "start": 12798.445,
+    "end": 12831.342,
+    "text": "saying we an issue for the. That shat sets our cit apart fr all the others, so thank you, and withat we are council member Person, just to addo that, myppreciation, um, actually jt to note that at 1 inquiredhether council might be able to eress appreciaon by stopping by t command cter with doughnuts, and I w told the re too busy pushing snow to e any donuts. So we deal with thatater, but I do want to ne that yeah the, thehe city"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12854.1,
-    "end": 12886.333,
-    "text": "they had a longist ofhese thgs to doll across the city,ut one of the tngs that s clear from the experience ts year and last on that I these cold weather snap have conseences and, u know, it gets tohe climate change plan we talked about earlier I forecasting extreme events but I did he aong conversion with Fafax Water, and they were very clear tha this was a temperature-inced issue here. And so they re going to be updatingheir forecast statistics and meling around, you know,epair and maintence schedules and wt have you, but I just want to note, u, that that"
+    "start": 12831.812,
+    "end": 12862.307,
+    "text": "operatn on snow has been full court press, bust to note also in my neighborhoo on Sunday,e had not less than 5 water main baks during the day And that s um something, so, uh, tha all got resved and I do want to tha Fairfax Water becae they reall worked hard and fast to f all that, and they had a longist ofhese thgs to doll across the city,ut one of the tngs that s clear from the experience ts year and last"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12886.333,
+    "start": 12863.143,
     "end": 12891.27,
-    "text": "s been a rticular big issue in, in addition to erything else. Ok,"
+    "text": "on that I these cold weather snap have conseences and, u know, it gets tohe climate change plan we talked about earlier I forecasting extreme events but I did he aong conversion with Fafax Water, and they were very clear tha this was a temperature-inced issue here. And so they re going to be updatingheir forecast statistics and meling around, you know,epair and maintence schedules and wt have you, but I just want to note, u, that that s been a rticular big issue in, in addition to erything else. Ok,"
   }
 ];
 

@@ -55,10 +55,12 @@ def chunk_segments(segments: list[dict[str, Any]], target_seconds: int = 30, max
     start = None
     end = None
     buf_hint = ""
+    buf_hint_strength = ""
     active_hint = ""
+    active_hint_strength = ""
 
     def flush():
-        nonlocal buf, start, end, buf_hint
+        nonlocal buf, start, end, buf_hint, buf_hint_strength
         if start is None or end is None:
             return
         text = normalize_ws(" ".join(buf))
@@ -66,11 +68,14 @@ def chunk_segments(segments: list[dict[str, Any]], target_seconds: int = 30, max
             out = {"start": float(start), "end": float(end), "text": text}
             if buf_hint:
                 out["speaker_hint"] = str(buf_hint)
+            if buf_hint_strength:
+                out["speaker_hint_strength"] = str(buf_hint_strength)
             turns.append(out)
         buf = []
         start = None
         end = None
         buf_hint = ""
+        buf_hint_strength = ""
 
     for seg in segments:
         # Preserve explicit speaker-change boundaries (from captions parsing).
@@ -79,15 +84,28 @@ def chunk_segments(segments: list[dict[str, Any]], target_seconds: int = 30, max
                 flush()
             # New speaker started. If a hint is provided, use it; otherwise clear.
             active_hint = str(seg.get("speaker_hint") or "").strip()
+            active_hint_strength = str(seg.get("speaker_hint_strength") or "").strip()
             if not active_hint:
                 active_hint = ""
+                active_hint_strength = ""
 
-        # If we see a new hint mid-stream, treat it as a boundary.
         seg_hint = str(seg.get("speaker_hint") or "").strip()
-        if seg_hint and seg_hint != active_hint:
-            if buf:
-                flush()
-            active_hint = seg_hint
+        seg_hint_strength = str(seg.get("speaker_hint_strength") or "").strip()
+
+        # For "explicit" hints (>> speaker tags), we carry the hint forward across segments
+        # until the next new_speaker boundary.
+        if seg_hint and seg_hint_strength == "explicit":
+            if seg_hint != active_hint:
+                if buf:
+                    flush()
+                active_hint = seg_hint
+                active_hint_strength = "explicit"
+
+        # Compute the effective hint for this segment.
+        # - If the segment itself has a hint, use it.
+        # - Otherwise, only inherit the active hint when it was explicit.
+        effective_hint = seg_hint or (active_hint if active_hint_strength == "explicit" else "")
+        effective_strength = seg_hint_strength or (active_hint_strength if effective_hint else "")
 
         s = float(seg.get("start", 0) or 0)
         e = float(seg.get("end", s) or s)
@@ -96,11 +114,17 @@ def chunk_segments(segments: list[dict[str, Any]], target_seconds: int = 30, max
         if not t:
             continue
 
+        # If the hint context changes (or falls back to unknown), split the turn to avoid
+        # misattributing unlabeled text to a previously inferred speaker.
+        if start is not None and (buf_hint or "") != (effective_hint or ""):
+            flush()
+
         if start is None:
             start = s
             end = e
             buf = [t]
-            buf_hint = active_hint
+            buf_hint = effective_hint
+            buf_hint_strength = effective_strength
         else:
             end = e
             buf.append(t)
@@ -149,13 +173,28 @@ def segments_from_webvtt(vtt_text: str) -> list[dict[str, Any]]:
                 out.append(p[:1].upper() + p[1:].lower() if p else "")
         return "".join(out)
 
+    def _norm_for_hint(s: str) -> str:
+        """Normalize for hint parsing (drop punctuation)."""
+        s = (s or "").strip().lower()
+        s = re.sub(r"[^a-z\-\'\s]", " ", s)
+        s = re.sub(r"\s+", " ", s).strip()
+        return s
+
+    def _norm_for_header(s: str) -> str:
+        """Normalize for header parsing (keep simple punctuation like ,:.)."""
+        s = (s or "").strip().lower()
+        # Keep comma/colon/period for boundary detection.
+        s = re.sub(r"[^a-z0-9\-\'\s,\.:]", " ", s)
+        s = re.sub(r"\s+", " ", s).strip()
+        return s
+
     def parse_speaker_hint(line: str) -> str:
         """Parse a speaker hint from a caption line after stripping leading '>>'.
 
         Only returns hints for explicit, trustworthy patterns.
         """
         l = (line or "").strip()
-        low = l.lower()
+        low = _norm_for_hint(l)
 
         # Known 2026 Fairfax, VA council roster (last token in captions is often last name).
         # We canonicalize common caption misspellings via fuzzy matching.
@@ -204,7 +243,7 @@ def segments_from_webvtt(vtt_text: str) -> list[dict[str, Any]]:
             # Unknown/unreliable token.
             return ""
 
-        m = re.match(r"^(councilmember)\s+([a-z][a-z\-']+)", low)
+        m = re.match(r"^(council\s*member|councilmember|councilman|councilwoman)\s+([a-z][a-z\-']+)", low)
         if m:
             last = canon_last(m.group(2))
             if not last:
@@ -231,6 +270,66 @@ def segments_from_webvtt(vtt_text: str) -> list[dict[str, Any]]:
                 return "City Manager David Coll"
             return ""
         return ""
+
+    def split_inline_speaker_header(line: str) -> tuple[str, str]:
+        """Detect and strip an inline speaker header at the start of a cue line.
+
+        Examples:
+          - "Councilmember Hall. Thank you..."
+          - "Council member Hardy Chandler: I move..."
+          - "Mayor Read, members of council, ..." (comma is common in these captions)
+
+        Returns (speaker_hint, remainder_text). If no header detected, returns ("", original).
+        """
+        orig = (line or "").strip()
+        cleaned = _norm_for_header(orig)
+
+        # Council member header, require a punctuation boundary '.' or ':' (more trustworthy).
+        m = re.match(
+            r"^(council\s*member|councilmember|councilman|councilwoman)\s+([a-z\-']+)(?:\s+([a-z\-']+))?\s*[:\.]\s*(.*)$",
+            cleaned,
+        )
+        if m:
+            title = m.group(1)
+            p1 = (m.group(2) or "").strip()
+            p2 = (m.group(3) or "").strip()
+            remainder = (m.group(4) or "").strip()
+            # If the remainder immediately looks like another label list, skip (roll call, etc.).
+            if remainder.startswith("council") or remainder.startswith("mayor"):
+                return "", orig
+            name_raw = " ".join([x for x in [p1, p2] if x]).strip()
+            parts = [p for p in name_raw.split(" ") if p]
+            last = "-".join(parts) if len(parts) >= 2 else (parts[0] if parts else "")
+            hint = parse_speaker_hint(f"{title} {last}")
+            if hint and remainder:
+                # Best-effort remainder reconstruction using original line (keep case/punct).
+                # Find the first occurrence of punctuation after the title+name span.
+                mm = re.match(
+                    r"^(?:Council\s*member|Councilmember|Councilman|Councilwoman)\s+[A-Za-z\-']+(?:\s+[A-Za-z\-']+)?\s*[:\.]\s*(.*)$",
+                    orig,
+                )
+                if mm:
+                    return hint, (mm.group(1) or "").strip()
+                return hint, remainder
+            return (hint, remainder) if hint else ("", orig)
+
+        # Mayor header, allow comma as well (common: "Mayor Read, members of council").
+        m = re.match(r"^(mayor)\s+([a-z\-']+)\s*[,\.:]\s*(.*)$", cleaned)
+        if m:
+            remainder = (m.group(3) or "").strip()
+            if remainder.startswith("council") or remainder.startswith("mayor"):
+                return "", orig
+            hint = parse_speaker_hint(f"mayor {m.group(2)}")
+            if hint:
+                mm = re.match(r"^(?:Mayor)\s+[A-Za-z\-']+\s*[,\.:]\s*(.*)$", orig)
+                if mm:
+                    return hint, (mm.group(1) or "").strip()
+                return hint, remainder
+        return "", orig
+
+    def looks_like_label_only(line: str) -> bool:
+        t = _norm_for_hint(line)
+        return bool(re.match(r"^(council\s*member|councilmember|councilman|councilwoman|mayor)\b", t))
 
     while i < len(lines):
         line = lines[i].lstrip("\ufeff").strip()
@@ -264,6 +363,7 @@ def segments_from_webvtt(vtt_text: str) -> list[dict[str, Any]]:
         buf_lines: list[str] = []
         new_speaker = False
         speaker_hint = ""
+        speaker_hint_strength = ""
         while i < len(lines) and lines[i].strip() != "":
             ln = lines[i].strip()
             if ln.startswith(">>"):
@@ -271,6 +371,34 @@ def segments_from_webvtt(vtt_text: str) -> list[dict[str, Any]]:
                 ln = ln[2:].lstrip()
                 if not speaker_hint:
                     speaker_hint = parse_speaker_hint(ln)
+                    if speaker_hint:
+                        speaker_hint_strength = "explicit"
+
+            # Inline headers (without the '>>' marker) are only trusted at the very start
+            # of a cue to avoid false positives from wrapped lines like:
+            #   "... seconded by" / "Council member Amos. ..."
+            if not speaker_hint and not buf_lines:
+                ihint, remainder = split_inline_speaker_header(ln)
+                if ihint:
+                    # If the header line is *only* a name/title (no remainder), it is often
+                    # a roll-call artifact. Only accept it if the next line looks like
+                    # actual speech, not another label.
+                    if not remainder:
+                        j = i + 1
+                        nxt = ""
+                        while j < len(lines) and lines[j].strip() != "":
+                            nxt = lines[j].strip()
+                            if nxt:
+                                break
+                            j += 1
+                        if nxt and looks_like_label_only(nxt):
+                            ihint = ""  # ignore ambiguous roll-call label
+
+                    if ihint:
+                        speaker_hint = ihint
+                        speaker_hint_strength = "inline"
+                        new_speaker = True
+                        ln = remainder
             buf_lines.append(ln)
             i += 1
 
@@ -288,6 +416,7 @@ def segments_from_webvtt(vtt_text: str) -> list[dict[str, Any]]:
                 "text": text,
                 "new_speaker": bool(new_speaker),
                 "speaker_hint": speaker_hint,
+                "speaker_hint_strength": speaker_hint_strength,
             })
             sid += 1
 

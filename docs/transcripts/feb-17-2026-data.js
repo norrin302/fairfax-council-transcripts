@@ -166,110 +166,116 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 891.372,
-    "end": 922.35,
-    "text": "try, um, and as I mentioned, the application would be based on updated ridership and fare projections. Um that was, again, these, these are the numbers they were provided in the last presentation. Um, that concludes my presentation. I know I ran through that pretty quickly, but I think it, it s self-explanatory. Question Council member Peterson. Well, I want to reach back, if I might, something I uh didn t include in our last agenda item. I think I misspoke when I uh, didn t include all of the"
+    "end": 909.491,
+    "text": "try, um, and as I mentioned, the application would be based on updated ridership and fare projections. Um that was, again, these, these are the numbers they were provided in the last presentation. Um, that concludes my presentation. I know I ran through that pretty quickly, but I think it, it s self-explanatory. Question"
+  },
+  {
+    "speaker": "Councilmember Tom Peterson",
+    "start": 909.491,
+    "end": 911.491,
+    "text": "Well,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 922.47,
-    "end": 955.602,
-    "text": "council members who MAY have been uh part of the community contact uh process at Picco Road. I know Councilmember Hall s been involved in that. I know others MAY have as well, but I didn t want to leave any of the council members out of that process because I know that it s been very active with everybody. Thank you. Council member McQuillan Sorry, I have to switch gears. Um, are there any unforeseen or um not any foreseen or potential issues if we receive the grant but don t accept it or decide not to use"
+    "start": 912.427,
+    "end": 945.858,
+    "text": "I want to reach back, if I might, something I uh didn t include in our last agenda item. I think I misspoke when I uh, didn t include all of the council members who MAY have been uh part of the community contact uh process at Picco Road. I know Councilmember Hall s been involved in that. I know others MAY have as well, but I didn t want to leave any of the council members out of that process because I know that it s been very active with everybody. Thank you. Council member McQuillan Sorry, I have"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 957.506,
-    "end": 989.37,
-    "text": "it in some manner. If we were selected for the 2nd trip grant, we would find out sometime in the spring it would coincide with budget adoption, and so we would have the opportunity to say we re not interested if, if you all decide to take a different direction, um, but I didn t want to MISS This window to potentially receive this money if we could. I appreciate that. Thank you so much. Council member Hardy Chandler if you know, can you speak to why jurisdictions haven t applied for a second grant or would have been the hurdles or barriers to that. I, I don t know when I when I reached out to the staff about this, they said, well, we don t know any other jurisdictions that have"
+    "start": 946.228,
+    "end": 976.758,
+    "text": "to switch gears. Um, are there any unforeseen or um not any foreseen or potential issues if we receive the grant but don t accept it or decide not to use it in some manner. If we were selected for the 2nd trip grant, we would find out sometime in the spring it would coincide with budget adoption, and so we would have the opportunity to say we re not interested if, if you all decide to take a different direction, um, but I didn t want to MISS This window to potentially receive this money if we could. I appreciate that. Thank you so much. Council member Hardy Chandler"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 989.404,
-    "end": 1020.866,
-    "text": "asked, and I said, ok, well, I m going to ask. So, um that s it. I don t know the, I don t know the answer to that. Well, let me applaud you for going ahead and trying It s sort of the Oliver Twist moment. Please, sir, MAY I have another? Ok, Councilmember Amos. Oh, council member hall Thank you and thank you, COUNCILMAN Peterson. That was very kind. Um, bit of an unrelated question, but can you just remind us on how you"
+    "start": 978.761,
+    "end": 1009.79,
+    "text": "if you know, can you speak to why jurisdictions haven t applied for a second grant or would have been the hurdles or barriers to that. I, I don t know when I when I reached out to the staff about this, they said, well, we don t know any other jurisdictions that have asked, and I said, ok, well, I m going to ask. So, um that s it. I don t know the, I don t know the answer to that. Well, let me applaud you for going ahead and trying It s sort of the Oliver Twist moment. Please, sir, MAY I have another? Ok, Councilmember Amos. Oh, council"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1024.373,
-    "end": 1054.969,
-    "text": "calculate ridership. For, for the regard to the u bus trips. Oh, how do we, we have automatic passenger counters on our bus. So they detect when a person gets on the bus and when they, a person gets off the bus. So we have, um, that s how we know what our ridership is and we also know it by stop because it detects when a person gets on or off at a stop. So we know on s at a stop and off s at a stop. Ok, but you don t necessarily know, and I wouldn t expect it to, that I get on it, stop a and I stay on through step f. No, we don t have individual ridership information like that, no. Ok. So, but you, you do know how many people are on a bus at any"
+    "start": 1011.226,
+    "end": 1043.925,
+    "text": "member hall Thank you and thank you, COUNCILMAN Peterson. That was very kind. Um, bit of an unrelated question, but can you just remind us on how you calculate ridership. For, for the regard to the u bus trips. Oh, how do we, we have automatic passenger counters on our bus. So they detect when a person gets on the bus and when they, a person gets off the bus. So we have, um, that s how we know what our ridership is and we also know it by stop because it detects when a person gets on or off at a stop. So we know on s at a stop and off s at a stop. Ok, but you don t"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1055.337,
-    "end": 1086.0,
-    "text": "given time then throughout the time, ok, that s very helpful. Thank you. Council member Amos I just wanted to say thank you again for doing this. Uh, I know we had a discussion on this back in NOVEMBER with the q uh Qbus, and I think there was expressed interest on trying to keep the zero fare option going, uh, juice for the squeeze as we described it, um, and I, I suspect that if we are able to pull this off and get a second one, there probably won t be a 3rd. So, uh, just consideration of future outlook"
+    "start": 1043.925,
+    "end": 1076.958,
+    "text": "necessarily know, and I wouldn t expect it to, that I get on it, stop a and I stay on through step f. No, we don t have individual ridership information like that, no. Ok. So, but you, you do know how many people are on a bus at any given time then throughout the time, ok, that s very helpful. Thank you. Council member Amos I just wanted to say thank you again for doing this. Uh, I know we had a discussion on this back in NOVEMBER with the q uh Qbus, and I think there was expressed interest on trying to keep the zero fare option going, uh, juice for the squeeze as we described it, um,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1086.267,
-    "end": 1116.496,
-    "text": "if we were to be awarded what that would look like in year 4, just so we have a strategy moving forward. Other questions or comments? Council member Peterson? I would only say that a bird in the hand is or two in the bush, so go for it. Anyone else? Um, of course I m a, I m a longtime fan of the q, one of the original writers from 1981, and I say that with pride, but I think we need to look at the qus and our overall goals, missions, and vision for the"
+    "start": 1078.961,
+    "end": 1110.756,
+    "text": "and I, I suspect that if we are able to pull this off and get a second one, there probably won t be a 3rd. So, uh, just consideration of future outlook if we were to be awarded what that would look like in year 4, just so we have a strategy moving forward. Other questions or comments? Council member Peterson? I would only say that a bird in the hand is or two in the bush, so go for it. Anyone else? Um, of course I m a, I m a longtime fan of the q, one of the original writers from 1981, and I say that with pride, but"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1118.499,
-    "end": 1151.298,
-    "text": "city, which is to get people that ridership regardless of whether they pay or they don t meets our long-term goals of getting people around the city without cars. So, you know, when we see that ridership go up, we have to understand that our whole goal for the city is to get people on buses or bikes or sidewalks. And so if introducing a fair, and we have to think about that, ends up reducing the number of people who ride, then that s why we talked about is, is the juice worth the squeeze if we make a little bit of money, but we don t actually feed our"
+    "start": 1111.593,
+    "end": 1141.623,
+    "text": "I think we need to look at the qus and our overall goals, missions, and vision for the city, which is to get people that ridership regardless of whether they pay or they don t meets our long-term goals of getting people around the city without cars. So, you know, when we see that ridership go up, we have to understand that our whole goal for the city is to get people on buses or bikes or sidewalks. And so if introducing a fair, and we have to think about that, ends up reducing the number of people"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1152.334,
-    "end": 1184.232,
-    "text": "long-term goals of being a community that uses transit. Um, and again, the free cubus means people of all ages can use it, and that is students as well as senior citizens and everybody in between. So very interested in seeing if we can move this forward, and I m appreciate you asking. So I m going to ask, is there a motion, Councilmember Hardy Chandler? I move to approve a resolution endorsing the city s application to the Virginia Department of Rail and Public Transportations, Transit,"
+    "start": 1141.623,
+    "end": 1173.521,
+    "text": "who ride, then that s why we talked about is, is the juice worth the squeeze if we make a little bit of money, but we don t actually feed our long-term goals of being a community that uses transit. Um, and again, the free cubus means people of all ages can use it, and that is students as well as senior citizens and everybody in between. So very interested in seeing if we can move this forward, and I m appreciate you asking. So I m going to ask, is there a motion, Councilmember"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1185.1,
-    "end": 1217.498,
-    "text": "ridership incentive program. Is there a second? A motion s been made by a Council member Hardy Chandler and seconded by Councilmember Peterson. Is there any discussion on the motion? Seeing nonero call vote. Council member McQuillan. Council member Bates. Council member Peterson. Council member Hardy Chandler. Hi, Council member Hall, Council member Amos, motion passed unanimously. We ll go on to the next item, which is a consideration of a resolution to adopt the Affordable housing strategic Plan. I"
+    "start": 1176.391,
+    "end": 1207.455,
+    "text": "Hardy Chandler? I move to approve a resolution endorsing the city s application to the Virginia Department of Rail and Public Transportations, Transit, ridership incentive program. Is there a second? A motion s been made by a Council member Hardy Chandler and seconded by Councilmember Peterson. Is there any discussion on the motion? Seeing nonero call vote. Council member Bates. Council member Peterson. Council member Hardy Chandler. Hi, Council member Hall, Council member"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1217.498,
-    "end": 1248.495,
-    "text": "ll recognize Jamie Ergus, our housing programs manager, to provide the staff report. Good evening, Mayor and council. Um, as Melissa just shared, I m here in regards to the Affordable housing strategic plan. Um, this was actually a consent agenda item in the JANUARY meeting. The snow happened. This was pushed to the special meeting. So, um, I m really just providing a short introduction in the highest level refresher, um, tpma, the consultant that developed the Affordable housing strategic plan brought"
+    "start": 1208.122,
+    "end": 1238.51,
+    "text": "Amos, motion passed unanimously. We ll go on to the next item, which is a consideration of a resolution to adopt the Affordable housing strategic Plan. I ll recognize Jamie Ergus, our housing programs manager, to provide the staff report. Good evening, Mayor and council. Um, as Melissa just shared, I m here in regards to the Affordable housing strategic plan. Um, this was actually a consent agenda item in the JANUARY meeting. The snow happened. This was pushed"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1249.498,
-    "end": 1279.526,
-    "text": "this forward in NOVEMBER for a work session discussion. Um, they started working on the plan about a year and a half ago in the summer 2024. They conducted in-depth analysis and research, uh, coupled with extensive community engagement. So they did, uh, a couple initiatives to outreach to the community, including a survey which received almost 700 responses. Um. One key finding of the research was that 50% of our renters and about 20% of our homeowners in the city of Fairfax, um, are cost burdened,"
+    "start": 1239.421,
+    "end": 1272.853,
+    "text": "to the special meeting. So, um, I m really just providing a short introduction in the highest level refresher, um, tpma, the consultant that developed the Affordable housing strategic plan brought this forward in NOVEMBER for a work session discussion. Um, they started working on the plan about a year and a half ago in the summer 2024. They conducted in-depth analysis and research, uh, coupled with extensive community engagement. So they did, uh, a couple initiatives to outreach to the community, including a survey which received almost 700 responses. Um. One key finding"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1280.129,
-    "end": 1310.358,
-    "text": "meaning that they pay more than 30% of their income towards their housing. This is just one of the key findings that I think highlights the importance of this topic. Um, the plan itself has 3 core focus areas, uh, affordable housing development, affordable housing preservation, as well as strengthening community services and programs. So really 2/3 of the program, uh, uh, the plan itself, um, focusing on existing programs, right? Or existing housing. I would like to say that the Affordable Housing Strategic Plan is a milestone. It s the first of its kind in the city."
+    "start": 1273.221,
+    "end": 1305.86,
+    "text": "of the research was that 50% of our renters and about 20% of our homeowners in the city of Fairfax, um, are cost burdened, meaning that they pay more than 30% of their income towards their housing. This is just one of the key findings that I think highlights the importance of this topic. Um, the plan itself has 3 core focus areas, uh, affordable housing development, affordable housing preservation, as well as strengthening community services and programs. So really 2/3 of the program, uh, uh, the plan itself, um, focusing on existing programs, right? Or existing housing. I"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1310.358,
-    "end": 1340.753,
-    "text": "Uh, we ve also reached a milestone. The housing division is now a year old. The Housing and Healthy Community Advisory Board is now a year old. Uh, the plan does identify goals, strategies, and actions as well as potential partners to engage, best practices to explore and timelines to consider in the implementation of the plan. Uh, adoption of the plan establishes a policy framework and direction. It does not automatically authorize specific projects, funding allocations, or regulatory changes. So as noted in the"
+    "start": 1305.921,
+    "end": 1338.251,
+    "text": "would like to say that the Affordable Housing Strategic Plan is a milestone. It s the first of its kind in the city. Uh, we ve also reached a milestone. The housing division is now a year old. The Housing and Healthy Community Advisory Board is now a year old. Uh, the plan does identify goals, strategies, and actions as well as potential partners to engage, best practices to explore and timelines to consider in the implementation of the plan. Uh, adoption of the plan establishes a policy framework and direction. It does not automatically authorize specific projects, funding allocations, or regulatory"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1340.756,
-    "end": 1372.487,
-    "text": "staff report for this evening, um, recommending the adoption of the Affordable housing strategic Plan, alternative actions are to not adopt or to differ. That concludes the introduction ok, are there questions of MISS Ergus about this? Council member Peterson, well, just a comment, and that is thank you very much for this. I appreciate also the opportunity that has been created to have some q&a uh with staff, you know, leading up to this. And uh this is, as I understand it, the beginning of something that will, uh,"
+    "start": 1338.753,
+    "end": 1369.548,
+    "text": "changes. So as noted in the staff report for this evening, um, recommending the adoption of the Affordable housing strategic Plan, alternative actions are to not adopt or to differ. That concludes the introduction ok, are there questions of MISS Ergus about this? Council member Peterson, well, just a comment, and that is thank you very much for this. I appreciate also the opportunity that has been created to have some q&a uh with staff, you know, leading up to this. And uh this is, as"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1373.821,
-    "end": 1404.785,
-    "text": "need continued work and attention. If I could use the baseball analogy. It sounds like we re somewhere around first base, but we ve got more work to do to get all the way around to the home plate. So that s gonna take some time and some effort and some support that we provide to you to help you get to that finish line, and that would include things like targets, but we re a ways off from being at that point, but what we do have before us is a framework here to be able to initiate that process so that it doesn t have to be further delayed in order to do"
+    "start": 1369.885,
+    "end": 1399.913,
+    "text": "I understand it, the beginning of something that will, uh, need continued work and attention. If I could use the baseball analogy. It sounds like we re somewhere around first base, but we ve got more work to do to get all the way around to the home plate. So that s gonna take some time and some effort and some support that we provide to you to help you get to that finish line, and that would include things like targets, but we re a ways off from being at that point, but what we do have before us is a framework here to be able to initiate that process so"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1404.919,
-    "end": 1435.382,
-    "text": "that under the framework. So if I m understanding this correctly, it sounds like a very constructive found ation al starting place for us to move forward. You Any other questions or comments? The only thing I would say is it s a living document because some of the things that are happening in the General Assembly, MAY or MAY not impact it and that s every year, things that happen in the General Assembly MAY or MAY not impact the tools we have. So, um, I think this is a great start. I mean, this is a great foundation, uh, I, I, you"
+    "start": 1400.14,
+    "end": 1431.913,
+    "text": "that it doesn t have to be further delayed in order to do that under the framework. So if I m understanding this correctly, it sounds like a very constructive found ation al starting place for us to move forward. You Any other questions or comments? The only thing I would say is it s a living document because some of the things that are happening in the General Assembly, MAY or MAY not impact it and that s every year, things that happen in the General Assembly MAY or MAY not impact the tools we have. So, um, I think this is a"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1435.684,
+    "start": 1432.815,
     "end": 1466.247,
-    "text": "ve done an excellent job. Our consultants did an excellent job in gathering the research and talking to the community about what our priorities are. So I appreciate all the work um, council member Hardy Chandler, is there a motion? I move that the city council approve the resolution to adopt the City of Fairfax Affordable housing strategic Plan as presented, directing city staff to use the plan as a strategic framework to guide future study, prioritize it prioritization and policy"
+    "text": "great start. I mean, this is a great foundation, uh, I, I, you ve done an excellent job. Our consultants did an excellent job in gathering the research and talking to the community about what our priorities are. So I appreciate all the work um, council member Hardy Chandler, is there a motion? I move that the city council approve the resolution to adopt the City of Fairfax Affordable housing strategic Plan as presented, directing city staff to use the plan as a strategic framework to guide future study, prioritize it prioritization and policy"
   },
   {
     "speaker": "Unknown Speaker",

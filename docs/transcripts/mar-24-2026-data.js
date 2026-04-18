@@ -122,7 +122,7 @@ const TRANSCRIPT_TURNS = [
     "text": "so are we just amending that? - we're just acknowledging we are removing it, all right. Roll call vote."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 804.186,
     "end": 806.722,
     "text": "amos. aye. council member hall. aye."
@@ -134,13 +134,13 @@ const TRANSCRIPT_TURNS = [
     "text": "council member hardy-chandler. aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 809.257,
     "end": 810.593,
     "text": "council member peterson. aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "start": 811.894,
     "end": 814.396,
     "text": "council member bates. aye. council member mcquillen. aye."
@@ -596,19 +596,19 @@ const TRANSCRIPT_TURNS = [
     "text": "second. a motion has been made by council member hardy-chandler and seconded by council member peterson."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Rachel McQuillen",
     "start": 2746.162,
     "end": 2748.73,
     "text": "council member mcquillen. aye. council member bates. aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 2748.998,
     "end": 2751.834,
     "text": "council member peterson. aye. council member hardy-chandler. aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 2751.834,
     "end": 2754.202,
     "text": "council member hall. aye. council member amos."
@@ -728,10 +728,16 @@ const TRANSCRIPT_TURNS = [
     "text": "questions. questions on this?"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 3331.113,
+    "end": 3333.682,
+    "text": "just to build on the last"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 3334.517,
     "end": 3353.268,
-    "text": "Council member peterson. just to build on the last point on the education component of it. What is the thinking and planning around continuing and perhaps even enhancing the education underway between now and the time we taking as on take action on this?"
+    "text": "point on the education component of it. What is the thinking and planning around continuing and perhaps even enhancing the education underway between now and the time we taking as on take action on this?"
   },
   {
     "speaker": "Unknown Speaker",
@@ -794,7 +800,7 @@ const TRANSCRIPT_TURNS = [
     "text": "situations where there's repeat violations. And we attempt to deal with those as much as possible. But overall, I think most people agree we do not have a big noise problem in the city. So again, this is designed to deal with the worst offenders, designed to give folks guidelines. It is not designed to eliminate all noise. That's just an unreasonable expectation and an unreasonable standard."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 3607.39,
     "end": 3609.39,
     "text": "council member peterson."
@@ -1048,8 +1054,8 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 4446.462,
-    "end": 4453.4,
-    "text": "there we go, we have a motion and a second. Is there any discussion on this motion? Council member bates."
+    "end": 4450.566,
+    "text": "there we go, we have a motion and a second. Is there any discussion on this motion?"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1076,37 +1082,43 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you. other comments?"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 4540.99,
-    "end": 4573.655,
-    "text": "Council member hall. thank you. Just to kind of follow up on some of the comments that were made. And I expect that you will be doing this already, but I think we need to be very clear to some of these communities what this ordinance will be and what it won't be, and I know that you said that, but I also know that some of these areas like residential next to industrial creates its own challenges. And I don't know if we're able to reduce traffic on a road? Or mitigate hours at which trucks can go down. What I will say to our police"
+    "end": 4543.592,
+    "text": "thank you."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4574.523,
+    "start": 4543.759,
+    "end": 4576.523,
+    "text": "Just to kind of follow up on some of the comments that were made. And I expect that you will be doing this already, but I think we need to be very clear to some of these communities what this ordinance will be and what it won't be, and I know that you said that, but I also know that some of these areas like residential next to industrial creates its own challenges. And I don't know if we're able to reduce traffic on a road? Or mitigate hours at which trucks can go down. What I will say to our police department is that I think that"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 4577.326,
     "end": 4606.688,
-    "text": "department is that I think that area is continually ripe for drag racing and street racing. And enforcement. And I bet the money you could make in a weekend would maybe be enough to do some really fun things. So I think there's certainly areas that we can work on, but I think the legal answer of what we can't do and whether we can or cannot delay a by-right development, I think that information would be helpful to be shared to the appropriate people. So thank you."
+    "text": "area is continually ripe for drag racing and street racing. And enforcement. And I bet the money you could make in a weekend would maybe be enough to do some really fun things. So I think there's certainly areas that we can work on, but I think the legal answer of what we can't do and whether we can or cannot delay a by-right development, I think that information would be helpful to be shared to the appropriate people. So thank you."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 4608.9,
     "end": 4640.654,
     "text": "council member amos? thank you. Excellent wok, greatly appreciate your efforts on this. When I worked for fairfax county, unfortunately one of my topics was noise. And it's one of the most difficult things to enforce in any local jurisdiction, primarily because we don't have a lot of enforcement mechanisms to work with. Typically what was recommended was, especially if it's late at night, post-business hours, contact the police. At least there's a record to track that there has been continual disturbance. But part of what's going into"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 4640.656,
     "end": 4670.683,
     "text": "this is to expand our enforcement capabilities to the degree that we can so we can at least do a better job and have more consistency moving forward. And I concur, I wish it didn't take so long. There's things we asked for last year and sometimes unfortunately that's just a government process, but there's draft language that goes into it and then recently we received a number of comments as people tend to find things out a day or two right before we have a public hearing, so making sure that we have the utmost consideration for everyone involved. Because there are still a number"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 4670.753,
     "end": 4693.808,
     "text": "of questions and I think to the city attorney's point, the goal is to probably review this at least a little bit more frequently. What gets passed or doesn't get passed is not going to be the mainstay for the next 30 years. Things are constantly changing and we need to keep up, so what ever gets enacted, that's not the end of the road. Thank you."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "start": 4694.244,
     "end": 4696.244,
     "text": "council member bates."
@@ -1136,7 +1148,7 @@ const TRANSCRIPT_TURNS = [
     "text": "to issue a warrant. And sometimes that can achieve compliance and enforcement as well."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 4805.988,
     "end": 4807.988,
     "text": "council member peterson?"
@@ -1172,7 +1184,7 @@ const TRANSCRIPT_TURNS = [
     "text": "you're amazing neighbors all of you and I appreciate you. And with that, a roll call vote."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 4894.877,
     "end": 4897.38,
     "text": "council member amos. aye. council member hall. aye."
@@ -1184,13 +1196,13 @@ const TRANSCRIPT_TURNS = [
     "text": "council member hardy-chandler. aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 4899.482,
     "end": 4902.384,
     "text": "council member peterson. aye. council member bates. aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Rachel McQuillen",
     "start": 4902.752,
     "end": 4932.279,
     "text": "council member mcquillen. aye. motion passes unanimously. We will go on to the next public hearing which is the public hearing on the proposed fy 27 budget. This is the second public hearing of the proposed fy 27 budget. The city manager presented on FEBRUARY 24th, 2026. I have three people who had signed up prior to the meeting and then once those three people speak, we'll open up the floor if there's anybody else in the room. I will call the first person up,"
@@ -2860,8 +2872,8 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 11864.18,
-    "end": 11871.318,
-    "text": "this. other questions? Councilmember hardy-chandler."
+    "end": 11865.914,
+    "text": "this. other questions?"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3158,10 +3170,16 @@ const TRANSCRIPT_TURNS = [
     "text": "questions and comments."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 13128.843,
+    "end": 13131.613,
+    "text": "thank you, excellent"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13133.149,
     "end": 13146.995,
-    "text": "Councilmember amos. thank you, excellent presentation and one question that could be answered tonight and another that can't. Back to slide 12 briefly for clarity. Is residential falling -- does multifamily fall under"
+    "text": "presentation and one question that could be answered tonight and another that can't. Back to slide 12 briefly for clarity. Is residential falling -- does multifamily fall under"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3236,10 +3254,16 @@ const TRANSCRIPT_TURNS = [
     "text": "of kids painting as well. other questions?"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 13277.227,
+    "end": 13280.61,
+    "text": "just a detailed question on"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13282.598,
     "end": 13298.646,
-    "text": "Councilmember peterson. just a detailed question on slide 11, the first line there is complete preliminary design for project in daniels run project and public outreach. Two questions, the first at this stage do you have concept what that might look like? and to get to the point is this like mosby woods?"
+    "text": "slide 11, the first line there is complete preliminary design for project in daniels run project and public outreach. Two questions, the first at this stage do you have concept what that might look like? and to get to the point is this like mosby woods?"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3650,7 +3674,7 @@ const TRANSCRIPT_TURNS = [
     "text": "yes, sir."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 14398.347,
     "end": 14400.347,
     "text": "council member amos."
@@ -3668,7 +3692,7 @@ const TRANSCRIPT_TURNS = [
     "text": "departments and with this unique budget that had an interesting rate proposed. Even from the public hearings we've had so far rhel elatively low attendance. I can be amenable to that. I do prefer the larger scale event."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 14453.836,
     "end": 14467.81,
     "text": "I understand that's more resources. council member peterson. It's for the city manager to come back on a suggestion how we might proceed. Is that fair?"
@@ -3914,7 +3938,7 @@ const TRANSCRIPT_TURNS = [
     "text": "JULY 1st is the first date it would be effective."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 15428.11,
     "end": 15430.11,
     "text": "council member amos."
@@ -3938,7 +3962,7 @@ const TRANSCRIPT_TURNS = [
     "text": "still have as the city did until the city changed its charter that are different from that. apples to apples I could give a few more examples."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 15498.614,
     "end": 15500.614,
     "text": "council member hall."
@@ -3992,7 +4016,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I just up here and staff we're all working much harder than what you see on a tuesday night."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Anthony Amos",
     "start": 15713.83,
     "end": 15736.251,
     "text": "council member amos. just one observation, and obviously I appreciate the information you did send around what neighboring jurisdictions will the fairfax planning commission gets a 25 $25,000 stipend. They do make double what we make per year."
@@ -4130,7 +4154,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Introductions of ordinances."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 16222.772,
     "end": 16224.772,
     "text": "council member hall."
@@ -4190,7 +4214,7 @@ const TRANSCRIPT_TURNS = [
     "text": "absolutely. I think additionally certainly ample opportunity on that evening as we discuss it to go into further detail, answer your questions relative to that information that's there that ultimately provides that"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 16348.97,
     "end": 16350.31,
     "text": "context. council member peterson."
@@ -4295,7 +4319,7 @@ const TRANSCRIPT_TURNS = [
     "speaker": "Unknown Speaker",
     "start": 16557.106,
     "end": 16590.4,
-    "text": "no, thank you. Council member amos. Happy to share that we're doing a higher align fair. But date, time it will be daring lion APRIL 14th, wednesday. It's a small little fair for businesses to come for free. If they're offering internships or."
+    "text": "no, thank you. Happy to share that we're doing a higher align fair. But date, time it will be daring lion APRIL 14th, wednesday. It's a small little fair for businesses to come for free. If they're offering internships or."
   },
   {
     "speaker": "Unknown Speaker",
@@ -4340,7 +4364,7 @@ const TRANSCRIPT_TURNS = [
     "text": "council member hardy chandler. I want to in encourage people to attend the village in the city. Lots of engaged people. Really excited about that coming up. And just in general progress being made on the youth sports forum. More to come."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "start": 16749.899,
     "end": 16751.899,
     "text": "council member peterson"
@@ -4370,7 +4394,7 @@ const TRANSCRIPT_TURNS = [
     "text": "But the construction has really come along. And it's worth to see what that's looking like. At the same time that construction process must have been hammered by having the better month of a month of ice and below average temperatures. But I think it's well worth looking at and I want to give kudos to everyone working. given the night of the hour I'm"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "start": 16883.866,
     "end": 16885.8,
     "text": "going to call it appear. council member bates."
@@ -4382,31 +4406,31 @@ const TRANSCRIPT_TURNS = [
     "text": "thank you. No comments."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Rachel McQuillen",
     "start": 16888.504,
     "end": 16921.936,
     "text": "council member Mcquillan. thank you. I want to thank everyone who came out and made a public comment and then I wanted to share a few opportunities for our community to come together in. Tomorrow evening at 7 sherwood will story sprint presented with fall with the book festival. Three authors will have 20 minutes to finish a book suggested by the opening and"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Rachel McQuillen",
     "start": 16923.305,
     "end": 16955.936,
     "text": "closing lines. Beginning at 5:30. It's one of my favorite events they hold there. They'll have cultural dispraise. Student performances, the student performances start at 6:30. Do not MISS That. Next week we have the extreme night egg hunt that's going to take base at historic blenham. On more serious note I want to"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Rachel McQuillen",
     "start": 16956.872,
     "end": 16990.305,
     "text": "acknowledge the recent at old dominion earth. My son is a student there. So this felt especially close to home. On a personal note that same son will be celebrating his 19th birthday next week and I just have to give him a shout-out and tell everyone how proud I am. Finally with the easter weekend I want to wish everybody who celebrates a happy easter."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 16992.775,
     "end": 17024.139,
     "text": "council member hall the arc of virginia. The f cultural which yes is happening in the evening. Also the small pran outreach meeting is also on the thursday night. I will be at northern virginia re- regional conference so I'm going to MISS It all."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Stacy Hall",
     "start": 17025.775,
     "end": 17027.775,
     "text": "So I'm going to adjourn us."

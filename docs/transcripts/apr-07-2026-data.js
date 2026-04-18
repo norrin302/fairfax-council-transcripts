@@ -1658,16 +1658,22 @@ const TRANSCRIPT_TURNS = [
     "text": "re actually listening at the time, so. Good old pandemic. And I think it helps people participate in the moment. You know, I, because we need to be able to hear from people and understand, and they need to understand us, especially people giving public comment. I think that s a struggle. If people are doing it in English and that s not their primary language, it d be great if they could do it in their language, knowing that all of us would hear exactly what they re saying as they re saying it. I, I think that s such a game changer. This is, this is such a game changer, just huge."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Rachel McQuillen",
     "start": 9003.653,
-    "end": 9035.818,
-    "text": "Councilmember McQuillan. I think this also just kind of compliments, you know, in our meetings, we added the closed caption element, which I personally love to use when some of our speakers that come out for public comment, whether they speak too quietly or a little softly or just can t make out a word. That s been really helpful and I just see this as, you know, being an extension of that, but for other, other languages. So this is great. I love this. Thank you. Wow. Anything else? Anything, I think we ve got, we re just all enthusiastic here, just a ball of enthusiasm"
+    "end": 9006.256,
+    "text": "I think this also just kind of"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9036.153,
+    "start": 9006.524,
+    "end": 9038.153,
+    "text": "compliments, you know, in our meetings, we added the closed caption element, which I personally love to use when some of our speakers that come out for public comment, whether they speak too quietly or a little softly or just can t make out a word. That s been really helpful and I just see this as, you know, being an extension of that, but for other, other languages. So this is great. I love this. Thank you. Wow. Anything else? Anything, I think we ve got, we re just all enthusiastic here, just a ball of enthusiasm right here in this room. So I"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 9038.556,
     "end": 9068.851,
-    "text": "right here in this room. So I should make headway on this I think. I think enthusiastically, yes. Oh, thank you for your time. We re really excited to share that. I m glad that you felt the same way. We re very excited. Thank you so much. Thank you. MS. Shinneberry, what do we have next? Well, our last item is a discussion on the proposed fy 2027 budget. General fund questions and discussion. I m gonna recognize Daniel Alexander, our city manager for the discussion. We hope your re just as enthusiastic. Uh, and, and I"
+    "text": "should make headway on this I think. I think enthusiastically, yes. Oh, thank you for your time. We re really excited to share that. I m glad that you felt the same way. We re very excited. Thank you so much. Thank you. MS. Shinneberry, what do we have next? Well, our last item is a discussion on the proposed fy 2027 budget. General fund questions and discussion. I m gonna recognize Daniel Alexander, our city manager for the discussion. We hope your re just as enthusiastic. Uh, and, and I"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1798,164 +1804,170 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 9780.631,
-    "end": 9812.28,
-    "text": "So, um, being consistent with that, I am not opposed to introducing it. Council member Bates. I support introducing it. Council member McQuillan. Absolutely, yes. Ok, there you have it. Yes, councilmember Hall, thank you. Um, it wasn t covered more fully, and there MAY be a reason why this wasn t discussed further, but if we go back to budget memo one, there s, and again, I m not trying to tax the crap out of everybody, just trying to understand. There s another line for services, business, personnel, repair. We re at"
+    "end": 9788.67,
+    "text": "So, um, being consistent with that, I am not opposed to introducing it. Council member Bates. I support introducing it."
+  },
+  {
+    "speaker": "Councilmember Rachel McQuillen",
+    "start": 9789.73,
+    "end": 9790.939,
+    "text": "Absolutely, yes. Ok, there you"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9812.963,
-    "end": 9845.6,
-    "text": "0.27. The Northern Virginia average is 0.3. The state maximum is 0.36. Was that another area of consideration? I m curious what that would generate, and I m also curious what types of businesses that kind of covers and what we d be looking at there. Um, sorry, one more point. Whether we jump up to 0.48 in our advertisement or if we decide to implement in stages? Is that something that could be open for discussion when we add an introduction to"
+    "start": 9793.11,
+    "end": 9823.573,
+    "text": "have it. Yes, councilmember Hall, thank you. Um, it wasn t covered more fully, and there MAY be a reason why this wasn t discussed further, but if we go back to budget memo one, there s, and again, I m not trying to tax the crap out of everybody, just trying to understand. There s another line for services, business, personnel, repair. We re at 0.27. The Northern Virginia average is 0.3. The state maximum is 0.36. Was that another area of consideration? I m curious what that would generate, and I m also curious"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9847.298,
-    "end": 9877.428,
-    "text": "this next week. I know you re looking at me. I m sorry. Waiting to see if there s any other questions, those are them. Thank you. Um, so question, let me start backwards. So question number 2. In discussion with the city attorney, um, sort of came up and his advice to us is very similarly to the max advertise rate on the real estate tax. Once you set it, you can always go down, but you cannot go up. So our recommendation would be to advertise if we"
+    "start": 9825.509,
+    "end": 9855.772,
+    "text": "what types of businesses that kind of covers and what we d be looking at there. Um, sorry, one more point. Whether we jump up to 0.48 in our advertisement or if we decide to implement in stages? Is that something that could be open for discussion when we add an introduction to this next week. I know you re looking at me. I m sorry. Waiting to see if there s any other questions, those are them. Thank you. Um, so question, let me start backwards. So question"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9877.428,
-    "end": 9909.325,
-    "text": "re going to make the change on that one specific item advertised 0.48 if council so chooses collectively, you could reduce that. To whatever you want to go. But if you start up 0.41 you cannot go above 0.41. So our recommendation would be advertise the max. If need be, pull back Thank you very much. i would agree with that. Uh, question number one, it s because I m going in reverse, uh, services like you noted was"
+    "start": 9857.475,
+    "end": 9889.737,
+    "text": "number 2. In discussion with the city attorney, um, sort of came up and his advice to us is very similarly to the max advertise rate on the real estate tax. Once you set it, you can always go down, but you cannot go up. So our recommendation would be to advertise if we re going to make the change on that one specific item advertised 0.48 if council so chooses collectively, you could reduce that. To whatever you want to"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9909.627,
-    "end": 9940.89,
-    "text": "0.27 in the Northern Virginia average is 00 3, difference of about 3 basis points. I would need to get with the Commissioner Revenue, see how much potential revenue that would generate, I think the reason we did not recommend a change to that is that there was not as much variance between the 0.4 and the 0.48, it is very comparable on 0.27 to 0.3. If you look at some of the other Northern Virginias, uh, rates, they are pretty comparable again, the average"
+    "start": 9891.909,
+    "end": 9922.338,
+    "text": "go. But if you start up 0.41 you cannot go above 0.41. So our recommendation would be advertise the max. If need be, pull back Thank you very much. i would agree with that. Uh, question number one, it s because I m going in reverse, uh, services like you noted was 0.27 in the Northern Virginia average is 00 3, difference of about 3 basis points. I would need to get with the Commissioner Revenue, see how much potential revenue that would generate, I think the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9942.393,
-    "end": 9975.925,
-    "text": "is 0.3. Yes, the state maximum is 0.36. Uh, we could potentially go up to that amount. Uh, I can have further discussions with the Commissioner of Revenue if need be. That would be another item that if council so chooses, we could also introduce as well um maybe at 0.36 or 0.30. I don t know what councils sort of feeling or thought is that on on that right now. I, I m not saying yes, definitely, but I would like to understand is that another $600,000 in revenue or is this a $60,000 revenue difference. I think"
+    "start": 9922.84,
+    "end": 9954.838,
+    "text": "reason we did not recommend a change to that is that there was not as much variance between the 0.4 and the 0.48, it is very comparable on 0.27 to 0.3. If you look at some of the other Northern Virginias, uh, rates, they are pretty comparable again, the average is 0.3. Yes, the state maximum is 0.36. Uh, we could potentially go up to that amount. Uh, I can have further discussions with the Commissioner of Revenue if need be. That would be another item that if council so chooses, we"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9976.427,
-    "end": 10006.99,
-    "text": "those might be key differentials for, again, is the juice worth the squeeze or our, you know, what, what are we looking at? I can try to get you that information as quickly as possible. As noted, we would have to get something introduced and and published uh by the end of business tomorrow if I m not mistaken. Ok, I, for me, that would be it would be nice to know how much we re talking about before we commit to advertising something like that, but I don t expect anyone"
+    "start": 9957.241,
+    "end": 9989.4,
+    "text": "could also introduce as well um maybe at 0.36 or 0.30. I don t know what councils sort of feeling or thought is that on on that right now. I, I m not saying yes, definitely, but I would like to understand is that another $600,000 in revenue or is this a $60,000 revenue difference. I think those might be key differentials for, again, is the juice worth the squeeze or our, you know, what, what are we looking at? I can try to get you that information as quickly as possible. As noted, we would"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10008.559,
-    "end": 10040.925,
-    "text": "to pull it out of their um, back pocket at the moment either. Um well it s so my concern is that we will not have a chance to have a discussion in the next 24 hours. So if, if, if we are of the mind that it s better to put it out there and say no. Then it is, yes, then to say, let s try to do something, but we can t communicate. We can t talk about it. So I sort of feel like if you think there s something there, and maybe there s nothing there there, but if you think there s something there and everybody agrees, let"
+    "start": 9989.407,
+    "end": 10022.339,
+    "text": "have to get something introduced and and published uh by the end of business tomorrow if I m not mistaken. Ok, I, for me, that would be it would be nice to know how much we re talking about before we commit to advertising something like that, but I don t expect anyone to pull it out of their um, back pocket at the moment either. Um well it s so my concern is that we will not have a chance to have a discussion in the next 24 hours. So if, if, if we are of the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10040.925,
-    "end": 10071.722,
-    "text": "s put it out there as an introduction and then we find out, uh, it s not me then we just, we just pull back and we re like we re not gonna do that. That was going to be my request of council to consider, but thank you. It sounds like everybody s on board with giving ourselves flexibility. You can always say no after the fact, but we cannot in 24 hours regroup and have a discussion about this. So I think we re better off just doing it. Getting the information so that it can be discussed at a future meeting. Sure, and we ll do I"
+    "start": 10022.339,
+    "end": 10053.569,
+    "text": "mind that it s better to put it out there and say no. Then it is, yes, then to say, let s try to do something, but we can t communicate. We can t talk about it. So I sort of feel like if you think there s something there, and maybe there s nothing there there, but if you think there s something there and everybody agrees, let s put it out there as an introduction and then we find out, uh, it s not me then we just, we just pull back and we re like we re not gonna do that. That was going to be my request of council to consider,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10071.722,
-    "end": 10101.785,
-    "text": "mean, you ll see it in the introduction because it needs to be published, but we ll probably do another budget memo as well in conjunction in coordination with the commissioner revenue so that way you clearly understand counsel, the body understands what the thought process was and what the values would be as well, so we could definitely do that. Uh, if I could sort of go back to budget memo 6 cause I heard something on potentially earmarking or setting aside some money for economic development. In addition, or the second part of budget memo"
+    "start": 10054.305,
+    "end": 10084.901,
+    "text": "but thank you. It sounds like everybody s on board with giving ourselves flexibility. You can always say no after the fact, but we cannot in 24 hours regroup and have a discussion about this. So I think we re better off just doing it. Getting the information so that it can be discussed at a future meeting. Sure, and we ll do I mean, you ll see it in the introduction because it needs to be published, but we ll probably do another budget memo as well in conjunction in coordination with the commissioner revenue so that way you clearly understand counsel, the body understands"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10104.622,
-    "end": 10136.785,
-    "text": "number 6, we talk about the tot, the Transit occupancya tax, that s sort of on the second page. I think MISS Riddle has it up perfect, um, so currently we are introducing that rate subject to legislation being passed, it was introduced, it seemed like it s favorable. We will not know until the 13th of APRIL uh, but in discussion again with the city attorney. He s suggesting that we introduce it contingent upon the formal approval from the"
+    "start": 10084.969,
+    "end": 10119.536,
+    "text": "what the thought process was and what the values would be as well, so we could definitely do that. Uh, if I could sort of go back to budget memo 6 cause I heard something on potentially earmarking or setting aside some money for economic development. In addition, or the second part of budget memo number 6, we talk about the tot, the Transit occupancya tax, that s sort of on the second page. I think MISS Riddle has it up perfect, um, so currently we are introducing that rate subject to legislation being"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10137.188,
-    "end": 10168.785,
-    "text": "General Assembly, given that we ve met the introduction, uh, process. It s currently at 4%. We would be recommending and this was sort of built into the budget, uh, via signed fund balance as sort of discussed in the memo to 9%, uh, if there is potential desire and and recommendation from staff is potentially increasing that another 3% So going from 9 to 12%, again, 9% s the average. Amount within Northern Virginia"
+    "start": 10120.4,
+    "end": 10150.765,
+    "text": "passed, it was introduced, it seemed like it s favorable. We will not know until the 13th of APRIL uh, but in discussion again with the city attorney. He s suggesting that we introduce it contingent upon the formal approval from the General Assembly, given that we ve met the introduction, uh, process. It s currently at 4%. We would be recommending and this was sort of built into the budget, uh, via signed fund balance as sort of discussed in"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10170.87,
-    "end": 10200.95,
-    "text": "when you look at Fairfax uh, Fairfax County, Arlington, and Alexandria. If we were to go from a potential 9 to 12%. That would generate about another $375,000. It is noted in the budget memo that council MAY designate those revenues, uh, for a specific purpose, such as economic development or allow those funds to remain unrestricted for the general fund. We can definitely have those discussions, uh, at a later time again right now the"
+    "start": 10154.605,
+    "end": 10187.2,
+    "text": "the memo to 9%, uh, if there is potential desire and and recommendation from staff is potentially increasing that another 3% So going from 9 to 12%, again, 9% s the average. Amount within Northern Virginia when you look at Fairfax uh, Fairfax County, Arlington, and Alexandria. If we were to go from a potential 9 to 12%. That would generate about another $375,000. It is noted in the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10200.95,
-    "end": 10231.81,
-    "text": "way that it s listed in the introduction, it is at 9%. So on asking and staff is sort of recommending potentially going up to 12%. But sort of need guidance from from council on that. So the, the thing I would, would raise here is we don t have a lot of hotels in the city, and I I don t know even know that all the hotels that are in the city are going to continue to be a going concern because there might be one that"
+    "start": 10187.4,
+    "end": 10218.435,
+    "text": "budget memo that council MAY designate those revenues, uh, for a specific purpose, such as economic development or allow those funds to remain unrestricted for the general fund. We can definitely have those discussions, uh, at a later time again right now the way that it s listed in the introduction, it is at 9%. So on asking and staff is sort of recommending potentially going up to 12%. But sort of need guidance from from council on that. So the, the thing I would, would raise here is we don t"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10232.316,
-    "end": 10263.279,
-    "text": "s for sale. So raising the tax rate is one thing but the, the reason that the number is so small at 375 is that that doesn t matter how much, how high it is, we re just not, the revenue s not there. I mean, in the future, we could build more hotels, but that I don t think that s gonna happen in the next 3 years, 3 to 5 years. So when you think about raising it to 12%. It s sounds like it s a high number, but it applies to a very small number of"
+    "start": 10219.403,
+    "end": 10252.0,
+    "text": "have a lot of hotels in the city, and I I don t know even know that all the hotels that are in the city are going to continue to be a going concern because there might be one that s for sale. So raising the tax rate is one thing but the, the reason that the number is so small at 375 is that that doesn t matter how much, how high it is, we re just not, the revenue s not there. I mean, in the future, we could build more hotels, but that I don t think that s gonna happen in the next"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10266.951,
-    "end": 10297.178,
-    "text": "properties. So to, to get any significant income from the tot, you almost have to go higher. Because there s just not enough properties to produce anything. So that that s just my two cents worth, but council member hall, thoughts on that? Yeah, I, I think it s kind of like the others where I think going 12% is a good number to start with and to put out there for our public hearing, um, to your point, we don t have a ton of hotels, but what we do have is anticipated to bring an"
+    "start": 10253.903,
+    "end": 10286.1,
+    "text": "3 years, 3 to 5 years. So when you think about raising it to 12%. It s sounds like it s a high number, but it applies to a very small number of properties. So to, to get any significant income from the tot, you almost have to go higher. Because there s just not enough properties to produce anything. So that that s just my two cents worth, but council member hall, thoughts on that? Yeah, I, I think it s kind of like the others where I think going 12% is a good number to"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10297.548,
-    "end": 10328.51,
-    "text": "extra $625,000 if we went to 9% and then to bring in another 375 on top of that. So that s like an extra million dollars right there. And most people that are paying this in most cases are not city residents that are here and all of that. So, um, and the hope for me at least is that we do become a bit of a tourism destination and that we start to have some, um, additional hotels and opportunities. So I, I would be all in for these and I also, I do want to thank you for the"
+    "start": 10286.837,
+    "end": 10318.633,
+    "text": "start with and to put out there for our public hearing, um, to your point, we don t have a ton of hotels, but what we do have is anticipated to bring an extra $625,000 if we went to 9% and then to bring in another 375 on top of that. So that s like an extra million dollars right there. And most people that are paying this in most cases are not city residents that are here and all of that. So, um, and the hope for me at least is that we do become a bit of a tourism destination"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10328.878,
-    "end": 10360.376,
-    "text": "work that went into the outside the box thinking of something beyond real estate taxes. I think we ve been strongly reliant on that, and I m really happy to see that we re considering these other options. So thank you. And council member, really quickly, and it s on the screen right now as well. Um, so your math wasn t too far off and you re absolutely right. It s about an additional $1.1 million or the equivalent of 1.21 cents on the current real estate tax rate. By doing these two changes, the b pole change, uh, specifically,"
+    "start": 10319.77,
+    "end": 10354.237,
+    "text": "and that we start to have some, um, additional hotels and opportunities. So I, I would be all in for these and I also, I do want to thank you for the work that went into the outside the box thinking of something beyond real estate taxes. I think we ve been strongly reliant on that, and I m really happy to see that we re considering these other options. So thank you. And council member, really quickly, and it s on the screen right now as well. Um, so your math wasn t too far off and you re absolutely right. It s about an additional $1.1 million or the equivalent of 1.21 cents on the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10360.511,
-    "end": 10392.808,
-    "text": "and we can incorporate what the change would be on the other side, but the 698 that s listed there. Is going from 0.40 to 0.48 in that one category and then going from 9 to 12% is an additional 375 on the tot. Combine those two, that s about 1.1 million not including the other potential people aspect of it. So, MAY I Yes, go ahead. Thank you. I m on budget memo 6"
+    "start": 10355.5,
+    "end": 10388.571,
+    "text": "current real estate tax rate. By doing these two changes, the b pole change, uh, specifically, and we can incorporate what the change would be on the other side, but the 698 that s listed there. Is going from 0.40 to 0.48 in that one category and then going from 9 to 12% is an additional 375 on the tot. Combine those two, that s about 1.1 million not including the other potential people aspect of it. So, MAY I Yes, go ahead. Thank you. I"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10393.677,
-    "end": 10425.541,
-    "text": "I think, on page 2. It talks about the tot It says, uh, increasing the current rate from 4 to 9. Is it estimated to generate approximately $625,000 in additional tax revenue. So I was taking the 625 plus then if we went from 9 to 12 it would be another 375. So I was looking at 625 and 375 to get a million. But that doesn t include the, is it because the 625 is already in the budget. I knew we were getting there together, all right, but either"
+    "start": 10390.808,
+    "end": 10423.106,
+    "text": "m on budget memo 6 I think, on page 2. It talks about the tot It says, uh, increasing the current rate from 4 to 9. Is it estimated to generate approximately $625,000 in additional tax revenue. So I was taking the 625 plus then if we went from 9 to 12 it would be another 375. So I was looking at 625 and 375 to get a million. But that doesn t include the, is it because the 625 is already in the budget. I knew we were getting there"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10425.543,
-    "end": 10457.138,
-    "text": "way we are looking at substantially more revenue than we have been generating previously with these same categories. So thank you for your clarification. Councilor Peterson. So two questions that similar question we had on BPpole, which is what s the sensitivity, the demand sensitivity to the higher tax is that significant in terms of, you know, uh, occupancy, um. Does it do anything to hurt, uh the economic performance of the hotels. I don t know, but it just would be good to know"
+    "start": 10423.541,
+    "end": 10454.237,
+    "text": "together, all right, but either way we are looking at substantially more revenue than we have been generating previously with these same categories. So thank you for your clarification. Councilor Peterson. So two questions that similar question we had on BPpole, which is what s the sensitivity, the demand sensitivity to the higher tax is that significant in terms of, you know, uh, occupancy, um. Does it do anything to hurt, uh the economic performance of the hotels. I don t know, but it"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10457.174,
-    "end": 10488.67,
-    "text": "where we are within that band of price sensitivity for them. The second thing is in terms of where if we do collect some set of funds, whether they go to or stay in unrestricted and general fund or are set aside for economic development. I take it that that is an open option at this stage, and we could make a decision about what we d want in the future and and to the extent that that is an option, we talk about, you know, I d like a little bit more background information about what, uh the purpose and"
+    "start": 10455.138,
+    "end": 10485.635,
+    "text": "just would be good to know where we are within that band of price sensitivity for them. The second thing is in terms of where if we do collect some set of funds, whether they go to or stay in unrestricted and general fund or are set aside for economic development. I take it that that is an open option at this stage, and we could make a decision about what we d want in the future and and to the extent that that is an option, we talk about, you know, I d like a little bit more background information"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10489.607,
-    "end": 10520.503,
-    "text": "need of those funds would be an economic development and then uh relative to keeping in the general fund as well. I d just like some clarity about what we re, what we re dealing with there Sure, and we can provide that. I will give you a little bit of background, um. A current eda board member, I think works or represents uh the hotel industry and actually advocating to increase rtot as well, because she is aware that we are way below the average and I think that s why we"
+    "start": 10486.67,
+    "end": 10518.602,
+    "text": "about what, uh the purpose and need of those funds would be an economic development and then uh relative to keeping in the general fund as well. I d just like some clarity about what we re, what we re dealing with there Sure, and we can provide that. I will give you a little bit of background, um. A current eda board member, I think works or represents uh the hotel industry and actually advocating to increase rtot as well, because she is aware that we are way below the average"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10522.39,
-    "end": 10553.634,
-    "text": "introduced it as a body to the legislation trying to bring it up to at least the average Northern Virginia. Again, that s about 9%, so we re trying to get to that and then anything above that and the recommendation from the eda specifically this um. Member was to try to set some of that money aside specifically reinvest it back into the edo or eda specifically in tourism as well. I think council would be fully aware, even more so than the meals tax. These taxes"
+    "start": 10518.602,
+    "end": 10550.732,
+    "text": "and I think that s why we introduced it as a body to the legislation trying to bring it up to at least the average Northern Virginia. Again, that s about 9%, so we re trying to get to that and then anything above that and the recommendation from the eda specifically this um. Member was to try to set some of that money aside specifically reinvest it back into the edo or eda specifically in tourism as well. I think council would be fully aware, even more so"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10556.34,
-    "end": 10587.604,
-    "text": "are probably almost 100% paid by non-residents, um, individuals that would come and stay here more than likely don t live here. Uh, that s why they re in a hotel room, so it is really reducing the burden on the residents and their real estate tax rate by trying to reassign that potential revenue to the tot. And honestly, I stayed in the Hotel Roanoke last weekend and couldn t tell you what the tot was. Didn t even look on the bill to see what the tot was when I stayed there because I don"
+    "start": 10551.634,
+    "end": 10581.965,
+    "text": "than the meals tax. These taxes are probably almost 100% paid by non-residents, um, individuals that would come and stay here more than likely don t live here. Uh, that s why they re in a hotel room, so it is really reducing the burden on the residents and their real estate tax rate by trying to reassign that potential revenue to the tot. And honestly, I stayed in the Hotel Roanoke"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10587.604,
-    "end": 10617.801,
-    "text": "t know, it s just, it s what it cost. Maybe that s just me. I m probably very careless about not looking at what the tot is, but I, I didn t, I really, I m like, you stay there, you stay there. That s what it is. Well, in some cases you just want to get out of the hotel so fast. And that s true too. So do we seem to have consensus here that we want to look at 12 as a starting point because we can always pull back. Right? That s what I m seeing a lot of consensus here that this is"
+    "start": 10581.965,
+    "end": 10614.364,
+    "text": "last weekend and couldn t tell you what the tot was. Didn t even look on the bill to see what the tot was when I stayed there because I don t know, it s just, it s what it cost. Maybe that s just me. I m probably very careless about not looking at what the tot is, but I, I didn t, I really, I m like, you stay there, you stay there. That s what it is. Well, in some cases you just want to get out of the hotel so fast. And that s true too. So do we seem to have consensus here that we want to look at 12 as a starting point because we can always pull back. Right? That s what I"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10618.869,
+    "start": 10615.266,
     "end": 10656.704,
-    "text": "another one where we give ourselves flexibility to do something else. Any other budget memos that council would like to review. 8 There. So"
+    "text": "m seeing a lot of consensus here that this is another one where we give ourselves flexibility to do something else. Any other budget memos that council would like to review. 8 There. So"
   },
   {
     "speaker": "Unknown Speaker",

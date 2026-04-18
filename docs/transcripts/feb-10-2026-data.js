@@ -1793,7 +1793,7 @@ const TRANSCRIPT_TURNS = [
     "speaker": "Unknown Speaker",
     "start": 8310.208,
     "end": 8337.168,
-    "text": "all right, seeing -- I will close the public hearing. Is there a motion? Councilmember hardy-chandler. I move that the city council adopt the urban forest master plan and the draft dated DECEMBER, 2025."
+    "text": "all right, seeing -- I will close the public hearing. Is there a motion? I move that the city council adopt the urban forest master plan and the draft dated DECEMBER, 2025."
   },
   {
     "speaker": "Unknown Speaker",
@@ -2248,8 +2248,14 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 9934.199,
+    "end": 9939.569,
+    "text": "a substitute motion has been made with a report in JULY, it has been seconded by"
+  },
+  {
+    "speaker": "Councilmember Stacy Hall",
+    "start": 9940.138,
     "end": 9942.907,
-    "text": "a substitute motion has been made with a report in JULY, it has been seconded by councilmember hall. Roll call vote MS. Shinaberry."
+    "text": "Roll call vote MS. Shinaberry."
   },
   {
     "speaker": "Unknown Speaker",
@@ -2944,8 +2950,8 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 13324.623,
-    "end": 13333.997,
-    "text": "well tha you for the presentation very thorough do we have qstions for the planni coission? Councilmember tes."
+    "end": 13331.997,
+    "text": "well tha you for the presentation very thorough do we have qstions for the planni coission?"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2956,8 +2962,8 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Councilmember Rachel McQuillen",
     "start": 13364.563,
-    "end": 13371.701,
-    "text": "councilmember Mcquille no? Any o else? councilmember amos."
+    "end": 13368.698,
+    "text": "councilmember Mcquille no? Any o else?"
   },
   {
     "speaker": "Unknown Speaker",
