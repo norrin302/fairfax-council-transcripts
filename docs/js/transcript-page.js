@@ -259,6 +259,29 @@
     });
   }
 
+  function renderSectionLinks(meeting) {
+    const container = document.getElementById('section-links');
+    if (!container) return;
+
+    const sections = (meeting && Array.isArray(meeting.sections)) ? meeting.sections : [];
+    if (!sections.length) {
+      container.innerHTML = '<span style="opacity:0.8; font-size:14px;">No sections available.</span>';
+      return;
+    }
+
+    container.innerHTML = '';
+    sections.forEach((s) => {
+      const sec = Math.max(0, Math.floor(Number(s.start_seconds) || 0));
+      const label = String(s.label || '').trim() || formatTime(sec);
+
+      const a = document.createElement('a');
+      a.href = `#t=${sec}`;
+      a.setAttribute('data-jump-seconds', String(sec));
+      a.textContent = label;
+      container.appendChild(a);
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     // These are provided by docs/transcripts/<meeting_id>-data.js + inline page script
     const meeting = (typeof MEETING !== 'undefined' && MEETING) ? MEETING : {
@@ -270,6 +293,7 @@
     const turns = (typeof TRANSCRIPT_TURNS !== 'undefined') ? TRANSCRIPT_TURNS : [];
 
     renderTranscript(turns, meeting);
+    renderSectionLinks(meeting);
     wireInPageSearch();
     wireBackToTop();
     wireSectionLinks();

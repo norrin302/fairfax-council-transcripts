@@ -1,0 +1,30 @@
+{
+  "meeting_id": "apr-14-2026",
+  "meeting_date": "2026-04-14",
+  "display_date": "April 14, 2026",
+  "title": "City Council Regular Meeting",
+  "meeting_type": "regular",
+  "city": "Fairfax, VA",
+
+  "source_video_url": "https://fairfax.granicus.com/player/clip/4519",
+  "official_meetings_portal_url": "https://www.fairfaxva.gov/Government/Public-Meetings/City-Meetings",
+
+  "official_agenda_url": "https://fairfax.granicus.com/AgendaViewer.php?clip_id=4519",
+  "official_minutes_url": "https://fairfax.granicus.com/MinutesViewer.php?clip_id=4519",
+  "official_packet_url": null,
+
+  "transcript_url": "transcripts/apr-14-2026.html",
+  "transcript_turns_js": "docs/transcripts/apr-14-2026-data.js",
+
+  "duration_seconds": 10020,
+
+  "sections": [
+    { "start_seconds": 0, "label": "Meeting" },
+    { "start_seconds": 104, "label": "Library Week Proclamation" },
+    { "start_seconds": 439, "label": "Earth Day and Arbor Day" },
+    { "start_seconds": 695, "label": "Monarch Pledge" },
+    { "start_seconds": 1017, "label": "Women's Club 70th Anniversary" },
+    { "start_seconds": 1249, "label": "Telecommunicators Week" },
+    { "start_seconds": 1679, "label": "Public Comment (Willard Sherwood Center)" }
+  ]
+}

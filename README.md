@@ -59,24 +59,24 @@ fairfax-council-transcripts/
 1. Find the meeting on [Fairfax Granicus](https://fairfax.granicus.com/)
 2. Run transcription (downloads + transcribes from Granicus):
    ```bash
-   python3 scripts/transcribe.py "https://fairfax.granicus.com/player/clip/4519" --output .
+   python3 scripts/transcribe.py "https://fairfax.granicus.com/player/clip/4519" --meeting-id <meeting_id> --output .
    ```
 3. Publish the meeting to the static site:
-   - Create `docs/transcripts/<meeting_id>.html`
-   - Create `docs/transcripts/<meeting_id>-data.js` (TRANSCRIPT_TURNS)
-   - Add a meeting card to `docs/index.html`
+    - Create `meetings/<meeting_id>.json` (meeting metadata + sections + official links)
+    - Generate the transcript page + turns JS from Whisper JSON:
+      ```bash
+      python3 scripts/publish_meeting.py <meeting_id> --input transcripts/<meeting_id>_complete.json
+      ```
+    - Add a meeting card to `docs/index.html` (until the homepage list is auto-generated)
    
    (Automation is planned, but today this step is partially manual.)
-4. Rebuild the search index:
-   ```bash
-   python3 scripts/build_search_index.py
-   ```
-5. Commit and push
+4. Commit and push
 
 ## Architecture
 
 - **Frontend**: Static HTML/CSS/JS on GitHub Pages
 - **Search**: Client-side JavaScript with pre-built search index
+- **Index build**: `scripts/build_search_index.py` reads `meetings/*.json` + transcript turn data
 - **Transcription**: OpenAI Whisper API
 - **Hosting**: GitHub Pages (free, reliable)
 - **Video Links**: Direct to Granicus (city's official archive)

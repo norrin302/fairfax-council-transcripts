@@ -376,7 +376,7 @@ def generate_html_transcript(segments: list, metadata: dict) -> str:
     return html
 
 
-def process_meeting(url: str, output_dir: str, use_api: bool = True) -> dict:
+def process_meeting(url: str, output_dir: str, use_api: bool = True, meeting_id: str | None = None) -> dict:
     """Main processing pipeline"""
     result = {
         "url": url,
@@ -395,6 +395,11 @@ def process_meeting(url: str, output_dir: str, use_api: bool = True) -> dict:
             result["error"] = "Video download failed"
             return result
         
+        # Ensure output directories
+        Path(output_dir, "videos").mkdir(parents=True, exist_ok=True)
+        Path(output_dir, "transcripts").mkdir(parents=True, exist_ok=True)
+        Path(output_dir, "archive").mkdir(parents=True, exist_ok=True)
+
         # Step 2: Transcribe
         print("Transcribing...")
         if use_api:
@@ -407,8 +412,20 @@ def process_meeting(url: str, output_dir: str, use_api: bool = True) -> dict:
             result["transcript_error"] = transcript
             return result
         
-        # Step 3: Process segments with speaker identification
-        segments = transcript.get("segments", [])
+        # Step 3: Save raw Whisper output (no speaker labels)
+        raw_segments = transcript.get("segments", [])
+        raw_out = {
+            "meeting_date": metadata.get("upload_date", ""),
+            "duration": metadata.get("duration", 0),
+            "language": transcript.get("language", "en"),
+            "text": transcript.get("text", ""),
+            "segments": raw_segments,
+        }
+
+        # meeting_id is created below, but we want stable naming when possible.
+
+        # Step 4: Process segments with speaker identification (best-effort)
+        segments = raw_segments
         current_speaker = None
         
         for seg in segments:
@@ -420,32 +437,39 @@ def process_meeting(url: str, output_dir: str, use_api: bool = True) -> dict:
         result["full_text"] = transcript.get("text", "")
         result["language"] = transcript.get("language", "en")
         
-        # Step 4: Generate outputs
+        # Step 5: Generate outputs
         print("Generating output files...")
-        meeting_id = sanitize_filename(metadata["title"]) + "_" + metadata["video_id"]
+        if meeting_id:
+            meeting_id = sanitize_filename(meeting_id)
+        else:
+            meeting_id = sanitize_filename(metadata["title"]) + "_" + metadata["video_id"]
+
+        # Raw Whisper JSON (segments as provided by the API)
+        with open(f"{output_dir}/transcripts/{meeting_id}_complete.json", "w") as f:
+            json.dump(raw_out, f, indent=2, default=str)
+
+        # Labeled JSON (speaker/agenda heuristics added)
+        with open(f"{output_dir}/transcripts/{meeting_id}_labeled.json", "w") as f:
+            json.dump({**raw_out, "segments": segments}, f, indent=2, default=str)
         
         # Markdown
         md_content = generate_transcript_markdown(segments, metadata)
         with open(f"{output_dir}/transcripts/{meeting_id}.md", "w") as f:
             f.write(md_content)
         
-        # HTML for GitHub Pages
-        html_content = generate_html_transcript(segments, metadata)
-        with open(f"{output_dir}/site/transcripts/{meeting_id}.html", "w") as f:
-            f.write(html_content)
-        
-        # WebVTT subtitles
+        # WebVTT subtitles (best-effort)
         vtt_content = generate_webvtt(segments)
         with open(f"{output_dir}/archive/{meeting_id}.vtt", "w") as f:
             f.write(vtt_content)
-        
-        # JSON for archival
+
+        # Full run record
         with open(f"{output_dir}/archive/{meeting_id}.json", "w") as f:
             json.dump(result, f, indent=2, default=str)
         
         result["status"] = "completed"
         result["transcript_file"] = f"{meeting_id}.md"
-        result["html_file"] = f"{meeting_id}.html"
+        result["complete_json"] = f"{meeting_id}_complete.json"
+        result["labeled_json"] = f"{meeting_id}_labeled.json"
         
         print(f"✓ Complete: {meeting_id}")
         
@@ -461,9 +485,10 @@ def main():
     parser.add_argument("url", help="Granicus video URL")
     parser.add_argument("--output", "-o", default=".", help="Output directory")
     parser.add_argument("--no-api", action="store_true", help="Use local Whisper instead of API")
+    parser.add_argument("--meeting-id", help="Optional stable id to use for output files (e.g., apr-14-2026)")
     args = parser.parse_args()
     
-    result = process_meeting(args.url, args.output, use_api=not args.no_api)
+    result = process_meeting(args.url, args.output, use_api=not args.no_api, meeting_id=args.meeting_id)
     print(json.dumps(result, indent=2))
     return 0 if result["status"] == "completed" else 1
 

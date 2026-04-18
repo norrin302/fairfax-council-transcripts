@@ -30,7 +30,7 @@ sudo apt-get install python3-venv
 export OPENAI_API_KEY='sk-...'
 
 # Example (Granicus clip URL)
-python scripts/transcribe.py "https://fairfax.granicus.com/player/clip/4519" --output .
+python scripts/transcribe.py "https://fairfax.granicus.com/player/clip/4519" --meeting-id apr-14-2026 --output .
 ```
 
 ### Option B: Run the 5-minute demo (Whisper API)
@@ -77,7 +77,10 @@ python3 -m http.server 8000
 
 ## 4) Rebuild the global search index
 
-The homepage search uses a prebuilt client-side index at `docs/js/search-index.js`.
+The homepage search uses a prebuilt client-side index at `docs/js/search-index.js`, generated from:
+
+- `meetings/*.json` (meeting metadata)
+- `docs/transcripts/<meeting_id>-data.js` (TRANSCRIPT_TURNS)
 
 ```bash
 python3 scripts/build_search_index.py

@@ -7,7 +7,7 @@
     'use strict';
 
     // DOM elements
-    let searchInput, searchBtn, speakerFilter, dateFrom, dateTo, resultsContainer;
+    let searchInput, searchBtn, meetingTypeFilter, speakerFilter, sectionFilter, dateFrom, dateTo, resultsContainer;
 
     // Initialize when DOM is ready
     document.addEventListener('DOMContentLoaded', init);
@@ -15,15 +15,19 @@
     function init() {
         searchInput = document.getElementById('global-search');
         searchBtn = document.getElementById('search-btn');
+        meetingTypeFilter = document.getElementById('filter-meeting-type');
         speakerFilter = document.getElementById('filter-speaker');
+        sectionFilter = document.getElementById('filter-section');
         dateFrom = document.getElementById('filter-date-from');
         dateTo = document.getElementById('filter-date-to');
         resultsContainer = document.getElementById('search-results');
 
         if (!searchInput || !resultsContainer) return;
 
-        // Populate speaker filter
+        // Populate filters
+        populateMeetingTypeFilter();
         populateSpeakerFilter();
+        populateSectionFilter();
 
         // Event listeners
         searchBtn.addEventListener('click', performSearch);
@@ -39,9 +43,23 @@
         });
 
         // Filter changes trigger search
+        if (meetingTypeFilter) meetingTypeFilter.addEventListener('change', performSearch);
         if (speakerFilter) speakerFilter.addEventListener('change', performSearch);
+        if (sectionFilter) sectionFilter.addEventListener('change', performSearch);
         if (dateFrom) dateFrom.addEventListener('change', performSearch);
         if (dateTo) dateTo.addEventListener('change', performSearch);
+    }
+
+    function populateMeetingTypeFilter() {
+        if (!meetingTypeFilter || !SEARCH_INDEX || !SEARCH_INDEX.meetings) return;
+
+        const types = Array.from(new Set(SEARCH_INDEX.meetings.map(function(m) { return m.meeting_type; }).filter(Boolean))).sort();
+        types.forEach(function(t) {
+            const option = document.createElement('option');
+            option.value = t;
+            option.textContent = t.charAt(0).toUpperCase() + t.slice(1);
+            meetingTypeFilter.appendChild(option);
+        });
     }
 
     function populateSpeakerFilter() {
@@ -55,9 +73,25 @@
         });
     }
 
+    function populateSectionFilter() {
+        if (!sectionFilter || !SEARCH_INDEX || !SEARCH_INDEX.segments) return;
+
+        const sections = Array.from(new Set(SEARCH_INDEX.segments.map(function(s) { return s.section; }).filter(Boolean)))
+            .sort(function(a, b) { return a.localeCompare(b); });
+
+        sections.forEach(function(section) {
+            const option = document.createElement('option');
+            option.value = section;
+            option.textContent = section;
+            sectionFilter.appendChild(option);
+        });
+    }
+
     function performSearch() {
         const query = searchInput.value.trim().toLowerCase();
+        const meetingType = meetingTypeFilter ? meetingTypeFilter.value : '';
         const speaker = speakerFilter ? speakerFilter.value : '';
+        const section = sectionFilter ? sectionFilter.value : '';
         const fromDate = dateFrom ? dateFrom.value : '';
         const toDate = dateTo ? dateTo.value : '';
 
@@ -69,13 +103,47 @@
         }
 
         // Search segments
-        const results = searchSegments(query, speaker, fromDate, toDate);
+        const results = searchSegments(query, meetingType, speaker, section, fromDate, toDate);
 
         // Display results
         displayResults(results, query);
     }
 
-    function searchSegments(query, speaker, fromDate, toDate) {
+    function normalizeText(s) {
+        return String(s || '')
+            .toLowerCase()
+            .replace(/[^a-z0-9\s]/g, ' ')
+            .replace(/\s+/g, ' ')
+            .trim();
+    }
+
+    function computeScore(segment, query) {
+        const text = normalizeText(segment.transcript_text);
+        const q = normalizeText(query);
+
+        if (!q) return 0;
+        let score = 0;
+
+        // Exact phrase boost
+        const pos = text.indexOf(q);
+        if (pos !== -1) {
+            score += 500;
+            score += Math.max(0, 200 - Math.min(200, pos));
+        }
+
+        // Token overlap
+        const tokens = q.split(' ').filter(Boolean);
+        let hit = 0;
+        tokens.forEach(function(tok) {
+            if (tok.length < 2) return;
+            if (text.includes(tok)) hit += 1;
+        });
+        score += hit * 40;
+
+        return score;
+    }
+
+    function searchSegments(query, meetingType, speaker, section, fromDate, toDate) {
         if (!SEARCH_INDEX || !SEARCH_INDEX.segments) return [];
 
         const filtered = SEARCH_INDEX.segments.filter(function(segment) {
@@ -85,8 +153,17 @@
 
             if (!textMatch) return false;
 
+            // Meeting type filter
+            if (meetingType) {
+                const meeting = SEARCH_INDEX.meetings.find(function(m) { return m.meeting_id === segment.meeting_id; });
+                if (!meeting || meeting.meeting_type !== meetingType) return false;
+            }
+
             // Speaker filter
             if (speaker && segment.speaker !== speaker) return false;
+
+            // Section filter
+            if (section && (segment.section || '') !== section) return false;
 
             // Date range filter
             if (fromDate && segment.meeting_date < fromDate) return false;
@@ -95,8 +172,11 @@
             return true;
         });
 
-        // Sort: newest meeting first, then chronological within meeting
+        // Sort: relevance first, then newest meeting, then chronological within meeting
         filtered.sort(function(a, b) {
+            const sa = computeScore(a, query);
+            const sb = computeScore(b, query);
+            if (sa !== sb) return sb - sa;
             if (a.meeting_date !== b.meeting_date) return a.meeting_date < b.meeting_date ? 1 : -1;
             return (a.start_seconds || 0) - (b.start_seconds || 0);
         });
@@ -138,7 +218,17 @@
             html += '<span class="meeting-date">' + formatDate(meeting.meeting_date) + '</span>';
             html += '</div>';
 
-            group.segments.forEach(function(segment) {
+            group.segments.slice(0, 200).forEach(function(segment) {
+                let videoUrl = '';
+                if (meeting.source_url) {
+                    try {
+                        const u = new URL(meeting.source_url);
+                        u.searchParams.set('start', String(Math.max(0, Math.floor(segment.start_seconds || 0))));
+                        videoUrl = u.toString();
+                    } catch (e) {
+                        videoUrl = meeting.source_url;
+                    }
+                }
                 html += '<div class="result-item" data-meeting="' + segment.meeting_id + '" data-time="' + segment.start_seconds + '">';
                 html += '<div class="result-meta">';
                 html += '<span class="result-speaker"><i class="fas fa-user"></i> ' + escapeHtml(segment.speaker) + '</span>';
@@ -149,6 +239,10 @@
                 html += '<div class="result-actions">';
                 html += '<a href="' + meeting.transcript_url + '#t=' + segment.start_seconds + '" class="btn-view">';
                 html += '<i class="fas fa-file-alt"></i> View in Transcript</a>';
+                if (videoUrl) {
+                    html += '<a href="' + videoUrl + '" target="_blank" rel="noopener" class="btn-view">';
+                    html += '<i class="fas fa-video"></i> Open Video</a>';
+                }
                 html += '<button class="btn-cite" onclick="copyCitation(\'' + segment.meeting_id + '\', ' + segment.start_seconds + ')">';
                 html += '<i class="fas fa-quote-right"></i> Copy Citation</button>';
                 html += '</div>';

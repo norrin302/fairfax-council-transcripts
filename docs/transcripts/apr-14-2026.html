@@ -5,170 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fairfax City Council Meeting - April 14, 2026</title>
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/transcript-page.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; margin: 0; }
-
-    .container { max-width: 900px; margin: 0 auto; padding: 20px; }
-
-    .meeting-header {
-      background: linear-gradient(135deg, #1a365d, #2b6cb0);
-      color: white;
-      padding: 30px;
-      border-radius: 12px;
-      margin-bottom: 30px;
-    }
-    .meeting-header h1 { margin: 0 0 10px 0; }
-    .meeting-header .meta { opacity: 0.9; font-size: 14px; }
-
-    .ai-summary {
-      background: linear-gradient(135deg, #f0fff4, #e6fffa);
-      border: 2px solid #38a169;
-      border-radius: 12px;
-      padding: 20px;
-      margin: 20px 0;
-    }
-    .ai-summary h3 { color: #276749; margin-top: 0; }
-    .ai-summary ul { margin: 10px 0; padding-left: 20px; }
-    .ai-summary li { margin: 8px 0; }
-    .ai-summary strong { color: #1a365d; }
-
-    .ai-notice {
-      background: #fffaf0;
-      border: 2px dashed #ed8936;
-      border-radius: 8px;
-      padding: 15px;
-      margin: 20px 0;
-    }
-    .ai-notice h4 { margin: 0 0 8px 0; color: #c05621; }
-    .ai-notice p { margin: 0; font-size: 14px; }
-
-    .official-links {
-      background: linear-gradient(135deg, #edf2f7, #e2e8f0);
-      padding: 20px;
-      border-radius: 12px;
-      margin: 20px 0;
-    }
-    .official-links h3 { margin-top: 0; color: #1a365d; }
-    .official-links a { color: #2b6cb0; font-weight: 500; text-decoration: none; }
-    .official-links a:hover { color: #1a365d; text-decoration: underline; }
-
-    .search-container {
-      position: sticky;
-      top: 0;
-      background: white;
-      padding: 15px 0;
-      border-bottom: 2px solid #e2e8f0;
-      z-index: 100;
-      margin-bottom: 20px;
-    }
-    #search-input {
-      width: 100%;
-      padding: 12px 20px;
-      font-size: 16px;
-      border: 2px solid #2b6cb0;
-      border-radius: 25px;
-      outline: none;
-      box-sizing: border-box;
-    }
-    #search-input:focus { border-color: #1a365d; box-shadow: 0 0 0 3px rgba(43,108,176,0.2); }
-    #search-count { margin-top: 8px; font-size: 14px; color: #4a5568; }
-
-    .speaker-turn {
-      margin: 20px 0;
-      padding: 15px;
-      border-left: 4px solid #2b6cb0;
-      background: #f7fafc;
-      border-radius: 0 8px 8px 0;
-      cursor: pointer;
-    }
-    .speaker-turn.mayor { border-left-color: #38a169; }
-    .speaker-turn.council { border-left-color: #2b6cb0; }
-    .speaker-turn.staff { border-left-color: #ed8936; }
-    .speaker-turn.public { border-left-color: #9f7aea; }
-
-    .turn-header {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-      margin-bottom: 10px;
-      flex-wrap: wrap;
-    }
-    .speaker-name {
-      font-weight: 700;
-      color: #1a365d;
-      font-size: 16px;
-    }
-    .timestamp-link {
-      color: #2b6cb0;
-      text-decoration: none;
-      font-size: 13px;
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
-      display: inline-flex;
-      align-items: center;
-      gap: 5px;
-    }
-    .timestamp-link:hover { text-decoration: underline; color: #1a365d; }
-
-    .cite-btn {
-      border: 1px solid #cbd5e0;
-      background: #fff;
-      color: #1a365d;
-      padding: 6px 10px;
-      border-radius: 8px;
-      font-size: 13px;
-      cursor: pointer;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-    }
-    .cite-btn:hover { background: #edf2f7; }
-
-    .turn-text { line-height: 1.7; color: #2d3748; }
-    .turn-text mark { background: #fef08a; padding: 2px 4px; border-radius: 2px; }
-
-    .hidden { display: none; }
-    .speaker-turn.highlighted { background: #fef08a; border-left-color: #d69e2e; }
-
-    #back-to-top {
-      position: fixed;
-      bottom: 30px;
-      right: 30px;
-      background: #2b6cb0;
-      color: white;
-      border: none;
-      padding: 15px 20px;
-      border-radius: 25px;
-      cursor: pointer;
-      opacity: 0;
-      transition: opacity 0.3s;
-    }
-    #back-to-top.show { opacity: 1; }
-    #back-to-top:hover { background: #1a365d; }
-
-    /* Toast notification */
-    .toast {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: #38a169;
-      color: white;
-      padding: 14px 24px;
-      border-radius: 8px;
-      font-size: 14px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-      opacity: 0;
-      transition: opacity 0.3s;
-      z-index: 1000;
-    }
-
-    .toast.show { opacity: 1; }
-
-    @media (max-width: 600px) {
-      .meeting-header { padding: 20px; }
-      .container { padding: 14px; }
-    }
-  </style>
 </head>
 <body>
   <div class="container">
@@ -208,20 +46,15 @@
       <h3><i class="fas fa-external-link-alt"></i> Official Resources</h3>
       <p>
         <a href="https://fairfax.granicus.com/player/clip/4519" target="_blank" rel="noopener"><i class="fas fa-video"></i> Watch Video (Granicus)</a> &bull;
+        <a href="https://fairfax.granicus.com/AgendaViewer.php?clip_id=4519" target="_blank" rel="noopener"><i class="fas fa-file-alt"></i> Agenda</a> &bull;
+        <a href="https://fairfax.granicus.com/MinutesViewer.php?clip_id=4519" target="_blank" rel="noopener"><i class="fas fa-file-signature"></i> Minutes</a> &bull;
         <a href="https://www.fairfaxva.gov/Government/Public-Meetings/City-Meetings" target="_blank" rel="noopener"><i class="fas fa-file"></i> Meeting Portal</a>
       </p>
     </div>
 
     <div class="official-links">
       <h3><i class="fas fa-list"></i> Jump to section</h3>
-      <p style="margin:0; display:flex; gap:12px; flex-wrap:wrap;">
-        <a href="#t=104" data-jump-seconds="104">Library Week</a>
-        <a href="#t=439" data-jump-seconds="439">Earth Day/Arbor Day</a>
-        <a href="#t=695" data-jump-seconds="695">Monarch Pledge</a>
-        <a href="#t=1017" data-jump-seconds="1017">Women's Club</a>
-        <a href="#t=1249" data-jump-seconds="1249">Telecommunicators Week</a>
-        <a href="#t=1679" data-jump-seconds="1679">Public Comment</a>
-      </p>
+      <div id="section-links" style="display:flex; gap:12px; flex-wrap:wrap;"></div>
     </div>
 
     <div class="search-container">
@@ -242,7 +75,19 @@
       meeting_date: '2026-04-14',
       display_date: 'April 14, 2026',
       title: 'City Council Regular Meeting',
-      source_url: 'https://fairfax.granicus.com/player/clip/4519'
+      source_url: 'https://fairfax.granicus.com/player/clip/4519',
+      official_meetings_portal_url: 'https://www.fairfaxva.gov/Government/Public-Meetings/City-Meetings',
+      official_agenda_url: 'https://fairfax.granicus.com/AgendaViewer.php?clip_id=4519',
+      official_minutes_url: 'https://fairfax.granicus.com/MinutesViewer.php?clip_id=4519',
+      official_packet_url: null,
+      sections: [
+        { start_seconds: 104, label: 'Library Week Proclamation' },
+        { start_seconds: 439, label: 'Earth Day and Arbor Day' },
+        { start_seconds: 695, label: 'Monarch Pledge' },
+        { start_seconds: 1017, label: "Women's Club 70th Anniversary" },
+        { start_seconds: 1249, label: 'Telecommunicators Week' },
+        { start_seconds: 1679, label: 'Public Comment (Willard Sherwood Center)' }
+      ]
     };
   </script>
   <script src="./apr-14-2026-data.js"></script>

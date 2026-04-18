@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
-"""Build docs/js/search-index.js from canonical transcript turn data.
+"""Build docs/js/search-index.js from per-meeting metadata + transcript turn data.
 
-Current state:
-- Source of truth for the published Apr 14, 2026 meeting transcript is:
-  docs/transcripts/transcript-data.js (TRANSCRIPT_TURNS)
+Source of truth:
+- Meeting metadata: meetings/*.json
+- Transcript turns (published): docs/transcripts/<meeting_id>-data.js (TRANSCRIPT_TURNS)
 
-This script turns those turns into a client-side SEARCH_INDEX that powers
-cross-meeting search on the homepage.
-
-As we add more meetings, extend MEETINGS below.
+Output:
+- docs/js/search-index.js (SEARCH_INDEX)
 """
 
 from __future__ import annotations
@@ -16,7 +14,6 @@ from __future__ import annotations
 import json
 import math
 import re
-from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -25,41 +22,20 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
 
-@dataclass(frozen=True)
-class MeetingConfig:
-    meeting_id: str
-    meeting_date: str  # YYYY-MM-DD
-    title: str
-    meeting_type: str
-    source_url: str
-    transcript_url: str
-    transcript_data_js: str
-    full_duration_seconds: int | None = None
-    # Topic/section shortcuts (best-effort, not official agenda)
-    sections: list[tuple[int, str]] | None = None  # [(start_seconds, label)]
+def load_meetings(repo_root: Path) -> list[dict[str, Any]]:
+    meetings_dir = repo_root / "meetings"
+    if not meetings_dir.exists():
+        raise RuntimeError(f"Missing meetings directory: {meetings_dir}")
 
+    meetings: list[dict[str, Any]] = []
+    for p in sorted(meetings_dir.glob("*.json")):
+        data = json.loads(p.read_text(encoding="utf-8"))
+        data["_path"] = str(p)
+        meetings.append(data)
 
-MEETINGS: list[MeetingConfig] = [
-    MeetingConfig(
-        meeting_id="apr-14-2026",
-        meeting_date="2026-04-14",
-        title="City Council Regular Meeting",
-        meeting_type="regular",
-        source_url="https://fairfax.granicus.com/player/clip/4519",
-        transcript_url="transcripts/apr-14-2026.html",
-        transcript_data_js="docs/transcripts/apr-14-2026-data.js",
-        full_duration_seconds=10020,
-        sections=[
-            (0, "Meeting"),
-            (104, "Library Week Proclamation"),
-            (439, "Earth Day and Arbor Day"),
-            (695, "Monarch Pledge"),
-            (1017, "Women's Club 70th Anniversary"),
-            (1249, "Telecommunicators Week"),
-            (1679, "Public Comment (Willard Sherwood Center)"),
-        ],
-    )
-]
+    # Stable ordering: newest first (helps deterministic output)
+    meetings.sort(key=lambda m: (m.get("meeting_date", ""), m.get("meeting_id", "")), reverse=True)
+    return meetings
 
 
 def _format_timestamp(seconds: int) -> str:
@@ -92,11 +68,15 @@ def _extract_turns_from_js(js_path: Path) -> list[dict[str, Any]]:
     return turns
 
 
-def _section_for(seconds: int, sections: list[tuple[int, str]] | None) -> str:
+def _section_for(seconds: int, sections: list[dict[str, Any]] | None) -> str:
     if not sections:
         return ""
-    label = sections[0][1]
-    for start, name in sections:
+
+    # Expect list like: [{start_seconds: int, label: str}, ...] in ascending start_seconds
+    label = str(sections[0].get("label", "") or "")
+    for sec in sections:
+        start = int(sec.get("start_seconds", 0) or 0)
+        name = str(sec.get("label", "") or "")
         if seconds >= start:
             label = name
         else:
@@ -108,8 +88,23 @@ def build() -> None:
     meetings_out: list[dict[str, Any]] = []
     segments_out: list[dict[str, Any]] = []
 
-    for meeting in MEETINGS:
-        data_path = (REPO_ROOT / meeting.transcript_data_js).resolve()
+    meetings = load_meetings(REPO_ROOT)
+
+    for meeting in meetings:
+        meeting_id = str(meeting.get("meeting_id") or "").strip()
+        meeting_date = str(meeting.get("meeting_date") or "").strip()
+        title = str(meeting.get("title") or "").strip()
+        meeting_type = str(meeting.get("meeting_type") or "").strip()
+        source_url = str(meeting.get("source_video_url") or meeting.get("source_url") or "").strip()
+        transcript_url = str(meeting.get("transcript_url") or "").strip()
+        transcript_turns_js = str(meeting.get("transcript_turns_js") or meeting.get("transcript_data_js") or "").strip()
+        sections = meeting.get("sections")
+        duration_hint = meeting.get("duration_seconds")
+
+        if not meeting_id or not meeting_date or not title or not transcript_url or not transcript_turns_js:
+            raise RuntimeError(f"Invalid meeting config in {meeting.get('_path')}: missing required fields")
+
+        data_path = (REPO_ROOT / transcript_turns_js).resolve()
         turns = _extract_turns_from_js(data_path)
 
         # Meeting duration best-effort
@@ -118,19 +113,19 @@ def build() -> None:
             last_end = turns[-1].get("end")
             if isinstance(last_end, (int, float)):
                 duration = int(math.ceil(float(last_end)))
-        if meeting.full_duration_seconds:
-            duration = max(duration, int(meeting.full_duration_seconds))
+        if isinstance(duration_hint, (int, float)):
+            duration = max(duration, int(duration_hint))
 
         meetings_out.append(
             {
-                "meeting_id": meeting.meeting_id,
-                "meeting_date": meeting.meeting_date,
-                "title": meeting.title,
-                "meeting_type": meeting.meeting_type,
-                "source_url": meeting.source_url,
+                "meeting_id": meeting_id,
+                "meeting_date": meeting_date,
+                "title": title,
+                "meeting_type": meeting_type,
+                "source_url": source_url,
                 "duration_seconds": duration,
-                "transcript_url": meeting.transcript_url,
-                "sections": [name for _, name in (meeting.sections or [])],
+                "transcript_url": transcript_url,
+                "sections": [str(s.get("label", "") or "") for s in (sections or [])],
             }
         )
 
@@ -141,10 +136,10 @@ def build() -> None:
 
             segments_out.append(
                 {
-                    "meeting_id": meeting.meeting_id,
-                    "meeting_date": meeting.meeting_date,
+                    "meeting_id": meeting_id,
+                    "meeting_date": meeting_date,
                     "speaker": speaker,
-                    "section": _section_for(start, meeting.sections),
+                    "section": _section_for(start, sections),
                     "turn_index": idx,
                     "start_seconds": start,
                     "timestamp_label": _format_timestamp(start),
