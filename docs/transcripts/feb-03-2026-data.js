@@ -2334,72 +2334,80 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 9368.415,
-    "end": 9400.98,
-    "text": "and how it can produce results that are probably far beyond what we could calculate at this point. So, thank you. Ok. Thank you, COUNCILMAN Hall. Uh, so I really appreciate the the comment by our public works director because I think just like we talked about earlier, sequence matters, so a lot of these things make sense, but some are building blocks for other things. So I think what really sets the stage for a subsequent thing to be successful is a good way to go"
+    "end": 9377.323,
+    "text": "and how it can produce results that are probably far beyond what we could calculate at this point. So, thank you. Ok. Thank you, COUNCILMAN Hall."
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 9401.482,
-    "end": 9434.413,
-    "text": "be because these don t carry, um, all the same weight or the same um impact for future programs if that makes any kind of sense. So I do think the ordinance in order to enforce anything that you implement, if you don t have the teeth to actually have that happen, it s just paperwork, right? Or it s just, um, aspirational. I ll put it that way. So I do think sequencing matters. I also think synergy matters because you were taking notes as the"
+    "start": 9381.6,
+    "end": 9413.58,
+    "text": "Uh, so I really appreciate the the comment by our public works director because I think just like we talked about earlier, sequence matters, so a lot of these things make sense, but some are building blocks for other things. So I think what really sets the stage for a subsequent thing to be successful is a good way to go be because these don t carry, um, all the same weight or the same um impact for future programs if that makes any kind of sense. So I do think the"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 9435.349,
-    "end": 9466.112,
-    "text": "prior group was presenting and any opportunity to merge those efforts, I think will result in more efficiency and also a sort of um, um, you know, sort of, uh, a collective impact of those effects. So where there s opportunity to bring those things together and rather than respond to these individually I also think um that going at a little bit of a higher level, a communi I loved when you talked about trust, not a social worker, right? I love when you talked about trust because I"
+    "start": 9413.993,
+    "end": 9445.191,
+    "text": "ordinance in order to enforce anything that you implement, if you don t have the teeth to actually have that happen, it s just paperwork, right? Or it s just, um, aspirational. I ll put it that way. So I do think sequencing matters. I also think synergy matters because you were taking notes as the prior group was presenting and any opportunity to merge those efforts, I think will result in more efficiency and also a sort of um, um, you know, sort of,"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 9470.5,
-    "end": 9500.979,
-    "text": "think that some of this, um, can be more strongly embraced, um, and more impactful when it s when it starts with community effort, right? So, one of these big blocks covering everything should be the community focus in generating some of that. And I m thinking about some of our, uh, civic groups. I m thinking about our, um, uh, city government, civic academy, sort of workshopping some of these"
+    "start": 9447.728,
+    "end": 9479.157,
+    "text": "uh, a collective impact of those effects. So where there s opportunity to bring those things together and rather than respond to these individually I also think um that going at a little bit of a higher level, a communi I loved when you talked about trust, not a social worker, right? I love when you talked about trust because I think that some of this, um, can be more strongly embraced, um, and more impactful when it s when it starts with"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 9501.916,
-    "end": 9533.178,
-    "text": "initiatives, um, and incentivizing those ideas and uh when we talk about behavior. In addition to the information, what really impacts a lot of behavior is peer pressure, quite frankly, and things coming from our fellow or sister residents, um, as opposed to just, you know, from the city, you should do this. When you have your civic association making that a focus area for the year that you re a member of and that you had identified with that has a"
+    "start": 9480.628,
+    "end": 9513.426,
+    "text": "community effort, right? So, one of these big blocks covering everything should be the community focus in generating some of that. And I m thinking about some of our, uh, civic groups. I m thinking about our, um, uh, city government, civic academy, sort of workshopping some of these initiatives, um, and incentivizing those ideas and uh when we talk about behavior. In addition to the information, what really impacts a lot of behavior is peer pressure,"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 9534.281,
-    "end": 9564.911,
-    "text": "stronger behavioral impact for change sometimes then, you know, the newsletter, let s say. Not to eliminate those things, but I think you have a very persuasive, uh, force within groups that exist within and I m, I m just imagining all of the kind of projects and initiatives that can be community-driven versus, uh, information, you know, coming from the outside, if they can be, uh, the generators of that innovation and that um that information for their neighbors, um, for their scout troop or"
+    "start": 9514.94,
+    "end": 9546.159,
+    "text": "quite frankly, and things coming from our fellow or sister residents, um, as opposed to just, you know, from the city, you should do this. When you have your civic association making that a focus area for the year that you re a member of and that you had identified with that has a stronger behavioral impact for change sometimes then, you know, the newsletter, let s say. Not to eliminate those things, but I think you have a very persuasive, uh, force within groups that exist within and I m, I"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 9565.813,
-    "end": 9596.243,
-    "text": "whatever it is, I think those are the things that really have a longer term impact here. So I just wanna emphasize that community-driven element that I think is kind of the backbone of a lot of these initiatives. And I ll just add to that, you know, the success of the invasives program, both awareness, training, and people feeling like they could make an impact. It s the same model, recycle, repurpose, reuse. It s just not piercing people s conscious. I walk my dog. There s entire households, you"
+    "start": 9546.16,
+    "end": 9579.125,
+    "text": "m just imagining all of the kind of projects and initiatives that can be community-driven versus, uh, information, you know, coming from the outside, if they can be, uh, the generators of that innovation and that um that information for their neighbors, um, for their scout troop or whatever it is, I think those are the things that really have a longer term impact here. So I just wanna emphasize that community-driven element that I think is kind of the backbone of a lot of these initiatives. And I ll just add to that, you"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 9596.243,
-    "end": 9626.605,
-    "text": "know, furniture that s, and we have a donation center that just opened. People are not thinking when they see stuff like that, that people are not being environmentally responsible. So if we re gonna talk about environmental sustainability, then, then we need to apply that to this back to councilmember Hardy. There has to be synergy. There has to be messaging and a community has to see you can t just be environmentally focused on invasives, but you don t care what s on the curb in your"
+    "start": 9580.995,
+    "end": 9611.49,
+    "text": "know, the success of the invasives program, both awareness, training, and people feeling like they could make an impact. It s the same model, recycle, repurpose, reuse. It s just not piercing people s conscious. I walk my dog. There s entire households, you know, furniture that s, and we have a donation center that just opened. People are not thinking when they see stuff like that, that people are not being environmentally responsible. So if we re gonna talk about environmental sustainability, then, then we"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 9626.941,
+    "start": 9611.525,
+    "end": 9643.456,
+    "text": "need to apply that to this back to councilmember Hardy. There has to be synergy. There has to be messaging and a community has to see you can t just be environmentally focused on invasives, but you don t care what s on the curb in your neighborhood that is, that is not being responsibly recycled, repurposed, and reused appropriately. So this has to kind of be a cultural thing that comes to our city and so we can call that education, but I don t even think it s just education I think communities, neighborhoods, HOAs, whatever,"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 9643.524,
     "end": 9657.602,
-    "text": "neighborhood that is, that is not being responsibly recycled, repurposed, and reused appropriately. So this has to kind of be a cultural thing that comes to our city and so we can call that education, but I don t even think it s just education I think communities, neighborhoods, HOAs, whatever, have to embrace that they re committed to this. This has to be something environmental sustainability has to apply to everything. It is a lens that applies to everything, not just this or that, but everything,"
+    "text": "have to embrace that they re committed to this. This has to be something environmental sustainability has to apply to everything. It is a lens that applies to everything, not just this or that, but everything,"
   },
   {
     "speaker": "Councilmember Anthony Amos",

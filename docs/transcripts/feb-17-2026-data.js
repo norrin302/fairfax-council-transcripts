@@ -302,88 +302,88 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1176.391,
-    "end": 1207.455,
-    "text": "Hardy Chandler? I move to approve a resolution endorsing the city s application to the Virginia Department of Rail and Public Transportations, Transit, ridership incentive program. Is there a second? A motion s been made by a Council member Hardy Chandler and seconded by Councilmember Peterson. Is there any discussion on the motion? Seeing nonero call vote. Council member Bates. Council member Peterson. Council member Hardy Chandler. Hi, Council member Hall, Council member"
+    "end": 1197.311,
+    "text": "Hardy Chandler? I move to approve a resolution endorsing the city s application to the Virginia Department of Rail and Public Transportations, Transit, ridership incentive program. Is there a second? A motion s been made by a Council member Hardy Chandler and seconded by Councilmember Peterson. Is there any discussion on the motion? Seeing nonero call vote."
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 1208.122,
-    "end": 1238.51,
-    "text": "Amos, motion passed unanimously. We ll go on to the next item, which is a consideration of a resolution to adopt the Affordable housing strategic Plan. I ll recognize Jamie Ergus, our housing programs manager, to provide the staff report. Good evening, Mayor and council. Um, as Melissa just shared, I m here in regards to the Affordable housing strategic plan. Um, this was actually a consent agenda item in the JANUARY meeting. The snow happened. This was pushed"
+    "start": 1200.782,
+    "end": 1232.713,
+    "text": "Council member Bates. Council member Peterson. Council member Hardy Chandler. Hi, Council member Hall, Council member Amos, motion passed unanimously. We ll go on to the next item, which is a consideration of a resolution to adopt the Affordable housing strategic Plan. I ll recognize Jamie Ergus, our housing programs manager, to provide the staff report. Good evening, Mayor and council. Um, as Melissa just shared, I m here in regards to the Affordable housing"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 1239.421,
-    "end": 1272.853,
-    "text": "to the special meeting. So, um, I m really just providing a short introduction in the highest level refresher, um, tpma, the consultant that developed the Affordable housing strategic plan brought this forward in NOVEMBER for a work session discussion. Um, they started working on the plan about a year and a half ago in the summer 2024. They conducted in-depth analysis and research, uh, coupled with extensive community engagement. So they did, uh, a couple initiatives to outreach to the community, including a survey which received almost 700 responses. Um. One key finding"
+    "start": 1233.915,
+    "end": 1264.279,
+    "text": "strategic plan. Um, this was actually a consent agenda item in the JANUARY meeting. The snow happened. This was pushed to the special meeting. So, um, I m really just providing a short introduction in the highest level refresher, um, tpma, the consultant that developed the Affordable housing strategic plan brought this forward in NOVEMBER for a work session discussion. Um, they started working on the plan about a year and a half ago in the summer 2024. They conducted in-depth analysis and research, uh, coupled with extensive community engagement. So they did, uh, a couple"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 1273.221,
-    "end": 1305.86,
-    "text": "of the research was that 50% of our renters and about 20% of our homeowners in the city of Fairfax, um, are cost burdened, meaning that they pay more than 30% of their income towards their housing. This is just one of the key findings that I think highlights the importance of this topic. Um, the plan itself has 3 core focus areas, uh, affordable housing development, affordable housing preservation, as well as strengthening community services and programs. So really 2/3 of the program, uh, uh, the plan itself, um, focusing on existing programs, right? Or existing housing. I"
+    "start": 1264.48,
+    "end": 1298.46,
+    "text": "initiatives to outreach to the community, including a survey which received almost 700 responses. Um. One key finding of the research was that 50% of our renters and about 20% of our homeowners in the city of Fairfax, um, are cost burdened, meaning that they pay more than 30% of their income towards their housing. This is just one of the key findings that I think highlights the importance of this topic. Um, the plan itself has 3 core focus areas, uh, affordable housing development, affordable housing preservation, as well as strengthening community services and programs. So"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 1305.921,
-    "end": 1338.251,
-    "text": "would like to say that the Affordable Housing Strategic Plan is a milestone. It s the first of its kind in the city. Uh, we ve also reached a milestone. The housing division is now a year old. The Housing and Healthy Community Advisory Board is now a year old. Uh, the plan does identify goals, strategies, and actions as well as potential partners to engage, best practices to explore and timelines to consider in the implementation of the plan. Uh, adoption of the plan establishes a policy framework and direction. It does not automatically authorize specific projects, funding allocations, or regulatory"
+    "start": 1299.147,
+    "end": 1331.12,
+    "text": "really 2/3 of the program, uh, uh, the plan itself, um, focusing on existing programs, right? Or existing housing. I would like to say that the Affordable Housing Strategic Plan is a milestone. It s the first of its kind in the city. Uh, we ve also reached a milestone. The housing division is now a year old. The Housing and Healthy Community Advisory Board is now a year old. Uh, the plan does identify goals, strategies, and actions as well as potential partners to engage, best practices to explore and timelines to consider in the implementation of the plan. Uh, adoption of the plan"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 1338.753,
-    "end": 1369.548,
-    "text": "changes. So as noted in the staff report for this evening, um, recommending the adoption of the Affordable housing strategic Plan, alternative actions are to not adopt or to differ. That concludes the introduction ok, are there questions of MISS Ergus about this? Council member Peterson, well, just a comment, and that is thank you very much for this. I appreciate also the opportunity that has been created to have some q&a uh with staff, you know, leading up to this. And uh this is, as"
+    "start": 1331.38,
+    "end": 1362.209,
+    "text": "establishes a policy framework and direction. It does not automatically authorize specific projects, funding allocations, or regulatory changes. So as noted in the staff report for this evening, um, recommending the adoption of the Affordable housing strategic Plan, alternative actions are to not adopt or to differ. That concludes the introduction ok, are there questions of MISS Ergus about this? Council member Peterson, well, just a comment, and that is thank you very much for this. I appreciate also the opportunity that has been"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 1369.885,
-    "end": 1399.913,
-    "text": "I understand it, the beginning of something that will, uh, need continued work and attention. If I could use the baseball analogy. It sounds like we re somewhere around first base, but we ve got more work to do to get all the way around to the home plate. So that s gonna take some time and some effort and some support that we provide to you to help you get to that finish line, and that would include things like targets, but we re a ways off from being at that point, but what we do have before us is a framework here to be able to initiate that process so"
+    "start": 1362.243,
+    "end": 1394.208,
+    "text": "created to have some q&a uh with staff, you know, leading up to this. And uh this is, as I understand it, the beginning of something that will, uh, need continued work and attention. If I could use the baseball analogy. It sounds like we re somewhere around first base, but we ve got more work to do to get all the way around to the home plate. So that s gonna take some time and some effort and some support that we provide to you to help you get to that finish line, and that would include things like targets, but we re a ways off from being at that point,"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 1400.14,
-    "end": 1431.913,
-    "text": "that it doesn t have to be further delayed in order to do that under the framework. So if I m understanding this correctly, it sounds like a very constructive found ation al starting place for us to move forward. You Any other questions or comments? The only thing I would say is it s a living document because some of the things that are happening in the General Assembly, MAY or MAY not impact it and that s every year, things that happen in the General Assembly MAY or MAY not impact the tools we have. So, um, I think this is a"
+    "start": 1395.61,
+    "end": 1428.408,
+    "text": "but what we do have before us is a framework here to be able to initiate that process so that it doesn t have to be further delayed in order to do that under the framework. So if I m understanding this correctly, it sounds like a very constructive found ation al starting place for us to move forward. You Any other questions or comments? The only thing I would say is it s a living document because some of the things that are happening in the General Assembly, MAY or MAY not impact it and that s every year, things that happen in the General Assembly MAY or"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 1432.815,
-    "end": 1466.247,
-    "text": "great start. I mean, this is a great foundation, uh, I, I, you ve done an excellent job. Our consultants did an excellent job in gathering the research and talking to the community about what our priorities are. So I appreciate all the work um, council member Hardy Chandler, is there a motion? I move that the city council approve the resolution to adopt the City of Fairfax Affordable housing strategic Plan as presented, directing city staff to use the plan as a strategic framework to guide future study, prioritize it prioritization and policy"
+    "start": 1429.378,
+    "end": 1462.342,
+    "text": "MAY not impact the tools we have. So, um, I think this is a great start. I mean, this is a great foundation, uh, I, I, you ve done an excellent job. Our consultants did an excellent job in gathering the research and talking to the community about what our priorities are. So I appreciate all the work um, council member Hardy Chandler, is there a motion? I move that the city council approve the resolution to adopt the City of Fairfax Affordable housing strategic Plan as presented, directing city staff to use the plan as a strategic framework to guide"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 1466.715,
-    "end": 1498.88,
-    "text": "development of affordable housing related policies, programs, and initiatives subject to available resources and future city council approval. Is, is there a second? A motion s been made by Council member Hardy Chandler and seconded by Councilor Peterson. Is there any discussion on the motion seeing none a roll call vote. Council member Amos, Council member Hall, Council member Hardy Chandler. Council member Peterson, Council member Bates. Council member McLellan, motion passed unanimously. I will now recess the special"
+    "start": 1464.246,
+    "end": 1495.75,
+    "text": "future study, prioritize it prioritization and policy development of affordable housing related policies, programs, and initiatives subject to available resources and future city council approval. Is, is there a second? A motion s been made by Council member Hardy Chandler and seconded by Councilor Peterson. Is there any discussion on the motion seeing none a roll call vote. Council member Amos, Council member Hall, Council member Hardy Chandler. Council member Peterson, Council member Bates. Council member McLellan,"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 1498.981,
+    "start": 1496.477,
     "end": 1539.586,
-    "text": "meeting to go into the work sessions. So now our meeting matches the room. And I will recognize MISS Shinnneberry for the first work session item for discussion. All right. Our first item is a discussion on the development of the Green Building Policy. I will recognize Stephanie Kupa, our sustainability program manager for the staff presentation."
+    "text": "motion passed unanimously. I will now recess the special meeting to go into the work sessions. So now our meeting matches the room. And I will recognize MISS Shinnneberry for the first work session item for discussion. All right. Our first item is a discussion on the development of the Green Building Policy. I will recognize Stephanie Kupa, our sustainability program manager for the staff presentation."
   },
   {
     "speaker": "Unknown Speaker",

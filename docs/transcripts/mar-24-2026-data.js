@@ -790,8 +790,16 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 2739.555,
+    "end": 2741.925,
+    "text": "second. a motion has been made by"
+  },
+  {
+    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "Captions (standalone marker cue)",
+    "start": 2743.926,
     "end": 2745.827,
-    "text": "second. a motion has been made by council member hardy-chandler and seconded by council member peterson."
+    "text": "and seconded by council member peterson."
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
@@ -5758,16 +5766,16 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 16557.106,
-    "end": 16590.4,
-    "text": "no, thank you. Happy to share that we're doing a higher align fair. But date, time it will be daring lion APRIL 14th, wednesday. It's a small little fair for businesses to come for free. If they're offering internships or."
+    "end": 16559.106,
+    "text": "no, thank you."
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 16590.84,
+    "start": 16568.25,
     "end": 16593.475,
-    "text": "Feel free to share with students and businesses."
+    "text": "Happy to share that we're doing a higher align fair. But date, time it will be daring lion APRIL 14th, wednesday. It's a small little fair for businesses to come for free. If they're offering internships or. Feel free to share with students and businesses."
   },
   {
     "speaker": "Unknown Speaker",

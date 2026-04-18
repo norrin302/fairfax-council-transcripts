@@ -886,8 +886,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 3295.994,
-    "end": 3300.96,
-    "text": "other questions, councilmember peterson?"
+    "end": 3297.994,
+    "text": "other questions,"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1574,8 +1574,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 5658.757,
-    "end": 5670.165,
-    "text": "all right. Then. Are there any questions on any of the items on the consent agenda? Councilmember peterson?"
+    "end": 5667.397,
+    "text": "all right. Then. Are there any questions on any of the items on the consent agenda?"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2230,8 +2230,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 7896.61,
-    "end": 7906.769,
-    "text": "thank you very much, that was very thorough and a nice follow up to the work session we had in DECEMBER. Are there questions, councilmember amos?"
+    "end": 7904.502,
+    "text": "thank you very much, that was very thorough and a nice follow up to the work session we had in DECEMBER. Are there questions,"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2390,8 +2390,16 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 8310.208,
+    "end": 8316.645,
+    "text": "all right, seeing -- I will close the public hearing. Is there a motion?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 8329.694,
     "end": 8337.168,
-    "text": "all right, seeing -- I will close the public hearing. Is there a motion? I move that the city council adopt the urban forest master plan and the draft dated DECEMBER, 2025."
+    "text": "I move that the city council adopt the urban forest master plan and the draft dated DECEMBER, 2025."
   },
   {
     "speaker": "Unknown Speaker",
@@ -2910,8 +2918,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 9742.107,
-    "end": 9746.609,
-    "text": "clear on what the amendment is to this original motion councilmember peterson?"
+    "end": 9744.308,
+    "text": "clear on what the amendment is to this original motion"
   },
   {
     "speaker": "Unknown Speaker",

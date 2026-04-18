@@ -934,168 +934,176 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 3797.541,
-    "end": 3829.806,
-    "text": "s all I have for now. I ve still working on lots of things in here, but thank you. Yes, thank you, um for your presentation before and for this health hefty reading, uh, I appreciate that it always starts with our goals and so all of my questions, all of them will be always uh lining with what we said our city goals are and what our aims are, um, and all of those goals are achieved with people and I"
+    "end": 3803.378,
+    "text": "s all I have for now. I ve still working on lots of things in here, but thank you."
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 3830.741,
-    "end": 3862.205,
-    "text": "understand that the proposed budget is fte neutral or, or no additional FTEs, but we did hear a couple of presentations as council member Amos pointed out that, um, highlighted some priorities that aligned with people, uh, being accountable for those priorities actually happening in addition to that, um, on, um, the list of unfunded FTEs and that our priorities for fy 27 to fy 31, are any of these in your"
+    "start": 3807.617,
+    "end": 3839.215,
+    "text": "Yes, thank you, um for your presentation before and for this health hefty reading, uh, I appreciate that it always starts with our goals and so all of my questions, all of them will be always uh lining with what we said our city goals are and what our aims are, um, and all of those goals are achieved with people and I understand that the proposed budget is fte neutral or, or no additional FTEs, but we did hear a couple of presentations as council member Amos pointed"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 3863.173,
-    "end": 3894.27,
-    "text": "opinion, more urgent than others in terms of where we have stated we want to go as a city. Yeah it s, it s a great question. Um, I, I think that arguments could be made for, for all the ones that you see listed there, you know, um, there are some that are enterprise-wide that, that I think, uh, have a significant impact on the organization, um, and then there are, you know, others that are, are very community facing that do too. And so largely it goes back to council priorities, um, we, we"
+    "start": 3841.17,
+    "end": 3874.183,
+    "text": "out that, um, highlighted some priorities that aligned with people, uh, being accountable for those priorities actually happening in addition to that, um, on, um, the list of unfunded FTEs and that our priorities for fy 27 to fy 31, are any of these in your opinion, more urgent than others in terms of where we have stated we want to go as a city. Yeah it s, it s a great question. Um, I, I think that arguments could be made for,"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 3894.505,
-    "end": 3927.705,
-    "text": "presented to you a stability budget. And so if we want to go above that, then we need to have that larger discussion uh, based on what you see and what we ve provided to you. And so, um, yeah, I think we have had some internal conversations around, um, you know, what they asked for, for, for, um, supplemental or enhanced positions, um, and so, you know, again, on a, on a stability budget, it s tough to to, um, you know, advocate for one priority over another. And so I think the other thing I would say is that you know, we, we ve there"
+    "start": 3875.518,
+    "end": 3908.284,
+    "text": "for all the ones that you see listed there, you know, um, there are some that are enterprise-wide that, that I think, uh, have a significant impact on the organization, um, and then there are, you know, others that are, are very community facing that do too. And so largely it goes back to council priorities, um, we, we presented to you a stability budget. And so if we want to go above that, then we need to have that larger discussion uh, based on what you see and what we ve provided to you. And so, um, yeah, I think we have had some internal conversations"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 3927.705,
-    "end": 3958.67,
-    "text": "s often, often a recency effect. With, uh, governing bodies. We brought you some things of note recently. And so there s, there s often a focus on those things. Oftentimes at the expense of some of the other needs that haven t been presented as a result of a plant. Or you know something that council adopts as a program. So I, I would just caution us around that to the extent that, um, we re, we re pretty significant enterprise. Not everything comes to your attention, uh, you know, within, within a reasonable time frame"
+    "start": 3909.53,
+    "end": 3940.115,
+    "text": "around, um, you know, what they asked for, for, for, um, supplemental or enhanced positions, um, and so, you know, again, on a, on a stability budget, it s tough to to, um, you know, advocate for one priority over another. And so I think the other thing I would say is that you know, we, we ve there s often, often a recency effect. With, uh, governing bodies. We brought you some things of note recently. And so there s, there s often a focus on those things. Oftentimes at the expense of some of the"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 3959.302,
-    "end": 3993.369,
-    "text": "for us to be thinking about these services. It s just a, a note of caution as we, as we look at these projects. I appreciate that reminder and, um, also recognizing what a significant part of our budget people are, right? And, um, in terms of our approach to our governance policy, um, starting at the sta stability level, I think is fine. I think we also need to have discussions about, um, what we really wanna build and invest in long term and so some of those enhancements I"
+    "start": 3940.117,
+    "end": 3971.179,
+    "text": "other needs that haven t been presented as a result of a plant. Or you know something that council adopts as a program. So I, I would just caution us around that to the extent that, um, we re, we re pretty significant enterprise. Not everything comes to your attention, uh, you know, within, within a reasonable time frame for us to be thinking about these services. It s just a, a note of caution as we, as we look at these projects. I appreciate that reminder and, um, also recognizing what a significant part of our budget"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 3994.38,
-    "end": 4025.568,
-    "text": "think are not simply extras or frills. I think there are things that are investments in what we say we want long term, we just talk to uh a troop of uh scouts, you know, and, and thinking about the kind of city they re going to be living in, and we do need people to drive that. So, um, I think there are certain enhancements recognizing that, yes, certain things are going to stand out because we got a presentation from a committee. Their job is to advise us, but at the same time, um, just considering what enhancements might be a part of"
+    "start": 3972.349,
+    "end": 4005.314,
+    "text": "people are, right? And, um, in terms of our approach to our governance policy, um, starting at the sta stability level, I think is fine. I think we also need to have discussions about, um, what we really wanna build and invest in long term and so some of those enhancements I think are not simply extras or frills. I think there are things that are investments in what we say we want long term, we just talk to uh a troop of uh scouts, you know, and, and"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 4027.304,
-    "end": 4057.466,
-    "text": "discussions in the upcoming, um, weeks as we re, you know, making these budget decisions. So, I, I think the other thing to consider is great, great points, and, and thank you for that. Is there are some other, um, items that we would consider that are not related to FTEs, um, and I m gonna you know, say something against what I just said. We housing, for example, um, and, and whether we, you know, start to fund you know, some a trust fund around that, right? I is certainly something that we heard about recently. And, um,"
+    "start": 4005.816,
+    "end": 4038.548,
+    "text": "thinking about the kind of city they re going to be living in, and we do need people to drive that. So, um, I think there are certain enhancements recognizing that, yes, certain things are going to stand out because we got a presentation from a committee. Their job is to advise us, but at the same time, um, just considering what enhancements might be a part of discussions in the upcoming, um, weeks as we re, you know, making these budget decisions. So, I, I think the other thing to consider is great, great points, and, and thank you for that. Is there are some other, um, items that we would"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 4058.34,
-    "end": 4088.531,
-    "text": "is a non-ft related item that adds value, uh, to, to communities. So, uh, there s, you, we have something we ve talked about, but I want to be really cautious that we respect council s, uh, role in, in looking at this and setting priorities so let me clarify when I say more urgent, I m not saying more important, right? What I m saying is that there MAY be things that set up a sequence that if they are in place earlier, they set the stage for other things to go smoothly. So let s make sure that that question isn t in"
+    "start": 4039.65,
+    "end": 4071.948,
+    "text": "consider that are not related to FTEs, um, and I m gonna you know, say something against what I just said. We housing, for example, um, and, and whether we, you know, start to fund you know, some a trust fund around that, right? I is certainly something that we heard about recently. And, um, is a non-ft related item that adds value, uh, to, to communities. So, uh, there s, you, we have something we ve talked about, but I want to be really cautious that we respect council s, uh, role in, in looking at this and setting priorities so let me clarify"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 4091.168,
-    "end": 4124.599,
-    "text": "equated to, um, importance, but, um, I do think that in terms of timing there MAY be again people or programs that are put in place that save us in the long run, that reduce costs further down the line that makes some of the things that we ve set our priorities easier to implement. And so I think it s, it s not everything is weighted the same, so I m just wondering wonder in terms of sequence. Right in terms of timing, so what we need for 2027 MAY have a little bit more weight than what we MAY have for 2020, what might be a"
+    "start": 4072.915,
+    "end": 4104.646,
+    "text": "when I say more urgent, I m not saying more important, right? What I m saying is that there MAY be things that set up a sequence that if they are in place earlier, they set the stage for other things to go smoothly. So let s make sure that that question isn t in equated to, um, importance, but, um, I do think that in terms of timing there MAY be again people or programs that are put in place that save us in the long run, that reduce costs further down the line that"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 4125.68,
-    "end": 4157.99,
-    "text": "better fit for 2029. So that kind of feedback would be, um, you know, a helpful part of the discussion for me. Thank you. Councilmember Bates, did you have something you wanted to? Right, yeah. Um, I don t recall for sure, but with regards to the um police station garage, I think that that might have been with regard to the, um, or the, you know, the expansion with regard to the garage component of that expansion. Um, in terms of what can be, you know,"
+    "start": 4105.749,
+    "end": 4136.745,
+    "text": "makes some of the things that we ve set our priorities easier to implement. And so I think it s, it s not everything is weighted the same, so I m just wondering wonder in terms of sequence. Right in terms of timing, so what we need for 2027 MAY have a little bit more weight than what we MAY have for 2020, what might be a better fit for 2029. So that kind of feedback would be, um, you know, a helpful part of the discussion for me. Thank you. Councilmember Bates, did you have something you wanted to?"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 4157.968,
-    "end": 4192.835,
-    "text": "possibly tabled for, for the time being, um, whereas, you know, we have other parts of that that are a bit more perhaps of an immediate need, such as locker space, training space, uh, so the question that I think we would need to see answered first is, of course, the conditions of this funding, um, you know, does it have to be the entire thing, including the garage for us to get that funding to begin with, um, you know, that kind of thing. But anyway, all things to, you know, think about going forward on that. My memory of this, and you can correct me if I m wrong,"
+    "start": 4137.681,
+    "end": 4168.709,
+    "text": "Right, yeah. Um, I don t recall for sure, but with regards to the um police station garage, I think that that might have been with regard to the, um, or the, you know, the expansion with regard to the garage component of that expansion. Um, in terms of what can be, you know, possibly tabled for, for the time being, um, whereas, you know, we have other parts of that that are a bit more perhaps of an immediate need, such as locker space, training"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 4196.774,
-    "end": 4227.536,
-    "text": "MR. Summers, is that when the police station was originally designed and constructed, there was value engineering. In the original design. If I m recalling this correctly. And so that left us without a garage and of course in the intervening, I think since 2005, has it been 20 years, you know, we ve acquired a lot of very expensive, very high tech, very specific kinds of equipment and vehicles, not just police cars, but very high tech, very expensive vehicles that now are,"
+    "start": 4169.413,
+    "end": 4201.843,
+    "text": "space, uh, so the question that I think we would need to see answered first is, of course, the conditions of this funding, um, you know, does it have to be the entire thing, including the garage for us to get that funding to begin with, um, you know, that kind of thing. But anyway, all things to, you know, think about going forward on that. My memory of this, and you can correct me if I m wrong, MR. Summers, is that when the police station was originally designed and constructed, there"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 4230.14,
-    "end": 4261.738,
-    "text": "are not in a secure place to protect the value of that investment. So that s something to consider. Well, that was the first the first, uh ask was sheltered parking. Sheltered and then as we met with folks, with the architect that expanded to like COUNCILMAN Bates said, some other significant needs like locker rooms for women. I mean, so yes, I was getting to that point too because back in 2005 the estimate was not that so many women would choose to join the Fairfax City Police Department, but yes, they have. Not, not"
+    "start": 4202.513,
+    "end": 4234.543,
+    "text": "was value engineering. In the original design. If I m recalling this correctly. And so that left us without a garage and of course in the intervening, I think since 2005, has it been 20 years, you know, we ve acquired a lot of very expensive, very high tech, very specific kinds of equipment and vehicles, not just police cars, but very high tech, very expensive vehicles that now are, are not in a secure place to protect the value of that investment. So that s something to consider. Well, that was the"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 4263.207,
-    "end": 4295.904,
-    "text": "only that, Mayor, but, um, we built a garage at the same time we did the, uh, addition to City Hall. And, uh, just like a lot of projects, you know, the bids come in and you have limits, uh, especially, uh, when, uh, the bids are a little bit higher than the money you have and you have to make some cutbacks. I know we, we, we made some reductions in the annex. For City Hall because of uh the budget So, um, you know, we, we did as best as we could with the money we had back then, but looking back on it, it would have been nice if we"
+    "start": 4238.148,
+    "end": 4271.146,
+    "text": "first the first, uh ask was sheltered parking. Sheltered and then as we met with folks, with the architect that expanded to like COUNCILMAN Bates said, some other significant needs like locker rooms for women. I mean, so yes, I was getting to that point too because back in 2005 the estimate was not that so many women would choose to join the Fairfax City Police Department, but yes, they have. Not, not only that, Mayor, but, um, we built a garage at the same time we did the, uh, addition to City Hall. And, uh, just like a"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 4296.507,
-    "end": 4327.103,
-    "text": "could have, you know, included all these things. Well, I just, I just think we need to think about what, what happens when you value engineer. I mean, some, if you don t have the money, you don t have the money. So you build what you have the money for, but it doesn t get cheaper 20 years later to build the same thing. And, and then it comes down to an issue of urgency. Is it more urgent or less urgent than other things, and so you still have all these vehicles. Out in the conditions because we have to make these decisions about now what is urgent and what we have the"
+    "start": 4271.682,
+    "end": 4303.613,
+    "text": "lot of projects, you know, the bids come in and you have limits, uh, especially, uh, when, uh, the bids are a little bit higher than the money you have and you have to make some cutbacks. I know we, we, we made some reductions in the annex. For City Hall because of uh the budget So, um, you know, we, we did as best as we could with the money we had back then, but looking back on it, it would have been nice if we could have, you know, included all these things. Well, I just, I just think we need to think about what, what happens when you value engineer. I mean,"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 4329.38,
-    "end": 4360.97,
-    "text": "money for. And so I feel good about the fact that we don t have to spend this money. I mean, we can, we can hang on to it for 10 years to figure out what is more urgent as far as being able to use it for this project or some or something else, but, but I do think just when we talk about value engineering things and trying to shrink projects and I understand the necessity of that, but in the long term, it doesn t get easier. To, to build the thing exponentially more money down the road. I"
+    "start": 4303.613,
+    "end": 4335.877,
+    "text": "some, if you don t have the money, you don t have the money. So you build what you have the money for, but it doesn t get cheaper 20 years later to build the same thing. And, and then it comes down to an issue of urgency. Is it more urgent or less urgent than other things, and so you still have all these vehicles. Out in the conditions because we have to make these decisions about now what is urgent and what we have the money for. And so I feel good about the fact that we don t have to spend this money. I mean, we can, we can hang on to"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 4361.905,
-    "end": 4392.302,
-    "text": "think is one of the toughest things that the diet has to decide is what is the priority and sometimes things that are, that are very urgent today that need 20 years from now we will not have done it and then we re back to square one going, well, we didn t do it 20 years ago, but is it urgent enough to do now, or all the other intervening urgent things more urgent than that, but ultimately we do need facilities for the people who work in our police department and they re and there are a lot more women than there s capacity for them on our force."
+    "start": 4336.747,
+    "end": 4369.111,
+    "text": "it for 10 years to figure out what is more urgent as far as being able to use it for this project or some or something else, but, but I do think just when we talk about value engineering things and trying to shrink projects and I understand the necessity of that, but in the long term, it doesn t get easier. To, to build the thing exponentially more money down the road. I think is one of the toughest things that the diet has to decide is what is the priority and sometimes things that are,"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 4393.87,
-    "end": 4425.268,
-    "text": "And the other thing is very expensive equipment that we have invested in that we need to be a, a top drawer, top flight. You know, police force. And so we need to protect that investment too. These are all really tough and I think these work sessions are really important for helping everybody to understand just how difficult it is to decide among competing priorities. What it is is, is either a the most urgent thing or looking at what is the long-term investment and what are the impacts for not making the long-term investment"
+    "start": 4370.146,
+    "end": 4400.309,
+    "text": "that are very urgent today that need 20 years from now we will not have done it and then we re back to square one going, well, we didn t do it 20 years ago, but is it urgent enough to do now, or all the other intervening urgent things more urgent than that, but ultimately we do need facilities for the people who work in our police department and they re and there are a lot more women than there s capacity for them on our force. And the other thing is very expensive equipment that we have invested in that we need to be a, a top drawer, top"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 4426.403,
-    "end": 4456.766,
-    "text": "over the thing that seems most urgent. So just wanted to circle back around on the police station on that. Thank you, MR. Summers. Council member Bates, yeah, just, um, certainly spot on on that, um, and sort of to Councilmember Hardy Chandler s point with the, uh, garage component itself, um, that MAY be something that could save us money in the long run in terms of making sure that we have a safe place to store those vehicles. Um, but, you know, again, uh, the women s locker room space is something that is really important since, you know, we"
+    "start": 4401.211,
+    "end": 4434.209,
+    "text": "flight. You know, police force. And so we need to protect that investment too. These are all really tough and I think these work sessions are really important for helping everybody to understand just how difficult it is to decide among competing priorities. What it is is, is either a the most urgent thing or looking at what is the long-term investment and what are the impacts for not making the long-term investment over the thing that seems most urgent. So just wanted to circle back around on the police station on that. Thank you, MR. Summers. Council"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 4459.737,
+    "start": 4434.645,
+    "end": 4466.108,
+    "text": "member Bates, yeah, just, um, certainly spot on on that, um, and sort of to Councilmember Hardy Chandler s point with the, uh, garage component itself, um, that MAY be something that could save us money in the long run in terms of making sure that we have a safe place to store those vehicles. Um, but, you know, again, uh, the women s locker room space is something that is really important since, you know, we kind of more immediately just need space to house, um you know, that locker room space"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 4466.677,
     "end": 4480.122,
-    "text": "kind of more immediately just need space to house, um you know, that locker room space for our women officers and uh and that is something that he needs to be taken care of, but you know, looking forward, I think that, um, those are all important things, you know, all important points. Thank you,"
+    "text": "for our women officers and uh and that is something that he needs to be taken care of, but you know, looking forward, I think that, um, those are all important things, you know, all important points. Thank you,"
   },
   {
     "speaker": "Councilmember Tom Peterson",

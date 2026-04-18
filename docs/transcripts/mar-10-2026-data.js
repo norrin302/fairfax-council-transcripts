@@ -462,205 +462,213 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1861.551,
-    "end": 1893.884,
-    "text": "motion? Seeing none, a roll call vote. Councilmember Amos. Hi, Councilmember Hall. Hi, Council member Hardy Chandler. Council member Peterson, Councilmember Bates, Councilmember Quillan, motion passed unanimously. We ll go to the next public hearing, which is the public hearing on the proposed fy 27 budget. This is the first public hearing of the proposed fy 27 budget. The city manager present on FEBRUARY 24, 2026. Ok I will now open the public hearing mission and Barry, has this public hearing been advertised? Yes, it has. I"
+    "end": 1867.924,
+    "text": "motion? Seeing none, a roll call vote. Councilmember Amos. Hi, Councilmember Hall. Hi, Council member Hardy Chandler."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
-    "start": 1894.185,
-    "end": 1925.816,
-    "text": "had 5 people sign up prior to the start of the meeting, so I m gonna call those speakers up first and then if there s anybody else in the room that would like to speak on the budget, they can come afterwards. So our first speaker is Jesse Thornton. Mayor, members of council. My name is Jesse Thornton, and I m here tonight in my role as the PRESIDENT Of the City of Fairfax Police Association. In policing, we don t make a habit of borrowing metaphors from our rival public safety partners, the fire department, but today"
+    "speaker_source_detail": "Captions (standalone marker cue)",
+    "start": 1868.325,
+    "end": 1899.256,
+    "text": "Councilmember Bates, Councilmember Quillan, motion passed unanimously. We ll go to the next public hearing, which is the public hearing on the proposed fy 27 budget. This is the first public hearing of the proposed fy 27 budget. The city manager present on FEBRUARY 24, 2026. Ok I will now open the public hearing mission and Barry, has this public hearing been advertised? Yes, it has. I had 5 people sign up prior to the start of the meeting, so I m gonna call those speakers up first and then if there s anybody else in the room that"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
-    "start": 1925.816,
-    "end": 1958.548,
-    "text": "it s appropriate. There is smoke in the police department. Where there is smoke, there s a risk of fire. That smoke comes from a growing staffing vulnerability driven by compensation disparities, repeated budget tightening and regional competition that has accelerated dramatically in the last few years. Our city is thriving Fairfax City remains a desirable, vibrant, and safe community. That reputation is not accidental. It s built in part on the strength and professionalism of this police department. Yet last year our department absorbed a 10% budget reduction, losses training allocation and saw"
+    "speaker_source_detail": "Captions (standalone marker cue)",
+    "start": 1899.557,
+    "end": 1930.387,
+    "text": "would like to speak on the budget, they can come afterwards. So our first speaker is Jesse Thornton. Mayor, members of council. My name is Jesse Thornton, and I m here tonight in my role as the PRESIDENT Of the City of Fairfax Police Association. In policing, we don t make a habit of borrowing metaphors from our rival public safety partners, the fire department, but today it s appropriate. There is smoke in the police department. Where there is smoke, there s a"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
-    "start": 1959.849,
-    "end": 1990.11,
-    "text": "critical positions frozen. Our starting salary is low for the region, set at $64,000 and we haven t had steady costs of living adjustments to offset inflation and compensate for our uneven pay scale. Meanwhile, neighboring jurisdictions have moved aggressively in the opposite direction. Fairfax County police are in the last year of a three-year contract which provided more than 20% average raise for their employees. Arlington County Police will, as of JULY 1st, offer new hires, $90,000 to"
+    "speaker_source_detail": "Captions (standalone marker cue)",
+    "start": 1931.556,
+    "end": 1966.289,
+    "text": "risk of fire. That smoke comes from a growing staffing vulnerability driven by compensation disparities, repeated budget tightening and regional competition that has accelerated dramatically in the last few years. Our city is thriving Fairfax City remains a desirable, vibrant, and safe community. That reputation is not accidental. It s built in part on the strength and professionalism of this police department. Yet last year our department absorbed a 10% budget reduction, losses training allocation and saw critical positions frozen. Our starting salary is low for the region, set at $64,000 and we haven t had steady costs of"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
-    "start": 1990.815,
-    "end": 2021.111,
-    "text": "start, lateral officers $103,000 and provide a $25,000 hiring bonus. Alexandria police just agreed to a contract raising starting salary to $75,000 and providing existing officers 3.5% raises and retention bonuses for the next 3 years. Our officers are aware of these numbers. They attend regional training with these agencies. They speak, they compare, they make decisions accordingly. With a portable state retirement plan, the absence of collective bargaining and fewer employment incentives, the path outward becomes financially rational"
+    "speaker_source_detail": "Captions (standalone marker cue)",
+    "start": 1966.79,
+    "end": 1998.2,
+    "text": "living adjustments to offset inflation and compensate for our uneven pay scale. Meanwhile, neighboring jurisdictions have moved aggressively in the opposite direction. Fairfax County police are in the last year of a three-year contract which provided more than 20% average raise for their employees. Arlington County Police will, as of JULY 1st, offer new hires, $90,000 to start, lateral officers $103,000 and provide a $25,000 hiring bonus. Alexandria police just agreed to a contract"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
-    "start": 2022.513,
-    "end": 2054.879,
-    "text": "for many of our young officers. Fairfax City Police provide something rare responsive, community-based, high accountability policing. We handle the kinds of calls larger agencies might not prioritize, and we do so with the professionalism, the community values deeply. But appreciation does not offset the rising cost of life. Support must be reflected in policy. We recognize the fiscal challenges before you. Our goal is not conflict, is prevention. Addressing retention now is significantly less costly than rebuilding a depleted department later. Competitive compensation and meaningful"
+    "speaker_source_detail": "Captions (standalone marker cue)",
+    "start": 1999.824,
+    "end": 2031.321,
+    "text": "raising starting salary to $75,000 and providing existing officers 3.5% raises and retention bonuses for the next 3 years. Our officers are aware of these numbers. They attend regional training with these agencies. They speak, they compare, they make decisions accordingly. With a portable state retirement plan, the absence of collective bargaining and fewer employment incentives, the path outward becomes financially rational for many of our young officers. Fairfax City Police provide something rare responsive, community-based, high accountability policing. We handle the kinds of calls larger agencies might not"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
-    "start": 2054.879,
+    "speaker_source_detail": "Captions (standalone marker cue)",
+    "start": 2031.888,
+    "end": 2064.421,
+    "text": "prioritize, and we do so with the professionalism, the community values deeply. But appreciation does not offset the rising cost of life. Support must be reflected in policy. We recognize the fiscal challenges before you. Our goal is not conflict, is prevention. Addressing retention now is significantly less costly than rebuilding a depleted department later. Competitive compensation and meaningful retention incentives are investments in stability, safety, and long-term financial prudence. A recent public safety police employee survey"
+  },
+  {
+    "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "Captions (standalone marker cue)",
+    "start": 2064.689,
     "end": 2102.224,
-    "text": "retention incentives are investments in stability, safety, and long-term financial prudence. A recent public safety police employee survey showed 65% of respondents are considering leaving the agency. And 64% would not recommend working for the city of Fairfax police to others. We ask that you act decisively to preserve the strength of this department before that smoke, I mentioned earlier becomes a fire. Thank you for your time and consideration, and I d be happy to speak with any of you further on any of these matters. Our next speaker is Doug Cox. Good evening, Mayor and City"
+    "text": "showed 65% of respondents are considering leaving the agency. And 64% would not recommend working for the city of Fairfax police to others. We ask that you act decisively to preserve the strength of this department before that smoke, I mentioned earlier becomes a fire. Thank you for your time and consideration, and I d be happy to speak with any of you further on any of these matters. Our next speaker is Doug Cox. Good evening, Mayor and City"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 2103.36,
     "end": 2135.557,
     "text": "council, Doug Cox, Fairview Drive, Fairfax, Virginia. I reviewed the city managers. Report for the budget and with all due respect, folks, let s be a little more honest to the residents. All right, I get it. We re cheaper in rate than Fairfax County Falls Church couple others not so much for Prince William Arlington. Loudon, etc. Etc. Um I guess"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 2137.6,
     "end": 2168.489,
     "text": "the rate of 1.080, not counting stormwater because I pay hundreds of dollars for that, folks. So that s another 0.3335 on top of the 1.08 being advertised. So Fairfax County in the last 4 years has raised their rate 1.136%. Every jurisdiction in this area seems to be working within what they get from assessment increases, false church in the last four years has actually gone down."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 2168.892,
     "end": 2201.725,
     "text": "Fairfax City If we look at the real numbers with us at 1.055, we ve gone up 4.455% rate increase. Now my assessment came in 9% higher. Zillow says it s the same this JANUARY as last JANUARY, but Fairfax City says my house went up 9%. And now you guys are talking about increasing the rate to the point where if we went at 1.080. Plus the 6% stormwater increase in the last 4 years, the check"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 2203.361,
     "end": 2236.59,
     "text": "I write to this city will have gone up roughly 36% It s absolutely outrageous. Start trimming the budget or something, folks. I don t know where the hole is in the money bucket but we can t compete with Fairfax County, so quit trying to do bigger, better. All right? Now I hate comparing ourselves to other jurisdictions, but let s statewide amongst all the cities. All the counties 22, 23, 23, 24. How many of those 136 jurisdictions had rate"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 2238.329,
     "end": 2268.524,
     "text": "increases in both years. 4. And now we re talking about our 4th rate increase in 4 years. It s outrageous. Winning is being better. To yourself Not competing with people that are doing poorly Let s do better. Let s start trimming the budget, figuring out where the money s going. Apparently it s not going to the police. Don t worry, they re going. But let s do better, folks. All right? We already pay lots of taxes. I said, on top of property, we"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 2268.793,
     "end": 2300.356,
     "text": "got stormwater. I got a bag tax to pay. My utilities, my goodness, my water bill, 26% of its for actually water. The rest of it is sewer and things coming to the city. All right? Money is coming in. We re just spending too much. Thank you. Our next speaker is Rusty Russell. Good evening. My name s Rusty Russell. I m, uh,"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 2301.625,
     "end": 2332.722,
     "text": "come to you as the chair of the Environmental Sustainability Committee, uh, and I want to thank everybody for the great work session we had in early FEBRUARY. I m simply here to reinforce some of the points that we made at that time. Our community is at a point where energy costs are rising, public infrastructure is aging, and extreme weather events are increasing, and that s not news to anybody. Uh, frankly, we ve been at this intersection for years, and to be honest, we ve been discussing being at this intersection for years. There"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 2333.724,
     "end": 2364.619,
     "text": "have been some moves forward. We ve allocated funds for climate action plan. The, the last municipal municipality in the region to have one. Um, in concert with Fairfax County, we ve designed, but not constructed, at the first lead gold resilience hub in the city of Fairfax. And 3 years ago, funds were allocated for the development of a green building policy, which would provide the tools necessary for both public and private buildings to reduce energy consumption. A good"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 2364.655,
     "end": 2397.153,
     "text": "thing, and save money, also a good thing. But this policy is awaiting adoption. And our former temporary climate and energy manager applied for and received an eecbg grant from the Department of Energy, which will provide 100 free energy audits for city residents. And there are other energy saving projects underway, such as gas light replacements in old town, replacement of gas equipment with electric alternatives and solar assessment of public buildings, but to recap no climate action plan, which is"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 2398.89,
     "end": 2429.519,
     "text": "the primary underpinning with which municipalities protect their residents. The first lead gold resident resilience hub in the city, a completed, but not adopted green building policy which would provide significant energy savings to both private and public structures. No staff capacity to seek external funding. Unlike surrounding municipalities, and a piecemeal approach to funding and implementing sustainability projects. I hope you don t think I just come to you with problems. I think the solution is the hiring of a full-time"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 2430.721,
     "end": 2463.153,
     "text": "permanent. Climate and energy manager uh, who would shepherd the climate action plan, collapse the administrative silos within the city and realize operational efficiencies, implement the adopted then adopted Green Building policy, saving energy and realizing significant cost savings in all public buildings and provide the staff capacity to seek and secure external funding for the wide array of sustainability projects specified in the climate action plan. I urge you to consider the considerable progress the"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 2463.286,
     "end": 2496.5,
     "text": "city can realize with one single hire. Thank you. Our next speaker is Adele Wiseman. Good evening. My name is Adele Wiseman. I m a student at kjms Middle School and my leadership class has done a project on environment and redevelopment in our area. When we learned that the general budget for the"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 2499.23,
     "end": 2529.886,
     "text": "green building policy, um, was not adopted. Please pass and hire a climate energy manager to help with this policy, because we need to keep the growing community of Fairfax Green for the future of kids like me. Thank you. Our next speaker is Henry Street. Hello, I m Henry Street. I m also a student from kgms. Um, I m also"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 2531.221,
     "end": 2562.953,
     "text": "here to talk about the green building policy. Um, we, I also learned that it wasn t adopted, but it s very important because it will help to increase the green energy in the area. It will um, provide incentives for people such as slight tax reductions for those who adopt it. Um, and we need to hire someone to market it because not many people know it exists. I d just learned that it exists a couple weeks ago. Um, so we need someone to share the word,"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 2564.421,
     "end": 2598.187,
     "text": "get it out there for people to include in their new buildings. Thank you. Is there anybody else in the room that would like to speak on the proposed budget? All right then this public hearing will stay open until APRIL 14, 2026. We ll go to 2nd general public comment. Is there anybody else in the room that would like to speak on any other item that was not a public hearing item? Right, I"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 2598.623,
     "end": 2629.83,
     "text": "think we will move on then to, uh, items not requiring a public hearing. Uh, so the only item we have is the consideration of the maximum real estate tax rate for a fiscal year fy 202027 to be advertised. This action sets the maximum real estate tax rate that can be adopted as part of the fy 2027 budget. This action does not set the real estate tax rate for fy 2027. I m gonna recognize Daniel Alexander, a city manager to provide the staff report. I will recognize jc"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 2631.454,
     "end": 2664.654,
     "text": "Martinez. Thank you, Mayor, council, the city manager s fy 27 proposed budget recommends a change in the real estate tax rate of 0.025 or 2.5 cents increasing the tax rate to 1 dollar08 per $100 of assessed value. Staff recommends advertising a maximum real estate tax rate of at least $1.08 per 100 of assessed value. Once a proposed rate is advertised, city council MAY adopt a lower rate but cannot adopt a higher rate without"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 2664.788,
     "end": 2696.86,
     "text": "restarting the public hearing process. The old town Service District tax and the commercial and industrial tax are not required to be included in this advertisement. Given the discussion that we had last week on MARCH 3, 2026 work session meeting. Several council members expressed interest in potentially advertising a rate above the city manager s proposed rate. Therefore, an alternate motion is included for council s consideration. Advertising a rate above the manager s proposed rate provides"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 2697.587,
     "end": 2727.282,
     "text": "additional flexibility. Provides council s options prior to final adoption. It keeps all options on the table during deliberations. Allows for reallocation flexibility if other revenue sources are reduced. And provides leverage to support high impact community investments. Staff are happy and willing to take any questions you MAY have. Are there questions of staff? Seeing none, is there a motion,"
@@ -682,225 +690,225 @@ const TRANSCRIPT_TURNS = [
     "text": "advertise a proposed real estate tax rate of 1.095 per $100 of assessed value. Is there a second 2. A motion s been made by Councilmember Hardy Chandler and seconded by Council member Amos. Is there any discussion on the motion? Discussion on the motion ok, um. A roll call vote. Councilor Ramis, Council member Hall, no Council member Hardy Chandler. Councilmember Peterson? No"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 2763.22,
     "end": 3370.92,
-    "text": "Council member Bates. COUNCILMAN McLellan, No. Married? The mayor votes I. Ok, motion passed 4 to 3. Ok I will now recess the regular meeting to go into a work session. We ll take a 5-minute recess to go into the work session room. And welcome to our work session."
+    "text": "COUNCILMAN McLellan, No. Married? The mayor votes I. Ok, motion passed 4 to 3. Ok I will now recess the regular meeting to go into a work session. We ll take a 5-minute recess to go into the work session room. And welcome to our work session."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 3371.28,
     "end": 3402.124,
     "text": "MS. Shennebury, what do we have up first? Our first items discussion on Beacon Landing tax grant request. I m gonna recognize Jamie Ergaz, housing program manager to provide the staff presentation. Good evening, Mayor and council. Thank you. I m here alongside Christine Johnston, Johnson, director of real estate s assessment and as Melissa shared, we re going to be bringing forward the tax-related requests for the Beacon Landing project. So in recognizing that all of you are familiar with this project. I will just briefly cover the"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 3403.27,
     "end": 3435.24,
     "text": "project background, project timeline, some specifics around permanent supportive housing itself as it is a unique project type. And then I ll turn it over to Christine to cover the tax-related request. So this project, I know I ve said it s unique, um, it is 54 units of permanent supportive housing, and it is serving those that have the lowest of incomes. So 30% ami. So when we talk about affordable housing when we think about the adu ordinance, we re looking at 60 to 80% ami depending on whether it s single family detached or multifamily. This is the lowest of incomes for our, our"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 3436.626,
     "end": 3468.523,
     "text": "neighbors here. There are some campus amenities and building amenities that focus both on building community and creating opportunity. So employment services, case management services, all of this is designed specifically for the population that will be residing here to ensure that they can stabilize in housing to ensure that they can be successful in housing and then we have the opportunity to thrive. The financing as I have listed here is quite complex, as it usually is for any sort of affordable housing projects. This project as it is deeply affordable, is all the more"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 3468.858,
     "end": 3500.724,
     "text": "complex. Um, you can see in the list of, um, financing the city of Fairfax did contribute funding to this project. It is probably about 2 to 3% of the total budget from what the city contributed, but I will say that by the city contributing, they re able to leverage the funding to get other resources at the table. That s common and affordable housing if the local jurisdiction can can demonstrate that they are committed to the project, they re able to usually bring in the remainder of the financing that is needed. The project is, uh, being brought"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 3501.57,
     "end": 3535.991,
     "text": "forward by the Lamb Center in Wesley Housing, and we have representatives from both with us this evening. And this project is located at Fairfax Boulevard, Campbell Drive within Fairfax Circle. The special use permit was approved in DECEMBER 2022, moved to the design and permitting phase, financing final plans, closing. I think many of you were at the groundbreaking this past fall. And I m told that it is on pace to finish as scheduled, can be to be completed at the end of this calendar year, DECEMBER 2026. So permanent supportive housing is a very specific term"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 3536.66,
     "end": 3568.726,
     "text": "when we talk about affordable housing that is a broader terms, so permanent support of housing is really, it s the combination of affordable rental assistance with supportive housing services, uh, connected to it, and it s really focused on individuals experiencing chronic homelessness and helping them achieve the long term stability that s needed. The Virginia Department of Behavior Health and Developmental Services found that 94% of residents in permanent supportive housing programs remains stably housed after one year. I think that s also my experience in the nonprofit sector. I operated"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 3568.726,
     "end": 3598.988,
     "text": "the largest family permit Sport of housing program in Fairfax County. You ve also operated permanent support of housing in the city of Alexandria, uh, for the, the population that it serves, it is extremely effective, and that s evidence-based even beyond, uh, I think I learned of the project type in the early 2000s. There s an article in The New Yorker that followed a gentleman in Colorado talked about all of the, the services that were utilized over a period of time, I think over 10 years, and it looked at the service costs between hospital stays, between rehab,"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 3605.573,
     "end": 3637.96,
     "text": "involvement in the criminal justice system. And they actually found it to be more cost effective if they would have housed him, uh, based on the services that were provided to him. So, in addition to it being a humane intervention for people that are experiencing homelessness. It can also be quite cost-effective for the population. Um, for those that will be living at Beacon Landing, um, again, we ve talked about people experiencing homelessness, but, um, when they are accepting referrals through the coordinated entry system. It ll be prioritized for those that are most vulnerable, and they will often include older adults, people with disabilities, which are actually two priority populations in the comp plan. Um, so the supportive services,"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 3638.28,
     "end": 3670.559,
     "text": "before I turn it over to Christine to cover the tax request part. Uh, I just want to emphasize the importance of the supportive services and the success of the project, um, and in the current climate, funding sources that used to be predictable for this project type are unpredictable. So some of the federal funding the Continuumal Care program funding, which is the largest federal investment in homeless services. Priorities are shifting, so resources that once might have been feasible to pursue for this kind of project or not as obtainable I"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 3673.363,
     "end": 3707.13,
     "text": "ll turn it over to Christine Thank you. Good evening So a tax exemptions are allowed um by the Court of Virginia, uh, specifically 58.1-3651. And this was a portion of the code that was updated in 2003 and what it did was it enabled localities to, uh, either classify or designate, um, a, a nonprofit or, or specifically a property as exempt. Um, there are specific criteria where a"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 3709.699,
     "end": 3742.298,
     "text": "nonprofit can be classified as exempt, uh, this nonprofit or group of nonprofits would be needed, would need to be designated as exempt because it s not called out specifically. The Code of Virginia is, um, in need of updating, but it s, um, it s very, very, uh, specific on that. So the way it works is, um, the property must be used for the purpose. Um, so the process would be nearing completion, maybe 6 months, um,"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 3742.6,
     "end": 3774.163,
     "text": "before completion. We, we would accept an application for tax exemption. Uh, real estate tax exemption. Um, and I would do a preliminary review. I would ask the tax exemption committee, which is, uh, called out in the city code, um, to convene, look at their financials, uh, look at their mission statement, um, make sure that there s nothing in their bylaws that would um you know, prohibit an exemption to be approved. And then we would make based on the"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 3775.32,
     "end": 3805.896,
     "text": "financials, we would make a recommendation to council. So we would bring that to you probably initially in the form of a work session, then an introduction, and then onto a, uh, public hearing. So the structure of Wesley Housing, um, they re both nonprofits. This is a little unique situation because right now the code talks about one nonprofit like one llc, um, but there s nothing expressly rela written in the code that prohibits more than one. So what we would have"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 3806.663,
     "end": 3838.929,
     "text": "to do is look at both of their financials, not just, not just one llc. Um, and, um, and then, uh based on that, then we would make, uh, the, uh, record recommendation to city council. So the structure, um, like I said, it s two nonprofits that are working together, um, the, um, uh, lihtc funding awarded points for nonprofit status demonstrating precedent for"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 3838.929,
     "end": 3870.493,
     "text": "considering the organizational structure. So, again, council would have to designate that this is nonprofit. And once an entity is designated, um, the, uh, tri-annually I have the ability to review that application to make sure that nothing has changed in their financials or their bylaws, um, and, um, the city code does allow the assessor to revoke it. Uh, but that would be put in writing, um, if that ever came up, which I can say it has"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 3873.263,
     "end": 3906.794,
     "text": "never has. Um, ok, so next slide. All right. So what, what the lambent is asking or that, uh, Wesley Housing is asking for now is a, a tax grant. Um, based on what Jamie had mentioned before about their financing, they re requesting, um, a grant from the city and this largely offsets, uh, well, it does offset their real estate taxes. So this is kind of an interim, um, and, uh, the"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 3908.65,
     "end": 3938.94,
     "text": "process is, is that the city appropriates it via the budget process um, and the edo in collaboration with the eda, um, they will provide a refund. So the taxes are paid by Wesley Housing, but they re refunded, um, uh, back to the applicant. So the cost um, most people want to know that. So right now, the, uh, based on the real estate assessment, because we haven t seen any other than"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 3939.764,
     "end": 3970.159,
     "text": "just some groundworks as of JANUARY 1st, 2026. The taxes are relatively low at 10 $10,208.33. But with new construction, we will pick up that new construction. So with this project is finished as of JANUARY 1st, 2026 or anytime during 2025 will capture 100% of that uh, value will supplement that assessment and then bill them for a"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 3971.462,
     "end": 4005.96,
     "text": "supplemental bill. Um, if it s done shortly after 2026, then we will prorate it. We ll, we ll estimate what that percentage is. So if they re 95%, and that s going to get added to the assessment. Um, so we re estimating that the, uh, foregone taxes is about 115,000 for fy 2027. We ll open it up to any questions. Thank you."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 4007.598,
     "end": 4039.428,
     "text": "All right. Council member Amos No, thank you. The great presentation. Um, big fan of Beacon Landing, obviously with the ribbon cutting and then at the governor s housing conference when y all presented, so greatly appreciate you, uh, hyping up the city across the state. Gotta love that. And knowing that PSHs are already extremely difficult to finance, I imagine, and if you could go a little bit more into it, and maybe this is directed to you all, and there s more of a curiosity question on that federal funding that you were counting on that, uh, is no longer applicable here What"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 4040.597,
     "end": 4071.728,
     "text": "exactly did that look like? And uh just, again, I just wanted to know. Hm Nice to be with you all this evening and, um, thanks for the question. Uh, so the, the funding that you re, I think probably referring to is the coc funding and, um, there"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 4073.196,
     "end": 4104.361,
     "text": "is a lot of uncertainty around that. Um, there has been a shift away from permanent supportive housing, uh, which puts funding for these kinds of projects at risk. So, um, so, so, so that s the coc funding, um, there are other revenue sources that we are looking at, um, and I, I also want to just share for the benefit of the council that the Lamb Center itself has taken 100% of the responsibility for financing."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 4105.863,
     "end": 4136.58,
     "text": "The services at Beacon Landing, which will cost approximately 600, a little over $600,000 a year. So even with the partnership of the city which we are so deeply grateful for, because Beacon Landing couldn t have existed without your support and early intervention, which was, we were able to leverage the initial grant from the city for $700,000 to, uh, receive other funding which got this project rolling so there s a, there s a long history of us"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 4136.16,
     "end": 4168.257,
     "text": "working together and I wanna acknowledge that tonight. So, but even with this, uh, the con ver sion of, uh, these resources which we would be paying in taxes directly into services. There s still an enormous responsibility. Um, and an enormous cost. To provide the kind of resources that are important to this project. And I think it s also interesting context for you to realize that the low income housing tax credit that we applied for, uh, to support the"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 4168.659,
     "end": 4203.426,
     "text": "development of this project had a very minimal requirement for supportive services, very, very minimal, something that wouldn t be acceptable to you any more than is acceptable to us. We committed when we brought this project forward to the council. To go through entitlements that we would provide round the clock supportive services. We will have 24 hour staffing in this building to care for the residents. And to care for the community around Beacon Landing. And in doing that, that far surpasses what is required of,"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 4204.327,
     "end": 4236.394,
     "text": "you know, to, to have brought this tax credit project forward. Um, and the Lamb Center s committed to that. And so that s just a little bit of additional context. Um, around the, the federal funding, which is questionable Um, and the need and the real cost of the services that we re going to be providing, um, at Beacon Landing. Greatly appreciate that context and uh you know, hopefully once things are a little more stable at the federal level, you"
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Captions (standalone marker cue)",
     "start": 4236.394,
     "end": 4252.207,
     "text": "ll be able to either get the coc funding at a future time or something equivalent. Um, I know a lot of folks are excited for this project. I was just at hypothermia prevention this morning, and a lot of people are hyped up for it. So thank you for what you re doing."
@@ -2526,392 +2534,400 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 10768.326,
-    "end": 10800.9,
-    "text": "differently under the proposed standards. I know you showed some of that a little bit, like the, this is what it would look like here. But were those the only two were they those the only used. Those are the only two we ve done so far. This is our first draft, and we actually had some requests from planning commission to look at others. Um, so we will certainly expand this. Excellent. Thank you so much. I appreciate all your time. I just wanted to circle back to the state legislation that you re monitoring, having read,"
+    "end": 10791.38,
+    "text": "differently under the proposed standards. I know you showed some of that a little bit, like the, this is what it would look like here. But were those the only two were they those the only used. Those are the only two we ve done so far. This is our first draft, and we actually had some requests from planning commission to look at others. Um, so we will certainly expand this. Excellent. Thank you so much. I appreciate all your time."
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 10801.992,
-    "end": 10833.389,
-    "text": "uh, the bill, and we know bills can pass with amendments and not look like what they look like today, right? Um, but depending on, and I m relying on your interpretation of what you read, um some bills can be written so that that s a floor that you can always that the locality can make decisions above that and sometimes it s, you know, just a, a straight requirement. What is your interpretation particularly regarding the parking in terms of whether or not that s framed"
+    "start": 10795.286,
+    "end": 10826.348,
+    "text": "I just wanted to circle back to the state legislation that you re monitoring, having read, uh, the bill, and we know bills can pass with amendments and not look like what they look like today, right? Um, but depending on, and I m relying on your interpretation of what you read, um some bills can be written so that that s a floor that you can always that the locality can make decisions above that and sometimes it s, you know, just a, a straight"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 10834.57,
-    "end": 10864.886,
-    "text": "as a floor that the city can still go above. Or is it framed in a different, more, um prescriptive way I will, I will start with the caveat that I have not reviewed this with the city attorney, um, but when I read, I read on this is that um this is a, a requirement. I didn t see it as a floor, um, and I read a couple times to try to confirm that, but again, I m not an attorney and, and I don t want to say that s the, the final city interpretation"
+    "start": 10826.717,
+    "end": 10857.68,
+    "text": "requirement. What is your interpretation particularly regarding the parking in terms of whether or not that s framed as a floor that the city can still go above. Or is it framed in a different, more, um prescriptive way I will, I will start with the caveat that I have not reviewed this with the city attorney, um, but when I read, I read on this is that um this is a, a requirement. I didn t see it as a floor, um, and I read a couple times to"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 10866.89,
-    "end": 10898.888,
-    "text": "of it. Ok, um, separate from that, I m curious on slide 13, I believe. I think it s 5:13. He, yes, so other uh incentive options were explored and you kind of covered that. They had different pros and cons and you landed in a different space. I m curious how these zoning amendments would speak to if the city was to adopt, let s say that green building policy,"
+    "start": 10858.649,
+    "end": 10891.279,
+    "text": "try to confirm that, but again, I m not an attorney and, and I don t want to say that s the, the final city interpretation of it. Ok, um, separate from that, I m curious on slide 13, I believe. I think it s 5:13. He, yes, so other uh incentive options were explored and you kind of covered that. They had different pros and cons and you landed in a different space. I m curious how these zoning"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 10898.923,
-    "end": 10930.386,
-    "text": "how would the zoning, um, amendments kind of speak to that policy or coordinate with that policy if it were if it were adopted because I m also, you know, always kind of looking across other other things that have been presented. So um again, this is something that we need the, the city attorney to weigh in on, and he has expressed concern about some of these, which is why they re, they re in this court, uh, that being said, as you recall, the, the Green Building policy aside from looking at"
+    "start": 10891.549,
+    "end": 10922.612,
+    "text": "amendments would speak to if the city was to adopt, let s say that green building policy, how would the zoning, um, amendments kind of speak to that policy or coordinate with that policy if it were if it were adopted because I m also, you know, always kind of looking across other other things that have been presented. So um again, this is something that we need the, the city attorney to weigh in on, and he has expressed concern about some of these, which is why they"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 10931.254,
-    "end": 10962.785,
-    "text": "the tax incentive, the other incentive was bonus density. And so the thought as we began this process and we realized we re going down the path of utilizing bonus densities was that could be folded into this calculation. And so we would have to determine what a measure would be for that, um, and we would come up with, uh, we probably look at some pure examples at what other people do, but there d be some kind of measure for what type of level the building achieved, um, number of square feet, and then that would turn into a bonus number of units, and that would all be added into this. And, and the benefit of looking at"
+    "start": 10922.612,
+    "end": 10954.76,
+    "text": "re, they re in this court, uh, that being said, as you recall, the, the Green Building policy aside from looking at the tax incentive, the other incentive was bonus density. And so the thought as we began this process and we realized we re going down the path of utilizing bonus densities was that could be folded into this calculation. And so we would have to determine what a measure would be for that, um, and we would come up with, uh, we probably look at some pure examples at what other people do, but there d be some kind of measure for what type of level"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 10963.153,
-    "end": 10993.782,
-    "text": "something like that in conjunction with the two that we have here is that we can get to kind of what we, what our, uh, kind of maximum agreed upon desired is for a maximum density and make sure we re not exceeding that with everything combined. Um, so if something like that were to be added later, then we could look at adjusting this, but it might mean that we are taking away from the open space bonus or the transportation bonus or that type of thing. And, um, in terms of the 25% reduction over"
+    "start": 10954.579,
+    "end": 10985.44,
+    "text": "the building achieved, um, number of square feet, and then that would turn into a bonus number of units, and that would all be added into this. And, and the benefit of looking at something like that in conjunction with the two that we have here is that we can get to kind of what we, what our, uh, kind of maximum agreed upon desired is for a maximum density and make sure we re not exceeding that with everything combined. Um, so if something like that were to be added later, then we could look at adjusting this, but it might mean that we are taking away"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 10994.818,
-    "end": 11027.616,
-    "text": "custom, it sounds to me like the custom makes more sense if I heard you correctly and maybe you could sort of reiterate those benefits. It s, it s not you know, just across the board, but there would be some formulas applied to how those reductions are, are. Calculated, correct? Yes, um, it would be a, a, a standard reduction in the rates, and this would again only apply in activity centers, not citywide, um, but the difference is that we could, um, customize what we want the race to be for the different uses. Um, and so the reason that we"
+    "start": 10985.475,
+    "end": 11016.871,
+    "text": "from the open space bonus or the transportation bonus or that type of thing. And, um, in terms of the 25% reduction over custom, it sounds to me like the custom makes more sense if I heard you correctly and maybe you could sort of reiterate those benefits. It s, it s not you know, just across the board, but there would be some formulas applied to how those reductions are, are. Calculated, correct? Yes, um, it would be a, a, a standard reduction in the rates, and this would again"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11028.553,
-    "end": 11062.5,
-    "text": "suggest doing that is because we feel there s much more opportunity for reduced parking at office than the other types of uses. Uh, whereas if we just had a percentage reduction, it would be consistent across the board and we re probably still over parking for office. It MAY be under parking for other uses. So would that be a right fit as opposed to just more of a reduction. I mean, does that open up an opportunity for because I think in some cases we have more part more parking and less parking and I m just wondering, if that opens up an"
+    "start": 11017.34,
+    "end": 11049.605,
+    "text": "only apply in activity centers, not citywide, um, but the difference is that we could, um, customize what we want the race to be for the different uses. Um, and so the reason that we suggest doing that is because we feel there s much more opportunity for reduced parking at office than the other types of uses. Uh, whereas if we just had a percentage reduction, it would be consistent across the board and we re probably still over parking for office. It MAY be under parking for other uses. So would that be a right fit as opposed to just more of a reduction. I mean, does that"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11062.119,
-    "end": 11095.185,
-    "text": "opportunity for more specific allocations as opposed to I MAY not be asking the question correctly, but specific allocations in terms of tailored allocations, I guess. No, um, is it my lay interpretation of custom? It s, it s probably us overusing the word custom. Ok. Uh, we, the what we re proposing is setting a standard, allowing the city to decide what the standards would be for these three uses. Once those standards are in place, though, that s, there s no adjustment to it. That being said, um, you know, we could"
+    "start": 11049.907,
+    "end": 11080.704,
+    "text": "open up an opportunity for because I think in some cases we have more part more parking and less parking and I m just wondering, if that opens up an opportunity for more specific allocations as opposed to I MAY not be asking the question correctly, but specific allocations in terms of tailored allocations, I guess. No, um, is it my lay interpretation of custom? It s, it s probably us overusing the"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11095.352,
-    "end": 11125.882,
-    "text": "have some kind of combination and in your staff report, there is a, a, a, uh, a calculation of what a a combination would look like if we had the custom reduction and then had the 25% reduction on top of that, um, we could have something that kind of blends the two and maybe it s a smaller reduction that way there is some customization, um, and that additional reduction would be through, as we said earlier, amenities such as, uh, carpool spaces, preserving trees, preserving open space and that type of thing. So thank you. So just piggybacking off this for"
+    "start": 11082.573,
+    "end": 11114.204,
+    "text": "word custom. Ok. Uh, we, the what we re proposing is setting a standard, allowing the city to decide what the standards would be for these three uses. Once those standards are in place, though, that s, there s no adjustment to it. That being said, um, you know, we could have some kind of combination and in your staff report, there is a, a, a, uh, a calculation of what a a combination would look like if we had the custom reduction and then had the 25% reduction on top of that, um, we could have something that kind of blends the two and maybe it s a smaller reduction that way there is some customization, um, and that additional reduction would be"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11127.585,
-    "end": 11157.813,
-    "text": "one minute. And talking about parking. You know, one of the reasons that we opted on the city side to put two levels of underground parking at the Sherwood Center was for this reason, right? I mean, we are a city of asphalt parking lots. It is not the best use of the limited amount of space that we have in 6.2 square miles. So you mentioned in passing, talking about incentivizing people to do underground parking. So it s not just the number of spaces, it s how it s configured on the parcel. The"
+    "start": 11115.539,
+    "end": 11150.7,
+    "text": "through, as we said earlier, amenities such as, uh, carpool spaces, preserving trees, preserving open space and that type of thing. So thank you. So just piggybacking off this for one minute. And talking about parking. You know, one of the reasons that we opted on the city side to put two levels of underground parking at the Sherwood Center was for this reason, right? I mean, we are a city of asphalt parking lots. It is not the best use of the limited amount of space that we have in 6.2 square miles. So you mentioned in passing,"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11159.349,
-    "end": 11191.48,
-    "text": "other thing is some of the, um, designs that we ve preve presented to us also allow things for like you know, ride sharing, pickup and drop-offs. And things like parking for UberEats and Grubhub. So if you notice the plaza, which was built before ride sharing existed, there is no place for people to be picked up or dropped off, unless they go inside the parking garage. So we can t redesign that to allow for the fact that people do ride sharing now, especially when they go to and from restaurants. So we have to"
+    "start": 11150.7,
+    "end": 11181.638,
+    "text": "talking about incentivizing people to do underground parking. So it s not just the number of spaces, it s how it s configured on the parcel. The other thing is some of the, um, designs that we ve preve presented to us also allow things for like you know, ride sharing, pickup and drop-offs. And things like parking for UberEats and Grubhub. So if you notice the plaza, which was built before ride sharing existed, there is no place for people to be picked up or dropped off, unless they go"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11193.818,
-    "end": 11223.914,
-    "text": "think about how cars are being used and not necessarily park for anything more than 15 minutes or to pick up and drop somebody off. So design becomes important. Underground parking on a parcel gives us a different way of providing parking. And the other thing I d just like to point out about the bus, the q bus is not the only bus that serves the city. Metro bus and the Fairfax connector also serve the city. And so you knowing in the future that we could end up with autonomous vehicles. Of every description. We have to"
+    "start": 11183.39,
+    "end": 11213.837,
+    "text": "inside the parking garage. So we can t redesign that to allow for the fact that people do ride sharing now, especially when they go to and from restaurants. So we have to think about how cars are being used and not necessarily park for anything more than 15 minutes or to pick up and drop somebody off. So design becomes important. Underground parking on a parcel gives us a different way of providing parking. And the other thing I d just like to point out about the bus, the q bus is not the only bus that serves the"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11226.25,
-    "end": 11259.482,
-    "text": "think about how we are looking at designing how cars take up space, how people use cars, and how cars are going to be needing spaces differently than just parking. I mean, I think to me, and we re starting to see this in the designs that are being brought forward about how different kinds of parking spaces are being allocated for very specific uses. So I, I think we have to kind of think outside the parking garage you know, parking spot and how people are using that in, and we have a model that is in our"
+    "start": 11214.839,
+    "end": 11245.166,
+    "text": "city. Metro bus and the Fairfax connector also serve the city. And so you knowing in the future that we could end up with autonomous vehicles. Of every description. We have to think about how we are looking at designing how cars take up space, how people use cars, and how cars are going to be needing spaces differently than just parking. I mean, I think to me, and we re starting to see this in the designs that are being brought forward about how different kinds of parking"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11259.517,
-    "end": 11289.88,
-    "text": "head, and I think we need to just think a little bit differently. About, and I think the projects that we re getting are already demonstrating and understanding that you need to provide these certain kinds of very temporary, very brief parking spaces. And the other thing we keep talking about, you know, the, the, um, the rate, you know, we, we, it s specifically said Greenway and we have a greenway in the small area plan and the Davies property allowed for that in their design. And the, the"
+    "start": 11245.702,
+    "end": 11278.334,
+    "text": "spaces are being allocated for very specific uses. So I, I think we have to kind of think outside the parking garage you know, parking spot and how people are using that in, and we have a model that is in our head, and I think we need to just think a little bit differently. About, and I think the projects that we re getting are already demonstrating and understanding that you need to provide these certain kinds of very temporary, very brief parking spaces. And the other thing we keep talking about, you know, the, the, um, the"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11290.347,
-    "end": 11320.577,
-    "text": "pre-application we got for Christopher Company is also we re like, yeah, we know you said you wanted a greenway and here s this preliminary design that says, here it is. So these things are already happening. We re already starting to see evidence that developers are starting to think about parking and our design for greenways, and we re starting to see that in the things that are coming to us now. So it seems to me that that these recommendations are actually following in real time, the, the, um the realization from developers"
+    "start": 11279.303,
+    "end": 11310.431,
+    "text": "rate, you know, we, we, it s specifically said Greenway and we have a greenway in the small area plan and the Davies property allowed for that in their design. And the, the pre-application we got for Christopher Company is also we re like, yeah, we know you said you wanted a greenway and here s this preliminary design that says, here it is. So these things are already happening. We re already starting to see evidence that developers are starting to think about parking and our design for greenways, and we re starting to see that in the things that are coming"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11321.244,
-    "end": 11351.439,
-    "text": "that the city is looking for certain kinds of accommodations and how we see housing and parking and open spaces working together. I think that s the value of the small area plan, just period. So this is a logical to me, a logical follow on of the work we ve already done. That said, Council member Peterson. Thanks. Uh, I won t restate the many, uh, good things that have already been said this evening because it s getting late, uh but I would"
+    "start": 11311.302,
+    "end": 11345.167,
+    "text": "to us now. So it seems to me that that these recommendations are actually following in real time, the, the, um the realization from developers that the city is looking for certain kinds of accommodations and how we see housing and parking and open spaces working together. I think that s the value of the small area plan, just period. So this is a logical to me, a logical follow on of the work we ve already done. That said, Council member Peterson. Thanks. Uh, I won t restate the many, uh, good things that have already been"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11353.411,
-    "end": 11384.907,
-    "text": "like to I, I would like to reinforce a couple points then raise a couple of others. First off, I do share concerns about the height and density bonus that had been registered earlier, um, on the parking issue, I think there s some, uh, caution there that needs to be brought into play. I mean, there was, you know, the comment about biking. Biking in our city as in Fairfax County is about 1% of our commuter load, and that number hasn t budged in 5 years, so there MAY be some real limits to that. There are alternative s but I think we need to be a little"
+    "start": 11345.669,
+    "end": 11376.7,
+    "text": "said this evening because it s getting late, uh but I would like to I, I would like to reinforce a couple points then raise a couple of others. First off, I do share concerns about the height and density bonus that had been registered earlier, um, on the parking issue, I think there s some, uh, caution there that needs to be brought into play. I mean, there was, you know, the comment about biking. Biking in our city as in Fairfax County is about 1% of our commuter"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11385.443,
-    "end": 11417.107,
-    "text": "bit careful about that. The same commuter survey that showed that percentage also indicated that transit-oriented development is associated with an induces higher priced housing and that s been universal so we re seeing that throughout the metro area as we ve gone to Todd s transitory development. We ve gone to high-priced housing concurrently with that. There s a cause and effect relationship there. We need to be, I think, cognizant of that, if that s what we want to do. Um on the 4estry side, lots of great"
+    "start": 11377.235,
+    "end": 11409.499,
+    "text": "load, and that number hasn t budged in 5 years, so there MAY be some real limits to that. There are alternative s but I think we need to be a little bit careful about that. The same commuter survey that showed that percentage also indicated that transit-oriented development is associated with an induces higher priced housing and that s been universal so we re seeing that throughout the metro area as we ve gone to Todd s transitory development. We ve gone to high-priced housing concurrently with that. There s a cause and effect relationship there. We need to be, I think,"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11421.12,
-    "end": 11453.81,
-    "text": "points here. I first off, I think that the attainment area that we re talking about here is the whole Washcog area. I believe so, but I d have to, to double check that. So if we um sorry, it, it s, uh, within Virginia though, in Northern Virginia, it s a pretty big area, but maybe just simplify this a bit if there is some sort of an incentive that says you can, um, place trees outside of the jurisdiction as long as it s in the attainment area, it might end up as a"
+    "start": 11409.499,
+    "end": 11440.63,
+    "text": "cognizant of that, if that s what we want to do. Um on the 4estry side, lots of great points here. I first off, I think that the attainment area that we re talking about here is the whole Washcog area. I believe so, but I d have to, to double check that. So if we um sorry, it, it s, uh, within Virginia though, in Northern Virginia, it s a pretty big"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11453.811,
-    "end": 11484.274,
-    "text": "practical matter, meaning we re putting trees in MR. MR. Alexander s, uh, old neighborhood in Dumfries, Virginia and not very close nearby, but just to kind of illustrate what it means to say this does not have to be a within jurisdiction or within sight response, it could mean a long way away. There are other, i mean, this is a whole field, as you know, uh, a lot of concerns about doing things that are off site, doing things that are banking oriented, etc. Cashing in trees that are old"
+    "start": 11440.498,
+    "end": 11472.829,
+    "text": "area, but maybe just simplify this a bit if there is some sort of an incentive that says you can, um, place trees outside of the jurisdiction as long as it s in the attainment area, it might end up as a practical matter, meaning we re putting trees in MR. MR. Alexander s, uh, old neighborhood in Dumfries, Virginia and not very close nearby, but just to kind of illustrate what it means to say this does not have to be a within jurisdiction or within sight response, it could mean a long way away. There are other,"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11484.642,
-    "end": 11516.538,
-    "text": "versus trees that are very young, all those kinds of things. There s just a heck of a lot of uh cautionary stuff on these forestry mechanisms, um, and history that is beneficial in some ways, but pretty checkered in others, and I d hate to see the city of Fairfax kind of naively walk into this and think that we re doing ourselves a favor by putting in some of these mechanisms and finding out that they had unintended consequences. We ended up at accelerating, uh, forest loss. I think it and I"
+    "start": 11474.97,
+    "end": 11505.61,
+    "text": "i mean, this is a whole field, as you know, uh, a lot of concerns about doing things that are off site, doing things that are banking oriented, etc. Cashing in trees that are old versus trees that are very young, all those kinds of things. There s just a heck of a lot of uh cautionary stuff on these forestry mechanisms, um, and history that is beneficial in some ways, but pretty checkered in others, and I d hate to see the city of Fairfax kind of naively walk into this and think that we re doing ourselves a favor by putting in"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11516.841,
-    "end": 11549.538,
-    "text": "guess I would be interested in knowing, as we have approached, um, the protection of trees, forests, canopies, canopy, whichever of those metrics we re after. How does that tie back to? A set of targets and timetables and a set of goals for the protection of forest land in the city is, has that yet been established or is that yet to be done? And if it is yet to be done, that seems to me to be something that ought to be taken into consideration,"
+    "start": 11506.163,
+    "end": 11538.827,
+    "text": "some of these mechanisms and finding out that they had unintended consequences. We ended up at accelerating, uh, forest loss. I think it and I guess I would be interested in knowing, as we have approached, um, the protection of trees, forests, canopies, canopy, whichever of those metrics we re after. How does that tie back to? A set of targets and timetables and a set of goals for the protection of forest"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11550.41,
-    "end": 11581.804,
-    "text": "uh, when we do this to find out what we re actually trying to accomplish numerically and whether these are the best mechanisms for doing that sort of feels like right now we re playing tennis without a net, and we re not really sure that what we do is accomplishing some greater goal that we, uh, want and need to do. So I would just raise that for further, um, consideration. Uh, big picture, oh, yeah, big picture the mention of JUNE 2nd and a work"
+    "start": 11540.363,
+    "end": 11571.392,
+    "text": "land in the city is, has that yet been established or is that yet to be done? And if it is yet to be done, that seems to me to be something that ought to be taken into consideration, uh, when we do this to find out what we re actually trying to accomplish numerically and whether these are the best mechanisms for doing that sort of feels like right now we re playing tennis without a net, and we re not really sure that what we do is accomplishing some greater goal that we, uh, want and need to do. So I would just raise that for further, um,"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11582.707,
-    "end": 11612.769,
-    "text": "session on small area plans, I think is enormously important for the city we ve discussed this before and recognized, uh, like other, uh planning instruments that we have in the city, they are dated. And uh things have changed quite significantly during the period of time in which they were created. Uh, we re going to, uh, see a very different future than the past by uh, all counts here and so it would be, uh, I think really important to try"
+    "start": 11573.698,
+    "end": 11604.792,
+    "text": "consideration. Uh, big picture, oh, yeah, big picture the mention of JUNE 2nd and a work session on small area plans, I think is enormously important for the city we ve discussed this before and recognized, uh, like other, uh planning instruments that we have in the city, they are dated. And uh things have changed quite significantly during the period of time in which they were created. Uh, we re going to, uh, see a very different future"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11613.204,
-    "end": 11648.17,
-    "text": "to understand how those updates take place and capture the new realities that we re dealing with, um, and part of those realities are the community s concerns about things, and we ve talked about some of what, um needs to be um updated, uh, part of it s the drivers, um forecasts of growth, etc. That are within the small area plans, um, and those, um barely have shifted, uh, and they are already um under consideration for updating Bycog. There was a"
+    "start": 11606.463,
+    "end": 11638.227,
+    "text": "than the past by uh, all counts here and so it would be, uh, I think really important to try to understand how those updates take place and capture the new realities that we re dealing with, um, and part of those realities are the community s concerns about things, and we ve talked about some of what, um needs to be um updated, uh, part of it s the drivers, um forecasts of growth, etc. That are within the small area plans,"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11648.572,
-    "end": 11679.436,
-    "text": "meeting this morning to take a look at the methodology by which the cooperative forecasts are formulated and look at update methodologies for that and that s partly driven by this recognition that we re living in a different world now, and we need to make sure that our estimates and our forecasts and our understandings and assumptions about the amount of growth we re trying to either accommodate or um control our really reflective of of new realities. So where that goes from my standpoint is the"
+    "start": 11640.197,
+    "end": 11671.127,
+    "text": "um, and those, um barely have shifted, uh, and they are already um under consideration for updating Bycog. There was a meeting this morning to take a look at the methodology by which the cooperative forecasts are formulated and look at update methodologies for that and that s partly driven by this recognition that we re living in a different world now, and we need to make sure that our estimates and our forecasts and our understandings and assumptions about the amount of growth we"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11681.939,
-    "end": 11713.969,
-    "text": "question mark of uh whether it is prudent to be cautious about how many of these zoning changes we adopt now before we ve had a chance to take a look at the small area plants and see where those updates need to go because if we end up, uh, concluding that there are significant updates that MAY have a material effect on some of these. I know the last time we got together, it sounded like for some of it, it MAY not be sensitive, but I think it s a fair point nonetheless that if we re taking a look at the updates for the small area"
+    "start": 11672.263,
+    "end": 11702.459,
+    "text": "re trying to either accommodate or um control our really reflective of of new realities. So where that goes from my standpoint is the question mark of uh whether it is prudent to be cautious about how many of these zoning changes we adopt now before we ve had a chance to take a look at the small area plants and see where those updates need to go because if we end up, uh, concluding that there are significant updates that MAY have a material effect on some"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11715.6,
-    "end": 11749.406,
-    "text": "plans we would be a little bit careful about locking and zoning amendments prior to that process because it could have some impact on the way we approach things here. It is going to raise issues of height and density location, design, ratios, mixtures, all those kinds of things that are very, uh, fundamental and I would include in that batch, for instance, the, uh, some of the conceptual design that I, I think, um, has got to get back on the table about thinking about some areas, um, in terms of activity centers and you think of. Courthouse Plaza, the old town area where one might"
+    "start": 11703.126,
+    "end": 11735.859,
+    "text": "of these. I know the last time we got together, it sounded like for some of it, it MAY not be sensitive, but I think it s a fair point nonetheless that if we re taking a look at the updates for the small area plans we would be a little bit careful about locking and zoning amendments prior to that process because it could have some impact on the way we approach things here. It is going to raise issues of height and density location, design, ratios, mixtures, all those kinds of things that are very, uh, fundamental and I would include in that batch, for instance, the, uh, some of the"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11750.174,
-    "end": 11783.672,
-    "text": "think of that as a prime location for an activity center because of its proximity to old town activity corridors like the corridor between there and George Mason University. Which is logical and recommended in many ways. I think the decision we made on the Davies property is inconsistent with that, but nonetheless, that is very much a development strategy that uh is probably worth taking a second look at and seeing where that leaves us. Again, that would influence what we want to do here in terms of zoning and I think it s important that we"
+    "start": 11736.426,
+    "end": 11769.593,
+    "text": "conceptual design that I, I think, um, has got to get back on the table about thinking about some areas, um, in terms of activity centers and you think of. Courthouse Plaza, the old town area where one might think of that as a prime location for an activity center because of its proximity to old town activity corridors like the corridor between there and George Mason University. Which is logical and recommended in many ways. I think the decision we made on the Davies property is inconsistent with that, but"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11785.609,
-    "end": 11818.206,
-    "text": "be careful not to take actions. Now that would foreclose that kind of updated thinking, uh, that we would have in the future. And, and I think that is really um consistent with the interest and concerns that we hear from so many people in the community, and you mentioned the results of the, uh, meeting that was held and some of the inputs around that. I, I think those are good indicators that it s, it s very much time for an update. So I would again hope that we would be cautious. Along the way and"
+    "start": 11770.628,
+    "end": 11802.359,
+    "text": "nonetheless, that is very much a development strategy that uh is probably worth taking a second look at and seeing where that leaves us. Again, that would influence what we want to do here in terms of zoning and I think it s important that we be careful not to take actions. Now that would foreclose that kind of updated thinking, uh, that we would have in the future. And, and I think that is really um consistent with the interest and concerns that we hear from so many people in the community, and you"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11821.45,
-    "end": 11853.543,
-    "text": "that we would be um serious about the examination of the small area plans, um, sooner. Rather than later Thanks Any other comments or questions, council member Bates? So I d rather not turn this into relitigating who voted which way on previous proposals since that s not why we re here. Um, but looking in general at um this, I think, sort of points to how density within itself is inherently somewhat arbitrary."
+    "start": 11803.827,
+    "end": 11834.224,
+    "text": "mentioned the results of the, uh, meeting that was held and some of the inputs around that. I, I think those are good indicators that it s, it s very much time for an update. So I would again hope that we would be cautious. Along the way and that we would be um serious about the examination of the small area plans, um, sooner. Rather than later Thanks Any other comments or questions, council member Bates? So I d"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11855.79,
-    "end": 11886.41,
-    "text": "Uh, looking at, for example, the Davies property, um, that is a project that utilized, uh, below grade parking, which is something that, as was mentioned, we want to incentivize, not discourage and, um, you know, with that comes the potential for additional density because that room isn t being taken up by a parking garage. Um, the, uh, the, the, the point now, it s called, um, is a project that had above grade parking, and, you know,"
+    "start": 11835.593,
+    "end": 11867.624,
+    "text": "rather not turn this into relitigating who voted which way on previous proposals since that s not why we re here. Um, but looking in general at um this, I think, sort of points to how density within itself is inherently somewhat arbitrary. Uh, looking at, for example, the Davies property, um, that is a project that utilized, uh, below grade parking, which is something that, as was mentioned, we want to incentivize, not discourage and,"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11886.543,
-    "end": 11917.72,
-    "text": "it is wrapped, I believe, so you don t really, uh, see it, um, but it is above grade parking, so that s one thing that takes up a lot of room there. Um, anyway, in the, on the other hand, um, looking at, uh, for example, the botanist, um, Willowwood Plaza complex has of course been subdivided but if that happened to still be a single parcel, a single development, um, that density becomes, of course, a lot less,"
+    "start": 11870.328,
+    "end": 11901.589,
+    "text": "um, you know, with that comes the potential for additional density because that room isn t being taken up by a parking garage. Um, the, uh, the, the, the point now, it s called, um, is a project that had above grade parking, and, you know, it is wrapped, I believe, so you don t really, uh, see it, um, but it is above grade parking, so that s one thing that takes up a lot of room there. Um, anyway, in the, on the other hand, um, looking at,"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11917.741,
-    "end": 11948.303,
-    "text": "and that is at that point, mostly commercial. Um you know, and that s altogether perhaps closer in size, I believe, to uh, to the point. Um, so anyway, you know, my point is, uh, no pun intended there, that when you re looking at density within itself, it s gonna be, um, perhaps, just, you know, somewhat arbitrary regardless of which way you slice it, but I think that the zoning warrant amendments that we re looking"
+    "start": 11902.993,
+    "end": 11935.659,
+    "text": "uh, for example, the botanist, um, Willowwood Plaza complex has of course been subdivided but if that happened to still be a single parcel, a single development, um, that density becomes, of course, a lot less, and that is at that point, mostly commercial. Um you know, and that s altogether perhaps closer in size, I believe, to uh, to the point. Um, so anyway, you know, my point is, uh, no pun intended there, that when you re looking at density"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11949.573,
-    "end": 11982.605,
-    "text": "at here go a long way toward taking some of that arbitrary nature out of this, uh, zoning ordinance of ours and putting in, uh, perhaps elements that pay more attention to the overall quality of the development, um, that kind of thing. So anyway, with going back to what s before us here, uh, pre-conservation, uh, fully supports stat s recommendations on that. Um thinking about"
+    "start": 11935.725,
+    "end": 11966.589,
+    "text": "within itself, it s gonna be, um, perhaps, just, you know, somewhat arbitrary regardless of which way you slice it, but I think that the zoning warrant amendments that we re looking at here go a long way toward taking some of that arbitrary nature out of this, uh, zoning ordinance of ours and putting in, uh, perhaps elements that pay more attention to the overall quality of the development, um, that kind of"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 11983.4,
-    "end": 12013.636,
-    "text": "parking, you know, that s something where I have yet to hear somebody come up to me and say, you know, those are some really nice looking parking spaces over there. So I don t think that we want to really go real far above the absolute maximum um you know, utilization per, per unit or per square foot or whatever it is that we see elsewhere in the city on parking. You know, we certainly want a little bit of wriggle wriggle room there, but we don t want to have really a major excess of parking that just doesn t really do much for the city. I mean, it s, you"
+    "start": 11969.594,
+    "end": 12001.9,
+    "text": "thing. So anyway, with going back to what s before us here, uh, pre-conservation, uh, fully supports stat s recommendations on that. Um thinking about parking, you know, that s something where I have yet to hear somebody come up to me and say, you know, those are some really nice looking parking spaces over there. So I don t think that we want to really go real far above the absolute maximum um you know, utilization per, per unit or per square foot or whatever it"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 12015.105,
-    "end": 12049.204,
-    "text": "know, not much to look at. Um, if it s not being used, it s not serving a purpose So I wouldn t want to do that sort of piecemeal as an incentive, but rather just kind of across the board look at what we really actually need in terms of parking. Cause otherwise, that could be additional green space, additional tree canopy, which, even if it s not utilized, does provide a benefit to the city. Now, um, thinking about the uh community benefit component of this Um, I definitely agree that the, um,"
+    "start": 12001.124,
+    "end": 12032.856,
+    "text": "is that we see elsewhere in the city on parking. You know, we certainly want a little bit of wriggle wriggle room there, but we don t want to have really a major excess of parking that just doesn t really do much for the city. I mean, it s, you know, not much to look at. Um, if it s not being used, it s not serving a purpose So I wouldn t want to do that sort of piecemeal as an incentive, but rather just kind of across the board look at what we really actually need in terms of parking. Cause otherwise, that could be additional green space, additional tree canopy, which, even if it s not"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 12050.541,
-    "end": 12080.669,
-    "text": "the issue of providing additional incentives for consolidation is perhaps not quite as directly beneficial as, um, other options here and at least as part of this draft seems to be weighted fairly heavily overall compared to some of the other elements. Um, but I understand that that s, you know, can be tweaked and all that as we go through the process. But one sort of potential alternative that uh I ve been thinking about and I,"
+    "start": 12032.856,
+    "end": 12065.421,
+    "text": "utilized, does provide a benefit to the city. Now, um, thinking about the uh community benefit component of this Um, I definitely agree that the, um, the issue of providing additional incentives for consolidation is perhaps not quite as directly beneficial as, um, other options here and at least as part of this draft"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 12081.105,
-    "end": 12113.403,
-    "text": "I should have brought this up last time, but, and I m not totally sure that we can even do this. Um if we could provide an option for developers to go above the affordable housing requirement that we have, um, like let s say you know, if you do one additional unit at what s, you know, what s required and or the required uh percentage of ami in the ordinance, um, that can increase your total unit count"
+    "start": 12065.455,
+    "end": 12096.554,
+    "text": "seems to be weighted fairly heavily overall compared to some of the other elements. Um, but I understand that that s, you know, can be tweaked and all that as we go through the process. But one sort of potential alternative that uh I ve been thinking about and I, I should have brought this up last time, but, and I m not totally sure that we can even do this. Um if we could provide an option for developers to go above the affordable housing requirement that we have, um,"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 12114.337,
-    "end": 12148.904,
-    "text": "by 5 or something like that, or if it s maybe even um a different benefit for different maximum ami like for 30% ami um or half what s in the ordinance, um, it s maybe 10 or something like that. Um, I m just throwing numbers out there. But another idea that we might want to think about since, um, affordable housing is something that I think also provides a, a significant benefit, perhaps more so than consolidation on its own or or what have you. That s all I have. Thank you"
+    "start": 12096.554,
+    "end": 12127.951,
+    "text": "like let s say you know, if you do one additional unit at what s, you know, what s required and or the required uh percentage of ami in the ordinance, um, that can increase your total unit count by 5 or something like that, or if it s maybe even um a different benefit for different maximum ami like for 30% ami um or half what s in the ordinance, um, it s maybe 10 or something"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 12150.7,
-    "end": 12182.737,
-    "text": "Other questions or comments, uh, time check, MS. Shennebury. 10:22. 10:22. And you got two budget items to talk about. All right, well, we re going to thank our presenters and um move on to our next item. One of the two budget items for discussions, the discussion on the meals tax are recognized. Daniel Alexander, city manager for the discussion. Thank you recognizing the time. Yeah, I would love to know what our"
+    "start": 12127.951,
+    "end": 12158.114,
+    "text": "like that. Um, I m just throwing numbers out there. But another idea that we might want to think about since, um, affordable housing is something that I think also provides a, a significant benefit, perhaps more so than consolidation on its own or or what have you. That s all I have. Thank you Other questions or comments, uh, time check, MS. Shennebury. 10:22. 10:22. And you got two budget items to talk about. All"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 12182.739,
-    "end": 12215.603,
-    "text": "time estimate might be for. These two items a number of slides that would probably go very quickly. The rest will be dependent on the council. And their appetite to, excuse theon on meals tax, to, um, discuss the items further. So we, we can at least get a presentation to you and then gauge, uh, your interest in, in questions and answers if that would be satisfactory. So why don t we go ahead and, and start with the meals tax discussion. I ll ask, uh, jc to lead us quickly."
+    "start": 12158.114,
+    "end": 12189.178,
+    "text": "right, well, we re going to thank our presenters and um move on to our next item. One of the two budget items for discussions, the discussion on the meals tax are recognized. Daniel Alexander, city manager for the discussion. Thank you recognizing the time. Yeah, I would love to know what our time estimate might be for. These two items a number of slides that would probably go very quickly. The rest will be"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 12215.773,
-    "end": 12247.804,
-    "text": "Sure, thank you, uh, city manager, mayor, council, thank you again. Quick 6 slides presentation. Uh, we ll try to go through these as efficiently as we can. Next slide. So you ve seen this slide before, this was a part of the manager s budget presentation just really quickly, uh, the 9 local comparison, uh, localities within the region who also have a meals tax, uh, when you add those 9 together, that s where you get the 4.22% to the left of that, you have"
+    "start": 12190.381,
+    "end": 12222.811,
+    "text": "dependent on the council. And their appetite to, excuse theon on meals tax, to, um, discuss the items further. So we, we can at least get a presentation to you and then gauge, uh, your interest in, in questions and answers if that would be satisfactory. So why don t we go ahead and, and start with the meals tax discussion. I ll ask, uh, jc to lead us quickly. Sure, thank you, uh, city manager, mayor, council, thank you again. Quick 6 slides presentation. Uh, we ll try to"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 12248.305,
-    "end": 12278.467,
-    "text": "the City of Fairfax that s currently at 4% and then also the proposed for.5%. Uh, again, currently the meals tax is at 4%. The fy20 fy 27 budget is proposing a 0.5% increase to 4.5% the last time the city raised the meals meals tax rate was in 2003. From 2% to 4%. Of note, really quickly, Arlington increased their rate from 4% to"
+    "start": 12223.481,
+    "end": 12253.541,
+    "text": "go through these as efficiently as we can. Next slide. So you ve seen this slide before, this was a part of the manager s budget presentation just really quickly, uh, the 9 local comparison, uh, localities within the region who also have a meals tax, uh, when you add those 9 together, that s where you get the 4.22% to the left of that, you have the City of Fairfax that s currently at 4% and then also"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 12278.469,
-    "end": 12313.37,
-    "text": "5% on JULY 1 of 2025, so almost a year ago. Similarly, the town of Vienna also recently raised their rate from 3 to 4% since JANUARY 1 of 2026. The town of Herndon increased their meals tax rate from 3.75% to 4.5% also on JULY 1 of 2025. And then of, of note that I m sure everyone knows, as of JANUARY 1 of 2026, Fairfax County implemented a meals tax for the first time at 4%. This slide shows the 23 year history of the city"
+    "start": 12254.412,
+    "end": 12284.6,
+    "text": "the proposed for.5%. Uh, again, currently the meals tax is at 4%. The fy20 fy 27 budget is proposing a 0.5% increase to 4.5% the last time the city raised the meals meals tax rate was in 2003. From 2% to 4%. Of note, really quickly, Arlington increased their rate from 4% to 5% on JULY 1 of 2025, so almost a year ago. Similarly, the town of Vienna also recently raised"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 12314.305,
-    "end": 12345.535,
-    "text": "s meals tax revenue, basically from 2003 when it was at 2% and then what has happened uh in the last 20 some odd years. So within those 23 years, Meals tax revenues has more than quadrupled from roughly $1.9 million in 2020, in, in 20. 2003 to over 9.3 million in 2025. This trend shows a consistent long-term growth pattern. One of the most important things this chart demonstrates is the stability"
+    "start": 12285.91,
+    "end": 12316.305,
+    "text": "their rate from 3 to 4% since JANUARY 1 of 2026. The town of Herndon increased their meals tax rate from 3.75% to 4.5% also on JULY 1 of 2025. And then of, of note that I m sure everyone knows, as of JANUARY 1 of 2026, Fairfax County implemented a meals tax for the first time at 4%. This slide shows the 23 year history of the city s meals tax revenue,"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 12349.306,
+    "start": 12316.641,
+    "end": 12351.908,
+    "text": "basically from 2003 when it was at 2% and then what has happened uh in the last 20 some odd years. So within those 23 years, Meals tax revenues has more than quadrupled from roughly $1.9 million in 2020, in, in 20. 2003 to over 9.3 million in 2025. This trend shows a consistent long-term growth pattern. One of the most important things this chart demonstrates is the stability of tax of meals tax revenues even though national recessions"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 12353.31,
     "end": 12384.307,
-    "text": "of tax of meals tax revenues even though national recessions in 2008 and the covid-19 pandemic in 2020, meals, tax revenues rebounded quickly and continued to grow. Meals tax are unique because they capture revenue not just from residents, but from visitors, commuters, and patrons coming from outside the city. This allows us to export a portion of the tax burden to non-residents who enjoy our local businesses. Of note, as previously stated, the city increased its meals tax. By 100% in 2003, again from 2%"
+    "text": "in 2008 and the covid-19 pandemic in 2020, meals, tax revenues rebounded quickly and continued to grow. Meals tax are unique because they capture revenue not just from residents, but from visitors, commuters, and patrons coming from outside the city. This allows us to export a portion of the tax burden to non-residents who enjoy our local businesses. Of note, as previously stated, the city increased its meals tax. By 100% in 2003, again from 2%"
   },
   {
     "speaker": "Unknown Speaker",

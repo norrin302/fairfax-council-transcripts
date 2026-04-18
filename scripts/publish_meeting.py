@@ -92,19 +92,19 @@ def chunk_segments(segments: list[dict[str, Any]], target_seconds: int = 30, max
         seg_hint = str(seg.get("speaker_hint") or "").strip()
         seg_hint_strength = str(seg.get("speaker_hint_strength") or "").strip()
 
-        # For "explicit" hints (>> speaker tags), we carry the hint forward across segments
-        # until the next new_speaker boundary.
-        if seg_hint and seg_hint_strength == "explicit":
+        # For highly reliable hints, we carry the hint forward across segments until the
+        # next new_speaker boundary.
+        if seg_hint and seg_hint_strength in {"explicit", "marker"}:
             if seg_hint != active_hint:
                 if buf:
                     flush()
                 active_hint = seg_hint
-                active_hint_strength = "explicit"
+                active_hint_strength = seg_hint_strength
 
         # Compute the effective hint for this segment.
         # - If the segment itself has a hint, use it.
         # - Otherwise, only inherit the active hint when it was explicit.
-        effective_hint = seg_hint or (active_hint if active_hint_strength == "explicit" else "")
+        effective_hint = seg_hint or (active_hint if active_hint_strength in {"explicit", "marker"} else "")
         effective_strength = seg_hint_strength or (active_hint_strength if effective_hint else "")
 
         s = float(seg.get("start", 0) or 0)
@@ -384,6 +384,27 @@ def segments_from_webvtt(vtt_text: str) -> list[dict[str, Any]]:
         t = _norm_for_hint(line)
         return bool(re.match(r"^(council\s*member|councilmember|councilman|councilwoman|mayor)\b", t))
 
+    def parse_marker_only(line: str) -> str:
+        """Return a speaker hint if the *entire* line is just a speaker marker.
+
+        Examples:
+          - "Councilmember Bates."
+          - "Mayor Read"
+
+        This is used to interpret standalone marker cues as reliable speaker boundaries.
+        """
+        t = _norm_for_hint(line)
+        m = re.match(
+            r"^(council\s*member|councilmember|councilman|councilwoman)\s+([a-z][a-z\-']+)$",
+            t,
+        )
+        if m:
+            return parse_speaker_hint(f"{m.group(1)} {m.group(2)}")
+        m = re.match(r"^(mayor)\s+([a-z][a-z\-']+)$", t)
+        if m:
+            return parse_speaker_hint(f"{m.group(1)} {m.group(2)}")
+        return ""
+
     while i < len(lines):
         line = lines[i].lstrip("\ufeff").strip()
 
@@ -455,22 +476,40 @@ def segments_from_webvtt(vtt_text: str) -> list[dict[str, Any]]:
             buf_lines.append(ln)
             i += 1
 
+        # Handle standalone marker cues like:
+        #   "Councilmember Bates."
+        #   "Mayor Read"
+        # These appear in some Fairfax clips as a separate cue before the speech.
+        if not speaker_hint and buf_lines:
+            first = str(buf_lines[0] or "").strip()
+            mhint = parse_marker_only(first)
+            if mhint:
+                # Drop the marker line from the caption text.
+                buf_lines = buf_lines[1:]
+                speaker_hint = mhint
+                speaker_hint_strength = "marker"
+                new_speaker = True
+
         text = normalize_caption(" ".join(buf_lines))
 
         # Drop vendor watermarks/noise
         if re.search(r"aberdeen\s+captioning|www\.|\b\d{3}-\d{3}-\d{4}\b", text, flags=re.I):
             continue
 
-        if text:
-            segs.append({
-                "id": sid,
-                "start": float(start),
-                "end": float(end),
-                "text": text,
-                "new_speaker": bool(new_speaker),
-                "speaker_hint": speaker_hint,
-                "speaker_hint_strength": speaker_hint_strength,
-            })
+        # We emit empty-text segments when they are pure speaker markers so chunking can
+        # still carry forward the speaker context.
+        if text or (speaker_hint and new_speaker and not text):
+            segs.append(
+                {
+                    "id": sid,
+                    "start": float(start),
+                    "end": float(end),
+                    "text": text,
+                    "new_speaker": bool(new_speaker),
+                    "speaker_hint": speaker_hint,
+                    "speaker_hint_strength": speaker_hint_strength,
+                }
+            )
             sid += 1
 
         i += 1
@@ -756,6 +795,7 @@ def main() -> int:
                 ),
                 "speaker_source_detail": (
                     "Captions (explicit speaker tag)" if str(t.get("speaker_hint_strength") or "").strip() == "explicit"
+                    else "Captions (standalone marker cue)" if str(t.get("speaker_hint_strength") or "").strip() == "marker"
                     else "Captions (inline header)" if str(t.get("speaker_hint_strength") or "").strip() == "inline"
                     else "Captions (inline header, loose)" if str(t.get("speaker_hint_strength") or "").strip() == "inline_loose"
                     else "Diarization (mapped from caption tags)" if str(t.get("speaker_hint_strength") or "").strip() == "diarization"
