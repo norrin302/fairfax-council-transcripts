@@ -3,1950 +3,2600 @@
 const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 58.402,
     "end": 108.384,
     "text": "the Jack Good evening and welcome to our work session of MARCH 3, 2026. I d like to call the meeting to order. And before we begin the work session, I would like to invite Cub Scout pac 882 to come up, stand up and lead us in the Pledge of Allegiance. So if you are able and choose to, please rise for the pledge of allegiance. Of the United States of America and to the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 110.754,
     "end": 146.42,
     "text": "Republic for which it stands, one nation under GOD in individual liberty and justice for all. Thank you, Cub Scout pac 882. We appreciate you being here with us. I will now recognize MISS Shniberry for the first work session item for discussion. Our first item is the fy 27 budget presentation by schools. I m gonna recognize dust, Dustin Wright or school superintendent for the presentation. Thank you, MS."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 147.124,
     "end": 179.922,
     "text": "Shinneberry. And good evening, Mayor Reed. Members of the city council, members of the school board and other members of the city leadership team. My name is Dustin Wright. I m the very proud superintendent here in the city of Fairvac schools and it s a pleasure to be with you, uh, tonight for this joint work session. Before we begin, I want to start with a brief note of gratitude. Um, I stepped into this role just about 3 months ago and um it s been a wonderful transition and I m deeply appreciative of all the support from lots of different people. Um, this council, uh, the school board, uh, the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 180.624,
     "end": 212.121,
     "text": "members of the city government, um, their support and guidance has been critical to help us get to this point Um, our school leaders and staff, uh, they engaged residents and most of all, uh, a big thank you to our students. They re why we re here, um, here in the city of Hervax schools, and, uh, we re so proud of what they do every single day. Um, tonight s presentation is uh a discussion about the fy 27 advertised budget for this, uh, school system. Uh, we hope that it reflects three consistent priorities, um, throughout the presentation. Uh, the first is strengthening the connection between our schools and our"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 213.59,
     "end": 244.82,
     "text": "broader community. Second is supporting and empowering our educators and staff, and third is keeping students at the center of everything that we do. I want to briefly orient everyone about the structure of this presentation and where we ll be going tonight. Uh, we ll begin with who we serve and how our system is organized. I know that there s a lot of knowledge about that, um, in this room, but I think it s helpful for the public, uh, and anybody listening, uh, to have that information available. We ll then spend some time talking about the school services agreement and the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 245.255,
     "end": 276.184,
     "text": "tuition related to that because that s a primary cost driver, um, in this budget, and then we ll conclude with the actual fy 27 operating budget and the time light ahead. I think we all know that uh we have 4 wonderful schools and an academy here in the city of Fairfax, but, uh, we have Daniel s Run, Providence Elementary School, Katherine Johnson Middle School, and then Fairfax High School and the Fairfax Academy. Each school has its own identity, um, but they share expectations, programming and outcomes. Uh, last night we heard a state of the school s presentation at the school board"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 276.386,
     "end": 307.215,
     "text": "s work session and then a elementary specific presentation and we got to see, uh, firsthand a lot of the, the amazing work that s happening. You, uh, I was so impressed by the depth and the breadth of what s happening, but also the um the intentionality and the strategic coherence of what s happening in their schools and how they re using their resources in a way that benefits every single student. Um, with these 5, programs, they provide a continuum of early learning all the way to graduation. And while we are a small school division, our"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 307.251,
     "end": 339.782,
     "text": "students have access to a broad academic, um, options and extracurricular pathways. And I think that s one of the things that, that makes our school divisions so unique. Our size allows for personalization and our partnerships allow for scale. Just to orient, um, the members of the public in this room with, uh, some of the numbers,, for the City of Fairfax schools. Um, I think you can see, um, some of the um the, uh, key statistics. We have about 5400 students that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 341.251,
     "end": 371.47,
     "text": "attend our schools, uh, 2900 of those students are city residents and 2500, um, are county residents, and I think that s another, uh, great, uh, component of our partnership. Um, governance is provided by this five-member elected school board that is up here with me and uh one superintendent and then uh um a great central office staff. Our school services agreement, um, which was established in 1962 and then revised in 1978 and has been in place since then is what guides this partnership and we ll frame a lot of the components of the budget that we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 374.184,
     "end": 407.83,
     "text": "ll see this evening. Speaking specifically about that school services agreement with Fairfax County Public Schools will take just a brief second to unpack that. Um, that agreement is between 4 parties. Um, the city council that I m speaking to today, um, the school board, um, that s, uh, uh, right up here with me. And then the Fairfax County Public school system and the Fairfax County government, um. The the way and the structure of this agreement has, uh, Fairfax County Public Schools managing and operating the city schools on a day to day basis, including the staffing and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 407.651,
     "end": 439.649,
     "text": "curriculum and then our city school board provides governance and contract oversight. Um, it provides supplemental investments in budgeting, and it maintains the four city-owned schools, and I d like to clarify that word maintain, um, that s around the, the capital, uh, um, improvements and capital upgrades to, uh, the, the schools, the actual day to day maintenance is part of the contract with Fairfax County Public Schools. This model gives our city students access to specialized services, um, advanced programming, academy programs, and other regional opportunities. And it also places a responsibility on our city to invest deliberately in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 439.682,
     "end": 470.88,
     "text": "our facilities and our supplemental supports. Now we re gonna take a look a little bit of those students that I was talking about earlier about who they are and how many are in our schools currently. The information that you see on the screen is, uh, enrollment information or membership information for SEPTEMBER 30th of 2025, so the start of this school year. And what you re seeing is um two sets of information. One is the on the left is our city students and on the right is Fairfax County Public Schools"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 471.348,
     "end": 503.944,
     "text": "overall. And it s a comparison between the first day of school this year and the first day of school last year. And so you can see a lot of blue down arrows and and what we saw regionally in Northern Virginia is a downward trend in enrollment. So students that ended last year on the last day of school, the, um, uh, a smaller amount of students showed up on the first day of school, and this is not, uh, anything that was unique to the city of Fairfax or Fairfax County Public School. Um, there were measurable decreases in Loudon, Arlington, Prince William, Montgomery County, Maryland, and, and several of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 507.151,
     "end": 538.81,
     "text": "our surrounding districts. Now the, the next piece of information we want, we want to provide um is the comparison between our membership, um, in SEPTEMBER that you were just looking at, and something called the adm or the average daily membership. Um, and all of this information is important context, um, to helping understand the contract that we have with Fax County Public Schools and the tuition bills that we receive. The adm is an important metric, um, because it s not a one-day sta snapshot that that membership"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 538.114,
     "end": 568.444,
     "text": "number is on SEPTEMBER 30th. Who, how many kids were in school? The adm actually reflects student participation over the course of the year, and it, um, it, we get a final number on what that is at the end of MARCH every single year. And this number is important because it not only is the key driver of, um, the calculations in our school services agreement, um, but it s also the number they use for state funding, which we ll talk about in a minute. It s also the number that helps drive the local composite index, which is another key local funding"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 569.647,
     "end": 602.11,
     "text": "metric from the state. Um, for tuition purposes, we always want to uh understand how the city s adm compares relative to fcps s adm because if, if both are going down, our percentage is gonna stay relative, but if we see different directions, uh, for those memberships, um, we re gonna see impacts on the tuition bill. Um, long term planning must also account for development trends within the city, um, as it relates to our membership. This slide gives an overview, uh, historically of the tuition payments related to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 603.946,
     "end": 635.979,
     "text": "the school services agreement. What you re going to see are that there are two forces consistently at work, um, as this tuition bill has gone up, we ve seen incremental changes in the city s adm um, but what the key driver is on the increase of this is, are the increases in the operating costs we see with our partner in Fairfax County Public Schools. So, yes, our, our enrollment fluctuations will impact this, but uh, what is driving the increases that you see year over year are related to those fcps operating costs. I think it s important to note"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 636.78,
     "end": 667.677,
     "text": "that these figures include the actual tuition bill, um, and the rental credits that we received for Fairfax County students that attend our schools, um, and it accounts for the year-end Tru up That year-end true up is the reason that um fy 26 is estimated at this point because we won t have the exact number until the fiscal year closes out this summer. On this screen, you ll see some of the factors that are impacting the tuition bill and we talked about those"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 668.879,
     "end": 700.742,
     "text": "primary factors already. Um, again, it s, there s our enrollment is a, is a component of this, but the operating costs are, are the key driver. Some of the secondary factors include the proportional enrollment. So, um, when we re talking about our ADMs being relative between the city and Fairfax County. Um, that s a, that s what we re referring to there. The grade level distribution, there are minor differences between um the cost of an elementary, uh, middle school and high school student in the school services agreement, um, and then those classroom rental adjustments"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 701.612,
     "end": 733.142,
     "text": "and year-end true ups. Um, the boundary process and utilization decisions, um, in our buildings can also be secondary factors, um, related to this over time. We re gonna show 3 slides and I think some of these were in the uh city manager s presentation that um you received last Tuesday night, and I think what we re trying to point out on all three of these slides is a similar shape. So as you see, you re gonna see a slide on our enrollment, which is on the screen now, and then a slide on the operating costs, and then our tuition"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 734.78,
     "end": 766.507,
     "text": "costs. I think one thing that s important to point out um, with the, um, enrollment numbers that you see here is that um all those yellow ones are projected. We are currently far under the projection for the current year. So the projection and what the budget was built on was 3,077 students. You saw on that opening slide of where our SEPTEMBER numbers were of 2,942, so almost 130 students lower than that projection. And"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 766.91,
     "end": 799.206,
     "text": "that lower than expected projection has stayed steady throughout the school year, um, as of the end of JANUARY, we had 2,947 students, um, so we re still significantly below that projection And you can see that 3,103 students is the projection for next year. Um, that s gonna come up here in a minute and it s our anticipation and we ve calibrated that with Eric Foreman and his team that that number is again going to be lower as well. Here s that aforementioned picture about the fcps operating costs, um,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 799.943,
     "end": 830.74,
     "text": "that are, that similar shape as our enrollment projections, um, the operating costs are continuing to go up, and then you ll see, uh, this is the exact chart that I showed you in a a vertical table form, but here s just a graphic presentation of it to show again that similar shape. At the end of JANUARY, uh, Doctor Michelle Reed, the Fairfax County Public School Superintendent presented her proposed budget, um, to the Fairfax County Public Schools school board. You ll see some of the basic information that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 831.774,
     "end": 861.937,
     "text": "was in that proposed budget, um, a few weeks ago, MR. Brian Hill, the Fairbrucks County, um, executive presented his proposed budget to the board of supervisors. Um, what he s proposing for the school transfer is significantly lower than the $197 million increase that you re seeing here. So i think the proposed budget will undergo some changes between what was presented to the public, um, and what will be approved by fcps. What s important to note is on that 2nd bullet, um, in this"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 862.271,
     "end": 894.27,
     "text": "proposed budget, uh, Fairfax County estimated that the city of Fairfax tuition bill would be approximately $77 million. In working with the city governments. Um financial team led by um MR. Martinez, the chief financial officer, um, we, um, looked at that number, looked at some of the past uh history around the tuition bill. Um, and also looked at that enrollment projection, and you can see, um, that $77 million was based on that, uh, enrollment projection of, uh, 3100. And what you ll see in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 895.238,
     "end": 927.135,
     "text": "the city of Fairfax schools budget is a lower, um, tuition number than that $77 million because we wanna, we wanna be realistic about where we think it s going to end up. Um, but we also have some budgetary tools available and in the event that something, um, changes in terms of that final amount. On this screen, you ll see a high-level summary of the City of Fairfax Schools operating budget. Um, across I ll orient everyone um to where we are in terms of, uh, last year"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 928.605,
     "end": 961.269,
     "text": "s budget, fy 26 is in that estimated column because there are some things that, that we don t know until the end of the school year. And then you can see in that third column, um, what we re proposing for the upcoming fiscal year. Um, the operating costs, which includes salaries and communications and legal fees and compliance fees are, um, across that top line. I m gonna skip the, the cip maintenance and come back and, um, reference that specifically at the end. The tuition bill, um, where we talked about it being estimated right now and that, that delta between the $77 million Fairfax County"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 962.171,
     "end": 995.337,
     "text": "estimated you can see we re estimating just below 74 million. Um, and then debt service for some of the capital projects that have happened with the schools in the past that improvements line is something that will probably in future budgets go to the operating funds that s related to maintenance on our turf fields, but to keep with past practices. Um, it s in there. And then you can see the totals, uh, at the bottom. As you heard, MR. Alexander, um, give a great presentation last Tuesday. Um, citywide, uh, across the city government and the city schools, we made some shifts in our cip"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 997.341,
     "end": 1029.237,
     "text": "process, um, for annual, um, every year maintenance things, painting, concrete work, um, that have been in the cip to actually bring them into the operating budgets. And so what you ll see there is we are following that same practice in the city of Herfax schools, um, and of note is the significant decrease, um, approximately $50 million in those, um, cip maintenance items because we were able to do an analysis and find existing balances in many of those accounts that we, um, it s our belief that that will cover what we need for this year, and we felt that was the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1029.238,
     "end": 1059.936,
     "text": "fiscally prudent thing to do moving forward. So that s, that s the explanation between the syni significant decrease um in that category. There s 2 more slides that I d like to share before we open it up for, um, conversation. Um this is related to our estimated state revenue, um, in the Commonwealth of Virginia, there are two large buckets of state funding that go directly to supporting school systems so you can see the sales tax and the basic school aid. These are calculated from that adm number,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1060.7,
     "end": 1091.266,
     "text": "that average annual daily membership that we re talking about before. Uh, we did some great work with MR. Martinez and MS. Riddell, um, about estimating where we think we re going to be, um, for this year. Um, we got some good indications from um the previous governor, um, his proposed budget that was put out in DECEMBER, and then we ll have to see where things end up through the legislative process in Richmond to see what that final fy 2027 budget is, um, I don t, my, my reading of the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1091.367,
     "end": 1121.73,
     "text": "tea leaves is I would not expect it to be less than the number, um, that we estimated in DECEMBER, but we, uh, we re monitoring that closely. I think it s important to note that within the overall um, school s budget that you saw on the previous, uh, screen, that bottom line number, that s inclusive of this funding. So, um, about $15 million of that is from directly from the state funding, um, and then the rest is from uh a few other sources, and then the city, um, uh,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1122.699,
     "end": 1155.13,
     "text": "transferred to the schools. The last slide that we ll look at is the comparison of, um, the distribution of the general fund and and localities um for school-related expenses. So you can see this across the Northern Virginia region where, um, City of Fairfax, um lands in comparison to other jurisdictions, and then that, as we mentioned and then that last slide, that 38% is inclusive of that state funding. So without, uh, I would, I would share that most of these other ones do not include that state funding. So our number"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1156.133,
     "end": 1186.362,
     "text": "might be a little bit smaller, um, if that s state funding was removed. But regardless, um, we think that this, uh, demonstrates, uh, our, uh, a really impressive commitment to the schools and the city of Fairfax we re very grateful for that. In terms of timeline in the budget process, um, we, uh, on the school side, uh, we went through a proposed and advertised budget in JANUARY and FEBRUARY. Um, there are public works at, or public hearings on, on both of those. And now we re in this process of moving through the city"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1186.362,
     "end": 1217.92,
     "text": "council s, um, process. So we ve got this joint session tonight. There ll be public hearings throughout the rest of this month in APRIL and then I, I, uh, voting procedure in MAY. I would just close by sharing our gratitude for the support, um, we re very fortunate to have the opportunity this evening to walk through this budget and to be able to answer any of your questions, and we re hopeful that this proposal reflects um stewardship, strategic intent, and a clear focus on our students here in the city of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1218.862,
     "end": 1252.328,
     "text": "Fairfax. So with that, um, I, uh, appreciate the dialogue and welcome any of your questions. All right, thank you very much for the presentation. I will call on Councilmember Amos. No, thank you for this presentation. This was excellent. I really only have one question, and just for clarity, and this might go to uh city manager Alexander. So when it comes to the decline in enrollment numbers from the presentation last week, that was not factored in into the, into what was incorporated in the budget, is that correct? Just for clarity Yeah, I m not"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1252.862,
     "end": 1286.896,
     "text": "understanding your question. So in this presentation, they re reflecting a decline of roughly 130 students from that 77 million that we were looking at was that already factored into the budget that was presented or no? Yeah I turned over the expert Thank you, Councilor Amos, um, like Doctor Wright mentioned, uh, we do work very collaboratively and we did factor those numbers in, in addition to, uh, what we were projecting from from Fairfax County on a potential transfer to fcps as well. I think as"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1286.896,
     "end": 1319.261,
     "text": "Doctor Wright noted, that was one of the reasons why we did not meet that fully funded request from fcps of 77. We re coming in at 76.4 before the school rental credit is given. Understood. And is that also going to be adjusted per whatever the county ends up moving forward with under the county executive That would be something that we would take into consideration and I think this year our budget s kind of align with Fairfax County and ours. I think we re adopting on the same day as well, so we would know what that final"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1322.765,
     "end": 1356.698,
     "text": "number will be. Ok, thank you. Council member Hall, I have two questions. Uh, the first one is, are we gonna get a read aloud like you had at your meeting last night? I left the book in my car. I m sorry, but, but I can make something happen real quick. I want to thank y all for being here. Um, can you maybe, and I don t expect you to know these numbers off the top of your head, but can you maybe just highlight some of like the top 5 or 6 things that are causing the operating costs from the county side to go up. I know we, we say operating costs a lot, but what exactly does that mean? No, I really appreciate that question. I think it s a really important"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1358.235,
     "end": 1388.865,
     "text": "one. Um, some of these numbers are, are gonna be pretty close. Um, um, but I would, um, if we want the exact numbers, I, you know, I want to go back and get those. I think where you re seeing in any school budget, um, and this applies to ours even though we have a non-traditional process, but, um, in Fairfax County, the last several years, I think it s been between 87 and 88% of their overall budget is all related to employee compensation, right, and employee benefits. So what you re, those increases that you"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1390.134,
     "end": 1420.863,
     "text": "re seeing are very much, um, tied to the cost to, um, support the employees, um. They re not, I, you know, in my review of their proposed budget, you re not seeing massive increases in their FTEs. Um, you re not seeing, um, lots of new positions that are coming, you re seeing, um, the, uh, agreements that they have with their employees to the collective bargaining process. They re, um, finishing their first year of a cba and they re moving into their second, um, last year had, um, kind of not a, I wouldn t say a catch-up"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1422.399,
     "end": 1452.527,
     "text": "year, but a higher than, uh, it s, it s the highest year in the cba in terms of the employee compensation, it levels out a little bit this year and stays, uh, fairly regular the next, uh, few years. I think it s right around 5%. Now, are there big places where you see, um, significant increases is in the cost of benefits, so no no different than what we re looking at here in the city government, you know, our health benefits, um, um, our retired retirement benefits, you see those increases, you know, oftentimes in budgeting practices, at least on the school side, a lot"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1452.83,
     "end": 1458.534,
     "text": "of times, a, a, a budget will, you ll factor in a 10% increase in your medical benefit costs. So I think that s another one,"
   },
   {
     "speaker": "Councilmember Stacy Hall",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header)",
     "start": 1460.36,
     "end": 1462.773,
     "text": "Um, you know, the, they, their"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1462.773,
     "end": 1495.436,
     "text": "enrollment is probably not going to continue to go up. Um, again, it, they were expecting about 180,000 and have 177,000 roughly, um, this year, and I, I don t think they re projecting to have a significantly higher enrollment. So I think a lot of those increases are all related to those employee compensation. Thank you. I expected that was going to be the answer, but I think it s helpful for those that are following at home just to know exactly what is in there. Thank you. Other questions, Council member Peterson? Well, I also want to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1496.44,
     "end": 1526.869,
     "text": "thank you for a really helpful and clear presentation you mentioned at the outset that one of the roles that the city plays is supplemental programming and supplemental resources, and if you could just unpack that a little bit more, let us know a bit more about what those look like and how they fit into the budget overall That is a wonderful question, and I really wish I had um a playback, uh, councilmember Hall was mentioning, uh, me reading a children s book in the school"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1527.204,
     "end": 1560.235,
     "text": "board work session last night, or an excerpt of it, um, but prior to that, we received um uh a wonderful presentation from, uh, the leadership team in Region Five that supports our 4 schools and then from our elementary school principals and especially the elementary school principals really focused in on what are the um benefits and what are the returns on investment to use a budgetary term from the supplemental supports that, um, come from the city of Fairback schools. So to pro to provide a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1560.236,
     "end": 1591.233,
     "text": "few examples, um, um, if you are in either of our elementary schools, um, they are going to receive all the staffing allocations that a typical Fairfax County public school would receive. And that s based on enrollment and then there s also a needs-based component that Fairfax County Public School uses to deter to determine how many classroom teachers, how many pe teachers, how many, uh, special education teachers. We re very fortunate that, um, through our agreement and through these budgetary numbers that you see, we re able to take that, um, allocation of staffing and then"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1591.235,
     "end": 1621.898,
     "text": "supplement it with additional positions. So both of our elementary schools just to start, there s 3 additional positions, um, that, um, each principal uses a little bit differently that provides a full-time math resource teacher, a full-time science resource teacher that we ve had the City of Fairfax schools have had advanced academics teachers long before they were in our elementary schools. Um, other things that you ll see that we re supplementing that are not, um, uh, available in other, uh, elementary schools, and I m gonna tell you a personal anecdote about that in a minute. Um, both of our elementary schools have full-time security"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1622.866,
     "end": 1653.295,
     "text": "specialists, which is not, um, there s not another elementary school around that have that. Um, we have Avid at the elementary program, which is a really powerful instructional program that is all around college readiness and um a lot of places where you ll see it start is in 11th grade. Um, we have it starting in 11 th grade, but we also have it in our middle school. I spoke to an eighth grade avid class last week. And then we have it in elementary school and I, there, there s not too many programs like that around. We have a teacher that goes back and forth. We have a behavioral specialist teacher that goes"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1653.329,
     "end": 1683.359,
     "text": "back and forth between our two elementary schools. As you move up to our secondary levels. You ll see several other versions of the supplementary staffing positions that we provide. That s one component of the supplement, um, COUNCILMAN Peter Peterson, the, I think another key part of it is the supplementary instructional funds that we provide every single year. Um, and these are ways for us to work with our school leaders, uh, to address specific needs they have in the building or also to express or to address"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1683.926,
     "end": 1714.424,
     "text": "specific, um, areas that they want to innovate or try new things. Uh, we are, have been able to do really great things with um our, um, academy programs at Fairfax High School. Um, we ve been able to, um, provide, I was at Providence Elementary School and they were doing something called math lab sites, which is a really powerful, uh, professional development approach where teachers can learn from each other, but you need some substitute coverage so those teachers can be, um, in a, a conference room learning from each other while their students are supervised. Through those"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1714.424,
     "end": 1745.754,
     "text": "supplementary instructional funds, we re able to provide those. I was a principal, not in the city of Fairfax school and all the things that I just described were not available to me. So having that, um, awareness, um, from, I, I was an assistant principal at Daniel s Run and then became a principal, um, right down the road, about a half mile away. It was, it was a rude awakening when I got there to um see all the things that I, I was not able to access that I was used to being able to access that Daniel s run. So hopefully that gives some sense of what those positions are. I would, I would"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1745.756,
     "end": 1777.253,
     "text": "give you one more example of that is one of my favorites. Um, we have something called a transition counselor. So we have, um, one of the most powerful educators I ve ever, um, encountered, and what she does is she spends the spring, um, at Katherine Johnson supporting our eighth graders and, um, with that transition with, um, class selections, and then she spends the fall as they transition over, um, as ninth graders to making sure that transition goes well. She s been a critical part of the, um, ninth grade academy that has been started at"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1777.253,
     "end": 1807.749,
     "text": "Fairfax High School in part with support from our city funds. Um, that transition counselor doesn t exist at Oakton High School, um, and its feeders, it doesn t exist in some, um, at, uh, Woodson High School right down the road and it s because of the support of the school board, um, this council, and our community that we re able to have resources like that. Um, I could keep going on the Capitol front, but, uh, hopefully that um gives a, a good sense right there. Well, thanks, it really does just a follow on and maybe if you"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1808.351,
     "end": 1839.282,
     "text": "could wear your, uh, educator research hat for just a minute. How much of a difference does that make in terms of cognitive learning and development for the students and how much difference does it make in their individual health as well as the broader community health that s associated with the school programs. I think, um, you re asking me to put on my researcher hat. And when I went to, um, when I did all my research classes, um, during my doctorate program, I also had a 2 year old and newborn twins,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1839.683,
     "end": 1871.714,
     "text": "so I might have been a little sleepy on a few of those days, so, um, but, um, I think what we can t, so I would say it makes a, you know, we, we can find specific programs, um, that are supported that have those cognitive, um, uh, impacts. Uh, I ll give you another example. This is a, a program that exists at Fairvis High School that comes from the city funding. They have a Saturday school program, um, when I was in high school and then when I was, um, a teacher, Saturday school had a negative connotation. Um, Saturday school at Fairfax High School"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1872.983,
     "end": 1904.513,
     "text": "is, um, there are some students that are invited, uh, absolutely, but the large majority of the students and I was able to attend it, um, in JANUARY. Our students that are there, um, seeking out extra help. Um, there are students that are there seeking out extra help in our advanced classes. So um, one of the, you know, I was at a table with a bunch of calculus students that were there on a Saturday working with one of the math instructors, getting that extra help. I think we can find, um, we could look at a program like that or the Avid program, um, avid s a, um, acronym that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1904.548,
     "end": 1936.512,
     "text": "stands for Advancement via Individual determination. Um, we can find some of the, um, the return on investment or what is the cognitive impact from some of those students, that s definitely available. Um, and we can look into that a little bit further. But one of the things I would share too is that, uh, and this is how I closed some of the comments last night with, uh, Region Five team um, in the presentation is that as we talk about these supplemental funds, absolutely they make a specific difference with those avid students with those Saturday school students with the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1936.981,
     "end": 1967.243,
     "text": "students that are accessing the new, um, floor that we put in the auto shop that makes it safe and, and when the oils on the floor, it makes it easier to clean up. All of those are specifically there. And um, those type of supplements kind of ripple out, right? They impact, I think the overall, um, organization, they impact the entire school. So we make some specific supplemental, uh, uh, investments here in the city of Fairfax, but they impact every student in the school, and then I would say the impact our city students and our county students, and I, and I think that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1967.243,
     "end": 1997.74,
     "text": "s good for every single person that s there. Other questions, Council member Bates? Uh, thanks so, uh, just, um, something that just occurred to me and, uh, I understand he might not have, and actually, this might be more city manager, um, but I understand if you don t have the, um, answer tonight. But, uh, looking at, um you know, the estimate for, uh, uh, 2025 to 226 was, I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1997.74,
     "end": 2030.306,
     "text": "believe, 3,077, and then it s, you know, 29, 42 as of SEPTEMBER. And then, um, 3103 for the following year, and you re saying that that might come down as well. Um, is that based on the um uh the same uh ratios and process as the, uh, numbers that we see on the development side, like in the fiscal impact analysis and that kind of thing or is that sort of different process? I know you mentioned Eric Foreman, but, uh, how does that work? Yeah, that s a wonderful question. I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2032.208,
     "end": 2063.972,
     "text": "might, um, uh, uh, call on a friend as well, um, but, um, so these projections come from, um, uh, uh, these specific ones are coming from the Fairfax County Public Schools, um, projections that they use. Um, we always, um, work with Eric to say, hey, um, are these in the ballpark of what you re seeing. And then as we look farther out, we re trying to um um get really good indications, predictions I think might be too strong a word of what could be some of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2064.375,
     "end": 2095.972,
     "text": "the impacts of the development from an enrollment perspective, right? We know that there s a lot of, um, other impacts economically and, and, and so, um, what he s done a really great job for us. There was a NOVEMBER work session we can provide this COUNCILMAN Bates, um, where he s looked at, um, not only all of the developments that are have recently come online, um, but also all the developments that are either, um, in per m it ting process or in construction, and then some of the ones that are proposed. And he s looked at, he s helping us understand, um, the number of units, the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2096.339,
     "end": 2126.468,
     "text": "type of units that they are, and then what are some of the potential generation rates, um, for each of those units. And so he has some really good estimates on, you know, the, you know, the two bedroom, uh, condos that we re seeing at the new botanist, um, development that s on Eaton Place. We re thinking that it might generate this amount of students. So, um, we ll definitely be able to able to have decent estimates on that. I think right now, even if we account some of those, these yellow numbers are pretty still on the, um, aggressive side for how many"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2126.469,
     "end": 2159.835,
     "text": "students, uh, we re looking at. But the development, um, question is something to, to continue to monitor from a school enrollment perspective, just from our capacity. And, but it s also going to be one of the primary drivers over the, um, tuition bill. So hopefully that gives some information. Is there anything you wanted to add? I would just say that Eric also works very closely with Fairfax County, so he collaborates with them, um, in terms of using, I think some of their resources, um, we have,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2160.27,
     "end": 2191.133,
     "text": "as I think we ve had the conversation before, um, that he is, when he looks at the type of housing, the same formulas or the same yields that we MAY have used 1015 years ago, no longer are accurate So we are seeing, um, more students out of, um, housing types that we we historically have not seen, um, I think I use the scout as an"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2192.536,
     "end": 2223.231,
     "text": "example, um, and what was the Moxley, um, we were slated to have a handful of kids out of Scout and we ended up with more than 50 kids. I think it was 54 to 57 kids. So, um, I think Eric has done a really good job of, um, taking all of that into consideration. Um all that to say that we, we still think these numbers are a little bit high, typically when we get our SEPTEMBER the SEPTEMBER number is generally historically"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2224.368,
     "end": 2254.496,
     "text": "higher than the adm comes in. So, um we ll wait and see, but, um, I, I think we d be hard pressed to have, um, another 130-ish kids by the, um, end of the school year. No, thank you chair pitches and we, um, receive monthly updates on, on these, on this enrollment and then that adm number, um, for that s going to impact the current fiscal year. Uh, we should, uh, have that usually it s the 1st or 2nd week in APRIL, um, which we ll be able"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2255.466,
     "end": 2287.363,
     "text": "to, um, be information that we can share during this budget cycle. So basically, these numbers, um, are all from fcps even the projected numbers, but with collaboration, uh, with MR. Foreman. That s correct. Ok, thanks. Council member Hardy Chandler Oh, thank you again for your presentation, um, uh, you were, I appreciate the discussion earlier about the impact of the supplements on programming what s available to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2290.167,
     "end": 2322.432,
     "text": "students, uh, can you confirm that the operating costs also include uh employee professional development. I m talking about teachers and others, counselors, um, other people who support uh, the educational programming. Absolutely. So the, I ll try and just make a few distinctions within our tuition bill, um, that we, um, uh, that goes over to Fairfax County Public Schools. There is significant amounts of professional development. There s also a significant amounts of, um, that, that, uh, that covers, you know, our"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2324.902,
     "end": 2356.764,
     "text": "teachers to have access to the world-class literacy professionals that are a part of their central office. So it definitely includes that. Um, it includes, again, professional development opportunities for, um, students, administrators, uh, and the like in terms of the supplementary instructional funds. We have a specific part of the city of Fairfax operating costs. Um, that top line that you see a, a good chunk of that is supplementary instructional funds and um council member Hardy Chandler, I would say the large majority"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2357.601,
     "end": 2387.63,
     "text": "of that is, is typically directed towards, um, staff to moment by our schools, things that our principals are using to get extra resources or to send their teachers to a training, um, uh, that s, that s probably the primary driver. It s a, it s a really good, um, light line item for them to be able to do that. So in the overall budget absolutely, and then in these, um, and then our supplemental funds, that s something that s a focus as well. We ask them to, you know, line up the, they send us a proposal each year, um, that is lined with their"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2388.198,
     "end": 2419.862,
     "text": "school goals and their school needs, um, and, and, and it s really, they do a really thoughtful job of making sure they re using it in the right way. I would also add that, um, the money is also used for a lot of summer programming, um, over the years, uh, what fcps is able to offer for summer programming has um fluctuated so some years they offer everything. Some years they offer nothing depending on their budget, and we re, we re able to provide some of that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2420.73,
     "end": 2452.695,
     "text": "summer programming such as Bridge decay, um, we ve had, uh, we have the Fairfax, um, they changed the name. I don t, this year is, I think it s the is it the They, they have a similar jumpstart program. Um, there s uh Katherine Johnson has something called Eaglefest, um, and these are all programs that in certain times they ve been a part of the tuition bill, um, but, um, more recently, there are things that we are, um, providing support for and um it really makes a big impact for our students. And sometimes, uh, over the years we ve provided"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2453.23,
     "end": 2484.46,
     "text": "late buses. We ve provided, um, money for field trips, just, um a variety of, of things, but as Doctor Wright said, the majority of it is for, uh, resources and training that directly affect the students. Council member Amos Thank you. I only have one more question. This might be just more of an educational piece, uh, and some historic knowledge, so I d appreciate some context. So if you could go back to slide 11 for me. I think it was slide 11"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2486.497,
     "end": 2518.94,
     "text": "with the chart. So I m just curious about this, so someone could look at this and say, all right, uh, our enrollment this year likely wouldn t meet what it was in 2020. Obviously pandemic changed a lot for us, and I MAY be wrong, let me know if I am. The cba agreement didn t really start impacting until last year s budget, fy 25. So we re talking a $20 million increase within 4 to 5 fiscal years essentially. What is that distribution like, especially"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2518.94,
     "end": 2550.393,
     "text": "considering the cba agreement didn t really start hurting us till last year, not hurting us, but more directly impacting us last year. Was that still for teacher pay? Was it that we needed additional special needs assistance following the pandemic. What exactly happened here just because it can be a little confusing. And that MAY not be a tonight question, I understand. So you re pointing out some really um important facts for this council and, and for our public. Um, so you, I,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2550.794,
     "end": 2585.295,
     "text": "if I was hearing you correctly, we started on some of the enrollment piece. So let me just address that real quick. Um, um, yeah, you are seeing a chart that starts in 2020. Um, I, I think the the highest, um, enrollment for City of Fairfax has been right around 3100, um, it was, you know, in the 2016, 2017 area, and then we saw that drop enrollment wise, um, and you can see it building back up, but again, we, it s our projection that it s still going to be hovering right around, um, where we were last year. Um, in terms of Fairfax County Public Schools"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2586.563,
     "end": 2618.161,
     "text": "collective bargaining agreement, um, with their educational staff. It s actually this fy 26 is the first year where it s actually impacted, um, so they, they were talking about it last year, um, and then the agreements for it impacted the fy 26 budget. Um, some school districts are a little bit different. Um, I used to work for one that, um, they re in year 2 of, of the actual contract. So they were about a, a one cycle ahead. Um, there s some, um, you know, and some of this is just ongoing with the negotiations that school district that I was referring"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2618.161,
     "end": 2650.359,
     "text": "to, they re actually beginning to renegotiate their next round. It s a four-year contract, but so it can be a part of the fiscal planning process. They have to do it early. In terms of the question around the increasing costs. So I would say, um, you know, it s, it s a lot of different things, um, it is, um, again, the employee compensation is a, is a component of it. Um, I would say you re having schools try to bring on, um, additional staff members and additional resources to address the, the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2650.427,
     "end": 2683.225,
     "text": "changing needs, um, we ve seen uh a greater need for mental health and social and emotional supports in our school systems. You ve seen, um, greater needs around special education. Um, you ve seen other costs that have been increasing over the years, but I think it s a, it s a, a helpful observation that there s been, you know, that, that our tuition payment has increased, um, at that same rate that we re seeing those operating costs and especially from about 2017 on, it s been, there s, there s been a, a pretty um steady increase each year. DR. Wright would also, um,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2683.494,
     "end": 2713.656,
     "text": "some of the funding that we lost after covid. Um, those needs didn t change. So essentially, Fairfax County Public schools had to pick up the bill to continue providing those services. So while operating costs were extremely low in 2020 to 2021 because of covid, we weren t running buildings. We, we didn t have all the extras, so when we start doing that and we lose the the funding from the state, um, and the federal government,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2713.757,
     "end": 2744.853,
     "text": "then, you know, they have to kick in for that. I would say that that might be also a factor Absolutely Yeah, and I m just going to assume these are similar trends we see in other jurisdictions, so, uh, but thank you, appreciate that. Council member Peterson Just to follow on that, do I understand from your earlier comments that that rate of increase in cost is, um, projected to stabilize"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2747.591,
     "end": 2780.656,
     "text": "at the 5% level or so the next couple of years and then do you have any uh, forecasts beyond that in terms of where this goes in terms of what we re looking at kind of a predictable, more stable situation in the future. I think, I think Chair Pitches wants to answer that one, so. I think that s a really good question. So one of the things that, um, when, if you read in the, um, state code for when superintendents are asked to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2781.191,
     "end": 2814.424,
     "text": "develop budgets, um, they re asked to develop a needs-based budget every single year, um, to identify what, what are the specific needs of the division and, and to put that in there. Um, what is a useful rule of thumb, not to be quoted on it, not to be splashed across to the headline, Doctor Wright says, is to just come to roll over a school division, um, you re looking at to, to do nothing new to just to continue it for another year with those employee compensation increases with, um, other, um, contractual increases, you know,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2816.293,
     "end": 2847.455,
     "text": "the, um, the, the, the hvac maintenance contract is just going to increase, you know, um, from year to year. Um, a lot of divisions use a rule of thumb of 3 to 5% of just rolling over and then if you re looking at specific enhancements, um, that will be, um, additional increase. I think COUNCILMAN Peterson, I, I, I would be unable to say, um, is it going to stabilize, um, from the Fairfax County Public school perspective, um, without kind of knowing, you know, what are the specific programs they re, they re going to be trying to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2847.791,
     "end": 2880.423,
     "text": "do, um, each year, but I think one of the things that, uh, MR. Martinez has been doing a great job of is helping us have um, through looking at some of the historical data and then, um, really, um, staying in close contact with Ferrish County Public Schools throughout the school year, having our, uh, a, a number that we can be much more confident in in terms of budgeting, um, at this time of year. I think from year to year, we ll just have to continue monitoring it. Some of it is going to be driven by decision enrichmond because the more, um, support that they can get there, then, um, I think you re gonna"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2881.292,
     "end": 2912.121,
     "text": "see less of the impact on the operating costs. So predicting a few years that would be, would be um, I d probably hesitate to do that, but, um, trying to find, I think everybody s looking for some stability and looking for the, um, the, the, um, the, the ability to plan long term at, at this point. Other questions or comments? Ok, um trying to figure out enrollment, I think is difficult. Um, and there s a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2913.623,
     "end": 2945.488,
     "text": "lot of outside impacts. So there s outmigration from the Northern Virginia region because the shrinking of the federal government, but we don t track how many of the people leaving are families with children So there s a, there s a lag between impacts like the economy has shrunk or jobs have disappeared, and families are leaving the area. We do know there s out migration. We just don t know how many are taking school-age children with them. The second thing is the birth rate is down as it has been, it continues to drop to drop, to drop, which means that there s fewer kindergartners, which means,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2947.91,
     "end": 2980.922,
     "text": "you know, it, it also dramatically, and you can t really predict that as far as the city schools. We re very small. And then the other thing, uh, is the immigration deportation program and the government is taking huge numbers of people, including families with children out of the public school systems and out of the country, and we have no idea how many or even who. And their investment in building these enormous detention centers, including in Virginia, kind of signals the fact that this is not going to slow down either. This pulling"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2980.924,
     "end": 3011.888,
     "text": "out of children from schools everywhere in the country, including in Virginia and in Northern Virginia. So I think all of this is really makes it really difficult aside from the cost per pupil or the, the adm is to figure out in the succeeding years, and we have a, we have several more years to go of looking at how school populations could shrink because of these factors. The enrollments themselves, and those to me are the, the three big ones out migration because of the economy, the, the falling birth rate and the fact"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3012.823,
     "end": 3043.151,
     "text": "that we have massive deportations. And so I think it s good to be conservative and, and to stay on track without necessarily thinking about those factors because you can t really predict them and we don t have data on those. There really is no data on those things. So I think it s important to stay conservative and understand that it might be even less than we think it is in the succeeding years, but better to plan for the high side and then adjust if the enrollment isn t what we think. Just, just my observation if you"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3044.88,
     "end": 3074.884,
     "text": "ve got thoughts on that. I, I think that s a great observation, um, and I would, I would agree with, um, you know, the um, the assessment of a lot of the possible reasons that are causing this. I would agree with being conservative, um, and I would agree with it s something that we need to continue to monitor. Um, one of the things that we do in our schools, um, that s happening kind of right now is, you know, so because the, the projections that were higher than we were expected are done with a lot of rigor and by some of the, you"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3075.818,
     "end": 3106.582,
     "text": "know, some really smart people and we still had students that left in JUNE and it did not come back in AUGUST. Um, we, the, the schools do a good job of, you know, intent forms every single year. So, um, at some point in the near future for my 3 students, I will fill out a piece of paper that says they re coming back, um, or they re leaving, and typically, people are fairly um helpful in terms of saying they re leaving to go to a private school, moving out of the area, homeschool, private, you know, all those different options. So we ll have some of that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3106.95,
     "end": 3137.379,
     "text": "information, but, but yeah, I definitely agree with you that uh being conservative and, and, and keeping an eye on this, um, um, diligently is, is gonna be really, really important. It s, and it s important planning for our, our, our schools as well, you know, they, you know, the, the, the, the difference between 100 kindergartners and 110 kindergartners is 4 classrooms and 5 classrooms, right, which is a human that we need to hire and we want to hire the best possible teacher. So knowing, um, what that enrollment is as, as early as"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3138.314,
     "end": 3170.412,
     "text": "possible is critical. All right, thank you very much. We appreciate you all being here with us. MISS Shenneberry ok, our next items discussion on general fund questions and discussion. I m gonna recognize Daniel Alexander, a city manager for the discussion. Good evening. Thank you, Mayor and council, uh, spent about a week since we made a presentation to you on the manager s budget. Um, we thank you again for that opportunity. We have, uh, staff here available to answer any questions. We do have a few discussion items later on real"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3170.88,
     "end": 3202.377,
     "text": "estate tax rate and setting the rate, uh, later on this agenda, uh, for the tough questions, I ve got jc Martinez sitting next to me for the really tough questions we have Gwyn Riddle. That s going to come up to the table. Glenn, thank you. And so, um, look forward to answering any questions you might have on General Fund or frankly, anything else in the budget. No presentation for this one. And so, no presentation for this one. I m just, we re just, we re just opening it for"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3203.88,
     "end": 3236.79,
     "text": "questions. All right. Council member Amos I only have one question, which I was going to say for the tax rate discussion later, but obviously we had the discussion back with Urban Forest Master Plan about the climate and energy manager, uh, that s something that council wants to proceed with. So factoring in this additional position. Obviously, we need to have a more robust discussion after we all take a little bit more time to absorb this budget, uh, when factoring that in what exactly do we need to do as a group to accommodate that in this budget if that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3236.79,
     "end": 3269.244,
     "text": "s something we list as a priority. Yeah, so right now as the budget s presented, the only enhancements are really study related that about half a million dollars if I recall correctly, and there aren t any other enhancements included at this time. So if there is an interest by the council to, uh, move forward, then we would have to identify a capacity to do that within the budget or. You know, find additional revenue Any other questions"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3272.149,
     "end": 3303.45,
     "text": "under this item? Just give them a second. Just give them, I m just seems like people are just trying to find their, their marker. And councilmember Bates um, yeah, yeah would, could you, uh, talk a bit about the, um, uh, the pae study that has been discussed as part of this Yeah, generally, you know, we haven t conducted, um, a really systematic objective review of both, uh, classifications,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3303.514,
     "end": 3337.746,
     "text": "which is not just compensation, but how we ve identified positions, um, within the enterprise. The challenges is, is that, um. You know, if, if you don t do it an objective review, then you re left at the vagaries of individual departments, um, creating classifications, uh, without, uh, concern for objectivity and equity as as you look at your workforce so classification is an important part of of what we need to do as a government, uh, looking at that, and then from that, um, doing some comparators around positions"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3338.215,
     "end": 3372.8,
     "text": "throughout the organization on compensation to make sure that, you know, we re within the market as it relates to the positions. So it s really important in my estimation to do both. To understand, you know, where our classifications are, uh, to ensure that there s internal equity and also again kind of comparing against the market to see where we should be as it relates to those classifications, uh, within our workforce and then using that, um, to start to look at at compensation both internal, uh, and making sure there s not compression, uh, where, where there MAY be some, uh, and also ensure again that we re being competitive in the larger"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3376.987,
     "end": 3410.352,
     "text": "marketplace. Um yeah, thank you for that and, uh, fully agree, you know, I think that s, uh, very important first step toward making sure that as you said, we are, um looking at both internal comparisons and also how we fit into the market. Uh, we want to make sure that everybody is compensated fairly and, um, for the hard work that they all do. Um, additionally, we, uh, discussed, um the, so"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3410.854,
     "end": 3441.5,
     "text": "again, besides the uh climate and energy manager, we re not talking about any additional FTEs, uh, right, yeah. Um and uh see you right, I think that s all I have for now. Thanks. On the pay assessment is this going to wrap into that our ongoing evaluation assessment of the temporary employee situation, we ve been"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3441.952,
     "end": 3473.281,
     "text": "dealing with for several years, certainly that will be a raw wrapped up into that it s something that we ve paid a, a lot closer attention to as we ve looked at, uh, this last fiscal year budget, essentially every position that s come open, uh, or otherwise, um, he s come to our attention. We ve, we ve taken a look at not only whether we fill those positions about, but also whether it s appropriate that those positions are full time, part time, or temporary in character and so we certainly um have seen a lot of temporary"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3473.45,
     "end": 3505.848,
     "text": "positions and be not so temporary and so as part of this overall review and frankly as part of what we do looking at efficiency. And as we look at performance management moving forward, performance management moving forward, um, all of those things will get a constant look. Thank you for that. Uh, Council member Hall and then Council member Hardy Chandler. Thank you. Um, I have two questions. Um, the first one, and I know you address this by email to us, but there was an article that came out today. Um, that indicated that um James Waukeshall announced"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3506.283,
     "end": 3538.38,
     "text": "that of the 9.2 million in federal funding that s coming to Fairfax County, 1 million was for a 7000 square foot expansion of the city of Fairfax Police Departmentation aimed at strengthening training capacity, specialty vehicle storage, and community policing resources. Um, if I recall correctly, I think this is actually an $8 million line item that s in the cip. So we ve now been given 1 million out of an $8 million project. Correct. And so I I potentially given 1 million. Yeah, I did a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3538.482,
     "end": 3569.112,
     "text": "follow up email to you later. I m sure you didn t have time to look at yet, so no, and I appreciate the questions that we ve received, uh, from council around this. Um, you know, you re typically, when you re putting it for these earmarks, you re putting in for a percentage of an existing project Um, I think the previous year we put in for or previous go around, maybe not that one, but some, some year we put in 4 5.5 million or so for that project and it that that percentage of the total project is not gonna work from an ear earmark standpoint. They"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3569.58,
     "end": 3599.675,
     "text": "re looking for a much smaller percentage of the overall project from a practical standpoint, uh, a project of this nature is probably going to run, uh, about a 5-year cycle. So we re not talking about all of the, that within, you know the one-year period, meaning the total cost of $7 billion. That million would probably be part of our initial cost. I think we ve already made some investments on this project. You see, I don t know if you know the exact number. We ve made some investments early on, and we expect that that would"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3600.276,
     "end": 3634.241,
     "text": "be part of an ongoing and gradual increase in the cip. There will be at some point for that project, a significant amount of money, probably closer to 2030 or so. Um, but it ll, it ll be a little bit further out in the cip. You want to correct any of that? Oh, that s great. All right. Um. Yeah, please So this started as"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3635.212,
     "end": 3667.844,
     "text": "a, a parking garage. That s why we requested 5 million. Then after we had outreach with, uh, we, we got an architect on board. We had some outreach meetings, and it showed that the, uh, for the future of the police station. They had additional needs like locker rooms and meeting spaces. So that s how it grew from 5 million to 8 million. We ve spent, um probably a couple $100,000 on concept and preliminary design. And then, um, we applied for this grant. And then the previous city manager because of the the budget situation had just kind"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3669.79,
     "end": 3699.909,
     "text": "of tabled it. Yeah, and if I recall correctly, last year, she was acting Chief Hendsley at the time, but she, I believe, said that if we didn t get grant funding for this project, it likely was going to be tabled. I might have misinterpreted that to mean more grant funding than um, you know, what is it? 12.5% or something I think you said, or you know 25%, um, so I was anticipating more, um, what would happen if that s a project that we can t complete"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3700.878,
     "end": 3732.606,
     "text": "in x time frame. Is that money that the county just gets back? Does it go back to the federal government? How does that work? My recommendation would be. To see if we could reduce the scope of the project maybe do something smaller and take advantage of the money if possible, so. You know, I think that s a discussion we could have as a team, but, uh, I know the scope, this had a, this was a project that had a lot of scope creep. Ok, well, it sounds like a great thing. I just want to make it really clear to everyone that the $1 million is not nearly the cost of building a 7000 square foot"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3733.177,
     "end": 3764.605,
     "text": "addition. Great point. And I think, um, we do have a pretty significant amount of time in which to to spend that money, um, 10 years. Oh, ok, that s great. So that s helpful. Ok, and then I just had one other question, and this was a follow up, um, I don t know if all of council received this information or not, but I had asked MR. Martinez to provide the electricity, um and he said that for um you said cy 25, so was that calendar year? I assume? Yeah. Calendar year 25,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3764.942,
     "end": 3796.638,
     "text": "we spent 1.2 million in electricity and a potential 32% rake height rate hike would add 3 almost $393,000 in expenses for fiscal year 27, so I wanted to make sure everyone knew that number because I know we ve been talking about the Green Building policy and uh extra staff and things like that that might be needed in order to make some of those things a reality and so I just wanted to equate potential anticipated costs with the cost of a roll of how much maybe we could offset some of those, um, increasing costs, so. Um, I think that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3797.541,
     "end": 3829.806,
     "text": "s all I have for now. I ve still working on lots of things in here, but thank you. Yes, thank you, um for your presentation before and for this health hefty reading, uh, I appreciate that it always starts with our goals and so all of my questions, all of them will be always uh lining with what we said our city goals are and what our aims are, um, and all of those goals are achieved with people and I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3830.741,
     "end": 3862.205,
     "text": "understand that the proposed budget is fte neutral or, or no additional FTEs, but we did hear a couple of presentations as council member Amos pointed out that, um, highlighted some priorities that aligned with people, uh, being accountable for those priorities actually happening in addition to that, um, on, um, the list of unfunded FTEs and that our priorities for fy 27 to fy 31, are any of these in your"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3863.173,
     "end": 3894.27,
     "text": "opinion, more urgent than others in terms of where we have stated we want to go as a city. Yeah it s, it s a great question. Um, I, I think that arguments could be made for, for all the ones that you see listed there, you know, um, there are some that are enterprise-wide that, that I think, uh, have a significant impact on the organization, um, and then there are, you know, others that are, are very community facing that do too. And so largely it goes back to council priorities, um, we, we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3894.505,
     "end": 3927.705,
     "text": "presented to you a stability budget. And so if we want to go above that, then we need to have that larger discussion uh, based on what you see and what we ve provided to you. And so, um, yeah, I think we have had some internal conversations around, um, you know, what they asked for, for, for, um, supplemental or enhanced positions, um, and so, you know, again, on a, on a stability budget, it s tough to to, um, you know, advocate for one priority over another. And so I think the other thing I would say is that you know, we, we ve there"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3927.705,
     "end": 3958.67,
     "text": "s often, often a recency effect. With, uh, governing bodies. We brought you some things of note recently. And so there s, there s often a focus on those things. Oftentimes at the expense of some of the other needs that haven t been presented as a result of a plant. Or you know something that council adopts as a program. So I, I would just caution us around that to the extent that, um, we re, we re pretty significant enterprise. Not everything comes to your attention, uh, you know, within, within a reasonable time frame"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3959.302,
     "end": 3993.369,
     "text": "for us to be thinking about these services. It s just a, a note of caution as we, as we look at these projects. I appreciate that reminder and, um, also recognizing what a significant part of our budget people are, right? And, um, in terms of our approach to our governance policy, um, starting at the sta stability level, I think is fine. I think we also need to have discussions about, um, what we really wanna build and invest in long term and so some of those enhancements I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3994.38,
     "end": 4025.568,
     "text": "think are not simply extras or frills. I think there are things that are investments in what we say we want long term, we just talk to uh a troop of uh scouts, you know, and, and thinking about the kind of city they re going to be living in, and we do need people to drive that. So, um, I think there are certain enhancements recognizing that, yes, certain things are going to stand out because we got a presentation from a committee. Their job is to advise us, but at the same time, um, just considering what enhancements might be a part of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4027.304,
     "end": 4057.466,
     "text": "discussions in the upcoming, um, weeks as we re, you know, making these budget decisions. So, I, I think the other thing to consider is great, great points, and, and thank you for that. Is there are some other, um, items that we would consider that are not related to FTEs, um, and I m gonna you know, say something against what I just said. We housing, for example, um, and, and whether we, you know, start to fund you know, some a trust fund around that, right? I is certainly something that we heard about recently. And, um,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4058.34,
     "end": 4088.531,
     "text": "is a non-ft related item that adds value, uh, to, to communities. So, uh, there s, you, we have something we ve talked about, but I want to be really cautious that we respect council s, uh, role in, in looking at this and setting priorities so let me clarify when I say more urgent, I m not saying more important, right? What I m saying is that there MAY be things that set up a sequence that if they are in place earlier, they set the stage for other things to go smoothly. So let s make sure that that question isn t in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4091.168,
     "end": 4124.599,
     "text": "equated to, um, importance, but, um, I do think that in terms of timing there MAY be again people or programs that are put in place that save us in the long run, that reduce costs further down the line that makes some of the things that we ve set our priorities easier to implement. And so I think it s, it s not everything is weighted the same, so I m just wondering wonder in terms of sequence. Right in terms of timing, so what we need for 2027 MAY have a little bit more weight than what we MAY have for 2020, what might be a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4125.68,
     "end": 4157.99,
     "text": "better fit for 2029. So that kind of feedback would be, um, you know, a helpful part of the discussion for me. Thank you. Councilmember Bates, did you have something you wanted to? Right, yeah. Um, I don t recall for sure, but with regards to the um police station garage, I think that that might have been with regard to the, um, or the, you know, the expansion with regard to the garage component of that expansion. Um, in terms of what can be, you know,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4157.968,
     "end": 4192.835,
     "text": "possibly tabled for, for the time being, um, whereas, you know, we have other parts of that that are a bit more perhaps of an immediate need, such as locker space, training space, uh, so the question that I think we would need to see answered first is, of course, the conditions of this funding, um, you know, does it have to be the entire thing, including the garage for us to get that funding to begin with, um, you know, that kind of thing. But anyway, all things to, you know, think about going forward on that. My memory of this, and you can correct me if I m wrong,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4196.774,
     "end": 4227.536,
     "text": "MR. Summers, is that when the police station was originally designed and constructed, there was value engineering. In the original design. If I m recalling this correctly. And so that left us without a garage and of course in the intervening, I think since 2005, has it been 20 years, you know, we ve acquired a lot of very expensive, very high tech, very specific kinds of equipment and vehicles, not just police cars, but very high tech, very expensive vehicles that now are,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4230.14,
     "end": 4261.738,
     "text": "are not in a secure place to protect the value of that investment. So that s something to consider. Well, that was the first the first, uh ask was sheltered parking. Sheltered and then as we met with folks, with the architect that expanded to like COUNCILMAN Bates said, some other significant needs like locker rooms for women. I mean, so yes, I was getting to that point too because back in 2005 the estimate was not that so many women would choose to join the Fairfax City Police Department, but yes, they have. Not, not"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4263.207,
     "end": 4295.904,
     "text": "only that, Mayor, but, um, we built a garage at the same time we did the, uh, addition to City Hall. And, uh, just like a lot of projects, you know, the bids come in and you have limits, uh, especially, uh, when, uh, the bids are a little bit higher than the money you have and you have to make some cutbacks. I know we, we, we made some reductions in the annex. For City Hall because of uh the budget So, um, you know, we, we did as best as we could with the money we had back then, but looking back on it, it would have been nice if we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4296.507,
     "end": 4327.103,
     "text": "could have, you know, included all these things. Well, I just, I just think we need to think about what, what happens when you value engineer. I mean, some, if you don t have the money, you don t have the money. So you build what you have the money for, but it doesn t get cheaper 20 years later to build the same thing. And, and then it comes down to an issue of urgency. Is it more urgent or less urgent than other things, and so you still have all these vehicles. Out in the conditions because we have to make these decisions about now what is urgent and what we have the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4329.38,
     "end": 4360.97,
     "text": "money for. And so I feel good about the fact that we don t have to spend this money. I mean, we can, we can hang on to it for 10 years to figure out what is more urgent as far as being able to use it for this project or some or something else, but, but I do think just when we talk about value engineering things and trying to shrink projects and I understand the necessity of that, but in the long term, it doesn t get easier. To, to build the thing exponentially more money down the road. I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4361.905,
     "end": 4392.302,
     "text": "think is one of the toughest things that the diet has to decide is what is the priority and sometimes things that are, that are very urgent today that need 20 years from now we will not have done it and then we re back to square one going, well, we didn t do it 20 years ago, but is it urgent enough to do now, or all the other intervening urgent things more urgent than that, but ultimately we do need facilities for the people who work in our police department and they re and there are a lot more women than there s capacity for them on our force."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4393.87,
     "end": 4425.268,
     "text": "And the other thing is very expensive equipment that we have invested in that we need to be a, a top drawer, top flight. You know, police force. And so we need to protect that investment too. These are all really tough and I think these work sessions are really important for helping everybody to understand just how difficult it is to decide among competing priorities. What it is is, is either a the most urgent thing or looking at what is the long-term investment and what are the impacts for not making the long-term investment"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4426.403,
     "end": 4456.766,
     "text": "over the thing that seems most urgent. So just wanted to circle back around on the police station on that. Thank you, MR. Summers. Council member Bates, yeah, just, um, certainly spot on on that, um, and sort of to Councilmember Hardy Chandler s point with the, uh, garage component itself, um, that MAY be something that could save us money in the long run in terms of making sure that we have a safe place to store those vehicles. Um, but, you know, again, uh, the women s locker room space is something that is really important since, you know, we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4459.737,
     "end": 4480.122,
     "text": "kind of more immediately just need space to house, um you know, that locker room space for our women officers and uh and that is something that he needs to be taken care of, but you know, looking forward, I think that, um, those are all important things, you know, all important points. Thank you,"
   },
   {
     "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header)",
     "start": 4481.458,
     "end": 4483.458,
     "text": "Big"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4484.61,
     "end": 4515.457,
     "text": "picture question uh, we re a little bit off cycle in terms of timing for the finance and efficiency audit. It hasn t started yet, uh, and yet we re in budget, uh, how have we been handling and how will we handle in the short term. As we go through the budget. The identification of efficiency opportunities given that we haven t done the full scrub yet, but we have a pressing need now. Yeah, and we ll talk about that later on as, as part of the,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4516.26,
     "end": 4546.822,
     "text": "the follow up from, um, our retreat, um, I, I think as we ve approached this budget, we ve certainly made an effort to identify, uh, cost savings where, where we can. Um, i would say, you know, I wasn t here for it last year, but you all spent a lot of time on last year s budget. Uh, seeking to achieve efficiencies, um, many of which we re anchoring off of, you know, in this budget, um, and continuing, and so, um, I would say that we ve made some incremental changes, um, to a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4547.391,
     "end": 4577.42,
     "text": "lot of that work last year. A lot of the work that you all went through, uh, relative to the budget, um, with, with some adjustments that we ve highlighted in terms of investments, um, in our employees travel and training, the, um, the salary increases that, that we ve mentioned. So, um, I know it s a little bit off in terms of, um, sequencing, um the efficiency audit will certainly inform us in the future. We can certainly have discussions around where we are now, um, but I think we ve done"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4578.956,
     "end": 4611.554,
     "text": "the best we can at this point to introduce those as part of this overall approach to our fiscal plan. Ok, so it sounds like it ll be a little bit of an organic process here for the budget while we try to build on that, um, but we also look forward to a bigger uh, opportunity that will emerge from the systematic study. And I would say that, that, you know, I, I hope it s part of an overall process that s not a one-off. We, we do an efficiency study. We make adjustments, we put it on the shelf and, and move on. Part of why, you know, we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4612.488,
     "end": 4642.617,
     "text": "ve made, um, the recommendation around performance and innovation innovation over time, performance management, so that this is part of an ongoing process. It s not a budget time only. It s not a one-time efficiency study type of of approach and hopefully that sets us on a course to constantly be looking at refinement as we go. Uh, couple of more, uh microlevel questions. The solid waste, uh, enterprise area I think we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4646.255,
     "end": 4678.587,
     "text": "heard. A presentation, uh, earlier and if I understand the gist of it, it is that there s a potential savings opportunity by going through um the creation of an enterprise approach, uh, for that. I think I heard figures 56 million and saving something in that order. I, I don t know exactly, but uh, part of the requirement for that would be um a year of lead work on it that I like ties back to the other questions"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4679.822,
     "end": 4711.12,
     "text": "that we would require some staffing. How is that addressed, if at all in the budget. Yeah, it s, it s a great question. Um, I m hoping as I turn around that Dave is still in the room, um, to, to talk a little, it s good he s here, um, but that it s a great question in terms of sequencing. Um, I think we have, uh, funding obviously in the budget to, to take a look at it from a technical assistance standpoint, but, um, Dave might be able to speak more specifically to what we would do. Yeah, well, the, the first thing we need to do is complete our assessment which we re starting on. And then"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4712.323,
     "end": 4744.555,
     "text": "once we, um, complete the assessment, we ll have a better idea on, um, how much money we could save and, uh, uh, mechanisms for changing the, uh, the ordinance and instituting the enterprise fund. To me, I don t think, I don t think we could, uh, get it finished with, uh, less than 2 years based on all the, the work we need to do. The one thing, you know, there s a lot of factors that are going to impact it. For instance, we have a lot of private streets in the city, right? Some of those private streets we do leaf collection on, some we don t. We"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4744.555,
     "end": 4774.583,
     "text": "re gonna have to straighten that out. We don t pick up trash at apartments and condos. But they don t get a discount. So if it s an enterprise fund, those folks won t be paying into it, just the people who get trash will be paying pickup will be paying into it. So there s a lot of things we need to look at. And um and, and look at the logistics and the mechanisms in order to, uh, to come up with"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4774.652,
     "end": 4806.349,
     "text": "an enterprise fund that s feasible, considering how, how loose our ordinance is, and right now what we pick up, we ll definitely have to tighten that up. And limit, uh, how much we pick up on what we pick up. Is the assessment then included? In our budget, so no, no further action is required on our part for the time being that s correct right? That s funded and that s starting. Another, as long as you re here. Quick question The weather So, uh, I know we dipped a little"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4809.219,
     "end": 4842.17,
     "text": "bit into our snow removal fund this year and I had an interesting conversation, uh, one Sunday with all the water mains breaking in Fairfax Water was out repairing them, fortunately, scrambling. There were 5 in 1 day in my neighborhood, but my my conversation, a manager was out and then when I spoke with her a bit about this, I asked her, um, whether this was different than what happened last year, and the answer was not really we, but last year at first we thought was an anomaly. This year, we don t think it s an"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4842.453,
     "end": 4875.985,
     "text": "anomaly. It goes to a longer term thing which is changes in the climate and these extreme cold events that are going to increase. It s because of this polar vortex issue. Along and the short of it is, um, I know in Fairfax Water s case, they re recalibrating their modeling and their scheduling of maintenance and repairs, and it s going to get higher. No question about it. I m wondering what happens to our infrastructure needs because I know you also are busy keeping up with that, right. Well, um on the average we get at least"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4878.588,
     "end": 4908.617,
     "text": "100 water breaks a year. And, uh, our water system is old. And um Bobby Cotton, who is the head of design for Fairfax Water has, uh, told us that they have invested heavily in their capital budget and they re planning on doing a lot of work coming up. And um this spring, we re gonna see work on some of our major arterials, like 123 in university. So we re gonna have to be careful"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4908.719,
     "end": 4939.15,
     "text": "that we coordinate this work with our transportation work and our maintenance work and things like that. So we work very closely with them, but they re, they re preparing to put a huge investment into replacing the water mains, on our, uh, on our roads. And, uh, Washington Gas has also been very busy. With replacing their gas lines and the gas laterals. Um, so, uh, yeah, there s there ll be a lot of utility work because a lot of the utilities under the city streets are reaching 60 years old. And it s time for them to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4940.616,
     "end": 4972.582,
     "text": "be upgraded. Well, again, back to the budget question is this. Um, enhanced activity level. In the budget, is it something we re going to have to take incremental new action around, or is this really I wanna use the term business as usual, but is it a part of our stable funded program. Fairfax Water pays for their work. But on our side, what is it above and beyond what they do that we need to do. They do the the the repairs, the paving, in fact, you know, sometimes we, we have"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4973.617,
     "end": 5005.782,
     "text": "economies of scale. If we have a project and they have a project, we can work out a deal on splitting the asphalt costs, splitting the maintenance of traffic costs. So if anything, you know, the work MAY help us find some economies of scale, but we don t pay for, uh, they have their own inspectors, you know, they have their own mot, they have their own asphalt crews. And I guess my, my question is then, is there any other form of infrastructure damage that s tied to whether that we are responsible for that s increasing and going to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5005.815,
     "end": 5038.648,
     "text": "have a budgetary effect on us. I, you know, one of the things I was thinking about as you talk, as you talk about infrastructure is taking the opportunity maybe to talk briefly about stormwater wastewater. I know that we saw some increases of 5 and 6% both of those the wastewater, yeah, um. The 6% increase in wastewater, the majority of that is the Noman coal contribution. For the treatment of our wastewater. Uh, jc can give me the exact percentage, but I m, I m saying it s probably 20, 20% is actually what the city s spending on"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5039.149,
     "end": 5073.182,
     "text": "pipe repairs, manhole lining, pipelining. Uh, maintaining our, our, our delivery system, the pump stations and such. Uh, as far as the stormwater, um, there s one project in the budget for a $100,000 to design, uh, neighborhood drainage improvements. The rest of that money in the stormwater fund is for compliance and maintenance. So you know, there s really not a lot of wiggle room. I can really briefly, so MARCH 24th,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5075.519,
     "end": 5105.681,
     "text": "I think the majority of these answers will be or the the answers to the questions that you re asking council member will be provided on MARCH 24th. On the agenda for the work session, we have discussion on capital, uh, which includes also our enterprise funds for stormwater and wastewater. Uh, Davenport will be here along with our, uh, Satoshi Ito, the program manager for wastewater and stormwater as well. Well great. Two other quick things. First, before we leave. The"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5106.716,
     "end": 5140.482,
     "text": "weather be the flip side of the impacts, um. Of these extreme weather events or uh one of the drivers for those events is the loading. Of pollution that causes radiative forcing and that comes from electricity and the drivers and demand their data centers and ai and I was at a regional, uh, meeting, uh, last week, um, on data centers and ai and the 32% increase in projected energy cost is, uh, for real, and the expectation is that uh we re looking at"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5140.584,
     "end": 5170.746,
     "text": "even greater increases beyond that. I, I think the, the big question, um, for us we are. One of the jurisdictions that doesn t have an opportunity so far as I know to actually build data centers. So we re not going to be, uh, deriving revenue from them the way some of our friends, uh, are, and I know Fairfax County s interested in doing that based on what they said at the meeting. For our jurisdiction, it s really downside. We re looking at increased energy costs for the city, uh, as our"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5171.815,
     "end": 5204.46,
     "text": "cfo has uh, calculated, but then for households, residents that s going to go up. My understanding from that meeting is it s a difficult situation that hasn t been resolved in terms of what exactly we do. There s some different things that are being discussed, but overall, uh, the biggest thing that can happen and that would help is what we call demand side management, helping people become more efficient, more able to use less energy, that does not always happen by accident. It goes back to the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5204.113,
     "end": 5235.11,
     "text": "green buildings policy, but that s only one part of a broader package. Of what potentially could be done to help citizens and the city itself become more efficient, um, it doesn t sound like that s a this year issue to sort of, uh, put that full package together, but I just wanted to note that that is going to be uh an issue, uh, that will come back later this year and show up in next year s budget, um, I do think we will want to be, um, asking the question, uh, what we would"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5235.679,
     "end": 5267.944,
     "text": "like the General Assembly to do, um, for jurisdictions because uh one of the models, uh, nationwide when we ve hit these energy crisis crises have been demobilize state responses in terms of investment. What does that mean? That means potentially cities. Like ours would have the benefit of some new funding for energy efficiency that we could be putting into a budget and uh in a way that hopefully would really move the needle on this. So I just want to flag that because it s a real issue. We, we have 11 project you like that we re, we re gonna get started on and that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5269.713,
     "end": 5301.175,
     "text": "s uh citywide conversion of the sodium vapor and mercular. He likes, street lights to led. Which Stephanie Kupa has been working on and that s, uh, citywide um. I think approximately 3000 lights and, uh, Stephanie has estimated it would save the, the city a couple $100,000 a year. And that s something we re, we re working with Dominion on. Yeah, and I, again, I, I think maybe later on this year we would have an opportunity to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5303.647,
     "end": 5335.477,
     "text": "understand um what we might be doing comprehensively to address this issue and how that would translate into policy and budget. It s a little bit early to do a whole lot with that right now, but it s coming. My final, uh question appreciate the discussion on the dilemma on um infrastructure, uh, decisions, uh, like. The police station, uh, about, uh, how much you can do at any given point in time and not being able to do it all and that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5336.313,
     "end": 5366.907,
     "text": "creates dilemmas, etc. There s this thing called modular design that s adaptive so that whatever you, there s a way that you get started but with a build out pathway so that if an as funds become available, you can then expand and create these additional capacities with additional funding that s available, but that s part of a planned potential that exists for these facilities. I m guessing your three steps ahead of me in terms of thinking those things through for the police facility and others, but"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5367.878,
     "end": 5399.74,
     "text": "can you comment on this, uh, adaptive approach in terms of modular design where we could kind of retain the flexibility of adding things as needed rather than having to do them all at once. Um I m not aware of, uh any parcels where we, we really have enough land to, to maybe look at, look into that. Um, it s something that we ve thought about uh, a lot of times when you, when you, I mean, it s similar to phasing the construction and doing a piece, then another piece, then"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5399.476,
     "end": 5429.572,
     "text": "another piece. And, uh, you know, fortunately, like the, the projects that I ve been involved with whether it was the gun range or the, the fire station we build on Route 50. You know, we didn t need to do that. Uh, possibly in the future we ll have to look at that more carefully. Thanks. All right, Council member Amos. I had two quick questions. 1 MAY not be a tonight question, but since it popped up in my head, I ll go ahead and ask. Uh, in terms of any potential"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5430.14,
     "end": 5462.871,
     "text": "funding from the state and what what s going on with session, uh, are we gonna get a debrief on that? I know one of the considerations early on was, for example, a local excise tax on cannabis sales. I don t know where that s in progress. I was kind of focused on other things, but we ll be getting a debrief on that or do we know where we are in terms of progress on some of these funding sources and part of that MAY include what would be some of the, uh, impacts from if they were to get rid of the data center tax break as a part of this. Yeah, I think it s yet the short answer is yes, in, in the sense that there are some things that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5463.34,
     "end": 5494.971,
     "text": "are working their way through the legislature right now. Tot is one of them, yeah, and so we really want to see what happens with those, uh, and that certainly could mean that we re not only bringing back information, but recommendations on, on revenue as a result of some of those actions. So more, more to follow on that as, as the session moves along and part of you ll see some of that reflected in our comments later on about setting the max rate so you know that s, that s all in our minds as we think about, you know, what revenue might"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5495.172,
     "end": 5525.768,
     "text": "look like as a result of, of our legislative session Thank you. And just a separate logistics question, are we doing another budget open house. I haven t really heard anything about it, but I wanted to ask about that. Calendar wise, um, we did the one in the fall. I don t think we have one currently scheduled, but we have all the work sessions you know, scheduled as of now, so I don t think we have, have one scheduled for that purpose. Council member Hall um, one thing that, um, and I know this"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5526.69,
     "end": 5561.304,
     "text": "was before your time, but one thing that was removed from the budget last year was the, I think it was a $300,000 contribution to the Fairfax Renaissance Housing Corp, um, and I don t imagine it made it back into the book this year since it was kind of um a bit of a stripped down version. Uh, so I just wanted to put that on your radar so that we could try to maybe revisit some of these things potentially maybe not this year but in the future that we had taken out or had reduced contributions to, to kind of get us back to where we were. Certainly one of those items is certainly not fte"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5562.739,
     "end": 5594.87,
     "text": "related. It has an impact on community and certainly, uh, adds to the quality of life in our community. Yeah, and if it s possible, I think one of the primary reasons last year why I was willing to, um, remove it from the budget was because based upon the amount and the interest rates, um, we were told that it could only really serve about 1, maybe 2 loans, which seemed like a large amount of money to just benefit one or two houses. So I was just curious, um, and I don t need the answer tonight or even next week, but now the rates have come down a little bit, um, and our little maybe a little bit more reasonable,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5595.271,
     "end": 5625.968,
     "text": "what kind of bang for our buck could we get with? Um, you know, putting the 300,000 back in. I mean, would it be 10 loans? Would it be still 2 loans, just have some idea of where we might be in that um, I ll ask jc, you know, we have the numbers in front of us in terms of what we ve done. I don t know if you want to hazard a guess on, on what we might do with increased funding. Sure, so the city doesn t actually manage that program. That is a separate entity. It s also my understanding from conversations with individuals"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5626.904,
     "end": 5657.199,
     "text": "at the Renaissance Housing Corporation that it varies. So people apply and they will award a loan between x and x, but there is no no standards, so it s really dependent upon what the request is so they can give a $10,000 loan or they can give $100,000 loan. And depending on how much we or the city provides them. It can be used up in one or two cases or it could be used up in 10 cases depending on how they decide to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5660.4,
     "end": 5690.633,
     "text": "parcel that out. Council member McQuillan um, I too have heard a lot from residents that are really interested in getting that program back. And so if, if it does come down to the amount isn t great enough or we don t believe that that is enough to support what we re desiring from the outcome, then maybe a strategic plan in which we can over time build it up so that our residents that are here and looking forward to using that potential resource"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5691.267,
     "end": 5722.43,
     "text": "could at least see that it s coming into play and, and that we have a plan to bring it back in Thank you. Council member Bates Thank you. Um I, you know, I certainly have a lot of respect for what the, uh, Renaissance Housing Corporation has accomplished in the city, uh, but I want to also keep in mind that last time around, I believe we cut a third of the, uh, then new um, nonprofit, uh,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5722.766,
     "end": 5754.93,
     "text": "grant fund And that s something that I think, um, you know, first time around, we were just kind of starting to get the word out about it. Um, and, uh, you know, as it s out there and, and if we had kept doing it year over year, then more and more nonprofits might hear about it. Um, so that s something that I wanna prioritize even more so, um, getting back to where it was Um, and also, we just want to make sure that we are prioritizing, uh, compensating our staff again with, you know, the proposed, um, increases there"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5758.35,
     "end": 5788.431,
     "text": "as well. Thanks So on the Renaissance housing, it started in 2000, if I m correct, and the, the general fund tax dollars that were invested in that program, which is the program s only source of funding. I believe 24 million I m looking at Christine ok. I m gonna say less than 24 million, probably around 2.4, 2.5 million. Yes, I knew there was a 2 and a 4 in there somewhere. So 2.4 million. In the 26 years. We didn"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5788.699,
     "end": 5820.529,
     "text": "t fund it last year, um. But the only source is the money from basically tax revenue and so this tax revenue goes to pay the interest on these loans for residents in the city to do these improvements to their homes. They and we also provide a, a part-time staff person. So there s staff hours also that are part of this program too. But as far as who is qualified to take advantage of this program. There has never been"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5821.565,
     "end": 5852.929,
     "text": "parameters. People apply and they go through a process, but there s no one of the things, uh, one of DR. Rice s students did a whole project, uh, from George Mason University on the program and who had used it. And 11 interesting thing is there s never been a project in Ardmore. That has ever used the Renaissance housing program. So it s kind of interesting if you start to assess who is using the program, um, and the fact that who knows about the program to use the program and what are the parameters for who qualifies to use the program."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5853.564,
     "end": 5884.861,
     "text": "None of that has ever really been defined. And so I think if you re going to take general taxpayer dollars off residential real estate property taxes to pay the interest on someone s home improvement that we really need to look at the program, how it s structured, who qualifies in, in on all of that because there is no funds coming from anywhere except people s tax payments for this program. So I would hope that if we re applying efficiencies and looking at the structure of how money is spent that we look at"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5885.396,
     "end": 5920.195,
     "text": "the structure of that. If the program is going to be funded in the future just, just something I d like to add. Any other questions? Do we have on this, oh, ok, ok, well, there we go, thank you so much, MISS Sinenberry, what s next? Our next items of discussion on historical real estate tax rates for the city. I ll recognize Daniel Alexander, our city manager again for the discussion. And I ll quickly recognize our budget team uh to do a quick presentation on this matter. Mayor, council, thank you for the opportunity, um"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5921.664,
     "end": 5953.428,
     "text": "next to me or with us as well as our budget director Gwynn Riddle and our real estate assessment director Christine Johnson. Uh, really quick, just a couple of slides or a handful of slides to sort of provide some historical context, if you could go in, go to the next one. Uh, so on the slide here on the screen is just basically a 60-plus year history of where the city has been with its real estate tax rate. The highs, the lows, and in the between. So we started at about $1.38 when the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5953.931,
     "end": 5986.862,
     "text": "city was founded in the early 1960s. Believe it or not, we actually topped at $1.99 for about 3 or 4 years in the early 70s came all the way down to 71 cents back in 2006, primarily due to the real estate residential bubble where we were seeing and you ll see this on the next slide about double digit assessment growth for about 4 or 5 years. It makes absolute sense that council would reduce the rate to sort of offset that burden onto the resident. And then came back up,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5986.964,
     "end": 6018.27,
     "text": "uh, as we recovered from that time frame and are currently in 2024 at our current dollar 0 5.5. Next line On this screen, a quick comparison of about 25 years worth of data, uh, shown on the graph here, so the blue is the real estate tax rate for those respective years, and then the line is the inflation rate, uh, trying to do some correlation or causation potentially of where those"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6019.129,
     "end": 6050.391,
     "text": "rights sort of ended up, um, you could see it not 100% of a correlation. Some years were more than others, uh, specifically in the early 2 000 s or coming into that uh or out of the bubble in 2008, 2009, we had very little inflation and then right after covid, around 2022, we had a massive spike in inflation and a sort of trendled or trickled down to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6050.828,
     "end": 6080.889,
     "text": "about 2.8, 2.9%. Uh holding steady, uh, hopefully for the next few years. Next slide Again, another 25 years, same time frame, so again the blue bar graph is just the real estate tax rate, but in this instance or in this graph, the red line is real estate assessments going up and as I mentioned at the very first slide, the beginning here from about 2000 to 2006 you had double digit appreciation,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6083.861,
     "end": 6118.127,
     "text": "almost 20% or over 20% in 2005. And then that bubble popped, it went down very, very quick. Uh, you can see that assessment growth was actually negative in the early part of 20,010, 2009 timeframe, uh, real estate rates went up and have been sort of trending about $1.05 to $1.07 just very quickly in 20022, there was a decrease from $1.00 7.5 all the way to $1.01. The majority of that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6119.462,
     "end": 6151.927,
     "text": "decrease at that time was the implementation of the stormwater utility, uh, previously to that, 3 cents on the real estate tax rate was directly associated to fund that utility and then uh co un c il at that time decided to reduce it by 3 cents and then a little bit more as well. And we ve been creeping back up for the last couple of years. Next slide. We take out the blue, uh, which is the real estate tax rate, and try to overlay both the inflation rates in orange, and then the residential"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6152.396,
     "end": 6184.926,
     "text": "assessment growth over the same 25 year period. Not seeing 100% of either correlation or causation in this graph. I just wanted to overlay both to sort of give you all um quick overview of how they MAY have interacted, uh, kind of all over the place there, um, but that was basically it. Just wanted to give everyone, uh, council and the potential audience at home or in the room, a quick history of where the city has been in the last 60+ years and then more recently in the last 25 years when it comes"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6185.996,
     "end": 6217.659,
     "text": "to real estate tax rates, assessments and inflation as as. As well and how they sort of compare or maybe not compare. Happy to answer any questions and as I mentioned, our budget director and our assessment director are also in the room and ready to answer and field any questions. Questions on this historical tax rate. Councilmember Amos Thank you. This is helpful. Uh, the only question I have, and it s just more of a curiosity question, uh, looking back when we were having discussions, particularly probably around"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6218.561,
     "end": 6250.126,
     "text": "that 2021, 2022, knowing some of these projects that we need to do, like the property yard and stuff, we still decreased it. Was that part of the discussion or was it really centralized around just the stormwater utility and offsetting that was cip really factored in or or future development when we made that decision. I say we, but you know what I mean I, I m gonna look to Christine. I think she is probably her and Melanie might be the, this is gonna come out wrong. The two most senior individuals that were"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6250.159,
     "end": 6282.457,
     "text": "here at the time, you can probably expend a little bit more than I can. And to be fair, I know there were other funds and stuff too, but I was just curious. Longest institutional knowledge. Well, I was on the budget committee at that time. So, uh, yes, I mean cip projects were looked at, um, but not as granular as we look at them now. Um, a lot of the projects were being bumped from year to year, um, because of lack of funds. Um, so it was"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6283.926,
     "end": 6316.892,
     "text": "kind of an unknown of what, when projects would actually hit. Um, I think now the processes that we have in place, uh, we know a lot, you know, there s, there s more certainty as far as when we re going to start a project. Um, but was that the primary consideration for the tax rate at the time, I would say no. I would agree with her 100%. It was, it was cut because we pulled the 3 cents out. Let s cut it to 3 cents. I think also with cip it s the fund, the transfer of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6317.261,
     "end": 6348.858,
     "text": "funds into cip so that discussion of do we move a cip project forward or delay cap project, it doesn t really relate to the tax rate issue. Any other questions on this I think it s interesting. I lived in, and so I moved here and 2000 and lived in four different neighborhoods. You know, single-family homes and a condo. I was in, and this is kind of interesting because I can t honestly say that that it s a up space in my brain and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6349.258,
     "end": 6379.454,
     "text": "the tax rate is what it is, and they put it in your escrow on your mortgage payment, and you sort of paid it. Um and, and I, and I do wonder, you know, there are people who definitely pay attention to the tax rate. We love saying that we have one of the lowest tax rates in the region, but, but the correlation between what we re able to do, this discussion about the police station or any of these other cip projects that have been kicked down the road because it s like, well, you know, either there s a a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6380.557,
     "end": 6411.62,
     "text": "valuing of having a very low tax rate versus deciding that you re going to make investments in long term expensive projects in the city and again these are the things that we re going to discuss this year. We discussed them last year. It ll be discussed every year, is to really what what does the community want Because you can t really just have the, the lowest tax rate in the region and be able to fund some of these things that we ve all, all agreed our priorities. For the future of the city and so but I do appreciate, I know there was"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6411.655,
     "end": 6443.452,
     "text": "discussion last year about the inflation rate. I love the fact that you, you put that over overlaid that. I don t know that there s a correlation. I don t see one, but it s still interesting to understand what some of the impacts were, you know, the mortgage crisis and the cratering. Of home values and the 2020 recession, of course, and yeah. I think with, I think what it really comes down to and will always come down to is what is the tolerance, what is the tolerance for what we re"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6443.553,
     "end": 6475.817,
     "text": "charging people for, for the, the tax rate. And the impact that has on what we re able to do. For the community and that has impacts far beyond this year and next year, but we re talking about 10 years, 20 years down the road, what we did or didn t fund. You know, and so I, I hope, I hope the community understands none of these things are easy and the people on this diet are really trying to weigh what the community is willing to accept, understanding that there is a direct tie between what we have,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6477.253,
     "end": 6510.62,
     "text": "we can raise and what we have to spend that our investments in what the people who moved to the city say they value in the things that they want. Council member Peterson I MAY have missed this at the very beginning, and apologies if I did, but do we have a graph that shows the growth rate of the city budget in comparison to the assessment level and growth rate. We do not, or that that was not generated here, uh, if that is something that I think council wants if the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6511.721,
     "end": 6544.922,
     "text": "manager directs, we can try to get one of those together I, I personally think it would be helpful if certainly heard citizens asking the question, um how is our city budget. Tracking the growth in assessments that take place is that outpacing them as even with them as less than them, etc. So to be clear, we re looking for assessments and expenditures. As a, as a chart to show the distinction between the two. So we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6544.922,
     "end": 6575.251,
     "text": "ll, we ll make that available the next workshop Well, and so the obvious thing that gets added to that then is, um, how much if you tack on the additional real estate tax on top of that, how much, you know, of an impact did that make and how s that tracking against the actual, you know, growth in the cities budgets. So we want to see that in one chart. Do you think? I, I m, I just think the, the most important piece of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6576.2,
     "end": 6606.783,
     "text": "this that I hear and I can see this is your question mark of we re seeing natural growth in value in assessments that generates revenue for us. Are we living within our means in terms of the growth in the real estate tax assessments. Yes, no, to what degree And then above and beyond that there there s the question of what are we doing, you know, additionally beyond that, but putting that in perspective I think would be helpful There s a, there s a little bit of challenge with you know, the correlation to expenditures and the percentage that we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6607.251,
     "end": 6639.249,
     "text": "re seeing, you know, increases we re seeing, particularly around personnel and things that are very specific to government. So it s, it s not, um it s certainly something we can talk about as we look at the distinctions from year to year. So our, our, and, and my point I think is that, you know, some of the percentage increases we re seeing on expenditures, you know, are, are, are significantly greater than what we typically see in increases in in cpi and, and, and inflation. So those are all things that we can certainly"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6639.249,
     "end": 6669.544,
     "text": "pick apart as we go through this discussion. Council member McQuillan I too agree that having something to present to the public that would visually showcase that would be very helpful because I too get a lot of questions people are confused as to why it s not enough, why the natural inflation isn t enough for us to keep up with it and why we have to, on top of it, then raise, I think just having a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6670.114,
     "end": 6700.275,
     "text": "visual or some kind of really explaining. In detail would be really good. Thank you. Go ahead. So just very briefly, um, I would say just having the numbers together, don t tell the full story. You re gonna need to have footnotes. So I think as was presented earlier by the superintendent of schools. Unless you can have a footnote that shows over the last 4 years or so since 2022, where we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6701.311,
     "end": 6733.876,
     "text": "ve had a 45 degree angle on the tuition cost. In excess of 12 to 8% per year growth. That s the main driver for the last. Few years, we can go back and have to find footnotes for every other year of any other exponential or uh those those. Variables that sort of skew where we would have normal growth. So he said it better. Um but that that s essentially what I was trying to get at with, with some of these, these drivers that I think are important to discuss. It s, it s certainly not, you"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6733.943,
     "end": 6745.487,
     "text": "know, something that, that we re gonna say is a functional cause and it cause and effect, but it s certainly something we need to discuss as we go through this exercise. Councilmember Hall and then"
   },
   {
     "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header)",
     "start": 6745.989,
     "end": 6748.92,
     "text": "thank you. I actually, before you"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6748.92,
     "end": 6782.625,
     "text": "said that I had pulled this up just to kind of pull the same thing. And I don t mean to add more dots or lines to the chart or graph you re going to present to us, but I do think that especially over the past 6 or 8 years with school, I think it s really important to show that because, for example, 2020, I m roughly 50 million, and now you re looking, you know, estimated 2026 is 68 or, you know, close to $70 million. That s $20 million just straight up like you said, and that isn t really seen on here and, um, you know, it makes me think also that in some of the years when either there wasn t"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6783.127,
     "end": 6814.324,
     "text": "a tax increase or the tax rate dropped. It seems like maybe there was some disconnect between allocating for schools for the future or, you know, the number of, of, um kids that we had enrolled or maybe there just wasn t really a whole lot of talk back then about those that connection either I don t know. So thank you. Are, are we clear on I have one question. Could you mention budget? But you re looking at history. So to me, that s looking at actuals. Because like if you re"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6814.992,
     "end": 6847.21,
     "text": "looking at the tuition contract it was budgeted at one level, but it came in actual at a higher level, so do you, would you like to see both one or the other? What s the preference? Bos ok, I ve gotten both. Everything. Ok. I ve got it. Yep, I m a cash. If it s too much work than actuals. Ok. Thank you. Actuals is what it costs to run. The government for that year so so what did it"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6847.457,
     "end": 6881.391,
     "text": "cost to run the government in any given fiscal year, I think is what we re after. And some of the other expenses I, I would say too are, you know, the assessments go up because scarcity of housing makes the thing that is scarce more valuable. And so part of the things we have to look at and what we re trying to look at is building more housing in the city that people can afford. Otherwise, what, what houses are here are going to continue to be more and more expensive because people who want to live here are willing to pay it. And so there s nothing that we as a council can do to, to, to stop"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6882.292,
     "end": 6914.23,
     "text": "the rise of the value of homes. There just aren t enough for the number of people who want to live in the city. So the answer is you build more housing. And, and, and you hope that by building different kinds of housing. You know, you re talking about the number of students who are coming from these you know, high density projects like the Scout at the Circle or the point at Fairfax. It s the housing families can afford. Because the hou yeah, you know, I live on the street where the houses were built in 1953. My house is worth a million dollars, and so families aren"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6914.24,
     "end": 6949.926,
     "text": "t going to be probably moving onto my street. I haven t seen any so far. And so they re moving into the housing that we re building that is a market rate, it s what they can afford. And so I think we need to keep in mind that real estate assessments are just not random things. The value of them also has to do with the scarcity of them, and we have to understand that until we have more housing, I don t see I don t see that leveling off. Council member Peterson, well, just to go back, uh to, uh Estro Martinez, your point, I think there"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6949.959,
     "end": 6980.822,
     "text": "s always a story to tell that gets beyond the numbers and it would be helpful to get your help in telling that story in terms of what happened. And there is this natural rate of increase of one of the of the underlying asset that s really funding most of the city here and how is that going in comparison to our revenue and and going in comparison to expenditures. There are other factors that go into that, but that would be a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6981.257,
     "end": 7012.255,
     "text": "starting place, um, and I encourage us to maybe take a direct look at that and kind of unpack that a bit, uh, before we jump too far to some conclusions. I personally don t think that building your way out of financial problems is always necessarily the smartest thing to do. Uh, we ve talked about these numbers before. We re 4 times a head of ourselves in the city in terms of adding housing units in comparison to population and housing growth where 1/3 against commercial vacancy"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7013.691,
     "end": 7045.454,
     "text": "rates in the region. So I m not sure, uh, it s the case that that is either the problem or the answer, but it seems to me getting a more direct look at this, uh, and the factors that are driving this would be a help. Thank you Yes, MR. Alexander, let s be clear on what we re bringing back to you in terms of, of chart when you want to express that. Sure. So what I m hearing is mainly actuals if I can do budget,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7046.155,
     "end": 7076.551,
     "text": "pull in budget, um, looking against assessments, also looking at growth of schools and any other major line items that have changed drama that would have dramatic changes in a year. It s another element, Councilor Peterson. Well, I, I think that s all helpful, but I think going back to what council member McCu reflected based on feedback that I m sure we re all getting. Goreous thing that people are really"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7078.355,
     "end": 7109.351,
     "text": "wondering about is how much growth are we seeing in assessments? And how much are we going above and beyond that. In terms of expenditures. And why and that s the real core starting place, I think, to address some of these questions that would be helpful to the public. To assessed values as a element of that right? Yeah, I would look to Christine, uh, MS. Johnson, if she could. Would be"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7109.652,
     "end": 7140.683,
     "text": "able to help pull out the assessment dollar growth. For each year Yeah Council member Bates So, um you know, I wanna go back to, uh, several years ago when I took ap Economics in high school, um. One thing that I recall, and please correct me if I m wrong, but, uh, I believe that the way that, um, the inflation rate is accounted for, you know, the inflation rate that, that we hear about"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7145.54,
     "end": 7179.69,
     "text": "is, um that a basket of goods is tracked in terms of the increase in the price of that total basket of goods, but, um, the reason why it s a basket of goods and not just one good chosen at random is that each individual good or service increases in price at different rates. Is that, uh, basically accurate? Yeah, yeah. So I think that s one thing that we want to keep in mind when we think about, um, increases in uh salary and fringe, um, you know, we think about healthcare costs, um, housing costs our"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7179.69,
     "end": 7209.886,
     "text": "employees have to pay for housing as well. And, um, if you look at some of the, uh you know, if you look at the, like the mit Living wage calculator for Fairfax City. Um, it s, I mean, this is a pretty expensive place to live and a lot of our employees, um, you know, they MAY not live in the city. And, uh, and, uh, you know, a lot of them that MAY not be able to afford to um, especially just starting out. Um, and we want to make sure that we are again, giving them"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7212.155,
     "end": 7244.82,
     "text": "a uh, an increase, uh, that is fair um, and really kind of you know, something that is part of taking care of our employees, uh, but that also is what the pace study, you know, will, will go into um and, uh, so looking back at the uh city manager s presentation, um we have, uh, you know, a few things on there that appear to roughly kind of add up to the increase in the total expenditures for this budget Um,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7244.921,
     "end": 7277.519,
     "text": "the, uh, tuition contract increase, the planned debt issuance, the workforce investment, and, uh, the one-time expenses for associated studies um, and then a, uh, a net decrease in not operating maintenance reductions. Um, I mean, those are things that I think are, you know, it s not fluff You know, this is just really, you know, basic taking care of our employees and taking care of our infrastructure. Um, with regard to, uh, building ourselves out of the situation."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7278.889,
     "end": 7310.652,
     "text": "You know, again, I go back to the housing assessment from 2022. Um, we are in 2026 now. We re coming up on halfway through that 10 to that 10-year horizon. And I don t believe that we re brushing up against that projected demand yet, so I m, you know, I m not sure, uh, about that. Um, but again, you know, supply and demand, I d much rather, frankly, we re not going to hit that right on the nose if I d much rather overshoot that than undershoot it because um, you know, supply"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7311.54,
     "end": 7343.653,
     "text": "and demand uh it s been well established through research that even building market rate housing and we re also building affordable housing, but even market rate housing. Um, helps housing affordability just due to the interactions among um the housing market itself. Um, now coming back to the budget again. Um, you know, we talked about the, uh, Renaissance Housing Corporation um, and some other things, but first and foremost, we need to make sure that um, we re thinking about, again, you know, I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7344.587,
     "end": 7376.619,
     "text": "totally agree, what this increase is coming from, and a lot of that is taking care of our infrastructure and taking care of our employees, and those are really what we have to look after first. Thank you. Councilor Mary McQuillan Yes, I think you re married. Um, I don t argue that at all, Councilmember Bates, I, I agree with you that there s a lot of detail in there and that, uh, there s a lot of stuff that we can t even control that gets inflated. I think the important part is that we re educating our public as to exactly how much that natural inflation of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7378.389,
     "end": 7410.919,
     "text": "real estate, uh, costs, how that really is interpreted into our expenses as far as how much that covers, so that they understand the value proposition when we do discuss or have to discuss the potential of increasing real estate taxes. That s really what I see the situation being and the reason I am requesting that information because I think it s important to tell the story and just, again, the value proposition we talk about, um, all the great amenities and things that we have here in our community. I, again, I, I agree with all of that. It s very important that we ensure that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7411.755,
     "end": 7444.62,
     "text": "our staff is, is paid fairly and taken care of. Nobody is discussing or arguing that, I don t believe. Um, I think it s just about ensuring that we re able to educate and inform, uh, our community members that are confused and rightly so, you know, they re seeing costs rise, and they just want to know and understand the details of it. So, um, I, I, I, I think also, uh, to your comment, Mayor Reed, I agree housing is important, but, um, I see that, you know, there s a, there s a lot of elements involved. It s not just the housing. We re dealing"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7446.123,
     "end": 7479.22,
     "text": "with a lot of, um, things that are with tariffs that are uncontrollable. Now we re, we re talking about war, so, um, I, I think that discussing these things is really important because that s how you come up with the most creative, uh, solutions and that I, I think there s probably even a better solution out there than just continue to develop and build, build, build all this housing. I think there s got to be really strong intention and strategy involved in that. But, uh, that s just my, my perspective. Thank you. Other questions or comments on this particular I, oh yes, councilmember Bates. So I think"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7479.323,
     "end": 7510.786,
     "text": "that really, if you think about it, there were actually sort of two different questions that have been raised that I ve heard with regard to this issue. First off is where is that increase coming from, which I think, you know, to me has sort of been answered. But then also, um, how does the growth in the budget compare to, uh, you know, the inflation rate and or the assessment growth. Um, and, uh, you know, I totally agree with what staff s brought up that if we do show that it needs to come with footnotes or contexts or whatever you want to call it."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7512.822,
     "end": 7543.217,
     "text": "Um, but, you know, again, I want to make sure that we are providing that context as well. Anything else on this item before we move along? Apparently not MISS Shinnnebury. What do we have next? Our next item is a discussion on setting the max real estate tax rate action item from MARCH 10, 2026. I recognized Daniel Alexander as city manager for the discussion. Ok, thank you. Before we move into this discussion, we want to briefly"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7543.654,
     "end": 7575.852,
     "text": "frame the decision, um, and discussion that we have before you, uh, as to what we set the advertised tax rate as uh we ll begin by reviewing some of the history related to this action and a very brief presentation by, uh, MR. Martinez. Thank you, City Manager. Uh, again, mayor council, thank you for having us. Just a one slide presentation and again, we have, uh, Director Riddle and Director Johnson available to answer any questions, so. Looking back 4 years really"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7578.855,
     "end": 7610.752,
     "text": "quickly, going to fy 2023. That blue bar is what the city manager at the time proposed in his budget um. The middle or orange bar or column is what was advertised. And then the green is where we were actually adopted for that fiscal year, and you can see that pattern for fy 24 and fy 25, meaning that whatever the manager proposed was also the Max real estate tax rate advertised and then ultimately council came in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7612.623,
     "end": 7645.721,
     "text": "a little under both of them. Uh, last year was a little different, um, the manager proposed $1 12.5 cents. There were multiple discussions if I m not mistaken, actually, uh, during a work session, uh, like we are having tonight, and then actually on the day of the adoption of the maximum real estate tax rate. We actually went into another work session to discuss it further, ultimately council decided to go a little higher than the proposed rate from last year to $1.15 and then ultimately we ended up at $1 or 0 5.5. So"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7647.91,
     "end": 7679.856,
     "text": "just wanted to give some very quick historical context of what has been proposed, what has been advertised and where councils actually landed when we ve adopted the fiscal year, uh, budget tax rate amount. I ll turn it back over to, uh, city manager. Thank you, jc. So under law, we all know that we must advertise a maximum rate, um, before the budget can ultimately be adopted. The advertise rate simply establishes the upper limit for that final rate. It does not commit our counsel to adopting that rate. So we re going to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7679.856,
     "end": 7712.822,
     "text": "present two options. There s a myriad of options, infinite number of options. We re gonna present to just for your consideration tonight, the first being, uh, what we told you last week, which is $1.08 dollars, which represents a 2.5 cents increase overall. Advertising this rate keeps the budget aligned with the proposal. That we gave you last week. It maintains a balanced budget and funds the services and obligations in the recommended plan. That s the first option The second option for your consideration is to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7713.289,
     "end": 7743.986,
     "text": "advertise a slightly higher rate of $1.95. That is 1.5 cents more. And so the context around that, uh, again is that does not mean that the council has to adopt that rate. As we, as we move forward with this process. It s simply preserves additional flexibility around funding. For the remainder of this process as we go through this process. So why create that flexibility um. So if"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7744.955,
     "end": 7775.651,
     "text": "needed, it creates capacity to respond to unknown variables from the legislature. Economic conditions or other potentially destabilizing factors affecting our region and beyond. It provides additional space for any additional enhancements that we talked about earlier. And, um anything that the council MAY want to consider before final adoption. So the decision tonight is not about committing to a higher rate is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7775.719,
     "end": 7807.549,
     "text": "simply about determining how much revenue flexibility, the council wishes to maintain between now and the adoption of the final budget simply. We can advertise at a $1 rate and keep the proposal exactly as presented, which is consistent with, as you see, we ve done with the exception of last year, or we could advertise, uh, at $1.09 5 cents, providing a modest additional flexibility as we continue through the process. Certainly, um, there are other options available."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7807.817,
     "end": 7838.214,
     "text": "Those are two that we thought might be useful for your discussion as we continue on, uh, on the process. So those are, are two considerations, um, I think again, jc, I ll put you on the spot a little bit very quickly on what that means in terms of overall revenue. I don t have it before me, but it s about 1.5 million. Uh, so the additional 1.5 cents would generate about 1.3. Almost $1.4 million in additional revenue in fy 27. And, and I don t know"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7839.282,
     "end": 7869.311,
     "text": "if if I said it clearly, but it certainly gives you some flexibility in considering the other revenue options that we presented to you. We included other rate percentage increases we included a meals tax increase, and so it not only gives you flexibility in terms of capacity for enhancements thinking about what might happen as part of the legislative process, but also if you wanted to do something differently around revenue, it certainly gives you capacity to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7870.8,
     "end": 7901.91,
     "text": "do that. So those are two points of consideration and, uh, happy to answer any, any questions. All right, questions for the city manager, Council member Amos. Well, just to go ahead and bring up what I brought up earlier, we ve already had a discussion about adding a position and obviously we re gonna have a lot of conversations about what should be added, what should be reduced, all that fun stuff. Uh, I do agree that we should probably build in some flexibility. I probably wouldn t go as high as the, I, I ll call it 4 cent, but the 1.095, I would probably say"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7905.415,
     "end": 7935.546,
     "text": "better to go to 3.5, 1.090. Councilmember Hall I have a question about the meals tax. Um, I m on page 39 in the budget book where it talks about the proposed rate increase to 4.5%. It says it s an increase of 2.134 million. For some reason, I was thinking that number was like 1.2 or 1.4 million when we met before. Correct. That also includes general increase of what we ve been seeing with that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7935.546,
     "end": 7965.6,
     "text": "s coming in for revenue. So that includes that increase that we would have seen in the budget without the rate change. So it is, you are correct with the number. So it was like 1.2 or 1.4. So if we didn t want to do Emile s rate increase, then we would need to consider, like you said, the 1.1, which is a $1.4 million dollar difference. So if we swapped the real estate tax, I m sorry, took away the mail s increase and had to make it up in real estate tax dollars. Excellent"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7965.442,
     "end": 7999.275,
     "text": "point in that what we re recommending would essentially be the same amount that you re increasing around the meals tax. Ok, just to make sure I had those numbers correctly. Thank you. Councilmember Hardy Chandler I think I ll be repeating exactly what I said last year when we had this discussion. Um, I think it is a responsible move to allow us that flexibility. We clearly don t have to take it. We have t in any history, um, uh, led up to it, but to your point, we re living in a world with increased uncertainty, and so"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8001.745,
     "end": 8036.812,
     "text": "to um artificially limit ourselves even lower at this point. I don t think it s a good idea, particularly since we have, um, the option to go lower in the future, but we cannot go higher. So if something comes up and we do need to, um, really consider that upper limit, um, I would rather, uh have that opportunity to make that decision. So, uh, for me there is no loss in the advertised, uh uh, tax being at 1.095,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8039.416,
     "end": 8070.512,
     "text": "right? Um with of course monitoring trends and that kind of thing, but again in a world with increased uncertainty and unknowns that are beyond our control, it feels to me like the only responsible to responsible thing to do is to allow us that flexibility. Spoken like somebody who lived through the 1970s gas shortages where you could only go to the gas pumps every other day based on the odd or even number on your license plate. Anybody else remember that? Yeah, so you can tell who in the room"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8071.347,
     "end": 8101.877,
     "text": "remembers things like the 1970s. So, um, so there are things that are beyond our control. There are things that are beyond our control. Yeah, you don t, yeah, ok, it was a long time ago. Trust us, trust us. It was not pleasant. It was tough. Uh, uh, Councilmember Peterson. Uh, a question for our cfo. At some point, I think you are going to be able to tell us a little bit more."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8105.682,
     "end": 8136.177,
     "text": "About the question mark of how much of an impact happened in Fairfax County from a shift to 0 to 4 cents on a meals tax rate and whether that had any impact on, uh, the city of Fairfax at the same time, but it kind of gets to the question mark of our comfort around that half cent adjustment on the meal stacks here and I know we re a little bit early to be able to look for a snapshot comparison, but when could we hear from you about that? I can"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8136.28,
     "end": 8167.642,
     "text": "give you a little bit of a view into Fairfax County. So they actually reached out to me. Coincidentally last week about meal stacks, asking for historical trends, so. Um these are my words because I don t want to put them on the spot, but they weren t seeing the trends initially because they just started in JANUARY 1, and I explained to them, it s probably due to the weather. Uh, I know internally here we were also impacted because of, uh, was it Snow crate, I think is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8168.779,
     "end": 8199.641,
     "text": "what it was called, um, that really impacted mom and dad businesses, uh, when it came to food and going out to eat, so they were seeing the same thing. Fairfax County was kind of panicking of like this is our first month and we re already, we re not projecting where we needed to be, but a lot of it had to do with the weather. Um, I think, and I think I MAY have had this conversation personally with you was probably after a first good quarter, um, hopefully by the end of APRIL, we would know where they are. Um, I do have conversations with them."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8201.644,
     "end": 8233.808,
     "text": "Probably on a monthly basis, uh, along with other items that we re sort of tracking collectively and hopefully be able to report back to council. That ll be helpful, I think. Uh, big picture, um people are obviously concerned in terms of uncertainty about affordability, and that s uh multi-factor issue. It s not just their taxes, it s not just their energy prices. It s their income. There s a series of things and right now there s a string of them happening all at"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8233.843,
     "end": 8265.8,
     "text": "the same time. And I do think strategically it raises the question mark about whether this is the right time to expand, um, a tax rate, uh, and to what degree in the face of that kind of uncertainty and that downward pressure, uh, that s taking place for a number of reasons economically, uh, and I would just say, you know, we spend a certain amount of time talking about what others are up to in the region. Uh, this is not an easy apples to apples comparison. We re different. Uh, every jurisdiction is different. On the other hand, uh, I ve spoken"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8265.943,
     "end": 8297.74,
     "text": "with colleagues in neighboring jurisdictions about their budget situation and everybody is saying they re pretty much either flat or cutting. So, uh, just the overall environment is one of a high level of caution I would say I m not prepared tonight to put a stake in the ground in terms of what we do here except to express the need for some caution. Uh, in what we do going forward and while it s true that uh elevating this rate would give us a bit of flexibility on the upside. It does raise an interesting"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8297.74,
     "end": 8330.472,
     "text": "question about whether we re quite whether we have flexibility on the downside as well, whether there s some um, efficiency options that we MAY be able to find. I don t know the answer to that yet. Maybe we can talk more about it, but I just do want to express some cautionary notes around the environment we re in right now. So we go into this decision. Thanks. Council member Bates Uh, so personally, I lean toward the 1095 option, um, just because, um, you know, hearing about the, uh, mules tax"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8330.64,
     "end": 8362.205,
     "text": "increase, um, uncertainty about that. Um that is within itself a good bit more than a cent on the real estate tax rate, I believe, um and then plus we ve heard of other things that are not in the proposed budget, so I d lean toward the 1095, um, but really, you know, again, the secondary council member Hardy Chandler s comments. Um, it s certainly, I think is responsible to provide that flexibility Um, but it doesn t mean that we re gonna go up to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8365.675,
     "end": 8367.675,
     "text": "that rate Thank you"
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header)",
     "start": 8369.446,
     "end": 8371.446,
     "text": "Sure,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8371.815,
     "end": 8404.612,
     "text": "so, as is typical, I can see both sides of this situation. I can see and I share a lot of the same sentiments of the benefits of advertising a higher rate as we did last time. Um, I, I like the fact that it brings people in to you hear from them what they care about, what they value, what they want to see in the budget, what things they re ok with cutting. Um, so in that way, I do appreciate that. I do share sentiments with council member Amos that, um, that high might"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8405.616,
     "end": 8436.646,
     "text": "be also concerning to our residents, uh, during this time. Affordability is a huge issue right now, and it s across the board. So to echo Councilmember Peterson s statements. I, I agree with him that we need to be very cognizant and aware of what our community is feeling, what they re thinking, what other regions are doing as well. Um, so I, I don t know that I have a decision yet. I haven t come to that, um, but those are my thoughts, and that s my perspective. And that s what I m seeing. So thank you. Council member hall Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8436.646,
     "end": 8466.708,
     "text": "I had a question I forgot to ask, but I couldn t find the information quick enough. Um, when s the last time we increased our b-pole tax. And where do we fall with other localities. I think there s a slide or a page that shows so I could, I could only find the, like I m on page 88 of the budget book. And it has how much we make, and then on the previous page, it talks about the personal property tax rates. So it would be in the rates and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8467.478,
     "end": 8498.775,
     "text": "levies, um, Councilor hall, which is towards the back of the book, um, I believe in, I know it from my last locality. I m not 100% here, but we had different rates depending on what type of business it is. So it wasn t a flat rate that everyone paid the same. Um, so I believe that is the way it s done but yeah, I have not dug into those rates. Ok, I guess what and I, I do personally pay this because I have a small"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8500.277,
     "end": 8532.875,
     "text": "business here, um so I m not advocating for anything specific. I don t know if I m loud enough or not. Um, I was just curious if when the last time that has been adjusted and again, where we are with other localities trying to just think of other revenue sources besides just another real estate tax increase rate, right? So I, I don t have the answer right now, but we can definitely get back with you. We can consult with the Commissioner of Revenue who actually administers people and ask him those specific questions and definitely get back with counsel with the answers to when. The last time"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8533.142,
     "end": 8564.973,
     "text": "there was a rate change in how we compare as well. Ok, and let me be really clear to everyone who is watching, I am not advocating that we increase the personal property rate that you pay on your vehicle. That is not what I am asking. This is completely different. Thank you. Other questions, comments? Uh, Council member McQuillan I would like to make a comment regarding, um, advertised tax rate. Proposed budget. Those are very specific words and our"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8565.709,
     "end": 8598.374,
     "text": "community gets very confused So going into this budget season as we discuss things like an advertised tax rate. I think it s really imperative that we clearly educate the community on what that means, that it s advertised, and then it hasn t been adopted because I think the two words, people just they confuse them and they get very upset. And so I think letting people know that this is the beginning of the process. Now is the time to come in and speak up now. Um, nothing has been set in stone yet. I think that needs to be very clear."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8604.113,
     "end": 8634.876,
     "text": "Thank you. So, MR. Alexander um we re getting some feedback. Is that enough feedback? What are you looking for out of this work session? In fairness to counsel. You know, we re, we re talking about this tonight, um, but we ve heard a little bit of, um variation of specific numbers. I ll get back to you, which is fine, uh, hopefully this is an informed the discussion. We certainly want to land on a decision next week as we bring this back to you. And so, uh, certainly helpful, um but we re, we re certainly"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8635.578,
     "end": 8665.74,
     "text": "gonna need to, to know more and, and, and again land on a number next week. Ok, so next meeting we need to be a little more specific or having having thought through this. With the amount of discussion and everybody bringing to the fore their concerns. At some point, a decision will be made, must be made, so. And, and again to I think to the point and I, I need to probably say it more often advertise. This is the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8665.609,
     "end": 8696.304,
     "text": "starting point with the understanding that we can t go any higher We certainly can go lower as we go through the process. And we can think of different ways to say that. We can say that this is the highest possible rate Yeah so, so we upper limit, this is the maximum we are considering things like that that help people understand it s just the ceiling, it s a thing. But it ll never be more than that thing and quite possibly it"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8697.14,
     "end": 8729.405,
     "text": "might be less than that thing. So we ll we ll use all our words. We ll all use all our words and I think that is just a marvelous, marvelous thing. All right, we re ready to move on. MISS Shinnenbury, what do we have next? Our last item is a follow-up on the city council retreat and next steps, I m gonna recognize Daniel Alexander, city manager for the presentation. All right, thank you very much. This is a retreat follow up from, um, JANUARY uh, JANUARY 10th, I believe, if I recall correctly, and, uh, we re primarily gonna"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8731.41,
     "end": 8762.837,
     "text": "focus on as part of the discussion strategic plan performance management and the efficiency study and uh to make an interesting, uh, Mellie and I will go back and forth on this presentation and hopefully, uh, describe, uh, what came out of that but at the same time talk about some action steps uh moving forward so that we can continue on the process. So with that, um, No, you want to start us out? Sure. Um, I m gonna go over the parts, um, that came out of the retreat, the council retreat and what"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8763.54,
     "end": 8794.436,
     "text": "was discussed there. So dealing with the strategic plan first, um, the council expressed a strong consensus that the next plan needs to include these following items. That it needs to be city-wide and community-focused. Should be a multi-year maybe a 4-year, um, should have a multi-year horizon with flexibility for annual updates and adjustments, which would be very similar to our other plans like the comp plan. It would be a living"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8795.805,
     "end": 8825.934,
     "text": "framework responsive to the evolving conditions in the region Um, it would include quarterly updates and an annual review. And then clearly define the council s intent, the public s role, the scope and boundaries in the formal decision points. Council emphasized that the plan priorities must align with the organizational capacity and be integrated with existing plans, including the budget, the cip,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8828.238,
     "end": 8859.668,
     "text": "and the comp plan. So as we think about uh action around this, um, we want to consider what is a hybrid delivery model and be very carefully clarifying the rules between external and internal work. And so, uh, from an external perspective we d want to bring someone on that can lead the initial stage data development to include a review on synthesis of existing plans, studies, data sets, looking at community conditions and trend analysis, local and regional."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8860.36,
     "end": 8893.536,
     "text": "Design and facilitate the community engagement process with us, uh, as we move forward, the engagement strategy and tools, facilitation of public stakeholder and partner sessions and the synthesis of community input and themes. It also facilitate early council discussion on vision, values and strategic priorities. Tradeoffs, scope boundaries and decision points and then provide benchmarking and best practice context to inform direction setting. That would be the first part of it in terms of the city staff and what we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8895.205,
     "end": 8927.134,
     "text": "re involved in with you obviously translating that direction and community input into more specific strategies, initiatives, and implementation ensure alignment with the budget cip and other adopted plans. We would then define ownership timelines and resourcing and then manage ongoing implementation monitoring and updates. The Cal council inputs needed early to reduce rework, include the purpose and time horizon,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8927.471,
     "end": 8957.967,
     "text": "desired public role and engagement expectations, scope inclusion exclusion, kind of what s in and what s out and formal council decision gates and deliverables. If Melanie, you d back up one slide that s a lot to throw at you at once, so I wanna take a break here before we get into the other two elements. Make sure that makes sense to counsel, see if you have any questions about scope and, and action. Council member Peterson. It, it does make sense and I appreciate"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8958.702,
     "end": 8990.465,
     "text": "that, at least from my perspective, uh, I maybe you re going to talk a little bit more about this, but, you know, there s the obvious question about what s next. The process we go through to translate to budget and policy and program. Which is where the rubber hits the road, if you will. So am I correct that we ll hear a little bit more about what that might look and feel like for us as we are implementing this Yeah, I think that we re gonna have to get on a rhythm. We re out of cycle to, to a certain extent of where we are, uh, in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8990.668,
     "end": 9021.73,
     "text": "terms of our, our cadence, but we re hoping that to get this plan established and, and allow it to inform all the other processes that we have, you know, coming up through, through that, through that timeline, if that makes sense. Um, so does that answer your question? Yeah, I think, I think the challenges we are coming in the middle of a budget process now. Um, so I, I, we see this largely informing the work that s going to occur as we get into NOVEMBER, into, you know, the subsequent time. Does that, does that make sense?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9023.167,
     "end": 9053.996,
     "text": "Yeah, I, it does my concern wasn t so much the urgency of doing this in time for this budget as it is just an understanding of when it will happen and how we will be involved in making that happen and it s a this year thing is what I m hearing. So that s the important takeaway for me. It s a really good point and, and I think um what would be a, a pretty aggressive timeline to, to get this in place so that it informs our discussion that typically starts at the end of the year. As we move through"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9054.33,
     "end": 9084.995,
     "text": "the, the budget process, which everyone gets really fixated on, you know, our financial plan occurring in and around this time frame. It it does and should start much earlier in that process. And so the timeline, I think would, would take us through, you know, the end of this year and into that process, if that makes sense. It does. And I also want to really applaud you for the very first bullet there, which is, uh taking a fresh look at, um, information that we have or that we need that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9084.995,
     "end": 9117.493,
     "text": "s important in terms of developing a strategic plan for the city, and that s something that needs to be done on a periodic basis. I think you re setting up a 4-year cycle here. Um, in terms of the horizon we use, but I m also seeing that this is an annual process we go through to kind of double check this so that really good question. I think it s informed quarterly to a certain extent, but I think coming back to council in a, in a, you know, probably in a retreat environment. To say we re gonna look at our goals."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9119.29,
     "end": 9151.493,
     "text": "I think council was really clear on having some freedom within, you know, these parameters uh with, with the way things change in the environment and, uh, our, our need to be, uh, agile and, and adaptable in, in this environment. So I think on an annual basis we d want to come back and goal set. And that, that MAY, you know, result in some significant changes, hopefully not, hopefully put a good structure in place and, you know, we re just, you know, making adjustments, but certainly it s, it s the council s prerogative to, to make significant changes on an"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9151.595,
     "end": 9183.826,
     "text": "annual basis. Again, reporting progress as we look at kind of performance manage management at a granular level, but also as a strategic level to kind of show you where we are in progress and then uh to capture the significant change terms that as I understand it includes budget cip and comprehensive plans so the result of our strategic, uh, planning here would be updating um thinking and characterization that s involved in those things based on what we do here? Is that a fair characterization is to an"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9184.628,
     "end": 9214.856,
     "text": "extent, and I think you know I ve heard feedback on, you know, some of the other planning that, that we do, you know, you re typically looking at a five-year window on updating your comp plan. And so there s a, there s kind of a, a cadence around that, um, that is upcoming for us as a city, um, you know, there s some other, um, you know, things that we could do, um, uh, Councilor Ramis asked a question around visioning. And so, you know, oftentimes, um, you know, you have a 2020 vision, which I don t, we haven t done anything since"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9215.392,
     "end": 9247.156,
     "text": "then. And so there s an opportunity for us to think about even longer term, which will often influence strategic planning and your comp plan and the other plans that are associated with that. So this is an opportunity I think through this discussion to kind of lay out that cadence in a way that makes sense for the city and just to build on that, it would uh recognize there are different form s of planning on different cycles. But this gives us a chance to map into those cycles the sorts of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9248.492,
     "end": 9280.422,
     "text": "updates that result from this fresh thinking that is going to happen as I see it in a pretty systematic and well-informed manner. So we wouldn t be holding back from mapping into those areas of change that at whatever point is timely, we ll get picked up on those procedures. Is that a fair way to characterize this I think is, you know, long as we ve talked quite a bit, um you know, up to this point, you know, it s informed by, you know, what we re seeing in, in the data It s, um, anchored in in significant community engagement and council"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9281.29,
     "end": 9313.121,
     "text": "engagement, you know, as we go and we re ensuring that, you know, everyone s at the table in the process, you know, you know, those are things that we ve talked about from a values perspective that I think are probably important to community and certainly important to council. And, and you mentioned community, which I think is also really important because two heads are better than one and identifying all the important information and then um getting it, uh, is a joint process, so it s good to hear that we re envisioning that that would be a collaborative process and even"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9313.157,
     "end": 9346.587,
     "text": "within the council that we would have an opportunity to be involved in identifying those issue areas where it s important to bring new information to bear or review existing information, whichever the case MAY be. Is that also a fair characterization? And that s going to be the importance of any process, you know, that I ve been in the past is, um, early and often council engagement around what we re looking at. Thanks. I just want to thank you for getting this and getting us organized Thanks, Council"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9346.656,
     "end": 9379.722,
     "text": "member Hardy Chandler. Thank you. Um, I don t feel a need to revisit everything that we discussed in the retreat, but I do want to highlight that this seems to reflect everything that we discussed and incorporated. He moved to the next slide, um, just to give some feedback, um. I, I think it s really important that this not be seen as just an exercise and when you re asking about the purpose, my hope is that the purpose will be, this will provide our ongoing council"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9381.658,
     "end": 9413.722,
     "text": "body, Common Ground to go back to when we re having maybe differences in perception, um, that s always welcome that that makes for a rich discussion, but if we can go back to an agreed upon strategic plan and those priorities. Hopefully we can, um, unite around those and get some of the things that get stuck moving forward. So that would be the purpose that I would look for for a time horizon, I think, yeah, this year is pretty ambitious, but I would be, uh, excited if something like this is in place because if we re talking about"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9413.757,
     "end": 9445.556,
     "text": "a four-year horizon, and we take up one of those years doing it, um, that s quite possible, but you know I think we could at least have the foundation and with an annual refining of it anyway, there is no need to, uh, drag it, drag it on longer, um, I think that, uh, public, uh, engagement is important, but I I don t like to say that a lot, and I would like to encourage, uh, use of the many ways in which we have already engaged the public so"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9445.556,
     "end": 9476.19,
     "text": "that we re not starting from scratch. It s not like we haven t asked the public anything. We have sources of information from the public, and I would like for us to, um, utilize those, uh, toward this, um, because as at least a starting point and certainly engagement can be an ongoing part of the cadence. Um, scope and in clu sion s I think whoever we have as a uh facilitator or whoever facilitates this could help with, um, recognizing those"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9477.454,
     "end": 9508.183,
     "text": "boundaries. Around governance, and I like that it s separated into two parts, the sort of, uh, focus of the council and the implementation part. We don t have to worry about that on the phase one part of it, um, and then have that be a separate process with staff and implementation. Um, so, uh, again, Gates and key deliverables, I feel like that will evolve around that quarterly update process, um."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9509.753,
     "end": 9540.717,
     "text": "Again, not to build in a bunch of new processes or different scheduling where can we find synergy in what we already have. And use that to uh make it even more meaningful. So that s my feedback and I know we have two other presentation topics to go through, so I just leave it at that. Council member Amos Yeah, so I, I was gonna wait till the end, Dan, uh, just because I didn t want, I didn t wanna hog up the presentation, but one thing that I emailed in was, uh, so I know a few residents had"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9541.18,
     "end": 9571.38,
     "text": "mentioned that originally there was a 2020 committee with a number which includes the city charter amendments was part of it, but they had a more robust discussion and a full report back in the 90s of what to expect on transportation, zoning and land use, housing, and a number of other items, and, uh, when I emailed Dan and staff about it, they brought up a great point that we re about to do a review of the comprehensive plan next year and that it would probably be a good idea to maybe update that and do a 2050 visioning"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9572.815,
     "end": 9605.581,
     "text": "committee, uh, similar to what the 2021 did, except let s look at what have we accomplished from that original one? What do we not get done and what s changed or needs to be updated. That way we can be ready for the modern times because it is definitely not like how it was in the 90s. A lot of things have changed, so, uh, putting together a citizen-led committee probably with some of our bac appointees on it. We could have a more robust discussion about that. Maybe not tonight. I don t know. He just. Yeah, he, so true, uh, i wanted my hoverboard, but that s all right. Um, and so wanted to kind of defer to Dan"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9606.817,
     "end": 9637.947,
     "text": "on that on what does that look like for staff capacity, but, uh, he recommended I bring it up here. So, yeah. So on the 2020 commission, not only have I seen the commission report, and there were a lot of committees. I wanna say there were like 12 committees of, of, and it was citizen led and they did a big presentation at Old Town Hall. I ve seen the video. I have seen the video. Um, I don t know who has it other than Dale Estina, but you know, we probably need to digitize that. Because there was a very formal presentation in Old Town"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9639.917,
     "end": 9672.75,
     "text": "Hall of the 2020 plan, but it was incredibly robust, you know, I want to say they were maybe over 100 people involved, well over 100 people involved over these 12 different committees and there are people around who were part of the 2020 commission. I think Tom Ross is one of them, and there are probably others who were part of the 2020 commission. And then following the 2020 commission, which was around in the 90s, there was the 2013 charter Commission, which was totally different, but there s overlapping people. And again, I think Tom Ross, and Tom Ross MAY be the person who just"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9672.75,
     "end": 9705.981,
     "text": "connects it all. Uh, there might be a few other people, but Tom Ross was also in the 2013 charter commission, which was done in 2013 rather than the 1990s, um, but there were a lot of things that were achieved. If you look at the 2020 commission report, it s actually remarkable when they set out a vision and benchmarks and they actually did things and it really it it ended up being a gu id ing vision for the city and even though it stretched from the 1990s all the way through to today, really, um. There were people who participated who really did"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9707.45,
     "end": 9731.573,
     "text": "have a long-term decades-long vision for, for what they thought the city could and should and would be. So those exercises are not, they re, I think that s lift that up, look through it and see. See how valuable it was. I, I, I think an effort like that could be, could be very beneficial. I think it was beneficial, the 2020 commission report. Other thoughts, comments on this,"
   },
   {
     "speaker": "Councilmember Billy Bates",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header)",
     "start": 9733.544,
     "end": 9735.544,
     "text": "Um So"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9735.612,
     "end": 9765.908,
     "text": "again, I am still leaning toward the, uh, four-year time horizon for this, um. And uh you know, public engagement is certainly important. I think that. Uh, we wanna have, um you know, more than one, opportunity for uh direct in-person community engagement, uh, during the process. And, um, and then also, of course, taking advantage of online"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9769.613,
     "end": 9802.444,
     "text": "engagement, um. And uh yeah, so what s in versus what s out. I um you know, I definitely want to see a framework of the city s operational goals and uh the city s various plans and basically how those fit together. I think that s um, kind of, you know, just off the top of my head, what I d like to see um and uh you know, and also, I guess, um, thinking about the time horizon, you"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9802.745,
     "end": 9833.541,
     "text": "know, we don t necessarily want to um, have something that is going way beyond that time horizon and is set in stone on the other hand, you know, like we talked about before, we wanted to be kind of, um, you know, a bit more short term. And, uh, you know, but also open to being flexible and able to be changed. And adapted and um, yeah, and I think that uh with regard to our involvement, I, you know, I think I heard quarterly mentioned, I think that makes sense, um, you know,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9834.178,
     "end": 9867.776,
     "text": "during the process Um, yeah, that s kind of where I am. Thanks. Anyone else comments on this particular ok. Ok, we will move on to performance management um, at the retreat, council acknowledged that, uh, while the city collects substantial data and performance reporting has not consistently translated into a clear picture of results. The discussion emphasized shifting"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9869.212,
     "end": 9902.312,
     "text": "from isolated department metrics to cross-cutting outcome-focused measures. Incorporating resident experience data like the Citizen survey, uh, point of contact surveys and benchmarking. Implementing a two-tier performance framework, which would include a council facing strategic outcomes scorecard or dashboard, and then a detailed internal service area scorecard or dashboard to support operational management and our budget decisions. And then embedding performance"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9902.713,
     "end": 9933.7,
     "text": "management directly within the strategic plan and its reporting cycle. So not unlike the previous area, you know, we re talking about an external internal type of, of arrangement where from an external technical assistance standpoint. Uh, we would get help in identifying and validating our data sources, uh, internal, external, and benchmarked. The finding, um, KRAs are key result areas aligned with council priorities. Recommending meaningful"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9933.76,
     "end": 9964.741,
     "text": "outcomes, output, and resident experience metrics. And then the two tier framework, the design of the two tier framework that we mentioned, um, you know, from the outset. Uh, one being more strategic, uh, but still a scorecard with high level outcomes, um, concise, comparable, and decision relevant, and then, you know, that other tier that is more internal focused, which will also be a kind of a living breathing process and adaptable to, um, what we re seeing out in an environment and then providing general guidance on"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9966.243,
     "end": 9996.739,
     "text": "reporting cadence and, and, and dashboard structure. There s a lot of what is involved with this that lends itself to a staff development and the work that we would be doing from an implementation standpoint, which is owning the data governance, the collection, our system integration. Populating dashboards and, and reports using data for operational management, budgeting, and continuous improvement and then delivering the quarterly reporting to council and, uh, an annual public summaries for"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9997.341,
     "end": 10034.711,
     "text": "us to, to talk about relative to not only the budget process but as part of an ongoing cadence around performance management. So I think you know that we ve started to structure around this in, in terms of, you know, some of the realignment that we ve done, creating position to kind of drive this. Um, which I think will pay huge dividends for us over time. And so, you know, generally this is the, uh, the approach that we re suggesting as it relates to the performance management. Happy to answer any questions on this piece. Questions on this ok That was easy, clear as a bell."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10038.48,
     "end": 10071.714,
     "text": "Very good and we will move on to the efficiency study, um, at the retreat, Council framed the efficiency study as a comprehensive evaluation of value, capacity, and service expectations, not just cost reduction. Um, some of the topics that were raised included an organizational structure, staffing levels, and alignment with service demand, evaluation of long-standing contracts in our technical assistance arrangements that we have outsourcing versus in-house delivery, uh, and a comparison between our peer"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10074.318,
     "end": 10105.715,
     "text": "jurisdictions. Cost recovery op opportunities such as user fees and enterprise-style systems, um, and services, uh, use of physical space, telework impacts, and facility utilization. Consideration of our gray and green infrastructure responsibilities. Understanding our service expectations and trade-offs when we re adding or expanding programs. Encouraging staff-driven innovation and creating incentives or"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10105.715,
     "end": 10139.48,
     "text": "recognition for efficiency and improvements. Clarifying governance and processes related to technology and innovation and the innovation committee. Um, and reviewing council boards and commissions for effectiveness and alignment. So this is primarily an external model, you know, as we, as we look at the data, um, that s here, getting a really strong objective, uh, perspective on where we can achieve efficiencies, um, the focus areas are very, um, similar to what we just covered, so I won"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10140.16,
     "end": 10171.8,
     "text": "t go into great detail on these, but I think we captured a lot of the very specific things that you all mentioned, um, and, and our retreat and want to be sure, certainly that um this meets your expectations in terms of the things that, that we want to look at and presenting missing here, please let us know if you have any questions, please let us know. Council member Peterson uh, is this scope and focus area listing"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10176.62,
     "end": 10209.485,
     "text": "there. Going to be updated or at least opened for. Uh what I would call a final review bias before we jump in and get started, uh, and that normally I would think would be. Uh, a role that we would get some assistance on from a facilitator, whomever that might be, but this is sort of right now a set of things that constitute a scope, but is there anything abo above and beyond that that potentially we will want to be considering in terms of the scoping of this as we actually get started. I think this is a pretty ambitious scope. In a lot of ways, and I think you see some"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10210.321,
     "end": 10241.818,
     "text": "things in here, you know, as we talk about, um, enterprise that we re going to be doing other work as it relates to some specific services that we provide. So candidly, it s a great question from the standpoint of you know, and we ll talk about this later as we move forward and we engage, uh, potential contractors around this. Um, you know, what, what is reasonable, what is, um, practical and what feedback can they provide about scope and we certainly can bring that back to you. From a practical standpoint of saying that this"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10242.786,
     "end": 10276.118,
     "text": "is what we can do within a reasonable time frame and anything that they MAY suggest as um you know, an expansion or reduction if need be of the scope of the work that we re doing here. We can certainly bring it as a will the council, we can bring that back to you. I just don t want to take too much time and let grass grow too much in terms of the outputs, is this an assessment plus options. And possibly recommendation. Is that what this looks and feels like? I think so, and I think again as we look at um what s available in the market for us on technical assistance, then we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10276.586,
     "end": 10313.889,
     "text": "can get, we can get a better understanding of, of what they typically produce This, again, this is a very unique scope because we took all of your, your feedback and try to put it into what amounts to a, a study framework. So, I think, I think it s logical that we d come back and talk to you again about how we intend to proceed particularly on this piece ok Thanks Other questions or comments on this? All right then All right then, um, just wrapping up with the reminder"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10314.658,
     "end": 10347.556,
     "text": "that we would be using technical assistance on the front end, um, staff would own the data governance, the collection, the system integration, the dashboard population, um, we would envision a quarterly council reporting on strategic outcomes, scorecard, plus the key narrative insights, and then an annual public summary, which would include the progress highlights, trend lines, and the next year s focus areas and then the, um, use results, we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10348.525,
     "end": 10379.122,
     "text": "would use the results to inform our budget decision, decisions are cip prioritization and continuous improvement. That is all we have If there s any, any, we have one more slide, I think. My apologies. And uh this very much as a summary of essentially and, you know, confirming that hybrid delivery model particularly for strategic planning and the performance management piece, um, the framework around"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10380.289,
     "end": 10412.454,
     "text": "timelines and decision gates. Two tier approach to the performance management, so the efficiency scope is what it is now, but we ll come back to you, I think, particularly on that to say this is where we, we are. Here are some suggestions on either expanding or contracting that scope, getting concurrence from council before we, we proceed with that. And then, um, any additional priorities or guardrails for procurement or schedule will come back to you about, uh, we believe that there is at least, you know, one vendor that, um. We could currently in essence, write a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10413.857,
     "end": 10446.53,
     "text": "contract on relative to to this process and uh we ll come back to again to you to describe that in in greater detail if that makes sense. Council Pember Hall. I just wanna say thank you and that I feel like you really hurt us. And took everything that we said and put it into a very manageable, um, bite-sized documents here that we can. Really, um, learn from and, and work from and I think it s great. So thank you. Other comments or questions? On this"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10446.656,
     "end": 10476.818,
     "text": "Well, very well done, um, obviously you did a great job as council member Hall said and listening and putting it all together in a very clear way that now we understand and the public understands this is available to anybody who wants to look at it and think about it further. But it s a good, it is a good blueprint. It s a good template. In this very aspirational. So. If there is nothing else, I am going to go ahead and adjourn this meeting"

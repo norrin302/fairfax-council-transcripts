@@ -3,456 +3,624 @@
 const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 44.235,
     "end": 74.99,
     "text": "Jack. Good evening. I would like to call the work session of JANUARY 6, 2026 to order. This is our first work session of 2026. We are joined by our new city manager, MR. Daniel Alexander here in the, in the workroom. And so I m going to now turn this over to MS. Clark for our first agenda item. Our first agenda item is an update on the city s parks and recreation master plan. I ll recognize tc Summerfield, Parks"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 74.99,
     "end": 106.429,
     "text": "and Recreation director for the staff presentation. Good evening, Mayor and council. Thank you for having us here tonight. Tonight I m joined by Katie McCammon, who is our youth recreation manager and also James Mickle from Barry Dunn, who is our consultant who will be leading us through, um, this is an update to our master plan, which was last completed in 2014. And right now we are in the process of gathering feedback. So James is here tonight to talk to you all about your vision for the future of parks and recreation in the city and to gather feedback from you. I m gonna"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 106.531,
     "end": 138.996,
     "text": "turn it over to him now. Thank you, Stacy. Uh, good evening, Mayor, members of City council, and as I understand it, new city manager. Congratulations. Um, again, my name is James Mickle and I m a consultant, uh, manager with Barry Dunn. Um, I ve been with that firm for, uh, 4 years and previous to that I spent over 20 years as a recreation professional with the city of Norfolk as an administrator. I spent a year and a half years as assistant to the city manager, and then I spent 15 years with boys and Girls Club as the executive director. My entire career has been, um, rooted in youth"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 139.531,
     "end": 173.31,
     "text": "development and community servitude, so transition to consulting has been absolutely amazing for me. Thank you for having me. So today I d like to tell you a little bit about the status of the Parks and Recreation master plan, uh, give you a little background on the projects, uh, scheduling approach, uh, some of our project highlights are mainly in community engagement. And then I d like to engage you a little bit with a few questions and an exercise to gather some information from you as a part of our information gathering process. So I told you a little about me, just a little bit"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 173.31,
     "end": 203.61,
     "text": "about Barry Dyne because they required me to do this. Um, Barry Dunn was founded in 1974 as an accounting firm and then 30 years later they ventured into consulting and they ventured into consulting in many different realms to include Medicare, uh, local government, uh, feasibility studies, strategic master planning. 5 years ago, they learned that parks and recreation Master planning could be a vital, um, addition to the department. So we begin our practice 5 years ago. What s unique about our practices that we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 203.61,
     "end": 236.894,
     "text": "re a group of 30 who have all been administrators and parks and recreation, so we re rooted in the field, we speak the language and we understand what individuals like Stacy and and what Katie go to on a day to day, but we aren t just parks and recreational professionals, we re also trained project managers, and we ve done this on over 500 projects in just 5 years. Myself, I think I ve worked on 45. So just a little background into the core components of a scalable parks and recreation master plan, and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 238.53,
     "end": 269.927,
     "text": "this, these are um 4 components that s typically a part of any strategic master plan, not just for parks and recreation, but it could be a comprehensive plan, uh, for a city, state, or any department or for any park. Uh, step one or component one is information gathering, and that s the needs assessment, uh, that s inventory, level of service, um, to include the community profile. Uh, the community profile is typically your demographics and trends because when you re completing this type of work, it s important to understand who you re serving and what they desire. Re Right? If we re"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 270.895,
     "end": 301.391,
     "text": "gonna build a plan for 10 years, it d be hard to build a plan for what your demographics and what your community look like now. You have to be able to estimate what it look like in 10 years, so you re building a plan that s not only comprehensive, but one, that you would be able to use and be a living breathing document. Uh, phase two is, um, findings and visioning, and this is after we ve gathered all of our information. We ve spoken with the community, uh, we ve spoken with internal staff. Um, we ve reviewed your parks, we ve"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 303.361,
     "end": 335.292,
     "text": "looked at your operations, organizational assessment, um, looked at Kapner improvement for the last few years and some of the things we MAY recommend for the future, then we come back to the department and we partner with them to build with the recommendations MAY look like. Uh, as I mentioned, we re a team of 30 who have worked in parks and recreation for many years. We probably could get together and figure out some pretty good recommendations, some that would be comprehensive, but it s important to ensure that you util izing the staff to be implementing it. They have to have skin in the game. So building the recommendations"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 335.827,
     "end": 368.792,
     "text": "based on key findings that we ve learned through information gathering that we ve learned through analysis really makes our plans one that can be implemented. It s a living and breathing document that you can use for the course of the plan. Uh, from there, I go and lock myself in the room and I write a draft. It MAY take me a few weeks. It MAY take me a few hours. I don t know, but we write a draft and then we present that to council and then a final plan that we design and we teach you how to implement it over the course of 10 years. So for this project and the scope for this project"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 369.761,
     "end": 401.691,
     "text": "was customized, so we came up with 5 phases that would be beneficial for this project. Uh, phase one, which we started in AUGUST 2024. Um, it s project plan and administration, uh, that started with the kickoff meeting, um, data collection of demographics and data and then building a work plan that will work with the staff. Myself, I do this each and every day. These individuals, they have a lot of other things to do outside of master planning. So we want to ensure that we build a work plan and schedule that d be beneficial to the department so they can be hands-on and we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 401.926,
     "end": 432.489,
     "text": "can provide them with the, uh, necessary steps to completing the project. Um, phase two, which we started in OCTOBER of 24, was equitable engagement. I ll talk a little bit about that more in a second, and some of the things that we ve implemented, but that provides us the opportunity to review twins, uh, the financial analysis and engage the community and meet them where they are, um, at different events, pop-ups, and elsewhere in listening sessions and focus groups. Uh, phase 3 is analysis and assessment. I talked a little bit about that on the previous slide that we analyzed"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 432.991,
     "end": 464.22,
     "text": "everything in the department from their parks to their facilities to their operations, as well as interview on the public and then phase focus that visioning where we pull them men up we figure out what the key findings are to complete recommendations and then that draft and final plan. So you ll see here that we have a timeline for this project to be slated to end in JULY 2026. We re very close. So as we talk about equitable engagement. We like our plans to be 5 things, um, immersive, customized,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 464.22,
     "end": 495.219,
     "text": "convenient, inclusive and dependable. And as we think about immersive, uh, we like to meet people where they are and gather where they are. If you look at some of these photos, you ll see me at the uh Fall Festival. I got it right that time. You ll see us at the Fall Festival at the Chocolate Lover s event. We have focus groups, we engage youth, we engage seniors, and we engage internal staff to include some department heads. And the reason we do that is because we want to have a robust engagement. We want to have as much information as possible."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 496.688,
     "end": 528.685,
     "text": "Um, I used to use um, this example of me and my kids are working on a 2000 piece puzzle. I ll open up puzzle and I discovered 4000 pieces, and we have to remove 2000 of those pieces to build the puzzle. That s master planning. That s our job to analyze. We re finding gather as much information as possible, even if some of it isn t conducive to figure out exactly what the key findings are so we can make recommendations that d be beneficial for the next 10 years. Um, our plants are customized. Uh, we create a collateral which I ll show in a minute. Uh, we attended many"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 529.687,
     "end": 561.52,
     "text": "events, we talked to so many people in the community that I ll talk about in a few moments that we want to ensure that everybody that wanted to provide information had that opportunity. And then it s defendable. Uh, we completed statistically valid survey for this project where we ve received 4023. I remembered that number. We ve received 423 um surveys back, um, 400 would have made it statistically valid by 96%, uh, which means that if we even have 5000 surveys back, um, the data wouldn"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 561.52,
     "end": 592.449,
     "text": "t have changed in terms of what the priorities were. Uh, so we talked about it being defendable, when we talk about it being immersive and meet people where they are in terms of inclusive. It s what makes these plans, um, plans that can work and could be comprehensive in the communities. So this is an example of the memorable recognizable branding. So when the community um engaged in this project, we wanted to have something that they can cling on to and understand that anytime they saw it, that it was something that was representative of the master"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 593.251,
     "end": 624.548,
     "text": "plan and I forget the name of the fox and and I remember the story, sneakers, I remember the stories of sneakers, but I forgot his name, but we thought it would be fun to uh create some branded internal for sneakers and then create a thing for the project, which was amazing experiences. Uh, Fairfax City Parks and Recreation. Uh, we had over 600 visits to our website. Online engagement portal where people provided information and relay what their desires were, as well as we got a lot of comments that these pop-ups and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 629.12,
     "end": 659.849,
     "text": "other events. So to talk about the equitability engagement strategy, uh, we attended to chocolate lovers, uh, the annual harvest festival, uh, we had the Staviet survey. We interviewed department heads and um have many community listening sessions. Can you stay here, go back for one second. In the top right hand corner, um, the young lady and her mother, the young lady was born and uh Fairfax and the mother came here for college and has lived there with their family for 35 years at the Harvest festival, we did a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 660.552,
     "end": 692.282,
     "text": "raffle for a Yeti cooler for anybody that wanted to come over and provide this information and they want the Yeti cooler and they walked back to get it, they walked home to watch football and we gave him a call and said, hey, you ve won, and they were back in 15 minutes, so they were pretty excited and if they didn t pick it up, I was gonna take it home. So, but I was really excited that they got it. Thanks, Stacy So this is just the full gamut of our traditional engagement opportunities and where some of our um special focuses were, and I won t read through them, but again, over 4000 touch"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 692.483,
     "end": 723.18,
     "text": "points in the amount of time that we did it is a true, um, I guess it s a true, um specific element of the work of Stacy and, and Katie and how the community feel about parks and recreation that they want to provide feedback and they want us to know what their desires were for the future. So as a part of our public engagement highlights, and when we were at um the different events, we had these boards, which we call dot voting. And we had 3 boards,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 725.15,
     "end": 755.746,
     "text": "one for play areas, and these were all outdoor specific, uh, special event areas and sports and fitness, and we gave people 6 dots and they can use 2 dots on each board to vote what their priorities were. So as we talk about that first board event space and open areas, walking paths was the runaway winner of what people desired the absolute most, uh, down to a food truck lot, which was interesting and I never voted that high, um, open gym space, um, paneling launch, uh, which,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 756.581,
     "end": 788.44,
     "text": "you know, MAY not be possible for this municipality, leisure sitting area, and then he wanted some tours as well. There s things that they desired, um, in terms of special events in open areas. For sports and fitness, um, are obstacle challenge course, which is something that s trending around the country, um, voted the highest in the middle was some type of bmx on wheels or pump track, and then, uh, this golf courses and you can t go anywhere and not hear a pickleball. And last but not"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 788.245,
     "end": 819.81,
     "text": "least, play areas, um, everyone wants splash pads. Uh, they wanted a destination playground, um, but also an inclusive playground. And when we think of inclusive playing rounds, we typically think of those with visual and non-visual disabilities being inclusive, but Parks and Recreation is refrained and includes the playgrounds for all ages as well. So an active adults, senior adults should be able to go on that playground and and use it as well as a 5 to 12 year old child. And then last polais was Gaga Ball. So I talked a lot and I typically don t like to talk a lot, but"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 821.212,
     "end": 854.344,
     "text": "now I would like to engage you. I have 3 questions I ve provided you all with index cards and the Sharpie and I have a couple of questions. Hopefully I can get a couple of report out and then I ll be able to field any questions. So my first question, uh, what are three department priorities that you would like to see implemented in this master plan in the next 5 years. 3 department priorities. Um, 11 of the cars, yes, ma am. No, one, all 3 of them, yes, one card. I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 861.619,
     "end": 926.482,
     "text": "m sorry. If you didn t get the color, you wanted it, I m sorry, I just threw them out there. Yes. That s what I should have done I give 20 more seconds. I see individuals"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 939.664,
     "end": 973.931,
     "text": "looking up All right, I think that s time. Did anyone want to share out with their top three priorities would be. Council member Amos. So I put renovating parks fitness equipment. I live right by Van and I try to do it on that pull-up bar, then it ll like move a little bit. I m like, oh, sports and parks tourism opportunities, how can we promote our more prestigious parks and, and develop programming to really spur those on and park accessibility. Wonderful, thank you, and that s a great share. Anyone else? That s time for Council"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 977.235,
     "end": 1011.169,
     "text": "member Hardy Chandler. Um, I highlighted focusing on options that support people across the lifespan Uh, the second one is, uh, projects that coordinate seamlessly from a regional perspective and long-term investments that um take into account like you re saying the 10-year span, um, recognizing that our region is very dynamic. So that long term vision. Thank you. I think one more Council member Bates. Um, so I had, uh, actually accessibility and inclusivity is my first one. So"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1011.169,
     "end": 1042.297,
     "text": "I m seeing a common theme on that, and then also efficiency and safety. Well done Think about time for Council member Hall. Um, mine, uh, walking trails, not roads, um, pickleball courts indoor also would be great, um, and a destination playground and then I put a side note, Clemmy John Tree, but way better. So tall task. Thank you. Council member"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1044.569,
     "end": 1076.9,
     "text": "Peterson. Yes, I had listed expanded natural area protection. Expanded educational program connections and focus on access and opportunity for seniors. Well, well, no one covered bathrooms, um, more bathrooms so that we don t have temporary bathrooms because people can t enjoy spaces, any spaces, including trails. When you don t have access to bathrooms, that is. Basic. And I just will echo walking trails and playgrounds for people with various"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1076.967,
     "end": 1106.997,
     "text": "disabilities. We have a lot of parks, but they re not necessarily been renovated for everyone to enjoy them, so, well said, I think one thing you said there, which was bathrooms, we like to call those convenience amenities. They MAY not be a reason someone go to a park or they visit a trail, but it provides some opportunity to stay longer. I think that was the first time that I heard a convenient serenity on that. Council member of Quillan I did have one that no one else, um, brought up, but to clearly"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1107.465,
     "end": 1137.827,
     "text": "communicate our current park and rec amenities to the public. Marketing. Communication. I think there s a lot here that a lot of people don t realize is right around the corner, very easily accessible on foot or bicycle, and it takes some exploration, but if you re a busy mother or father with two young kids in tow, you know, you really want to know where you re going, what facilities back to what Mayor Reed mentioned, if they have a bathroom for you, you know, it"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1137.895,
     "end": 1170.16,
     "text": "just helps you prepare and be ready for your experience. Thank you Did everyone get an opportunity here? Ok, wonderful. All right, so you re a public servant, so you understand that everything is done on a priority basis. So I want you to circle or put an ashtrip beside your top priority of the 3. You already knew that. You already did You were either you were reading my mind or you ve been, yes. Top priority, you can circle or put an ashtra"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1178.669,
     "end": 1208.932,
     "text": "beside it. Thank you. So this is no. So this is fitting. I think almost everything on the last question was sort of centered around Captain improvement or not deferring maintenance in terms of ensuring that we have equitable amenities across the department. So this question is centered around actionable outcomes. What three things would you like to see us asked about outcomes from that would stem from this master planning process So if I had to draft here today, what three things"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1210.401,
     "end": 1306.195,
     "text": "would you like to see in the draft um, as things that would be actionable outcomes for the next 10 years, within the next 10 years. To 3 maybe 20 more"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1318.877,
     "end": 1350.474,
     "text": "seconds ok. Oh, ok, we, we have people who are ready? Council member McQuillan. I said for me, I would like to see any new updates be feasible? Um, all access wheelchairs for any residents or visitors to use in our parks and paths and permanent bathrooms at all playground sites. Wonderful, um, one of the things that I think separates some of our master plans is that we provide what we call an alternative funding strategies as a part of our financial analysis, so you know,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1351.443,
     "end": 1382.772,
     "text": "just make a recommendation to build a new multi-million dollar recreational community center. We understand that everything can t be a bond measure and that if we re going to make those types of recommendations, then we need to ensure that you re providing you with tools, how to fund them, so. Things that are actually realistic, not pie in the sky. Wonderful. Council member Hall Thank you. Um, I said convenient services as well. I think that s what you called it before, um, opportunities for all ages and needs and um I think it s great to draw in people here to make"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1383.341,
     "end": 1415.739,
     "text": "them want to come to a new park, but I think in addition, we need to promote a strategy to make them want to stay and shop and eat and continue to spend their money in the city and not just come here for a great park, but come here for the other things that go along with that. So maybe we do need a food truck, uh, platform area. Absolutely. COUNCILMAN Barramis kind of to piggyback on that, uh, just increased attendance overall and re revenue generating opportunities. Uh, I also had to expand partnership programming. A big thank you to you for Boys and Girls Club. I was a member myself when I was"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1416.207,
     "end": 1447.103,
     "text": "younger, so greatly appreciate that, but expanding our partnership with, for example, Boys and Girls Club, providing more space for fpyc, uh, entities like that. And I would also say multi increase multilingual signage and services, uh, and promoting those at apartment complexes like where I live at Leyden Hall, which is primarily Hispanic Wonder. Yeah, I ve done some work, um, in the last few years on what we call ofa opportunities for all, and, um, I ve completed a few ofa assessments and I think, and 90% of the agencies that I ve"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1447.672,
     "end": 1478.969,
     "text": "visited, the only bilingual signage was for things that couldn t be done, like things you shouldn t do, no running, no jumping. It was nothing that was positive, um, in terms of signage to relay, wayfinding or anything else. And that s a lot of things that we ve recommended over the last few years. So it was great to hear you say that Council Bhary Chandler So some of mine are reflected by some of the earlier comments about, uh, fiscal sustainability planning maybe some things that are phased over the course of, um, the years in terms of what"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1480.738,
     "end": 1514.137,
     "text": "happens when in terms of maintenance and expansion to uh meet our changing population, um, but also incentives for economic development partnerships so that when businesses are coming into, uh, the city, they are encouraged to make investments in our parks and other things that beautify our city. Councilmember Peterson a couple of things, um, in general, uh, a stronger and more complete system of goals and metrics. Uh,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1516.241,
     "end": 1547.336,
     "text": "also, um measurables that turn into acres or some such that get to the um relative focus on green infrastructure versus gray infrastructure and more attention to be paid on green infrastructure and for that to be, um, something we measure and manage. And also, um both inside the city and through partnerships, including community level, um, tangibly improve the capacity, um, at"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1547.972,
     "end": 1579.803,
     "text": "the program level for understanding and addressing wildlife conservation and education needs. Yeah, it s great to hear you talk about green spaces, metrics, and, um, I guess the protection of those natural areas as a part of the level of service of the parks, what we completed was an analysis, um, that sort of relates with the national standard, which is 8.9 acres per 1000 residents. Right? And we understand that 8.9 acres to 8.9 acres aren t always equitable. You can have a park here that s 2 acres and when"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1580.105,
     "end": 1611.801,
     "text": "you hear that s 2 acres where one has quite a few amenities and the other MAY not have as many. A part of our recommendations, especially Sunday the low hanging fruit, or how to make these parks equitable. That this one match this one. This one has a walking path, a gazebo, outdoor fountains and restrooms, and this one only has a walking path. What can we do over the course of these next 10 years to bring that park up to ensure that you re offering equitable services geographically across your full system. It s great to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1612.337,
     "end": 1643.901,
     "text": "hear you say that. If I might just add based on that comment, maybe an expansion here that. The focus on expanding the uh area functionally that is available for people through parks and natural areas. Um can be enabled by working with surrounding lands and initiatives that help bring them into a position where they can contribute to people s"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1644.102,
     "end": 1675.497,
     "text": "experience and so you get a multiplier effect and there are programs even in this region, actively involved in doing that, these sort of extend the parks programs. We have not adopted them, but that would be maybe an expanded. Council member Bates Uh, so I, I actually also had more equitable geographic distribution of amenities. Uh, that s something that I ve heard, um, you know, even the former council member who served for many years, uh, talk about is that, you know, we don"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1676.901,
     "end": 1708.965,
     "text": "t really have, um, like in Southeast Fairfax City, where we live, you know, we basically have, um, Ratcliffe Park and, um, Green Acres. Um, you know, who knows what ll happen with that in the future. And, and then that s kind of about it. Um, and, uh and then also, uh, greater availability of equipment for people of various abilities, similar to what we re going to see in, uh, um, Thas Park. And, uh, greater multimodal connectivity between parks and visibility within parks, uh, such as West, um,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1709.267,
     "end": 1739.763,
     "text": "you know, secluded areas and, and or greater lighting if needed or, or what have you. No. The only thing I would add to this, just echoing what people have already said, I would like to have maps I m, I m a map person. And it would be nice to have maps that have overlays that say what projects are currently, what projects are in the next 2 years, what projects are 5 years out something interactive, I think there s technology to do that so that we really can understand the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1740.365,
     "end": 1775.766,
     "text": "trajectory, the arc. What s happening and where it s happening? Because we have projects like renovation projects like Thas Park, but then there s like new projects. All it comes down to whether we can afford to fund all of these things, but it s like a map of the city that just even green spaces that are being conserved. I just, I m a map person. Show me a really good map that makes it clear what s happening and when it s happening and where it s happening. Absolutely. You have maps. I don t want to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1775.8,
     "end": 1806.63,
     "text": "elaborate there, but you have maps, um, as a part of our facilities and parks assessment, but it s also a part of our implementation plan. We provide maps that sort of relay what we re recommending. Thank you. And my last and final question, uh and this can be 2 rather than 3. What are some key challenges or values in the community that should be considered by developing this master plan, um, as I look around this room, you have the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1806.865,
     "end": 1909.799,
     "text": "institutional knowledge, the historical data that can assist us who s coming into Fairfax to understand what some of the challenges or some of the values in the community that we need to ensure that we consider when, I guess that s secting what the key findings are and making recommendations. I m a fast talker. I m sorry 20"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1911.269,
     "end": 1943.901,
     "text": "seconds Council member McQuillan So, um, key challenges or values our community loves its trees and natural woods, like they really love their trees, so anything done to the trees, they like to be informed of prior to seeing any movement there, um, invasives are a key challenge that we face here. And, uh, again, a very involved community that likes to provide suggestions, feedback. They re"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1944.402,
     "end": 1976.6,
     "text": "very much in the know and something changes if they weren t aware, they re going to make everyone know about it. So, yeah. That can be a good order, you know, a bad. Council member Amos. Uh, just a few things to highlight. Uh, I would say fiscal impact specifically short term priorities versus long term maintenance. Uh, you know, we have a Van , uh, master plan that we, we hope to be able to implement at some point in the near future, but what do we do in the interim, for example, with the, the more dilapidated fitness equipment,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1977.102,
     "end": 2008.231,
     "text": "things like that, which was clearly a priority that was stated in, in, uh, the information you gathered, aging in place, uh, going to council member, uh, Council member Peterson s point and something that was reflected from a lot of my colleagues how to develop that infrastructure both for our persons with disabilities and our, our seniors. I remember when I tore my acl and I was on crutches, I couldn t make it to the park, uh, and I live right behind it. And so how can we make things more convenient and more accessible for folks and then just in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2008.232,
     "end": 2038.529,
     "text": "general, uh, to Councilmember Bates s point about the multimodal connections, how can we create a more seamless experience, uh, between our parks and the city, for example, when you re looking at Old Town Square, how can we make that more convenient for folks to be able to afterwards go shop around and kind of have that interconnective experience. And in a safe manner and prioritizing safety. Council member Hardy Chandler. I think a significant challenge is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2040.31,
     "end": 2072.729,
     "text": "balance, right? Yeah, how we balance our parks with the need for development and how when people look at a map of our city, they see a balance of opportunities to work and live and also to engage in recreational, um, activities. I think there s some areas where our city is skewed in one direction versus another, and I would love to look across the landscape of our city and just see balances, um, not one to the exclusion of the other. I think that s a challenge, uh not only now as a point in time,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2074.632,
     "end": 2105.362,
     "text": "but to your point earlier, how do you also plan for the long term and a dynamic community that s going to change over time in maintaining a balance as a community is changing. I think that s hard, um, investing in a 10-year horizon. I do think that it is important to look long term, look at that 10-year horizon, and yet sometimes our view is very now focused and what we do and don t have now what we do and don t want right now. Um, but it"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2106.196,
     "end": 2139.129,
     "text": "s thinking about what comes after today. So I think it s uh going to be a challenge in some areas to really think about that 10 year horizon, if I MAY not be the beneficiary of those decisions, right? And then just connection to quality of life and recognizing that this is not extra this is not the icing on the cake. This is part of the cake, so. Gans Uh, my first one is Money, Money, Money. And time to completion, I think you know those are things that once we get that plan going, trying"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2141.32,
     "end": 2171.95,
     "text": "to balance that as a challenge. Everybody wants it yesterday and everybody wants it to come in, including me under budget or, you know, free if possible, right? Um, but I also think that the, the other one I had is Building for the Future, uh, and being able to adapt spaces and equipment if needs change. And I kind of wrote modular-ish, um, just thinking about, you know, how we could have it be this way for a while and then maybe pivot to a different thing that is still all inclusive, but it also kind of keeps it fresh, I think. I think, you know, my kids always got tired of going to the same playground, even if it was"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2171.463,
     "end": 2203.226,
     "text": "great, just because it was the same playground all the time, um, so maybe just some opportunities to modular it up a bit. Council member Peterson Yeah, just to add to echo the funding limitation issue which is real. Also to flag um maybe on top of what, uh, Council member Amos said, I ll sort of characterize it in terms of damage and degradation. To both the environment and infrastructure we, we have to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2203.728,
     "end": 2233.923,
     "text": "um keep up with that and not sacrifice that in the interest of doing things that are new. We have to take care of what we have and the pressure. On the resources and facilities is going to be growing and is growing already, so it s heightening the need for that. And as a part of that, the other thing that s heightening is risk exposure, safety. I mean we have parks today where people will tell you they re no longer comfortable taking their children, at least at certain times because of changes um in the exposure to safety risks"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2235.326,
     "end": 2265.757,
     "text": "that exist, and that will only likely get worse as we grow, etc. Etc. Finally, I think, uh, you know both, um, an opportunity and a challenge is just the level of knowledge and creativity that we have in terms of how we think about a system, you know, we have a a set of sort of known options for how we can go about designing and managing parks, but there MAY yet be additional options that we haven t created ourselves or allowed others to help us create that will expand our horizon and our set of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2265.757,
-    "end": 2300.157,
-    "text": "opportunities to accomplish what we want to do, and I think that envelope is waiting to be opened up and pushed a bit Council member Bates Um so I had a historic context, whether that means incorporation into existing or into planned amenities, um, or existing amenities, and then also respect for existing historic resources, you know, and proximity, uh, bringing diverse groups of people together and fiscal and environmental sustainability. And the only thing I would add to all of"
+    "end": 2274.197,
+    "text": "opportunities to accomplish what we want to do, and I think that envelope is waiting to be opened up and pushed a bit"
+  },
+  {
+    "speaker": "Councilmember Billy Bates",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header, loose)",
+    "start": 2277.402,
+    "end": 2279.402,
+    "text": "so I"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2300.225,
-    "end": 2332.856,
-    "text": "these great suggestions is, is when we ve talked about it in all three of these questions is is addressing accessibility and, and that includes if we can t totally renovate a park, how can we retrofit what we have in a way that make it just simply, I think about Providence Park and the disability community uses it because it s the, the most accessible for people in wheelchairs, but has almost no amenities at all there. And so what are the small things we could do to make that space just simply more accessible for"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 2279.904,
+    "end": 2310.33,
+    "text": "had a historic context, whether that means incorporation into existing or into planned amenities, um, or existing amenities, and then also respect for existing historic resources, you know, and proximity, uh, bringing diverse groups of people together and fiscal and environmental sustainability. And the only thing I would add to all of these great suggestions is, is when we ve talked about it in all three of these questions is is addressing accessibility and, and that includes if we can t"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2333.91,
-    "end": 2363.987,
-    "text": "people trying to use it, so I think every time we look at anything, not just new things, but how, what can we do to make what we already have more accessible. It s interesting that you say that. I once rated you can do anything that you want to do. You just can t do everything, right? And funding is typically the deciding factor for that, and Grapevine, Texas, I m currently working on a master plan where they had a restriction of no new capital recommendations. What they wanted was reinvigorating of their spaces, so take our spaces that we have that MAY"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 2311.35,
+    "end": 2343.534,
+    "text": "totally renovate a park, how can we retrofit what we have in a way that make it just simply, I think about Providence Park and the disability community uses it because it s the, the most accessible for people in wheelchairs, but has almost no amenities at all there. And so what are the small things we could do to make that space just simply more accessible for people trying to use it, so I think every time we look at anything, not just new things, but how, what can we do to make what we already have more accessible. It s interesting that you say that. I once rated"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2366.123,
-    "end": 2396.52,
-    "text": "have decrepit feature s or maybe missing uh some trending things that are trending around the country unless we invigorate those spaces for the future and take care of what we have rather than building something new and then deferring maintenance on this in that process, so. So that s it for us. No, thank you and I, I appreciate y all allowing me to indulge you next time, please. Um, so just to talk a little bit about next steps and then I ll open it up for questions. So we re still finalizing analysis, and we have a lot of analysis we ve"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 2343.535,
+    "end": 2374.865,
+    "text": "you can do anything that you want to do. You just can t do everything, right? And funding is typically the deciding factor for that, and Grapevine, Texas, I m currently working on a master plan where they had a restriction of no new capital recommendations. What they wanted was reinvigorating of their spaces, so take our spaces that we have that MAY have decrepit feature s or maybe missing uh some trending things that are trending around the country unless we invigorate those spaces for the future and take care of what we"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2397.722,
-    "end": 2429.253,
-    "text": "shared a lot, uh, from the statistically valid survey, which I ll talk about in a moment when I come back for a draft presentation, I ll be able to provide the findings from that, uh, a full financial analysis level of service of parks, outdoor indoor facilities, as well as greenways and trails, uh, recreation programs, analysis, and then operations or organizational assessment. Um, so once we re done finalizing, we ll come back for that visioning session that I mentioned with the staff where we relay what the key findings are, utilize the qualitative and quantitative data as well"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 2375.6,
+    "end": 2405.728,
+    "text": "have rather than building something new and then deferring maintenance on this in that process, so. So that s it for us. No, thank you and I, I appreciate y all allowing me to indulge you next time, please. Um, so just to talk a little bit about next steps and then I ll open it up for questions. So we re still finalizing analysis, and we have a lot of analysis we ve shared a lot, uh, from the statistically valid survey, which I ll talk about in a moment when I come back for a draft presentation, I ll be able to provide the findings"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2430.155,
-    "end": 2462.485,
-    "text": "as best practices in the country to determine gaps. And then partner with them to make actionable recommendations, uh, from there I locked myself in that room, as I mentioned, to write that draft document. Come back here to you, provide you a finance presentation but also sort of relate how you should dissect that document from me relaying first the what you should do to why and then how, and that s how I typically phrase my master clearance, but I ll come back at another time and relay how you should dissect a document, um, it s"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 2406.97,
+    "end": 2437.961,
+    "text": "from that, uh, a full financial analysis level of service of parks, outdoor indoor facilities, as well as greenways and trails, uh, recreation programs, analysis, and then operations or organizational assessment. Um, so once we re done finalizing, we ll come back for that visioning session that I mentioned with the staff where we relay what the key findings are, utilize the qualitative and quantitative data as well as best practices in the country to determine gaps. And then partner with them to make actionable recommendations, uh,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2462.854,
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 2437.961,
+    "end": 2468.725,
+    "text": "from there I locked myself in that room, as I mentioned, to write that draft document. Come back here to you, provide you a finance presentation but also sort of relate how you should dissect that document from me relaying first the what you should do to why and then how, and that s how I typically phrase my master clearance, but I ll come back at another time and relay how you should dissect a document, um, it s typically somewhat robust, but I really want to relay some of the key intricacies of that, and then coming back one last time, you"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 2469.194,
     "end": 2492.215,
-    "text": "typically somewhat robust, but I really want to relay some of the key intricacies of that, and then coming back one last time, you ll be tired of me at that point for a final adoption of the plan. Thank you again. I know I m a fast talker. I hear it all over. Thank you very much, but I really appreciate the feedback. It s not many places I go where I get feedback on every question from every council member. So I really appreciate that and thank you again for having me. Do you have any questions for me? Any questions, um,"
+    "text": "ll be tired of me at that point for a final adoption of the plan. Thank you again. I know I m a fast talker. I hear it all over. Thank you very much, but I really appreciate the feedback. It s not many places I go where I get feedback on every question from every council member. So I really appreciate that and thank you again for having me. Do you have any questions for me? Any questions, um,"
   },
   {
     "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header)",
     "start": 2494.17,
     "end": 2496.17,
     "text": "The"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2496.421,
     "end": 2528.684,
     "text": "final document, uh, just a little bit of clarity around that. How granular is that document and how flexible is it? That s a tremendous question. So this is a system-wide master plan, which is technically it shouldn t be as granular as one might think, and the reason it s not as grandly so it can be flexible. What I would relay is that every recommendation we make, uh, make falls into three categories short, middle, or long term, 1 to 3 years is short, 4 to 6 years is mid and then there s long term, which"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2529.621,
     "end": 2564.486,
     "text": "is 7 to 10, and then you MAY also have some ongoing recommendations. Um, what I say about those recommendations that through our analysis we relay why you should do these things, which sort of assists where you aligning in terms of priorities. Uh, we relay what priorities should be just based on our analysis, but again, you have the institutional knowledge. So that s document is something that s a living and breathing document where it s flexible and you can maybe switch some things around. Thank you and just then to add, uh, to that and follow up on"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2568.92,
     "end": 2599.388,
     "text": "the flexibility question, um. What level of opportunity will exist or public review and involvement in identifying areas for greater flexibility and for that matter, what will our opportunity, uh, be here in the council. So yes, so that draft presentation, that s not the final document, so you have the opportunity to view it, um, different agencies, different cities are different. Some agencies we ve provided that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2600.558,
     "end": 2633.291,
     "text": "draft, um, through our online portal for individuals to make comment on. Sometimes that can be a slippery slope as well, um, but that s something that s possible and available, but that draft document, you ll receive that ahead of time before I come to relate how to dissect it and that s your opportunity to make any comments or any recommendations for re vision That s at the council level. Excuse me, that s for the council in terms of its opportunity for review would be the first and then the council. I, I would just say for everyone here something to flag possibly for a little bit"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2633.291,
     "end": 2664.153,
     "text": "of additional conversation as to whether there might be an opportunity for the public to become involved here and to make a contribution in terms of the design, uh, of this once they have something that they can look at and we might help them make it have that flexibility that s something we typically. Leave in the hands of the department. Any other questions Thank you very much. This was a very engaging exercise. Thank you so much for"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2710.769,
     "end": 2740.496,
     "text": "having me. Ok, this is not, can t be real. Ok. Um, MS. Ms, MS. Clark, are we, are we finished? That was the only item we had. Wow. Ok. It s, it s just as wow, what a gift and what a gift must be because our new city manager is here. So, um, so we are now adjourned"

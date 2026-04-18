@@ -3,3792 +3,5056 @@
 const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 111.7,
     "end": 146.268,
     "text": "good evening. I am going to read a motion to conclude the closed meeting. It's 6. 59 the city council closed meeting on nonlitigation matters. To best of each councilmember knowledge [Inaudible] -- into only public business matters identified in the motion convening the closed meeting were heard, discussed or considered. All in favor vote aye."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 148.607,
     "end": 179.303,
     "text": "Motion passes unanimously. I'd like to call the regular meeting of JANUARY 13, 2025 -- to order. We have a full chamber and agenda. We have a public hearing on appropriation for the george snyder trail. We also have initial public comment. Initial public comment is for any comments you want to make that are not covered under this public hearing for this specific item of the appropriation. So, anything not related to the george snyder trail you would like to share with us, that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 179.905,
     "end": 202.626,
     "text": "would be in the general public comment. Now, if you are able and so choose please rise for the pledge of allegiance I pledge allegiance to the flag of the united states of america, and to the republic for which it stands, one nation, under GOD, indivisible, with liberty and justice for all."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 208.232,
     "end": 210.902,
     "text": "we can move to the adoption of the agenda."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 212.438,
     "end": 216.874,
     "text": "it there a motion to approve the agenda? Councilmember stacey hardy-chandler."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 218.77,
     "end": 219.643,
     "text": "I move to adopt as presented. second."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 220.945,
     "end": 223.314,
     "text": "the motion is made and seconded. Roll call vote."
   },
   {
     "speaker": "Councilmember Anthony Amos",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 224.45,
     "end": 226.619,
     "text": "councilmember amos. aye."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 226.619,
     "end": 228.82,
     "text": "hall. aye. stacey hardy-chandler."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 228.82,
     "end": 230.788,
     "text": "aye. peterson. aye. bates."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 231.557,
     "end": 233.123,
     "text": "aye. Mcquillen. aye."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 235.628,
     "end": 241.398,
     "text": "passes unanimously. Initial public comment, I had nobody signed up by 5:00 P.M."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 241.6,
     "end": 251.376,
     "text": "We'll skip to the consent agenda. okay. Is there a motion to approve consent agenda. Councilmember hardy-chandler?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 252.945,
     "end": 283.74,
     "text": "I move adoption of the consent agenda for agenda item 6 a, consideration of the NOVEMBER 8, 2025, retreat minutes. Agenda 6 b, consideration of the NOVEMBER 18, 2025, work session minutes. Agenda 6 b, consideration of the DECEMBER 2nd work minutes. Item 6 d. Consideration of the DECEMBER 9, 2025, special meeting minutes. 6 e, consideration of the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 285.243,
     "end": 308.968,
     "text": "DECEMBER 9, regular meeting minutes. Agenda 6 f, consideration of approval of the city of fairfax, virginia, handbook. 6 g, concentration of resolution amending on member of the human services committee. Move to approve 6 a, through g, and the motion accompanying the consent agenda as printed."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 308.968,
     "end": 310.968,
     "text": "second."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 311.469,
     "end": 313.638,
     "text": "motion by stacey hardy-chandler and seconded by"
   },
   {
     "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header)",
     "start": 313.638,
     "end": 315.974,
     "text": "Any items council would like"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 317.71,
     "end": 320.144,
     "text": "to pull for additional discussion? Okay. Seeing none."
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 321.546,
     "end": 324.381,
     "text": "A roll call vote. councilmember Mcquillen. aye. councilmember bates."
   },
   {
     "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 325.417,
     "end": 327.317,
     "text": "aye. councilmember peterson."
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 328.687,
     "end": 330.32,
     "text": "aye. councilmember hardy-chandler."
   },
   {
     "speaker": "Councilmember Anthony Amos",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 331.255,
     "end": 333.157,
     "text": "aye. councilmember aye."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 333.458,
     "end": 335.458,
     "text": "aye."
   },
   {
     "speaker": "Councilmember Anthony Amos",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 335.628,
     "end": 336.861,
     "text": "councilmember amos. aye."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 338.29,
     "end": 347.672,
     "text": "passes unanimously. First public hearing on on the path project, no action tonight. I will recognize the multi modal transportation planner to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 358.83,
     "end": 389.58,
     "text": "provide the staff presentation. let's see. Here we go. Okay. Good evening, mayor and council. We are here -- this item, to discuss the fern street connector path and have a public hearing on this. But before we get started -- let's see -- I would like to just briefly introduce our consultant from kimberly horn here to discuss the design and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 390.449,
     "end": 421.945,
     "text": "we have others in the audience if there's questions to answer. The pub of the public hearing is girlfriend -- give background on the project. To give a design presentation. Then will invite public comment. This is designed where no city council action is required. We're here to list everyone -- listen and take feedback. There there will be public comment for another week and we'll give responses at the end of the period. First, the project overview."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 425.317,
     "end": 458.615,
     "text": "The location of this project is on fern street just south of route 29. This came out of the kamp washington small area plan. It is a connection between the fern street dead end, that is just south of route 2 and -- 29 and intersection of fern street and park road, just south of that. Right now it's a grassy area. This project will build a bicycle and pedestrian connection for the neighborhood to activate that open space in the kamp washington activity center."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 459.18,
     "end": 491.716,
     "text": "This is where we are in the project. We are here at step 10. As I said, this is a design public hearing for the intermediate design plans this evening. And this is where we've been on the project so far. This came out of the kamp washington small area plan which was adopted in 2022 and was advanced in the 2-year transportation program. We had a open-house and endorsed the funding application in 2023. Last year we got the funding"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 491.917,
     "end": 500.891,
     "text": "authorized and started the design of the project. We're here this evening for the design public hearing. And now I'm going to turn it"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 501.426,
     "end": 532.558,
     "text": "over to meghan to discuss the design. great. So thank you all for having me speak even though. As you see on the screen. We have the fern street path design. To orient yourself on the screen, we do have the project twisted to the right. So north is going to be to your right. Fern street and park road intersection is screen left. The fairfax shopping center is screen right. This project design is a 10-foot path connector trail. It is 10 feet from the intersection of park road and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 532.558,
     "end": 566.591,
     "text": "fern street. There's two connections that ties to the existing I sidewalk that goes along park street today. There is say new crosswalk just south that exists today, that will exist in this design as well. This path is about 200 feet long and me -- anders around throughout the green open space and has amenities similar to the hill street project, such as trash, lighting, benches, native trees and plantings."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 567.526,
     "end": 598.22,
     "text": "We have a final connection alt fern street by the shopping entrance where we connect to both sidewalks on fern street itself. We will be replacing entrance at the shopping center to be ada-compliant as part of the connection to this street. Some amenities part of the fern street project you can see here are very similar to fillhill street. You will see images that are familiar, like the trash receptacles and benches,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 598.222,
     "end": 630.721,
     "text": "path-level lighting, very similar to the hill street as well with solar-level path lighting and native trees as well, and at entrance of both sides at park and fern and at the shopping center entrance we do have lighting to the show entrance of that path and along the path itself. Those are the amenities and they go about 200 feet to make that closed connection."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 631.724,
     "end": 663.419,
     "text": "okay, so this is a summary of the public engagement we've done so far. Going back to the beginning of the project, there was of course a public engagement as part of the small area plan and as part of the 2-year program. We had funding open house in summer of 2023 before we held the public hearing to endorse the funding application. More recently, since we started the design of the project, we updated the information on the engage page and this slide was created before the holidays."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 664.356,
     "end": 696.254,
     "text": "So there has been a few more visitors about 250 more since NOVEMBER, since we put out exhibited -- exhibits at the location to show what the exhibits would like look like, and we sent information to community for feedback. We got 10 comments, generally supportive, with a variety of suggestions for modifications to some of the amenities. We notified the public in a variety of ways, with a-frame signs, mailed letters to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 696.455,
     "end": 727.619,
     "text": "residents immediately adjacent to the project, it was in the city scene, we did a newspaper ad as required for the public hearing requirements, and put it out through the city e-mail and social media accounts. And then this is the schedule looking forward. So tonight is the public hearing. And then the public hearing record will be open through JANUARY 23rd. So any comments we receive tonight as well as the comments we've already received and those received through JANUARY 23rd"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 729.54,
     "end": 762.419,
     "text": "will be in the written record and we'll provide responses to those comments. Then we'll develop 100% plans and send this out for a construction award. That with be towards the end of this year, we'd be looking to wrap up the plans and begin construction. Have approximately 350,000 dollars in transportation alternatives, 80% of that is federal money and 20% is local match from cni fund, that does"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 762.854,
     "end": 769.793,
     "text": "fund entire project as it is budgeted right now. So that concludes our presentation. We'll be happy to take any questions."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 770.628,
     "end": 777.368,
     "text": "all right. Are there any questions for staff on this from the dais? Councilmember peterson?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 781.506,
     "end": 799.157,
     "text": "just a general question. The ratio of engineering to construction cost -- this is a relatively small project -- so the ratio, about a third of this is engineering and two-thirds construction, as I see it. Is that typical for this size class? How does that stretch across other size classes?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 800.658,
     "end": 826.551,
     "text": "so the ratio of engineering to construction does vary by project size. When you have a 20 million-dollar project the percentage of engineering will be a lot smaller. There are fixed costs hard to scale up like over sight costs and in terms of doris raysurvey work that is hard to scale down to a smaller size so smaller project has slightly higher"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 827.286,
     "end": 861.618,
     "text": "ratio of engineering cost. there are savings as far as in the plan set. There's less plan sheets. But when you have utility relocations and survey and other items where crews have to come out to the field and test, those are pretty constant. In fact, they might be even more expensive for smaller projects. So for, as khloe said, for a large, 10-million dollar project the design fee will be 10%, maybe 12%. For a 300,000 dollar project it"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 863.21,
     "end": 864.255,
     "text": "could be 30 or 40%, it's not unusual."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 866.758,
     "end": 884.308,
     "text": "just to follow up. Not to suggest a concern or criticimmism of the project, I'm just curious about this type and size class. Does this benchmark out typically in terms of the engineering and construction ratio? And then the scale of the engineering cost on this?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 884.375,
     "end": 886.277,
     "text": "yes it does. okay."
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 890.282,
     "end": 893.183,
     "text": "So this is pretty typical. Okay. councilmember hardy-chandler."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 893.519,
     "end": 924.982,
     "text": "I don't have a question, but a comment. As a resident of the neighborhood near this, I've been very impressed with the outreach for input. I get to pass by the signs that invite residents to offer input as I'm walking my dog. I've seen the signage at the site. That is really helpful for envisioning what this will look like. It is hard for someone in that general area to not know this project is going on. So I just want to highlight the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 926.852,
     "end": 932.889,
     "text": "amount of engagement that's been invited. And how it's been invited in different ways, thank you for that."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 933.725,
     "end": 956.613,
     "text": "other questions? Councilmember Mcquillen? thank you. I too living in this neighborhood have to echo those sentiments because we do see the outreach. And I appreciate all the effort in keeping our community so educated and informed. Going through the project schedule, at what point will public comment -- or have public3 comments already been included? Or revised in the design?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 957.348,
     "end": 977.701,
     "text": "so there were public comments at the funding application stage that we took and incorporated into the design as we started the design. Now we're at the stage where we're collecting another round of public comments and there will be -- I expect -- tweaks to the design based on any comments we receive in the next ten days."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 978.337,
     "end": 983.4,
     "text": "will that occur before the plans are 100% developed? Excellent. Appreciate that."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 984.143,
     "end": 1014.972,
     "text": "other questions? Other questions? Okay. The only comment I'm going to make is that, you know, the hill street connector in my neighborhood has been a game-changer. So. And, that was a long time coming. But it has made a difference. And again, the walkability that we're bringing with these small projects, just adds to the quality of life in our neighborhoods in connecting them to our small area plans and our activity centers. Can't say enough of how these"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1016.74,
     "end": 1029.19,
     "text": "small projects are major game changers for neighborhoods where two of our councilmembers live, possibly a third might live -- so -- anyway. I will open the public hearing. Shinaberry, has the public"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1030.122,
     "end": 1052.842,
     "text": "hearing been properly advertised. it has. I have one signed up to speak. I will call that speaker up then we'll open the floor for anyone who would like to speak on this item. Our first speaker is douglas stuart."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1053.845,
     "end": 1086.11,
     "text": "good evening. I'm douglas stuart 10822 maple street. I too live in wes more, we've lived there for 21 years now. I am unqualifiedly in support of this project. I think it's going to be a great project. It's only going to further the connections between our neighborhood and kamp washington. they're getting better and better. And kamp washington is getting better and better, it's exciting for someone who has looked for more walkable connections to the nearby area."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1087.646,
     "end": 1117.909,
     "text": "It's really impressive to see how that small area plan is materializing. Just stepping back, when the small area plan for kamp washington was being developed. The wes more civic association was very actively involved in that. I want to give a shout out to former PRESIDENT Of west more civic association, beth inetic, she was very involved, she was working with federal realtor with that shopping center where the cvs is, adjacent to fern"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1119.21,
     "end": 1150.375,
     "text": "street, she was working with city staff and councilmembers and planning commissioners. There was a lot -- honestly, there was a lot of division and different opinions about how that fern street connection should happen and what it should look like. There were some discussion of people in favor of a motorized connection. A lot of neighbors were very concerned about that. And I just want to commend the city staff and everybody really for making this work, and working with the community to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1150.675,
     "end": 1182.339,
     "text": "develop such a great connection, it's going for people who are just -- it is just a two-minute walk to haraz from park street. It is a very easy thing to do. This is one of those connections that is just making it easier. When you are getting fern street extended to where the shake shack is, when you get that light there, that's going to be a game-changer. These things are happening, and I've seen them happened, as someone who has lived there for a long time -- this is actually happening -- it's happening"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1182.641,
     "end": 1214.471,
     "text": "fairly quickly. I've always wanted our son who is now 23 to be able to walk to areas, he's now got his driver's license and doesn't care about walking. But we're seeing it happen for our kids and I'm excited about it. The only comment I would make about the actual project is when you are maintaining it, I hope you'll work with the environmental sustainability committee. We have a lot of expertise in the city. Especially about the native"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1214.74,
     "end": 1227.719,
     "text": "plants and the landscaping. And this is a great opportunity to work with neighbors and other people, other residents, on maintaining that and even further improving as we go along. So, great project, I'm very excited."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1228.988,
     "end": 1243.734,
     "text": "Thank you. is there anybody else in the room that would like to talk -- yep -- you MAY come forward, ma'am. Please state your name and address with your comment."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1244.902,
     "end": 1279.269,
     "text": "hi, good evening. My name is beth inetata, 109 west berry street, still PRESIDENT, also vp, partial treasurer, public outreach. Transportation. You name it. We got it. all in one house so, I just wanted to say, west more is an unbelievable community. We mark our 77"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1280.772,
     "end": 1312.27,
     "text": "7 5th year this year. We've come a long way. And so it's great to see these improvements happening. So I'm in support of it. I will say, and I will shame myself in my support of it. I was a transportation planner for most of my accounting career and I never rode the fairfax connector bus and they recently changed the route to go to the government center. So I've road trip the bus more just because of walking the path, down fern street, across"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1312.971,
     "end": 1345.2,
     "text": "the grass area that the trail is going in, to the bus stop across the street near chipotlely. I will say keep pucking for a connection across that road way. My father recently frogger his way across 29. I was very concerned for him. I want to say I think staff has done a really great job reaching out. On facebook we've had comments. They were overwhelmed with the outreach. I greatly support it. Keep it going. And so, I just want to say I think everyone's done a really"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1347.64,
     "end": 1380.137,
     "text": "great job to get these improvements that our community waited for a very long time. We have a lot of missing pieces but this will help. We also have businesses coming in, working with federal realty. They changed the front the building, with improvements, we have a mural out there. There's a lot of investments in leaps and bounds but I think this is yet another piece to get you there. For me, personally, the only comment I will say, I wish it was 8 feet not 10."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1383.274,
     "end": 1414.907,
     "text": "I know it is nitpicky just want to be content solution to the size of the shape. It is very small. It is defined aright-of-way. It's not a park. It's a street. What lies in streets is utilities that you don't see underground. So there's cost that reflect that, drainage and utilities that run through there, because it is designated as a road though it is not a road. Thank you all. I greatly appreciate your time. I just want to say we support the project for myself. And hoping for more in the future."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1414.907,
     "end": 1416.907,
     "text": "Thank you very much."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1417.675,
     "end": 1421.846,
     "text": "is there anybody else in the room? Yep. Ma'am, you maim come forward."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1425.317,
     "end": 1456.381,
     "text": "Sir, you can come -- go after her. hi. My name is romi angel. We are the resident of 1100 park road, which is directly affected from this path. Maybe we are the only residential facing this, like, path. So, we are happy to have this, like, lovely path, but I have a couple of questions and comments."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1457.516,
     "end": 1491.615,
     "text": "The first of all, we have a fence along this path, but the fence height is limited. Because many people will pass by the path, is it possible to get the higher fence like seven feet. That's our one question. And my second question is, are you going to have a security camera somewhere? Because we are next to this path, that's my question.%"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1492.685,
     "end": 1524.78,
     "text": "and then also, the third question is, you are going to have a construction end of this year, and how that construction is going to be -- will be -- because we'll have a tenant. We have to notify them what's the impact of their life there. So, those are the three comments. I'm happy to have this wonderful path, but, also I have decent concerns because we are directly"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1525.15,
     "end": 1527.15,
     "text": "affected from this path."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1530.989,
     "end": 1563.153,
     "text": "and my comment is -- there's a tree about 80 to 90 feet high [Inaudible] -- there's high-rise trees about 80, or 90 feet high, and when I check today, couple days ago, high wind and then some branches dropped down. I'm pretty sure you have a plan for the main street. Or -- some cut -- whatever. So we have some experience -- other properties -- so, in the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1564.857,
     "end": 1597.454,
     "text": "future, I'm not, say -- cut tree tomorrow -- but, nature's trees -- or trim -- whateverrer you can do. But, second, fence company built a fence, it's kind of falling down. They talk about the tree growing. The root growing. And when I digging -- and there's no impact by the tree."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1600.591,
     "end": 1618.575,
     "text": "But, my concern is that when construction starts, how deep they go digging underground and foundation path -- so -- possibility -- touch the tree -- root -- oh, I'm sorry. MAY I have one minute more?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1618.777,
     "end": 1626.17,
     "text": "your comments will be addressed by the city staff that made this presentation. So our staff will get in touch with you to address your concerns."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1626.17,
     "end": 1628.952,
     "text": "thank you. thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1629.721,
     "end": 1634.225,
     "text": "is there anybody else in the room that would like to talk on the fern street connector?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1635.59,
     "end": 1643.834,
     "text": "okay. So, I will close the public hearing. There is no council action tonight on this issue. Okay."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1645.371,
     "end": 1678.1,
     "text": "our next item is a public hearing, council action on ordinance amending chapter 102 article I, section 102-33. -- pertaining to sanitary sewer connection fees, frontage charges, and wastewater lateral repair and replacement charges, and article for wastewater division 3 connections to public sewers section 102-180 retaining"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1679.705,
     "end": 1687.611,
     "text": "to connections with pub sewers. I'm going to recognize annie -- utility coordinator for the staff report."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1689.81,
     "end": 1723.48,
     "text": "good evening my name is anne fury, utilities coordinate -- with the department of public works. This propose two change it's this the utility ordinance, first change to the wastewater lateral repair and replacement program. The city council established the program in JANUARY 2017. Along with dedicatedlateral repair charge for eligible replacements. and the program promotes trenchless rehabilitation method"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1723.549,
     "end": 1756.947,
     "text": "to extend the life in cost-effective manner and has significantly increased material and labor cost. With the input from the finance department public works recommended increasing the maximum reimbursement amount by 30% from 25 you00 -- 2500 to 3250. And from 5,000 to 6,500 for full replacement. Which both align with cumulative inflation. These updates will help ensure"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1757.483,
     "end": 1789.211,
     "text": "the program provides meaningful, financial assistance and support timely repairs. The second amendment is a revision which clarifies how sewer availability charge credit is is a plied to existing structures of the city moving sewer availability fee processing payment into the electronic seller portal and coordinating with our administration, public works and I.T. Department. Currently determining credits"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1790.181,
     "end": 1822.347,
     "text": "for demolished structures requires extensive staff recognize and hindered by incomplete records and amend amendments place the responsibility on the applicant to provide the documentation of the information with the plumbing permits, that's when we receive the connection fees when the trade you permits are submitted. We plan on noticing the am can't during the building and demolition process of this change. They will need to provide the existing structure information."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1823.782,
     "end": 1856.212,
     "text": "if not submitted, fees will be assessed without credit. These changes will create a clear and more consistent process for the plumbing and building permit applicants and it will support the implementation of availability fee payments through the portal as part of the city's broader goal of consolidating permitting fee processing. That's concludes the staff report for these few changes."
   },
   {
     "speaker": "Councilmember Anthony Amos",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 1856.515,
     "end": 1858.616,
     "text": "I'm happy to answer any questions. councilmember amos?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1858.616,
     "end": 1874.364,
     "text": "thank you. I only had one question. Kind of broke into two parts. So why the gap since 2017. Why wait for accumulative inflation instead of incrementally doing it. Or is that just missed."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1874.967,
     "end": 1876.967,
     "text": "I will let you go ahead."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1877.936,
     "end": 1887.711,
     "text": "we had not revisited this ordinance since 2017. It is the -- the reimbursement rates are codified, they are not part of rates an levees. So we're bringing this before"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1888.113,
     "end": 1894.686,
     "text": "you now for adjustment. okay. Do you have recommendations which this will need to be reviewed again? Or?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1895.554,
     "end": 1897.522,
     "text": "I would be consulting with the finance department. okay."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1898.723,
     "end": 1900.457,
     "text": "as to when would be appropriate to revisit."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1901.693,
     "end": 1908.933,
     "text": "and I believe when we were looking at this jc suggested we look at this annually -- or certainly more regularly."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1909.5,
     "end": 1937.961,
     "text": "councilmember, to your point, I think this is very similar to the tax releaf program, it should be evaluated on an annual basis to account for inflation factors or pressures that the economy is putting. This is light but it's proactive from staff trying to catch up for the past seven or eight years that there has been no adjustment. And going forward we will be reviewing this on an annual basis."
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 1938.564,
     "end": 1940.198,
     "text": "thank you. councilmember hardy-chandler?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1943.769,
     "end": 1968.593,
     "text": "thank you for covering my first question, councilmember amos. My second question is about the second amendment to this. The applicant certainly is the most direct source of information about the structures, for sure. My question is, will their submission of documents or plans in anyway delay the application process? Or add any additional bureaucracy?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1969.694,
     "end": 2001.425,
     "text": "it won't add additional time to the review because as it stands right now, when I plumbing permit is routed to public works for review, staff has to do extensive research so it does hold up the permitting process. The goal in this is to kind of start at the demo point of the review process to say, hey, we're going to need this information. It should actually -- my hope is -- help move forward, you know, if not, the same way that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2002.961,
     "end": 2005.331,
     "text": "we do now, just it shouldn't add additional time. good to hear."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2005.331,
     "end": 2010.4,
     "text": "Thank you. other questions? Other questions? councilmember bates?"
   },
   {
     "speaker": "Councilmember Anthony Amos",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 2012.303,
     "end": 2038.696,
     "text": "councilmember amos' comments reminded me that I believe that I've seen at least at the state level, some legislation that incorporates a provision that allows for rates and what not to be adjusted for inflation on yearly basis, kind of automatically. Is that something we might consider here? Is it just kind of better to, you know, have a conscious decision-making process behind that?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2039.898,
     "end": 2073.163,
     "text": "one of my concerns about this being annual is when we started the program in 2017, we weren't to apply. People pay a little bit on their G.I. Bill to build up this account. But MR. Thorson utility director back then, we talked about a lot of the old homes in the city and we wanted enough money in the account in case we got bombarded by lateral replacement request. So one thing we did was keep track of that account."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2073.832,
     "end": 2107.96,
     "text": "When we felt comfortable enough where we could refund people more, that's why we kind of started talking about this because we saw the account. But a few years before we're, like, we don't know how many people -- I mean, this is open to everybody with a home in the city. So it could -- that account could go away real quick if a lot of people apply for that help. So we wanted to have a pretty good cushion. Doing it every year, I'd like to keep track of that account to to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2107.466,
     "end": 2109.535,
     "text": "do see how much is in there. thought it might be something"
   },
   {
     "speaker": "Councilmember Stacy Hall",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 2109.535,
     "end": 2112.403,
     "text": "like that. councilmember hall."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2113.404,
     "end": 2129.2,
     "text": "just curious how many people have already taken advantage of this. Second secondary question, you said the goal is to have people submit what they know. If they don't know, if they are a new owner, the city would still do the background it had done previously, correct?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2129.87,
     "end": 2140.23,
     "text": "correct. The available fees apply -- so it's kind of -- your first question was about wastewater lateral charge, I think. What's the question?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2141.766,
     "end": 2143.67,
     "text": "how many people have taken advantage --"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2144.68,
     "end": 2177.1,
     "text": "-- let me start there. That's kind of the first amendment. I looked earlier tonight. It is generally 20 to 25 properties a year per fiscal year that have applied for the reimbursement since the implementation. Your second question, in regards to the availability charges, yes, the city will still due their due diligence to see if we have the records on file. This will likely be more beneficial for larger developments, such as capstone as a great example. There was a commercial building"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2177.803,
     "end": 2209.867,
     "text": "with several units, when it came time to figure out or calculate the availability fees they owesed -- owed that build was already demolished. So we didn't have a system to determine how much credit they should be owed based on what was existing. We'll still to do the research and help the applicants to find the that information. The point of this is to stream streamline it and make sure we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2211.27,
     "end": 2220.311,
     "text": "have the records as well. other questions? Okay. Seeing none, I will open the public hearing. Has this public hearing been properly advertised?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2220.479,
     "end": 2225.65,
     "text": "yes it has. No one signed up prior to the meeting. Is there anybody that would like"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2226.118,
     "end": 2232.9,
     "text": "to speak on this agenda item? well, all right then. Is there a motion? Councilmember hardy-chandler?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2233.391,
     "end": 2246.69,
     "text": "I move that the city council enact the attached ordinance amending chapter 102, utilities, article ii, fees and charges and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2246.939,
     "end": 2248.74,
     "text": "article four, of the code of the city of fairfax, virginia. second."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2250.509,
     "end": 2255.445,
     "text": "motion by stacey hardy-chandler. Second by councilmember peterson. Any discussion on the motion?"
   },
   {
     "speaker": "Councilmember Anthony Amos",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 2255.614,
     "end": 2258.315,
     "text": "Seeing none, roll call vote. councilmember amos. aye."
   },
   {
     "speaker": "Councilmember Stacy Hall",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 2259.18,
     "end": 2261.351,
     "text": "councilmember hall. aye."
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 2261.387,
     "end": 2263.186,
     "text": "councilmember hardy-chandler. aye."
   },
   {
     "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 2263.655,
     "end": 2265.623,
     "text": "councilmember peterson. aye. councilmember bates."
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 2266.425,
     "end": 2269.394,
     "text": "aye. councilmember Mcquillen. ire aye."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2271.3,
     "end": 2282.44,
     "text": "passes unanimously. Going to the public, public hearing and council printing supplement number 16 to 26."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2283.141,
     "end": 2317.309,
     "text": "good evening mayor and council. this is a brief housekeeping item. The staff report is self explanatory. The city code was last recodified in 2000. From time to time ordinances come to the city council amending provisions of the city code. The recod fiction had a provision said those automatically become part of the city code. The company that puts up most codes will periodically present supplements. There's no requirement we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2317.309,
     "end": 2332.22,
     "text": "incorporate those by action. I believe it is best practice to do this. The item before you would formerly incorporate supplement 16 through 26, inclusive, into the code of the city of fairfax, virginia. Happy to answer questions."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2334.58,
     "end": 2343.569,
     "text": "any questions on this? Okay. I will open the public hearing. MS. Shinaberry, has this been"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2343.569,
     "end": 2348.573,
     "text": "properly advertised? it has. I have nobody signed up. Anybody in the room would like"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2348.573,
     "end": 2353.44,
     "text": "to speak? seeing none. Is there a motion. Hardy-chandler."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2357.349,
     "end": 2362.52,
     "text": "I move the city council enact ordinance regarding 16-26 inclusive to the code of the city of fairfax, virginia."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2363.455,
     "end": 2365.322,
     "text": "is there a second. second."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2366.924,
     "end": 2373.497,
     "text": "motion made by stacey hardy-chandler and seconded by thomas peterson. Any discussion on this motion? Seeing none."
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 2373.565,
     "end": 2375.933,
     "text": "a roll call vote. councilmember Mcquillen. aye. councilmember bates."
   },
   {
     "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 2375.933,
     "end": 2378.569,
     "text": "aye. councilmember peterson."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2378.903,
     "end": 2380.903,
     "text": "aye."
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 2382.341,
     "end": 2383.808,
     "text": "councilmember hardy-chandler stacey hardy-chandler."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2385.544,
     "end": 2387.1,
     "text": "aye. hall. aye."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2389.781,
     "end": 2406.662,
     "text": "passes unanimously. Next to public hearing and chapter 2 -- chapter 2, article iii, division 2. [Reading] -- I'll recognize"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2407.599,
     "end": 2438.629,
     "text": "brian lovekin, city attorney to provide staff report. thank you. This is also housekeeping. The public MAY not be aware, there's a statute in virginia conflict of interest act, which establishes conduct for certain officers and employees of the state and local government and commonwealth. The city has corollary ordinance that goes beyond the act with respect to individuals or positions subject to annual"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2439.164,
     "end": 2469.293,
     "text": "financial disclosure requirements. This will update filing deadlines with changes over past few years, as well as continuing obligations and those provisions related to veilations -- violations and penalties. Previously there was a requirement, in addition to department heads filing conflict of interest forms, that their deputies would file. Looking at this and comparing with other jurisdictions we couldn't find other jurisdictions that require that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2470.429,
     "end": 2500.457,
     "text": "level of disclosure, certainly by folks who are not in decision-making positions so the recommendations are to adopt these changes. It includes updated title positions we have chief financial officer and and -- members of the requirement plan administrative committee. Again, as noted, all department heads. It updates the requirements, the state requirements now are that these annual disclosures be time"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2501.393,
     "end": 2532.889,
     "text": "-- filed by FEBRUARY 1st. And additional forms for certain individuals. This also reflects state definition of what constitutes the immediate family of the positions. That is defined as any other personal who resides in the same household and dependent on those in the scope. The dependency is the reflection of that. And we also updated those corresponding with the state enabling authority 679 with --"
   },
   {
     "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 2534.193,
     "end": 2535.994,
     "text": "with that, happy to answer questions. councilmember peterson."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2536.728,
     "end": 2559.517,
     "text": "I think we talked about this before. The issue of the deputy came up. So it sounds like -- I think the issue at the time was should that be done in the event someone steps in as an alternate. It sounds like we concluded like that is either unnecessary or could be addressed on as-needed basis, is that fair?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2559.517,
     "end": 2583.808,
     "text": "that's correct. The thinking would be there's many circumstances in which a temporary deputy acting as a department head, illness, extended absence. We don't believe certainly that that is a occasion to require the disclosure form if a person is acting in a specific time we can alter at that point."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2584.777,
     "end": 2587.77,
     "text": "any other questions for MR. Lubkeman on this."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2588.279,
     "end": 2590.279,
     "text": "I will open the public"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2591.483,
     "end": 2596.789,
     "text": "hearing, has it been properly advertised. yes, it has. No one is signed up. Anyone in the room like to speak?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2596.789,
     "end": 2598.456,
     "text": "okay. Seeing none."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2600.25,
     "end": 2615.64,
     "text": "Is there a motion. Councilmember hardy-chandler. I move that the city council enact the attached ordinance amending chapter 2, administration, article three, officers and employees, division two, disclosure of interest pertaining to financial"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2616.374,
     "end": 2618.542,
     "text": "disclosures by certain officers of the city. second."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2619.678,
     "end": 2621.68,
     "text": "motion made by councilmember hardy-chandler and seconded by"
   },
   {
     "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header)",
     "start": 2621.68,
     "end": 2624.282,
     "text": "Is there any discussion on the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2624.282,
     "end": 2626.683,
     "text": "motion? Seeing none roll call vote."
   },
   {
     "speaker": "Councilmember Anthony Amos",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 2627.251,
     "end": 2629.319,
     "text": "councilmember amos. aye. councilmember hall."
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 2630.588,
     "end": 2632.824,
     "text": "aye. councilmember hardy-chandler. aye."
   },
   {
     "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 2632.824,
     "end": 2634.257,
     "text": "councilmember peterson. aye."
   },
   {
     "speaker": "Councilmember Billy Bates",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 2635.594,
     "end": 2637.628,
     "text": "councilmember bates. aye. councilmember Mcquillen. aye."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2639.465,
     "end": 2660.885,
     "text": "passes unanimously. Last public hearing on a grant supplement appropriation resolution in amount of $4,600,000, for transform 66 outside the beltway concession funding for the george snyder trail. I will recognize martinez, chief financial officer for the staff report."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2662.288,
     "end": 2693.952,
     "text": "thank you. Mayor, counsel, as discussions NOVEMBER 4th work session and introduced at the city council regular meeting, the syntax has been awarded 20.6 million in I-66 outside the beltway project for the george snyder trail project. The city received construction bids that exceeded the 16 million remaining in the project budget. The estimated to complete with additional cost such as contingency and construction"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2694.953,
     "end": 2727.183,
     "text": "management and vdot oversight will exceed the budget by 4.6 million. There's additional funding available in the balance account at vdot to accommodate the city funding need. The city requested this funding via the northern virginia transit authority, nvta, can which is the entity that makes recommendations for this funding to the commonwealth transportation board known as ctb. On NOVEMBER 18th, nvta"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2730.356,
     "end": 2736.627,
     "text": "recommended approval to ctb, and ctb approved the request at"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2738.497,
     "end": 2743.668,
     "text": "JANUARY 26 -- meeting. any questions? Seeing none. I will open the public hearing."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2745.17,
     "end": 2779.67,
     "text": "Has this been properly advertised. it has. We have 35 speaker who's signed up before the meeting began. I received two video testimony that will be played after the in-person speakers. I will call the speakers who signed up first. Then the video. Then I will open the floor to anyone in the room that would like to speak. I will call the first speaker up, which josh silverman."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2781.807,
     "end": 2814.137,
     "text": "I'm josh silverman, and my residents is 4111 side burn road in the green acre district. And with regards to the trail from the point of view of the pedestrian or the biker, fairfax city is separated from the remainder of the county. We do have a cross-county trail"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2814.84,
     "end": 2845.637,
     "text": "which as the name suggests is supposed to connect the community ever the county together but it falls to pieces in the fairfax city area. To the southeast 6 the city, there's a choice of two routes. The official route as it currently stands, goes over bike lane and jermantown road. It is all road walking. Itthere is an all the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2846.71,
     "end": 2877.468,
     "text": "alternativive wilcox trail but it dead ends in route 50, from there it is well over a mile before you can connect to the under pass under I-66 and from there use the trail to get to jermantown road. From there there's another that gets back to the cross county trail. This is where the snyder trail comes in."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2879.104,
     "end": 2916.542,
     "text": "The gap on that we currently have to fill by walking along route 50 and eaton place, that is where the snyder trail would take its place. and this route would divert pedestrians and biker from highly-traffickinged -- trafficked and high-speed roads. If this alternative is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2916.542,
     "end": 2948.538,
     "text": "available, people passing through the city will be more likely to patronize the businesses in the proposed area where snyder trail route is supposed to pass by. I urge council to take these factors into account, increased safety, increased revenue for businesses, and the -- just better impressions that the visitors will receive going through the city. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2953.245,
     "end": 2960.684,
     "text": "our next speakerrers mike fabio."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2961.53,
     "end": 2993.317,
     "text": "happy new year. Mike fabio. 3 20 -- congratulations on your 4.6 million dollar award to complete the trail. Today I'm sure you'll hear testimony for and against the trail. I'm not here to discuss and defail -- detail the advantages of the trail. You've heard that the trail will be available to people of all ages and abilities and will take people out of their cars, reduce air pollution, and bring people"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2993.418,
     "end": 3023.779,
     "text": "together to establish a greater sense of community, it will allow people to get out in naturend -- nature and enjoy a safe environmental and provide educational opportunities and will replace more trees than it takes down, it will be good for city businesses and tourism, as it will draw people from throughout the region to fairfax city to enhance housing values."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3023.949,
     "end": 3054.777,
     "text": "Trails are one thing young people want for their first home. They want to be near one. And that city residents have told thaw they put trails high on their list of desires. I know you heard all this before and you'll hear it again, probably. In fact, at 10:15 P.M. On JUNE 10th, 2025, after 12 years of planning, after reviewing the actions of previous city"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3055.514,
     "end": 3085.709,
     "text": "councils, after being briefed by numerous staff presentations, and after hearing hours of public testimony, you voted -- and I quote -- to proceed with entirety of the project as designed and construct the george snyder trail. Tonight the ball is teed up for you to hit it out of the ballpark as you accept the additional funding, take a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3087.645,
     "end": 3117.774,
     "text": "victory lap as you capture this generational opportunity to add a major element to the city's infrastructure. 25.6 million dollars, without any tax burden to the public. Fantastic. In a few minutes, I hope we can all join in the celebration of this crowning achievement. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3119.545,
     "end": 3120.845,
     "text": "our next speakerrer is art hammerslog."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3122.481,
     "end": 3156.981,
     "text": "good evening, mayor, city council, art -- 3843, far oak circle. I am speaking tonight in favor of the george snyder trail. I will not repeat the many arguments you heard in favor. Instead, I would like to address the implications of refusing to appropriate additional funding provided to the city. We all recognize that this issue has divided city residents into two camps, those in favor, and those opposed. Both camps have legitimate reasons for their position."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3158.584,
     "end": 3189.313,
     "text": "The passion that have arisen over this issue are very strong indeed, as you can see from the number of people who are going to speak tonight. If the council appropriates these dollars, the matter is settled, the trail will be built, no dollars need to be repaid, and the matter will fade into the past. Some folks will be unhappy. But the issue of the trail is overnd -- over and done with. The residents can move on."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3189.615,
     "end": 3220.476,
     "text": "But if the council fails to appropriate these dollars, what happens next? Bottom line, the council will have an ongoing series of unpleasant decisions to make and the trail will continue to divide and enflame and frustrate fairfax city residents on both sides of the issue. The council might try to down size the project with available funding if you can get the votes"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3221.647,
     "end": 3251.776,
     "text": "for that, but I don't think you can. Resigning will require more engineering, more design expenditure ire, more funds. If the trail is not built you'll have more funds to pay back. Does the council really want to continue to deal with this issue? Do you really want to go down this road? Have the trail continue to be an ongoing volatile, contentious issues, with more votes, more public hearings, and paying back millions of dollars."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3252.344,
     "end": 3277.467,
     "text": "i think it's in the best interest of the fairfax city, its residentser, and the council, to resolve this issue once and for all. End the schwableing. Appropriate these dollars. Build the george snyder trail. And then you the council can deal with the more important issues the city has to deal with. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3280.171,
     "end": 3295.585,
     "text": "next speakerrer, janet newhouse."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3297.55,
     "end": 3327.918,
     "text": "good evening, 970, cardinal road. I'm against add igal funding -- for this trail. I haven't spoke at a council meeting before and regret not doing so, I know many others have not come forward. With 28 miles in fairfax city. We do not need this trail. Several nearby streets already provide neighborhood connections for bikers and pedestrians. No studies have been done showing how many people might use this trail."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3328.654,
     "end": 3359.516,
     "text": "How can it be built without knowing the potential users? Many presentations made by organizations and individuals concerned about the trail's environmental destruction seemed to have been dismissed. There's an irony to fairfax city's urban plan when substantial damage will be done to trees, plants and wildlife in an area with forest, flood plain and resource protection area, yet hundreds of trees will be"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3361.453,
     "end": 3391.581,
     "text": "cut, 6900 feet of asphalt poured, and huge soil removed in this vulnerable area when city's 2024 resilience plan states it is anticipated the city will experience rainfall severity and extreme weather events of -- the water level flood in -- several parks -- and there's a concentration in cambridge station area."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3392.551,
     "end": 3425.116,
     "text": "Residents experiencing more frequent adverse flooding. I live directly across the street from the stream. Have had years of flooding, yard, basement, et cetera. Extensive plumbing work, basement, renovation, I've spent almost 20,000 dollars correcting this. Another concern I have is e-bikes aning scooters on a paved path shared with pidtos -- pedestrians. Including -- [Indaudible] With increased risk to slower"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3426.84,
     "end": 3463.32,
     "text": "pedestrians, seniors and children. A recent report from the american journal of public health says the rate of e-bike injuries almost tripled between 2019 to 2022 with an an expected increase of e-bike use of 10% to 16% in the next few years will this number increase? I am already cautious when I walk because few bikers bother with signals, bells, horns or"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3463.488,
     "end": 3471.361,
     "text": "verbal warnings and it's dangerous walking out there. I want it to know who will be monitoring the use of this trail. Thank you very much."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3484.409,
     "end": 3486.409,
     "text": "next speakerrer tom ross."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3487.212,
     "end": 3524.81,
     "text": "good evening, mayor and council. I reside at 3520 country hill drive in the city of fairfax. I've been a long-term resident for this place we call home, one who served in variety of leadership roles in city engagement, boards and an elected official. I want to focus on the decision before you tonight. Especially for those of you who are a aa -- uncomfortable voting"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3524.95,
     "end": 3555.879,
     "text": "4.6 million concession funding for george snyder trail project. You heard from many people in the community over your service on council as I did. I know there are people in the community that are strongly supportive. And many who are strongly aopposed. To paraphrase will rogers who once said, some of my friends are for it, some are against it, and on this one I'm standing with my friends. That's the easy way out. The decision before you is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3557.149,
     "end": 3590.614,
     "text": "whether to approve the supplemental appropriation in amount of 4.6 million for appropriation on george snyder trail to address the short fall on this construction and proceed with construction or to reject the funding. Ending a project supported by many in the community and region, and placing the city in jeopardy of playing back 3.7 million. I want to repeat that. If you vote not to appropriate money tonight you will be putting the city in jeopardy of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3592.318,
     "end": 3622.412,
     "text": "paying back up to 3.7 million in funds that have already been expended. Which works out to approximately 6 cents on our current tax rate. That would be a tremendous disservice to every citizen in this community, both present and future. Serving as an elected official requires making choices you MAY be uncomfortable with."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3622.948,
     "end": 3656.247,
     "text": "I and others who served have faced this. A number of you oppose the creation of the trail. And I get it. Tonight is different. You can vote tonight to not provide the necessary funding, clearly understanding that you are putting the city and taxpayers in jeopardy. Furthermore, it will negatively reflect impact our regional and straight wide reputation as a partner who meets its obligations. Alternatively, you can be"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3656.682,
     "end": 3687.411,
     "text": "leaders who understand the impact of your decision and do what is right for current and future generations of this place we all love. I'm not going to describe to you the benefits of completing the george snyder trail. You heard from me on numeral irous occasions why I support this. Instead, I urge you with everything that I believe in to get this done. As elected official there are many times you have to whale the [Indaudible] Because it's the right thing to do. Tonight is one of those. Please do the right thing. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3698.157,
     "end": 3700.157,
     "text": "thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3702.661,
     "end": 3703.86,
     "text": "our next speakerrer is kent bower."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3705.96,
     "end": 3736.294,
     "text": "good evening my name is kenneth bower. I reside alt 8 cleveland court. Rockforward maryland. We urge you to be leaders and do the right thing. And to not fund the george snyder trail. Unpaved trail already exists. Nd a paved hiker biker right already exists. It could be improved by augmented bike lanes on fairfax boulevard."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3738.163,
     "end": 3768.959,
     "text": "Some of you MAY have known our MISS Torah, the first chair of fairfax parks and recreation board. She was a family friend. I recently spoke with her son who said she wanted trails but would have been total totally opposed to this kind of trail, with its environmental destruction, the loss of hundreds of mature trees, countless smaller ones, shrubs and ferns and flowers, they will"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3769.662,
     "end": 3801.158,
     "text": "be replanted with small sapplings that will take a hundred years to mature. The pavement will send stormwater runoff into the creek, which I played in as a child. I grew up in fairfax county. This will cause tremendous amount of erosion. I'm sure the 4.5 billion dollar stan tech corporation that designed this trail will be happy to build multi-million dollar stream restoration to fix"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3801.293,
     "end": 3834.157,
     "text": "the erosion that will be caused by their trail design. To see what that looks like, I have photos of the -- prince william county -- stan tech clear cut the stream and forest. If you want to see what it looks like, go to here and look at the segment between stanford drive and fairwoods parkway. You can see the photos on the city's website. You will see a quarter that was"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3834.259,
     "end": 3871.528,
     "text": "cut through the forest, clear cut, and new stream channel was dug with exaggerated artificial sinocity. We urge you not to fund the george snyder trail. Since as I said, an unpaved trail through the woods already exists. A paved hiker/biker route on streets already exist and can be improved and augments on fairfax boulevard. Thank you for your consideration"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3873.932,
     "end": 3875.932,
     "text": "our next speakerrer is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3876.434,
     "end": 3909.634,
     "text": "william pitchfork. good evening and thank you for the opportunity to speak this evening. My name is william pitchford. I live at 106 to 9 school street in fairfax. To approve a grant supplemental appropriation from vdot and approve a contract award for the george snyder trail. I am asking you to approve both the grant and the contract award as it is the best option for the citizens of fairfax city."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3911.47,
     "end": 3944.569,
     "text": "And for the city's overall economic and infrastructure development. I'd like to offer a few points why you should approve these two measures. The george snyder trail is an important part of the multi-modal transportation infrastructure that connects camp washington, north fax and fairfax city activity centers together. And it is spelled out in the city's small area plans. In the next few years, these three activity centers will"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3946.205,
     "end": 3978.169,
     "text": "account for the majority of fairfax city's economic development, having the right infrastructure will be critical for this growth. The two measures complete the trail in its entirety. In JUNE of this year, this city council along with the citizens of fairfax voted to complete the full trail. The two measures fully fulfill the wishes of the voters. Not approving this grant would mean 21 million dollars already obtained would be in jeopardy"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3979.438,
     "end": 4011.635,
     "text": "and the city would have to re-pay another 3.7 million in penalties with no trail to show for it. All total, that would be more than 29 million dollars of economic activity lost by the citizens of fairfax city, with no trail to show for the years of planning and effort. The george snyder trail has broad support from the citizens of fairfax city, city officials, cyclist groups, and from the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4012.136,
     "end": 4029.387,
     "text": "fairfax city citizens for smarter growth. For these reasons, I'm asking you to accept the grant, approve the contract, which will fully fund the system, and completes it in the most expeditious manner. Thank you for your time."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4031.69,
     "end": 4044.8,
     "text": "our next speakerrer is william kneebringhouse."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4045.504,
     "end": 4078.1,
     "text": "hello my name is bill -- PRESIDENT Of the fairfax trails and streams. I organic the idea of the fairfax trail 27 years ago. And organized hikes across the county. Our mayor then would welcome hikers with refreshments. We hope to hike near the george snyder trail as we envision it mostly away from traffic. With top and grassroots effort"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4079.571,
     "end": 4112.2,
     "text": "the trail opened officially in 2007. People loved this 4 1-mile trail with one exception the three miles that bypass the beautiful parks in fairfax. Which could be its keystone. We work closely with the city of fairfax for 15 years under various elected officials to help to prioritize the long plan for the george snyder trail. We also worked closely with vdot's I-66 widening to make the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4114.605,
     "end": 4144.702,
     "text": "trail along 123 as scenic as possible. At our urging vdot improved the alignment. It is not immediately adjacent to 123. Instead uses the open space to make this a pleasant future part of the cross county trail. It and snyder trail will fulfill decade long vision of a trail with the city of fairfax at its heart. The kamp washington bicycle association got it right with"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4145.336,
     "end": 4176.734,
     "text": "the recent letter to the city, we have a fully funded -- comprehensive plan that used the local and regional trail networks to the benefit of the city and visitors that were thoughtfully developed with plenty of community input and has enormous net benefits to the city, and residents and larger region and must be a aallowed to move forward."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4177.68,
     "end": 4209.566,
     "text": "We on can't recall backing out of a project this late with so much dedicated funding at stake, to hand back hard-won dollar at any time is eyebrow-raising. To do so in a period of lean budgeting borders on malpractice is. For the snyder trail it is 4th and goal, in over time. Will you take a knee on fourth and goal in over time. Will you break trust with vdot,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4210.768,
     "end": 4216.307,
     "text": "and city of virginia, please no, let's bring it home, support it's george snyder trail. Thank you so much."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4220.746,
     "end": 4225.949,
     "text": "next speakerrer, jim galispi. Followed by frank shintola."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4227.952,
     "end": 4258.448,
     "text": "close enough. Good evening, I'm jim galispi -- at 3604 colony road here to support the appropriation and moving ahead with the trail. I'm excited with the connection with the cross county trail. And the opportunity for residents of the county and the city to use that trail and actually to bring some business here within the city as well. I trust that the project"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4260.386,
     "end": 4271.663,
     "text": "planners and the city staff have worked diligently to preserve as many mature trees as possible. I trust they will continue to do so as the project moves ahead. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4273.265,
     "end": 4275.265,
     "text": "next speakerrer is frank --"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4281.206,
     "end": 4312.102,
     "text": "good enough. It's been like that forever. Good evening, my name is frank, at 3222 cambridge court, and this is the first time I'm speaking. I'm speaking on a george snyder trail transportation project. I'm opposed to building this road through old growth forest because there's other better and cheaper alternatives available. Months ago I presented a detail plan for these alternatives and I received no response."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4313.105,
     "end": 4341.531,
     "text": "I'm asking each and every one of you to please make the right decision, and save our woods. I took the liberty of bringing one with. if I can give it to this young lady. If that would be all right. Thank you so much."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4342.501,
     "end": 4375.132,
     "text": "next speaker is jack cole. good evening, mayor, members of the council, I hope everyone had a good holiday. My name is jack cull 3228 cambridge court, and yes, I'm back again. In the past I've come and stood before you, urging compromise, urging different -- that you look at different scenarios, more fiscally responsible and environmentally responsible for the george snyder trail. Obviously, that train sailed."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4375.434,
     "end": 4405.53,
     "text": "Our -- the ship left. And now tonight -- I'll get my analogy right. But tonight, I rise to urge the council oppose. -- the 4.6 additional appropriations for trail. I suspect' this will not be the last time that the council -- or we will have come before the council -- or the council before the state -- or whatever -- to get additional funding for this% project. Also, we're talking about grant money tonight."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4406.297,
     "end": 4436.325,
     "text": "But it has not been discussed about the operations in maintenance funding that the city of fairfax taxpayers will have to pony up for this project. And with each passing year those costs are going to rise and the taxpayers will be on the hook for that. But the fiscal issues aside, even more disturbing is the environmental impacts to this project. I shutter to think of what"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4438.496,
     "end": 4471.62,
     "text": "unleashing those bulldozers on that wooded area will do to -- well, the environment, but also to the stream restoration project that we just completed. The runoff. The damage and the destruction of wetlands. And yes, the destruction of several hundred more trees. Those of us who have lived next to this area and this stream for the last year or so, we've watched the destruction of all those trees for the stream restoration project."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4473.165,
     "end": 4505.329,
     "text": "The damage is going to be immense and -- and -- and -- I would say, so unnecessary. So unnecessary. I'm also willing to predict that several years from now, either you or your successors will be sitting here again debating a budget appropriations for a new stream restoration project to mitigate the damage already done to the stream restoration project from this ill-conceived"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4505.731,
     "end": 4526.884,
     "text": "george snyder trail project. The council has an opportunity tonight to -- to grab common sense from this -- this ill-conceived project. I urge the council, oppose, and vote against the 4.6 million-dollar additional appropriation. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4529.888,
     "end": 4535.792,
     "text": "our next speaker is evi e and followed by leslie cohn."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4536.527,
     "end": 4571.628,
     "text": "thank you. Hello. Good either,councilmembers, and MADAME Mayor. My name is evelina, I've been a resident in fairfax since 1993. I'm here asking you to vote in favor of accepting the additional funds and to vote in favor of awarding the contract to construct the george snyder trail to honor our past mayor and make transformational legacy for decades to come."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4573.699,
     "end": 4605.73,
     "text": "Folks with kids or mobility impairments, park and nature enthusiast and many others will gain added benefits from this trail. Well-constructed trails bring all kind of humans outside, provide safe passage to school, work, fun, shopping, eating out, and give us a sense of community. Isn't this what we always say about the the great city of fairfax. Many of you know that I commute 6.2 miles each way to work in fairfax county public schools."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4607.766,
     "end": 4639.731,
     "text": "I was able to ride a little over 10,000 miles in the 9 years I commuted to and from work. On my thousandth ride mayor meye er, came along, it was great, the kids were wonderful. These 10,000 miles were made possible mostly because of safe and passible trails, we need more of these safe connections. During that same timeframe I also rode on sunday mornings"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4643.34,
     "end": 4676.34,
     "text": "with a friend around 12-mile loop, the george snyder trail will make this loop much safer. Additionally, I was a member of the parks and rec advisory board from 2011 to 2021, this is why I started to bike to work. They put together a bike path for students taking metro to vena and then biking to george mason university. And came to present this path in 2012. I asked if he could find a way for me to bike to work."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4676.701,
     "end": 4708.466,
     "text": "Two days later, on a saturday, he showed me two viable ways to commuting options and within two weeks I started biking to work. You know proud meets monthly. The george snyder trail was add ed to the comprehensive plan in 2012. I remember cathy delgado the detector, providing updates, during most if not each of every of the meetings she ran. This trail has been talked about, discussed and worked on"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4710.469,
     "end": 4722.646,
     "text": "for thousands of hours, in frab, and other venue including community forums, architectural and staff work. It is time to get the funds approved and get the trail built. Thank you for your time."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4724.282,
     "end": 4728.685,
     "text": "our next speaker leslie cohn. Following is janice miller."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4728.787,
     "end": 4759.45,
     "text": "good evening. My name is leslie culen, at 3411 spring lake terrace. I'm here again to express my continued support for fully funding the george snyder trail and moving forward with awarding the contract. I believe the trail is an important investment in our community, supporting connectivity, safety, recreation and long-term quality of life for residents. At the same time I I want to be candid many in the community are"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4761.854,
     "end": 4795.253,
     "text": "growing weary of the renegotiations surrounding this development. The george snyder trail has been studied, dedebated, revisited extensively. Continuing to reopen the same conversations slows progression on an initiative that has broad support and clean public benefit. i respectfully urge you to approve and proceed so the project can finally move forward to demonstrate a commitment to the thoughtful planning and decisive action, allowing the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4795.754,
     "end": 4801.426,
     "text": "community focus energy on the next set of priorities, rather than revisiting the same one again. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4802.227,
     "end": 4809.166,
     "text": "next speaker is janice miller. Following is you judy fisher."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4810.803,
     "end": 4842.633,
     "text": "s -- good evening. I'm janice miller, a long-time city resident. Mayor read, councilmembers, city staff. Thank you for the opportunity to address the matter of george snyder trail once again. Putting this matter to bed is welcomed. The time to make a final decision and to move on. That said, the follow-up question is simple, what's next? If council passes the supplement appropriation resolution in the amount of 4.6 million for the george snyder trail and awards the contract the trail moves forward."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4846.338,
     "end": 4879.736,
     "text": "If the council votes 2-4 or 3-3 on the appropriation resolution there will be an add quarter funding -- inadequate quarter funding and the project is dead. Next, what are the unintended consequences of a cancelled george snyder trail? First, repayment of funds, there's a sva song, money money money. 3.7 million will be needed to repay regional funding bodies. Where are the funds available in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4880.272,
     "end": 4911.134,
     "text": "in the city budget? Two, future outside, that vote will send a message to regional funding bodies that the city council is not a dependable, reliable partner. And that newly-elected councils MAY not, and will not in the future, continue long-plan projects. Question, could grants for new city projects be at risk? Certainly, that's possible. Number three, corporate and charitable giving."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4911.569,
     "end": 4942.499,
     "text": "Recently the city council established a parks foundation board. It is my understanding that the council also appointed members to begin the work of the foundation. One of the major tasks of this board will be to solicit funds from corporations and charitable entities to receive recreational capital project funds awell as funds for recreational programs. Will a no vote on tonight's"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4942.534,
     "end": 4977.1,
     "text": "motion affect the work of this group and hamper their effort to solicit funds? Again, that's possible. Please remember, actions have consequences. City council stability, reliability and consistency go a long way in sending positive messages, not only to city residents and businesses, but to the broader community as well. City councils have forever completed plans previously developed by former councils. I would like to point out that last saturday, at the council's retreat, councilmember Mcquillen remarked that people"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4978.103,
     "end": 5004.729,
     "text": "need to remember planned projects take seven to 10 years. And councilmember peterson mentioned multiple times that a city needs a big bang for the buck. Trust me, george snyder trail has taken tseems, forever. And it is a big bang for the buck. It's time to move forward. Please vote yes. Move on. Provide stability, reliability, and consistency. Thank you for your time and attention."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5006.432,
     "end": 5014.637,
     "text": "next speaker is judy fisher. Following will be tamar harvey."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5016.708,
     "end": 5053.478,
     "text": "my name is judy fisher, long-time resident of the city. I'm speaking as part of large majority of city residents who favor completion 6of the george snyder trail. I believe a small but very vocal group of people have left the current council with the mistaken belief that a majority of residents would like to abandon long-standing plans to build the trail. Most of us thought this decision was finalized years ago. We are dis disappointed at the wasted time of the council which"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5056.181,
     "end": 5085.608,
     "text": "has neglected needed business to discuss and discuss then to renege on this plan. Do not think delaying action is a viable plan. Honor the decisions and financial commitments entered by previous councils. We do not want to become known as undependable or for failing to honor commitments. Build the trail now."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5088.314,
     "end": 5090.314,
     "text": "next speaker is tamar harvey."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5091.417,
     "end": 5123.58,
     "text": "Followed is gene recoli. good evening. I'm tamara harvey a resident at 10822 maple street. I commute to work by bike all year wrong -- round. All weather. Night, day. I go errands and walk a great deal in the city. I see the dan straily as an important east-west route to connect the city to the county and keep commuters like me safe. 50 is not a safe route. Even on the sidewalk."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5125.483,
     "end": 5157.88,
     "text": "We can't count on cheap and abundant fuel forever. We will have greater need of safe bike and pedestrian routes like this, 10, 20 years from now. Maybe sooner, maybe a lot sooner because of e-bikes and scooters. If we don't build this now, with other people's money, we will build it in the future with our own and until then people like me will continue putting our"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5158.25,
     "end": 5160.785,
     "text": "self at risk. Please build the trail. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5163.354,
     "end": 5165.323,
     "text": "next speaker, gene and followed by jane."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5167.759,
     "end": 5198.955,
     "text": "hi good evening I'm gene, live in mo woods, here since 19 6 with my family. I recommend we do not take the money. Everybody's talking about it is a business decision. Everybody's talking about it is the right thing to do. I don't disagree with that, however, nobody is talking about the rape, and careenage what's going on between draper park and 123, going through a beautiful piece of ground, where the at"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5200.893,
     "end": 5231.321,
     "text": "kit creek runoffs through -- with the woodland. And the forest. I watched them take the trees out of the area during creek restoration. 250-year oaks. Four-foot diameter trunks, 400 came out. Next it will be 600 plus. I walked the area twice last weekend. You can see it's go to be hard to do. Why would you tear up one of the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5232.523,
     "end": 5264.322,
     "text": "most beautiful places for a bike trail. If you want a bike trail put it where it can be accessed. You're going to tear up a jewel of fairfax city for a walking and bike trail. I think it's a great thing. Do the right thing in that regard. I've been here 40 years and walked through there with my three kids and grandchildren. It's beautiful down there. You've got the creek. You got flora and fauna. I don't see how -- when they tear that area up -- try to connect the pieces of the snyder trail, it's going to be mixed"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5264.689,
     "end": 5295.719,
     "text": "and matched. I would want to see somebody ride a bike through there. You will have to go up and down, round and round. The ground is treacherous. So what I say, build the trail if you want to. Don't appropriate the money now. Get a plan, rewrite the plan. If it has taken 15 years that means it's hard work. You want to get it right. Tearing up that piece of ground is not going to be the right thing to do. The segments I'm talking about,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5295.753,
     "end": 5327.184,
     "text": "draper park, staffer drive, to fair woods parkway, right by the cvsin over and there look. It looks like somebody raped it with bulldozers and back shows and of course the fairview park wray to 123. One more piece. You have a hard job, I respect that. There are existing walk ways and paths that can be connected. Go through creatively."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5328.286,
     "end": 5354.912,
     "text": "Get somebody to do it and connect them. I'm sorry. All right. In closure, yeah, finish the trail, but finish the right trail, don't finish the one that takes the crown jewel of fairfax city and tears it apart, it will not be a good decision. Go to cambridge station and see what happened there. They ruined that whole area. They ruined it. Thank you very much for your time."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5356.448,
     "end": 5363.253,
     "text": "our next speaker is jane kelsey, following is mary anna."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5365.457,
     "end": 5398.55,
     "text": "good evening I'm jane kelsey 4041 autumn court, fairfax city, I've been in the city since 1961 and loved it. I really want to tell you that I support the trail. I think they are very important, not only from my personal standpoint, but I I have seen what it does for the other people in the community. It's for recreation, that's fine, but it is also for people who want to go up to main street. It saves them getting in the car"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5398.657,
     "end": 5429.82,
     "text": "and driving a short distance. If they've got a trail, instead of having to go up and down the streets to get to main street, they wouldn't do it, they would take the car. So think that helps many environmental issue that's we have. So, I just want to speak to that issue as well as the issue of saving taxpayer money. And I just do not see the math of how you can turn this down when you've got 21 million and we have to pay 4 million."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5430.456,
     "end": 5457.18,
     "text": "Just think about the difference between that. When you're just handed the 21 million, why would you give it back? It seems to me you would just finish what you started a long time ago, when it was in the plan, I believe, originally, and do it. It just seems so simple to me. But obviously I'm not having to make the decision for everybody in fairfax city. But thank you very much."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5462.86,
     "end": 5470.227,
     "text": "next speaker is mary anna hornay. Following is jeb mann."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5483.474,
     "end": 5515.835,
     "text": "good evening, I'm at 10134 spring lake terrace. The question we should be asking ourselves, if this was such a great project, why wasn't it done years ago? Why did it keep going forward, and forward, and costing us more and more money? Probably because of the way the council handled it. I'm sorry. You weren't up front with us. You weren't willing to listen to us."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5517.309,
     "end": 5550.408,
     "text": "We gave you a petition and it was smeared at. If you think we're going to trust the city council with spending more money! You've got to be kidding me. I saw the picture today what you've already done be -- this on isn't -- this is environmental rape. I'm sorry. But -- uh -- if this was a good program, then you should have"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5552.111,
     "end": 5584.375,
     "text": "worked out some way and have gotten it taken care of years ago. I believe it was because you dug your heels in and there was only one way to do it, and you weren't willing to compromise. You weren't willing to listen to us. And you -- and -- the prior -- council -- just frankly, blew it why should we trust you any"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5584.375,
     "end": 5615.204,
     "text": "more? And as far as spending money? This is a money pit. It's going to cost more and more and more because you haven't really done this appropriately. There are going to be additional costs that you are not even thinking about."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5618.142,
     "end": 5654.311,
     "text": "And we're saying, not a penny more. And if anyone wants to discuss the issue with me, you know where I live, and I'll even make the coffee. But I wish you had this prior -- councils -- had been willing to sit down and talk to their citizens, instead of assuming that they had the right answer. I mean you no disrespect."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5655.146,
     "end": 5657.515,
     "text": "Consider this a fraternal correction. Thank you very much."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5660.85,
     "end": 5664.888,
     "text": "next speaker is jeb mann. Followed him is henry mann."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5673.232,
     "end": 5703.695,
     "text": "my name is jeb mann, I'm at 9744 cardinal road, in the great city of fairfax. I have heard many eloquent people tonight on both sides of the issue, but I encourage you to vote no. this -- we need safety and we need walkways and we need things like that in this city, but we do not need the george snyder trail as proposed, because it's bloated, the environmental study"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5705.431,
     "end": 5738.96,
     "text": "that was done on it is flawed, there are protected species an wetlands out there that will be decimated, it's one of the last stands in the city of hardwood forest and it's beautiful like the gentleman spoke about before, walking around it with my family. It's wonderful. And the animals, we haven't even talked about the blue herring in there, the one I've seen, there might be more, it's always there. The ducks. The fox. The raccoons. All of that going to be messed up."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5738.863,
     "end": 5772.13,
     "text": "MR. Ito, word on the street is, has decided not to plants some of the trees in the stream restoration because it's going to mess up what's to plan for the george snyder trail. That's less trees going up. The george snyder trail is going to decimate more trees. It's a tough decision. And you guys work hard, I know that, but you've got to think of your fiduciary responsibility to the citizens and the future of fairfax city, and my son, and the people who come in and move"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5773.899,
     "end": 5800.49,
     "text": "in here years and years from now. Don't get rid of those woods. Don't mess up those woods. It's the only thing we've got that -- that really lets us know that we're a tree-city. I mean, we speak out of both sides of our mouths, it's kind of crazy. It's time to stop the madness. Just vote no."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5803.295,
     "end": 5806.129,
     "text": "next is henry mann, followed by kathleen brown."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5808.767,
     "end": 5839.631,
     "text": "my name is henny mann, I live at 9744 cardinal road. That was my dad, and I want to correct him, there's two herrings, that we've seen together. I can confidently say I've lived in the same house all my life. I can confidetly say I know the woods that the george snyder trail is going to go through basically more than anybody in this room. I know, when I think of the george snyder trail and, like, the area that it's going to go"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5840.933,
     "end": 5873.197,
     "text": "through, I think -- not necessarily, of the woods -- as much as the people that go through it. I this there's a lot of ways I had -- waste I had to pick up. Walking home I've picked up 10 pounds of trash in the last three -- two days. Sorry. That's my mindset right now. But if more people come in there, that's going to be more of an issue. We're going to have to worry about cleaning up trash. I have heard about police"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5874.466,
     "end": 5906.162,
     "text": "numbers too, right. We have to add more police to the staff. The police is understaffed as it is. I might be wrong on that. I want to clarify more things that people have said. The idea that the george snyder trail really crosses through the city and passes the city's businesses -- I mean, no -- it -- there's a wawa kind of near where wilcox trail head lets out. That's it. If you go through those woods"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5906.999,
     "end": 5938.296,
     "text": "there's not much else, unless you want to check into the best western. It's wawa, to best western, and woods. Nothing else. If we really want to advertise fairfax as it is to the greater people, which we're very considerate of, to the greater county we should pass it through the real part of fairfax city, where the businesses are, where we want to showcase what we have. Also, we have plenty of projects. Think of fern street project."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5939.465,
     "end": 5957.248,
     "text": "A lot of great small connector projects, if we work on those, connecting communities together, we'd have a much -- I mean, we'd have a much stronger feeling of a unified city. We shouldn't have a line cutting off mosley woods from everything else. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5958.75,
     "end": 5963.487,
     "text": "our next speaker is kathleen brown. Following is chris frinch."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5965.457,
     "end": 5995.52,
     "text": "good evening, I'm kathleen brown, I live at 3231 juniper lane in false church. In the word of sage david attenborough, ancient trees are precious, little on earth plays rich life in a single organism. I speak from an organization that educates through environmental films and documentaries, right here in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5996.921,
     "end": 6027.25,
     "text": "fairfax city, on the very urgent issues of our time, extreme weather, record temperatures, diversity loss, ecosystem stress along -- among others. After the films, attendees from all over local virginia are a testament -- on urgent climate matters. I also speak as I member of group of residents in the seventh-inning stretch corner --"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6027.72,
     "end": 6059.917,
     "text": "seven corner. Area of fairfax. Which fought off 2 acres of land in the county. With -- lowest amount of park lane. Half of justice park 18 acres is a urban forest with tributary that runs into the lake near by. The 8 acre forest is a smallerrer version, having walked portions of your trail, the proposed extension clearly struck me that while our 2-acre paving inside justice park was a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6060.686,
     "end": 6092.749,
     "text": "parking lot, this plan bike trail is a an urban for forest super highway. It cuts deep, wide and through the very center of the forest. Your cost in tree loss, stress on at kin creek, loss of plant and animal habitat and decades of soil enrichment are too high a price to pay. While improved pathway for bike and pedestrian travel are certainly valuable the proposeed"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6093.285,
     "end": 6123.913,
     "text": "routes and massive retaining walls are too intrusive. And costly. And water stress. And soil degradation. Preservation over paving is the best path to take through your remarkable and rich urban forest. Your determination this very evening will be felt for generations for human, animal, tree and plant life, not only for our common survival but for"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6124.216,
     "end": 6126.984,
     "text": "our flourishing. Thank you for this opportunity to weigh in."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6129.455,
     "end": 6130.955,
     "text": "next is chris frinch. Following is phil."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6132.558,
     "end": 6163.21,
     "text": "thank you, good evening mayor and council I live at 3172 -- I work for organization focused on advocating for specifically pedestrian safety throughout the region. We have more than 2,000 members with chapters in alexandria, arlington and fairfax and I communicate on the initiatives. We were offered a seat at the table in the advisory committee."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6163.354,
     "end": 6195.186,
     "text": "I come to speak in strong support of the george snyder trail. I will start by sharing our fairfax chapter is say member of fairfax healthy communities, network of 22 non-profits working in active transportation, smart growth, environment, housing and food security. Network partners envision a region where people can live, work and plan in connected communities that are healthy, sustainable and inclusive. We believe safe and comfort routes to walk, bike, use transit and get to places we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6196.21,
     "end": 6228.92,
     "text": "`need and want to go without relying on driving is integral in making our communities more sustainable and healthier and contributes to a vibrant local economy. This project works to achieve that vision. I certainly acknowledge the trails, construction will not be without impact, however, I believe there are considerable benefits that will be realized. The trail will provide much-needed missing connection between 66 and wilcox trail and connectivity to local residents"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6229.153,
     "end": 6262.719,
     "text": "by expanding active transportation options for all agesnd all abilities to get to school, work, metro, and other restaurants and retail and other destinations, comfortably, safely and with low levels of stress. These projects reduce car dependency and vehicle miles traveled aligning with regional climate goals and greenhouse gasses emissions and reduce"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6263.689,
     "end": 6298.56,
     "text": "tailpipe pollutant and increase physical activity, social connection and overall improvements to public health. Further, greater access to outdoor for all ages and abilities grow appreciation and stewardship for our natural resources. I often find myself as hearings such as this speaking in support of policies and actions which put people's needs at the center of decision-making to ensure liveable, sustainable, and green communities. Thank you for allowing me the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6298.924,
     "end": 6300.924,
     "text": "time to do just that tonight."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6303.162,
     "end": 6305.196,
     "text": "next is phil witasa, following is jon russell."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6306.98,
     "end": 6340.697,
     "text": "I speak tonight representing the friends of at kin creek, regarding the george snyder trail. Down, down, down, into the darkness of the grave. Gently they go. The beautiful, the tender, the kind. The fish, the today, the fern. The sick more. The maple. down they go. For our convenience. For our whims. For our sins. Down they go. We adults MAY ride our toys on their tombs. The year is 2026."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6341.334,
     "end": 6373.43,
     "text": "It is not 1826 when land was needed to feed and grow the multitudes. It is not 1926 spreading a track over unpaved continent. No it is 2026 we find ourselves the guard ians of the wetlands. When it is time to curve our desires in favor of protecting what remains of nature. We learned now the cost of the george snyder trail has become too high in dollars we can count. We should have learned before"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6373.799,
     "end": 6386.344,
     "text": "the start that the cost was already too high in those things whose value is beyond counting. Please do not continue with the george snyder trail. Or similar projects to pave through our last woods and wetlands. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6388.781,
     "end": 6393.5,
     "text": "next speaker is jon russell. Following is douglas cox."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6400.192,
     "end": 6431.188,
     "text": "MADAME Mayor, members of the city council, my name is cappy russell. I live in the daniels run woods neighborhood. The clerk has my exact address. My friend brian has a useful. Taxonomy for understanding attractable issues like, it's the difference between good reasons and real reasons. I've spoken to this body before and correspond with many of you about the good reasons to build the george snyder trail. Creating an amenity accessible"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6432.858,
     "end": 6464.721,
     "text": "for all of the city's residents. Diversifying our transportation infrastructure so that all residents can choose how best to move about and beyond their homes into the wild world and back again. Integrating our community with neighboring towns, MAY be introducing ourselves to visitors, attracting new customers for local businesses, new residents for our city. Being true to our word, and a reliable partner the eyes of development organizations and government agencies we might want to call upon in the future. And then of course, there's the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6466.191,
     "end": 6497.721,
     "text": "matter of minding the city's finances carefully, not incurring a needless penalty of more than 3 million dollars, no small matter that. From where I stand the council has all it needs to help the next logical step of development. That we are still debating this measure again so many months later suggests to me all of the good reasons in the world are not reaching the real reasons for debate and delay."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6498.357,
     "end": 6529.187,
     "text": "My fear is that the real reason some on the council and some in the city say no is a certain allergy to any development, any growth, any change in our city. If that is what you on the council are feeling, or responding to, if the real reason to oppose the trail is the desire to encase the city in amber and reject development in all of its forms, a trail today, an apartment building, a health center, let me suggest, that's"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6530.589,
     "end": 6561.251,
     "text": "not what it means to be a city. Cities are living, breathing things, they grow, and change and develop. That dynamickism is the point. It's what many people choose to live in a city for. It's the source of a city's prosperity. To curb it or stall it is to risk the long-term health of your city. Cities that start changing, start withering. So please vote with opt optimism"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6561.92,
     "end": 6566.223,
     "text": "about fairfax's city's future life and to fund and build the george snyder trail."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6566.258,
     "end": 6575.832,
     "text": "Thank you for your time. okay. Next speaker is douglass cox. Following is averil garland."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6580.805,
     "end": 6611.236,
     "text": "good evening, douglass cox, fairview drive. You guys have my address. Anyways. Most of you already have made up your minds. I'm not for it. I un, like, 9 99% of the city have ridden all the way down that, it's easy, not a big deal so I'm not a fan of this. You don't have metrics to say how many people use I-66 at 123. It's built. It's there."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6611.236,
     "end": 6644.5,
     "text": "How many people cross? How many use it? Unique, individual users. You don't know. No one took the metrics. Never figured out how much sediment goes into the stream if you build this thing. Spend all that money on tmdl, and now will blow it by wiping away putting this trail. Let's get into some truths, it seems like a lot of people are confused here. This trail does not come anywhere near the cross county trail to the west."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6644.637,
     "end": 6680.47,
     "text": "Cross county trail goes up blake lane, jermantown, goes behind oak mont. You go through the city and meet cross country -- not even close. If oak mont and moose lodge are next to each other, fantasticky, stop with that nonsense. On the other side. Let's be truthful. Ada-accessible trail. Complete. Important missing link. Between I-66 to connect with the jerry colony cross country trail."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6681.106,
     "end": 6713.36,
     "text": "It does not connect. Wilcox trail does. So if you come down the snyder trail to east. Go down 50 a little ways. The unsafe highway that we can't get on. Catch wilcox and then hit the cct. But saying they connect is like saying washington state connects to alaska. All right. They don't. So let's quit with the nonsense, quit with the lies, let's all be honest about what this does, where it goes, and also, how did we get here?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6714.44,
     "end": 6746.237,
     "text": "This thing almost got killed in the MAY/june timeframe. And, the city was supposed to have until DECEMBER to talk amongst ourselves and then all of a sudden vdot threw out, no, in MAY, you have to decide by JUNE. So, talks were made, votes were done, JUNE 10th you sent a thing out to vdot on and said, yeah, we're going forward. The bill came in."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6746.271,
     "end": 6770.294,
     "text": "it was higher. Now here we are talking about. I got to say, this is a bad look. Bill cutler who wrote the letter from vdot that said make your decision by JUNE, two days after you made the decision, here's the mayor with bill cutler, thumb's up. It's a bad look. If there was collusion, shame on you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6773.899,
     "end": 6805.897,
     "text": "our next speaker is avril garland. hi. I live in the town of vena. I'm a member of friends of the at kin creek. And I -- it's very confusing. You have a terrible job ahead of you. I thank very much the three councilmembers who have had the foresight and courage to oppose this wrong-headed recreation development which is undesired by many residents. Honestly, you can't tell -- the opposing side said they haved"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6805.897,
     "end": 6837.26,
     "text": "about support. I'm against it -- have broad support. I'm against it. But how many people even want the trail? Do we know this? I know one county did survey on the deer. Do we want to call the deer. Sharp shooting. The parks. I don't think we know what the residents want. I suggest you find out, door-to-door. Another issue is the gain."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6837.129,
     "end": 6867.224,
     "text": "Yes you have a certain amount of gain. I'm on a bicycle. i don't particularly like using route 50 or route 66. I mean a paved path through the woods, yeah, I'd like that. But look at the cost. I don't want that to come at the price, these bard owls live in the woods, the herring, the finch, the sal manders, these"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6867.86,
     "end": 6898.87,
     "text": "woodses -- to feed 500 trees to the chipper is a terribly high cost, to replace the 500 or 600 trees by little sticks and tubes that's going to take a hundred years to grow as somebody pointed out. Yeah, the trail would be nice but the cost is really so terrible. You'd be losing -- think of what you'd be losing. I think what you'd be losing would be greatly more than what you're getting. So I would ask you to please oppose the trail or find some"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6898.59,
     "end": 6900.892,
     "text": "other ways of making the roads safer. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6902.194,
     "end": 6908.598,
     "text": "our next speaker is ellen pence. Following is sophie mcneil."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6914.339,
     "end": 6945.837,
     "text": "I'm ellen pence, 3211 adams court. I just realized I have been a resident of cambridge station for 58 years now. I'm going to read a letter that was written to you today, was given to me. It says, dear councilmembers I've asked ellen pence to read this on behalf of rebecca codwell PRESIDENT Of the mosley association."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6947.373,
     "end": 6977.67,
     "text": "I speak on behalf of 168 families who live in our community. We were extremely disappointed to learn in last two years that our entire forest would be removed with a creek restoration project and bike roadway. A dozen years ago we lost one-third of the neighborhood forest but gained a field and playground in staff forg d park."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6977.836,
     "end": 7009.532,
     "text": "We can't stand to watch any more projects. Initially we were excited about the prospect of lowering the flood plane however the new creek has already flooded our homes. If the other half of our forest is removed the runoff problem will be worst. There are also ponds of standing water which will be horrible in two months as soon as the weather is warm enough for mosquitoes. We were told they were a mistake"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7011.17,
     "end": 7042.3,
     "text": "and will have drainage ditches done but there is still standing water. Who is going to maintain this properly? Our forest is already half gone. Please don't take the other half. The children of our neighborhood used to explore and look for and play in the woods, we like the fresh air filtered by the mature forest. We had a barrier between us and stafford park and fairfax boulevard with all of the trees."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7044.336,
     "end": 7076.199,
     "text": "We're now having problems with road ents and have seen foxes, raptors, and raccoon coming close to buildings since there's nowhere else for them to live. The surrounding neighborhoods are fine with bike lanes going on cardinal road, please use this route instead of taking down the rest of our mature forest. the wetlands to the west of us are protected so that that part of the project cannot go forward. Please leave things the way they are. My final thoughts are these, our community does not want to be"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7076.634,
     "end": 7098.21,
     "text": "disturbed with any more construction, and we want to keep what small part of our mature forest remains. Thank you, rebecca calledwell, PRESIDENT, mosby woods council of co-owners."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7099.9,
     "end": 7103.795,
     "text": "next speaker. Sophie mcneil. Following is toby sorenson."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7106.298,
     "end": 7137.94,
     "text": "hello I live at 3417 newberry road. For my whole life I've lived in country club hills, grew up playing in the forest. You know, I'm speaking for myself, family, friends and neighbors who can't be here who are also on peased to -- opposed to the trail: not only there are issues, now it's over budget. For such short length. A trail system already exists. How well are those maintained? How can we trust the new trail"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7137.963,
     "end": 7168.426,
     "text": "will be taken care of? I can recite many environmental issues this trail poses. But you heard them all before. And I just graduated with bachelor's my degree on environmental science, I worked on wetland association, for forest surveys and the trail would destroy vital ecosystems. They won't bounce back by planting sapplings. Passing these plans, supporting the budget addition, that's not the right decision."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7170.161,
     "end": 7188.779,
     "text": "It is the selfish one. can we think about something other than our own personal benefit? These anthropologic views, for once. I urge you to please stop these destructive plans. Not to mention, I heard we MAY not even have to repay it. Thank you very much."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7191.383,
     "end": 7196.886,
     "text": "our next speaker is toby sorenson. Following is jennifer rose."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7204.228,
     "end": 7234.858,
     "text": "good evening, everyone. During the time I was a city school board member I served as representative to the environmental sustainability committee for three years. I also served as the representative to the parks and recreation advisory board for five years. This was during the recession of 2008 when recreational funds were severely restricted and spend a lot of time dealing with limited spending. Under the direction of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7235.16,
     "end": 7267.191,
     "text": "forward-thinking director mike mccarty and successor cathy delgado we worked on a comprehensive plan to set priorities, one being the george snyder trail, as part of cross county connector. The county was considering bypassing the city, which is at the mid-point of the county. That made no sense to us at all so we advocated to have the connector pass through the city. To have a small part of the trail give accessibility to the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7268.26,
     "end": 7299.156,
     "text": "elderly, to people with mobility issues and to parents with small children is a good thing. To have that part of the trail within the city is a good thing, walking and cycling without having to breathe automobile futurisms -- fumes is a good thing. This is an issue about trust as much as it is about trails and dollars. Taxpayers trust you to be good students of our money. Residents who need an accessible path through the woods are counting on you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7300.758,
     "end": 7332.422,
     "text": "Planning projects, especially joint projects, take a long time. Longer than any one or two year term in office. The state and county had faith in our elected leaders that they would think beyond a single election cycle. So did all of us who worked toward the goal of having the cross county connector trail pass through our community. Trees can be replanted, habitats can be restored. It is trust that is hard to rebuild."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7333.492,
     "end": 7338.362,
     "text": "Please maintain our trust in you and vote to fund the full george snyder trail."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7338.397,
     "end": 7369.327,
     "text": "Thank you for listening. next speaker is jennifer rose. Following is shelly vance. we recognize that this project has generated significant"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7370.228,
     "end": 7400.289,
     "text": "discussion as we have seen this evening and many, many weeks in the past within the community. I'm often be asked why does the chamber have a position on the trail? Some of you have asked me this question. The answer is quite straight-forward. This decision is fundamentally about economic development, fiscal responsibility, and the city's long-term competitiveness. From the chamber's perspective the choice before saw clear. First, if this project is not"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7400.591,
     "end": 7431.787,
     "text": "completed, the city could be required to repay nearly 4 million to vdot, directly from the general fund and will be born by city residents and business owners. In contrast, the trail's completion does not require general fund dollars, it's a grant from vdot. As council enters the challenging budget season, like last seasons, there's going to be difficult trade offs and potential tax increases under consideration."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7432.91,
     "end": 7463.987,
     "text": "The city cannot afford to repay funds for a project that's not going to be built. Second while the george snyder trail MAY not run directly past every business, want to put henry mann in internship, concerned about business -- it's value to the business community is undeny be. Businesses succeed within strong citywide systems, not in isolation. Trails improve connectivity in neighborhoods and employment centers and destinations and expand transportation options"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7465.724,
     "end": 7496.419,
     "text": "for employees and customers and enhance overall quality of life and increasingly important factor in business retention and expansion. Employers and workers are drawn to communities that invest in accessible, forward-thinking infrastructure. This project represents a long-term on investment. economic development is not measured solely by immediate revenue but sustained growth over time. Through increased property"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7497.156,
     "end": 7530.486,
     "text": "values, stronger attraction and retention and increase support of local businessize and city brand of thoughtful leadership, the george snyder trail contributes meaningfully to these long term outcomes. Finally the matter of reputation and future funding. This trail has been planned and vetted and returning the returning those funds would send wrong meaning of city."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7531.39,
     "end": 7553.211,
     "text": "Jeopardize future state and squander years of community engagement. For these reasons the fairfax chamber of commerce ask the council to approve the funds and contract. This would allow the project to move forward, appreciate your consideration to the city of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7553.746,
     "end": 7555.913,
     "text": "fairfax and leadership to the city. thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7561.719,
     "end": 7563.21,
     "text": "next speaker, shelly vanceson."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7567.993,
     "end": 7600.756,
     "text": "hi, shelly, I live at 3220 cambridge court. The george snyder trail design through the woods with the loss of 60s -- 600 trees makes a mockery of our urban forest management train. Unnecessary environment and reflects the effectiveness of the george stafford stream recreation. Do not build this trail through"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7602.894,
     "end": 7614.605,
     "text": "our woods and wetlands, and we are opposed to bike paths that lead to and away from the city. But other less damaging routes for the placement of this trail. thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7616.774,
     "end": 7623.714,
     "text": "next speaker, loren hillman. And following is jessica locke."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7625.784,
     "end": 7657.58,
     "text": "MADAM Mayor, city council, loren hillman. 1037 reserve courts, one of the locations in the past years. This trail conceived 20 years ago and seven elections and this means that the five previous councils not had the meaning to rehash this. And takes so long to get things"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7659.918,
     "end": 7691.714,
     "text": "done in the city and waiting on the blenheim boulevard and attending for 10 years ago. This trail is almost 20 years and why still talking about it. Fairfax is a wonderful place to live, but the bureaucracy has the city has a stand still, move forward. Too many reject out of hand to move the city forward or support others than themselves. Remain that the city remain"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7692.984,
     "end": 7726.84,
     "text": "stagnant, that is not realistic or sustainable or what fairfax city is about. Fairfax city should be a place of inclusion and plan and that progress all members of the community. Not just those already comfortable or those that have a voice. Residents complain about taxes but don't want affordable housing or community city to bring more people into the city and contribute to the taxes. And complain about the housing that block those with training and places to live."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7726.317,
     "end": 7757.715,
     "text": "Complain about traffic but don't want to build trails to make our community more walkable and bike friendly. Please let's stop talking and get this trail built. every vote the cost of this trail rises. Real damage to the city's reputation because we can't seem to get past this one issue decided 20 years ago. And real harm to the people that live here continuing to focus on this one project and taking time and money away from other"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7757.715,
     "end": 7768.191,
     "text": "concerns. Trust that you make the right decision and accept the grant and keep our city from becoming frankly an embarrassment. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7769.495,
     "end": 7771.495,
     "text": "next speaker, jessica locke."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7775.34,
     "end": 7807.13,
     "text": "And following is ann hamman. hello, good evening everybody, I live at 105 cobs grove lane. I am a cyclist and runner and environmental expert. But today I am speaking as a fairfax resident opposing the george snyder trail. I presented to this council, not this council twice before and my expertise dismissed by some members in favor of personal opinion not supported by facts."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7807.799,
     "end": 7838.229,
     "text": "Let me be clear about my credentials. I design corporate climate and assess climate risks and advise for companies like meta, amazon and ge. These companies trust my expertise and trust my ability to help them make financially sound decisions because I am pragmatic and I don't believe in preservation for the sake of preservation. Please allow me to share facts tonight."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7841.734,
     "end": 7873.298,
     "text": "Trees clean our air and filter and reduce downwind pollutants like the I-60 corridor by 30%. Trees reduce noise pollution by anywhere from 5-10 decibels perceived noise by 30%. Trees are linked to reduce heart rate and blood pressure and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7873.298,
     "end": 7905.395,
     "text": "stress and anxiety. And finally trees save money. 100 trees absorb 250 thousand gallons of rainwater that is equivalent to the pool, that lowers flooding risk of surrounding communities and increase motorist safety. I want to talk more about this particular metric, with the destruction of the trees for"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7906.631,
     "end": 7937.762,
     "text": "george snyder trail 1.5 million rain off will be handled by nearby creek that is mitigated by for free existing trees. I guarantee with that metric alone that maintenance and repair costs quickly and far exceed any amount, 3.5 million that I heard that the city pay back. In closing the george snyder trail is unnecessary and harmful and expensive."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7940.264,
     "end": 7961.51,
     "text": "This combined with other proposed or inprogress projects set a dangerous press -- precedent. And do not buy into the costs that everyone presented of the george snyder trail, please follow facts and data."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7963.589,
     "end": 7972.228,
     "text": "next speaker is ann holman. And following her is tom blackburn."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7972.298,
     "end": 8006.3,
     "text": "good evening MADAM Mayor and city council, I am ann hamman, 3227 dungston court. I have seen the trees devastated parallel to cardinal road. And now the proposal to remove more trees for the george snyder trail, just adjacent to the trees that have been removed. I've heard many good arguments for and against tonight."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8006.932,
     "end": 8038.61,
     "text": "Sometimes I almost got swayed to the for side. But then reason took over and I remembered what I have to look at when the trees are gone. We cannot lose more trees. I don't want to lose anymore trees. The twigs they planted will take years. As you tell by my gray hair I don't have years for these shrugs to grow into old growth."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8039.465,
     "end": 8070.794,
     "text": "We took away a lot of old growth. I think the lady who bragged about doing 10,000 miles of bike ride get in touch with her. Find out where she rode, maybe you can make connections with trails she took for safety. And as far as business growth, unless you are in vietnam and you look out the bus window and you see the scooters with all"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8070.896,
     "end": 8101.725,
     "text": "manner of things that they are transporting. I don't think I'm going to see a 2x4 from home depot going down the road on a bike. I don't think I see a big load of groceries for a family of four on a bike going down the road. You can connect communities but I don't necessarily buy this is going to go and flourish with all kinds of business growth."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8102.328,
     "end": 8130.722,
     "text": "That's not the only reason and the future maintenance of this trail is going to come out of my pocket. Out of the other pockets of people in favor of it. Because maintenance is not covered by what you want to accept tonight for this trail. Thank you for listening to me. I know you've heard pro's and con's and some have made up your minds both either way. And I wish you good luck, thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8132.291,
     "end": 8148.171,
     "text": "next speaker is tom blackburn."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8164.89,
     "end": 8183.74,
     "text": "I can't because -- I tried to get [Inaudible] For video tape speech but missed the deadline."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8184.243,
     "end": 8216.84,
     "text": "good evening I'm tom blackburn with the northern virginia bird alliance. I want to give you a visual extent of destruction and a few points on george snyder trail using photos taken at locations shown on stand-tex design plans for the city website. Slide 1 is start of the trail at route 133. Two-thirds of this trail is going to be significantly above or below the existing grade."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8217.408,
     "end": 8250.607,
     "text": "Slide 2, 280 feet from the start the trail will be eight feet below grade. On the right side the slope to connect with the surrounding terrain is 22 feet wide and left side retainer wall 10 feet high. Slide 3 gives you an idea how far below grade the excavation is at that point. And 275 feet long. Slide 4, the trail switches from above ground to below ground add 425 feet from the start."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8254.346,
     "end": 8288.78,
     "text": "Here at 500 feet the trail built on four feet of fill dirt to existing grade. The trail on fill for 275 feet. Slide 5, a new section begins on fill dirt, at 900 feet the fill dirt is 3 feet height with slopes to surrounding terrain 22 feet wide. This section is 255 feet long and trail switches below ground again."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8291.917,
     "end": 8323.381,
     "text": "and slide 6, trail built on eight feet of fill dirt to reach bridges. And the slope of surrounding terrain is 40 feet wide. Slide 7 shows how far above grade that the trail will be at the point where it meets the bridge. Slide 8, the trail built on the side of a steep slope requiring retaining walls. The wall will be 14 feet high plus footers 5.5 feet below grade."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8325.317,
     "end": 8358.582,
     "text": "The wall 312 feet long. Slide 9, east of fair woods there is a significant slope requiring a retaining wall to make the trail level from side-to-side. Slide 10, 70 feet east of stafford drive, the trail is six feet above grade. That excavation will be 150 feet long. Slide 11 give you idea of how far below grade."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8359.251,
     "end": 8368.358,
     "text": "If you vote to fund this trail, your legacy will be destruction of much of fairfax city's urban forest."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8369.528,
     "end": 8391.282,
     "text": "MR. Blackburn was the last speaker that signed up. And I will do the two video testimonies that we received. Give me one second. Our first video is from marissa parone."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8392.45,
     "end": 8422.847,
     "text": "hi. I am marissa parone, I live attin 9892 cardinal road. I speak in support of george snyder trail. I have two small kids why I can't be with tonight. But they are big fans of walking and biking everywhere. They think it's so much for fun than riding in a car, and I do too. I think that good trails build good neighbors and if more"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8423.682,
     "end": 8458.684,
     "text": "connected to places within walking distance, we see more people visiting city businesses and driving local traffic to those businesses. You look at places like arlington and that's what we are lacking in fairfax, that connectivity and feeling that togetherness that trails bring. I want to share a story, something that happened recently. I was visiting compass coffee with my daughter and riding along in a bike traile with me. And very obviously a mom and her seven year-old daughter behind"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8458.684,
     "end": 8490.348,
     "text": "her. And we visited compass coffee, on the way back, we pushed the button to get the pedestrian sign to cross the road at eaton place. And someone waited for us. Someone who is taking a right turn waited for us to cross the street. Waited very patiently. A line of five cars got behind this person and laying on their horns. Absolutely raging at the fact that someone waited to cross."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8491.317,
     "end": 8521.645,
     "text": "And it's because we are not used to seeing pedestrians in this area. And it feels like we don't even exist. Everyone is focused to get where they need to be in a car centric society, they are not thinking about people on bikes. I was grateful that someone willing to wait for me and shocked that so many thought it was ridiculous that someone wait for me. Even though it's the law. I think building more bike centric spaces would create more"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8522.748,
     "end": 8546.503,
     "text": "of a sense of safety for all of us. And for our kids too. I would love to see a world where our kids are able to walk to a coffee shop to hang out with their friends. That would promote a sense of independence that I think our generations are lacking. I think that supporting this trail is supporting the future of fairfax. And let's think about our kids"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8546.805,
     "end": 8553.709,
     "text": "when we vote, thanks. our next video is from sherry steely."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8554.113,
     "end": 8585.91,
     "text": "good evening, I'm sherry steely and here tonight to talk about the george snyder trail project. The project intends to transform this small foot path through the woods adjacent to ranger road park to 15-16 foot wide paved road. Necessitating the removal of more than 500 mature trees. The project has several important physical governance"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8588.446,
     "end": 8621.211,
     "text": "and environmental problems. First the current price tag stands at 24 million and rising. Still there has been in my opinion an under budgeting of maintenance costs and security challenges. To be ada compliant the trail will need regular clearing. And staffing for such endeavors has not been addressed and similarly security services have"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8621.679,
     "end": 8651.707,
     "text": "not been discussed in conjunction with this project. In terms of other projects we have just invested heavily in the stream restoration. And that project entailed creation of anti-erosion measures and the george snyder trail will circle close to the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8653.712,
     "end": 8683.808,
     "text": "accotink creek and this shows removal of trees that the george snyder trail entail. Next in terms of governance, there is a nepa document filed which stated that there is no substantial controversy to the project on the horizon. However, there is significant public opposition on record. Dating back to 2020, and more recently a petition with more"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8687.413,
     "end": 8718.276,
     "text": "than 3,000 signatures. There is a significant environmental impact that is well recorded with input from very specialized groups who have shared their expertise with the city. Even the city's own master plan with its chapter on environment and sustainability undermines the precepts of the project. Thank you to all of those councilmember who continue to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8719.178,
     "end": 8726.951,
     "text": "exercise fiscal restraint and environmental stewardship. And I urge you all to factor in these considerations in making your decision."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8730.555,
     "end": 8746.938,
     "text": "Thank you. that was our last video testimony. At this time if anybody else in the room that would like to speak to this item, if I can ask you please line up by the window sign and come up one at a time stating your name, street"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8763.289,
     "end": 8794.718,
     "text": "address and comment. hi, I want to respect everyone's time and the passion of all that have been speaking tonight. my name is erin mazy, 101 [Inaudible] Drive. Condominium. I rent and talk to neighbors who are owners and one asked me to show concerns and abomination of a plan and cost. And highly concerned what tearing down so much of this"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8795.321,
     "end": 8827.116,
     "text": "green space, protection from noise and all the construction will do to her own property values as well. I can't really speak outside as much of context, because this green space in this area was a large part why I moved here and these trails and opportunity for transit. Such an important reason why I remained in fairfax for the three years since I moved to this community. I love that, me and my husband"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8829.621,
     "end": 8861.685,
     "text": "love that we don't drive, we can walk to the cvs and walk to get sushi. And this has good access along the roads to reach businesses and to go to the communities. And I see my neighbors take it all the time. I hear a lot of wonderful things about building community, about the future. And I can tell you that my neighbors are already out there on the streets. They are walking these trails. They are already using and experiencing and enjoying the nature. And this is not the correct way"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8864.22,
     "end": 8895.918,
     "text": "to move forward and to connect more people. It just isn't. It feels more like a way to put essentially a highway through our parks and playgrounds that we already have. and including like I am baffled to see this trail especially with high speed goes next to at least three playgrounds along the way or straight through them. And just seeing the grade of the terrain and baffling this is the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8896.355,
     "end": 8929.153,
     "text": "spot to build such extensive construction. Again I love these trails. I love everything that I experienced being in fairfax. And especially when it comes to transit. And especially when it comes to the environment, and things like tree city. That means a lot to me and so far we have had a wonderful experience. But tell you looking out of my window at the stream restoration is almost enough to make us leave and move somewhere else. And the burden has fallen so significantly and it also baffles me to hear people talk"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8929.688,
     "end": 8962.686,
     "text": "about affordable housing and talk about business and improvement. When there is one of the more affordable communities here that I live in, that is bearing the brunt of the environmental impacts. And it does make me doubt the sincerity of the people who say this. So thank you for all of your time, I respect it's a difficult decision and the passion of supporters. And opponents as well."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8965.691,
     "end": 8998.323,
     "text": "good evening mayor and council, roger coster, 103 cardinal road. We have the privilege to back up to the forest that is proposed to be cut down for this project. and one of the animals that live in this forest, my kids have dubbed freddie the fox. We love when it he comes into our backyard and through mosby woods. I fear that this is cutting down his home and along with animals and species that we enjoy in our"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8998.323,
     "end": 9030.854,
     "text": "wonderful city. And you heard about other environmental impacts, I don't need to repeat that. I would like to urge you to consider not appropriating the money and canceling the project. And I have unique project as a city to achieve common goals. To be a tree city and have urban forest and proud of our wilderness and trees. I think we should work together to obtain federal funds for open space. We have the parks foundation"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9032.24,
     "end": 9063.72,
     "text": "that potentially raise money. I am a professional nonprofit fundraiser and personally happy to help put a coalition and help with communities having the discussion of development or not development. I hope we can do that, I hope we can save freddie the fox and move forward with fairfax together."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9070.963,
     "end": 9072.963,
     "text": "Thank you very much."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9073.699,
     "end": 9104.394,
     "text": "good evening, I am beth, I live at 10916 berry street. Tonight speaking on behalf of myself and in support of this trail. I usually write my remarks down but I didn't tonight and wing it. And I listened to sides of the argument and one thing to point out from my perspective. I have worked for the county for 25 years. I had less gray hair when I started and less perspective in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9105.13,
     "end": 9137.26,
     "text": "terms this project is what defined as a generational project and you've seen it because of the opposition and support and multiple perspectives that come forward here. And my experience as being a transportation planner is I-66 project presenting the opportunity to provide those connections on a highway project with pedestrian and bicycle facilities built into the infrastructure. One thing that people don't know, vdot only required to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9138.229,
     "end": 9170.395,
     "text": "consider sidewalks as part of projects in 2004. Not 1960. Only became a policy of theirs in 2004. Why it's taken so long to consider that pets as priority. This project came at a time when they considered ped and bicycle facilities and additional crossings on 123 have been built to tie into this project. Things are put in place more than a comp plan but other"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9171.863,
     "end": 9203.627,
     "text": "infrastructure to support this project. I for one didn't originally come from virginia but I moved after school being from virginia tech. And came from a tiny state and tight knit community and fairfax city is my home and found those same values here. One thing I want to point out, these opportunities in this little city, six square miles of this infrastructure don't come along often. It creates a legacy you can be a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9203.829,
     "end": 9235.726,
     "text": "part of or be part of the legacy of demise of this project. Please take all of that in consideration, not just the impacts but softer human parts of being the infrastructure and opportunities here and being connected. So I support this project and I support that cct be rerouted to be part of city of fairfax and not blake lane that this project help provide. There is a bigger context and hope you see the forest through"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9236.829,
     "end": 9242.199,
     "text": "the trees. Thank you very much."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9246.905,
     "end": 9278.335,
     "text": "tulla schuts. I live on university drive and I have questions, the cost is over budget even though project has broken ground and what happens if construction goes over budget further? This is likely increasing costs we are all experiencing. Part of this project is through floodplain and trees help in the plain and soak up water. 100 year floods is more frequent and assuming this is built, how"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9278.904,
     "end": 9311.702,
     "text": "much is allocated for maintenance and stream restoration? And we talked about how we can plant saplings to replace mature trees. An article saying that local forests are failing to provide the next generation of trees. And all along the east coast and D.C. Area nine out of 11 parks studied were eminent or probable failure category. And they urged preserving the existing forest. I actually went through and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9312.638,
     "end": 9343.4,
     "text": "google mapped and put the city boundaries to find out what forest do we have in this area. And really other than daniels run park and at van dyck park, this is very developed. So I can give you copies of that. I am also unclear how it's good for business to direct people through a forest. Doesn't seem that you can shop well there. And I'm not against having a connecting path."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9344.336,
     "end": 9368.959,
     "text": "This is not an easy decision. My concern is this project as proposed could end up being a money pit more than the 3.7 million to encounter further unexpected costs. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9371.697,
     "end": 9402.926,
     "text": "hello, I'm jennifer gear, I live at 100313 orchard park. I don't have prepared remarks but here to speak against this project. All for development in the city and in particular projects that benefit a lot of residents. The vice park project is fabulous, a great place for our children to gather and families to meet and be involved in sports. We have a lot of great trails"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9403.728,
     "end": 9434.691,
     "text": "behind daniel run and I love to walk on those trails. Fabulous trails. The idea about this trail that it connect people to the businesses makes no sense to me. The mosby woods community is far away from our downtown area and a lot of our businesses where people would be going by foot. We have a lot of great areas to walk in the city, perhaps we need to focus on making sure that all of our streets have sidewalks. I live in a neighborhood that does not have sidewalks and residents have to walk on the road."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9437.963,
     "end": 9468.458,
     "text": "I know we are studying projects for sidewalks and focus on those services that residents can use. I don't recall a survey asking if this is a project that we want and how our tax dollars spent. This is not something I would have said, I for approving all parks, and radford park and vice park and any different parks with the playgrounds. We need to work on those. But a trail that we don't know"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9469.494,
     "end": 9500.524,
     "text": "how many people use, and to be honest I have seen few bike riders around the city. And we have bike enthusiasts and paths for people to ride to D.C.. We can have opportunities to other paths in fairfax to offer this mode of transportation for people that want it. But the majority of people in the city tend to walk. This is costly and environmental it's horrible. I grew up in ohio and we had lots of woods and trails and I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9500.591,
     "end": 9531.622,
     "text": "spent a long time as a young person. It would be horrible to see the devastation to the forest. Great people have spoken about the environmental impact and won't go into that. I wanted to come in-person to request vote no on this particular project. The money appears MAY not have to be paid back and should not be a reason to move forward on a project like this. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9534.493,
     "end": 9567.69,
     "text": "good evening, shana daniels, 3800 mode street. Didn't prepare to speak tonight but want to just ask you all for your strength and discipline in this situation. I think we arrived at a point where knew we needed this funding and had good ideas for alternatives with MR. Bates at one point. And compromising going on. And there were discussions and then the funding I guess we knew"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9568.259,
     "end": 9598.922,
     "text": "would kind of come through. I think it's time to kind of establish ourselves as we have some discipline, we have some sense. We're going to do the right thing, even if it's the hard thing we're going to do the right thing. We're at a point where all projects are piling up. I am looking at close to 48-50 cents tax increase. Per $100 on the real estate tax"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9601.694,
     "end": 9635.691,
     "text": "with just three picture -- three projects I can think of. We speak as a grant. These are tax dollars. Let's not kid ourselves. These are tax dollars you already paid out that are coming back to us. And we're competing for against other municipalities for it. I think that the county executive was fair to pull in our mayor. And supervisor Mckay regarding"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9637.229,
     "end": 9664.321,
     "text": "another project unrelated. But I think we have a similar problem, discipline making decisions, hard decision problem. I'm asking for your strength. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9665.724,
     "end": 9700.29,
     "text": "hi, bell morgan. 3617 cornell road. In those pictures that tom gave you, you am one of the posts. Usually on the left when measuring. When we started right next to the moose lodge, and looking to go have big equipment dig through that. We are standing on a damn sidewalk, which is right across the traffic light where it's coming from across the street. And there goes the asphalt path"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9701.59,
     "end": 9732.456,
     "text": "there and then here and we can walk down the sidewalk and walk down the sidewalk on eaton place. And then cardinal road that is big and wide and dead ends at both ends. And then the path behind cvs. What are we doing? Use the sidewalks and the streets. And then you won't have so much maintenance. Cause that's going to be hell. And instead of just doing"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9733.692,
     "end": 9768.659,
     "text": "something for your dear selfish self, there's a lot of living things you are going to kill. All the trees. All the birds, they can't live just with no trees. And we got the birds that come and migrate here this time of year and go some place else and come this time of year and won't anything and birds that migrate is out."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9768.693,
     "end": 9800.857,
     "text": "And mind-boggling that we would be doing this. And I was looking at the pictures of devastated stream restoration. And the one side that's on the george snyder trail side. They didn't plant anything there. I wonder why? They didn't plant anything there because when the george snyder trail falls apart and washes down they don't want to wipe down the tiny trees and bushes. Because if they don't plant them they can't wash away and wash"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9801.259,
     "end": 9833.23,
     "text": "away the soil there and people's houses will have more water. It's going to be a mess and cost more money -- cha ching -- just vote no and save some trees. There are some cool trees in there. Yeah, some sycamore and I remember the river birch and the scott cabbages. Great things that don't need to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9833.491,
     "end": 9855.512,
     "text": "die and iron wood trees, those are gorgeous trees. And very angular and different and they are precious. We should just save all the living things that are there. Thanks."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9857.315,
     "end": 9887.544,
     "text": "katie johnson, 1032 spring lake terrace. Many speakers tonight by their words they have not walked the area let alone through the magnificent forest. And looking at maps and aerial photos don't tell the story. 20 years ago this was a $200,000 stone dust trail that exist and draper park existed and cardinal road is slated to be a neighbor"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9888.28,
     "end": 9922.713,
     "text": "way that is identified as a safe underutilized neighborhood street. I have worked adjacent to this forest for the last 34 years. I have spent literally thousands of hours in these woods. I have heard the sounds of frogs, so many that I run outside every time it rained to watch the gray tree frogs climb the walls. I must echo the alarms of rachel carson. I have not heard that frog in many years."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9925.718,
     "end": 9955.845,
     "text": "they are harvingers of what to come. Much of this trail already exists. I would love to take anyone interested through these woods as I have all of you. I tour of our oak hickory forest that is special and worth protecting. And the scott cabbages are in bloom right now. I agree with the speaker that said that we have beautiful parks in the city, we would like to keep them that way. The george snyder trail did not"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9957.116,
     "end": 9987.71,
     "text": "receive funding when first submitted because it was not a good project. The forests are starting to regenerate and we can do the right thing and with this amazing oak hickory forest of these are not just trees but an entire forest system that depend on each other. This trail will not take enough cars off the road to off set the loss of a forest."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9988.847,
     "end": 10020.209,
     "text": "In the day and age of climate crisis, forests are one of our most powerful tools to mitigate these changes. We should be protecting the forest, not paving it. Forests are living, breathing things. The cost is far too high in dollars and natural resources. We must no longer view each past green space through the lens of recreation. Fairfax county are no longer"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10020.679,
     "end": 10047.404,
     "text": "building hard-surface trails in the stream valleys. We must remember that it took them 30 years to come up with that, we can be smarter than that. In perspective this is less than two miles. 1.78. Less than a 10-minute bike ride for $24.7 million, please do not appropriate the funds."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10050.142,
     "end": 10082.507,
     "text": "hi, good evening, I am judy phaser, 3514 spring lake terrace. We heard tonight there is broad support for this project, that is not true. Yes, people support trails. That's the point isn't it. At the critical juncture when this project turned from a foot path into a transportation project. That was the time to hit pause honestly and go back to the community and say this is what we want to do. It didn't happen. And in fact council members sitting where you are, asked for"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10083.675,
     "end": 10115.405,
     "text": "that to happen. They asked for citizen engagement, they asked staff what would happen. Promised robust community engagement and promised to reach out to every corner of the city and MR. Stehli and that didn't happen. During covid a few members of the public who had heard about it were 80% against it. Mayor read noted not too long"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10116.442,
     "end": 10146.471,
     "text": "ago that even her own neighbors have never heard of this project. If the community had been engaged the all two real concerns of the community you heard tonight in great detail would have surfaced much earlier and this project altered in a timely manner. The forest street project great example, night and day, it works if you do it right. This didn't happen here. And I want to say about changing direction from previous councils."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10157.16,
     "end": 10188.811,
     "text": "MS. Miller, and MR. Stelhi and schmidt what would happen if change course and staff said well you make the best decision now and they will make the best decision they can then. No, you don't have to stick to what they said. And they recognized it at the time and rightly so and concerned about that. The city did not sign any contract or make a commitment to repay concession funds. No such thing as a binding contract on this project. It would be great if there were,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10190.716,
     "end": 10221.979,
     "text": "then we know what the repayment terms are, if there are any, and wouldn't. There is an option in black and white to cancel if a project comes in over budget. Vdot doesn't want you to build this to avoid a threat repayment. It doesn't want you to build or not build it. It's your decision. They are not going to put the scale threatening repayment. They will help you once you make the decision to figure out what needs to be repaid."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10223.548,
     "end": 10241.865,
     "text": "That's their job, that's what they told me. Not all history about pay back are overwhelming you. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10246.772,
     "end": 10279.169,
     "text": "hello, suzanne kyler, 9247 childer. I wasn't going to comment until there was misinformation about george snyder trail. and still wasn't going to comment until the elected official posted the same misinformation on facebook. And address the salient comments and those online you can't build on misinformation. It's not true that george snyder trail has been quote, part of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10280.439,
     "end": 10311.569,
     "text": "regional trail since 1990s unquote. It was a city affair and walking trail. Yes years of delay that increase construction costs. And city is taking the private property for gst has taken a long time. However, whether the city has a strong record of delivering multimillion projects on time and budget, it's debatable. Look at the timeline, 2015, vdot did not approve smartscale funding."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10315.139,
     "end": 10346.103,
     "text": "And using a lower bar than smartscale approve the gst for concession funds. Estimating cost is 13.9 million. And in 2017, the city issues first multimodal plan that gst is a proposed trail. And does not include gst as connection. And 2020, gst is modified to include bridges."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10348.707,
     "end": 10379.17,
     "text": "And cost increases. 2002, gst design is modified to comply with ada requirements and increaseing to 26.6 million. 2025, the lower of two bids comes in higher than funds and cost increases to 24.9 million for 1.78 mile trail. Yes, residents value the trails"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10381.4,
     "end": 10411.702,
     "text": "but not in abstract when built on floodplains and in violation of the chesapeake bay act. The state is spending millions to reserve our county and only built in rpa's in last resort. There are alternatives to the gst including using existing roads but not explored by the city. No the 9.5 million grant for gst expansion is not at risk if gst"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10413.672,
     "end": 10437.327,
     "text": "does not proceed. The extension includes fairfax boulevard. Canceling an unnecessary project will likely enhance and if not asserted jeopardize the creatibility, irresponsible to build the gst on misinformation."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10437.696,
     "end": 10467.792,
     "text": "good evening and happy new year. I know it's pretty tough for each of you sitting here to make that decision. And I stand here as obviously I had to state my name, fizzar alem. I stand here as a teacher and I know I have spoken before and that's my job as a teacher to repeat what I teach. I have been teaching for 30 years now as a science teacher. And I support trails."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10472.131,
     "end": 10504.728,
     "text": "I tell my students, 600 of my students catherine johnson are right now in the middle of designing an eco-project and show impact and how it impacts the chesapeake bay watershed and what we do impacts that. And I tell them and they calculated their own human footprint in terms of transportation and what we use. I am not going to dispute for or"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10506.98,
     "end": 10539.364,
     "text": "against the gst, that's not my reason to stand here today. I have a question, what is a trail? I think we have lost the definition of a trail? Is trail to preserve the wooded trees and path and go through that? Or destroy it and make a concrete where -- does it serve the purpose? Will the people stop going to work using their cars and start biking in this, if we make this concrete with the destruction? I have -- we have got this money"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10540.999,
     "end": 10571.695,
     "text": "from vdot, yes. We have got a gift. We take it. We lose it. We take that money, yes, but what are the future maintenance of this? We have approved the council before approved stormwater utility fee. Why? Because it was an issue in the city and it is an issue. And the costs of maintaining everything is only going up and up. Right. This maintenance of this is only"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10572.264,
     "end": 10606.33,
     "text": "going to go up. Will it create more run off? I don't know the answer. Experts can tell me. But my science background says yes it will be to do increase run off and increase the stormwater utility fee. City, citizens are already hurting with the cost of living going up. Is this a need? Or is this a want? Do we have to, if we don't do"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10607.366,
     "end": 10620.111,
     "text": "this trail, will be we really worse? We will really destroy the city? Or are we leaving the trees and protecting the environment for the future generations to come as our forefathers left for us. That's the question for you all today."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10624.48,
     "end": 10636.926,
     "text": "thank you. is there anybody else in the room that would like to speak on this item?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10641.699,
     "end": 10647.639,
     "text": "okay. Yes we'll have a five-minute recess. [Gavel] Be back in five minutes."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11207.532,
     "end": 11223.348,
     "text": "[Gavel] all right, we are back. And I will like at this time to close the public hearing, a motion."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11240.365,
     "end": 11255.812,
     "text": "I move to approve the supplemental appropriation resolution inlet amount of 4,600,000 from transform 66 outside the beltway concession"
   },
   {
     "speaker": "Councilmember Billy Bates",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 11256.481,
     "end": 11258.949,
     "text": "funding for george snyder trail. councilmember bates."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11261.587,
     "end": 11293.683,
     "text": "I spoke that this would have security pass for state guidelines where one does not exist where is one of the busiest corridor in the city. It would provide a direction connection to jerry trail and george snyder trail is funded and not just sidewalks but share"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11293.752,
     "end": 11326.451,
     "text": "use paths on this project at the crosswalk. Now I have never supported canceling the project but I have supported building only the position of mosey woods pathway. Since JANUARY 2024, I voted on the project and not just sprung for the last couple of months. Before us most of the time before the council, on the 2024 option failed and only push"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11327.52,
     "end": 11362.352,
     "text": "forward with only the full trail. I have been so disappointed by the rhetoric surrounding this project and particularly with the article that was designated opt-ed by publisher on the front page and no disclosure of the recent candidacy of the article on this project. And the article that our staff misled taking a small section out of context and I read an"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11362.72,
     "end": 11379.702,
     "text": "excerpt word for word last meeting I have faith in the staff and have seen their objectivity first hand. No place for basement attacks on our staff and neighbors when we want the best for our city."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11380.238,
     "end": 11382.238,
     "text": "other comments?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11388.179,
     "end": 11419.977,
     "text": "this is a very difficult vote obviously for all of us. It's not one that I take lightly. I have spent significant time reviewing the record. The data, the long-term implications of this decision. I support trails. I support connectivity and infrastructure. But I also have a responsibility to evaluate whether a project as currently designed and priced remains the most responsible choice for our community."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11422.815,
     "end": 11457.247,
     "text": "This past saturday I visited the future trail alignment in-person in rainfall. I wanted to observe the run off conditions following the recent stream restoration. Seeing the site under real conditions reinforced the environmental and safety complexities associated with this project. The george snyder trail concept dates back to the early 2000's and incorporated into the city's 2035 comp -- comprehensive plan."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11459.151,
     "end": 11489.78,
     "text": "I know because I watched every video on city website page that had to do with george snyder trail. i wanted to see from the very beginning what led to this point. Over more than a decade it has under gone repeated study, redesign and public discussion. By SEPTEMBER 8, 2020, the project had reached 60% design. At that meeting councilmembers"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11491.517,
     "end": 11524.413,
     "text": "harmon, lin, ross raised concerns about environmental impact and safety backlog and increasing costs that were approaching $7 million per mile based on the design at that time. This was never a simple endorsement but acknowledgment of trade offs. When bids were received, I am sorry -- subsequent revisions reduced the project footprint and lowered tree impacts. However those changes added"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11526.385,
     "end": 11557.514,
     "text": "complexity including bridges and board walks and alignment and project costs increased to 17.6 million. When bids resolved in -- received in 2025 came over original funding. Once construction management vdot oversight costs included and now the costs exceed $20 million. While the exact per mile figure"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11557.683,
     "end": 11587.711,
     "text": "varies how costs allocated and the cost per mile has increased substantially from early statements. City staff deserve credit for securing significant outside funding including 13.6 million from I-66 outside of beltway concession funds and ciq. That work is strong and diligent. However tonight's decision is not just about construction costs."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11588.347,
     "end": 11618.607,
     "text": "ada compliant shared use paths require ongoing commitments including debris removal and management and inspections and liability mitigation. Available data suggests that annual maintenance costs beginning around 25,000 and increasing over time. And with current obligations that compete with public safety and stormwater and sidewalks."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11619.778,
     "end": 11651.609,
     "text": "This has additional funding requests in 2024, 3 million requested. And 4.6 million is required to award the current bid. Repeated cost escalation is a signal that we cannot ignore. This vote is not rejection of trails or accessibility. It's a vote for responsible planning and right-sized solutions. Connectivity can be improved through lower costs. Faster to implement alternatives."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11653.612,
     "end": 11686.711,
     "text": "One such option that I have not heard at all in this entire discussion is amending our sidewalk ordinance to specifically allow cyclists to use sidewalks where roadway conditions are hazardous or unsafe. This is used in many jurisdictions and require lower funding and not commit the city to higher engineering project. Responsible governance requires us to reassess when facts change."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11687.378,
     "end": 11702.96,
     "text": "Cost escalation and environmental complexity and long-term obligations matter. We owe it to current residents and future generations to weigh those realities careful. For this reason, for these reasons I will not be supporting aproptiating funds for this"
   },
   {
     "speaker": "Councilmember Anthony Amos",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 11706.732,
     "end": 11709.434,
     "text": "project. councilmember amos."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11710.501,
     "end": 11743.767,
     "text": "I appreciate and I'll be brief, I wanted to say thank you to everyone that spoke. Obviously a very passionate subject and a nice crash course to new city manager, welcome to your first official meeting. When I first heard about the trail, 2024. I was like a trail, no biggie. And next I know stuck around for quite a while and a lot of interested parties. And granted where I grew up in germany, for example, we have trails everywhere and not a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11744.269,
     "end": 11777.168,
     "text": "shocker. Hawai'I a lot of natural trails and you don't see as extensive or as large. So it's been interesting perspective to listen to the community, hear your feedback and it's a rare topic where everyone to some degree correct. And I think we tend to forget that. You can like trails. You can even like this trail but acknowledge there are environmental concerns with it. And I think that's fair and valid. I don't that to get lost as we progress forward."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11779.238,
     "end": 11810.768,
     "text": "Whenever this subject comes up we tend to lose our neighborhood spirit and tend to go after one another with virtual and doesn't need to be the case. I initially opposed this project and then intending to support the third option back in JUNE, until I heard the public testimony from both supporters and attracters that said we don't want the full option. Go the full thing or cancel it. So I decided to support the full thing. I won't get into money if you"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11814.239,
     "end": 11847.57,
     "text": "heard me speak before you know I feel about that. And from the developer perspective day job I have been in a year to date. When it comes to performas and financing and apply for state bonds for 9% deal and cancel the project after awarded the funds. They would have concerns. That does rest with me and I have to take into consideration. So regardless of what happens, there is going to be some risks."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11848.44,
     "end": 11881.606,
     "text": "And I hope I'm wrong. I really do. And even during this past year there has been surveys and the community survey and park survey. I know part of the question what is a trail. That's a good question to ask and in community and park surveys both cite that people do want trails. That's something that we have to contend as a council and trying to figure out. When it comes to crime and trash in some testimony tonight. I want to acknowledge that most if not all studies highlight that actually trails lead to often reduction in crime."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11881.839,
     "end": 11910.735,
     "text": "And with trash pick up, similarly. So while I do intend on supporting this, I want us to acknowledge that there is legitimacy to what everyone said in this room today. And I also agree it's time to move on. We have dealt with this long enough and we keep going at each other's throats a personally I think this is unhealthy thing for our community to keep prolonging."
   },
   {
     "speaker": "Councilmember Stacy Hall",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 11913.739,
     "end": 11915.706,
     "text": "So let's get it done. councilmember hall."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11916.842,
     "end": 11947.372,
     "text": "thank you, I had a small statement prepared but left it on my home computer and do my best to wing it. I want to thank everyone that sent e-mails over the past year and those that speak at this meeting and previous meetings. And those who have spoke of budget concerns and those that tracked me down at coffee shop to talk about this project. Whether for it or against it, I want to thank you sincerely for being involved participant in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11947.94,
     "end": 11978.635,
     "text": "your community and in your neighborhood and your city. Because we don't always get that especially in other cities and towns across virginia. We had nothing in delaware where I grew up, people didn't go to meetings like this, I am sure they had them but we didn't do that. This is a new experience and I think it says a lot for our community. I will also agree this has been a huge burden and a huge thorn in the side of our community."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11979.738,
     "end": 12010.4,
     "text": "I think it has split communities and split neighbors and split friends. It's kind of like politics it seems if not exactly on the same page at some time or some day, like your friends don't want to talk to you anymore because you might disagree on one thing. I refuse personally to let a trail be something that separates me from people that i care about and I thought care about me. With that I understand that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12010.669,
     "end": 12041.98,
     "text": "residents want trails per our survey. I want tils and I answere our survey, I was one of those respondents. When I think o a trail and what I heard o many o you, when you think of a trail yhink of daniel run woods. U think of arail that runs through the woods that looks like it belongs there. That does have huge walls to protect you from the side of a hill or mountain or toeep you fr falling off the side of something into the stream"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12041.899,
     "end": 12073.62,
     "text": "restoration area. That to mes not a trail. By definition I gues it MAY be. The fact that it requires tranortation dollars to get us to this trail really makes me woer if it's a trail ornot. So wt thistarted out as with parks d rec and with all of pt other iividuals that went in this, truly was a trail. It w a stone-dusttrail, $200,000and I would love to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12074.32,
     "end": 12105.93,
     "text": "t us back to tha opon. Ba to an oion if you wanto ride a bike, youan golong cardinalroad. You n go along a designated area tha is paved and I you want to walk or hike, you hav more rugge options. And thessue ofccessibility is brought up a number of tes and months ago or a year, I reachedut toarks and rec department and aed aut the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12107.99,
     "end": 12139.896,
     "text": "wheelchair to go into rugge terrain. D while ay over christm break and one of the frien hurter knee and had to go to a wheelchair. We were at the bch and found the tent where the rese people were and put her in a wheelchair and whled down to the wat and enj the beach and pool just like everyone elsewas. It was a temporary wheelchair for her rtunately. But what I heard tt people haveurable equipment like that, ey don't want to put it"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12140.99,
     "end": 12172.3,
     "text": "on arail a subject to getting rtr haed. So the fact that fairfax couy is also n longer doing paved trails in forestrea to is a big ncern. I think we can be leader and sa you know wh, let's sto this. And doesn't meane areot a good partner, o not a good leader if we choose to go a different diction than you personally might ink. On the flip side, I would say that shows mbe we are a good leader in theommunity"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12173.732,
     "end": 12204.562,
     "text": "supporting oer voice or ide or suggestions. Counlmember Mcquillen's suggestion about the sidewalk and changing theordinanc that could be aame change is that something that everyone wants? Probablynot. Will we know? No, but we talk toveryone and try. I am rambling and don mean to. All I askednd this one moment in timshould not defineho"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12205.564,
     "end": 12227.17,
     "text": "you are individually. At you individually stand for. There is so much more that makes you and our community and I want to put this to bed so I will not be votg to suprt this trail."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12231.824,
     "end": 12262.72,
     "text": "ouncilmember rdy-chandler. thank you, appreciate the mmunity o thi a bot in terms of coming here and speaki and-mails a other ways that people have expressed theirpositions. For me tonight one othe mos poignant times, although liened very closely to evyone. One of t most poignan times was just hearing from e people o are here from theery beginnin and tking about the stillre committed to this afteseemingly dedes."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12264.55,
     "end": 12294.719,
     "text": "For me, the question isn't whetr this is a trail. The trail is about something mu bigger there's a saying I believe miya angelou, don't l facts get in theay of truth. I think t trail isike prises and reliality and panership, thinking larg."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12295.721,
     "end": 12327.584,
     "text": "It's about acknoedging the hiory and origins o what brought this bore us. And I do belie it's about inveing in the infrastcture for tngs that will be a part of the ture. So I do echo the sentiments tha theris truth in all of e positis. But for me trail is ceainly important in and of itself, but more impornt in terms signalingomething rger than ourselves. And I feel lik our couil"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12329.388,
     "end": 12360.118,
     "text": "needs to be challenge to think beyond oselves and what this meanin a broer way. Both in tms of the sto bend this trail but also the future that weanto build. Also inerms of governance cisions. I rely think that w do have to do better jobf knowledging those tt came before us on thi council. And ctainly preparing for the decisis that future councils willake. I wi supporting the appropriation, I belve it's"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12361.719,
     "end": 12363.719,
     "text": "the righ thing for thi trail"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12365.757,
     "end": 12368.225,
     "text": "and in terms of goodgovernance. couilmember peterson."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12369.628,
     "end": 12401.525,
     "text": "oops -- I'll b brief. It's hard to reay a too much to what everydy said. I think it's vy important to thank erybody who attended. Not just who came this evening but obvusly all the people watching and tse that submitted vio testimony. It's really great. All of tt information is extremy helpful and it h been all alo the way. I will tell you one of the difficulti that had with the set up for ts public hearing this evenings that it s"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12402.26,
     "end": 12433.359,
     "text": "based on the presehat wead only four tions. And that's clearlyot the se. We have a gat many other options and ha a process last year to lk at those andery much with the agreementnd encouragement of vdot. And the communy. Andeople were genuinely excited about the opportuni to look at differentpproaches re that can reconci the conflict that clearly exist wi this oject. In cparison withhe desires"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12433.359,
     "end": 12466.724,
     "text": "that peopl have. Toave theind of trail you heard talk about this evenin something ver simple. And at the sam time be abl to make improvements o the ways thate use bik on t streets in o city. Fortunately that pross w rminated very quickly, to this very day weon't know why. We did our bes on council to try to understand why. It didn't happen past history. We ended up with where we are today. Anwhat I heard tsvening that has bee seen as aery"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12466.859,
     "end": 12498.588,
     "text": "difficult propotion for most people inhe city. An that h been t case for a ry long time I do think it's time toove on. And I think that we have really a lot of good reasons not only to mov on here today but t look fward to other opportunies and options. I wi just close by saying that it's a bit fitting tha we will be making a decision this"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12499.858,
     "end": 12533.324,
     "text": "evening through a appropriations vote. Reminder that appropriations votended the vietnam war and I ink maybe time to endhis wa we havbeen at this a long ti. It's time to mov on. One of my brothers was #1 in the la draft of vietnam war. He did not go to southeastsia because of the hatfield government andment on appropriation. Heas greatly relieved tt h didn't have to g t war."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12535.461,
     "end": 12567.892,
     "text": "But itid not stop h patriotism or servic to the country. He enlisted in the united states marine corpnd servedany years. An we have a dear friend in the same situatn, exactame time and went on to bece a navy fightepilot, active dutyn carrrs. He served his country a patriot. Neither of them wanted to o that wa neither believe fwl it. But they believed in their cotry like we belve in our community. Theyerved because they thought"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12569.461,
     "end": 12603.294,
     "text": "there s a bettery, a better venue r them to serve. I thinkhere is a better venue fo us in th community t approach o interests in trai and our stewdship. This particularourse o action that we have been lookingtor a eat number of years. Does not appear tbe that course. There are other crses out there an we can recommit ourselves to looking atew oprtunities by movin on. I will not be supportin the appropriatiofor those reasons."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12604.697,
     "end": 12629.554,
     "text": "And I thinkne another eluded to by a number of speakers but I don't think it's a great ide to bud a project simply because you will be penalized ifou don't. I don't think vdot wants tt or we want that orot a right way to proceed. Ere is in fact a betteray for usll toove foard. Thk you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12630.689,
     "end": 12661.784,
     "text": "okay, soe'll takeoll call vote but ior to calling the roll, I want to remind people tha do not have a vote as mayor of the city, o charter ds not allow me toave a vote. Iant to aress the fact that I s on nvta that t get vdot funding and someonehowed a lovely picture of billcutler,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12662.42,
     "end": 12692.582,
     "text": "we cl it a working lationship I guess se peoe call it collusion. And nvta recommended tt w get th money and to intimate no nancialburden I wanto be clear that we operated in good faith with nvta nvta wen toat for us and to sayhat we can simply"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12693.451,
     "end": 12709.9,
     "text": "start er with another project is true. But undersnd that we he reneged on commitment that we de. And there are alws repercussions forhe decisions we make. 's not my decision to make."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12712.7,
     "end": 12714.872,
     "text": "So wh tt we will simply cl the roll. amos."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12715.741,
     "end": 12718.142,
     "text": "aye. hall. no."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12718.142,
     "end": 12720.142,
     "text": "hardy chandler."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12720.512,
     "end": 12723.82,
     "text": "e. peterson. no. bates."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12723.82,
     "end": 12725.84,
     "text": "aye. Mcquillen."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12725.84,
     "end": 12727.84,
     "text": "no."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12730.889,
     "end": 12732.889,
     "text": "mion failed 3-3."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12734.66,
     "end": 12736.861,
     "text": "MR. Lub ken."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12738.597,
     "end": 12761.351,
     "text": "that leavehat you did not award sufcient funds to award the contrac next on the agenda. Staff's recommendaon is based on this vote that you csider out of turn amendme to the agen this eveni to remove item 9a, which is consiration of t ntract. Andubstitute with a consideration resolution cancelinthe george snyder trail."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12762.821,
     "end": 12764.821,
     "text": "dwe need asecond?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12765.357,
     "end": 12771.363,
     "text": "no, someone nd to make the motion andeconded and voted o to amended agenda. A motion?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12776.868,
     "end": 12810.935,
     "text": "I me to do exactlyhat MR. Lub kemin suggested. To replace 9a with consideratn of a resolution to cancel the george yder trail project and vdot numbe which you canut in there. Do have a copy of the resoluon since not on the printe agenda, I think it appropriate to rd it into the record and since the public not seen it and make a resotion. It's notlong. If theouncil will indulge. Okay."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12813.71,
     "end": 12846.936,
     "text": "Relution to canl the geoe snyder trailroject vdot utc, whereas t city comprehensi pl and other duments recommend gege snyder ail, oftrail west of fairfax boevard and whereas the city received funng in 2017 and 2026 -- need to chae that and as"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12850.609,
     "end": 12881.905,
     "text": "well as congesti and mack to finishhis project and this project administered onay 8, 2018. And the city had pject design and press and public engagement and formalublic hearg in OCTOBER, 2020. And the cityad final pls and acquisition ocess and the city uncil has determined t ccel the oject. And wheas the cityouncil is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12885.744,
     "end": 12893.683,
     "text": "familiar with what toancel this project utc112816."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12895.187,
     "end": 12897.288,
     "text": "is the a second? second."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12897.288,
     "end": 12899.824,
     "text": "okay. The has been a motion."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12901.726,
     "end": 12917.442,
     "text": "mayorust forhe public's ucation educatio-edification, for ts item theayor can break t t if nd be great -- justgreat. Diussion on themotion?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12920.111,
     "end": 12937.494,
     "text": "recognizi tha we've jt seen this. So forgive me rasking, an obvious thi or two here but is this t mimum amoun of information that nee tgo"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12939.598,
     "end": 12963.12,
     "text": "into this solution? correc its identical with th cnge adding the second I-66 outside beltw funding tohe one before the cncil in 2024. It's minimum required to rminate the project."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12965.757,
     "end": 12968.158,
     "text": "a other comments on the motion, couilmember bates."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12969.361,
     "end": 12982.94,
     "text": "earlier that this end on appropriation vote and interesting that t mayor cannot vote on appropriation vote dpite the fac thathe mayo onlyne up her tha received the majory of blots"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12985.943,
     "end": 12994.785,
     "text": "cast in la election. any otheriscussion on the motion before we take a roll call vote? Ay. Councilmember peterson."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12999.892,
     "end": 13021.979,
     "text": "jt a -- maybe logiscal question, mr lubkeman my understding is thatnder any circumstance if we doish to resta a project for instce, to pursue other alternatives. That would involve a cancellation othe trail?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13022.58,
     "end": 13042.633,
     "text": "taff has been told by vt athis point therere no modifications to th project permitd and anyew proje if nodification o ts and treated as new projectnd run through the proce of funng through ordiry course."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13043.868,
     "end": 13050.742,
     "text": "and the parlance for that is project reart, I that correct? How does tt?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13055.13,
     "end": 13072.33,
     "text": "sanford is coming up. good ening, weouldreat this as a new project tha would go through t two-year program. Throh a concept planning phase and if the counc wt to proceed andhrough the funding allocati. It would be as if a new project from scratch."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13075.334,
     "end": 13080.937,
     "text": "okay and back to the earlier int, in order too that, we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13081.74,
     "end": 13106.364,
     "text": "woulneed to cancel this. not necessarily, bause we d talked about this earlier, th doing a different type o oject does not preclude continuing with the george snyderrail. So but so this project can ntinue and in dition a second proje or anoer project along th lines of what yo talked about earlier having onoad trail."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13107.7,
     "end": 13127.18,
     "text": "okay. The other questn without nessarily getting into the details is that by canceli the oject w, w would mediately stop incring additional eenses in the exisng projec"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13128.187,
     "end": 13155.512,
     "text": "immediately is a song rm, would be turning the spigot off, whout getting into detailthere are expenseshat are not controlled by t city related to aects of project th we are continuin up to this date. But yes, gerally we would be stopping t expenditu o additional fun to the maxim level possib going forward."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13156.915,
     "end": 13164.722,
     "text": "andhat again without getting into details could reduce our expure b several hundredhousand dollars?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13166.425,
     "end": 13178.835,
     "text": "I won't characterize that publicly. There is approiate venue to have those dcussions and respectfully not this nue."
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 13182.54,
     "end": 13209.32,
     "text": "councilmember hardy-chdler. > and I believe our financial officer talked about havin -- okay, there are -- sorry, there are consequences. Yes,here are consequences to aecision tocanc. Just le there a csequences to a decisio not to canc. There isn'the cancellatio"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13209.901,
     "end": 13215.906,
     "text": "as I saysere financial costs that maybe otherwise associated. correct. Okay."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13216.75,
     "end": 13221.646,
     "text": "any othiscussion before we take a roll-call vote counciember bates."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13223.414,
     "end": 13241.932,
     "text": "nd I have asked this before but just to clarify, even I another project is started, there is no guarantee that projt would be fund. And even if it is probably be lot longer beforet es up being compled, ishat correct?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13244.436,
     "end": 13247.338,
     "text": "ipologizealking about a procedal issue, could you ask"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13248.773,
     "end": 13263.2,
     "text": "yo question ain. there no guarantee that if new project is startedhat it woulbe funded. And en ift is, it woul be much longer most likel before that project is completed, is at coect?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13265.457,
     "end": 13275.732,
     "text": "yes, AMs. Sanford stated rlier a process to get t application an funding to go through six-year plan andetc., you are rrect."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13275.733,
     "end": 13280.203,
     "text": "thank y. Anything else? Befo we --"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13281.339,
     "end": 13283.339,
     "text": "if I could hene moment."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13291.49,
     "end": 13308.565,
     "text": "ctainly MR. Lubkeman. I'm gl that have people listening. The rrent motion on th floor is to addhis to the agenda a reve the contct. So tha needs to be voted on first. Andhen a vote ononsideration of theresolution."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13309.4,
     "end": 13315.605,
     "text": "so cncilmember petern would u like to make a motion to amend the agenda?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13316.174,
     "end": 13319.776,
     "text": "we just haven't voted on it. The motion is made a secoed. Perfect."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13321.8,
     "end": 13323.8,
     "text": "so we're takg aoll call"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13324.15,
     "end": 13325.984,
     "text": "vote on amending the agenda. there w a seco."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13326.584,
     "end": 13333.924,
     "text": "second; right. All of that happened so we c call the roll for amendg the agenda."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13334.859,
     "end": 13336.494,
     "text": "mquillen. aye."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13336.862,
     "end": 13339.31,
     "text": "bates. aye."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13339.31,
     "end": 13341.64,
     "text": "peters. aye."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13342.601,
     "end": 13344.936,
     "text": "hardy dhandler. ay hall."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13345.437,
     "end": 13347.437,
     "text": "aye. amos. aye."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13349.975,
     "end": 13351.975,
     "text": "otion passed unanimousl"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13352.544,
     "end": 13354.544,
     "text": "and now appropriate for"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13355.346,
     "end": 13358.248,
     "text": "someone to make resolutions amded. motion councilmember peterson?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13359.884,
     "end": 13361.884,
     "text": "I move to approve t"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13362.86,
     "end": 13363.82,
     "text": "resolution aspresen. second."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13365.724,
     "end": 13377.301,
     "text": "okay, we have a mion that has been made by councilmeer peters and seconde by councilmember Mcquillen. Any discuson on this mion before a rol cl vo."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13377.502,
     "end": 13380.238,
     "text": "Okay, take aoll call vote. Mcquillen."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13380.539,
     "end": 13382.74,
     "text": "Aye. bate ay"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13382.841,
     "end": 13384.609,
     "text": "peters. e."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13385.411,
     "end": 13387.411,
     "text": "ardy chandler."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13388.246,
     "end": 13389.713,
     "text": ". hall. aye."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13390.783,
     "end": 13392.783,
     "text": "as."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13393.452,
     "end": 13395.452,
     "text": "nay."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13398.856,
     "end": 13400.856,
     "text": "motn passed 4-2."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13402.56,
     "end": 13405.53,
     "text": "MR. Lubkem. that conclud the geoe snyder traildiscussion."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13412.236,
     "end": 13434.558,
     "text": "hat ccludes that. e can go on to second general public comment. Is treany -- anybody in e room that wants to talk about anything that was not onhe agen for public hearing come up."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13437.695,
     "end": 13470.628,
     "text": "good evenin beth, I livet 109 west moo community and he to talk about it asou ow the carts have been distribud and delerednd the wemore sool sitesed as the stagg area forhat project. I wanto first say big thank yo to the project manager, melissacdonald who spoke to me and a pnt of contact. As things wer hpening and ki of going wrg. Overall she's great, she handled so of the problems tt popped up."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13475.8,
     "end": 13506.863,
     "text": "I will say tha a frfax water contractor knocked o pow out onhursday because using the westmore schl site. And onriday the 18heelers coming upn cstnut and pulle downesidents and hardy chaner you are neighbors with em and MAY hav seen th. Point will be speakin to park staff and oth means but conversaon of how wemore"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13507.866,
     "end": 13539.495,
     "text": "quote unote park nee nee to happen soone than later. We are using it as aity extra te for storage and delivery carts and n apprriate. We u it for parking for city trucks when floosdz and -- flood and it's n a parkut to have strong conveation and how we us itnd fure is solidified"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13540.198,
     "end": 13573.96,
     "text": "as a featu and ass and not a place to dum things when the city needs a place to put it. It's needed in the neighboood and not aropriate forhat and need your hel forhat conversaon to me fward with appropriate aff. And bighoutout to melis mcdonald and troubshoot and get the recogniti and the hard work, appriate youonight and talk later."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13574.433,
     "end": 13607.265,
     "text": "I wouldike to s that many time weon't te the moment to appciate what is happening in thecity. There's a lot o good happening inhe city and we aolutely reflect. I wrote a note t my principal that I need to pause and appreciate wha you are doing in writing. and I would like to do that for the city plic works. And itoes hand in hand with the entire department of public wos. The wayhat our fairf city I maintainedou cross the cit"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13608.0,
     "end": 13638.95,
     "text": "limits andee the curbs where vegetation is growinand you can tell wre the city begins and en. And congratules to the city with the common ground, is a lot of work and proud to be city sident. And bein part ofesc and wor stefanie amelissa."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13638.896,
     "end": 13669.192,
     "text": "Suchork by tha and thisart a bit controversial, once it comesnd it will be a great thing. And I know you have seen my piure with the cart, yeah, happy to be partf that progra and thank yo for everything that youuys do, it's ve tough. Whher you run for thelection again or youdon't. Your effort each o youas been preciated. The ount of time that you spend to 1 or 1 that you sit"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13669.193,
     "end": 13690.948,
     "text": "here and w lay in bed, it's rd and not easy. D to read the piles of files th you go through,t's hard. Please understand wn we ce wi a passion,ach of ave a passion, we shouldn't be divide this should bng us tether that we are a mans. We haveur passions and we nd to be just tother as one human ing."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13693.752,
     "end": 13711.735,
     "text": "Thank you. nybody else in e room wod like to speak? we can moven to future meeting topics."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13713.705,
     "end": 13744.669,
     "text": "good eveniayor and council, starting wh JANUARY 2026 meeting we have an acknledging of bla history month and the history of cog, and dmv moves. Anonsent ordinance o chapter 38 environnt two noise resolutions in t city. And consideration for adoption for remote participati in meetgs."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13747.539,
     "end": 13777.134,
     "text": "Anconsideration of endorsement of vdm me proposal. Andublic hearing master plan for work ssion fy2026 second quarter financia review. Discussion on revising the fee for use of the publicity owned ectric vehicle charging ation before movg on to next meings, any questions on 2th."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13777.87,
     "end": 13788.345,
     "text": "councmemberterson. Just a quick sedule check if I might. Sounds le not doing a scial meetinon JANUARY 20. So theext time we are together"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13790.849,
     "end": 13792.149,
     "text": "is in two eks? correct."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13793.718,
     "end": 13825.182,
     "text": "okay, then the urban forest master plan ihink we had a long session on that earlr. I think the qstion I he on that, ing offered to and expect to take action on e adoption othe plan. I'm not sure wha sort of additional iormation we will receiving about it. But it's a very, veryengthy and deiled plan. And I probably needo spend mo time lking at it but"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13825.183,
     "end": 13853.777,
     "text": "would appriateny assistanc might get understanding what it means practically speaking foit to bedopted by the city. Again there we many many recommendations in tre and if just a lite bit more that can be provided to p thi I context and what adoptionf plan ds o does not mean I rsonally wou find I helpful. I n't know about other membe of the committee, iwas a big document."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13854.213,
     "end": 13863.687,
     "text": "okay, thank you, we wl talk to sff of how we can socialize th with y to give you better underanding."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13865.758,
     "end": 13870.459,
     "text": "other cments on this particulartem? Cocilmember hardy andler."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13870.929,
     "end": 13901.425,
     "text": "you just finhed going or the 27th and I mige getting ahead of self. But I requeste a work session on the statu of older adults, older independent adults. We talked about potentially scheling that earli in e ye rather than ter. Is the a procted date for that wk session topic on the horin?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13904.429,
     "end": 13906.429,
     "text": "Or is that -- not identified yet?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13906.899,
     "end": 13908.899,
     "text": "sk [Indible] To chime in."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13910.435,
     "end": 13917.441,
     "text": "I can chime in. So MS. Sebastian sen e-mail after 5 today requeing tt I addefor APRIL 7."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13918.143,
     "end": 13930.42,
     "text": "thankyou, peect. I hadn't updated t future list. I have a couple other things at I will ask o line."
   },
   {
     "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 13930.688,
     "end": 13962.754,
     "text": "councilmember peterson. justne more about JANUARY 27th, but ihink it going to repeat in subsequent meetin d that is budget. Kind of whe and when and what in terms of schede for doing budget terminations. i don' have t date in myind exactly but I know it will sak right on us in termsf when have t establish tt real estate tax ceiling, etc. Anything you can s now wt"
   },
   {
     "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 13964.49,
     "end": 13994.719,
     "text": "that looks like in terms of where a when theudget srts appear? Well, definitel on the 24th I'm going t look to jc to give us more specific informaon on it but I kno we have our meing on e 24th. We've mmitted to so you know, to getting with mayor and counlhead of the city nager's proposed buet, which is sething tha we have done in theastnd we intend to do ving forward in the future"
   },
   {
     "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 13996.956,
     "end": 13999.57,
     "text": "and asi from that let jc speak more specific dates if he's"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13999.57,
     "end": 14032.421,
     "text": "ready. sure, I think the maner coveredhe talking pnts that I was goingo reerate, yes JANUARY 24 prese the budget and fiver six weeks afterwas we wl have a work sessi ever workession alongith public heargs that are required. The workessions similar t last yea will have spefic topics tt wean cover. Counci can addr subtrt from that. And the manager statedhis year"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14033.692,
     "end": 14046.803,
     "text": "as per previous years engage with council via one-on-one's or one-on-two's and c council get edback and adjust what the manager feel propriate."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14048.39,
     "end": 14049.373,
     "text": "hat answer your question, councilmember?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14050.843,
     "end": 14053.477,
     "text": "I thinkso, my quick tranation we g a head star"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14053.912,
     "end": 14055.912,
     "text": "yes, sir."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14057.616,
     "end": 14059.616,
     "text": "thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14059.684,
     "end": 14092.416,
     "text": "so moving ono quickly the ne two meetings onhe third for theork sessn, joint meetinof planning cmission and city cncil regarding the draft fy27-3 cip. That speaks to another part of our process. For budget. Jot discussion with environmental suainability coittee and pgrams tt are sociated wh that program. Solid waste management plan upte a nen then a discussion"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14092.685,
     "end": 14123.746,
     "text": "on city departments onaskf publ safety and ordinances and chapters liste there for the third. And quily jumpo the 10, upda discussion on the city-wide vel of service study that assess impactand costs animplication of new development on cy serves and frastructure. Troduction of draftmall area zoning amendments. And discuion ofevelopment of green buildingolicy and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14125.217,
     "end": 14134.458,
     "text": "signation on willard srwood community center, next two meetings happyo answequestions."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14134.593,
     "end": 14163.287,
     "text": "councilmeer peterson. The third is impact of loa and quality this that w are looking foard to. I'm guessing theres going to be aot ofeading in adnce, probly? I knowe wil be seeing prentations but if reading that were expeed to do. Woulbe helpful given the volu of that, I ask that we have as early as possible tbe epped up. 's a lotf information and in better situati to ask smart"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14164.657,
     "end": 14166.224,
     "text": "questions if weothat. hank u."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14169.428,
     "end": 14201.959,
     "text": "and thenn FEBRUARY 10, item tohe introductio of sma area plan zoning endments. Just as soon as posble whether this evening or somether time soon helpful to understand t st of what is being proposed and w in terms of amendments. And toet started early on e thought procsroundthat. Know the small area planning process involv a lot of hiory and complexity. I would love to get clarity o what exactlye arerying to accomplish a what w will be"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14203.929,
     "end": 14205.43,
     "text": "looking at as part ofhat. hank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14209.668,
     "end": 14226.717,
     "text": "any other commen? On those ims? Do we wan to mov fwardnto the futes list athis poin okay. All righ in that case w wil go to nager's report out a council commen. MR. Alander."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14228.22,
     "end": 14258.75,
     "text": "thank you mayor and council, in the last week thank everybody for the warm welcome. Had a lot ofontact a engageme with communit and able t meet with counc meers and got to the department hea and perintendent and cotitutional officer. Making aot of rounds and engement starting out. Apprecte that. And alsoppreciate the wor that councilut into rreat and report back takeaways and delivebles associated wit"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14258.95,
     "end": 14290.447,
     "text": "that. One ing that I noticed is a volume of cmunication that we ceive and inow at times we'vesed a weekly updat to communicate back to you on communations. And I would like t g more aggressive to get responses back couil whe they comin. Oftentes a weekhat goes by before you receive a reply or reonse. I will try witho objection get"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14291.182,
     "end": 14322.45,
     "text": "that iormation to you more expedieny, more quickly as we go. That's a bit of a cnge I tt process. One finapoint we brought it up earlier in tms of proclamati. The DR. Martin luther king j statute will return honoring his gacy. And as a holiday bus cue will runn modify schede and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14323.148,
     "end": 14325.148,
     "text": "refuge and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14326.284,
     "end": 14334.958,
     "text": "ishat is my report we'll start with yououncil MEMBERcquiln. Council meer bates."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14336.462,
     "end": 14367.724,
     "text": "already said pretty much I've ant to say oer than iaunt nt to wish bated law enrcement day. Thk you. Council member peterson I think that the first thing I want to do is say thank you melanie for all you have you ha through therocesso have a good cy manager."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14368.93,
     "end": 14399.423,
     "text": "Melani it's good to have yo which I found really helpful a done with a fair degree ograce was every wch was doubl's's helpful for that. Thanks ain for that. Kind of a regiona noh. We ser all of us on re- gional boardsnd commissions. mayor reed and I serve on transportation boardsnd mmission. I aended aouple of tm t la few weeks. Thtransportation pnning"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14401.526,
     "end": 14432.122,
     "text": "board I stepped f the mayor on northern virginia transportation coission. I think u tt jus to pass on two takeays from those conversations tt tk plac one is that we're in period of leadership transion education and we're now looking at new people t pce at thetate level. Thers a lot of that filtering into state positions. It's it's filtering io"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14432.257,
     "end": 14464.254,
     "text": "everything in the transportion twork. There'soing to be a lot of new faces you and different ys. The other big theme that came t on the envonmental sidef things, iis I think more cessary tha ever for the calurisdictions themselves like the city of fairfax but other cities and canounties"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14464.656,
     "end": 14496.19,
     "text": "and tos t take direct aion on t envonment as it I retes to transportation as oppose to expecting the regional bodieso take tion. So I particularly appreciate everything we're talng about onhe environmentalfront. In t uoming meetings but ally it it the csideration environment is about as front line as you can get right now."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14496.87,
     "end": 14538.228,
     "text": "I think itt's you gng t st front line for a whe. Although we are certainly looking forward to newtate leadership. Davidowl v will be state secretary. just wante t note this an a note of aive recogniti anythisn in these regiol bodieshat we'reiving in a different world on the need to st up on the envonmental start a."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14538.497,
     "end": 14569.426,
     "text": "in aed to law enforcement appreciation d we had an opportuny to attend the fe department promotiongnd awards day which wasantastic always. It's alws a great opportunity to hear the heroi stories of those who're serving our cities throug the fire deptment the and as well ashe volunteer re department andnd en't MTs much rlly appreciate th. The I want go tossue both an"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14573.732,
     "end": 14605.663,
     "text": "apology and an invition.Uch reallyppreciate that. The I want gto issue both an apology and an invation. An apolo there are consequenceso each councis lega. I believ the will be consequenc that future councilsill certainly he to d a half navigate. But want to issue an invitation I do think while it's very wderful for people to acknowlee how difficult to be up heri want the tonvite people who don't see themsels"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14611.537,
     "end": 14637.795,
     "text": "as being a part of counce to consider nning. Consider runng. To consider rning. To consider rning. To consider rning.Cou to coider running. N to coider running.C to consider running. L consider running. T consider runni.I to considerunning. L to conder running. I finitely first of a if you haven' thought about it, really encourage y follow up with yr engagemen by serving your city in this way. And consider gting on the ballot and serng offing on city council"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14638.831,
     "end": 14640.965,
     "text": "sothank you. cncil member hall."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14641.0,
     "end": 14666.89,
     "text": "hank u. I justant you to thank everyone up her and everyone who came out to speak for you professionalism your respect towards other and jt the way \"the way we we\" able to have diering and viewpots. I think it it speaksolumes for oucommunity."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14667.493,
     "end": 14698.122,
     "text": "hank you. ouncil member amos tha you dan. Th of welcome to the show. You won't see the room packed like that for while. Sink or swim. Tting this this upcoming monday wl be m lk day. Please gout and volteer in your community. So I'm the not sure where it's at at that ti."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14700.893,
     "end": 14731.254,
     "text": "You can you can google faiax anfind it. I'm going to london so I will sach catch with you all week. I'm buying a house so so I will be for those who w cplain abou renting I the city I'll be a homeowner now. I pay tes eherette wa all right. Have a good e."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14735.728,
     "end": 14769.292,
     "text": "iike toish congtulations to gretchen. She ll be sworn tomorrow morning when session stas in rimond as our meeting he in richmond. An to serve theity to the very bes ofy abily. I intend to doing soor the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14771.13,
     "end": 14807.29,
     "text": "remaing351 days of my te. Sittingith sittingn these seat theave held before me. Ombination ofhoughtfully considered words could effectively the comexityf the lasthree years so is I won'try. Whatith I will says this that is ourreity charter is out you dated and I-equippeded toeet the modn y."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14807.598,
     "end": 14839.73,
     "text": "From myantage point of occupanc the chair I'm sitting is broken. As I prepare to leave the seat eat to someone ee I'm to be a agt of change. Andillontinue to speak up up when I'm no lger in ected ofce. I'm deey who step forward to onerve our democratic institutions at the local, state and fedel levels I now mor than ever defending requirement"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14841.533,
     "end": 14873.564,
     "text": "everyequires engagement and effort me than we've ever had to befo. I inviteo engage about conversatis how we can move fairfax ci. Care deeplybout this community. Its resident and the exceptiol city staff who's deadindication mes our quali of life the envy of thisregion. My colleagues on the die ais I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14879.705,
     "end": 14887.911,
     "text": "looko worki with yo until the end of my term. With thate are adjourned at 11:08 otuesday."

@@ -3,2790 +3,3736 @@
 const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 28.823,
     "end": 59.352,
     "text": "back to the deck. Jack. Good evening. I would like to call the regular meeting of FEBRUARY 24, 2026 to order. It s great to see everyone here tonight. I love a fullhauser, mostly a full house. There s nothing like government where everyone participates. If you are able and so choose, please rise for the Pledge of allegiance."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 65.727,
     "end": 98.925,
     "text": "Nation law and justice for all I would like to ask Sophia Chapin, our stewardship coordinator, Urban Forest. Urban Forestry Forest Rescue s program manager and Fairfax Prism to come down for our national invasive Species Awareness Week proclamation."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 100.395,
     "end": 131.357,
     "text": "All right Welcome everyone Whereas the forests, streams, native plants, and wildlife of the city of Fairfax predate the establishment of our community. And continued to be enjoyed for recreation, cultural heritage, scenic beauty, human well-being, and economic values. And whereas non-native and harmful species species known as invasive species were introduced to public and private lands and watersheds over the centuries, both by design and by accident, where"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 133.161,
     "end": 163.456,
     "text": "they now alter the balance of healthy ecosystems by disrupting food webs, displacing and preying upon desirable indigenous species, reducing biodiversity and changing nutrient and water cycles. And whereas invasive species are most often spread through the movement of people, vehicles, equipment, and goods, and are becoming increasingly more difficult to prevent and control as a result of global commercialization and human influence. The proliferation of the tree of heaven from China has created a habitat for"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 163.557,
     "end": 194.22,
     "text": "another invasive species in this country, the spotted lantern fly. Which threatens the health of native plants. And whereas the recently updated urban forests master plan addresses best practices for maintaining a healthy tree canopy in our city. It is incumbent upon all of us to be good stewards of plants wherever they are growing, including on commercial properties, public properties, and in conservation areas. Smartphones provide all of us with a powerful tool to identify, document, and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 195.55,
     "end": 227.887,
     "text": "pinpoint the locations of invasive plants and to assist us in raising awareness to those in a position to address their remediation. And whereas the spread of invasive species can be prevented by becoming more informed about plant species, including asking more questions at plant nurseries and of landscapers about the plants they recommend. It s having the courage to initiate uncomfortable conversations with your neighbors about what you see in their yards that threatens the health of their trees and their plants. It means participating in removal"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 228.723,
     "end": 260.487,
     "text": "efforts, conserving native plant populations and habitats and choosing noninvasive plants when gardening and landscaping your own yard or commercial property. Now, therefore, I, Catherine s. Reed, mayor of the City of Fairfax, do hereby proclaim the week of FEBRUARY 23 to 27, 2026 as invasive species awareness Week in the city of Fairfax and encourage all residents and visitors to become well-informed plant detectives and join in our community-wide endeavor to prevent, detect, and manage invasive species in our city."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 260.955,
     "end": 293.953,
     "text": "And with that, I will turn it over to Sophia. Perfect microphone height, um, yeah, so this week is invasive Species Awareness Week in the city, and if you follow us on social media, we ll be sharing a lot of educational information about different invasive plants and how you can get involved. This week kicks off the beginning of our invasive volunteer season. So we will be having volunteer events every couple of weeks throughout MAY for residents to get involved and learn how to remove invasive plants and help restore habitat in our parks, and on MARCH 14th at the Sherwood Center, we will be"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 294.254,
     "end": 324.75,
     "text": "having a training for those who want to get more involved or just learn how to manage invasives on their own property. All of those events can be found at Fairfaxva.Gov/trees. Scroll down and the events will be there. And then I would like to pass the microphone off to Katie Johnson of Fairfax Prism, which is a new organization helping to restore habitat and save trees from invasive plants in the city. Thank you, Mayor Reed. Thank you, Sophia, um, a prism is a community"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 325.219,
     "end": 357.717,
     "text": "partnership that brings together agencies, nonprofits, and residents to tackle invasive species across our region. Fairfax Prison s mission is to facilitate a community-wide effort by residents and organizations to stem the epidemic of invasive plants and thereby protect our trees and promote the growth of of the life supporting plants that are native to our ecosystem. Fairfax Prism offers site visits to walk property with community leader s and property owners to help identify invasive plants and formulate both short and long term plans. Please consider"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 357.717,
     "end": 389.581,
     "text": "becoming a community representative to help educate your community about identifying and removing invasive plants. Community reps relay information about invasive plants to their neighborhood and to help coordinate local efforts while receiving training and planning assistance from Fairfax Prism. There is no experience necessary. We are also pleased to have received a $30,000 matching grant from the Virginia Department of Forestry to help communities fund professional invasive removal services. The main goal of these grants is to help jumpstart a long-term invasive plant management plan. We have"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 390.15,
     "end": 422.381,
     "text": "awarded 17 mini grants, two of which went to City of Fairfax Communities. Fairfax Prism s vision is a region with a tree canopy that is free from the threat of evasive finds, Parks whose natural beauty is preserved for all to enjoy, and natural areas that thrive as functioning ecosystems. We are excited to partner with the city of Fairfax in raising awareness of invasive species, saving our trees and other native plants and getting invasives under control. Uh, you can learn more and to get involved at Fairfax Prism.Org."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 424.184,
     "end": 454.846,
     "text": "Thank you. Ok, good. It s a."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 460.153,
     "end": 490.883,
     "text": "Thank you very much. All right I m looking for my Fairfax City Restaurant Week committee. Yes, it s that time of the year. We do this twice a year rest It s just continuous revolving, just eat your way through the city every day. Why do we need a week for that? We should just do it every day. Ok, everybody in? Ok. Whereas dining is an important part of our daily"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 491.818,
     "end": 524.182,
     "text": "lives. An essential part of gatherings, celebrations, family time, and fellowship. Creating special places in our community that become part of the fabric of our city, the establishments where memories get made, conversations are shared, and the staff often get to know us by name. And whereas restaurants are key destinations for visitors, showcasing the rich diversity of our community through the personal journeys of owners who share dishes from their home countries, family traditions, and homegrown multi-generational local favorites. And whereas Fairfax City, Virginia has solidified"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 525.451,
     "end": 557.382,
     "text": "its place as a regional dining destination located at the very epicenter of Northern Virginia, with a global diversity of food and innovative and exciting approaches to the dining experience. And whereas a collaboration between the Fairfax City Economic Development, the Central Fairfax Chamber of Commerce and the Old Town Fairfax Business Association. Has developed uh a robust program to promote Fairfax City Restaurant Week is a highly anticipated biannual event featuring new restaurants and many established dining"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 557.817,
     "end": 591.416,
     "text": "destinations. And whereas the business, the business is participating in Fairfax City Restaurant Week, play an essential role in supporting the central, the city s financial health by collecting and contributing to the city s meals tax revenue, which provides funding for critical public services and investments that benefit all residents and visitors. And whereas the 2026 Winter Fairfax City Restaurant Week features 24 of the finest restaurants throughout the city, all offering set price lunches, dinners, 2 for $10 options and more along with programming to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 592.885,
     "end": 625.85,
     "text": "entice our residents, visitors, George Mason University in Northern Virginia Community College students. And the business community to try something new and to bring along family and friends. Now, therefore, I, Catherine s. Reed, mayor of the City of Fairfax, do hereby proclaim February 27th through MARCH 8th, 2026 is winter Fairfax City Restaurant Week and call upon everyone to visit Fairfax City Restaurant Week.Com to learn about this exciting economic development initiative that supports our small and independent restaurant community and to visit our partner restaurants"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 626.285,
     "end": 656.348,
     "text": "during restaurant week and beyond to show that support for our culinary community while finding a new favorite meal in Fairfax City along the way. And with that, I will turn it over. To MS. Tara Borway Thank you. Hello everybody. I, uh, joking on the way up here, said we should just make it restaurant year. I, it does seem like we are doing these pro proclamations every few months, um, but I will say that no matter how often it feels that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 657.75,
     "end": 689.247,
     "text": "these come around, people are super excited every time and that is, uh, you know, in part mostly part, I would say, due to our amazing restaurants and the buzz that is generated by our residents, um, and attracting visitors, which is one of the goals of the Restaurant Week. So we have our amazing partners here, the Central Fairfax Chamber of Commerce and the old town Fairfax Business Association, which really helped make this event possible coordinating with restaurants isn"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 689.515,
     "end": 720.144,
     "text": "t. The easiest Because they re busy people and they re, uh, you know, they re cooking up amazing meals and not necessarily answering emails, um, but we are very honored to support them and celebrate them one more time as Mary Reed said visit Fairfax City Restaurantweek.Com to see the now 25 businesses that are listed there we have returning businesses as usual, but we have welcomed several new ones, so you can for sure find"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 722.47,
     "end": 752.977,
     "text": "something that you have not had before and uh I welcome you to share your experience. Tag us at GoFairfax City, and hashtag Fairfax CityEats. Anybody you know Some I was just gonna say really quick, you know, we ve had a lot of really bad weather this year, and that does affect the people that come out to Old Town Fairfax and to the city. So if you, you know have businesses that you love and want to support. Now is the time to get out there and help support them because a lot of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 753.611,
     "end": 787.178,
     "text": "these are very small mom and pop places, and they really could use your support. So it s a good time to do that, some really good deals are on there. Thank you. There s not a microphone that I can t step in front of. Jennifer Rose, Central Fairfax chamber, this is my 9th restaurant week. And what I love the most about our restaurant scene in the city of Fairfax, and Tina hit it. Nail on the head They re independently owned. They re, they re small mom and pop businesses. They re not the big box restaurants that participate in our restaurant week. And this horrible weather has not treated our restaurants"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 788.413,
     "end": 858.55,
     "text": "kindly. So get on out there and eat your way around the world. You can do that in the city of Fairfax from Azerbaijani food. Yes, I said Azerbaijani food to Vietnamese and everything in between, there is something for you to explore in the city of Fairfax. So, please eat with us this year. Ok we re gonna do a picture. And I would just say that there are some things that are on the restaurant week menu that only appear on the Restaurant Week menu. I could say something about the lobster blt, which I always have at least twice. Well done Alright. So at this time, I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 858.55,
     "end": 891.248,
     "text": "m going to recognize MR. Dan Alexander, our city manager, to present the proposed fy 27 budget. Traditionally this is an opportunity for all of us to be presented with the budget and traditionally, we do not comment or have debate on the budget at this time because the budget adoption will happen on MAY 5th, and there will be plenty of work sessions and opportunities in the coming months for us here on the dais and for the public to address"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 892.684,
     "end": 923.747,
     "text": "the budget that is presented here tonight. So this really is your opportunity to hear the city manager present his budget so that we all have time to think about it before moving on to the work sessions that will follow. MR. Alexander. Council staff council council staff, and community. I am pleased to present to the city manager s proposed fiscal year 2027 budget for the city of Fairfax. This proposal reflects months of analysis, collaboration with staff, engagement with"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 924.682,
     "end": 956.814,
     "text": "community and alignment with council s strategic priorities. At its core, this budget is about long-term stability, responsible investment, and preserving Fairfax financial strength while honoring the commitments we ve made to our residents, our schools, and our employees. Before we dive into the details, I want to ground us in what this budget is and what it is not. This budget is a plan and policy tool, a fiscal year financial plan that estimates revenues and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 958.182,
     "end": 989.178,
     "text": "expenditures and guides how we allocate resources and deliver services. It reflects community priorities. It is a strategic plan, not simply a spending mandate. We direct limited resources toward the programs and services residents value most. It is balanced and required by law. Under Virginia code, the budget must be balanced, revenues must equal expenditures, and we take that responsibility seriously. This budget is guided by our"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 990.481,
     "end": 1023.913,
     "text": "strategic plan. The 5 goals that you see here, economic development, environmental sustainability, community transportation and governance serve as the framework for how we evaluate priorities and allocate resources. Not every line item ties neatly to a single goal, but the overall direction of this proposal reflects the strategic path for our organization. This is the lens from which we built the foy 27 budget. It s important to frame the community feedback we ve received that reinforces"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1023.914,
     "end": 1056.212,
     "text": "the importance of sustaining the excellent course services that we provide. Over 90% of respondents rate Fairfax as an excellent or good place to live and to raise and educate children. Fairfax rated above the us average and 46 of 47 areas. Satisfaction with overall city services rates 30% above the us average. Satisfaction with customer service provided by city employees rates 47% above the us average. Those outcomes reflect high performing staff"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1057.114,
     "end": 1088.545,
     "text": "and discipline investment. This budget is designed to protect that performance. This slide captures the financial policies or the guardrails that shape every recommendation in this budget, as we said before, we require balanced budgets, revenues meeting or exceeding expenditures. We plan multi-year for capital and utilities, enterprise, and utility funds are designed to be self-supporting over time. We maintain strong reserve. Unassigned fund balance at or"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1089.646,
     "end": 1124.18,
     "text": "above 15% in a budget stabilization fund up to 3% We managed that prudently, debt service at or below 14%, and outstanding debt at or below 4% of assessed valuation. We prioritize diverse and strategic revenue attempting to minimize rate pressure, preserve principle and support economic development. And we remain transparency and accountability with independent audits. Gfoa recognition and preservation of our aaa credit rating. These policies protect taxpayers and protect service"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1129.12,
     "end": 1159.648,
     "text": "stability. These guidelines translate policy into operational discipline in fi 27, that means strategic revenue use, including pursuing grants and strengthening cost recovery where appropriate, operational efficiency through evaluation of programmings, staffing and technology for best service delivery, targeted staffing and compensation, emphasizing market competitiveness, parity with local governments fully fully funding the arc to pension plans. Capital"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1159.816,
     "end": 1190.79,
     "text": "investment focus, maintaining cip transfers and protecting infrastructure using pay as you go when practical. Flexible budgeting, maintaining reserve for economic uncertainty and strong financial oversight following a rat grading agency and advisors in maintaining fiscal discipline again consistent with our aaa rating. This is a stability budget driven by discipline, not expansion. This budget has been developed with engagement"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1190.514,
     "end": 1222.844,
     "text": "points and will continue through the council process. We held a budget open house in OCTOBER of 2025 where we engage residents and business owners directly with staff. We held a budget retreat in NOVEMBER 2025 to review economic conditions, project revenues and expenditures, debt capacity, workforce investment, and initial focus items. Looking ahead, we have 6 work sessions and 4 public hearings. And we continue digital engagement through the budget web page and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1223.747,
     "end": 1253.941,
     "text": "we are this year leveraging Engage Fairfax for increased community interaction. This is intended to be a transparent and deliberate process. This slide summarizes the primary drivers of the fy 27 budget, and it s important because it frames what is truly driving the gap. The major drivers are structural. $5 million for the school tuition contract increase between the fy 26"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1255.11,
     "end": 1285.806,
     "text": "adopted budget. And this fy 27 projection. $3.3 million for planned debt issuances for school renovations, the Willard Sherwood Health and Community Center. 1.3 million for workforce investment, salary increases infringe, half a million for one-time expenses. Offset by 1.3 million net operating and maintenance reductions based on project balances a key takeaway if we made no changes in tax rate or"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1286.142,
     "end": 1316.906,
     "text": "revenue and did not reduce non-mandated expenses those drivers alone would translate to the equivalent of approximately $8.8 million in cost increases. And a 9.6% real estate tax rate increase. I m not recommending that tonight but it s a central context for why you ll see these measured adjustments as we go through this presentation. Education is our single largest general fund"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1317.908,
     "end": 1349.604,
     "text": "obligation. The slide shows the tuition history and trend line. The key point is that tuition has grown steadily over time, driven by operating realities, compensation benefits, instructional needs, and inflationary pressures. This is a structural obligation, not a discretionary initiative. Our responsibility is to fully fund the contract while maintaining overall fiscal balance. For our city The slide speaks to the drivers behind the tuition"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1351.508,
     "end": 1384.405,
     "text": "requests, including adm trends and operating cost pressures, average daily membership is moderated compared to previous, previous growth years. However, operating costs continue to rise largely because education operating budgets are personnel driven. Which also include compensation staffing needs, benefits and healthcare. Fixed operating costs and inflation sensitive and structural and support costs. Even when enrollment stabilizes fixed and personnel related costs remain."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1384.541,
     "end": 1414.868,
     "text": "The tuition request reflects those cost realities, and we have built this budget to meet that obligation. Planned debt issuance in fiscal year 207 includes 22 million for school renovations, about 1.7 million in annual payments 21.56 million for the Willard Sherwood project, about 1.6 million in annual payments. These are long-term investments that support education and health community infrastructure. There are also commitments we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1415.104,
     "end": 1445.734,
     "text": "need to plan for deliberately, especially as we move into the multi-year school bond program. Fairfax City, Main State, the hot maintains the highest ratings available, aaa. We have sustained excellence for more than a decade. What this means for taxpayers is straightforward. Lower borrowing costs based on estimates shown here, maintaining the aaa credit quality can produce approximately 8 to $11 million in interest savings on the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1446.201,
     "end": 1478.334,
     "text": "upcoming school bond issuance compared to the next rating tier. That is the dividend of disciplined financial management. This slide shows the composition and growth of the real estate tax base. Our total valuation increased 5.9%. It also shows the mix of property types, both residential and commercial categories. The important point is that a built out city valuation growth is essential to sustaining service levels because real estate taxes are"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1478.334,
     "end": 1509.731,
     "text": "the single largest revenue source. In the general fund We also track composition closely because of diversification matters for stability over time. Total assessed value increased 5.9% for calendar year 26. Our tax base remains approximately 68% residential and 32% commercial. Existing residential values increased"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1512.101,
     "end": 1543.63,
     "text": "4.6% while existing commercial increased 0.5%. New construction declined year over year, reflecting project timing rather than structural shifts. The key takeaway is that this year s growth is driven primarily by appreciation and existing residential properties. which reinforces the importance of long-term diversification and redevelopment a largely built out city. The slide shows the allocation of each dollar across service areas. The key"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1543.866,
     "end": 1575.962,
     "text": "message is that the sending city spending is contra concentrated on core services residents expect every day Education support, public safety, infrastructure and mobility and a central city operation. The fy 2027 proposal does not shift priorities. It protects core service delivery. The fy 27 General Fund totals $207.5 million. This reflects"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1577.265,
     "end": 1607.529,
     "text": "an increase of about 4.5% over the fy 26, adopted budget. It is important to emphasize and I ll say it again throughout this presentation. No new fde propositions are proposed No reduction in current programs, no new initiatives or service expansions. This is a stability budget focused on sustaining cooperation and meeting commitments. This slide summarizes the service and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1607.529,
     "end": 1646.34,
     "text": "workforce stability assumptions. Again, we maintain all existing services, no reductions, no new initiatives. Focus on core operations. Workforce investment includes a 3% general salary adjustment for general employees. Step increases for public safety personnel, a 1% cola for all employees. Maintaining current staffing levels. This approach supports retention and competitiveness while holding the line on headcount. The slide highlights the core"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1647.435,
     "end": 1678.266,
     "text": "commitments we plan to fund. We fully fund the school tuition contract at $76.4 million. We planned for debt issuance for the school renovations in Willard Sherwood. And we incorporate a net operating and maintenance reduction of $1.3 million by using available project balances and important internal offset that reduces pressure elsewhere in our budget. The theme is to meet commitments first, absorb as much as possible through internal management before"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1682.404,
     "end": 1715.135,
     "text": "asking for additional revenue. The slide is important in terms of being a reminder of the reality of today s labor market, our workforce seeks a culture of collaboration modern tools, a strong mission, and a sense of purpose. The city s investment that we have discussed supports retention, competitiveness, and service continuity. The slide shows what changed from fy 26 to fy 27 on the expenditure side, the main increases that you see"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1715.503,
     "end": 1749.837,
     "text": "here are attributable to school tuition growth. Planned debt service costs, and workforce stability investments. Importantly, these are structural obligations, not expansions. We are not growing headcount and we re not adding major new initiatives. We are maintaining service levels and meeting commitments. This slide summarizes the tools used to close the earlier fy 27 funding gap. That I mentioned earlier First, a 2.5 cents increase in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1751.672,
     "end": 1783.802,
     "text": "the real estate tax rate moving from $1.55 to $1.08. Second, a 0.5% increase in the meals tax from 4% to 4.5%. For context, that equates to about 25, 25 cents on a $50 meal. Third, a 6% increase in wastewater rates, which results in an average annual increase of approximately $44.65. Fourth, a 5% increase in the stormwater utility rate, which translates to about $10.19 annually for"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1784.239,
     "end": 1816.403,
     "text": "the average property. Finally, we re utilizing a $5 million in assigned fund balance as part of a balanced approach. Together, these measures close the structural gap created by tuition growth, debt service, and workforce stability while maintaining service levels and protecting our long term financial position. The slide shows the fy 27 General Fund revenue total at 207.5 million, matching expenditures as"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1818.84,
     "end": 1849.569,
     "text": "required by law. The composition underscores why diversification matters. Real estate remains the dominant revenue source. This is a consistent theme I mentioned earlier and a consistent theme for a built out jurisdiction. Growth and diver diversification strategies remain essential to long-term stability. This slide highlights the main revenue changes from fy 26 to fy 27."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1850.738,
     "end": 1884.237,
     "text": "Key items include $6.9 million in real estate tax revenue, including 4.7 million associated with appreciation $2.1 million in meals tax revenue, including approximately 1.3 million associated with the proposed rate adjustment. 5 and assigned fund balance utilization, and 1.7 million in school aid. And it includes two important reference points. One sent on the real estate rate equals"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1885.306,
     "end": 1915.802,
     "text": "approximately $883,929 0% on the meals tax equals about $1.25 million. The slide visually shows the revenue delta from fy 26 to fy 27. The core point is that a significant portion of growth comes from assessment appreciation and baseline revenue performance, not purely from rate changes. This is why tax-based growth and economic"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1916.537,
     "end": 1946.599,
     "text": "development remains central to long-term fiscal stewardship. The slide shows the recommended tax rate changes, the current tax rate is $1.55. The proposed increase that by 2.5 cents brings the total to $1.08. We are pros proposing to adjust the meals tax rate, as I mentioned earlier, to 4.5%. All other major tax rates remain the same as you see them listed"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1947.969,
     "end": 1980.233,
     "text": "here. The equalization rates shown here are technical adjustments that help keep the tax burden balanced between residential and commercial properties when they values change at different rates. In simple terms a modest real estate adjustment, Emil s tax adjustment, and no other change to major tax categories. The slide translates the proposal into the impact for the average residential property. It shows the proportion attributable to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1981.702,
     "end": 2014.767,
     "text": "natural assessment growth at $335 which is not a change in tax rate. And a portion attributable to the rate change $182. Total annual increase is shown as 517, which is about $43 a month. The slide shows comparative real estate tax rate among local jurisdictions. The point is to provide context as you note, at the left end of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2018.405,
     "end": 2049.702,
     "text": "the chart. Fairfax City remains competitively positioned among Northern Virginia communities. We ll continue to monitor these comparables because we want a rate structure that supports competitiveness while sustaining core services and our capital commitments. The slide provides regional context for meals, tax rates, the key policy rationale here is diversification. Meals tax is partly paid by non-residents, people who use city amenities and services while they dine"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2053.34,
     "end": 2086.806,
     "text": "here. Also, the last meals tax adjustment in Fairfax occurred in 2004. This provides context for why meals tax is part of the overall balanced strategy. This section shifts from the general fund to other funds that have distinct revenue and expenditure structures. Each is governed by its own financial model. And utility funds in particular must remain self-supporting over time. The old town serves as a district"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2087.941,
     "end": 2122.175,
     "text": "rate is maintained at 8 cents per $100 of assessed value. It generates approximately $400,000 annually. Those funds support all town investments. Such as parking in area enhancements, street light conversion projects and support to the old town Fairfax Business Association through our Office of Economic Development. This is a targeted, purpose-driven district that reinvests directly in old town vitality. The wastewater utility fund supports wastewater collection,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2122.643,
     "end": 2156.541,
     "text": "treatment, administration, and required capital investments annual expenditures are approximately $19.9 million This includes treatment of about 1.2 billion gallons of wastewater. The city s share of upgrades at the Norman coal wastewater treatment plant and operational costs, debt payments, and other capital costs. The recommended rate adjustment is 6%. We re about $44.65 per year on average user as shown. The key driver here"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2156.576,
     "end": 2188.373,
     "text": "is regulatory requirements and long-term system reliability. Deferring these investments increase long term risks and costs. So this proposal keeps us on a sustainable compliance and infrastructure path. This slide stresses the transit fund with a focus on the zero fare program. Ques suspended fares during covid and MARCH 2020. Council adopted a four-year zero fare pilot in JANUARY of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2189.309,
     "end": 2222.14,
     "text": "2022, supported by funding to offset lost fare revenue, ridership has increased 53% since 2019, the largest increase of transit providers in our region. Zero fare benefits are included here on the slide. We will need to revisit long-term funding sustainability as the current grant support expires. The stormwater utility fund was adopted in DECEMBER 2021 with fees beginning in JULY 1st,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2225.45,
     "end": 2257.242,
     "text": "2022. The recommended fy 27 fee is shown by billing unit. The proposed adjustment is 5%, approximately $10.19 per year for an average property. This fund supports major requirements and projects which are included on this slide, stormwater is driven by regulatory compliance. And long-term climate and infrastructure resilience. This adjustment supports those obligations. The slide provides"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2257.243,
     "end": 2291.276,
     "text": "the scale of the five-year capital improvement program. The five-year total is approximately $637.3 million. The fy 27 appropriation is $83.1 million. There are 84 total projects over the five-year period. A significant portion, 208 million, is associated with school renovations. This is a major investment program aligned with our priorities and voter approved commitments. The slide summarizes the general fund"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2292.245,
     "end": 2324.208,
     "text": "supported portion of the cip. The key message is that the city continues to invest in core infrastructure and asset preservation, streets, facilities, public spaces, and long-term maintenance. These investments reduce long term costs and protect service reliability. The slide shows the funding sources supporting the cip, the core point is diversification. We use a blend of funding sources including bonds, pay as you go transfers"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2324.978,
     "end": 2356.34,
     "text": "state and federal funds and utility or dedicated revenues depending on the project type. The slide shows cip expenditures and includes an important note. Nfy 27 infrastructure repair and maintenance transition from the cip into the operating budget. This is a classification and transparency improvement. It reduces the general fund transfer shown in cip because those projects are now appropriately reflected as operating expenses rather than"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2356.776,
     "end": 2392.611,
     "text": "capital. This investment is still occurring. It is reflected differently for accuracy and clarity. The slide highlights transportation revenue sources and the strength of external participation. Transportation, it is an area where Fairfax City has been effective in leveraging federal, state, and regional dollars. That leverage allows us to deliver projects that would otherwise be beyond local capacity. This slide provides highlights of fy 27"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2394.68,
     "end": 2427.946,
     "text": "Capital Priorities. It reinforces the alignment to your strategic goals, including educational related investments, transportation, connectivity facilities and community infrastructure and utility system reliability. This slide summarizes the total recommended fy 27 budget across all funds. $302.6 million. It also reiterates the proposed rate changes and utility adjustments that support fund"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2429.681,
     "end": 2460.912,
     "text": "sustainability. This is the comprehensive municipal financial plan, not just the general fund This slide outlines policy changes and emerging pressures that could affect the city s financial outlook. They include a potential 1 cent, or I m sorry, 1% local sales tax for school construction. Transient occupancy tax authority expansion. Collective bargaining national and regional economic conditions"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2461.38,
     "end": 2495.547,
     "text": "and shifting environmental, social services, and transportation funding landscapes. Takeaway is that our reserve policies and discipline approach are important because the external environment can change quickly. This slide summarizes the overarching message for this fiscal plan. This proposal makes modest competitive adjustment. It funds critical capital commitments, including schools and Willard Sherwood It supports long-term financial"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2497.416,
     "end": 2530.18,
     "text": "stability and reserve policies. It supports employee retention through sustainable workforce investment, and it adds no FTEs while maintaining service levels. The slide lays out the budget timeline. Tonight, of course, is our presentation As I mentioned earlier, we have work sessions and public hearings through MARCH and APRIL, including a key decision point on MARCH 10th regarding the maximum real estate tax rate to advertise. We move"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2530.582,
     "end": 2562.46,
     "text": "forward to adoption in MAY, along with appropriation resolution and rates and levies. Again, this process is deliberate and provides multiple opportunities for engagement, council, direction, and refinement. This is just the beginning. The slide previews, the planned work session topics, notably on MARCH 3rd, we will hold the joint meeting with the school board. We ll continue general fund discussions, review historical real estate tax"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2564.315,
     "end": 2596.479,
     "text": "trends. And discuss setting the maximum real estate tax rate to advertise. On MARCH 10th, we will focus on meals tax proposal and continue our general fund questions. On MARCH 24th, we will review the cip and the stormwater utility fund and wastewater fund. On APRIL 7th, we reserved time for additional general fund discussion if needed. On APRIL 14th, we ll discuss any counsel identified topics. And on APRIL twenty-eighth, we will hold the final work session, present"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2597.15,
     "end": 2629.11,
     "text": "draft changes. And deliberate prior to adoption. The schedule provides multiple opportunities for detailed review. Again, refinement and council direction before you take final action. Reminder that the proposed budget is available via open book. It is interactive and searchable, providing easy public access at any time through the city s website. It aligns with gfoa budget standards and again we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2629.447,
     "end": 2661.711,
     "text": "are leveraging Engage Fairfax for increased community interaction. This supports transparency and builds community trust. So I want to close by thanking our employees who deliver exceptional services every day. Some of whom are in the room here with us tonight And of course, the team that produced this budget. Special thanks to our budget director Gwen Riddle. Budget management, management analyst Jess Iams, our assistant city"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2662.18,
     "end": 2692.777,
     "text": "manager and cfo jc Martinez and the budget action team members listed on this slide here. Mayor and members of council, this budget maintains our commitment to sound financial management while sustaining service excellence. And advancing critical capital investments. We look forward to working together with you through the upcoming upcoming engagement sessions and hearings. Thank you very much Thank you very much. And again reiterating that there are work"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2693.211,
     "end": 2723.573,
     "text": "sessions, public hearings, and all of this information is available to the public on our website, and we look forward to having robust civic participation in this process. We will now go on to gender adoption. Is there a motion to approve the agenda and move to adopt the agenda as presented. Is there a second? The motion s been made and seconded a roll call vote. Council member Amos. Council member Hall, Council member Hardy Chandler. Councilmember Peterson, Council"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2724.442,
     "end": 2756.873,
     "text": "member Bates. Council member McLellan, motion passed unanimously. We ll go to initial general public comment. I had 7 people sign up by 5:00 P.M. Today. If there s anybody in the room that would want to speak, we ll have another opportunity under agenda item number 9. So I will call the first speaker up, which is Barbara Smith. Good evening and thank you for allowing me to address you today. My name is Barbara Smith and I live less"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2756.874,
     "end": 2787.605,
     "text": "than 3 miles from here, just across the border to Fairfax County, but I m here tonight as the chair of the Fairfax City Young at Heart Senior Advisory Council. I d like to share our thoughts and reasonings with you, um, in our support of the Willard, um, Willard Sherwood Health and Community Center project. Specifically as relates to the senior membership at the current Green Acres facility. I would be remiss if I didn t share how grateful most of us are with the way Fairfax City and the city of parks and recreation department leadership, um, for the continued support of our membership. We have an extremely diverse and vibrant community of senior adults, and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2787.605,
     "end": 2818.301,
     "text": "we appreciate the programs offered by the city that offers us the opportunity to learn, grow, socialize, and play. From physical activities to lunchtime learnings to a space to play cards and board games, to take an organized senior trips. Hundreds of city and county members of the 55+ age community gathered to enrich ourselves mentally, physically, spiritually, and culturally. There are many reasons, however, that drive our desire for a change, which I will address. We currently meet in a building that s older than most of us seniors. If the Green Acres was a person, it would be eligible to receive Social Security this"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2818.402,
     "end": 2848.498,
     "text": "year and would be required to sign up for Medicare this summer. The gym that we currently play cornhole and pickleball in leaks when it rains, drips water when the roof snow melts and randomly drops condensation from the hva system, um, in summer. As older adults, we re aware that we should limit our opportunities to break our increasingly fragile bones, so we must mop. We have mops and paper towels by just to make sure that we don t fall. Agre as Greenh was originally an elementary school. Um, our restrooms facility is designed for humans that are much smaller than us. An example is that there s only"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2849.33,
     "end": 2880.997,
     "text": "one adult sized sink in each of the restrooms, and my understanding is that the urinal s about knee-high to most adults. Public transit is also an issue. Several times per month, Green Acres typically runs out of parking spaces, and this is primarily due to well-attended events, preschool, and, um, the school, uh, day care activities and George Masson University students using the restricted areas. Additionally, there are no bus lines that service the Greenacres facility. Um, and people have to park at, um, take the bus to George Mason from the q bus and then traipse through the woods to come to Green Acres. Um, a seniors age, some lose their private"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2881.432,
     "end": 2913.95,
     "text": "transportation options and rely more on public options. Um, the proposed will at Sherwood Community Center is located on a bus line and is also in walking distance from several neighborhoods. 55 year plus old adults including Fairfax County seniors spend their hard-earned dollars in the local economy. If a senior center is more centrally located in Fairfax City, we d have much more time to frequent restaurants, shops, and grocery stores on our way to and from our activity at the senior center and that would contribute more money to the city economy. The option of delaying approval of the Willard Sherwood pro project would definitely impact those of our members who would be aging out of the attending"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2913.33,
     "end": 2948.463,
     "text": "senior activities in the next 4 to 6 years. Renovations that are demolishing and rebuilding the Green Acres facility would cause long-term closures of facilities, denying seniors from participating in events that in some cases are highlights of the day, the week, the month or the year. In conclusion, we urge the city council to vote yes on going forward with the Willard Sherwood Community Center, and we thank you for providing me an opportunity to profess our view. Thank you. Our next speaker is Mike f Fabio. To"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2949.1,
     "end": 2979.627,
     "text": "follow, to follow but to follow, to follow but, uh, uh, Michael Fabio, uh Chambridge Road. I m here to gain your support for the Willard Sherwood Center. Two weeks ago we heard an excellent, informative and comprehensive presentation from the Willard Sherwood team. Conseil asked many questions, and the team had the answers. And here are my takeaways. One, the county is getting, is gifting us land and expensive commodity rent-free. This saves taxpayer dollars. 2, this allows us to keep the green acres property and continue to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2979.629,
     "end": 3010.425,
     "text": "enjoy the ball fields and green space, building a new structure there would cannibalize some of those areas. 3, it s shovel ready. Construction could start in a few months. Renovation or building a new structure on Green Acres site might not occur for years as we wait for plans, public input, consul approval, and bidding. For there would be no downtime of the activities provided by Green Acres. Once the wool at Sherwood is complete, Green Acres moves in, reconstructing Green Acres would take activities offline for many"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3011.995,
     "end": 3045.36,
     "text": "months. 5, the planning commission emphasized 33 city projects that are urgent The property yard, firehouse, and Will Sherwood. The first who are not ready to go, Willard Sherwood is 6, delaying this construction would undoubtedly end up costing the city more as inflation raises the price. 7. The city has already paid $4 million for the plans that would be lost. 8. The price can t go up. It s guaranteed and might be negotiated downward that process is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3046.296,
     "end": 3078.259,
     "text": "occurring as we speak. The s9, the estimated burden to taxpayers could be relieved if the city is able to build up its commercial tax base, having a welcoming community center will bring more people to the city to support city businesses. As existing and new businesses thrive they will pay a greater share of our taxes. Conversely, if business fails, we will pay more taxes. 10 Finally, we find out we found out that there"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3078.628,
     "end": 3109.24,
     "text": "will be no risk to the public from infected patients. Since those patients with acute infections have never been accepted. Now, most citizens do not follow city council and have no idea that there is a Wool Sherwood project. Of those who provide positive public input. I m sure there are less than 5% are aware that this project is in danger of being voted down by council. It might be a good idea if those of you on council that do not support this project could air your"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3109.159,
     "end": 3141.223,
     "text": "concerns from the dais so that they would have more time in uh allow for more public feedback. This project merits such a healthy discussion before it is shelved. Thank you. Our next speaker is Jim Gillespie. Good evening, Mayor Reed, members of council. I m Jim Gillespie. I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3141.224,
     "end": 3171.386,
     "text": "live at 3604 Colony Road here in the city of Fairfax. If you ll permit me a, a brief, uh, personal background on this to begin with. Um, the Willard Center was built in 1954. Uh, I was built in 1957. Um, I think we both could use some renovation. Um, in 1979, I visited the Willard Center for the first time. I was a brand new Fairfax County employee, uh, and going for my pre-employment physical, which had nothing to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3172.422,
     "end": 3204.818,
     "text": "do with the job qualifications. It was to, to tell whether I was healthy enough to go on the county s health insurance. I m sure glad times have changed. This project makes best use of a valuable piece of public property that sits in a central location in our city, accessible by the q bus and Metrobus and a soon to be revitalized Blenheim Boulevard. The Willard Sherwood Community Center offers something for everyone. Childcare services for working families, a modern"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3205.87,
     "end": 3236.751,
     "text": "center for seniors, recreational services for everyone and health services for everyone. Up until 2007, our city police department was housed in a former elementary school, John c. Wood, built in 1964. Today, few would question the wisdom of having replaced that building with a state of the art public safety facility. Green Acres was built in 1961 and after 39 years as a school, has served as a community and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3237.353,
     "end": 3272.753,
     "text": "senior center since 2000. I won t say anything bad about Greenacres and the other buildings that have served our city since its founding and before. But it is time to invest in the infrastructure that will serve our residents through the 21st century. Thank you. Our next speaker is Janice Miller. Good evening, Mayor Reed. Members of council. My"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3273.689,
     "end": 3306.588,
     "text": "name is Janice Miller, and I am here to share why I support Willard Sherwood. First, thank you for scheduling the FEBRUARY 10th work session to review and update yourselves in the community about Willard Sherwood. The staff and your consultant provided a thoughtful, comprehensive report. We all needed to be reminded why this proposed joint project with Fairfax County should be approved. As we know, this project aligns a long-standing city goal for a comprehensive community center. This, this development has"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3307.156,
     "end": 3339.87,
     "text": "community support as well as support from multiple boards and commissions, including the city school board, the planning commission, Parks and Recreation Advisory Board. The comprehensive plan and capital improvement plan have included this project for years. Please consider the overall project as well as key reasons to support authorizing the bonds in APRIL. Tonight I will focus on one of the many positives of the proposed center. Let s look at the environment al aspects included in the facility. Willard Sherwood once built,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3340.522,
     "end": 3371.551,
     "text": "will be the city s first green building, and this is another goal advocated by community members. Included are in are the following environmental features, lead, gold certification, rooftop solar panels, indoor water reduction features, led lighting, light, uh, light pollution remediation, a high performance building envelope to retain heating and cool ing exterior tree canopies to improve shade, vertical sunshade fins to reduce heat"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3371.887,
     "end": 3402.45,
     "text": "gain and interior glare, all electrical building systems, electrical vehicles, charging stations, natural light throughout the building, stormwater control improvements for both quality and quantity, use of native plant materials in the landscaping plan. We all know green buildings are more expensive to construct, but green buildings also also offer more efficiency energy usage, and over the years will provide relief with annual cost, how to reduce operating costs is a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3402.984,
     "end": 3435.549,
     "text": "legitimate concern and a green building will assist you in doing that. A planned community center is expensive, and you can treat it as an unnecessary frill, or you can look at this project as an investment in the future of our community. I applaud that you are looking at ways to lower annual operating costs and investigate investigating recovery revenues. That is part of your responsibilities as elected officials. Please continue this review and please vote to continue the partnership with Fairfax County, and please"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3436.284,
     "end": 3470.716,
     "text": "authorize the bonds in APRIL. Thank you for your time and service. Being the mayor and a council member is a tough job. It s always been a tough job. I speak from experience when I say the job is especially rewarding when meeting longtime goals and when a project is completed. There s nothing like having your name on a plaque. I appreciate your attention tonight, and I wish you well in your deliberations. Our community is counting on you. Please vote for Willard Sherwood. Goodnight. Our next"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3479.594,
     "end": 3509.724,
     "text": "speaker is Judith Russell. Good evening. My name s Judy Russell. I live at Providence Square on Sager Avenue. I moved to Fairfax City last AUGUST, and I ve been attending city council and other meetings to learn about local government and in particular initiatives that the city council is considering. At the last city council meeting, I listened with interest to the public comments and discussion among the council members about the Willard Sherwood project, and I ve taken time since then to learn even more about it. I m impressed by the time and effort that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3509.724,
     "end": 3541.288,
     "text": "s gone into the planning for this facility and the range of services that it will provide the site seems well suited for its intended uses and convenient for many of the people who will benefit from the services that we provide. The partnership between Fairfax City and Fairfax County makes the land available, ensuring both a great location and a more affordable project. This project will provide an important community infrastructure that will benefit both current and future residents, delaying the project will increase the costs and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3541.723,
     "end": 3590.236,
     "text": "defer delivery of essential services that our residents need and want now. Having this project approved and moving forward will add additional incentives for people who are considering coming to live here. It s a wise investment even in this time of tight budgets. I hope the council will approve moving forward with the Willard Sherwood Project to bring this facility. And its services to our residents. Thank you for providing me with this opportunity to speak with you. Our next speaker is Charles Paisley. Good evening. The City Council. My name s Charles"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3591.139,
     "end": 3622.868,
     "text": "Paisley. I live at 10916 Woodhaven Drive. I ve been a citizen of, uh, Fairfax City. For approximately 25 years, and I ve been with the Green Acres for approximately 8 years Um Originally, when I heard about this years ago, I thought it was just another pie in the sky project. Since then I ve been to a lot of presentations and had many discussions. I ve learned a lot of things. I came back to halfway now. Um, so"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3622.937,
     "end": 3657.538,
     "text": "what I did was I broke it down, the old fashioned way. Benjamin Franklin clothes where you draw a line down the middle of a piece of paper and you put the pros on one side and the cons on the other. All the things against it were no parking at Green Acres. There s limited access when you have cars parked on both sides if you have an emergency and need a fire truck or an ambulance down there. And the shape of the actual infrastruc infrastructure of the building itself, no hot water, outdated bathrooms, leaks in the ceiling"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3657.538,
     "end": 3688.734,
     "text": "where instead of getting it fixed, it s easier to put a piece of tape on the floor in the gymnasium. That s where it drips. On the con side or the, the pro side the against it everything seemed to run around money. And it was going to cost too much, etc. And things like that. So I took the information from the presentation that this council had on the 10th looked up the numbers The counties or"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3689.103,
     "end": 3719.832,
     "text": "the city share of building this new building. Is approximately $54.9 million The projected cost to tear down the green acres and rebuild it is $55.6 million. Which is $7000 more than the cost of the new building. And to repair it costs $58.5 million. Which is almost, well, it s actually over $3.5 million more than building a brand new building."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3719.9,
     "end": 3750.29,
     "text": "I hope that you all can just step back and be objective like I did go back over the things and look at it and come to a good decision. This city needs a building like that. The seniors definitely need a building like that, and it would be a great asset for the city. Thank you. Our last speaker for this item is Carolyn Pitches. Good evening, Mayor Reed and members of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3751.364,
     "end": 3783.62,
     "text": "council. My name is Carolyn Pitches, and I am chair of the City of Fairfax School Board. I m here on behalf of that of our school board. We want to express our support of the Willard Sherwood Community Center project. For our schools, this center represents far more than just a building or a project. It represents direct meaningful support for our students and their families. The services planned for the center, including childcare, early childhood programming, dental and health surfaces, services, speech and hearing"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3783.697,
     "end": 3814.959,
     "text": "services, and much more help remove barriers to learning. When students have access to preventive care and health services and educational programming and child care close to home. They are more likely to attend school consistently, stay focused, and fully engage in their education. Equally important is the recreational programming the center will provide. Safe structured recreational opportunities give students positive outlook outlets after school and during the summer."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3814.961,
     "end": 3846.91,
     "text": "They promote physical and mental wellness and strength in peer and family relationships. These programs support the whole child and complement the work happening inside our inside our classrooms every day. Accessibility is also key. The center s location along the Kew bus line and within walking distance of two of our 4 schools ensures that families without reliable transportation can still access these vital services and programs. When services are reachable, they are usable. And that makes a tangible difference for many of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3849.629,
     "end": 3881.394,
     "text": "our families. This project also reflects the long-standing partnership between the city of Fairfax and Fairfax County, as well as our broader collaboration with Fairfax County Public Schools. These intergovernmental relationships are essential, and canceling this project could have serious implications for our working relationship with Fairfax County. Stability, trust, and follow through on shared commitments are critical to maintaining strong regional partnerships and benefit students. After more than a decade of planning and significant financial"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3881.394,
     "end": 3913.58,
     "text": "investment from both jurisdictions, moving forward demonstrates consistency, reliability, and a shared commitment to our community s future. This is an investment in student well-being, family support, and community vitality. Thank you for your time and your consideration. We don t have anything for consent agenda tonight, so we can move forward to appointments to boards, commissions, and advisory committees. Wonderful. Is there a motion, uh, to approve the appointments to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3913.56,
     "end": 3945.423,
     "text": "boards, commissions, and advisory committees. Council member Hert Chandler, I move to appoint the following applicants, appoint James Feather as the planning commission representative extending through DECEMBER 31st, 2026 to the board of architecture Review. Uh, Planning commission appoint Nick Triarci. For a remainder of 4 years of a 4-year term extending through FEBRUARY 11, 2028. Is there a second? The motion has been made and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3946.826,
     "end": 3977.422,
     "text": "seconded a roll call vote. Councilmember Amos, Councilmember Hall, Council member Hardy Chandler. Council member Peterson, Council member Bates, Council member McQuillan, motion passed unanimously. We do not have any public hearing items, so we will go towards the 2nd General Public comment. Is there anybody in the room that would like to speak? On any general public comment No. Well, that is just wonderful. So I will now recess the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3978.24,
     "end": 4495.605,
     "text": "regular meeting to go into a work session. We will take a 5-minute recess as we go into the work session room next door. And welcome to our work session, MISS Shinneberry. Our first"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4496.54,
     "end": 4526.803,
     "text": "items of presentation by police and human services on a coordinated community response. I m gonna recognize Chief Pedroso to provide the staff presentation. Good evening, Mayor, Council members, MR. City Manager. Back in OCTOBER that s back in OCTOBER, Council Tassas with a couple of items to look into. Police department working with human services. Today we come to you with our recommendations, the actions"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4526.803,
     "end": 4560.169,
     "text": "that we ve had already underway, put into action, and those that were looking to go forward with as we work together to address the items that we were asked to, to research and, and prepare. So I d like to read the two objectives, uh, that were presented to us. One is to explore how the city s police department and city Human Services and housing divisions might partner to instill stronger preventative measures for citizens who MAY be particularly at risk of committing crimes. And 2, to provide city council a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4561.71,
     "end": 4595.3,
     "text": "recommendation on how to close capacity gaps within the department that s the city s police department for the collection, analysis and reporting of crimes and safety risk information for the city to support ongoing monitoring and evaluation. And this includes but is not limited to firearm issues at city events. So before we get started with the presentation, I d like to formally introduce myself, Raoul Pedroso, chief of police. MISS Leslie Abashian our human services director, MS. Jamie Ergus from our housing and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4595.739,
     "end": 4626.801,
     "text": "Development unit. Our deputy chief of police, MS. Natalie Hensley. And our police captain in charge of community services, MR. Andrew Hawkins. Together, the first thing that we did as a group, and this started back in OCTOBER is who are the people that we feel are best in need of rs collaborative and and organized effort to help prevent the the potential of them being involved in crime. We had a lot of conversation about this. We looked at our"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4627.137,
     "end": 4658.367,
     "text": "data, we talked about what our real world experiences were with our respective agencies and we identified three groups one, the unhoused, 2, our youth, and 3, repeat offenders and repeat victims, people that find themselves continually uh in contact with police for whatever reason, whether it s committing crime or being the victim of crime. And I ll hand it over to MISS Sebastian to talk a little bit further about this group, these groups. Ok, thank you. Um and you see here this, um, wheel, it"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4658.368,
     "end": 4688.964,
     "text": "s a risk factors, um, and what it shows you is that uh, cause of crime is multifaceted, and so it has, it needs a multi-agency approach, and there s no single factor that leads to criminal behavior, and this is like a public health approach to looking at crime. Um, however, the more risk factors present in somebody s life, the greater the risk of becoming criminally involved because of an individual s increased vulnerability. And I want to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4689.366,
     "end": 4719.794,
     "text": "point out that, you know, it s not uncommon for adults presenting with multiple risk factors to have a history of childhood trauma that they carry with them. Um, and protective factors, um, developed in childhood like pro-social relationships, caregiver availability, and engagement, basic needs met, etc. Carry until adulthood. Um, so, you know, when we re talking about the youth, you know, we re hoping we help them get protective factors when"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4720.73,
     "end": 4750.759,
     "text": "they carry into adulthood. Um, and the bottom line with this is about a prevention and um you know, there s I think sometimes folks try to sim simplify, um, criminal behavior, but it s not, it really is complex and a lot of it is, you know, goes back to some psychosocial issues or deficits, um, and their basic needs, uh, or, um, you know, things that are impacting their ability to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4754.931,
     "end": 4785.126,
     "text": "engage in the community. All right, so y all have heard this a couple of times about the General Services Agreement. But one of the things I wanted to, to note about the General Services Agreement. It gives, um, human, uh, gives residents access to human services, supports and services focused on treating, disrupting, and or minimizing risk factors that impact, uh, individuals connected connectiveness and positive interface with the community. So really what we re trying to do is make every person that lives in our"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4785.361,
     "end": 4815.49,
     "text": "community be able to be connected and feel like they re part of the community Um, services include behavioral health, public assistance, employment child and adult protective services and basic needs assistance along with the homelessness continuum. And, uh, just to note, um, you know, sometimes an individual engaging in pro engaging in services is a process. Because oftentimes people with multiple risk factors haven t always had"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4817.26,
     "end": 4849.624,
     "text": "the, the greatest interaction with the local government or treatment. And so they re distrustful. So one of the things that, uh, you know, it s important is building that relationship and again, making them feel connected in the community, so they re open to, um, the service and support they need, but it is a process. I think sometimes folks get frustrated because they ll go, well, this person needs this, why aren t they doing it right now? And, you know, people get to make personal choices. Um to be involved in, uh, services, so it takes some time, you know, sometimes for us to pull them"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4850.96,
     "end": 4882.324,
     "text": "in. Um, and this is, again, the reason why it s really important for us to engage in preventive activities, um, with youth as they re younger because the quicker you can engage and, uh, impact the risk factors, the better their outcome is. So, as Leslie mentioned, the range of social services that are provided in partnership with Fairfax County are essential to addressing many of the risk factors that were highlighted, and we would,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4882.792,
     "end": 4914.455,
     "text": "of course, be overlooking an important part of the picture if we didn t emphasize the critical support provided by our nonprofit partners and faith community. These organizations are often the first point of contact for residents that are facing hardship, uh, providing immediate relief, building relationships to help stabilize individuals and families before challenges escalate deeper into crisis. Uh, additionally, there are several affordable housing initiatives currently underway, led by some of these same nonprofit providers and faith communities within the city. Uh, stable, permanent, and affordable housing is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4914.623,
     "end": 4945.919,
     "text": "fundamental to everyone s long-term success. Some of the same providers working to address housing instability and, um, developing housing affordable housing solutions are also helping to meet the day to day needs of the unhoused residents. I ll now turn it back over to the police department as we continue to highlight additional prevention strategies as well as examples of how we are partnering. So one of the biggest things that we have uh done as a result of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4946.555,
     "end": 4976.885,
     "text": "this, uh, conversation. Is how do we better coordinate? Why do we want to coordinate? We want to align our actions. We want to align everything that we do and how we communicate about it. To make sure that we re all working towards that common goal, because ultimately, all of us here before you and all the people that we represent, we re looking to make a difference. We re making a, we re looking to make an impact, a positive one. So this coordinated approach, what you see before you on this slide is we re gonna go into more detail now. Talks about three different areas. One is youth"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4979.222,
     "end": 5009.717,
     "text": "outreach. How we connect with our, with our young folks. Community engagement, all the people that we have an opportunity to make an impact, make a difference, and community response. What are we doing when we identify these issues or we identify people that would benefit from that interaction, uh, some intervention, and some guidance How do we, how do we get it to them? And then how do we all communicate together and make sure that we re continuing to report, to monitor and to assess everything that we re"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5010.552,
     "end": 5043.519,
     "text": "doing to make sure that we are on track to make an impact and have a positive change. The first area is youth outreach. There s no better opportunity to make a difference. Than with our youth The younger you can connect with somebody with a child. And help shape that child as far as positivity, positive mentorship, opportunities, programs, groups where we come together and we build trust and have those relationships. Those are relationships that last a lifetime. For young people, they get off on the wrong path, and I don"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5043.519,
     "end": 5075.484,
     "text": "t need to tell anybody here about this. The, the, the, the missing those milestones and being off trajectory has such a negative consequence for that person as they not only are a child and grow to grow into adolescence and then become adults and everyone that they come into contact with also potentially faces harm, faces some type of negative influence and falling into the criminal justice system. So when a police department and human services can provide that mentorship,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5075.484,
     "end": 5109.516,
     "text": "our school resource officers that connection, that building trust. Providing that safety how do we do that? We do it through programming. Right now we have our school resource officers. There s a limit to what that is, but we don t have to look far from where we are to find other police departments and other human services groups that are providing police explorer programs that are providing leadership and mentorship formalized where you re working with the schools in partnership, identifying who would most benefit from these relationships, this outreach and this connection, you build that relationship. You help"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5110.619,
     "end": 5143.83,
     "text": "shape their judgment as to identifying right from wrong and then that just flourishes and now that child is on a track and on a path to succeed and avoid those negative consequences and those poor decisions. Good Good evening. I m gonna talk briefly about the history of our community engagement going back about a year or two, and then I m going to turn it over to Captain Hawkins to talk about a project and a pilot that we re doing currently. Really, our"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5143.484,
     "end": 5177.384,
     "text": "community engagement side of this and the coordination piece began probably really enhancing, I would say in the 2022 to 2023, um, especially in the 2024 time frame, um, in 2023, we started noticing a, a pretty significant uptick in citizen complaints, business complaints, um, things that were becoming kind of a, a community nuisance per se in our higher crime areas of the city, like Fairfax Circle, some of the old town areas, and we started taking a look at how we can dedicate resources to those areas to be"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5177.986,
     "end": 5209.449,
     "text": "more preventative and reduce the citizen complaints, you know, not just be responsive to these issues. One of the things we did at the end of 2023 was a crime reduction project at Fairfax Circle, where we dedicated pretty much all hands on deck, all resources, even detectives, motor officers, people in, um, walking the trails, pretty much for 90 days, you know, focused on the circle, just to, just to see what that sort of dedicated, um, targeted approach could look like for one area. It was very successful within the 1st 30"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5210.685,
     "end": 5240.914,
     "text": "days, we saw about a 12% reduction in crime and then leading into the 90 days, it was over 30%. And it was only in a specific area of what we were tracking. Like I said, those crimes like trespassing, disorderly, the, the repeat calls that we were getting from the business owners, uh, people who were patrons in those areas. So in realizing how successful it was, but that it wasn t necessarily sustainable. At a patrol level or having our detectives go out and do that. In MAY, the following year of 2024, we brought on mpo Klein as our community engagement"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5240.948,
     "end": 5271.611,
     "text": "officer. He, he s dedicated to Fairfax Circle at this point. And we ve seen not only a crime reduction there in, in those types of calls for service, but also just increased, I would say satisfaction from the business owners, um, businesses at the circle like the Lamb Center, really, it s, it s, I ll, I ll let Captain Hawkins get into the positiv ity of, of what that has brought, but our engagement really, I, I would say started then with finding out how we can focus and be more preventative than just responsive to these issues. In"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5272.179,
     "end": 5303.91,
     "text": "addition to bringing on this program, we also coordinated very closely, not just with human services, but entities like our legal team, our city prosecutor. We updated the loitering ordinance to make it more clear, really not just for, for the police department to enforce, but for business owners to understand, for the public to understand. So that, that was very helpful. Uh, we also worked with our city prosecutor to identify repeat offenders who had committed, you know, x amount of crimes and one month and whether they were getting in and out of jail frequently and, and we really"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5304.478,
     "end": 5334.541,
     "text": "worked closely with her to try to reduce the impact of that and have, um, her go to the arraignments, things that we had not really been looking at as closely in the past, but something that we started coordinating much more closely in the past two years on. Um, additionally, we worked with the business owners at the circle. Another example of really outside coordination. We worked with them to assess their properties, figure out how they can do things on their own to kind of reduce the impacts of some of the crimes that they were seeing, whether it"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5335.376,
     "end": 5366.572,
     "text": "s um signage of, of no trespassing being more clear, just really things to make it, um, easier on them to have these items and areas of complaints be more clear to the public and more enforceable for us to, to deal with when we have to. Before getting into the expansion of the pilot, we did look at, uh, we piloted a private security initiative that was in the center of town. We really, we didn t see, i would say, as many benefits to that as we saw to having the, the sworn police officers in one area. They, they were a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5367.942,
     "end": 5401.44,
     "text": "reporting tool, really, but, um, we did not continue that just based on the cost-effectiveness and, and the results that we, we really didn t see as far as the the positive results that we saw at the circle. So that was just in the center of town, um, but the expansion of the pilot is really going to go into moving those areas from outside of the circle to other areas of the city. Captain Hawkins will touch on those. So as Chief Hansley mentioned, um, we did do a pilot with a security, uh, company in the center of town a few years ago. Um, when that, uh, ended,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5401.942,
     "end": 5433.406,
     "text": "Officer Klein not only in the circle area, but he also went to the center of town and the downtown area. Um, he was or has been very, very, um, influential in, uh, both areas, but he s one person. So to expand our, well, let me back up for just a second. I had an opportunity to do a couple ride alongs with Officer Klein, and one of the places that we went to was the Lamb Center, and, um, his relationships with people down there that he s established over the period of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5433.44,
     "end": 5464.436,
     "text": "time that he s been working there is really amazing. People come up to him all the time, shaking his hand and uh he was even invited to, uh, a Christmas, um, uh, gala that uh, was held, um, for, for the lamb Center and people really acknowledge all the hard work that he had done, uh, guests from the Lamb Center and, and stuff. So I really got an opportunity to see the positive, um, uh, work that he had been"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5465.305,
     "end": 5495.401,
     "text": "doing in that area. So in speaking with Chief Pedroso and Chief Hinds Lee, um, we just recently started, um, a pilot program to have 2 officers. Um, two officers doing, doing this work, not only in the areas of Fairfax Circle and the downtown, but there s other areas of the city that could benefit from this work as well. So we re expanding our, our footprint, if you will, to, um, to get into neighborhoods and talking with neighborhoods and other businesses such as, uh, Fair,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5497.304,
     "end": 5529.169,
     "text": "uh, Fair City Mall. And um we are gonna run this pilot through JUNE 1st, but the goal here is not only to create relationships with business es with people who MAY be repeat victims or repeat offenders, but really understand, well, why do we keep coming into contact with you for whatever the, the issue is. And get at the root cause of that. These officers, um, will talk with the, uh, community response team quite often and they"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5529.169,
     "end": 5559.699,
     "text": "re a direct line to really connect people, the repeat offenders, repeat victims with services that MAY be identified rather than having to just go to jail or have the traditional police response where a patrol officer comes, um, and it s more reactionary than proactive approach, which, uh, so these models with the co-responder team and the proactive approach is really, uh, there s a lot of evidence and research that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5559.699,
     "end": 5590.728,
     "text": "s done, uh, iacp and International Association of Chiefs of Police and the police exe cu t ive research Forum have done studies where these, uh, approaches, these proactive approaches really work and are beneficial, um, in, in communities. Ok, the community response team is truly a, a collaboration between fire, police, and human services, and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5592.598,
     "end": 5622.96,
     "text": "it, we started it in 2023. In response, and partly in response to the Marcus alert, um, legislation and also 988, uh, which is a dedicated behavioral health crisis line. And what they were trying to do is they were trying to not only have a common language across the, the different departments that interface with people that are in crisis. They were also, um, trying to push loc uh,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5625.465,
     "end": 5658.362,
     "text": "public, the public, um departments to create a better crisis continuum. Um, and that that crisis continuum, you know, continues to get built out, but I think that, you know, one of the things you would say about 988, now instead of having to call, now, everybody, you know, everybody knows 911, right? But 988 um, as, as it s grown and developed. I mean, people can call there not just because they re in a papal health crisis, but just because they re having a bad day and talked to a licensed person, um,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5659.198,
     "end": 5689.327,
     "text": "and get, you know, get triaged, you know, have a conversation, you know, sometimes 988 will call, um, our community respo or call the 911, if they feel like somebody needs to go out and see them. So it really has, um, made a difference with behavioral health crisis. And, you know, one of the things that, um, we do with the crisis team, we have a, a licensed clinical, and they license, I was gonna say licensed clinical social work, that s me. I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5689.695,
     "end": 5722.594,
     "text": "license uh clinician. We have uh a community uh paramedic, and we have a cit trained officer, and they do real real-time intervention, but they also do targeted outreach. And when, when there s a crisis that mean, when you re having your worst day and you re having a behavioral health crisis, to have a team come out that s trained to respond to you in that event, um, can also it could be destabilized, I mean, it can, you know, help that person feel more in control, but it also allows our team to say, what do you need"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5724.396,
     "end": 5754.92,
     "text": "and what are your risk factors? So they can triage people to wherever they needed in the service delivery system or they can, you know, just help them have a safety plan or do some planning around how they re going to be, um, safe in the community. Um, the targeted outreach is really an opportunity to, um, address risk factors. Uh, what, what are we kind of did a, a hybrid model in the city, um, put these two together, but the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5755.327,
     "end": 5785.789,
     "text": "targeted outreach, um, really looks at 911 high utilizer, um, and other vulnerable community members, um and it gives us an opportunity to, when they re having decreased, um, impairment in daily living, or, um, having basic needs, struggles, or things that could create their interface with, um, either the criminal system or um you know higher levels of care. It allows the team to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5786.224,
     "end": 5818.489,
     "text": "build a relationship with them and figure out, you know, what s going on, but also hook them with services and supports they need before they, um, end up having a more formal, um, needs like hospitalization, um police intervention, you know, some of those things that we really want to prevent that. Um and it s not meant to, you know, and I ve, I ve probably said this to you guys before. It s not meant to, um, to substitute what we already get from"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5818.79,
     "end": 5850.455,
     "text": "Fairfax County and the Community Service Board, but it works in concert with that, um, with that system and, you know, one of the things that sarc can do that sometimes like a, a mobile crisis or something, they have time to build a relationship. So sometimes with these targeted outreach cases where, you know, they, they get to know them over multiple visits, you know, uh, because, you know, sometimes when you re in a, you re struggling, either psychosocially or behavior uh behavioral health way, you re"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5850.455,
     "end": 5882.19,
     "text": "not really feeling like wanting to to connect with people, right? You re, you re kind of stuck in the crisis piece and or the pre-crisis piece and I think that with the target outreach, they build a relationship and then they do the triage and they connect them to the services they need. We ve had some really good experiences with that, but it takes time because in the end, adults get to make decisions, um, if they re going to be engaged or not, and it, you know, sometimes moving that barrier of mistrust. Makes all"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5883.889,
     "end": 5915.19,
     "text": "the difference in the world. So, you know, I think that, um, one of the things I was hearing, like all of us, we re talking about relationships, right? We re talking about people being connected to the community, filling, feel like they have relationships and community and that they re, um valued, their, you know, able to be connected, um, because I think in the end, not anybody, not people don t go away, can I be, you know, unhoused today or can I have a behavior of Christ? You know, peop, those things"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5916.421,
     "end": 5948.92,
     "text": "happen over time, and sometimes they re outside their control. And so when we can make people, you know, preventatively build relationships, build connections, get services earlier, then it really does impact down the line when it comes to criminal behavior. So what we ve spoken about so far is how do the things that we do in the police department and the services and the things that are done by human services and housing as well as our outside partners, our nonprofits, how do, how does"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5950.888,
     "end": 5983.421,
     "text": "that all come together and not just focus on addressing things once the problem has presented, but how do we identify things and invest in these different groups as, as early as possible using the data which we ll talk about shortly and the different information that we re getting from all the people that are out in the in the field actually in contact with different individuals, different ages. Different life factors. How does that all come together in advance of a situation presenting and then what do we do afterwards? So I m gonna turn it over to our city manager to talk about the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5984.55,
     "end": 6014.818,
     "text": "community safety spectrum. Thanks, Chief. So when we talked a little bit about what we re doing in the city, um, it really fit well into the context of emerging models around community safety and and a broader look at community safety. And what you see here on the screen is very linear spectrum approach to community safety that, that encompasses a lot of what we re doing and some things that, um, we are doing, but we re probably not intentional about from framing it within the model, right? And so what, what this is really predicated on is a couple of emerging issues that we ve seen"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6016.54,
     "end": 6046.851,
     "text": "over the last decade or 21 being act of violence, school shootings, a pathway to violence which starts typically with some form of grievance and works its way up. There s a continuum that exists there. It s also predicated on systems like the Marine Corps left to bang concept and that and that concept at at some point they identified that they wanted to find ways not to walk into improvised explosive devices and ambushes and so what they started to do was they started to look at what s happening left of bank. And and looking at what the factors were that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6047.486,
     "end": 6079.483,
     "text": "got them to where they are now from a trauma informed perspective, we don t necessarily want to keep reemphasizing left a bang, but it s certainly impactful in terms of thinking, uh, about what we re doing ahead of problems and those problems aren t just police problems. They, they affect every aspect of, of what a trauma event could mean. As you look at the spectrum that that glow in the middle would be your bang. It would be any negative thing that happens within your community. It could be a fire, it could be a crash, it could be a suicide, it could be an overdose, it could be a variety"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6079.751,
     "end": 6110.647,
     "text": "of things that aren t necessarily stuff that these folks go to, but we all are impacted by in some way the left side of it speaks to what we re doing ahead, not handling the damage, but being proactive and trying to avoid, you know, the, the problems that, that are presenting in community resilience is largely building community capacity um, and, and what we re doing um in terms of economic development, economic development has a role in, in this process, right? Um, youth development, emergency"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6110.849,
     "end": 6141.445,
     "text": "preparedness, food security, housing, these are all things that build resilience and community. You don t get the risk if you build resilience. And oftentimes what we re talking about here is risk. We re at the risk point, right? And so risk is still important in terms of what we do around behavioral threat assessment looking at environmental risk reduction, crime act being predictive policing, those are all in the risk category, uh, and then we get to having to respond, right? And so once that, once that trauma event occurs, we re in response. There s traditional response and there s a lot of the really good things that we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6142.281,
     "end": 6173.145,
     "text": "re doing, uh, here in community around co-response but also involves hospital-based trauma intervention uh, the multidisciplinary co-response that we re talking about, uh, and then we re looking at recovery pieces, um, which at some point we hope get, get people back to resilience. I would argue that we re all somewhere on this continuum as it relates to our own personal experience and as a community as we think about community safety, right? Some of us are, are trying to eat better, do what we need to do to build resilience. Um, some of us might be at risk on a personal level. This is very much a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6173.145,
     "end": 6203.807,
     "text": "public health approach to looking at community safety, a much broader look at community safety. Much of what we re doing right now and some other things that we can think about on scale unreasonable scale for city that we could be doing to build resilience, avoid risk, respond effectively, and then reintegrate folks back in people that are coming out of institutionalization. It s not just jail, it s mental health, it s hospitals we wanna get them back to risk right? And as much as this is very linear, this is also an ecosystem. So we wanted to frame that just so"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6204.81,
     "end": 6237.54,
     "text": "you all were thinking about it in broader terms. And as you go on to the next slide there are really 3 key components of, of looking at, um, you know, an effective ecosystem you want it to be, um, evidence-driven, um, and you, you want it to be, um, ecosystem coordinated, those are two key pieces of what we do with the type of work that is much broader in scale and so what this lays out for you is how a system typically is coordinated between nonprofits, education, government, public"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6238.309,
     "end": 6268.739,
     "text": "safety, all the elements and, and people that are at the table. We ve got good people at the table here. There are a lot of people missing at the table here when it comes to being effective around community safety and, and doing this in in a much broader way in terms of building, building each part of this. There are things developing like community opportunity index that looks at social determinants of health that looks at census data that looks at calls for service both on the police and fire side that start to give us a picture of the resilience and potential risks that exist within the within a particular area and then there"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6268.739,
     "end": 6299.703,
     "text": "s the case management piece which mean s that if Dan needs help, everyone s got a view on what Dan really needs beyond just maybe a criminal problem, a substance abuse problem, a mental health problem, a food insecurity problem and so it really takes a combined approach and systems that support data systems that support that ecosystem coordination and so this is largely where this field is going, I think in terms of community safety, we saw a lot of this develop out of violence prevention, but very much a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6300.38,
     "end": 6331.936,
     "text": "shifting to all hazards. Right, not just, you know, showing up with a badge and a gun, but showing up with it with, uh, you know, an ambulance, um, and the goal behind this largely is to keep people out of the back of police cars and out of the back of the ambulances, uh, and, and largely building resilience, uh, and dealing with the risk in community. So I think it was important to kind of frame this for you to see, you know, how the field s emerging. Big credit to our team. They re, they re doing a lot of this. Much of it is focused on the center of it in terms of dealing with risk and responding, but certainly you know, we need to make"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6332.304,
     "end": 6363.534,
     "text": "investments outside of that part of the spectrum in order to build a much more cohesive and stronger ecosystem. So I ll turn it back over Thank you sir So now we come to the data piece All of this effort and all of this work. Can be really wasteful and not effective if we re looking in the wrong places if we re basing our decisions on bad information. And so that s something that we put a lot of effort into over the last months or last few"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6366.103,
     "end": 6398.569,
     "text": "months. Identifying how reliable is our data, where are the opportunities to ensure that the information because we re really good at collecting information and putting it into our systems. But how good are we at extracting that data in a usable fashion. In, in a manner that we re gonna put it in the hands of our officers, of our partners in the city and others that are working with us so that we re in the right places at the right time, making the right decisions based on correct and accurate information. So what are we doing at the police department? One, we re prioritizing the hiring and employment of a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6400.806,
     "end": 6432.802,
     "text": "crime analyst. We have funding available to us that we use to staff positions that are needed and uh on a temporary basis or for specific project and so we re, we re we re we re prioritizing, we need a crime analyst. We don t have someone full time that does that. And uh so that that s one area that that we re focused on. That person is gonna have that expertise and have the skill set to be able to manage and work through that data and provide the reporting and be able to really think through. When we talk about things like predictive policing, that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6433.238,
     "end": 6463.7,
     "text": "analyst is key in being able to sort through all this information and put it together in a usable form that s going to benefit everybody that s involved in all of all of this. 2, it s our records management system. We need to upgrade it. And we re fortunate that the city, decisions were made and there s money in in our capital improvement uh program to be able to address that and make those upgrades. So we have been actively working with the vendors to identify what are the upgrades that are needed, what s gonna give us the best output and ability to put all"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6463.969,
     "end": 6494.598,
     "text": "this information to work. We refining our data collection the information that we re putting in, we got to make sure that we re putting it in a, in a manner that s gonna make it easy to get it out. And so part of that upgrade and part of training our folks, it s so important that training, right, to develop our, our, our people that we re putting in these positions of high responsibility to collect and input the data and then asking them to, to, to get it out for us. They need the training and so we re finding them that training and we re identifying what it is that they need so"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6494.633,
     "end": 6526.763,
     "text": "they can do their jobs in the in the most efficient and effective way. And then making sure that our policies align with what it is that we need our folks to do. And, and so that, that is all coming together. We ve, we ve been at work at it now for the last several months, and we re continuing that effort to make sure that in the end we have it and we re doing it right. Starting in MARCH, we re gonna have a regular monthly crime traffic and quality of life review. This is where we re gonna be pulling all of this data out. We re going to have all the stakeholders at the table. We re gonna have our, uh, police commanders and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6527.632,
     "end": 6557.894,
     "text": "lieutenants that are in the field managing our resources. We re gonna invite our partners such as Human Services, housing, fire department, other people in the city and in the community that can come in specifically at different times in the conversation to again, what is it that we re seeing? What is it that we re doing? An example is the repeat offender repeat victim. We need to ask, why is it that we keep going to the same place. Why is this person continuing to find themselves committing crime. Why is this one person finding themselves the victim of crime?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6558.43,
     "end": 6588.927,
     "text": "Is there something in their environment that we can again as partners address or help support? Is there something, uh, in, in, is it, is it a meal issue? Is it a housing issue? What can we do to bring in the right resources to maybe get that person on the right path. The sharing of information. We need to be transparent. We need to trust each other We need to trust our partners, we need to trust the public. Share our information, what s happening, where is it happening, and then the why, why is it happening? What if we identified as the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6588.927,
     "end": 6619.258,
     "text": "problem behind the issue, get to the root of those problems, the more people that we involve and work together with. The more successful we re gonna be So that s sharing of information and being transparent is key for us. So all of this comes together as partnerships, uh, such as with, with human services and housing and the police department and evaluating our effectiveness. We obviously are coming, coming at this with the intended results and hopes, right? We think this is going to work. This is what we re looking for. This is what"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6619.258,
     "end": 6651.79,
     "text": "s gonna be the measure of success for us. Well then we got to measure our outcomes and so once we have this in place and all of this is happening as as we re talking. We re working on this, we ve met about it today. We talk about it on a regular basis. All of these things are gonna come into play. Our, our reviews gonna start in MARCH. We re gonna be in a position to see and measure what it is, uh, the actual effect that we re having and what we re seeing. Practice accountability, that s monitoring, assessing, improving and re-engaging. So what does that mean? You know, we have this plan, we put it to work. That s what we re talking about today, all these different things that we re"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6651.79,
     "end": 6682.754,
     "text": "looking to do and how we re gonna work together. Now we re gonna measure it and we re gonna assess it and if it s not working as we intended, then that s ok. We pivot. We change the plan We try something different, we re-engage, and we continue that model and we continue that process until we achieve the suc the success that we re looking for, and we have maximum effectiveness. And then the communication piece, everything that we re seeing and that we re doing, we re communicating amongst each other, we re communicating with yourselves and with the public and everybody is informed as to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6682.754,
     "end": 6713.82,
     "text": "all the efforts because at the end of the day we re all involved in this and we all will benefit from anything that we can do to prevent people regardless of age and circumstances from finding themselves in, in caught up in crime or any type of problem that we as public servants can help hopefully have them avoid altogether. So closing it out looking forward, we re gonna be strengthening our cross-sector partnerships, again, internally"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6715.219,
     "end": 6746.818,
     "text": "within the city and externally. Not only government services, but the business community, the nonprofit community, We re gonna collaborate on prevention and diversion. Anything that we can do to keep people on the right path. Like I ve mentioned. We re developing, uh, developing a community engagement workgroup. This is gonna be representation from command in human services, police and fire coming together, meeting regularly to go over all of this data, all of the effort, making sure that we re not duplicating effort that we are following the plan and that we are addressing and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6746.818,
     "end": 6780.83,
     "text": "identifying any opportunities to make any type of changes to make sure that we re again being as successful as we can be. Expanding our youth outreach. We can do more than just have an officer in a school. There is, I ve seen so much positivity when you have the right officers connecting with kids. You can save lives. I ve witnessed it. I can, I can tell you that the impact you can have on a young life in the right way. We, we can t waste that. We can t waste that because every day kids are just growing up, getting older and potentially finding themselves,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6780.652,
     "end": 6811.414,
     "text": "uh, getting into trouble. So that s an effort that we re gonna put more more effort into. Conducting our reviews of data on a regular basis. This is gonna be a daily effort, and it s not gonna be wasted. We re gonna be looking at our data, we re gonna be making sure that we re doing everything the right way so that we put that data to work to affect the positive change we re looking for. We re gonna measure our outcomes, and like I mentioned, we re improving our data collection analysis and our reporting. And that concludes our report to you. Any questions I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6812.65,
     "end": 6843.546,
     "text": "m sure there are um that was very comprehensive, um. Before I opened it to the dice, I just wanna ask a question about being next door to a research university. Because George Mason has the only college of public health in the Commonwealth. They also have a criminal justice program. They have a lot of programs over there and one of the things that Mason is looking for is experiential opportunities for their students to do real projects. So a research"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6844.883,
     "end": 6876.11,
     "text": "university is judged on its peer-reviewed research. And when you talk about coding and how you want to create the data input so you can get the data back in some fashion, f ig ur ing out if there s a standard across the board for how our data could inform real research that s being done on a much broader and especially when, and I love this approach, it s not just one thing. It s not just reacting to a crime. Whenever, whenever I hear something like the barefoot"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6876.515,
     "end": 6909.113,
     "text": "juvenile who escaped. At the courthouse cause I, do you guys remember that and all the sirens and it s like there was a juvenile and they, and we found them in, in, in the woods barefoot. You know, my question is why Like how did this person get there? And why aren t we asking that question. And so in looking at crime and how we code it and how we categorize it or, or the things we re trying to find out about it. How do we work with other disciplines or other research professionals who are also"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6912.25,
     "end": 6944.181,
     "text": "trying to figure out upstream what are the factors And so my, my question would be, as you re approaching how you want to build a better data collection, better reporting, how it can be shared, not just with the public and with, but how can it be shared with people doing real research on the upstream determinants of social health. You talked about, uh, adverse childhood experiences, ACEs. Now they re doing a lot of research on resilience. Why are some young people who had"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6946.51,
     "end": 6978.749,
     "text": "terrible you know, a high Ace experience, more resilient. And there s relationships is the big one. A stable, steady relationship. They re starting to do research on that. So it seems to me if we re next door to a research university, one of the things we should not overlook is how can they help us be better here and how can we help this whole field be better in a larger way. So, with that, I will turn it over to Council member Amos. Thank you. Uh, this was a great presentation. I only had a couple of comments and then, uh, two quick questions and maybe"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6979.184,
     "end": 7013.217,
     "text": "one that might take a little more detail, uh, but I just wanted to say thank you to reemphasize the strong relationships going back to the Lamb Center Gala Officer Klein was there and a few of us were there as well, and I, I felt this sense of pride being able to see him on stage and discuss more about the relationship, how he goes to Home Depot, how he talks with folks, and it really brings the humanizing side of the story that s often overlooked when it comes to homelessness. So greatly appreciate the efforts there. Happy to hear about the pilot program, so I m very curious on how that goes. Um, when it comes to youth outreach"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7014.353,
     "end": 7046.25,
     "text": "completely agree, uh, as a boys and girls club remember when I was growing up, that was something that really impacted my life, so greatly appreciate the emphasis there. Just a couple of questions. The first one related to, uh, the judicial complex. How do you see that expansion. Obviously, the timeline is a little wonky, so we ll see when it happen s But how do you see the judicial complex and the role that redevelopment MAY play in expanding our services or providing more support to the city. I know one thing in mind was potentially a reentry center, which talks directly on one of the topics you were"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7048.253,
     "end": 7078.81,
     "text": "talking about. Well, we actually have a meeting on the calendar for, I believe it s MARCH 10th. I believe. Well, you, we have, you guys have a meeting. I won t be at that one. Some of our other folks will be there, but, but, but we have a meeting with the sheriff s office, and I have a meeting with the Commonwealth Attorney, uh, both of them, this, that, that, that week of MARCH 9th or 10th, um, and, and it s to discuss the partnership from the police department with with those two entities, right?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7078.55,
     "end": 7109.47,
     "text": "Police and sheriffs, and then, uh, police and Commonwealth. What is it that we can be doing? What, what are, and we just recently worked with Jesse Beach, our city, uh, court clerk with respect to diversion opportunities. And so basically we re looking to bring the, uh, defense, um, I m sorry, the public defender, our city prosecutors and our city clerk, the police department all together so that when we identify our officers in the field, people in human services identified this is a person that would be an ideal candidate for some type of diversion and so we don"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7109.47,
     "end": 7141.279,
     "text": "t waste time with continuances and different things and people not on the same page. We all are on the same page and we ve identified this person. This is not someone that needs to necessarily go to jail or, or this is someone that needs help and how do we get them that help? And so we re looking to do the same thing with the sheriff s office. With respect to conversations about how, how do we improve the the release situation and the effect that that could have in our, in our community, in particularly our old town and uh downtown areas. So those conversations are being had and and I m I m hopeful that we re gonna find"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7141.647,
     "end": 7173.177,
     "text": "some successes and opportunities for, again, expanding this collaborative approach. Completely agree. One of my favorite programs with the sheriff s office is the shop where the sheriff campaign that they do. I ve been able to engage with that a couple of times and that s really cool. Um, second, and this is just a really quick question to just for details on the crime analyst, uh, because you said the funding MAY sometimes be temporary, so would this be a full-time recurring position or would it only be for a set limited amount of time and like say every 5 years you were to update your crime reports. What"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7173.811,
     "end": 7206.43,
     "text": "does that look like? So first, just touching on gm u um, we have a, uh, we actually brought on a gmu student, uh, uh, in a master s program deal with with respect to to criminal justice, and she s an intern right now, and she s assigned to uh crime analysis and Captain Hawkins has been working with her and just in a short time it s amazing what she s been able to put together with the systems that we do have. So we re very, uh, we re very excited about that and, and we re hoping that she MAY be interested in continuing with us. So with respect to funding it. At the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7206.978,
     "end": 7238.609,
     "text": "police department, we have a certain amount of funds that are available for temporary employees, contract employees, and we utilize those funds, putting them to the best uh use, right? The the things that we need to get done, the work that we need. That maybe we don t have an fte available for that, but it s absolute, absolutely important work and critical to the organization and so we re basically reprioritizing and we re gonna put the focus now on on using that funding for a crime crime analyst, whether it s through contract, uh, and that relationship or as a temporary employee that we bring on and then obviously we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7239.311,
     "end": 7271.308,
     "text": "would then work through the coming years to formalize that hopefully into an fte, but, you know, that s down the road in the immediate we can use this, this funding to, to address this, this, this void. And my last question, which is probably the more uh, a more detailed question is, uh, so post pandemic, we ve seen a lot more cases, especially gun-related cases, shooting related cases, and even recent news stories related to domestic violence. I m very curious on how this approach would be applicable in a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7271.676,
     "end": 7303.14,
     "text": "situation like that from a human services and police perspective, how does this overlap? Well, I ll start by speaking to this is exactly what we talk about that repeat victim, repeat offender, domestic violence is, is gonna be at the top of that list because, you know, regrettably, like that, that is, that is a group where we tend to find ourselves going, going more than one time. And so having a collaborative approach and bringing together not just the traditional, like the city manager mentioned, right, where it s just, you know, the response, it s not just the response, it"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7303.14,
     "end": 7335.473,
     "text": "s about what else can we do? And so hopefully we never have to go again, right? So when, you know, having a more, just a a more robust pro uh program and process in place to bring those resources to the table the moment we identify that person or we even learn of somebody that could be at risk. And I ll turn over to MISS Sebastian for the Human Services I would say, you know, we already have access to domestic services, um, through the county. Um and you know, one of the things we re really looking at right now, um, Malik"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7335.807,
     "end": 7367.3,
     "text": "and I are involved with a regional, uh, domestic violence group, um, where they re really trying to figure out, um, making sure the system s working, you know, and part of that is, you know, having hospitals, for instance, that could do sane exams, you know, some of those things. Um, but I think that you know, with the domestic violence, we ve Malika is very interested in domestic violence, um, because she worked previously, that was her job, working with domestic violence, and we re we re"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7370.175,
     "end": 7403.107,
     "text": "hoping to, um, you know, utilize that expertise, um, in domestic violence cases, because one of the things that happens, um, when a domestic violence event happens, you know, at that time, you re in a crisis, you just want to get away, you want to be safe. But then a lot of times the individuals will not show up for court, or they get scared or they get in a pattern. Um, and Fairfax County has a, uh, they re police department has a domestic like the specialized unit that works and makes sure"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7403.642,
     "end": 7436.839,
     "text": "that person gets to the, you know, to court dates, has that support, um, and, you know, it s, it s my, you know, my hope that we, we can look at that because I think we sometimes are able to use that, right? Use the Fairfax County, but it s, it just depends on if they have availability or whatever, um, but it, that means that you have to have somebody 24/7, because, you know, people don t uh, choose to have a domestic violence situation at 4 o clock in the afternoon. Um, but you know, I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7437.342,
     "end": 7468.739,
     "text": "think that, um, with all this work we re doing and being able to engage people like for instance, if there is a domestic violence where there s a bunch of calls there, that might be something that we talk about in our collaborative conversations, and, you know, how do we disrupt that, um, because it, it didn t only impact the victim. It impacts the kids, it impacts, you know, families, and you want to slow down that, um, you, you want to slow down the impact of domestic violence. Um, so looking, you know, as we move"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7469.41,
     "end": 7475.879,
     "text": "forward, really looking forward to doing some of that work. Ok,"
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header)",
     "start": 7478.15,
     "end": 7479.984,
     "text": "Thank you so many things to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7481.886,
     "end": 7512.482,
     "text": "touch on. First of all, I wanna, uh, show my appreciation for considering this as part of an ecosystem and recognizing the complexity and acknowledging that some things um we MAY want to have simple, quick answers, but they require a lot of complex intervention things that none of you all can do alone and so I m really pleased to see the partnership, the collaboration, the coordination um, a couple of things I just wanna acknowledge, uh, this"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7513.352,
     "end": 7545.283,
     "text": "part about relationships, um, talking before about the relationship with the county and the services that are available, but also the relationship with faith and and nonprofit community. Um, there s another relationship, and that is with the rest of us. Like we all have a responsibility in terms of prevention, early identification of things that might we MAY not be experts, but we might see changes in our neighbors, or we MAY see things that um contribute to early, um, support and, and preventative efforts. So I want to add to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7546.684,
     "end": 7578.48,
     "text": "that list, the rest of us who have those responsibilities. Um, uh, I really appreciate, um, specific, you have to have a point of entry, so I, I appreciate identifying certain key communities to start with, youth, unhoused, um, that sort of thing. I recognize also that they are, they can be the recipients of services, but I also want to note in terms of data they can be the source of information as well. So I wanna encourage, you know, youth and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7579.384,
     "end": 7609.579,
     "text": "how not only to be seen as service recipients, but as, um sources of information, uh, peers, not just the youth that are encountering uh law enforcement, but other youth can also be instrumental in some of this coordinated effort, so, uh, just to keep that peace in mind, uh, tiny question you were talking about expanding um from one officer Officer Klein to a second officer. I m curious what criteria you re"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7612.35,
     "end": 7644.515,
     "text": "using for that is, is the selection for those officers who seem to be particularly skilled in relationship building, right? Um, do they have special cit training, special community policing training, um, how are you thinking about supporting those officers in those particularly public facing roles. Yeah, so, uh, the first thing that we did, we, we sent, um, information out to really see who, who was interested. And um we got uh information back from officers and when the officer that was selected, um, is a senior officer. He"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7644.515,
     "end": 7674.612,
     "text": "s a master police officer as well. Uh, knows Officer Klein, uh, very well. He is trained in, uh, he s got extensive training in, in a number of areas, but, um, we had a conversation, um, about him coming in to to help out and and really be that second officer for this pilot. He just talked about how much he cared about people and wanted to help people and, and that really resonated with me and I spoke with the Chiefs about this, and, uh, you know, I was, I, I, I said, this is, this is the guy"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7676.214,
     "end": 7708.445,
     "text": "that we really need to, uh, to utilize to, to expand this program and really show how effective that this, um, this pilot, this program could be. So, um, we took a conversations with him and knowing his background, and then uh how we re approaching it is, is really just like I mentioned, expanding what Officer Klein has done at like the lambent of the circle, and in the downtown, but the other areas of the city where people have reached out to us or maybe the volume of calls aren"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7709.448,
     "end": 7740.91,
     "text": "t as, as high, but they still need, uh, assistance in, um, addressing problems in the area of Camp Washington or in neighborhoods and things like that. So, um, uh, in addition to that, his ability to, um, interact with, uh residents with business, uh, businesses in this, uh, city was, uh, it was, uh, it was an easy decision. Excellent. And is that incentivized aside from the inherent desire to be in that role, is that incentivized"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7742.681,
     "end": 7776.614,
     "text": "in any way or? No, it s not incentivized um right now. Like I said, we re in a pilot program. Really, we know all of the work that Officer Klein has done. We, we, we need, he needed help, one, and we know that it s going to be effective. We need to have information, have data to show that it is how effective it is. And it also, um, helped Officer Klein, like I said, with one person, be able to to interact with more people but help make those connections to Leslie s, uh,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7777.949,
     "end": 7809.878,
     "text": "shop or the crt team where if they re noticing something or someone needed uh to be connected to some resources, there, there s, there s just the workload is, is more manageable. So, um, it s really, it s, it s only been going for about a week and a half or so now, but, um, really excited about it. The Officer Klein and the other gentleman is Officer Mills. Um, they re really excited. They re, they re out all the time interacting with people and, you know, the comments that we get back from"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7810.848,
     "end": 7841.411,
     "text": "people around the city, um, who interact with them is, is awesome. Um, i ll give you a short, uh, story, um, there was a larceny at the thrift store at, uh, Fairfax Circle several months ago, but, um, the manager there, she either hadn t been to court or didn t know much about the court process. Officer Klein, this is, uh, she, he was able to help her navigate the court process, meet her here in the parking lot, show her where to go, who"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7841.88,
     "end": 7872.777,
     "text": "to talk to and stuff. And, you know, that s just another example of helping, you know her as the manager of the business, but the victim as well. Um, uh, in, in that situation. So, uh, that s just another example of how effective they are from both working with individual people, but also, um, with the business community. I d like to say something just in regards to what you said about, um, source of information being the general population. People don t want to be a category. They want to be individuals"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7873.811,
     "end": 7905.409,
     "text": "that want to be seen by as human beings and a very impactful situation that I had a couple of years ago when we were going through the homelessness task force. I went over and sat with 6 individuals that are guests there and heard their stories, heard what got them there. Um, and I think it s so easy sometimes when we re dealing with, um, you know, these broader populations to forget that they re human beings and they re individuals and, you know, their stories are different, um, how they got there is different. We don t"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7906.378,
     "end": 7936.605,
     "text": "always know everything, but I think that, um, I do agree that we need to have stakeholders and different people involved because they ll tell us we re doing it right or not. You know, I definitely got some feedback that day in regards to what struggles they have why they sometimes don t engage. I mean, it was a very, um, impactful, uh, situation, and I think that you get valuable information by talking to stakeholders and the population, and, I mean the community. Absolutely, which"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7937.676,
     "end": 7969.906,
     "text": "leads to my next question, um, one of my favorite words is pilot. So you try something and I think you mentioned a program that you tried. You got information, it didn t work, you pivot. Um, the homelessness task force which preceded hcab. Some of these discussions came up as part of that. Um, I m wondering if that was a source of information for some of this collaborative effort and then part b to my question is, is there some way that the boards and commission, the other"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7969.975,
     "end": 8001.3,
     "text": "boards and commissions can be a functional source of information or, um, support for some of this coordinated effort longer term, not 2026, but longer term. Um, I believe that we underutilize the boards and commissions in some ways, um, particularly some of the, um, maybe less uh, the ones that participate in council meetings a little bit less, but I think they re wonderful sources of information. The former member of the commission for Women, um,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8002.24,
     "end": 8033.704,
     "text": "so, um, do you, you answered the two charges that we gave you and in the longer term, how do you see this sort of evolving and would that include boards and commissions. I think the conversations involving, you know, like for the homeless task force, we took a lot out of there and we said, hey, Jamie, take this and do it with the h cap, you know, because some of these so these, uh, situations are multifaceted and they re not overnight. Like, we re not gonna all of a sudden have enough housing for everybody or enough food to put on everybody s table. Um, and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8035.641,
     "end": 8067.404,
     "text": "so I think that, you know, that evolves and I also think that, you know, sometimes maybe we don t use our com our boards and commissions, um with all the things that we could do with them in regards to getting them engaged. I think when, for instance, when the, um, we were working on the strategic housing strategic plan. I had, you know, they, that are, are, um, consultant came to Human Services Committee. They came to the commission for Women. They came to the advisory board and got feedback because everybody has a little bit different feedback depending on"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8068.173,
     "end": 8100.303,
     "text": "where they are in life cir circumstances, but they also, there s common themes. So I do think that that s another place we can really be strategic about that. And do you want to say? Sure, I can just add that the recommendations made by the Homelessness taskforce were reviewed by hcab. So we did have a, a, a, a conversation where we did focus on not just the prioritized recommendations, but the whole list of 38 recommendations, trying to figure out where s our opportunity, how can we work together, um, some have already been accomplished and what are ones that MAY be no longer need to be prioritized. We need to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8100.706,
     "end": 8132.135,
     "text": "shift different directions as times change. So, um, still looking at all of that work that was done, including the research whenever there are conversations with the individual s that, um, participate in the Lamb Center services or the hypothermia program services. I think that hearing from directly the people that are, are receiving the support to see how we can shape and improve what is being offered is, is critical. Thank you. I ll just make a final comment and wrap it up. Um love practicum students. I used to work with students. I have a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8132.904,
     "end": 8163.566,
     "text": "student now who, um, works with capital mitigation, so she works with really horrible, um, situations and people ask her, how can she do it? And she ll tell you that she thinks about this person who committed this horrible crime, but she goes back in time and thinks about way, way back when this little baby was brought from the hospital wrapped in a blanket and this person s story all the way through their lives. And so, I really am touched by this"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8164.669,
     "end": 8196.166,
     "text": "work and the um the effort to look upstream and to start early and to think about all of us who touch people s lives along their journey and send them in various trajectories. So thank you very much for this work. Thank you. Council member Peterson So I have a comment on a couple of questions that I think I d like others to have a chance and perhaps I ll circle back after that, um, to help manage the time a little bit, but first, thank you very much. And I ll just say that I was very pleased to raise the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8196.5,
     "end": 8228.865,
     "text": "motion that enabled this entire body to be support, uh, supportive of the resolutions that you re now implementing and part of my own thought process around that was the general issue that it s not always enough for us to pass policy. Sometimes we have to be a little bit intentional about implementing it and uh maybe to put a little bit more plainly, uh, it s not enough to talk the talk. You have to walk the walk. So this kind of progression to the next stage of things I think is very, very important because policy doesn t self-implement all the time. We see this across the board, but"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8230.68,
     "end": 8262.2,
     "text": "in case of the the gun prohibition at city events, which was the focus of this. It was certainly my view that we needed to make sure uh, that we were doing everything we could and above all maintain our focus, because this is an important area that can t be left unattended and kind of slide. Uh, I have a slightly detailed question or two. As just kind of in response to that, I would like to go to whichever number slide it is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8262.2,
     "end": 8294.129,
     "text": "that has the spectrum on it here. And really appreciate MR. Alexander, you sharing this because I think it is important to kind of see the big picture and then what it means here. So when I look at this, two things stand out to me. One thing is we need to understand our exposure. What s our risk exposure? And the second thing is what do we do about it? And if I m hearing correctly, uh, in terms of our improvements in capacity and coordination. Part of what we re doing with the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8294.633,
     "end": 8326.97,
     "text": "new staffing for analysis within the police department is being able to collect and process information that will help us assess risk and to combine that information if I m hearing it correctly with information that s on the human services side, so we have both sources of information together that will improve our ability to understand our potential exposure to risk and. Then the next step is what do you do about it? We have existing programs that helps us target"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8326.398,
     "end": 8357.527,
     "text": "our existing programs, but it also helps us understand where we might have gaps and we might need to do more, uh, that comes out of that process. So I think my first general question is, am I paraphrasing that in a way that s reflective of of your thoughts here. Yes, sir. That, that is an accurate uh representation of what we re looking to do and accomplish. Well, again, thanks so much for doing this. I wanna just, uh, drill down on one particular piece of this that uh MR. Alexander raised behavioral"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8360.264,
     "end": 8393.663,
     "text": "threat assessment So behavioral threat assessment management is certainly um, how shall we describe it here? Um something that has been increasingly a matter of focus and implementation, not only in public safety, but things that are across the board related to risk and resilience. And so I know we have um a state police program on, uh, behavioral threat assessment and management. There s an fbi program and the state police program is um also designed, as"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8394.699,
     "end": 8426.565,
     "text": "i understand it, to be set up to be in cooperation with localities, so you mentioned Chief the meeting you re having with the sheriff, the state police, there s also at the federal level fbi for instance. Is the behavioral threat assistant assessment management program, something that we are um being intentional about linking to as a part of what we re doing here, or is that something that we haven t quite yet crossed the bridge and exploring. I raised this partially because when I talked a little bit with the state"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8426.565,
     "end": 8457.828,
     "text": "police representative about this. He said, Well, we have a cooperative program here and it, so this is very, very good timing, but I m just wondering where we might be on that. So we, we part of what we do and we identify an individual, and again it could be uh it could be a youth offender or somebody that makes a threat at a school or on social media or obviously an adult. We have internally we have detectives and investigators that are trained and and have worked in in behavioral threat assessment"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8457.93,
     "end": 8492.761,
     "text": "and also risk assessment so they, they go to work on this and they they they tap into some of these outside resources, whether it s the state, the fbi, we work with the Fusion center So it s really a collaborative approach. Uh, sometimes we can manage it ourselves, but a lot of times these are individuals that aren t necessarily uh alone uh or or or an issue for us alone they present potentially a threat or have experience dealing with other agencies that we want to work with and reach out to. So it is a collaborative effort that we put forth. Right Yeah, I would"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8494.32,
     "end": 8524.46,
     "text": "say also that, um, to, um, Councilmember Hardy Chandler s point, you know, the state has started a, a pretty robust program around training the community around behavioral threat assessment. And so it s not necessarily something that, that I, that we re into now, but it s certainly something that is helpful to kind of broaden the number of folks who are, are paying attention to that and, and again, there s a, there s a established program for that purpose. Uh, really great to hear, and I was gonna mention Fusion, so glad to hear,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8527.432,
     "end": 8558.995,
     "text": "um, hear about that. When you started at the very beginning identifying uh population segments that would be the focus or the likely focus. I think it s youth unhoused and people with repetitive issues. When we first raised this, it was in the context of the risk of shootings at city events. And trying to understand from a preventive standpoint how could we get upstream ahead of the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8559.464,
     "end": 8589.994,
     "text": "curve to identify those kinds of risks before they materialize and so as I think we ve heard, you can go all the way back in time and people s lives and there s a much broader set of things we have to work with, but I also heard, um, I think from some of my conversations with officers here, and I certainly heard this with others that somewhere in the middle of that in terms of the risk of shootings and these kinds of events as somebody who I would describe as the unknown visitor, somebody we didn t count on,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8591.396,
     "end": 8624.595,
     "text": "somebody who maybe even came from somewhere else. And in unfortunately, a number of cases, apparently it s people who are resistant to all forms of intervention, essentially hardened criminals, and I m wondering this system here seems to be so important to try to um spot, uh, risk and then respond to it, but how well does that capture this, um, this unknown visitor, this one particular area of concern that seems to have been raised in enforcement about people who,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8625.797,
     "end": 8657.94,
     "text": "who can show up and, and be involved in these things. Well, what I would say to that specific concern and, and, and real threat that exists in, in our world is it it it starts with what we ve talked about, which is the relationships. So first of all, in, in developing this the trust and earning the trust, whether it s kids in our schools, kids in our neighborhoods, or people that live in our city, our business community through that trust, it s more likely that people"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8657.796,
     "end": 8688.124,
     "text": "are gonna call on us and let us know that they, they ve seen somebody or they ve heard something that is of concern, something that maybe, you know, it raises the hair on the on the back of their neck that they re like this doesn t feel right, and they re more likely to reach out to us. So that s, that s a critical piece of of establishing that trust and those developing those relationships. Additionally, we, as a, as an agency, we re, we re, we re, we re very focused on, on enhancing our visibility and our presence in the community. The more that we re seeing, the more that we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8688.327,
     "end": 8720.558,
     "text": "can make it uncomfortable for that person that maybe is looking to cause harm, uh, the better. So we want, we want ultimately our, our goal is that when someone comes into our community, whether they re driving through or they re looking at maybe spending some time here, that if they look left or they look right, they see some type of representation of our police department and just our message of community safety and that they make a decision to just keep moving on. We want, we want to work through our intelligence platforms through our partnerships through the Fusion center and other law enforcement agencies that we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8720.626,
     "end": 8750.854,
     "text": "work with to be able to have the information and be in place to disrupt the crime, disrupt that criminal enterprise or that individual that s looking to, to come in and do something, um, of of great harm or or or or or or just really hurt someone in our community. So that, that s how we go about it. It s through the partnerships through the trust, the reliance on the community to give us information, but also for us to be in the right place at the right time to disrupt and deter that potential individual. Thank you. Just, just a follow"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8751.323,
     "end": 8782.82,
     "text": "up on that, um, I think the, the other important part of this continuum is the response and the recovery. If, if something like that does happen, not all things are predictive or preventable. So a really important part of this, obviously we want to be on the 100% prevention side, but the other side of this is how we respond and recover if something completely out of our control happens, which is 50% of this continuum, and it s the response and the recovery is also stuff that we highly focus on Training our officers, pre preparing for these large"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8784.255,
     "end": 8816.453,
     "text": "events through ops plans, through pre-event sweeps, staffing it robustly so you have eyes everywhere. Things like that. I just don t want to lose sight over the fact that there is a there s a little bit of an unrealist we don t want to have an unrealistic expectation to this that nothing, nothing is going to occur. We re not going to be, you know, at the 100% preventative standpoint on this, which is why the other half is also very important. Really important point. My last thought for the moment is back to the analysis gap in the capacity um gap there that you"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8816.654,
     "end": 8848.185,
     "text": "are working to fill with somebody. Um, one thing that has come up in community. Conversations has been the concept and perhaps even the history of the police department providing risk analysis to the council, uh, when it s making decisions about development applications, um, a commercial facility going in a particular location, etc. To understand historically what the risk exposure has been for that location and then"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8849.154,
     "end": 8880.919,
     "text": "projecting forward given all circumstances that are expected, what sort of exposure is expected there also, so that we as a body uh might have that in addition to the other information that we have when we re sorting through some of these decisions and try to move in a direction of having a little bit more holistic approach to our, um, assessment capability. Is that anything that s in the, the cards here or something that could be considered. Yes, sir. So, um, we are forwarded, uh, a lot of the applications and plans for"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8880.919,
     "end": 8912.683,
     "text": "development, um, I m one of the people that actually reviews those and gets that information back to development and planning. We look at a number of things, um, for safety and security to, to, uh, recommend to be considered for, uh, a number of, um uh, a number of reasons, but, um, so we do that, um we do that all the time. Those applications come in, um, every month, and, um, we give that information back to community development planning"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8913.417,
     "end": 8945.115,
     "text": "to, um, to include in the, into the, um plans for you all to review. I will say that s something we started probably a year, maybe a year and a half ago, so it is fairly, it s newish, um, it s something that we ve been working with Brooke Harden with and every, everything that comes through, we get an email now like transportation would or I m assuming maybe the fire department does as well, but I would say it is more of a, it s a newer process for us, but it s something that we are now regularly involved in, that we have a deadline to submit all of our feedback and then how that s shared, I don t know the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8945.217,
     "end": 8976.547,
     "text": "formal process of that, but we do now have a role in assessing and providing a recommendation on those. I m going to make a mistake of asking a question I don t know the answer to. Um, are we using a car prevention through environmentable design framework to do that? Ok. Perfect. Just to follow up, is that information that is finding its way forward to the council and the body here when we re making decisions. I think that s an area to explore, you know, based on, on how that whole process is working. It,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8977.214,
     "end": 9007.711,
     "text": "it should inform the process, but I don t want to say that definitively without knowing. You probably don t receive feedback at this point. I don t know the, the closing loop of that process. We re provided in the feedback element, so I can t, I d, I d have to gather more from cdmp on how the, how that s closed. Thank you. As I said, I might have another question or two later, but I ll stop so others can have an opportunity now. Thank you."
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header)",
     "start": 9010.816,
     "end": 9013.684,
     "text": "Thank you. Thank you for that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9014.119,
     "end": 9044.815,
     "text": "presentation. Um, my question has to do with the metrics that you re going to be using to evaluate your progress. How is that going to work, especially since you re, you, you know, working together with so many different um, pieces here from the police department perspective, we are gonna have access to the data as to the things that we re involved in, obviously, from a, from a collaborative approach to this. It s gonna be relying on the data that that they have and I ll let, I ll let, I ll, I ll"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9045.716,
     "end": 9076.546,
     "text": "let each of them speak to to their sources of information and where they store information and pull information from, but that s where that, that hub component that coordinated approach where we re gonna have regular, uh, communication and meetings with the representative from police command Human Services, fire, like. That leadership coming together and being able to bring that information together, review that, have that conversation. That s where we avoid that duplicative effort, uh potentially wasting of time on something that maybe has already been taken care of and we don"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9077.516,
     "end": 9108.479,
     "text": "t realize it, so the, the data, the, the data pieces and components are, are housed maybe in different places, but it s how we come together and and review that data and that s why we ve, we ve talked about having people from other city departments, not only, not only human services as we re talking about in this case, but having people from other city departments sit in on our crime reviews because when someone comes in, we, we only know what we know. And so when we invite someone a partner to come in and sit and watch our, our meetings, uh, they might find,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9108.546,
     "end": 9139.908,
     "text": "well, you know, I can add value in this way or this could be helpful for me in this way, and it s through those conversations that we can continue to modify and improve the, the that, that data sharing and that collection and how we what do we do with it? One of the things with community response team we just track what we re doing, right? And one of our goals, especially for behavioral crisis is to decrease the need for involuntary, uh, hospitalizations, um, or"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9140.144,
     "end": 9172.777,
     "text": "criminal, you know, interaction, um, arrest uh, and so we are we re watching to see how we re, you know, how we re impacting that. I think that, you know, one of the, the things I m glad we re gonna have this clarity, but one of the, the challenges, um, on the behavioral health side, there s a lot of rules like there s hipaa, there s, you know, like a lot of rules that say what you can share and what you can t share. Um, and so some of our information is not, like we can talk about events, people, but we can"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9172.777,
     "end": 9204.274,
     "text": "t really talk about details, um, but I, you know, we keep evolving the er team because I think we ve learned a lot since we started because, you know, we started from scratch, and we re trying to figure out how do you show that you have an outcome? And I could tell you with targeted outreach, you know, we re also dealing with older population. My, my team laughs about that that s kind of a chunk of what they do with targeted outreach, but I can tell you story after story of individuals that they changed their, you know, they changed the objective of their life."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9205.242,
     "end": 9236.7,
     "text": "They helped them be safely at home. They, uh, were able to get them to a better place than they were, um, and I, you know, I just need to do a better part of being able to tell those stories because I think it s not just data, it s the stories like how did you impact, um, so that s kind of what we re working on. And I would just add, as we think about the community engagement work group that we ve talked through would continue to strengthen the work that we re doing. Um, once we get started, that might be something where we start to kind of identify what metrics"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9236.307,
     "end": 9269.6,
     "text": "we want to look at and some of the data might be used to inform how we partner. So for example, if somebody is identified as a high system utilizer or a repeat offender, we might be able to identify that and then connect to see, ok, do we know if this person is engaged in services? Does this person have benefits? What are the missing pieces so that the data might inform, you know, how we re starting to drill down to see if we could prevent the crime from occurring in the first place. Like somebody that maybe is doing petty larceny, maybe they need a gift card right, to meet their basic needs, yeah Yeah, that was my question was, you know, with so"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9269.541,
     "end": 9300.536,
     "text": "many moving parts, how do you possibly and, and how do you measure something that has so many different facets that can t, you know, it s not numbers. So, um, thank you for explaining that. That leads me to my next question is timeline. Um, I, you mentioned in MARCH, you ll have another, you ll be bringing something to us for a review or something in MARCH. Is that MARCH down. The MARCH was when we were kicking off our monthly review where, you know, that s internal internal process that we ll be doing, but we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9300.672,
     "end": 9331.334,
     "text": "ll be, uh, inviting some other city departments to sit in and, and join us for those meetings, but it ll be primarily a a police function and and a police-driven effort, uh, internally to assess everything that we re doing and what are the issues that we re responding to and that we can identify and and that s where we get into the, the problem solving the strategy development that community-oriented approach, all of that is really being driven through that process of coming together, reviewing and sharing information internally"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9331.737,
     "end": 9362.99,
     "text": "and putting it to work. Ok, and that starts off in MARCH then. Excellent. And then at what point will that come back to council or the public for an update regarding where you re at, what, you know, how, how you re moving along on those milestones. Oh, you know, we we haven t thought that through. So, uh, but being that this is going to be something that s gonna be part of our everyday business, you know, we can obviously work with the city manager and, you know, from time to time, let you know what we re seeing. Share, uh, stories of success and share"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9362.567,
     "end": 9395.699,
     "text": "maybe updates as to how, how, how these different efforts and programs are going. Yeah, one of the elements of what we re going to bring back to, I think next week is what we re doing around performance management So as we look at that framework, as we develop that enterprise-wide, this will be a critical part of that, and we ll see how that integrates in and certainly part of an overall look at how we re being effective, efficient in the services we deliver. Thank you. I do want to echo, um, the mayor s comments regarding, uh, working with George Mason University and their resources."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9396.335,
     "end": 9427.232,
     "text": "Um, my child and I actually have taken part in some studies that they ve conducted there on youth, um, in their human services type of area. And so I know that they, they do wonderful work in their lab is located in the city, so we didn t have to go anywhere for that. So definitely a great resource to have in our backyard. Um MISS Sebastian, you had mentioned something about off hours and if somebody, a specialist isn t there for a response. Did I hear that correctly? Yeah, when I was"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9427.232,
     "end": 9458.461,
     "text": "talking about was domestic violence, but the Cert team right now is 8 hours a day, 5 days a week, um, and if the cert team s not there, there s regional mobile crisis that can be engaged by 988. There s also Mo crisis, the Community Service board, so there s, we do, we don t have 24/7 um city-centric response right now, but we do have mechanisms to, to uh respond to that, but I guess my point was on the domestic violence. The one"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9459.131,
     "end": 9490.561,
     "text": "thing the police department there that unit that really works with the victims. They, they have a full staff, so, you know, they can always have somebody on duty that can go out and meet that individual at the time, you know, of the intervention with the police officer and start building a connection because I think that, you know, you MISS Opportunities when you re not able to do that, yeah, um, my question about that was just in regards to, since, uh, we have a supplemental service or, or the county. I, I don"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9490.561,
     "end": 9521.125,
     "text": "t know where that comes from that, um, support comes from. But will they be feeding back information. So as we re going through this process, we re working together with our police. Will they be providing that information of any time they ve done outreach to one of our city residents that you re talking about humans, the General Services agreement, ok, um, every one of the departments does an annual report, and it s for the broader county. It s not just for the city, but I do gather data from them. You know, a lot of it"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9521.593,
     "end": 9555.225,
     "text": "s about how many people from the city got impacted or, or got services, um, and you know, I keep, we keep working and, and I, I can tell you the data I get now is a lot better than the data when I first got here, um, but we re still working because one of the things that I always say is that Santa Claus didn t bring me a zip code that was just ours, you know, so it makes it really hard sometimes for them to pull data out. Um but I, you know, those different reports, those, those annual reports really show overall how like"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9556.228,
     "end": 9586.323,
     "text": "aha like the community service board or the Department of Family Services, how, what they re doing is impacting our residents, and I can, you know, we can share those as we get them. Yeah, no, I was just curious as to how that information would trickle and work within that. So thank you for answering that. Um, see if I had any more questions? Actually just the metrics. Um, I also wanted to echo the comments of, uh, council members, uh, Hardy Chandler as"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9587.24,
     "end": 9618.555,
     "text": "well in regards to the prevention and education component and educating, uh, regular residents here just on how to identify things, how to empower us to relay the message that you re trying to get out there and, and the tools that you have for our, our youth and for, um, anybody that we can assist with, um, to spread the message as well so I appreciated that, those comments. Thank you. Um, Councilor Bates. Thank you. I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9619.358,
     "end": 9652.623,
     "text": "just wanna thank you all for a very informative presentation. Um, and, uh, you know, I m very glad to hear that the work that Officer Klein has been doing for some time now, uh, that we re looking at expanding that. Um, community policing in general is very well established to be very effective at, uh, crime reduction. And, um, and also the uh mentorship program is very important. Um, and, uh, and then the crime analysis program, correct me if I m wrong, but I think that we, we did have a crime analyst doing"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9653.58,
     "end": 9684.988,
     "text": "work a couple of years ago, and then that was, um and then we didn t for a while, and now we have the intern, uh, which I m glad to hear. Um cause that, you know, on the county side, I believe that they have, um, one analyst per district station plus uh, analysts at headquarters who are more specialized like narcotics analysts, you know, that kind of thing. Um, so it goes to show that obviously there are much larger jurisdiction and so they have the, um, you know, benefit of communes of scale."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9686.524,
     "end": 9718.589,
     "text": "But goes to show that they, um, prioritize that as well, so I m glad to see that, um, you know, we re getting back into that. And also to follow on to the mayor s comments as well. Um, I also want to shout out the, uh, George Mason Systems Engineering and operations Research department, um, as well as the, uh uh Virginia Tech Industrial and Systems engineering program. Um, George Mason s seor department, I think is maybe a bit more transportation and a financial"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9718.723,
     "end": 9749.853,
     "text": "engineering focus, but at Virginia Tech, um, they have a presence in this area and uh they actually have a professor in this area um, over at or was, you know, their Falls Church campus, um, they re moving things around now due to the redevelopments and all, but um and, uh, who has published papers on um looking at drunk driving prevention, um, from a system science perspective. Uh,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9750.122,
     "end": 9786.69,
     "text": "including looking at the role of law enforcement, um, and, uh, as well as education campaigns, etc. So, um, you know, they re very much also uh invested in looking at, um, how these things, uh, play together. So, um, yeah, again, uh thank you all for being here and, uh, and very excited about the work that you re doing and look forward to, um, uh, seeing these things, uh, continue and expand. Council member Peterson uh, just to say this is great"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9787.159,
     "end": 9819.59,
     "text": "and I do look forward to learning more about how this proceeds on an organized manner, uh, so that we can stay engaged on this, uh, also, uh, wanna just uh uh. Recognize and appreciate some of the comments here about how the issue we re working on here connects a larger set of dots. So this is an initiative that we ve been discussing. Between health and safety, um, but there also are initiatives on risk and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9819.725,
     "end": 9850.554,
     "text": "resilience and response in another world, uh, on energy, environment, and economy, and it turns out those two worlds are connected and so what we do elsewhere in the city in those areas actually as impactful here. I think it s entirely appropriate for this to be a focal effort, uh, so that it can be uh, managed and progressed as a real crisp focal thing, but I also think it s appropriate for us to have eyes wide open, and as I know you are already contemplating,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9850.554,
     "end": 9881.587,
     "text": "uh, think about how we re kind of migrating into a whole of government approach in terms of how we think about resilience, but I, I will just say anecdotally, uh, we ve heard a little bit about Mason tonight. So I teach a course in in continuing professional education at Mason and a year ago, uh, uh, I went to the cpe program to suggest uh that we taught a community-based course on resilience, so I teach a course on public engagement and community problem solving to build community level resilience. Anyway, long story"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9881.587,
     "end": 9912.916,
     "text": "short, it s for local government people and community partners and as a part of the course which focuses on exposure and response and all the things that very much uh look like our slide here on the spectrum approach, uh, the uh participants were asked to identify the issues that they thought were the greatest priority. Uh, in terms of things that were changing conditions were a concern, and that what they really keyed in on are things that they thought were destabilizing. The number"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9914.82,
     "end": 9949.219,
     "text": "one things that they thought were destabilizing their community and would lead to these kinds of problems and others, and it was very interesting because the issues that came out of that were energy price issue. People are mortified about the impacts on their energy bills. Manufactured housing and the lack of environmental and energy standards and in manufactured housing that is placing people also at energy and economic risk and safety risk and causing community problems that are pretty significant and then malnutrition programs, the loss"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9951.29,
     "end": 9982.54,
     "text": "or the risk of loss of the food safety net, and these were the, I mean, interesting things that folks are laying their hands on saying this we re really worried about the destabilizing effects of any of these things heading in the wrong direction and wanting to get ahead of the curve there. So I know we ve had broader council conversations on all of these issues, and I know they will continue, but I just wanted to raise this because I think they MAY find their way forward into health and human services, and they MAY find their way forward into safety and so we MAY want"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9982.54,
     "end": 10013.284,
     "text": "to continue to try to do all we can. In these other areas at the same time. Thank you. Thank you all so much. I just want to say this about our police department. I could not be more proud. Of the people who serve the city. And when I say serve the city, I mean every single person in the city. You serve all the people. That s the visitors, that s the people who have houses or don t have houses, that s the business"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10014.418,
     "end": 10049.619,
     "text": "owners, you serve them all. And you serve them all with exactly the same commitment, care, and compassion, and that is what sets our department apart. And I appreciate that, and there s not a metric or a value you can put on it, but I see it. And it makes a world of difference. Thank you all. MISS Shinneberry Well, before we go to our next item, I know it s not exactly 10 o clock, it s 9:47. So if you want to do a time check."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10049.654,
     "end": 10082.62,
     "text": "What is our forecast on the remaining items on the agenda in terms of the time that will be required for us to move through them. Mm let s see I would say the last two items normally pre-application shouldn t be no longer than 30 minutes since it s um just a short um briefing from the staff and then now we do allow the applicant to answer questions, but they are"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10084.655,
     "end": 10123.493,
     "text": "supposed to be purposely short since there s not an application in already. Um, if MR. Foreman can give me a heads up of what he thinks for his next item meet that target. I like your can-do attitude. Well, the rules say something about 10:30, but I ll leave it to the folk folks around the table here to see whether that s something we want to try to do. But it sounds like we want to be efficient. Yes ok, well, I ll next, I ll announce our"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10124.196,
     "end": 10154.992,
     "text": "next item, which is an update and discussion of the citywide level of service study, which will assess impacts and cost implications of new development on city services and infrastructure. I m gonna recognize Eric Foreman, our city planner to provide the staff presentation. Well, thank you very much. So this work session will discuss an ongoing project, uh, that project that analysis, what s called a citywide level of service study. City has contracted with the consulting firm of TischlerBus"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10156.895,
     "end": 10188.123,
     "text": "to conduct this analysis, Tischlerbys has nationwide experience in economic and in fiscal analyses. The main goal of this project is for them to develop a dynamic capital impact model. So that s something that the city would be able to use to estimate capital needs resulting from redevelopments and this being at the time of rezonings. A lot of this has, has to do with the acceptance of cash proffers, a lot of Virginia jurisdictions"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10189.261,
     "end": 10220.257,
     "text": "except cash proffers as part of major rezoning projects in Fairfax City, we have done this in the past. We don t have policy guidance on what kinds of proffers the city MAY need. Or how to calculate those proffers. So this project would establish a framework for doing just that and hopefully uh help the city recover some of the costs that are incurred by new developments. Uh, so tonight we d like to brief the council on the main goals of this effort. Take a look at the consultant s methodology, also"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10221.759,
     "end": 10255.26,
     "text": "take a look at the framework of that capital impact model, which is the main output. So I m joined here today, uh by the project s consultants by Juli e Hurlins, and by Jackson Barlow. I ll turn the presentation off to them and at the conclusion, uh, both staff and our consultants would be glad to answer any questions. Good evening, uh, mayor, members of council, uh, it s good to be here with you, uh, this evening, and, uh, yes, we can, we can hit any target that you set for us to get, get us through, um, but, uh, yeah, so I enjoyed the, the conversations thus far, uh,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10255.393,
     "end": 10287.423,
     "text": "this is really meant as a briefing. Um, we ve heard an introduction of myself, Jackson, uh, Barlow in in our office here we re based in Bethesda, Maryland. I live in, uh, down the road in Fairfax County, not a city Fairfax resident, but, um, in, uh, the county, uh, Fairfax County. So uh, and do, we do a ton of work in Virginia, uh, as Eric mentioned, uh, on helping communities identify capital impacts from growth, uh, really specializing in cost of growth services. So, uh, we re gonna talk a little bit about the study, the data, just a, a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10287.758,
     "end": 10319.39,
     "text": "brief overview, uh, show you a sample model, sort of what this will look like in, in practice and, and talk a little bit about next steps. As I mentioned, uh, we are, um, we re based here in the region. We do have an office in Idaho. We, um, have been in business almost 50 years. Uh, I ve been with the firm, um, almost 25 years. Um, and, uh, and actually have been in this room before, uh, doing another project with Eric, uh, a long time ago. Uh, so, uh, I said, oh, I do remember this room. Um, but we specialize in what we call cost of growth services and work again nationally, um,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10319.457,
     "end": 10352.691,
     "text": "but a lot of work in Virginia as well. The dots on the map are our clients. So, uh, we re across the country, but and other parts of the country, uh, we do what we called impact fees, uh, which are similar to cash proffers, but again, it s quantifying what is the cost to serve growth? Uh, what does this cost to serve, uh, development and making that connection between land use and, and finance and fiscal needs. So why look at capital needs. Uh, so anticipated growth gonna put a strain on your infrastructure and, and your, and your facilities. And, uh, generally, uh, to maintain"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10352.691,
     "end": 10383.119,
     "text": "levels of service, you d need to expand those, those facilities, except for in situations where maybe you have excess capacity. So part of our analysis is to look what, what are the current situation, the current state of affairs for your facilities, for your capital facilities, uh, and then, uh, what would be needed to, to serve growth. Um, and as, uh, we saw the, the budget presentation earlier, you know, there s limited resources here, uh, in anywhere, in any, every community, every jurisdiction, uh, so there s limited resources and typically a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10384.656,
     "end": 10415.753,
     "text": "general fund is going to fund operations, capital then is sort of, you know, the next is, is, is potentially an extra, uh, something else that you need to find some additional resources to, to, uh, to, uh, improve and to expand. Cash proffers are governed by Virginia law. Uh, I won t go through this in any detail, but we will work with the, with the, uh, city attorney as we go through this. But there are some requirements and they really match what s required in other areas of the country that don t do cash proffers, but do these impact fees that you need to meet"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10416.53,
     "end": 10447.885,
     "text": "certain requirements. They need to be reasonable. They need to be proportionate to who s demanding the facilities, uh, they need to provide a benefit, uh, eventually with, if you collect dollars, you re going to spend those dollars on improve ment s and additional capacity, um, and they need to be represent the fair share of the cost, uh, that that that that in that, uh, development, that land use is, is demanding. Um, so again, there s some specifics. The code is identified here, the section of the Virginia statute. And there is a requirement that the funds"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10447.886,
     "end": 10479.183,
     "text": "need to be spent within a, within a time frame, but it does, they do allow for, for a 12 years spent, uh, it really an allocated within that time frame. So one of the biggie, uh, big rules, uh, around cash proffers is that localities cannot require or cannot, cannot require an unreasonable proffer. And so that that sort of leads to the question, well, what does that mean? What s an unreasonable proffer. Um, and so, so part of this process is to get to the point of identifying what that means,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10479.718,
     "end": 10511.447,
     "text": "what is that reasonable proffer and really, again, meeting those needs. It s proportional, uh, they re getting a, there, there s a benefit received, um, and, uh, they they re paying again their their fair share. So, um, it s, it s, uh, attributable to residential development that s in the statute. We ll, we ll look at what the impact is from both residential and non-residential development because all, uh, you know, all types of development are demanding, uh, put a pressure on capital facilities, um, but the statute does re but does, uh, indicate"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10511.65,
     "end": 10543.78,
     "text": "residential development, uh, it s collected for capacity improvements for an off-site facility. So we re talking about system-level kinds of things. Fire stations, fire apparatus, road improvements, those kinds of things, uh, that there is a benefit that s received. I mentioned that you payer pays the proffer, cash proffer that those dollars are then used to expand capacity in that facility, and that there s a need in excess of the public facility capacity at the time of rezoning. This is unique to, uh, to Virginia law with cash"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10545.384,
     "end": 10577.314,
     "text": "proffer system that there is a test to identify whether there s a, a, a threshold to meet if there s capacity available. And so how, what have communities done in Virginia to, to, to, to meet this requirement to identify, uh, where there might be a, a threshold, um, met for capacity is, um, uh, what we ve done for these communities is develop capital impact models. So essentially and, and, and part of our, um, uh, our, our, uh, description, uh, we re planners. We specialize in in urban"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10577.816,
     "end": 10607.979,
     "text": "planning. Municipal finance, we re not software engineers, but we build models to assist planners identify what those connections are. So this is an Excel model. It s based on Microsoft Excel and it is meant to, again, identify what is a reasonable connection between the land use and the capital infrastructure that s being demanded. These are some of the communities where we have developed these models where we re working actively with them and then other similar models and other municipalities, uh, particularly, um, they are all the cities, uh, Alexandria, Chesapeake and Falls Church, where we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10609.28,
     "end": 10639.976,
     "text": "ve done a, uh, a more, uh, a fuller model that s operating in capital expend, uh, expenditures as well. So, uh, part of the process is to identify current, current state of affairs in the city, where the city is heading in terms of growth. Uh, this is a snapshot of, of our base year information and projections of growth, working very closely with the planning department identifying, uh, those pro those, uh, those, those metrics, those parameters, um, and the data sources around that. And, uh, you re in a, a unique"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10641.446,
     "end": 10672.575,
     "text": "situation here in the city with, uh, your school system with students that are city residents attending city schools and so there s the, uh, that accommodation or, or that, um, uh, analysis as part of the model, identifying capacities of schools that include other students, uh, county students, uh, apart from the, from the city s, uh, students. This just reflects the city student enrollment. So again, uh, uh, Eric mentioned about the study itself. We re building a dynamic model to allow the, the,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10673.979,
     "end": 10706.208,
     "text": "uh, the city to, uh, test to analyze rezoning cases to ident ify what that cash, what that capital impact is in a dollar amount. Um, and then also a static report that identifies what is that cost per housing unit type multi-family unit, single-family unit, uh, what have you that, uh, reflects that, that unit s share of the capital costs. Um, not all of those costs will be triggered by a rezoning, but there, that will be a piece of information, a data point that, uh, you all"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10706.345,
     "end": 10737.741,
     "text": "can have at your disposal to understand what that impact is, uh, from, uh, from again, new, new growth land use to capital facilities and the, and the, uh, and the capacity needed to continue to provide that, uh, that infrastructure to, to, uh, to development. And then finally, the third part of this is to deploy the model, use the model in determining what those infrastructure needs are to support the small area plans which have already been gone through and been adopted. So"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10739.544,
     "end": 10772.843,
     "text": "that is a, a third piece of the, um, of the project. So we are looking at, uh, the following infrastructure categories. And so when we talk about infrastructure, we re talking about schools, parks and wreck, police, uh, police facilities, fire and rescue facilities and apparatus and transportation, not just, you know, not beyond the utilities and transportation. So our infrastructure is, is all of the capital facilities that the city provides. And then general government facilities as well. Um, so just kind of high level, we re gonna look at current city levels of service. What"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10773.245,
     "end": 10804.208,
     "text": "does it cost to continue to provide that same level of service. And then again, uh, make that connection between the land use, residential unit, and, uh, the demand for that infrastructure. So an easy example is parks, how many park acres per 1000 people do you have today? What does it cost to continue to improve, to, to improve an acre of park land, and then what does that translate then into a cost per person and then a cost per, per unit. So everything is formula-driven and quantitative, um, and we ll again come back"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10805.409,
     "end": 10836.706,
     "text": "to you all in, in that kind of format. So the next time we ll be back in front of you, there will be lots more numbers on these slides, um, and that s when it gets really fun. Um, and so, uh, we will, um, we are using current facility inventories, capital improvement plans, and, uh, master plans for these facilities. We ll look at, uh, specifically, again, I ve followed these infrastructure categories, but schools as well, um, and look at, uh, individual, um, uh, levels of schools by level, uh, where those potential capacity needs MAY be"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10837.609,
     "end": 10868.438,
     "text": "and where they MAY not be, given that there is, uh, some excess capacity in the schools with county students, um, in, in, uh, the city, uh, city serving schools. So just kind of again, uh, as a, uh, uh, a briefing, um, for your, for your, for your edification, we ll come back with the city s model, but this is a sample model where again it s in Excel, there ll be a user input area, Enter the, the project, and then an output that shows what"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10869.7,
     "end": 10900.837,
     "text": "is the capital impact in dollar amounts and dollars. Um, and, uh, what this will also uh provide is, again, the universe of impacts and then what is, uh, could potentially be a reasonable cash proffer, which is going to be a smaller number than the, the, the, uh, the, the, the total impact, uh, you know, the static impact if you will. So, uh, this will be, we ll work, work with, uh, city staff on the format, what that would look like, what that would be useful in terms of a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10901.273,
     "end": 10932.436,
     "text": "staff getting translated into staff memo that will then, um, be, uh, um, potentially in a staff memo, uh, to, uh, to then again provide that piece of information back to the council on some of these, uh, projects. Um, so we re continuing with our analysis, model building, looking at the capital improvement plans and, you know, there s a new, uh, uh, uh, potential, you know, uh, kind of keeping up with, uh, what s, uh, being, uh, proposed currently and, in real-time, uh, we ll finalize the capital impact model and all the related documentation and again,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10933.204,
     "end": 10965.869,
     "text": "that static, uh, it will be a static, uh, output in a report, uh, review with staff and, uh, and then use the, um, uh, go forward with that third piece of identifying infrastructure needs and then come back and present additional findings to the council. So I ll take questions and happy to have discussion on our capital model. Thank you. Question? Council member Peterson, thank you so much. Um, so happy to hear a couple slightly technical"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10969.675,
     "end": 11002.372,
     "text": "questions. Um first, is this a downloadable model? So I should, um, this will be, this is a proprietary model provided to the city, uh, with under license agreements, so staff will have access to it. It will not be, uh, publicly available. This is our, uh, uh, you know, our, uh, the Tischler vices proprietary, um, uh property is our intellectual property. Is it updateable and upgradable by staff? Ok. Uh all right, and in addition, I m sure the answer is yes, but it can do scenario-based stuff as well to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11002.908,
     "end": 11033.603,
     "text": "deal with sensitivity analysis and all that, uh, in terms of capital, um, two questions. Um, there s capital and operating Capex and oe. Are you doing both of those? This is just capital. Because there s an ongoing operations and maintenance expense here. That s also uh fairly important to consider. So just to note that in terms of infrastructure we just focused on gray or also green or other words, um, are"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11033.738,
     "end": 11065.969,
     "text": "we doing natural capital, uh, as well, so are we looking at impacts on watersheds, forests, etc. Ecosystems, services, types of things in addition to your quote unquote gray infrastructure, you know, sewers sidewalks and all that. Uh, as it stands now, this would be, um, they re not included, um, and this is, uh, focused on those, uh, types of facilities and infrastructure that are, uh, funded through general fund dollars so that if your stormwater system is an"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11066.438,
     "end": 11099.67,
     "text": "enterprise fund, uh, the, the, the, the, the assumption is that it s covered through your rates and fees, um, and, and also there would be a city involvement. So if it s, you know to treat, you know, in any case, but if there are other elements that fall into that category, those parameters we can, we can add them as well. But, um, as it stands now, it s, it, the general fund supported. Facilities hypothetically you could add impact new impact accounts to this if you needed"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11100.205,
     "end": 11131.735,
     "text": "to. Ok. And, and to your question too on the Capitol operating distinction. So some of those other jurisdictions that I showed, uh, with other similar models, those are complete models with operating and capital impacts as well. So we do fiscal models that, um, that, you know, that cover the, the operating impact of a new fire station because it s, you know, the fires that s going to be the 15% of the full cost, 85% is going to be the ongoing operations in the shift that, uh, associated with the apparatus. So, um, but that is, that is part of our core"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11133.972,
     "end": 11170.441,
     "text": "services as well. So these, uh, other examples give us expansion pathways that we could consider if we wanted to here, ok, uh well, uh, again, I think it s really helpful. Oh, the last question is the report that comes out of this is this uh akin to what we hear other jurisdictions referring to as a more holistic pro forma, uh, for, uh, the review of the zoning changes, etc. What, what does the report look and feel like to a decision-making body like this. Right, so, uh, this would not necessarily be a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11171.51,
     "end": 11202.871,
     "text": "review of a pro forma of, from the, from if there was, you know, from the private side, so that s, you know, their development, uh, you know, assumptions, um, and uh, uh, I m gonna say if there was a, a request for any kind of, um, uh, participation or, uh, you know, the city involvement, you know, this would not necessarily, not necessarily kind of, you know, fit within that rubric. But, uh, the report out would be, uh,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11204.208,
     "end": 11237.774,
     "text": "again, that, um, the, the both you could, we can show the infrastructure impact. So how many park acres, you know, are demand demanded by, you know, demanded or that are generated the need for from this development and the costs associated with it and that s just an example, but sort of the laundry list of those facilities, you know, all the way down, like you said, in terms of the grip, that s it was characterized it as green, but the green and the gray, uh, gray infrastructure that, uh, is, is generated, you know, a need again to maintain levels of service in the city. So in terms of facilities and service,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11239.177,
     "end": 11270.54,
     "text": "this is focused on infrastructure but to some degree and maybe you could clarify it would help identify the cost of services as well. As it stands now, this model is not, will not be set up to, uh, to, to do that kind of analysis. However, if you had a, uh, if you had like within your budgeting standard and operating impact of a x, uh, then you could apply that to,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11270.909,
     "end": 11279.816,
     "text": "to the infrastructure output of this model. Ok. Super. Very, very much appreciated to all of you. Thank you very much."
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header)",
     "start": 11281.53,
     "end": 11283.954,
     "text": "My question is quick. In the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11285.157,
     "end": 11316.88,
     "text": "introduction you talked about, um, us not having um policy guidance, so maybe you can just briefly talk about how this might inform policy guidance. Certainly in the past, when we, when the city has accepted cash proffers, it s really been on a case by case basis. Uh, what, what this capital impact model seeks to do is to set up some kind of certainty both from the city s perspective, from city leadership s perspective and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11316.88,
     "end": 11349.53,
     "text": "also development applicant s perspective, uh, to, to have a, a guidance about what s expected, uh, so. Uh, take, take something uh just like parks and recreation in instead of saying you know, leave it open-ended about what any kind of cash contribution could be on a particular case for parks and recreation proffer, this would actually set up something and, and say for this number of housing units, we forecast a need for a certain amount of this kind of parks and recreation space, uh, to be"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11351.355,
     "end": 11381.418,
     "text": "programmed. Sounds like that would be helpful. So I appreciate it. Thank you. Councilmember Hall Thank you for the presentation. Um, we have a, you know, for example, we ve got two pre-application meetings that are after this, um, we have a fire station that we re considering. We have a Willard Sherwood Center that we re considering, um, are any of these things that we re talking about doing or programs or buildings that we re talking about, um, you know, building,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11381.787,
     "end": 11413.684,
     "text": "are any of those that are that can we apply any of these retroactively because we just did blank or we re, you know, we just bought a brand new $4 million fire truck, um. Is anything that we ve done to date that we re looking forward to? Can we go back and say, well, I think you know what I m asking. Yeah, yeah, that s, that s a great question. Um, I hope in Virginia, the, the wording of the, the, the cash proffer enabling law, um the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11413.819,
     "end": 11444.281,
     "text": "way that we have interpreted it and the way we have worked with attorneys around the state, uh, around the Commonwealth, is that no, you can t, you can t do that. Once you ve, once you have that have done that improvement, and there s capacity or that, that s then your level of service today, then you re starting from this point forward, and the analysis is done at the time of rezoning. And so and and I will, I will caveat this by saying in places"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11444.483,
     "end": 11474.546,
     "text": "where, where, um, impact fees are allowed and we do impact these studies. There s a third there s a, a methodology. So there s 3 methodologies that we, we deploy when we, when we, uh, analyze, uh, the growth needs. One is they called the cost recovery, and essentially it s just that. You bought this, you built this, you built excess capacity in the school, um, new growth is, you know, is consuming our cons um ing and utilizing those seats, and there s a cost associated with it like you re, like, you know,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11474.546,
     "end": 11508.746,
     "text": "uh, likely still paying debt service on that and so you re paying yourself, you know, paying back from their share of the cost, not the full cost, and it s not all attributable to new growth. It s just their share of that, of that cost, um. Again, the, the language under the cash proffer law, uh, statute is this very specific, uh, you know, uh, um, analysis of is their capacity at the time of rezoning, if there is, then then, then it becomes an unreasonable proffer, um, and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11509.714,
     "end": 11542.68,
     "text": "this is an area that, you know, we have, we have, uh you know, um, respo, you know, provided some, some, um, guidance on or some, some, uh, not testimony, but, you know, some, some commentary on, uh, because it is, it s still a growth-related cost, even if it s already been spent. Um, and so, so that would be my answer and of course, we would, you know, continue to pursue or, or talk with the attorneys here to see, you know, if that s the interpretation, you know, within the city as well. Thank you and ok, so that kind of puts things in perspective, I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11545.149,
     "end": 11576.79,
     "text": "guess, with if we agree to do Willard Sherwood, you know, we will be signing on to this in a couple of months. If we agreed to do, uh, new fire station, you know So at the time of the rezoning is when it would need to be done. So there s a bit of a disincentive then. Or I guess an incentive to delay um hearing new projects and considering new projects until we ve secured potentially this opportunity that we don t want to MISS Out on. So what is the timetable like? I think it said"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11576.38,
     "end": 11606.743,
     "text": "in the, um, staff report that we would the, uh, the project is estimated to be completed by mid 2026. Reasonably from a staff perspective, what are we looking for if all goes well, if this is something that it seems like it s beneficial and, and would help us, when would we be talking implementation? Mid 2026 is the deliverable of uh the anticipated deliverable of the level of service project, uh, of, of the model, I, I think it would be operational"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11606.812,
     "end": 11638.741,
     "text": "from a staff perspective very shortly afterwards. Ok, kind of makes me wish we d done this like 3 years ago. But, but those, I mean, and that said, those projects, those are, um, they are, uh, reasonable expenditures, you know, the, the analysis that we re working on now is, is, uh, considers those expansions. So, uh, that is expanded capacity, that is providing additional square footage, uh, to serve growth and existing development. And so there s again an allocation"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11639.478,
     "end": 11669.708,
     "text": "of costs there, the fair share to the users, you know, to the ultimate users, um, and, uh, so those dollars collected, uh, that would be a, because they re in the cip over a, a multi-year period, um, then, you know, that those would be, uh, reasonable, uh, uses of the funds, um, collected. Ok, so then just to ask one clarification question on that. So if when you look at our cip, for example, the Willard Sherwood has been in the cip. You were here for the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11669.708,
     "end": 11700.17,
     "text": "conversation at the community center, right, so that s been in our cip for the past 5 years. We are now in year 5 of it being in a cip. It has not been funded. We have done nothing to borrow against it. You know, we haven t incurred any of those costs with the exception of the paygo of $4 million. Is that something that we ve completely missed the mark on then because it was in a previous cip or something like a Van Park that again has also been in the cip for a couple of years, but again, no funding, nothing like"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11700.171,
     "end": 11747.18,
     "text": "that consideration. So, uh, is that these are excellent questions, excellent points. If you, these are the types of projects for which you could spend those dollars on if you were collected. But those projects need to be done, you know, or, or expand the, the type, those types of projects need to be done. Expansion of capacity in some way, shape, or form. It doesn t necessarily have to be those exact projects, but if you collect a cash proffer for recreational facility space, those dollars maintain that level of service."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11747.18,
     "end": 11778.16,
     "text": "And if that s the decision of the council to build, to do, you know, that kind of improvement to expand capacity, then those dollars can be used for that. If the decision of the council is then to use those dollars to do an addition or to add a class, you know, add a, you know, a wing or some, some other capacity expansion project that s, that s ok too. So it is, there s a methodological choice in the, in the analysis as well, and that s, and, and kind of getting, we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11778.16,
     "end": 11810.81,
     "text": "re getting a little bit ahead, but that s fine. It s this, you know, this incremental expansion where we re saying, here s your current level of service today. You have x number of, let s just say parks, you know, x number of 5 acres per 1000 today. If, you know, next person in, we don t have capacity for. We re gonna we re gonna collect dollars and we re going to build when we get to 1000 people, we re gonna expand build. We re going to improve 5 acres of parkland. We re going to do a, you know, a, a pickleball court. We re gonna do, uh, you know, a basketball court. We re going to do a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11812.451,
     "end": 11844.548,
     "text": "playground, you know, some kind of improvement to either an existing park where you have land to improve or a net new park. And that s also a choice too. But again, that s ultimately comes out in the budget that there is a plain, there is a capital improvement plan, where those dollars would be spent. Ok, I m not sure if I m not understanding or if I m not asking my question correctly. So, no, no, I, I just wanna, uh, it s getting a little late. I m a little tired, but so we haven t done anything on the Van , right? The park. We ve just discussed it at $16"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11844.548,
     "end": 11876.712,
     "text": "million let s say, to do a major refresh. The park capacity that we have today has been under discussion. And so if we are not doing anything right now, but we know that it s something that we need to do. We d like to do in 3 years, 5 years, 10 years, whatever. If this comes back to us in 2026, and it sounds reasonable and it gets implemented quickly. The people sitting behind you that are talking about pre-application meetings. Would"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11878.82,
     "end": 11909.745,
     "text": "they potentially then be able or required to contribute to these things that we have identified that we re going to do or that we want to do given funding or are they not necessarily able to be contributed to in that regard because we ve already been talking about them for a while but haven t actually done them yet. Is that maybe a better way of asking. Yeah, and it, and it comes down to, um, will you do those projects within the next 12 years? Assuming the answer"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11911.183,
     "end": 11944.81,
     "text": "is yes, yes, then yes. And, and at what point in time does the rezoning occur? If the rezoning is already happened and been approved, then the ship has sailed. If the rezoning hasn t and there isn t, you know, there s a policy in place and then there s this information to be used to potentially negotiate, um, and they re not required. Cash proffers are voluntary in Commonwealth of Virginia. Voluntary, and, and I should add one more thing just to build on, uh, what I had said earlier about the project"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11946.84,
     "end": 11979.917,
     "text": "being ready to go shortly after, uh, the presentation. Uh, a, a cash proffer policy isn t necessarily the existence of a model, uh, that that kind of policy usually has a governing body, affirmation to it. So it would be a policy that city council would accept in some form or another. So for example, Fairfax County Public Schools. Fairfax County has a education proffer, uh, Fairfax County Public Schools makes that makes a proffer memo available to the county board every few years or, or something, but that s an"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11979.917,
     "end": 12008.912,
     "text": "example of a governing body affirmation. Yes, and since I ve was on school board and now on council, I ve been with, uh, Councilor McQuillan advocating for proffers for our schools, especially given the fact that we are getting ready to undergo school renovations and so, again, I just don t want to MISS The mark or MISS Our opportunity on this, so. I might be dragging my feet in other areas then I guess. Thank you. Other questions?"
   },
   {
     "speaker": "Councilmember Billy Bates",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header)",
     "start": 12013.752,
     "end": 12016.454,
     "text": "So this is uh looking at uh capital"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12017.422,
     "end": 12047.618,
     "text": "impacts of, you know, certain projects, um. And, uh, so it looks like it does differentiate between single family and multi-family. Is that correct? Um so in other words uh it would arrive at a certain capital impact per single-family unit, cer a certain capital impact for a multi-family unit, is that right? Ok, good. Um, yeah, cause I mean, I think that s"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12048.186,
     "end": 12079.216,
     "text": "something to that s important to consider when, uh you know, we think about infrastructure and um, you know, if you have say 50 single-family homes versus a 50-unit apartment building You re gonna need a lot more, um, wastewater, stormwater, water main infrastructure for the single-family neighborhood versus the apartment building. Um, roadways, you know, etc. So, um, I m, and that s something that I ve been kind of talking about for some time now"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12080.118,
     "end": 12111.246,
     "text": "actually wanting to look at the difference there and, uh, so I m very excited to see that we MAY have a way of doing that, at least to some extent with this. Thank you Other questions All right, thank you so much for the presentation, MISS Shinneberry Our next item is a pre-application briefing for a potential multi-family residential development located at 10,340 Democracy Lane. I m gonna recognize Claire"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12111.315,
     "end": 12143.314,
     "text": "Schweiger, our city planner, to provide the staff presentation. Ok, good evening, Mayor and council members. I ll try to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12144.115,
     "end": 12174.679,
     "text": "move more quickly than I was originally planning, um, this evening, so, um, tonight, first up we ll be discussing a potential redevelopment of 10,430 Democracy Lane. We re currently in the pre-application phase of development review process. So, um staff, we ve had concept meetings with the applicant, but a formal application has not been submitted. The purpose of the briefing tonight is to gain your all s feedback on the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12179.517,
     "end": 12213.16,
     "text": "concept. So the site is located in the old town Fairfax Activity Center. This is an aerial of the site, um, the site is currently zoned cr commercial retail, and um it s in the old town Fairfax Activity Center. The site is also located in the future transition overlay district, which means that when the site is rezoned, it will fall under the transition overlay district and the potential applicants would be requesting a rezoning to pdr planned Development"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12216.655,
     "end": 12248.92,
     "text": "residential. Here are the existing conditions on the site. Here s some more photos This is the concept plan, so the potential applicant is proposing 260 to 280 residential multi-family units in a six-story building, 458 parking spaces and structured parking and approximately 28,000 square feet of open space. The existing 60,000 square foot office building would be replaced with a 434,000 square foot"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12249.788,
     "end": 12279.984,
     "text": "multi-family, um, development if this proposal were approved. So this is the layout of level one. This is levels 2 through 5. And this is level 6. So staff met with the applicant and, um, we provided some preliminary feedback. Staff recommends following the small area plan s recommendation for a six-story building. We recommend incorporating the connected"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12280.885,
     "end": 12312.216,
     "text": "open space envisioned in the small area plan, new active streets, um, street sections on all sides, uh, on all streets surrounding the site, um, 26 ft travel lanes would be required on at least 2 sides. The sidewalk along Leighton Hall would need to be improved and widened. A full tree inventory would be required, parking garage access should be oriented away from corners aligned with other driveways, or be offset further away from driveways on adjacent sites. And the applicant should have a plan to retain existing office tenants or have a plan to relocate current office tenants"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12314.953,
     "end": 12346.182,
     "text": "somewhere else in the city. So the planning commission held a briefing with the applicant on FEBRUARY 9th and had some initial feedback, um, so the line of sight from Leighton Hall could be improved. Um, the planning commission had some concerns with the height, the planning commission, um, wanted the applicant to prioritize green space and sidewalks where they were happy that the applicant was doing that. There are general concerns that there MAY be too much residential development in old town. There were concerns with scale,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12347.452,
     "end": 12377.547,
     "text": "impact, and proximity to Old Town and then um there was some discussion around the opportunity to consolidate the office condo property that s in between um this site and then the courthouse Plaza site. So some poten so the potential land use requests would be a rezoning from cr commercial retail to pdr Plan Development residential, and the transition overlay district. A master development plan, special exception, and a major certificate of appropriateness for architecture and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12382.587,
     "end": 12413.25,
     "text": "landscaping. So the next steps are um a formal application submittal and then work sessions with planning commission, city council, and the Board of architectural Review and then finally a public hearings with the planning commission, City council, and the Board of Architectural Review. And that concludes my presentation. I m here to answer questions, and so is the applicant. Are there questions? Council member Amos Uh, thank you. It s, it s nice to see something here, having lived across the street from it for a few years and just saw this massive parking lot that I m like, wow, that d be nice"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12413.385,
     "end": 12444.682,
     "text": "if I could not walk through those bushes and get cuts on my legs just because the thorns are hanging out there. Um, I had two questions in particular. One, and this is going to be directed towards the applicant. What is the vacancy rate we re looking at for the commercial building and uh just kind of the context of that, why do you feel like this is appropriate to transition into residential housing. Uh. Sure, COUNCILMAN Brami, uh, Chris Love, partnering with Capitol City Real Estate. Appreciate everyone s time this evening. Uh, so the building is currently 50% occupied and it s, it s trending downward. Uh,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12446.718,
     "end": 12477.647,
     "text": "building was built in 1980, um, you know, just approaching functional obsolescence, which happens with buildings of that age. Thank you for being blunt and direct. Uh, and for the existing commercial tenants, I know one of the things, uh, one of the notes that the planning commission had that I would echo is there have are there preliminary discussions about relocation opportunities and what that might look like. Sure, so we ve been in touch with, uh, MR. Easley atomic Development and, and, you know, they re aware we ve, we ve talked about"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12478.816,
     "end": 12510.47,
     "text": "it, uh, we have had some discussions. However, you know, tenants are making plans to, to vacate. Ok, uh, thank you. I really like the open space aspect. I think green space there makes a lot of sense in having that connection, um, so I think there s trending in the right direction. Thank you. Thank you. Other questions, council member Hardy Chandler then council member Hall. So there s a couple of addresses here, 10,430 versus 10,340. Um, if it"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12512.417,
     "end": 12545.548,
     "text": "s 10,340 did the did George Mason Departments Occupy that building. Are you aware that I am not aware. Um, we, we are not the owner of the building currently, so, um, they MAY have it one time, but i, I m not at work. I believe I worked in that building. As part of the Department of Social Work when it was there and it moved then on campus when new buildings were built on campus. If it s the same building, I haven t been there for a minute, but I believe we occupied some of those floors. So it MAY be that um and I think there was a psych ology"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12545.617,
     "end": 12577.615,
     "text": "center there or something to that effect. So it, it MAY be the nature of what kind of tenants are in there now in terms of any kind of transition plan. My question though is were other configurations considered, um, other than, uh, this particular multifamily. Situation, what, what other options were, were considered? Sure. So I, I think when we, um, conceptualized the plan for the site. We started with the small area plan, so it s, it s obviously the neighborhood node of the old town small area plan"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12579.51,
     "end": 12612.83,
     "text": "which calls for a six-story building residential in character, um, we paid specific attention to the green space, uh, to the west of the building. Um, you know, we re also building the botanist Project or n29 apartments off Eaton Place. We spent a lot of time there with the Linear Park concept. So we were attentive here, uh, several meetings with staff and other, uh, city agencies to just make sure we got that component right. Um, we also met with, uh, transportation to make sure the street, uh, layout around the building was acceptable and met the impact of the, or, um, intent of the small area plan."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12612.517,
     "end": 12643.847,
     "text": "So I think the answer is we started with the plan as a guideline, and that s how we got where we are and, um yeah, I, I guess that s, that s the answer. And I m also interested there was a little note about communicating with our next pre-applicant in the general vicinity and um I m not sure how that has worked historically, but how does coordination between separate projects work, especially when they re in such close proximity, um, what I ll say is I, I guess the development community is,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12644.16,
     "end": 12674.244,
     "text": "is pretty close knit, so Ayesha and I have known each other for some time, and, uh, I issue with combined properties. So, uh, we also have similar consultants working on, uh, the same consultant team really working on the two projects. So, um, we trade notes and, and, um, you know, communicate with each other, but what I ll say is their project, you know, they, they re it s not contiguous to errors, and, um, you know, they have constraints they need to work with. We have constraints we need to work with. So I hope that answers your question"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12675.413,
     "end": 12707.577,
     "text": "Councilmember Hall Yes, thank you. Um, so I actually have a doctor in this building. Um and I think I mentioned before, I know we spoke, but I think 6 stories is too tall here. I think it s too much. I think it s coming out, you know, very close to the road, and I think it s monopolizing and it s going to potentially loom over the Leighton Hall apartments, and I m wondering if maybe some sort of staggered height would be better in order to make that feel less um large. I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12707.578,
     "end": 12738.442,
     "text": "m also, I understand the flats next door doesn t have any commercial, um, and quite honestly, I don t remember what was there many, many years ago, but I, I also don t like that you re not including any commercial or any sort of mixed use in the building. Um, I think, and I believe the same is happening at n29 or is there a commercial on the bottom there? We have 5000 ft commercial. 5000. Ok, and why did you elect not to do that here? Um, so again, I think we looked at the plan, uh, and, and really use that as our,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12739.944,
     "end": 12771.808,
     "text": "our guideline, our benchmark, uh, so it, it s pretty clear this is to be a residential building. Um, we also know that the plan identifies old town, really that, uh, historic core to be the retail destination. So, so we use that as guidance, um, I think that that s, that s generally it, um, what we use as guidance was started with a smaller implant. And, and I would just tie your, your question, uh, Councilmember Hall, to, uh, Councilmember Hardy Chandler s, um, question a moment ago about coordinating with the, the application that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12772.9,
     "end": 12803.205,
     "text": "MAY come to the seller that s been, uh, underway to the south of us, um, as, as, uh, Chris mentioned, the smaller area plant doesn t envision retail right here. It was very thoughtful in identifying um where the retail should go and not, um, having retail in places that are not likely to be successful and to Chris s point about providing rooftops here, residents here to support, not, not just the old town"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12803.574,
     "end": 12835.705,
     "text": "center, um, retail, but also the, the retail in the courthouse development that s gonna, um, remain to the south of us, um, you know, we, we don t want to cannibalize that. So that s another way that even without directly communicating the plan sort of serves as a bridge, uh, to sort of coordinate the two, the two applications. And then, um, you know, noted on the comment regarding Leighton Hall across the street. So we did have a line of sight study completed and, and you know that did not make the, the deck for this evening. Um, but we, we are taking that into account and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12836.41,
     "end": 12867.4,
     "text": "that feedback we got from planning commission, we can say is that there s a 155 ft separation from where the proposed project on our end would be, and, uh, the, the building, the closest building at Leighton Hall across the street. Um, we ll also say their line of sight, those buildings look right into the green space. So we feel that ll be a positive improvement over the, you know, 3.8 acres of parking they look into today. Um, and, and also to be noted that project that Leighton Hall is approved for redevelop ment uh, actually the same height that we would be looking at"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12868.974,
     "end": 12900.338,
     "text": "here. So around 68 ft or so, um yeah, that s a very, very long time if ever coming though it seems like. No, I understood, but I just want to let you know we, we, we, we took that, uh, feedback two weeks ago and are spending time on it and we ll continue to evaluate it as we flush out our project. Ok, Clairera, maybe you can answer this for me then. Is there a reason why we are in the small area plan heavily considering residential here versus the I won t call it commercial or it s not retail that s there, but the commercial that s there now with small offices, doctor s offices, you know,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12901.74,
     "end": 12932.235,
     "text": "kind of things like that. Yeah, so the small area plan, um, Evans right, it, it does show specific areas for specifically retail nodes, um, and the smaller plan, however, this site, um. In the smaller planet is mentioned that this could be um flexible dependent on the needs of the activity center at the time, so there could be a potential for some office in this location, potentially, um,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12933.71,
     "end": 12964.368,
     "text": "but, but retail really is not um something that s envisioned here but other commercial uses could be. Ok, I just feel like we re doing a lot of squeezing out of these kind of small. Uh medical offices and other sort of, um, you know, niche things that we re not really at least I haven t seen yet, designing an area for them to go for a similar rent that they re paying now, which would probably then kick them out of any of our other areas that might be redeveloped and that would allow for some type of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12964.87,
     "end": 12995.899,
     "text": "commercial or office space there. So I think I m not saying the building can t use a refresh, don t get me wrong, but, um, I just, some of this I just think is concerning if this is the trend that we continue to do here, that we re taking away the opportunities for these people to have small offices like they have now. Thank you. Council member McQuillan Thank you And council member, uh, Hardy Chandler was correct that that was the George Mason University location because that s where I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12996.968,
     "end": 13027.598,
     "text": "did my testing. Once again with my son from earlier in our presentation. I, I discussed that a little bit. Um, I wanna share, uh, council member Hall s concerns and the planning commission s concerns regarding the height. Our small area plan does call up to 6 stories. It doesn t say you have to have 6 stories. It s up to. So I recognize that it s allowed, but we do hear a lot from residents, especially in this specific area of our city, um, in regards to height. So, um, I did have a question regarding the green space. How"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13039.211,
     "end": 13072.542,
     "text": "large is that? Just curious because you mentioned, you know, looking out from Leighton Hall, they would see the green space, um, so I was just curious. Yeah, it s 28,000 square feet of open space, um we go around the whole site, but I assume you re speaking just of the kind of park area. I was assuming that, um, maybe I misunderstood that when you had mentioned that Leighton Hall would be looking out into the green space area. I was assuming you were discussing the courtyard or referring to the courtyard on there, but I could be. So, so I m referring to where it says"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13073.44,
     "end": 13106.444,
     "text": "park location. So the buildings across, I guess to the north of Leighton Hall Drive, uh, the two closest buildings at Leyton Hall, you know, would look right into that that greens. And we re 70 ft wide. Ok, thank you. How, how deep is that? Do you know? Uh, so it s about 70 ft wide, and then I m not sure if that full depth, um. But I flew over 100 ft long. Thank you Um, I, I do want, uh, and share in the concerns or, or"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13106.778,
     "end": 13141.477,
     "text": "the comments of our planning commission as well in prioritizing the green space. That s really important. Um, I also have concerns about losing the commercial, uh, especially to so much residential. But listening to your explanation. I hear you. I m listening, I m absorbing, so, um and you said about 50% is occupied right now in the commercial? Ok. Ok. Thank you. I think that s all of my questions. Council member Peterson Thanks. Uh, so just to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13144.583,
     "end": 13174.679,
     "text": "echo concerns, um, about the direction of this being intensively residential to the exclusion of commercial and certainly appreciate that you look at the small area. Plan, but as staff indicated, um, there s flexibility in that and there are alternatives that potentially can either equally or even better fulfill some of the objectives of that. Uh, particularly in a city where we are behind on commercial development, our vacancy rates citywide are a third of the surrounding jurisdictions, um,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13175.514,
     "end": 13207.776,
     "text": "and it raises the question of why not take a harder look at a redevelopment of this from a commercial standpoint. I certainly share the view that the buildings are in need of redevelopment, but there s certainly would appear to be a lot of potential, um, and good reason to take a hard look at um a commercial option here. So I, again, I appreciate that y all have looked at the small area of plants, but I think that there s a lot of flexibility in them that can be aligned with broader objectives of the city as we go forward."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13209.68,
     "end": 13242.246,
     "text": "Thanks. Other questions or comments, Council member Bates. Uh, like COUNCILMAN Ramis, I m certainly excited to see something happening here on this site, um, although I, you know, I don t live right across the street, uh, but I frequently in this area. Um, and, uh, you know, I certainly agree with all of the staff s comments, um. And personally, you know, I also in line with, uh, what Councilmember Amos mentioned. I, you know, if I did live there, I d certainly"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13242.648,
     "end": 13275.712,
     "text": "rather look out at this than what s there right now. I mean, no offense to the owner if you re out there, but, uh, frankly, it s mostly barren parking lot and then an ugly old office building. It s not really much to look at right now. Um, whereas this, I think, has the opportunity to become uh really a, a very inviting addition to Old Town. Um and, uh, you know, certainly do acknowledge that it s in a somewhat isolated location, not exactly uh, an active commercial corridor along here."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13277.616,
     "end": 13307.744,
     "text": "Um, and, uh, you know, but given that we are shooting for the maximum height that s recommended in the small area plan. Um, I think that, you know, ideally I d like to see the commercial space being taken out, replaced, uh, but if not, then perhaps at least half of it. Um, and I mean, it s a relatively small building. I don t, you know, I don t think that that would be uh, a huge amount, um but, uh, something to think about. But overall, I think that it s certainly"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13309.815,
     "end": 13340.343,
     "text": "heading in the right direction. And uh can really infuse, uh, an additional significant residential presence into Old Town and help support the businesses there Um, and then, you know, additional point, you know, I just want to point out that the, uh, the flats on university right next to it is about 5 stories right there along Leighton Hall above ground, and that is directly across from Leighton Hall, um, whereas this is kind of more diagonally, uh, you know,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13341.48,
     "end": 13373.71,
     "text": "across, and, uh, so 5 stories to 6 stories. Um, you know, I don t think I see that as a significant obstacle given that, you know, again, I think it s we re separated from Leighton Hall apartments then, uh, the flats is Um, so yeah, thank you. I, I m very excited about this and look forward to seeing it move forward. Council member Amos, yeah, only two things to add. One, and I guess this kind of is a question. So with the sidewalk widening, what, what I also appreciate is that you do have queue bus stops literally"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13373.979,
     "end": 13406.576,
     "text": "right there, and those are frequently used in the city, so greatly appreciate that. What the sidewalk widening, will there also be pedestrian safety considerations because where that crosswalk is where it connects to the park location is on a hill, and so it can be difficult in terms of being able to see vehicles from certain directions when you re crossing. Has that been considered at all as a part of this, uh, we re in the, you know, early stages that there have been comments around that they re being a crosswalk there. So I will say it s something that s been flagged, um, but, you know, given where we are very early, we hasn"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13407.278,
     "end": 13437.41,
     "text": "t evolved at all. Ok, and I do complex and No going backwards, so I do want to acknowledge that you re, depending on where you re where you are in the building, you MAY see less of the park location and more of the building, so I just wanna make sure that that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13437.609,
     "end": 13471.877,
     "text": "s accurate, uh, just because you see it from the left side of the building, you ll see park location, but you see from the right side, you ll more than likely see more of the building itself. I still think with the green space, and I imagine screening that you ll add, it ll be significantly better than what s existing but I do wanna make sure that we acknowledge that. I don t want it to seem like the entire building s looking at park location because that s not true. Understood. Thank you Other questions or comments? Well, i m not sure how you feel about the feedback. I really appreciate everyone s time this evening and it was helpful and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13471.877,
     "end": 13510.212,
     "text": "we ll, um that s circle back. That s good. Thank you so much. Thank you for the presentation, MISS Shneberry. Hey, our last work session item is a pre-application briefing for a potential redevelopment of the courthouse Plaza shopping center at 10,300 Willard Way. I ll recognize Clara Schweiger, city planner, again to provide a staff presentation. Ok, next"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13510.514,
     "end": 13544.849,
     "text": "up, we will be discussing a potential application for redevelopment of the courthouse Plaza Shopping Center. So once again we re currently in the pre-application phase of the development review process. Staff has had concept meetings with the applicant, but a formal application has not yet been submitted, and once again we re just looking to gain initial feedback from the city council tonight on the concept. So the site is located in the old town Fairfax Activity Center. This is an aerial of the site here on the left. The"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13545.717,
     "end": 13575.98,
     "text": "site is comprised of two properties located south of Leyton Hall and north of North Street, um, Parcel a is currently loca uh is the location of the Courthouse Plaza Shopping Center and then Parcel b is the new layered restaurant and then the former Joe s Pizza Building. Approximately 92,000 square feet of retail exists on the site. Um, parcel a is zoned cr commercial retail and Parcel b is split zoned cr commercial retail and cg commercial"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13576.38,
     "end": 13606.843,
     "text": "general in the transition Overlay district. The site s future land use designation is activity center and is located in the old town of Fairfax Activity Center and the potential application is proposing to rezone the site to pdm planned development mix use. The applicant provided the stimmolition plan so everything in pink is to be demolished and then everything in green is to remain, um, at the end of, uh, phase one. So, um, as you all"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13608.714,
     "end": 13640.211,
     "text": "know, this was subject to uh a land use application last year, or should I say parcel a was subject to a land use application last year. Um, the proposal was denied um in OCTOBER following staff s recommendation, the main concerns that staff had with the previous proposal where consistency with the small area plans, specifically the road network, pedestrian vehicular connections, open space, and the fact, um, that this was a non-phas se ed development. The plan would leave a majority of the site undeveloped, and it would have stayed as it exists"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13642.948,
     "end": 13675.314,
     "text": "today. So now on this slide I m showing um the new proposal, and you can see here that parcel b to the south is now included in this potential proposal. So phase one would include six-story mixed-use building, 315 Upper Story residential units, 12,500 square feet of ground floor retail, 743 parking spaces and structured and service parking and then facade improvements to the existing retail that is to remain. New vehicular and pedestrian connections, green space in between the new"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13675.314,
     "end": 13705.675,
     "text": "building and remaining grocery store and at the eastern edge of the remaining retail, a total of 79,000 square feet of retail will be provided at the site at the end of phase one, and this would be a net loss of approximately 13,300 square feet of retail on the site. So this is just showing the pedestrian connectivity plan. And, um, most notably here is the pedestrian connection east to west through Parcel b. And"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13706.1,
     "end": 13737.608,
     "text": "this is showing the potential vehicular connectivity plan showing vehicular connections east to west and north to south. So in the previous submittal staff urged the applicants to pursue a rezoning with phase development and so now the applicant is pursuing a phase development. So phase two would include a mixed-use building, an additional 315 Alberto residential units, 50,000 square feet of ground floor retail. Around 3000 square feet of retail on Pad Building 1,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13738.543,
     "end": 13771.374,
     "text": "6000 square feet of retail on pad Building 2, increased open space, expansion of a new street network and approximately 74,000 square feet of retail would be provided on the site at full build out. This would be a net loss of approximately 1,800,300 square feet of retail on the site. So this would be the pedestrian connectivity plan, um, at the end, uh, or for phase two. And then this is the vehicular connectivity plan and then the next few slides are just going to be some"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13771.843,
     "end": 13803.14,
     "text": "renderings. So this is, um, showing the corner of Proposed Street One and University Drive. This is the corner of Democracy Lane and University Drive. This shows the reface and facade improvements up to the shopping center. And then this shows the facade upgrades to the former bank drive-thru. So staff met with the potential applicant to discuss the proposal and had some preliminary preliminary comments. The sidewalk along Blenheim should continue in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13804.543,
     "end": 13837.141,
     "text": "front of Parcel b. The feasibility and impact of the signal relocation and new curb cuts should be studied, so the potential, uh, proposal indicates that the signal at Blenheim and Willard Way would be relocated and so staff has asked the applicant to study this relocation. All new buildings need 26 ft fire access on two sides of the building, a sanitary sewer capacity study would be required and staff request more information on the timing of the rephase and development of phase one compared with full build out of the site. So the planning commission held a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13838.543,
     "end": 13870.34,
     "text": "briefing with the potential applicant on FEBRUARY 9th and had some initial feedback, um they noted that the open space in phase two complements the democracy lane green space which we just saw. Connection between um university Drive in Blenham Boulevard is improved. They would have liked to see, um, a reduction of the interior vehicular connections. Um, there was, um, discussion about how the site could be a transit hub for old town. They were concerned about a loss of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13871.643,
     "end": 13904.274,
     "text": "retail, about the timing of phase two, and then like I said, the, the two, sites or developers working together, um, to consolidate the office condo property between those two sites. Concerns with the number of vehicular connections and the locations of connections and then um just general concerns that the plan appears to be similar to the previous plan, um, that was denied last year. So the potential land use"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13904.276,
     "end": 13933.738,
     "text": "request for this proposal would be a rezoning master development plan, special exceptions and then a major certificate of appropriateness for architecture and landscaping. So the next steps are um formal application submittal. And then after that work sessions with the planning commission, city council, and the board of architectural Review and then public hearings with the planning commission, city council, and the Board of Architectural Review. And that concludes my presentation. I m here for questions, and so is the applicant. Thank you."
   },
   {
     "speaker": "Councilmember Anthony Amos",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header)",
     "start": 13934.539,
     "end": 13936.941,
     "text": "Thank you. Could you just go back to the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13937.141,
     "end": 13968.673,
     "text": "slide with the pedestrian connection again, mostly just so I can look at it because i don t have my computer on me for the phase one or phase 2? Uh, phase one ok, thank you. Uh just to ask the applicants, so what else is different versus what came before us last year. I know that was one of the things that came before planning commission. Thank you for the question. For the record, my name s Molly Novotny. I m an urban planner with Curatta Partners, and I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13968.673,
     "end": 14001.738,
     "text": "m joined by Aisha Hill with Combined Properties. Clara, could you, um, move back to slide 6, please. I think that s the best slide to answer your question. Councilor Amos. So the changes are actually quite significant. Previously, we were just doing a series of special exceptions. We ve now doing a full rezoning, which is what staff had asked us to do initially. So the entire, both parcels, the entirety of this property will be rezoned with this application. So it will be rezoned to the pdm Planned Development mixed uh zoning district. Additionally, we will have new vehicular and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14002.574,
     "end": 14035.71,
     "text": "pedestrian connections that were not shown on the concept plan last time. We brought them to you all. They ll at the, um, meeting where you voted on the application, but they were not incorporated into those plans. They are now incorporated into the plans that s shown in the, um, kind of the cyan blue color for the, uh, vehicular connection and then the orange line for the pedestrian connection. We ve also increased significant open space by including that pad parcel into the project that was not part of the original application and we are making improvements to the sidewalk"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14035.406,
     "end": 14067.405,
     "text": "along Blenheim with this application by the pad parcel. Previously it was only improvements, um, along Blenheim to the main shopping center parcel. Ok, I m I m curious on how this progresses. I, I think it s heading in the right direction, but I would like to see uh I do concur with the Planning commission on additional open space, but I know that some folks on the vehicular connection, so I understand that I might might be in the minority on that, but I think it s heading in the right direction. I m excited to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14067.471,
-    "end": 14099.569,
-    "text": "see where conversations with staff go. I would like to see a little bit more detail on phase two, just to have a better sense of what that might look like. I think it could use some love, and the only other thing I ll comment is I m glad this is a rezoning, so planning commission can get an official voice here. So thank you. Councilmember Hardy Chandler Um, so my recollection is a little iffy, but it sounds like there was the inclusion of additional"
+    "end": 14086.188,
+    "text": "see where conversations with staff go. I would like to see a little bit more detail on phase two, just to have a better sense of what that might look like. I think it could use some love, and the only other thing I ll comment is I m glad this is a rezoning, so planning commission can get an official voice here. So thank you."
+  },
+  {
+    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header, loose)",
+    "start": 14088.93,
+    "end": 14090.93,
+    "text": "Um,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14099.638,
-    "end": 14131.836,
-    "text": "vehicular connections that were requested and now concerns about the addition of those vehicular connections. Is that correct? The, the planning commission did raise concerns about the vehicular connections that your small area plan calls for and that we are implementing. Ok, ok. Um to the point about phase 2. Could you speak to, I think there are some, but again, if I m recalling correctly, regarding the tenant, some timelines"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 14091.797,
+    "end": 14123.793,
+    "text": "so my recollection is a little iffy, but it sounds like there was the inclusion of additional vehicular connections that were requested and now concerns about the addition of those vehicular connections. Is that correct? The, the planning commission did raise concerns about the vehicular connections that your small area plan calls for and that we are implementing. Ok, ok. Um to the point about phase 2. Could you"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14132.471,
-    "end": 14162.633,
-    "text": "regarding their leases being up anyway, and can you maybe speak to that transition and maybe, um, support, support for phase 1, phase 2 transitions with, um, with, with the, uh, current residents, yeah, and the current tenants and Claire, could you move back to the phase one slide real quick, please. So this slide, I also, I was remiss to show facade improvements will occur with this first phase for the existing Safeway and those"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 14124.563,
+    "end": 14156.225,
+    "text": "speak to, I think there are some, but again, if I m recalling correctly, regarding the tenant, some timelines regarding their leases being up anyway, and can you maybe speak to that transition and maybe, um, support, support for phase 1, phase 2 transitions with, um, with, with the, uh, current residents, yeah, and the current tenants and Claire, could you move back to the phase one slide real quick, please. So this slide, I also,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14163.1,
-    "end": 14194.3,
-    "text": "inline tenants. So all those tenants that exist in those spaces today will see facade upgrades with phase one. And then if we move to phase two you ll see that the area where those tenants wear that existing kind of single story retailers, that would be replaced with a new mixed-use building and about 50,000 square feet of brand new retail with a grocery anchor. Um, that future building 2 that area in gray is not all building. That"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 14157.62,
+    "end": 14187.991,
+    "text": "I was remiss to show facade improvements will occur with this first phase for the existing Safeway and those inline tenants. So all those tenants that exist in those spaces today will see facade upgrades with phase one. And then if we move to phase two you ll see that the area where those tenants wear that existing kind of single story retailers, that would be replaced with a new mixed-use building and about 50,000 square feet of brand new retail"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14194.9,
-    "end": 14227.665,
-    "text": "s your streetscape, that s your pedestrian experience that s your building. There s additional open space around that area, um, combined properties has also had multiple conversations already with your economic development department to work on relocating and helping the tenants who are in the shopping center today who want to relocate within the city to help them find additional spaces in the city combined as uniquely positioned that they own 4 properties in your city. There, if not the largest, one of the largest property owners, so they do have a lot of availability to be able to relocate tenants to their other"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 14189.493,
+    "end": 14221.559,
+    "text": "with a grocery anchor. Um, that future building 2 that area in gray is not all building. That s your streetscape, that s your pedestrian experience that s your building. There s additional open space around that area, um, combined properties has also had multiple conversations already with your economic development department to work on relocating and helping the tenants who are in the shopping center today who want to relocate within the city to help them find additional spaces in the city combined as uniquely positioned that they own 4 properties in your city. There, if not the largest, one"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14228.66,
-    "end": 14260.297,
-    "text": "properties. I think that s helpful. Also, I do think the, um, image doesn t show it, it implies to me a building, so I m glad you explained that that s um the whole area including the building, but other, um, spaces as well, um, I really appreciate the relationship that your company has with our city. I think it s really important that you have other investments in our city and that you re coming back with this. I supported it the first time around. Um, I think"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 14221.86,
+    "end": 14252.957,
+    "text": "of the largest property owners, so they do have a lot of availability to be able to relocate tenants to their other properties. I think that s helpful. Also, I do think the, um, image doesn t show it, it implies to me a building, so I m glad you explained that that s um the whole area including the building, but other, um, spaces as well, um, I really appreciate the relationship that your company has with our city. I think it s really important that you have other investments in our city and that you"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14261.32,
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 14252.957,
+    "end": 14284.621,
+    "text": "re coming back with this. I supported it the first time around. Um, I think with additional, um, responsiveness to the feedback that you got. Uh, I appreciate that there have been efforts to, to respond to that feedback, and I know it can be at times a little bit of contradictory, um, but I think that you are showing that you re listening and you re responding to not only the feedback that we give you, but our planning commission. So thank you. Other"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 14285.857,
     "end": 14287.558,
-    "text": "with additional, um, responsiveness to the feedback that you got. Uh, I appreciate that there have been efforts to, to respond to that feedback, and I know it can be at times a little bit of contradictory, um, but I think that you are showing that you re listening and you re responding to not only the feedback that we give you, but our planning commission. So thank you. Other questions or comments? Council member Peterson and then"
+    "text": "questions or comments? Council member Peterson and then"
   },
   {
     "speaker": "Councilmember Billy Bates",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header)",
     "start": 14289.928,
     "end": 14291.928,
     "text": "But"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14295.0,
     "end": 14326.297,
     "text": "Council member Hall ok, Council member Peter sending council member Bates. Uh an observation if I go to slide, I think it s 17. It notes and I think this is from the planning commission. The plan appears to be generally the same as the previous plan. I d be curious to know from their perspective, um, why and how they feel. I know this is uh plan that had really very substantial"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14327.466,
     "end": 14359.43,
     "text": "community opposition. The first time around, and so I would be interested in knowing whether anything has happened here to shift that, but I would note the planning commission s read on this according to what we re seeing here is that it s, uh, much the same as the first application, and that certainly raises some concerns. I, I will just note we added slide 6 to your presentation after the planning commission asked us that question to identify the changes because it wasn t as clear as it could have been, the changes in the planning commission did not get to see this the first time around. So we are looking forward to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14359.598,
     "end": 14391.95,
     "text": "working with them closely on this review. And I ll also just add the other two changes that you won t see on the plan are the rezoning versus only going in with special exceptions and the retail strategy that we ve spoken some about, um, but one part of it that we didn t mention was that we re also planning for some incubator space, so not only to help the tenants that are currently there relocate, but also to encourage new and small businesses to come in to the, to the new building as well. Well, again, reaching back to the earlier, um, feedback that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14393.64,
     "end": 14424.495,
     "text": "I think we all heard there. And the comments on the last applicant, we have small area plans and comprehensive plans. There s flexibility within them, so there are alternatives that, you know, in terms of how we do things that are reflective of that, um, and when we make decisions to put in one type of development and forecloses the opportunity to do other things. So in this case, if we decide to put in um, a residential development here forecloses the opportunity for, uh, the kind of commercial development that I think many people were interested in when we last"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14425.364,
     "end": 14455.893,
     "text": "talked, uh, my own thought would be it would be, um probably great to reconsider along those lines as we go forward. Council member Bates Uh, thank you. Um I, uh uh, well, first off, I voted in favor of the previous iteration of this project and my position on that project has not changed and, uh, from what I see here, it looks like we re seeing a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14456.495,
     "end": 14490.127,
     "text": "further improvements, uh, beyond that, even, uh, which are certainly welcome. Um, and, uh, I ve also heard from, uh, several people who have, have lived here for many years and, uh, and we re very disappointed to see the previous project voted down. Um, and are very, uh, adamant about wanting to see something happen here. Uh that, you know, there s a lot more inviting and a lot more active and vibrant and a lot more appropriate as the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14490.629,
     "end": 14525.161,
     "text": "centerpiece of, um, of Old Town North than what s there now. Again, maybe I m just not a big fan of that era, that architectural style, but really does not strike me as, uh, right now in its current form is something that um you know, is, uh, uh exciting place to spend uh Friday evening or Saturday afternoon. Um and, uh, you know, and I also certainly appreciate as Councilmember Hardy Chandler mentioned, the, uh, response to the feedback that has been shown throughout"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14528.666,
     "end": 14561.531,
     "text": "the process. Thank you Other comments, questions So, um i also heard feedback that people were disappointed when this was not passed the last time. And shortly in that same realm, you had another project called Rose Hill, if I m remembering correctly in the county, which, uh, the redevelopment project was not approved and so you simply chose to put a new facade and call it a day, which upset me because this is your"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14562.0,
     "end": 14595.98,
     "text": "property, you own it, and you can make that choice to leave it the way it is for the next 50 years if you choose. So while we all might desire something different. Than what you have proposed. You have proposed something in line with the small area plan and you are trying to give to the city what the city has said it wants in that location. So to me this is a reality check. This parcel is one of the key pieces of property in the city. It s been"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14596.735,
     "end": 14629.7,
     "text": "this way since the 1970s. It is not ser, it is not the best and highest use of this key piece of real estate in our city. You are the property owners. You ve already done a major renovation at Scout on the Circle. You continue to invest in your properties, which I appreciate that you have a deep, long-term relationship and investment in this city, but it is also your choice to not do anything. So this has to be uh this has to be a partnership as it always"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14631.469,
     "end": 14662.266,
     "text": "has been for the last 60 years. A partnership between the city and combined properties. And I would like to see us get to a place. Where you have presented something that pencils, I m learning this term, it s called, it has to pencil. So the retail space and the density and the, the height and the units, it has to work financially or there s no reason for you to do anything different. We are already a city of asphalt parking lots, just asphalt parking lots everywhere. And this parcel is mostly asphalt"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14664.101,
     "end": 14697.868,
     "text": "parking lot. So I also supported the project the first time around, not that, you know. How that goes. Um, but what I see with the second phase of this is that there s a a placeholder there because quite frankly with further development in and around the city within the within the small area plan and the comprehensive plan, it s hard to say in 10 years after this cause let s, let s face it, this will be built and probably occupied. I m gonna guess 2031. 2031 for phase one. So by the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14698.937,
     "end": 14733.737,
     "text": "time we get to 2031, whoever s sitting on this dais and whoever has moved into the city MAY have very specific ideas along with economic development about the best use for phase two, in partnership with the property owner, which is combined properties. So just giving my opinion and feedback on where I think we are with this. I think this city wants to see something happening. To revitalize this property from the 1970s to something that looks like it belongs there. In 2031 And so I hope that we will continue to move forward in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14735.107,
     "end": 14765.302,
     "text": "this process and come up with the design that makes the dies happy and the planning commission happy and the staff happy because I do think it s not just current residents, it s future residents of the city who have certain expectations for what a prime piece of real estate in the center of our city should look like and how it should function and what it should offer. So hoping that that was helpful feedback. Thank you, thank you so much, MISS Shneberry. You"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14765.369,
     "end": 14797.9,
     "text": "can reconvene the regular meeting, ok, I m gonna reconvene the regular meeting right this minute. And we are going to go to future meeting topics. Very quickly, uh, very budget intensive schedule ahead of you. So many of these items are, are budget related. Of note, as I mentioned next week, we ll be talking about the retreat and next steps. Um, so looking for action on that. Um, we have a on the 10th of the note we have a public hearing in action on an sup. For Ryse"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14797.969,
     "end": 14832.902,
     "text": "and sign Church coming up. There s a discussion on Beacon Landing. Uh, along again with a number of budget-related matters going out a little bit further into the 24th of note, um noise is coming back for public hearing and that is essentially it other than what we ve already talked about with budget. So if you have any, any questions other questions, Councilor Peterson. Green Buildings Did I MISS It or is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14834.539,
     "end": 14866.27,
     "text": "it somewhere coming back Um. I ll get back with you. I don t see you in the immediate. Is it in there? Did I MISS That? No, but it should be coming. Ok. It should be in here. And then floating around somewhere that MAY be tucked into your uh, more of a combined follow up on a series of things. I think there s a follow up that the environmental sustainability. Program had requested regarding looking at the listing of the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14868.84,
     "end": 14899.669,
     "text": "projects they had. And helping to sort that a bit and just, I don t know that that, I don t know if that s something that is part of a broader presentation or will be dealt with in some way, but I just wanted to note that that was left as a little bit of a hanging issue. Ok council member Amos Uh, thank you. I only have two comments both regarding MARCH 10th, and I d be curious on my colleague s"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14899.67,
     "end": 14932.869,
     "text": "thoughts, uh, because of both public public comment and the public hearing potential in the budget. I feel like it would make sense to have the childcare go first bef uh, before the fy 27 budget public hearing, since we ll have guests here, I d rather they not be we don t know how long that ll last. We don t know how many people will come out, so that s the first item and then similarly, uh for the work session, having beacon Landing go first, uh, before the smaller because small area zoning, meals tax and general fund questions, that s likely to eas easily be our half, 2 hours. So those are my two"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14934.439,
     "end": 14944.114,
     "text": "requests Um, if there s, if everybody s good with that, I think those are good changes. Any other comments on future um"
   },
   {
     "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header)",
     "start": 14946.118,
     "end": 14948.586,
     "text": "is the forestry plan coming back on a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14948.753,
     "end": 14980.284,
     "text": "MARCH and JULY schedule in some fashion. For us. I ll have to look at that the what we had as a kind of a sequencing relative to to that plan. And I think the same MAY apply to the others. We need to be on a, a regular rhythm on these plans, so we ll take a look at that. On future topics. Yes Yes, thank you. Uh, just a similar"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14980.852,
     "end": 15012.416,
     "text": "comment, um, for the MARCH 24th meeting, if we could do the noise ordinance before the, uh, public hearing for the budget again. Thank you. Married, can I just get confirmation that we still want to stick with March 17th for Bourne commission interviews. It s the 3rd Tuesday of the month. Just want to make sure since we postponed it last time with the special meeting. Look, all my Tuesdays belong to you now, so yeah, I m"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15021.593,
     "end": 15051.821,
     "text": "on board. MARCH 17. Councilor Burrell. Did you need an answer from us officially on don t have to tonight, but if you can let me know, just, I haven t reached out to applicants yet, but I just want to make sure that we are moving forward. Oh, sorry, different topic, um, about the transport or the um. Yes, the tourism thing. Did you need an answer on that? Tonight Oh, yes, that was something that Melanie had requested, yes. I spoke with my colleagues, um,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15052.291,
     "end": 15083.721,
     "text": "and I would like to, um, suggest that Councilor McQuillan take that on. Um, I think her recent, um, graduate, I m sorry, her recent, uh, college graduation with a marketing degree would be very helpful in that arena. Ok. Let s go with me So that s fine. I think I had a few questions though regarding the dates and where and all the logistics stuff. So if you could just get that information to me, that d be great, um, later this afternoon. Um, Stephanie Gerson mentioned that it ll be all"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15084.189,
     "end": 15115.85,
     "text": "virtual means except for one in APRIL. It will be in person and, um, the location will be dependent and then should be like an hour or depending how the means, yeah. Ok, I can do that then. Thank you, Council member Amos. And just to follow back up, so that was quick, thank y all, uh, for MARCH 17th COUNCILMAN McQuillan, to be able to do virtual, I m wondering, is everyone else able to do that date? I just wanted to confirm that. Other than Saint Patrick s Day"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15115.419,
     "end": 15146.649,
     "text": "activities, of course wear green or I m gonna pinch you. So I think, uh, I, I think we re good. All right, we ll move on to the manager report out and cancel comments very quickly, uh, just kudos to staff on our seemingly minor snow vent. I think they did a good job of of clearing her some positive feedback, uh, regarding that. So thanks to staff for the work on, on that event. It wasn t Snow Creek, but um, again, they did a great job. So thank you uh council"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15149.54,
     "end": 15182.553,
     "text": "member Amos. Nothing to report Council member hall, uh, just want to say I m looking forward to the basketball game tomorrow night with the commission for Women. We re, uh, going to Mason and watching them take on Saint Joe s. I m sure there are lots of other fun, important things that I ve missed to bring up, but, um, I did also want to highlight the, uh, adorable snowmen that were made with this snow. This was perfect for that. I think we all missed that with the Snow Creek, not having any fun with the snow, um, and it is a traditional Fairfax note where it snows and then like two days later or 1 day later, you re like, where did it go? Except for these like weird random"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15184.122,
     "end": 15194.296,
     "text": "snowmen, um, but huge props to public works for all of the plowing that they did. It was, people were like writing on Facebook like, they ve already plowed my street. They ve already plowed my street. So great job all around. Thank you."
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header)",
     "start": 15196.968,
     "end": 15199.469,
     "text": "So I know I bring them up all"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15201.6,
     "end": 15232.435,
     "text": "the time, but, uh, the village in the city is continuing to do fantastic work. I m so honored to be the liaison to them. They are, um, embarking on, uh, volunteer training, uh, using the grant that they received. They have, uh, continued their lecture series on various aging topics, and I encourage people to attend those, and they re gearing up for their expo in APRIL, I believe it s APRIL 10th, so please mark your calendars, lots of resources,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15232.904,
     "end": 15263.4,
     "text": "um, if you are not an older adult, you know an older adult, and if you re lucky, you re gonna be an older adult. So it s all relevant information The other thing I want to highlight is, um, upcoming Fair, uh, upcoming restaurant week Any excuse to eat and we do have some wonderful places and, um, as I ve mentioned, I now encourage meetings at Fairfax City restaurants and various sites. So a wonderful place, not just for the social stuff, but to also take care of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15265.871,
     "end": 15298.301,
     "text": "business. Thank you. Council member Peterson Just a quick note, the transportation planning Board released, um, what is a periodic uh study of traffic and transportation safety issues in the region. Uh, I think it was last week, but it s, it s well worth a read. Um, I MAY try to circulate that around, but it identifies really the uh the biggest and most important, uh, vulnerabilities we have for uh transportation safety here in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15298.303,
     "end": 15329.332,
     "text": "the city and elsewhere and what we can do about it and it dovetails, I think, uh, pretty well with, uh, the conversation that we had about, uh, trying to get some help on safety, transportation safety in the Pickett Road area because it read pretty much straight up like uh uh this was a poster child for addressing uh the kinds of issues they re seeing all over the place. The general tenor of the report and the general tenor of the people on the transportation planning board, and again, these are officials from all over the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15330.635,
     "end": 15361.364,
     "text": "region is we made progress, but we re a long way from making things as safe as they need to be on the roads. There s a heck of a lot more work that needs to be done. So again, I appreciate everything that we re trying to do here to push that forward. The staff here has been great about staying on top of these issues, but they re a long way from being solved, so we ll be, I m sure, talking more about what we do with our transportation program to stay on top of that. Thanks. Council member Bates Uh, nothing for me thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15361.399,
     "end": 15391.796,
     "text": "Council member McQuillan Yes, I just want to thank everyone who presented this evening, um, and remind those that have children at Providence Elementary School, that there is a pta meeting tomorrow at 6:30 P.M. And this Friday is their bingo night. It s very well attended. I also wanted to give a big shout out and a happy birthday to my fellow council colleague, Council member Stacy Hall, who celebrated her birthday yesterday. It s not very often that you find your calling to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15393.3,
     "end": 15425.296,
     "text": "serve your community. Also entails you creating a lifelong friendship. Uh, we met as people just servicing our pta at Providence Elementary School and then Stacy became the Providence Elementary School PRESIDENT At our urging that we really, really needed someone to step up. She did. And then she continued that call to action by, uh, running for school board and not only did she run and, uh, serve on the school board, but she encouraged me to as well. I would not be sitting here today"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15426.764,
     "end": 15457.727,
     "text": "in front of you all because I definitely didn t think that someone like me with my background had anything to offer our community. So thank you for being my inspiration and encouraging me and other women like me to recognize that we do have a seat here and we belong here. So thank you and happy birthday. All right, happy birthday to Stacy Hall. And I m also looking forward to the basketball game tomorrow night between the Patriots and Saint Joe s. It is the last"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15458.663,
     "end": 15476.11,
     "text": "regular game of the season before the at810 conference, and I am the honorary coach, so you know they re going to win because I ll be on the bench with the players advising them on all, all the special plays. With that, we are now adjourning the meeting at dun"

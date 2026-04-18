@@ -271,7 +271,7 @@ def segments_from_webvtt(vtt_text: str) -> list[dict[str, Any]]:
             return ""
         return ""
 
-    def split_inline_speaker_header(line: str) -> tuple[str, str]:
+    def split_inline_speaker_header(line: str) -> tuple[str, str, str]:
         """Detect and strip an inline speaker header at the start of a cue line.
 
         Examples:
@@ -279,7 +279,8 @@ def segments_from_webvtt(vtt_text: str) -> list[dict[str, Any]]:
           - "Council member Hardy Chandler: I move..."
           - "Mayor Read, members of council, ..." (comma is common in these captions)
 
-        Returns (speaker_hint, remainder_text). If no header detected, returns ("", original).
+        Returns (speaker_hint, remainder_text, strength).
+        strength is one of: "inline", "inline_loose", or "".
         """
         orig = (line or "").strip()
         cleaned = _norm_for_header(orig)
@@ -296,7 +297,7 @@ def segments_from_webvtt(vtt_text: str) -> list[dict[str, Any]]:
             remainder = (m.group(4) or "").strip()
             # If the remainder immediately looks like another label list, skip (roll call, etc.).
             if remainder.startswith("council") or remainder.startswith("mayor"):
-                return "", orig
+                return "", orig, ""
             name_raw = " ".join([x for x in [p1, p2] if x]).strip()
             parts = [p for p in name_raw.split(" ") if p]
             last = "-".join(parts) if len(parts) >= 2 else (parts[0] if parts else "")
@@ -309,23 +310,75 @@ def segments_from_webvtt(vtt_text: str) -> list[dict[str, Any]]:
                     orig,
                 )
                 if mm:
-                    return hint, (mm.group(1) or "").strip()
-                return hint, remainder
-            return (hint, remainder) if hint else ("", orig)
+                    return hint, (mm.group(1) or "").strip(), "inline"
+                return hint, remainder, "inline"
+            return (hint, remainder, "inline") if hint else ("", orig, "")
+
+        # Lenient council member header: no punctuation after name.
+        # Example: "Council member Peterson Thank you all..."
+        # This pattern is common in some Fairfax clips, and is still relatively safe because:
+        # - it must be the first line of the cue (enforced by caller)
+        # - it requires a plausible utterance starter word
+        # - it rejects the addressing form "Councilmember X, ..."
+        starters = {
+            "thank",
+            "thanks",
+            "uh",
+            "um",
+            "i",
+            "yes",
+            "no",
+            "hi",
+            "good",
+            "okay",
+            "so",
+            "well",
+        }
+        if re.match(r"^(?:Council\s*member|Councilmember|Councilman|Councilwoman)\s+[A-Za-z\-']+(?:\s+[A-Za-z\-']+)?\s*,", orig):
+            # Ambiguous addressing form.
+            pass
+        else:
+            t = _norm_for_hint(orig)
+            m2 = re.match(
+                r"^(council\s*member|councilmember|councilman|councilwoman)\s+([a-z\-']+)(?:\s+([a-z\-']+))?\s+([a-z]+)\b(.*)$",
+                t,
+            )
+            if m2:
+                starter = (m2.group(4) or "").strip().lower()
+                if starter in starters:
+                    title = m2.group(1)
+                    p1 = (m2.group(2) or "").strip()
+                    p2 = (m2.group(3) or "").strip()
+                    name_raw = " ".join([x for x in [p1, p2] if x]).strip()
+                    parts = [p for p in name_raw.split(" ") if p]
+                    last = "-".join(parts) if len(parts) >= 2 else (parts[0] if parts else "")
+                    hint = parse_speaker_hint(f"{title} {last}")
+                    if hint:
+                        # Reconstruct remainder from original text (keep case) by dropping
+                        # the title + name tokens.
+                        mm = re.match(
+                            r"^(?:Council\s*member|Councilmember|Councilman|Councilwoman)\s+[A-Za-z\-']+(?:\s+[A-Za-z\-']+)?\s+(.*)$",
+                            orig,
+                        )
+                        if mm:
+                            remainder = (mm.group(1) or "").strip()
+                            # Avoid obvious non-speech lead-ins.
+                            if not remainder.lower().startswith("members of council"):
+                                return hint, remainder, "inline_loose"
 
         # Mayor header, allow comma as well (common: "Mayor Read, members of council").
         m = re.match(r"^(mayor)\s+([a-z\-']+)\s*[,\.:]\s*(.*)$", cleaned)
         if m:
             remainder = (m.group(3) or "").strip()
             if remainder.startswith("council") or remainder.startswith("mayor"):
-                return "", orig
+                return "", orig, ""
             hint = parse_speaker_hint(f"mayor {m.group(2)}")
             if hint:
                 mm = re.match(r"^(?:Mayor)\s+[A-Za-z\-']+\s*[,\.:]\s*(.*)$", orig)
                 if mm:
-                    return hint, (mm.group(1) or "").strip()
-                return hint, remainder
-        return "", orig
+                    return hint, (mm.group(1) or "").strip(), "inline"
+                return hint, remainder, "inline"
+        return "", orig, ""
 
     def looks_like_label_only(line: str) -> bool:
         t = _norm_for_hint(line)
@@ -378,7 +431,7 @@ def segments_from_webvtt(vtt_text: str) -> list[dict[str, Any]]:
             # of a cue to avoid false positives from wrapped lines like:
             #   "... seconded by" / "Council member Amos. ..."
             if not speaker_hint and not buf_lines:
-                ihint, remainder = split_inline_speaker_header(ln)
+                ihint, remainder, istrength = split_inline_speaker_header(ln)
                 if ihint:
                     # If the header line is *only* a name/title (no remainder), it is often
                     # a roll-call artifact. Only accept it if the next line looks like
@@ -396,7 +449,7 @@ def segments_from_webvtt(vtt_text: str) -> list[dict[str, Any]]:
 
                     if ihint:
                         speaker_hint = ihint
-                        speaker_hint_strength = "inline"
+                        speaker_hint_strength = istrength or "inline"
                         new_speaker = True
                         ln = remainder
             buf_lines.append(ln)
@@ -507,6 +560,8 @@ def label_speakers(turns: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
         out.append({
             "speaker": speaker,
+            "speaker_source": "heuristic",
+            "speaker_source_detail": "Heuristic (text-based speaker guess)",
             "start": float(t["start"]),
             "end": float(t["end"]),
             "text": text,
@@ -687,12 +742,25 @@ def main() -> int:
             sid = dominant_speaker_id(diar_words, float(t.get("start", 0) or 0), float(t.get("end", 0) or 0))
             if sid and sid in speaker_id_to_hint:
                 t["speaker_hint"] = speaker_id_to_hint[sid]
+                t["speaker_hint_strength"] = "diarization"
     if args.label_speakers:
         labeled_turns = label_speakers(raw_turns)
     else:
         labeled_turns = [
             {
                 "speaker": str(t.get("speaker_hint") or "").strip() or "Unknown Speaker",
+                "speaker_source": (
+                    "captions" if str(t.get("speaker_hint") or "").strip() and str(t.get("speaker_hint_strength") or "").strip() in {"explicit", "inline", "inline_loose"}
+                    else "diarization" if str(t.get("speaker_hint") or "").strip() and str(t.get("speaker_hint_strength") or "").strip() == "diarization"
+                    else "unknown"
+                ),
+                "speaker_source_detail": (
+                    "Captions (explicit speaker tag)" if str(t.get("speaker_hint_strength") or "").strip() == "explicit"
+                    else "Captions (inline header)" if str(t.get("speaker_hint_strength") or "").strip() == "inline"
+                    else "Captions (inline header, loose)" if str(t.get("speaker_hint_strength") or "").strip() == "inline_loose"
+                    else "Diarization (mapped from caption tags)" if str(t.get("speaker_hint_strength") or "").strip() == "diarization"
+                    else ""
+                ),
                 "start": float(t["start"]),
                 "end": float(t["end"]),
                 "text": str(t.get("text", "") or ""),

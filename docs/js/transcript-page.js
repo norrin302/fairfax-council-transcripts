@@ -289,6 +289,8 @@
       if (!speaker || speaker.toLowerCase() === 'speaker' || speaker.toLowerCase() === 'unknown') {
         speaker = 'Unknown Speaker';
       }
+      const speakerSource = String(turn.speaker_source || '').trim() || (speaker === 'Unknown Speaker' ? 'unknown' : '');
+      const speakerSourceDetail = String(turn.speaker_source_detail || '').trim();
       const start = Number(turn.start) || 0;
       const end = Number(turn.end) || start;
       const text = String(turn.text || '').replace(/\s+/g, ' ').trim();
@@ -296,16 +298,18 @@
 
       const last = blocks.length ? blocks[blocks.length - 1] : null;
       const canMerge = speaker !== 'Unknown Speaker';
-      if (canMerge && last && String(last.speaker) === speaker) {
+      if (canMerge && last && String(last.speaker) === speaker && String(last.speakerSource || '') === String(speakerSource || '')) {
         last.end = Math.max(Number(last.end) || 0, end);
         last.texts.push(text);
       } else {
-        blocks.push({ speaker, start, end, texts: [text] });
+        blocks.push({ speaker, speakerSource, speakerSourceDetail, start, end, texts: [text] });
       }
     });
 
     blocks.forEach((b, idx) => {
       const speaker = String(b.speaker || 'Unknown Speaker');
+      const speakerSource = String(b.speakerSource || '').trim();
+      const speakerSourceDetail = String(b.speakerSourceDetail || '').trim();
       const start = Number(b.start) || 0;
       const end = Number(b.end) || start;
       const speakerClass = speakerClassFor(speaker);
@@ -332,6 +336,22 @@
       nameSpan.className = 'speaker-name';
       nameSpan.textContent = speaker;
       header.appendChild(nameSpan);
+
+      // Source badge (captions vs unlabeled)
+      const badge = document.createElement('span');
+      if (speaker === 'Unknown Speaker') {
+        badge.className = 'speaker-source-badge unknown';
+        badge.textContent = 'unlabeled';
+        badge.title = 'No reliable speaker label was present in the source captions.';
+        header.appendChild(badge);
+      } else if (speakerSource) {
+        badge.className = 'speaker-source-badge ' + speakerSource;
+        badge.textContent = speakerSource === 'captions' ? 'captions'
+          : speakerSource === 'diarization' ? 'diarization'
+            : speakerSource;
+        badge.title = speakerSourceDetail || ('Speaker label source: ' + speakerSource);
+        header.appendChild(badge);
+      }
 
       const timeLink = document.createElement('a');
       timeLink.href = makeVideoUrl(meeting.source_url, start);

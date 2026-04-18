@@ -3,2316 +3,3120 @@
 const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17.166,
     "end": 47.194,
     "text": "to the back. Jack. Good evening. I would like to call this special meeting of FEBRUARY 17, 2026 to order, um, for those of you joining us, instead of celebrating the new Lunar New Year, the year of the horse, or Mardi Gras. Welcome, welcome to our special meeting here on on FEBRUARY 17th. MS. Chennebury, what is the first agenda item? Our first items the consideration of a resolution to endorse the city s application to the transportation planning Board s"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 48.597,
     "end": 79.761,
     "text": "regional roadway safety program. I ll recognize Wendy Sanford, transportation director to provide the staff presentation. Good evening, Mayor, members of the city council. I have an extremely brief presentation, uh, to introduce this item. Uh, the city is applying or proposing to apply for technical assistance that would be administered through cog. Technical assistance is not actually money that we received. The cog has a, a bench of contractors that they use. And if you are awarded technical assistance, they match you up with one of their consultants and then Cog pays the bills. So"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 79.761,
     "end": 112.26,
     "text": "that s how technical assistance works. They have two programs that they utilize. They have the transportation land use connections program, and the regional Roadway Safety program, both of which provided technical assistance. We have received, um, both grants before. Most recently, we received funding for the roadway Safety program to do the Main Street safety audit. I ll mention that more in a minute. What we are proposing to apply for is another regional roadway safety program, um, trans, uh, technical assistance for Pickett Road. Um, and as I just mentioned, they,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 112.194,
     "end": 146.527,
     "text": "they just fund, they provide the funding, uh, through technical assistance for planning or to address roadway safety issues. Um, the fy 27 deadline is coming up on FEBRUARY twenty-seventh. What is a road safety audit? This is a formal safety audit, um, that of a road or an intersection that is done by an in, uh, multidisciplinary independent firm, um, the, they are looking at what the road safety issues are and identifying opportunities for improvement. So a road safety audit is actually a, a defined thing. Um, and there are guidelines for it and that that s what is shown"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 148.363,
     "end": 178.526,
     "text": "on the screen. The proposed project area for our, our safety audit is Pickett Road between Fairfax Boulevard, Route 50, and Main Street, Route 2236, it is shown on the screen, um, in the red oval. Um, and why Pickett Road, why have we chosen this? So, um, in the comprehensive plan, it is specifically stated that we want to look, um, at improving safety and efficiency on Pickett Road. We have received a number of emails from residents with their concerns and and observed risk risk"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 178.526,
     "end": 209.589,
     "text": "factors. Um, we ve also looked at the crash history and also taking into account that there are a number of redevelopments that have occurred and that are that are occurring presently. Um, and so looking at that holistically, that is the purpose of the, the road safety a ud it is to take into account all of the factors that are occurring on the roadway and see if there are proactive things we can do to address them. Um, we have done a road safety audit, as I ve mentioned on Main Street. This is available on the website and Chloe Ritter did a presentation about this, um, about a year ago when we finalized this"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 210.893,
     "end": 243.424,
     "text": "audit, um, and it provided an evaluation of existing conditions that looked at vehicle speeds, volumes, looked at pedestrian, um comfort, and it looked at some of the intersections, and it provided a number of recommendations for both short and long-term improvements. And we are, are already taking a couple of those projects and, and moving them into, uh, uh, construction. So we uh received funding to improve the pedestrian crossings to improve lighting, and we are currently doing a consent plan to look at the intersection of Main Street and Lyndhurst. So we are taking what we received from that last"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 243.625,
     "end": 275.955,
     "text": "safety audit and already moving forward with it. The hope would be to receive this funding for Pickett, this technical assistance, and to do the same thing. Um, how this is different from Mo Fairfax, Move Fairfax, that is a safety action plan. We are looking more holistically, uh, more higher level, um, at the entire city, the idea of this roadway safety audit, if we receive it, is to really drill down and specifically look at all of Pickett Road. So in terms of next steps, what we are seeking this evening is the council endorsement of our application"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 276.524,
     "end": 309.891,
     "text": "again due FEBRUARY 27th, um, then if, uh, once it is received, the staff at the Transportation Planning Board will make recommendations. Ultimately, the tpb would vote to award recommended projects, award would occur this spring. This is technical assistance that we would receive starting in JULY. So this is something we would receive, um, in the next fiscal year. Um, and then once selected, we would continue to engage residents. Um, we would provide that input that we receive in both input that we have already received. We have a number of emails and I know that the city council has also received a number of,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 310.793,
     "end": 341.154,
     "text": "of emails. We would take all of that input plus new input, provide that to the consultant to inform the study, um, and then the consultant would complete a draft. We would present that to the city council, and then there would be endorsement of a final study. So that s the proposed trajectory of this if we were to receive the technical assistance. That concludes my presentation. Happy to take any questions. Thank you for that. Uh, Council member Amos. Uh, thank you for the presentation. No questions, just a comment. We ve all received a number of emails regarding Pickett Road"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 341.322,
     "end": 374.356,
     "text": "and, and safety at this intersection. So I think the timeliness of this is perfect. Uh, greatly appreciate your effort on this, and I m assuming part of the outreach to residents would be to the adjacent HOAs along that road. So thank you very much. COUNCILMAN Peterson Well, I am very strongly in support of this, and I think everybody is acquainted with Pickett Road and what that experience is like and I think that the staff report here, uh, is, is lengthy as the issues in it are that described the risk factors that need to be addressed. I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 374.356,
     "end": 407.121,
     "text": "m not sure it actually covered everything because this is an interesting part of town. Um, just a couple clarifying questions. First, I agree with Council member Amos that timus of the essence. Um, I like the timeline of this, which I understand to be a relatively rapid turnaround in terms of the study, and I think that s very badly needed, uh, given the issues, um. Just a maybe a geographical question on the scope of this. Where exactly is the start and stop on the north"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 408.589,
     "end": 440.988,
     "text": "and south end of this, and I m asking because partly how does this include the 50 intersection, for instance, and then how far does it go on the south end? So we would have the opportunity if we re awarded the funding to, to determine the limits, but I would anticipate that it would include both intersections, and we did already look at the intersection of 236 and Main Street as part of the Main Street. So we ll look at that again, but in the context more of Pickett. Ok, well that is uh, good to know that we ve got a little bit of flexibility because there s again a lot going on here. Clarifying"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 440.99,
     "end": 472.62,
     "text": "question, we have, uh, we have had a lot of input, Council member McQuillan and I, uh, actually spent a long session with many residents, I believe Councilmember Amos MAY have had a visit as well, but we ve really, and then that s just at the, uh, the south end of Pickett, we ve had expressions of interest now for a stretch, uh, at the north end as well. So there s a lot of interest, um, by resident s um, in making this happen and being involved and just to clarify, my understanding is procedurally what we re going to do here is we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 474.29,
     "end": 505.284,
     "text": "re going to be including the feedback we ve received from residents as a part of our application so that that s part of the scope that we re putting before the tpb for this. So I, I really appreciate what you re doing with that, the residents have, uh, wanted that very badly. I don t think there s going to be any shortage of interest uh in in engagement on this issue, and I think they are really very much appreciative that we re getting an early start on making that happen. So I m hoping 3 time is a charm here and we can make this thing happen, but again, I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 505.721,
     "end": 538.386,
     "text": "want to thank you guys for hopping on this and um I m crossing fingers and toast that this will happen. Councilmember McQuillan thank you, Mayor. Um, I have a question about the timing, the schedule. When would the study be taking place? So the technical assistance would become available to us in the new fiscal year. So they usually reach out to us JULY, AUGUST, um, so most likely we d get started in that time frame and it, it and it, and then when we did Main Street, it took about 6 months total from"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 539.53,
     "end": 571.386,
     "text": "Star start to end. Perfect. So I wanted to just confirm that the ice field renovation will be complete at that point, and people will be visiting. I, I want, I want regular traffic, yes, I understand. The Tykes Park is scheduled to be finished in the summertime. Awesome, thank you. Um, my last question is, do you know what consultant we would plan to hire for this. So again, we don t directly hire how this works is we receive technical assistance from cog.Og has a, has a bench of contractors. And so what happens typically is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 571.92,
     "end": 604.16,
     "text": "that they take the pot of awarded projects. So there might be, let s just say for simplicity 5 projects, 5 consultants, and they ll, they sort of do a match. We have a little bit of input, but we are not directly putting out a solicitation. Excellent. Thank you so much. Appreciate that. Council member Hall Yeah, thank you. Uh, just a quick question on how this MAY complement or not the picket Road trail that is proposed. I would this do anything with regard, it s a pedestrian safety and things like that. So I just wasn t sure how the sidewalks were a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 604.53,
     "end": 636.384,
     "text": "concern. It will, it will look at pedestrian safety, so what we ll understand that their pick a trail will be there, but it will also look at sidewalks, um, and, and how pedestrians are moving across Pickett as well, um, but these are somewhat separate. It s, it s really looking at the roadway. Ok, thank you. Sure Any other questions? MR. Alexander So, uh, as it relates to the information that has been collected, if council would be so kind as to send me whatever additional material they might have from the community, that would be helpful. I don"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 636.384,
     "end": 666.48,
     "text": "t want to MISS Out on anything. I know you ve had a lot of engagement around this, and I d be happy to pass it along to staff. So thank you. Any other questions or comments, Council member Amos. This is just more a process, clarity question. So is the plan, do we just go around and just say if we re in support of it or no, so this is a special meeting, not a work session. We haven t retired into the, no,, no, no, this is, this is a weird thing. So let s all just learn together. So we re in a special meeting, so there will be a motion. You ll"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 666.581,
     "end": 698.146,
     "text": "vote on it at some point when we go through the things we need to vote on, we will return to a work session. So we re in a different room doing a different thing in a different way, but you re good, ok. So is there a motion Council member Hardy Chandler? I move to approve a resolution to authorize the city manager to submit a letter of endorsement for the city s fy 2027 application to the regional Roadway Safety Program, including recent Citizen input and requests for key issues to be considered in the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 698.647,
     "end": 730.578,
     "text": "application and proposed scope of work and noting that the city will provide all public input to the selected consultant to inform the evaluation and transportation safety study. Is there a second? Motion s been made by Councilmember Hardy Chandler and seconded by Council member Peterson. Is there any discussion on the motion? Seeing none a roll call vote. Councilmember Amos, Councilmember Hall, Council member Hardy Chandler. Council member Peterson, Council member Bates, Councilmember McQuillan, a motion passed unanimously. We"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 731.346,
     "end": 763.544,
     "text": "ll go to the next item, which is a consideration of a resolution endorsing an application to the Virginia Department of Rail and Public Transportation, transit ridership incentive program. I recognize Wendy Sanford, Transportation director again to provide a staff presentation. Thank you. Um, thank you. This will be very brief, um, the city is proposing to apply for a 2nd trip grant. Um, and so the city has already received one, and this provides replacement for, uh, fair revenue when we are in a fair,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 764.446,
     "end": 795.31,
     "text": "a zero fair policy. This is really as a follow up to the NOVEMBER 4th work session where we discuss potential options, um, and I realized that you all have not made a final decision on that. That would be made as part of the budget deliberations that said, the grant cycle is open for us to apply for this funding, um, to be perfectly honest, I m not sure if jurisdictions are eligible to receive a second trip grant. No one has applied, but I m going to, um, uh, why not, uh, because the worst they could say is no, you ve already received one, but this would"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 795.878,
     "end": 827.809,
     "text": "then, I think, sweeten the pot if you all decide to continue with the zero fare policy for qu going forward, um, and so this is the, the presentation that we gave back in NOVEMBER was attached to your packet. It is available online. I am not giving that presentation I am just reminding you that we discussed this a few months ago, um, and just a reminder that we suspended fare collection back in 2020. Um, we formally adopted a zero fare program back in 2022. That pilot now ends in JUNE 2026, so we are here reevaluating fair policy"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 828.977,
     "end": 860.108,
     "text": "options. Um, what a trip program does is it provides step-down funding. They provide 80% of the fare revenue in the first year that was lost based on the, the, so in the last grant was based on 2019 fair revenue. And when I m, I submit this next application, it would be based on what we would project would be our fair revenue in this last fiscal year, even though we didn t collect revenue. Um, year 2 provides 60% funding, 3 is 30, and then in year 4, 0%. So it s really just to offset and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 861.277,
     "end": 891.305,
     "text": "encourage, uh, offset that fair revenue loss and to encourage jurisdictions to remain fare-free. Um, as you know, our ridership has increased steadily since 2020. We are having our um, since we ve been zero fare, our ridership has increased 53%. So I think we have a strong case to make to drpt that this is a really great return on, on an investment. So, um, what I m proposing is that we submit an application to renew our trip grant. Again, unclear whether a jurisdiction can receive a second one, but I m going to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 891.372,
     "end": 909.491,
     "text": "try, um, and as I mentioned, the application would be based on updated ridership and fare projections. Um that was, again, these, these are the numbers they were provided in the last presentation. Um, that concludes my presentation. I know I ran through that pretty quickly, but I think it, it s self-explanatory. Question"
   },
   {
     "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header)",
     "start": 909.491,
     "end": 911.491,
     "text": "Well,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 912.427,
     "end": 945.858,
     "text": "I want to reach back, if I might, something I uh didn t include in our last agenda item. I think I misspoke when I uh, didn t include all of the council members who MAY have been uh part of the community contact uh process at Picco Road. I know Councilmember Hall s been involved in that. I know others MAY have as well, but I didn t want to leave any of the council members out of that process because I know that it s been very active with everybody. Thank you. Council member McQuillan Sorry, I have"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 946.228,
     "end": 976.758,
     "text": "to switch gears. Um, are there any unforeseen or um not any foreseen or potential issues if we receive the grant but don t accept it or decide not to use it in some manner. If we were selected for the 2nd trip grant, we would find out sometime in the spring it would coincide with budget adoption, and so we would have the opportunity to say we re not interested if, if you all decide to take a different direction, um, but I didn t want to MISS This window to potentially receive this money if we could. I appreciate that. Thank you so much. Council member Hardy Chandler"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 978.761,
     "end": 1009.79,
     "text": "if you know, can you speak to why jurisdictions haven t applied for a second grant or would have been the hurdles or barriers to that. I, I don t know when I when I reached out to the staff about this, they said, well, we don t know any other jurisdictions that have asked, and I said, ok, well, I m going to ask. So, um that s it. I don t know the, I don t know the answer to that. Well, let me applaud you for going ahead and trying It s sort of the Oliver Twist moment. Please, sir, MAY I have another? Ok, Councilmember Amos. Oh, council"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1011.226,
     "end": 1043.925,
     "text": "member hall Thank you and thank you, COUNCILMAN Peterson. That was very kind. Um, bit of an unrelated question, but can you just remind us on how you calculate ridership. For, for the regard to the u bus trips. Oh, how do we, we have automatic passenger counters on our bus. So they detect when a person gets on the bus and when they, a person gets off the bus. So we have, um, that s how we know what our ridership is and we also know it by stop because it detects when a person gets on or off at a stop. So we know on s at a stop and off s at a stop. Ok, but you don t"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1043.925,
     "end": 1076.958,
     "text": "necessarily know, and I wouldn t expect it to, that I get on it, stop a and I stay on through step f. No, we don t have individual ridership information like that, no. Ok. So, but you, you do know how many people are on a bus at any given time then throughout the time, ok, that s very helpful. Thank you. Council member Amos I just wanted to say thank you again for doing this. Uh, I know we had a discussion on this back in NOVEMBER with the q uh Qbus, and I think there was expressed interest on trying to keep the zero fare option going, uh, juice for the squeeze as we described it, um,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1078.961,
     "end": 1110.756,
     "text": "and I, I suspect that if we are able to pull this off and get a second one, there probably won t be a 3rd. So, uh, just consideration of future outlook if we were to be awarded what that would look like in year 4, just so we have a strategy moving forward. Other questions or comments? Council member Peterson? I would only say that a bird in the hand is or two in the bush, so go for it. Anyone else? Um, of course I m a, I m a longtime fan of the q, one of the original writers from 1981, and I say that with pride, but"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1111.593,
     "end": 1141.623,
     "text": "I think we need to look at the qus and our overall goals, missions, and vision for the city, which is to get people that ridership regardless of whether they pay or they don t meets our long-term goals of getting people around the city without cars. So, you know, when we see that ridership go up, we have to understand that our whole goal for the city is to get people on buses or bikes or sidewalks. And so if introducing a fair, and we have to think about that, ends up reducing the number of people"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1141.623,
     "end": 1173.521,
     "text": "who ride, then that s why we talked about is, is the juice worth the squeeze if we make a little bit of money, but we don t actually feed our long-term goals of being a community that uses transit. Um, and again, the free cubus means people of all ages can use it, and that is students as well as senior citizens and everybody in between. So very interested in seeing if we can move this forward, and I m appreciate you asking. So I m going to ask, is there a motion, Councilmember"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1176.391,
     "end": 1207.455,
     "text": "Hardy Chandler? I move to approve a resolution endorsing the city s application to the Virginia Department of Rail and Public Transportations, Transit, ridership incentive program. Is there a second? A motion s been made by a Council member Hardy Chandler and seconded by Councilmember Peterson. Is there any discussion on the motion? Seeing nonero call vote. Council member Bates. Council member Peterson. Council member Hardy Chandler. Hi, Council member Hall, Council member"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1208.122,
     "end": 1238.51,
     "text": "Amos, motion passed unanimously. We ll go on to the next item, which is a consideration of a resolution to adopt the Affordable housing strategic Plan. I ll recognize Jamie Ergus, our housing programs manager, to provide the staff report. Good evening, Mayor and council. Um, as Melissa just shared, I m here in regards to the Affordable housing strategic plan. Um, this was actually a consent agenda item in the JANUARY meeting. The snow happened. This was pushed"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1239.421,
     "end": 1272.853,
     "text": "to the special meeting. So, um, I m really just providing a short introduction in the highest level refresher, um, tpma, the consultant that developed the Affordable housing strategic plan brought this forward in NOVEMBER for a work session discussion. Um, they started working on the plan about a year and a half ago in the summer 2024. They conducted in-depth analysis and research, uh, coupled with extensive community engagement. So they did, uh, a couple initiatives to outreach to the community, including a survey which received almost 700 responses. Um. One key finding"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1273.221,
     "end": 1305.86,
     "text": "of the research was that 50% of our renters and about 20% of our homeowners in the city of Fairfax, um, are cost burdened, meaning that they pay more than 30% of their income towards their housing. This is just one of the key findings that I think highlights the importance of this topic. Um, the plan itself has 3 core focus areas, uh, affordable housing development, affordable housing preservation, as well as strengthening community services and programs. So really 2/3 of the program, uh, uh, the plan itself, um, focusing on existing programs, right? Or existing housing. I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1305.921,
     "end": 1338.251,
     "text": "would like to say that the Affordable Housing Strategic Plan is a milestone. It s the first of its kind in the city. Uh, we ve also reached a milestone. The housing division is now a year old. The Housing and Healthy Community Advisory Board is now a year old. Uh, the plan does identify goals, strategies, and actions as well as potential partners to engage, best practices to explore and timelines to consider in the implementation of the plan. Uh, adoption of the plan establishes a policy framework and direction. It does not automatically authorize specific projects, funding allocations, or regulatory"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1338.753,
     "end": 1369.548,
     "text": "changes. So as noted in the staff report for this evening, um, recommending the adoption of the Affordable housing strategic Plan, alternative actions are to not adopt or to differ. That concludes the introduction ok, are there questions of MISS Ergus about this? Council member Peterson, well, just a comment, and that is thank you very much for this. I appreciate also the opportunity that has been created to have some q&a uh with staff, you know, leading up to this. And uh this is, as"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1369.885,
     "end": 1399.913,
     "text": "I understand it, the beginning of something that will, uh, need continued work and attention. If I could use the baseball analogy. It sounds like we re somewhere around first base, but we ve got more work to do to get all the way around to the home plate. So that s gonna take some time and some effort and some support that we provide to you to help you get to that finish line, and that would include things like targets, but we re a ways off from being at that point, but what we do have before us is a framework here to be able to initiate that process so"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1400.14,
     "end": 1431.913,
     "text": "that it doesn t have to be further delayed in order to do that under the framework. So if I m understanding this correctly, it sounds like a very constructive found ation al starting place for us to move forward. You Any other questions or comments? The only thing I would say is it s a living document because some of the things that are happening in the General Assembly, MAY or MAY not impact it and that s every year, things that happen in the General Assembly MAY or MAY not impact the tools we have. So, um, I think this is a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1432.815,
     "end": 1466.247,
     "text": "great start. I mean, this is a great foundation, uh, I, I, you ve done an excellent job. Our consultants did an excellent job in gathering the research and talking to the community about what our priorities are. So I appreciate all the work um, council member Hardy Chandler, is there a motion? I move that the city council approve the resolution to adopt the City of Fairfax Affordable housing strategic Plan as presented, directing city staff to use the plan as a strategic framework to guide future study, prioritize it prioritization and policy"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1466.715,
     "end": 1498.88,
     "text": "development of affordable housing related policies, programs, and initiatives subject to available resources and future city council approval. Is, is there a second? A motion s been made by Council member Hardy Chandler and seconded by Councilor Peterson. Is there any discussion on the motion seeing none a roll call vote. Council member Amos, Council member Hall, Council member Hardy Chandler. Council member Peterson, Council member Bates. Council member McLellan, motion passed unanimously. I will now recess the special"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1498.981,
     "end": 1539.586,
     "text": "meeting to go into the work sessions. So now our meeting matches the room. And I will recognize MISS Shinnneberry for the first work session item for discussion. All right. Our first item is a discussion on the development of the Green Building Policy. I will recognize Stephanie Kupa, our sustainability program manager for the staff presentation."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1539.655,
     "end": 1573.154,
     "text": "Good evening, Mayor and City council members. We re here tonight to discuss the proposed Green Building policy that will establish clear building performance standards that will save on long-term operating costs make our city more resilient and ensure that the buildings we approved today align with our sustainability and climate goals while also remaining affordable and high-performing for decades to come. Tonight I ll walk you through the background"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1573.154,
     "end": 1605.986,
     "text": "information on the development of the Green Building policy. The proposed standards for both the public sector and the private sector The incentives that were evaluated during development, the administrative framework and costs for implementing the green building policy, and then finally, we ll be seeking counsel, feedback, and direction on how we should move forward with the green building policy. I ll first start off with some background information. Uh, you MAY be asking yourself, why does this"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1609.557,
     "end": 1640.187,
     "text": "policy matter now? So one building decision today locks in 30 to 50 years of operating costs. We re talking energy, water, maintenance and repairs. At the same time, we re facing rising utility costs. Just last week we learned from Dominion Energy, they re proposing to increase what they re charging for electricity by 32% starting JULY 1st. And this is not gonna"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1641.9,
     "end": 1674.56,
     "text": "be a one-time increase based on Dominion s latest integrated uh resource plan, electricity rates could double over the next 20 years. And this is mainly due to the data centers. It s been uncontrolled and rapidly increasing. So our energy demand is going to be skyrocketing in the years to come, which of course is going to impact our rates and have an impact on our fiscal sustainability here in the city. On top of the rising costs, we re also experiencing high"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1674.56,
     "end": 1706.253,
     "text": "development pressure, which is putting a lot of strain on our environmental resources such as our urban forests and our streams and habitat. So if we continue with business as usual, we ll continue to see degradation of our environmental resources. We re also seeing increasing risks associated with climate change. We re seeing inc increased flooding, more frequent and intense, uh, uh, weather events and extreme heat days. This policy is about responding proactively to these challenges."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1706.989,
     "end": 1738.719,
     "text": "We want to improve our resilience, reduce our long-term costs and deliver on our environmental fiscal goals, fiscal goals the city has already adopted. So now is the right time to act. With continued growth and new development. Every project that moves forward without clear performance expectations, increases our long-term costs, not just for building owners, but for the city infrastructure, utilities, and taxpayers. This policy gives us a consistent framework for planning for the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1739.654,
     "end": 1770.385,
     "text": "rising energy costs. And so we can make smarter decisions upfront and lock in savings for decades to come. Ok The development of the green building policy has been in progress for years, starting back in 2019. It was developed as directed by the city council in 2020 and also developed in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1770.385,
     "end": 1802.315,
     "text": "accordance with plants that have been adopted over the years, which include the comprehensive plan, the city s environment sustainability stewardship goal, the Virginia High Performance Building Act, which is the state s Green Building policy law that we need to follow for our public buildings and the adoption of our, the 2024 strategic plan. Staff has spent years researching best practices, working with consultants, uh engaging with stakeholders and aligning this policy with state"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1803.719,
     "end": 1833.814,
     "text": "and regional best practices. In FEBRUARY 2025, the draft Green Building Policy was ready to go to council for consideration for adoption, but unfortunately at that time, the city, the previous city manager had paused that um presentation due to fiscal concerns. The Green Building Policy scope. So the Green Building policy establishes green building performance standards for both the public and private sectors. So the public sector includes"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1834.383,
     "end": 1868.283,
     "text": "new construction, major renovations, and existing buildings, and for the private sector, it includes new construction and major renovations. So what does the city get for this investment? On the public sector side of things, it protects our own assets. Implementing the policy can deliver substantial cost savings and long-term benefits. So let s break it down. So the lead a lead certified building typically sees 20 to 30% lower energy costs, 11% savings on"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1869.551,
     "end": 1900.982,
     "text": "water bills due to low flow fixtures, rainwater harvesting, and native landscaping, and a 10%, 10 to 20% reduced maintenance due to the durable, high-quality materials and smart building systems. The policy also include encourages renewable energy, uh, installing solar reduces electricity costs 20 to 50% over 20 years. Also the policy improves indoor environmental quality, and studies have shown that led certified buildings"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1903.117,
     "end": 1934.882,
     "text": "lead to a 6 to 9% improved staff productivity due to that improved environmental, uh, indoor air quality. And this policy improves waste reduction due to reduced construction waste and sustainable material choices. On the private side of things, this policy creates clear expectations with developers and provides multiple benefits to the city. So this policy helps us stay competitive with our region. Right now, we re behind with,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1934.984,
     "end": 1967.115,
     "text": "with what others are doing in their region. So this catches us up with the other policies that have been adopted in the region. And it gets us higher quality development. Without us having to invest capital funds. It reduces the development impacts on our tree canopy, water resources, and habitat. It reduces demand on public infrastructure and utilities. So if you think about it, it lowers the long-term strain on energy, water, and our stormwater utilities. And it improves building quality,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1969.485,
     "end": 2002.749,
     "text": "comfort and resilience. And it aligns investment with council adopted environmental and economic goals and another thing that it does, it helps promote access to the commercial pace program that the city adopted last year. So right now, developers have access to low costs long term fixed rate financing that they can use to hire, uh, green building consultants and engineers to implement the green building policy. So we have financing in place to help our development community. The Green Building policy is a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2004.18,
     "end": 2035.682,
     "text": "practical tool to deliver on city adopted goals. First, I will focus on climate and environmental stewardship. This policy helps reduce greenhouse gas emissions and improves energy efficiency, encourages renewables, reduces water consumption citywide. Also strengthens protection for our natural resources by reducing stormwater impacts, reducing light pollution and supporting environmentally sensitive design. Second is resilient and healthy communities. This"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2035.951,
     "end": 2066.214,
     "text": "policy improves indoor air quality and occupant health. At the same time enhances resilience to heat, flooding, and extreme weather. Third is smart growth, this supports innovation and building design and construction. It also encourages growth that aligns with long-term infrastructure capacity, utility systems, and natural resource constraints. Fourth is fiscal responsibility. As I mentioned a little earlier, for the public sector, it lowers long-term operating"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2066.715,
     "end": 2100.8,
     "text": "costs, and for the private sector, it reduces long-term infrastructure costs and strains that the city provides. And finally, leadership Adopting this policy, like I mentioned before, catches up what what is happening in the region and aligns with regional best practices and state law. So in summary this policy helps take planning policies into measurable results in our community. Uh, the city has a couple climate action targets."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2100.982,
     "end": 2132.144,
     "text": "So we have a goal to reduce greenhouse gas emissions, 80% by 2050 and achieve a 100% renewable electricity for city operations by 2035 and citywide by 2050. As shown on the pie chart on the right, this shows, uh, how our greenhouse gas emissions are attributed to different sectors. About half of our greenhouse gas emissions are attributed to buildings. And of that 25% of our emissions come from commercial buildings, which is why it s so"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2132.181,
     "end": 2167.748,
     "text": "critical that we have green building standards for pri the private sector, specifically targeted at commercial buildings. And to be able to achieve these targets, not only do we need to adopt a green building policy to help achieve them, but there are other actions the city s taking in the future, such as developing a climate action plan, eb readiness plan and solar site assessments. So it s just one of the many tools in our toolbox to achieve our goals. For the timeline, the realm of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2169.717,
     "end": 2201.948,
     "text": "this policy has been a deliberate and inclusive process. From stakeholder committee formation in 2023. Uh, hiring a consultant to help us with developing the policy, conducting research, holding council work sessions, public meetings, obtaining advisory committee input, developing multiple draft iterations. The policy reflects an extensive review and refinement and stakeholder engagement. I ll next talk about our research and comm community engagement"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2204.118,
     "end": 2236.116,
     "text": "procedures. This policy is grounded in best practices. Staff worked with Cadmish Group, our consultant, to evaluate peer jurisdictions, the Virginia Building codes, the Virginia High Performance Building Act, which I mentioned previously, is the, uh, state-mandated Greenbuilding, uh, standards we need to meet for public buildings. And we also reviewed nationally nationally recognized green building standards. I was also happy that the city was selected to be a member of the usgb c s Green Building Policy Accelerator where the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2237.987,
     "end": 2268.849,
     "text": "city is received free technical assistance from usgbc and other communities throughout the nation so we can make improvements to our green building policy. Uh, this slide shows how the city of Fairfax, uh, proposed green building policy compares to other green building policies in Virginia. In Fairfax County, for their public sector rebuilding policy. They strive for net zero energy,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2269.25,
     "end": 2304.85,
     "text": "led gold with improved energy performance for their private sector, they require lead certified for rezonings or added density Arlington County, uh, they require net zero or lead silver for their public buildings and for private sector, they have a an incentive program for density bonuses, uh, for, uh, if they achieve lead gold or beyond. For the city of Alexandria, they actually just adopted a brand new policy, so this information s out of date, so just a few weeks ago, they um adopted a brand new green"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2305.153,
     "end": 2336.75,
     "text": "building policy, uh, which strengthens their standards even further. Focusing more on, um, energy and resiliency factors. The City of Falls Church for their public sector, they aim for leed gold and then for the private sector they require led gold for rezonings and special exceptions. So these examples show that Green Buildings policies are now standard throughout the region. And it shows that the city of Fairfax is not out front, you know, out in the front of things with this proposed"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2337.186,
     "end": 2369.65,
     "text": "policy, it would then catch us up with what s going on in the region. So that way we have the same level of quality, efficiency, and long-term performance that s on par with the region. Uh, next is stakeholder engagement. For stakeholder engagement, we had both an internal and external advisory committees for internal, we had representatives for various departments and divisions within the city and for the external Green Building Advisory Committee and included"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2371.86,
     "end": 2403.182,
     "text": "members of the development community, subject matter experts, uh, members of the esc and the general public. Input for these groups we re used in the very beginning of the development of the policy and helped guide the development and made a significant impact on what it is today. Uh, we also did a lot of public engagement. We had over 250 stakeholders engaged throughout the process. We held meetings with the city council, planning"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2403.451,
     "end": 2435.882,
     "text": "commission, edea, esc and prm. We also had a public meeting and presented at the development industry meeting over the summer. Plus we tabled at public events and had an online engaged Fairfax page. Public input played a very important role in the improvements that we ve made to the draft plan that we published. Overall, stakeholders helped make the plan, uh, policy what it is today to make it more feasible, equitable, and implementable. So how did feedback shape the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2439.488,
     "end": 2471.485,
     "text": "policy? Uh, first, we, we took that feedback to balance ambition with feasibility. We focused on the high impact practices to advance our goals while making sure it s still feasible with our development community. For building size requirements and eligibility, we specifically included that schools will be part of the Green Building policy based on stakeholder feedback that it was very important that schools were developed sustainably. Uh, we also chose the building size"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2471.82,
     "end": 2502.517,
     "text": "to align with the state mandate, the Virginia, uh, High Performance Building Act. So that way we re in alignment with state law. For green space and tree canopy, we heard a lot from our stakeholders that they want to make sure that development is not negatively impacting our natural environment and that we re preserving our tree canopy and improving bio biodiversity in our community. Um, and they want to prove a resiliency. So special credit requirements were added to the Green Building policy to meet those"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2502.517,
     "end": 2535.782,
     "text": "needs of the community for that area. Uh, we also made sure that, uh, the Green Building policy was in alignment with the green, sorry, the Virginia High Performance Building Act and peer jurisdictions. Uh, we evaluated various incentives. The tax abatement incentive came out as the most attractive to our development community. However, we heard on the flip side of things from our, uh, residents that there are some fiscal concerns with that and also equity. So there was mixed, mixed up, feedback on that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2537.987,
     "end": 2570.83,
     "text": "incentive. Uh, we also heard feedback that the, the community wanted more detailed technical definitions. We made those improvements and then we also simplified the certification process to reduce the administrative burdens on the city and to streamline procedures to make it easier for developers, uh, to be involved with the process. So lots of valuable feedback, which we, we improved within the, the draft final policy. In the next few slides, I ll discuss the proposed green"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2570.218,
     "end": 2600.949,
     "text": "building standards for the public sector. So this includes any facility that the city owns and operates. So the public sector buildings applicability, uh, so it applies to existing buildings that are 1000 square feet or greater. New construction or major renovations for buildings that are 5000 square feet or greater, and then major interior renovations that are 5000 square feet or greater. So this is an example that shows the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2601.49,
     "end": 2633.747,
     "text": "bloodham Civil War interpreter Center, so to get an idea of size, this is approximately 3600 square feet. So for the existing buildings that are 1000 square feet or greater, what the policy proposes that we would conduct energy benchmarking and audits. Those buildings would be retrofitted to achieve lead Owen operations and maintenance silver, and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2633.749,
     "end": 2667.14,
     "text": "that annually we disclose, uh, the energy performance data to the public. For new construction and major renovations for buildings that are 5000 square feet or greater. These would have to comply with the Virginia High Performance Building Act. They would achieve lead building design and construction gold. They, they would achieve all electric uh. Uh uh uh, sorry, all electric appliances and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2668.583,
     "end": 2700.647,
     "text": "achieves net zero emissions. While achieving a 50% reduction in modeled energy use, and they would achieve the key sustainability credits that I was mentioning earlier, which include rain, rainwater management, biodiverse habitat, enhanced resilient design, light pollution, and bird collision reduction and electric vehicles. So this standard dramatically lowers long-term operating costs while helping the city achieve greenhouse gas and resilient seagulls. For major interior renovations for the for"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2701.115,
     "end": 2732.68,
     "text": "buildings 5000 square feet or greater, they would, the building would need to achieve lead interior design and construction gold. So even with, um, minor improvements to the interior. This will ensure that it ll improve efficiency and occupant comfort. Ok. Now on to private sector green building standards. So. For private sector green building standards"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2734.515,
     "end": 2769.717,
     "text": "to apply. It would only apply for developments that are subject to special exception, variance, rezoning, planned development review, or special use review processes, and the new construction made to reva major renovations greater than 5000 square feet. So just so you understand, so this is only when projects are seeking discretionary approvals. It does this would not apply to uh buy right development. So for those buildings that meet those"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2771.886,
     "end": 2804.886,
     "text": "requirements. Those private projects would need to achieve silver certification, either using lead or earthcraft standards. So, it provides developers a little more flexibility with what rating standards would best fit their project. And they would also need to meet key sustainability credits, the, the same ones that the public sector would need to apply to as well to ensure that we re improving resiliency and sustainability within the city. Next, we ll discuss incentives that were considered as part of the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2810.91,
     "end": 2840.989,
     "text": "policy. So why were incentives evaluated? So with being a Dylan Ro state, there s very little we can require. So incentives are a way to encourage higher performance without those mandates and those incentives, how they re usually built is to provide, uh, to offset that additional construction costs, the developers would have to pay to meet those higher standards. So there d be some kind of tradeoff that provides that incentive for the developer. And the incentives help"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2840.989,
     "end": 2874.288,
     "text": "maintain market of competitiveness Other jurisdictions within the region do have incentives. So if there s really attractive incentives and other municipalities, developers MAY be more attracted to those areas. And then we want to align private investment with city goals. So we want to meet our city goals. We want as many developments as possible to achieve those higher green building standards. So the incentives that were eva evaluated, include tax"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2874.289,
     "end": 2906.287,
     "text": "incentives. So what we looked at was a tax abatement. Uh, for development that achieved that higher, uh, led certification. Uh, as I mentioned before, this was identified as the most attractive incentive by developers. However, there were some concerns from the community on that. Uh, height and density bonus was considered, so developers could achieve a, a height or density bonus if they meet those high building standards, uh, at the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2906.655,
     "end": 2936.951,
     "text": "time when we were evaluating this, our zoning ordinance did not allow this type of incentive. So we tabled it at the moment. However, you ll be hearing from community development and planning later on tonight for the small area zoning text amendments, one of the community benefits we can build into that. Is green building standards, uh, in return for height density bonus. So now that that is available, that could be another attractive incentive to provide"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2940.254,
     "end": 2971.751,
     "text": "developers. For permitting, uh, we could provide, uh, discounts on permitting. Um, or expedited per permitting, however, at this time, exped permitting isn t feasible due to staff capacity. Technical assistance and marketing was also considered. However, we heard from developers that they typically have consultants that do this type of technical assistance and marketing already. So they didn t see this as a big driver. So what"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2972.154,
     "end": 3002.65,
     "text": "we recommend with incentives since there was mixed reviews from the community regarding the tax abatement and now we have the opportunity to um revise our zoning ammen zone, sorry, zoning ordinance, we, we now have more options to consider. So staff does not recommend adopting an incentive at this time, and we recommend further researching when incentives are available to us and what those fiscal and environmental impacts would be"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3003.185,
     "end": 3034.515,
     "text": "for those incentives, um, so we would like to work and partner with cdmp in the future to further research and evaluate those and bring those back to council at a later date for consideration as an addendum to the Green Building policy. Uh, next is administration and costs. So to administer the Green Building policy. Uh. A climate energy manager would"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3036.18,
     "end": 3067.648,
     "text": "implement it, uh, that their tasks are documented, documented in the sop within the Green Building Policy and also there s justification in Appendix a that you can read over. As part of the Green Building policy every year the city would produce a green building policy progress report, and then every 5 years, the city would review and update the policy to keep it up to date. The city will track key performance indicators to measure success. There s a few examples of KPIs below that we,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3068.651,
     "end": 3098.846,
     "text": "we would regularly, uh, track and report on. So staff is seeking guidance from counsel on how to proceed with the green policy, green building policy. The city can adopt and fund the policy or decide to scale back, delay or cancel the policy. Staff recommends adopting and funding the proposed policy. The funds to required to implement policy"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3099.281,
     "end": 3131.279,
     "text": "include the costs associated with hiring a part-time temp sorry, part-time permanent climate and energy manager, which is an essential position to implementing the Green Building policy because we don t currently have staff capacity for that, and it s a brand new program that will be regularly recurring annually. The cost of this position is approximately $85,000 per year, including benefits. Staff recommends holding a public hearing to adopt the proposed green building policy as"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3134.116,
     "end": 3164.677,
     "text": "presented. So the impact of that by adopting and implementing the Green Building policy. There s many benefits. It aligns the city with state law and council goals and enables high-quality development, protects our natural systems, such as our urban forest, streams, and habitat. It saves money citywide. Energy efficient buildings lower infrastructure strain, utility costs, and long-term municipal operating expenses and it ll maximize grants and incentives because a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3164.747,
     "end": 3197.946,
     "text": "lot of the federal and state grants require staff capacity to apply, manage, and report on grants. And it ll also enable us to perform ongoing performance tracking so we can make data-driven decisions to help improve the city s facilities. Adopting this policy and funding staff now allows us to implement clear, cost-effective policy that saves money, reduces risks, and positions the city to meet evolving state requirements. The other options include"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3198.347,
     "end": 3228.408,
     "text": "scaling back, delaying or canceling the policy. The city could narrow the policy just to the public sector side of things. Uh, this would require us to use consultants on new construction, major renovation, and then for existing, uh, for existing buildings, that would be something we would have to complete at a much slower pace when staff capacity is available. Uh, or the city could delay or cancel the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3229.144,
     "end": 3261.109,
     "text": "proposed policy. In that case, staff would have to rely on the existing 2009 Green Building resolution, plus follow the Virginia High Performance Building Act, which we re required to follow. The impact of scaling back, delaying or canceling the project includes continued ad hoc decision making without the clear standards for developers. We continue to fall behind with what other jurisdictions are doing in the region. There d be increased stress on our, our environmental resources from"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3261.142,
     "end": 3293.274,
     "text": "private development, such as our urban forests and streams, and there would be higher costs to the city due to capital projects that lock in inefficient desi designs, having less effici ent buildings, this paired with the rising utility costs. Increases our utility costs for years to come. So we lose out and a lot of, uh, energy savings that we d have from making our buildings more efficient and there d be a greater demand on our city s infrastructure, increasing costs to the city, and there d be a loss of grants"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3294.8,
     "end": 3327.908,
     "text": "and incentives due to lack of staff capacity to implement them and the city would MISS Out on sustainability commitments. So in closing, each of these options have a cost. We can either be proactive and improve our resilience and um reduce uh long term operating costs while managing risk and a and in a financially responsible way, or we d have the cost with the increased costs from delaying action as well. So we want to ensure that our buildings we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3330.244,
     "end": 3363.144,
     "text": "approved today align with our sustainability goals remain affordable and high-performing years to come. So to reiterate, we do propose adopting and funding the proposed policy. So we re looking for a clear direction so staff knows how to move forward. We have a few questions posted on that slide that we d like your feedback and direction on. I ll now open it up to questions and any feedback you have or counsel guidance. So thank you. Thank you for that presentation."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3366.848,
     "end": 3398.446,
     "text": "Council member McQuillan ok, I have some questions, um, regarding the processing times, does this increase permitting processing times or anything? What, what are we in implementing this plan, what is the cost to either our city, our community, the developers, there s some exchange usually, so I d imagine either it s gonna be more costly for certain things or take more time potentially. So the main cost is for that climate and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3400.615,
     "end": 3431.445,
     "text": "energy manager, which would be $85,000 per year, so we have worked with our ombudsman to integrate this into the existing procedures, so i wouldn t add any additional time. So they would be, this would be streamlined into the procedure. We have worked out standard operating procedures within the Green Building policy that outlines how that would be done. So there wouldn t be a delay, uh, the, the cost would be that staff time for the climate and energy manager to complete those tasks so that we can remain timely."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3432.548,
     "end": 3463.777,
     "text": "Ok, so the 85,000 is going to be a permanent ongoing cost. Yes. Ok. Um, and then I had a question about historic buildings. How will they be treated or affected? Businesses that are in historic sites or buildings, or will this also be required to come up to the standard of the green building policy, if they re going to do any major renovating, things like that, will that add additional time processing need specific expertise involved,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3464.912,
     "end": 3498.713,
     "text": "things like that. Yeah, so for historic buildings, we did actually we have a section within the Green Building policy that addresses historic buildings and other, uh, projects that would need special consideration so they could potentially get a waiver. So like Grandma s cottage, I don t think it makes sense, you know, since it is such a historic building to do those fancy renovations where we want to maintain the historic nature of that building. Uh, if there is something we can do, we can make minor upgrades, however, we wouldn"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3499.515,
     "end": 3530.44,
     "text": "t hold them to the same standard. So there, there is flexibility and we, um, discussed those on a case by case basis and determine what would be best for those building. Of course, working with historic resources, uh, we, I know there is some historic resources guidelines that we did work with with, um, when that was developed. So like for example, in historic buildings, that for public facing like if we wanted to install solar, we wouldn t be allowed to put solar, you know, in front facing, but in the back we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3530.44,
     "end": 3563.176,
     "text": "could. So there s things like that where we would work with historic resources to make sure we re, we re following all the protocols with that and being sensitive to it. Ok, so would that add additional time to like the process of somebody renovating their business or, or building if it s a historic building. Could that? Add more additional time then to the you re telling me there s just 111 employee that s going to handle this stuff that we need and then, so I m just trying to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3564.647,
     "end": 3596.945,
     "text": "consider that perspective from Yeah, so they, like I said, they MAY request a waiver that might be granted, uh, I, we haven t really evaluated what if it might delay things. However, it be part of the Dave, do you want to take this, I think the first few years of implementation, you re spot on. But I think once we get up to speed, 2 or 3 years, I think it would be streamlined enough that it would be, uh, insignificant ok. So you think that d be only like 2 to 3 years to get up to speed to get there. I believe so. Ok, it s"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3600.15,
     "end": 3631.77,
     "text": "fair. Um, and then just a quick comment for me. Um, I really would prefer for the research of the incentives. Um, I think that s a key piece to this plan. Um, I would want to explore and understand more because um there are few here, the height and density for me isn t, I, I don t feel a fair exchange, uh, or trade-off. Um, so I d like to just know whether are there options are out there and be presented with those so that we can actually look at them and, and compare, um, and then I, I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3631.914,
-    "end": 3663.709,
-    "text": "would like to also go back to the uh tax incentive discussion and just hear a little bit more to try to really understand the feedback that you received and what you explain to them, you know, what was discussed essentially to really kind of understand where the issues were with that and maybe if there s some alternatives or opportunities there. Thank you. Councilmember Hardy Chandler So I absolutely appreciate, um all of the work that you put into"
+    "end": 3654.233,
+    "text": "would like to also go back to the uh tax incentive discussion and just hear a little bit more to try to really understand the feedback that you received and what you explain to them, you know, what was discussed essentially to really kind of understand where the issues were with that and maybe if there s some alternatives or opportunities there. Thank you."
+  },
+  {
+    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header, loose)",
+    "start": 3657.373,
+    "end": 3659.373,
+    "text": "So"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3663.712,
-    "end": 3694.174,
-    "text": "this presentation, especially I wanna draw special attention to your regional look and how your re commenting on us being behind, um, when you look at the region, certainly we re not under a glass bubble, right? There are um costs that are gonna happen. In this world and, and we ve certainly felt the impacts of that, um, and so being behind has its own, you know, level of costs. So I"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 3659.407,
+    "end": 3691.239,
+    "text": "I absolutely appreciate, um all of the work that you put into this presentation, especially I wanna draw special attention to your regional look and how your re commenting on us being behind, um, when you look at the region, certainly we re not under a glass bubble, right? There are um costs that are gonna happen. In this world and, and we ve certainly felt the impacts of that, um, and so being behind has its own, you"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3694.276,
-    "end": 3726.774,
-    "text": "really appreciate that regional view and um sort of a little bit of attention to the cost of being behind in this region. Um, I do want to ask about if there is additional information comparatively in terms of staffing. So your re requesting, um, a part-time permanent person How does that compare regionally to other staffing, um, configurations. With our neighbors So I don t have the exact numbers here, but I have reached out to them and in some"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 3692.174,
+    "end": 3723.438,
+    "text": "know, level of costs. So I really appreciate that regional view and um sort of a little bit of attention to the cost of being behind in this region. Um, I do want to ask about if there is additional information comparatively in terms of staffing. So your re requesting, um, a part-time permanent person How does that compare regionally to other staffing, um, configurations. With our neighbors So I don t have the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3728.576,
-    "end": 3759.7,
-    "text": "cases they have one or more full-time positions, but it s typically to scale where Arlington is larger than us. I think they have at least 2 green building specialists, uh, so it depends on the size of the jurisdiction. I can get that information to you, I guess how many people implement their policies if that s helpful. Council member Hall, thank you. Uh, I appreciate the presentation very much, uh, very informative, um some of my questions I think are covered"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 3724.206,
+    "end": 3756.169,
+    "text": "exact numbers here, but I have reached out to them and in some cases they have one or more full-time positions, but it s typically to scale where Arlington is larger than us. I think they have at least 2 green building specialists, uh, so it depends on the size of the jurisdiction. I can get that information to you, I guess how many people implement their policies if that s helpful. Council member Hall, thank you. Uh, I appreciate the presentation very much, uh,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3759.408,
-    "end": 3790.904,
-    "text": "in the, uh, staff report, but I just want to clarify a few things. Um, the first one is just, uh, to piggyback on the part-time person, is that like a 50% person? Is that a, you know, 0.75%, what was that 25 hours a week. Ok, so a little more than half time. Ok, um, total side note, um, and if hopefully my, uh, colleagues are in agreement with this, but I would like to see if the City of Fairfax as an entity, as a"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 3756.338,
+    "end": 3787.534,
+    "text": "very informative, um some of my questions I think are covered in the, uh, staff report, but I just want to clarify a few things. Um, the first one is just, uh, to piggyback on the part-time person, is that like a 50% person? Is that a, you know, 0.75%, what was that 25 hours a week. Ok, so a little more than half time. Ok, um, total side note, um, and if hopefully my, uh, colleagues are in agreement with this, but I would like to see if the City"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3792.44,
-    "end": 3823.605,
-    "text": "group, um, could push Dominion for price consideration to push back on this if, you know, if we re looking at potentially a 32% increase. Boy, I m glad I did solar, uh, before the end of the year, but not everybody did, not everybody can, um, but that s insane and especially if it s coming largely from the data centers and I really think that we need to do what we can to work with our colleagues in the region to really push back on that, to push for them to do if they re not already, you know, kind of closed loop water systems, you know, built, uh,"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 3788.904,
+    "end": 3819.299,
+    "text": "of Fairfax as an entity, as a group, um, could push Dominion for price consideration to push back on this if, you know, if we re looking at potentially a 32% increase. Boy, I m glad I did solar, uh, before the end of the year, but not everybody did, not everybody can, um, but that s insane and especially if it s coming largely from the data centers and I really think that we need to do what we can to work with our colleagues in the region to really push back on that, to push for them to do if they re not already, you"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3823.638,
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 3821.2,
     "end": 3854.134,
-    "text": "provide their own energy. I mean, this is it s not I know life isn t fair, but it s not fair to any resident anywhere, especially ours that don t have the tax benefits of these great data centers. Yes, we re benefiting from the service they re providing, but we re also supplementing their bill quite a bit, and I, I have a problem with that. Um I asked Stephanie, I said, Stephanie. Could you guarantee me that the"
+    "text": "know, kind of closed loop water systems, you know, built, uh, provide their own energy. I mean, this is it s not I know life isn t fair, but it s not fair to any resident anywhere, especially ours that don t have the tax benefits of these great data centers. Yes, we re benefiting from the service they re providing, but we re also supplementing their bill quite a bit, and I, I have a problem with that. Um I asked Stephanie, I said, Stephanie. Could you guarantee me that the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3856.238,
     "end": 3888.168,
     "text": "energy savings and grants coming into the city would immediately exceed the $85,000 a year you want to spend on the person. And to her credit, she couldn t give me a definite answer. But I feel that, um, pretty confident that in a few years of that person being able to generate this program that with the opportunity to save energy on the 22 city buildings and in some of the grants, and she s already gotten grants on"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3889.171,
     "end": 3920.667,
     "text": "her own, that this this, uh, person would end up being revenue neutral, at least. In the future ok, thank you. That was actually one of my questions for our city manager too was, was any of this considered in your upcoming budget presentation, and if not, are there any possible budget neutral options to consider to make it happen. I don t need an answer if you don t have one. Well, I, yeah, it s a great question, and ultimately looking at total enhancements and I ll see if my, uh, cfo is paying attention over there, uh, about how much are we looking"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3920.903,
     "end": 3952.698,
     "text": "for, at least dollar value and potential enhancements going into 27. Uh, from memories of total enhancements not including fte, so this would just be enhancements was well over $3 million when you include FTEs, it was potentially another $3 million or almost 30 FTEs that were requested, uh, citywide by all the departments. So I think if, if I recall correctly, and there s a lot of enhancements to cover the initial request was for a full-time position, I,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3952.735,
     "end": 3984.964,
     "text": "I believe. And so I think we should consider this within the context of the entire budget. Now that MAY or MAY not show up in, in the presentation you see in a week or two. It s certainly an enhancement we can consider later too as we engage counsel and look at your priorities as time goes on, but we certainly should look at this within the context of the 27 budget process. Ok, and if that fte, I m sorry, if the part-time employee was not considered. Would this program itself flop? Would it still be manageable just at a much"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3987.402,
     "end": 4019.132,
     "text": "slower implementation rate. So the policy proposed tonight, we don t have staff capacity to do. So if we needed to adopt a policy that existing staff capacity could do. We d have to scale it back dramatically. So it would just be the public sector because you, you need staff to work and engage with the developers, and there s just not staff capacity to do that, but the public sector side of things, we can use consultants. However, that you know, showing research consultants are typically 3"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4019.167,
     "end": 4050.13,
     "text": "times more expensive than stamp time. So, you know, I don t know if it s really worth going down that route to scale it back, plus with the staff capacity for existing buildings, we wouldn t have capacity to make those retrofits to existing buildings where we could see a lot of cost savings, so I think we d be missing out on a lot of, uh, energy efficiency savings from delayed action on our existing buildings. Ok, thank you for clarifying that. Um, and then just a couple other questions on page, or I don t know what"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4050.265,
     "end": 4082.596,
     "text": "slide this technically is. The one that talks about the adopted targets, um it has the pie chart Sorry, I don t know what page it was this one? Yes. What are fugitive emissions at the bottom they re the 6%, which is not a term I m familiar with. I ll, I ll need to get back to you on that. This one here. So, uh, Cog completes our greenhouse gas emissions, so I can go back to the data sheet to find out exactly what those are, um, and semi-unrelated, but birdsafe windows, I think that was covered in the presentation, or"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4082.965,
     "end": 4113.66,
     "text": "in the staff report. Can you talk about the bidsafe windows. I think they call them, um. Bird collision reduction. Yeah, so if you go to page 9. Of the Green Building Policy, um, so one of the credits we do require I guess that s proposed policy, page 9 is the sustainable sites credit for light pollution and bird collision reduction. So this would minimize light pollution,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4115.596,
     "end": 4145.693,
     "text": "glare and sky glow to protect, protect night sky visibility and reduced negative effects on wildlife. So, yeah, so having this credit would help reduce bird collision deaths because windows, you know, they, they would be such a way where birds wouldn t, you know they would know that it s there and when reduce bird death. Yeah Fugitive emissions are unintentional releases of gas from industrial equipment. Ok Thank you. And I do just have a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4145.794,
     "end": 4179.26,
     "text": "couple more questions here. I m just flip to my pages that I pulled down here. Um, you mentioned on the administrative procedures towards the end about, uh, it will be every year to do a green building policy progress report, um I assume that s something that could not be handled without the addition of that part-time person as well. Whether or not we got it implemented, uh, is, is that a, a huge time suck anticipated or policy wasn t implemented. There s nothing to report on. Well, yes, I guess I m just thinking, is this"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4180.829,
     "end": 4212.92,
     "text": "something that, um, individual businesses, the sector, you know, do they report that back to us or that s something that our staff would need to do in order to get that information. I m just thinking like, is it when I, you know, have to do a recycling report or something for an entity. It would be our staff reporting back. So how many developments met the green building standards, how, you know, uh, you know, how many do we give waivers for because they re historic buildings so it would be done by internal staff versus requiring developers to report out because they would be tracking"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4212.894,
     "end": 4243.49,
     "text": "all of that. So it basically, it d be providing a progress support like, so how is the Green Building policy doing? Are we meeting the goals, you know, if not, what do we need to change? So it s basically like a check-in to see how are things going and how can things be improved? Ok. Yeah, I foresee it to be similar to our, our solid waste plan. Ok, I think that s the one I was kind of thinking of. Uh, just one final comment, um, to answer some of your questions there, uh, from us is, I am very interested in this. I do share"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4243.659,
     "end": 4278.76,
     "text": "concerns about, uh, incentives specifically for height and density. Um, I am very open to additional or other considerations as far as incentives go, but I think height and density are not the place that I want to see us encouraging people to do something like this. Thank you. Thank you. Uh, Councilor Peterson, the Council member Amos. Well, thank you for all the great work here. Um as much as I regret that we didn t discuss this a year ago in an unfortunate way it s, it s"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4279.695,
     "end": 4312.559,
     "text": "possibly um a favorable thing because uh we re now able to look at a new set of circumstances that I think recast this issue and perhaps significantly and helps put us in a position where we can consider this in a way that we might not have a year ago and to that point, I am wondering if you could simply restate for us your understanding of what the near term proposed electricity price increases, uh, by Dominion Energy and also what you understand to be the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4315.697,
     "end": 4348.228,
     "text": "forecast longer term for uh electric electricity price increases. Yeah, to, so to reiterate about the utility, rising utility costs Last week, we learned from Dominion Energy that they re proposing to increase what they re charging for electricity, which they want to, uh, increase what they re charging by 32%. So, um, council member Hall had uh, asked earlier, like, what can we do to try to work work with Dominion on this to help reduce"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4349.665,
     "end": 4383.164,
     "text": "that cost. So we work with veba. So this is a Virginia, Virginia, basically, uh, we work with a lawyer and a city attorney, sorry, attorney to help reduce our electricity costs that we set up a contract with them for all municipalities within Virginia that are in Dominion Territory. So negotiations are still happening, so we hope to reduce that cost. However, uh, based on what Dominion s energy demand is, I don t know if we ll be that successful in reducing that cost. So I m, I m, yeah, we re projecting, you"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4386.467,
     "end": 4418.565,
     "text": "know, a, a significant increase around at least 30% and then long term based on their integrated resources plan that the energy demand is going to increase so significantly from data centers that we re looking at electricity rates doubling within the next 15 to 20 years. So very significant utility increase s and that s just for electricity. So we have yet to forecast, uh, other utilities such as water and natural gas. I don t know if you folks remember or notice, but back in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4420.902,
     "end": 4453.567,
     "text": "the summer, uh, Dominion made some significant infrastructure improvements to the substation located at North and Main Street. Um, so they re getting ready for the demand So, I appreciate that and I. I actually think uh this should not be a surprise. I know I ve mentioned this earlier, many other people have, that the handwriting has been on the wall because of load growth that is predominantly associated with data centers, and that s a long term issue, so I think it"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4454.569,
     "end": 4486.801,
     "text": "s right to be, uh, sober and prudent in terms of how we view the energy price situation going forward, uh, and maybe to put that into a little big picture, uh, and then I want to focus on the Green Buildings policy per se, but I I do, uh, support the notion that the city should take advantage of opportunities above and beyond its inputs to general assembly legislation, um, to encourage the state to encourage Dominion Energy"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4487.402,
     "end": 4521.401,
     "text": "through the irp or whatever other means, uh, to consider our needs as well as the needs of other jurisdictions. And so there s a lot going on right now and some of that is within the general assembly, but some of it is outside of the General Assembly and goes through administrative actions and agency actions by the state, and this is going to be a very active and important year, as will next year be in those areas so just put a plug in for us keeping our eye. Um, on the big picture on that. As a part of that, um, one of the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4521.502,
     "end": 4551.598,
     "text": "practical impacts of this price increase is that it will make things more profitable in terms of energy supply and energy demand reduction than they were just a year ago and before that. So for, for folks who don t work in the field, there s these cost effectiveness calculations and curves that basically tell you for a given technology, uh, does this break even? Does it turn a profit? Does it turn a net benefit? What s the payback period, etc."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4553.2,
     "end": 4583.897,
     "text": "For a long time, renewable energy and even energy efficiency has struggled to hit the price points on those cost curves to enter the market in a way that competes successfully against other things. With energy prices going up the way they are here. And, and, and I happened to work these, these numbers for a living. This should open the gate to a flood. Of renewable energy and energy efficiency, and that s the good news. The bad news is that will"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4584.33,
     "end": 4615.295,
     "text": "not happennn by accident. It will require a mechanism to be created in the irp is the predominant mechanism for that, so that this new supply of energy can come online to help us. Every city, every county in the state has the opportunity to be a part of that by then, uh, moving more, uh, solar, more energy efficiency into its system to try to create more electron s So we re living in an environment where realistically we need every electron we can get and we cannot leave renewables behind. We cannot leave energy"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4615.464,
     "end": 4646.127,
     "text": "efficiency behind. So the lead standards here are a regulatory incentive plus other incentives to do just that, but it needs a little bit of help in order to create the gateway for investment to flow in, uh, energy storage is another important part of that. This is a very active area for nationwide investment right now. There is simply no reason that the state of Virginia and for that matter the city of Fairfax shouldn t be a recipient of that flood of investment that s going into energy storage and that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4647.28,
     "end": 4677.825,
     "text": "s important because it makes solar operational by giving you the electrons in the middle of the night, even though the sun is not shining and so battery storage. So this is a big issue. Uh, the other thing that you know, um, I think this is a part of a broader menu of actions the city should be considering to be able to address the issue of energy cost and affordability and as you ve indicated, uh, we re not just looking at energy price increases. We re looking at other commodity we we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4678.593,
     "end": 4708.989,
     "text": "re looking at a series of commodity price increases, food, but we re also looking at utility increases, including water, so commodities and utilities are all going up and the city, I think, uh, in my view has a responsibility to to know what it can do to try to help people across that front. On energy, it would normally mean, as I think these other jurisdictions will demonstrate that you put in place a comprehensive energy plan, and so we have in the proposed listing of capital improvement projects or activities by the sustainability division. Uh,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4709.825,
     "end": 4741.153,
     "text": "putting in a, a climate and energy plan which would be a logical place for this to be done and this would be a part of that, I would presume, but it doesn t make sense to wait. This is something that doesn t need to wait to go through a longer term planning process, but I think it s not the only thing we should be thinking about doing to deal with the situation because the affordability issue with energy is a real one. Again, we ve seen the handwriting on the wall, but the, the chickens have come to roost and they re gonna be a whole lot more of them. Couple of, um, specific"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4742.79,
     "end": 4772.953,
     "text": "questions. So by the way, um, I m not sure how much Cadmus did to help scope out some of the payback periods associated with this, but when we asked the question of how much it will cost and how much, um, somebody who makes this investment will benefit from it. One of the ways they look at that as how long does it take to get a payback for the money you put in in terms of energy savings, as the cost of energy goes up, that payback period goes down. It s faster and faster to recover the funding"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4775.423,
     "end": 4805.652,
     "text": "and creates a natural incentive uh, to do that. And so it reduces the amount of additional incentives that are needed to encourage that because the market itself is driving this with these now much more aggressive payback periods. How much. Have you done regarding, uh, payback periods that would help us understand what that might look like in the public sector and the private sector for this program. If there s an upfront expense for this, uh, do we have any benchmarks on how long it takes for that to turn"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4805.753,
     "end": 4837.417,
     "text": "around in terms of a payback period. So one of the first steps in order to calculate payback period, at least for the public sector, is to get a utility data management system set up. Right now, the city doesn t have that. Uh, we have in a variety of Excel sheets, which makes it very hard to analyze and report on. So right now, I guess we don t have the data and data management systems available to be able to calculate that, uh so I guess the first step is getting that utilility data demand"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4838.487,
     "end": 4869.417,
     "text": "management system set up. Our division has found cost savings within our operating budget. And we found, we hope we found enough savings to be able to implement a utility data management system this spring, so we can implement that with existing operating funds. For the private sector, uh, we don t have any cost estimates. For specific projects because it s unknown what projects will come to be in the future. We could make some estimates. Based on past performance, but"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4872.54,
     "end": 4904.919,
     "text": "it, it would be estimates. So the consulta didn t do some calculating for the for, um, payback period for tax abatements. So I do have that information that I could share, but for the proposed building policy that I presented tonight, we don t have any, uh, numbers per se, but we, we could make some estimates for that. Ok, well, that might be helpful. I think there MAY be some some benchmarks out there from, uh, related jurisdictions that could help shed a little light, but I d be surprised if it didn t show that that payback period is looking better and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4906.422,
     "end": 4938.32,
     "text": "better. The, the only example I can think of is, uh, about 10 years ago, we, uh uh hired a company called Amarresco that did a performance contracting on numerous city buildings for energy savings. And it was one of those deals where, um, uh, the energy they give you money and take some of that energy savings back and we use some of that money for capital improvements for like chillers and stuff for the city brings. So we got the money right away and they were getting the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4938.32,
     "end": 4970.652,
     "text": "savings from our energy over the next, and I believe it was like a twenty-year cycle. Yeah, I, I think again what I d like maybe to suggest is that we re dealing with uh what I guess I would have to characterize as a completely new equation. Right now because of the energy situation. So what, what have been a benchmark 10 years ago or even a couple of years ago and in this case, even last year doesn t even work now. This is how fast and how much this has changed, and it might"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4971.253,
     "end": 5001.915,
     "text": "be good just to kind of uh scrub that up a little bit to see what we re looking at now because I think it s a different world. The money is chasing these tight paybacks now, um, uh, getting out from under the risk exposure to energy prices, and I think we want to kind of take a look at where we are. On that. Uh I m curious what the crosswalk is potentially between this policy and then the capacity that comes along with it, which is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5004.787,
     "end": 5035.983,
     "text": "this uh part-time staff person and opportunities for renewables and efficiency um during school renovation. And whether this, if we do retain somebody, are they going to be able to help with that renovation process so that they can be contributing to the design work that will take place this year that will help ensure that that process is incorporating these opportunities more than it otherwise would. Can you"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5036.884,
     "end": 5068.314,
     "text": "comment on that? Yeah, so the part-time climate and energy manager would be a subject matter expert, and they would be part of this process. So I have been working with schools so far on the design, so they ve been, they ve, uh, invited me to the kickoff meeting for Providence Elementary. I think Daniel s Run will be soon, so, but I have very limited staff capacity to provide input, feedback, or provide any guidance. We, I, they have"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5068.35,
     "end": 5099.381,
     "text": "reviewed the proposed green building policy, uh, and just so you know, since the schools have started design since this green building policy hasn t been adopted yet, based on how the policy is written, they would not be required to meet the standards adopted in the Green Belty Policy. If it is adopted this spring because they already started design. However, the, the consultants and the schools did say they re open to um working to see if they can improve their green"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5099.381,
     "end": 5129.944,
     "text": "building standards that they re meeting. And just so you know, just in case you re not aware, schools did budget the major renovations to lead silver, so they have budgeted to meet Le Silver, the proposed green building policy is for leed gold. So the climate and energy manager could help working with schools to identify ways where they could perhaps use their funding more, more innovatively to reach lead gold, or at least lead silver plus, so we can make the schools as efficient"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5130.778,
     "end": 5161.642,
     "text": "and as green as possible. But yes, that position, that would be part of their job to help city buildings for new construction and major renovations to ensure that it follows the green building policy and our efficient and as green as possible. And in the case of schools, but this MAY be the same for others. The project period we re looking at for, um, construction is what is it? 2030 years, or whatever we re essentially locking in something. What s the period of lock in? So for new construction major renovations"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5162.877,
     "end": 5193.574,
     "text": "that could be locking us into uh building performance for the next 30 to 50 years, depending on when we d either rebuild or renovate again. So these are long term investments we re making, so I think it makes sense for us to invest as much as possible to make our buildings efficient as possible, so we see that return on investment over the long-term period of time. And just another uh question and thought. So the issue of retrofit, that said, I m not sure whether"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5194.91,
     "end": 5226.74,
     "text": "Cadme covered this, uh, for you or not, but, um, my understanding is that it is much less expensive to incorporate um a lead standard silver or gold at the time of construction as opposed to going back and doing a retrofit. Is that a fair characterization? So the, the earlier the better. So if of course incorporating green building standards within design is the best case scenario. So we want to include those Green Building standards"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5227.609,
     "end": 5258.105,
     "text": "as soon as possible. Yeah, you re, you re absolutely right because going back to the, the performance contracting. We went through the same thing. The only thing we were able to do with the existing building. Was take out the, uh, the, uh the, the lights and put led lights in put special thermostats in, put sensors in that shut off the lights. There s a limit to what you can do in, um, with existing buildings that have a reasonable payback in a reasonable amount of time. Ok,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5258.239,
     "end": 5290.71,
     "text": "and so the struggle is always how we deal with the upfront, uh, cost of a later stage return, but again, I think because we have a different set of dynamics here. That picture looks different than it did even a year ago, and it would be helpful just to understand that as well as we might as we move forward considering this. I would just add also, I, i would agree that in in terms of the basket of incentives. I, I don t favor, uh, density and height bonuses, uh, particularly because the marketplace under these"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5291.439,
     "end": 5322.436,
     "text": "circumstances is now creating a much, much stronger incentive in the private sector than it did before, and I think that recast that, but I also agree that that s not a favorable trade-off for the city, but we should be examining these other areas of incentives as we go forward. Thank you for all your work in this area. Much appreciated. Councilmember Amos, sometimes it s hard to separate my developer hat and my council hats. I ll wear a bit of both tonight, but excellent work on this. I think this looks great. I think similar to the affordability in housing strategic plan. It s a good"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5322.47,
     "end": 5353.432,
     "text": "launching point for what we re undergoing. I had a few questions, some of which likely you cannot answer tonight, uh, follow up is appreciated, but and it s just my thoughts and framework as we move forward with this policy. Um, the first question I would like to bring up is related to to costs, especially from a developer perspectives, particularly, I am concerned in execution of this policy targeting small and minority owned contractors. How"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5353.802,
     "end": 5384.298,
     "text": "do you address that inequity, especially when we re not launching this plan with the tax incentive program of some sort. I don t really understand from the private side how this plan works without tax incentives. So we did a lot of outreach with developers and the development of this plan. And then we also worked with our consultant Cademus Group to evaluate what are the upfront costs for developers to meet lead standards, so camis did"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5385.2,
     "end": 5416.162,
     "text": "research and it showed that for developments to achieve lead silver, it s actually cost neutral. It doesn t cost developers anymore to meet lead silver, then business as usual, as long as they build that into their design process. So studies have shown that lead silver is, you know, a best practice and doesn t cost Del developers anything extra. So that s why we chose lead silver as part of the private sector policy. So the incentives that we were looking at would would"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5417.66,
     "end": 5449.364,
     "text": "require lead gold or beyond. So that s where the incentives would help provide that additional cost to developers, uh, an existing, so for whatever reason, let s just say it s really hard, you know, there, there might be special circumstances. It might be hard to meet weed silver. We do have a commercial pace program set in place. So developers can take advantage of that to get upfront financing to help pay for a lead consultant and any kind of, uh, projects or retrofits they would need to do"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5449.998,
     "end": 5480.94,
     "text": "to achieve lead silver. So they do have that commercial page program in place that provides that financing mechanism for them to achieve lead silver if they do have special circumstances, and it s nec not necessarily cost neutral for them. So, that s how we came to the, to decide on lead silver as the private sector standard. That s why I figured you selected lead sober, so that s good to know. Um, additionally, I saw that, you know, lead silver, Earthcraft, does that also allow for comparable mechanisms like ngbs or are you"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5480.996,
     "end": 5511.9,
     "text": "prior it izing lead in Earthcraft in particular. We are prioritizing lead and Earthcraft and we see how that goes. We did have a longer list of green building standards, but that was part of the feedback that we received from the community, since there were so many rating systems we were providing that it would that it would be more administrative burden on staff to be able to understand all of them, you know, implement all those different rating standards. So we did limit it to the two that we felt were most relevant to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5511.327,
     "end": 5541.955,
     "text": "this region, and that would be most beneficial to our developers. And to your point, every developer has their own that they prefer because likely their consultant specializes in that one. My next question going to the public sector, and this is probably not a tonight question. I would be curious on the rate of development growth be it cip projects or any type of public sector building pre and post-re building policy implementation. I think that would be helpful to see if at least what we would expect on our end when it comes to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5542.725,
     "end": 5573.754,
     "text": "timelines. I think the what we expect from the public sector versus private sector is very unique and different, and I would like to assess kind of what our circumstances are. Like new projects or existing buildings, yeah. Ok. So, uh, for example what is the, what s kind of the current turnaround of our existing either cip projects or development projects that this would apply to without the policy and then what would it look like moving forward and see if other jurisdictions might have that data. If not, I understand that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5575.891,
     "end": 5608.87,
     "text": "s a bit of a hassle. I ll look into that for you. I do know that the Willard Sherwood Center has been designed to lead gold, so that would meet our current standards, and I have to look into other planned cip projects and get back to you on that. Greatly appreciate that. I only have uh one more question and a comment. So what would be the timeline on the incentive program if we pursued the addendum route, um, because I, again, I, in my mind it s still a chicken and egg. I, I feel like you need the incentive program to really"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5610.91,
     "end": 5644.293,
     "text": "strengthen this policy, um and when other localities have implemented this, they do and it s something similar to an addendum or was the incentive already built in? Depends. Some, some of the jurisdictions in the region have had a green building polosphere like over a decade so I don t know which came first, you know, the standards or the incentive, chicken and egg I don t know that off the top of my head, um. But timeline I guess will depend on council guidance tonight like if we re even moving forward with the green building policy, so that I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5644.293,
     "end": 5676.592,
     "text": "guess it s up to council and city leadership. If we move forward with the Green Building policy so it if timing works out, maybe it could all be adopted together. You know, I m hearing a lot of feedback that density height bonus is not something that is attracted to some council members. So, uh, I guess it, it, it depends on guidance we received tonight about how and when we want to move forward with things. Gotcha. And my final comment to answer your question, I think this is definitely worth pursuing. I just want to be"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5676.592,
     "end": 5707.219,
     "text": "cautious with how we approach it that we re not pricing developers out and i m hesitant to support something like this without an incentive program. Understanding that there s an addendum on the way with a timeline. I think that is perfectly fine. Councilmember Hardy Chandler, so I d like to help offer you some direction. And that s what you came for. Um, I do believe that as a starting point this does strike a balance between not only ambition but aspiration, which is something that, um, I think"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5708.523,
     "end": 5738.619,
     "text": "we need as a city and being grounded in, uh, something that s viable and the feasibility part we have the advantage of learning from our neighbors being so behind, um, that whatever they ve gone through, uh, I think there are lessons there. That can help ground us and avoid perhaps some of the potholes that they ve had to go through. So we have at least, um, that advantage looking from behind, but, uh, I support moving forward. I support, um continuing with this policy. I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5740.221,
     "end": 5771.585,
     "text": "feel like we need to, um, you re talking about, you know, 30, 50 year timelines, and I think it s important for us to take action now, um, for a lot of things, um, I think that you have offered examples of incentives, but I would certainly be in support of further research of an array of perhaps innovative incentives, um, these are examples that s my interpretation of eg. Um, but not an exhaustive list. And"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5771.686,
     "end": 5803.517,
     "text": "so, however broad those incentive packages can be, I think those are things that we can leverage in not only, um, working with developers, but quite frankly building relationship with developers that also hold these as part of their developmental their development philosophy, right? And their values, um, so that s the piece I would like to see, um, also integrated, um, if you go to, can you go to the site that says how we do this. There s a, there s a side with a line in the middle and the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5806.587,
     "end": 5840.321,
     "text": "two sides So this cracks me up in a way because you can literally look at the left side and see a rainbow and the right side and see a cloud, right? I mean, so my question here with this slide is the scaling back there s an extent to which you scale something back and you re actually not moving forward at all. So for the right side, I mean how realistic is that in terms of really, um, having, uh, an impact, um, or is it sort of box checking, right? You know,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5841.255,
     "end": 5873.519,
     "text": "so to what extent is that really a viable option for what we say we want to do as a city. So scaling back it, it, it really reduces the effectiveness of the policy extremely. So with existing staff capacity, the only thing we d have capacity for is the public sector, uh, but then we d be relying on consultants for any new construction and major renovations. Uh, we want to be able to provide support for schools and their renovations that are going on"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5873.689,
     "end": 5905.286,
     "text": "right now, uh, for existing buildings, we don t have staff capacity to look at them, you know, building s all at once. Like we might be able to do one a year. Like it would really slow down the process and really reduce our impacts and because scaling back you know, to just the public sector and really reduces our impact. So if you remember that slide with the pie chart, I mean, the majority of our emissions are from commercial properties so the public sector s just a very small portion of that. So if we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5905.553,
     "end": 5940.354,
     "text": "really want to make an impact, we really need to make sure we adopt the private sector side of things. However, it is, you know, staff time-consuming to educate and work with developers and develop, you know, online forum, educational materials, etc. It s really just time consuming to develop and implement the private sector side of things. So that it is staff time so. I guess we, we, so anyway, so I guess what I m trying to say, scaling back would limit the effectiveness"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5943.158,
     "end": 5973.755,
     "text": "say, at, at a high level, so and then no action or limited action has cost as well. You know, so even though we might be saving costs from hiring a person, we would be increasing costs because we re not avoiding costs from energy efficiency and renewable projects, and so there d be years of uh less efficient buildings and more increased costs to the city. So although we re saving money from not hiring someone, we wind up paying more from inaction. I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5975.391,
     "end": 6006.754,
     "text": "would add that with what I see in the future with Stephanie s division, as far as the solid waste plan and redoing the ordinance and making our refuse and recycling, uh, program, um, successful, they re gonna be even more drained in the future on that side of their workload. So, I think that very little would be able to be done on this, especially what I see coming down her way in the future. Right. So in an environment of exponential"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6007.99,
     "end": 6040.821,
     "text": "change, the more you scale back you actually fall further behind faster is what I m hearing. Um, and going back to the staffing, because we have access to information or I m assuming we have access to information from our neighbors. Is there the possibility for that person, uh, to become, uh, cost neutral quicker than we re anticipating because this person would not be, let s say, starting in a vacuum. Yeah, so there are some immediate cost"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6041.991,
     "end": 6074.921,
     "text": "savings that we can see. So implementing a utility data management system, that would be one of their core responsibilities, so studies have shown that uh by actively evaluating and checking on your utilities bills that these systems can find like billing errors and other issues. So they, they studies have shown about, you ll save about 10% on your utility bills after the first year of implementing utility data management system because of finding those billing errors and fixing"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6075.323,
     "end": 6107.622,
     "text": "things with the utilities. So we ll see some immediate cost savings from that right off the bat. And, uh, the more that this, uh, position can work on improving the efficiency of our existing buildings, the sooner we ll see a return on investment for those projects, so staff capacity will help increase the return on investment for our capital projects. Uh, I don t have that number now because we don t have the utility data management system in place, but once we do, we ll be able to provide better forecasting and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6109.457,
     "end": 6140.354,
     "text": "budget uh estimates for cost savings. Yeah, I would say definitely in uh water and electricity. Uh, you know, there are areas where we have water leaks, which we MAY be able to pursue reimbursement from Fairfax Water. If we can track it and, uh, once in a while, you know, Dominion will make a mistake with the meters. So I, I would say, uh, there would be some payback from that, and I would think if, if this person could get us even one grant a year, it would"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6140.488,
     "end": 6172.185,
     "text": "potentially pay for this. And that was my final question about Grant possibilities. Um, so let me just reiterate my strong support for the policy. The policy is not specifics in practice, but with additional research and additional information, I think we can, um, move forward and I d emphasize that there s a certain urgency to this, um, that, uh, I think is important. So thank you so much. Council member Bates Thank you. Uh certainly support"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6174.55,
     "end": 6208.122,
     "text": "moving forward and uh I also do support further researching the incentives and I know that y all are not at a, um, you know, good spot right now to provide a recommendation on that, but certainly want to look into that further. And a note about a height and density. I think that if we were to at least, you know, not write that off at this point, uh, if anything, this would make sense for that because talking about he ight density, um, assuming the same, you know, footprint all else equal, etc. Uh, greater height means, um, uh,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6208.122,
     "end": 6241.323,
     "text": "lower surface area to volume ratio in terms of heating and cooling efficiency. Um, and greater density looking at where our multi-family developments are in the city. They re mostly along transit routes. So greater, uh amount, uh, number of people concentrated along transit routes, um, potentially, and, uh you know, greater, um number of people uh being served by common infrastructure within, you know, that building, um, and then less land consumed per"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6241.323,
     "end": 6274.256,
     "text": "unit, assuming we re talking about housing here, but, you know, again, I would think that we at least wouldn t want to count anything out at this point, especially, um, you know, what s been presented to us. I do also have concerns about the tax incentives, but again, wouldn t want to rule anything out, and I would want to see if there might even in that case, be a greater, uh, return on investment, um, then we re putting into it. Um, and so again, you know, I strongly support moving forward and, uh, strongly support, um,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6274.256,
     "end": 6306.986,
     "text": "evaluating incentives, continuing to look at that. Um, Councilmember Amos, you know, certainly agree with his concerns about uh moving forward without even considering incentives at all. Um, and, uh, also agree on the urgency of this. Uh, and, uh, you know, I think we re definitely heading in the right direction and a lot of exciting stuff happening here. Thank you. Council member Peterson, can you unpack just a little bit more functionally. Day to day,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6308.524,
     "end": 6338.818,
     "text": "uh, what the energy manager would do, and I think the core of my question is um whether this is a proactive position where somebody is chasing goals and targets and outreach that s necessary in order to make projects happen to meet them and provide the necessary technical assistance and if necessary financial assistance, etc. I mean a go-getter job to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6339.454,
     "end": 6371.918,
     "text": "be sure that this moves the kind of volume we re interested in, or is this a passive thing where somebody s waiting for orders to come in the door that they can help kind of process. I mean, what s your characterization of what this position really involves. Uh, this position would definitely be a proactive position. So they would be using utility data management system to make data-driven decisions, come back to council regarding additional cip projects that help improve energy efficiency and renewables on the private side, the also proactive because they"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6372.453,
     "end": 6406.286,
     "text": "d be educating, uh, developers, making sure they re aware of the commercial pace program, uh, leading guiding them through the process for how the Green Building standards will be met through our existing development review procedure, um, but all, if you could look at Appendix a, the Climate Energy Manager Staff justification. It goes through what their, uh implementation task would be for like the first year, getting into the Green Building policy up and running, uh, and then also what"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6407.88,
     "end": 6438.51,
     "text": "their long term, uh, level of effort would be for, uh, the ongoing policy management and implementation. Uh, there s also the standard operating procedures and performing monitoring procedures within the Green Building Policy at well that, that, that will outline how the climate energy manager is involved with the development review proced ure So I m happy to go through those with you in more detail, uh, I guess let me know, but they would definitely be proactive, uh, so to give you"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6440.923,
     "end": 6471.51,
     "text": "an idea, um, they do a lot of cross-departmental support, ensuring consistent interpretation and enforcement. They provide technical guidance like you had mentioned to both internal and external project teams. They support voluntary participation by private sector projects. They MAY not be qualifying for the, the uh, the standards, but people could voluntarily, uh, be involved, um, but yeah, in the very beginning, they be developing detailed implementation"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6472.121,
     "end": 6504.15,
     "text": "guidance, templates, compliance checklists. They train internal staff because they wouldn t be the only ones guiding this process, uh, work with developers, architects, engineers, contractors, uh, they manage the public sector projects. They d coordinate with Fairfax County Public schools on the new renovations, uh, they d established baseline data and then also regular report on our performance data using the utility data management system. I guess there, there s a lot of things that they do in here, um, like I said, you can review Appendix"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6504.286,
     "end": 6534.548,
     "text": "a and the SOPs but have happy to expand further if you have questions. Thank you. Uh, just one final comment. First, I very much appreciate this and support the approach, um, but I have cautionary notes, uh, about the incentives which some one of which I ve already shared, but I would just say beyond that, the whole issue of providing incentives to developers. We are either at or rapidly approaching the point. At which because of our energy"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6534.682,
     "end": 6565.979,
     "text": "system and the pricing issues that we ve talked about as well as the many benefits associated with managing them where, um, high efficiency buildings, um, will, uh, and should be considered standard product offering. Which is to say that if a developer is not able to provide standard product offering for these really high energy efficiency projects. I think we have to question, uh, how much we want to go out of the way for that particular developer because the market is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6567.282,
     "end": 6599.148,
     "text": "rich with people who are meeting standard product offerings today and are geared up to meet standard product offerings that include these energy standards and other standards including water, etc. In the future and the history of that kind of m ig ration forward to upgrade standard product offering is that it increases market share, profitability, etc. Uh, it MAY be a dividing line, but again, I d like us to be very cautious, uh, about not, uh, harnessing the full potential of the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6599.148,
-    "end": 6630.44,
-    "text": "marketplace on these issues, uh, to help us out. Thank you. Council member Amos and I don t disagree with what you said. What I will say is, and again, why I m glad it s lead silver, is that you still need to be realistic of these projects can t pen pencil out ever. I mean, we re struggling with our own cip projects, let alone a developer with far more limited resources who are trying to scatter and get off the soft funding together to make these projects work. Uh, if you don t have these incentives in place,"
+    "end": 6605.752,
+    "text": "marketplace on these issues, uh, to help us out. Thank you."
+  },
+  {
+    "speaker": "Councilmember Anthony Amos",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header, loose)",
+    "start": 6606.854,
+    "end": 6608.723,
+    "text": "I don t disagree with what you said."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6631.447,
-    "end": 6661.742,
-    "text": "you have and obviously this isn t applicable to buy right developments, but if you don t have an incentives in place for developers, you re going to get stuff that some folks MAY not like, for example, mixed-use products. I know that s, uh, not the flavor for some folks, but the thing is, if you don t put money or put skin into the game, that s what you re gonna get. You re gonna get what the market tells you, and market rate is housing, especially I m I m housing-oriented, is already especially difficult to develop right now that everyone s trying to shift to affordable, get a light tech financing. Options are already"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 6609.658,
+    "end": 6641.824,
+    "text": "What I will say is, and again, why I m glad it s lead silver, is that you still need to be realistic of these projects can t pen pencil out ever. I mean, we re struggling with our own cip projects, let alone a developer with far more limited resources who are trying to scatter and get off the soft funding together to make these projects work. Uh, if you don t have these incentives in place, you have and obviously this isn t applicable to buy right developments, but if you don t have an incentives in place for developers, you re going to get stuff that some folks MAY not like, for example, mixed-use products. I know that"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6662.745,
-    "end": 6692.774,
-    "text": "limited. If localities don t provide additional options, but provide additional restrictions, you re going to get stuck in one place and you re gonna get the same development over and over and over again, which no one here wants. So that s all I got to say on that. Council member McQuillan So as we re discussing this, um, and I recognize the need for the utility data management system. Completely understand and think that that needs to happen like yesterday. So I m with you on that. My question is, is one part-time employee gonna be"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 6641.824,
+    "end": 6672.619,
+    "text": "s, uh, not the flavor for some folks, but the thing is, if you don t put money or put skin into the game, that s what you re gonna get. You re gonna get what the market tells you, and market rate is housing, especially I m I m housing-oriented, is already especially difficult to develop right now that everyone s trying to shift to affordable, get a light tech financing. Options are already limited. If localities don t provide additional options, but provide additional restrictions, you re going to get stuck in one place and you re gonna get the same development over and over and over again, which no one here wants. So that s all I"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6693.441,
-    "end": 6724.871,
-    "text": "enough? You know, we re going to be asking developers and, and, you know, ourselves to develop at a at standard standard and to supply, i m assuming more information in certain details and things of that nature. So that tells me that the expense for them is going to increase. I want to ensure that if that is a possibility that the process, that s why I was asking questions about the timing and what, what that means on that"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 6674.589,
+    "end": 6704.985,
+    "text": "got to say on that. Council member McQuillan So as we re discussing this, um, and I recognize the need for the utility data management system. Completely understand and think that that needs to happen like yesterday. So I m with you on that. My question is, is one part-time employee gonna be enough? You know, we re going to be asking developers and, and, you know, ourselves to develop at a at standard"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6724.872,
-    "end": 6757.638,
-    "text": "side of the equation for developers coming in. Um, will the one part-time employee be enough. I m, I m hearing that all the things that this person s going to have to handle and manage and maintain. If we re going to implement something, I want to ensure it s successful. I don t want it to get off and then we have, you know, a part-time employee trying to scramble and get this going and then it just causes more frustration. As any new program that we endeavor, you know, we start out with what we believe is the necessary resources and we, we do the"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 6705.19,
+    "end": 6736.117,
+    "text": "standard and to supply, i m assuming more information in certain details and things of that nature. So that tells me that the expense for them is going to increase. I want to ensure that if that is a possibility that the process, that s why I was asking questions about the timing and what, what that means on that side of the equation for developers coming in. Um, will the one part-time employee be enough. I m, I m hearing that all the things that this person s going to have to handle and manage and maintain. If we re going to implement"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6758.539,
-    "end": 6790.604,
-    "text": "work and then we come back to the council. So let s say, you know, we, we do have this person, we would come back to you in 6 months or a year and give you a status update on how it s going, how much money we have saved so far, what this person has done, how the program is growing and possibly if the program grows very, very quickly and largely. Yeah, we might come back for additional resources, but this is a starting point, uh, you know, I, I, I, I put a lot of pressure on Stephanie to try and get this, what could she, how could she do this with the minimum"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 6736.517,
+    "end": 6769.249,
+    "text": "something, I want to ensure it s successful. I don t want it to get off and then we have, you know, a part-time employee trying to scramble and get this going and then it just causes more frustration. As any new program that we endeavor, you know, we start out with what we believe is the necessary resources and we, we do the work and then we come back to the council. So let s say, you know, we, we do have this person, we would come back to you in 6 months or a year and give you a status update on how it s going, how much money we"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6791.173,
-    "end": 6821.368,
-    "text": "amount of resources. So she really knocked her head around to come up with the minimum she would need. And I believe that s a good starting point. I do too. I, I just want to make sure that if we get into a, a position where someone needs more help. We need to keep that process moving fluidly that you guys will come back, you ll let us know that that needs to happen because I that s what I see with any new implementation of any new policy. It tends to, if it s not, um, done well,"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 6770.118,
+    "end": 6803.317,
+    "text": "have saved so far, what this person has done, how the program is growing and possibly if the program grows very, very quickly and largely. Yeah, we might come back for additional resources, but this is a starting point, uh, you know, I, I, I, I put a lot of pressure on Stephanie to try and get this, what could she, how could she do this with the minimum amount of resources. So she really knocked her head around to come up with the minimum she would need. And I believe that s a good starting point. I do too. I, I just want to make sure that if we get into a, a"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6821.769,
-    "end": 6853.868,
-    "text": "then it just becomes a big sticking point and frustration point, and I can just, I don t want staff to have to deal with, to be honest with you. I don t want anyone to have to deal with that. So thank you. I appreciate you answering my question. Councilmember Hall, yeah, just two quick points, um, to your comment about, you know, not wanting to ask too much of developers. I think it was, in my opinion, fairly obvious from the slide that you presented that we re way behind the eight ball, whatever that phrase is, with regard to what other localities are doing. So to me, i don t see this as a burden"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 6803.818,
+    "end": 6835.48,
+    "text": "position where someone needs more help. We need to keep that process moving fluidly that you guys will come back, you ll let us know that that needs to happen because I that s what I see with any new implementation of any new policy. It tends to, if it s not, um, done well, then it just becomes a big sticking point and frustration point, and I can just, I don t want staff to have to deal with, to be honest with you. I don t want anyone to have to deal with that. So thank you. I appreciate you answering my question. Councilmember Hall,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6853.868,
-    "end": 6884.798,
-    "text": "that we re putting on that s not already existing. It s not like we re, you know, leading the, the, the trend with this. I wish that we were, but we re not. So I, I don t, I understand the concern. I m not sure that I share it. Um, I also have a very different job, so, you know, there s that. Um, I also did, uh, ran over and I asked MR. Martinez if he could, um, pull together, not at the moment, but what we do spend on the buildings that we would be considering, uh, as far as electricity goes, so that we"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 6836.452,
+    "end": 6868.85,
+    "text": "yeah, just two quick points, um, to your comment about, you know, not wanting to ask too much of developers. I think it was, in my opinion, fairly obvious from the slide that you presented that we re way behind the eight ball, whatever that phrase is, with regard to what other localities are doing. So to me, i don t see this as a burden that we re putting on that s not already existing. It s not like we re, you know, leading the, the, the trend with this. I wish that we were, but we re not. So I, I don t, I understand the concern. I m not sure that I share it. Um, I also have a very different job,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6885.3,
-    "end": 6916.195,
-    "text": "can really understand if there is a true 32% increase coming, what does that number look like? And potentially does that increase itself get us close to what the cost is projected here for the 85,000 in order to get a part-time employee going. So just, I thought that was a good, you know, potentially somewhat neutral way to look at it and see where that comes. So I understand that that doesn t take into consideration, um, I forget what you call it, but the energy consumption, what"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 6869.418,
+    "end": 6900.881,
+    "text": "so, you know, there s that. Um, I also did, uh, ran over and I asked MR. Martinez if he could, um, pull together, not at the moment, but what we do spend on the buildings that we would be considering, uh, as far as electricity goes, so that we can really understand if there is a true 32% increase coming, what does that number look like? And potentially does that increase itself get us close to what the cost is projected here for the 85,000 in order to get a part-time employee going. So"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6916.698,
-    "end": 6947.628,
-    "text": "were the words you use that where they track the, the tracker utility, that one. I realized it doesn t doesn t consider that too, but it was just another way of, of my brain looking at numbers. So thank you, thank you. So to answer the questions, is there general consensus that we that we believe the plan has the right aspiration and has feasibility built into it. Consensus on that. Do you want"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 6901.716,
+    "end": 6932.847,
+    "text": "just, I thought that was a good, you know, potentially somewhat neutral way to look at it and see where that comes. So I understand that that doesn t take into consideration, um, I forget what you call it, but the energy consumption, what were the words you use that where they track the, the tracker utility, that one. I realized it doesn t doesn t consider that too, but it was just another way of, of my brain looking at numbers. So thank you, thank you. So to answer the questions, is there"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6948.463,
-    "end": 6978.59,
-    "text": "to proceed with the adoption of the Green Building policy with the caveat below. Further research on incentives. Is that, does that capture on the dais because this is what they want to know. So it s a green light for proceeding with uh asterisk that says, please look further at what kind of incentives might be part of this, but, but the consensus on the diocese is"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 6933.982,
+    "end": 6965.746,
+    "text": "general consensus that we that we believe the plan has the right aspiration and has feasibility built into it. Consensus on that. Do you want to proceed with the adoption of the Green Building policy with the caveat below. Further research on incentives. Is that, does that capture on the dais because this is what they want to know. So it"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6979.227,
-    "end": 7011.191,
-    "text": "that we do want to move forward, we do recognize that there s a lot of potential future cost energy savings that we need to be in step with the jurisdictions around us because we re not an island and developers develop all over the region. So what we re asking for is not out of line with what they re already accustomed to in other jurisdictions where they re building projects. So yes, MR. Alexander, just very quickly, thanks again to staff. They put a lot of work into this, um, over the last month or so, we ve heard a lot of"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 6966.147,
+    "end": 6998.578,
+    "text": "s a green light for proceeding with uh asterisk that says, please look further at what kind of incentives might be part of this, but, but the consensus on the diocese is that we do want to move forward, we do recognize that there s a lot of potential future cost energy savings that we need to be in step with the jurisdictions around us because we re not an island and developers develop all over the region. So what we re asking for is not out of line with what they re already accustomed"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7011.627,
-    "end": 7044.191,
-    "text": "very positive things around farmer sustainability and the screen building policy. So thank you very much. Uh, also understanding that in a week we ll be presenting our our next budget and so as I mentioned earlier, this ll have to be. Part of that as we move forward. Uh, and so we need to think about it within that context of bringing the information back and then deciding how we want to proceed from there, right? So another asterisk that s not there, which is this cannot happen without this position. You can t have a policy without the staff capacity to execute the"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 6999.681,
+    "end": 7032.579,
+    "text": "to in other jurisdictions where they re building projects. So yes, MR. Alexander, just very quickly, thanks again to staff. They put a lot of work into this, um, over the last month or so, we ve heard a lot of very positive things around farmer sustainability and the screen building policy. So thank you very much. Uh, also understanding that in a week we ll be presenting our our next budget and so as I mentioned earlier, this ll have to be. Part of that as we move forward. Uh, and so we need to think about it within that context of bringing the information back and then deciding how we want to proceed"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7045.426,
-    "end": 7078.258,
-    "text": "program, which is the reason it was held up to begin with. You can t have a program without staff to actually run the program. So everyone understands that if you want to proceed, we re looking at rebates and incentives or whatever we re looking at, but we re also acknowledging program is not separate. From having this person to run it. So every still consensus, every, everybody still good with that. Council member Peterson, yeah, the one thing that I think also came up sort of across the"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 7033.916,
+    "end": 7064.877,
+    "text": "from there, right? So another asterisk that s not there, which is this cannot happen without this position. You can t have a policy without the staff capacity to execute the program, which is the reason it was held up to begin with. You can t have a program without staff to actually run the program. So everyone understands that if you want to proceed, we re looking at rebates and incentives or whatever we re looking at, but we re also acknowledging program is not separate. From"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7079.36,
-    "end": 7110.458,
-    "text": "board is the need to the extent possible to freshen up some of our context and, uh, financial implications of the new energy situation because that MAY make things look a little bit different here. I suspect it, well, i m not suggesting we let another contract out for consulting on this, but I think to the extent we can take a look at some of the benchmarks and what have you. Again, I just want to reiterate, as I think we ve heard, we re living in, um, a very new environment right now. All right, thank you very much. You have some king cake or something. Throw some"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 7065.179,
+    "end": 7095.809,
+    "text": "having this person to run it. So every still consensus, every, everybody still good with that. Council member Peterson, yeah, the one thing that I think also came up sort of across the board is the need to the extent possible to freshen up some of our context and, uh, financial implications of the new energy situation because that MAY make things look a little bit different here. I suspect it, well, i m not suggesting we let another contract out for consulting on this, but I think"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7110.458,
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 7096.145,
     "end": 7145.393,
-    "text": "beads. I don t know MISS Shenenberry, ok, our next item is the introduction of draft small area plans, zoning ordinance amendments. I will recognize Paul Nabty, our planning division chief for the presentation. Thank you, Mayor Reed and members of City"
+    "text": "to the extent we can take a look at some of the benchmarks and what have you. Again, I just want to reiterate, as I think we ve heard, we re living in, um, a very new environment right now. All right, thank you very much. You have some king cake or something. Throw some beads. I don t know MISS Shenenberry, ok, our next item is the introduction of draft small area plans, zoning ordinance amendments. I will recognize Paul Nabty, our planning division chief for the presentation. Thank you, Mayor Reed and members of City"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7146.95,
     "end": 7180.427,
     "text": "council. Uh, it s been a while since we ve talked about this project. So I ll give you a quick background also for anyone who might be hearing about it for the first time. Uh, we ll give you a background and then we will go over an outline of this draft, uh, and essentially the purpose of this meeting is just to introduce you to the draft. We recognize that this is a fairly significant document and is pretty complex. And so we plan to come back to you on MARCH 10th to talk about it in more detail. So for background, uh,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7181.195,
     "end": 7215.62,
     "text": "the smaller your plans were recommended in the 2019 comprehensive plan, uh, and since that time, we have developed a smaller plans for 4 of the 5 activity centers that were identified in the comprehensive plan. The 5th, uh, picket in Maine is, uh, in question as, uh, we are trying to determine if there s a need to develop a full plan for, for that location. And, uh, based on the recommendations of the 2019 Comprehensive Plan, the smaller plans are intended to provide more detail in each of the activity centers regarding the mix of uses, densities and intensities, design aesthetics,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7216.23,
     "end": 7248.295,
     "text": "street locations, uh, and multimodal connections, infrastructure improvements, parking and open space. With the smaller plans adopted, these become an extension of the comprehensive plan, which is our land use policy. However, it is not regulations. So as city council is aware, as we have had, uh, private development applications come in since the plans have been adopted. A lot of what we see with those proposals is a negotiation process where we are trying to achieve the benefits to the community that are identified in the small"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7249.732,
     "end": 7280.662,
     "text": "area plans, uh, through the development process where we don t have any standards that make this consistent. Uh, in addition, there are also recommendations in the smaller plans that MAY conflict with uh the regulations in our zoning ordinance, and so we have conflicts we have to work through as well. Uh, the comprehensive plan has an action that suggests that we regularly review the zoning ordinance to ensure it supports the future land use map and other guidance from the comprehensive plan and smaller plans. So this was a Genesis uh for this project starting, uh, with the intent of removing, uh, the majority of the conflicts"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7280.662,
     "end": 7311.25,
     "text": "between the zoning ordinance and adopted small area plans, as well as minimizing the need for negotiations and having as much of that material in the code. So this process began in the summer of 2024, uh, retained a consultant, White Smith in Casino Planning and Law. Um, and they began by developing uh or or looking or doing background research, uh, and conducting interviews with stakeholders and holding a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7311.592,
     "end": 7344.993,
     "text": "community meeting, uh, which occurred in, uh, fall of 2024. We also had introduction work sessions with the Planning Commission City council in JANUARY of 2025. Uh, this is followed by what we call the strategy development phase and during this phase, the consultant took what they learned from the uh initial phase and identify the types of issues that we would need to deal with through these amendments. At that time, they weren t proposing any specific text, but I just want to make sure we re covering the right topics. Uh, this was confirmed with Fly Commission City council in APRIL 2025. Uh, and then another community meeting"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7346.361,
     "end": 7376.391,
     "text": "was held, uh, to confirm this with other stakeholders in MAY of 2025. So the result of that second phase of the effort was to identify those topics that were the consultant was to be dealing with as they prepared the text and I won t go through all of these, but these are those topics. I wanted to highlight the two items in red that since that time, we have identified that it would be better for city staff to lead, uh, because these MAY be applicable outside the activity centers and aren t necessarily directly uh related to specific"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7376.724,
     "end": 7407.455,
     "text": "recommendations of the smaller plans. Uh, and these two items are uh, looking at tree canopy requirements and the related tree ordinances. Uh, this is something that, um, city staff is going to be working on anyway, particularly with the recent adoption of the Urban Forest Master plan. And then the second item is to look at our parking standards. Uh, the small airplanes, as much as they discussed parking and sharing parking, um, and creating a single parking districts. Uh, they don t have specific recommendations on parking quantities. And so this is something that we felt was"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7407.89,
     "end": 7440.287,
     "text": "not within the scope for our consultant. So, um, since, uh, spring of last year when the consultant finished phase 2. They ve been working on the draft that is uh in the staff report, um, and, um, this is something that, as I mentioned, we recognize that this is a long document, also very complex, and so we wanted to have this initial work session to uh introduce this to you, provide you an outline, uh, so as you read it, it ll give you a frame of reference, um, and help you understand what you re looking at and then we ll come"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7440.522,
     "end": 7470.951,
     "text": "back on MARCH 10th to have a full work session to go over each topic that is in there. You also noticed in the staff report is a summary of the uh amendments. Hopefully this will be useful as well Um the draft will also be posted on our engage page in the next couple of days, um, and we ll send out notices so people will be able to provide comments, uh, online. We are also scheduled to have a community meeting on MARCH 26th. Uh, this will be from 5 to 8"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7471.419,
     "end": 7502.716,
     "text": "P.M. In the Sherwood Center, and we ll get more information about that shortly. Um, and once this review is complete, uh, with the planning commission City council as well as with the general public, uh, we ll begin working on a second draft and come back for another round of work sessions, uh, and community review after that. Um, and then hopefully head towards public hearings. Uh, so the, on this slide, looking to the left, you can see the schedules that we have proposed for this review. Uh, we met with the Planning Commission last week to have the same introduction."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7503.319,
     "end": 7533.714,
     "text": "We got, we, we also got into some of the topics with them at that time. Uh, today we re having an introduction with you and then the next two meetings with the planning commission will be going into some of the more detailed topics with them again. And then we re back to you on MARCH 10 to um go over the, the details with you. Uh, and we are also proposing, um, this isn t shown in the calendar that we MAY separate those elements that city staff are working on, uh, just recognizing the amount of material here, uh, it MAY be too much to cover on MARCH 10th, so we might come back to you at"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7533.748,
     "end": 7564.245,
     "text": "a future date to talk about the tree ordinance and the parking standards. So for today s summary, the things that we ll go over the five topics to be aware of that are in the draft ordinance in your packet or the zoning structure. This is how, um, the, uh, the, the proposed amendments will fit within the structure of the current zoning ordinance and relate to our existing processes. We ll talk about dimensional standards. Uh, there aren t a lot of them, but the, the few that there are are pretty significant. Uh, and that also relates to community benefits, uh, for the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7565.47,
     "end": 7596.311,
     "text": "conversations we were having earlier, community benefits would be a means for developers to achieve bonus density, uh, on those dimensional standards for providing community benefits, um, that wouldn t typically be expected of developers. Uh, there is a section on frontages, which is uh guidance provided in smaller airplanes on ground floor uses and design. Uh, the small airplanes are intended to be pretty flexible with uses, uh, recognizing that they are mixed-use district, but the exception to that is specific locations where uh certain uses"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7597.212,
     "end": 7627.975,
     "text": "and conditions are desired to create a cohesive environment. And then lastly, there s a section on open space, uh, and there are different standards that are proposed, uh, from our typical open space standards, uh, because the small airplanes desire not just open space, but each open space to have a particular type of character or use to it. Uh, and then on the bottom there, the connected efforts, these are the items I mentioned that city staff is taking the lead on. Um, this is our use table, which I ll explain more later. Uh, parking, uh, requirements and, uh, landscaping and the tree ordinance. And as I mentioned,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7628.277,
     "end": 7659.673,
     "text": "we, we MAY come back to you at a later date for those after MARCH 10th. Uh, so I wanted to quickly mention you ll notice there is a section on parking in the draft amendments. Uh, that is one option that was provided by our consultant. I ll talk about that in more detail and how that might differ from what staff will be propos ing in a couple of weeks So a couple of things to be aware of as you dive into this. Um, first, the note that s in red here on the page. What s in the draft amendments that you received is the specific text that the consultant is, uh, recommending. Uh, this is the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7660.142,
     "end": 7691.807,
     "text": "first pass, and so we expect changes, but we want to let you know that we are looking at the actual text here. Uh, but you should also know that um this will be divided throughout the zoning ordinance. So it ll fit within our existing structure won t all be one single document like it s shown as we get closer to the end, we will show how we ll fit in our existing, uh, zoning ordinance, but it will be distributed in in multiple locations. Um, some topics we are still working through trying to find the best options to deal with and so we re seeking to get feedback from you and the planning commission and the general public and other stakeholders. Uh, and we don"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7691.807,
     "end": 7723.3,
     "text": "t even have an agreement on some items, uh, between city staff and the consultant. Uh, we have begun running some tests on some real development projects that have been approved just to see how this pans out, to see how things would work, um, and if we d be able to get to, um, the type of developments that have been approved recently. Uh, and again, just a reminder, the goal, one of the goals is to minimize negotiations, uh, and put more focus on having uh requirements and particularly things related to community benefits in the code, however, uh, there are certain cases where we just just can"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7723.973,
     "end": 7756.236,
     "text": "t work, um, based on various elements including uh limit ations with the state code. And so we had to recognize going into this well that is a goal, there will be cases where we still have to negotiate with developers on certain things. So with that, I ll go over the five topics, um, pretty briefly. The first topic is, uh, the proposed zoning structure and as I mentioned, we ll be going over these in more detail on MARCH 10th. This is just to give you a frame of reference as you read the document. Uh, the proposed zoning structure, um, is, uh, some council members might recall, uh, back in the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7756.704,
     "end": 7789.27,
     "text": "spring, our consultant was looking at different ways to incorporate amendments into uh our zoning ordinances. It included things like using uh a new overlay district, uh, mod ify ing the existing commercial urban district, uh, using a planned development district using something like a form-based code, which would be kind of it s its own standalone zoning document, uh, but what they settled on as a preferred option is to create a new, uh, activity center zoning district. Uh, we call this a floating zone because it would not be proactively mapped, a, a applicant would have to request"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7790.104,
     "end": 7821.202,
     "text": "a rezoning to this new district. In addition to that, it would be limited to only be applied in the defined activity center. S and so the activity centers aren t currently defined in our zoning board. It s only a copy as a plant, so we would bring them into the zoning ordinances, uh, and if someone was going to utilize this district, it d have to be located, uh, or have a property that s in one of the defined activity centers. Uh, there will be special submission criteria for this, and as we go through some of the details, you ll see that there is information that would be required, um, for this proposed district that isn t"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7822.371,
     "end": 7854.201,
     "text": "required for, um, all most of our other districts and so, uh, there might be some unique situations such as defining, as I mentioned, defining how open spaces, um, would meet certain definitions. Uh, and the fact that this would require a rezoning means it would still have to go through planning commission and city council for approval. You MAY recall one of the questions we asked back in the spring is whether we want to move towards buy right type development. There wasn t a lot of support for that, uh, and then continuing this process recognizing, uh, as I mentioned, there ll still be some things we have to negotiate with developers for, uh, the preferred option is that this"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7854.536,
     "end": 7886.667,
     "text": "still goes through a land use process, uh, it still goes to the planning commission and city council for review. That being said, we are also proposing that there is an alternative compliance process for some elements of this, uh, and what we mean by that is that if a developer can t meet the standards that are in this new zoning district that there be a means for them to request a form of exception, and there s a specific process that is defined in the draft amendments for this. Um, it would be different from what we normally call a special exception. Uh, they d have to, uh, go through a process of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7887.335,
     "end": 7920.133,
     "text": "explaining the, the purpose for the alternative compliance. And in some cases provide calculations. Uh, also I want to mention in the, in the draft amendments, the for alternative compliance, uh, right now it s just, uh, the only things that could apply to are for parking and frontages. Um, we re seeking feedback from the planning commission, the council on this, but we would also suggest that hype be added to that in particular because of the old town small airplane as an example, specifically recommends that we support building heights that go beyond what is shown in the plan for specific desirable uses,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7920.736,
     "end": 7953.767,
     "text": "including things like hotels and entertainment and um. And other types of uses. Uh, one thing to note on this is that the planning commission, um, also asked that we consider the differences between Old Town and the other activity centers with this and so as we continue to refine this news, um, this new zoning district, um, think about whether old town should uh have a different way of dealing with it or perhaps utilize the existing um transition overlay district, um, as a replacement. So that s something we ll be keeping in mind. The next piece of this, and probably the most"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7954.336,
     "end": 7984.899,
     "text": "significant, uh, is a dimensional standards and community benefits. As I mentioned, these are interrelated, uh, so the, the, the two dimensional standards for which a bonus could be achieved through the community benefits program, our height and density. Uh, so I ll come back to those in a minute to go over them in more detail. The other dimensional standards are transitions. Uh, what this means is that there is language in uh the draft amendments that accounts for relationships between development within the activity center and development outside the activity center. And so there"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7985.199,
     "end": 8017.31,
     "text": "s language about building heights, transitioning, uh, to lower heights as they get closer to the periphery about having landscape setbacks and those types of things. For two properties that are both within the activity center. We don t have the same standards except in the case of historic districts, but in most cases, the, the, the, the vision of the smaller airplanes is that developments become interrelated and so we re not trying to create barriers between them, but we also have to recognize that for areas outside the activity centers we could have very different characteristics. The last item, uh, on the bottom here, um, is a, uh, standard for"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8018.0,
     "end": 8049.395,
     "text": "consolidation. And this is something that is not specifically identified in the smaller airplanes, but we heard a lot of feedback during our earlier phases of this project about a desire to encourage property owners to consolidate, um, before proceeding with redevelopment and so there is a unique, uh, bonus density calculation you ll see in there for consolidation that would apply only to uh property consolidation that happens after the effective date of this ordinance, so it s trying to encourage new consolidation."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8049.798,
     "end": 8082.263,
     "text": "Um, and an output could receive, um, additional density based depending on the size of the property they re able to consolidate, um. Staff has, uh, doesn t necessarily support this part of the amendments, but we went on to at least look into it because we heard a lot of feedback onto it. Uh, and the planning commission s initial reaction is also that they re not necessarily wedded to this either. Uh, so going on to the community benefits, um, and the, the two dimensional standards that are proposed to have bonuses to them. Uh, the two community benefits, uh, types of community benefits that are identified in the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8083.298,
     "end": 8114.127,
     "text": "draft amendments are for open space and contributions to the transportation network. There are a series of other items that were looked at. Uh, this includes Green Building, as MS. Kupka talked about earlier, uh, if we wanted to further research this, this could fit into this overall program and we could look at how those numbers would work Uh, it also includes provisions for community space, which would be uh publicly accessible or institutional uses that are provided uh within a building, uh, provisions for adaptive reuse of existing buildings and the planning commission"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8116.31,
     "end": 8146.66,
     "text": "suggested that we also look into incentives for additional affordable housing beyond what our base requirements are. Uh, so based on feedback from the city attorney, um, we, we try to limit this to just those things that are most important to us, uh, and most important to implementing the vision of the smaller plans, and that is open space and contributions to the transportation network. And so you ll see there are provisions for both of those in there, uh, so a developer can receive additional units or residential units in exchange for providing those items. In the case of open space, there is a base requirement for open"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8148.3,
     "end": 8179.394,
     "text": "space. Uh, the bene the bonus would only be applied for the space provided beyond, um, that base requirement. So for the densities or the bonuses that will be received for height, um, the base height that s proposed for the zoning district in general is 5 stories and the bonus could be achieved to receive anything up to a maximum of what is shown in a smaller airplane maps. These maps will be incorporated into the zoning ordinance as well. Uh, and, uh, thank you, Council member Bates for pointing out we have some discrepancies between the maps that are in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8179.727,
     "end": 8211.91,
     "text": "the draft ordinance in the smaller plans. We will correct these when we come back to you, uh, but to point out that the, the major ones are, uh, that the maps in the draft ordinance show a maximum of 6 stories for uh for a large area south of Old Town where there should be 5 for the small airplane and also shows a maximum of 6 stories for the core of the Camp Washington area, which have, which should have a maximum of 7 for the smaller area plan. And there are a few other smaller deviations in Camp Washington and Fairfax Circle. Again, these will be corrected. The intent is that what is in the ordinance matches what s shown in the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8214.562,
     "end": 8245.526,
     "text": "small area plan. Uh, for density, um we had to introduce a, a density for a residential density for um this district and so that is proposed at 48 dwelling units per acre. Um, that is consistent with what is recommended in the comprehensive plan for activity centers, uh, where a small airplane has not yet been developed. And then from there, the bonuses can be achieved, um, and, uh, also want to point out that, uh, we have run a couple of test fits on recent development proposals. We"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8245.526,
     "end": 8277.557,
     "text": "ll continue to do this and share more information when we come back to you. But just as a quick recap, we want to point out that the two projects we ve looked at so far were the n29/ Willow Woo project, uh, that was approved about two years ago, is now under construction and the project is known as the point, now known as the point at Camp Washington, uh, which was approved in 2018, um, and was completed in 2022. In the case of the point at Camp Washington, uh, the resulting densities that that we believe could be achieved through the contributions to the transportation network and open"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8279.328,
     "end": 8310.291,
     "text": "spaces provided on the site, uh, are higher than what was um ultimately approved and built. In the case of the Willowwood Project, um, the, the resulting densities are less than what was ultimately approved. Uh, however, in that case, we don t think it is so far off that the project would have halted. Um, there probably would have been modifications, maybe there wouldn t have been a slight density decrease, um, or an increase in open spaces or other amenities that it could have gotten them higher. Uh, what we do believe is that in in that kind of situation if the applicant was aware of what the standards were from the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8311.26,
     "end": 8345.59,
     "text": "beginning, then they would reprogram their project and it, and we will still ended up with something there that maybe looks slightly different from what was approved. Uh, one note that the planning commission had on this topic is to make sure we have safeguards to show, make, ensure that the bonus provisions are not abused, uh, and this could be, uh, in the form of something like maximum densities that could be achieved, or more specific standards on what could be counted as, uh, open space or could be counted as contributing towards the transportation network. Uh, the next item in here are the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8345.995,
     "end": 8378.293,
     "text": "frontages, as I mentioned, um, the smaller plans are flexible on uses, um, however, in some locations, specific uses and design elements are recommended on the ground floors, um, and there is, as you go through, you ll see each of these frontage types has descriptions that show not just the types of uses that are proposed, uh, in those frontages, uh, but also design elements, uh, that should be provided such as storefront windows, uh, stoops, and, uh, entrances into ground floor units and those types of things. I do want to point out that there are some"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8378.794,
     "end": 8410.892,
     "text": "modifications to the frontage maps from what s in the smaller airplanes. Uh, this primarily relates to the open space frontage type. This frontage type was not introduced as an idea until the Fairfax Circle smaller airplane, which was the last of the four that we completed, so it did not exist in any of the others. Uh, this, this, um, frontotype is also, uh, only has recommendations related to design, not uses, and so we felt comfortable giving our consultant guidance to go ahead and show where those types of frontages could"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8411.559,
     "end": 8444.57,
     "text": "occur in the other activity centers based on the recommendations that are in those small area plans. Um, again, this is where the ever the green lines are shown, there s guidance for design, uh, on how those buildings should engage open spaces, but it doesn t have a requirement saying there has to be retail on the ground floor or residential or anything like that, uh, whereas the other, uh, the other items do. Uh, the next, uh, section is on open space. So what is generally proposed in these amendments as a base requirement of 10% open"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8444.959,
     "end": 8475.522,
     "text": "space. Uh, this is consistent with what is uh required in most of our other commercial districts. Uh, the difference is that in order to qualify as open space specific, um, uh, design elements must be included, uh, to fit a certain type of character, and so the draft amendments have a list of types of open spaces and they all have defining criteria. And so an application would have to show how each open space meets with one of those types of criteria and is defined as one of those types of open spaces. In addition to that, there s a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8475.791,
     "end": 8507.553,
     "text": "weighting factor. So some types of open spaces are more beneficial to the community. Some are just kind of tangential. So those that are more beneficial have a weighting factor so that they can apply, uh, more of their weight towards the area, um, of the requirement and then those that have less benefit, um, would have less of their area apply towards the requirement. Uh, some areas were not counting towards open space, including parking lot islands, transitional yards which are required the other sections of the zoning ordinance and so on. Uh, and also, as I mentioned,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8508.56,
     "end": 8541.789,
     "text": "in addition at once exceeding their base requirement, uh, developers can seek to have, uh, bonuses applied for additional open space. Uh, these open spaces also have to meet those, uh, defined open space types that are in the ordinance. And then, uh, lastly, I want to mention the uh what we call the connected efforts, uh, these are the items that city staff is working on separately. Uh, the first is, uh, looking at our use table in the zoning ordinance, uh, if these amendments move forward, we would want to encourage them to be used over other venues and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8543.125,
     "end": 8573.353,
     "text": "so we have a predictable and consistent process. And we would do this by removing uh current opportunities for residential and mixed-use development to occur through a special use permit process in many of our commercial districts, um, and this is a way that some applicants have been able to bypass the planning commission, um, and it has resulted in an inconsistent way with uh development applications are reviewed. So if a property is in an activity center and is seeking to have residential or mixed use development is expected that they would use this new"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8574.589,
     "end": 8605.32,
     "text": "district, um, and these other opportunities would be eliminated. The exception being the commercial Urban District, uh, we would propose keeping that as an option, uh, because there are some locations outside of activity centers where we MAY want to support, uh, mixed-use development, and so the commercial urban district would be a way that I could still happen. That would be our only other option, uh, but we would not support the commercial urban district being used in the activity centers. We would, um, this would be really desired for the new district. For parking, um, there are a couple of options"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8605.32,
     "end": 8637.317,
     "text": "that we have come up with. And so, as I mentioned, there is um a parking section that is in the draft amendments that you have. And through that section, uh, the consultant is recommending an opportunity to reduce parking by as much as 25% through various incentives. This involves things like, uh, parking lot design, uh, tree preservation, providing carpool, parking and those types of things. Um, and, uh, city staff, however, has started to look at other ways of dealing with this, primarily because we have some sources of information um"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8637.753,
     "end": 8667.88,
     "text": "through recent surveys, through recent work is done by has been done by the county, uh, and the parking study that was done for Old Town, uh, last year. So we have some data that shows how our parking is actually being utilized and we do see uh that our parking requirements do seem to be a little bit high for residential and retail uses. However, they are very high for office uses. And so rather than have a consistent reduction that would apply to all uses equally. We re propo s ing looking at custom reductions for each use independently"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8668.784,
     "end": 8701.782,
     "text": "really with the focus being on trying to encourage, uh, better use of parking lots for office buildings because that s where we have the most oversupply. For landscaping, uh, the city staff is separately working on a tree conservation ordinance. This is one of the recommendations of the recently adopted Urban Forest Master Plan. This would include, uh, things like strengthening recommendations for tree preservation, um, using, uh, considering tree canopy requirements as green infrastructure and looking at options such as establishing a tree fund. Uh, we are looking at state code, uh, and what is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8703.85,
     "end": 8736.282,
     "text": "allowed in the current code for this and also monitoring, uh, current bills, uh, that MAY go forward, that MAY change and actually enhance the way we re able to, uh, uh, manage tree canopy through our ordinance or through a separate, uh, tree conservation ordinance. Uh, in addition to this, there are some, some provisions in our zoning ordinances that have conflicting information and this will be an opportunity we use to, to clean this up. Uh, so before we wrap this up, I wanted to um mention a uh comments that we received, um, last time we were with with you"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8736.418,
     "end": 8769.25,
     "text": "back in the spring, uh, we re raising concerns about what would happen if we went back and changed our smaller plans, uh, and how this would impact, uh, any types of zoning ordinance amendments that are related to them. Um, and we do expect that we will be reviewing our smaller airplanes and, and making some changes. And so this is something we need to be ready for. And so here we have listed all the topics that are in the proposed draft, um, and the items that are in red is where we MAY have, um, or we would expect to have a little to no impact, um, if the, if the small airplanes are"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8769.718,
     "end": 8801.615,
     "text": "to change, items in green are where we could have some impact. However, in each of these cases, we expect, um, that we could make amendments to accommodate those impacts. So for example, uh, looking at, uh, dimensional standards, uh, if we reviewed the smaller airplanes and decided to change the height recommendations at some locations. Uh, these amendments are setting up a structure for those heights to be defined if we wanted to change that in the future, we could amend the zoning ordinance, um, and really just change the maps or the numbers and not have to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8801.683,
     "end": 8832.245,
     "text": "change the whole structure, um, and I also wanted to point out the item on the bottom, uh, one of the concerns we ve been hearing about is the overall development, uh, capacity that is shown in the small airplanes combined. Um, and this relates to uh oh, this could be affected by looking at things like traffic analysis or school impacts or fiscal analysis. And so if we, if we look at the total number of residential units that s proposed in a particular small area plan. If that were to change, whether to go up or to go down, that really should have minimal"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8832.615,
     "end": 8864.145,
     "text": "impact on the zoning ordinances because this applies to individual sites, not the holistic, um, not the holistic target. Uh, and so that s what we have for today. As I mentioned, we will be back in a couple of weeks. Uh, feel free to send us questions as you review the draft. Uh, we aren t expecting questions or comments, but if you have any, we, we d love it if you share them as well because that will also help your colleagues as they review the draft as well. Uh, so we ll leave it at that. Thank you. Thank you, Council member Amos. Uh, thank you for this excellent presentation. I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8865.613,
     "end": 8895.876,
     "text": "only had a couple of questions. The first one was just going back to that consolidation piece and stabs inside but also the discussions among the planning commission. Why was consolidation bonuses considered less attractive, and are there discussions for alternatives? Uh, when, when looking more into the details and, and we ll get into more in this later, but I m glad you brought it up now, um we, the, the program that is proposed in the amendments relates only to site size and a lot of the concerns that we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8896.344,
     "end": 8928.775,
     "text": "ve had in the past about consolidations isn t necessarily the size of the site, but the fact that a particular parcel was being omitted. Um, and so in working with our city attorney, we tried to see if there s a way that we can encourage consolidation or, or purchase of another property or showing how another property could developed and he just didn t feel comfortable having that kind of language in our ordinance. So that s one of the things we feel is gonna be left to the negotiating table. Um, if the interest is more about having larger sites because it creates better cohesive development, um, then that is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8928.776,
     "end": 8958.906,
     "text": "something that this does contribute toward and we could consider, continue to consider it. Understood. Thank you. Um, my next question. Would be, well, one happy to really talk about the parking reductions and opportunities. I think the custom parking reductions, as you noted, uh, would make a lot of sense. I think there are certain areas where we re under park, for example, where I used to live, Leyton Hall, but there are a number of areas where we re over parked, particularly with some of the newer developments. So I think if we can exchange that and incentivize it for, for example, additional open space that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8960.442,
     "end": 8992.838,
     "text": "would be far more preferred. And so going onto the open space component, those potential bonuses, I m assuming that s restricted to on-site improvements. It s not like, for example, a fund that they could do offsite improvements for open space and still qualify for points. Is that correct? Uh, in the current draft, no, it would not include offsite contributions. Ok. And my last comment is I m sure the planning commission s happy to, to have that inconsistent review process be shifted. So I imagine that came up. Pretty"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8994.41,
     "end": 9027.741,
     "text": "heavily. It did. Thank you. Councilmember Hall thank you Um, a lot of information. I tried to absorb everything in the, uh, report, but I don t think I got it all. Um, just, uh, I ll piggyback right off of your last question, which is about, um, the, the open spaces and potential for offsite contributions. I think that there should potentially be a consideration for offsite improvements because I, if I read it correctly, it talked about that there was, there was open space that was considered"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9027.743,
     "end": 9059.805,
     "text": "open in that anyone could access it, and it wasn t part of the transitional, um, area, but there also sounded like there were open spaces that were essentially closed off but still accessible only by the residents? Did, did I interpret that correctly? My laptop just died too, so I can t pull it up. Ok, so I think if, if those are only the areas that can be improved open space wise, I think we might be missing out on a potential contribution to a Van enhancement or other, you know, park activities that, you know, the greater public"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9060.141,
     "end": 9091.838,
     "text": "might be using, um, same kind of goes for school proffers and some of those other things along the way. Um, I was hoping you could explain a little bit more about the transportation bonus. Is that just if they re contributing to like the Qbus fund or something along those lines. The transportation bonus is specifically for contributions toward the street or pedestrian network on their site, uh, so similar to openSpace we see it as things that a development is providing that provide a benefit to the public, um, that wouldn t be"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9096.311,
     "end": 9129.41,
     "text": "just for their own use. Ok. Um, page 11, I think of the staff presentation. Um, it s, if, if I understood it correctly, it was talking about that there were certain areas in that green that now no longer would potentially require commercial on the ground floor. Uh, yes, so that s one of the things we re working out with the, with the map if I understand correctly, with the green, um, the green locations never um had recommendations for commercial on the ground floor. That, that was just"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9129.478,
     "end": 9161.775,
     "text": "design-based. However, um, there are locations where when we added the green to the map, it overlaps with the blue with the red, where commercial is required. And so we re trying to work through that to make sure we re not losing the commercial piece and in some cases on these maps, I think there are some, some small pieces where the green kind of took it over and we re gonna work to correct that. Ok, yeah, I, I do share concerns about or not share, but I have concerns about reducing the amount of commercial. I know one of the pre-applications that we re going to see, I think next week or the week after, completely eliminates a commercial 100% commercial space at this point"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9163.245,
     "end": 9194.708,
     "text": "and puts it 100% residential. Um, and so I think as we continue to see things like that. I, I just worry that we really, we re so upside down with residential virtuals versus commercial now anyway, and I think that if we intentionally continue to contribute to that. It s, it s gonna be a bigger situation that we re going to be not happy with, um the parking situation, I understand that there are, uh, the community benefits that there is bonus"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9194.742,
     "end": 9225.406,
     "text": "density options in addition to parking reductions. I just want to make sure that those two things are not at work for the same place, for the same competing situation. You know, like if you re allowing more units they re doing these other things. But you re also allowing a reduction in parking. I just think there s a fine line between that, that we need to make sure that we are still following our minimum formulas, and I m sure you know that better than I do, but it s just a concern. Yeah, so we will keep track of that and there are, you might notice there was a piece in there, uh, on the parking reduction for tree preservation, which is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9226.408,
     "end": 9256.87,
     "text": "something you can also get a bonus density for, and we ll have to make sure when we finalize this, you re there, there s no double dipping. Ok. Uh, and on the heels of parking, you know, it was talking about how, um, for a good 2500 square foot office, uh, an office itself would need 9 spaces, whereas a commercial retail would need 13 spaces and whether or not that s too high or too low, I don t know. I have to trust you guys on that. Um, but it did just remind me of the situation that we dealt with before with the parking"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9258.273,
     "end": 9289.771,
     "text": "situation at a home-based daycare where they couldn t have extra children because they had a linear driveway that would be blocking and I just think that if we re talking, and I understand it s unrelated, but if we re talking about parking reductions in certain places where people are going to be for a considerable period of time, visiting an office, shopping, we really should be very mindful of what we re forcing our daycares to do for a very, very short period of drop off and pick up. Um, especially when I know that specific house, I believe that 3 of the kids that were there"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9289.771,
     "end": 9321.501,
     "text": "actually walked. And so if we re trying to encourage all this multimodal stuff I just think we, we need to be cognizant of what we re doing as we try to consider those other areas as well. Um, again, I now understand it s unrelated, but it, it s not in my head. Um the height bonuses, I get very concerned about those because I think that you open a window and I think then the door just goes wide open and I saw, I unfortunately my laptop died, but, um, I think it was in the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9322.104,
     "end": 9353.867,
     "text": "Northfax area, it showed 7 stories, and I think in the old town area it was limited to 6 and then um in the Fairfax circle, I think it was 9. Um, where are we currently with are any of the, the maximum heights in that area, those small area plans, are any of those currently being met with what that maximum is. Uh, you mean, are there any like development projects underway that are building to the maximum, yeah,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9355.27,
     "end": 9385.698,
     "text": "or like in Northfax, I think the residents in is 6 stories. I is that correct? I think it might be 55, ok, but the um the uh I can t remember the name of the uh the senior living facility that is under construction is is 7, which would be the maximum there that one though I will say is tucked back, whereas if you re looking at where the flood records is and things like that, those might appear very frontage-based, um, and that was one other thing I really didn t love in here is I feel"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9385.833,
     "end": 9419.365,
     "text": "like with the frontage pictures that were shown, it s looking very much like a dc, a Falls Church, a some parts of Vienna where it s, I understand there s a benefit to having the stores and the commercial at the street, you know, at the parking, uh, I m sorry, at the sidewalk there so you can see it and not having a big parking lot in front like I, I understand all of that, but it really does, in my opinion, make you feel like you re in a very tall city and I think some"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9421.336,
     "end": 9451.731,
     "text": "of that can really hurt our small town charm, our old town feel, um, so I was just surprised to see some of the height maximums that are potentially proposed with the bonuses. In what I would consider to be residential areas. Uh, it s one thing I think for Fairfax Circle to be a little bit taller because you don t have a lot of single family homes that would be competing with that visually, like they re not like looking, but when you get into Northfax and part of the Camp Washington area. I just think some of that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9452.635,
     "end": 9482.663,
     "text": "might be a little oversized for what we re talking about So I think those are all of my comments for now. You came up so I think you had something to say. I m sorry I didn t mean to talk over it. Oh, no, no, it was, it was a great conversation. I, I wanted to circle back to the question you had about off-site open space or contributions to parks since our city attorney s not here, um, that is something we re gonna have to have a conversation about, uh, you will, as a point of information, uh, MR. Foreman is going to be bringing a level service study"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9483.464,
     "end": 9516.663,
     "text": "to you all that, uh, we ll delve into impacts by developmental city services, and that will eventually ascribe what the expected level of service, um you know, mitigation factor to directly offset the, the, the impacts by developmental and city services would be, it s a little different, but we re constrained by what the state enables us to allow in the zoning ordinances. We re, we re kind of stuck on what we can or can t. Very good question though. Thank you. Got really loud. Thank you very much. This"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9517.932,
-    "end": 9549.196,
-    "text": "was a, a very helpful and informative conversation and certainly brought a lot of meaning to, um, you know, the slides that I was reading and trying to understand, so I appreciate it very much. Council member McQuillan Thank you, Mayor Um, so the, the things I hear most from residents, I m not a zoning professional, obviously, or a planner. So, uh, forgive me if this sounds ignorant, I m just going to relay the things and the concerns that resonate most with the residents I hear from. So one is the parking. Um, I"
+    "end": 9526.773,
+    "text": "was a, a very helpful and informative conversation and certainly brought a lot of meaning to, um, you know, the slides that I was reading and trying to understand, so I appreciate it very much."
   },
   {
+    "speaker": "Councilmember Rachel McQuillen",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header, loose)",
+    "start": 9527.409,
+    "end": 9529.409,
+    "text": "Thank"
+  },
+  {
     "speaker": "Unknown Speaker",
-    "start": 9549.297,
-    "end": 9580.762,
-    "text": "know I watched, I, I received the study too, and even though we have plenty of parking, there is this feeling that we don t. And the big concern with, um, reducing any parking require ment s is that then people will then decide to park in residential areas and on streets and, and things of that nature. So that s a concern I hear a lot of and just something to be aware of. Um, the Tree Fund, I think tree conservation, the tree conservation ordinance is a is a strong idea, um, establishing the tree fund, I just think"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 9531.58,
+    "end": 9562.743,
+    "text": "you, Mayor Um, so the, the things I hear most from residents, I m not a zoning professional, obviously, or a planner. So, uh, forgive me if this sounds ignorant, I m just going to relay the things and the concerns that resonate most with the residents I hear from. So one is the parking. Um, I know I watched, I, I received the study too, and even though we have plenty of parking, there is this feeling that we don t. And the big concern with, um, reducing any parking require ment s is that then"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9581.562,
-    "end": 9614.561,
-    "text": "there needs to be a little bit more communication about that, um, exactly how that s going to work, the concerns that I hear from residents have to do with the um if we if they can just put the money in a fund, those trees won t be back. We won t have the canopy. We won t have the things that we have now. And so I think there s just a lot of um misinformation and they just need more information to clear that, you know, up a little bit. Just that I want to mention when um when we talk about that in more detail, uh, MS. Afford will be here to"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 9563.77,
+    "end": 9595.108,
+    "text": "people will then decide to park in residential areas and on streets and, and things of that nature. So that s a concern I hear a lot of and just something to be aware of. Um, the Tree Fund, I think tree conservation, the tree conservation ordinance is a is a strong idea, um, establishing the tree fund, I just think there needs to be a little bit more communication about that, um, exactly how that s going to work, the concerns that I hear from residents have to do with the um if we if they can just put the money in a fund, those trees won t be back. We won t"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9614.596,
-    "end": 9644.625,
-    "text": "provide some explanation, but I want to let you know they re, you know, there s some regulations from the state about how a tree fund would be applied and how that would relate to a tree bank. Um, which has some other concerns to it and what she will tell you is that the state says we have to adopt them together if we re going to adopt one. And so this is something that I would say staff is not 100% bought into yet and we ll want to continue to evaluate that with you. Excellent. Thank you. Um, I also hear and personally, um, the height and the density"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 9595.144,
+    "end": 9625.772,
+    "text": "have the canopy. We won t have the things that we have now. And so I think there s just a lot of um misinformation and they just need more information to clear that, you know, up a little bit. Just that I want to mention when um when we talk about that in more detail, uh, MS. Afford will be here to provide some explanation, but I want to let you know they re, you know, there s some regulations from the state about how a tree fund would be applied and how that would relate to a tree bank. Um, which has some other concerns"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9645.59,
-    "end": 9677.692,
-    "text": "is always a concern. That s something that always comes up, the standards for that. Uh, you already are aware of that You ve discussed that in your presentation tonight. I also share, um, the sentiments that Councilmember Hall stated regarding the frontages, um just this evening, council had a great discussion with someone who complimented the feel and the look of our old town area and concerns regarding, you know, preserving that feeling, that small town feel. And so"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 9626.75,
+    "end": 9658.673,
+    "text": "to it and what she will tell you is that the state says we have to adopt them together if we re going to adopt one. And so this is something that I would say staff is not 100% bought into yet and we ll want to continue to evaluate that with you. Excellent. Thank you. Um, I also hear and personally, um, the height and the density is always a concern. That s something that always comes up, the standards for that. Uh, you already are aware of that You ve discussed that in your presentation tonight. I also share, um, the sentiments that Councilmember Hall stated"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9678.16,
-    "end": 9709.99,
-    "text": "the height and density standards and the frontages that all, I think, kind of plays into that. Um, just ensuring during the community outreach portions that were really understanding what it is that that makes that small town feel. So because that mean s something that everybody, uh it s something different to everyone, um, could you go into a little more detail on the floating zone regarding special exceptions. You mentioned that, um, that they could apply for special exceptions, um, would have to request it through the,"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 9661.744,
+    "end": 9692.273,
+    "text": "regarding the frontages, um just this evening, council had a great discussion with someone who complimented the feel and the look of our old town area and concerns regarding, you know, preserving that feeling, that small town feel. And so the height and density standards and the frontages that all, I think, kind of plays into that. Um, just ensuring during the community outreach portions that were really understanding what it is that that makes that small town feel. So because that mean s"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9709.992,
-    "end": 9740.354,
-    "text": "could you just go back over that. Yeah, so the, what we have is, it s a different process from special exceptions, um, called Earth s alternative compliance, um, and what this means is that I can t find the slide, but uh anyway, it s, it s, it s, it s a section where we recognize that this is something very new for us. Um, a lot of the things that are in this proposed district are different from any other district we have. And so we, we don t think we re gonna be able to have something to perfection, um, the first go around, and I think there"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 9692.274,
+    "end": 9724.972,
+    "text": "something that everybody, uh it s something different to everyone, um, could you go into a little more detail on the floating zone regarding special exceptions. You mentioned that, um, that they could apply for special exceptions, um, would have to request it through the, could you just go back over that. Yeah, so the, what we have is, it s a different process from special exceptions, um, called Earth s alternative compliance, um, and what this means is that I can t find the slide, but uh anyway, it s, it s, it s, it"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9741.123,
-    "end": 9771.185,
-    "text": "s gonna be cases where uh somebody proposes something that the city really wants and just some portions of it might deviate from what s in this code and we need to have a venue and outlet for them to request a way to, to get around that. And so, um, a, a typical process in most of our zoning districts is that there would be a special exception. Somebody wants to propose a building that s taller than what s allowed in the zoning warrants to request a special exception, and it goes with the rest of the package of their amendments in the case of this district instead, we would have this alternative compliance"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 9725.307,
+    "end": 9757.438,
+    "text": "s a section where we recognize that this is something very new for us. Um, a lot of the things that are in this proposed district are different from any other district we have. And so we, we don t think we re gonna be able to have something to perfection, um, the first go around, and I think there s gonna be cases where uh somebody proposes something that the city really wants and just some portions of it might deviate from what s in this code and we need to have a venue and outlet for them to request a way to, to get around that. And so, um, a, a typical process in most of our zoning"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9772.121,
-    "end": 9804.84,
-    "text": "process and the district has specific standards for how they request that that are different from the special exception process and that they had to explain why um they are seeking this alternative compliance, why it makes their proposal more inconsistent with the small area plans, uh, and that type of thing. So it s something we accommodate in most of our districts through a different process. Just the language is a little bit different and we would request different criteria. Ok, so that, um, that interaction would occur between the planning department or zoning or who since that that would basically"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 9757.639,
+    "end": 9790.372,
+    "text": "districts is that there would be a special exception. Somebody wants to propose a building that s taller than what s allowed in the zoning warrants to request a special exception, and it goes with the rest of the package of their amendments in the case of this district instead, we would have this alternative compliance process and the district has specific standards for how they request that that are different from the special exception process and that they had to explain why um they are seeking this alternative compliance, why it makes their proposal more inconsistent with the small area plans, uh, and that type of thing. So it s something we accommodate in most of our districts through a different process. Just the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9804.385,
-    "end": 9836.85,
-    "text": "sounds like we would not need to be presented on that special exception. It would be handled by staff. Is that correct? Uh, it would be a part of their overall land use approval. So the planning commission and City council will receive all the materials on the request, and you would have to approve it. Um, it would be a single, um, process, uh, so if you approve the overall rezoning, you d be approving the alternative compliance request, but you would receive all the materials that shows our justification and those sort of things. So all at once. Got it. Thank you. Um, that s it. Thank"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 9790.372,
+    "end": 9821.301,
+    "text": "language is a little bit different and we would request different criteria. Ok, so that, um, that interaction would occur between the planning department or zoning or who since that that would basically sounds like we would not need to be presented on that special exception. It would be handled by staff. Is that correct? Uh, it would be a part of their overall land use approval. So the planning commission and City council will receive all the materials on the request, and you would have to approve"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9839.621,
-    "end": 9871.52,
-    "text": "you so much. Council member Peters. Well, thank you. I d like to, um, chime in and say thanks so much. A lot of great information to absorb and also a number of questions, comments that I had have already been covered, so I won t go back to them. Just, uh, one thing I want to pick up on, you mentioned the small area plan current status of these plans and their design, etc. Will be going through a review process. What is the timing of that? We, we don t have a timing yet. I think we"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 9822.137,
+    "end": 9852.33,
+    "text": "it. Um, it would be a single, um, process, uh, so if you approve the overall rezoning, you d be approving the alternative compliance request, but you would receive all the materials that shows our justification and those sort of things. So all at once. Got it. Thank you. Um, that s it. Thank you so much. Council member Peters. Well, thank you. I d like to, um, chime in and say thanks so much. A lot of great information to absorb and also a number of questions, comments that I had have already been covered, so I won t go back to"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9871.153,
-    "end": 9901.814,
-    "text": "re gonna have to come back with you in the next couple of months and discuss what that review might look like, what type of content we want to cover and that type of thing. And at that time we could establish more of a time frame. But it it s something that s, it s in the near future. Ok, helpful to know then just big picture, it was a little bit difficult for me to follow in the mix of all of the things that are at play here. Uh, the extent to which the updates and"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 9853.535,
+    "end": 9883.731,
+    "text": "them. Just, uh, one thing I want to pick up on, you mentioned the small area plan current status of these plans and their design, etc. Will be going through a review process. What is the timing of that? We, we don t have a timing yet. I think we re gonna have to come back with you in the next couple of months and discuss what that review might look like, what type of content we want to cover and that type of thing. And at that time we could establish more of a time frame. But it it s something that s, it s in the near future."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9903.117,
-    "end": 9936.584,
-    "text": "zoning involve moving from special exemption to buy right. Can you clarify that? How much of that is embedded in this with this proposal, there would be no additional opportunities for buy right development, um, the change would be that in some cases, residential and mixed-use development can now occur in commercial districts with a special use permit, which is not by right, um, but it, it goes to city council but not planning commission. Um, with this district, those opportunities would be removed and a rezoning would be"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 9886.668,
+    "end": 9916.863,
+    "text": "Ok, helpful to know then just big picture, it was a little bit difficult for me to follow in the mix of all of the things that are at play here. Uh, the extent to which the updates and zoning involve moving from special exemption to buy right. Can you clarify that? How much of that is embedded in this with this proposal, there would be no additional opportunities"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9936.884,
-    "end": 9968.416,
-    "text": "required Um, and so it d have to go to planning commission and city council, but there would be no buy right opportunities that don t currently exist. Ok, uh, really helpful to know. And then, uh, I, I wanna also agree in terms of some of the community, um perspective on this, there, there s a continuing concern about height and density. We ve certainly heard about that, but part of that uh is a little bit of a disconnect that might be helpful to explore but on the"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 9917.933,
+    "end": 9950.832,
+    "text": "for buy right development, um, the change would be that in some cases, residential and mixed-use development can now occur in commercial districts with a special use permit, which is not by right, um, but it, it goes to city council but not planning commission. Um, with this district, those opportunities would be removed and a rezoning would be required Um, and so it d have to go to planning commission and city council, but there would be no buy right opportunities that don t currently exist. Ok, uh, really helpful to know. And then, uh, I, I wanna also agree in terms"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9971.319,
-    "end": 10003.417,
-    "text": "numbers side. So we received, uh, a very helpful, uh, note from our city manager, uh, on the number of housing housing units that are either uh in progress or planned from the period of 2020 to 2025. And, uh, we also have, uh, numbers that are provided on the forecast, and now we have actuals, um, or estimated actuals on population growth and housing growth. And"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 9954.836,
+    "end": 9985.6,
+    "text": "of some of the community, um perspective on this, there, there s a continuing concern about height and density. We ve certainly heard about that, but part of that uh is a little bit of a disconnect that might be helpful to explore but on the numbers side. So we received, uh, a very helpful, uh, note from our city manager, uh, on the number of housing housing units that are either uh in progress or planned from the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10003.484,
-    "end": 10035.65,
-    "text": "so we get those numbers, the cooperative forecast has a set of forecasts in them, but we have actuals from census. And I guess here s where there s a little bit of disconnect that MAY uh make sense of some of the concerns that we hear from the community. So we see in the cooperative forecast, uh, basically that there was expected between 20 and 25 based on the city s estimate to be about a 15% increase in population. It actually was about 11 to 12. The increase in households was expected to be"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 9989.438,
+    "end": 10020.433,
+    "text": "period of 2020 to 2025. And, uh, we also have, uh, numbers that are provided on the forecast, and now we have actuals, um, or estimated actuals on population growth and housing growth. And so we get those numbers, the cooperative forecast has a set of forecasts in them, but we have actuals from census. And I guess here s where there s a little bit of disconnect that MAY uh make sense of some of the concerns that we hear from the community. So we see in the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10036.51,
-    "end": 10067.714,
-    "text": "about 13, um, a little bit less than that. I don t know exact that exact number, but also, by the way, includes what s embedded in that is the fact that we re incorporating more population per household, which is a trend here. But again, hang on to the number that what we um actually saw in terms of population growth was 11 to 12% The increase in housing units is almost 42% in that same"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10021.369,
+    "end": 10053.265,
+    "text": "cooperative forecast, uh, basically that there was expected between 20 and 25 based on the city s estimate to be about a 15% increase in population. It actually was about 11 to 12. The increase in households was expected to be about 13, um, a little bit less than that. I don t know exact that exact number, but also, by the way, includes what s embedded in that is the fact that we re incorporating more population per household, which is a trend here. But again, hang on to the number that what"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10068.483,
-    "end": 10098.679,
-    "text": "period, almost 4 times. The rate of population and 4 times the rate of household estimated growth, and that number uh puts us at where we otherwise would expect it to be by 2030, so we re way ahead of schedule. Um, and then in addition to that, um, my understanding is the small area plan. Plans are uh the translation of that forward is about another 4000 units in"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10056.904,
+    "end": 10088.602,
+    "text": "we um actually saw in terms of population growth was 11 to 12% The increase in housing units is almost 42% in that same period, almost 4 times. The rate of population and 4 times the rate of household estimated growth, and that number uh puts us at where we otherwise would expect it to be by 2030, so we re way ahead of schedule. Um, and then in addition to that, um, my understanding is the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10098.813,
-    "end": 10129.143,
-    "text": "the next 10 years, which puts us numerically. Past 2050 in terms of where our population and household growth would be, so we are again, way, way past, uh, the growth rates for our population and household, uh, with our actual units and proposing to add more and on top of that, there s an unanswered question about uh the translation of the maps. For the small area of plans after that period of time, and that s a little bit unclear,"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10092.308,
+    "end": 10125.44,
+    "text": "small area plan. Plans are uh the translation of that forward is about another 4000 units in the next 10 years, which puts us numerically. Past 2050 in terms of where our population and household growth would be, so we are again, way, way past, uh, the growth rates for our population and household, uh, with our actual units and proposing to add more and on top of that, there s an unanswered question about uh the translation of the maps. For the small area of plans"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10129.143,
-    "end": 10160.875,
-    "text": "but the estimates that have come in is that that could as much as double the city s population. And so I think it s not a surprise that we re hearing so much concern from the community about the level, the volume of new high density development coming in the city and where that is projected to go, uh, it would seem to me that that would be one of the top issues that ought to be reexamined in the review of the small area plans to try to recalibrate all of this and based on this history alone, we"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10126.874,
+    "end": 10157.904,
+    "text": "after that period of time, and that s a little bit unclear, but the estimates that have come in is that that could as much as double the city s population. And so I think it s not a surprise that we re hearing so much concern from the community about the level, the volume of new high density development coming in the city and where that is projected to go, uh, it would seem to me that that would be one of the top issues that ought to be reexamined in the review of the small area plans to try to"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10163.679,
-    "end": 10196.11,
-    "text": "have on top of it though now the decline in population we ve seen this last year and that MAY hold for a good stretch, and we ve seen a decline in employment, which also is expected to hold for a stretch, which translate into the last modeling I saw possibly a 20% reduction in household growth, um, here in the city of Fairfax, so the numbers are not matching and my concern is that the small area plans are based on assumptions that MAY not be fitting in terms of uh where we are with population and household growth. I think the"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10158.339,
+    "end": 10190.3,
+    "text": "recalibrate all of this and based on this history alone, we have on top of it though now the decline in population we ve seen this last year and that MAY hold for a good stretch, and we ve seen a decline in employment, which also is expected to hold for a stretch, which translate into the last modeling I saw possibly a 20% reduction in household growth, um, here in the city of Fairfax, so the numbers are not matching and my concern is that the small area plans are based on"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10198.179,
-    "end": 10228.875,
-    "text": "question becomes, um, then uh, when is our next opportunity to take a second look at that so we can bring alignment between both the small area plans and the zoning ordinances we have to be uh a little bit more reflective, uh, of where we are in terms of household and population growth. Uh, so one thing I want to point out, um, on this slide, the, the item on the bottom, uh, gets at what you re, you re, you re mentioning. And uh we agree the,"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10190.338,
+    "end": 10222.704,
+    "text": "assumptions that MAY not be fitting in terms of uh where we are with population and household growth. I think the question becomes, um, then uh, when is our next opportunity to take a second look at that so we can bring alignment between both the small area plans and the zoning ordinances we have to be uh a little bit more reflective, uh, of where we are in terms of household and population growth. Uh, so one thing I want to point out, um, on this slide, the, the item on"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10228.977,
-    "end": 10259.674,
-    "text": "the, the, the market analysis that were done for the small airplanes, uh, when they were adopted, some of them coming up on 6 years ago now is is very dated. A lot has changed since then, and we think that there s, there s, there s room to re-explore that, um, but again, those are the more holistic numbers and so we think that the zoning Ordinance amendments, we can still move forward with applying a structure here and if we end up changing what we expect the total household growth to be through the small airplane reviews, uh, that would necessarily affect our"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10223.237,
+    "end": 10254.301,
+    "text": "the bottom, uh, gets at what you re, you re, you re mentioning. And uh we agree the, the, the, the market analysis that were done for the small airplanes, uh, when they were adopted, some of them coming up on 6 years ago now is is very dated. A lot has changed since then, and we think that there s, there s, there s room to re-explore that, um, but again, those are the more holistic numbers and so we think that the zoning Ordinance amendments, we can still move forward with applying a structure here and if we end up changing what we expect the total household"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10259.674,
-    "end": 10292.306,
-    "text": "review of individual properties, it would affect what our long-term policy is, uh, for the smaller airplanes. But certainly the, the, the, the, the questions and concerns you raise are something that we have identified and we do plan to look at them. Ok, and I would just maybe add the other point that I believe came out of actually staff discussion uh for what it s worth as a part of that that the uh inputs, uh, to the cooperative forecast by the city of Fairfax in historically been quite a bit higher than those of neighboring jurisdictions, so that would be another thing to"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10255.103,
+    "end": 10285.9,
+    "text": "growth to be through the small airplane reviews, uh, that would necessarily affect our review of individual properties, it would affect what our long-term policy is, uh, for the smaller airplanes. But certainly the, the, the, the, the questions and concerns you raise are something that we have identified and we do plan to look at them. Ok, and I would just maybe add the other point that I believe came out of actually staff discussion uh for what it s worth as a part of that that the uh inputs, uh, to the cooperative forecast by"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10293.174,
-    "end": 10324.573,
-    "text": "take a look at and maybe bring them into alignment with the region. Thanks. Council member Bates Thank you. Um, and, uh, and that s actually a good point to consider that, um, you know, the difference in population growth versus, uh, growth in the number of households, um, and that actually reminds me of the fact that um the plurality of new multi-family units, I see, um, if not, perhaps even the majority at, you know, correct"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10287.69,
+    "end": 10317.831,
+    "text": "the city of Fairfax in historically been quite a bit higher than those of neighboring jurisdictions, so that would be another thing to take a look at and maybe bring them into alignment with the region. Thanks. Council member Bates Thank you. Um, and, uh, and that s actually a good point to consider that, um, you know, the difference in population growth versus, uh, growth in the number of households, um, and that"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10324.573,
-    "end": 10358.54,
-    "text": "me if I m wrong, in, uh, new projects or a studio in one bedroom units, I believe, um, whereas in single family homes, town homes, you re seeing probably, you know, um, at least existing ones, uh, you know, and I guess we ve seen some new ones, uh, 23 bedroom units, um, and then in addition to that, you, uh, also see perhaps, um, greater likelihood for there to be more than one person per bedroom, and, you know, single-family homes, townhouses, uh, possibly, you know, thinking about families, um, with kids, possibly"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10318.167,
+    "end": 10348.562,
+    "text": "actually reminds me of the fact that um the plurality of new multi-family units, I see, um, if not, perhaps even the majority at, you know, correct me if I m wrong, in, uh, new projects or a studio in one bedroom units, I believe, um, whereas in single family homes, town homes, you re seeing probably, you know, um, at least existing ones, uh, you know, and I guess we ve seen some new ones, uh, 23 bedroom units, um, and then in addition to that, you, uh, also see perhaps, um, greater likelihood"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10358.54,
-    "end": 10389.969,
-    "text": "multiple kids, um, you know, that kind of thing. And, uh, in addition we, um, so, you know, going off of that, when we re talking about, say, 300 multi-family units, um, you know, that s not necessarily the same as uh 300 single-family homes Um, and so that s, you know, a good point to consider. Now, um, uh, thinking about, uh, just, you know, heights in general since, you know, that is sort of part"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10349.164,
+    "end": 10379.559,
+    "text": "for there to be more than one person per bedroom, and, you know, single-family homes, townhouses, uh, possibly, you know, thinking about families, um, with kids, possibly multiple kids, um, you know, that kind of thing. And, uh, in addition we, um, so, you know, going off of that, when we re talking about, say, 300 multi-family units, um, you know, that s not necessarily the same as uh 300 single-family homes Um, and so that s, you know, a good point"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10391.239,
-    "end": 10423.938,
-    "text": "of this, um, you know, we, uh Old town Fairfax, for example, Old Town. Um, particularly Old Town South, um, you know, a number of five-story and even uh six-story building fronting onto the sidewalk, uh, in that area. Um, already And uh Camp Washington, uh, right across the city line, I believe there are a couple eight-story buildings, um right nearby and then of course, Fairfax Circle, we have, uh, around 12 to 14 story buildings right over the line over there. Um, so thinking about the context, um,"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10383.364,
+    "end": 10415.27,
+    "text": "to consider. Now, um, uh, thinking about, uh, just, you know, heights in general since, you know, that is sort of part of this, um, you know, we, uh Old town Fairfax, for example, Old Town. Um, particularly Old Town South, um, you know, a number of five-story and even uh six-story building fronting onto the sidewalk, uh, in that area. Um, already And uh Camp Washington, uh, right across the city line, I believe there are a couple eight-story buildings, um right nearby and"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10424.572,
-    "end": 10455.435,
-    "text": "but, you know, again, this is uh based on what s in the smaller plans that have already been, uh, adopted, um, and, uh you know, I do want to note on that note that I, um, uh, this is really an exciting time for me as someone who s followed, uh, the development of similar area plans and development in general, uh, since those first malaria plans were considered back in 2020, that this is finally coming to fruition in terms of our zoning ordinance because the two have really been kind of out of sync for a"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10415.196,
+    "end": 10446.26,
+    "text": "then of course, Fairfax Circle, we have, uh, around 12 to 14 story buildings right over the line over there. Um, so thinking about the context, um, but, you know, again, this is uh based on what s in the smaller plans that have already been, uh, adopted, um, and, uh you know, I do want to note on that note that I, um, uh, this is really an exciting time for me as someone who s followed, uh, the development of similar area plans and development in general, uh, since those first malaria plans were considered"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10458.307,
-    "end": 10489.202,
-    "text": "number of years. Um, and, uh, so circling back um you know, I, this is really going in the right direction and, uh, it s really, um, fascinating to see the functionality of how this all works, how this kind of hard codes, some of the expectations of the smaller plans. Um, and, uh, you know, certainly I understand it s not gonna be perfect and that we are perhaps hamstring to some extent, uh, by the, the nature"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10447.63,
+    "end": 10481.429,
+    "text": "back in 2020, that this is finally coming to fruition in terms of our zoning ordinance because the two have really been kind of out of sync for a number of years. Um, and, uh, so circling back um you know, I, this is really going in the right direction and, uh, it s really, um, fascinating to see the functionality of how this all works, how this kind of hard codes, some of the expectations of the smaller plans. Um, and, uh, you know, certainly I understand it s not"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10490.4,
-    "end": 10523.638,
-    "text": "of the Dillon rule. But with that in mind, um, there, you know, I m thinking about we have in, uh, you know, in some cases, um you know, City Center West, which, you know, um, know is, uh, I think that s out there that that s been, uh, you know, inactive, but um when I was approved, you know, you re looking at, um, I think it was technically considered 9 stories due to there being a little bit of a dip to, you know, have the entrance to the parking garage above ground, um, but mostly is about uh 7 to 8"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10482.765,
+    "end": 10515.362,
+    "text": "gonna be perfect and that we are perhaps hamstring to some extent, uh, by the, the nature of the Dillon rule. But with that in mind, um, there, you know, I m thinking about we have in, uh, you know, in some cases, um you know, City Center West, which, you know, um, know is, uh, I think that s out there that that s been, uh, you know, inactive, but um when I was approved, you know, you re looking at, um, I think it was technically considered 9 stories due to there being a"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10524.72,
-    "end": 10556.403,
-    "text": "stories above ground, but the density there is a lot lower than, you know, the density that we see in some other projects. Um, like on the other hand, Day s property, um, 5 stories along Chain Bridge, you know, and then, um, uh, as you get over to university subsign a 4 stories, but it s a bit more complicated than that because, um, you see a very steep grade change. Um, and then, uh, you know, additionally, you see a lot of variation in terms of uh, the amount of green space that s"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10515.931,
+    "end": 10546.93,
+    "text": "little bit of a dip to, you know, have the entrance to the parking garage above ground, um, but mostly is about uh 7 to 8 stories above ground, but the density there is a lot lower than, you know, the density that we see in some other projects. Um, like on the other hand, Day s property, um, 5 stories along Chain Bridge, you know, and then, um, uh, as you get over to university subsign a 4 stories, but it s a bit more complicated than that because, um, you see a very"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10558.907,
-    "end": 10589.902,
-    "text": "recommended uh versus the amount of, um, you know, the building footprint that s recommended in small area plan, you know, of course, that s, I know, very rough, not, um you know, exact But, um, the Daviess property as an example, uh, is much higher density, um, and that was recommended for approval by staff, but I believe for denial by a planning commission, um, but still, you know, both informed by the small area plan and comprehensive plan. Um, and, uh,"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10547.396,
+    "end": 10577.558,
+    "text": "steep grade change. Um, and then, uh, you know, additionally, you see a lot of variation in terms of uh, the amount of green space that s recommended uh versus the amount of, um, you know, the building footprint that s recommended in small area plan, you know, of course, that s, I know, very rough, not, um you know, exact But, um, the Daviess property as an example, uh, is much higher density, um, and that was recommended for"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10589.904,
-    "end": 10622.669,
-    "text": "so I just wanna make sure that you know, we re kind of considering um the nuanced nature of what certain densities and certain heights really look like throughout the activity centers and in different parts of the activity centers and, uh, make sure that we re not, um, inadvertently making it more difficult to build certain projects that, um, staff would otherwise see as being in compliance with small area plans. Um and, uh you know,"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10577.892,
+    "end": 10609.489,
+    "text": "approval by staff, but I believe for denial by a planning commission, um, but still, you know, both informed by the small area plan and comprehensive plan. Um, and, uh, so I just wanna make sure that you know, we re kind of considering um the nuanced nature of what certain densities and certain heights really look like throughout the activity centers and in different parts of the activity centers and, uh, make sure that we re not, um, inadvertently"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10623.538,
-    "end": 10653.67,
-    "text": "so something to consider Um, you know, and I m thinking about different ways of looking at this. I know that 48 units per acre makes sense based on uh the um recommendation for, uh, sites that are not subject to small area plans in the comprehensive plan. Um, and I think that makes sense as a starting point But maybe, um, we might think about having different uh base densities for different parts of the activity centers, for example, um, looking at the old town core,"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10611.427,
+    "end": 10645.992,
+    "text": "making it more difficult to build certain projects that, um, staff would otherwise see as being in compliance with small area plans. Um and, uh you know, so something to consider Um, you know, and I m thinking about different ways of looking at this. I know that 48 units per acre makes sense based on uh the um recommendation for, uh, sites that are not subject to small area plans in the comprehensive plan. Um, and I think that makes sense as a starting point But maybe, um,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10653.67,
-    "end": 10683.765,
-    "text": "that s recommended to stay at, you know, a 3 stories max, I believe. Um so maybe that might see, you know, a lower base density, uh, whereas, you know, you have other areas that, um are recommended for a max of 679 stories. So maybe those might be, you know, considered for a little bit of a higher base density, um, something like that, or maybe, um you know, different uh densities per floor, you know, if that"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10646.361,
+    "end": 10676.391,
+    "text": "we might think about having different uh base densities for different parts of the activity centers, for example, um, looking at the old town core, that s recommended to stay at, you know, a 3 stories max, I believe. Um so maybe that might see, you know, a lower base density, uh, whereas, you know, you have other areas that, um are recommended for a max of 679 stories. So maybe those might be, you know, considered for a little bit of a higher base density, um, something"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10684.199,
-    "end": 10715.594,
-    "text": "makes sense, or, you know, a little bit creative there. I know that we can t necessarily get too granular and um, and that takes a lot more time and effort but just an idea, uh, as far as parking, um, additional consideration there, um, perhaps I know that that s more, uh, ancillary to this. But, uh, Fairfax Circle is by nature a lot more transit-oriented than uh the other activity centers. So just due to its proximity to"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10677.825,
+    "end": 10709.622,
+    "text": "like that, or maybe, um you know, different uh densities per floor, you know, if that makes sense, or, you know, a little bit creative there. I know that we can t necessarily get too granular and um, and that takes a lot more time and effort but just an idea, uh, as far as parking, um, additional consideration there, um, perhaps I know that that s more, uh, ancillary to this. But, uh, Fairfax Circle is by nature a"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10717.132,
-    "end": 10747.995,
-    "text": "the metro station there. Um, so maybe an additional consideration might be to have um different minimum parking requirements in different activity centers based on their proximity to transit or, or something like that. Um and anyway, that s, uh, I think all I have for now. Thanks. Councilmember McQuillan Thank you, Mayor. Uh, I just want to also echo the sentiments of council member Peterson in regards to the small area plans"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10709.891,
+    "end": 10737.783,
+    "text": "lot more transit-oriented than uh the other activity centers. So just due to its proximity to the metro station there. Um, so maybe an additional consideration might be to have um different minimum parking requirements in different activity centers based on their proximity to transit or, or something like that. Um and anyway, that s, uh, I think all I have for now. Thanks."
+  },
+  {
+    "speaker": "Councilmember Rachel McQuillen",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header, loose)",
+    "start": 10737.786,
+    "end": 10739.786,
+    "text": "Thank"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10748.83,
-    "end": 10779.892,
-    "text": "and zoning alignment, um, and that increased that 42%, um, I, I, I appreciate your, um, comments, Councilmember Bates, um, but serving on the school board when you see this type of growth so quickly, you really notice, um, how it affects the infrastructure, particularly our tuition rates because, you know, we can estimate that we re only gonna have 1 or 2 individuals, one in fact, um, I have seen families or, uh, couples with small children that do move into these units."
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10741.56,
+    "end": 10775.423,
+    "text": "you, Mayor. Uh, I just want to also echo the sentiments of council member Peterson in regards to the small area plans and zoning alignment, um, and that increased that 42%, um, I, I, I appreciate your, um, comments, Councilmember Bates, um, but serving on the school board when you see this type of growth so quickly, you really notice, um, how it affects the infrastructure, particularly our tuition rates because, you know, we can estimate that we re only gonna have 1 or 2 individuals, one in fact, um, I have seen families or, uh,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10782.564,
-    "end": 10816.864,
-    "text": "And so that does affect our our, um, infrastructure and so it does, it does need to be considered, and I too would like to know a little bit more about that and where we are in the numbers for our small area plans in terms of units, um, because that is something that I know just having been on school board, we were very, very concerned about you would see these new, um, developments come in. I would drive by that development before the new development would come in, I d see the bus stop full of children, you know, and then be told that it s just going to be this number of single units, um, and so not only do we wonder"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10775.423,
+    "end": 10806.921,
+    "text": "couples with small children that do move into these units. And so that does affect our our, um, infrastructure and so it does, it does need to be considered, and I too would like to know a little bit more about that and where we are in the numbers for our small area plans in terms of units, um, because that is something that I know just having been on school board, we were very, very concerned about you would see these new, um, developments come in. I would drive by that development before the new development would come in, I d"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10817.399,
-    "end": 10849.196,
-    "text": "about where those children go and it you, you recognize, you see the shift, you see the change, um, and so what often is reported isn t always what we re experiencing. So that s, I just wanted to offer that perspective a little bit, having been on the school board and seeing those student yield counts. Thank you. Council member Hall Thank you. I will just echo that with a with some information about Scout in the circle, um, I think based upon the number of studios, one bedrooms, etc. It was expected to be very, very low student yield, and I don t have the most up to-date numbers, but I"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10807.389,
+    "end": 10839.987,
+    "text": "see the bus stop full of children, you know, and then be told that it s just going to be this number of single units, um, and so not only do we wonder about where those children go and it you, you recognize, you see the shift, you see the change, um, and so what often is reported isn t always what we re experiencing. So that s, I just wanted to offer that perspective a little bit, having been on the school board and seeing those student yield counts. Thank you. Council member Hall Thank you. I will just echo that with a with some information about Scout in the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10852.66,
-    "end": 10885.232,
-    "text": "believe it was either 54 or 56 students that come from that building, which was completely unexpected. And I think it s very easy to say that if we build these studios or one bedrooms or even 2 bedrooms that we re not going to see students because maybe we re expecting young professionals are going to take them or, you know, people that are leaving George Mason or couples, i think that the, the cost disparity and just the crunch that people are feeling overall in their entire budget. I think it s making people take a very, very different approach to"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10841.56,
+    "end": 10873.553,
+    "text": "circle, um, I think based upon the number of studios, one bedrooms, etc. It was expected to be very, very low student yield, and I don t have the most up to-date numbers, but I believe it was either 54 or 56 students that come from that building, which was completely unexpected. And I think it s very easy to say that if we build these studios or one bedrooms or even 2 bedrooms that we re not going to see students because maybe we re expecting young professionals are going to take them or, you know, people that are leaving George Mason or couples, i"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10885.266,
-    "end": 10916.997,
-    "text": "homeownership or to what type of unit they want to rent. And so I, you know, to echo what Council member McCullin said, I just don t think that it s as easy as, well, it s this many, you know, studios or one bedroom, so we re only expecting this. I think we really do have to be using the most accurate data that we have for each of those buildings that are newer now or you know, a couple of years old and see really what we re generating. Um, and I know I ve said this before and I will say it again, but and correct me if I m wrong here, but the small area plans"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10875.457,
+    "end": 10906.2,
+    "text": "think that the, the cost disparity and just the crunch that people are feeling overall in their entire budget. I think it s making people take a very, very different approach to homeownership or to what type of unit they want to rent. And so I, you know, to echo what Council member McCullin said, I just don t think that it s as easy as, well, it s this many, you know, studios or one bedroom, so we re only expecting this. I think we really do have to be using the most accurate data that we have for each of those buildings that are newer now or you know,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10920.101,
-    "end": 10951.532,
-    "text": "were put into consideration and circulation in 2020. Is that correct? The first two for Old Town and Northfax were. Ok, and was that when they were enacted or that was the work leading up to them and the discussion and conversations went on during 2020. They were adopted in JUNE of 2020. Uh, so the work began in 2019. Ok. Uh, and then with the next one that was 22. I think for Camp Washington. Ok, so then that came around during 2020 and 2021, I presume? Ok. And just to remind everyone, we"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10907.923,
+    "end": 10939.886,
+    "text": "a couple of years old and see really what we re generating. Um, and I know I ve said this before and I will say it again, but and correct me if I m wrong here, but the small area plans were put into consideration and circulation in 2020. Is that correct? The first two for Old Town and Northfax were. Ok, and was that when they were enacted or that was the work leading up to them and the discussion and conversations went on during 2020. They were adopted in JUNE of 2020. Uh, so the work began"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10952.801,
-    "end": 10985.365,
-    "text": "had a pandemic then, so I think not that everyone comes out and gives their opinions on everything all the time anyway, but I do wonder if the small area plans are still serving us in the way that we expected them to. And did we get out of them what we wanted. And I think for those who put in the time and the energy and, and, and had a vision for it. I think it probably is very accurate, and I applaud those who worked on those, but I do wonder that if we take a step back and we ask the residents now that we see how they look, what kind of development we re"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10940.923,
+    "end": 10971.786,
+    "text": "in 2019. Ok. Uh, and then with the next one that was 22. I think for Camp Washington. Ok, so then that came around during 2020 and 2021, I presume? Ok. And just to remind everyone, we had a pandemic then, so I think not that everyone comes out and gives their opinions on everything all the time anyway, but I do wonder if the small area plans are still serving us in the way that we expected them to. And did we get out of them what we wanted. And I think for those who put in the time and the energy and, and, and had a vision for it. I"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10985.833,
-    "end": 11018.3,
-    "text": "expecting in those areas now that we understand exactly what we ve signed off onto, are we really seeing what we expected to see as residents here. So that s my takeaway from that. Thank you. Council member Amos. Look, I m never one to argue against market analysis, so I have no issue with that. But what I, what I will say is that when we re looking at household growth, population growth, uh, and household growth outpacing population growth. We need to consider all the contextual factors, so at the state level,"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 10972.2,
+    "end": 11003.551,
+    "text": "think it probably is very accurate, and I applaud those who worked on those, but I do wonder that if we take a step back and we ask the residents now that we see how they look, what kind of development we re expecting in those areas now that we understand exactly what we ve signed off onto, are we really seeing what we expected to see as residents here. So that s my takeaway from that. Thank you. Council member Amos. Look, I m never one to argue against market analysis, so I have no issue with that. But"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11018.3,
-    "end": 11048.662,
-    "text": "you re talking what, 94%, 96% of zoning across Virginia is for single-family households, and you re talking less what? Not even close to 5%. I think it s significantly less is for multifamily. So that s a factor here, even in the city, looking at our, at the National zoning atlas. Only 6% of two family, 6% of 3 family, 6% of 4 plus family are allowed by right,"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 11004.686,
+    "end": 11035.482,
+    "text": "what I, what I will say is that when we re looking at household growth, population growth, uh, and household growth outpacing population growth. We need to consider all the contextual factors, so at the state level, you re talking what, 94%, 96% of zoning across Virginia is for single-family households, and you re talking less what? Not even close to 5%. I think it s significantly less is for multifamily. So that s a factor here, even in the city, looking at our, at the National zoning"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11048.696,
-    "end": 11079.293,
-    "text": "66% of the land in the city prohibits multi-family development still. And that s an issue and so I not to be too selfish, I talk about Leyden Hall a lot and I think it s part of the reason I do that is because I m not entirely certain we ve had a, a council representative who rented at the same time from an apartment in the city and I get passionate about it because one of the considerations for me even considering staying in the city was primarily because of council. If it weren t for my role here and my love for the"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 11040.389,
+    "end": 11070.551,
+    "text": "atlas. Only 6% of two family, 6% of 3 family, 6% of 4 plus family are allowed by right, 66% of the land in the city prohibits multi-family development still. And that s an issue and so I not to be too selfish, I talk about Leyden Hall a lot and I think it s part of the reason I do that is because I m not entirely certain we ve had a, a council representative who rented at the same time from an apartment in the city and I get passionate about it because one"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11079.727,
-    "end": 11111.693,
-    "text": "city, it would be difficult for me to stay. Why would I keep investing 17 $1800 in a one bedroom apartment when I know I can afford more. I could have moved down and got my house for probably $300,000 less than the city of Manassas, but I love this place. And then when you factor that in, you look at fair market rate for a two-bedroom apartment in Richmond, Virginia. You re looking at what, 1400 to 1500, sometimes breaching 1600, but it s usually around that 1500, range. Here in this region and"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 11072.87,
+    "end": 11102.951,
+    "text": "of the considerations for me even considering staying in the city was primarily because of council. If it weren t for my role here and my love for the city, it would be difficult for me to stay. Why would I keep investing 17 $1800 in a one bedroom apartment when I know I can afford more. I could have moved down and got my house for probably $300,000 less than the city of Manassas, but I love this place. And then when you factor that in, you look at fair market rate for a two-bedroom apartment in Richmond, Virginia. You re"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11111.694,
-    "end": 11143.825,
-    "text": "in Fairfax City, you re talking 24, 2500. And so I think when we re having these conversations, we need to make sure we broaden our scope to include all that. There are people who want to live here who can t. And that s important to keep in mind as well as we move forward, uh, but we also need to make sure we have the most up to-date information, completely agree with that. And we also need to consider what is obviously we re dealing with a wild federal context, wild state context, things are constantly fluctuating. Minimum wage is increasing. Will that help at all? I m not entirely"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 11105.454,
+    "end": 11136.516,
+    "text": "looking at what, 1400 to 1500, sometimes breaching 1600, but it s usually around that 1500, range. Here in this region and in Fairfax City, you re talking 24, 2500. And so I think when we re having these conversations, we need to make sure we broaden our scope to include all that. There are people who want to live here who can t. And that s important to keep in mind as well as we move forward, uh, but we also need to make sure we have the most up to-date information, completely agree with that. And we also need to consider what is obviously we re dealing with"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11143.825,
-    "end": 11175.59,
-    "text": "certain. I don t know, but what s post 2028 life gonna be like? Post 2030, the we don t know with certainty. No one could have predicted the pandemic back in 2019. And I think it was a market analysis before pandemic or post pandemic? For the first two, it was pre-pandemic for the others, I think it was during an odd time where we had to make some interesting calculations just because the data wasn t accurate. I think everyone was making interesting calculations back then. So I think having all that context will also"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 11137.119,
+    "end": 11169.716,
+    "text": "a wild federal context, wild state context, things are constantly fluctuating. Minimum wage is increasing. Will that help at all? I m not entirely certain. I don t know, but what s post 2028 life gonna be like? Post 2030, the we don t know with certainty. No one could have predicted the pandemic back in 2019. And I think it was a market analysis before pandemic or post pandemic? For the first two, it was pre-pandemic for the others, I think it was during an odd time where we had to make some interesting calculations just because the data wasn t"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11176.492,
-    "end": 11210.391,
-    "text": "matter and just quickly on the the parking point. Going back to Scout in the Circle, I think we also need to acknowledge Scott on the circle is severely overparked spaces into additional open space or some type of, uh, or some type of investment back into the community that could have been more effective. Council member McQuillan, sorry, I, I don t I don t want to steal your thunder, but, um, I, I just had somebody who lives there, state"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 11170.285,
+    "end": 11203.819,
+    "text": "accurate. I think everyone was making interesting calculations back then. So I think having all that context will also matter and just quickly on the the parking point. Going back to Scout in the Circle, I think we also need to acknowledge Scott on the circle is severely overparked spaces into additional open space or some type of, uh, or some type of investment back into the community that could have been more effective. Council member McQuillan, sorry, I, I don t I"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11211.359,
-    "end": 11243.826,
-    "text": "that they have a tough time finding parking. So again, on paper, it looks like one thing and we, we hear one thing, but from residents, and I have to, I have to just make sure that the residents voices are heard here and that somebody represents that because that is the element that we re providing, right? Um, it s not your job to tell us everything that constituents are thinking, and especially as trends and things change, you know, that s part of what we bring to the table. That s part of our purview. So I just wanted to share that with you that I literally just had that"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 11203.819,
+    "end": 11235.416,
+    "text": "don t want to steal your thunder, but, um, I, I just had somebody who lives there, state that they have a tough time finding parking. So again, on paper, it looks like one thing and we, we hear one thing, but from residents, and I have to, I have to just make sure that the residents voices are heard here and that somebody represents that because that is the element that we re providing, right? Um, it s not your job to tell us everything that constituents are thinking, and especially as trends and things change, you know, that s"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11243.826,
-    "end": 11276.69,
-    "text": "conversation with someone because of the parking presentation that we received. Um, I was curious and so I started to ask people in all different places, especially in apartments because of Leighton Hall, because of the things that you say. I, I honestly do try to seek those areas out and get some resident feedback to ensure that the information that we re being provided is still applicable to those living there now. So that is something I, I hear you. I know that it says that they have a lot of parking, but honestly, uh, let s go to lunch and let s go see the parking because, um, I did just have lunch there the"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 11235.416,
+    "end": 11266.713,
+    "text": "part of what we bring to the table. That s part of our purview. So I just wanted to share that with you that I literally just had that conversation with someone because of the parking presentation that we received. Um, I was curious and so I started to ask people in all different places, especially in apartments because of Leighton Hall, because of the things that you say. I, I honestly do try to seek those areas out and get some resident feedback to ensure that the information that we re being provided is still applicable to those living there now. So that is"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11276.858,
-    "end": 11310.25,
-    "text": "other day too. And it s not, it s not always very easy, so. Well, there s two different kinds of parking. There s parking for retail and the and there s parking for residents. So we re talking about building structured parking, so many spaces per unit or square footage. So it s about $34,000 of parking space for structured parking. Roughly. So if you re building too much parking for the units and not enough parking for the retail. This is, this is part of why it is difficult to figure out, not just parking per unit or square"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 11267.248,
+    "end": 11299.814,
+    "text": "something I, I hear you. I know that it says that they have a lot of parking, but honestly, uh, let s go to lunch and let s go see the parking because, um, I did just have lunch there the other day too. And it s not, it s not always very easy, so. Well, there s two different kinds of parking. There s parking for retail and the and there s parking for residents. So we re talking about building structured parking, so many spaces per unit or square footage. So it s about $34,000 of parking space for structured parking. Roughly. So if you re building too much parking for"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11310.25,
-    "end": 11341.53,
-    "text": "foot of a building, but what kind of parking and where it is, right? So there s a lot of parking requirements for units where families don t own two cars. They own 1 or they own 0, but people parking in front of the restaurant don t have access to resident parking. So this is, we were in the garage, but that s right. So there s resident parking in the garage and there is retail parking in the garage. Anyway, this is getting very granular, it s getting very late. It s about 10:15, um, anything else"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 11301.249,
+    "end": 11332.815,
+    "text": "the units and not enough parking for the retail. This is, this is part of why it is difficult to figure out, not just parking per unit or square foot of a building, but what kind of parking and where it is, right? So there s a lot of parking requirements for units where families don t own two cars. They own 1 or they own 0, but people parking in front of the restaurant don t have access to resident parking. So this is, we were in the garage, but that s right. So there s resident parking in the garage"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11342.458,
-    "end": 11373.853,
-    "text": "because we do have one more presentation on this just a final cut. I appreciate you, I know you all want some feedback. I think it s great work and very helpful, but I think the context for this causes a little bit of concern to me. We re off by a factor of 4 at least in terms of supply being. Ahead of demand and the system is built around something that is so far off. In calibration, it again, it s a, it s a real concern in terms of what this might look like if it was better aligned and what it would look like going forward"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 11332.815,
+    "end": 11362.909,
+    "text": "and there is retail parking in the garage. Anyway, this is getting very granular, it s getting very late. It s about 10:15, um, anything else because we do have one more presentation on this just a final cut. I appreciate you, I know you all want some feedback. I think it s great work and very helpful, but I think the context for this causes a little bit of concern to me. We re off by a factor of 4 at least in terms of supply being. Ahead of demand and the system is built around something that"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11376.125,
-    "end": 11409.324,
-    "text": "and just remem a reminder that we got off base before we had a change in federal administration. Uh, and some of these other issues took place, so it s even going to be more going forward and so I, I would look forward to us rethinking this a bit Bates We had a housing assessment performed, and I would encourage everyone to give that, uh, that quick review. Right. And so the final thing I will say is that not everybody in this city is against high density housing,"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 11363.779,
+    "end": 11397.11,
+    "text": "is so far off. In calibration, it again, it s a, it s a real concern in terms of what this might look like if it was better aligned and what it would look like going forward and just remem a reminder that we got off base before we had a change in federal administration. Uh, and some of these other issues took place, so it s even going to be more going forward and so I, I would look forward to us rethinking this a bit Bates We had a housing assessment performed,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11410.758,
-    "end": 11441.54,
-    "text": "um, and I would hope that voters and residents are talking to people on the doors as, as our candidates are door knocking to ask questions about where they stand on basic development or the small area plans. This is the city s opportunity to find out because the people sitting here are the ones who make the decisions. So an informed resident and an informed voter means talking to the people who are making these decisions to ask where they stand because you do hear from community members, but there s"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 11397.513,
+    "end": 11428.74,
+    "text": "and I would encourage everyone to give that, uh, that quick review. Right. And so the final thing I will say is that not everybody in this city is against high density housing, um, and I would hope that voters and residents are talking to people on the doors as, as our candidates are door knocking to ask questions about where they stand on basic development or the small area plans. This is the city s opportunity to find out because the people sitting here are the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11441.19,
-    "end": 11473.388,
-    "text": "26,000 people who live here and there s 18,000 registered voters, and we re not hearing from everyone. So an election year is the opportunity for voters to have these conversations and to let more of the population be heard on how they feel about these big visionary plans that are guiding the future development of the city. I mean, the small area plans, the comprehensive plans, they guide the development that comes here. The people who choose to build things here or not. So people need to understand that who"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 11429.345,
+    "end": 11461.309,
+    "text": "ones who make the decisions. So an informed resident and an informed voter means talking to the people who are making these decisions to ask where they stand because you do hear from community members, but there s 26,000 people who live here and there s 18,000 registered voters, and we re not hearing from everyone. So an election year is the opportunity for voters to have these conversations and to let more of the population be heard on how they feel about these big visionary plans that are guiding the future development"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11474.857,
-    "end": 11505.985,
-    "text": "sits on this dais that has an enormous impact. All the planning, all the studies. All of it makes a difference, but ultimately it comes down to the votes that are taken here on what does or does not happen. So I would encourage the people in the city to talk to the people who are running for office this year. It s very important. And with that, we will thank you very much and MS. Shinneberry, what do we have next? Our last work session"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 11461.744,
+    "end": 11494.242,
+    "text": "of the city. I mean, the small area plans, the comprehensive plans, they guide the development that comes here. The people who choose to build things here or not. So people need to understand that who sits on this dais that has an enormous impact. All the planning, all the studies. All of it makes a difference, but ultimately it comes down to the votes that are taken here on what does or does not happen. So I would encourage the people in the city to talk to the people who are running for"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11506.755,
-    "end": 11540.321,
-    "text": "items is a discussion of alternative delivery methods for construction. I m gonna recognize Patti and Ascenti, our procurement manager for the presentation. Ok let s see. Be there This is up here too. What s our time check What s"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 11494.242,
+    "end": 11528.41,
+    "text": "office this year. It s very important. And with that, we will thank you very much and MS. Shinneberry, what do we have next? Our last work session items is a discussion of alternative delivery methods for construction. I m gonna recognize Patti and Ascenti, our procurement manager for the presentation. Ok let s see. Be"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11542.49,
-    "end": 11575.23,
-    "text": "our projection This is gonna be a lightning round. Ok, a lightning round So thank you for, um, including me on the agenda tonight and what I m going to speak to you about briefly, our, uh, procurement matters related to construction projects for the city. Um the takeaway here is nobody s an expert. I don t expect you to be an expert by the time I"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 11535.517,
+    "end": 11566.814,
+    "text": "there This is up here too. What s our time check What s our projection This is gonna be a lightning round. Ok, a lightning round So thank you for, um, including me on the agenda tonight and what I m going to speak to you about briefly, our, uh, procurement matters related to construction"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11575.23,
-    "end": 11607.922,
-    "text": "finish the discussion. It s really just an overview, um, of the methods that are available to us through the Virginia Public Procurement Act to conduct, uh, procurement projects. So, excuse me. So one of the things I want to talk through are the, the methods of project delivery. And under the stake code, there are 3 methods to do construction contracting. One is design bid build, and that s what we ve been doing in the city. That s the only thing we re allowed to do. There are"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 11569.651,
+    "end": 11601.549,
+    "text": "projects for the city. Um the takeaway here is nobody s an expert. I don t expect you to be an expert by the time I finish the discussion. It s really just an overview, um, of the methods that are available to us through the Virginia Public Procurement Act to conduct, uh, procurement projects. So, excuse me. So one of the things I want to talk through are the, the methods of project delivery. And under the stake code, there are 3 methods to do construction contracting."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11608.891,
-    "end": 11641.255,
-    "text": "two other methods. One is design build and the other is construction management. I m going to present both of those, but the takeaway again is tonight we re just gonna run through those options and then my in 10 tion is to come back to the council again in a few weeks with a resolution asking you to adopt the procedure. So the state code requires us to adopt by resolution procedures if we want to do either of the alternate methods of construction delivery. It does not mean that we have to use"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 11601.582,
+    "end": 11633.981,
+    "text": "One is design bid build, and that s what we ve been doing in the city. That s the only thing we re allowed to do. There are two other methods. One is design build and the other is construction management. I m going to present both of those, but the takeaway again is tonight we re just gonna run through those options and then my in 10 tion is to come back to the council again in a few weeks with a resolution asking you to adopt the procedure. So the state code requires us to adopt by resolution procedures"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11643.258,
-    "end": 11674.55,
-    "text": "them. It just is another tool in the toolbox for our public works, both on the city side and for the schools. So, um, you know, the variables and, and considering these three options are really accountability, cost, and the amount of risk that is associated and put on the owner being the city. Um, overview of design bid build requires two contracts. So we have a contract with our architect"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 11636.885,
+    "end": 11670.418,
+    "text": "if we want to do either of the alternate methods of construction delivery. It does not mean that we have to use them. It just is another tool in the toolbox for our public works, both on the city side and for the schools. So, um, you know, the variables and, and considering these three options are really accountability, cost, and the amount of risk that is associated and put on the owner being the city. Um, overview of design bid build requires two"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11675.223,
-    "end": 11705.853,
-    "text": "engineer to produce our construction documents that are completed, and then we go out to bid for a construction contractor, um, the, there s, uh I m trying to think of a good way to phrase this, but there is a relationship between the architect and the construction contractor, but if there are circumstances where they don t agree, that risk gets put on the, I m sorry, the city, um, the other implication here is that it is a longer"
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 11671.353,
+    "end": 11701.948,
+    "text": "contracts. So we have a contract with our architect engineer to produce our construction documents that are completed, and then we go out to bid for a construction contractor, um, the, there s, uh I m trying to think of a good way to phrase this, but there is a relationship between the architect and the construction contractor, but if there are circumstances where they don t agree, that risk gets put on the, I m sorry, the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11706.722,
-    "end": 11737.92,
-    "text": "timeline because the work is all done sequentially. We finished the design and once it s completed, then we go out and issue the solicitation, the invitation for bid. One of the alternate methods is design build, so we have a different relationship. There s just one single contract so we contract with the design builder, um, it improves constructability, innovation. There s one point of responsibility. So if there are conflicts as the project s being built out, we re only dealing with one entity."
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 11703.52,
+    "end": 11735.783,
+    "text": "city, um, the other implication here is that it is a longer timeline because the work is all done sequentially. We finished the design and once it s completed, then we go out and issue the solicitation, the invitation for bid. One of the alternate methods is design build, so we have a different relationship. There s just one single contract so we contract with the design builder, um, it improves constructability, innovation. There s one point of responsibility. So if there are conflicts as the project s"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11737.92,
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
+    "start": 11735.783,
     "end": 11768.814,
-    "text": "There s no conflict between an architect and the construction contractor. Key points on advantages, like I mentioned, there s a single point of responsibility, design and construction overlap. So when we re doing design build, the project does go faster Um, we bring the contractor in earlier. They re involved in the design decisions so it doesn t improve, um, some of the, uh decisions"
+    "text": "being built out, we re only dealing with one entity. There s no conflict between an architect and the construction contractor. Key points on advantages, like I mentioned, there s a single point of responsibility, design and construction overlap. So when we re doing design build, the project does go faster Um, we bring the contractor in earlier. They re involved in the design decisions so it doesn t improve, um, some of the, uh decisions"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11769.384,
     "end": 11800.681,
     "text": "about the, uh you know, kind of redundant here but let me just leave it at that, uh, faster project delivery can be more cost-efficient and more collaboration with the owner. So that s your design build. Excuse me, and then construction management, which is the 3rd alternate method. What we re doing is bringing in a construction manager to work with it as a team with the owner and the architect. What is unique about this, and I ll"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11801.249,
     "end": 11835.216,
     "text": "have some more, uh, bullet points about it, but is that the construction manager provides a guaranteed maximum price. So they re gonna be coming in at the schematic design. So the design for the project is not complete. It s probably around 30% and then we re bringing them in. They give us a guaranteed maximum price, and then they hold that with their subcontractors. Um, there are two methods or two flavors to construction management, but what we re really talking about here is construction manager at risk or,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11835.216,
     "end": 11869.116,
     "text": "or cmar and there s a, um, a little slide there that gives you an illustration of the relationship between the three parties, or two parties, I m sorry. So under cmar we issue a two-step solicitation. We go out with an rfq and pre prequalify the contractors, then we go back to those that have been prequalified. We asked them for their pricing. We validate their technical competence, the schedule, um, one of the unique factors, and this is also part of the state code is the contractor cannot"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11870.586,
     "end": 11904.852,
     "text": "self-perform more than 10%. So 90% of the work they re subcontracting out, um, so we have two contracts, one with our architect engineer, and one with the, the construction manager who also works to advise during design and construction. Advantages of construction management, better constructability, um, there s certainty because you do have a guaranteed maximum price on the contract. Um, it helps mitigate risk. It is well suited for phased and occupied facilities"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11907.323,
     "end": 11945.326,
     "text": "and, um, faster project delivery by overlapping phases. So this is a little graphic that sort of illustrates the differences between first on the left, you see design bidBuild, which is the traditional method in the middle, design, build and you can see the overlapping rolls between the, um, architect and then your, your design build contractor, and then on the right construction manager at risk. This graphic shows, um, and illustrates the comparison"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11945.794,
     "end": 11977.257,
     "text": "on the delivery schedule and again design build you ll see is a little bit faster. See him at risk. Again, the overlapping roles between the parties involved in the project. And any decision to use any of these is really the, uh, responsibility of public works or, you know, if we re, we re a school s project for the city schools. It s not a determination made under the Office Procurement Services. My role here is just to conduct the solicitation through the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11978.627,
     "end": 12008.87,
     "text": "method that they deemed to be most advantageous, advantageous for the project. Um, we talked a little bit about risks, so more risk under design bid build for the owner, less under a design build contract and even less under a construction manager at risk. Uh, key takeaways really no size, one size fits all. And, you know, that speaks to what I was just saying. We really rely on the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12008.423,
     "end": 12039.419,
     "text": "decision between the project manager, the owner, and the architect to make those decisions about which method of construction contracting is best for a particular project, um so again, it s just another tool in the toolbox, but what I would like to do is come back to you again in a few weeks as we are required under the Virginia Code 2.24382 is to, first of all, adopt a resolution and then adopt"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12039.655,
     "end": 12069.884,
     "text": "procedures to use design build construction, uh, practices, and then construction manager at risk. It s defined by the state secretary of Administration, so there s really a, a very good template laid out. We would just tailor that to the way that the city wanted to use it, um, but i m just here advocating and letting you know that we would like to expand the, the way and the manner in which we do construction contracting in the city by adding these two alternative procedures, very"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12069.985,
     "end": 12101.215,
     "text": "much like we did back, I think, I believe it was in 2022 when we added, uh, public-private education and infrastructure Act, just another tool in the toolbox doesn t mean we have to use it, but, um, we, rely on the experts to make the decision on that. Thank you for the presentation. Council member Hall, just very quick question. Um, we did the Willard Sherwood is under a construction manager at risk. Is that because it s a combined project with the county and they already have this resolution done? Correct. Ok, so we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12102.151,
     "end": 12132.846,
     "text": "re just kind of operating under their umbrella of that. Well, there s the contracting entity, so yes, ok, thank you. Council member Hardy Chandler, then Council member Amos. So I appreciate this would be an additional tool, not a substitute for traditional, right? The question that came to mind for me and this is out of my not having expertise in this area is when you do the design, build, and you remove the bid processes that decrease the competition. We re not"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12133.882,
     "end": 12168.616,
     "text": "removing any bidding process. It s just where we at what point do we bring in our construction contractors. So design, build, they re coming in earlier and then they re working and that the effort to um finalize the details for the facility is done in conjunction with the architect. So in a, in a traditial, the architect s done and then we bring in the construction manager. So you re saying it s more sequential whereas this would have a litt bit more, um, overlap. So not tonht. But when you"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12169.984,
     "end": 12202.25,
     "text": "come back, I wouldove to hear more about how,m, that pyramid of risk, how tha really breaks out a little bit more, um, in detail. Thank you, Councilember Amos. Uh, just for clarity and thank you again on this. So under Seymour, you have because construction management that, that phrase is confusg me a little bit. So when you re lookingt the bidding process, you have a bid for the architect designer. You have a bid for the construction manage and then another bid for construction. Or is that or are you sayin construction"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12202.25,
     "end": 12232.613,
     "text": "would fall under constructio management. The canake recommendati. Could you clarify that for me? Sure. So you, you re,ou re asking specifically about cmar construction mager at risk. It made it seemike constructionanager and then the constction service, uh whoever wer would be the gc we brought onur separate. So ther wille two parties. Ere would be our archict d then our cmar g who hires all the ss. Understood. Ok, . So they lso the car. So,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12233.615,
     "end": 12264.43,
     "text": "I just wted tolarify that pot. O, and mynly other questi would be, I know in through my job, we tically have the construion manager actually blt into the architect and designer. Is that something tha s even allowed? Yeah, it s,ould this be a state iue or what hashat been a csideration? In, in prtice, there a really 3 partie bause we ao have a owner s repsentative who s working on our behalf to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12264.545,
     "end": 12296.844,
     "text": "oversee the, the, um, cotruction of the proct.O it s, there s really parties involv. We have the archite we have our proje maner, Owner s r, and thene have ourc. Who MAY be ao operatin as a constction manage at risk if we want tha model. Yes, but let s say for the initial bid forhe architect, we also in that bid inudedn architect who provides constction managementervices. Has that been, is tha an optn or a coideration point? Weave"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12296.844,
     "end": 12326.906,
     "text": "contcts that are writt that way and it is permitted uer the code as a multi-phase, but I, and I reluctant to sakor our project, our plic works director Dave Summe but has not been in my experience, his eference to do tha.E d rather have a trd party act the own s rep. Yes,nd for-profit housing devopment compar to public sector, blic works, younow development, I imane areery different. So I was just curious abouthat. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12328.176,
     "end": 12360.607,
     "text": "Council memberates So as I derstand it from the presentation, I snds like we re uh talkingbout not choosingne size fits all approach, but, um, jt looking at these three different options and inome cases, one mit b preferable a in some case another might be preferable. Right, and that s rely the determinationf the puic works dector and any nsultants and architects, enneers thatre uh, leading the project. So if they came to me and they said, we d likeo"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12363.344,
     "end": 12395.91,
     "text": "do ts as a cmar if we adopt the resolion and procedures then we could do it under that method. Yea Yeah, that makes sense. I mean, uh, you know, I think that uh we should alws looking for ways to, um,h, reduce costs, incree efficiency uh, you know, reduce time expende. I thi it s, it s not nessarilyood reference, but I do wk with a lot o, uh,rocurement directors throught the Commonalth. And for instance, higher ed frequently use the cmar. Ty find it to be more effective and ensur that they"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12396.812,
     "end": 12426.975,
     "text": "get good quality conactors, particularly,m, you know,f they reoing specializ buildings on a cpus.Eah, that good to know Any, any other questions or cments I think it s pretty straightforward.Ou re jus givingore flexibility, depending on what theroject is. I mean, you know, a good examples Oldown Hall, which is a historic restoraon so we, we only h one choice to do it oneay, and tt s the way we re doing it. But henceforth another cip"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12427.42,
     "end": 12461.75,
     "text": "projects lik the property art, it might make sen to do something entiry different an this one option weave. So iteems to me the s, ere s no real rk here. Ther s no real dnside to ging flexibility. To the decision mers depending on what proct we re loong at. So I look forward to you coming back in a couple of weeks. They got questions. Yes, Counci member Peterson. Question thataybe is for o city manager, b if not in redirect it. We he"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12466.147,
     "end": 12497.577,
     "text": "experience, um a numr of, uh, cip projects that have srted at one cost estimate and ended up somhere very, very different,ut an excepon to thats the Willard Sheood Center, which I m understanng is under u constructio manager appach here. I don t know whether that explainshe difference between t two, or how we should b thinking abo this, but it wou seem to m if, younow if we re into having a menu herend matching it based on proje. Itould be great to figure tt out because Ihink it s a little"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12498.58,
     "end": 12530.945,
     "text": "t of a difficu situation for us to see these kin of cost ealations, and it mes it a lot easier when weon t to ste the obvious. So I don t know wheth there s an answ tohat right now or whetr we ccle back on that Anhing else ok, I will now reconvene the special meeti and turn I overo MR. Alexder. Thank you, Mayor. Very quily, I veeceived someuestions I think about, , goals in generalnd, and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12531.8,
     "end": 12563.745,
     "text": "ovall porities just a minder, you kno, the council as a continuing bodynd the stragic goa that previously adopted. We re stillperating in terms of the work that we do that framework, um, and so I think it s important just generally to cover those priorities, um, andeinforce that, you know, when we do provide new directi that MAY chge, but for n, you know, the major goal areas that we focused on are the econoc development, environmental sustainability, stewardship, commity, transportion and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12563.745,
     "end": 12584.564,
     "text": "goveance. I won t go through l theetail. It s poste online inhe interest o time um, but I have receive questions aut that and I just wanto reinforce that uh, thoseemain our goals and our priories until that chang. Ank you.Hank you so much, . Alexander, and with that we e adjourned at 133 P.M. On"

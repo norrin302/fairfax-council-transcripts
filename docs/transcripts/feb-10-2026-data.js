@@ -3,4722 +3,6296 @@
 const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 23.288,
     "end": 25.288,
     "text": "[Music]"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 29.895,
     "end": 43.84,
     "text": "city council closed meeting, only public business matters requirements in the virginia freedom of information act. Two only public business matters were heard, discussed or considered. All councilmembers"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 46.511,
     "end": 48.279,
     "text": "please signify by voting aye. aye."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 51.516,
     "end": 73.268,
     "text": "those that don't support nay. Motion pass unanimously. I would like to call regular meeting FEBRUARY 10th, 2026 to order. Thank you to everyone here for tonight's meeting as we celebrate black history month here in city of fairfax. If you are able and so choose rise for"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 76.108,
     "end": 118.147,
     "text": "the pledge of allegiance. I pledge allegiance to the flag of the united states of america, to the republic of -- liberty and justice for all. I would like to ask doc nix (DR. Michael nickens) To join me in the well."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 122.721,
     "end": 156.52,
     "text": "okay. Come on in. This is where we proclaim and very archaic form of communication but hang in there with us. Whereas, in FEBRUARY, of each year, celebrate diversity of fairfax common in virginia and our nation. Whether they self-identify self-identify self-identify self-identify -- marking 100"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 156.655,
     "end": 186.883,
     "text": "years since national negro history week began in 1926. Highlighting enduring focus on african american history and contributions to the U.S. This theme reflects century of honoring black life, struggles and achievements through various observances with renewed focus on inclusive history. Where ares"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 188.854,
     "end": 219.416,
     "text": "PRESIDENT Gerald r ford issued a message recognizing black history month. 1996 congress passed passed designating black history month FEBRUARY to teach, commemorate, celebrate and educate current and future generations contribution of black americans to american history. Whereas, it was the goal of DR. Carter g woodson to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 220.285,
     "end": 250.815,
     "text": "establish negro history moontd others of color. Woodson son of former slaves to earn ph recognized recognized importance celebrated on a national scale. Recognition of contributions to his country, woodson high school in fairfax renamed in his honor in 2024. Whereas we acknowledge never fully lived up to founding ideals all people are created"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 254.119,
     "end": 284.147,
     "text": "equal and often failed to acknowledge those black americans, relentless efforts helped to build this country in 1619. Whereas we acknowledge systemic racism black americans more likely to die earlier in age persons of color more greatly impacts disproportionately represented in our prison system an among"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 284.815,
     "end": 316.679,
     "text": "homeless generations causing trauma in the black community. All people have inherent value and worth in our deserving of respect, dignity and basic human rights. Often denied to black americans through institutionalized racism that persists to this day. As a consequence, not widely celebrated or raised up the many accomplishments of black americans in arts, science, government, technology and business many important black"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 319.751,
     "end": 351.815,
     "text": "leaders remaining rid hidden figures absent from history books. 250th anniversary incumbent on us black americans here from the first moments of our nation's founding and contribute in myriad ways in what makes america great. I here proclaim and encourage all of us to commit to learning broader, deeper and important history of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 352.184,
     "end": 442.605,
     "text": "our country through the lens of black americans, establishments an achievements. With that, doc nix, microphone is yours. [Applause] [Music]"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 443.275,
     "end": 473.838,
     "text": "Come and celebrate every he and she that be. [Music] So I spent however many countless hours in practice rooms, music school practice rooms are set basically like a little dungeon. Small rooms with"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 477.275,
     "end": 510.974,
     "text": "a small piano. Spent your time on your horn working on what was eye sign assigned to you. Then you step into the hallway. I am doing worse. I having a terrible day. I stepped out one day to get into that, whatever that was. I am not sure if it is supposed to make me feel better or worse. I was expecting the same feedback loop. Good front of mine broke the spell and said"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 511.443,
     "end": 542.305,
     "text": "we can't ever have control of our results but we can stay faithful to a good process. I looked at him. I went back and started playing. I wasn't expecting that. Whatever it is, that we do, we set aside a month. A day, words on a proclamation, we get together and think these things through, we talk about these things, rewrite articles, make art. It"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 543.375,
     "end": 574.803,
     "text": "is the repeating, it is like there is this thing where we work on it, step away from it, but we come back to it. I think about building legos and making spaceships out of legos, you make a spaceship and the most important thing until you put the last piece in place and loses something, right. It is done. You don't have a process anymore. You can put this on"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 575.273,
     "end": 609.406,
     "text": "the shelf and show the legos off. This is not going to stay together. It is going to fall apart. If you glued you would ruin the essence of what it was. If you try to keep it in place, you are going to spend so much more energy. Every time you touch it, one thing will fall off or fall apart without you doing a thing. Only healthy thing to do is start over. Imagine the next spaceship deconstruct. And process starts"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 611.743,
     "end": 643.775,
     "text": "over again. We are going to get together and revisit and have conversations. Every time we come back, maybe we can keep going from where we left off or start new sand castle crumbled and build it again. Every time we build a sand castle, better plan for the next sand castle. Little bit of a better plan for next spaceship let's keep getting together and joining each other and bring what we learned every time we have the same"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 643.775,
     "end": 676.973,
     "text": "conversation. We are a new person every time we come. I appreciate the way that city of fairfax commonwealth of virginia george mason university has just put so much faith in me and trust in me and allowed me to continue to express myself. I say often, they keep letting basketball ball band director speak, not sure why. I am going to keep bringing my best self."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 678.9,
     "end": 688.418,
     "text": "And you keep making room to make me feel belonged and valued. I appreciate you for it. [Applause]"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 690.756,
     "end": 722.885,
     "text": "good evening, mayor read city council, city staff, community leaders, friend and family. Thank you, truly for this meaningful proclamation and city of fairfax recognizing black history month with such care, honesty and intention. You are probably wondering who I am. I am stacy yvonne collator and a business owner. When my friend christine benson said hey, would"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 724.122,
     "end": 754.318,
     "text": "you be a part of the mayor accept accepting black history month, a thousand percent. I am so grateful to stand alongside doc nix. I stand before you as a black american woman born and raised here in the city of fairfax. Because of that, this moment is deeply personal to me. Because fairfax is not just"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 755.22,
     "end": 788.885,
     "text": "where I lived, it is a part of who I am. It is where I learned how to dream. It is where I learned how to lead. It is where I learned what it means to belong. Also at times what it means to work for that belong ing ing. Belonging has been blocked. This year ohs theme century of black history commemorations. For 100 years, black communitiesen communitiesen --"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 789.454,
     "end": 821.852,
     "text": "communities -- they are essential. Black history is american history. Black history is virginia history. It is fairfax history. What I appreciate most about this proclamation, doesn't only celebrate, also tells the truth. acknowledges brilliance and burden both contributions and cost both progress we made and the work still in front of us. Recognizes systemic racism"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 823.555,
     "end": 854.517,
     "text": "created real inequities, hell, housing, policing, opportunities and safety. Those inequities create trauma that stretches across generations. That matters because truth is not divisive. Truth is healing. I am going to say that again. Truth is healing. Healing is exactly what black history month can be when it is honored not as a performance but as a commitment."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 856.721,
     "end": 889.18,
     "text": "I want to uplift legacy of DR. Carter g. Woodson he understood history is not just about the past. It is about power. Who is remembered, who is named who is centered, who is seen? I think especially meaningful in 2024, fairfax renamed woodson high school in his honor. It is a reminer, we are still even now correcting what was overlooked. As an educator, as a business owner here in the city of fairfax and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 890.155,
     "end": 928.158,
     "text": "as an arts advocate and artist myself, I receive this proclamation not only with gratitude but with responsibility. Because education is how we keep the truth alive. Business is how we build generational stability. Arts how we preserve memory, express identity and transform pain into purpose. Arts also where so many of our hidden figures have always lived even"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 928.493,
     "end": 958.655,
     "text": "when history books left them out. Black students and black elders whose stories built this city in ways we are still uncovering. Black families who have endured, contributed and thrived. Black artists, teachers, entrepreneurs and teacher past an present who have helped shape fairfax into what it is. I am SEPTEMBER it with hope. Hope this city will continue to do more than"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 960.659,
     "end": 990.686,
     "text": "proclaim. Hope we will continue to invest, include and protect. Hope we will continues to learn broader deeper history not just during FEBRUARY, but every month of the year. Especially as our country approaches 250th anniversary. Reminds us black americans have been here very beginning contributing to what makes america what it is. Let"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 992.624,
     "end": 1080.809,
     "text": "this month be more than remembrance. Let it be recommitment to telling the truth, honoring full story and billing a fairfax every child, every resident can live with dignity, opportunity, and pride. Thank you again, mayor read and city of fairfax for this proclamation. We are honored to accept it. [Applause]"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1082.214,
     "end": 1091.722,
     "text": "all right. Now I am going to introduce chloe ritter to introduce a presentation by the metropolitan washington council"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1099.97,
     "end": 1132.829,
     "text": "of governments, MISS Ritter. [Inaudible] From cog he is deputy director of planning. He is here to give presentation op dmvmoves plan. Let me look at the computer up here good. And he is going to give presentation share update on what the plan is and after little later in the agenda, consented item to endorse the plan with resolution to endorse"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1134.165,
     "end": 1162.492,
     "text": "plan we are bringing to you for consideration. I would take a brief note that staff has been engaged with this plan last two years developing recommendations and cues general manager all involved and support this plan and look continue to coordinating with cog."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1163.261,
     "end": 1194.291,
     "text": "can you hear me? Thank you, the mayor read and members of the council for inviting me, giving this opportunity. I have two parts to my briefing today. One is talking about the city's membership within the council of gardens. It is something we take a lot of pride doing once a year. We go to our members and we brief them about what the city or the county gets from becoming a member of the council"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1196.728,
     "end": 1228.291,
     "text": "of gardens then I will briefly touch on dmvmoves initiatives, I have two parts, ending with a request if you will. That is what I intend to speak about. I want to particularly thank the city and its active participation council of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1229.27,
     "end": 1260.156,
     "text": "gardeners, mayor read board of directors, customer peterson, MISS Chandler. There is a number of activities within cog. I will briefly touch and start by thinking the city. City has been very active and very participatory participatory. Never hesitated"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1262.16,
     "end": 1294.524,
     "text": "from living up to commitments. Appreciate that if you can start. So we'll start with regionalism. Why is regionalism so important? As you all know so I don't mean to speak to you, you live and breathe and act on these things everyday. Everything about living doesn't start at our jurisdictional"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1294.726,
     "end": 1324.87,
     "text": "boundaries. Public safety, drinking water. Air we breathe, all cross through boundaries. We have to recognize we are part of a region. The way the region goes so does the city or the county. That is what regionalism is important. One important statistic I would note if our region were a state, gdp of our"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1324.689,
     "end": 1356.187,
     "text": "region would place us 14th in the country. We would be so far ahead of so many states. That is how much we gain acting as one region. Next slide please. Within this framework what is cog. Council of governments, you created cog 1957. Cities and counties of this region got together, hey, we have issues"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1358.23,
     "end": 1390.253,
     "text": "that cross jurisdictional boundaries. We need a common forum where we can get together and discuss amongst ourselves whatever issues we face, identify strategies might help us address those issues and decide which ones we can act collectively and which ones we should act independently. Nevertheless, understand each of the issues, work together to identify strategies and implement strategies. You"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1393.125,
     "end": 1424.287,
     "text": "created us in 1957. You serve on our boards and that is cog is. Next slide please. Cog is also house of metro planning, transportation planning board, MR. Peterson serves on and mayor read . It is a federal entity. Briefest way I can explain importance of transportation planning board is every penny that federal government provides"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1425.23,
     "end": 1459.289,
     "text": "for transportation, whether it is for transit, highways, whether it is for walk and bike whether maintains your traffic signals, any penny that comes from the federal transportation trust fund can only go to projects and programs that are in the long-range plan developed by mpo. That mpo for this region is transportation planning board. Transportation planning"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1460.92,
     "end": 1493.89,
     "text": "board housed with the council of governments. You are all working together to collectively address challenges on all kinds of issues, you also get the benefit of being a member of the transportation planning board and ensuring that every penny comes to this jurisdiction, comes to this region. Comes to virginia, comes to the city of fairfax. That is also at the transportation planning board."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1496.461,
     "end": 1526.923,
     "text": "Next slide please. In essence, council of governments focused on collecting the region so aring collectively safer, thriving and in healthier region. That is the focus. Within the transportation planning board for example, DECEMBER, MR. Peterson very active in those discussions before the board took action. Board adopted the long-range transportation plan. Plan for this region maryland, district"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1528.26,
     "end": 1559.823,
     "text": "of columbia and northern virginia, what transportation investments we plan to make in next 25 years. To address not just prevailing mobility needs, also accommodate the growth we expect in this region. Growth in population, house holds. Probably would not be surprised that our region continues to be the place to go to within the country during all times of ups and downs within the economic"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1563.662,
     "end": 1594.724,
     "text": "region. It has been so at least 65 years I have been seeing data. Consistent with that, continuing the trend, we anticipate adding 1.2 million people to our region next 25 years. That is the size of the entire city of austin. That is the size of university of philadelphia. We are about six million people today. Wither going to do to 7 million in next"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1601.133,
     "end": 1635.866,
     "text": "25 years. We have 3.8 million jobs, plan on hitting 4.5 million jobs next 25 years. That is what this region means. Whether it is water, sewer, transportation, housing, hospitals, schools all kinds of things, that is what the council of governments. So here are some examples, we have talked about"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1637.302,
     "end": 1670.101,
     "text": "the policy advantages, we have talked about coordination advantages. But to quantify some of those benefits, within the council of governments within the transportation planning board, few grant programs. These grant programs are available to the 24 members of the transportation planning board. On this slide you will see most recent grants the city has"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1671.2,
     "end": 1706.169,
     "text": "secured from the transportation planning board. Whether it is ureidesing street neighborhood connection connections, or developing shared use paths. Conducting roy roadway safety. I hope that continues -- as well as council"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1706.338,
     "end": 1736.766,
     "text": "of governments. Next slide please. Apart from applying grants, council of governments is able to work with 24 member jurisdictions and leverage the skill of purchasing, cooperating purchasing program. All 24 member jurisdictions buying bottled water for example. Each city, county buy ing ing on their own. Certain amount of quanty"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1737.2,
     "end": 1771.1,
     "text": "and negotiate a certain rate. What if our 24 jurisdictions were to combine, could get much lower price. City of fairfax participating in that. On annual basis, 170,000 gallons of diesel and unledded gasoline. There are opportunities, there are other things that we can do and these are opportunities that the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1772.3,
     "end": 1802.565,
     "text": "council of governments provides for the city. Withining the council of governments if you look at the revenue, I say council of governments created by the cities and counties. There are 24 of you. Membership dues makes up 9%. We are able to use that 9% and leverage and go after federal funding. So that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1803.835,
     "end": 1833.93,
     "text": "is, we get 41 million dollars by using 9 million dollars in membership dues. That is how we are able to bring in the scale even on the funding. Next slide please. So we talked about membership dues. I mentioned 3 million dollars in grants that the city got. But the city pays cog annual membership $38,000. That is close to return on"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1834.366,
     "end": 1872.803,
     "text": "investment. As a businessman, I would say that is a good rate of return. We appreciate your participation and hope you'll continue to be active supporter of council of governments. That concludes first part of presentation going over what the council of governments and thanking you. Continues to be a very attractive place"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1873.171,
     "end": 1905.903,
     "text": "internationally for employers and institutions, medical institution, educational institutions for them to come to this region. One of the things for that, mobility. We are one of the region 14 different transit systems operating in our region. Just within transit, provides excellent options. All of us, we can't rely on the same mode of transportation everyday"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1908.673,
     "end": 1940.503,
     "text": "for every trip purpose. In our region, every house hold on average makes eight trips per day. So if there is a house hold making eight trips per day. Only two are related to commuting. Six are related to life, shopping, ballet class or soccer game. All the different trip purposes require different options. We as a region blessed"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1941.139,
     "end": 1974.37,
     "text": "to have transit options. It is a blessing. Can also be a challenge. If it is not coordinated it becomes very confusing. We all travel across jurisdictional boundaries. Your kids' soccer game might not always be in city of fairfax. Might have to cross over. School trip might be some where else. How do you get there if your bus system offers, different program versus neighboring due to restrictions. Coordination"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 1976.575,
     "end": 2012.609,
     "text": "becomes important. We are lucky you all created close to 50 years ago. Today either depending on the month and ridership. Second or third ridership. It is fantastic. Before covid, carried 700 riders everyday. In which condition and mobility would be. Covid"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2015.28,
     "end": 2057.754,
     "text": "disrupted all transit systems. It was succeeding on a grand scale. When disruption hit, took the hit on a grand scale. Lost a lot of riders, a lot of revenue. Needs funding for tows sustain. Anticipating adding 1.2 million people. Anticipating 8300,000 plus -- 800,000 plus jobs. That is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2062.127,
     "end": 2094.959,
     "text": "what the council of governments recognized. We included wmata. Including cue what are the capital unfunded needs of the transit system? What are the operating funding deficits of this transit system? In order for it to be a world class transit system. We took 18 months. Worked on it. We"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2095.193,
     "end": 2127.49,
     "text": "identified what the opportunities are. What weaknesses are. What unfunded needs are. Dmvmoves ended upcoming up with four sets of recommendations. Next slide please. First one, no surprise, wmata capital funding is underfunded. This is critical. This is important, because wmata transportation, rail system,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2127.659,
     "end": 2159.722,
     "text": "signal system analogy used during dmvmoves still operating in foreign system. That system is inefficient. We can have more trains operating on tracks. We can have greater reliability we can have safer train operations if we improve our signal system. If we improve our safety and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2159.791,
     "end": 2193.823,
     "text": "structure within wmata system. We can spend billions of dollars to add more rails. If you don't upgrade the system, you will still be working on a rotary phone system. You won't get all the advantages from a digital phone system. That was one of theee realizations we worked with wmata. They give us estimate that they need 460 million dollars per year. Pit would"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2194.226,
     "end": 2226.657,
     "text": "grow. If you can give us next 15-20 years, we can be caught up and safe transit system. That is one of the recommendation, we as a region work together with general assemblies to come up with the funding. Second thing, it said was we can't always ex xlviii ex expand"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2226.825,
     "end": 2257.487,
     "text": "expand. Transit hard to operate over long distances. They said brt bus rapid transit systems, cheaper, equally efficient. Changing routes as needed. They said virginia transportation authority took more than a year and developed 28 core doors where systems can be built."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2257.722,
     "end": 2290.82,
     "text": "Dmvmoves said why don't we do this. Why don't we three states come together and pick six or seven of those corridors. Commitment to operating them within the next six to seven years. We will then realize benefits and we can tackle the rest. That was the second recommendations. They picked seven corridors. Two rated high on northern virginia plan. Acknowledging local transit"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2293.125,
     "end": 2323.421,
     "text": "systems and vre and mark systems need operating and capital funding. They have unfunded needs. Last thing one that I mentioned earlier. 14 different bus systems. They are doing a great job, providing excellent service and operating independently. Idea is could we have them court ordinate. So there"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2325.557,
     "end": 2358.289,
     "text": "are time transfers. If I need to catch them on wmata bus, when I get off this bus, metro bus is there. As opposed to having me wait 25 minutes. That dwell time is what drives people away from transit. Forces them to drive by themselves. Many sump opportunities for example all of the bus systems provide low transit subsidies for low income families. Thresholds different."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2362.26,
     "end": 2392.756,
     "text": "So all the bus systems provide free bus rides for children of certain ages. Those ages are different. If my child wants to go spend time with grandma, becomes hard once they leave the city, they are free within the city. Once they leave city, they have to pay. Opportunities for coordinating this. You don't"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2393.91,
     "end": 2425.88,
     "text": "necessarily need money to get better quality of service. You need quality service towards consistent set of pollicis and operating procedures. That is the fourth set of recommendations. Next slide please. Those coordination opportunities within six broad groups. Negotiating or helping them discuss among themselves"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2425.424,
     "end": 2456.252,
     "text": "and agree to work together. Transportation planning board in general agreed to do that. It will be ongoing process. We hope products would be made available within the first year. Others might take longer. There is a commitment to do that. With that, the next slide please. Here are the samples of seven brt corridors. Two in northern virginia. Last slide is what I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2458.223,
     "end": 2491.87,
     "text": "said going to be the council of governments ask or request city consider supporting legislation considered in richmond, virginia share of 136 million dollars per year from virginia. City would support that, we would hopefully not sure if it will happen this year, we have to begin this year. It has start thissed year."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2491.656,
     "end": 2520.483,
     "text": "He was delegate back then. Today secretary of finance MR. Circles served on dmvmoves task force. In their general assembly, introducing a bill to raise money. D.C. Enacted on it. They are well on their way. With that, I am going to stop and be happy to answer any questions. Once again, thank you for the opportunity to come speak with"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2521.52,
     "end": 2553.183,
     "text": "you. thank you so much for the presentation. It is a lot. Councilmember peterson and I sit through these meetings every month. Took me a long time to ramp up when I understood the terms and systems. It is a lot to know. I have a lot of empathy for people sitting here trying to wrap their minds around what they just saw. It is difficult when you talk about numbers and systems and enormity"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2553.452,
     "end": 2583.813,
     "text": "of it. You are correct. Matter of coordination and collaboration to provide most efficient transit for the entire region. I want to see if there are questions, councilmember peterson? First of all, want to make a comment to amplify what you just said. If I have my numbers numbers straight, first off, 300 elected officials?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2584.82,
     "end": 2615.713,
     "text": "about 300 elected officials come through our doors monthly doors climate, water, public safety, fire. Juror so that is across 24 jurisdictions, GOD help us. [Laughter] You do it very, very well with that many different political representatives from that many different jurisdictions coming together around these cooperative and coordinating programs and complex. They cut across different areas. There is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2618.215,
     "end": 2644.575,
     "text": "a world that happens outside this dais for mayor and city council here. We collectively sit on 21 region boards and commissions. This is active par of our engagement. Just to cap sense of the, scale you mentioned, that cog region equivalent to 14th largest state, I think michigan or something close."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2645.343,
     "end": 2647.343,
     "text": "close."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2649.246,
     "end": 2683.214,
     "text": "close enough. Equivalent to size of belgium, 23rd largest in terms of country. We are a big kid on the block and speaks to the degree of cooperation, honestly degree of sophistication needed in terms of approach. Really, I want to express great things and gratitude for the professionalism and skill and ability that you and the entire team at the cog provide to help us sort through all of that. As you indicated this was a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2684.381,
     "end": 2692.857,
     "text": "daunting task. Very mump appreciated. I might have a question or two in a minute after others chime in. I want to thank you for the support you have been providing us."
   },
   {
     "speaker": "Councilmember Stacy Hall",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 2692.99,
     "end": 2694.658,
     "text": "thank you. councilmember hall?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2696.962,
     "end": 2721.986,
     "text": "thank you very much for the presentation. I wasn't -- it is helpful. I understand we are going to be asked to approve without knowing our potential share of the 430 million dollars will be. Is there an expectation of what that number will be? Do we have any idea?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2725.9,
     "end": 2727.57,
     "text": "I can give you proximate estimate of what that number"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2727.492,
     "end": 2729.628,
     "text": "would be. okay."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2729.628,
     "end": 2731.628,
     "text": "I would --"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2732.297,
     "end": 2734.297,
     "text": "I won't hold you to it."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2736.968,
     "end": 2770.66,
     "text": "okay. Couple reasons for it, that is let me get my number here for that. The way the bill is calculated, they use funding formula. If you use formula for fy, fiscal year 2028, you get a certain number. Formulas updated every month by the board. So"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2770.801,
     "end": 2802.65,
     "text": "when it changes, might, formalize updated could e a little bit of a change. That is the point. In terms of virginia's number, it would be 136 million of the 160 million. City of fairfax currently pays into wmata, the virginia money"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2803.568,
     "end": 2836.765,
     "text": "goes to washington handled historically, hopefully that will change, state provides 50% of wmata subsidy. Local jurisdictions pick up remaining 50%. Distributed amongst local jurisdictions, mayor read will know more about this than I do. But the city of fairfax, the share of that 50% of the 136 million it could be about"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2839.204,
     "end": 2856.22,
     "text": "additional $620,000 per year. I think the city at least in fiscal year 2026 provided about $800,000 in annual subsidy to wmata. That could go up by about $620,000 per year."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2858.156,
     "end": 2869.132,
     "text": "okay. That would be anticipated moving forward for foreseeable feature."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2870.335,
     "end": 2901.164,
     "text": "yes. Working with your cue staff, identify ied that the cue system operating today it can provide greater service meet more needs and get more people to write transit within and through the city. Providing that enhanced level of service would require additional operating funds. That is about $220,000."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2907.939,
     "end": 2935.266,
     "text": "So. You know, 620 plus $220,840,000 220, 840,000 840 thousand tlar dollars. Smaller systems lead time you need to get the capital, invest on buses, order buses and need to have drivers. Takes little bit of time. Could be a longer pathway to achieving that full level of enhanced service within the local systems."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2942.207,
     "end": 2944.207,
     "text": "okay. Roughly 1.6-1.7 million"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2945.143,
     "end": 2947.244,
     "text": "annually. Currently 800 and some thousand? yes."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2947.245,
     "end": 2974.971,
     "text": "thank you for that information. I was looking at the map on slide 13. It has the lay out overall of the bus priority lines, is there any plan or conversation regarding bringing the bus rapid transit lanes to the city? Are we part of any of the models that have been reviewed?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 2975.941,
     "end": 3009.339,
     "text": "I want to say MR. Peterson MAY know more. Unable to recall, 28 corridors, wmata and virginia transportation authority identified. I support couple that goes through the city. I am not sure. But the two that has currently selected are not within the larger population of 28 corridors. So these are again seen as proof of concept if you"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3011.443,
     "end": 3042.572,
     "text": "will. Because operating, designing, operating bus rapid transit system require a lot of coordination on a number of things including how bus stops designed. What type of buses procured. What is the fair? You would not be expecting to pay for the fair all at once. All off line. That is what these two selected are. I can get back to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3043.41,
     "end": 3049.446,
     "text": "you on which other corridors within the 28 corridor list."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3052.416,
     "end": 3067.531,
     "text": "appreciate, a lot of what if, where if. I want to make sure I understand the unknowns. And how they are calculated."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3068.8,
     "end": 3100.163,
     "text": "this is where we would like to go. We have models and pojected what are the benefits in mobility and accessibility would be if all of this happened. So the unknowns are how quickly can we get there? and what the contributions it is not necessarily only financial. It is also contributions in policy, contributions in procedures, that sort of thing."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3100.232,
     "end": 3130.827,
     "text": "Highway quickly can we move on that? I say that, we recognize this policy level actions there is a lot of considerations if you ask somebody like me, technician and planner, I can make assumptions, I can run models and tell you what this is. You are right."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3131.129,
     "end": 3152.182,
     "text": "I agree. With the expectation of growth in the region, upgrade upgrades needed. Thank you very much, appreciate the information."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3152.384,
     "end": 3154.384,
     "text": "customer amos."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3154.486,
     "end": 3186.25,
     "text": "great presentation, thank you for being here. My question, I would be curious on investments being made. How does that translate into cost savings or cost recovery we could factor in in the future? Curious be it green infrastructure or dilapidated systems that MAY down the line if we make adjustments avoid moving forward."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3186.952,
     "end": 3221.885,
     "text": "absolutely. After today, I will send you a link to the dmvmoves. We did produce a technical report. We touched on on it previously. I will type example, bus rapid transit systems. You are running a bus on 29 because of, during peak period, because of congestion, route or line supposed to take 20 minutes, ends uptaking 30"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3223.522,
     "end": 3255.752,
     "text": "minutes. Because of congestion. You are able to run only two frequencies during peak hour. If there is enough demand for three, what are do you do? End up buying third bus, hiring third driving? Incurring maintenance cost of three vehicle so you would have three buses within that one hour. Within brt system, if you can provide assureability that will happen, you can do it in two"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3259.791,
     "end": 3290.987,
     "text": "buses. A bus today cost 150-250,000 dollars you are saving that money. How you invest that money is up to you. You can start operating a new route to a new destination or use money to upgrade more infrastructure. Green infrastructure. So there are critical advantages for some of these things. Some cost money."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3291.857,
     "end": 3294.225,
     "text": "Longer term they do save money. So."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3295.994,
     "end": 3300.96,
     "text": "other questions, councilmember peterson?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3301.366,
     "end": 3333.93,
     "text": "just to offer response and question on the brt. This has come before northern virginia transportation authority. Where a lot of this roadmapping, no pun intended. For that particular program and this relates to other ones, what is the degree of flexibility in self-determination that the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3334.599,
     "end": 3365.194,
     "text": "individual jurisdictions have in actual design and service levels? At the micro scale, very, very big difference. Brt question marks. Literally shutting down a lane. How should people understand level of flexibility we have in the city of fairfax around actual implementation of a program like that."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3365.564,
     "end": 3395.625,
     "text": "glad you asked the question, what dmvmoves, having read it, one thing that stands out is, it is not prescriptive, it is descriptive. Meaning it describes, here are the systems you can have and here are the different tiers. If you have a brt system, that is 100% dedicated bus lane. This is the benefit you will get. Something"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3396.661,
     "end": 3428.158,
     "text": "less, you'll get less benefit. Right. It is not prescriptive, not prescribing all of this should have this, this, and that. It will have to defer to what is viable. And what is agreeable to the jurisdiction. I think to that extent there will be full participation and the relevant related jurisdiction will have the say in how these"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3429.26,
     "end": 3439.635,
     "text": "things are designed. Always a give and take. You'll have to settle for something less."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3443.607,
     "end": 3474.504,
     "text": "thank you. You mentioned some of the growth forecasts. That are driving the longer term planning and investment expectations. We are always trying to stay ahead of the curve forecasting housing demand, travel demand are. But they change over time. And so my understanding is the last time we had regional housing forecast"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3475.773,
     "end": 3508.171,
     "text": "three years ago. I am not sure how far back we have done the most recent travel demand forecast. I think what I would just note. Put this in the form of a question, we are seeing major changes in the region. Unclear how long they will last. Could be persistent. The rate of population growth less than 28%, in virginia. We are also seeing"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3508.473,
     "end": 3539.602,
     "text": "record declines in two key areas of employment, federal jobs and business and white color professionals. Those are the two leading employment indicators in terms of forecast impacts on a region. All happening at the same time. Two employment indicators, down record levels, simultaneous lie for the first time ever. I can't recall the history. Has potential to impact what we are looking at in the future. Mentioned size and scale"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3542.607,
     "end": 3559.889,
     "text": "result of some past planning efforts. When will these forecasts be updated? And start to capture changes and conditions we have experienced within this last year and potentially an tit bait going forward?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3560.525,
     "end": 3591.854,
     "text": "I am very glad you asked that question. I didn't devil on the details of the various benefits being a member of council of governments provides one, we have a committee of the planning directors of r 24 jurisdictions. Your planning director reactive participant of the committee and one of your planning staff also participates in that. That group of planning directors of each of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3592.456,
     "end": 3626.723,
     "text": "the 24 jurisdictions get together every month. In fact their meeting next friday. They revisit those projusts. What is the population projusts. What are the employment projections on annual basis. They end up, updating it. Once every three to four years. They ask all 24"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3629.27,
     "end": 3661.958,
     "text": "jurisdictions to reexam. Give us updated projections. Every year, every one of jurisdictions welcome to update, it is not always unified. Might go up in fairfax. Might go down. Might come up in city of fairfax. MAY go down in city of alexandria. Changes. Planning directors ones working with development directors and housing directors"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3662.26,
     "end": 3692.555,
     "text": "able to say what did we see last year? What do we need to change? They can change projections. We update that every year. Once in every four or five years update entire regions projections. Numbers i cited cooperating forecast 10.0. That was adopted in 2025. But"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3693.658,
     "end": 3737.66,
     "text": "started working on it in 2024. So the full impact of federal disruption not captured in their crystal ball. They are monitoring and see projections."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3737.669,
     "end": 3768.199,
     "text": "I wouldn't call it a federal city. We have lots of other things, that said a lot of federal procurement-related jobs in this region. When you add that, federal presence becomes meaningful. In the past PRESIDENT Reagan within the federal government, when that happened there was a downturn in federal deployment employment."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3773.271,
     "end": 3804.768,
     "text": "There was a corresponding uptick, private sector jobs went up. On the hole, I don't know total number of employment changed us. Process is bottom up. It is not top down out of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3818.183,
     "end": 3849.78,
     "text": "cog. Part of the uniqueness, unlike the past when procurements replaced federal jobs ftes and effect, procurement down as well. Both of these coming down simultaneously at the same time. Then as you eluded to, multiplier effect for each dollar there is a ripple effect that is dependent upon that,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3849.748,
     "end": 3880.176,
     "text": "consequence of that magnifying two things going down at the same time. I think that is why there is quite a bit of interest and concern about getting a better understanding of what impact this has, early indications, house hold growth in a particular jurisdiction can% be significantly effected by the changes taking place. It is a pitch, I think for us in the city when it is our turn to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3880.444,
     "end": 3891.621,
     "text": "submit inputs and when you go forward with aggregation to be sure we are on top of these issues, they are being spotted potentially significant things."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3893.291,
     "end": 3915.344,
     "text": "any other questions? On dmvmoves which is what we are going to be addressing here sortly. We'll move into the adoption of the agenda, is there motion to approve agenda? I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3915.847,
     "end": 3917.982,
     "text": "prove to adopt agenda as presented. second."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3920.552,
     "end": 3922.552,
     "text": "motion made and seconded."
   },
   {
     "speaker": "Councilmember Anthony Amos",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 3923.54,
     "end": 3934.898,
     "text": "councilmember amouse ai. Councilmember hall, ai. Hardy-chandler aye. Peterson aye. Customer cohen, aye."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3935.534,
     "end": 3960.19,
     "text": "we'll go on to general public comment. I had nine people sign up by 5:00. We'll have another option on agenda item 8. Call the first speaker up sherry"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 3964.93,
     "end": 3999.362,
     "text": "defranzo. honorable mayor, maybes of the city council, I am sherry, 3552 sutton heights circle, fairfax. I am here on behalf of the sutton heights community to remand chapter 38, article 2 to remand city's noise regulations. Sudden heights located north of the picket road tank farm. 2025, plan to retotally 31,000 square"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4004.87,
     "end": 4034.998,
     "text": "feet. We are deeply concerned about the increased noise inevitable result from warehouse operations. Matching current"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4036.4,
     "end": 4066.796,
     "text": "tanker volume. However, unlike tankers arrive empty, leave full. Warehouses require separate inbound and out bound logistics logistics. This will result in higher traffic. According to 2024, traffic volume data, daily traffic picket road substantial. Residents can re hear tankers clearly from within homes. Recent unofficial readings using"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4070.168,
     "end": 4103.433,
     "text": "sound level app, 63-73 decibels, empty tankers, 85. Cement trucks 87 decibels. Noise levels limited to 72 decibels and 60 at night when measured in reuss"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4107.139,
     "end": 4134.664,
     "text": "null district. Vital constant reversing alarms. Current noise levels along picket road corridor exceed healthy limits. Significant will worsen this issue. Strongly endorse maximum sound pressure levels to protect health and wellbeing of our community. Thank you for our time."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4138.17,
     "end": 4145.308,
     "text": "next speaker amelia nicholson."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4150.749,
     "end": 4152.749,
     "text": "we can't see the clock."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4153.418,
     "end": 4173.67,
     "text": "we noticed that last time. Not sure if there is some kind of -- let me see if it shows. Do you know if there is a button."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4175.24,
     "end": 4176.44,
     "text": "I have a timer so it will buzz."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4177.909,
     "end": 4179.909,
     "text": "okay."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4185.183,
     "end": 4217.13,
     "text": "amelia nicholson. 3548 sutton heights, honorable mayor. I am here as the PRESIDENT Of the association. Southern most on picket road and ask counsel to address the sound. This is the main artery from the beltway and 66 joining 236. Delivering"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4217.582,
     "end": 4249.344,
     "text": "trucks to the shops and malls, school bus depo, businesses, woodson high school southern end of 26. Cement trucks, traffic to home depo old peck et and post office. We would like to encourage city to amend city organizations, this is what we would like to see from the cities, new warehouses and tank farm to the number of trucks a day. Operating warehouses during"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4250.749,
     "end": 4282.88,
     "text": "business hours, as our community 250 foot from the new buildings. Beepng of reversing trucks, idling trucks, trucks arriving and leaving. Heard easily by residents and impact our sleep. measure noise of 18 wheeler coming up 5 degree gradient. Monitor noise of tanker trucks when they down shift at the houses bordering picket road. Noise of the cement trucks northern end as they approach"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4284.85,
     "end": 4315.11,
     "text": "the hills. Monitor effect of the noise and babies and young children. Most annoying noise muscle cars modifying musclesers racing at night. We suggest a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4315.45,
     "end": 4348.76,
     "text": "speed camera on pick it road. Fast increase in technology not knowing who is to release warehouses, noise regulations also look at new problem of delivery drones. We believe city has authority to regulate takeoff and landing of drones and investigate this and act accord accordingly before it is too late. Real threat to the residents living in the warehouses. In could be a think of the future. They are not"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4349.79,
     "end": 4366.729,
     "text": "small and not quiet. Respectfully you ask to consider those living on picket road and increase in noise imbobolinks. Increase in traffic redevelopment we see this problem getting worse. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4372.237,
     "end": 4374.237,
     "text": "next speaker, art hammerslog."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4376.74,
     "end": 4410.373,
     "text": "good evening mayor, I am city reuss enter. 38434 okay circle. Speaking on behave -- number of factors, one, green acres is totally inadequate as a senior center. City made valid effort to repurpose old elementary school, in reality some where between a joke and disgrace."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4411.576,
     "end": 4447.31,
     "text": "Fairfax city residents deserve better. Two, new facility first class edition to recreation facilities in the city. It will make, serve city residents years to come, this is the kind of facility that will make fairfax city desirable place to live well into the future. Three, there is the issue of commitment and continuity. City promised this facility to its residents."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4448.48,
     "end": 4478.976,
     "text": "We are eagerly awaiting its opening. Inappropriate at best, mean spirited at worst to deny constituents what they have been promised. If you do vote to kill this project, we will want to know what is your plan to replace green acres? Whoo! What will it cost, when will it be available? If you can't answer these questions a lot of unhappy seniors. This is a result"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4479.544,
     "end": 4511.274,
     "text": "partnership, fairfax city and fairfax county. City has committed itself to this project. To kill this project would be after serious breech of our commitment. County is the most important of all our local government partners. Our commitment to the county would damage our relationship for years to come. Old saying is that a man's word is his bond. I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4512.1,
     "end": 4543.674,
     "text": "hope that is true for the city's word as well. Lastly, canceling this project would leave indefinitely two abandoned boarded up buildings on a prominent corner of the city. Sad and lasting testament to a very poor decision. We understand you as a council get pulled in many directions. We hope you'll make honorable right decision. Decision to proceed with a project underdevelopment"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4547.78,
     "end": 4564.127,
     "text": "for many years along standing promise to your resident. In closing, we hope you hear what city residents are saying, we want this facility. I sincerely thank you for your service."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4566.73,
     "end": 4568.73,
     "text": "next speaker, jennifer pasy."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4570.168,
     "end": 4602.967,
     "text": "good evening, mayor councilmembers and members of the community and city staff. I am jennifer passy 1019 fairfax. I am here to speak in strandy support of the community project. I have sat in your seat. I have been on the planning commission and rep which was over 10 years. This project represents commitment to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4605.437,
     "end": 4636.533,
     "text": "community, one that reflects values of fairfax city and needs of people who live here. A community center shared space and premier location families, seniors youth and neighbors to learn add thrive. It is health and inclusion of long-term equality of life. Important to remember a key fact. This land is owned by fairfax county. The"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4637.169,
     "end": 4670.401,
     "text": "vision we are discussing today exists because of a collaboration between city and county and. If we do not continue working collaboratively with fairfax county, county retains right to move forward with other development operations on this site. Those alternatives could include uses that meet county objectives do little to serve the needs or"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4672.471,
     "end": 4703.833,
     "text": "character or fairfax city. Choice before us not simply community center or nothing. Or allow decisions to be made without the city's voice. It is a thoughtful community driven proposal. Balances county ownership with city priorities."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4705.3,
     "end": 4754.217,
     "text": "Walking away from the collaboration, what ultimately happens on this land. So tonight, I urge you to ask questions, I think we should have deep discussions in the work sessions and continue to get input from community leaders as well as residents and city staff. Supporting willward shirrwood community center is the most responsible one schulte"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4754.686,
     "end": 4759.22,
     "text": ". Next speaker tom ross."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4764.93,
     "end": 4796.693,
     "text": "good evening mayor and 3520 fairfax. I want to start with a quote. Sent to me by a friend of mine earlier today I saw. Decisions we make are for the future. A society grows great when old men and women plant trees in whose shade they know they know they shall never sit."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4799.297,
     "end": 4839.736,
     "text": "Tonight I speak as a citizen since my arrival in 1980 and decisions that will shape our future for the next 50 years. I speak in support of fully funding the willard shirrwood community center. Beginning in 1993, young professional assistant director nags nailing park service, I chaired city's parks, recreation subcommittee of the fairfax 2020 commission."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4856.655,
     "end": 4889.119,
     "text": "# # # # # healthy vibrant small city, sense of community unsurpassed. That report recognized the city growing in population, future more urbanized and much more diverse and so it has. We clearly recognized and council endorsed need to take necessary steps to prepare for the future. One of our key findings, cultural"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4889.287,
     "end": 4920.183,
     "text": "programs accomplishment of a performing cultural arts center and a community center. So yes, vision of a community center is more than 30 years old. Tads we have the shirrwood center thanks to the incredible distributions to the shirrwood family and closer to have a community center done in partnership with fairfax county to present a 2020"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4925.624,
     "end": 4956.72,
     "text": "commission envisioned. It will require financial commitment. I recognize this will place a burden on our tax payors and myself. Almost 80-year-old few months to go, not there yet, still believe in need to invest in our community and future generations and all ages and background. I believe the majority of people do as well. As we invest in schools, we should also invest in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4958.79,
     "end": 4977.273,
     "text": "community's future fully funding shirrwood center important to our future and children and grandchildren. Let's get this done. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4979.311,
     "end": 4981.311,
     "text": "next speaker john russell."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 4982.13,
     "end": 5013.91,
     "text": "MADAME Mayor, members of the city council, kathy russell. Daniels run woods neighborhood. I want to speak to you about the support of the willard sherwood community center which I understand you'll be working on. To the extent you are counting supporters, personally selfishly, I would love a full size fitness center mile down the road from my home. This is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5016.181,
     "end": 5048.545,
     "text": "the kind of amenity all residents would be grateful to have. This project is about more than me and my narrow self-interest. I come to you hoping you view more than a bean counter. To see the whole of our interests, present and future even if we can't see them"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5048.847,
     "end": 5084.747,
     "text": "clearly ourselves, maybe especially when we can't see them clearly ourselves. Let me suggest to you willard sherwood much more than nice gym for those like me. It is an opportunity to reaffirm partnership with the county. This partnership is something of invisible thing. Effects on us real and tangible. They are all around us. They are in our schools, we're w our emergency response arrangements. We can"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5085.717,
     "end": 5115.712,
     "text": "see and enjoy benefits city and county work hand in hand. Willard sherwood fits in that lineage. I hope you will support willard sherwood project, funding it, not just because I need a gym today. Boss but because you can see future of fairfax city brighter when we go into it alongside our friends in the county. Thank you for your time and consideration."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5130.95,
     "end": 5132.95,
     "text": "next speaker -- doug cox."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5133.231,
     "end": 5135.166,
     "text": "I thought it was on that side."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5137.869,
     "end": 5168.198,
     "text": "good evening, city council, doug cox, fair view, it is that time for budgetig. I didn't like the size of the check I was paying to the city. Back in 2022, 4 2022,. 29.11% increase in four years. When you are budgeting,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5177.309,
     "end": 5209.305,
     "text": "folks. Assessed value. Annual inflation 3%. A lot of things go up more than 3% like fuel. Expanding tax base that makes up for it. Assessment, expanding tax base, real estate rates. Assessment, 5-6%. Should never"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5210.775,
     "end": 5240.971,
     "text": "be that way. Fairfax city does not have a money problem. We have a spending problem. 2024, 1.03, we would have been 4th most expensive county in virginia real estate tax. A lot of cities more expensive like 13 or so. They have independent school districts. It is apples"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5243.175,
     "end": 5275.973,
     "text": "to oranges. $25,000 for furniture down by the fountains. Two years in a row, $25,000. Old robin, let a contract. According to engage fairfax. 600 k allocated. Where did the money go? Audit. You are at a disadvantage, over the last four"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5278.176,
     "end": 5310.84,
     "text": "years, increased staffing 11%. Big bucks. Before you decide projects, benefits majority of residents, metrics and cost benefit analysis. How many people using green acres? What I have not seen city residents"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5314.179,
     "end": 5324.988,
     "text": "for willard shirr wood. What is the end number, 70-80 million, what are we paying? Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5330.495,
     "end": 5344.14,
     "text": "next speaker sabrina delete -- de wald."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5344.309,
     "end": 5374.838,
     "text": "good evening, council, mayor, I want to talk about the snow reoval. Also the trash can issue. People aren't realizing, I am going to change, sherwood center, $.05 added to our tax bill. Minimum. Can go easily $.09 higher then that. Are you going to pay for my assessed value? Additional tax values."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5375.306,
     "end": 5408.171,
     "text": "Return on investment. We buy houses and pay taxes on investment. House is your biggest lifetime investment you are going to buy in your life. What am I getting back in return for those tax dollars? Someone told me find the good in the city. Looks at the dollar and how it will aif he can. You have to look at the dollar, dominion"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5410.575,
     "end": 5441.304,
     "text": "increased rate of electricity. It is not $10 a month. Reflected over $50 a month. I did the math. Compared kilowatt, my bill $50 more. You are going to add"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5442.974,
     "end": 5475.773,
     "text": "more tax dollars, taxes, that is something that has gone up and up. What are we getting back in return? Nothing. People speaking here who support sherwood, great. Look at the dollars, not the numbers, needs versus wants. Let's relate dollars and how it affects our everyday life. Thank you for your time, reconsider sherwood center as a no. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5491.757,
     "end": 5493.757,
     "text": "last speaker toby sorenson."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5493.891,
     "end": 5524.821,
     "text": "good evening mayor, city council staff. My name is toby soreson, 10137 spring lake terrace. I am so excited to listen to the presentation of the new commune thank you center. Beautiful building and wonderful addition to fairfax city. This project has been a long time coming. When I was on the green acres feasibility committee many long years ago,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5525.223,
     "end": 5564.628,
     "text": "never have imagined the possible of having comprehensive community center at the willard site. Committee knew it was a great location, sited belonged to the county and actively using it. Here we are on the verge of having this project begin. Practically perfect location. Near old town, public library, van dyck park, the police station. And three schools. And public transportation. Preschool opportunities. When people talk"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5567.332,
     "end": 5598.695,
     "text": "about who it will serve, it will serve everybody. I know that health center is used by a lot of people. I work part time at fairfax high. When people don't have their shots, I say go half a while down the street. You can get your shots for free. People use these facilities. We deserve a beautiful facility. As you can tell I am a huge supporter pal I would like to complete my remarks sharing email friend and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5599.765,
     "end": 5630.727,
     "text": "neighbor sent to me. I firmly believe now is the time to act. Fairfax city needs to continue to modernize amenities will support local businesses, real estate market etc.. As a resident, I believe we want to continue to support old time fairfax term, at the same time, providing resources, most communities in fairfax county offer. Fairfax residents as well"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5631.229,
     "end": 5652.817,
     "text": "as county residents need availability of local fitness and community certain. Young communities continue to move. I am in support of the new proposal. Looking forward to tonight's presentation and thank"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5653.285,
     "end": 5658.488,
     "text": "you for listening. we can move on to consent agenda."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5658.757,
     "end": 5670.165,
     "text": "all right. Then. Are there any questions on any of the items on the consent agenda? Councilmember peterson?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5672.571,
     "end": 5704.467,
     "text": "I have a clarifying question on the noise item. It has been active month for noise. [Laughter] Number of things, issue of snow bloors, a lot of comments which is this intersection between transportation and noise. Wonder if you could help us understand how to understand current ordinance proposal we have and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5704.703,
     "end": 5707.638,
     "text": "what MAY have changed since the law time we spoke."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5714.746,
     "end": 5716.746,
     "text": "sure."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5717.148,
     "end": 5719.148,
     "text": "I can do a brief summary."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5719.451,
     "end": 5721.451,
     "text": "that would be encouraged."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5724.89,
     "end": 5761.125,
     "text": "read the draft ordinance. Intentionally set pee ublic hearing end of MARCH. Jurisdictions in agenda had to make changes, 2010, virginia supreme court decision. Number of track noise complaints relatively constant. Focused on loud music, parties commercial vehicles, animal"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5763.595,
     "end": 5797.326,
     "text": "noise. Litany of miscellaneous complaints. One of the difficulties with the existing noise ordinance and frankly with the suggested modification. Same across every jurisdiction. Many occur outside business hours. Enforcement primarily responsibility of police departments and the other issue. Noise are intermittent, once"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5798.13,
     "end": 5830.93,
     "text": "someone arrives, issue is resolved. These are the most common issues that have been arising. One of the things everybody needs to remember, living in suburban, certain level of ambient noise. There is a certain level of noise you have to tolerate as far as your daily living. We have included number of definitions, areas in previous noise regulations little too subjective so we put"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5836.168,
     "end": 5867.629,
     "text": "more standards in for that. Clarified for enforcement. Manager will work with staff. Always a structure criminal and civil penalties. We have included ability to seek injunk tav release and grave waited, I call them frequent flyers,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5867.833,
     "end": 5904.167,
     "text": "luckily we don't have many in the city. Decided we would try this as well. Residents will have ability to go to a magistrate, we are not on scene or able to witness violation. See if a magistrate will swear out a warrant for the agree egregious"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5909.841,
     "end": 5942.672,
     "text": "cases. You asked about snow, specifically exempts snow removal activities and allows 24/7. Comment I had, county has benefit of areas not densely populated more rural. Discussing this with county enforcement there were individuals or company that is did snow removal activities during the night even when no pressing need for it."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5943.308,
     "end": 5974.838,
     "text": "What we have include odd manager's ability to waive on particular on snow. Storm we had, difficult to get contractors and repeat need to remove snow and ice, up to seven days to waive, we have that in there. We have updated maximum sound levels, zones districts, daytime and nighttime. I know"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 5977.42,
     "end": 6012.743,
     "text": "the hours seem arbitrary. These in discussions, these hour distinctions seem to have worked well. Suggest we try that, if that doesn't work, we can try something different. Ultimately noise pressure levels. We'll talk about that more as this"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6014.179,
     "end": 6057.955,
     "text": "proceeds to a public hearing. Amplified sounds and music, currently prohibition on playing music, blaring music equipment, radios, etc., restriction starts 11:00 daily and ends at 7:00 A.M. Next day. Animal noise,changeings CHAIRMAN's"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6059.91,
     "end": 6092.223,
     "text": "circle county requirements, you can imagine dog barking. Repetitive, 10-15-20 minutes, obviously exceptions if animal is in distress. Loading and unloading commercial vehicles, after 10:00 P.M. Daily proposed ordinance change to one of noise associated with activity plainly audible, doors and windows closed. Across property"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6092.991,
     "end": 6124.455,
     "text": "boundaries that would have hourly restriction commence 9:00 P.M. Daily. Would be time restricted and area restricted. Trash collection. We get several complaints about trash collection in the city. We are not proposing change to hours. What we are doing, hour, adding language emptying of trash dumpsters, not just collecting"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6127.25,
     "end": 6157.353,
     "text": "of trash, emptying of dumpsters, moving of dumpsters. Last thing, discussion in the work session banning gas-powered leaf blowers, staff opposed to that. City of alexandria, peculiarity, jurisdictions believe that is problematic, bills introduced"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6157.622,
     "end": 6190.587,
     "text": "rictus this year's general asemily. We found out this year, both senate bill and house bill defeated again. Our position is questionable whether there is authority to do that. Staff continues to work with the city fleet moving toward electric and taking advantage of those opportunities. That is a separates issue from the noise. The other question, vehicles z there are robust standards in noise ordinance, not allow to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6191.756,
     "end": 6226.79,
     "text": "race, rev them, disable mufflers. Retard spark plugs. That is enforcement question. Difficult, as you can imagine vehicles aren't stationary. They are riding off. Those are gone. Those were illegal before, illegal now. Penalties higher, individuals caught, cited, continue to do it, if that ever happens, again mechanisms for"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6230.162,
     "end": 6260.523,
     "text": "doing that. Idling of trucks, another concern, already a prohibition for longer three minutes, unless the vehicle needs to run for refrigeration. I would suggest changes reasonable. Balance between environment, and certain level of noise everyone has to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6262.694,
     "end": 6287.784,
     "text": "tolerate. Modernizing in one section of the city code. We don't anticipate it will take another 16 years to amend this. I think we'll see living document and continue to learn from what other jurisdictions are doing and able with law. With that, I'll stop my"
   },
   {
     "speaker": "Councilmember Anthony Amos",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 6288.86,
     "end": 6290.654,
     "text": "15-minute discussion. Take questions. councilmember amos."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6292.491,
     "end": 6323.52,
     "text": "thank you, great summation. I had a comment and two questions. first comment, when I worked on county side, one of the most difficult things, noise complaints, specifically because of enforcement. Difficult to track. Often not stationary, most intense cases, costco on weeks ox road. Trucks coming 4:00, 5:00 A.M., code enforcement went to track"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6324.756,
     "end": 6344.175,
     "text": "decibel levels. Gets difficult with commercial partners. Greatly appreciate that. Dumpsters, like american disposal."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6347.711,
     "end": 6355.619,
     "text": "there is no differentiation. Noise is the noyes. Not the company or type. Dumpster is a dumpster."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6357.489,
     "end": 6359.489,
     "text": "perfect."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6361.993,
     "end": 6367.33,
     "text": "only other thing, something anticipated prepared for?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6367.966,
     "end": 6400.297,
     "text": "we have looked into issues of drones in the past. One of the good things, I think, about living in the washington metropolitan area. A lot is preamp -- preamped, significant restrictions on drone flying. I think a lot of the drones people see flying around. Exceptions hobby flying. Probably illegal."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6401.366,
     "end": 6432.695,
     "text": "Not anything the city would enforce. You can get into significant issues with the faa depending on how high and where you are flying. In terms of regulating noise ordinance standpoint. I did independently of this question that came up, I have done research no regulation"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6436.67,
     "end": 6442.473,
     "text": "locally. This document will go through regulation. We'll have a more robust report as we move forward."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6445.444,
     "end": 6446.577,
     "text": "thank you."
   },
   {
     "speaker": "Councilmember Stacy Hall",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 6447.479,
     "end": 6479.508,
     "text": "councilmember hall. thank you. Thank you for addressing questions by some of the speakers. If you could answer this more clearly, biright development being considered seems like concern might bring trucks different hours, different times, are you fairly confident, you'll be able to target concerns and reach out to the individuals that are running the businesses and that"
   },
   {
     "speaker": "Councilmember Stacy Hall",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 6480.612,
     "end": 6486.349,
     "text": "type of thing to remind them of what the noise ordinance is when it is enacted?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6487.486,
     "end": 6521.618,
     "text": "enforcements is a complicated question with uses. I would argue. We haven't gotten into that use yet. There are other avenues, access to road ways. Without getting into specific of this particular operation, know,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6522.22,
     "end": 6539.334,
     "text": "biright projects on a road that is already very busy. Property zone, industrial heavy. Limitations, staff is hearing comments and always look to try to protect interest of residents where possible."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6540.372,
     "end": 6542.372,
     "text": "thank you very much."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6543.175,
     "end": 6559.689,
     "text": "other questions? Other questions? Okay. So -- are there any items counsel would like pulled from consent agenda? Okay. Seeing none, is there a motion to approve consent agenda."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6561.93,
     "end": 6566.296,
     "text": "I move to approve consent agenda 6a-j and accompanying"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6566.465,
     "end": 6567.965,
     "text": "motions and staff reports. second."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6569.835,
     "end": 6581.678,
     "text": "motion made by councilmember hardy-chandler and seconded by customer peterson. Any items council would like pulled for additional discussion."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6584.95,
     "end": 6629.858,
     "text": "customer aye. Customer bates aye. Customer peterson aye. Customer hardy-chandler aye. Customer ao customer amos. Aye. I am going to recognize anna stafford to provide staff presentation."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6631.696,
     "end": 6662.192,
     "text": "good evening mayor and city council, excited to be presented city's urban forest master plan. Joined by consultant, matt from resource group and DR. Garrett wolf from marsol day. Today's presentation begin with acknowledgments for those that participated in effort of this planning process. Then provide overview of project background, goals, timeline, engagement"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6664.896,
     "end": 6695.125,
     "text": "activities volumed by urban itself. Minor changes since our last presentation in DECEMBER. Then wrap up with urban master pan implementation, I know that was of interest and questions around that during those DECEMBER presentations. And of course, open up for questions and discussion. Again before getting into presentation itself, I want to acknowledge those that participated in the project over the last 18 months."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6697.896,
     "end": 6729.459,
     "text": "City project team led by myself, an ma stafford and sew ofie phia sophia. Robust steering committee, directors of community development planning, public works and parks and recreation. Cj and christopher. Sustainability division and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6729.628,
     "end": 6760.19,
     "text": "storm water staff, as well as rusty from committee liaison to pash parks and rec advisory board. Many thanks to you all engaging in many presentations in discussions along the way. Project consultant team, wssi. Many thanks to the community of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6761.93,
     "end": 6793.288,
     "text": "urban forest and passion to this community and appreciate participation along the way. So although the project kicked off, 18 months ago, concept for this project started as an action in 2035 comprehensive plan to develop and implement urban forest management plan. Without urban forester in staff 2021, planning division took first step conducting program"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6795.327,
     "end": 6827.39,
     "text": "evaluation report led by city sustainability coordinator. Reiterated need and hiring of urban forest manager. I identify storm water utility fund to help support urban forestry. After being hired 2023, city applied and awarded U.S. Forest industry"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6829.361,
     "end": 6851.81,
     "text": "grant helped support sprout initiative. Develop as well as move forward with implementation of urban forest management plan. Even though the project has been going on 18 months, much background as to how we have gotten here today. With that, I am going to hand it over to garrett to go over project goals."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6854.886,
     "end": 6886.782,
     "text": "thanks, anna. As you all are likely aware, first ever urban forestry program plan, engagement with the community urban forest stewardship. Five pieces outlines assessing existing conditions, engaging community. Identifying vision and goals, developing objectives, strategies and actions, providing"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6887.552,
     "end": 6917.982,
     "text": "implementation guidance. Plan grounded in quit qualitative and quantity tav ative quantitative, into the views and priorities of city residents. Building upon findings of existing conditions assessment and community efforts, vision and goals priority urban forced forest. Actions turned vision"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6922.754,
     "end": 6953.55,
     "text": "and foils into implementable tasks. Finally implementation guidance identifies how and when to enact key plan components, staff roles for supporting plan and metrics for success. Sooth five elements ensure plan accurately captures community's views an priorities and provides actionable recommendations to the city. Next slide. This project completed in two phases. First phase focused on data"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6954.252,
     "end": 6985.648,
     "text": "gathering and analysis. Phase one activities existing conditions assessment, non native species assessment, operations review, public meetings 1 and 2. Stakeholder interview us, public survey and development of forest outline. Updates boards and commissions throughout last fall. Phase 1. JUNE 2024 through early 2025. Next slide. Phase 2, began"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 6985.749,
     "end": 7016.814,
     "text": "spring 2025, immediately following conclusion of phase 1 and nearing its end we are here to present these final presentations to you. Phase 2 involved public input gathered. Takeaways vision, goals, objectives, strategies and action eye items, phase 2, preparation of several draft"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7021.186,
     "end": 7051.981,
     "text": "versions of urban forest master plan. Providing ouch dates to - boards, commissions, city council and public to keep you all aware of the project and its progress. Next slide. As illustrateded in previous slides, public engagement particle throughout both project, four public meetings, stakeholder meetings and public"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7054.753,
     "end": 7087.283,
     "text": "survey. 150 individual stakeholders. Additional stakeholders tabling various city events, urban forest photo contest. Visitors to the fairfax web page, 2700 unique visitors. Draft urban forest master plan available for from OCTOBER '26, to OCTOBER 20 -- voted on their top"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7090.155,
     "end": 7122.84,
     "text": "priorities. Input received from this activity highlighted in the plan. Important roles to the draft plan content. Public feedback improve legibility and accessibility to the community. Community also demonstrated consistent desire to learn more. Call out boxes included throughout this plan to provide additional information and context species names also provided on all photos of plants. More details on the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7122.72,
     "end": 7141.237,
     "text": "community's input what do we want chapter of the plan and come back to this in a few slides. Full summary provided in appendix d. All tracked in engagement data base as a resource in the future. I will"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7145.76,
     "end": 7177.508,
     "text": "turn it over to matt to provide thank you garrett. So now that we provided the background on the project and highlight some key pieces of urban forest master plan, around four phases of the process. Indicated on the graphic on the screen. Each chapters on the plan addresses one of these questions. Gathering the first step what we have, creates a baseline for the planning process by gathering information about current conditions."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7179.678,
     "end": 7214.411,
     "text": "The second step, what we want, seeks stakeholder input to develop the plan vision and guiding principles. The third step, how we get there identifies the strategies and actions to implement the urban foster master plan. Known as the implementation plan. And fourth step, how are we doing, use steps and integrals. And the progress resource course correction."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7216.148,
     "end": 7248.877,
     "text": "As we move through the next slide important to keep in mind that this plan address a 20-year urban forest, structured around the process and course intervals and the plan to align with the changing conditions in the city. Now give you more detail on each chapter. First step in adaptive management process, what we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7249.181,
     "end": 7281.845,
     "text": "have. Establishes a baseline and six components including an analysis of tree canopy data. And noninvisive species in fairfax. And review benchmarking to similar cities and estimations of the urban forest benefits provided. Notably the tree canopy makes up"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7283.415,
     "end": 7313.443,
     "text": "40% and 11,000 trees in parks and trails. And this excludes forested in parks where more trees, estimated up to 25,000 not inventoried. And fairfax operations tend to be reactive and response to staff observations and residents requests. And lastly estimated that fairfax urban foster provides 1.2 million in annual value and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7313.844,
     "end": 7346.377,
     "text": "benefited to mental and physical health and values not currently quantified. And the second step, what we want. That is long-term vision and goals. and public engagement is important for urban forest. Several themes to include stronger decision-making and dedicated city resources for managing the urban foster. Desire for expanded outreach efforts and interest in learning"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7348.979,
     "end": 7380.478,
     "text": "more about the urban foster and how to be involved. With goals strategies and actions. The goals shown here and share strategies. The urban forest goals is to champion an equitable forest in fairfax. And two, to care for capacity for trees. And three strengthen the community support and involvement in the urban forest. The third step, asks how we get there."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7383.181,
     "end": 7413.75,
     "text": "The chapter in the urban forest master plan implementation, ties the information from the first two chapters, the existing conditions, baseline and vision and goals for the future. And objectives and strategies and actions that can be used to implement the plan. The objectives shown on the screen are key outcomes to achieve, strategies are approaches used to enact the objectives and actions are completed tasks for strategies"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7413.111,
     "end": 7443.473,
     "text": "and objectives. The urban forest plan has five objectives. To protect. To regulate. To enhance city policies and expand tree canopy in process and content. To grow, create space and plant and care for new trees. Manage, establish an urban forestry division for all activities. And engage, foster community stewardship in fairfax's urban forest."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7444.276,
     "end": 7474.637,
     "text": "As mentioned on the previous slide, each objective is supported by strategies and each strategy has 13 actions for implementation. For example, strategy under managed objective is to scale internal capacity through a centralized urban forestry division. Actions include consulting the 2024 operations review, aligning staff responsibilities in the new division and supporting staff development. Actions for each strategy are"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7474.94,
     "end": 7508.672,
     "text": "sorted by short, mid, long-term for completion, spanning 1-5 years, 5-10 and 10-20 respectively. And each identifies capacity and partners and resource demands and metrics to track progress towards each strategy. The final step in adaptive management process asks how we are doing. And in this chapter recommends a progress assessment timeline and k"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7510.574,
     "end": 7544.841,
     "text": "kpi's that align with the goals to determine if achieving the master plan. And 13kpi in the plan and examples include a 5% increase in canopy cover in low areas. And increase to 90% or greater survival rate of newly planted trees. And increasing the number of volunteer hours to 20,000 by 2030. The project assessment reviews"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7545.342,
     "end": 7579.143,
     "text": "in annual report. Every five years more comprehensive review is recommended. This includes a formal review of goals and objectives and strategies and progress assessments similar to the annual reviews. And following the five-year reviews the city should publish a progress report and provide an addendum. And start back at the first question, what we have to understand the changing conditions influence how plan proceeds. And annual and five-year progress reports will provide"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7581.58,
     "end": 7611.74,
     "text": "public of the city's efforts and successes implementing the urban forest master plan. The annual and five-year checkins will allow the plan to be adaptive to address the urban forest and operations. And after 20 years recommended to have a new plan and provide recommendations to address changing conditions. So now that we covered the main"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7613.43,
     "end": 7647.478,
     "text": "points of urban forest master plan and highlight feedback received in presentation to city council in DECEMBER. We received great questions of how to predict changes to urban forest and climate impact and species that impact urban forest health. And added strategy 1.2, that is conserving and expanding tree canopy through strategic policies. And recommends partnerships with regional jurisdictions for"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7649.313,
     "end": 7680.411,
     "text": "forecasting and monitoring of canopy and not used to forecast but at county, state and regional level. And for these reason recommend alignment with the washington/metropolitan tree plan and long-term planning documents to integrate urban forestry in long-range planning considerations at multiple scales. And strong interest in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7680.679,
     "end": 7682.679,
     "text": "implementation and turn back to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7683.949,
     "end": 7714.644,
     "text": "anna to talk through the first steps. thank you. Yeah, in the DECEMBER meeting with you all and planning commission we heard a lot of questions around implementation, we acknowledge those concerns about budget and resources with implementation as we just heard. The five objectives, and 21 strategies and over 170 actions. A lot of work in one plan. I have started to take a deep dive into it, over 50 actions are already underway."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7716.314,
     "end": 7750.381,
     "text": "And many more considering on-going tasks that are built into staff's everyday work. The way that we designed the plan is to integrate with initiatives and projects that are already in motion to a certain extent. It's good to reemphasize and again on it's a 20-year planning horizon. And the intent is to be a living document through that adaptive management approach as we do the one-year checkins and the five-year progress reports. And take a moment and tie it back to earlier in the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7751.48,
     "end": 7783.347,
     "text": "presentation on the project's background. The city completed the urban forest evaluation five years ago. I say that we accomplished a lot over the past five years and since a lot of changes and resources managing the urban forest and as our urban forest continues to change. The thought is this plan now provides us better guidance and a more strategic plan to do work moving forward. And it provides a bit more transparency of how we are meeting community priorities and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7785.16,
     "end": 7816.412,
     "text": "where the priorities are for the urban forest's needs. And second I want to reiterate the sprout initiative and how designed to implement. It was not just designed to develop the plan but again to implement it as well. It's not a coincidence that it touches on all five objectives of the plan. Its foundation is in community stewardship as well as engagement. It's taken an all-hands approach on invasive species management,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7818.216,
     "end": 7849.612,
     "text": "it prioritizes tree planting to maximize community benefit. And of course route oted in that strategic plan and communication to public at frequent intervals. The sprout initiative is how you see implementation continue after adoption. And then lastly I want to share the urban forest master plan project has deliverables beyond the plan itself. It does include activation of implementation, we have begun on"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7851.85,
     "end": 7882.279,
     "text": "an annual work plan and drafting guidance from strategy 1.1 and drafting work flows and materials for policies. And integrate this plan into other city plans like the comprehensive plan. That's a quick snapshot of implementation, and happy of course to answer further questions once we opened that up. And so with that, I want to say having urban forest master plan is a great achievement and milestone for the city in terms"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7883.281,
     "end": 7895.76,
     "text": "of managing urban forest. I like to conclude with big tree celebrations with tree cheers -- tree cheers to the city and with that open up to questions and discussion."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7896.61,
     "end": 7906.769,
     "text": "thank you very much, that was very thorough and a nice follow up to the work session we had in DECEMBER. Are there questions, councilmember amos?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7907.738,
     "end": 7939.668,
     "text": "not questions, just comments. Excellent work. Y'all managed to do quite a lot with quite a few. We greatly appreciate that, I'm not going to reiterate too much what we said in DECEMBER. Happy to see partnerships and with george mason, excited to see that continuing forward with the tree assessments and gis programming. And I want to re-emphasize the importance of multilingual component with education and partnering with apartment"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7939.704,
     "end": 7947.77,
     "text": "complexes and that information is assimilated well and evenly, and thank you again and looking forward to the hearing."
   },
   {
     "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 7947.712,
     "end": 7949.712,
     "text": "councilmember peterson."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7950.482,
     "end": 7963.461,
     "text": "I think I have a procedural question, that is whether we will be discussing this again when the item comes up for adoption and that would occur after the public hearing. Or whether our only opportunity"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7963.461,
     "end": 7979.809,
     "text": "for discussion is now? no, following the public hearing you would have a motion to approve and then discussion and comment as always. And the opportunity to make amendments if that's the will of the council."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7980.712,
     "end": 7989.653,
     "text": "I think I would like to wait on some questions. And comments I have until we get through the public hearing. To give people a chance to speak before we do that. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 7989.688,
     "end": 8014.811,
     "text": "any other questions from the dais before we open the public hearing? Okay. Seeing none. I will open the public hearing. MS. Shinaberry has this item been properly advertised?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8015.947,
     "end": 8017.681,
     "text": "it has, anyone that wants to speak come forward."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8021.253,
     "end": 8053.184,
     "text": "hi, I am judy frazer, 3514 spring lake terrace. I totally applaud this work, it's a great achievement. I agree it's wonderful for the city for the first time to be considering a master plan and implementation plan for our urban forest. Many people over many years have supported this effort and worked to make it happen. So I hope no matter what tonight, you celebrate that and acknowledge this is a very important milestone for the city. But with that I have to say it's not ready for your approval in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8056.21,
     "end": 8089.86,
     "text": "my opinion. It jumps from 1 and 2 were great on this assessing existing conditions, engaging the community, stellar. The third one though, identifying the vision goals of priorities it falls short of being something very actionable for us. And then it jumps into the implementation part with the objectives, strategies, and the implementation guidance. Which you can tell that staff is ready to dive into and already is. But those goals are weak. They are like increase,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8089.788,
     "end": 8120.884,
     "text": "strengthen, champion, how do we get to those? How do we accomplish those? Those are not actionable in a way that we need. They should be more concrete. If we don't have concrete goals, why do we do a master plan. A master plan needs put those goals very visible at the end of that 20 year plan. And we know when we have achieved them. We're already accomplishing the goals that are there. We are strengthening this program."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8120.952,
     "end": 8152.148,
     "text": "We are increasing capacity. If we want to keep improving, that's great. Go for it. But if we want a master plan that really describes where we want to be, and what our vision is and we're accomplishing that. We need to strengthen those goals and I say that is over to you all, as the decision makers. Because you are the ones who need to set the goals and make the priorities for this program. You are going to be the decision makers about what gets done."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8152.317,
     "end": 8183.781,
     "text": "What will we pay for? So you need those goals to be clear in your mind. I challenge you to see this as a handing of the baton from staff and their great work to you, and the last lap to make sure that we get good goals, you are defining them. You are prioritizing them and they will guide you through this implementation. In a meaningful way. Again, very excited this is going forward and I look forward"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8184.916,
     "end": 8198.795,
     "text": "to a really robust plan that doesn't just sit on a shelf gathering dust because it's not concrete enough. So thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8199.998,
     "end": 8230.493,
     "text": "katie johnson, 102 spring lake terrace. I am super excited about the urban foster -- forest master plan and ask you for a timeline. According to the 2021, urban forest evaluation plan just the streets alone would cost 1.2 million. And there is a need to consolidate our trees to be better protected and served."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8232.363,
     "end": 8262.992,
     "text": "As a civic association PRESIDENT We are bookended by fairfax high school and tried for three years, I am a trained state volunteer to clip the limbs and watching them fall. I have contacted the school board and talked to two superintendents and volunteer to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8263.962,
     "end": 8294.59,
     "text": "cut the ivy that is ready to fall. And what is missing in the plan is would be targets. Canopy by 2050, it's a big, bold goal and love to see that shared with the public. I think it would bring accountability and get everyone excitd and cause more engagement. I would love to see more specific goals with defined"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8295.16,
     "end": 8297.895,
     "text": "metrics and specific timelines especially with the establishment of the urban"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8298.63,
     "end": 8308.538,
     "text": "forest division. Thank you. anybody else in the room that would liked to speak on the urban forest master plan?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8310.208,
     "end": 8337.168,
     "text": "all right, seeing -- I will close the public hearing. Is there a motion? I move that the city council adopt the urban forest master plan and the draft dated DECEMBER, 2025."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8339.336,
     "end": 8341.336,
     "text": "is there a second?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8341.64,
     "end": 8347.144,
     "text": "second with the provision that I would like to have discussion around a possible modification of that motion?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8347.945,
     "end": 8353.584,
     "text": "that's what we are doing next, is there any discussion on the motion, councilmember peterson."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8353.685,
     "end": 8384.147,
     "text": "thank you. And just to restate what others have said, not just today but in the work session this came up and it's really a chorus of thanks to all involved in this. It's been a combined effort by so many in the community, we thank the staff, we thank the consultants. A really important engagement on a really important issue. It really speaks to opportunity for the city to now prioritize the protection and management of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8384.85,
     "end": 8416.279,
     "text": "its forest in ways that have not been done do this point. That said, when I reviewed this, detailed plan, very good read but I had the impression that it did not include to the degree necessary targets and timelines for the actual achievement of things that are laid out as general goals."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8419.16,
     "end": 8449.179,
     "text": "And so I sort of liken this to the process of playing tennis without a net. What this doesn't have is a safety net spelled out clearly enough in my judgment. Specifically for losses and tree canopy. And it speaks to some issues raised earlier about tightening up the implementation timelines. And targets associated with the plan. So I actually decided to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8451.817,
     "end": 8483.546,
     "text": "double-check myself and ran this through imperfect as it MAY be, ai review of this. And it spelled out a series of strengthening measures that would be recommended for the plan. I think they are worth considering and I think the question I have for city manager, whether there is an avenue by which we include a commitment to understand how we would proceed to tighten this thing up a little bit. And read a couple of things that came out of that."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8485.182,
     "end": 8518.882,
     "text": "#1, clear enforcement on the accountability measures on regulatory protections. And more robust private property and protections. And fourth, considerations and fifth define funding staffing and maintenance commitments. The first two and three are particularly important. Because of the importance of establishing a safety net for forest protection, we heard that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8520.752,
     "end": 8547.977,
     "text": "fairfax county has tried to do that. It's not uncomplicated process to establish targets and timelines and yet essential to do so. I think what I would like to suggest is to hear whether the staff has thought a bit how we might include some definition of the process by which we might use to move forward to do that. And that might be folded in the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8548.447,
     "end": 8550.581,
     "text": "action we take today. MR. Alexander."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8551.15,
     "end": 8582.545,
     "text": "thank you for the question, I think it would be useful for staff to address some of this as look into the plan. Particularly as we get into kpi baseline targets and status. It might be helpful to cover some of that, and be responsive to the questions raised and continue the discussion accordingly."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8582.881,
     "end": 8614.245,
     "text": "I'm just pulling up table eight in the master plan. The kpi table to make sure we are looking at same information of what is in the plan. And happy to answer questions and get some clarification and so regarding the explicit numerical canopy targets and timelines. I want to show what currently exists within the plan. On this table mapped to the three goals. 1, 2 and 3 that you see on the left-hand side."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8616.414,
     "end": 8647.577,
     "text": "The first two talk to tree canopy percentages and first city wide, to be 40% and target to be greater than 40% and increase 1-2% over the next 10-15 years. I want to provide more context to that. We do have our canopy data within a software that we have the data on each census block group. We know what each canopy"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8647.679,
     "end": 8680.143,
     "text": "percentage is for each census block and updated as new imagery is available. staff is already tracking that. And then the next one to increase canopy in the low-canopy areas and we the data which falls below. And 40% that exists city wide and target canopy cover in those low areas by 2035."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8680.278,
     "end": 8713.343,
     "text": "And tracking that through the canopy software. I would say that one thing that - I want to also add, in our canopy study from 2023 assessment, we saw over 10 years, one time frame to look at. The city had consistent 40% tree canopy coverage in that time period. We haven't seen significant losses or gains necessarily. And to me we look around and see"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8714.478,
     "end": 8745.942,
     "text": "our canopy is covered in [Inaudible] Or dead ash trees not removed. The quality might not be there, and when developing the plan it was intentional to focus on the quality aspect. And that's why there is a lot of metrics around volunteering and acreage of invasive removal and things like that. To focus in on quality. Above this table we do also though acknowledge urban forest is a regional resource. And also partner in the region."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8749.613,
     "end": 8782.346,
     "text": "And it's to participate in cog's 50% tree canopy goal. A strategy and action, once they adopt their action plan realign our goals from this plan with that. I do sit on the regional tree action committee on cog. And so they are in development of that plan. So it felt premature to set a metric, and then last say for the canopy targets. It's based off of you need to have plantable area, you need to have the mechanisms in place to grow canopy."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8783.882,
     "end": 8805.269,
     "text": "It's not just planting or preserving. It's a combination of all of those together. There is a lot of thought that needs to go into what is feasible for canopy goals. I think this is the starting point being able to start moving us to those goals. And collecting and establishing the programs and data needed to refine goals in the future."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8806.304,
     "end": 8813.243,
     "text": "so there's a motion on the floor, did you want to make an alternative motion or amend the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8814.713,
     "end": 8823.219,
     "text": "motion councilmember peterson? [Inaudible] See if anything else to be added in terms [Inaudible]"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8824.689,
     "end": 8855.986,
     "text": "no, I think certainly opportunities to create more specificity around timelines here for sure. I think there is some opportunity to develop some teeth as it relates to our code regulations. And how we approach this comparing ourselves to other jurisdictions. And the question is this a point of departure or amend anything in this plan in order to create that more granularity in the plan. So that's, I think that's a perfectly reasonable discussion and certainly an opportunity for"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8856.21,
     "end": 8858.21,
     "text": "us to build on to what we have"
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 8861.259,
     "end": 8871.401,
     "text": "here. councilmember hardy-chandler, do you have a question? Comment?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8871.703,
     "end": 8902.733,
     "text": "it's more of a comment and I'm not sure if the motion is still active. But add my perspective is that this is sufficient to start because as you said explicitly its a living document. And what gives me comfort the annual updates, the five-year reviews. I see that cycle as an ongoing cycle. I would not expect all the matrices to be in this version of the plan. But for some things to evolve as more information is available. The fact that it's a living"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8904.236,
     "end": 8925.589,
     "text": "document that will be reviewed ononon a regular basis for me this is sufficient as a starting point. That cycle is circular, it doesn't go linear; right. And so I'm looking forward to the specificity to be built in as the process moves on and there is expansion and the capacity to do that. So thank you."
   },
   {
     "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 8927.526,
     "end": 8929.526,
     "text": "councilmember peterson."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8931.43,
     "end": 8961.891,
     "text": "so I guess my follow up would be, there is really two issues here. One is targets and timelines and the other is teeth or regulatory requirements here. And it seems to me it would be good to have something a little bit more specific about the timing of when we intend to proceed to put in place those kinds of standards that pick up resolution of the targets and again not uncomplicated process."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8962.94,
     "end": 8984.815,
     "text": "I think my request would be that we add something that becomes specific about a commitment for when that will happen. Even if it's a matter of approving this with the expectation that some time soon you will come back to us and explain how you would go about doing that and when you do that and more clear than currently. That's my request if a way to do that."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 8986.218,
     "end": 9020.17,
     "text": "I would respond, so our next step is creating that annual action plan that will at least identify in this year what we plan on working on. And use an example of our comprehensive plan and if paul wants to add anything to this. The comprehensive plan you are familiar with and implementation guides that have those dates and the leads and support roles. Those were, that implementation guide was developed post-adoption of the comprehensive plan and coordinated once staff and how"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9021.62,
     "end": 9048.344,
     "text": "to do so. I am developing a similar thing within online project software, in terms of putting in dates as to when certain projects have either kicked off or will kickoff. Those details are ongoing in the implementation process. I think there is a component on the planning process and then a component of some of this is done at implementation."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9050.48,
     "end": 9061.257,
     "text": "it might be helpful to speak to a specific time to come back, when is the next time we plan to come back? And speak in terms of annual plan, council MAY be looking for something sooner."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9063.261,
     "end": 9086.816,
     "text": "yeah, and so for annual plan I anticipate having that done within the first quarter of the year and some time by MARCH annual plan or sooner. and at minimum reported out in the past through the state of urban forest report in terms of progress. And share the annual plan once that has been developed."
   },
   {
     "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 9087.786,
     "end": 9089.786,
     "text": "councilmember peterson."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9090.655,
     "end": 9122.419,
     "text": "just to clarify that point. So that would mean that by the end of MARCH or so, you would be coming back with a description of how the necessary regulatory standards and the necessary targets and timelines would be further developed and implemented to pursue these objectives. Which would include addressing the loss of forest, canopy and land loss."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9122.621,
     "end": 9153.316,
     "text": "We would have a clear picture at that stage how that would be done. And that would include an understanding of the actions the council would need to take to ensure that necessary standards are being adopted if they come out of that process. So that wouldn't be an open-ended and unclear process. We would have some clear understanding of the need for us. And the opportunity for us to be able to take action to ensure this is advanced. Is that a fair, is that the kind"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9154.92,
     "end": 9156.253,
     "text": "of thing to get by the end of MARCH?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9158.156,
     "end": 9188.319,
     "text": "by the end of MARCH what you see annual component, for 2026 and working on a five-year outlook, being a 20-year plan. Wouldn't be assigning necessarily year targets to the full plan. Similar to how the comprehensive plan does not do that to the entire comprehensive plan. and then in terms of how we are strengthening the bullet points that we provide, the regulatory components, policies and things"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9188.787,
     "end": 9199.563,
     "text": "like that. Some of that would be include in that depending on how fit in the annual plan and the five-year outlook."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9200.599,
     "end": 9233.165,
     "text": "if I might and that point in MARCH, would we have an understanding of how the city would be wanting to approach doing something similar to what fairfax county did with 60% goals. By the end of MARCH have some understanding of the procedure, the trajectory in when and how we do that and active in a long-term target setting process. Is that something we have as first annual examination of this"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9233.165,
     "end": 9268.165,
     "text": "in MARCH? I would say that a development of a canopy goal and a development of more specific targets, that in and of itself could be priority undertaking if the directive given and from you and the city manager. It's balancing the priority. And a let -- lot are targets refined in that process and we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9269.968,
     "end": 9281.377,
     "text": "have a starting point of kpi table that I shared a little bit ago and continue to be updated as projects implemented."
   },
   {
     "speaker": "Councilmember Anthony Amos",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 9283.448,
     "end": 9317.247,
     "text": "councilmember amos. I'll only add I am always a fan of prioritization and a tiered framework. And I want to point out that a lot of this is contingent one on staffing and we had in the climate action plan, you don't have a sufficient staffing to do a lot of this quickly. And understand that and on us to discuss as priority ization as well. And on the other side,"
   },
   {
     "speaker": "Councilmember Anthony Amos",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 9317.715,
     "end": 9349.346,
     "text": "assessments to set realistic and achievable goals. So I would like a report back and doesn't have to be MARCH. And annual reviews MAY touch on that and think that prioritization and tiered framework is helpful and it's evolving process and not within a month. In terms of framework to build off of and not sitting on a shelf this is sufficient for tonight."
   },
   {
     "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 9350.182,
     "end": 9352.182,
     "text": "councilmember peterson."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9355.687,
     "end": 9387.619,
     "text": "I don't set that assessment by MARCH but a priority how we move forward with the necessary steps to put in place the targets and timetables and teeth. It's a critical one. And the work session, won't go through the numbers, documented and decline forest loss and regionally up and down in localities and we felt this quite a bit, substantial, 4,000 acres a year, the size of city of fairfax is lost. In this city we are on track and losing not every year but up and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9387.619,
     "end": 9408.471,
     "text": "down. So it's a critical issue that I don't think can wait for many years down the road. The long-term planning needs to start now to understand how we get ahead that of curve. I would appreciate it if we could have a commitment in that report back in MARCH we include an understanding of how to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9408.64,
     "end": 9411.509,
     "text": "proceed in this area. MR. Alexander."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9412.644,
     "end": 9432.495,
     "text": "yes, someone that does math better than me recognized that next month is MARCH. So I do want to be a little more realistic and I think we will be talking about a lot other things during that time. Maybe if the council pleases the next quarter that we come up"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9432.897,
     "end": 9445.75,
     "text": "against, if that's more realistic. thank you, there is a motion on the floor, is there a substitute or amendment to the motion or ready to vote on this motion? Councilmember peterson."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9445.744,
     "end": 9462.425,
     "text": "yeah, I would make a motion to amend and simply add by the second quarter of the year we receive some kind of report back on how to progress in this area and take necessary actions."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9463.194,
     "end": 9468.99,
     "text": "is that the form of a substitute or amendment to the motion?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9473.271,
     "end": 9494.757,
     "text": "MR. Lubkeman. sounds like a simple amendment and included as part of the motion. And based on what the manager said staff understands the spirit of what is intended. Regardless of the language in the motion, I think staff will proceed what you discussed. Assuming there is consensus."
   },
   {
     "speaker": "Councilmember Billy Bates",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 9495.527,
     "end": 9497.527,
     "text": "councilmember bates."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9499.164,
     "end": 9530.594,
     "text": "I just you know, again first this is a night of adoption of this plan. First I heard of desire to amend it anyway. And I want to make sure whatever we do, there is a concern raised about if we try to kind of take on too much in addition to this. Would that take away from the important work that staff is planning to do to implement the tenets of this plan."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9532.464,
     "end": 9565.595,
     "text": "so I want to make sure that whatever we do here, I am just fine passing approving the plan as is with the understanding as was raised was excellent point, there is a strong precedent for creating supplemental policy documents such as implementation guides that supplement plans that are approved and passed. But meant to guide the implementation of those plans."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9567.532,
     "end": 9595.993,
     "text": "So I am prepared to approve this plan as is, with the understanding that was put earlier launching point for further work and further implementation of the goals of that plan. With that being said, certainly open to further guidance just but would not support anything that interferes with the work that staff is planning on doing"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9599.131,
     "end": 9629.758,
     "text": "to implement this. so you make an excellent point about the adoption of this plan. Which we had a work session on and there was feedback in the work session. And we do a great job at allowing public hearing and testimony to give feedback. But work shopping a plan from the dais is not really our role. We have professional staff, we have consultants and a lot of work has been put into this plan"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9630.195,
     "end": 9661.125,
     "text": "for us to be second guessing or making amendments or workshoping it from the dais during a vote. From my perspective this is not good practice. That said, there is a proposed amendment to this motion on the floor. The maker of the motion is now in the position to accept this amended motion. councilmember hardy-chandler."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9663.61,
     "end": 9672.303,
     "text": "I'm not clear on the amendment, so -- staying with the motion to adopt the plan. There can be a second motion."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9675.6,
     "end": 9681.177,
     "text": "is there a second to councilmember peterson's motion to amend the original motion?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9682.447,
     "end": 9683.848,
     "text": "I'll second it with a comment."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9684.783,
     "end": 9685.982,
     "text": "certainly, councilmember hall."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9687.552,
     "end": 9718.348,
     "text": "I think the plan that has been provided and in place is great. I think a lot of effort into it and I understand 18 months has gone into this. I also think there is questions and concerns raised that are appropriate and reasonable and I don't think if we exclude the MARCH conversation, which is next month. Looking at the end of the JUNE, let's say, I don't think it's unreasonable to come back what you are talking about with the implementation plan to try to come up with some other key"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9719.484,
     "end": 9740.203,
     "text": "factors that are maybe a concern for councilmember peterson. So I could go either way but I don't think it hurts the plan itself. Sounds like you are going to dos regardless and all the things covered in what are doing anymore."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9742.107,
     "end": 9746.609,
     "text": "clear on what the amendment is to this original motion councilmember peterson?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9748.814,
     "end": 9764.94,
     "text": "I think the sample motion that we have approval with revisions and same of the first motion and subject to following modifications and in the report in JULY that this is an item of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9764.396,
     "end": 9771.602,
     "text": "discussion for us to review. so there has been a substitute motion and seconded. MR. Lubkeman."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9772.3,
     "end": 9804.401,
     "text": "now I am thinking of questions and the one that comes to mind you would like a report. Is it just like what it sounds like? A report. Or something that you propose the council would hear and make some sort of determination on. Because that would be as MS. Stafford outlined typically with the policies and staff guidance but staff with documentation. Are you anticipating wanting for lack of another term another"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9805.57,
     "end": 9818.315,
     "text": "bite at the apple on this. And in which case taking action on this tonight would be premature. I don't know. We are trying to understand what the goal of that report. A report can be given without having a meeting on it, if that make sense."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9819.84,
     "end": 9853.117,
     "text": "the thing that is missing from the plan before us that we can adopt is an explanation of how we're going to be going about establishing these targets and timelines and for lack of a better term, teeth. It is isn't spelled out adequately and as spelled out it will be more clear whether or not or when council action is required. And there is an important information that is missing and speaks to this important issue"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9854.219,
     "end": 9886.549,
     "text": "of forest land loss and a commitment that is clear. That we are going to understand how to go ahead and do that. And not leave it unclear. At some point this certainly could and I suspect would lead to council action. because it could lead to regulatory actions. It could lead to a number of things. But we haven't clarified of how to do a target setting process. Target setting is essential part"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9887.552,
     "end": 9894.91,
     "text": "of all things we do and clear to understand how we do that and how people are involved in doing that."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9896.328,
     "end": 9914.411,
     "text": "but is that issue something that keeps you from approving the plan? Or something as MS. Stafford said part of a living plan and evolves and opportunities to make changes as time goes forward. In other words this isn't the end of the process to approve the plan this evening."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9915.647,
     "end": 9924.822,
     "text": "it's not clear this is a priority that follows in timely manner, that's the concern. I would like to see this is a priority that follows in a timely manner."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9927.526,
     "end": 9933.663,
     "text": "mayor, I argue that it becomes a question whether there is support for that amendment."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9934.199,
     "end": 9939.569,
     "text": "a substitute motion has been made with a report in JULY, it has been seconded by"
   },
   {
     "speaker": "Councilmember Stacy Hall",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (inline header)",
     "start": 9940.138,
     "end": 9942.907,
     "text": "Roll call vote MS. Shinaberry."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9943.875,
     "end": 9974.671,
     "text": "before we do that, I would to respond to a comment made so it's clear. Following our work session when this issue was raised, I specifically asked for follow up on this issue through the city manager, with staff and had extended conversations about this. So this issue was discussed at some real length, it's not a surprise for this to be under discussion this evening. based on that. Just wanted everybody to be"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9974.806,
     "end": 9977.34,
     "text": "clear on that, thank you. roll call vote."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9978.81,
     "end": 9980.81,
     "text": "amos."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9985.316,
     "end": 9987.316,
     "text": "and just for clarity on the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9987.385,
     "end": 9989.621,
     "text": "amended piece. Nay. hall."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9989.621,
     "end": 9992.22,
     "text": "aye. hardy-chandler. nay."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9992.624,
     "end": 9994.693,
     "text": "peterson. aye. bates."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9994.693,
     "end": 9996.227,
     "text": "nay. Mcquillen."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 9998.363,
     "end": 10002.665,
     "text": "nay. okay. Motion failed 2-4."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10006.71,
     "end": 10008.473,
     "text": "back to the original motion. Roll call. amos."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10008.473,
     "end": 10010.509,
     "text": "aye. hall."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10010.509,
     "end": 10013.1,
     "text": "aye. hardy-chandler. aye."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10013.812,
     "end": 10016.47,
     "text": "peterson. aye. bates."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10016.47,
     "end": 10018.47,
     "text": "aye."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10018.215,
     "end": 10019.582,
     "text": "Mcquillen. aye."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10021.486,
     "end": 10052.215,
     "text": "motion passed unanimously. Go to the second general public comment. Anybody in the room that would like to speak on any item not on the public hearing. You can come forward and if there is a line, have that line by the window. You can come up first."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10053.418,
     "end": 10055.219,
     "text": "You can go ahead. give information?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10055.587,
     "end": 10060.91,
     "text": "just state your name and address and comment. That's it. And I'll get that."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10061.66,
     "end": 10092.288,
     "text": "sounds good, hi, I am elizabeth, and I believe the clerk does have my address already. Mayor, members of council and neighbors, I want to begin by clearly stating they support the willard sherwood project. I came to that support thoughtfully and want to share why. This project became personal with a conversation with a director of the preschool in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10092.491,
     "end": 10123.452,
     "text": "fairfax and still serving families today. When I reached out this project affect them, their response was simple, welcome to be part of this center. That moment grounded the project for me as something that touches families and our city. I grew up in fairfax city, and I attended preschool and college here. I MAY be young and determined in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10124.156,
     "end": 10155.118,
     "text": "this success not just for today but for decades of now. Why I support this project. Accessible health matters and ada accessible matters and community spaces matters and childcare matters. Long-term residents have shared how to use existing facilities. Green akers accessible"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10155.22,
     "end": 10186.35,
     "text": "challenges and basic functionality that affect whether seniors can function with dignity. And I think that willard sherwood gives the opportunity for standards across services. And health center component is critical. City residents rely on the willard site for real needs. Many residents will continue to use the willard portion of this partnership."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10187.619,
     "end": 10222.685,
     "text": "Childcare, what I care about is not just a side benefit. It's an essential infrastructure for working families and our workforce. And one of the strongest opportunities in this project to maintain sustainability and ongoing operations. I want to acknowledge our partnership with fairfax county and maintaining it matters not just for this project but for future joint ventures as well. But at the same time I think"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10223.288,
     "end": 10255.484,
     "text": "it's reasonable for the city to be clear eyed when it comes to long-term responsibilities. Capital costs happen once. Operating happens for decades. How to sustain this facility over next 23 years is not opposition but stewardship. I believe this project can remain both accessible and financially responsible, that's"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10257.522,
     "end": 10259.522,
     "text": "it, thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10263.295,
     "end": 10294.858,
     "text": "good evening mayor and council, kelly ryan. Here tonight to speak in support of the willard sherwood health and community center. I know that residents have concerns about the size of the project and what it means for the city's long term finances. Those concerns are valid and need to be taken seriously. Supporting this project does not mean ignoring those questions. Facilities like this take years of planning and coordination and financing."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10295.861,
     "end": 10327.791,
     "text": "In this case willard sherwood has followed that long path. It has been studied and authorized at many stages in the cip process. This is not simply a building a joint facility with fairfax county that brings together public health services and childhood and recreation and senior art programming in one location. It replaces aging facilities and consolidate programs spread across multiple sites. Delaying this project would"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10330.195,
     "end": 10363.46,
     "text": "extend reliance on aging buildings and increase accessing of services and likely increase costs due to escalation and redesign. The advisory board has endorsed this project to have a community wide center we currently do not have, as you received by e-mail. There are real limitations to continue to rely on green aker's site, it has value and access and parking constraints that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10363.862,
     "end": 10394.957,
     "text": "require significant reinvestment to serve the long-time solution. Council must scrutinize the costs and transparency and discipline is essentl. But be honest about the alternatives, ignorg this project would shift costs and postpone neede services. Th proje rresents sential community infrastructure it's a multigenerational investment. It strengthens our partnerip with faiax county and reflects"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10394.993,
     "end": 10414.644,
     "text": "ars o carul plannin to addrs a demonstrated need. Iespectfully consider council to move this project forward th transparency and discipline as final arovals are consider, thank you for the opportunity to speak."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10415.447,
     "end": 10447.911,
     "text": "katie johnn. Spring lake terrac affordility cannot jus be a buword. the willard sherwood cannot be viewed be a vacm but with a clea lens and with the cip projects as well ashe debt services that we have to pay. Gether their enomic impact muste fully understood and clearly commucated to the ople. Weust fully understandow the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10448.28,
     "end": 10479.809,
     "text": "additional $ milliono the anal operating budget beaid for and those are 2025 numbers. How hh a you wling to raise our tes? What service wille sacrificed? The willard sherwood sounds like aoodroject buthat cy prects pay the bill we mt prioritize kping the ci affordable for tho living hereow. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10480.278,
     "end": 10511.675,
     "text": "good evening mayor and counci member am cristina, I will provide the address to thelerk but I live in mos woods develoent. Speaking tonight as long term resident nearl 14 years and I also serve on school board but I amere as a taxyer that deeply ces about this wonderl community. I strongly suprt moving forward with theillard sherwo center and empsize"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10514.246,
     "end": 10545.176,
     "text": "is is not a luxuryut to serve across generaons, children and famils and senior in a single location. And wh a muihub that combines county servis and chdhood and program and city-run recreation and locatedn a bus line of 105 minutes ofalkor many neighborods makest easy for members to accesshey need every y. Some members are concerned about"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10545.943,
     "end": 10578.643,
     "text": "cost and this projectsot a line item t ncel. 's a long-standing investment in the our cy for today's residentss and next generati can have faiax cizens. And cancelinghis proje would increase cos and needed seices out from our residences. D finally this project reflts a strong parership th fairfax county. Six years ago I probably wou stood here and say let's cancel anany other county project. Let's be ful independent."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10578.643,
     "end": 10608.906,
     "text": "But over te with lived expeence and serving this community and completing a master's inublic policy, I understand that n jurisdictio as small asurs opates in a vacuum. To provide sense rvices that resints expectepends on thi partnership. Rengthening our relionship th the county and our abili to serve resentsfficiently"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10610.942,
     "end": 10633.962,
     "text": "an avoidingduplicion. The willard sherwood cenr is the right project in the right ace athe right time it honors years of planning meets the needs of our cmunity w, I urg theouncil toove forward with the prect. Thk you for consideng the future of our city."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10636.401,
     "end": 10669.4,
     "text": "goodvening mayor, mike fabio, I too supporthe willard sherwood development. The imptant role of a community center cannot be overstated. Proving a safe space for engagementnd promos economic develoent. Th I not aut aym membersh, which we can get anywhere. This is about meeting our neighborsnd get tonow one another. A sen of place, a people pce where u want spend time. It might be like cers wre everybody kws you name."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10670.168,
     "end": 10700.73,
     "text": "Get a meeting roo for your favorite hobby, form a group. Attend a conct. Get the id, what thi is about. Th present sherwoo center is we knownnd the old town will be synergistic wh the plan, and theocation will be easyo reach from all corner of the city. The multimod plan forlenheim boulevd is incorpored into the desig of this structe. - and these ftures allow me people to get out of their cars"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10700.999,
     "end": 10731.429,
     "text": "and wal tre and reduce traffic. Bu ifou do hav to drive there, you will be provide with a safe a shelteredpace for parkg. And convenie elevator access, importanto those whore less able. Not only will thisncrease your enjoyment of e city, but it will make it more attractive to wcomers. Sohen you dide to sell your home, youill get a better price that will more than compensate for the cost at the center of the project here."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10733.498,
     "end": 10763.961,
     "text": "At thetart of the project. The city's previous study has shown that existing commuty center is beyond cost eective restoration. Partnehip with fairfax count elinates the cost of land acquisition a another location. Combining resource wh the county provis advantage in aling and share funding. We hopeouill take all of these aantages in mind as you consider the city's fincial commment to move this project to comption."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10765.597,
     "end": 10796.96,
     "text": "Even the planning commission in its capital impvement presentation tonight would advise you that you must recogne the urgency o this project. Years in pnning and vetted in presentation and reived staff approval. Abandoning ts project now with no cle end ge is a dserve to ourcommunity. I don't think you will. Ihink you will do the rht"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10797.429,
     "end": 10799.997,
     "text": "thing andpplaud all the tim d effort youut into it"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10800.699,
     "end": 10805.368,
     "text": "aone else in the room that wod like to speak?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 10807.172,
     "end": 11097.26,
     "text": "all right, [Gavel] I will now recess theegulareeting to go into a work session. Take five-minute recess to go to the work-session om."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11462.494,
     "end": 11472.736,
     "text": "a right we' back for our rk session. It's stilluesday. The fst itemp MS. Shinaberry."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11474.639,
     "end": 11489.252,
     "text": "the fst item is joint meeting of the plannin commission and the city council regardg draft fy2027-2031cip. Recogniz the planning division chief to pvide the staff report."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11489.321,
     "end": 11521.118,
     "text": "thank you mayor rd and members of the city uncil. this annual process. Planning commissneviewing the capital improvement proam is support by the cef viinia. Theode of virnia recognizes that the plannin commission is a responsible pay in this review as overseers of the comprehensive plan. Ashe state says is intended to define the futur development of the city and recognizes that th capital improvementrogram focus on the investment that pact the furt development of city"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11522.187,
     "end": 11554.318,
     "text": "r that reason planning commissi is taske to provide nsideration for city couil as draft progr but not as whe. D the initial dftapital plan is presented in the fall. Anthe planng commission receives at the same time as council aollow in juary andebruary toiscuss and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11554.719,
     "end": 11585.81,
     "text": "decide what the recommendions will be. Andften involves inviting cy staffnd board and commissions for feedback f the appropriate type of review. And the hd a publi hring, usually heduledt the ef nuary, wead hiccups in JANUARY and scheled las week, and here w. And instead the planng commission had pubc hearing last ght."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11585.55,
     "end": 11615.846,
     "text": "And you received packet that changes becau the public hearing happened so late but the planng commission deced n to make changes. And the goa is for planning commissi tohare recommendations anprovide backound why the commendations in ther and befor I turnor to the planning commission recap of what the planningommission is in their revie and what typ of things lk for. First as detmined by the state should determine conformance of requesif the capital improvemen plan with the comphensive plan."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11616.882,
     "end": 11647.21,
     "text": "And in addition d that, our planningommission typically advices ty council o priories ofroposed projects and recomnd limited resources and often have to make choices what we wanto instsooner an defer. Anuse a referencen determining why o foc shod be. And too to anticipateuture considations. Recognizing tt the timeline of cip isive years and comprehensive pla is 20 years."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11648.947,
     "end": 11659.69,
     "text": "We are looking farther ahead and ings that should be in capital progra and not and turnover chair feather."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11660.425,
     "end": 11692.589,
     "text": "thank u, mor and council, thank you for having us here this evening. Ining me are vice chair lockhart and COMMISSNERr. Matt rice, DR. Rice I also our representative o park and recreation advisory board. We have two other mbers on commissi, we arehy o. But one h another oigation and. Cunngham I preparing to takeff early in the morng r californi and unab to be"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11696.261,
     "end": 11729.46,
     "text": "with us tonit as pparing pr -- prepping for th. And meeting last nig planning commission voted unanimoly to fi the projects detled in fy2027-203apital improveme plan are constent with the plansnd prioriti. And as described the vot follow public hearing and brieng by staff. This year I particular w met with the director of parks and recreation and a representive fr the fire dartment to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11729.561,
     "end": 11761.724,
     "text": "address couple of questionsn a coupl of projects the. So or the number of meings that we hadnd got tohis point and had heari last night. As far as what our resolution says, you have receive a draf which is the final copy. Made no chaes and talk more detail in other slides. We comnded t council, the pith some scific recommendatis. There re tee projects tt we feel are particularly urgent"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11764.863,
     "end": 11795.392,
     "text": "that should be moved forwd. And talk abo those. And those are going to be the property yardeasibilitystudy, we are conrned about the proximit of that and locaon of that and t floplain and theifficulty that presented. And it's a real threa to lot ofesources and assetsn the city. Our expe inand use citin here, DR. Re kt us te t"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11796.495,
     "end": 11809.405,
     "text": "the task looking at these tters in the city. And were equally convinced as an entire commissionhis is an important priority that we shld be moving forwa wi. D you want to add anything at this poibout that?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11809.673,
     "end": 11840.804,
     "text": "just the context that th ci has experse inooking at floodplains and in mping floodplains. They hav a very caple group in publi works that lookt this from database perspective th fema flood zone tt is the most rect estimate is significantl bigr in termsf its impact than the 2006 version we had beenusing."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11841.94,
     "end": 11847.111,
     "text": "So I think theature of floong within this area really does merit se quick thinking"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11850.916,
     "end": 11882.213,
     "text": "and looking at thi therere spefic rerences ur comprehenve plan I wouldn't saypecific but neral enough referencesn the mpetence rehensive plan that guide us for t facilies to mee these environmental challenges w will have with potenal floodin related to clite chan. New falities thatan support the ci's needs and protect its assets and resoces. Anthat's an importa conseration for us."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11883.682,
     "end": 11919.149,
     "text": "As the canas been kickedown the road te a time on this. D to the point that we think it's relatively urgent mter to move foard. Second proct we commend to your consideration as a priority is fire station prect. We he relativy dated facility and sufficnt, inow that som ofou had the opportunityo tour it. I d not hav the opportuty to join, I wish iad been able to do that. Some conces that we hrd on both sides of the pject a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11920.118,
     "end": 11953.917,
     "text": "invited a representativ from theire department to speako us as we considered whathe priority is to th. and numbeof matters relat to the facilies available for the fifighters themselvess they rete to tir comfort. Their eparedness. And -- sorry? Yeah, that's right. So again I know my members have had thoughts and sre as well"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11955.987,
     "end": 11957.621,
     "text": "and Dr.Ice you have engaged heavily I this"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11958.824,
     "end": 11991.788,
     "text": "very quickly, wh the schools whene renovate a facity, we hav to be very carel of planningnd logisticof doing our educating of a city being built. E fire statn is th same, the costf relocating the partment temporarily is several million dollars for the location. Th stratic acquisition of property nex to fire station 3 will facilitate this project in a way that has to be very"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 11992.824,
     "end": 12022.888,
     "text": "specificly handled inerms o seence andhe events. And al note that the cost of us running a police partment, fire department inudes insurance. And accreditation exercises. The fire department is higy esteemednd they're rates that we pay to keep our businesses going and particularly with demand signa tt is increasing th MS. Locart menons to us frequently. 's really a highriority in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12022.888,
     "end": 12024.888,
     "text": "our minds and we want to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12027.659,
     "end": 12057.921,
     "text": "emphize that. a t third large project we wanto prioritize is the willard-sherwoodommunity center. It'simely that our presentation is the same night as your discsion. you had a lot of public input from the planning commiion standpoint, a I said, we unanimsly eorsed this relution and includinghis as a pority forus. You heard a the public mments on variouseeds of why it's anmportant proct."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12058.623,
     "end": 12089.52,
     "text": "Brinng the facilits up to contemporary standds and puttg in maylace most accessible. An adjacencies to oldeown and va dyckark and med along through mulple city councs and iterations of planning commissions and the comprehensive pn is somhing"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12089.187,
     "end": 12120.95,
     "text": "that weelieve strongl in. And in terms of references in the compplan. We have a vision for public facilities. That willrovide topnotch facilities and have parknd reeation facilities tt are well mainined. Open spaces that he ltigenerational comnity centers. And we're lacking quality in that respect. With wt we are currently operating. Th comprehensive plan"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12122.2,
     "end": 12154.552,
     "text": "specifical references the sty, a sdy that supported developing the new facility. Have known for aong time the money pit that green acres is and the inadequacy of that facility and poor location. Theommission strony belies that this should be a priory from the policy standpnt, the strategic standpoint and as well as the tactical matters and convenience and cfort and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12156.588,
     "end": 12161.325,
     "text": "facities that youe hea a lot about tonig already. Any of yo like to chime in, please do."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12163.628,
     "end": 12194.19,
     "text": "so I would like tooint to actually jumphead to blet 5. Ifou are look at our recommendaon to the cocil, whh is poritizingross functional and interdartmental planning for utilization of city properes and facilities and look at th top prects and stresse don't g real politil in the plannin commison but updated our langua to urgency from strongly recommended lasyear. The first two projects are portunities for the city to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12194.392,
     "end": 12226.79,
     "text": "capitalize on this interdepartmental planning to makeure that w are getting is useful and maximiz our retn on iestment of the most need met in a sgle project or t projects as this caseay. And we had excellent convertions with the public works andire departmt have yohought about co-partnering with managemt a wt would poteial sell off help the pay-ck period on what will be a substantial relocation cost."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12227.125,
     "end": 12257.486,
     "text": "A hugepportunity for the city to d two things corrtly. It does require iestment and line item in e cip, and to not just onc or twice a to build ings that are eeptional a proactive in addressg the requirementsf our community. An nber three I an example the willardherwoods a collabative jntly planned - facility thatddresses multiple futions. Itical public healt funions"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12257.656,
     "end": 12287.984,
     "text": "that we wanto be athe cu of respondg to publicealth issues in thecity, withur residentand the county. It's cutting edge and reeational and community gathing space. And reactivate the sheood center and make it useful and entire b of children receiving services at gre acres a I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12289.887,
     "end": 12304.2,
     "text": "would lo toetain it for the city, if push comes to shove it's an asset. We need t makehese tra off decisions and integrated decisions. And twon the table t make to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12304.369,
     "end": 12334.732,
     "text": "moveorward with. thank u. So there is three largepecific projec we h on our radar that we commend to your consideratio next onhe lt is the west ive property yard an agreement in pce to acqrerom the county whentecomes avaible. And easy t think thawe could save money by not auiring that. T we believe this I an investment maybe little less"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12335.3,
     "end": 12366.563,
     "text": "defineof what the benefitan to the city currently unlike the rst thre very cle line o sight benefits. Th is one thaprovides an opportunity that won't come around again mt likely. To provide opportunityor multiple potenal uses and we don't thi we shouldacrifice the opportunity to hav tt in our portfolio. Next im wascapitazing on"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12367.65,
     "end": 12399.796,
     "text": "the oortunity as we phrase it to aress three problems at once. this is driven by the turf replacement at th fieldsut in counction with the visiowe have for the kp washiton activi center and park and adjacency ie tha these bring together a investment to crea a me cohese facilit in that ar. And again serve mulple city"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12399.864,
     "end": 12420.818,
     "text": "needs in a place that nee atntion. It's aell thought out a took a broaderiew not justield replacemen but other opportunies to enable for tha entire activy center. And theark there we want to enhance its use anyway. We think the is a priority we ould have."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12424.222,
     "end": 12456.753,
     "text": "a by investing in turf field wld solve some quite diffict ada compliance issues with access t the fld from the scho. It currelytands the sta thateads down tthe field leads io a area tt is very diffict to drain. Underneath the field is fill materi that needs tbe removed. The cost of this I relativel high but deals with enronmental problem. And solves ada compliae issues"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12456.855,
     "end": 12488.919,
     "text": "iteally significantly creates an anchor I kamp washingto area and helps the schoo with sportingctivities they can't carry out now. Andenefit py the benefit is extensiv and park directo summerfield could elabore on a lgth of advantages."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12490.755,
     "end": 12523.86,
     "text": "aeek on proce and read it andxpensive for tf fields at is highly controversial. And understding theite and e construction issues of bris buried a compliance issues of ada a comprice of fairfax county of runng a middle schoo program tt I highlyaluable to the students in the city. And bacally makghisse pot out an ahor to the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12523.88,
     "end": 12539.836,
     "text": "public facg o kamp washingt, and this in counction with the park is. And this wt from a question mark that we sport therend ghly in accordae with the comprehensive plannd the goa for the city."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12542.207,
     "end": 12573.336,
     "text": "next item on the list, get this g go your rea and brought it up in previous years aboutfunding. And we feel strongly abouthis and contemplate gh-cost projec and what are ways t help mitigate the cos. And we want to endorsehe concept that you think aboutnd funding opptunity that is are not riant onroperty tax revenues. And we know we have a parks"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12573.738,
     "end": 12605.268,
     "text": "foundation that is getting off the grou to help support som environment investments in thearks facility and l younow that we are thinking about it too. And anything to d whiaisons among the park's foundion and th planning excisio coission and parks aisory boa that we are representativesn happy to do that as well."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12605.504,
     "end": 12624.854,
     "text": "Yes, vice chair. Lockhart has alrdy addressed #5. In some respects we have talked about -- nothing mo to add. Did uave sothing?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12626.57,
     "end": 12628.57,
     "text": "just underscore item 9, we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12628.66,
     "end": 12631.128,
     "text": "talked about the wording in ite 9. not there yet."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12632.931,
     "end": 12635.166,
     "text": "when we get there, add a lile verbally to that."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12638.703,
     "end": 12669.667,
     "text": "yeah, thas true. 6-1 leverage cityroperties to off set costs for other projects. I thinkn some respects ve chai lockhar addressed this wh we looked at the oprtunities perhapsith green acres. But other city propey uses that howe use our propeies to generateevenue oritigate costs are out there. And some visiong I think requiredo do thatith facilities and propertie might be."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12672.571,
     "end": 12678.976,
     "text": "Again it's thinking about how we ca sport all of these amtious things tha w think"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12681.98,
     "end": 12703.333,
     "text": "in some cases are urgent andelling propert is extreme step ando use space fferently. Andolice department too advantage ofibrary parng lot dung the sno orm. And that is a short-term use a if longer term across departnts and facilitie to tter us"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12704.536,
     "end": 12739.302,
     "text": "nd nt item, consider nger termlans for partial imovements. An exale that came toind as considering the capital improvemenprogram is I the context of theroperty yard just oneexame. An ite in the cip currently that involve aignificant exnse replacing a theuel land and the undergrod storage tanks there andhe envinmental concernith leaking undergroundtorage tanks I real. I spent my carr in corrosion"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12741.606,
     "end": 12772.802,
     "text": "in the petrole iustry and alt with atervice stations and how to address in a pn envisioned to do something fferent with the pperty yard. What we are thinkin about making sure as we look for larg pjects if we have interim things tt needo be done there. Are w looking at the in the mostostfficient way for potentiay short term life needthem. We can do a comete rehabilitation of the fuel"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12772.904,
     "end": 12803.2,
     "text": "island and have derground tanksor 30-40 yearsut wl they be in tre in 5-10 years? Dot know. That an area that tre are rehalitation options tha don't signicant costs to get wherwe need to proct the envinment and a safe security. And be sure that it's the right expense to ser the need and MAY be more examples a that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12803.434,
     "end": 12836.299,
     "text": "hit me because of my professionalbackground. D other this that coul be well considered I this context. Xt item agn, gets to how we MAY be able to p f some things aounting f pay-of possibilit of revenue geneting up front invesents. That's again getinto the realm of finan people and t city mager is what creative ways we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12839.838,
     "end": 12856.12,
     "text": "can use to recover investment. That w do need to ke. so it' just thinking again about the whole finding creive wayso make some tngs hpen th we fl a importan"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12857.522,
     "end": 12891.55,
     "text": "an example o this not relent to this yr but te rk and extremeports are money make when we look at reinvesting in kj turf fids and psibly a revenue genating project to ho youth soccer or a concessionary that wts to be co-located with willard-sherod and there is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12893.91,
     "end": 12897.861,
     "text": "possibilitie in larger procts that a revenue generating."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12898.23,
     "end": 12931.861,
     "text": "in addition t revenue generang and several projects in the cip that are saving money in the future. That MAY n be well understood the time investmens made. And point out pubc wks effort f stormwater syste and invested in a staff position that iolves alysis a cameras and mapping systems t look carefully at theondition of the stormwater and sanitar sewer syem. Noit's much less expensive to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12932.13,
     "end": 12966.464,
     "text": "fi something that neeo be repaired before it cmbles and falls apart and theost escalates 0% to get it fix in an ergency. The amount of moneyinvestedn at staff position and the thinssociated with it have made off in orderf magnitu sangs. Not just in being ableo repai things in a st-efficient way but also generating information that was n present fore. That allows us to ben compliancend report"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12967.299,
     "end": 12998.128,
     "text": "enronmental channs we a reired to rept in. investments aenerating revenue t pay for the vestments is real impornt and importt to recogze projec that MAY have other pay offs in th future. And things tha MAY n be clear right no but se projects that are quite valuable from that perspective by itself. Last onhis lt is catchphre but something tha we talked about. Umber of times."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 12999.564,
     "end": 13031.695,
     "text": "Our ciphould bvesting I whatakes people wt to live he. The cip is very lae. We a not highlighting every item that is out there but there is certainly tngs on there that need to be done. There was a questn about what about t scol's projec. Obviouy tig 22 million or whateverondroject is n wellefined and not on the lis at this point. But other things surity enhancementst city hl or the hools. If we have saf facilies"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13031.93,
     "end": 13063.327,
     "text": "people wt to use them. Ople want toive here. You can't ignore those as ll, theyeed to be done. But e bigrrojects too things tt make people want to live here andnjoy the time here. Like an impred communi center. As an example. So it's kind of a conte tt we should lookt aot of prects in. There are many this in the cip th we don't talk about. Things le vehicle replacemen."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13063.962,
     "end": 13095.24,
     "text": "I whh comment the process changed this year where a numbe of things extract from th c into ongoing this that are more maienanceorient. It's actlly a much imoved process thisear from our perspecte. It allowed us to focus more on bigger items. So we' not talki about replacing buses or firerucks cars, we haven't done that in the past. T these are the kinds o thingshat make people want to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13096.928,
     "end": 13116.18,
     "text": "work here promotional bably. But in term of capital investnts and long-term goa and things othe city are captured in the comp plannd othe policiesadopted. The are the kinds of this th we focus on. You have thoughts to jump >> ?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13117.415,
     "end": 13148.378,
     "text": "ihink you coved most of it I mov here 17 yrs ago from california had lots of options. Is was the bes place for quality life. Weovedo an area that w walkability, that s real importan and ma improments to the schools is a big seller. People move in because of good schools. What I want to aid as a city losing opportunies for culture and artsnd things tha matter to people."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13149.281,
     "end": 13180.544,
     "text": "Freqntly not comring a chart of relate tax rates, people don't mak disions based on that imarily, from perspective. r rate I perhaps the lowest in thentire region. Howeve they dake decisions based on park based on schools. Based on cuural activities. So we want t make sure thiss a place thateople wan to li. And tha will help us long term suort a stable real este tax base."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13183.315,
     "end": 13211.641,
     "text": "The real tate tax base is big. We're generang more than revenue from that source relative to commercial taxes than everbefore. Wanto be sure that is stable and make a pce this is a placeeople want to live. And theng-term visionor projectss based on our perspective residents tbe place to live."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13211.843,
     "end": 13245.9,
     "text": "and by extensn, people want to live here and businesses are successf because peopl need services and food and hav jobs. It's all cyclical and h business press. And we spoke to the rotary club and sum I up, t planning commison by charter and have thisompetence rehensive plan and all have aision and play role. We kp this comp plan that is haustive and not just"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13245.21,
     "end": 13278.209,
     "text": "facities and not just pjects but everythingbout living in the city. What are the goals and we try to getto. Andecognize you are sterds of resrces those this kept in bance. But the resoues only flow as far as pple and businesse want to here. And we feel strongly being in peormance with comprehensi plan and following the goaland aligng with the recommendationse are comin rward and ffilling our jobs as stewards of visn and resources."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13278.443,
     "end": 13308.538,
     "text": "we are optimistic abo the future othe city. We have a lot of poteial. But we'rellredents and taxpayerss well. Were affected b some recommdations we make and decisions tt you make. But w bieve in what were telling you tonight. Are important things. I'm willing to pay fthem. T solely but -- that's -- wrap up,t's alace"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13310.174,
     "end": 13323.788,
     "text": "th we want t live,ant to live. Th commissn unaniusly prides endses the an. And forward these recommendations you for your coideration. And we' happy to answer any estions you might have."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13324.623,
     "end": 13331.997,
     "text": "well tha you for the presentation very thorough do we have qstions for the planni coission?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13339.7,
     "end": 13362.91,
     "text": "I want to tnk y'all for beinhere and song suppo for the priorities. And particularl pleased to s that the catherine johns turf project added to this and appriate the ratnal bind t. A lot of altertives for turf anmaterial and somhing tt needto hpen there."
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 13364.563,
     "end": 13368.698,
     "text": "councilmember Mcquille no? Any o else?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13372.37,
     "end": 13405.3,
     "text": "I will als echo the thanks of y'all bei here and say tt m very grateful. Inow we are all trying to figure out the propey yard and portant toet that addressed fore it's aarger problem that is more costly. And I know that staff are workin on thince and get that wrappedp quicy -- yeah, pun intend. Councilmember hardchandler. I just really appreciate the holisticpproach that you too this, recognizing that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13406.204,
     "end": 13438.302,
     "text": "isn' just plus and minusut reallybout investments, about nergy between and among plans. Abt thinkingcross time. I too movedere for qualityf life. And hadhe exact sam experience. I had the good fortune theirst turday in fairfax city, I ran into a real este agent and said, where is a gd place t live. D he actually gave me gd advice that I hav shared wit others. He sai figure out your life rst and liv ere."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13439.7,
     "end": 13470.901,
     "text": "And I figured out myife around fairfax city and ended up living here. And s I jt really wanto emphasiz again it' not simplequation of plus and minus but thinkingbouthese things acrs multiple, complex sort of perspectes. And tryin to weigh sometimes things tt seem to ompeting nsions. But are still a part of those g decisions thate have to make. also reallyppreciate the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13472.103,
     "end": 13503.401,
     "text": "comment that theecisions or the recommendions that you make and the decisionshat we make affect us too. So I tnk the is sometes a perspective thatecisions are made and it affec other ople. But we're residents. We're taxpayers and the ones th also befit or pay the costs of disions that we make. So recognizinghis is a we sort situation. It is not a them or they sort of situatn. So I really appreciatehe commts between the ite that really bring your"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13503.401,
     "end": 13507.604,
     "text": "recommendations tolife. So thank you for that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13508.64,
     "end": 13510.64,
     "text": "councilmemb hall."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13511.51,
     "end": 13543.305,
     "text": "thank you. I've long thought aut this oss functional interdepartmental planning a I think it's probly fortunate that we haven't these same thouts a few yrs ago. I think tre have been pontial oppornities for these programs, for those plans as we're now discussghe willard-sherwood cility. And we'reiscussinghe fire station and the property yard. And those cos arenly ntinuing togrow d I cjunction with the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13543.375,
     "end": 13576.373,
     "text": "scho bond, I was just rattling off numbers heres everythin going. And know am a numbers person andirst andoremost where goith it. But it's crazy. Thproperty yard inially was 58 miion -- 63 million and now 155 miion. so those are honestly the this that keepe up at night. Ihink that the west drive property yard is great instment for our city what wre going to do with it, I don'know."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13577.208,
     "end": 13609.339,
     "text": "But I agree tt isomething thate should pchase and hang on to. But it does make me thinkbout thes other conversations we are having and what wean do with em. And I undetand what we want fire staon and tha we m need a fir stati but I also derstand that we need a place to store vehicles. We need a propert yard. We have already lost the opportuny potentially to combine willardherwood with a fire station. Ther is a bigommunitypace"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13610.107,
     "end": 13640.304,
     "text": "in there that is curntly not being utilized. They use to do bingo in there. That's an opportunityo use a place that wre n doin I want to be sure that we are not buiing me spas that have these additional rources or spaces not utilized. Think jumping into som things,eshey have been I the cip for years. On the amazon wish list as called f years. MR. Feaer you said, all of thes cans kicked dow the road"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13642.24,
     "end": 13672.302,
     "text": "we are trying toick up cans as fast as we can with this current council. And quite frankly I am not are any council I recentistory that is jugglin the amount of cans we have and expected to make these decions I one term. i think not askingor a pat on the back b it's a big job, 's a lot of don't raise my"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13672.504,
     "end": 13704.567,
     "text": "taxes and d't do this, we pay too much. Educatiois the biggest compont of all of. This and I -- all of is. D I had one thing to say and posted on facook and pl up and rea to you. It was a question, I am trying to understand wha people understand. My queion was inquirg mis want to ow,hen you think of the ty's capital improvement proam and you rea somethin that says quot funds"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13704.903,
     "end": 13738.68,
     "text": "committed or appropriated in the cip, what ds that mea to you? One, the funds have been set aside for thiproject. Two, this item is a wis listr scheduled pla but wetill need to fundhe projt. Three, sething else. Please specify. There are commts. One of thoseomments is someone mmenting on h own comment. But if I tally it correctly and wrot it dn somewre se -- either way, the are"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13738.57,
     "end": 13770.401,
     "text": "overwhelming and I think thr people that actuallynew what the aner was. One of them was a preous mayor candate. One of tm works in plaing and anher one works for the city one person said the answeras #2,hat it mns that we still need to fund someho overwhelmingly eryone else who lives in e city who answered th, tnks when w say a projt has been aropriated or commted. That means we've alrea pd for it."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13771.47,
     "end": 13803.99,
     "text": "And I bring this up bause with wiard-sherwoodpecifically we ar being aed to fd $50 million. With thesether projects, we are asked to fund well over$150 millio so education f our taxpayers, for ouresidents is key. And I wil say that again. Ese projects have n bee paid for. We have not been putting mey aside. We don't have the money. We hava plan t borw the ney and that iscritical. It doesn't mean I am sayin no"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13804.803,
     "end": 13831.529,
     "text": "to any of the things just means we areot doing our part or people are notoing their part to listen and be educed. I think tt'scritical all of youn the audience go home a tell your friends what th meanso be educated and enged and communicate wh thei city lders here I a way that is most mningful for them."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13833.265,
     "end": 13864.95,
     "text": "y want to respond t that comment aboutroperty yard and have seen up to 150 million and that's to assumehat the property stay there and remediation and conructionnd all the acquition aroun the propty to bunke it toake it ood proof. And we can agree offhe record, that's not the pl. St chasingatet that point. And ther has to be pn b o"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13864.93,
     "end": 13895.893,
     "text": "c or d. If wearse out everything for thproperty yard where itgoes and I guess if youo through theptions a many if n all ll be less than 150 llion. Yesnd no,here is understandg that these things arexpensive long tails. D spending money up front to plan and sometimes 10 years of planning wh willd-sherwood. Ideally gets y to the rht answer. Now 10 years is a lon time."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13897.395,
     "end": 13929.291,
     "text": "A lot of things happen have seen seiic shift in the city with covidnd now a shift inheederalorkforce and tax base. Howeve good plning, tegrated planng wit stand at and not a of it and get you to a good answer. And does costoney and why the recommendation is the feasibility udy that I near term line items and think tt's exemely important to fund."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13930.729,
     "end": 13936.4,
     "text": "If15 million I hope not but 2 milln in the first yr to execute thattudy is impoant."
   },
   {
     "speaker": "Councilmember Stacy Hall",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 13939.104,
     "end": 13941.405,
     "text": "an I ask a follow-up question councilmember hall."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13942.908,
     "end": 13971.634,
     "text": "correct me if I am ong, I ought it was oppite and the ason now 163 million because we had to do I at multiple locaon and not all in one place. Did misunderstand that?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 13972.3,
     "end": 14005.135,
     "text": "kping in the same place is expensive, almt the same. The reas that the pce is up as we went through the feibility study, we learned more about restrictions. We reached out toll the different departnts and visions to look at the needs fo numbers 20,, 30, 35 years. electric vehicl. Provements to theleet rage. Keepg the gun range where it was, that' relatively new. As the consultt wked through"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14005.904,
     "end": 14023.521,
     "text": "the feasibity study the ct unfortunely higher but more alistic. We start thate started out at60. But that's what we thought when we first started as w worked rough it. And not unusual in projects prices escalate."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14025.289,
     "end": 14049.913,
     "text": "hat is very true, saw with willard-sherod I think 29 million o 31 million in fiscal year21-22 and then jumped to 40 millio ahen jumpe t 50 million and 56 and now looking like 54.3. I undersnd that happe but I think the ability to have that"
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 14050.549,
     "end": 14052.95,
     "text": "and share that goes a long wa councilmember hardy-chdler."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14054.753,
     "end": 14087.151,
     "text": "a qui follow up I apprecte what you saidbout picking up cans that are kicke previously and for me a the reason not t kk cans for future people. I can'telp echo tom ross's commt and can't think about ture councils and I can't think in two-year increments and not to pututure councils in at were cuently. And recognizing tough no flt of aone in this room, tngs will incree and change and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14087.886,
     "end": 14096.96,
     "text": "alter as we get more formation. So -- ah, I hope that w don't the things tha a allenging to us to future"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14098.63,
     "end": 14100.364,
     "text": "councils. councilmber peterson."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14102.567,
     "end": 14132.796,
     "text": "thanks, you guys have a har b. No question about it. Just if you couldelpecause I haven't had the cnce to be with you through all ofour decion-making. And'm justurious to know more on the method that u use foretermining conformity with theomprehensive plan. Can y for a moment explain h you me tt deteination?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14133.98,
     "end": 14167.23,
     "text": "he comprehensivelan itself describes manyf the spefic items. Anthe comprehensive plan also describes general descptions, characteristicsf things that we wa. When we put together the implementationlan and same on the discussion about urban rest master plan. Our plan comes after mprehensive plan. Mo specicity com in there terms of what kind of this ecifically need to be done. T things change."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14168.934,
     "end": 14200.999,
     "text": "We can't predict everything in one mprehensive plan whathe next facility is tt MAY oray not be eded. At's why in som casesre general scriptions of qlity cilities andaintaining facities andpgrading facilies torovide the kinds of things tha people ne. Staff proposes a plan, they he ittenescriptions as you see in the cip -- you won s in the cip esentation. The plan tha we got and ty make refences to the comp"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14200.999,
     "end": 14231.829,
     "text": "plan. We test those again t objectives I the plan. Some are clear to make lik upgraded community center. and some are more general facilities related. Whether it state-of-e-art x, y or z. Rit. So it'sot eve -- the comprehensive plan is n a detailed roadmap. It's guidan. It policyn general terms in some respects and weake"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14232.43,
     "end": 14234.799,
     "text": "judgments bed on that and wt is proped."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14236.934,
     "end": 14271.201,
     "text": "if I can maybeollow up on that, appreciate thatnd certainly appriate the oppounity to be dirted to that kind of assessment. So that we can hav the ability reew that beforee have nversations like this. As you do that, to what extent ar you considering the pact and forhat matr the opportity for capital provement projts. To conform ifhey he changes"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14272.47,
     "end": 14303.366,
     "text": "designr scale or timing. Anhe affect that might have on conformity, for instance,re there optio for improvin designnd scalingnd timing thatake them conform even better. And are those desn mofications things that you consider a are the part o whathese falecommendations are. An for that matr are you also king as you go throug nformity wheth project cancellaon is something that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14303.735,
     "end": 14308.705,
     "text": "would actually be an impornt consideration in conformity wh the comprehensiv plan?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14309.307,
     "end": 14341.571,
     "text": "you are talking very operational thin. Comphensive plan is visionary anwe're keepersfvision. and desns cnge asou get operational andone a proct it MAY change it MAY look fferent. We don go bac and relookt a prect. One thing tt hapned this ar with the way that the plan presented to us. Items in thereviousear projects moved belowhe line"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14343.575,
     "end": 14373.936,
     "text": "and don't show funding for us or consider a cment on. We don't know what the details are at tt point. You or the body prior to you felt those we the righthings to meforward. The planng commission doesn get invold later in a project once it's been put on track for implementati. We're looking at 27 and beyond and n what islready approved. And many thing are not scoped out in that levelf detail."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14375.34,
     "end": 14392.656,
     "text": "fe felt that project included was not in combinaon th whaeee as the priorit objectives or comprehensive plan, make thatconsideration. Andidn't find anything egregious agait the comp pl."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14394.92,
     "end": 14429.326,
     "text": "I gue the question is if you actively looked at alternatives and t potential th a o these projects mig en perform better if some modification. Because what we' heard this evening and hea a lot previoly ishe ft that we've already leaed that se changes he made imprements and m not be finisd wh that. And therine johnson example is a big one. An it speakso the opptunity to be a little bit creative and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14429.861,
     "end": 14448.779,
     "text": "see if we co better. Partf the reason we want to do that is because of th numberf doll bills astake. D whether therere better ways to reach the same goals through modificatio of this that mighto that all sorts of different ways if that doesn't take place in this press, tt's good to know and an impornt ing."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14450.782,
     "end": 14484.781,
     "text": "I would push back on your assumpon there are ways to make it better if you are not bought into t requirement tha you started th. Ce from a military dense consulng background and doi a projectnd you have left and rit lerals for what the oject accomplish. Whether thas an engineering process or building or entire military installation. Youave a ccept of operaons for and mov forward on that. Definiti acquisitis offhe"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14485.649,
     "end": 14516.546,
     "text": "rails a not saying is a perfec process. If youtart wh that concept operations and eveone boughtn, ts is wre we are going. An the end project maybe doesn't ok like what you thought t if allought in at e beginning, everyone accepts that tcome. I tnkhat you are asking for now we know better a can we do better a change our requirements and y, you could but I that sense never execu a oject. Because aays betterdeas 10 years down the road. Did the city have a ccept for willard-sherwo I assume you"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14518.949,
     "end": 14551.514,
     "text": "are talking about when they sat downith fairfax county. I arg yes wha they wanted th facility to be like. And sitng 10 years later could we come upithomething different anbetter and cost effective. Sure probably. Wever that workas valided andlans moved forrdn goo faith. To disorder that work and press you never accomish anything. Evy year y look at a brand-new slate of good ideas"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14553.185,
     "end": 14579.11,
     "text": "and nothing done. If we don have ruirements d have better examples where c do that and a lrning less. But to cllenge a movin forward of pject in ful complice byhe cy sms singenuous if your conce is what it cost is your concernhat it costs o what it's providing?"
   },
   {
     "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 14582.114,
     "end": 14583.581,
     "text": "councilmember peterson, anything se?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14585.483,
     "end": 14604.1,
     "text": "just mbe the other question as you are lookingt conformity with the competence rehensiv plan to what eent are you looking at conformity with fisca or x objectives and concerns of the city?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14604.77,
     "end": 14636.232,
     "text": "so we talk abouthose issue constantly. We hava member of our planning commison who was a pt of th fairfax vision effort that happened decadesago. So we hear a lot about the finances and that practical side. We don't evaluate every single thing on the cip based soly on atmetric 's notithin our puiew."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14637.302,
     "end": 14672.401,
     "text": "As chair feather has saidur ro is to look way out in the fure. To have a visionary plan that ides the developme of projects. D ascertain whether ty conform and we haveone that. I think one thi that we tend not to do, to stop and re-evaluate when we are 70-80% through aesign bui process."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14673.371,
     "end": 14704.33,
     "text": "Only because that is more expensive. In tms o willard-srwood it is exhaustedlyplanned, the city has a consultant and team that doesncredible amount o work on looking at costs. I was not aware tha all the ener genered in this sustaible building is ud on site. I was concernedecause I ought that is going to get pumped into the grid at whoesale price,e're not. That's beingsed on site."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14704.68,
     "end": 14737.434,
     "text": "There are a who bunch of ways that this project conrms to sustainabity goals tha you were the curator of as csc chair. An want to make a note that the staff that supports the planning commission is exceptional. When the provide documts t usthey are incredibly detailed and the go through t effort of cing the exact pla within the comprehensivelan that cites the relevancy of that projt. At ahor into our plan is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14738.3,
     "end": 14767.464,
     "text": "already established b staff before we even s it. E thing thathair feather mentioned of trimming out things that are sortf procedural and performa and purchasg vehicles. We don't see that anymor we areocusing on bigpictures and really importa ideas and king sur there is an an anchor in the comp pn for it d what we prented."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14768.399,
     "end": 14801.966,
     "text": "MR. Nepp. from a staff pspective the rolef the plannin commission and the pcess that we set up in the cy over e yes. We try to disagrethem from gging intthe financial side, leave thato city council and ey pushnd we rognize tha counl is in a place to me cisions and priorities wn we wa everytng. We have allowed the to consider cost wn decing who recommend priories and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14803.468,
     "end": 14821.384,
     "text": "someing is expensiv if we prioritize and lose two thgs and some commendations the past revolve aroundhat andooking at a scific projectnd the weeds whyost at. Andiscourage tt and fall in the hands of cy council."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14822.587,
     "end": 14831.929,
     "text": "we talk aut cos sequeing and tngs t slide because ty ar lessmportant because o other priorities. That was a big recommeation last yr and didn't see the need thi ye."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14832.531,
     "end": 14864.761,
     "text": "that is correct, goingo brin that ups well. It's a qstion of purview. It's auestion of rview. You ultimatelyave the financial acumen and insigs a lowhich we don't have. And we have a verytrong profession staff that does very goo job in estimating what a project MAY co. And as it goe to redesign, w don't visit redesign, that's outsid of our purew as well. But we have some conversation"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14865.363,
     "end": 14879.21,
     "text": "ana good example lt year about the cost schedule and implicatns of a particular project that gohifted bas of our questions."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14880.178,
     "end": 14910.807,
     "text": "youring u two things, purview and les. What I heard. Evyone has a role to py under departments andodies and stf. And helpful when people are n coused about what is within their purview. And go when people underand th youave aolehat to play and focused to do well the rolee are assigned. In this organizatio that is our city government. And I think we need to keep coming bk to what is our le,"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14911.81,
     "end": 14940.638,
     "text": "what is our purview andowo we work collaborative and together,elying on the fact that we have staff and consultas and people that came before us. As well as people who will com after us that hav to trust the press. We have to believe our process is good. Our structure I valid. And that our sta a the expertise brought tthe table is something we can lieve. Any other comnts or questions? Councilmember Mcillen."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14941.539,
     "end": 14974.905,
     "text": "I wted t thankveryone for theime toalk ts through discussn has been really eye opening. It has bee interesting to wch engagent back and forth. i want to echoouncilmember hall's statent about educaon to the puic. That's the situation we're in. And that's why you are getting so questis. Ou purview is different and we do rely on our commissis and our boards t be our es, our ears."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 14975.44,
     "end": 15006.87,
     "text": "T also our voe. So please keep that in md that we are ting to communicate a educe the public on the thin and the process. Some peopleon't understand that it takes seven to ten years we are in the process and we have all good intentions and we want to see growth and develoent. We recnizeoururview it's reallyppreciative that you recogne os as well. And thi say balancing act, we are mpeting with a lot of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15008.774,
     "end": 15017.214,
     "text": "needs and vy limited sources. It makesense tte have such a disssion le this. Thank you so ch I apprecie it, really do."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15018.483,
     "end": 15023.954,
     "text": "all right, are w good? Okay, thank u so ch for t prentation. MS. Shinaberry."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15024.256,
     "end": 15041.938,
     "text": "our last wk session ite for t night is update a discussion on jntity and county redevelopment of the shwood commuty cenr and willard health cente colex. Will recognize brookeharden, ourommunity development director to provi the staff"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15067.732,
     "end": 15100.262,
     "text": "prentation. good evening mayornd uncil, brooke harden, am servin as thecity's point o contact for the willardherwood project. Pleased to with y all this evenin wi me tonight are a number of inviduals her as part othe presentati team is james pattison, the ty's project managementonsultant with blu"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15101.366,
     "end": 15131.828,
     "text": "hero leadershi group a stacey summerfield and jc martin the city's chief financial ofcer. And a number of folks awell as in the audience this evening including fairfax county's project magement team, also from the design and construction team repsentatives fro grim andarker chitects. Urban enginee and the risman company, the oject's"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15132.164,
     "end": 15164.361,
     "text": "consuction manager at risk and note representatives from the progms that would operate in fality not only in summerfield but ao DR. Gloria, directorf health for fairfax county and Dr.Jaberireere as well. Any and all arevailable for estions should athing ari th needs tre are atteion. And mention on the cityide as well, representativ from public works and human services as well. Big group here night."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15165.797,
     "end": 15197.26,
     "text": "Thank you again for the time. So what we plao sp through inhe presentation is a quick overvi of the projectnd the progmming associated witthe facility. We will go tough the developmt timeline. Whe we have beenhere were now. Wh is upcomi. Review stakeholdernd community engagement tha occurrehrough theroject as well a the agreementshat guided the work the proje roughout."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15200.699,
     "end": 15232.195,
     "text": "And ad us int the fure. Weill go thugh the buet, operatin cos and the financing. Also aociated what you have seen up to ts point h been oject estimates. We've now received auarantee maximum pri from the nstruction manager a risk. D step through that. And then als touch on next steps. There are no items being requted for action tonit. This isnformational and update and to be able to resnd t"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15234.599,
     "end": 15235.933,
     "text": "questions that th council MAY have."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15236.935,
     "end": 15268.265,
     "text": "a quick pject overview, just walng through t scope the projt. Basically entail demolishing the willard buildin tha was built in 1954 tim frame and replacing with n102 square foot combinedealth facily and recreationalcenter. Two levels o undergrod parkg are part of the facility. Key features as you look at the aerial picture there isnd transportationimprovements."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15269.468,
     "end": 15301.799,
     "text": "Your oriented noh-south on the right sid of the sets are layton hall drive to the le. Andew entnce directly across om democracy lane to get acce to the site. And moving the dangerous trance at the corr and building a interparng connecti and improving between the facilities d maintaining the backxist k ckxit for the police depament."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15303.235,
     "end": 15333.97,
     "text": "And sustainaboals that a consistent withhat the city is looking in terms of green ilding. Tracki to geteed gold point and shooting f net zero, not quite meet net zero, g % there, didn't ha enough roofp for sola andsing all electric systems to avoid using a g andossil fuels."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15333.965,
     "end": 15349.713,
     "text": "Asou look at thechedule a e bottom, we are here theake awe're ready. If proje is approved go to construction the design is complete. Nearly doneith pmitting and ready to move into the nex phase. Next slide."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15356.388,
     "end": 15358.689,
     "text": "In terms of program that will ."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15361.96,
     "end": 15395.259,
     "text": "removing everything over into modern comss built buildi with the senior center and gnasium and fitness center and multie classroo and one of the big feedcks is a space for art. That is to be ng on wls andlso slptures or other art can be displayed"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15405.937,
     "end": 15437.935,
     "text": "and then sociazing areas. And going from this ilding to that buildg iterms of the heah deptment this center is one of fivthat the countyas that are spread out. Each prodes the basic same services these servicesave been here r multiple decades. So basically we e maintaining e joseph willard center all alonghat when the coty looked at the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15439.971,
     "end": 15472.336,
     "text": "falities 1954 anthe school builng was in desperate ed modernization conniently located I havthe zip codes ose are city zip cod and thether twoave access for ty residents. E services that theyill provide the cnic programs wa to make an emphasishat sick peoplare not coming to this building it I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15482.814,
     "end": 15513.71,
     "text": "preventative education and those serves are provided for the community. Women, infant chilen nutritional ogram, vital rerds like birth and dth certificates infant toddler connection will ovide servicesor toddlers through three with develmental challeng and wh active intervtion. And earl childod edution misses childcare serng moderate andow income famies and one thing we added to the b since this"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15515.947,
     "end": 15523.252,
     "text": "a county provide program thesservices are provide regardless of ability, age an income levels."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15525.356,
     "end": 15556.487,
     "text": "nd again the docto are here this eving and can spk in much more detai regarding serces provide. In looking at thproject develoent timeline one of the speakers had much longer pa in terms of this prect for the puoses of this diussion eectively started in 2013 about 13 yea ago. At this int with parks and rock ---- parks a rec"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15558.223,
     "end": 15589.52,
     "text": "strategic an to identify the ty needed to study greenacr so a task force w appointed to sdy greenacres d solicit input fromhe community anmake recommendaons for the ar-term and long-teruse of the prorty for a community center there or somewhe else. E committee foundhere are a numb of deficiencies with thcondition of the facity"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15592.39,
     "end": 15622.753,
     "text": "the layout and lation and investigated 21 othe potential propertie that coulserve as a communiti center. E willard site was o of the six filists the issue at the time then wait was owned the county and opered as the health center. Son 2016 and 2017 the city conducted some alternative analysis looking athree potentiasites that were"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15622.921,
     "end": 15654.18,
     "text": "either city-owned orartially city-oed allf those locatis had significant impact on open spe, tree canopy, al in conjunction with van dyck park it w a location that did have intest but the concern w"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15655.53,
     "end": 15698.597,
     "text": "the impact on open space and outpting buildings whin e park so that did not advance. About e same time fairfax county was explong a feasibilitstudy at the joph willard center an found due to I age and conditn demolition or replacement of that cility was warrted. The city rch out to the unty at that point I time saying the oortunity for pontial partnership athat location. the county was reptive so"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15698.597,
     "end": 15731.162,
     "text": "theyntered into a couplef letter agreents in 2017 and 2019 to explore oppounities for a int facility. At was a high-level ercise lookingt space planning to see what might fit the pduct of that looked like the project would be feable at those lotions so we continue to move forward. The county the had a refendum in NOVEMBER 202 including the replacement o the willard center. In tt referendum the city and county entered io a phase design agreement. Th provided the optiono"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15738.37,
     "end": 15769.4,
     "text": "begin thecope of the pject to he the architecture a engineering seices and begin e conceptual planning work at was to come in jaary 21 full cit and county adopted resolutions affiing the commitnt to move forward with the project. The ase two development agreement was approved DECEMBER DECEMBER 22 a as we are currtly operating under as a citand county and that really contemplad the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15769.935,
     "end": 15803.968,
     "text": "project l the way from design thrgh reconstructi. The bullets at are falling after tt, are ch of the stepof the desig pross. We will touch onhis in more detail. Where city couil authorize th pject team to move forward at succesve levels of dign which brings us where we are now in tes of final in tal project cost so with the project tm in place"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15804.97,
     "end": 15840.838,
     "text": "andhe agreements signed the team began engagin the stakeholder grou in the project in earnest and was important get out to the community in a pre-sign phase so bore the architects and engineers beganwe had open hous both virtually and person in januar22 to ask quesons about expectatio"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15843.274,
     "end": 15876.273,
     "text": "about the wan and needo see what theare looking for I this facility before weot into the desn phase. Similar conrsation with the mayor and city cncil as well as the park and creation adviso board the board of architectureeview. And that as you casee from the sle was arocess that was ken at every step ofhe way. Counity conveations , updates and inpu from the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15882.414,
     "end": 15912.477,
     "text": "mayor of city couil with the board and commison. That took through all the steps of desn as counsel recalls there wereublic hearingshis fall for the land use applicationthat were require and the certificate of apppriateness for e design as wl. So how do we reachut and who do wreach out to again? We work closely th city"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15912.477,
     "end": 15947.511,
     "text": "boardsnd commissions and those that we met th repeatedly there w outreach to a of the city. With the ongoing discuions. Those neighborod associationshose in the imdiate area and indivual meeting fothose neighborhood civic association blasted out all of the meetingto all of the vic association presidents to sha with their"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15948.78,
     "end": 15983.8,
     "text": "meership with the nearby hools and churches and had etings with them and continue to enga these groups awe move forward. We use both high-tecand low-tech mns of promoting those engagements. We are on all of t social media outletsending e-mails our cmunityembers. We had thengage page on the city website proving opportunitiefor online"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 15989.221,
     "end": 16020.583,
     "text": "queson and answer also project websiton the county de that provided updes and inrmation reports. So wcertainly tried to rch folks where they are me of those low techere posting flyers and buildings anbusinesses aroundhe city and flyers. We heard lots of tngs. Obviously is was jt a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16021.987,
     "end": 16052.848,
     "text": "quick summary but thinglike public art and james mentioned opportunities fopublic art thatould be in the facily space for senio that is within the facilitis trying to rpond to those items natural light part of the sign. As you have seen wdows that opennto the g, the fitne"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16053.985,
     "end": 16092.424,
     "text": "rooms, providing lighand air and spes that hopefully folks want to be and engage and engage with. Mention the phastwdesign and conructiongreement just to ep through a little bit because thiss been guiding r work for a couple of years now andill continue aseove forward it vers how costs are allated citing builngost are generally broken down bthe pro rat share that ishared according"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16092.424,
     "end": 16128.124,
     "text": "to program space 58 rcent coun 42 percent city pking costs are located based on space required to sve the use within the fality that breaks down to coty versus cityut will note that is how costs are ing allocated e partment spaces themselves will be sred among all uses that was part of t aroval the uncil authorize backn the fl for the special u permits and exceptns. As I mentied before the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16128.493,
     "end": 16168.3,
     "text": "agreement species eh stage of desn will evaluate procding. Th is what has ourred to this pnt to advance us to the stage where are. The agreent covers the nsuction manager at ris for procurenand a guaraned mimum price that has now been pvideby the contctor."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16168.3,
     "end": 16203.467,
     "text": "Similato dign approval the ci and county can termine each was to proceed wh that guarantmaximum price s en finalized in termof ownersp and use the ement specifies theouy will continuton the erty, but the city wl have a 99 year lseith automac renews at a rate o dollar a year to pride indefinise for t city to the proper this was an advantage comreto other sites at we evaluated in thearlier ages to have acisition co associad. So the maintenceo be preparednd t"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16205.871,
     "end": 16236.266,
     "text": "adminitive committee providgovernance will formedhen the buildings in opation finay the reement regnizes theity explorg thoption to inudaddition and rfming arts space a the performing as nter and a revaon of the performae space. Th is one of aumber of agreemen that ext betwee the citynd couy I won't go rougall of these but heth services in t heah"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16240.272,
     "end": 16270.334,
     "text": "departnt is a service contcted witfairfax county since 19 and will a primary pgram within this lity along w others that they ovide the ty and countyav pursued construction projects the gial library is a example of tha the cntoperates and inins the facility a the city financend h been"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16273.3,
     "end": 16309.105,
     "text": "sponsible for being socied with that. Getting into the cost the top row is a total proct ct based on the 5842it. The next le down w the coributions when the ty elecd to go wi the derground rage they de a ntributiono our partf th project of $3 mlion. That gets u to the all I justed total proct ct of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16310.575,
     "end": 16344.207,
     "text": "7.5 million d thcity share being 54.Three the ne li down looks atolla spent that came t the geral fund. We spe $4 milliothe county spent million on soft cos and otr elemen. So wn you suract out the 4 llioand the remaininto be finandere be paid it is 53 million. Theitydoptip"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16344.543,
     "end": 16374.771,
     "text": "56illi. Comparg the4.Threthe perfming as option has stay consistent thughout the 4 milln and at is for the elemes with t the bac piece ke the dssing room and thstorage and e provements o the space which is t acouscs and the liting replacinghe"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16376.341,
     "end": 16410.575,
     "text": "flring to crting sound and ght om in existing spaces4 miion. A very worriede wl bump up against our limit of 56 to ce the budget so we work hard and a loofredit to theouy project tm and e architects and t cy team. Weeally came up withart reductionshaare listed"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16410.575,
     "end": 16441.372,
     "text": "th cld be made without affecting the bas pgr needs. Tk the's cuts totalg one.4,000,042 rct share is 5800for the city we worked to get the bid o I2025 to takedvtage of the ppers changing their prin we t in inime soery competitive mket so ites of the timing ece there was"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16444.209,
     "end": 16476.6,
     "text": "three.5 llnavings one.Five being t cy. The total tyhare of cos rectn is a little over $2ilon to be 55.Ni t other thing working with is we looked at risk redti and is just evting future cost"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16484.249,
     "end": 16516.279,
     "text": "th cost overruns with the form ofrorement we hava ntractor on board for the schematic a reviewing thdrings. They a blding it onap with constructibitand value enneing and clearing t any things thatre unclear and alsthreview done bthproject management team the utility crdation was big worki wh plic works. Not onlyuslooking at a lot the utility relociofor this jobut the fute rk in the sools electrical"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16521.86,
     "end": 16554.985,
     "text": "vehie ations so we a trying to make se at we do now est have to be redon with the other pjes come rward. We did l of meetings with blic wksith a goal of king an integratedesn to make surweuilt into the reirements for both jobs so ere's not conflict. Th m be under construcon and then a lot o times the coract owners will go out we waited uile had 100 peendocuments so we feel confident abo t"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16560.625,
     "end": 16590.82,
     "text": "pricing we he ght now. Islide is hard to sebu I want to wa through this this touchesn at you were lkg about at asof what I waa rt of we met with the city council ia treat JUNE 21. At that meetinweere very purpef to say we share at is in each othes p bit carefu t say we dino"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16591.223,
     "end": 16622.619,
     "text": "have designe scoping documents but wshed the cip nuerwhich were 87.Nine total. 58milln s the referendum the county with 2 9 million wi t city cip at atime. As brooksa JANUARY 2022 we nt out to the commte before penn nto paper on thdegn we wanted the mmunity to inform e rk the archittould do. It w tly a listening session of whatheommunity"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16628.26,
     "end": 16667.998,
     "text": "wantwi this fility. Th wld inform the workf the architect. We came back novemr 22 with 3oncepts. To abo ground and to below gre d we share the cos for all three coep. At that ti tse were the rs numbers we sred NOVEMBER 2022 th total projecco the county sheriff's andityheff w did not have opeti cost at thatimthat was not shared. JANUARY 2023 we we tthe city couilnd the mayor and ey approved moveme fward"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16670.102,
     "end": 16700.632,
     "text": "with optn e which was 123 million anapove the deround parking. We went back out tth community meinjanuary 2024 d actually did not lk about nuer. We are briinthe design ba a gettingeeack. And FEBRUARY 2024 wt to the cityouil for approval move forward to dig"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16700.632,
     "end": 16733.429,
     "text": "development gfrom schematidegn development an at that point t pce wentro 123-2126.Eighth city councilr e city portiowe 55. that's t fst time we put th$3 million and wheth deal was madwi the county ctribute $3 million so th's the cityortion. Then SEPTEMBER 2024, t pce"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16737.936,
     "end": 16770.869,
     "text": "went up at 129.65 with 74 coun a 54 city now we ha the operatingos that was e direction ofhe city uncil wwanted to be anarent so we sharedha we we ryonrned of the ering cost at two.7 miio t sharing the operincost with theomnity and then in ptember 2025 whichashe"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16770.869,
     "end": 16805.536,
     "text": "most recenmeing we were at 13million for the cost .Four for the coty, 59.Nine for thci right against the6 en we sharpen o pencils to rko reduceost. Then curnt27.473.One for thcounty 54.Three foth city with anpeting cost of e. Million. Ifouo t math which I know will be de fm the first mee shared members"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16806.404,
     "end": 16842.72,
     "text": "of t aual scope of the project novemb 22 the total ojt estimateen up about pcent 3ercent. Theitportion went up by 7 percenifou te out t $3 mli the city portion went up by about 1 pce NOVEMBER NOVEMBER 22hrough februa 26. We try to vy transparent toducate the communityn terms of tseost and what tes in the slide"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16845.41,
     "end": 16847.41,
     "text": "presentation we got wn to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16857.22,
     "end": 16887.917,
     "text": "pennies in terms of cit improvement ogm as james nod vember 2022 is whe the first roundf figures with thamo detail work ulbe done that is wh f 24 cip was bng prere cong forward to the unl in the spring023. Y look back at the p and how that w cstructed you llee consistent fires fy 24, 25, 26 as os"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16897.928,
     "end": 16931.227,
     "text": "numbers weread available. we looked athoperating co a cost recovery of e facility. Thoperating cost inoong ataintenance, utilitan custodial rves we use countandards of we adde elevator maintence contract securitynd some sff to help wh-site mntance we came up with lile under $70000or operating cost and subtracted out tre not"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16934.366,
     "end": 16938.701,
     "text": "spendi much on maintan at greenacrewh they are on ilies and subtractedha out and add aitional staff"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16961.76,
     "end": 16991.88,
     "text": "cost. sthdevelopment of a st recovery model fs the cost is tato the project soor the proposed ceere identified0 ak hours that arthe most desirableor parental -- pva rentals. Inudg four through 9: o'clock P.M. Timeloas well as sards and sunday then, using market rat o comparable rreion centers d aces in the northe virginia regioneevoped a potentl ivateenl rate and we only utile e spaces thatrerul rentable we di not include therehool assroom the wki track or fiescenter. On t of that indusy standard is 60ernt"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 16994.425,
     "end": 17024.79,
     "text": "occupancyor the yr hh weeks of the wk 60 percent ia od number to use wdeloped a maximum ntal revenue cost cory by takingha 60 percent a playing out the mbs as if 60ernt of the space was rented at a full re. We still want mntain communy e which is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17024.79,
     "end": 17057.222,
     "text": "imrtt to us that peopl have access to t sce. In the fstolumn that is if were formerly rendith private nts at 60 percent in t breakevenolumn w have reduce thatowno out 20 hoursereek of private real space of the pe hrs 20 of the aible 50 hours"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17057.222,
     "end": 17100.631,
     "text": "e dicated to full pa private rentals avg the remainr r community use ose are still peakenl hours for or recreation ou and different comni programs. E model maintainsheime off peakseours for senior ograms, youth progms it also serethe average 30 hos a week of pk u and holds the fitness programming and fies classes at tirurrent rate it is affordablequable and acceib program to mmity members. A uple of important in to note thisod simply baseonental revenue I doesn't includerocted potentiarenue from progmmg or events we do"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17100.631,
     "end": 17138.569,
     "text": "reach a break evenoi on rental ren and also did noinclude a senior f wch is what stf recommending toring us in line with the un's senior centers e charging to ofethe cost of ruin the cter lastly th current mel tt we book as chommunity space as possible at the fr re then back fl th private rental space so tmatain that mol potentiallyou lo although wld still prioti the community use but also setting aoafor private nts to cost"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17142.507,
     "end": 17174.873,
     "text": "reveour operating cost one of the excis we are asketoo was a cost mparison of se the alrnatives. One is t cter and we want to empsi in the coln thatashe community cente figures those arre numbers, 54.Rethat is baseonids coming from bcontractors those are hard numbers. With thereacres renovation ose are the order magnitude estimas at were"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17174.873,
     "end": 17205.469,
     "text": "made. Weidn'to eeptuo do detailed co estimates talking about the rtrship with frf county one thing that's not in the mbs you realizthfuture community lue of greenacres whatever you dece do the factoure moving the's cilities getti fe land from t cmunity at one doar per year that fesp your optio wt you can do"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17206.171,
     "end": 17236.467,
     "text": "threenacres if you had bu land for aew fily my timation is you ne aut 4 acres whh uld cost a haso penny. The eecres new build wha we built into th o is looking aompletely new standaloneuiinge uld scrape t existing building going bically the same ilding at sheoo with new ovround parking it wld"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17240.71,
     "end": 17273.204,
     "text": "ta 200 parking sce so we fireot underground parng but abovegroun pking for the w ild then greenacre renovation basiclyakes care of feed maintenance so using thesssment that wado as a starting poi and then alsoepcing the jam thhe existing demolition with loerooms andathrooms associate so going toheumber side of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17278.844,
     "end": 17316.12,
     "text": "e slide the a itotal projecco of what does it st to do the fullroct moving forwa? Any cost wasn e past so thtol project cost we talked about his 5the. The all inewuild is 55.Six anthe all in would b 58.Fiv we will ta aut the sttegy for debt serceut for comparison wit tt bt"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17319.484,
     "end": 17352.85,
     "text": "burden goingorward w calculated the cit reserve and lood the total catacost just the first 5 years with thisomrison and weidhe operatingos for th sherwood and thne build are bicly t same they areotbrand-new budis the staff cost ia little bit lesi eenacres becae me of the challeng of multiplentrances that you wod t have if you justad a soul purposeuiing. We reducth for both the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17357.489,
     "end": 17388.518,
     "text": "ne build a the rent out. E building operati ct is a littleigr because you ta about a 65-yearld building witolbones. So tho cts are higher. Th we lood cost recovery we edhe breakeven mbs that stacy just nt through for thwiard and greecr. The exactam numbe. For the greenacresenation we won he a new fitness nter that you can rente will have the ily to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17389.921,
     "end": 17419.983,
     "text": "sponsor fness classes and e rental opportunies are less so thosnuers run a lolor so the total cost recovery a tn we came down tootal cumulative anal cost without t cital renewal nd 3.84 willard shwood, 3.5 for the w building at grnaes and 5.2 4 eecres went out and en the numbers bowhat are penns om the real estat"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17425.457,
     "end": 17460.225,
     "text": "tax a queiothat came up prioly is when you lk the greenacr rt out and thnewe built in the su cost the city rey id $4 millionhacost is not go aw so the total costaso include ttost so that is but intohe 5and the 58 mber. When we did th capit cost in terms othbond referend wtook the 4 miioback off of all 3."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17460.225,
     "end": 17461.892,
     "text": "Because we are loongt just what h tbe financed going"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17466.3,
     "end": 17496.593,
     "text": "forward. looking at thos comparisons with genres that wasevwed on the last ide we looked backt project objectesnd consideratnsnd those are st on the left side t slide. Stf these were identie by the origil sk force backn 15. But real ctinue to hold tr as the project ha project -- progss the columns t right related"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17500.932,
     "end": 17534.364,
     "text": "tohose factors and those thatreacres there was alear need for morn purpose communies center that wod developed atilrd sheoo committee ceerould be builathe greenacres site as noted in the sendow or renovad expanded the fality to be better an what is there or bett tn what coulde ilt but would stl have some limitaon with respecto yout and struur the willard tes supported roh cit picand the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17535.3,
     "end": 17572.337,
     "text": "grnaes committee andhe conference plan and it woul certainly contriteo the sensef place in place min. The wiarsite is a central location accessible by transportation on the b route wi aisnct vaage wh the bicycle and pestan access any option to bud new or expandxiing at greenacres"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17572.337,
     "end": 17612.177,
     "text": "would impact the pk d the green accurrently there ich is in t ce of the willd te that already ha gnificant coverage and I't located withinheark. With rescto keeping exti programs and falities in continuo operation to thereest extent psie, the willard si allows greenacresndts prra and offerings to continue unaffectean largely limi impact to the exisngherwood the new ilding at greenacr cld be cited isu a way to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17612.177,
     "end": 17647.145,
     "text": "lit e impact of existi greenacres and oioly leaving shwo unaffected t y alternate locati from the currentuiing site withhagreen space and th fields. Anofhe central locatioof willard and thavlability of aesand with respect t co-location havg e facility aact the ability totructure programs t community ceers well as thoprtunity to expand sherwood into fullerce community nt was a distin aantage as well as a partnership benit with the un in terms of shari cost and design nsuction and lo-tm benefits to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17647.145,
     "end": 17657.86,
     "text": "she maintenance and pil investment covering the phase would remit the propertycqsition cost at willard that is ao"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17663.995,
     "end": 17696.191,
     "text": "at greenacres. regarngebt service as nod this project has been fully appropriated. But that does not anhat debt haseeissued against it the main rean debt has be iued because the oject similar to ts e majority othcost are consucon. and were not there. Rs1 potentially in t next fewons coming before counsel for the reluon to issue the fst tranche of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17705.7,
     "end": 17735.799,
     "text": "de listed in the table below with 21 or $22 milonould be the fstranche 1.$6 mli in principal and interest payment iyo number 1 whi I about 1.85 on t real estate tat congack every year forhe next 2 years t cns wanting to danher resoluti odebt issuanc .2illion and then in year 3 under 5 miiocumulatively a ta principal ontest ymt estat at 3.8 with"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17737.369,
     "end": 17768.532,
     "text": "the cumulate potential with thtaat impac, this is milar to what we dwi schools. Scols is looking at 220 million-dollareb suce we n'take all of atn your number 1. Phase that out aseed while we d cstruction. T 's also the most pde approach to. Yodot just want to hav vitaloney sitting there while is not being fully"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17782.581,
     "end": 17794.125,
     "text": "utilized and thenith the poteiaburden on the redents or the avera homeowner when icos to the tax ll the other pontl factor as scsed during the budt retreat we arentipating inflioor interest ates t come down fm ere it is at peent at about 3 pernt so that is somhi that would beficial when we"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17801.399,
     "end": 17838.403,
     "text": "tually issue the debt. ites of consideration delay or canceli t project a day currently we ardo with the desn 0 percent whe ar complete with rms we assume project approval tn construction wod start this summe any delays basedn 127 million at escalio et -- each month is 400,0 we le t much time the bid expire. Theyreood for 60 days we but a retainer to kee those bids aliveor little"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17838.403,
     "end": 17874.305,
     "text": "long bause of the date anticipate we wou be rdy for an award ila APRIL or mayutfter that it needso be rebid potentily mongr cancellation the cityas4 million currely actually closer 4. The countympts are restarnghe design it has million of s cos. And extending the al"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17878.175,
     "end": 17908.4,
     "text": "department wlde anoer $12 milliosootal impact to e county. But in terms of genres it habeen running on ba tes for a whe you run the risk of mar repair landing yourap olong the servic tt are provided at that facily. As I mention athe outset, er are items where are requesting acony"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17908.707,
     "end": 17942.239,
     "text": "the counci ts evening. Thers ill some work yet be don befe request acti. But he e the next steps wi t anticipated timele associated wit them. With that presto negotiate the grantee with the mag at risk these are conac details and rmand those rts of things. Anticipating thawod be"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17948.179,
     "end": 17978.508,
     "text": "completed by ail the maxum prices been negotied this is inccdance with t reement that we heenon toght with 10ay notice wi t city to respond t county would eitr tify its inte taward the construc ---- constructn contract wi thategiated guaraee"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 17982.546,
     "end": 18020.151,
     "text": "th a new release that would not be to revisit desn t pursue a dfent method of nsuctionrocurement to rminate thegrment. The ci h a 10 day period respond. Wentipate coming forwa to the council o ail 28 on a gur meeting date requesting action on proceeding a wh the bond authorizatn allowing the ty to move forwarditthe"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18022.587,
     "end": 18055.885,
     "text": "issuancef debt r this project awe as amendments tohe phase 2 design to updateitthe fal numbe as well t schedule min foar that's what aicipate in tes the next steps an action items forouel to consid. Thank you agaifothe opportuny step through th. We are pleedo ansr y questions u y have."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18062.93,
     "end": 18095.526,
     "text": "thk u for the prention I do have a l of questions becauses u areware we have 4 mutes. I hung onto my queio I hope you d'tined I really apeciate you takinghe time. I have ger question gaing bond referends noticed nemr 2020 the untyut out a bond rerendum for their pti of this builng do you know t city had"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18103.869,
     "end": 18114.444,
     "text": "sila discussion? I'm not aware t cy had diuson on that MAY hav precedhe time b rtainly we coulspk to the bondingross."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18114.98,
     "end": 18150.181,
     "text": "I don nd to know t nd process because hwe to that withhechool board t m curious if thereas any discussionbo that or if t cnty recognize ther would be plieiing in on th io appreciate you gng to the timelini have some qutis about that porti of it? Sourg outreach at what poinyosaid you mentioned the cost associate wh the buding at certain pots during your public outrea."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18151.85,
     "end": 18189.32,
     "text": "Do you know howettended the were? Ty were pretty well attended and we also had inp on the sites we d a lot of feeacthrough enga b the feedback I peon about0 ople came to chf the meetings a ltl more in ter ovirtual that ow up we did 2 virtual d 1 in person at the early eting andha was wn we first shedhe number was nomber 2022. Yocago on the county"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18192.691,
     "end": 18194.691,
     "text": "bsite and see the recording."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18195.16,
     "end": 18200.163,
     "text": "es. So for the operati ct for"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18201.32,
     "end": 18239.837,
     "text": "those eriscussed athat pot? we did not develop eratingostheirst time werented operating cos was SEPTEMBER 24hawas 2.7 milln. We went in witso high assumpon we went in th really high mb with operatg st and came down gnificantly. Ptber4 actually we were directed if I remeer correctly by t cy manager oritcouncil when we she"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18239.837,
     "end": 18241.939,
     "text": "the operating stnd said makeurto share this with the communities soe d."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18253.452,
     "end": 18295.16,
     "text": "We took theperating cost. ds e cost recovery del take into conserion the operincost of the joty are employee lated? That wl obably increase er time due to flion does thamol take that into nsideration when ilos at that? Es. Iin our favor that have the staff pci based on potti increase for ination and what we e using right noourental rates omhis year. Ancite rental rates wl continue to inea but we are injust the current ntal rates to makeheost"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18295.16,
     "end": 18297.329,
     "text": "recoveryumr but we are okg at what is likelto pay staff in t pjected time tt e building opens."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18297.329,
     "end": 18299.329,
     "text": "thankou"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18301.8,
     "end": 18342.507,
     "text": "arehe anylents of this center th we not includedhaoriginally were ked are thought oas need from t cmunity for this? As we stated the eme was to move theroams that greecr to the newacility. Tt was the baseline were things requteby the communy at aren't inud?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18342.507,
     "end": 18350.648,
     "text": "Absolutely 1 that comes to neis a swimmingoo we heard abo tt a few time fortunately therarother optionth city residents ve for indoor swimng available thrghhe county. Buth was not something that was within thsce the facili cld handle nor the budget."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18352.117,
     "end": 18379.509,
     "text": "'m justurious what was presented a wt came out of the meetings. Peally as I watch otr communities what go through a silar situation as wha he. I will ge few momen f somebody elstosk questions. Ank you."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18382.114,
     "end": 18386.749,
     "text": "e rm of debt is 25 ars?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18388.52,
     "end": 18419.382,
     "text": "were pjecting 20 years 4.5 pernt are we hiring a ne constrti manager for this th cry the project allhe way through buth procurementetd acting like a you bring the men din hetic to work and a ov with the architect to t at"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18420.886,
     "end": 18431.195,
     "text": "you wan. Eyave bidhat n. To givus final number but"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18434.399,
     "end": 18467.465,
     "text": "that isheir nbe. so u ve to hire anybody internally? No. We would not. Ihink we have some bl health reprentives from thci of fairfax? Or from fairx unty? I am ssoy we he pt you up so late just for clari a want to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18468.467,
     "end": 18508.206,
     "text": "undeta MAY be the scopef serves for the hltside and I apecte so much that u are here. Thk I heard earlier e inntion was this wagog to be focud preventive care cai just understand little molearly? The reason im king is I ha hrd from members ofhe communy and icabe flawed inrmion my understandi that this will he tuberculosisenr?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18508.206,
     "end": 18510.608,
     "text": "And that wlde designed to enge in preventativear but also treme. Is that cre?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18517.715,
     "end": 18550.481,
     "text": "good eniatr mayor and unl members. Weavmultiple programs the health deparen lot of whate do the number 1 seice we provide is immunizations and I sting and trtmt and a lot of the are prevention awe as efforts aun nutrition. Th tth is something the health department s en doing at t center for decadeth is what we ove in all of e her faciliti. Anrd public al program or svi area. What'smptant to remember"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18551.183,
     "end": 18595.227,
     "text": "if we talkbout tor other communicabl diseases health departmen t get diagnosed with tb when th are actively illute talked abouth the last time the's 2 forms."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18595.227,
     "end": 18628.994,
     "text": "Enou are ill you havth infection inoulungs and caspad it to other inviduals. Whenouave tb disease and you are sick you wl to the er opoibly your dooroffice you're not coming to the heal department as a rsplace so we inty the ill invials and then we dohe follow-up caret e health depame. It is posslee have infectusndividuals come e us in the initiawe but as soon wstart the mecaon within a few wks , they are not ablto transmit the ine. When we kn aut individuals whare actively sick he mechanismsorhat. We oftenskhem to come with mask and if not weri them in to t oice. But unkeeasles is not sothing you can catcfr another pers jt by sitting"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18628.994,
     "end": 18663.294,
     "text": "t room. I can vective tb disease d coughing but it ke hours of prong exposure to sst on. If fol he tb we say who s in your householanwho has beenityou where do you rk? It does t t transmitted to her individuals within nus or hours of exposur. But agn st of the patients that we see your fkshat come get sn test or blood st that means theyav been infected a lot of lkcome from oth cntries as well mighbexposed to the t bacteria that isn e body of the imme stem that"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18673.171,
     "end": 18710.874,
     "text": "coai it is called tb inction are not ableo transmit the dea when you ju he the infection. E reason we have t bod test and t sn test is the peon has no symptom so when ildren go to schooorolks come from othecotries we are stg fornftion they are not abltoransmit the disease that's when t immuneysm cannot control e infeconhen you're coughing a sk night eats, symptomatic, the people usuallyrent to the edndot ourla."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18717.415,
     "end": 18718.749,
     "text": "is there a questn u have from at"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18720.152,
     "end": 18742.306,
     "text": "I am interested geographically what so of rve areas this encompsi? Th snds liket is a servicth would be avlae for a market thas bigger then thci of fairfax?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18744.976,
     "end": 18778.509,
     "text": "that is not cre the center I1 5 that ove the same services. He it at 5 differen sites so it's easy foreoe inhe surrounding are t have easy access. So theilrd center is not e only place whereeoe can come for tb service the other centerth do that as wl,n fact willard is the only center th inot"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18779.311,
     "end": 18804.333,
     "text": "really c located with many other businesses or other organizations. So the willard center services is what we get."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18806.805,
     "end": 18808.805,
     "text": "ers other places lik"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18812.978,
     "end": 18818.982,
     "text": "moun vernon this is desigd treat a broader range of iecous diseases?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18822.53,
     "end": 18835.131,
     "text": "all of our clic we have stseices. All clic do that. We have iunation clinics. He tb services. Th is about it."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18837.169,
     "end": 18868.8,
     "text": "hen it comes to treatment we do tb a std we real don't expect tramiion in a publicetting. [Lghter] So tb wt we are looking and that is as diusd is in the fstew weeks of the itial exposure. Is after midnigh [Laughter] Buthe brunt of the wk at we do withubc health is evtion we are prevenng"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18868.8,
     "end": 18877.441,
     "text": "the illness weivthe vaccinesndhe education we don't treat won test we refetoommunity partners. The only thing we tat at"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18881.413,
     "end": 18894.525,
     "text": "the hethepartment is std's d tb. so sto understand going back to the origil comment with this exnd undersndg, say 1 more time. What I the range or the op"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18898.23,
     "end": 18941.406,
     "text": "ofeahervices that are ovided? se. We provide immunizations munizations, materlhild health svis including egncy testing and ferring individualto places of car for continuation oparnity care werode sti testing and treatment and tbcrnings s those coming frootr countries steed a blood str a skin test to s I"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18941.406,
     "end": 18977.943,
     "text": "they are infteand if they e do the diagnosis d treatment. Werovide women infan children supplemta nutrition prra aimed indivialthat meet a rtn income eligibili. Similar to sna aohere is a hethomponent where we look at the child'heglobin level d e growth chart so brst-feedingom a pregnant mom andhiren through e 5 also ove vital records the certifica per certificate d rriage certifatand divorce rticates. Thosarthe key services. Given this is the flahi facityhe central pharmac that provides medication for e rest of the othe5"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18977.943,
     "end": 18987.951,
     "text": "departments wi ao be co- located."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 18989.353,
     "end": 19023.387,
     "text": "so with e isting servic spe and lel? Ank you so much. Auay only have 1 more question is not aeah question so if youilpermit to me, . Jt if I could chimen before they lee at sensitivittonsuring everneafety is reflecte in theuilding. The will be direct aes into health pament that cabetilized, the examination rooms with the gative air pressuris handledo make sure it's n"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19023.555,
     "end": 19028.925,
     "text": "circulated thrououthe ilding again to enre overall safety of everyone."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19035.534,
     "end": 19059.39,
     "text": "is ve basic public heth service and we have enoing this for decades. Antb surveillancend tracking is partf the core function. Never has erbeen transmisonf t to aon in a buildinan1 of the health cte as a result of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19068.233,
     "end": 19077.41,
     "text": "patient coming through. tha y very much. Iould also highly commend john green bk everythings berculosis whh a fantastic read d it does explaial of this if you want a go book, everythings tuberculosis."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19083.248,
     "end": 19114.11,
     "text": "1 more question not on health but somebodel MAY have 1 b ts goes back to thcost issue. Ieard correctly, t history of ts,he constructi nbers have stayed stable fr t get go. Here pretty darn cseo where they started from that fit ar whether 22 or 2 t if I heard correly, the maintenance and operations numbers startedownd of gottenigr."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19118.85,
     "end": 19150.381,
     "text": "Is that correc ow? W were veryonrned if u go to the slide the first me we share taoperating co w shared 2.7 million or 7 million now so wgon very conservative andsse total projt st versus cotrtion value. So when we scale that down and mah th fairfax county th"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19153.318,
     "end": 19165.93,
     "text": "use for their bchrk cost for custodial an maience d en that number we added security. 1.5 maintenance peleecause the cotyould pay for the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19175.6,
     "end": 19197.961,
     "text": "other 1.5. so all ftemoyees and everybody? T srt and then came down? Soooking at the numbs looking at constructi numbers."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19200.698,
     "end": 19219.15,
     "text": "NOVEMBER 2022 theyenup asig as that s e last time w were he31 the city stas 55.9 that we woed hard to bring atown because dn't want to bump"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19219.785,
     "end": 19222.686,
     "text": "against the 56 millio I want to expss appreciation forouoing that."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19231.363,
     "end": 19260.591,
     "text": "tnk you. A number of my qutis have been swed. I just wt point out in a talked about thisitthe one-on-o lt week but the ird floor for senrs thkhat is a concern f m I know wadess it but I llust restate the nversation that we had. My concern is thateoe will be up ther waiting shoula situation arisanyou have assud there is an area they can close offhais a sa sce where they coul line up wheelchrs and is readtoo for people to be"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19263.894,
     "end": 19272.503,
     "text": "transpordownstairs. Want to confirth is not a coer it is auiing code requemt to have a fe protected are where people can have access unl eyan"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19280.479,
     "end": 19285.182,
     "text": "be resed. hl:s it unlikely a fi would occur t fire rescue ea"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19289.286,
     "end": 19293.79,
     "text": "t is fireated. And e ilding isul"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19303.468,
     "end": 19329.793,
     "text": "spnkler. hall: thank you 1 of the other imse addressed s e staff at the des and how the layo lds itself to laer amount of afthat might otherwi b needed and 1f e questions aed wast oks like the tyill be providing t staff for a war enou come in bau we have the gym a the main entrancthquestion I pod s does the county need someone there and you said not really imy question w iwe don't have someonsiing there tn does the cntneed someone? Sohat we talked abou possibly sharing sff for"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19335.634,
     "end": 19366.797,
     "text": "those roles. that's diussion we can ha right now they sa ty really don nd a security rs or desk person. We haven't worke through 1 of thagreements that weald about was e erating agreenand those are diussions we still he have with thci. We understdhe framework ilthe operating ct of 5840. Right now we saye ed 3 maintenae aff with the sution the city will maintain but the ct ll be sharedutave the 3"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19374.339,
     "end": 19393.424,
     "text": "matence staff they ar 58 percent of th3 ople then theouy would be reonble and the city wld be responsibleorhe other ife look at there arotr things to eqtely staff the spe that's a conversio we could sllav to this day the county isot said they need dk person at tt locatn."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19395.56,
     "end": 19442.808,
     "text": "hall: hestly what if they will change your med literally if nobody was sitting there and op were walkininnd not know where to go but that wou bseen in the fur potentially. So if we couldo bk to the numbs d the cost coaron comparison, it looks like for theex20 years at 4 pcent the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19442.808,
     "end": 19481.646,
     "text": "builngost loan is at an increase of 4.33 ctsharged over 3ea cumulative. Tn for 18 years rouly we have 4.33-ct x increase toayor the building. Rrect statement? Ay. In additn e way I look at there is 3 differt potential sceniofor the operinmaintenance cost ll be assuming it bn presented e rst is a loss of.2 million dollarsf continue to ere the way we veeen with the cost recovery modelhaif my calculio areorrect it wod then make the budi 5.69 cents. E next option is t breakeven whi ain was not asdvtageous but the f right column that is aax increase of 1. Ssor total budi cost of 6.2 9 andhe third and obvislthe most"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19481.646,
     "end": 19517.882,
     "text": "advaagus is projected wi market rates way to recoveat the 30 / 20 spt en.77 cents t tax rate for the operating and mainnae cost bring t project at 5.One cent gss 5.Ten cents is the most appropria w. I want to in thoseut f those that are nbefocused like I am this is significtllower than t nbers a last time had this conversaonhich was closer to abt or 9.2 cents icwas extraordinary and concerning. Ese numbers are ceaiy coming dow"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19520.485,
     "end": 19522.485,
     "text": "I hope they will continue to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19523.355,
     "end": 19549.18,
     "text": "come dow. mummy just okg go throughha withou so the willarshwood at there even would rulin 4.33 going to this slide hereo the total mutive of all the operatg d recovery is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19561.192,
     "end": 19563.395,
     "text": "4.33. Ishais on the bottom o the slide. 33 that assus erating cost"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19563.395,
     "end": 19572.836,
     "text": "wl not just the finci of the buildg? that includ ainancing and e erating and the co of operating it iall in"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19573.605,
     "end": 19585.748,
     "text": "mb. ka that assumesheotal cost recoveryo at aumes the eakeven. Tt assumes the brkeven. If we use the high-end it"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19586.218,
     "end": 19592.856,
     "text": "will be less than 4.. ka that is great news."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19594.226,
     "end": 19606.87,
     "text": "Amladsk and just quk claricion as well it is e equivalent o 4hree cents don'necessarily mean have to incast have"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19616.18,
     "end": 19632.162,
     "text": "priation with othe revenues we can fs that amount yes. I stike to look straig in the eye of thwot case of whai'looking at. Ats helpful. Thk u. 1 questionouan just nod. A of your other facilitiesncde combine childcare and seoror is th aotally new model?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19632.263,
     "end": 19634.265,
     "text": "It is not n. perfect."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19653.584,
     "end": 19660.791,
     "text": "Thk you. councmeer? stay ak we are almosthe. Have a coue estions and I wi circle back with cole comments. No need to drag itutut just to gontthe cost reduioslide, I more so rious of your thout process on tt how do we getohose specifichaes to make those"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19663.495,
     "end": 19665.95,
     "text": "determinations? of saving yes."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19671.902,
     "end": 19702.868,
     "text": "oy. So basical workingit the contraor and with the subcontractors and t architthat are some thing we can trim and rkn? So just wainthrough each 1 th foundation andtrture have waterproofinth went around e sic columns atidn't affect water"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19702.868,
     "end": 19734.964,
     "text": "coming into the budi so we reducehemount of wateroing around the buding which was a gnificant cost at 00 savings. 00,000 playground bld 2 levels downe ve to build a suortive excavation er you build down a drop in and tuly we reduce the perimeteloing at the woer space. So we reble to reduce the overall excavaon"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19755.454,
     "end": 19787.818,
     "text": "we also lookedhen they come do they were lower t gde what we we gng to do was g wn so we would excat and send -- a save a lot mey because of thatir but that sav uon how much pptive excavation wo w have to do. There is a minor sin around the pygund so we cake the playground t way we want it b c save some cost working with th playground supplr. The roofing iis singlely roof a it is white to be reflective. Lked at the thickne because we were gh grade lookinathe county stdas a allow a littl lowero we did some savis the. Eltral look at the typof"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19793.158,
     "end": 19843.8,
     "text": "conduit we are using for the system and to saveon on that conitnd you move the nerator from insid t outsid we went to generator. Sll have the ergency quirements for emergency we there is his besth and other thgshat have to be delished we are taki ce of that inccdance with ste w. But in ter omonitoring the coty had already donso of that insctno was just doue counting and the 000. Don't te mon that was sclaneous of savingst"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19843.8,
     "end": 19847.411,
     "text": "and 10000 he ithere. 170,00eqpment was looking at how we purchaseo use the exisngontract to buy althe equipment for e occasions and dierent spacesers bidding it and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19853.952,
     "end": 19885.116,
     "text": "we saved $170,000 er hank you clearly y p in a lot of rk I appreciateha questioned f t direcr. I owhere was a conversation elier and I justanto circle back abo different rates r ty residents rs countywide it wa't recommended or feasible? Y the council can d whatever they like right now d't have reciprocitth"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19888.62,
     "end": 19922.52,
     "text": "means if youan to join a county cmuty center to do me lessons or anyin like thatheame as county redents this is somein the seniors kedvantage of they join the un's senr centers most f bus trips. Soight now the city nis can join t sior center at e 75-dollevel. Bunojoining would be $0 per year it is sstantial fference. Sohey can utilize th"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19925.423,
     "end": 19952.149,
     "text": "resident re that thcoty residents t. In the spirit riprocity we ao offer the same sang to county redes so they gethsame fee is city sidents and ofoursee could breawi reciprocity ers always a possibity the county cou bak as wl and the ci ridents then veo payhe higher pces like swimming lessonoro block the ni center."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19955.954,
     "end": 19973.737,
     "text": "ast qstns on the cost compasoslide. We had it over eaibut I went tbrg it up here. Mynderstanding the nbe related specicly to the grn res options those already factor I ilation"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 19983.414,
     "end": 20019.251,
     "text": "escalaonosts but notom cost? Idoes not. t es include that? Ank you for that. So I will just wraupecause I don'fe like talking again so just meuick coen on my end obviously I aomeowner in e ty and very apprecti of that. In thepit of that and even more excited for thisroct. Because I ulbe a stito take mkid now that I'm finitely committedorhe long-term. I definitely appreat tha. Something I have rleed on that wha dealt in recent ars, obviously theanmic"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20019.251,
     "end": 20055.887,
     "text": "and how ital willard serviceser with immuzaon and testing. Have some criticaseices that opetet this site. Addition chilar seniors, this is example of a gre blding policypuic health and countyartner. Is not everyons p of tea but skball and tourism pe I know my basketbl group chat wou areciate that in the parks fouatn opportunits. Thk this encapsulate everything the cy nts to be alln project and is"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20055.887,
     "end": 20088.587,
     "text": "crical we keep it mong forward. Oer not is reteto safety andri but not with t building itself b% 1 example of thiwathe city of btire, the new mayor of the first iniates he did toede crime was to exnd community servi hours. Theyaw dramatic reducti I think the mostheity has evereeso that even shows in terms of crimerention what a communityenr can do for. It's a great wthile long-terinstment."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20088.587,
     "end": 20090.221,
     "text": "Lookg rward to more coersations and keepghat"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20092.924,
     "end": 20095.593,
     "text": "price dn. th questions or coents?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20110.275,
     "end": 20121.485,
     "text": "Cocilmember? 1 of the coreunions of the tys to provide the rvices that will bprided from thifality. That isothing we are llg well short of thma right now. If we can't do ts at can we do? It's been in the wksor many yearsnds long"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20126.29,
     "end": 20161.158,
     "text": "overdu any oer comments, esons? I will just add my two cts so the secd mmunity meetg 2022 I was the yor elect of the cy that time. Wasoined by david mer anjohn mas and was invoedn the projects in the city right up tithe day he died. Erwe will be on APRIL 28 preeor terminate the reement."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20163.428,
     "end": 20197.27,
     "text": "I dot ve a ve unless eris a tie. Asars the bond authizion and the agreement I don't ve vote atll I st want to be cleato the communy d what my role h ben at my role current is and to be very clear this bodyildecide 1 way or other if this projt es forward. And I do think it's a rvsly important projt"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20197.963,
     "end": 20244.741,
     "text": "for the city a ithe future residents so with that, thank you r is come back and w will dcuss tt more. I sure. Thank you. I will now reconvene the regular meeting anweill move to tu meeting pi."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20244.976,
     "end": 20263.627,
     "text": "e will keep going. I will sakoudly. I believe as we look athe 17t , I don't think at consents wlehe items you se see. Ty are individual ims able take acti o each"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20266.231,
     "end": 20297.861,
     "text": "indidu item. thawi allow us to take action on thosete. So looki aad I'm happy to swerny questns. onhe 24th with the proclamation. Rerdingy 27 opeti budget I think of yi attention I inwe talked abt ving that 1 consen"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20300.799,
     "end": 20334.532,
     "text": "item to a later date so that prably will not occu there. Therara couple of plations that are comin your way as partf a work session wh at update and ciwide level service study anlooking at impactsf development onitservice and frtructure and revisingolice and human seices coordinated resns as result of a discuson you had last yr oking at"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20339.7,
     "end": 20372.2,
     "text": "thearch 3rdccsion and then a floup on the reeawith the next stepwe have 3 or 4tems that require further acti. I'm happy to awe a qutis that aronhe futuresis. Person:nhe4tfor the last im d appears to 1f 3 items covered a"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20374.672,
     "end": 20416.982,
     "text": "prior resolio I am wondenghat became of thother 2? The last thing on fruy 24 e p of the page the ck page police anhun services. We passed a rolion tt included 3 compones. 1 s e explanation betwn community servesnd the secondasherotection of city hall besblishing this as gun free zone. E third was lookinathe better usef e data and"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20416.982,
     "end": 20445.942,
     "text": "counation for assessme purposes and anasionun cre those were 3pefic things inri to this time on t agenda they havet en enrolled tetr as a respon b at this partul time it only includ pice and human seices part I d't see anything with the maing fure itemso just wonderg at MAY hav happened."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20446.344,
     "end": 20453.416,
     "text": "remember hearing me discussion"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20455.85,
     "end": 20487.383,
     "text": "we just tried to g t better tit I itheubject matterhathey are talking out is still the same. Good to know the city has gun fe zon b t campus is a discussion wi tit"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20488.92,
     "end": 20490.988,
     "text": "atrney on the council c dede."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20496.927,
     "end": 20506.336,
     "text": "that's gre b will they beakg a presentation a that time? E pectation was all of these items were resoed by the council"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20509.141,
     "end": 20511.141,
     "text": "I wil check."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20511.676,
     "end": 20544.275,
     "text": "when we disss it in the meeting, it was said it wou reque turnghe campus in a park. That is what wouldeqre this to tu t campus into a pa. I do believe he will be eped to talk about t p and con of gngown the roa becae did discuss it wh we discuss the cte of the prestaon."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20547.78,
     "end": 20552.148,
     "text": "I doemember some conversations thatou"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20554.319,
     "end": 20564.594,
     "text": "compca that. the parks things piece of the bucket so wereo come back thverything else on schedule."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20567.98,
     "end": 20600.23,
     "text": "and also that come fst d last lking at the apications that I'm not familiar with I'm t re why they a o the andut the gun ise s a big 1 predg all of these and would hat to seth show to the d the night because it could involve seuality time there are 3 tngthere and ea othose are a bucket so I would advocata t of this being t last of those wo ssion items it beces"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20601.566,
     "end": 20618.648,
     "text": "the fir swe can spend some quality time on it. Ithat is the will of the unl, I am fine doing th."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20618.784,
     "end": 20650.413,
     "text": "has what everyone once. Part ofhis is you ve people here fopr application etgs to answer r estions and certaiy the police deptmt staff is hereuthen you have etgs after midnight er are no winne. So I guess the people who ar involved in thesapications cano lt. I think peapthe thinkg s ey would go first becae ey are not staff"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20656.755,
     "end": 20658.755,
     "text": "but I have noroblem."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20661.426,
     "end": 20662.96,
     "text": "another thing th mht be missinishe efficiency"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20667.32,
     "end": 20698.995,
     "text": "aut we had discussed? gre qstion. That imah 3rd and that isart of the folloupor the next sps that is the co or third item on at en I would anticipate that we talk strategiclan a mmunications a also metrical4 of those come ba at the same time whaa very specific ti steps."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20701.466,
     "end": 20705.602,
     "text": "nying else on futu meetin?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20706.71,
     "end": 20718.82,
     "text": "ju might procedurall and I suspect that in a perfect world this conversation what happen earlr wn have more time."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20719.584,
     "end": 20729.692,
     "text": "which item? Fures. The wleisssion."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20735.467,
     "end": 20740.837,
     "text": "I think since ts the council inand how we move e futures dcussion up any"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20750.314,
     "end": 20754.185,
     "text": "eaier in the agenda. I'mor repeat the last rt. councmeer peterson was king to move the wletem of futuragda items up in th evening."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20755.53,
     "end": 20770.33,
     "text": "he actual requests st to ensure at itccs eaier wch MAY require tha adjournarlier and we alcate more time becse 's difficulto go through"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20771.47,
     "end": 20775.939,
     "text": "ist this hour. for whi d? The budget?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20779.611,
     "end": 20823.988,
     "text": "councilmeer. e ve multiple mechanisms lahiis just a genel topic. We also vehe draft agenda ll ahead of time. We have aed and the staff habeen responsive foging us multiploprtunities dot st have a futures st to go through eopics. Eiscussion othe place of isn the agenda just ke us down a diert direction. We have requested reew of"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20823.988,
     "end": 20840.136,
     "text": "the furelist. We havth available 24 hos a day anyway. d can provide feedck we request elygendas agens,equested agendas th paragraph descrtis. A request veeen fulfle it is just incbe upon us to take advantef those. I ullike toov o."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20858.789,
     "end": 20885.816,
     "text": "we have been doi rlly good witoumeetings this is e first 1 that hasonthis late. Nestly had we not pl certain thgsut and have scsions of certain ims earlier that sffad no clue wod ve taken that timee would not be ith position. So I thinkt heard. We uerand nobody likes t be doing thisidght aer midnight b ihink the way h been working has en fine. Th ithe first time it' happened. Any other commentbere we move on? Okay manager rorand counsel mmts?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20889.921,
     "end": 20920.885,
     "text": "er quick I just wa t thank the enreeadership te othe firmesponse we had a hot wash which ith after actionhawill take it lile bit further io w weid but I want to tha eryone ain from t council on dn to those on th street I areciate you l tting information t back out to th public. And ain overa eryone did a nttic job I want to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20921.619,
     "end": 20924.321,
     "text": "recognize everyoneorheir efforts."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20929.93,
     "end": 20940.805,
     "text": "I just wt say this month ithschool board soation and appreciaon month and we he e best schooloa in the worldor christ wantoive a shout"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20944.509,
     "end": 20945.976,
     "text": "t ying we appreciateou couilmber bait."
   },
   {
     "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "captions",
+    "speaker_source_detail": "Captions (explicit speaker tag)",
     "start": 20950.715,
     "end": 20952.249,
     "text": "ap blackistoryon. councilmember pern?"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20953.351,
     "end": 20955.351,
     "text": "peterso hpy valti's"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20963.762,
     "end": 20996.659,
     "text": "day's cncmember? y wt to express my preciation for tho w put togetherhelack history ntreception we had rlier. I wish it was rettended becae was such a fun ti and great music dood. Am struck btoross is quota ciety growsre when they plant tesn the shade eyill never sit and I just want to sayla history montfome gives me oortunityo sit in the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 20997.28,
     "end": 21038.402,
     "text": "adof so many ancesto and otrs w work so hard for to be here wheth ty know it orothat's impornt I also want to anoedge the poli department awards and omotion ceremony wchas amazing. Ngratulations to a t officers whoeracknowledge r l the work that tyo for theicounity. You cod ll they wereo humbled and really enjoy I there was su tmendous contbuons to our couny. And finalli nt to"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 21040.138,
     "end": 21077.775,
     "text": "acknowdgthe officef e fencmagement I'm sry critical event managemen MR. English and the recertificatn to be besin resilience at e amond tier level understd ere the onlyurdiction to have reacheth level which is tremdo and certalyhe response tth recentto but the respsiness and the"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 21078.43,
     "end": 21089.252,
     "text": "mmication behind the scenes was incdie congratulations to them for hiing something no 1 else"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 21091.256,
     "end": 21105.835,
     "text": "has hall: I'm glayohad other things oer than commtsbout your ancestor out been hard toolw. Very movinan touching his congratso."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 21110.442,
     "end": 21141.171,
     "text": "--- fomr. Walters for e entire departmena ge shout outo the pks and rec dertnt putting on the unbelievable chocoteovers festiv. There were chaens and weather and wi a tent stggles and you wldot have knownhehad anything that w wrong they just ro wh everything d ke it look flawlesan even bring t h chocolate toound it could be sowhere else. W an unbelievableve actually I like asherwood"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 21141.64,
     "end": 21166.497,
     "text": "beer liked having everhi in place. It wasreat. M looking fward to it congack I thought it w phenomenal phenona was shocked t number of pelehat were there wit the weather andhe wind. And I am looking fwa to saturdayitour delegates I pe to see you there I will tre."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 21168.767,
     "end": 21175.805,
     "text": "I don't meer wheret. iisight here between and 1"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 21178.9,
     "end": 21180.9,
     "text": "."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 21183.748,
     "end": 21223.988,
     "text": "nur chamber:0A.M. I also want to holl of the stf rks and recta ca iclutch having to just from old townal making no spe rk and then nely just the horric cold that came throu extremely well aend the only iue will take with u on sherwood is tt lot of peoplmi the chocolate fotain I was little rtn that. It washe. The only other f tngs I will mti is happy belated"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 21229.995,
     "end": 21261.859,
     "text": "birthday to my dads but there s is past friday. Ank you to everyonwh helped me mo io the new duex I appreciat that, especial during snow thatasough. And th techo the seiments the councilmb brought up wh ack history nt I wish eveona happy black hiory month. I pe you take the te learn more a ecate urlfnd that has stru me deeply I was tcng a movie onhelight back from london do this in the black messiah with a bla pther party anth just sat with me."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 21264.162,
     "end": 21269.934,
     "text": "I'm oer nowrom those that we assassinated or taken away earlyt st a little"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 21274.473,
     "end": 21306.136,
     "text": "avon myea. I ju wt to mention that. thank you. I willo that aa city did we. That's all of u ys you managee-ils and concerns d complaints a wter english s azing, the fire partment was amazi, blic works waaming, parks and rehad a lot on their pla. The snow w pt of it, chocatlovers festival but thank you to thceral fairfax amr of commerce"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 21307.139,
     "end": 21338.57,
     "text": "spifally jennifer re. Oldtown fairfabuness sociation, econic devepmtorutting on the fit ever event to suor or mason university homecoming. Iday night councmeers route the support. 15 checkn' people got t-shirts. You ha thirts. It wasmptant for the city to aspire to be thbe"
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 21338.57,
     "end": 21369.7,
     "text": "hometown posblfor george manniversity. Th wt the relationship. We want e lationship. Tk a lot partners. Jeif, tina a ta and anthondithe heavy lifting to make this a reaty thcheck-in was at th chocolate tent wmeed it togeth a this is 1 of the things that makes r community so uquand why peop wt to live here."
   },
   {
     "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "",
     "start": 21370.302,
     "end": 21388.151,
     "text": "Ere's a sense ofla, the 34th nnual chocolate lors festival, havi t universityexdoor. Ese are the thingse ed to preservanpromote and ve in. Because iwhat makes us dierent. With tt am now going to journ the meeting at"
