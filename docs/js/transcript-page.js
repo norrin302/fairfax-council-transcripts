@@ -261,6 +261,8 @@
     const seconds = parseInt(t, 10);
     if (Number.isNaN(seconds)) return;
 
+    CURRENT_T = seconds;
+
     const idx = findTurnIndexAtOrAfter(turns, seconds);
     const el = document.getElementById(`turn-${idx}`);
     if (!el) return;
