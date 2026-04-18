@@ -4,8 +4,14 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 290.773,
+    "end": 309.491,
+    "text": "good evening. I would like the call the regular meeting of MARCH 24, 2026 to order. Welcome everybody, we've got a full chamber and that's all great to see. If you are able and so choose, please rise for allegiance."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 310.359,
     "end": 325.739,
-    "text": "good evening. I would like the call the regular meeting of MARCH 24, 2026 to order. Welcome everybody, we've got a full chamber and that's all great to see. If you are able and so choose, please rise for allegiance. [Together] >> I pledge allegiance to the flag of the united states of america and to the republic for which it stands, one nation under GOD, indivisible, with liberty and justice for all."
+    "text": "[Together] I pledge allegiance to the flag of the united states of america and to the republic for which it stands, one nation under GOD, indivisible, with liberty and justice for all."
   },
   {
     "speaker": "Unknown Speaker",
@@ -46,116 +52,194 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 530.212,
-    "end": 561.141,
-    "text": "feel safe and welcome. And with that, reverend? >> wonderful, thank you. With liberty and justice for all. With liberty and justice for all. I want to thank you thank the mayor, city council, staff, and this mattes. To understand why this matters, you need to know what is happening to our friends and family elsewhere. The kansas state legislature revoked and invalidated the"
+    "end": 532.212,
+    "text": "feel safe and welcome."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 561.444,
-    "end": 595.242,
-    "text": "driver's license of the trans citizens in that state. All 1,700 of them. Overnight without any warning or recourse. That is not political, that is personal. It is just mean and cruel. It is also strange and irrational. Just as strange as tennessee legislature advancing a bill that would create a public list of the state's trans people. Inned in idaho, some of the most"
+    "start": 533.616,
+    "end": 568.816,
+    "text": "And with that, reverend? wonderful, thank you. With liberty and justice for all. With liberty and justice for all. I want to thank you thank the mayor, city council, staff, and this mattes. To understand why this matters, you need to know what is happening to our friends and family elsewhere. The kansas state legislature revoked and invalidated the driver's license of the trans citizens in that state."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 596.545,
-    "end": 627.242,
-    "text": "restriction laws in the country impacting all 7,000 trans residents in the state. These laws have vindictive, cruel, and irrationally disproporionate. This is why this piece of paper matters. It speaks of kindness, it speaks of empathy, and fortifies the best ideals of our democracy. It also speaks of the compassion for those who are different. If we the people lose that sense of compassion and kindness for our neighbors, then we as a"
+    "start": 569.82,
+    "end": 601.715,
+    "text": "All 1,700 of them. Overnight without any warning or recourse. That is not political, that is personal. It is just mean and cruel. It is also strange and irrational. Just as strange as tennessee legislature advancing a bill that would create a public list of the state's trans people. Inned in idaho, some of the most restriction laws in the country impacting all 7,000 trans residents in the state."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 628.31,
-    "end": 660.75,
-    "text": "nation are doomed. This piece of paper MAY not seem like much to many, but to those who need it and to those who believe it, it is nothing less than tangible hope. And it not only reflects the courage, the courage of those who are willing to speak out, who are willing to live out the ideals of those words, but it is also a testament of courage for those who live out the truth of their lives."
+    "start": 602.351,
+    "end": 633.913,
+    "text": "These laws have vindictive, cruel, and irrationally disproporionate. This is why this piece of paper matters. It speaks of kindness, it speaks of empathy, and fortifies the best ideals of our democracy. It also speaks of the compassion for those who are different. If we the people lose that sense of compassion and kindness for our neighbors, then we as a nation are doomed. This piece of paper MAY not seem like much to many, but to those"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 661.43,
-    "end": 775.256,
-    "text": "And that offers hope for the future for every single one of us. And that matters a great deal to all of us. Liberty and justice for all. Can you say it? Liberty and justice for all. Amen! and now a photo."
+    "start": 634.283,
+    "end": 667.849,
+    "text": "who need it and to those who believe it, it is nothing less than tangible hope. And it not only reflects the courage, the courage of those who are willing to speak out, who are willing to live out the ideals of those words, but it is also a testament of courage for those who live out the truth of their lives. And that offers hope for the future for every single one of us. And that matters a great deal to all of us."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 776.25,
+    "start": 668.951,
+    "end": 676.958,
+    "text": "Liberty and justice for all. Can you say it? Liberty and justice for all. Amen!"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 773.256,
+    "end": 777.826,
+    "text": "and now a photo. We can move to the adoption of the agenda."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 778.327,
+    "end": 780.94,
+    "text": "is there a motion to approve the agenda?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 780.763,
+    "end": 783.298,
+    "text": "I move to adopt the agenda as presented. is there a second?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 783.366,
+    "end": 785.568,
+    "text": "second. motion's been made and"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 785.568,
+    "end": 797.413,
+    "text": "seconded. mayor, apologies. We do not need the second closed meeting, so if the make maker and the seconder is fine, we can delete that from the agenda."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 798.581,
+    "end": 804.186,
+    "text": "so are we just amending that? - we're just acknowledging we are removing it, all right. Roll call vote."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 804.186,
     "end": 806.722,
-    "text": "We can move to the adoption of the agenda. is there a motion to approve the agenda? I move to adopt the agenda as presented. >> is there a second? second. >> motion's been made and seconded. >> mayor, apologies. We do not need the second closed meeting, so if the make maker and the seconder is fine, we can delete that from the agenda. so are we just amending that? - we're just acknowledging we are removing it, all right. Roll call vote. amos. >> aye. >> council member hall. >> aye."
+    "text": "amos. aye. council member hall. aye."
   },
   {
     "speaker": "Unknown Speaker",
     "start": 806.722,
-    "end": 839.187,
-    "text": "council member hardy-chandler. >> aye. council member peterson. >> aye. council member bates. >> aye. >> council member mcquillen. >> aye. motion passes unanimously. We'll go on to initial general public comment. I had 12 speakers sign up by 5:00 P.M. Today, so I'm going to call the first person up first, which is susan. >> I'm a fairfax county resident"
+    "end": 808.823,
+    "text": "council member hardy-chandler. aye."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 840.456,
-    "end": 873.788,
-    "text": "who is here to encourage you to support the construction of the previously planned sherwood willard center. I've been a member of the green acres senior center for 11 years. I've served on their advisory council. I've been an eager participant in the luncheon parties, the day trips, and especially indoor pickleball. First you need to know that the staff at green acres does a remarkable job under less than ideal circumstances. The building needs a lot of work as another speaker will tell you."
+    "start": 809.257,
+    "end": 810.593,
+    "text": "council member peterson. aye."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 874.323,
-    "end": 904.619,
-    "text": "Anne chase and her team are creative as well as patient, kind, tolerant, and best of all, they're fun. Despite the many challenges of the less than optimal physical plant, the staff work very well with what they have. Basically, green acres is a treasure for both city and county residents. On any given day, the building is filled with activity, people playing ping-pong, pool, others"
+    "start": 811.894,
+    "end": 814.396,
+    "text": "council member bates. aye. council member mcquillen. aye."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 905.221,
-    "end": 937.986,
-    "text": "are at tables meeting for french and german conversation and down the hall, the members of the decluttering club are sharing helpful tips. And there's always a good crowd for the current events group and the military history people. Seniors can come to green acres for tech help, book club, bingo, or line dancing. I look at you all and I see that most of you are not old enough yet to rate membership at green acres. But unless something unforeseen happens, you will get there. Right now you MAY not appreciate"
+    "start": 814.964,
+    "end": 827.41,
+    "text": "motion passes unanimously. We'll go on to initial general public comment. I had 12 speakers sign up by 5:00 P.M. Today, so I'm going to call the first person up"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 938.388,
-    "end": 971.619,
-    "text": "the value of the center, but it is a place that provides physical activity, mental stimulation, and friendship to hundreds of people each week. What will happen if you vote to squash the planned center? I've seen the projected cost. Tearing down and building something new at the location on side burn or even trying to renovate the 62-year-old structure would actually cost more than the proposed sherwood willard center. Now I understand this proposed center isn't only for senior"
+    "start": 836.719,
+    "end": 869.719,
+    "text": "first, which is susan. I'm a fairfax county resident who is here to encourage you to support the construction of the previously planned sherwood willard center. I've been a member of the green acres senior center for 11 years. I've served on their advisory council. I've been an eager participant in the luncheon parties, the day trips, and especially indoor pickleball. First you need to know that the staff at green acres does a remarkable job under less than ideal circumstances. The building needs a lot of work"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 972.888,
-    "end": 1006.621,
-    "text": "citizens, but I also know that the fairfax city scores very high in the rankings on that many quality of life lists and it's recognized for receiving a national gold medal for its parks and rec programs. So why not keep this streak of excellence going with a wonderful green building that includes facilities for both young and old. A seniors center, preschool, health care, and more. Surely you all know that the city's slogan is \"live life connected.\" what could encourage connection"
+    "start": 871.32,
+    "end": 901.514,
+    "text": "as another speaker will tell you. Anne chase and her team are creative as well as patient, kind, tolerant, and best of all, they're fun. Despite the many challenges of the less than optimal physical plant, the staff work very well with what they have. Basically, green acres is a treasure for both city and county residents. On any given day, the building is filled with activity, people"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1007.59,
-    "end": 1038.86,
-    "text": "more than a place such as the willard sherwood health and community center? Thank you. >> our next speaker is deborah sparkman. >> good evening. My name is deborah sparkman. I appreciate the opportunity to speak with you on behalf of the young at heart senior center."
+    "start": 902.619,
+    "end": 934.915,
+    "text": "playing ping-pong, pool, others are at tables meeting for french and german conversation and down the hall, the members of the decluttering club are sharing helpful tips. And there's always a good crowd for the current events group and the military history people. Seniors can come to green acres for tech help, book club, bingo, or line dancing. I look at you all and I see that most of you are not old enough yet to rate membership at green acres. But unless something unforeseen"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1039.321,
-    "end": 1071.954,
-    "text": "I'm currently a member of the advisory council. As identified in the 2023 schools facility condition assessment, the green acres facility does not meet expectations. The green acres building sits lower on the street. The building sits lower than the street and the parking area. And access to that building means you basically have to walk down a full set of steps or walk down a steep slope that sometimes is very slippery. There are five sets of double"
+    "start": 935.151,
+    "end": 967.549,
+    "text": "happens, you will get there. Right now you MAY not appreciate the value of the center, but it is a place that provides physical activity, mental stimulation, and friendship to hundreds of people each week. What will happen if you vote to squash the planned center? I've seen the projected cost. Tearing down and building something new at the location on side burn or even trying to renovate the 62-year-old structure would actually cost more than the proposed sherwood willard center."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1072.621,
-    "end": 1103.952,
-    "text": "doors that provide access to the various rooms used by the seniors. These double doors are heavier than typical interior doors. These doors do not have automated door openers. These doors must remain open at all times for access to the various senior center rooms in the facility. At least three sets of these doors do not have functioning door stops. The heavy-duty rubber doorstops that we put in them do not keep"
+    "start": 968.851,
+    "end": 1001.383,
+    "text": "Now I understand this proposed center isn't only for senior citizens, but I also know that the fairfax city scores very high in the rankings on that many quality of life lists and it's recognized for receiving a national gold medal for its parks and rec programs. So why not keep this streak of excellence going with a wonderful green building that includes facilities for both young and old. A seniors center, preschool, health care, and more. Surely you all know that the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1105.788,
-    "end": 1137.952,
-    "text": "the doors open. Frequently the door still is not opened wide enough for one of our senior members to walk down to play cards or attend the military history meeting. The mechanical, electrical, and ventilation systems are all past their service life, making it difficult to service and make repairs. A huge free-standing fan is used to circulate the air in the waiting area for the pickleballers. Windows are open to circulate the air in some of the rooms. In general, the windows need to"
+    "start": 1004.32,
+    "end": 1012.192,
+    "text": "city's slogan is \"live life connected.\" what could encourage connection more than a place such as the willard sherwood health and community center?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1138.422,
-    "end": 1170.51,
-    "text": "be replaced. They do not close properly and they cannot be locked. The fitness area consists of two adjoining rooms. The cardio and weight machines are in the back room. One enters the fitness area through the narrow room that has free weights and stability balls. This area is so narrow that when using the equipment or just simply stretching, the person basically blocks access to the cardio and weight area. The rooms for cards, meetings,"
+    "start": 1013.829,
+    "end": 1016.97,
+    "text": "Thank you. our next speaker is deborah"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1170.619,
-    "end": 1201.116,
-    "text": "ping-pong, pool, and other games are through a set of non-compliant ada double doors. During an emergency, the steps are not easily navigated by our seniors and clearly not by people in a walker or using canes. The proposed center is approximately $700,000 less than demolishing and rebuilding green acres, and it's 3.6 million less than making the repairs and bringing green acres up to code."
+    "start": 1029.211,
+    "end": 1060.775,
+    "text": "sparkman. good evening. My name is deborah sparkman. I appreciate the opportunity to speak with you on behalf of the young at heart senior center. I'm currently a member of the advisory council. As identified in the 2023 schools facility condition assessment, the green acres facility does not meet expectations. The green acres building sits lower on the street. The building sits lower than the street and the parking area."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1203.252,
+    "start": 1061.411,
+    "end": 1091.6,
+    "text": "And access to that building means you basically have to walk down a full set of steps or walk down a steep slope that sometimes is very slippery. There are five sets of double doors that provide access to the various rooms used by the seniors. These double doors are heavier than typical interior doors. These doors do not have automated door openers. These doors must remain open at"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 1092.541,
+    "end": 1123.72,
+    "text": "all times for access to the various senior center rooms in the facility. At least three sets of these doors do not have functioning door stops. The heavy-duty rubber doorstops that we put in them do not keep the doors open. Frequently the door still is not opened wide enough for one of our senior members to walk down to play cards or attend the military history meeting. The mechanical, electrical, and ventilation systems are all past their service life, making it difficult to service and make"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 1123.72,
+    "end": 1155.536,
+    "text": "repairs. A huge free-standing fan is used to circulate the air in the waiting area for the pickleballers. Windows are open to circulate the air in some of the rooms. In general, the windows need to be replaced. They do not close properly and they cannot be locked. The fitness area consists of two adjoining rooms. The cardio and weight machines are in the back room. One enters the fitness area"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 1155.805,
+    "end": 1187.369,
+    "text": "through the narrow room that has free weights and stability balls. This area is so narrow that when using the equipment or just simply stretching, the person basically blocks access to the cardio and weight area. The rooms for cards, meetings, ping-pong, pool, and other games are through a set of non-compliant ada double doors. During an emergency, the steps are not easily navigated by our seniors and clearly not by people in a walker or using canes."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 1189.805,
+    "end": 1219.835,
+    "text": "The proposed center is approximately $700,000 less than demolishing and rebuilding green acres, and it's 3.6 million less than making the repairs and bringing green acres up to code. i urge the city council to approve the willard sherwood health and community center. Earlier tonight on behalf of the young at heart senior center advisory council, I submitted a petition in support of the proposed center signed by nearly"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 1219.835,
+    "end": 1222.537,
+    "text": "200 members. Thank you for your attention."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 1229.179,
     "end": 1234.749,
-    "text": "i urge the city council to approve the willard sherwood health and community center. Earlier tonight on behalf of the young at heart senior center advisory council, I submitted a petition in support of the proposed center signed by nearly 200 members. Thank you for your attention. our next speaker is mike fabio. ."
+    "text": "our next speaker is mike fabio. ."
   },
   {
     "speaker": "Unknown Speaker",
@@ -178,14 +262,20 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 1330.446,
+    "end": 1354.735,
+    "text": "in sight. When the time comes that the new building is the only choice, how long will it take for you to plan, get public support for that project? Another ten years? And what will it cost? Certainly much more than is on the table right now. Don't look this gift horse in the mouth. Vote \"yes\" for the willard"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 1360.309,
     "end": 1363.78,
-    "text": "in sight. When the time comes that the new building is the only choice, how long will it take for you to plan, get public support for that project? Another ten years? And what will it cost? Certainly much more than is on the table right now. Don't look this gift horse in the mouth. Vote \"yes\" for the willard sherwood project, thank you. >> our next speaker is barbara"
+    "text": "sherwood project, thank you. our next speaker is barbara"
   },
   {
     "speaker": "Unknown Speaker",
     "start": 1365.814,
     "end": 1398.779,
-    "text": "carrie. >> good evening. I'm barbara carrie. I live and own property at 3695 blenheim boulevard. First I'd like to thank mayor read for her hard work and dedication to our community. Also I want to thank all the current council members for their dedication and hard work. I'm speaking tonight to convey my support for the willard sherwood center. Our community has been blessed with great mayors and council members. I want to applaud two of our"
+    "text": "carrie. good evening. I'm barbara carrie. I live and own property at 3695 blenheim boulevard. First I'd like to thank mayor read for her hard work and dedication to our community. Also I want to thank all the current council members for their dedication and hard work. I'm speaking tonight to convey my support for the willard sherwood center. Our community has been blessed with great mayors and council members. I want to applaud two of our"
   },
   {
     "speaker": "Unknown Speaker",
@@ -202,62 +292,80 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 1465.448,
-    "end": 1504.285,
-    "text": "for what you get, and myself and the citizens that I've spoken with are aware of the costs and they want the council to move forward and have the planned willard sherwood health and community center come to fruition. Please make this happen with your vote. Again, thank you. >> our next speaker is jane kelsey. >> good evening."
+    "end": 1480.228,
+    "text": "for what you get, and myself and the citizens that I've spoken with are aware of the costs and they want the council to move forward and have the planned willard sherwood health and community center come to fruition. Please make this happen with your vote."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1506.789,
-    "end": 1539.186,
-    "text": "I live at 4041 autumn court, fairfax city, virginia, in the autumnwood subdivision and I'm here to ask you to support the new community and health center. When I first heard that there was some opposition to this proposal, I was very upset, and I still am. Because I'll tell you the personal reason, but I think it also should be something that the entire city would be"
+    "start": 1482.731,
+    "end": 1485.133,
+    "text": "Again, thank you. our next speaker is jane"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1539.488,
-    "end": 1569.651,
-    "text": "concerned about. I stopped going to pilates class because of the floors were so dirty, it was difficult if not impossible to clean them with the wipes that the city provided. And the reason for that is because the night before, that gym was used to play basketball with all these little feet running around and the tennis shoes. How could it not be dirty? And there was no time afterwards because I guess the cleaning people had gone home."
+    "start": 1502.84,
+    "end": 1534.548,
+    "text": "kelsey. good evening. I live at 4041 autumn court, fairfax city, virginia, in the autumnwood subdivision and I'm here to ask you to support the new community and health center. When I first heard that there was some opposition to this proposal, I was very upset, and I still am. Because I'll tell you the personal reason, but I think it"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1571.487,
-    "end": 1604.184,
-    "text": "Or before the classes began the next day, of which ours was I believe at 10:00, it wasn't the first one. One to clean those floors. So I had a seriously ill husband at home and I needed to not bring any more germs into the home, because he would even get sicker. Space was another reason. The pilates class was scheduled at 10, the next class at 11. There was no time, not even five"
+    "start": 1534.717,
+    "end": 1566.881,
+    "text": "also should be something that the entire city would be concerned about. I stopped going to pilates class because of the floors were so dirty, it was difficult if not impossible to clean them with the wipes that the city provided. And the reason for that is because the night before, that gym was used to play basketball with all these little feet running around and the tennis shoes. How could it not be dirty? And there was no time afterwards"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1604.253,
-    "end": 1636.985,
-    "text": "minutes, for us to remove our mats, put them in place, and then the next class coming in for chair exercises. So the instructor had to keep to schedule, so she started the classes before we were even out and the next class in. I just feel that fairfax city needs something better than green acres. I think it is a disgrace to our beautiful city to have a dilapidated building such as it is for our older citizens primarily and other people who"
+    "start": 1567.216,
+    "end": 1597.479,
+    "text": "because I guess the cleaning people had gone home. Or before the classes began the next day, of which ours was I believe at 10:00, it wasn't the first one. One to clean those floors. So I had a seriously ill husband at home and I needed to not bring any more germs into the home, because he would even get sicker. Space was another reason. The pilates class was scheduled"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1638.487,
-    "end": 1669.416,
-    "text": "might wish to use it, who could use it. That is why I think and I hope that you will support it. The project, I know, concerns the health of which is a good issue to have in conjunction with the community center. I believe I'm running out of time, so I will just ask you to support this very needed community center, thank you. our next speaker is sandra"
+    "start": 1599.48,
+    "end": 1631.845,
+    "text": "at 10, the next class at 11. There was no time, not even five minutes, for us to remove our mats, put them in place, and then the next class coming in for chair exercises. So the instructor had to keep to schedule, so she started the classes before we were even out and the next class in. I just feel that fairfax city needs something better than green acres. I think it is a disgrace to our beautiful city to have a"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1672.121,
-    "end": 1703.852,
-    "text": "slap pickett. Sandra slapy. >> good evening. I'm sandy slapy-brown and the clerk has my address. I'm also here about the willard sherwood center and I'm concerned about the uncertainty around the APRIL 28th vote. Continued uncertainty isn't good for our city. While I wholeheartedly support this project, I understand that others have continuing questions and concerns, and I'd like to better understand them in the hopes that we can find a path forward that we can all agree on. One of the biggest questions I"
+    "start": 1631.881,
+    "end": 1663.511,
+    "text": "dilapidated building such as it is for our older citizens primarily and other people who might wish to use it, who could use it. That is why I think and I hope that you will support it. The project, I know, concerns the health of which is a good issue to have in conjunction with the community center. I believe I'm running out of time, so I will just ask you to support this very needed"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1704.388,
-    "end": 1734.516,
-    "text": "have for those who are considering terminating the project is what alternatives are being considered. The information I've heard from city staff tells me that the possible alternatives are more expensive, less environmentally sound, and less aligned with our transit goals. Green acres is nearing the end of its life cycle as we've just been hearing. If we don't proceed with the willard sherwood construction contract on APRIL 28th, are we accepting that the city will no longer offer a seniors center, a rec center, the main street"
+    "start": 1665.314,
+    "end": 1667.314,
+    "text": "community center, thank you."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1736.52,
-    "end": 1767.183,
-    "text": "child care center, and a health clinic? City residents would have to travel farther away into fairfax county to receive those services. And that doesn't align with our commitment to equitable service delivery. I'm not sure what the viable options are and I'm wondering if there's options I'm not aware of. I also understand that finances are an area of concern, and I get that. Everything is costing more than it used to. I believe in making financially fiscally responsible decisions for our long-term vision of the city. And I understand there are many factors to weigh in doing that."
+    "start": 1667.416,
+    "end": 1673.556,
+    "text": "our next speaker is sandra slap pickett. Sandra"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 1767.717,
+    "start": 1676.693,
+    "end": 1706.888,
+    "text": "slapy. good evening. I'm sandy slapy-brown and the clerk has my address. I'm also here about the willard sherwood center and I'm concerned about the uncertainty around the APRIL 28th vote. Continued uncertainty isn't good for our city. While I wholeheartedly support this project, I understand that others have continuing questions and concerns, and I'd like to better understand them in the hopes that we can find a path forward that we can all agree on. One of the biggest questions I have for those who are considering terminating the"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 1707.356,
+    "end": 1738.987,
+    "text": "project is what alternatives are being considered. The information I've heard from city staff tells me that the possible alternatives are more expensive, less environmentally sound, and less aligned with our transit goals. Green acres is nearing the end of its life cycle as we've just been hearing. If we don't proceed with the willard sherwood construction contract on APRIL 28th, are we accepting that the city will no longer offer a seniors center, a rec center, the main street child care center, and a health clinic? City residents would have to"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 1739.321,
+    "end": 1769.717,
+    "text": "travel farther away into fairfax county to receive those services. And that doesn't align with our commitment to equitable service delivery. I'm not sure what the viable options are and I'm wondering if there's options I'm not aware of. I also understand that finances are an area of concern, and I get that. Everything is costing more than it used to. I believe in making financially fiscally responsible decisions for our long-term vision of the city. And I understand there are many factors to weigh in doing that. I'm concerned that if we don't"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 1770.119,
     "end": 1801.816,
-    "text": "I'm concerned that if we don't move forward on APRIL 28th, whatever option we do choose will cost us more, unless we choose to move the services out of the city, but I dont think that's what the people want. So how do we ensure fiscal responsibility and managing construction and operating costs in a way that keeps us moving forward? We've heard there are concerns that people have not been educated adequately about the process. And I understand how challenging it is to communicate with thousands of city residents. Is there a path forward that includes better education of our residents? Reviewing the city's"
+    "text": "move forward on APRIL 28th, whatever option we do choose will cost us more, unless we choose to move the services out of the city, but I dont think that's what the people want. So how do we ensure fiscal responsibility and managing construction and operating costs in a way that keeps us moving forward? We've heard there are concerns that people have not been educated adequately about the process. And I understand how challenging it is to communicate with thousands of city residents. Is there a path forward that includes better education of our residents? Reviewing the city's"
   },
   {
     "speaker": "Unknown Speaker",
@@ -268,8 +376,14 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 1834.65,
+    "end": 1850.699,
+    "text": "\"yes\". Yes to moving forward with a health and recreation center that is built and managed responsibly to provide vital services to our city residents in the heart of our city. And that is the legacy that we want to have with the vote. Thank you."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 1862.678,
     "end": 1864.678,
-    "text": "\"yes\". Yes to moving forward with a health and recreation center that is built and managed responsibly to provide vital services to our city residents in the heart of our city. And that is the legacy that we want to have with the vote. Thank you. our next speaker is doug cox."
+    "text": "our next speaker is doug cox."
   },
   {
     "speaker": "Unknown Speaker",
@@ -304,218 +418,284 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 2033.416,
-    "end": 2066.68,
-    "text": "contributor was fairfax city democrat. Number two was mayor read. Number four, mayor read. Number 10, mayor read's husband. Conflict of interest. Stop it. our next speaker is rebecca rager. >> good evening. I'm becky,I lived for 31 years"
+    "end": 2045.427,
+    "text": "contributor was fairfax city democrat. Number two was mayor read. Number four, mayor read. Number 10, mayor read's husband. Conflict of interest. Stop it."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2068.551,
-    "end": 2098.68,
-    "text": "at 4141 evergreen drive in the city. I was on the members at large fairfax in the city advisory both board also. I'm here .First, let me say I understand your concerns. There's a tax impact, a major driver of the real estate tax increase is the willard sherwood center and that affects me directly. Will overspending on this project affect other major projects including the property"
+    "start": 2048.64,
+    "end": 2050.64,
+    "text": "our next speaker is rebecca"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2099.882,
-    "end": 2133.315,
-    "text": "yard redevelopment and the fire station 3? Is this project an overreach? Is fairfax city taking on a big-city debt for a small city footprint. Do we have that problem? In spite of those concerns, I believe we must look to and invest in the future. As everyone said, willard sherwood will replace the aging green acres that was built in 1961, and the willard health center built in 1954. I, myself, took a class at green acres and it was raining"
+    "start": 2058.741,
+    "end": 2089.37,
+    "text": "rager. good evening. I'm becky,I lived for 31 years at 4141 evergreen drive in the city. I was on the members at large fairfax in the city advisory both board also. I'm here .First, let me say I understand your concerns. There's a tax impact, a major driver of the real estate tax"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2133.315,
-    "end": 2166.281,
-    "text": "outside. I fell flat in the class because the tiles in the gymnasium were so sticky that my feet stuck to the floor. In addition, the health center has already relocated. Patching these facilities, I believe, would be a sunk cost and that cost would continually increase as the years go by. I do believe that the new project could be successfully managed to budget."
+    "start": 2089.905,
+    "end": 2120.367,
+    "text": "increase is the willard sherwood center and that affects me directly. Will overspending on this project affect other major projects including the property yard redevelopment and the fire station 3? Is this project an overreach? Is fairfax city taking on a big-city debt for a small city footprint. Do we have that problem? In spite of those concerns, I believe we must look to and invest in the future. As everyone said, willard"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2167.17,
-    "end": 2200.882,
-    "text": "I also understand that the city relies on the county for a number of services and not doing a joint project that has been planned for many years MAY irrepably damage the city's relationship with the county. I won't repeat all the benefits of a consolidated services and energy savings, you've heard that umpteen times in the past. What I will say is I believe the cost of a new facility with all the enhancements it provides is"
+    "start": 2120.669,
+    "end": 2151.265,
+    "text": "sherwood will replace the aging green acres that was built in 1961, and the willard health center built in 1954. I, myself, took a class at green acres and it was raining outside. I fell flat in the class because the tiles in the gymnasium were so sticky that my feet stuck to the floor. In addition, the health center has already relocated."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2202.284,
-    "end": 2233.348,
-    "text": "a necessary burden to move on from aging infrastructure and invest in providing modern, equitable services for the entire community. Voting in favor of this project could be your lasting legacy to the city of fairfax. Thank you. our next speaker is rusty russell. >> good evening."
+    "start": 2152.902,
+    "end": 2185.265,
+    "text": "Patching these facilities, I believe, would be a sunk cost and that cost would continually increase as the years go by. I do believe that the new project could be successfully managed to budget. I also understand that the city relies on the county for a number of services and not doing a joint project that has been planned for many years MAY irrepably damage the city's relationship with the county."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2234.84,
-    "end": 2268.283,
-    "text": "I'm rusty russell. Tonight I'm speaking to you as a member, as a resident of the city of fairfax, a place where my wife and I have chosen to spend our retirement. And I'm speaking in support of the planned willard sherwood community center, a collaborative project between the city and the county of fairfax. I want to highlight why the replacement of the aging green acres facility is not only a long overdue investment in our residents of all ages but also in an environmentally superior replacement for a building that has reached the end of its life. Our current facility was never"
+    "start": 2186.135,
+    "end": 2219.734,
+    "text": "I won't repeat all the benefits of a consolidated services and energy savings, you've heard that umpteen times in the past. What I will say is I believe the cost of a new facility with all the enhancements it provides is a necessary burden to move on from aging infrastructure and invest in providing modern, equitable services for the entire community. Voting in favor of this project could be your lasting legacy to the city of fairfax. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2269.486,
-    "end": 2300.482,
-    "text": "designed to serve as a modern community center. Its reliance on fossil fuels, outdated mechanical systems that waste energy and drive up operating costs. Year after year. And its plumbing which is prone to leaks and inefficiencies all limit the renovation options, increase maintenance costs, and pose long-term health and liability concerns. And the site has no stormwater management features whatsoever. Meaning every rain drop that comes down on that property will"
+    "start": 2219.969,
+    "end": 2221.969,
+    "text": "our next speaker is rusty"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2301.83,
-    "end": 2334.81,
-    "text": "run off into our local waterways. In contrast, the proposed willard sherwood community center represents a generational step forward. It will be the first leed gold certified resiliency hub for the city of fairfax that will provide trusted community facility that is specifically designed to support residents, build cohesion and coordinate resource distribution during weather events. A major achievement that reflects both environmental leadership and practical preparedness."
+    "start": 2231.647,
+    "end": 2262.609,
+    "text": "russell. good evening. I'm rusty russell. Tonight I'm speaking to you as a member, as a resident of the city of fairfax, a place where my wife and I have chosen to spend our retirement. And I'm speaking in support of the planned willard sherwood community center, a collaborative project between the city and the county of fairfax. I want to highlight why the replacement of the aging green acres facility is not only a long overdue investment in our residents of all ages but also"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2334.85,
-    "end": 2365.48,
-    "text": "The willard sherwood community center provides a high-performance building envelope. All electric systems that will reduce energy costs and eliminate our current dependence on fossil fuels. This means lower operating costs for decades and a smaller carbon footprint on day one. Stormwater controls include bioretention, permeable surfaces, green infrastructure, solar-ready design and backup power that allow this building to function as a true resiliency hub."
+    "start": 2262.678,
+    "end": 2295.877,
+    "text": "in an environmentally superior replacement for a building that has reached the end of its life. Our current facility was never designed to serve as a modern community center. Its reliance on fossil fuels, outdated mechanical systems that waste energy and drive up operating costs. Year after year. And its plumbing which is prone to leaks and inefficiencies all limit the renovation options, increase maintenance costs, and pose long-term health and liability concerns. And the site has no stormwater management features whatsoever."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2367.249,
-    "end": 2399.114,
-    "text": "Efficient lighting, hvac, and water systems reduce long-term utility costs and free funds for programming rather than repairs. Green acres does not meet these standards, not structurally, not environmentally, and not safely. These are our community expectations in the 21st century. Green acres does not meet these standards. The proposed willard sherwood community center is a commitment to environmental stewardship, public health, and fiscal responsibility. I urge you to support this"
+    "start": 2296.312,
+    "end": 2328.176,
+    "text": "Meaning every rain drop that comes down on that property will run off into our local waterways. In contrast, the proposed willard sherwood community center represents a generational step forward. It will be the first leed gold certified resiliency hub for the city of fairfax that will provide trusted community facility that is specifically designed to support residents, build cohesion and coordinate resource distribution during weather events."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2399.448,
-    "end": 2431.45,
-    "text": "investment in our city's future, thank you. our next speaker is jennifer rose. >> good evening, mayor and members of council, jennifer rose, executive director of the central fairfax chamber of commerce. I'm here to express the chamber's support for the willard sherwood community center project. Not just as a community amenity but as a strategic investment in"
+    "start": 2329.11,
+    "end": 2360.141,
+    "text": "A major achievement that reflects both environmental leadership and practical preparedness. The willard sherwood community center provides a high-performance building envelope. All electric systems that will reduce energy costs and eliminate our current dependence on fossil fuels. This means lower operating costs for decades and a smaller carbon footprint on day one. Stormwater controls include bioretention, permeable surfaces, green infrastructure,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2431.58,
-    "end": 2462.976,
-    "text": "fairfax's long-term economic strength. From a business perspective, this project is about workforce competitiveness and stability. Today employers are not just competing on salaries. They are competing on quality of place. Families choose communities where they can access youth programming, wellness opportunities, and services that support daily life. When those supports exist, workforce participation increases. When they don't, businesses feel"
+    "start": 2360.81,
+    "end": 2394.7,
+    "text": "solar-ready design and backup power that allow this building to function as a true resiliency hub. Efficient lighting, hvac, and water systems reduce long-term utility costs and free funds for programming rather than repairs. Green acres does not meet these standards, not structurally, not environmentally, and not safely. These are our community expectations in the 21st century. Green acres does not meet these standards. The proposed willard sherwood community center is a commitment"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2463.145,
-    "end": 2496.345,
-    "text": "the impact through absenteeism, turnover, and difficulty attracting talent. This project helps address that. It also drives economic activity. Community centers generate foot traffic, bring families into the commercial corridors and create opportunities for local businesses from restaurants to service providers to benefit from increased visitation. We had the concern raised about operating costs. It it is a very valid concern. We evaluate ongoing costs"
+    "start": 2394.177,
+    "end": 2403.885,
+    "text": "to environmental stewardship, public health, and fiscal responsibility. I urge you to support this investment in our city's future, thank you."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2497.246,
-    "end": 2528.778,
-    "text": "carefully, but we also evaluate return on investment. With transparent financial planning, diversified revenue streams such as program fees, rentals, and sponsorships, all things that have been proposed, clear performance accountability, this facility can be operated in a fiscally responsible way. we encourage the city to put those guardrails in place, multi-year projections, annual reporting, periodic review. That is sound governance. But operating costs alone should not prevent us from making strategic investments that"
+    "start": 2407.79,
+    "end": 2409.79,
+    "text": "our next speaker is jennifer"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2528.778,
-    "end": 2559.474,
-    "text": "strengthen our community and economy. There is also a broader issue to consider, one that extends beyond this project. This is a partnership with fairfax county and in both business and government, reputation matters. Being seen as a reliable partner, one that follows through on commitments, is an asset. It affects future collaboration, cost-sharing opportunities, and is how both regional partners and businesses perceive fairfax as a place to invest. Reversing course at this stage"
+    "start": 2412.495,
+    "end": 2442.791,
+    "text": "rose. good evening, mayor and members of council, jennifer rose, executive director of the central fairfax chamber of commerce. I'm here to express the chamber's support for the willard sherwood community center project. Not just as a community amenity but as a strategic investment in fairfax's long-term economic strength. From a business perspective, this project is about workforce competitiveness and stability. Today employers are not just competing on salaries."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2563.946,
-    "end": 2596.244,
-    "text": "could have ripple effects beyond this single decision. They are not competing priorities, they are both essential to a strong, stable economic environment. Fairfax is competing within a dynamic region. Communities that invest thoughtfully in quality of life infrastructure and that demonstrate consistent, reliable leadership are the ones that succeed. We encourage you to move forward with this project and with the appropriate financial safeguards in place. Thank you for your time and leadership. >> our last speaker under this"
+    "start": 2445.261,
+    "end": 2476.858,
+    "text": "They are competing on quality of place. Families choose communities where they can access youth programming, wellness opportunities, and services that support daily life. When those supports exist, workforce participation increases. When they don't, businesses feel the impact through absenteeism, turnover, and difficulty attracting talent. This project helps address that. It also drives economic activity. Community centers generate foot traffic, bring families into the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2599.982,
-    "end": 2631.145,
-    "text": "agenda item is john cho. good evening, I'm john cho, 3421 preservation drive, the community of picketts reserve. On behalf of the PRESIDENT Of our hoa members, I'm delivering a simple message and that is a thank you. Thank you for your leadership and thank you for prioritizing safety. About a month ago, we had two council members not in my community but in the community right across the street at sutton heights, and we also"
+    "start": 2477.293,
+    "end": 2510.25,
+    "text": "commercial corridors and create opportunities for local businesses from restaurants to service providers to benefit from increased visitation. We had the concern raised about operating costs. It it is a very valid concern. We evaluate ongoing costs carefully, but we also evaluate return on investment. With transparent financial planning, diversified revenue streams such as program fees, rentals, and sponsorships, all things that have been proposed, clear performance"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2632.748,
-    "end": 2663.477,
-    "text": "received some information from barrister's keep across the street very interested in ensuring that picketts road is safe for children, for anyone walking. We understand that soon-to-be softball park will be down below and that there is some changes afoot with a refinery. But we know that through unanimous vote that you decided and three is a charm to proceed with reaching out to the county and hopefully will get the $80,000 for this regional study."
+    "start": 2510.259,
+    "end": 2540.855,
+    "text": "accountability, this facility can be operated in a fiscally responsible way. we encourage the city to put those guardrails in place, multi-year projections, annual reporting, periodic review. That is sound governance. But operating costs alone should not prevent us from making strategic investments that strengthen our community and economy. There is also a broader issue to consider, one that extends beyond this project. This is a partnership with fairfax county and in both business and government,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2663.813,
-    "end": 2697.146,
-    "text": "I do ask and we've discussed this as a community to consider something -- as a cardiac surgeon, we often say to measure twice and cut once. And that if you're able to get the money in fiscal year '27, that it be done early in the year if the study is completed and that you do consider a moratorium on any development or any changes in that refinery until that study is completed and the changes required are taken care of before any development or further development or transition at"
+    "start": 2540.923,
+    "end": 2572.419,
+    "text": "reputation matters. Being seen as a reliable partner, one that follows through on commitments, is an asset. It affects future collaboration, cost-sharing opportunities, and is how both regional partners and businesses perceive fairfax as a place to invest. Reversing course at this stage could have ripple effects beyond this single decision. They are not competing priorities, they are both"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2697.246,
-    "end": 2727.442,
-    "text": "that refinery occurs. Thanks for your consideration. Thanks again for your leadership, great job. we can move to the consent agenda. >> all right, the question on the consent agenda. Are there any questions on any of the items on the consent agenda? Looking to the left, looking to the right. Are there any items council would like pulled from the consent agenda? Okay, is there a motion to"
+    "start": 2573.456,
+    "end": 2591.841,
+    "text": "essential to a strong, stable economic environment. Fairfax is competing within a dynamic region. Communities that invest thoughtfully in quality of life infrastructure and that demonstrate consistent, reliable leadership are the ones that succeed. We encourage you to move forward with this project and with the appropriate financial safeguards in place. Thank you for your time and"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2728.844,
-    "end": 2759.64,
-    "text": "approve the consent agenda? Council member hardy-chandler? I move to approve the consent agenda items 6 (A) Through (D) As presented and the accompanying staff reports. >> is there a second? second. >> a motion has been made by council member hardy-chandler and seconded by council member peterson. council member mcquillen. >> aye. >> council member bates. >> aye. council member peterson. >> aye. >> council member hardy-chandler. >> aye. council member hall. >> aye. >> council member amos. aye. >> motion passes unanimously. We will go on to public hearing. Our first public hearing is a"
+    "start": 2593.743,
+    "end": 2601.982,
+    "text": "leadership. our last speaker under this agenda item is john cho."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2759.942,
-    "end": 2791.538,
-    "text": "public hearing and consideration of an ordinance amending and reenacting chapter 38, article ii, of the code of the city of fairfax, virginia, pertaining to noise mitigation and the regulation of loud, disturbing, and unnecessary noises. i'm going to recognize our city attorney to provide the staff report. thank you, hello, mayor and council. This is the fifth time we've been chatting about the noise ordinance. And tonight is the scheduled"
+    "start": 2603.386,
+    "end": 2634.883,
+    "text": "good evening, I'm john cho, 3421 preservation drive, the community of picketts reserve. On behalf of the PRESIDENT Of our hoa members, I'm delivering a simple message and that is a thank you. Thank you for your leadership and thank you for prioritizing safety. About a month ago, we had two council members not in my community but in the community right across the street at sutton heights, and we also received some information from barrister's keep across the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2791.941,
-    "end": 2823.605,
-    "text": "public hearing on this item. And as you're aware in some conversations we've had, we've finally started receiving comments and suggestions from the public despite these many months passing. And so the recommendation this evening is going to be that we open the public hearing, we allow any folks that are here to testify. But that you continue the public hearing to MAY 12th after the budget, and we will come back with some changes and if we have any additional suggestions from the public, we will certainly do that as well."
+    "start": 2635.184,
+    "end": 2665.813,
+    "text": "street very interested in ensuring that picketts road is safe for children, for anyone walking. We understand that soon-to-be softball park will be down below and that there is some changes afoot with a refinery. But we know that through unanimous vote that you decided and three is a charm to proceed with reaching out to the county and hopefully will get the $80,000 for this regional study. I do ask and we've discussed"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2824.41,
-    "end": 2854.768,
-    "text": "So the second part is the written comments that we have received. They will all be made a part of the record to the extent that they're not incorporated and would again encourage members of the public who have an interest in this topic to please weigh in. There are ample opportunities to do so and the more comments that we receive, the better. So with that, just a brief staff report. We have presented this previously as well, but I'll go over some of the high points. Currently the city's noise regulations are spread both in the city code and in the city"
+    "start": 2668.351,
+    "end": 2699.514,
+    "text": "this as a community to consider something -- as a cardiac surgeon, we often say to measure twice and cut once. And that if you're able to get the money in fiscal year '27, that it be done early in the year if the study is completed and that you do consider a moratorium on any development or any changes in that refinery until that study is completed and the changes required are taken care of before any development or further development or transition at that refinery occurs. Thanks for your consideration."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2855.171,
-    "end": 2885.633,
-    "text": "zoning ordinance, and so one of the goals of this redo would be to consolidate as many of the regulations as possible into a single area within the city code. The noise regulations for the city were last updated in the case of the city code back in 2010 in response to a virginia supreme court case that essentially required many jurisdictions in virginia to modify their noise ordinances. The city zoning ordinance was updated in 2016, and that has primarily the performance"
+    "start": 2699.749,
+    "end": 2702.517,
+    "text": "Thanks again for your leadership, great job."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2886.168,
-    "end": 2917.164,
-    "text": "standards, the maximum permissible noise levels between boundaries, but again that will all be included within the city code. So what this is and what this isn't. And some of the comments seem to reflect a misconception that the noise ordinance, noise regulations, were being rewritten essentially to criminalize or create violations out of items that were not previous violations. And that simply is not the case. Some of the confusion MAY have been that we had elements in different areas, city zoning ordinance, city code."
+    "start": 2705.454,
+    "end": 2730.812,
+    "text": "we can move to the consent agenda. all right, the question on the consent agenda. Are there any questions on any of the items on the consent agenda? Looking to the left, looking to the right. Are there any items council would like pulled from the consent agenda? Okay, is there a motion to approve the consent agenda? Council member hardy-chandler?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2917.7,
-    "end": 2948.563,
-    "text": "But many of the activities for which there were concerns could potentially be issues under the current noise ordinance. And we can certainly get into that as we move forward in MAY in considering approving the revisions to the noise ordinance. What this also does, what this primarily does is to clarify authority over enforcement and administration. This would centralize enforcement of noise violations under the office of the city manager, the city manager's"
+    "start": 2731.914,
+    "end": 2734.549,
+    "text": "I move to approve the consent agenda items 6 (A) Through (D)"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2948.964,
-    "end": 2981.929,
-    "text": "office would work with city departments to implement procedures for proper enforcement. But at its heart, enforcement of noise regulations requires that city staff observe the violation. And we've talked about this before. Many noise issues are transitory. The backfiring muffler, the loud music, the fireworks, those types of events. So they are difficult to enforce. And so what this is is"
+    "start": 2736.952,
+    "end": 2739.555,
+    "text": "As presented and the accompanying staff reports. is there a second?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 2982.798,
-    "end": 3014.295,
-    "text": "attempting to put a structure in place for the most egregious violations, but understanding there's always going to be noise. We live in a suburban setting, as everyone knows, and there's a certain level of noise that everyone has to tolerate if you're going to live in a suburban setting. So there's some clarifications in here and I'll go down this as well. As we did in 2010, we're continuing to attempt to reduce the subjectivity of the noise regulations. So we used to have a reasonable person standard. That was what was struck down by"
+    "start": 2739.555,
+    "end": 2745.827,
+    "text": "second. a motion has been made by council member hardy-chandler and seconded by council member peterson."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3016.332,
-    "end": 3048.53,
-    "text": "the virginia supreme court in 2010. Most noise ordinances around the commonwealth said if a reasonable person would find this objectionable, it must be a violation, but as we all know, you ask ten people what's reasonable, you'll get ten different answers. And this has been the subject of a couple of comments that we've received. We've added a criminal section to the noise ordinance, and that's created some confusion. So a violation of noise regulations can be a class 3 misdemeanor which does not"
+    "start": 2746.162,
+    "end": 2748.73,
+    "text": "council member mcquillen. aye. council member bates. aye."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3049.65,
-    "end": 3080.562,
-    "text": "involve any imprisonment, but it can be a fine up to $500. But the revised noise ordinance goes on to say that there is also a civil component. And the preference and the default in most cases is going to be for civil penalties. That's a more reasonable way of dealing with it. Actually, the default is going to be to try to defuse the situation and get the offender to stop making the offending noise. Many times people don't realize the noises they're generating are in fact disturbing other individuals. And simply citing them and"
+    "start": 2748.998,
+    "end": 2751.834,
+    "text": "council member peterson. aye. council member hardy-chandler. aye."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3081.33,
-    "end": 3112.16,
-    "text": "creating issues is not the best solution. We're trying to encourage neighbors to get along with neighbors. There's also a reflection that most of us know that since the pandemic and since the advent of A.I. And the change of job situations, individuals, neighbors are home more. People are working from home. The days where people left to go to jobs almost invariably is changing. So the regulations need to reflect that. And we're attempting to do that as well."
+    "start": 2751.834,
+    "end": 2754.202,
+    "text": "council member hall. aye. council member amos."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3114.33,
-    "end": 3144.56,
-    "text": "we've added a more clear process for the city manager to waive under certain circumstances elements of the noise regulations. The example that came up most recently is there were several complaints about individuals that were blowing snow at odd hours during the -- I don't know what we're calling it, snowmaggedon. That might call for a waiver under certain circumstances. In light of the additional"
+    "start": 2754.202,
+    "end": 2780.528,
+    "text": "aye. motion passes unanimously. We will go on to public hearing. Our first public hearing is a public hearing and consideration of an ordinance amending and reenacting chapter 38, article ii, of the code of the city of fairfax, virginia, pertaining to noise mitigation and the regulation of loud, disturbing, and unnecessary noises. i'm going to recognize our city attorney to provide the staff report."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3144.56,
-    "end": 3176.558,
-    "text": "comments we received before we come back in MAY, we MAY expand or suggest the expansion of the city manager's authority for waiver for certain longer term activities. Again, subject to guardrails. But we'll talk a little more about that as we get into MAY. We've updated the maximum permissible sound levels in the various zoning districts. Another misconception was that this was new. No, the noise regulations have always had maximum permissible sound levels. These are the sounds that go between various zoning districts."
+    "start": 2781.33,
+    "end": 2812.893,
+    "text": "thank you, hello, mayor and council. This is the fifth time we've been chatting about the noise ordinance. And tonight is the scheduled public hearing on this item. And as you're aware in some conversations we've had, we've finally started receiving comments and suggestions from the public despite these many months passing. And so the recommendation this evening is going to be that we open the public hearing, we allow any folks that are here to testify. But that you continue the public"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3177.493,
+    "start": 2813.61,
+    "end": 2844.125,
+    "text": "hearing to MAY 12th after the budget, and we will come back with some changes and if we have any additional suggestions from the public, we will certainly do that as well. So the second part is the written comments that we have received. They will all be made a part of the record to the extent that they're not incorporated and would again encourage members of the public who have an interest in this topic to please weigh in. There are ample opportunities to do so and the more comments that we receive, the better. So with that, just a brief staff report. We have presented this"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 2845.227,
+    "end": 2876.891,
+    "text": "previously as well, but I'll go over some of the high points. Currently the city's noise regulations are spread both in the city code and in the city zoning ordinance, and so one of the goals of this redo would be to consolidate as many of the regulations as possible into a single area within the city code. The noise regulations for the city were last updated in the case of the city code back in 2010 in response to a virginia supreme court case that essentially required many jurisdictions in virginia to"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 2877.426,
+    "end": 2909.357,
+    "text": "modify their noise ordinances. The city zoning ordinance was updated in 2016, and that has primarily the performance standards, the maximum permissible noise levels between boundaries, but again that will all be included within the city code. So what this is and what this isn't. And some of the comments seem to reflect a misconception that the noise ordinance, noise regulations, were being rewritten essentially to criminalize or create violations out of items that were not previous violations. And that simply is not the case."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 2909.892,
+    "end": 2942.656,
+    "text": "Some of the confusion MAY have been that we had elements in different areas, city zoning ordinance, city code. But many of the activities for which there were concerns could potentially be issues under the current noise ordinance. And we can certainly get into that as we move forward in MAY in considering approving the revisions to the noise ordinance. What this also does, what this primarily does is to clarify authority over enforcement and administration. This would centralize"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 2942.958,
+    "end": 2975.59,
+    "text": "enforcement of noise violations under the office of the city manager, the city manager's office would work with city departments to implement procedures for proper enforcement. But at its heart, enforcement of noise regulations requires that city staff observe the violation. And we've talked about this before. Many noise issues are transitory. The backfiring muffler, the loud music, the fireworks, those types of events. So they are difficult to enforce."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 2979.929,
+    "end": 3012.28,
+    "text": "And so what this is is attempting to put a structure in place for the most egregious violations, but understanding there's always going to be noise. We live in a suburban setting, as everyone knows, and there's a certain level of noise that everyone has to tolerate if you're going to live in a suburban setting. So there's some clarifications in here and I'll go down this as well. As we did in 2010, we're continuing to attempt to reduce the subjectivity of the noise regulations. So we used to have a reasonable"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 3012.28,
+    "end": 3045.61,
+    "text": "person standard. That was what was struck down by the virginia supreme court in 2010. Most noise ordinances around the commonwealth said if a reasonable person would find this objectionable, it must be a violation, but as we all know, you ask ten people what's reasonable, you'll get ten different answers. And this has been the subject of a couple of comments that we've received. We've added a criminal section to the noise ordinance, and that's created some confusion. So a violation of noise"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 3046.496,
+    "end": 3078.394,
+    "text": "regulations can be a class 3 misdemeanor which does not involve any imprisonment, but it can be a fine up to $500. But the revised noise ordinance goes on to say that there is also a civil component. And the preference and the default in most cases is going to be for civil penalties. That's a more reasonable way of dealing with it. Actually, the default is going to be to try to defuse the situation and get the offender to stop making the offending noise. Many times people don't realize the noises they're generating are in fact disturbing other"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 3078.394,
+    "end": 3110.324,
+    "text": "individuals. And simply citing them and creating issues is not the best solution. We're trying to encourage neighbors to get along with neighbors. There's also a reflection that most of us know that since the pandemic and since the advent of A.I. And the change of job situations, individuals, neighbors are home more. People are working from home. The days where people left to go to jobs almost invariably is changing. So the regulations need to reflect that."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 3110.826,
+    "end": 3141.956,
+    "text": "And we're attempting to do that as well. we've added a more clear process for the city manager to waive under certain circumstances elements of the noise regulations. The example that came up most recently is there were several complaints about individuals that were blowing snow at odd hours during the -- I don't know what we're calling it, snowmaggedon. That might call for a waiver"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 3142.358,
+    "end": 3173.254,
+    "text": "under certain circumstances. In light of the additional comments we received before we come back in MAY, we MAY expand or suggest the expansion of the city manager's authority for waiver for certain longer term activities. Again, subject to guardrails. But we'll talk a little more about that as we get into MAY. We've updated the maximum permissible sound levels in the various zoning districts. Another misconception was that this was new. No, the noise regulations have always had maximum permissible sound levels."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 3174.123,
     "end": 3207.956,
-    "text": "This just clarifies that we have bifurcated it into what the acceptable noise levels are daytime versus nighttime and we define daytime and nighttime in the proposed revisions. Animal noise, this is always one that causes trouble. The decision that we made was essentially to make it reflect what the situation is in fairfax county. So to have a different level of noise depending on the time of the day and also provide some clarity regarding the most common animal complaint, and as you can imagine, it's not"
+    "text": "These are the sounds that go between various zoning districts. This just clarifies that we have bifurcated it into what the acceptable noise levels are daytime versus nighttime and we define daytime and nighttime in the proposed revisions. Animal noise, this is always one that causes trouble. The decision that we made was essentially to make it reflect what the situation is in fairfax county. So to have a different level of noise depending on the time of the day and also provide some clarity regarding the most common animal complaint, and as you can imagine, it's not"
   },
   {
     "speaker": "Unknown Speaker",
@@ -538,32 +718,50 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 3307.323,
-    "end": 3341.88,
-    "text": "So we will probably be suggesting somewhat of a delayed effective date so that we can provide effective communication to residences and businesses as to what the changes might be. But more importantly, just remind people what the current obligations are. That this isn't a huge change, it's just a clarification and a way to move forward. With that, happy to answer any questions. >> questions on this? Council member peterson. >> just to build on the last point on the education component of it. What is the thinking and"
+    "end": 3326.107,
+    "text": "So we will probably be suggesting somewhat of a delayed effective date so that we can provide effective communication to residences and businesses as to what the changes might be. But more importantly, just remind people what the current obligations are. That this isn't a huge change, it's just a clarification and a way to move forward. With that, happy to answer any"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3341.357,
-    "end": 3374.54,
-    "text": "planning around continuing and perhaps even enhancing the education underway between now and the time we taking as on take action on this? we received -- so the recent comments received, we received at least one from a homeowner's situation. We received comments from at least one of the community pools. And so one of the things that I've been contemplating doing is reaching out perhaps to the hoas and reaching out to the pools"
+    "start": 3328.78,
+    "end": 3330.478,
+    "text": "questions. questions on this?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3375.124,
-    "end": 3405.2,
-    "text": "and some of the athletic users. Well, two-fold. Clarify that many of the activities that are currently happening, and this goes to the enforcement and the sort of ability to have waivers, some of the activities that occur on a daily basis are technically violations under the current noise ordinance, but we choose not to enforce them or there aren't any complaints. This is complaint driven. We don't go around the city looking for noise violations. We don't have the staff to do that."
+    "start": 3331.113,
+    "end": 3353.268,
+    "text": "Council member peterson. just to build on the last point on the education component of it. What is the thinking and planning around continuing and perhaps even enhancing the education underway between now and the time we taking as on take action on this?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3407.723,
-    "end": 3438.386,
-    "text": "As I've mentioned many times, we have one zoning inspector for the entirety of the city. And due respect, although noise is important, the health and safety violations and the zoning violations are much more important to deal with than noise violations. So not actively enforcing, but we also want to make sure that we're not just looking the other way on violations. That we have a process for businesses or pools or others that have sort of regular activities that might technically be a violation to perhaps have a permit or"
+    "start": 3353.703,
+    "end": 3387.702,
+    "text": "we received -- so the recent comments received, we received at least one from a homeowner's situation. We received comments from at least one of the community pools. And so one of the things that I've been contemplating doing is reaching out perhaps to the hoas and reaching out to the pools and some of the athletic users. Well, two-fold. Clarify that many of the activities that are currently happening, and this goes to the enforcement and the sort of ability to have waivers, some of"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3439.422,
+    "start": 3390.339,
+    "end": 3420.801,
+    "text": "the activities that occur on a daily basis are technically violations under the current noise ordinance, but we choose not to enforce them or there aren't any complaints. This is complaint driven. We don't go around the city looking for noise violations. We don't have the staff to do that. As I've mentioned many times, we have one zoning inspector for the entirety of the city. And due respect, although noise is important, the health and safety violations and the zoning violations are much more important to deal with than"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 3420.87,
+    "end": 3444.25,
+    "text": "noise violations. So not actively enforcing, but we also want to make sure that we're not just looking the other way on violations. That we have a process for businesses or pools or others that have sort of regular activities that might technically be a violation to perhaps have a permit or something in place to allow them to operate legally. And I'm using air quotes around that."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 3445.661,
+    "end": 3467.282,
+    "text": "I would strongly support that. I think that being proactive and being systematic with the hosts, with the recreation facilities is important. And for you in particular to be involved in that to answer what are some pretty complicated and potentially confusing issues I think would be really, really helpful."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 3468.351,
     "end": 3470.786,
-    "text": "something in place to allow them to operate legally. And I'm using air quotes around that. I would strongly support that. I think that being proactive and being systematic with the hosts, with the recreation facilities is important. And for you in particular to be involved in that to answer what are some pretty complicated and potentially confusing issues I think would be really, really helpful. any other questions? council member hall."
+    "text": "any other questions? council member hall."
   },
   {
     "speaker": "Unknown Speaker",
@@ -580,32 +778,56 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 3539.388,
-    "end": 3570.551,
-    "text": "going. So we're not going to be able to get all of the things in here. But people should be able to enjoy their homes at most times of the day. >> and that's a good point. and the one thing I neglected to mention in the report was it's also important for everyone to understand, we do not have a huge noise problem in the city of fairfax. We really don't. I mean, we have a number of complaints that come into the police department and I also forget to mention we have folks here from the police department if there are any questions, but"
+    "end": 3548.83,
+    "text": "going. So we're not going to be able to get all of the things in here. But people should be able to enjoy their homes at most times"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3570.853,
-    "end": 3601.782,
-    "text": "compared to many jurisdictions, my personal view and I've actually looked at some of the other jurisdictions, we don't have a huge problem. What we do have are a few situations where there's repeat violations. And we attempt to deal with those as much as possible. But overall, I think most people agree we do not have a big noise problem in the city. So again, this is designed to deal with the worst offenders, designed to give folks guidelines. It is not designed to eliminate all noise. That's just an unreasonable"
+    "start": 3549.165,
+    "end": 3579.96,
+    "text": "of the day. and that's a good point. and the one thing I neglected to mention in the report was it's also important for everyone to understand, we do not have a huge noise problem in the city of fairfax. We really don't. I mean, we have a number of complaints that come into the police department and I also forget to mention we have folks here from the police department if there are any questions, but compared to many jurisdictions, my personal view and I've actually looked at some of the other jurisdictions, we don't have a huge problem. What we do have are a few"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3603.819,
-    "end": 3636.251,
-    "text": "expectation and an unreasonable standard. council member peterson. just to follow up. When you contemplated outreach to the hoas and pools and recreation associations, I had understood you were suggesting that in terms of a before the fact effort, before we take action. Am I correct with that? >> that's what you and I were talking about and what council member hall reinforced. Actually, I think we sort of"
+    "start": 3580.62,
+    "end": 3605.254,
+    "text": "situations where there's repeat violations. And we attempt to deal with those as much as possible. But overall, I think most people agree we do not have a big noise problem in the city. So again, this is designed to deal with the worst offenders, designed to give folks guidelines. It is not designed to eliminate all noise. That's just an unreasonable expectation and an unreasonable standard."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3636.552,
+    "start": 3607.39,
+    "end": 3609.39,
+    "text": "council member peterson."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 3609.492,
+    "end": 3625.974,
+    "text": "just to follow up. When you contemplated outreach to the hoas and pools and recreation associations, I had understood you were suggesting that in terms of a before the fact effort, before we take action."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 3626.275,
+    "end": 3638.552,
+    "text": "Am I correct with that? that's what you and I were talking about and what council member hall reinforced. Actually, I think we sort of envisioned a two-step."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 3642.591,
+    "end": 3652.5,
+    "text": "do some before and after it's enacted. fantastic. any other questions? Okay, I will ask -- I will open the public hearing. MS."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 3654.236,
     "end": 3667.148,
-    "text": "envisioned a two-step. do some before and after it's enacted. >> fantastic. >> any other questions? Okay, I will ask -- I will open the public hearing. MS. I have five people sign up prior to the start of the meeting tonight and I will call those five speakers up and if there's anybody else in the room who'd like to speak, come forward. First speaker will be sheri"
+    "text": "I have five people sign up prior to the start of the meeting tonight and I will call those five speakers up and if there's anybody else in the room who'd like to speak, come forward. First speaker will be sheri"
   },
   {
     "speaker": "Unknown Speaker",
     "start": 3672.221,
     "end": 3704.151,
-    "text": "defronzo. >> good evening, honorable mayor, members of the city council. My name is sheri and I reside at sutton heights circle in fairfax. I'm here this evening as a representative of the sutton heights community to again endorse the approval of the ordinance to amend chapter 38, article 2, of the code of the city of fairfax pertaining to noise mitigation and the regulation of loud, disturbing, and unnecessary noise. Sutton heights is a townhome community located on the western"
+    "text": "defronzo. good evening, honorable mayor, members of the city council. My name is sheri and I reside at sutton heights circle in fairfax. I'm here this evening as a representative of the sutton heights community to again endorse the approval of the ordinance to amend chapter 38, article 2, of the code of the city of fairfax pertaining to noise mitigation and the regulation of loud, disturbing, and unnecessary noise. Sutton heights is a townhome community located on the western"
   },
   {
     "speaker": "Unknown Speaker",
@@ -634,626 +856,824 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 3831.18,
-    "end": 3863.144,
-    "text": "vital to mitigating the impact of constant truck traffic at the current tank farm and more significantly at the proposed warehouse complex. In conclusion, we strongly endorse the proposal to limit maximum permissible sound levels to protect the health and well-being of our citizens. Thank you for your time. our next speaker is carl tamaro. >> park lane road."
+    "end": 3851.331,
+    "text": "vital to mitigating the impact of constant truck traffic at the current tank farm and more significantly at the proposed warehouse complex. In conclusion, we strongly endorse the proposal to limit maximum permissible sound levels to protect the health and well-being of our citizens. Thank you for your time."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3863.679,
-    "end": 3896.277,
-    "text": "Good evening, mayor and council members. I'd like to first thank you as well as staff for your support in all the amending and reenacting the noise ordinance. All city residents are considerate neighbors and self-monitor noise. Unfortunately, we have experienced repeated loud music and parties in our neighborhood and have been unsuccessful in resolving the issue through neighborhood discussions. These types of disturbances negatively impact the quality of life and effective neighborhoods."
+    "start": 3851.434,
+    "end": 3853.434,
+    "text": "our next speaker is carl"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3898.13,
-    "end": 3930.979,
-    "text": "And everyone is just one inconsiderate neighbor away from this happening in your neighborhood. So I support the proposed updates but I have a couple concerns and questions. First, a weakness of the current regulation is gaps in enforcement resources during non-city business working hours. So for example, who do you contact at 9 P.M. On friday or 4 P.M. On the weekends? Is this a police activity that will happen?"
+    "start": 3860.71,
+    "end": 3892.574,
+    "text": "tamaro. park lane road. Good evening, mayor and council members. I'd like to first thank you as well as staff for your support in all the amending and reenacting the noise ordinance. All city residents are considerate neighbors and self-monitor noise. Unfortunately, we have experienced repeated loud music and parties in our neighborhood and have been unsuccessful in resolving the issue through neighborhood discussions. These types of disturbances"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3932.481,
-    "end": 3963.679,
-    "text": "Or the city manager? For amplified sounds, the threshold is if you can hear the sound with windows and doors closed. A question I had is will the decibel levels for daytime and nighttime also apply to amplified music? And it's good to remember that during nice weather, many people are outside enjoying their patio, deck, or yard, or have their windows open so the proposed threshold does not seem"
+    "start": 3893.842,
+    "end": 3924.405,
+    "text": "negatively impact the quality of life and effective neighborhoods. And everyone is just one inconsiderate neighbor away from this happening in your neighborhood. So I support the proposed updates but I have a couple concerns and questions. First, a weakness of the current regulation is gaps in enforcement resources during non-city business working hours. So for example, who do you contact at 9 P.M. On friday or"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3963.679,
-    "end": 3996.61,
-    "text": "to consider this. So thank you for your time. >> our next speaker is zach burrows. >> thank you for your time. I've had an opportunity to actually speak with a number of you previously. I'm also at sutton heights and lead the hoa there. I've also spoken with a number of the other communities around barrister's keep and picketts reserve. I'm here to support the noise"
+    "start": 3925.74,
+    "end": 3957.906,
+    "text": "4 P.M. On the weekends? Is this a police activity that will happen? Or the city manager? For amplified sounds, the threshold is if you can hear the sound with windows and doors closed. A question I had is will the decibel levels for daytime and nighttime also apply to amplified music? And it's good to remember that during nice weather, many people are outside enjoying their"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 3997.113,
-    "end": 4028.477,
-    "text": "ordinance, especially the change, the amendment to allow the industrial unloading and loading of trucks to be applied to any residential area that can hear the noise. I think that's a great addition. I'd like to add on to that, that some of our concerns as sheri expressed is the amount of traffic and noise that is up and down pickett's reserve. The concern is not the daily traffic during business hours, it's the evening hours that we would potentially have you look at. Similar to the unloading and"
+    "start": 3958.541,
+    "end": 3965.679,
+    "text": "patio, deck, or yard, or have their windows open so the proposed threshold does not seem to consider this."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4029.678,
-    "end": 4059.908,
-    "text": "offloading of trucks, that same -- the same type of traffic, the large truck tractor trailers going up and down pickett's reserve as 2 or three in the morning could have the similar effect as the unloading and loading of trucks. Most of that traffic is going to the adjacent property, so we would look to see if there's maybe, similar to MR. Cho's comments earlier around the traffic study, if there's a way to amend or at least look at the noise ordinance to potentially"
+    "start": 3967.149,
+    "end": 3969.283,
+    "text": "So thank you for your time. our next speaker is zach"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4061.777,
-    "end": 4093.4,
-    "text": "reduce the impact of that massive amount of truck traffic on that road during overnight hours when it could have deleterious effects on the residential communities that border that property. I think that would be very advantageous for both potentially the study of that traffic, the traffic study, and the communities surrounding. So it might be a different mechanism to address that same concern. That also is coupled with -- this is a separate topic, but a"
+    "start": 3974.657,
+    "end": 4005.755,
+    "text": "burrows. thank you for your time. I've had an opportunity to actually speak with a number of you previously. I'm also at sutton heights and lead the hoa there. I've also spoken with a number of the other communities around barrister's keep and picketts reserve. I'm here to support the noise ordinance, especially the change, the amendment to allow the industrial unloading and loading of trucks to be applied to any residential area that can"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4093.142,
-    "end": 4126.975,
-    "text": "lot of the racing and loud cars that go up that road, I think it's a separate item, but I think it can potentially reduce the impact to both of those items. Thank you. our next speaker is mazy landis. sorry, I have terrible handwriting, it's mary landis, but thank you. i spoke when it was the public hearing I guess, wherever it was"
+    "start": 4005.755,
+    "end": 4038.319,
+    "text": "hear the noise. I think that's a great addition. I'd like to add on to that, that some of our concerns as sheri expressed is the amount of traffic and noise that is up and down pickett's reserve. The concern is not the daily traffic during business hours, it's the evening hours that we would potentially have you look at. Similar to the unloading and offloading of trucks, that same -- the same type of traffic, the large truck tractor trailers going up and down pickett's reserve as 2 or three"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4127.76,
-    "end": 4159.7,
-    "text": "before, I apologize, the work session. And thank you for listening to me then and I just want to thank you for looking at this and taking the time to rewrite the noise ordinance. I do support the changes in the noise ordinance. As I said previously, I really do feel like it's an equity issue. Kind of what was alluded to, the idea that a 9-5 job, monday through friday, is just antiquated. People have different needs at different times of the day. And as a previous speaker said, one inconsiderate neighbor can"
+    "start": 4038.554,
+    "end": 4071.185,
+    "text": "in the morning could have the similar effect as the unloading and loading of trucks. Most of that traffic is going to the adjacent property, so we would look to see if there's maybe, similar to MR. Cho's comments earlier around the traffic study, if there's a way to amend or at least look at the noise ordinance to potentially reduce the impact of that massive amount of truck traffic on that road during overnight hours when it could have deleterious effects on the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4160.109,
-    "end": 4190.538,
-    "text": "really make your life very difficult regardless of the day or the time of the day. So I'm in full support of it and I thank you for taking the time to look at it, thank you. our next speaker is ross landis. thank you, mayor and council. This just seems like a no-brainer to me. Peace and quiet in your own house seems pretty basic. Right now, I don't know the"
+    "start": 4071.32,
+    "end": 4102.351,
+    "text": "residential communities that border that property. I think that would be very advantageous for both potentially the study of that traffic, the traffic study, and the communities surrounding. So it might be a different mechanism to address that same concern. That also is coupled with -- this is a separate topic, but a lot of the racing and loud cars that go up that road, I think it's a separate item, but I think it can potentially reduce the impact to both of those items."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4192.842,
-    "end": 4226.306,
-    "text": "exact hours, is it 7 to 11 or 7 to 10, it's a free for all. You could have an atomic bomb go off and you call the police and they say, well, we're within those hours, there's nothing we can do. They are kind and courteous and patient, but they have no authority during those hours. If you want to put your young child down for a nap, if you want to have a conversation with your friend, if you want to have a work call, GOD forbid you just want to sit and quietly read a book. You're at the mercy of your"
+    "start": 4105.155,
+    "end": 4107.155,
+    "text": "Thank you."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4226.942,
-    "end": 4258.4,
-    "text": "neighbors and the trucks and the loud music and GOD knows what. I think this is so long overdue. I stood up here in 2022 when we had mayor meyer and I said that we needed to revise this ordinance. I don't know honestly what's taken so long. I thought this was going to come back in SEPTEMBER. Here we are in MARCH and I hear we're going to defer it again. I'm just at a loss as to what the issue is here. It seems pretty basic to me. Thank you. >> is there anybody else in the"
+    "start": 4108.357,
+    "end": 4116.63,
+    "text": "our next speaker is mazy landis."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4258.607,
-    "end": 4291.6,
-    "text": "room that would like to speak on this? Come forward. >> kelly o'brien. I appreciate what the ordinance is trying to do. I still think there's some conflicting regulations, whether it's discernible noise or the sound decibels, and even within a multiuse property, if it's audible from within the residential property, the same property, some things still need a little working on. I applaud and appreciate the"
+    "start": 4117.133,
+    "end": 4149.63,
+    "text": "sorry, I have terrible handwriting, it's mary landis, but thank you. i spoke when it was the public hearing I guess, wherever it was before, I apologize, the work session. And thank you for listening to me then and I just want to thank you for looking at this and taking the time to rewrite the noise ordinance. I do support the changes in the noise ordinance. As I said previously, I really do feel like it's an equity issue. Kind of what was alluded to, the idea that a 9-5 job, monday"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4291.741,
-    "end": 4322.669,
-    "text": "outreach and the education and definitely think that needs to happen now especially for businesses too. I don't know that the businesses understand what implications this could have for them. There's some concerns about even getting dumpster pickup, you know, if they're all at the same time, what are the effects if we're constraining that time. are you putting more pressure on the traffic during that time? There's some things I want to make sure the business community is aware of and how it'll affect their processes now and there's"
+    "start": 4150.9,
+    "end": 4171.619,
+    "text": "through friday, is just antiquated. People have different needs at different times of the day. And as a previous speaker said, one inconsiderate neighbor can really make your life very difficult regardless of the day or the time of the day. So I'm in full support of it and I thank you for taking the time to look at it, thank you."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4323.672,
-    "end": 4354.235,
-    "text": "some -- 3815 has some internal references. But I applaud and appreciate the education aspect and highly encourage before it's adopted to make sure everyone is aware. Thank you. >> anybody else? Okay. >> good evening, mayor and council. My name is james, I'm here representing the (Unfamiliar word or name) Pool, 13136. Most of what I'm going to say,"
+    "start": 4171.821,
+    "end": 4179.493,
+    "text": "our next speaker is ross landis."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4355.504,
-    "end": 4386.165,
-    "text": "I'm just going to put to the side considering it's been discussed as far as further engagement and everything else. As a unique pool within a residential zone, a commercial entity trying to operate, one of three within country club hills, fairfax frogs, we all try and work well within the community to find that balance of noise and regulations and also engaging the community in having events and other activities. I do understand that some of"
+    "start": 4181.931,
+    "end": 4215.3,
+    "text": "thank you, mayor and council. This just seems like a no-brainer to me. Peace and quiet in your own house seems pretty basic. Right now, I don't know the exact hours, is it 7 to 11 or 7 to 10, it's a free for all. You could have an atomic bomb go off and you call the police and they say, well, we're within those hours, there's nothing we can do. They are kind and courteous and patient, but they have no authority during those hours. If you want to put your young child down for a nap, if you want to have a conversation with"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4386.235,
-    "end": 4417.731,
-    "text": "them MAY have been on the borderline of noise ordinance and everything else, so I look forward to engaging and talking with you as far as how we can put together the ordinance such that these unique entities can operate, still have the activities that we're looking for. That's it, thank you. >> anybody else in the room that would like to speak on this agenda item? >> all right. With consensus of the council,"
+    "start": 4216.666,
+    "end": 4248.963,
+    "text": "your friend, if you want to have a work call, GOD forbid you just want to sit and quietly read a book. You're at the mercy of your neighbors and the trucks and the loud music and GOD knows what. I think this is so long overdue. I stood up here in 2022 when we had mayor meyer and I said that we needed to revise this ordinance. I don't know honestly what's taken so long. I thought this was going to come back in SEPTEMBER. Here we are in MARCH and I hear we're going to defer it again."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4419.235,
-    "end": 4450.566,
-    "text": "do we agree to leave the public hearing open until MAY 12th? Is there a motion to that effect? Council member hardy-chandler, wing it! I move to leave the public comment period open until MAY 12th. just a slight modification. Continue the public hearing and defer council action. continue the public hearing and defer council action, thank you. until MAY 12th. >> second. there we go, we have a motion and a second. Is there any discussion on this motion?"
+    "start": 4250.366,
+    "end": 4254.868,
+    "text": "I'm just at a loss as to what the issue is here. It seems pretty basic to me."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4451.4,
-    "end": 4481.562,
-    "text": "Council member bates. I just want to thank the city attorney and city staff for all their work on this. I know that there are a lot of people out there who -- I mean, of course, as was mentioned, this is certainly not a real widespread issue but also as was mentioned, for those who it is a significant issue, it can be pretty significant, and that's why we need to step things up and why we'rening"
+    "start": 4255.838,
+    "end": 4259.808,
+    "text": "Thank you. is there anybody else in the room that would like to speak on this?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4481.597,
-    "end": 4514.562,
-    "text": "we're doing this. But we also want to get it right. And so again, I want to thank the city attorney and city staff for all their work on this. And also want to comment on a comment that was raised earlier. That not everybody works 9 to 5 in the city, and we have representatives of our police department here who, of course, many of them don't work a standard 9 to 5 shift. We've had at least one police officer in my neighborhood, our"
+    "start": 4267.817,
+    "end": 4298.345,
+    "text": "Come forward. kelly o'brien. I appreciate what the ordinance is trying to do. I still think there's some conflicting regulations, whether it's discernible noise or the sound decibels, and even within a multiuse property, if it's audible from within the residential property, the same property, some things still need a little working on. I applaud and appreciate the outreach and the education and definitely think that needs to happen now especially for businesses too. I don't know that the businesses understand what implications"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4515.398,
-    "end": 4546.461,
-    "text": "block or the next block over pretty much all my life, and we've also had noise issues in our neighborhood. So we want to make sure that we're also -- that they're able to get the sleep they need to be effective, as effective as they can be, and not have to worry about getting a good night's sleep when they come home. Thank you. >> other comments? Council member hall. >> thank you. Just to kind of follow up on some of the comments that were made."
+    "start": 4298.514,
+    "end": 4328.71,
+    "text": "this could have for them. There's some concerns about even getting dumpster pickup, you know, if they're all at the same time, what are the effects if we're constraining that time. are you putting more pressure on the traffic during that time? There's some things I want to make sure the business community is aware of and how it'll affect their processes now and there's some -- 3815 has some internal references. But I applaud and appreciate the education aspect and highly"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4546.662,
-    "end": 4579.326,
-    "text": "And I expect that you will be doing this already, but I think we need to be very clear to some of these communities what this ordinance will be and what it won't be, and I know that you said that, but I also know that some of these areas like residential next to industrial creates its own challenges. And I don't know if we're able to reduce traffic on a road? Or mitigate hours at which trucks can go down. What I will say to our police department is that I think that area is continually ripe for"
+    "start": 4329.111,
+    "end": 4330.945,
+    "text": "encourage before it's adopted to make sure everyone is aware."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4580.29,
-    "end": 4612.192,
-    "text": "drag racing and street racing. And enforcement. And I bet the money you could make in a weekend would maybe be enough to do some really fun things. So I think there's certainly areas that we can work on, but I think the legal answer of what we can't do and whether we can or cannot delay a by-right development, I think that information would be helpful to be shared to the appropriate people. So thank you. council member amos? >> thank you. Excellent wok, greatly"
+    "start": 4332.81,
+    "end": 4333.648,
+    "text": "Thank you. anybody else?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4612.261,
-    "end": 4642.724,
-    "text": "appreciate your efforts on this. When I worked for fairfax county, unfortunately one of my topics was noise. And it's one of the most difficult things to enforce in any local jurisdiction, primarily because we don't have a lot of enforcement mechanisms to work with. Typically what was recommended was, especially if it's late at night, post-business hours, contact the police. At least there's a record to track that there has been continual disturbance. But part of what's going into this is to expand our enforcement capabilities to the"
+    "start": 4340.856,
+    "end": 4372.687,
+    "text": "Okay. good evening, mayor and council. My name is james, I'm here representing the (Unfamiliar word or name) Pool, 13136. Most of what I'm going to say, I'm just going to put to the side considering it's been discussed as far as further engagement and everything else. As a unique pool within a residential zone, a commercial entity trying to operate, one of three within country club hills,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4642.858,
-    "end": 4675.49,
-    "text": "degree that we can so we can at least do a better job and have more consistency moving forward. And I concur, I wish it didn't take so long. There's things we asked for last year and sometimes unfortunately that's just a government process, but there's draft language that goes into it and then recently we received a number of comments as people tend to find things out a day or two right before we have a public hearing, so making sure that we have the utmost consideration for everyone involved. Because there are still a number of questions and I think to the city attorney's point, the goal is to probably review this at"
+    "start": 4373.422,
+    "end": 4403.685,
+    "text": "fairfax frogs, we all try and work well within the community to find that balance of noise and regulations and also engaging the community in having events and other activities. I do understand that some of them MAY have been on the borderline of noise ordinance and everything else, so I look forward to engaging and talking with you as far as how we can put together the ordinance such that these unique entities can operate, still have the activities that we're looking for."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4677.893,
-    "end": 4712.993,
-    "text": "least a little bit more frequently. What gets passed or doesn't get passed is not going to be the mainstay for the next 30 years. Things are constantly changing and we need to keep up, so what ever gets enacted, that's not the end of the road. Thank you. council member bates. just one more follow-up question. Also in response to something that was raised during the public hearing. Either for the city attorney or the police department. If you could comment on how"
+    "start": 4406.188,
+    "end": 4410.524,
+    "text": "That's it, thank you. anybody else in the room that would like to speak on this"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4714.83,
-    "end": 4745.459,
-    "text": "enforcement works afterhours when the zoning inspector is not the one doing it? And how that might change or might stay the same going forward or whatever you have to share on that. and the pd certainly can comment. I mean, obviously without zoning and most other staff available, the onus on after-hours enforcement ends up being with the police department. That certainly is not likely to change barring a significant increase in enforcement staff,"
+    "start": 4411.994,
+    "end": 4429.777,
+    "text": "agenda item? all right. With consensus of the council, do we agree to leave the public hearing open until MAY 12th? Is there a motion to that effect? Council member hardy-chandler, wing it!"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4745.494,
-    "end": 4777.692,
-    "text": "which is unlikely, I would imagine. And every jurisdiction has this issue. So again, it is not for lack of having ordinances, rules and regulations in place. It's the ability to enforce that becomes difficult. And in further response to your question, the one thing I omitted in my staff report, we did add a provision -- I think it's an interesting provision -- that does allow in egregious cases for residents to go to a"
+    "start": 4430.613,
+    "end": 4435.883,
+    "text": "I move to leave the public comment period open until MAY 12th."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4778.761,
-    "end": 4811.225,
-    "text": "magistrate and swear out a warrant, reserved for very difficult cases, but you're just not able to get enforcement by the city, primarily because there won't be staff, or the city doesn't observe it, in really bad situations, residents certainly will have that ability to try to convince a magistrate to issue a warrant. And sometimes that can achieve compliance and enforcement as well. council member peterson? so just to be sure I get one"
+    "start": 4436.852,
+    "end": 4441.22,
+    "text": "just a slight modification. Continue the public hearing and defer council action."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4811.894,
-    "end": 4843.892,
-    "text": "of the bottom lines here, if you could correct me if I don't get this right. It's my understanding that part of the by-product of this is to put in place a stronger structure for the most egregious violations that might take place, but at the same time procedurally try to resolve things at the lowest llc level of conflict and the highest level of cooperation possible so we're not defaulting to the highest level of stringency, but it is there as needed along with graduated points at which the"
+    "start": 4441.123,
+    "end": 4444.92,
+    "text": "continue the public hearing and defer council action, thank you."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4844.327,
-    "end": 4875.69,
-    "text": "issues can be engaged. Is that a fair structural summary of what's going on here? absolutely fair. >> great, thanks. any other questions or comments? Well, I appreciate the work that's gone into the ordinance and why we are trying to put guardrails and avenues for resolving the most egregious problems. You cannot legislate how people behave. you can't legislate people being thoughtful or considerate or making the right choice. You can't legislate or create an"
+    "start": 4444.16,
+    "end": 4445.86,
+    "text": "until MAY 12th. second."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4876.25,
-    "end": 4908.356,
-    "text": "ordinance that says maybe if you're a good neighbor, you'll have good neighbors, and maybe everyone will live peaceably. So before we take this vote, I just want to thank my neighbors, all of the people, because you're amazing neighbors all of you and I appreciate you. And with that, a roll call vote. council member amos. >> aye. >> council member hall. >> aye. council member hardy-chandler. >> aye. council member peterson. >> aye. >> council member bates. >> aye. council member mcquillen. >> aye. >> motion passes unanimously. We will go on to the next public hearing which is the public"
+    "start": 4446.462,
+    "end": 4453.4,
+    "text": "there we go, we have a motion and a second. Is there any discussion on this motion? Council member bates."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4908.991,
-    "end": 4939.821,
-    "text": "hearing on the proposed fy 27 budget. This is the second public hearing of the proposed fy 27 budget. The city manager presented on FEBRUARY 24th, 2026. I have three people who had signed up prior to the meeting and then once those three people speak, we'll open up the floor if there's anybody else in the room. I will call the first person up, perdeep chilka. >> good evening."
+    "start": 4454.704,
+    "end": 4488.604,
+    "text": "I just want to thank the city attorney and city staff for all their work on this. I know that there are a lot of people out there who -- I mean, of course, as was mentioned, this is certainly not a real widespread issue but also as was mentioned, for those who it is a significant issue, it can be pretty significant, and that's why we need to step things up and why we'rening we're doing this. But we also want to get it right. And so again, I want to thank the city attorney and city staff"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4944.293,
-    "end": 4975.457,
-    "text": "I reside at 10412 whitehead street. I'm the chair of the environmental sustainability committee. In order to make fairfax city a more affordable place to leave, we must prioritize smart investments made by the city and to that end, I would like to recommend that the city invest in a permanent, full-time climate and energy manager. And here are my top three reasons for this recommendation. So reason number one: affordability. A climate and energy manager would drive critical energy efficiency and conservation projects that not only"
+    "start": 4490.606,
+    "end": 4521.57,
+    "text": "for all their work on this. And also want to comment on a comment that was raised earlier. That not everybody works 9 to 5 in the city, and we have representatives of our police department here who, of course, many of them don't work a standard 9 to 5 shift. We've had at least one police officer in my neighborhood, our block or the next block over pretty much all my life, and we've also had noise issues in our neighborhood."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 4976.859,
-    "end": 5009.791,
-    "text": "significantly lower our city's operational costs but also save resident utility costs. As an example, we were able to save approximately $150,000 per year with our L.E.D. Streetlight conversion project and bring in 180k grant for residential home energy efficiency upgrades. My reason number two is resiliency. So we all know we are currently facing an unprecedented data center growth problem specifically in our region which poses not only an affordability"
+    "start": 4524.507,
+    "end": 4537.818,
+    "text": "So we want to make sure that we're also -- that they're able to get the sleep they need to be effective, as effective as they can be, and not have to worry about getting a good night's sleep when they come home."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5012.28,
-    "end": 5043.391,
-    "text": "risk but also a reliability risk. Fortunately we have a tool in our toolkit and it's the green building policy. While the green building policy has the potential for much larger cost savings through higher energy efficiency building standards for both public and private developments, it also improves our community's resiliency against unconstrained data center load growth. What we need to do now is simply adopt the green building policy and to do that you're going to need to fund the staffing"
+    "start": 4538.12,
+    "end": 4539.587,
+    "text": "Thank you. other comments?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5046.762,
-    "end": 5078.159,
-    "text": "required to implement it. And last but not least, climate action. We are behind the eight-ball in the area of climate action planning compared with all our neighboring localities. And this staff position would be critical in jump-starting this effort so that we are not caught unprepared when the next climate-driven extreme weather event ravages our city. So in summary, I'd like to respectfully submit that funding a full-time climate and energy manager is a direct investment"
+    "start": 4540.99,
+    "end": 4573.655,
+    "text": "Council member hall. thank you. Just to kind of follow up on some of the comments that were made. And I expect that you will be doing this already, but I think we need to be very clear to some of these communities what this ordinance will be and what it won't be, and I know that you said that, but I also know that some of these areas like residential next to industrial creates its own challenges. And I don't know if we're able to reduce traffic on a road? Or mitigate hours at which trucks can go down. What I will say to our police"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5079.295,
-    "end": 5110.726,
-    "text": "in the city's financial health and long-term affordability and reliability and resiliency. Thank you. our next speaker is kia. >> hi, mayor read and city council members and remaining neighbors over here. I'm kaya. I live at 3912 keith avenue and I've been enjoying living here"
+    "start": 4574.523,
+    "end": 4606.688,
+    "text": "department is that I think that area is continually ripe for drag racing and street racing. And enforcement. And I bet the money you could make in a weekend would maybe be enough to do some really fun things. So I think there's certainly areas that we can work on, but I think the legal answer of what we can't do and whether we can or cannot delay a by-right development, I think that information would be helpful to be shared to the appropriate people. So thank you."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5110.726,
-    "end": 5142.423,
-    "text": "for 15 years. I'm also a master of public health graduate student down at george mason university. And so I'm speaking also in support of funding a permanent climate energy manager in the 2027 budget. I'm worried about how climate change is impacting our community's health. We can see the effects like extreme temperatures, fluctuating temperatures that we've been experiencing these past two weeks, worsening air quality, increased illness. They're all very visible. And we have evidence of the"
+    "start": 4608.9,
+    "end": 4640.654,
+    "text": "council member amos? thank you. Excellent wok, greatly appreciate your efforts on this. When I worked for fairfax county, unfortunately one of my topics was noise. And it's one of the most difficult things to enforce in any local jurisdiction, primarily because we don't have a lot of enforcement mechanisms to work with. Typically what was recommended was, especially if it's late at night, post-business hours, contact the police. At least there's a record to track that there has been continual disturbance. But part of what's going into"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5143.626,
-    "end": 5174.389,
-    "text": "local issues from fairfax county. there was a 2021 partnership between nasa and fairfax county that found that our built infrastructure like our roads and buildings trap heat and turn fairfax into a major urban heat island. You probably all know this, but the county's risk assessment looked at areas of high urban heat island exposure, which is 9 or hotter than the surrounding countryside, and found that 100% of our hospitals, police stations, fire stations, transit, 98% of health and human service facilities are"
+    "start": 4640.656,
+    "end": 4670.683,
+    "text": "this is to expand our enforcement capabilities to the degree that we can so we can at least do a better job and have more consistency moving forward. And I concur, I wish it didn't take so long. There's things we asked for last year and sometimes unfortunately that's just a government process, but there's draft language that goes into it and then recently we received a number of comments as people tend to find things out a day or two right before we have a public hearing, so making sure that we have the utmost consideration for everyone involved. Because there are still a number"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5175.591,
-    "end": 5207.156,
-    "text": "in the high heat zone. As well as 73% of households. So the extreme heat, it's not just uncomfortable, it's a severe public health hazard. Nationally, heat causes more deaths than any other severe weather event. The extreme heat can cause heat stroke and dehydration. It also makes conditions like heart disease and lung disease and kidney disease worse, which is alarming, because heart disease and cancer are already the leading causes of death in fairfax. I think it puts everybody at risk, especially vulnerable"
+    "start": 4670.753,
+    "end": 4693.808,
+    "text": "of questions and I think to the city attorney's point, the goal is to probably review this at least a little bit more frequently. What gets passed or doesn't get passed is not going to be the mainstay for the next 30 years. Things are constantly changing and we need to keep up, so what ever gets enacted, that's not the end of the road. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5207.156,
-    "end": 5237.852,
-    "text": "populations like young children and older adults, pregnant individuals, outdoor workers, and also from the health equity standpoint, 91% of the households that are socioeconomically vulnerable are in the high heat zones, so a thoughtful climate action plan could help ensure that socioeconomically vulnerable households don't have to unfairly bear the brunt of these extreme heat events. The local action that we need would help to address the heat risks. It would strengthen our"
+    "start": 4694.244,
+    "end": 4696.244,
+    "text": "council member bates."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5238.287,
+    "start": 4696.412,
+    "end": 4728.108,
+    "text": "just one more follow-up question. Also in response to something that was raised during the public hearing. Either for the city attorney or the police department. If you could comment on how enforcement works afterhours when the zoning inspector is not the one doing it? And how that might change or might stay the same going forward or whatever you have to share on that."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 4728.811,
+    "end": 4760.642,
+    "text": "and the pd certainly can comment. I mean, obviously without zoning and most other staff available, the onus on after-hours enforcement ends up being with the police department. That certainly is not likely to change barring a significant increase in enforcement staff, which is unlikely, I would imagine. And every jurisdiction has this issue. So again, it is not for lack of having ordinances, rules and regulations in place. It's the ability to enforce that"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 4762.813,
+    "end": 4794.576,
+    "text": "becomes difficult. And in further response to your question, the one thing I omitted in my staff report, we did add a provision -- I think it's an interesting provision -- that does allow in egregious cases for residents to go to a magistrate and swear out a warrant, reserved for very difficult cases, but you're just not able to get enforcement by the city, primarily because there won't be staff, or the city doesn't observe it, in really bad situations, residents certainly will have that ability to try to convince a magistrate"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 4794.777,
+    "end": 4803.785,
+    "text": "to issue a warrant. And sometimes that can achieve compliance and enforcement as well."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 4805.988,
+    "end": 4807.988,
+    "text": "council member peterson?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 4809.225,
+    "end": 4840.622,
+    "text": "so just to be sure I get one of the bottom lines here, if you could correct me if I don't get this right. It's my understanding that part of the by-product of this is to put in place a stronger structure for the most egregious violations that might take place, but at the same time procedurally try to resolve things at the lowest llc level of conflict and the highest level of cooperation possible so we're not defaulting to the highest level of stringency, but it is"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 4841.49,
+    "end": 4850.64,
+    "text": "there as needed along with graduated points at which the issues can be engaged. Is that a fair structural summary of what's going on here?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 4850.599,
+    "end": 4852.801,
+    "text": "absolutely fair. great, thanks."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 4855.72,
+    "end": 4888.97,
+    "text": "any other questions or comments? Well, I appreciate the work that's gone into the ordinance and why we are trying to put guardrails and avenues for resolving the most egregious problems. You cannot legislate how people behave. you can't legislate people being thoughtful or considerate or making the right choice. You can't legislate or create an ordinance that says maybe if you're a good neighbor, you'll have good neighbors, and maybe everyone will live peaceably. So before we take this vote, I just want to thank my neighbors, all of the people, because"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 4889.71,
+    "end": 4894.808,
+    "text": "you're amazing neighbors all of you and I appreciate you. And with that, a roll call vote."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 4894.877,
+    "end": 4897.38,
+    "text": "council member amos. aye. council member hall. aye."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 4897.38,
+    "end": 4899.214,
+    "text": "council member hardy-chandler. aye."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 4899.482,
+    "end": 4902.384,
+    "text": "council member peterson. aye. council member bates. aye."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 4902.752,
+    "end": 4932.279,
+    "text": "council member mcquillen. aye. motion passes unanimously. We will go on to the next public hearing which is the public hearing on the proposed fy 27 budget. This is the second public hearing of the proposed fy 27 budget. The city manager presented on FEBRUARY 24th, 2026. I have three people who had signed up prior to the meeting and then once those three people speak, we'll open up the floor if there's anybody else in the room. I will call the first person up,"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 4938.88,
+    "end": 4969.585,
+    "text": "perdeep chilka. good evening. I reside at 10412 whitehead street. I'm the chair of the environmental sustainability committee. In order to make fairfax city a more affordable place to leave, we must prioritize smart investments made by the city and to that end, I would like to recommend that the city invest in a permanent, full-time climate and energy manager. And here are my top three reasons for this recommendation. So reason number one: affordability."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 4970.419,
+    "end": 5003.951,
+    "text": "A climate and energy manager would drive critical energy efficiency and conservation projects that not only significantly lower our city's operational costs but also save resident utility costs. As an example, we were able to save approximately $150,000 per year with our L.E.D. Streetlight conversion project and bring in 180k grant for residential home energy efficiency upgrades. My reason number two is resiliency. So we all know we are currently"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 5004.487,
+    "end": 5035.184,
+    "text": "facing an unprecedented data center growth problem specifically in our region which poses not only an affordability risk but also a reliability risk. Fortunately we have a tool in our toolkit and it's the green building policy. While the green building policy has the potential for much larger cost savings through higher energy efficiency building standards for both public and private developments, it also improves our community's resiliency against unconstrained"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 5035.184,
+    "end": 5066.413,
+    "text": "data center load growth. What we need to do now is simply adopt the green building policy and to do that you're going to need to fund the staffing required to implement it. And last but not least, climate action. We are behind the eight-ball in the area of climate action planning compared with all our neighboring localities. And this staff position would be critical in jump-starting this effort so that we are not caught"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 5066.415,
+    "end": 5086.301,
+    "text": "unprepared when the next climate-driven extreme weather event ravages our city. So in summary, I'd like to respectfully submit that funding a full-time climate and energy manager is a direct investment in the city's financial health and long-term affordability and reliability and resiliency. Thank you."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 5097.68,
+    "end": 5127.741,
+    "text": "our next speaker is kia. hi, mayor read and city council members and remaining neighbors over here. I'm kaya. I live at 3912 keith avenue and I've been enjoying living here for 15 years. I'm also a master of public health graduate student down at george mason university. And so I'm speaking also in support of funding a permanent climate energy manager in the 2027 budget. I'm worried about how climate"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 5128.478,
+    "end": 5159.64,
+    "text": "change is impacting our community's health. We can see the effects like extreme temperatures, fluctuating temperatures that we've been experiencing these past two weeks, worsening air quality, increased illness. They're all very visible. And we have evidence of the local issues from fairfax county. there was a 2021 partnership between nasa and fairfax county that found that our built infrastructure like our roads and buildings trap heat and turn fairfax into a major urban heat island. You probably all know this, but the county's risk assessment"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 5159.942,
+    "end": 5193.141,
+    "text": "looked at areas of high urban heat island exposure, which is 9 or hotter than the surrounding countryside, and found that 100% of our hospitals, police stations, fire stations, transit, 98% of health and human service facilities are in the high heat zone. As well as 73% of households. So the extreme heat, it's not just uncomfortable, it's a severe public health hazard. Nationally, heat causes more deaths than any other severe weather event. The extreme heat can cause heat stroke and dehydration."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 5193.442,
+    "end": 5227.876,
+    "text": "It also makes conditions like heart disease and lung disease and kidney disease worse, which is alarming, because heart disease and cancer are already the leading causes of death in fairfax. I think it puts everybody at risk, especially vulnerable populations like young children and older adults, pregnant individuals, outdoor workers, and also from the health equity standpoint, 91% of the households that are socioeconomically vulnerable are in the high heat zones, so a thoughtful climate action plan could help ensure that socioeconomically vulnerable"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 5228.745,
+    "end": 5259.907,
+    "text": "households don't have to unfairly bear the brunt of these extreme heat events. The local action that we need would help to address the heat risks. It would strengthen our infrastructure and it would protect all of us. I have cousins here and I want to make sure they can play safely outside at recess. My dad is a senior. I don't want his health to suffer when the next heatwave hits, so I think funding a permanent climate and energy manager in the 2027 budget, it will help provide the leadership on the climate action plan that we need."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 5261.745,
     "end": 5269.55,
-    "text": "infrastructure and it would protect all of us. I have cousins here and I want to make sure they can play safely outside at recess. My dad is a senior. I don't want his health to suffer when the next heatwave hits, so I think funding a permanent climate and energy manager in the 2027 budget, it will help provide the leadership on the climate action plan that we need. And it will work to promote adaptability and infrastructure resilience that is going to be beneficial to public health in the long term. Thank you for your time and for"
+    "text": "And it will work to promote adaptability and infrastructure resilience that is going to be beneficial to public health in the long term. Thank you for your time and for"
   },
   {
     "speaker": "Unknown Speaker",
     "start": 5269.919,
-    "end": 5300.983,
-    "text": "listening to me. >> our next speaker is john farrell. john farrell with the southern states police benevolent association. Good evening, MADAM Mayor, city council, and city manager. Two weeks ago, the city of fairfax police association PRESIDENT Jesse thorton addressed you regarding compensation and retention challenges within the police department. I represent the sspba for the department."
+    "end": 5284.99,
+    "text": "listening to me. our next speaker is john farrell."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5303.186,
-    "end": 5335.182,
-    "text": "I would like to expand on his comments. An internal survey revealed 65% of police officers and staff are exploring other employment opportunities. Largely due to compensation issues. over the past three years, 21 officers, cadets, or recruits have left the department. Six of these individuals were either about to begin thed the academy. 15 were fully certified or lateral officers who left for other opportunities. Of those 21 individuals, ten"
+    "start": 5284.1,
+    "end": 5314.295,
+    "text": "john farrell with the southern states police benevolent association. Good evening, MADAM Mayor, city council, and city manager. Two weeks ago, the city of fairfax police association PRESIDENT Jesse thorton addressed you regarding compensation and retention challenges within the police department. I represent the sspba for the department. I would like to expand on his comments. An internal survey revealed 65% of police officers and staff are exploring other employment opportunities."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5335.284,
-    "end": 5367.748,
-    "text": "went on to other policing roles or government positions with other agencies. The cost of recruiting, hiring, and vetting a candidate is substantial. While many apply, few successfully pass the rigorous physical, psychological and polygraph testing. It can take well over a year from the time a candidate is hired until they're able to work independently on patrol. Staffing challenges and public safety cannot be resolved in a matter of weeks or months. The most effective and traditional way to build a strong police department is by recruiting, developing, and retaining a diverse and talented"
+    "start": 5314.93,
+    "end": 5346.594,
+    "text": "Largely due to compensation issues. over the past three years, 21 officers, cadets, or recruits have left the department. Six of these individuals were either about to begin thed the academy. 15 were fully certified or lateral officers who left for other opportunities. Of those 21 individuals, ten went on to other policing roles or government positions with other agencies. The cost of recruiting, hiring, and vetting a candidate is substantial. While many apply, few successfully pass the rigorous physical, psychological and"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5369.285,
-    "end": 5399.79,
-    "text": "workforce while occasionally hiring lateral officers to meet specific needs. Recruitment is increasingly difficult when our compensation packages lag behind those of regional competitors. Arlington starting salary is 90,000. Alexandria, 75,000. And loudoun starting salary, 67,000. Among 20 local and federal jurisdictions, our starting salary ranks 18th. 12 of those jurisdictions offer hiring bonuses."
+    "start": 5347.563,
+    "end": 5377.792,
+    "text": "polygraph testing. It can take well over a year from the time a candidate is hired until they're able to work independently on patrol. Staffing challenges and public safety cannot be resolved in a matter of weeks or months. The most effective and traditional way to build a strong police department is by recruiting, developing, and retaining a diverse and talented workforce while occasionally hiring lateral officers to meet specific needs. Recruitment is increasingly difficult when our compensation packages lag behind those of"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5401.116,
-    "end": 5431.745,
-    "text": "currently our starting salary is $64,466 and we do not offer hiring bonuses. Many competing jurisdictions also provide more competitive leave packages, emergency pay, stipends, specialty compensation and other fringe benefits. That being said, I want to emphasize the one significant advantage the city of fairfax police department has over other jurisdictions. The community we serve. We are privileged to police a vibrant, diverse, and supportive community. The relationship we have with our residents is deeply valued"
+    "start": 5380.162,
+    "end": 5413.228,
+    "text": "regional competitors. Arlington starting salary is 90,000. Alexandria, 75,000. And loudoun starting salary, 67,000. Among 20 local and federal jurisdictions, our starting salary ranks 18th. 12 of those jurisdictions offer hiring bonuses. currently our starting salary is $64,466 and we do not offer hiring bonuses. Many competing jurisdictions also provide more competitive leave packages, emergency pay, stipends, specialty compensation"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5431.814,
+    "start": 5415.197,
+    "end": 5445.727,
+    "text": "and other fringe benefits. That being said, I want to emphasize the one significant advantage the city of fairfax police department has over other jurisdictions. The community we serve. We are privileged to police a vibrant, diverse, and supportive community. The relationship we have with our residents is deeply valued by our officers and agency. From the strong presence of the mayor and council members at our events to the volunteers who bring meals and support us, this community's appreciation does not go unnoticed. To continue providing the level of service and professionalism that our community deserves and"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 5446.63,
     "end": 5462.343,
-    "text": "by our officers and agency. From the strong presence of the mayor and council members at our events to the volunteers who bring meals and support us, this community's appreciation does not go unnoticed. To continue providing the level of service and professionalism that our community deserves and expects, we must be able to recruit and retain the very best officers. I respectfully ask the council to keep this in mind as you move forward in the budget process. I've provided a copy of a handout I'll leave with the clerk in you're interested in some of the comparisons we did."
+    "text": "expects, we must be able to recruit and retain the very best officers. I respectfully ask the council to keep this in mind as you move forward in the budget process. I've provided a copy of a handout I'll leave with the clerk in you're interested in some of the comparisons we did."
   },
   {
     "speaker": "Unknown Speaker",
     "start": 5462.344,
+    "end": 5468.215,
+    "text": "Thank you. is there anybody else in the room that would like to speak on"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 5472.754,
+    "end": 5475.9,
+    "text": "the budget? we'll move to the second"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 5477.493,
+    "end": 5482.832,
+    "text": "general public comment. is there anybody else in the room that would like to speak on any general public comment"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 5484.967,
     "end": 5496.711,
-    "text": "Thank you. >> is there anybody else in the room that would like to speak on the budget? >> we'll move to the second general public comment. >> is there anybody else in the room that would like to speak on any general public comment items? >> well, all right then. i will now recess the regular meeting to go into a work session. We will stay in council chambers."
+    "text": "items? well, all right then. i will now recess the regular meeting to go into a work session. We will stay in council chambers."
   },
   {
     "speaker": "Unknown Speaker",
     "start": 5497.513,
-    "end": 5528.976,
-    "text": "all right, our first work session is a review of the capital improvement program, stormwater utility fund, and wastewater fund. I'll recognize J.C. Martinez to provide the staff report. thank you, mayor, council, tonight we have davenport, specifically MR. Lux and MR. MR. Saps. Of the presentations, one will"
+    "end": 5511.326,
+    "text": "all right, our first work session is a review of the capital improvement program, stormwater utility fund, and wastewater fund. I'll recognize J.C. Martinez to provide the staff report."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5529.678,
-    "end": 5562.377,
-    "text": "deal with the generally fund specifically on capital. The other one will be on wastewater fund analysis and the third one will be on the stormwater utility update as well. Happy to answer any questions during those presentations or at any time after those presentations as well. Again, we have kyle lucks from davenport with the city having a 25-year relationship with davenport who have really walked us through the financing. Also they were a part of the city when we were upgraded from"
+    "start": 5514.497,
+    "end": 5546.294,
+    "text": "thank you, mayor, council, tonight we have davenport, specifically MR. Lux and MR. MR. Saps. Of the presentations, one will deal with the generally fund specifically on capital. The other one will be on wastewater fund analysis and the third one will be on the stormwater utility update as well. Happy to answer any questions during those presentations or at any time after those"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5563.747,
-    "end": 5594.309,
-    "text": "our aa to our aaa bond ratings as well. So with that being said, we'll pull up the presentations and I'll turn it over to MR. Lucks. thank you, MR. Martinez. I'm kyle lucks with davenport. We have a couple different presentations, two that we'll handle and one your staff will handle. We'll start with the general fund, fy 27 plan of finance. What we're asked to do, knowing you were in your budget"
+    "start": 5546.529,
+    "end": 5571.752,
+    "text": "presentations as well. Again, we have kyle lucks from davenport with the city having a 25-year relationship with davenport who have really walked us through the financing. Also they were a part of the city when we were upgraded from our aa to our aaa bond ratings as well. So with that being said, we'll pull up the presentations and I'll turn it over to MR. Lucks."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5595.411,
-    "end": 5629.778,
-    "text": "deliberation process now, is bring forward the general plan, the time frame, the process we'd go through for financing the bond portion, meaning the bond-funded portion of your fy 27 proposed cip. I think I would say at the outset, this really comes at the culmination of the last several months and really even years of planning. So you as the city, as MR. Martinez mentioned, have aaa credit ratings. A big component of that is your management, your planning, and your process."
+    "start": 5576.425,
+    "end": 5606.54,
+    "text": "thank you, MR. Martinez. I'm kyle lucks with davenport. We have a couple different presentations, two that we'll handle and one your staff will handle. We'll start with the general fund, fy 27 plan of finance. What we're asked to do, knowing you were in your budget deliberation process now, is bring forward the general plan, the time frame, the process we'd go through for financing the bond portion, meaning the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5630.112,
-    "end": 5660.574,
-    "text": "We'll certainly answer any questions you have. I would note for the public and obviously mayor and members of council know this, this is really a part and parcel of the routine holistic planning you do for both budget, capital, and certainly debt-financed projects. So with that, my colleague austin saps will flip the slides here. In terms of background, again as your financial advisory, we work for the city. We're not here to lend any dollars, but we've appreciated"
+    "start": 5606.654,
+    "end": 5637.885,
+    "text": "bond-funded portion of your fy 27 proposed cip. I think I would say at the outset, this really comes at the culmination of the last several months and really even years of planning. So you as the city, as MR. Martinez mentioned, have aaa credit ratings. A big component of that is your management, your planning, and your process. We'll certainly answer any questions you have. I would note for the public and obviously mayor and members of council know this, this is"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5660.676,
-    "end": 5693.674,
-    "text": "that roughly 25 years, maybe even more, helping you as a city think through and plan for these important types of projects and initiatives. So we note that in terms of the background, we can go to the next page, so the two components of your proposed cip that for the moment we're talking about the general fund, so in the second presentation, we'll talk about sewer, but for the moment, we're talking about the general fund, the tax-supported portion"
+    "start": 5639.288,
+    "end": 5670.685,
+    "text": "really a part and parcel of the routine holistic planning you do for both budget, capital, and certainly debt-financed projects. So with that, my colleague austin saps will flip the slides here. In terms of background, again as your financial advisory, we work for the city. We're not here to lend any dollars, but we've appreciated that roughly 25 years, maybe even more, helping you as a city think through and plan for these important types of projects and initiatives."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5695.144,
-    "end": 5725.874,
-    "text": "of your capital improvement program. It's really two-fold. You see them highlighted in the middle of the page, number one in green, $22 million for general government capital improvement projects. That's part of your general capital improvement. You as the city have a variety of different infrastructure and facility needs and so as a city over the years, you've used that cip and a portion of it being"
+    "start": 5673.389,
+    "end": 5704.652,
+    "text": "So we note that in terms of the background, we can go to the next page, so the two components of your proposed cip that for the moment we're talking about the general fund, so in the second presentation, we'll talk about sewer, but for the moment, we're talking about the general fund, the tax-supported portion of your capital improvement program. It's really two-fold. You see them highlighted in the middle of the page, number one"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5727.71,
-    "end": 5758.7,
-    "text": "debt financed to take care of those infrastructure and facility needs. And so that's really what that is, that $22 million highlighted there in green. The second component in blue is also 22 million. It's not a mistake, that's the same number, and that's for the school referendum. Obviously you and the public know in 2024, a school referendum, first time in a number of years, was passed by the voters, and this would be the first portion of that that will be bond-funded or debt-funded."
+    "start": 5706.122,
+    "end": 5737.217,
+    "text": "in green, $22 million for general government capital improvement projects. That's part of your general capital improvement. You as the city have a variety of different infrastructure and facility needs and so as a city over the years, you've used that cip and a portion of it being debt financed to take care of those infrastructure and facility needs. And so that's really what that is, that $22 million highlighted there in green."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5758.874,
-    "end": 5789.437,
-    "text": "Again all as part of the multi-year plan you as a city have adopted. So we have two components, two different financings. Importantly we'll talk about this. They'll be financed in different ways. We'll describe why that is. But in total, you've got about $42 million there. Before we do that, we'll do a little bit of a highlight of the credit ratings. mr. Martinez already mentioned these, but it's always worth noting that you as a city enjoy aaa credit ratings, the highest"
+    "start": 5738.621,
+    "end": 5770.685,
+    "text": "The second component in blue is also 22 million. It's not a mistake, that's the same number, and that's for the school referendum. Obviously you and the public know in 2024, a school referendum, first time in a number of years, was passed by the voters, and this would be the first portion of that that will be bond-funded or debt-funded. Again all as part of the multi-year plan you as a city have adopted. So we have two components, two different financings. Importantly we'll talk about this. They'll be financed in different ways."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5790.272,
-    "end": 5820.634,
-    "text": "possible credit ratings you can have. You've enjoyed those for the last 15 or so years. And you're in very good company in terms of many of your peers and neighbors in the region that also enjoy those top tier credit ratings. On the next page, we'll talk about why those credit ratings are important. Certainly they're a primary determinant when the time is needed by city council to go borrow dollars, whether it's for new projects, even to refinance existing debt."
+    "start": 5770.886,
+    "end": 5801.684,
+    "text": "We'll describe why that is. But in total, you've got about $42 million there. Before we do that, we'll do a little bit of a highlight of the credit ratings. mr. Martinez already mentioned these, but it's always worth noting that you as a city enjoy aaa credit ratings, the highest possible credit ratings you can have. You've enjoyed those for the last 15 or so years. And you're in very good company in terms of many of your peers and neighbors in the region that also enjoy those top tier credit"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5820.836,
-    "end": 5852.534,
-    "text": "Those credit ratings make sure you can do that at the lowest possible interest rate. Those aaa credit ratings are a money saver to the taxpayer, no different than in your personal life, if you think about your credit score. The higher the score, the lower the interest rate when you apply for a mortgage and car loan, exact same concept with these credit ratings, so those top tier aaa credit ratings are ensuring you're able to borrow money when the time comes at the lowest possible interest rates. They also serve as a very good barometer for the overall"
+    "start": 5801.684,
+    "end": 5834.682,
+    "text": "ratings. On the next page, we'll talk about why those credit ratings are important. Certainly they're a primary determinant when the time is needed by city council to go borrow dollars, whether it's for new projects, even to refinance existing debt. Those credit ratings make sure you can do that at the lowest possible interest rate. Those aaa credit ratings are a money saver to the taxpayer, no different than in your personal life, if you think about your credit score. The higher the score, the lower"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5852.934,
-    "end": 5882.97,
-    "text": "financial health of the city. So we'll talk about that on the next page or so. Slide number 6, just a little refresher in terms of what goes into those credit ratings. It's not just the financial side of the equation, not just the debt side of the equation. there's four primary components that ultimately determine those credit ratings that again are determined by both moody's and standard and poors."
+    "start": 5835.851,
+    "end": 5866.347,
+    "text": "the interest rate when you apply for a mortgage and car loan, exact same concept with these credit ratings, so those top tier aaa credit ratings are ensuring you're able to borrow money when the time comes at the lowest possible interest rates. They also serve as a very good barometer for the overall financial health of the city. So we'll talk about that on the next page or so. Slide number 6, just a little refresher in terms of what goes into those credit ratings."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5883.299,
-    "end": 5914.629,
-    "text": "Two of the three major credit agencies that the city has a rating with. Those are outside, independent agencies. And so what they look at to come up with those ratings can really be divided into four main quantities there if you look on the screen. So top left is the economic base. And so by virtue of where you are in the region, it's viewed as a high-income region, as a dynamic, economic region, a growing region economically. So by everywhere you of"
+    "start": 5867.416,
+    "end": 5898.314,
+    "text": "It's not just the financial side of the equation, not just the debt side of the equation. there's four primary components that ultimately determine those credit ratings that again are determined by both moody's and standard and poors. Two of the three major credit agencies that the city has a rating with. Those are outside, independent agencies. And so what they look at to come up with those ratings can really be divided into four main quantities there if you look on"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5922.38,
-    "end": 5955.27,
-    "text": "the top right portion of it then is the financial performance and flexibility. And so those are things that more within your control on a day day-to-day basis as a city council, managing the budget, managing the finances certainly with the manager and the cfo. And those types of measurements these rating agencies are looking at are the ratio of revenues to exposures. Do you have surpluses annually in terms of revenues versus exposures, what are your fund balance levels, and those for a number of years, you've had very, very good results."
+    "start": 5898.714,
+    "end": 5929.711,
+    "text": "the screen. So top left is the economic base. And so by virtue of where you are in the region, it's viewed as a high-income region, as a dynamic, economic region, a growing region economically. So by everywhere you of the top right portion of it then is the financial performance and flexibility. And so those are things that more within your control on a day"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5955.805,
-    "end": 5987.168,
-    "text": "And so that flows through into your aaa credit ratings. The bottom right is the management component. Probably the hardest to measure with numbers. But what they're really looking at there are the things you as a city have done for a number of years which is multi-year planning, having policies that are adopted, well thought through, and adhered to. And having a holistic structurally balanced budget. And so that's the management component of those ratings. And the last slice of the pie,"
+    "start": 5930.713,
+    "end": 5961.877,
+    "text": "day-to-day basis as a city council, managing the budget, managing the finances certainly with the manager and the cfo. And those types of measurements these rating agencies are looking at are the ratio of revenues to exposures. Do you have surpluses annually in terms of revenues versus exposures, what are your fund balance levels, and those for a number of years, you've had very, very good results. And so that flows through into your aaa credit ratings. The bottom right is the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 5987.737,
-    "end": 6019.9,
-    "text": "if you will, bottom left, is the debt side of the equation. It's very important in terms of the credit ratings, but it is not the only important proportion there. And you can see those relative ratios. So again, a variety of factors that go into those aaa credit ratings. Not all of them are debt-related and we watch all of those as we think about the overall finances of the city. Next couple pages, we just have given a review here, a summary of the most recent reports."
+    "start": 5961.877,
+    "end": 5993.441,
+    "text": "management component. Probably the hardest to measure with numbers. But what they're really looking at there are the things you as a city have done for a number of years which is multi-year planning, having policies that are adopted, well thought through, and adhered to. And having a holistic structurally balanced budget. And so that's the management component of those ratings. And the last slice of the pie, if you will, bottom left, is the debt side of the equation. It's very important in terms of the credit ratings, but it is"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6020.77,
-    "end": 6051.633,
-    "text": "The rating agencies have published the first here from moody's. Importantly what they note is a number of factors related to management and fund balances. And so as you're right now in the budget deliberation time period, so we want to reiterate that in terms of how important thos fund balance and reserves are, especially knowing that we are planning on for the moment going out with some major capital improvements to come."
+    "start": 5995.211,
+    "end": 6025.707,
+    "text": "not the only important proportion there. And you can see those relative ratios. So again, a variety of factors that go into those aaa credit ratings. Not all of them are debt-related and we watch all of those as we think about the overall finances of the city. Next couple pages, we just have given a review here, a summary of the most recent reports. The rating agencies have published the first here from moody's."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6053.703,
-    "end": 6085.4,
-    "text": "So again, we just make that note and clearly we'll be getting updates to those as we move over the next several months. Flip the page. The second of the two rating agencies again in terms of summary here, this is standard and poors, s & p for short. They again are separate and independent from moody's, but you'll see similar themes here in so far as the financial flexibility, the importance of fund balance, the management side of things. All there within your day-to-day control and those help to"
+    "start": 6028.878,
+    "end": 6059.541,
+    "text": "Importantly what they note is a number of factors related to management and fund balances. And so as you're right now in the budget deliberation time period, so we want to reiterate that in terms of how important thos fund balance and reserves are, especially knowing that we are planning on for the moment going out with some major capital improvements to come. So again, we just make that note and clearly we'll be getting updates to those as we move over"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6085.568,
-    "end": 6115.998,
-    "text": "complement obviously the fact you have very strong economic and demographic factors and as well as the planning side of the equation. So again, we look at these, we update those. They're outside, independent entities that are reviewing the city. They've given you the highest possible marks in terms of two aaa credit ratings you've had for about 15 years. So with that, we move into what really is the plan of finance given your proposed cip."
+    "start": 6059.975,
+    "end": 6090.906,
+    "text": "the next several months. Flip the page. The second of the two rating agencies again in terms of summary here, this is standard and poors, s & p for short. They again are separate and independent from moody's, but you'll see similar themes here in so far as the financial flexibility, the importance of fund balance, the management side of things. All there within your day-to-day control and those help to complement obviously the fact you have very strong economic and demographic factors and as well as the planning side of the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6116.632,
-    "end": 6148.262,
-    "text": "We'll start on this slide with what is the city's existing outstanding tax-supported debt. So in our next presentation, we'll talk about the sewer fund that is separate from what this is right here. This is tax-supported debt, which is really the schools, meaning existing debt that you have outstanding for schools and other general city projects. What we see on the screen is both a graph and a table of the existing debt service of the city. We have roughly level payments"
+    "start": 6090.906,
+    "end": 6121.803,
+    "text": "equation. So again, we look at these, we update those. They're outside, independent entities that are reviewing the city. They've given you the highest possible marks in terms of two aaa credit ratings you've had for about 15 years. So with that, we move into what really is the plan of finance given your proposed cip. We'll start on this slide with what is the city's existing outstanding tax-supported debt."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6148.297,
-    "end": 6178.86,
-    "text": "year over year, and so I think that's similar to maybe your mortgage at home. Most folks will have roughly level payments with their mortgage. The city is a very similar structure to start with, and so we start with this base in terms of the planning side of things. All the city's debt is fixed rate. It's repaid in fixed annual instalments, so it functions like a fixed rate mortgage instalment, not like a credit"
+    "start": 6124.206,
+    "end": 6154.235,
+    "text": "So in our next presentation, we'll talk about the sewer fund that is separate from what this is right here. This is tax-supported debt, which is really the schools, meaning existing debt that you have outstanding for schools and other general city projects. What we see on the screen is both a graph and a table of the existing debt service of the city. We have roughly level payments year over year, and so I think that's similar to maybe your mortgage at home. Most folks will have roughly"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6180.463,
-    "end": 6213.694,
-    "text": "card where you're borrowing for operating costs. When the city borrows money, you're required to only be financing long-term capital investments whereby the loans are repaid over a term that generally is in line with the useful life. If you were financing large building facilities, the city has historically used 20 to 30-year repayment terms. In personal finance, whereby with a mortgage in your home, most folks are financing their home over 20 to 30 years. The city is in generally the"
+    "start": 6154.336,
+    "end": 6186.701,
+    "text": "level payments with their mortgage. The city is a very similar structure to start with, and so we start with this base in terms of the planning side of things. All the city's debt is fixed rate. It's repaid in fixed annual instalments, so it functions like a fixed rate mortgage instalment, not like a credit card where you're borrowing for operating costs. When the city borrows money, you're required to only be financing long-term capital"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6214.95,
-    "end": 6248.296,
-    "text": "same mode in terms of when it's financing these projects. The one other point I'll make on this page is the bullet point in the middle there, the ten-year payout ratio. That's measuring what proportion of the principle, $100 million, is paid over the next decade. That proportion is about 83%. So you as a city, before we start going forward with improvements, we are paying 80% of the principal amount of the outstanding debt over the next ten years. Anything north of greater to 50 to 60% is viewed as favorable, so as we think about the next"
+    "start": 6187.236,
+    "end": 6218.933,
+    "text": "investments whereby the loans are repaid over a term that generally is in line with the useful life. If you were financing large building facilities, the city has historically used 20 to 30-year repayment terms. In personal finance, whereby with a mortgage in your home, most folks are financing their home over 20 to 30 years. The city is in generally the same mode in terms of when it's financing these projects. The one other point I'll make on this page is the bullet point in"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6248.898,
-    "end": 6281.228,
-    "text": "phase of planning, the next phase of investment, you start from a very good position in so far as the existing debt is not pushed out on to the future generations. It's paid off in a very responsible manner. So again, we'll talk about the two components here, the two 22 millions, the first at the top of the page, general government cip projects. So the city over the history at least of our tenure, 25+ years,"
+    "start": 6220.436,
+    "end": 6251.98,
+    "text": "the middle there, the ten-year payout ratio. That's measuring what proportion of the principle, $100 million, is paid over the next decade. That proportion is about 83%. So you as a city, before we start going forward with improvements, we are paying 80% of the principal amount of the outstanding debt over the next ten years. Anything north of greater to 50 to 60% is viewed as favorable, so as we think about the next phase of planning, the next phase of investment, you start"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6281.865,
-    "end": 6314.629,
-    "text": "that general cip has been used to capture again some of the routine annual, whether it's upgrades, improvements, enhancements to both facilities and infrastructure. The component of that cip that is planned to be borrowed for in the upcoming years, planned for a number of years here, it's that first portion of the willard sherwood center in terms of 22 million. The way we would go about doing that is the issuance of what we call public facility revenue bonds."
+    "start": 6252.835,
+    "end": 6283.865,
+    "text": "from a very good position in so far as the existing debt is not pushed out on to the future generations. It's paid off in a very responsible manner. So again, we'll talk about the two components here, the two 22 millions, the first at the top of the page, general government cip projects. So the city over the history at least of our tenure, 25+ years, that general cip has been used"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6315.31,
-    "end": 6347.96,
-    "text": "Those are bonds that you as a city council can authorize moving forward with. They're very commonplace across the commonwealth and certainly the region, and it's also a financing structure that the city has used most recently back in 2023 with a high level of success. And so that's the way that program would move forward. And again, that's the first of the two $22 million of the general government cip. The second, which is highlighted in blue at the bottom of the page, is the school referendum. So the school referendum is a"
+    "start": 6284.834,
+    "end": 6317.533,
+    "text": "to capture again some of the routine annual, whether it's upgrades, improvements, enhancements to both facilities and infrastructure. The component of that cip that is planned to be borrowed for in the upcoming years, planned for a number of years here, it's that first portion of the willard sherwood center in terms of 22 million. The way we would go about doing that is the issuance of what we call public facility revenue bonds. Those are bonds that you as a city council can authorize"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6347.73,
-    "end": 6378.826,
-    "text": "little different in so far as you as a city put that out to the voters. You're a little bit unique in terms of cities in the commonwealth in so far as to issue what are called general obligation bonds. You need a voter referendum. And so that was done in 2024. It approved that roughly $220 million. So those would move forward via genral obligation bonds. Also very common in the commonwealth and across the nation. It's the highest credit quality you can offer in the markets."
+    "start": 6318.501,
+    "end": 6350.498,
+    "text": "moving forward with. They're very commonplace across the commonwealth and certainly the region, and it's also a financing structure that the city has used most recently back in 2023 with a high level of success. And so that's the way that program would move forward. And again, that's the first of the two $22 million of the general government cip. The second, which is highlighted in blue at the bottom of the page, is the school referendum. So the school referendum is a little different in so far as you as a city put that out to"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6380.629,
-    "end": 6411.126,
-    "text": "And so both of these we would expect given your history, given your credit ratings, would receive very favorable follow-through in the credit markets. One other point we'll make here is the way you're able to sell these bonds typically is through a competitive process, so by virtue of those high credit ratings, you're able to sell these bonds competitively such that the institution that provides the lowest rate to the city is the institution that will be awarded those bonds. It's another advantage of the aaa credit ratings."
+    "start": 6350.533,
+    "end": 6382.964,
+    "text": "the voters. You're a little bit unique in terms of cities in the commonwealth in so far as to issue what are called general obligation bonds. You need a voter referendum. And so that was done in 2024. It approved that roughly $220 million. So those would move forward via genral obligation bonds. Also very common in the commonwealth and across the nation. It's the highest credit quality you can offer in the markets. And so both of these we would expect given your history, given"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6411.727,
-    "end": 6444.458,
-    "text": "You can put it out to the broader markets, bid competitively and take the lowest interest rate available. So a couple of our key assumptions here. Again, the repayment terms of these, between 25 and 20 years. Again, you're making very major facility improvements to both schools and other general city facilities, and so the term of these financings over 20 to 25 years is very much in line with anything you're going to be"
+    "start": 6383.933,
+    "end": 6418.199,
+    "text": "your credit ratings, would receive very favorable follow-through in the credit markets. One other point we'll make here is the way you're able to sell these bonds typically is through a competitive process, so by virtue of those high credit ratings, you're able to sell these bonds competitively such that the institution that provides the lowest rate to the city is the institution that will be awarded those bonds. It's another advantage of the aaa credit ratings. You can put it out to the broader markets, bid competitively and take the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6444.76,
-    "end": 6477.759,
-    "text": "doing or your neighbors and peers would be doing for major facility improvements that will last multiple generations. In the planning, we've assumed a 5% planning rate. You've seen that in the past. Today's market, even the rates have moved up a little bit last month given the events in the world, we're still well below that 5% planning rate, so we've tried to err on the conservative side in that planning. We're probably around 4% in the current market, but we try to build some level of conservatism into those planning estimates"
+    "start": 6421.57,
+    "end": 6453.467,
+    "text": "lowest interest rate available. So a couple of our key assumptions here. Again, the repayment terms of these, between 25 and 20 years. Again, you're making very major facility improvements to both schools and other general city facilities, and so the term of these financings over 20 to 25 years is very much in line with anything you're going to be doing or your neighbors and peers would be doing for major facility improvements that will last multiple generations."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6478.327,
-    "end": 6510.58,
-    "text": "knowing we don't control rates, but they are very much favorable, even given the events of the last month or so. Fourth bullet point here. And again, this all goes into your budget planning process. Both of these bond issuances have been planned for and the payments on them have been planned in your proposed 2027 budget. So as you're deliberating that 2027 budget, the basically payment structure has been built into those proposals and so as we think about talking to the rating agencies and moving forward, that continuity of"
+    "start": 6453.969,
+    "end": 6486.334,
+    "text": "In the planning, we've assumed a 5% planning rate. You've seen that in the past. Today's market, even the rates have moved up a little bit last month given the events in the world, we're still well below that 5% planning rate, so we've tried to err on the conservative side in that planning. We're probably around 4% in the current market, but we try to build some level of conservatism into those planning estimates knowing we don't control rates, but they are very much favorable, even given the events of the last month or so. Fourth bullet point here."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6510.593,
-    "end": 6540.988,
-    "text": "being able to describe to the investors, to the agencies, we have a known source of repayment for the two bond issuances. That's obviously very important. This page here just showing our long-term interest rates. I mentioned this previously. We continue to be in a very favorable position. when the city borrows, you're borrowing on a fixed rate basis and the ability to bid that competitively means you'll get the lowest interest rate"
+    "start": 6486.969,
+    "end": 6519.266,
+    "text": "And again, this all goes into your budget planning process. Both of these bond issuances have been planned for and the payments on them have been planned in your proposed 2027 budget. So as you're deliberating that 2027 budget, the basically payment structure has been built into those proposals and so as we think about talking to the rating agencies and moving forward, that continuity of being able to describe to the investors, to the agencies, we have a known source of repayment for the two bond issuances."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6542.292,
-    "end": 6575.289,
-    "text": "available in the marketplace on the day of the sale. As we move to this slide on page 14, we're really showing how the different components fit together. This dark green bar is the existing city debt service before you add anything new. And then the light green and the light blue is simply adding the payments on the public facility revenue bonds, that willard sherwood portion in green. And then the blue component is the first phase of those school bonds. You see how that layers in"
+    "start": 6522.71,
+    "end": 6553.201,
+    "text": "That's obviously very important. This page here just showing our long-term interest rates. I mentioned this previously. We continue to be in a very favorable position. when the city borrows, you're borrowing on a fixed rate basis and the ability to bid that competitively means you'll get the lowest interest rate available in the marketplace on the day of the sale. As we move to this slide on page 14, we're really showing how the different components fit together."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6575.558,
-    "end": 6607.69,
-    "text": "basically roughly level payments. We will note as you get out about eight, ten years, we do start to see some additional decline, and so again there's always going to be another round of projects. That's the nature of running a capital infrastructure-heavy city, so you as a city are planning for whatever that next round MAY be in so far as you have decline that will come into the future. On slide 15, as we think about the planning, we've mentioned this with both the rating"
+    "start": 6553.669,
+    "end": 6584.265,
+    "text": "This dark green bar is the existing city debt service before you add anything new. And then the light green and the light blue is simply adding the payments on the public facility revenue bonds, that willard sherwood portion in green. And then the blue component is the first phase of those school bonds. You see how that layers in basically roughly level payments. We will note as you get out about eight, ten years, we do start to see some additional decline, and so again there's always going to be another round"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6607.99,
-    "end": 6639.821,
-    "text": "agencies and the credibility and the credit markets. You as a city have done a very good job of having that multiyear plan in place very what this is really showing is how do we compare with the multi-year plan to the city's various policies. and so we've looked at this in the past. On the left-hand side is our debt service versus expenditures policy. That's really a measurement of how many pennies out of every dollar in the budget are going to make a debt service payment and the recommendation with this budget cycle is to move that up"
+    "start": 6584.767,
+    "end": 6615.996,
+    "text": "of projects. That's the nature of running a capital infrastructure-heavy city, so you as a city are planning for whatever that next round MAY be in so far as you have decline that will come into the future. On slide 15, as we think about the planning, we've mentioned this with both the rating agencies and the credibility and the credit markets. You as a city have done a very good job of having that multiyear plan in place very"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6641.791,
-    "end": 6674.29,
-    "text": "to that roughly 14% range to recognize that you're in a cycle of reinvestment in the city and your capital infrastructure both in schools and other city facilities. And so to have our policy reflect that but also make sure it is in line with good governance and what we expect the rating agencies will be acceptable to the rating agencies. What you see on that graph, when we layer in the existing debt service with the two $22 million issuances, we stay well below that 14 million."
+    "start": 6616.98,
+    "end": 6648.762,
+    "text": "what this is really showing is how do we compare with the multi-year plan to the city's various policies. and so we've looked at this in the past. On the left-hand side is our debt service versus expenditures policy. That's really a measurement of how many pennies out of every dollar in the budget are going to make a debt service payment and the recommendation with this budget cycle is to move that up to that roughly 14% range to recognize that you're in a cycle of reinvestment in the city and your capital infrastructure both"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6675.591,
-    "end": 6706.588,
-    "text": "As an additional bite at the apple, if you will, in terms of this next round of capital funding, you have plenty of capacity relative to those ratios. We know on a going forward basis, there are certainly additional series to be added in, so we'll watch that on an annual basis, but for purposes of taking the initial bite of the apple here in terms of willard sherwood and the schools, we have plenty of capacity relative to those updated ratios. That goes to say also on the right-hand side, debt to assessed value, again all of this part and parcel of the"
+    "start": 6648.798,
+    "end": 6680.862,
+    "text": "in schools and other city facilities. And so to have our policy reflect that but also make sure it is in line with good governance and what we expect the rating agencies will be acceptable to the rating agencies. What you see on that graph, when we layer in the existing debt service with the two $22 million issuances, we stay well below that 14 million. As an additional bite at the apple, if you will, in terms of this next round of capital funding, you have plenty of"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6706.589,
-    "end": 6737.217,
-    "text": "planning that's been done to make sure to recognize we're in this capital reinvestment cycle. We did want to provide what update that maybe we know for the moment. We know you as a city have been watching this and talking about it for a while here in terms of the local option sales tax. That additional up to 1% that we are hopeful and optimistic would be put into the general assembly"
+    "start": 6681.496,
+    "end": 6716.497,
+    "text": "capacity relative to those ratios. We know on a going forward basis, there are certainly additional series to be added in, so we'll watch that on an annual basis, but for purposes of taking the initial bite of the apple here in terms of willard sherwood and the schools, we have plenty of capacity relative to those updated ratios. That goes to say also on the right-hand side, debt to assessed value, again all of this part and parcel of the planning that's been done to make sure to recognize we're in this capital reinvestment cycle."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6737.453,
-    "end": 6773.21,
-    "text": "session in the budget is what we understand. It MAY be incorporated in. We don't know that yet. But what we hear is that in the APRIL time frame with the state budgeted option, we should know more and certainly we're hopefully going to see the flexibility and the option for you as a city to move forward with that additional 1% sales tax. That certainly could go a long way towards funding the schools projects like we've talked about. We don't know that for certain right now, but we're watching that closely with the state and are optimistic for the moment."
+    "start": 6718.167,
+    "end": 6749.432,
+    "text": "We did want to provide what update that maybe we know for the moment. We know you as a city have been watching this and talking about it for a while here in terms of the local option sales tax. That additional up to 1% that we are hopeful and optimistic would be put into the general assembly session in the budget is what we understand. It MAY be incorporated in. We don't know that yet. But what we hear is that in the APRIL time frame with the state budgeted option, we should know"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6773.889,
-    "end": 6807.22,
-    "text": "It's not within our come, control, but we hear positive things in terms of what's going on at the state and hope that would be within legislation passed by the general assembly or the governor's budget. So our next steps and I'm certainly to happy any questions, mayor, council, that you have, but we're really here with an update for you. The plan would be at your APRIL 28th meeting, and so just next month, you'd be taking various actions both on the budget and on these various bond"
+    "start": 6750.833,
+    "end": 6783.64,
+    "text": "more and certainly we're hopefully going to see the flexibility and the option for you as a city to move forward with that additional 1% sales tax. That certainly could go a long way towards funding the schools projects like we've talked about. We don't know that for certain right now, but we're watching that closely with the state and are optimistic for the moment. It's not within our come, control, but we hear positive things in terms of what's going on at the state and hope that would be within legislation passed by the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6807.656,
+    "start": 6783.132,
+    "end": 6815.597,
+    "text": "general assembly or the governor's budget. So our next steps and I'm certainly to happy any questions, mayor, council, that you have, but we're really here with an update for you. The plan would be at your APRIL 28th meeting, and so just next month, you'd be taking various actions both on the budget and on these various bond issues, meaning the general obligation bonds for the schools and the public facility bonds for willard sherwood. Those would be the last actions"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 6815.898,
     "end": 6838.887,
-    "text": "issues, meaning the general obligation bonds for the schools and the public facility bonds for willard sherwood. Those would be the last actions we would need of city council and then we'd work over the spring likely into the summertime to both see the credit ratings agencies, update those credit ratings, and be into the marketplace to secure those financing spring into summer, dependent a little bit upon activities of the state and certainly with your budget cycle. So with that, happy to stop there, answer any questions that"
+    "text": "we would need of city council and then we'd work over the spring likely into the summertime to both see the credit ratings agencies, update those credit ratings, and be into the marketplace to secure those financing spring into summer, dependent a little bit upon activities of the state and certainly with your budget cycle. So with that, happy to stop there, answer any questions that"
   },
   {
     "speaker": "Unknown Speaker",
     "start": 6839.955,
-    "end": 6870.819,
-    "text": "you MAY have. >> thank you for the presentation. Council member peterson. just a quick question or two. I know there'll be others. If you go to slide 8, if I'm correct, this looks like it's based on information from a year ago, a little bit more than a year ago, JANUARY 24, 2025. >> that's right. we've had some changes in the region, pretty widely documented, reductions in"
+    "end": 6844.125,
+    "text": "you MAY have. thank you for the presentation. Council member peterson."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6870.887,
-    "end": 6900.915,
-    "text": "employment, reductions in growth, population growth. But reductions in economic growth and projections forward. There's some debate about how long and how much but significant. They are a little different than what we see here in terms of the credit overview in your first paragraph here that is I think in text that would be aligned more clearly with conditions a year and something ago rather than right now."
+    "start": 6844.66,
+    "end": 6858.739,
+    "text": "just a quick question or two. I know there'll be others. If you go to slide 8, if I'm correct, this looks like it's based on information from a year ago, a little bit more than a"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6902.485,
-    "end": 6933.649,
-    "text": "what effect does this change in conditions that we're experiencing and expected to have, how does that affect any of this. so it certainly can have an effect. Our observation, again working with many of your neighbors over the course of the last year, is the agencies really want to see the actual impact in your financials. Certainly there's been a lot of headlines in news and expectations, but they don't tend to be looking forward and making too many guesses along what impacts MAY be."
+    "start": 6863.12,
+    "end": 6864.879,
+    "text": "year ago, JANUARY 24, 2025. that's right."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6934.517,
-    "end": 6965.112,
-    "text": "They really want to see the actual results occur within both financial results, economic results, so forth and so on. Your sales tax and so forth. And so we've not seen any negative actions in the agencies, even given any of your neighbors and peers so far. They're going to ask some questions around it to understand what the conditions on the ground are, so to speak, but I think what we tend to see are the financial state of most"
+    "start": 6865.848,
+    "end": 6897.545,
+    "text": "we've had some changes in the region, pretty widely documented, reductions in employment, reductions in growth, population growth. But reductions in economic growth and projections forward. There's some debate about how long and how much but significant. They are a little different than what we see here in terms of the credit overview in your first paragraph here that is I think in text that would be aligned more clearly with conditions a"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6966.414,
-    "end": 6998.947,
-    "text": "of your peers continues to be solid. Nowhere near as robust as a couple years ago, but most of the agencies try to look through cycles, so they'll want to understand what are your plans for managing an economy that MAY be a little bit different than it was a couple years ago. They'll want to see and understand how well are we maintaining our fund balances relative to our peers and relative to our policies. So things like that. but I think generally speaking, the agencies do not tend to sort of hypothesize too much around"
+    "start": 6898.8,
+    "end": 6910.92,
+    "text": "year and something ago rather than right now. what effect does this change in conditions that we're experiencing and expected to have, how does that affect any of this."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 6999.849,
-    "end": 7033.515,
-    "text": "what various headlines MAY have in terms of an impact. They really tend to want to see what the real data looks like and so far there's been slowing or softening or levelling off after the very, very robust post-pandemic years no doubt. Those were the changes going on. But they tend to really be focused on what the data on the ground is. thank you, very helpful. My next question is I think slide 11."
+    "start": 6911.26,
+    "end": 6941.555,
+    "text": "so it certainly can have an effect. Our observation, again working with many of your neighbors over the course of the last year, is the agencies really want to see the actual impact in your financials. Certainly there's been a lot of headlines in news and expectations, but they don't tend to be looking forward and making too many guesses along what impacts MAY be. They really want to see the actual results occur within both financial results, economic"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7034.616,
-    "end": 7067.615,
-    "text": "And two different types of bonds here. The comment I think you made was along the lines of needing to identify a source of payments for those. And there are two different types of bonds here that are referenced, general obligation and public facility revenue bonds. I'm curious to know how far along we are at actually identifying a source of repayments for the public facility revenue bonds? And to understand that mechanism"
+    "start": 6942.758,
+    "end": 6975.623,
+    "text": "results, so forth and so on. Your sales tax and so forth. And so we've not seen any negative actions in the agencies, even given any of your neighbors and peers so far. They're going to ask some questions around it to understand what the conditions on the ground are, so to speak, but I think what we tend to see are the financial state of most of your peers continues to be solid. Nowhere near as robust as a couple years ago, but most of the agencies try to look through cycles, so they'll want to understand what are your plans"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7069.585,
-    "end": 7103.151,
-    "text": "maybe a little bit more clearly also in contrast to the general obligation bond. >> that's a great question, council member, and I think there's been some discussions internally and externally as well regarding that. Let me open up with this and we can definitely dive into it and give you some other examples as well. In 1991, there was a dikes v. Virginia transportation commission decision, upheld the virginia localities to issue"
+    "start": 6976.727,
+    "end": 7007.288,
+    "text": "for managing an economy that MAY be a little bit different than it was a couple years ago. They'll want to see and understand how well are we maintaining our fund balances relative to our peers and relative to our policies. So things like that. but I think generally speaking, the agencies do not tend to sort of hypothesize too much around what various headlines MAY have in terms of an impact. They really tend to want to see what the real data looks like"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7103.452,
-    "end": 7133.681,
-    "text": "certain types of debt, specifically revenue bonds without requiring voter approval through a referendum. The supreme court of virginia found that because these bonds were not backed by the full faith and credit of the locality and don't legally obligate taxpayer funds, they did not constitute debt under the constitutional provisions. This decision reinforced a long standing allowing local governments to finance"
+    "start": 7008.57,
+    "end": 7025.706,
+    "text": "and so far there's been slowing or softening or levelling off after the very, very robust post-pandemic years no doubt. Those were the changes going on. But they tend to really be focused on what the data on the ground is."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7134.15,
-    "end": 7167.614,
-    "text": "infrastructure and public projects with more flexibility. As a result, the ruling reaffirmed that non-general obligation debt can be issued administratively without direct voter approval. I got that directly from our bond attorney, our bond counsel who with davenport has been helping the city for over 25 years, and it's my understanding his law firm was a part of that litigation and defended the representative during the supreme court case in virginia."
+    "start": 7027.276,
+    "end": 7059.473,
+    "text": "thank you, very helpful. My next question is I think slide 11. And two different types of bonds here. The comment I think you made was along the lines of needing to identify a source of payments for those. And there are two different types of bonds here that are referenced, general obligation and public facility revenue bonds. I'm curious to know how far along we are at actually"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7170.219,
-    "end": 7200.448,
-    "text": "And additionally, we had a conversation with davenport over the last 24 years. The city has issued 27 original debt financing consisting of 24 non-referendum or about 90%. And about three of them have been referendum or demonstrating a strong and consistent resistance on nonreferendum capital funding. Happy to go into more detail and"
+    "start": 7061.143,
+    "end": 7076.29,
+    "text": "identifying a source of repayments for the public facility revenue bonds? And to understand that mechanism maybe a little bit more clearly also in contrast to the general"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7200.75,
+    "start": 7078.694,
+    "end": 7109.625,
+    "text": "obligation bond. that's a great question, council member, and I think there's been some discussions internally and externally as well regarding that. Let me open up with this and we can definitely dive into it and give you some other examples as well. In 1991, there was a dikes v. Virginia transportation commission decision, upheld the virginia localities to issue certain types of debt, specifically revenue bonds without requiring voter approval through a referendum."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 7109.825,
+    "end": 7140.755,
+    "text": "The supreme court of virginia found that because these bonds were not backed by the full faith and credit of the locality and don't legally obligate taxpayer funds, they did not constitute debt under the constitutional provisions. This decision reinforced a long standing allowing local governments to finance infrastructure and public projects with more flexibility. As a result, the ruling reaffirmed that non-general"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 7142.625,
+    "end": 7173.54,
+    "text": "obligation debt can be issued administratively without direct voter approval. I got that directly from our bond attorney, our bond counsel who with davenport has been helping the city for over 25 years, and it's my understanding his law firm was a part of that litigation and defended the representative during the supreme court case in virginia. And additionally, we had a conversation with davenport over the last 24 years."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 7174.924,
+    "end": 7204.885,
+    "text": "The city has issued 27 original debt financing consisting of 24 non-referendum or about 90%. And about three of them have been referendum or demonstrating a strong and consistent resistance on nonreferendum capital funding. Happy to go into more detail and overview and position of the state and davenport talk more."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 7205.488,
     "end": 7236.651,
-    "text": "overview and position of the state and davenport talk more. and piggyback on the repayment source, the repayment source in either situation is really the city council and your budget and the debt service budget. Whether it's a general obligation bond which is the one mechanism to borrow money or the public facility revenue bonds that is another mechanism to borrow the money and the rating source is really the budget of the city. That's where that planning"
+    "text": "and piggyback on the repayment source, the repayment source in either situation is really the city council and your budget and the debt service budget. Whether it's a general obligation bond which is the one mechanism to borrow money or the public facility revenue bonds that is another mechanism to borrow the money and the rating source is really the budget of the city. That's where that planning"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1264,242 +1684,380 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 7271.21,
-    "end": 7301.982,
-    "text": "proposed '27 budget has the payments for both the 22 million frb's and the 22 million general obligation bonds built in there. if I understand it correctly, even though the public facility bonds are sometimes called revenue bonds, short handedly, even though called that and not a case there is a requirement to have earmark set of revenues"
+    "end": 7281.328,
+    "text": "proposed '27 budget has the payments for both the 22 million frb's and the 22 million general obligation bonds built in there."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7302.351,
-    "end": 7335.683,
-    "text": "that are independent of general fund. For instance, gate receipts and things like that, we don't have that requirement. We have flexibility. >> that's correct. I think when we get to the second presentation we'll talk about what true revenue bonds. Meanwhiling talk about that in the second presentation but these public facility revenue bonds, you are correc there is not a requirement that you have earmarked revenue stream to pay theory -- for those. And a requirement that you have"
+    "start": 7284.433,
+    "end": 7307.155,
+    "text": "if I understand it correctly, even though the public facility bonds are sometimes called revenue bonds, short handedly, even though called that and not a case there is a requirement to have earmark set of revenues that are independent of general fund. For instance, gate receipts and things like that, we don't have that requirement."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7338.521,
-    "end": 7369.383,
-    "text": "the dollars in the general fund dedicated to make the payments and different from the revenue bonds talk about in the sewer in a minute. and I guess the follow-up question for a public facility revenue bond, a referendum is not required. And parenthetically I understand that 95 counties have requirements for general obligation referendum but the 38 cities in the state do not. And setting that aside, if a"
+    "start": 7307.89,
+    "end": 7340.521,
+    "text": "We have flexibility. that's correct. I think when we get to the second presentation we'll talk about what true revenue bonds. Meanwhiling talk about that in the second presentation but these public facility revenue bonds, you are correc there is not a requirement that you have earmarked revenue stream to pay theory -- for those. And a requirement that you have the dollars in the general fund"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7369.685,
-    "end": 7400.748,
-    "text": "local government does conduct a referendum, does that mean that the public facility revenue bonds are counted against debt? Whereas they would not be if there is no referendum? I think the -- so there is two different concepts there. As we talk about -- because we looked at that graph earlier and flip to the debt ratio graph."
+    "start": 7340.89,
+    "end": 7346.528,
+    "text": "dedicated to make the payments and different from the revenue bonds talk about in the sewer in a minute."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7401.984,
-    "end": 7434.481,
-    "text": "As we as your advisory and look at bonds and the rating agencies are looking at those two. And they're looking at both of those and we look at those as debt. Meaning we borrow dollars and repaid over time and plan for it that way and as you look the ratios and count as dollars paid over time with interest. And the nuance going with this and certain definitions within"
+    "start": 7347.463,
+    "end": 7380.562,
+    "text": "and I guess the follow-up question for a public facility revenue bond, a referendum is not required. And parenthetically I understand that 95 counties have requirements for general obligation referendum but the 38 cities in the state do not. And setting that aside, if a local government does conduct a referendum, does that mean that the public facility revenue bonds are counted against debt? Whereas they would not be if"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7435.751,
-    "end": 7467.614,
-    "text": "the state code whereby debt is defined differently and state code debt versus lease obligation. There is a nuance there but for practical day-to-day operations and how credit markets look at it and ratios and whether you call it prp and general obligation bond it's money that you borrowed and repay over time planned for and showed in ratios. sorry to belabor it, I appreciate that and point of"
+    "start": 7383.65,
+    "end": 7385.65,
+    "text": "there is no referendum?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7468.517,
-    "end": 7500.148,
-    "text": "clarity that I'm after is just understanding theoretically hypothetically, if we were any other city was to do a referendum on a project. Using one of the project facility mechanisms, is that going to impact the city's credit ratings in a way that general obligation fund would not? >> no. okay, so there is no price to be paid if you will doing a referendum in terms of impact on"
+    "start": 7386.469,
+    "end": 7419.634,
+    "text": "I think the -- so there is two different concepts there. As we talk about -- because we looked at that graph earlier and flip to the debt ratio graph. As we as your advisory and look at bonds and the rating agencies are looking at those two. And they're looking at both of those and we look at those as debt. Meaning we borrow dollars and repaid over time and plan for it"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7500.282,
-    "end": 7531.145,
-    "text": "your credit rating. correct, and every time that we talk to the rating agencies that we do in the spring and summer. And the legal mechanism to access the credit markets and the legal mechanism authorized is different, again they will look at that as a loan, that is a loan you have taken out as a city and obligated to repay it. Technically the general"
+    "start": 7422.605,
+    "end": 7455.537,
+    "text": "that way and as you look the ratios and count as dollars paid over time with interest. And the nuance going with this and certain definitions within the state code whereby debt is defined differently and state code debt versus lease obligation. There is a nuance there but for practical day-to-day operations and how credit markets look at it and ratios and whether you call it prp and general obligation bond it's money that"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7532.716,
-    "end": 7562.943,
-    "text": "obligation bonds have a legal obligation to repay that service. And technically an expecting to make good to the payments regardless if go-bond or repaid. councilmember peterson,"
+    "start": 7457.73,
+    "end": 7461.508,
+    "text": "you borrowed and repay over time planned for and showed in ratios."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7562.945,
+    "start": 7463.58,
+    "end": 7488.102,
+    "text": "sorry to belabor it, I appreciate that and point of clarity that I'm after is just understanding theoretically hypothetically, if we were any other city was to do a referendum on a project. Using one of the project facility mechanisms, is that going to impact the city's"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 7490.439,
+    "end": 7493.408,
+    "text": "credit ratings in a way that general obligation fund would not? no."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 7494.61,
+    "end": 7502.282,
+    "text": "okay, so there is no price to be paid if you will doing a referendum in terms of impact on your credit rating."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 7502.651,
+    "end": 7534.716,
+    "text": "correct, and every time that we talk to the rating agencies that we do in the spring and summer. And the legal mechanism to access the credit markets and the legal mechanism authorized is different, again they will look at that as a loan, that is a loan you have taken out as a city and obligated to repay it. Technically the general obligation bonds have a legal"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 7535.17,
+    "end": 7557.105,
+    "text": "obligation to repay that service. And technically an expecting to make good to the payments regardless if go-bond or repaid."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 7560.943,
     "end": 7593.607,
-    "text": "correct it does not affect our rating. Issuing a referendum or not, there is a defined time frame when referendum is approved and debt issue. Eight years is typically what the range is with a typical two-year extension that you get the circuit court involved to ask two years before that. And that is the window that is established and because we are"
+    "text": "councilmember peterson, correct it does not affect our rating. Issuing a referendum or not, there is a defined time frame when referendum is approved and debt issue. Eight years is typically what the range is with a typical two-year extension that you get the circuit court involved to ask two years before that. And that is the window that is established and because we are"
   },
   {
     "speaker": "Unknown Speaker",
     "start": 7594.643,
-    "end": 7628.51,
-    "text": "talking about sherwood and at year 12 and issued referendum at the beginning stages of that and would be abutting against that eight-ten year mark now for consideration. and to MR. Martinez's point, what the pfrb process tends to give you as a flexibility as a city. So they're able to be authorized by action of city council so what you as a city have historically done and same with"
+    "end": 7607.688,
+    "text": "talking about sherwood and at year 12 and issued referendum at the beginning stages of that and would be abutting against that eight-ten year mark now for consideration."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7630.245,
-    "end": 7660.275,
-    "text": "cities and counties and your charter requirements tend to resemble a county than a city. What those pfrb's give is flexibility and as a city council you can have multiple projects together and to jc's point you can issue when you need and when it makes sense. And you can bundle multiple projects together. Just so happens that this planned fy27 is for a singular project."
+    "start": 7609.625,
+    "end": 7641.622,
+    "text": "and to MR. Martinez's point, what the pfrb process tends to give you as a flexibility as a city. So they're able to be authorized by action of city council so what you as a city have historically done and same with cities and counties and your charter requirements tend to resemble a county than a city. What those pfrb's give is"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7661.911,
-    "end": 7692.272,
-    "text": "But as you look back in history and what is oftentimes done given the nature of the projects in a given year. You are bundling multiple things together. You are able to go out with a single issuance and say, make up hypothetical examples and do repairs to buildings and new police station and need equipment. And able to bundle some projects together at the discretion of city council and staff."
+    "start": 7642.658,
+    "end": 7673.755,
+    "text": "flexibility and as a city council you can have multiple projects together and to jc's point you can issue when you need and when it makes sense. And you can bundle multiple projects together. Just so happens that this planned fy27 is for a singular project. But as you look back in history and what is oftentimes done given the nature of the projects in a given year. You are bundling multiple things together. You are able to go out with a"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7692.875,
-    "end": 7727.275,
-    "text": "That pfrb process that is subject to appropriation debt is given to you and your neighbors and peers across the state, more flexibility to manage more routine type of projects that are typically found in cip on year-to-year basis. The general obligation referendum approved projects tend to be over the years larger generational things. Typically schools and city hall many years ago that's usually the way that the city has operated historically."
+    "start": 7676.93,
+    "end": 7709.758,
+    "text": "single issuance and say, make up hypothetical examples and do repairs to buildings and new police station and need equipment. And able to bundle some projects together at the discretion of city council and staff. That pfrb process that is subject to appropriation debt is given to you and your neighbors and peers across the state, more flexibility to manage more routine type of projects that are typically found in cip on year-to-year basis."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7728.911,
-    "end": 7760.709,
-    "text": "Hereby that schools is your single capital need and very much a generational in terms of the timing that it takes and the scope of the overall project. That is typically over the last 25-30 years what has gone to the referendum. And pfrb or lease revenue bonds, different names at different times, those are tend to be used on an annual basis for routine annual type of capital projects that oftentimes you want and need flexibility on what types"
+    "start": 7711.527,
+    "end": 7741.99,
+    "text": "The general obligation referendum approved projects tend to be over the years larger generational things. Typically schools and city hall many years ago that's usually the way that the city has operated historically. Hereby that schools is your single capital need and very much a generational in terms of the timing that it takes and the scope of the overall project. That is typically over the last"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7762.344,
-    "end": 7794.7,
-    "text": "of projects done and when done and so forth and so on. Hopefully more color to it. >> councilmember hardy-chandler. thank you I think you are starting to answer the question that I am go to ask and that common approach regionally and I% believe that I heard you mention that there are other examples and mentioned specifically something that was instituted in"
+    "start": 7742.692,
+    "end": 7769.516,
+    "text": "25-30 years what has gone to the referendum. And pfrb or lease revenue bonds, different names at different times, those are tend to be used on an annual basis for routine annual type of capital projects that oftentimes you want and need flexibility on what types of projects done and when done and so forth and so on."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7794.744,
-    "end": 7828.342,
-    "text": "our city in 2023, and you followed that with success. And I am wondering if you can speak more about that. certainly, the last time that the city borrowed for its general cip, in the public credit markets via these public facility revenue bonds was in 2023. I guess it is 2026, time flies. But in relatively recent history you've used the exact same approach that we are talking about now, with very good"
+    "start": 7770.786,
+    "end": 7773.355,
+    "text": "Hopefully more color to it. councilmember hardy-chandler."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7829.979,
-    "end": 7860.107,
-    "text": "success in the public credit markets. And point being last financing as a city, you employed and used those public facility revenue bonds with success. What I mean by that, you affirmed the aaa ratings in the process. We bid though bonds competitively and lots of follow through, meaning lots of bidders for the bonds themselves and you were able to use those proceeds flexible. So far as available for the city"
+    "start": 7774.69,
+    "end": 7800.415,
+    "text": "thank you I think you are starting to answer the question that I am go to ask and that common approach regionally and I% believe that I heard you mention that there are other examples and mentioned specifically something that was instituted in our city in 2023, and you followed that with success. And I am wondering if you can speak more about that."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7860.509,
-    "end": 7892.407,
-    "text": "council and working with professional staff to help fund the variety of capital needs that you have within the city. >> councilmember hall. thank you, I have a couple of questions. I think that councilmember peterson hit on a lot of mine, I have less than anticipated. On page 7 -- is this on, yeah, on page 7 and the comments here it says following the issuance of 2025 bonds and long-term liabilities represent manageable 180% of revenue but will"
+    "start": 7801.484,
+    "end": 7834.448,
+    "text": "certainly, the last time that the city borrowed for its general cip, in the public credit markets via these public facility revenue bonds was in 2023. I guess it is 2026, time flies. But in relatively recent history you've used the exact same approach that we are talking about now, with very good success in the public credit markets. And point being last financing"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7893.576,
-    "end": 7925.373,
-    "text": "increase in the coming years. And the credit challenge list fund balance and le iquidity are below aaa medians and can you comment if we anticipate that aaa bond rating drop to put us in a different situation credit this time around. >> that specific quote what they are talking about is your fund balance. that if you recall from past presentations and we don't have"
+    "start": 7835.685,
+    "end": 7865.345,
+    "text": "as a city, you employed and used those public facility revenue bonds with success. What I mean by that, you affirmed the aaa ratings in the process. We bid though bonds competitively and lots of follow through, meaning lots of bidders for the bonds themselves and you were able to use those proceeds flexible. So far as available for the city council and working with professional staff to help fund the variety of capital needs"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7925.841,
-    "end": 7958.639,
-    "text": "a graph for that tonight. One of the single best ways to help counteract the need to go borrow and increase the debt load is to make sure that you have a strong fund balance. If you go back 10-15 years ago you as a city have a lower fund balance. And collectively the city council and professional staff have moved that fund balance up to help compensate for the fact that you are planning to take"
+    "start": 7867.983,
+    "end": 7870.285,
+    "text": "that you have within the city. councilmember hall."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7960.976,
-    "end": 7993.207,
-    "text": "out multiple borrowings. And talking about the fund balance and the counter balance that you have a need to borrow in the future. What is important about that this fiscal year and future fiscal years making sure that fund balance is as strong as you can make it. you are working on that. and to add in detail and councilmember hall you remember this better than myself at times, we did not -- say that one"
+    "start": 7872.88,
+    "end": 7905.588,
+    "text": "thank you, I have a couple of questions. I think that councilmember peterson hit on a lot of mine, I have less than anticipated. On page 7 -- is this on, yeah, on page 7 and the comments here it says following the issuance of 2025 bonds and long-term liabilities represent manageable 180% of revenue but will increase in the coming years. And the credit challenge list fund balance and le iquidity are"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 7993.943,
-    "end": 8027.6,
-    "text": "more time did not issue 2025 bonds. The previous council ready to do it and last year as you recall during budget deliberations we held and did not issue bonds. We had the authority and that authority expired, those would be for willow sherwood, where we are now and redoing this process. As MR. Luxen mentioned that our current balance is 17.7, and dropped from 18% the previous year and working on maintaining"
+    "start": 7909.258,
+    "end": 7916.865,
+    "text": "below aaa medians and can you comment if we anticipate that aaa bond rating drop to put us in a different situation credit"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8027.743,
-    "end": 8059.873,
-    "text": "and grow that and as kyle mentioned we have grown as a city up to 15. And we have been healthy and been above 15 for three or four years now. thank you, and yes we did not issue debt. You are correct. There's another statement down here at the bottom, increase in long-term liabilities nearing 350% of revenue. Factors that could lead to downgrade. Recognizing that we didn't issue debt in '25, do we still have that concern -- not doing the math in my head right now."
+    "start": 7916.899,
+    "end": 7947.962,
+    "text": "this time around. that specific quote what they are talking about is your fund balance. that if you recall from past presentations and we don't have a graph for that tonight. One of the single best ways to help counteract the need to go borrow and increase the debt load is to make sure that you have a strong fund balance. If you go back 10-15 years ago you as a city have a lower fund balance. And collectively the city"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8060.42,
-    "end": 8093.608,
-    "text": "When saying nearing 350% of revenue, does that include the full school bond as well as the full willard sherwood? >> correct. we're not near that level now and why you as a city and looking at this annually, watching it, monitoring it and so forth and so on. You are ways away from that ratio now but again where that planning goes into the ratios. And this 22 million and the other 22 million did not push to that level. >> thank you."
+    "start": 7948.964,
+    "end": 7978.76,
+    "text": "council and professional staff have moved that fund balance up to help compensate for the fact that you are planning to take out multiple borrowings. And talking about the fund balance and the counter balance that you have a need to borrow in the future. What is important about that this fiscal year and future fiscal years making sure that fund balance is as strong as you can make it."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8095.878,
-    "end": 8127.408,
-    "text": "And at the bottom, city dedicated metric per capita rated to similarly rated peers. More information available on that? Or is there a concern? Or just a slight point of rating flex. it's the latter, we can give you a rating -- which we have done in the past. Comparison of that debt per capita, the rating agencies have tended to down play over the years. That per capita measurement doesn't have inflationary impact."
+    "start": 7979.962,
+    "end": 7981.962,
+    "text": "you are working on that."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8129.145,
-    "end": 8160.942,
-    "text": "so you as a smaller city, relatively speaking 24-25,000 people and by nature have higher debt per capita. Again they are looking broadly around both the state and the region and the nation. So they're comparing you to say virginia beach that is also technically a city but 20 times your size. So the latter point and the last point you made was a slight point of clarification. Or a nuance in there and certainly something that we"
+    "start": 7982.631,
+    "end": 8014.996,
+    "text": "and to add in detail and councilmember hall you remember this better than myself at times, we did not -- say that one more time did not issue 2025 bonds. The previous council ready to do it and last year as you recall during budget deliberations we held and did not issue bonds. We had the authority and that authority expired, those would be for willow sherwood, where we are now and redoing this process."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8162.78,
-    "end": 8195.577,
-    "text": "watch and aware of. And at -- a lot has to do with smaller city and capital reinvestment. >> thank you, and just a couple more questions. So I did some research and spoke with jc earlier regarding the go-bonds versus the revenue bonds. And it sounds like because local government, when you look up a regular revenue bond it's very different from a local government bond."
+    "start": 8018.634,
+    "end": 8036.83,
+    "text": "As MR. Luxen mentioned that our current balance is 17.7, and dropped from 18% the previous year and working on maintaining and grow that and as kyle mentioned we have grown as a city up to 15. And we have been healthy and been above 15 for three or four years now."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8197.381,
-    "end": 8235.416,
-    "text": "I only say that for those googling at home or just me, I think that's a point of clarification. What you might read about revenue bonds does not apply to the government market. That was helpful to learn. >> to your point councilmember, we will talk about a common place of revenue bonds in the next presentation. And we have one after this and get to definnive -- definitive and"
+    "start": 8036.152,
+    "end": 8066.38,
+    "text": "thank you, and yes we did not issue debt. You are correct. There's another statement down here at the bottom, increase in long-term liabilities nearing 350% of revenue. Factors that could lead to downgrade. Recognizing that we didn't issue debt in '25, do we still have that concern -- not doing the math in my head right now. When saying nearing 350% of revenue, does that include the full school bond as well as the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8235.718,
-    "end": 8268.382,
-    "text": "the next presentation revenues of sewer fund. Those are finite and distinct and counted for separately. And pledged to the repayment of bonds and sewer. What we are talking about the public facility revenues and the revenue is the general revenues of the city. Not one specific line item. okay, and obviously hope that we bring in revenue. I think I have one more question/comment. If you can go to slide 15, please. I want to point out the 14% with the red line and the 4% on the second chart there. Those are the new policies"
+    "start": 8066.615,
+    "end": 8068.35,
+    "text": "full willard sherwood? correct."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8270.186,
-    "end": 8302.117,
-    "text": "effective JULY 1, if I recall. Or effective immediately? they would be effective JULY 1, fiscal year 20 twefrn. -- 2027. What we adopted in NOVEMBER, and showed what the rates would be when this takes into effect. yeah and I wanted to point out that the debt versus expenditures at 9% and the previous chart 4%. >> 3%. sorry, wrote that down wrong. And I only say that just because"
+    "start": 8068.851,
+    "end": 8087.67,
+    "text": "we're not near that level now and why you as a city and looking at this annually, watching it, monitoring it and so forth and so on. You are ways away from that ratio now but again where that planning goes into the ratios. And this 22 million and the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8305.87,
-    "end": 8336.518,
-    "text": "if we are looking at '27 and see why couldn't have kept at 9% because we are bumping up against that and you assured us that is safe and wholesome and okay with the new policies. correct and with davenport here and extremely conservative. And where we were previously and the numbers here are conservative to the rating agencies and this should not negative impact solely on our rating based off of increasing these."
+    "start": 8090.906,
+    "end": 8107.822,
+    "text": "other 22 million did not push to that level. thank you. And at the bottom, city dedicated metric per capita rated to similarly rated peers. More information available on that? Or is there a concern? Or just a slight point of rating flex."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8338.22,
-    "end": 8374.589,
-    "text": "And last time in new york, DECEMBER of 24 -- 23. We had a conversation with them about increasing these and said as long as you can maintain other things. Sort of that big pie in the earlier presentation. This is one portion of it, the debt side. The larger portion is on fund balance and how we manage the economy, things of that nature. We should be okay. okay, thank you. And you did give us that information, I think went out to the public too what the behind agency"
+    "start": 8108.624,
+    "end": 8139.521,
+    "text": "it's the latter, we can give you a rating -- which we have done in the past. Comparison of that debt per capita, the rating agencies have tended to down play over the years. That per capita measurement doesn't have inflationary impact. so you as a smaller city, relatively speaking 24-25,000 people and by nature have higher debt per capita. Again they are looking broadly around both the state and the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8377.494,
-    "end": 8410.959,
-    "text": "-- bond agencies said. councilmember amos. great presentation and I have one question/comment and talking about trends and updated metrics on how the economy is doing and assessment growth with this budget we are factor or oring as well. And from your perspective and referenced the post-pandemic bom boom and from your perspective when arpa funds issued and localities trying to capitalize"
+    "start": 8140.823,
+    "end": 8171.384,
+    "text": "region and the nation. So they're comparing you to say virginia beach that is also technically a city but 20 times your size. So the latter point and the last point you made was a slight point of clarification. Or a nuance in there and certainly something that we watch and aware of. And at -- a lot has to do with"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8412.162,
-    "end": 8444.158,
-    "text": "on that moving forward and larger enforcement projects MAY not have otherwise. And is that starting to level out now that those funds are extinguishing? I think -- probably two counts up there. One I argue and we're not in economist in that way. But the arpa funds clearly provided a boost to local governments in your terms to go use those. You as a city used those for"
+    "start": 8171.687,
+    "end": 8202.216,
+    "text": "smaller city and capital reinvestment. thank you, and just a couple more questions. So I did some research and spoke with jc earlier regarding the go-bonds versus the revenue bonds. And it sounds like because local government, when you look up a regular revenue bond it's very different from a local government bond. I only say that for those googling at home or just me, I"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8446.561,
-    "end": 8481.128,
-    "text": "capital projects and many cities had to use for operations and most to put in capital investment and have those dollars beneficial to you for years by virtue of doing that. Clearly the arpa dollars came through at the same time period as we saw some value increases and so forth and so on. And those arpa dollars will need to be spent by the end of this calendar year. That clearly is a source of funding for local governments at large. That will be gone at the end of"
+    "start": 8202.284,
+    "end": 8211.392,
+    "text": "think that's a point of clarification. What you might read about revenue bonds does not apply to the government market."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8481.831,
-    "end": 8513.94,
-    "text": "2026 calendar year. councilmember Mcquillen. okay, going back to this -- councilmember hall asked a question regarding also slide 15 and it was in regards to the 180% of revenue and projected to rise for long-term liabilities. My question is, what guardrails do we have in place to prevent us from exceeding our own debt service policy?"
+    "start": 8212.227,
+    "end": 8243.426,
+    "text": "That was helpful to learn. to your point councilmember, we will talk about a common place of revenue bonds in the next presentation. And we have one after this and get to definnive -- definitive and the next presentation revenues of sewer fund. Those are finite and distinct and counted for separately. And pledged to the repayment of"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8514.163,
+    "start": 8243.426,
+    "end": 8252.133,
+    "text": "bonds and sewer. What we are talking about the public facility revenues and the revenue is the general revenues of the city. Not one specific line item."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 8252.902,
+    "end": 8272.921,
+    "text": "okay, and obviously hope that we bring in revenue. I think I have one more question/comment. If you can go to slide 15, please. I want to point out the 14% with the red line and the 4% on the second chart there. Those are the new policies effective JULY 1, if I recall. Or effective immediately?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 8274.156,
+    "end": 8286.801,
+    "text": "they would be effective JULY 1, fiscal year 20 twefrn. -- 2027. What we adopted in NOVEMBER, and showed what the rates would be when this takes into effect."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 8289.505,
+    "end": 8294.308,
+    "text": "yeah and I wanted to point out that the debt versus"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 8295.111,
+    "end": 8297.879,
+    "text": "expenditures at 9% and the previous chart 4%. 3%."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 8299.348,
+    "end": 8318.432,
+    "text": "sorry, wrote that down wrong. And I only say that just because if we are looking at '27 and see why couldn't have kept at 9% because we are bumping up against that and you assured us that is safe and wholesome and okay with the new policies."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 8319.568,
+    "end": 8350.131,
+    "text": "correct and with davenport here and extremely conservative. And where we were previously and the numbers here are conservative to the rating agencies and this should not negative impact solely on our rating based off of increasing these. And last time in new york, DECEMBER of 24 -- 23. We had a conversation with them about increasing these and said as long as you can maintain other things. Sort of that big pie in the earlier presentation."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 8350.733,
+    "end": 8361.576,
+    "text": "This is one portion of it, the debt side. The larger portion is on fund balance and how we manage the economy, things of that nature. We should be okay."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 8361.844,
+    "end": 8379.494,
+    "text": "okay, thank you. And you did give us that information, I think went out to the public too what the behind agency -- bond agencies said."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 8380.162,
+    "end": 8382.162,
+    "text": "councilmember amos."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 8382.898,
+    "end": 8414.363,
+    "text": "great presentation and I have one question/comment and talking about trends and updated metrics on how the economy is doing and assessment growth with this budget we are factor or oring as well. And from your perspective and referenced the post-pandemic bom boom and from your perspective when arpa funds issued and localities trying to capitalize on that moving forward and larger enforcement projects MAY"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 8414.363,
+    "end": 8422.67,
+    "text": "not have otherwise. And is that starting to level out now that those funds are extinguishing?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 8425.542,
+    "end": 8458.372,
+    "text": "I think -- probably two counts up there. One I argue and we're not in economist in that way. But the arpa funds clearly provided a boost to local governments in your terms to go use those. You as a city used those for capital projects and many cities had to use for operations and most to put in capital investment and have those dollars beneficial to you for years by virtue of doing that."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 8458.475,
+    "end": 8483.831,
+    "text": "Clearly the arpa dollars came through at the same time period as we saw some value increases and so forth and so on. And those arpa dollars will need to be spent by the end of this calendar year. That clearly is a source of funding for local governments at large. That will be gone at the end of 2026 calendar year."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 8484.9,
+    "end": 8486.9,
+    "text": "councilmember Mcquillen."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 8488.771,
+    "end": 8516.163,
+    "text": "okay, going back to this -- councilmember hall asked a question regarding also slide 15 and it was in regards to the 180% of revenue and projected to rise for long-term liabilities. My question is, what guardrails do we have in place to prevent us from exceeding our own debt service policy? I know we have them."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 8516.332,
     "end": 8546.394,
-    "text": "I know we have them. yeah and you as an annual because as a city and budget process and we are here more often than that. Routinely looking at what are long-term projections for debt levels given what is in cip. Your guardrails and you had city council adopt policies for years and years and you adhere to those policies. What you see on the screen now as of JULY 1, policies up there. And so those are first and foremost your guardrails and"
+    "text": "yeah and you as an annual because as a city and budget process and we are here more often than that. Routinely looking at what are long-term projections for debt levels given what is in cip. Your guardrails and you had city council adopt policies for years and years and you adhere to those policies. What you see on the screen now as of JULY 1, policies up there. And so those are first and foremost your guardrails and"
   },
   {
     "speaker": "Unknown Speaker",
     "start": 8546.996,
+    "end": 8574.589,
+    "text": "looking at annually as well. You as a city council each and every year you are looking at cip, looking at the budget. Making those adjustments as need be and obviously with professional staff and make those adjustments what is borrowed and what fund balance levels are and so forth and so on. You had adopted policies for a long time, you adhered to those and those serve as first and foremost as guardrails for"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 8576.325,
     "end": 8578.259,
-    "text": "looking at annually as well. You as a city council each and every year you are looking at cip, looking at the budget. Making those adjustments as need be and obviously with professional staff and make those adjustments what is borrowed and what fund balance levels are and so forth and so on. You had adopted policies for a long time, you adhered to those and those serve as first and foremost as guardrails for management. >> excellent."
+    "text": "management. excellent."
   },
   {
     "speaker": "Unknown Speaker",
     "start": 8579.96,
+    "end": 8581.96,
+    "text": "councilmember --"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 8581.697,
     "end": 8613.528,
-    "text": "councilmember -- sorry, just to add on to that. If you remember or note, our budget director comes up every quarter and provides a quarterly update. And one of the comment that is rating agencies really valued because not every locality does that. That's one check in or barometer that happens every few months with council. And additionally the city has briefly exceeded those back in 2010-2012 time frame."
+    "text": "sorry, just to add on to that. If you remember or note, our budget director comes up every quarter and provides a quarterly update. And one of the comment that is rating agencies really valued because not every locality does that. That's one check in or barometer that happens every few months with council. And additionally the city has briefly exceeded those back in 2010-2012 time frame."
   },
   {
     "speaker": "Unknown Speaker",
@@ -1510,128 +2068,170 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 8646.28,
-    "end": 8676.959,
-    "text": "the city's finances and the way that we manage is prudent and I don't see that changing under this manager or time as well. and to MR. Martinez's point the ability show a complete plan plays into that. And going back to that 2010 time period and you did broach a couple of debt policies but a plan and knew that would happen, not a surprise. a capital investment cycle that needed to be done and went up"
+    "end": 8654.17,
+    "text": "the city's finances and the way that we manage is prudent and I don't see that changing under this manager or time as well."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8677.793,
+    "start": 8657.6,
+    "end": 8688.135,
+    "text": "and to MR. Martinez's point the ability show a complete plan plays into that. And going back to that 2010 time period and you did broach a couple of debt policies but a plan and knew that would happen, not a surprise. a capital investment cycle that needed to be done and went up over it and came back down. And show that full path through the whole cycle. A lot has to be able to look not at just this next fiscal year"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 8689.706,
+    "end": 8691.706,
+    "text": "but what it looks like over the"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 8693.443,
     "end": 8708.623,
-    "text": "over it and came back down. And show that full path through the whole cycle. A lot has to be able to look not at just this next fiscal year but what it looks like over the next 5 to 10 years. >> that was my thought process and plenty of capacity and the rate and planned for the rates conservatively. And that makes me feel good and wonder what happens if that's off. You just answered my question, thank you so muc I appreciate"
+    "text": "next 5 to 10 years. that was my thought process and plenty of capacity and the rate and planned for the rates conservatively. And that makes me feel good and wonder what happens if that's off. You just answered my question, thank you so muc I appreciate"
   },
   {
     "speaker": "Unknown Speaker",
     "start": 8710.6,
-    "end": 8742.39,
-    "text": "that and MR. Martinez, appreciate that. >> councilmember bates. thank you, a couple of follow-up questions about the debt service metrics. First off you mentioned with regard to debt service per capita, the size of our jurisdiction, I would imagine that's sort of a reference to the economies of scale and larger jurisdictions might experience and that kind of thing. And also regard to our geographic location, we live in"
+    "end": 8712.727,
+    "text": "that and MR. Martinez, appreciate that. councilmember bates."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8742.558,
-    "end": 8774.455,
-    "text": "the most expensive region of the state. And when we are paying contractors, you know, a lot of them might be based in this area as well. You would say that could impact that as well? yeah, insofar as if you looked at northern virginia broadly versus south side or southwest virginia. It is a much and different economy even if in a different portion of the state. that's where as you look back and back to the pie chart there."
+    "start": 8714.83,
+    "end": 8747.261,
+    "text": "thank you, a couple of follow-up questions about the debt service metrics. First off you mentioned with regard to debt service per capita, the size of our jurisdiction, I would imagine that's sort of a reference to the economies of scale and larger jurisdictions might experience and that kind of thing. And also regard to our geographic location, we live in the most expensive region of the state. And when we are paying"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8775.191,
-    "end": 8807.254,
-    "text": "The rating agencies are looking broadly across the country and even within the state. While our population is maybe on the relatively speaking smaller side, your demographic levels, your income levels are very high relative to other areas of the state and nation. And that gives you a stronger score in demographic things. And unemployment rates tend to be very low and so forth and so on. There are a number of these fact"
+    "start": 8747.262,
+    "end": 8754.269,
+    "text": "contractors, you know, a lot of them might be based in this area as well. You would say that could impact that as well?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8809.158,
-    "end": 8842.957,
-    "text": "factors that play in and bounce off of each other and what you build in fairfax is more expensive in raw dollars that are wise county virginia. But your demographics per the data much stronger than it is in wise county. They take all of those things into account. Never exactly perfect but that generally is their idea in terms of looking across both demographic, debt, finance and management in factors. and debt service relative to revenue, that's something else"
+    "start": 8757.373,
+    "end": 8790.137,
+    "text": "yeah, insofar as if you looked at northern virginia broadly versus south side or southwest virginia. It is a much and different economy even if in a different portion of the state. that's where as you look back and back to the pie chart there. The rating agencies are looking broadly across the country and even within the state. While our population is maybe on the relatively speaking smaller side, your demographic levels,"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8845.428,
-    "end": 8880.294,
-    "text": "that like let's say, you know, we had a higher real estate tax than we do. That means that debt service relative to revenue is not as significant. >> that's right, the greater your base of revenues and the smaller ratio and the smaller the ratio the stronger to debt agencies. >> thank you. other questions at this time? Exceptionally well done, thank you team for another wonderful presentation on our budget. it's not the last one, so"
+    "start": 8790.606,
+    "end": 8822.973,
+    "text": "your income levels are very high relative to other areas of the state and nation. And that gives you a stronger score in demographic things. And unemployment rates tend to be very low and so forth and so on. There are a number of these fact factors that play in and bounce off of each other and what you build in fairfax is more expensive in raw dollars that are wise county virginia. But your demographics per the data much stronger than it is in"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8880.496,
-    "end": 8914.661,
-    "text": "everyone can stay tuned for the next installment as we MARCH to APRIL 28. MS. Shinaberry. continue mayor and councilor on the second part wastewater fund analysis. Same group of individuals as exciting as the first I will add. MR. Mayor -- sorry, MADAM Mayor,"
+    "start": 8822.973,
+    "end": 8838.12,
+    "text": "wise county. They take all of those things into account. Never exactly perfect but that generally is their idea in terms of looking across both demographic, debt, finance and management in factors."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8915.898,
-    "end": 8947.629,
-    "text": "our second presentation that we segued into is something that we haven't in fairness talked about in great detail for a number of years and something you have in place. And important how you run your city financially. That is our wastewater fund. Everything talking about in the actual presentation wraps up in the finance fund and you have enterprise funds that have a specific revenue source tied to"
+    "start": 8840.29,
+    "end": 8851.833,
+    "text": "and debt service relative to revenue, that's something else that like let's say, you know, we had a higher real estate tax than we do. That means that debt service"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8950.32,
-    "end": 8981.495,
-    "text": "the business if you will. Running those various enterprises and talk about the wastewater fund. This goes back a number of years, at one point we had water and wastewater fund. Water is now part of the county. And you retained the wastewater component of that. And different from the neighbors and peers and you have the sewer side of the equation to handle. And talk about update to the"
+    "start": 8853.269,
+    "end": 8863.51,
+    "text": "relative to revenue is not as significant. that's right, the greater your base of revenues and the smaller ratio and the smaller"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 8982.232,
-    "end": 9016.464,
-    "text": "planning for wastewater. Probably interchange wastewater and sewer but the same thing for discussion purposes. Flip the page here. Again I don't think we need to reintroduce ourselves, and go to the next page. And so we really looked at this in detail last in 2021. been about five years. That's a normal cycle and every five years good to update a plan for wastewater enterprise fund. And the concept for an enterprise fund that all"
+    "start": 8864.481,
+    "end": 8866.81,
+    "text": "the ratio the stronger to debt agencies. thank you."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9017.333,
-    "end": 9047.828,
-    "text": "revenues are captured in the fund. There is no general fund dollars to help the wastewater fund. And the best practice to have this quote unquote enterprise fund the revenues of the sewer fund pay for the expenses. Operating capital and debt service. And that's the best practice and what you have in place and the plan to talk about to continue that in the future. Not only best practice but helps to insulate the general fund"
+    "start": 8868.17,
+    "end": 8890.371,
+    "text": "other questions at this time? Exceptionally well done, thank you team for another wonderful presentation on our budget. it's not the last one, so everyone can stay tuned for the next installment as we MARCH to APRIL 28. MS. Shinaberry."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9048.64,
-    "end": 9079.892,
-    "text": "knowing what you are doing as a city with general fund. Having a self-supporting sewer fund means those critical services within sewer are done up to the professional standards you need them. And they are not a drain on the general fund. A lot what we are talking about is isolated from the general fund, make sure that we protect the general fund. Knowing there is a considerable drain and strain on the resources limited over there."
+    "start": 8891.107,
+    "end": 8921.468,
+    "text": "continue mayor and councilor on the second part wastewater fund analysis. Same group of individuals as exciting as the first I will add. MR. Mayor -- sorry, MADAM Mayor, our second presentation that we segued into is something that we haven't in fairness talked about"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9080.663,
-    "end": 9111.592,
-    "text": "Do a couple of things, and then talk for a couple of pages and austin for a couple of pages as well, you don't have to listen to me for the whole presentation. And history of the wastewater fund. And look at city adopted financial policies. Prior presentation we talked about the general fund and debt policies and have the same for the sewer fund and the management that this is self-supporting and not a drain"
+    "start": 8922.371,
+    "end": 8957.505,
+    "text": "in great detail for a number of years and something you have in place. And important how you run your city financially. That is our wastewater fund. Everything talking about in the actual presentation wraps up in the finance fund and you have enterprise funds that have a specific revenue source tied to the business if you will. Running those various enterprises and talk about the wastewater fund."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9112.194,
-    "end": 9143.724,
-    "text": "on the general fund. Talk about the existing debt profile and we have debt on the wastewater fund it's a capital intensive operation to run. And not unusual and talk about that and give peer comparatives. And the end of this, important piece is going forward projection. And lasted this five years and good to update that plan and you"
+    "start": 8958.307,
+    "end": 8989.87,
+    "text": "This goes back a number of years, at one point we had water and wastewater fund. Water is now part of the county. And you retained the wastewater component of that. And different from the neighbors and peers and you have the sewer side of the equation to handle. And talk about update to the planning for wastewater. Probably interchange wastewater and sewer but the same thing for discussion purposes. Flip the page here."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9145.361,
-    "end": 9178.86,
-    "text": "have a picture of what revenues and expenditures need to be for capital and debt service. Keep flipping here. What we see on page 5 is a history of the revenues and expenditures again in that wastewater fund. You've got a variety of bars in both revenues and expenditures. What is important though is if you take your eye to the table sort at the bottom of the page there."
+    "start": 8989.94,
+    "end": 9022.504,
+    "text": "Again I don't think we need to reintroduce ourselves, and go to the next page. And so we really looked at this in detail last in 2021. been about five years. That's a normal cycle and every five years good to update a plan for wastewater enterprise fund. And the concept for an enterprise fund that all revenues are captured in the fund. There is no general fund dollars to help the wastewater fund."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9181.964,
-    "end": 9214.28,
-    "text": "Our revenues are growing 6.5% and you raise rates typically 6% a year. Keeping pace with inflation that is higher for purpose of running a utility system. You have 6.5% revenue growth historically. The operating expenditures you have seen more growth over that five year time period. So whether that's from general inflationary pressures or regulatory things. All of those have been putting pressure on the general operating pressures of that"
+    "start": 9024.206,
+    "end": 9055.136,
+    "text": "And the best practice to have this quote unquote enterprise fund the revenues of the sewer fund pay for the expenses. Operating capital and debt service. And that's the best practice and what you have in place and the plan to talk about to continue that in the future. Not only best practice but helps to insulate the general fund knowing what you are doing as a city with general fund. Having a self-supporting sewer fund means those critical"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9214.363,
-    "end": 9244.426,
-    "text": "system, that's not unique to the city. Basically all of your neighbors and peers are facing those same pressures. As we look at that and give rationale it's time to look at the multiyear plan and set things to fully cover the cost of operations, capital and debt service. And so we just make those points. The last time we borrowed any dollars for the sewer fund was in 2022."
+    "start": 9055.971,
+    "end": 9087.568,
+    "text": "services within sewer are done up to the professional standards you need them. And they are not a drain on the general fund. A lot what we are talking about is isolated from the general fund, make sure that we protect the general fund. Knowing there is a considerable drain and strain on the resources limited over there. Do a couple of things, and then talk for a couple of pages and austin for a couple of pages as"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9245.461,
-    "end": 9277.392,
-    "text": "Been about four years and talk about this in a couple of pages and all spent. And another reason we are here thinking about updated plan there is a continum of new needs required for the wastewater fund and we spent prior dollars from four years ago and need to refill that bucket to continue with those required projects. Flip the page. What is a component of the wastewater fund you do have as"
+    "start": 9088.137,
+    "end": 9118.631,
+    "text": "well, you don't have to listen to me for the whole presentation. And history of the wastewater fund. And look at city adopted financial policies. Prior presentation we talked about the general fund and debt policies and have the same for the sewer fund and the management that this is self-supporting and not a drain on the general fund. Talk about the existing debt profile and we have debt on the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9278.461,
-    "end": 9310.325,
-    "text": "many other aspects of the city a partnership, a contract with the county. And so a portion of the costs whether it's operating or capital of our wastewater fund are driven by that partnership with the county. What we're showing here on the left and right-hand side is historically what proportion of our costs have been tied to city specific types of expenditures that you as a city and staff control."
+    "start": 9119.301,
+    "end": 9151.133,
+    "text": "wastewater fund it's a capital intensive operation to run. And not unusual and talk about that and give peer comparatives. And the end of this, important piece is going forward projection. And lasted this five years and good to update that plan and you have a picture of what revenues and expenditures need to be for capital and debt service."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9311.894,
+    "start": 9152.402,
+    "end": 9183.964,
+    "text": "Keep flipping here. What we see on page 5 is a history of the revenues and expenditures again in that wastewater fund. You've got a variety of bars in both revenues and expenditures. What is important though is if you take your eye to the table sort at the bottom of the page there. Our revenues are growing 6.5%"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 9184.867,
+    "end": 9217.233,
+    "text": "and you raise rates typically 6% a year. Keeping pace with inflation that is higher for purpose of running a utility system. You have 6.5% revenue growth historically. The operating expenditures you have seen more growth over that five year time period. So whether that's from general inflationary pressures or regulatory things. All of those have been putting pressure on the general operating pressures of that system, that's not unique to the city. Basically all of your neighbors"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 9219.502,
+    "end": 9250.765,
+    "text": "and peers are facing those same pressures. As we look at that and give rationale it's time to look at the multiyear plan and set things to fully cover the cost of operations, capital and debt service. And so we just make those points. The last time we borrowed any dollars for the sewer fund was in 2022. Been about four years and talk about this in a couple of pages and all spent. And another reason we are here"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 9251.68,
+    "end": 9281.93,
+    "text": "thinking about updated plan there is a continum of new needs required for the wastewater fund and we spent prior dollars from four years ago and need to refill that bucket to continue with those required projects. Flip the page. What is a component of the wastewater fund you do have as many other aspects of the city a partnership, a contract with the county."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 9282.899,
+    "end": 9313.894,
+    "text": "And so a portion of the costs whether it's operating or capital of our wastewater fund are driven by that partnership with the county. What we're showing here on the left and right-hand side is historically what proportion of our costs have been tied to city specific types of expenditures that you as a city and staff control. Versus those that are sort of"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 9314.53,
     "end": 9345.428,
-    "text": "Versus those that are sort of part and parcel of the county and bills that we get per purposes capital. And the left side 50/50, 50% of the expenditures on the city, and 50% tied to the county. About 50/50. on the right-hand side what is unique about the capital side of the sewer fund a lot of that cost is driven by your"
+    "text": "part and parcel of the county and bills that we get per purposes capital. And the left side 50/50, 50% of the expenditures on the city, and 50% tied to the county. About 50/50. on the right-hand side what is unique about the capital side of the sewer fund a lot of that cost is driven by your"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1738,26 +2338,26 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 9912.596,
-    "end": 9943.57,
-    "text": "looked at annually by professional staff and you as the council. With that hand the baton to austin, and take you through the next couple of pages and answer any questions you have. good evening mayor, members of council, I am austin sax,"
+    "end": 9935.749,
+    "text": "looked at annually by professional staff and you as the council. With that hand the baton to austin, and take you through the next couple of pages and answer any questions you have."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9943.291,
-    "end": 9975.223,
-    "text": "appreciate the intro from kyle. I will be running through the financial projections on the wastewater fund. On the first couple of slides and getting into assumptions made. And so I won't go through every bullet point but at the top, using fy26 budget for the projections going forward. We have proposed budget now and would expect the numbers going forward to be relatively in alignment with those continuous. :-figures."
+    "start": 9937.52,
+    "end": 9969.583,
+    "text": "good evening mayor, members of council, I am austin sax, appreciate the intro from kyle. I will be running through the financial projections on the wastewater fund. On the first couple of slides and getting into assumptions made. And so I won't go through every bullet point but at the top, using fy26 budget for the projections going forward. We have proposed budget now and would expect the numbers going forward to be relatively in"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 9975.825,
-    "end": 10008.88,
-    "text": "With the financial targets and propose increase levels to the policy minimums. That 1.3 times debt service ratio and the 120 days cash on hand. We would like to see those numbers stronger and see how those look over the five-year forecast. But doing the rate modeling to those minimum policy levels. In terms of revenues like I said, solving to meet those metrics and the last point I will make on this page. We haven't counted on any"
+    "start": 9972.855,
+    "end": 10004.352,
+    "text": "alignment with those continuous. :-figures. With the financial targets and propose increase levels to the policy minimums. That 1.3 times debt service ratio and the 120 days cash on hand. We would like to see those numbers stronger and see how those look over the five-year forecast. But doing the rate modeling to those minimum policy levels. In terms of revenues like I said, solving to meet those metrics and the last point I will make on this page."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10008.157,
+    "start": 10006.88,
     "end": 10039.452,
-    "text": "availability fees or connection charges. Those tend to be -- they are one-time and hard to predict. They are largely tied to developments. We have counted on those but to the extent they are realized and when they are realized those dollars can be deployed to cash fund additional cip projects and decrease the debt burden. On the next slide just looking at the expenditure assumptions"
+    "text": "We haven't counted on any availability fees or connection charges. Those tend to be -- they are one-time and hard to predict. They are largely tied to developments. We have counted on those but to the extent they are realized and when they are realized those dollars can be deployed to cash fund additional cip projects and decrease the debt burden. On the next slide just looking at the expenditure assumptions"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1876,116 +2476,218 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 10677.727,
-    "end": 10710.759,
-    "text": "ordinance and really look for council and a public hearing and action at your MAY meeting. And that would authorize us to move forward with the var program which would provide funds in hand in the early AUGUST time frame. With that happy to address, answer any questions as it relates to the wastewater fund. >> councilmember hall. thank you, a couple of questions and then back to the slides. Large picture, you said that the numbers in here don't include any grants. Are we expecting that there will"
+    "end": 10697.444,
+    "text": "ordinance and really look for council and a public hearing and action at your MAY meeting. And that would authorize us to move forward with the var program which would provide funds in hand in the early AUGUST time frame. With that happy to address, answer any questions as it"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10711.593,
-    "end": 10741.689,
-    "text": "be grants available in the coming years that we would qualify for? Any estimate what that might look like? I think we would really defer to the staff on that. Because we are getting that information, and trying to be conservative. To the extent that we get grants and make all of these numbers look better. I think jc and rest of the team are looking at grants where you can find them. But we don't want to count the chickens before they hatch. understand."
+    "start": 10697.98,
+    "end": 10699.581,
+    "text": "relates to the wastewater fund. councilmember hall."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10741.791,
-    "end": 10774.722,
-    "text": "Do we have any expectation there is anything out there? as MR. Lux noted and I know that program manager is here as well, we are actively reviewing any ability to get grants. Whether through deq or federal grants or stormwater or wastewater as well. And apply those. To be conservative in our modeling we don't want to anticipate without having them and just additional revenue to"
+    "start": 10700.916,
+    "end": 10719.233,
+    "text": "thank you, a couple of questions and then back to the slides. Large picture, you said that the numbers in here don't include any grants. Are we expecting that there will be grants available in the coming years that we would qualify for? Any estimate what that might look like?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10775.691,
-    "end": 10808.656,
-    "text": "bring in to off set any future capital costs noted in the presentation. okay, a long answer to say yes but no, but no. Okay. On page 14 it says on here for new debt davenport has assumed a 30 year payment term, is that common or new for this debt issuance? we have used that structure historically and the goal to ramp up and allow the rates to"
+    "start": 10720.137,
+    "end": 10739.689,
+    "text": "I think we would really defer to the staff on that. Because we are getting that information, and trying to be conservative. To the extent that we get grants and make all of these numbers look better. I think jc and rest of the team are looking at grants where you can find them. But we don't want to count the chickens before they hatch."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10808.958,
-    "end": 10839.587,
-    "text": "adjust to take on that new debt. It allows that flexibility to ramp into full debt service payments over two years. does that come with a higher interest rate to allow that to happen, kind of like an arm? no, the rate is still fixed. So not a higher interest rate, pwe can just as austin mentioned we can build into the payments but still with a fixed interest rate. Not an arm or reset, it allows less upfront impact to your"
+    "start": 10739.689,
+    "end": 10744.694,
+    "text": "understand. Do we have any expectation there is anything out there?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10840.89,
+    "start": 10747.497,
+    "end": 10777.691,
+    "text": "as MR. Lux noted and I know that program manager is here as well, we are actively reviewing any ability to get grants. Whether through deq or federal grants or stormwater or wastewater as well. And apply those. To be conservative in our modeling we don't want to anticipate without having them and just additional revenue to bring in to off set any future"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 10778.27,
+    "end": 10779.361,
+    "text": "capital costs noted in the presentation."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 10780.162,
+    "end": 10802.117,
+    "text": "okay, a long answer to say yes but no, but no. Okay. On page 14 it says on here for new debt davenport has assumed a 30 year payment term, is that common or new for this debt issuance?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 10802.918,
+    "end": 10816.33,
+    "text": "we have used that structure historically and the goal to ramp up and allow the rates to adjust to take on that new debt. It allows that flexibility to ramp into full debt service payments over two years."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 10816.966,
+    "end": 10821.536,
+    "text": "does that come with a higher interest rate to allow that to happen, kind of like an arm?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 10823.706,
+    "end": 10850.98,
+    "text": "no, the rate is still fixed. So not a higher interest rate, pwe can just as austin mentioned we can build into the payments but still with a fixed interest rate. Not an arm or reset, it allows less upfront impact to your budget that allows less impact to the rates and short run. It's a gradual increase of it. But doesn't come with a penalty or higher interest rate."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 10852.1,
     "end": 10874.88,
-    "text": "budget that allows less impact to the rates and short run. It's a gradual increase of it. But doesn't come with a penalty or higher interest rate. no, it makes sense you need the money to pay the money back, thank you for clarifying that. Am I reading this correct on page 15, I know that you mentioned 9.9 million which I guess we are going to try to do 11 million in debt financing. And anticipating 11 million of"
+    "text": "no, it makes sense you need the money to pay the money back, thank you for clarifying that. Am I reading this correct on page 15, I know that you mentioned 9.9 million which I guess we are going to try to do 11 million in debt financing. And anticipating 11 million of"
   },
   {
     "speaker": "Unknown Speaker",
     "start": 10877.226,
     "end": 10907.655,
-    "text": "additional debt in '28 and '29? >> that is correct. Those are numbers that are given to us and austin mentioned that the capital costs projected to be higher than they have been historically. And keep going back we want to relook at this annually. We used the numbers that are given to us. And higher than it has been in the past. But what we tend to see with a lot of these capital projects that spending can be slower than what is projected. And maybe that happens, don't know that for certain and come"
+    "text": "additional debt in '28 and '29? that is correct. Those are numbers that are given to us and austin mentioned that the capital costs projected to be higher than they have been historically. And keep going back we want to relook at this annually. We used the numbers that are given to us. And higher than it has been in the past. But what we tend to see with a lot of these capital projects that spending can be slower than what is projected. And maybe that happens, don't know that for certain and come"
   },
   {
     "speaker": "Unknown Speaker",
     "start": 10908.624,
-    "end": 10945.626,
-    "text": "back and look at annually. And to your point, which is accurate the current plan does anticipate those amounts per year needing to be borrowed largely for your share of the noman cole plant. okay and I recognize I am not shooting the messenger and asking for clarification and understand you are providing numbers that you receive, yes. Joo page 12 shows the cip costs,"
+    "end": 10922.771,
+    "text": "back and look at annually. And to your point, which is accurate the current plan does anticipate those amounts per year needing to be borrowed largely for your share of the noman cole plant."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10947.963,
-    "end": 10980.894,
-    "text": "1 what is city is expecting to do and second line of noman cole plant. It shows on average over $10 million needed to do capital improvements in that plan. Almost a 10-year period and 1.2 million in direct support of cip upgrades. That's the largest pressure as kyle stated and as MR. Eto could support as well, we receive on an annual basis an estimate from"
+    "start": 10924.173,
+    "end": 10933.68,
+    "text": "okay and I recognize I am not shooting the messenger and asking for clarification and understand you are providing numbers that you receive, yes. Joo"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 10981.997,
-    "end": 11013.627,
-    "text": "fairfax water, and noman cole specifically what those planned upgrades will be and forecast out. And we plug that information in and does vary like other large projects. Things are delayed and backlog and supply issues. And noted in a blue section we will revisit this on annual basis and adjust and be agile as much as we can and project forward as well. >> and to be clear this is essentially what it costs to"
+    "start": 10943.626,
+    "end": 10975.456,
+    "text": "page 12 shows the cip costs, 1 what is city is expecting to do and second line of noman cole plant. It shows on average over $10 million needed to do capital improvements in that plan. Almost a 10-year period and 1.2 million in direct support of cip upgrades. That's the largest pressure as kyle stated and as MR. Eto could"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11015.831,
-    "end": 11046.327,
-    "text": "flush our toilets to get rid of wastewater; correct? Not making it sexy. >> yep. this is to treat the wastewater. We transport it and they treat it. okay, I do have some additional questions and don't know if you are able to ask. Who wants to jump in feel free. i was reading about the impacts of high density housing on stormwater and more development"
+    "start": 10975.591,
+    "end": 11007.221,
+    "text": "support as well, we receive on an annual basis an estimate from fairfax water, and noman cole specifically what those planned upgrades will be and forecast out. And we plug that information in and does vary like other large projects. Things are delayed and backlog and supply issues. And noted in a blue section we will revisit this on annual basis and adjust and be agile as"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11047.83,
-    "end": 11081.29,
-    "text": "seems to equal more stormwater infiltration issues and not just the amount of water and the volume and density of things that go true through. And let me know if I am wrong and that part and as the county is adding to their population and the other areas that use this treatment center are adding to their population and as we add. Are we paying a per capita or a somewhat population? How is that number divided out? And if fairfax county increases"
+    "start": 11007.857,
+    "end": 11017.265,
+    "text": "much as we can and project forward as well. and to be clear this is essentially what it costs to flush our toilets to get rid of wastewater; correct?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11081.431,
-    "end": 11113.428,
-    "text": "their population and we don't, are we still paying a different share of that? I guess satoshi can talk about how flows are metered. the city owns 6.2% of noman cole treatment plant and that provides 4.2 million gallons a day are treatment capacity. That's in the wastewater contract and does not change on"
+    "start": 11018.367,
+    "end": 11020.201,
+    "text": "Not making it sexy. yep."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11113.963,
-    "end": 11147.428,
-    "text": "population, set flow rate that is metered by the county. Incoming and outgoing sewer flows are metered by the city and calculated at the end of the every month. okay if we added 1,000 more people or 5,000 more, are we still paying that 6.27% or because metering that change that? we own 6.27% of the plant and"
+    "start": 11023.739,
+    "end": 11026.674,
+    "text": "this is to treat the wastewater. We transport it and they treat it."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11148.964,
-    "end": 11180.627,
-    "text": "capacity and transmit 3.2 million and using less of our allotted capacity. okay, is it fair to say that we are using 3.2 million for 25,000 people. >> yes. we will hit a cap at some point and no longer bring in more people without exceeding that 4.2 million cap. theoretically if density continues to increase, you could hit that cap."
+    "start": 11028.21,
+    "end": 11060.508,
+    "text": "okay, I do have some additional questions and don't know if you are able to ask. Who wants to jump in feel free. i was reading about the impacts of high density housing on stormwater and more development seems to equal more stormwater infiltration issues and not just the amount of water and the volume and density of things that go true through. And let me know if I am wrong"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11180.896,
-    "end": 11211.526,
-    "text": "What we're seeing though that new development has not significantly increased the wastewater flow rates. It has increased the treatment requirements but not flow rates. >> how did increase will treatment part differ from cost standpoint compared to the flow, I think not using the right words but -- well, what I'm hearing is"
+    "start": 11061.478,
+    "end": 11087.102,
+    "text": "and that part and as the county is adding to their population and the other areas that use this treatment center are adding to their population and as we add. Are we paying a per capita or a somewhat population? How is that number divided out? And if fairfax county increases their population and we don't, are we still paying a different share of that?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11212.194,
-    "end": 11244.693,
-    "text": "that because of low-flow technology for toilets and such, the affluent going to the plant is a lot more concentrated and less diluted because of low-flow technology and why have to invest in the plant because affluents are more concentrated and more chemicals into them. Medications and things like that corrosives. And plus regulatory upgrades and compliance upgrades."
+    "start": 11093.175,
+    "end": 11097.478,
+    "text": "I guess satoshi can talk about how flows are metered."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11246.295,
-    "end": 11276.79,
-    "text": "The combination of all of those things is what is driving the capital improvements at the noman cole. okay, looks like noman cole built in the 70s and never anticipated to handle what it is doing and upgraded and piecemeals together. the noman cole plant numerous buildings that do different things to help treat the water. And these buildings need to be repaireded and maintained and"
+    "start": 11100.983,
+    "end": 11125.607,
+    "text": "the city owns 6.2% of noman cole treatment plant and that provides 4.2 million gallons a day are treatment capacity. That's in the wastewater contract and does not change on population, set flow rate that is metered by the county. Incoming and outgoing sewer flows are metered by the city and calculated at the end of the every month."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11278.661,
+    "start": 11127.61,
+    "end": 11140.955,
+    "text": "okay if we added 1,000 more people or 5,000 more, are we still paying that 6.27% or because metering that change that?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11145.428,
+    "end": 11154.35,
+    "text": "we own 6.27% of the plant and capacity and transmit 3.2 million and using less of our allotted capacity."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11155.137,
+    "end": 11157.137,
+    "text": "okay, is it fair to say that"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11160.776,
+    "end": 11163.445,
+    "text": "we are using 3.2 million for 25,000 people. yes."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11164.547,
+    "end": 11173.52,
+    "text": "we will hit a cap at some point and no longer bring in more people without exceeding that 4.2 million cap."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11175.825,
+    "end": 11195.843,
+    "text": "theoretically if density continues to increase, you could hit that cap. What we're seeing though that new development has not significantly increased the wastewater flow rates. It has increased the treatment"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11196.846,
+    "end": 11206.254,
+    "text": "requirements but not flow rates. how did increase will treatment part differ from cost standpoint compared to the flow, I think not using the right words but --"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11209.526,
+    "end": 11239.954,
+    "text": "well, what I'm hearing is that because of low-flow technology for toilets and such, the affluent going to the plant is a lot more concentrated and less diluted because of low-flow technology and why have to invest in the plant because affluents are more concentrated and more chemicals into them. Medications and things like that corrosives."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11242.124,
+    "end": 11252.4,
+    "text": "And plus regulatory upgrades and compliance upgrades. The combination of all of those things is what is driving the capital improvements at the noman cole."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11254.27,
+    "end": 11262.811,
+    "text": "okay, looks like noman cole built in the 70s and never anticipated to handle what it is doing and upgraded and piecemeals together."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11265.147,
+    "end": 11292.241,
+    "text": "the noman cole plant numerous buildings that do different things to help treat the water. And these buildings need to be repaireded and maintained and upgraded so many years and almost ongoing cycle by the time they finish working on the last building the first needs upgrading. And satoshi and I met with folks and don't see much of an end to this type of improvement."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11292.975,
     "end": 11309.156,
-    "text": "upgraded so many years and almost ongoing cycle by the time they finish working on the last building the first needs upgrading. And satoshi and I met with folks and don't see much of an end to this type of improvement. so it's reasonable to expect that in the 10 years that we're looking at now 10 million a year that roughly 10 million a year is going to continue for perpetuity and probably going to be more because costs will be more at that time."
+    "text": "so it's reasonable to expect that in the 10 years that we're looking at now 10 million a year that roughly 10 million a year is going to continue for perpetuity and probably going to be more because costs will be more at that time."
   },
   {
     "speaker": "Unknown Speaker",
@@ -2002,86 +2704,152 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 11374.157,
-    "end": 11404.18,
-    "text": "But I think we have caught up and satoshi if you want to talk about the condition now as it was when we took over. the last few years we developed an asset management program that systematically inspects and rate the maintenance of pipes based on condition. And new capability for the first time in last years our capital program is planned based on data"
+    "end": 11381.161,
+    "text": "But I think we have caught up and satoshi if you want to talk about the condition now as it was when we took over."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11404.19,
-    "end": 11436.384,
-    "text": "that we collected rather than age or location. And we have have been systemically lining pipes on that system. I appreciate that and 10 years from now we will be happy that we put this time and money and energy into this. But I think if we look at page 12 it's pretty obviou that we are half of the cip for local projects compared to the noman cole plant. That's why I am saying if we do everything we can and do"
+    "start": 11382.531,
+    "end": 11414.29,
+    "text": "the last few years we developed an asset management program that systematically inspects and rate the maintenance of pipes based on condition. And new capability for the first time in last years our capital program is planned based on data that we collected rather than age or location. And we have have been systemically lining pipes on that system."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11436.685,
-    "end": 11468.649,
-    "text": "everything we can for the next 10 years and say that our number drops in half. We will still likely -- no one with a crystal ball expect likely that and noman cole plant and once done with these buildings and new buildings to come. yeah and always the possibility that noman cole come"
+    "start": 11414.93,
+    "end": 11448.362,
+    "text": "I appreciate that and 10 years from now we will be happy that we put this time and money and energy into this. But I think if we look at page 12 it's pretty obviou that we are half of the cip for local projects compared to the noman cole plant. That's why I am saying if we do everything we can and do everything we can for the next 10 years and say that our number drops in half. We will still likely -- no one"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11470.352,
-    "end": 11501.148,
-    "text": "up with new technologies and wastewater. spray the poo. >> finding cost effective ways to treat the water, need to look every year. sorry didn't do these numbers and take out reduced cip projects and just deal with the noman cole anticipated 10 million a year -- random number, do we need to issue debt every"
+    "start": 11453.502,
+    "end": 11460.242,
+    "text": "with a crystal ball expect likely that and noman cole plant and once done with these buildings and new buildings to come."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11501.817,
-    "end": 11532.846,
-    "text": "year to do this? Or this enterprise fund manage that based on revenues in? for planning purposes it's reasonable to think that you are borrow some increment of debt every year or every other year or every three years. And that's built into the plan year and as we look at the plan and rates that's anticipated in there. and bear in mind you are also paying debt off. It's one big cyclular thing and"
+    "start": 11461.61,
+    "end": 11471.653,
+    "text": "yeah and always the possibility that noman cole come up with new technologies and wastewater."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11533.616,
-    "end": 11565.28,
-    "text": "you are paying off debt and taking on new debt. It's the balance of revenues and expenditures and keep the rates in line, such that we can pay for the aggregate of it all. It's not just that we are adding 10 plus million every year but paying off. no, it's kids in day care and pay for diapers and I will have this extra money and to other things. one final thing that wasn't mentioned and satoshi would like"
+    "start": 11476.292,
+    "end": 11483.732,
+    "text": "spray the poo. finding cost effective ways to treat the water, need to look every year."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11566.682,
-    "end": 11599.46,
-    "text": "to mention this, when we use less of capacity that we have, we get stormwater credit that is has a value, mention that. one of the compliance approaches to meet the pollution reduction is credits generated by not using full allocation of plant capacity, that helps us meet our compliance requirements. The goal is the stormwater side wean ourselves off of compliance"
+    "start": 11485.67,
+    "end": 11506.754,
+    "text": "sorry didn't do these numbers and take out reduced cip projects and just deal with the noman cole anticipated 10 million a year -- random number, do we need to issue debt every year to do this? Or this enterprise fund manage that based on revenues in?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11599.682,
-    "end": 11631.179,
-    "text": "of the plant and to have projects with pollution reduction credit what is the value of that credit? those credits are -- off the top of my head, about approximately 1,000 credits and worth 16-25,000 each. >> okay. That's significant. Okay. I think that's all of my questions now and hopefully e-mail others. Thank you. councilmember peterson. just to build on councilmember hall's questions"
+    "start": 11507.22,
+    "end": 11538.886,
+    "text": "for planning purposes it's reasonable to think that you are borrow some increment of debt every year or every other year or every three years. And that's built into the plan year and as we look at the plan and rates that's anticipated in there. and bear in mind you are also paying debt off. It's one big cyclular thing and you are paying off debt and taking on new debt. It's the balance of revenues and"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11632.415,
-    "end": 11663.343,
-    "text": "on slide 12. I think it is. This is covering a 10-year planning horizon. Any reason that we wouldn't run this 25, out to 2050? >> you certainly can in the world of financial projections every year you get further out it will get fuzzier and fuzzier. Typically you look at five and gone longer and 10 year."
+    "start": 11538.921,
+    "end": 11551.866,
+    "text": "expenditures and keep the rates in line, such that we can pay for the aggregate of it all. It's not just that we are adding 10 plus million every year but paying off."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11663.579,
-    "end": 11694.975,
-    "text": "Can you go back and say what happens over next 10-15 years, certainly you could. It tends to be the compound effects of inflation and economic conditions, you can get a lot of variables those out years that make it very fuzzy as you look at the numbers. Certainly you can run that model out longer and could if that's the will. part of my reason for asking it's not uncommon for major"
+    "start": 11555.204,
+    "end": 11560.909,
+    "text": "no, it's kids in day care and pay for diapers and I will have this extra money and to other things."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11697.213,
-    "end": 11729.76,
-    "text": "capital projects to work off of 25-year life spans, things like that and model out and forecast out the performance of the lifetime of the project. And recognizing that you get less certain as you go forward. And in the same time investments predicated on a project life span and op-x and cap-x associated at the out set. That is what is being asked what that looks like and where that"
+    "start": 11562.912,
+    "end": 11574.556,
+    "text": "one final thing that wasn't mentioned and satoshi would like to mention this, when we use less of capacity that we have, we get stormwater credit that is has a value, mention that."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11729.578,
-    "end": 11762.477,
-    "text": "leaves us in obligations going past this next decade. I think it would be useful as a policy matter and planning matter for these kinds of projects. Whatever these project life spans are it would be good to plan across that whole horizon to see what that looks like. I think pretty significant variable with trying to develop that to see if we can get information for the noman cole planned cip projects. I mean that is about 50% or 75% of all costs."
+    "start": 11577.526,
+    "end": 11603.951,
+    "text": "one of the compliance approaches to meet the pollution reduction is credits generated by not using full allocation of plant capacity, that helps us meet our compliance requirements. The goal is the stormwater side wean ourselves off of compliance of the plant and to have projects with pollution reduction credit"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11763.346,
-    "end": 11793.474,
-    "text": "If they can provide us that information, and they do that planning. Because like I said they are providing us their 10-year projection, I don't know if we inquired if they have anything beyond that. We could. But if they don't that segment or that variable is missing from our projection going forward. that's part to jc's point too, we can run collectively"
+    "start": 11604.12,
+    "end": 11605.52,
+    "text": "what is the value of that credit?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11794.51,
+    "start": 11606.689,
+    "end": 11613.395,
+    "text": "those credits are -- off the top of my head, about approximately 1,000 credits and"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11613.562,
+    "end": 11624.305,
+    "text": "worth 16-25,000 each. okay. That's significant. Okay. I think that's all of my questions now and hopefully e-mail others. Thank you."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11626.108,
+    "end": 11628.108,
+    "text": "councilmember peterson."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11629.545,
+    "end": 11644.558,
+    "text": "just to build on councilmember hall's questions on slide 12. I think it is. This is covering a 10-year planning horizon. Any reason that we wouldn't run"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11646.295,
+    "end": 11679.94,
+    "text": "this 25, out to 2050? you certainly can in the world of financial projections every year you get further out it will get fuzzier and fuzzier. Typically you look at five and gone longer and 10 year. Can you go back and say what happens over next 10-15 years, certainly you could. It tends to be the compound effects of inflation and economic conditions, you can get a lot of variables those out years that make it very fuzzy as"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11679.829,
+    "end": 11685.8,
+    "text": "you look at the numbers. Certainly you can run that model out longer and could if that's the will."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11690.706,
+    "end": 11721.969,
+    "text": "part of my reason for asking it's not uncommon for major capital projects to work off of 25-year life spans, things like that and model out and forecast out the performance of the lifetime of the project. And recognizing that you get less certain as you go forward. And in the same time investments predicated on a project life span and op-x and cap-x"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11722.203,
+    "end": 11750.13,
+    "text": "associated at the out set. That is what is being asked what that looks like and where that leaves us in obligations going past this next decade. I think it would be useful as a policy matter and planning matter for these kinds of projects. Whatever these project life spans are it would be good to plan across that whole horizon to see what that looks like."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11750.333,
+    "end": 11780.561,
+    "text": "I think pretty significant variable with trying to develop that to see if we can get information for the noman cole planned cip projects. I mean that is about 50% or 75% of all costs. If they can provide us that information, and they do that planning. Because like I said they are providing us their 10-year projection, I don't know if we inquired if they have anything beyond that. We could. But if they don't that segment"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11780.763,
+    "end": 11784.798,
+    "text": "or that variable is missing from our projection going forward."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11785.234,
+    "end": 11816.865,
+    "text": "that's part to jc's point too, we can run collectively what numbers need to run and getting good information could be difficult. And one way to counteract that is to look at this annually and constantly rolling next year out and constantly capturing that next year. While you MAY not have 25 years on page right now each year you are rolling that forward. So you can manage it in that way."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11818.367,
     "end": 11826.34,
-    "text": "what numbers need to run and getting good information could be difficult. And one way to counteract that is to look at this annually and constantly rolling next year out and constantly capturing that next year. While you MAY not have 25 years on page right now each year you are rolling that forward. So you can manage it in that way. Certainly if there is a 25-year life cycle we would be happy to look at that, if that exists."
+    "text": "Certainly if there is a 25-year life cycle we would be happy to look at that, if that exists."
   },
   {
     "speaker": "Unknown Speaker",
@@ -2092,98 +2860,158 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 11864.18,
-    "end": 11894.308,
-    "text": "this. >> other questions? Councilmember hardy-chandler. so I believe I read that the goal really is about maintaining this as a self-supporting, maintaining self-supporting status. And that's about the process of the funding and not necessarily an aim to reduce debt or increase the cash component. Can you just speak more about"
+    "end": 11871.318,
+    "text": "this. other questions? Councilmember hardy-chandler."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11895.578,
-    "end": 11928.51,
-    "text": "the elements that support maintaining the self-supporting status of this fund? so at the top level you are absolutely right in terms of the ultimate goal is to make sure that the wastewater fund is self-supporting. And in the strongest financial shape it can be. And so agree with you there, and the way that you do that is again by watching some of these underlying factors. Things like the cash levels and things like the debt levels."
+    "start": 11872.254,
+    "end": 11901.115,
+    "text": "so I believe I read that the goal really is about maintaining this as a self-supporting, maintaining self-supporting status. And that's about the process of the funding and not necessarily an aim to reduce debt or increase the cash component. Can you just speak more about the elements that support maintaining the self-supporting status of this fund?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11929.645,
+    "start": 11903.185,
+    "end": 11934.14,
+    "text": "so at the top level you are absolutely right in terms of the ultimate goal is to make sure that the wastewater fund is self-supporting. And in the strongest financial shape it can be. And so agree with you there, and the way that you do that is again by watching some of these underlying factors. Things like the cash levels and things like the debt levels. Those are underlying components that add up and build up to make"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11935.651,
+    "end": 11947.862,
+    "text": "sure that we can as a city maintain the wastewater fund and self-supporting and not a drain on the general fund and doing things in financially efficient manner possible if that's helpful."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 11950.266,
     "end": 11962.843,
-    "text": "Those are underlying components that add up and build up to make sure that we can as a city maintain the wastewater fund and self-supporting and not a drain on the general fund and doing things in financially efficient manner possible if that's helpful. other questions or comments? The final thing I say about this -- councilmember Mcquillen. No, please go."
+    "text": "other questions or comments? The final thing I say about this -- councilmember Mcquillen. No, please go."
   },
   {
     "speaker": "Unknown Speaker",
     "start": 11962.912,
-    "end": 11995.145,
-    "text": "so I was trying to find the slide that I got this off of but I can't. In the funding strategy it's proposed at 60% debt and 40% cash. How did we land that balance? >> we want to have a balance of the two, we don't want to rely too much on one or the other. In solving for the number of different ratios we're solving for. We want to make sure that we have appropriate reserve levels. If we use too much cash we draw"
+    "end": 11973.54,
+    "text": "so I was trying to find the slide that I got this off of but I can't. In the funding strategy it's proposed at 60% debt and 40% cash."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 11995.145,
-    "end": 12026.874,
-    "text": "the reserves down. We want to be sure that we have appropriate debt levels and if we have too much debt we broach that policy. If we go to -- here, and so these are the cash policy and the debt policy and how they trend over time. And solving to maximize the two of these and at the same time minimize to the extent possible the need for rate increases."
+    "start": 11975.359,
+    "end": 12009.23,
+    "text": "How did we land that balance? we want to have a balance of the two, we don't want to rely too much on one or the other. In solving for the number of different ratios we're solving for. We want to make sure that we have appropriate reserve levels. If we use too much cash we draw the reserves down. We want to be sure that we have appropriate debt levels and if we have too much debt we broach that policy. If we go to -- here, and so these"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12028.1,
-    "end": 12059.941,
-    "text": "And 60/40 is that gospel, written in stone. It is not. And we want to find a balance of the two and given those variances where it ends up. okay, thank you. and next year 70/30 in that range unlikely to be 90/10. okay, that makes sense, thank you for explaining that. And understanding that explains why if it was heavier on one side or the other add to the risk."
+    "start": 12011.794,
+    "end": 12036.985,
+    "text": "are the cash policy and the debt policy and how they trend over time. And solving to maximize the two of these and at the same time minimize to the extent possible the need for rate increases. And 60/40 is that gospel, written in stone. It is not. And we want to find a balance of the two and given those variances where it ends up."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12061.644,
-    "end": 12092.74,
-    "text": "Okay, understood, thank you. so the metropolitan washington council of governance had presentation on the epic failure of the sewer system that dumped into the potomac river. And that could happen anywhere and any time if we don't main these systems, the transportation system in the city and our participation in the nomen cole plant and we can"
+    "start": 12037.486,
+    "end": 12039.486,
+    "text": "okay, thank you."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12093.576,
-    "end": 12124.272,
-    "text": "do what we want to manage the budget. but flushed toileteds is something that people are accustom to the city and don't think that amenity will go away. I appreciate the presentation and the work towards being self-funded. And work towards trying to project realistic for the councils in the future to understand this is an obligation that we have to plan for and pay for. At the bottom line we need to understand that we have to plan for and pay for our obligation"
+    "start": 12042.224,
+    "end": 12044.859,
+    "text": "and next year 70/30 in that range unlikely to be 90/10."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12126.75,
-    "end": 12158.339,
-    "text": "to nomen cole and to maintain the infrastructure in the city, because we don't want an epic failure of that, I think we can all agree on that. Okay. Anything else on this subject before -- MR. Martinez, final thoughts? no, ma'am. yes, councilmember Mcquillen. >> sorry your comment made me think of something, to that point I think it's important to communicate that to the public as far as we have this piece of equipment."
+    "start": 12048.431,
+    "end": 12063.644,
+    "text": "okay, that makes sense, thank you for explaining that. And understanding that explains why if it was heavier on one side or the other add to the risk. Okay, understood, thank you."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12159.775,
+    "start": 12064.814,
+    "end": 12097.945,
+    "text": "so the metropolitan washington council of governance had presentation on the epic failure of the sewer system that dumped into the potomac river. And that could happen anywhere and any time if we don't main these systems, the transportation system in the city and our participation in the nomen cole plant and we can do what we want to manage the budget. but flushed toileteds is"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 12098.114,
+    "end": 12128.75,
+    "text": "something that people are accustom to the city and don't think that amenity will go away. I appreciate the presentation and the work towards being self-funded. And work towards trying to project realistic for the councils in the future to understand this is an obligation that we have to plan for and pay for. At the bottom line we need to understand that we have to plan for and pay for our obligation to nomen cole and to maintain"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 12128.377,
+    "end": 12143.324,
+    "text": "the infrastructure in the city, because we don't want an epic failure of that, I think we can all agree on that. Okay. Anything else on this subject before -- MR. Martinez, final thoughts?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 12145.127,
+    "end": 12147.127,
+    "text": "no, ma'am."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 12148.497,
+    "end": 12178.525,
+    "text": "yes, councilmember Mcquillen. sorry your comment made me think of something, to that point I think it's important to communicate that to the public as far as we have this piece of equipment. We have this asset that requires maintenance. This is the deal. This is what it's going to cost over time. You will see this go up naturally this is something that we are limited on what we can do. I think just communicating that effectively and consistently to our community would go a long"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 12178.562,
+    "end": 12180.395,
+    "text": "way. Thank you."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 12184.567,
     "end": 12192.375,
-    "text": "We have this asset that requires maintenance. This is the deal. This is what it's going to cost over time. You will see this go up naturally this is something that we are limited on what we can do. I think just communicating that effectively and consistently to our community would go a long way. Thank you. anything else? Yes. So -- thank you gentlemen so much for your presentation. MS. Shinaberry looking for a time check and next item."
+    "text": "anything else? Yes. So -- thank you gentlemen so much for your presentation. MS. Shinaberry looking for a time check and next item."
   },
   {
     "speaker": "Unknown Speaker",
     "start": 12194.143,
-    "end": 12224.272,
-    "text": "10:23 and look at MR. Martinez about the next item. mayor, council we have one more presentation on stormwater utility. And counting the slides about 14 slides, I'm sure that MR. Eto and annie can go through quickly if council so chooses. But this is also in conjunction with the fy27 budget and to give council and community update on"
+    "end": 12196.745,
+    "text": "10:23 and look at MR. Martinez about the next item."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12224.974,
-    "end": 12269.117,
-    "text": "budget on rate increases. am I correct gauging that the presentations and discussions that follow that will be brief? >> I think that depends in part on us too. So -- I think we need to move forward with the agenda unless someone would like to move otherwise. Let's move forward. Thank you. >> good evening mayor and"
+    "start": 12197.713,
+    "end": 12226.974,
+    "text": "mayor, council we have one more presentation on stormwater utility. And counting the slides about 14 slides, I'm sure that MR. Eto and annie can go through quickly if council so chooses. But this is also in conjunction with the fy27 budget and to give council and community update on budget on rate increases."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12270.152,
-    "end": 12301.915,
-    "text": "council, should not take long. Wanted to provide update on what the stormwater utility accomplished in 2026 and what we will do in 2027 and provide credit and appeal metrics. And quick background on the stormwater utility, regulatory requirements encompass a large portion of the stormwater program. And we have permit through deq"
+    "start": 12227.276,
+    "end": 12229.144,
+    "text": "am I correct gauging that the presentations and discussions"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12304.453,
-    "end": 12337.152,
-    "text": "and four components and one is daily loads and oversight of construction activities and management of the property yard and requirements associated with the stormwater permit. And in addition we maintain drainage infrastructure and provide for drainage projects and floodplain management. and going back to why the stormwater utility was developed. Equity was one of the benefits in the stormwater utility. In the pie chart on the left is distribution of property values"
+    "start": 12230.546,
+    "end": 12242.824,
+    "text": "that follow that will be brief? I think that depends in part on us too. So -- I think we need to move forward with the agenda unless someone would like to move otherwise. Let's move forward."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12338.54,
-    "end": 12368.583,
-    "text": "and two-thirds are associated with residential and one-third with nonresidential. Under the tax based, prior tax based approach to fund stormwater program and to property value and not impact that storm water has. And on the right impervious surfaces and opposite, two-thirds are associated with nonresidential properties and one-third with residential properties."
+    "start": 12266.215,
+    "end": 12298.214,
+    "text": "Thank you. good evening mayor and council, should not take long. Wanted to provide update on what the stormwater utility accomplished in 2026 and what we will do in 2027 and provide credit and appeal metrics. And quick background on the stormwater utility, regulatory requirements encompass a large portion of the stormwater program."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12370.32,
+    "start": 12299.915,
+    "end": 12330.612,
+    "text": "And we have permit through deq and four components and one is daily loads and oversight of construction activities and management of the property yard and requirements associated with the stormwater permit. And in addition we maintain drainage infrastructure and provide for drainage projects and floodplain management. and going back to why the stormwater utility was developed. Equity was one of the benefits in the stormwater utility."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 12334.917,
+    "end": 12366.481,
+    "text": "In the pie chart on the left is distribution of property values and two-thirds are associated with residential and one-third with nonresidential. Under the tax based, prior tax based approach to fund stormwater program and to property value and not impact that storm water has. And on the right impervious surfaces and opposite, two-thirds are associated with nonresidential properties and"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 12367.149,
     "end": 12400.681,
-    "text": "The stormwater utility, the fee is based on impervious area in 500 square foot increments and directly correlates to the property and associated fee. Same process and rate is used for every property regardless of the type. The impervious surfaces is a metric used to calculate the fee"
+    "text": "one-third with residential properties. The stormwater utility, the fee is based on impervious area in 500 square foot increments and directly correlates to the property and associated fee. Same process and rate is used for every property regardless of the type. The impervious surfaces is a metric used to calculate the fee"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2236,122 +3064,188 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 12669.418,
-    "end": 12702.16,
-    "text": "And continue to leverage the asset management program by conducting asset inspections on stormwater infrastructure and prioritize based on data that we collect. Turn presentation over to annie. good evening, I have a couple of slides to go over the credit program metrics and appeals and improves we have made. For property owners to participate in stormwater"
+    "end": 12686.3,
+    "text": "And continue to leverage the asset management program by conducting asset inspections on stormwater infrastructure and prioritize based on data that we collect. Turn presentation over to annie."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12702.718,
-    "end": 12733.48,
-    "text": "activities that creates education and outreach activities and provides property owners with opportunity to manage their fees. Two types of credits, structural credits available for stormwater management facilities that are properly maintained and in good condition. Regardless of age or whether installed voluntarily or as part of developmental requirements. Eligible structural practices include infildzeration ditches"
+    "start": 12686.402,
+    "end": 12717.699,
+    "text": "good evening, I have a couple of slides to go over the credit program metrics and appeals and improves we have made. For property owners to participate in stormwater activities that creates education and outreach activities and provides property owners with opportunity to manage their fees. Two types of credits, structural credits available for stormwater management facilities that are properly maintained and in good condition."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12733.482,
-    "end": 12766.46,
-    "text": "and retention ponds and rain barrels. And other type of practice is nonstructural credits which are available to residents and property owners who participate in stormwater friendly activities and practice that is support water quality goals. Examples of nonstructural activities include liter and debris cleanup and storm drain marking and monitoring and participation in the no fertilizer pledge. Two-thirds of all credits during"
+    "start": 12718.901,
+    "end": 12749.497,
+    "text": "Regardless of age or whether installed voluntarily or as part of developmental requirements. Eligible structural practices include infildzeration ditches and retention ponds and rain barrels. And other type of practice is nonstructural credits which are available to residents and property owners who participate in stormwater friendly activities and practice that is support water quality goals."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12772.588,
-    "end": 12802.83,
-    "text": "the 2025 billing cycle and will activity based. The total value of credits supplied in the 2025 billing cycle was approximately $68,000. And the city engages in community that is contributing to the success of this credit program. City council also adopted amendments to the credit manual that better accommodate and manage the program that is huge for the residential community."
+    "start": 12749.699,
+    "end": 12781.795,
+    "text": "Examples of nonstructural activities include liter and debris cleanup and storm drain marking and monitoring and participation in the no fertilizer pledge. Two-thirds of all credits during the 2025 billing cycle and will activity based. The total value of credits supplied in the 2025 billing"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12803.719,
-    "end": 12835.883,
-    "text": "What stormwater benefits has the community received for the $68,000 in credits? There was approximately 74 person hours removing trash from city streams and parks and public parcels and individually and city sponsored events. and hoa and local churches reduced their stormwater utility fees that demonstrate strong city engagement. And the public works supports"
+    "start": 12783.532,
+    "end": 12814.863,
+    "text": "cycle was approximately $68,000. And the city engages in community that is contributing to the success of this credit program. City council also adopted amendments to the credit manual that better accommodate and manage the program that is huge for the residential community. What stormwater benefits has the community received for the $68,000 in credits? There was approximately 74 person hours removing trash from"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12837.19,
-    "end": 12868.816,
-    "text": "these group efforts by providing materials and supplies and trash pick up. 32 new rain barrels installed in the 2025 billing cycle and contributing to 1,600 gallons. And the parks department hosted encouraging participation and expand stormwater practices at residential level."
+    "start": 12815.898,
+    "end": 12845.993,
+    "text": "city streams and parks and public parcels and individually and city sponsored events. and hoa and local churches reduced their stormwater utility fees that demonstrate strong city engagement. And the public works supports these group efforts by providing materials and supplies and trash pick up. 32 new rain barrels installed in"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12869.985,
-    "end": 12901.915,
-    "text": "Residents installed 275 inlets and monitoring issues and debrises and reporting to public works. The department of public works is coordinating with a local vendor for storm brain marker to get flexibility and explore broader public awareness campaign for the storm drain marking program. City staff participated in and hosted multiple events for stormwater credit activities and"
+    "start": 12846.196,
+    "end": 12879.194,
+    "text": "the 2025 billing cycle and contributing to 1,600 gallons. And the parks department hosted encouraging participation and expand stormwater practices at residential level. Residents installed 275 inlets and monitoring issues and debrises and reporting to public works. The department of public works"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12902.618,
-    "end": 12937.252,
-    "text": "storm-water best practices. And some outreach efforts as mentioned parpdz and community events such as the fall festival and species removal events and accotink activities. And these efforts are beyond volunteer hours and fostering a more engaged and environmental conscious community. The next slide speaks to the stormwater utility appeals those"
+    "start": 12882.298,
+    "end": 12916.63,
+    "text": "is coordinating with a local vendor for storm brain marker to get flexibility and explore broader public awareness campaign for the storm drain marking program. City staff participated in and hosted multiple events for stormwater credit activities and storm-water best practices. And some outreach efforts as mentioned parpdz and community events such as the fall festival"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12938.387,
-    "end": 12968.983,
-    "text": "metrics associated with the appeals. The stormwater utility ordinance affords an appeal process for property owners that feel their fee calculated in error. And often due to the aerial or gis imagery and incorrect property ownership or billing assignments."
+    "start": 12918.335,
+    "end": 12951.766,
+    "text": "and species removal events and accotink activities. And these efforts are beyond volunteer hours and fostering a more engaged and environmental conscious community. The next slide speaks to the stormwater utility appeals those metrics associated with the appeals. The stormwater utility ordinance affords an appeal process for property owners that feel their"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 12971.454,
-    "end": 13003.618,
-    "text": "Appeals were much more prevalent in the implementation of the stormwater utility. However submissions have decreased over the billing cycles we have been through and because of improved processes and community outreach and increased public understanding of stormwater utility. And many current appeals related to adjustments and impervious surface and features such as wooden slatted decks and gis imagery."
+    "start": 12953.636,
+    "end": 12986.768,
+    "text": "fee calculated in error. And often due to the aerial or gis imagery and incorrect property ownership or billing assignments. Appeals were much more prevalent in the implementation of the stormwater utility. However submissions have decreased over the billing cycles we have been through and because of improved processes and community outreach and"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13004.253,
-    "end": 13034.349,
-    "text": "And satoshi mentioned this and gis is intended to serve as approximation. And it's not survey grade accuracy. There are errors when we use that approximation. Gis data is updated regularly and appeals reviewed annually to ensure that they are still applicable. In some cases if the gis is updated the appeal no longer needs to be applied to the account."
+    "start": 12987.671,
+    "end": 13020.601,
+    "text": "increased public understanding of stormwater utility. And many current appeals related to adjustments and impervious surface and features such as wooden slatted decks and gis imagery. And satoshi mentioned this and gis is intended to serve as approximation. And it's not survey grade accuracy. There are errors when we use that approximation. Gis data is updated regularly"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13035.418,
-    "end": 13067.948,
-    "text": "The last slide talks about amendments and improvement that is we made thus far. In MAY 2024, city council adopted and amended credit manual. This provided a new nonstructural opportunity for tree preservation and updated credit calculation structure that ensure that is smaller residential properties are credited adequately based on the amount of time that they contribute to each activity."
+    "start": 13022.671,
+    "end": 13054.803,
+    "text": "and appeals reviewed annually to ensure that they are still applicable. In some cases if the gis is updated the appeal no longer needs to be applied to the account. The last slide talks about amendments and improvement that is we made thus far. In MAY 2024, city council adopted and amended credit manual. This provided a new nonstructural opportunity for tree preservation and updated credit calculation structure"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13073.456,
-    "end": 13103.618,
-    "text": "The granicus online forms, open forms has a friendly layout and upload ability. And lastly in 2026 for the upcoming billing cycle the stormwater credit deadline has been revised from OCTOBER 1 to the first friday in DECEMBER. Based on the public works department experience administering the credit program and processing applications prior to the utility fees will not be affected by this adjustment."
+    "start": 13055.805,
+    "end": 13087.202,
+    "text": "that ensure that is smaller residential properties are credited adequately based on the amount of time that they contribute to each activity. The granicus online forms, open forms has a friendly layout and upload ability. And lastly in 2026 for the upcoming billing cycle the stormwater credit deadline has"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13104.786,
-    "end": 13135.95,
-    "text": "And lastly the fixed OCTOBER 1 date has caused confusion whether -- when it falls on a nonbusiness day and has happened and hope this creates less condpugz as well. that concludes the presentation and happy to take questions and comments. questions and comments. Councilmember amos. >> thank you, excellent presentation and one question that could be answered tonight"
+    "start": 13088.638,
+    "end": 13119.34,
+    "text": "been revised from OCTOBER 1 to the first friday in DECEMBER. Based on the public works department experience administering the credit program and processing applications prior to the utility fees will not be affected by this adjustment. And lastly the fixed OCTOBER 1 date has caused confusion whether -- when it falls on a nonbusiness day and has happened and hope this creates less condpugz as well."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13136.685,
-    "end": 13167.147,
-    "text": "and another that can't. Back to slide 12 briefly for clarity. Is residential falling -- does multifamily fall under commercial or residential? >> residential. sometimes that doesn't equate, wanted to be sure. And the other question that is directed to planning staff and zoning staff. I would be curious how this program would coordinate or be in addition to some of the things that we're exploring with"
+    "start": 13121.47,
+    "end": 13126.206,
+    "text": "that concludes the presentation and happy to take questions and comments."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13168.84,
-    "end": 13199.88,
-    "text": "the density bonuses and for example the green building policy. Are we allowing bonus stacking with this program? I would be curious if that conversation happened or not applicable here? And I saw brooke earlier and understand why he probably ducked out. I can follow up with you on that and have a discussion with stefanie. yeah, and one of the comments"
+    "start": 13126.309,
+    "end": 13128.309,
+    "text": "questions and comments."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13200.15,
-    "end": 13231.879,
-    "text": "that have stormwater systems in place or expanded upon or for example, green roofs and rain barrels and qualify for the swu program? correct and if they have this in place and much larger developments have them because required and able for a credit. And they have to show it's in good working condition and valid for a three-year period. We do an annual inspection of"
+    "start": 13128.843,
+    "end": 13146.995,
+    "text": "Councilmember amos. thank you, excellent presentation and one question that could be answered tonight and another that can't. Back to slide 12 briefly for clarity. Is residential falling -- does multifamily fall under"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13232.149,
-    "end": 13264.645,
-    "text": "that vmp as well and I work with that report and work with the property owners to receive credit for it. okay I wanted to be sure that conversation happening in zoning staff. and one thing missing the stormwater utility funds the urban forest program. >> councilmember hall. real quick comment on slide 12, my rain barrels need a serious upgrade compared to those. And googled if a sleeve because"
+    "start": 13148.431,
+    "end": 13150.832,
+    "text": "commercial or residential? residential."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13265.548,
-    "end": 13296.41,
-    "text": "I am not a good painter. are you talking about this one? We have cute painting pictures of kids painting as well. >> other questions? Councilmember peterson. >> just a detailed question on slide 11, the first line there is complete preliminary design for project in daniels run project and public outreach. Two questions, the first at this stage do you have concept what that might look like?"
+    "start": 13151.6,
+    "end": 13181.83,
+    "text": "sometimes that doesn't equate, wanted to be sure. And the other question that is directed to planning staff and zoning staff. I would be curious how this program would coordinate or be in addition to some of the things that we're exploring with the density bonuses and for example the green building policy. Are we allowing bonus stacking with this program? I would be curious if that conversation happened or not applicable here?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13296.879,
+    "start": 13183.299,
+    "end": 13185.9,
+    "text": "And I saw brooke earlier and understand why he probably ducked out."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13187.269,
+    "end": 13196.378,
+    "text": "I can follow up with you on that and have a discussion with stefanie."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13197.88,
+    "end": 13212.627,
+    "text": "yeah, and one of the comments that have stormwater systems in place or expanded upon or for example, green roofs and rain barrels and qualify for the swu program?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13214.664,
+    "end": 13238.53,
+    "text": "correct and if they have this in place and much larger developments have them because required and able for a credit. And they have to show it's in good working condition and valid for a three-year period. We do an annual inspection of that vmp as well and I work with that report and work with the property owners to receive credit for it."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13240.289,
+    "end": 13244.625,
+    "text": "okay I wanted to be sure that conversation happening in zoning staff."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13245.461,
+    "end": 13250.23,
+    "text": "and one thing missing the stormwater utility funds the"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13250.332,
+    "end": 13252.534,
+    "text": "urban forest program. councilmember hall."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13253.302,
+    "end": 13267.548,
+    "text": "real quick comment on slide 12, my rain barrels need a serious upgrade compared to those. And googled if a sleeve because I am not a good painter."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13267.784,
+    "end": 13271.852,
+    "text": "are you talking about this one? We have cute painting pictures"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13274.957,
+    "end": 13276.958,
+    "text": "of kids painting as well. other questions?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13277.227,
+    "end": 13298.646,
+    "text": "Councilmember peterson. just a detailed question on slide 11, the first line there is complete preliminary design for project in daniels run project and public outreach. Two questions, the first at this stage do you have concept what that might look like? and to get to the point is this like mosby woods?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13301.5,
     "end": 13330.78,
-    "text": "and to get to the point is this like mosby woods? no, we're hoping it will be a different type of stream restoration and one that requires less tree removal. And more space in daniels run park, some properties further away where mosby woods condominiums adjacent. And we have flexibility with the floodplain that allow restoration approach with less tree removal. We won't know for certain until through preliminary design."
+    "text": "no, we're hoping it will be a different type of stream restoration and one that requires less tree removal. And more space in daniels run park, some properties further away where mosby woods condominiums adjacent. And we have flexibility with the floodplain that allow restoration approach with less tree removal. We won't know for certain until through preliminary design."
   },
   {
     "speaker": "Unknown Speaker",
@@ -2362,140 +3256,320 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 13362.345,
-    "end": 13393.375,
-    "text": "It seems to me we should be bringing the public at the out set to identify their interests and identify options for design. And working with them to find a way forward to the best design opportunity that we have with their active participation and then proceed from there. Am I misreading this or something that we want to think further about? I think what we are saying we want to do enough work to show something."
+    "end": 13388.469,
+    "text": "It seems to me we should be bringing the public at the out set to identify their interests and identify options for design. And working with them to find a way forward to the best design opportunity that we have with their active participation and then proceed from there. Am I misreading this or something that we want to think further about?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13395.111,
-    "end": 13425.341,
-    "text": "Like a concept or area because you know it's very difficult to get feedback when you have nothing to show the public. So it would be very preliminary, more concept related on how wide it's going to be and what trees would be impacted. to that level whereas going in with nothing at all and saying hey we're doing a project here. agreed and appreciated. But it's also typically the case that there are design"
+    "start": 13389.138,
+    "end": 13418.399,
+    "text": "I think what we are saying we want to do enough work to show something. Like a concept or area because you know it's very difficult to get feedback when you have nothing to show the public. So it would be very preliminary, more concept related on how wide it's going to be and what trees would be impacted. to that level whereas going in with nothing at all and saying hey we're doing a project here."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13426.609,
-    "end": 13458.105,
-    "text": "alternatives and options and at this conceptual phase it might be helpful for people to understand not just the issue that we're trying to address here. But kind of a full range at least conceptually of options and in fact there is only one option that is good to know and usually not the case and helpful to see the different options. >> correct it's not unusual when we present at the concept phase that options with related cost"
+    "start": 13419.268,
+    "end": 13446.961,
+    "text": "agreed and appreciated. But it's also typically the case that there are design alternatives and options and at this conceptual phase it might be helpful for people to understand not just the issue that we're trying to address here. But kind of a full range at least conceptually of options and in fact there is only one option that is good to know and usually not the case and helpful"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13458.607,
-    "end": 13490.672,
-    "text": "benefit versus right-of-way requirements and things like that. staffer drive stream concept we presented concept stage and varying levels of tree removal and stream and present at the concept stage. you would be doing the same thing here? >> yes. that's important and helpful and the more that the community is involved the better and pleased to hear it and advocate"
+    "start": 13449.98,
+    "end": 13463.612,
+    "text": "to see the different options. correct it's not unusual when we present at the concept phase that options with related cost benefit versus right-of-way requirements and things like that."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13492.42,
-    "end": 13524.38,
-    "text": "to make sure that we do that completely. Thank you. other questions or comments? Councilmember peterson. just maybe -- this is not just for this session but a wrap paround sessions and back to an earlier conversation. I'm just wondering whether we dealt with a lot of capital improvement stuff here would it be possible to get more information about the potential use are referendum for capital improvement projects."
+    "start": 13466.115,
+    "end": 13478.624,
+    "text": "staffer drive stream concept we presented concept stage and varying levels of tree removal and stream and present at the concept stage."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13524.507,
-    "end": 13556.537,
-    "text": "I know this goes on commonly in other cities in the state of virginia, we haven't done it here apparently yet and that tool is better to understand across the board as we go forward in the future. I am wondering if that's something to look into. is it the desire of council to have a work session on it? Or a budget memo with historical information in the city and commonly and other references to"
+    "start": 13480.463,
+    "end": 13482.832,
+    "text": "you would be doing the same thing here? yes."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13558.407,
-    "end": 13589.371,
-    "text": "put on a budget memo would that suffice? councilmember amos, a budget memo or work session. budget memo and also I believe that davenport gave data that 94% did not go to referendum for projects in virginia, is that correct? I don't remember that, I gave a percentage of 24-25 years back, 89%, 90% of those 27"
+    "start": 13482.832,
+    "end": 13493.675,
+    "text": "that's important and helpful and the more that the community is involved the better and pleased to hear it and advocate to make sure that we do that completely. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13590.72,
-    "end": 13622.202,
-    "text": "projects were not nonreferendum and only three year. yeah clad include that in a budget memo is fine. >> councilmember hall. starting with a budget memo is okay but definitely need more in a work session. >> hardy-chandler. budget memo. >> peterson. >> I agree that we can start with a budget memo and MAY want more information and councilmember amos to your"
+    "start": 13497.38,
+    "end": 13499.381,
+    "text": "other questions or comments? Councilmember peterson."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13625.274,
-    "end": 13656.937,
-    "text": "point, 95 counties are required for referendum for the fund and there is a history and for cities not required by state law they have their own policies. and many, many of them have used this tool to manage these big projects. I see you shaking your head and read data on this and good for that to be examined here as we go forward. councilmember bates. >> budget memo. councilmember Mcquillen. >> I am comfortable starting with the budget memo but"
+    "start": 13500.616,
+    "end": 13534.884,
+    "text": "just maybe -- this is not just for this session but a wrap paround sessions and back to an earlier conversation. I'm just wondering whether we dealt with a lot of capital improvement stuff here would it be possible to get more information about the potential use are referendum for capital improvement projects. I know this goes on commonly in other cities in the state of virginia, we haven't done it here apparently yet and that tool is"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13660.9,
+    "start": 13534.884,
+    "end": 13543.692,
+    "text": "better to understand across the board as we go forward in the future. I am wondering if that's something to look into."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13544.36,
+    "end": 13559.641,
+    "text": "is it the desire of council to have a work session on it? Or a budget memo with historical information in the city and commonly and other references to put on a budget memo would that suffice?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13562.344,
+    "end": 13564.312,
+    "text": "councilmember amos, a budget memo or work session."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13565.981,
+    "end": 13578.759,
+    "text": "budget memo and also I believe that davenport gave data that 94% did not go to referendum for projects in virginia, is that correct?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13579.429,
+    "end": 13591.673,
+    "text": "I don't remember that, I gave a percentage of 24-25 years back, 89%, 90% of those 27 projects were not nonreferendum and only three year."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13593.976,
+    "end": 13598.412,
+    "text": "yeah clad include that in a budget"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13598.514,
+    "end": 13600.548,
+    "text": "memo is fine. councilmember hall."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13601.884,
+    "end": 13604.753,
+    "text": "starting with a budget memo is okay but definitely need more"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13606.222,
+    "end": 13607.889,
+    "text": "in a work session. hardy-chandler."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13608.691,
+    "end": 13640.255,
+    "text": "budget memo. peterson. I agree that we can start with a budget memo and MAY want more information and councilmember amos to your point, 95 counties are required for referendum for the fund and there is a history and for cities not required by state law they have their own policies. and many, many of them have used this tool to manage these big projects."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13642.525,
+    "end": 13649.64,
+    "text": "I see you shaking your head and read data on this and good for that to be examined here as we go forward."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13649.799,
+    "end": 13651.965,
+    "text": "councilmember bates. budget memo."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13652.768,
+    "end": 13661.276,
+    "text": "councilmember Mcquillen. I am comfortable starting with the budget memo but probably have a lot of questions."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13664.513,
+    "end": 13667.415,
+    "text": "okay, budget memo is. Councilmember hall."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13669.653,
+    "end": 13688.97,
+    "text": "I have a question on slide 11 for culvert improvements. And a reason why that wasn't done at same time as stream restoration, was that factored into it and curious how that was done without concern of cracked culvert."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13690.39,
     "end": 13692.39,
-    "text": "probably have a lot of questions. okay, budget memo is. Councilmember hall. I have a question on slide 11 for culvert improvements. And a reason why that wasn't done at same time as stream restoration, was that factored into it and curious how that was done without concern of cracked culvert. that is different location"
+    "text": "that is different location"
   },
   {
     "speaker": "Unknown Speaker",
     "start": 13693.676,
-    "end": 13725.807,
-    "text": "from stafford drive. >> this says develop concept plans for stafford drive, should this say not stafford drive? I am sorry, the stafford drive culvert improvement is a separate grant. Not done at the same time as stream restoration project because the area of impact would be different and it was determined that there would be no impact at stream restoration project having installed the culvert. okay, is it expected to help"
+    "end": 13702.35,
+    "text": "from stafford drive. this says develop concept plans for stafford drive, should this say not stafford drive?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13725.975,
-    "end": 13759.673,
-    "text": "the situation that we're seeing? With the rain that happened last week? with the rain that happened last week the stream restoration project area functioned as intended. The entire stream corridor flooded and allowed for the water velocities reduced. And unfortunate to happen after plantings and why so many displaced but an established"
+    "start": 13705.788,
+    "end": 13722.237,
+    "text": "I am sorry, the stafford drive culvert improvement is a separate grant. Not done at the same time as stream restoration project because the area of impact would be different and it was determined that there would be no impact at stream restoration project having installed the culvert."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13761.744,
-    "end": 13793.975,
-    "text": "vegetation area should not be affected. I think that the culvert project would help reduce the floodplain on condominiums. sounded like they had flooding. >> a project to reduce the flooding on residents. >> okay, thank you. questions or comments on this? Okay, this is the last presentation on the budget; right? We did stormwater, we did wastewater, we did all the things. Is that correct MR. Martinez, we"
+    "start": 13723.807,
+    "end": 13730.111,
+    "text": "okay, is it expected to help the situation that we're seeing? With the rain that happened last week?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13795.45,
-    "end": 13827.609,
-    "text": "have done all the things? we have but if you can humor me for less than a minute bring up a budget related meeting topic slide. Very quickly to give everyone a recap of where we are. There you go, as clerk brings it up. I want to briefly review the budget related meeting topics with council, and as shown marks the third, and second public"
+    "start": 13730.513,
+    "end": 13763.211,
+    "text": "with the rain that happened last week the stream restoration project area functioned as intended. The entire stream corridor flooded and allowed for the water velocities reduced. And unfortunate to happen after plantings and why so many displaced but an established vegetation area should not be affected."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13829.478,
+    "start": 13766.48,
+    "end": 13774.489,
+    "text": "I think that the culvert project would help reduce the floodplain on condominiums."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13775.858,
+    "end": 13778.628,
+    "text": "sounded like they had flooding. a project to reduce the"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13778.628,
+    "end": 13780.528,
+    "text": "flooding on residents. okay, thank you."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13780.896,
+    "end": 13797.45,
+    "text": "questions or comments on this? Okay, this is the last presentation on the budget; right? We did stormwater, we did wastewater, we did all the things. Is that correct MR. Martinez, we have done all the things?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13797.947,
+    "end": 13832.46,
+    "text": "we have but if you can humor me for less than a minute bring up a budget related meeting topic slide. Very quickly to give everyone a recap of where we are. There you go, as clerk brings it up. I want to briefly review the budget related meeting topics with council, and as shown marks the third, and second public hearing on proposed fy27 budget. We are currently scheduled to"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13833.115,
+    "end": 13850.365,
+    "text": "hold additional work sessions and eight more public related hearings. Additionally last we met council requested that staff revisit the need for saturday, APRIL 11 retreat meeting. Unless we receive different direction from council this evening, we are recommending"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13853.437,
     "end": 13860.875,
-    "text": "hearing on proposed fy27 budget. We are currently scheduled to hold additional work sessions and eight more public related hearings. Additionally last we met council requested that staff revisit the need for saturday, APRIL 11 retreat meeting. Unless we receive different direction from council this evening, we are recommending that meeting to be canceled. >> comments or questions on this item? Councilmember hall."
+    "text": "that meeting to be canceled. comments or questions on this item? Councilmember hall."
   },
   {
     "speaker": "Unknown Speaker",
     "start": 13861.644,
-    "end": 13892.974,
-    "text": "I think it was -- maybe in here and I didn't see it, there was a question about the v-poll tax that I asked is that identified council topics or something else? Or in addition? it's a great question and applies to all budget memos. Those are posted and to your point and say later as we go through the remainder where we have if needed. That's a great opportunity for"
+    "end": 13880.794,
+    "text": "I think it was -- maybe in here and I didn't see it, there was a question about the v-poll tax that I asked is that identified council topics or something else? Or in addition?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13893.876,
-    "end": 13926.7,
-    "text": "us to revisit budget memos that we have responded to, and include I think that was posted today. The answer is posted so we certainly welcome discussion around those budget memos. yeah, I still have questions they have been formulateing and not spend piecemeal, mine are still coming in some fashion. Thank you. councilmember amos. I know that we have discussed this before and a number of my questions are legislative and my understanding that we won't know"
+    "start": 13881.464,
+    "end": 13905.285,
+    "text": "it's a great question and applies to all budget memos. Those are posted and to your point and say later as we go through the remainder where we have if needed. That's a great opportunity for us to revisit budget memos that we have responded to, and include I think that was posted today. The answer is posted so we certainly welcome discussion around those budget memos."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13931.447,
-    "end": 13964.478,
-    "text": "until APRIL 13 and robust discussion on APRIL 14 and that's not needed. and hardy-chandler. when we talk about educating the public these meetings are part of that educational process. I think this provides more transparency without the retreat, which is less accessible to our community. So -- councilmember peterson. >> no comment or quarrel with this but a question, that is and"
+    "start": 13905.989,
+    "end": 13915.13,
+    "text": "yeah, I still have questions they have been formulateing and not spend piecemeal, mine are still coming in some fashion. Thank you."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13965.247,
-    "end": 13996.577,
-    "text": "forgive me for not recalling, did we decide that we did not need a budget open house during this cycle? if I recall correctly I think at the first budget work session on MARCH 3, councilmember amos mentioned it. It's my recollection at that time that no other council group"
+    "start": 13915.398,
+    "end": 13917.398,
+    "text": "councilmember amos."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 13997.48,
-    "end": 14028.575,
-    "text": "or member said anything in support or not supportive that. -- support of that. I don't know if that is correct? I brought it up and no direction. That's pretty much what happened. >> councilmember peterson. well, I think it's an open question if it is something that we want to do sounds like we should be planning it right about now to run out of time. I am open minded about this but I know when we did this last"
+    "start": 13918.835,
+    "end": 13938.487,
+    "text": "I know that we have discussed this before and a number of my questions are legislative and my understanding that we won't know until APRIL 13 and robust discussion on APRIL 14 and that's not needed."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14028.978,
-    "end": 14060.942,
-    "text": "year, when we did it during the budget cycle last year it was well attended I think. And we received quite a bit of feedback, I know an open house was done early in this process and early enough not to have the turn out that we expected. I am flexible and open I think if it's something that we want to consider and reach a decision point rather quickly about it. >> councilmember Mcquillen. I agree with that, I have heard a lot from residents last year following the budget season"
+    "start": 13938.487,
+    "end": 13940.487,
+    "text": "and hardy-chandler."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14061.977,
-    "end": 14094.476,
-    "text": "that, that was a very helpful thing to have that open house there, they could walk in and ask any question of staff. I heard a lot of overwhelming feedback, positive feedback about that. I think it would be helpful and beneficial to our community to do that again this time. >> councilmember hardy-chandler. I think it was a disproporz portionately large amount of"
+    "start": 13940.656,
+    "end": 13956.3,
+    "text": "when we talk about educating the public these meetings are part of that educational process. I think this provides more transparency without the retreat, which is less accessible to our community. So --"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14094.844,
+    "start": 13956.505,
+    "end": 13976.291,
+    "text": "councilmember peterson. no comment or quarrel with this but a question, that is and forgive me for not recalling, did we decide that we did not need a budget open house during this cycle?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 13980.996,
+    "end": 14005.919,
+    "text": "if I recall correctly I think at the first budget work session on MARCH 3, councilmember amos mentioned it. It's my recollection at that time that no other council group or member said anything in support or not supportive that. -- support of that. I don't know if that is correct?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 14006.422,
+    "end": 14008.524,
+    "text": "I brought it up and no direction. That's pretty much what"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 14008.524,
+    "end": 14010.392,
+    "text": "happened. councilmember peterson."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 14012.395,
+    "end": 14042.923,
+    "text": "well, I think it's an open question if it is something that we want to do sounds like we should be planning it right about now to run out of time. I am open minded about this but I know when we did this last year, when we did it during the budget cycle last year it was well attended I think. And we received quite a bit of feedback, I know an open house was done early in this process and early enough not to have the"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 14043.225,
+    "end": 14050.432,
+    "text": "turn out that we expected. I am flexible and open I think if it's something that we want to consider and reach a decision"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 14052.201,
+    "end": 14054.269,
+    "text": "point rather quickly about it. councilmember Mcquillen."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 14055.204,
+    "end": 14079.627,
+    "text": "I agree with that, I have heard a lot from residents last year following the budget season that, that was a very helpful thing to have that open house there, they could walk in and ask any question of staff. I heard a lot of overwhelming feedback, positive feedback about that. I think it would be helpful and beneficial to our community to"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 14081.197,
+    "end": 14083.498,
+    "text": "do that again this time. councilmember hardy-chandler."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 14091.941,
     "end": 14126.54,
-    "text": "work for staff relative to the community engagement, I think we can do something different. One of the things that came to mind was to connect the budget discussion, and I do think we need some time to develop it, I don't know if we can do it this budget cycle. But to connect budget discussions to other events we are having and have it combined. But I think that the work that the staff put in and reach was"
+    "text": "I think it was a disproporz portionately large amount of work for staff relative to the community engagement, I think we can do something different. One of the things that came to mind was to connect the budget discussion, and I do think we need some time to develop it, I don't know if we can do it this budget cycle. But to connect budget discussions to other events we are having and have it combined. But I think that the work that the staff put in and reach was"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2506,164 +3580,218 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 14160.309,
-    "end": 14190.872,
-    "text": "stand-alone event. that is the village in the city expo on friday the 10th and incredibly well attended. I take the point that having somebody there, not every department, not people from every department, that was incredible feat. And it was incredibly well received but it was a disproportionate amount of effort and time to do that. And I think we've given plenty of opportunities in many"
+    "end": 14162.309,
+    "text": "stand-alone event."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14191.774,
-    "end": 14222.836,
-    "text": "different platforms for the public to engage. And I think that the late date that is unreasonable expectation to think that we are going to mount that kind of effort just the staff time alone is an incredible investment. So I think there are opportunities between now and APRIL 28 to do outreach to existing projects with having somebody with information whether it's hand outs or charts"
+    "start": 14162.645,
+    "end": 14193.774,
+    "text": "that is the village in the city expo on friday the 10th and incredibly well attended. I take the point that having somebody there, not every department, not people from every department, that was incredible feat. And it was incredibly well received but it was a disproportionate amount of effort and time to do that. And I think we've given plenty of opportunities in many different platforms for the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14223.305,
-    "end": 14255.536,
-    "text": "or whatever or simply to answer questions where people are already in an event at the city. But the village in the city expo to me is an opportunity to do that. I am not in favor of mounting another event at the level that we did last year. Especially at this late date. Councilmember hall. so I think it was a fantastic event last year. I know it was put on in a very short period of time. And I also agree while well"
+    "start": 14194.578,
+    "end": 14225.4,
+    "text": "public to engage. And I think that the late date that is unreasonable expectation to think that we are going to mount that kind of effort just the staff time alone is an incredible investment. So I think there are opportunities between now and APRIL 28 to do outreach to existing projects with having somebody with information whether it's hand outs or charts or whatever or simply to answer questions where people are"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14258.975,
-    "end": 14290.437,
-    "text": "attended and disproportionate number of people that attended. And the fall event not as successful and it was not budget mode and the goal to plan for budget. But a lot of things that go in there. And also do agree that it's extraordinary amount of work and I don't think that it's something that we should or could even hope that staff would put on again in this short time frame. That said, I wonder if there is"
+    "start": 14225.574,
+    "end": 14243.91,
+    "text": "already in an event at the city. But the village in the city expo to me is an opportunity to do that. I am not in favor of mounting another event at the level that we did last year. Especially at this late date. Councilmember hall."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14292.309,
-    "end": 14326.207,
-    "text": "a way to advertise office hours or coffee with the ceo or kroizants with the city manager and an opportunity to check in with a meeting. to have another opportunity. But I also do want to thank both of you specifically and all the other staff that has come in e-mails. We've had a couple of really, really heavily -- a lot of questions from residents and you guys have taken amazing job at answering them."
+    "start": 14244.126,
+    "end": 14276.224,
+    "text": "so I think it was a fantastic event last year. I know it was put on in a very short period of time. And I also agree while well attended and disproportionate number of people that attended. And the fall event not as successful and it was not budget mode and the goal to plan for budget. But a lot of things that go in there. And also do agree that it's extraordinary amount of work and"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14327.71,
-    "end": 14360.942,
-    "text": "And you have met with random people that come in and had questions and helped. I don't know if that's been done before, I don't know that it hasn't. But that's been huge. And think letting people know that there is an opportunity for specific questions to be asked and answered is maybe so you get croissants and/or coffee. >> MR. Alexander: slide away from jc a little bit."
+    "start": 14277.193,
+    "end": 14308.355,
+    "text": "I don't think that it's something that we should or could even hope that staff would put on again in this short time frame. That said, I wonder if there is a way to advertise office hours or coffee with the ceo or kroizants with the city manager and an opportunity to check in with a meeting. to have another opportunity. But I also do want to thank both"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14362.979,
+    "start": 14308.691,
+    "end": 14339.186,
+    "text": "of you specifically and all the other staff that has come in e-mails. We've had a couple of really, really heavily -- a lot of questions from residents and you guys have taken amazing job at answering them. And you have met with random people that come in and had questions and helped. I don't know if that's been done before, I don't know that it hasn't. But that's been huge. And think letting people know"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 14339.589,
+    "end": 14349.83,
+    "text": "that there is an opportunity for specific questions to be asked and answered is maybe"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 14352.168,
+    "end": 14354.803,
+    "text": "so you get croissants and/or coffee. MR. Alexander:"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 14358.641,
+    "end": 14390.405,
+    "text": "slide away from jc a little bit. Type of settle where we can do something here. Have a virtual option. Do it within a certain time frame. Happy to sit down face-to-face around a table and pick up anything online. I'm speaking off the top of my head, I think something like that is doable, and we can work on a time and a particular day, night schedule where we can do that."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 14391.841,
     "end": 14394.709,
-    "text": "Type of settle where we can do something here. Have a virtual option. Do it within a certain time frame. Happy to sit down face-to-face around a table and pick up anything online. I'm speaking off the top of my head, I think something like that is doable, and we can work on a time and a particular day, night schedule where we can do that. So jc. You up for that."
+    "text": "So jc. You up for that."
   },
   {
     "speaker": "Unknown Speaker",
     "start": 14395.778,
-    "end": 14427.708,
-    "text": "yes, sir. council member amos. I appreciate the discussion. I do wish we had this conversation sooner. I do cun oncur trying to get this within the next month or so. i think that's a great alternative we could work with. Fall wasn't the greatest. I think last spring we had a very unique budget and we were all relatively new to the game."
+    "end": 14397.778,
+    "text": "yes, sir."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14429.646,
-    "end": 14459.807,
-    "text": "Part of that was us becoming familiar with all of the departments and with this unique budget that had an interesting rate proposed. Even from the public hearings we've had so far rhel elatively low attendance. I can be amenable to that. I do prefer the larger scale event. I understand that's more resources. >> council member peterson. It's for the city manager to"
+    "start": 14398.347,
+    "end": 14400.347,
+    "text": "council member amos."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14461.777,
-    "end": 14492.706,
-    "text": "come back on a suggestion how we might proceed. Is that fair? I think that's an excellent compromise. I would like to call on it MR. Martinez and also MS. Riddle for the extraordinary amount of effort in responding to our residents who had questions. And there's been a tremendous amount of amount of emails back and forth from people very specific questions. And I just want to remind people that staff time is not unlimited"
+    "start": 14400.45,
+    "end": 14432.313,
+    "text": "I appreciate the discussion. I do wish we had this conversation sooner. I do cun oncur trying to get this within the next month or so. i think that's a great alternative we could work with. Fall wasn't the greatest. I think last spring we had a very unique budget and we were all relatively new to the game. Part of that was us becoming familiar with all of the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14493.943,
-    "end": 14527.441,
-    "text": "and it's also not free. People work a 40 hour workweek and our employees work more than that. To sit down or answer an email, you know there's a cost to that. And so I want us to be responsive to our residents but I think we have to be mindful that time and resources are limited, and we need to be thinking about how we can take this work that's being invested"
+    "start": 14434.5,
+    "end": 14451.66,
+    "text": "departments and with this unique budget that had an interesting rate proposed. Even from the public hearings we've had so far rhel elatively low attendance. I can be amenable to that. I do prefer the larger scale event."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14529.512,
-    "end": 14563.612,
-    "text": "and put in some sort of format so more people have the same questions have access to it. I will just point out, foia requests have a cost to them because the state has mandated that it -- that the staff doing the work be compensated. I just point to that. That is just something that the state has decided. If you're going to do something it's going to cost staff time then you're going to pay a fee for the staff time. During this budget season we're getting requests and requests."
+    "start": 14453.836,
+    "end": 14467.81,
+    "text": "I understand that's more resources. council member peterson. It's for the city manager to come back on a suggestion how we might proceed. Is that fair?"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14563.612,
-    "end": 14594.875,
-    "text": "That is staff time. And there's a cost to that. I want our residents to be mindful we are trying to be very hard to be transparent and educational as much as week about the budget and your tax dollars. Staff time is not unlimited and there is a cost to being responsive to these things. I hope everyone will be mindful when they depa gauge with us"
+    "start": 14467.516,
+    "end": 14499.179,
+    "text": "I think that's an excellent compromise. I would like to call on it MR. Martinez and also MS. Riddle for the extraordinary amount of effort in responding to our residents who had questions. And there's been a tremendous amount of amount of emails back and forth from people very specific questions. And I just want to remind people that staff time is not unlimited and it's also not free. People work a 40 hour workweek"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14597.714,
-    "end": 14628.142,
-    "text": "that it's unlimited. I know MR. Alexander what we spoke about I asked about the budget memos and I asked about the resident questions that come. And I'm wondering if given the extra extraordinary amount of time you ever spent responding to some very specific questions that others MAY have is there a way"
+    "start": 14500.649,
+    "end": 14532.38,
+    "text": "and our employees work more than that. To sit down or answer an email, you know there's a cost to that. And so I want us to be responsive to our residents but I think we have to be mindful that time and resources are limited, and we need to be thinking about how we can take this work that's being invested and put in some sort of format so more people have the same"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14628.445,
-    "end": 14658.472,
-    "text": "we could remove the person's name and anything else that might be identifying and post those questions in whatever format without doing any other work to put them in alphabetical order or this or that. you have gone to such great depths to answer the questions. But it also seems what we're finding a lot of people have similar questions. So I think if we can do that, if"
+    "start": 14533.616,
+    "end": 14565.612,
+    "text": "questions have access to it. I will just point out, foia requests have a cost to them because the state has mandated that it -- that the staff doing the work be compensated. I just point to that. That is just something that the state has decided. If you're going to do something it's going to cost staff time then you're going to pay a fee for the staff time. During this budget season we're getting requests and requests. That is staff time."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14659.775,
-    "end": 14691.539,
-    "text": "not, I'll generate a new budget memo and ask new questions and you can copy and paste. something to think about is maybe using some of that content for whatever we do for the open house or whatever we call it. That way staff is not trying to weed through work they've also responded to. Is if there are items that we respond back to folks on, I think it's certainly fair game"
+    "start": 14565.948,
+    "end": 14599.714,
+    "text": "And there's a cost to that. I want our residents to be mindful we are trying to be very hard to be transparent and educational as much as week about the budget and your tax dollars. Staff time is not unlimited and there is a cost to being responsive to these things. I hope everyone will be mindful when they depa gauge with us that it's unlimited."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14692.809,
-    "end": 14727.91,
-    "text": "for the context of the discussions we're having here. I welcome you bringing come of that that. So that's an opportunity also. So we'll pick through that a little bit. I'm sure you probably have something to add to that. We can reference a lot of that information as kind of content and context for this discussion we plan to have. just to add to the manager's comment so not detailed, not personal identify"
+    "start": 14601.15,
+    "end": 14631.279,
+    "text": "I know MR. Alexander what we spoke about I asked about the budget memos and I asked about the resident questions that come. And I'm wondering if given the extra extraordinary amount of time you ever spent responding to some very specific questions that others MAY have is there a way we could remove the person's name and anything else that"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14727.91,
-    "end": 14759.508,
-    "text": "iable information such as someone's name. When we respond back to the community, to the residents, those are being filtered as probably the best way to describe it and summarize and post it on the city's in engage page directly lirninged to the budget. Our communications matthew kaiser is being copied on all of those.Our communications matthew kaiser is being copied on all of those.Budget."
+    "start": 14632.648,
+    "end": 14665.246,
+    "text": "might be identifying and post those questions in whatever format without doing any other work to put them in alphabetical order or this or that. you have gone to such great depths to answer the questions. But it also seems what we're finding a lot of people have similar questions. So I think if we can do that, if not, I'll generate a new budget memo and ask new questions and you can copy and paste."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14759.508,
-    "end": 14791.71,
-    "text": "Our communications matthew kaiser is being copied on all of those. I was not aware as well. Council member headquarter ardy hardy. I think there is a value to -- I know you're going to bring something back. I do think there's a value to where people are naturally for. I just really sincerely value your time. I know the effort that you put"
+    "start": 14666.55,
+    "end": 14700.716,
+    "text": "something to think about is maybe using some of that content for whatever we do for the open house or whatever we call it. That way staff is not trying to weed through work they've also responded to. Is if there are items that we respond back to folks on, I think it's certainly fair game for the context of the discussions we're having here. I welcome you bringing come of that"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14793.142,
-    "end": 14826.34,
-    "text": "in and the desire to consistently be responsive but I do think that we have also a responsibility to be good stewards of your time. And so cumulative kinds of thing like compiling themes and putting that on the engage page I absolutely support that. I do think that your time requires stewardship as well. Just to the extent you do not have to build something new and"
+    "start": 14700.716,
+    "end": 14717.966,
+    "text": "that. So that's an opportunity also. So we'll pick through that a little bit. I'm sure you probably have something to add to that. We can reference a lot of that information as kind of content and context for this discussion we plan to have."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14827.176,
-    "end": 14858.806,
-    "text": "to bring things where people naturally are. MS. Riddle. I want to share on the engage page. We've had a number of comments from residents, many just statements. But we've had a few questions, and we're answering back and forth on those questions through our communications department. Anyone can see that who goes to the page. We're post continuing to the"
+    "start": 14720.469,
+    "end": 14752.966,
+    "text": "just to add to the manager's comment so not detailed, not personal identify iable information such as someone's name. When we respond back to the community, to the residents, those are being filtered as probably the best way to describe it and summarize and post it on the city's in engage page directly lirninged to the budget. Our communications matthew"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14860.71,
-    "end": 14891.271,
-    "text": "city budget memos. So we're trying to get the message out. There was actually a posting from our communications group on the city's Facebook. Go to the engage page for budget. I was scrolling before we started. It's out there, and happy I think it would be great to go where some of those events are if it's a possibility and time"
+    "start": 14754.303,
+    "end": 14763.211,
+    "text": "kaiser is being copied on all of those.Our communications matthew kaiser is being copied on all of those.Budget. Our communications matthew kaiser is being copied on all of those."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14893.8,
-    "end": 14924.305,
-    "text": "allows in management agrees. I'd just re-flofrs there are essentially two people answering these questions and their day job. We have to keep that in mind which is expressing appreciation to these two again for the amount of time they're doing. Council member. Council member Mcquillan."
+    "start": 14766.716,
+    "end": 14800.648,
+    "text": "I was not aware as well. Council member headquarter ardy hardy. I think there is a value to -- I know you're going to bring something back. I do think there's a value to where people are naturally for. I just really sincerely value your time. I know the effort that you put in and the desire to consistently be responsive but I do think that we have also a responsibility to be good"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14926.242,
-    "end": 14956.904,
-    "text": "I do like the virtual option that you were mentioning. I kind of like to look at things there sometimes too. And having something with that virtual session on there so that people can partake and watch. I think having that face-to-face even though they're not going to be face-to-face with you having that and getting that opportunity to meet with you in that way is very valuable and I think that can help if there's"
+    "start": 14801.751,
+    "end": 14829.411,
+    "text": "stewards of your time. And so cumulative kinds of thing like compiling themes and putting that on the engage page I absolutely support that. I do think that your time requires stewardship as well. Just to the extent you do not have to build something new and to bring things where people naturally are."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14957.306,
-    "end": 14988.503,
-    "text": "time of course recognizing. Thank you. questions or comments on this? Okay. It sounds we have sort of a preliminary plan and we have grown richer to know that information exists on the engage page. That was tip of the day, and we can all do a good job people can find additional information and resident questions that are being answered on a public page on our website. That is great information. All right."
+    "start": 14829.445,
+    "end": 14862.71,
+    "text": "MS. Riddle. I want to share on the engage page. We've had a number of comments from residents, many just statements. But we've had a few questions, and we're answering back and forth on those questions through our communications department. Anyone can see that who goes to the page. We're post continuing to the city budget memos."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 14991.6,
-    "end": 15024.839,
-    "text": "I think we're going to move to our last item. mayor and council we were asked to put this on for a work session. By way of reminder current sl re-for the $13,000. Council members each receive $12,000. Compensation in virginia for mayors and council members is governed by state law for the"
+    "start": 14862.878,
+    "end": 14895.8,
+    "text": "So we're trying to get the message out. There was actually a posting from our communications group on the city's Facebook. Go to the engage page for budget. I was scrolling before we started. It's out there, and happy I think it would be great to go where some of those events are if it's a possibility and time allows in management agrees."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15045.961,
+    "start": 14898.247,
+    "end": 14929.145,
+    "text": "I'd just re-flofrs there are essentially two people answering these questions and their day job. We have to keep that in mind which is expressing appreciation to these two again for the amount of time they're doing. Council member. Council member Mcquillan. I do like the virtual option that you were mentioning."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 14931.247,
+    "end": 14959.641,
+    "text": "I kind of like to look at things there sometimes too. And having something with that virtual session on there so that people can partake and watch. I think having that face-to-face even though they're not going to be face-to-face with you having that and getting that opportunity to meet with you in that way is very valuable and I think that can help if there's time of course recognizing. Thank you."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 14961.243,
+    "end": 14993.6,
+    "text": "questions or comments on this? Okay. It sounds we have sort of a preliminary plan and we have grown richer to know that information exists on the engage page. That was tip of the day, and we can all do a good job people can find additional information and resident questions that are being answered on a public page on our website. That is great information. All right. I think we're going to move to"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 15002.17,
+    "end": 15004.17,
+    "text": "our last item."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 15004.854,
+    "end": 15047.961,
+    "text": "mayor and council we were asked to put this on for a work session. By way of reminder current sl re-for the $13,000. Council members each receive $12,000. Compensation in virginia for mayors and council members is governed by state law for the most part."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 15048.531,
     "end": 15078.494,
-    "text": "most part. But within the population band have recently increased their salaries based on what the general assembly did in 2024. As I noted any there have been an intervening election. And the ordinance has to be enacted at least prior to the elections. Which practically speaking you would probably need to take action in JUNE some time. Happy to answer any questions."
+    "text": "But within the population band have recently increased their salaries based on what the general assembly did in 2024. As I noted any there have been an intervening election. And the ordinance has to be enacted at least prior to the elections. Which practically speaking you would probably need to take action in JUNE some time. Happy to answer any questions."
   },
   {
     "speaker": "Unknown Speaker",
@@ -2674,350 +3802,614 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "start": 15124.607,
-    "end": 15154.935,
-    "text": "So we had the intervening election. Now we have this council. And so now we're bringing it you back because there's opportunity for the next council because there is an election this NOVEMBER. I'm going to turn it over to council member bates. >> thank you. So I want to talk about not only the salaries for the mayor and city council but also people to be adequately compensated for"
+    "end": 15137.752,
+    "text": "So we had the intervening election. Now we have this council. And so now we're bringing it you back because there's opportunity for the next council because there is an election this NOVEMBER."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15155.805,
-    "end": 15186.68,
-    "text": "all levels of government. It is time to also consider the salaries of next mayor and council as well since these salaries have not been increased since 2016. I'm not running again. I'm supporting this for the next council. Not everyone can afford to serve on local council. This additionally represents an"
+    "start": 15139.88,
+    "end": 15170.85,
+    "text": "I'm going to turn it over to council member bates. thank you. So I want to talk about not only the salaries for the mayor and city council but also people to be adequately compensated for all levels of government. It is time to also consider the salaries of next mayor and council as well since these salaries have not been increased since 2016. I'm not running again."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15186.37,
-    "end": 15218.665,
-    "text": "obligation for the next council to take a long hard look at the results of classification and pay study as well as we are compensating some of our staff. We've been the most principled. Showing how appreciative of the level of service that our staff provide and our public safety must contend with long hours and stress unique to their line of work."
+    "start": 15172.288,
+    "end": 15203.217,
+    "text": "I'm supporting this for the next council. Not everyone can afford to serve on local council. This additionally represents an obligation for the next council to take a long hard look at the results of classification and pay study as well as we are compensating some of our staff. We've been the most principled."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15220.137,
-    "end": 15251.566,
-    "text": "It will be incumbent to pay it forward and is prioritized to afford to make ends meet and is properly compensated for the services they provide to our residents. thank you. any other discussion on this. council member hardy hardy-chandler. I agree with council member bates with the exception that I think that staff compensation and unfunded positions need to be considered first."
+    "start": 15203.219,
+    "end": 15231.646,
+    "text": "Showing how appreciative of the level of service that our staff provide and our public safety must contend with long hours and stress unique to their line of work. It will be incumbent to pay it forward and is prioritized to afford to make ends meet and is properly compensated for the services they provide to our residents."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15252.569,
-    "end": 15283.331,
-    "text": "I do think that we do have to think about the obligations and the commitments that are people are making to city council. That's fantastic. I think for our city and the conversations that we have and the demands we continuously put on staff to educate and do other things, I think we really need to look at this in sequencer. For me the staff our police department, and our fire department come first quite frankly."
+    "start": 15232.581,
+    "end": 15234.581,
+    "text": "thank you."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15284.1,
+    "start": 15234.884,
+    "end": 15236.884,
+    "text": "any other discussion on this."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 15239.21,
+    "end": 15240.755,
+    "text": "council member hardy hardy-chandler."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 15241.757,
+    "end": 15272.286,
+    "text": "I agree with council member bates with the exception that I think that staff compensation and unfunded positions need to be considered first. I do think that we do have to think about the obligations and the commitments that are people are making to city council. That's fantastic. I think for our city and the conversations that we have and the demands we continuously put on staff to educate and do other"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 15272.556,
+    "end": 15302.818,
+    "text": "things, I think we really need to look at this in sequencer. For me the staff our police department, and our fire department come first quite frankly. For me that would not on the table unless we look at and some of the requests for positions that are investments in our future and that speak to the alignment of what we say we value but all of those things need to be re-sourced. Things don't happen unless"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 15302.818,
     "end": 15314.629,
-    "text": "For me that would not on the table unless we look at and some of the requests for positions that are investments in our future and that speak to the alignment of what we say we value but all of those things need to be re-sourced. Things don't happen unless people do them. So I agree with council member bates bates' comments but only with the circumstance that the staff comes first."
+    "text": "people do them. So I agree with council member bates bates' comments but only with the circumstance that the staff comes first."
   },
   {
     "speaker": "Unknown Speaker",
     "start": 15319.68,
+    "end": 15321.27,
+    "text": "we would need to do something promptly."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 15322.339,
     "end": 15354.768,
-    "text": "we would need to do something promptly. JULY 3rd is the deadline to have an ordinance in place. Practically speaking because you need two meetings without a special meeting the action should be in JUNE. I would I guess advocate that we turn this into an action item that let's us understand more about this. So that we at least have the option to move forward on that time frame and not lose that window of opportunity."
+    "text": "JULY 3rd is the deadline to have an ordinance in place. Practically speaking because you need two meetings without a special meeting the action should be in JUNE. I would I guess advocate that we turn this into an action item that let's us understand more about this. So that we at least have the option to move forward on that time frame and not lose that window of opportunity."
   },
   {
     "speaker": "Unknown Speaker",
     "start": 15354.904,
-    "end": 15387.301,
-    "text": "understood. I'm curious what you would like to have prepared then because there's lots of way to skin this cat. You can have a graduated increases. You can have -- you can delay beyond JULY 1, 2027. I'm trying to figure out what the request is. given the hour it's not something we need to do tonight. Maybe you can come back and"
+    "end": 15376.291,
+    "text": "understood. I'm curious what you would like to have prepared then because there's lots of way to skin this cat. You can have a graduated increases. You can have -- you can delay beyond JULY 1, 2027. I'm trying to figure out what the request is."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15387.737,
-    "end": 15418.5,
-    "text": "understand how those options might work. another work session. that would be time. It should be treated as a timely matter. We need to understand the options and issues in order to act on it. In my view, thank you. this also has a budgetary impact. not for the coming budget. This would be JULY 1, the following year. F"
+    "start": 15378.594,
+    "end": 15389.504,
+    "text": "given the hour it's not something we need to do tonight. Maybe you can come back and understand how those options might work."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15419.635,
-    "end": 15450.598,
-    "text": "fy28 would be the impact. JULY 1st is the first date it would be effective. council member amos. I would recommend a follow-up session. That way people will know what's going on. Maybe different scenarios how we handled with different rates so we know that moving forward. But I would be open to"
+    "start": 15390.72,
+    "end": 15392.72,
+    "text": "another work session."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15450.7,
-    "end": 15482.762,
-    "text": "continuing this discussion. I think you gave us a figure, didn't you. For the full increase it would be $77,000. We can certainly give different figures. I gave two examples what other jurisdictions have done. I can provide other examples of others that have been done in the last few years. I limit it to the population band."
+    "start": 15392.241,
+    "end": 15404.318,
+    "text": "that would be time. It should be treated as a timely matter. We need to understand the options and issues in order to act on it. In my view, thank you."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15483.32,
-    "end": 15513.66,
-    "text": "And there are some cities that still have as the city did until the city changed its charter that are different from that. apples to apples I could give a few more examples. council member hall. when we were on the school board actually put in an increase for the new and coming because quite honestly it's a lot of work. I think if you're not in this"
+    "start": 15405.354,
+    "end": 15406.588,
+    "text": "this also has a budgetary impact."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15517.633,
-    "end": 15548.396,
-    "text": "role or not an elected official role I don't think you realize how many hours you spend. I spend 20 hours outside of meetings. That's going to events. That's preparing myself for the meetings. Researching. Asking questions. We think probably put in similar or different hours. But this is a very important role for our city."
+    "start": 15410.893,
+    "end": 15421.635,
+    "text": "not for the coming budget. This would be JULY 1, the following year. F fy28 would be the impact."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15552.68,
-    "end": 15582.797,
-    "text": "And I also think that when you potentially have people have to worry about child care or getting rides places or keeping track of aging parents or things going on here, there's a cost to that. There's a cost to not being at your kid's basketball game. Missing something on a saturday because you're on a quarterly retreat. I think with the pay scale there's a lot of great people in"
+    "start": 15424.874,
+    "end": 15427.275,
+    "text": "JULY 1st is the first date it would be effective."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15583.532,
-    "end": 15618.66,
-    "text": "our community that can't afford to give this time for what that current rate is. And I also know that I meet with constituents. I meet with staff members. We meet together collectively. We pay for our own dinners when we go out. I certainly don't know what they are. Butthe amount of work that you get out of the people that sit out here for $30,000 but 77 $77,000"
+    "start": 15428.11,
+    "end": 15430.11,
+    "text": "council member amos."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15619.736,
-    "end": 15650.23,
-    "text": "because you'd be doubling. What we're getting right now. 10 $10,000 a year. We get. we get 11, $12,000. Councilmembers get 12, the mayor gets 13. do we do a great job most days. I hope so. I just think it's a labor of love. It is a volunteer role with a"
+    "start": 15432.515,
+    "end": 15452.7,
+    "text": "I would recommend a follow-up session. That way people will know what's going on. Maybe different scenarios how we handled with different rates so we know that moving forward. But I would be open to continuing this discussion."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15650.599,
-    "end": 15682.529,
-    "text": "very small stipend, and I would continue to do it for the current salary we're getting. I would like to leave it better for those coming after us, and also maybe incentivize people to consider this, scp and that money was a barrier why you can't afford for day care every week. By doing this we're opening it up to more people. About the staff."
+    "start": 15453.35,
+    "end": 15485.32,
+    "text": "I think you gave us a figure, didn't you. For the full increase it would be $77,000. We can certainly give different figures. I gave two examples what other jurisdictions have done. I can provide other examples of others that have been done in the last few years. I limit it to the population band. And there are some cities that"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15682.733,
+    "start": 15486.369,
+    "end": 15498.79,
+    "text": "still have as the city did until the city changed its charter that are different from that. apples to apples I could give a few more examples."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 15498.614,
+    "end": 15500.614,
+    "text": "council member hall."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 15501.484,
+    "end": 15534.984,
+    "text": "when we were on the school board actually put in an increase for the new and coming because quite honestly it's a lot of work. I think if you're not in this role or not an elected official role I don't think you realize how many hours you spend. I spend 20 hours outside of meetings. That's going to events. That's preparing myself for the meetings. Researching."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 15535.151,
+    "end": 15565.179,
+    "text": "Asking questions. We think probably put in similar or different hours. But this is a very important role for our city. And I also think that when you potentially have people have to worry about child care or getting rides places or keeping track of aging parents or things going on here, there's a cost to that."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 15566.982,
+    "end": 15598.512,
+    "text": "There's a cost to not being at your kid's basketball game. Missing something on a saturday because you're on a quarterly retreat. I think with the pay scale there's a lot of great people in our community that can't afford to give this time for what that current rate is. And I also know that I meet with constituents. I meet with staff members. We meet together collectively."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 15599.315,
+    "end": 15628.575,
+    "text": "We pay for our own dinners when we go out. I certainly don't know what they are. Butthe amount of work that you get out of the people that sit out here for $30,000 but 77 $77,000 because you'd be doubling. What we're getting right now. 10 $10,000 a year. We get."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 15630.746,
+    "end": 15635.35,
+    "text": "we get 11, $12,000. Councilmembers get 12, the mayor gets 13."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 15639.188,
+    "end": 15670.818,
+    "text": "do we do a great job most days. I hope so. I just think it's a labor of love. It is a volunteer role with a very small stipend, and I would continue to do it for the current salary we're getting. I would like to leave it better for those coming after us, and also maybe incentivize people to consider this, scp and that money was a barrier why you can't"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 15673.522,
+    "end": 15703.918,
+    "text": "afford for day care every week. By doing this we're opening it up to more people. About the staff. I think quite frankly they're two separate pieces. For me one is not dependent on the other. I think we have salaries what has been projected for the 2027 budget. I haven't heard any discussion to changing that. I'm moving previously. That's a non-topic when it comes to this."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 15705.889,
     "end": 15713.46,
-    "text": "I think quite frankly they're two separate pieces. For me one is not dependent on the other. I think we have salaries what has been projected for the 2027 budget. I haven't heard any discussion to changing that. I'm moving previously. That's a non-topic when it comes to this. I just up here and staff we're all working much harder than what you see on a tuesday night."
+    "text": "I just up here and staff we're all working much harder than what you see on a tuesday night."
   },
   {
     "speaker": "Unknown Speaker",
     "start": 15713.83,
-    "end": 15748.63,
-    "text": "council member amos. >> just one observation, and obviously I appreciate the information you did send around what neighboring jurisdictions will the fairfax planning commission gets a 25 $25,000 stipend. They do make double what we make per year. I think council member bates said originally. People should be compensated commensurate with the job"
+    "end": 15736.251,
+    "text": "council member amos. just one observation, and obviously I appreciate the information you did send around what neighboring jurisdictions will the fairfax planning commission gets a 25 $25,000 stipend. They do make double what we make per year."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15748.364,
-    "end": 15781.229,
-    "text": "they're doing. I think 13 grand it's not a bad investment for the last four years. But it needs to be commensurate and we need to remove the other barriers. There's a lot of privilege to be able to afford to volunteer your time at the rate that we are volunteering our time. That comes with us having the privilege financially and time wise, in our lives to be able to do it. I do worry that we don't necessarily have people stepping"
+    "start": 15737.154,
+    "end": 15768.917,
+    "text": "I think council member bates said originally. People should be compensated commensurate with the job they're doing. I think 13 grand it's not a bad investment for the last four years. But it needs to be commensurate and we need to remove the other barriers. There's a lot of privilege to be able to afford to volunteer your time at the rate that we are volunteering our time."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15783.533,
-    "end": 15817.499,
-    "text": "up to run for office who can see their way clear to manage their lives and do this. But more overwe're the government for the city. We're the government for the city. That's a big responsibility. We are passing regulations and ordinances that impact people's lives. You assume people want us to do a good job. We work hard at this. All I'm saying what people are given should be commensurate with the amount of time, efforts of work and the value of the"
+    "start": 15770.686,
+    "end": 15800.916,
+    "text": "That comes with us having the privilege financially and time wise, in our lives to be able to do it. I do worry that we don't necessarily have people stepping up to run for office who can see their way clear to manage their lives and do this. But more overwe're the government for the city. We're the government for the city. That's a big responsibility. We are passing regulations and ordinances that impact people's lives."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15817.867,
-    "end": 15848.596,
-    "text": "work to the city. And I think we have to remove barriers so that different kinds of people are willing to step up and do this job on behalf on their neighbors. that's just my perspective here. I'm not going to benefit from because I'm not running for re- reelection reelection. I do think that $13,000 a year for the mayor is not commensurate for the time, effort of work and my own expenses."
+    "start": 15802.985,
+    "end": 15833.381,
+    "text": "You assume people want us to do a good job. We work hard at this. All I'm saying what people are given should be commensurate with the amount of time, efforts of work and the value of the work to the city. And I think we have to remove barriers so that different kinds of people are willing to step up and do this job on behalf on their neighbors. that's just my perspective here."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15850.7,
-    "end": 15884.298,
-    "text": "And so I would ask us to consider having an increase that is at least a little bit more commensurate commensurate from what the city expects from the people doing this job. We can have a another work session that take a vote if we're going to do and meet that JULY 3rd deadline. If that works for everyone. It seems to work for everyone. Yahoo!. I am now going to reconvene the"
+    "start": 15834.316,
+    "end": 15867.38,
+    "text": "I'm not going to benefit from because I'm not running for re- reelection reelection. I do think that $13,000 a year for the mayor is not commensurate for the time, effort of work and my own expenses. And so I would ask us to consider having an increase that is at least a little bit more commensurate commensurate from what the city expects from the people doing this job. We can have a another work"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15884.834,
-    "end": 15917.999,
-    "text": "regular meeting and move to future meeting topics. very quickly, APRIL 7th work session we'll have a discussion on third-party spawn onsorships. We'll talk about language access and translation services at our council meetings and then we'll have another discussion on the budget and general on the 7th. As far as the regular meeting on the 14th of note you'll have a number of introductions related"
+    "start": 15867.55,
+    "end": 15889.136,
+    "text": "session that take a vote if we're going to do and meet that JULY 3rd deadline. If that works for everyone. It seems to work for everyone. Yahoo!. I am now going to reconvene the regular meeting and move to future meeting topics."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15920.503,
-    "end": 15953.801,
-    "text": "to the budget as you see on consent notably on number 8 we'll have an introduction of an authorizing ordinance for the bond resolution for the issuance for the sewer system on consent there. Public hearing, again for the budget, the work session also again on the budget for us to discuss council identified topics related to the budget. 28th as we move crow sir to MAY"
+    "start": 15889.872,
+    "end": 15922.503,
+    "text": "very quickly, APRIL 7th work session we'll have a discussion on third-party spawn onsorships. We'll talk about language access and translation services at our council meetings and then we'll have another discussion on the budget and general on the 7th. As far as the regular meeting on the 14th of note you'll have a number of introductions related to the budget as you see on"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15956.172,
-    "end": 15986.368,
-    "text": "5th, of note a number of the public hearings all related to the budget. I t E.M.S. Not requiring a public hearing. We didt not requiring a public hearing. We did e not requiring a public hearing. We did m not requiring a public hearing. We did s not requiring a public hearing. We did we'll have two bond items that related to that project and also the schools that night."
+    "start": 15923.939,
+    "end": 15958.172,
+    "text": "consent notably on number 8 we'll have an introduction of an authorizing ordinance for the bond resolution for the issuance for the sewer system on consent there. Public hearing, again for the budget, the work session also again on the budget for us to discuss council identified topics related to the budget. 28th as we move crow sir to MAY 5th, of note a number of the"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 15986.736,
-    "end": 16018.134,
-    "text": "And then the work session will involve the third quarter financial review and an additional discussion on the budget and draft changes presented as you know on the fifth would be a special meeting largely around specifically around budget adoption. So that's a lot in a very short time frame. Be happy to answer any questions. questions on future topics. Council member peterson. I think we talked about this last year."
+    "start": 15958.274,
+    "end": 15989.437,
+    "text": "public hearings all related to the budget. I t E.M.S. Not requiring a public hearing. We didt not requiring a public hearing. We did e not requiring a public hearing. We did m not requiring a public hearing. We did s not requiring a public hearing. We did we'll have two bond items that related to that project and also the schools that night. And then the work session will involve the third quarter"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16020.469,
-    "end": 16050.598,
-    "text": "But the APRIL 14th it says consent. My understanding we're actually going to describe these things. These are things we don't simply adopt by iden sent and move on. ifbysent and move on. >> if sent and move on. >> ifcsent and move on. >> if onsent and move on. ify consent and move on. >> if well, I want to avoid a misreading of this."
+    "start": 15990.272,
+    "end": 16010.258,
+    "text": "financial review and an additional discussion on the budget and draft changes presented as you know on the fifth would be a special meeting largely around specifically around budget adoption. So that's a lot in a very short time frame. Be happy to answer any questions."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16053.436,
+    "start": 16012.194,
+    "end": 16033.47,
+    "text": "questions on future topics. Council member peterson. I think we talked about this last year. But the APRIL 14th it says consent. My understanding we're actually going to describe these things. These are things we don't simply adopt by iden sent and move on."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16037.19,
+    "end": 16039.954,
+    "text": "ifbysent and move on. if sent and move on. ifcsent and move on. if onsent and move on."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16042.592,
+    "end": 16045.16,
+    "text": "ify consent and move on. if"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16048.64,
+    "end": 16076.658,
+    "text": "well, I want to avoid a misreading of this. It looks like we do some proclamations proclamations. We staff a consent we do a public hearing and then a work session, and we kind of sped right through eight major things that are in consent. I think people would appreciate a little bit more in terms of what we're trying to do with them"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16078.594,
     "end": 16084.465,
-    "text": "It looks like we do some proclamations proclamations. We staff a consent we do a public hearing and then a work session, and we kind of sped right through eight major things that are in consent. I think people would appreciate a little bit more in terms of what we're trying to do with them were you thinking tonight or were you thinking in terms of ahead of that meeting."
+    "text": "were you thinking tonight or were you thinking in terms of ahead of that meeting."
   },
   {
     "speaker": "Unknown Speaker",
     "start": 16087.269,
-    "end": 16118.366,
-    "text": "maybe let me rephrase. What are we exactly doing on APRIL 14th with each of the consent items. I think we would probably handle these. This is my first time through the budget process. I'll turn it over to the c fo. so these are administrative introductions which is very customary. I'll look to our counsel as well, again administrative on the draft staff reports."
+    "end": 16094.776,
+    "text": "maybe let me rephrase. What are we exactly doing on APRIL 14th with each of the consent items."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16125.174,
-    "end": 16156.271,
-    "text": "I think I underline and noted a sentence that reads there are no actions taken by council that meeting all formal action will happen on MAY 5th. That will be listed on every single staff report to clearly identify there's no action. This is still subject to change. This is just an administrative function which requirs an introduction. when do we go to the next step of discussing these prior"
+    "start": 16096.345,
+    "end": 16106.87,
+    "text": "I think we would probably handle these. This is my first time through the budget process. I'll turn it over to the c fo."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16159.475,
-    "end": 16191.772,
-    "text": "to reaching conclusions on them? that would be on the APRIL 28th when we're trying to lock in the rates, levies, real estate, meals tax, tot, anything and everything related to the budget in preparation for adoption and appropriation on MAY 5th. maybe this will help the night of adoption -- there are a"
+    "start": 16108.9,
+    "end": 16140.655,
+    "text": "so these are administrative introductions which is very customary. I'll look to our counsel as well, again administrative on the draft staff reports. I think I underline and noted a sentence that reads there are no actions taken by council that meeting all formal action will happen on MAY 5th. That will be listed on every single staff report to clearly"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16191.941,
+    "start": 16141.557,
+    "end": 16151.0,
+    "text": "identify there's no action. This is still subject to change. This is just an administrative function which requirs an introduction."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16153.769,
+    "end": 16161.475,
+    "text": "when do we go to the next step of discussing these prior to reaching conclusions on them?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16161.777,
+    "end": 16184.164,
+    "text": "that would be on the APRIL 28th when we're trying to lock in the rates, levies, real estate, meals tax, tot, anything and everything related to the budget in preparation for adoption and appropriation on MAY 5th."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16186.602,
+    "end": 16218.533,
+    "text": "maybe this will help the night of adoption -- there are a number of items that can be done by resolution. There's some items that need to be done by ordinance. These items have to be introduced so then have the necessary discussion. Take the actions on the 28th ideally to finalize and act on the fifth. As these are annual purely administrative items."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16220.302,
     "end": 16222.302,
-    "text": "number of items that can be done by resolution. There's some items that need to be done by ordinance. These items have to be introduced so then have the necessary discussion. Take the actions on the 28th ideally to finalize and act on the fifth. As these are annual purely administrative items. Introductions of ordinances."
+    "text": "Introductions of ordinances."
   },
   {
     "speaker": "Unknown Speaker",
     "start": 16222.772,
+    "end": 16224.772,
+    "text": "council member hall."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16227.21,
+    "end": 16248.128,
+    "text": "one thing I want to point and correct me if I'm wrong here but with the new timeline of budgets and documents becoming available, when will the APRIL 14th staff reports and such be available for council to review and for the public to review?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16250.232,
     "end": 16255.169,
-    "text": "council member hall. one thing I want to point and correct me if I'm wrong here but with the new timeline of budgets and documents becoming available, when will the APRIL 14th staff reports and such be available for council to review and for the public to review? I'm going to look at the city clerk who MAY have have the schedule memorized."
+    "text": "I'm going to look at the city clerk who MAY have have the schedule memorized."
   },
   {
     "speaker": "Unknown Speaker",
     "start": 16256.44,
-    "end": 16287.602,
-    "text": "it would be APRIL SIXth for the 14th meeting. previously it would have been APRIL 10th. It would have been the friday before. it could be between APRIL eight EIGHTth or 9th. but my point if people are looking and paying attention and we're saying that the information for this meeting is available, I do understand what your concern about it being consent."
+    "end": 16259.108,
+    "text": "it would be APRIL SIXth for the 14th meeting."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16288.571,
-    "end": 16320.8,
-    "text": "I also do understand that our residents now have more time as do we now to review these agenda items. So I think we have learned a lot in the past year. I think we learned a lot from our first budget go around. Personally I'm comfortable with keeping these items on consent. We're attaching a staff report. That information is available online. I personally don't have a"
+    "start": 16259.709,
+    "end": 16264.645,
+    "text": "previously it would have been APRIL 10th. It would have been the friday before."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16320.836,
-    "end": 16352.434,
-    "text": "concern with it this year. As I did last year. I would also say. Thank you for the advanced things. absolutely. I think additionally certainly ample opportunity on that evening as we discuss it to go into further detail, answer your questions relative to that information that's there that ultimately provides that context. >> council member peterson. I think that's a critical point."
+    "start": 16267.783,
+    "end": 16273.521,
+    "text": "it could be between APRIL eight EIGHTth or 9th."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16353.669,
-    "end": 16385.567,
-    "text": "I think that the combination of having the staff reports available, so people can read that and the ability to ask questions about it wiluite be very helpful. It will raise everyone's level of awareness. That's very helpful. We talked about the recommendation for the wastewater utility rate to"
+    "start": 16275.758,
+    "end": 16306.153,
+    "text": "but my point if people are looking and paying attention and we're saying that the information for this meeting is available, I do understand what your concern about it being consent. I also do understand that our residents now have more time as do we now to review these agenda items. So I think we have learned a lot in the past year. I think we learned a lot from"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16386.535,
-    "end": 16417.966,
-    "text": "continue at 6% for example. We have to make those linkages between the information previously introduced to us, and then is introduced formally on the agenda. So I think that's the pre-work we need to do. depf I go does anyone want to talk about budget.B I go does anyone want to talk about budget. E I go does anyone want to talk about budget.F I go does anyone want to talk about budget. O I go does anyone want to talk about budget."
+    "start": 16307.257,
+    "end": 16326.106,
+    "text": "our first budget go around. Personally I'm comfortable with keeping these items on consent. We're attaching a staff report. That information is available online. I personally don't have a concern with it this year. As I did last year."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16418.0,
-    "end": 16448.662,
-    "text": "R I go does anyone want to talk about budget. E I go does anyone want to talk about budget. I know we were talking about consent agenda and budget. are we all good with that. just on we're talking about the consent agenda. But we're settled on that. >> I think so. Only thing I wanted to point out for the futures I know MR. Alexander sent a follow-up email showing interest in the"
+    "start": 16327.576,
+    "end": 16331.712,
+    "text": "I would also say. Thank you for the advanced things."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16449.365,
-    "end": 16481.195,
-    "text": "illicit ma subject business. Just a note to my colleagues. >> noted. Anything else on the futures list in general. MR. This might be my memory. I think that the wastewater and both say 6%. But it's 5%. closing the loop on the"
+    "start": 16331.714,
+    "end": 16348.97,
+    "text": "absolutely. I think additionally certainly ample opportunity on that evening as we discuss it to go into further detail, answer your questions relative to that information that's there that ultimately provides that"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16482.98,
+    "start": 16348.97,
+    "end": 16350.31,
+    "text": "context. council member peterson."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16351.1,
+    "end": 16381.563,
+    "text": "I think that's a critical point. I think that the combination of having the staff reports available, so people can read that and the ability to ask questions about it wiluite be very helpful. It will raise everyone's level of awareness. That's very helpful. We talked about the"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16382.732,
+    "end": 16401.82,
+    "text": "recommendation for the wastewater utility rate to continue at 6% for example. We have to make those linkages between the information previously introduced to us, and then is introduced formally on the agenda. So I think that's the pre-work we need to do."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16408.824,
+    "end": 16424.104,
+    "text": "depf I go does anyone want to talk about budget.B I go does anyone want to talk about budget. E I go does anyone want to talk about budget.F I go does anyone want to talk about budget. O I go does anyone want to talk about budget. R I go does anyone want to talk about budget. E I go does anyone want to talk about budget. I know we were talking about consent agenda and budget."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16425.408,
+    "end": 16427.408,
+    "text": "are we all good with that."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16427.676,
+    "end": 16430.45,
+    "text": "just on we're talking about the consent agenda."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16430.847,
+    "end": 16451.365,
+    "text": "But we're settled on that. I think so. Only thing I wanted to point out for the futures I know MR. Alexander sent a follow-up email showing interest in the illicit ma subject business."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16452.401,
+    "end": 16477.292,
+    "text": "Just a note to my colleagues. noted. Anything else on the futures list in general. MR. This might be my memory. I think that the wastewater and both say 6%. But it's 5%."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16479.195,
+    "end": 16490.638,
+    "text": "closing the loop on the wonderful discussion we had on t the mayor and council salaries. The night of the 14th or we"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16491.907,
+    "end": 16493.875,
+    "text": "could have it on the MAY 12th. preference."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16495.211,
+    "end": 16497.645,
+    "text": "I can have the information ready for the 14th."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16498.13,
+    "end": 16505.219,
+    "text": "after budget. So it looks like MAY 12th. After budget."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16506.856,
+    "end": 16508.523,
+    "text": "is that enough is that enough time."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16509.358,
     "end": 16514.895,
-    "text": "wonderful discussion we had on t the mayor and council salaries. The night of the 14th or we could have it on the MAY 12th. >> preference. I can have the information ready for the 14th. after budget. So it looks like MAY 12th. After budget. is that enough is that enough time. APRIL 14th. Is enough time. may twelf"
+    "text": "APRIL 14th. Is enough time. may twelf"
   },
   {
     "speaker": "Unknown Speaker",
     "start": 16515.464,
     "end": 16546.27,
-    "text": "MAY 12th definitely will be. >> it's after budget. It doesn't confuse the issue. Any impact is going to be on the fy28 budget. Okay. We're now moving from to the manager report out scp and council comments. MR. Darned typically not included in future items on the enter jurisdictional meeting on"
+    "text": "MAY 12th definitely will be. it's after budget. It doesn't confuse the issue. Any impact is going to be on the fy28 budget. Okay. We're now moving from to the manager report out scp and council comments. MR. Darned typically not included in future items on the enter jurisdictional meeting on"
   },
   {
     "speaker": "Unknown Speaker",
     "start": 16546.95,
-    "end": 16579.561,
-    "text": "the 7th at sherwood. Just wanted to make clear that to everyone else that meeting is scheduled with the county. nelings from the city manager. no, thank you. Council member amos. Happy to share that we're doing a higher align fair. But date, time it will be daring lion APRIL 14th, wednesday."
+    "end": 16553.168,
+    "text": "the 7th at sherwood. Just wanted to make clear that to everyone else that meeting is scheduled with the county."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16580.73,
-    "end": 16613.6,
-    "text": "It's a small little fair for businesses to come for free. If they're offering internships or. Feel free to share with students and businesses. council member haum. I want to thank three of my other councilmembers for joining us for trivia at on or about knee. I'm really. You couldn't have asked for help"
+    "start": 16554.103,
+    "end": 16556.37,
+    "text": "nelings from the city manager."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16613.329,
-    "end": 16645.159,
-    "text": "on that one. We had a really, really good time. The food was great. The drinks were great. We went from sixth place to third place. And the teams that were first and second clearly were there frequently like they were frequent fliers. we bet it all. Which is what they allowed. That's how we were able to get from sixth to third. It was a really, really fun"
+    "start": 16557.106,
+    "end": 16590.4,
+    "text": "no, thank you. Council member amos. Happy to share that we're doing a higher align fair. But date, time it will be daring lion APRIL 14th, wednesday. It's a small little fair for businesses to come for free. If they're offering internships or."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16648.664,
-    "end": 16682.496,
-    "text": "night. And we are doing an escape room. And I am also looking forward to the a. Breakfast thursday morning. And I'mr breakfast thursday morning. And I'mc breakfast thursday morning. And I'm I volunteered on the lamb center on saturday. I got to be a barista. I know there's a ton of really busy things. The women's club of fairfax they"
+    "start": 16590.84,
+    "end": 16593.475,
+    "text": "Feel free to share with students and businesses."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16682.698,
-    "end": 16714.695,
-    "text": "win awards like crazy. We are having our fashion show at the country club of fairfax on APRIL 18th. And council member quillan is part of the fashion show committee. If it's great you can thank her. It is $50, scp and we have access to other tickets but I just put it out there just in wants to be"
+    "start": 16594.577,
+    "end": 16624.906,
+    "text": "council member haum. I want to thank three of my other councilmembers for joining us for trivia at on or about knee. I'm really. You couldn't have asked for help on that one. We had a really, really good time. The food was great. The drinks were great. We went from sixth place to third place."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16715.632,
+    "start": 16626.308,
+    "end": 16656.837,
+    "text": "And the teams that were first and second clearly were there frequently like they were frequent fliers. we bet it all. Which is what they allowed. That's how we were able to get from sixth to third. It was a really, really fun night. And we are doing an escape room. And I am also looking forward to"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16657.273,
+    "end": 16688.204,
+    "text": "the a. Breakfast thursday morning. And I'mr breakfast thursday morning. And I'mc breakfast thursday morning. And I'm I volunteered on the lamb center on saturday. I got to be a barista. I know there's a ton of really busy things. The women's club of fairfax they win awards like crazy. We are having our fashion show at the country club of fairfax"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16692.174,
+    "end": 16723.4,
+    "text": "on APRIL 18th. And council member quillan is part of the fashion show committee. If it's great you can thank her. It is $50, scp and we have access to other tickets but I just put it out there just in wants to be part of the fund-raiser. I'm super excited. If so high missed anything anyone has done."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16724.64,
+    "end": 16726.64,
+    "text": "Thank you for that."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16726.842,
     "end": 16749.65,
-    "text": "part of the fund-raiser. I'm super excited. If so high missed anything anyone has done. Thank you for that. council member hardy chandler. I want to in encourage people to attend the village in the city. Lots of engaged people. Really excited about that coming up. And just in general progress being made on the youth sports forum. More to come."
+    "text": "council member hardy chandler. I want to in encourage people to attend the village in the city. Lots of engaged people. Really excited about that coming up. And just in general progress being made on the youth sports forum. More to come."
   },
   {
     "speaker": "Unknown Speaker",
     "start": 16749.899,
-    "end": 16780.295,
-    "text": "council member peterson for those of who weren't able to join us at the fairfax country club the mayor was able to george mason university had part of its science series. Which george mason produced. I was pleased to be a part of that process. One of the lead authors. We had a variety of people there. It is stage setting and foundational."
+    "end": 16751.899,
+    "text": "council member peterson"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16781.497,
-    "end": 16813.227,
-    "text": "A number of the other folks from the city were able to join that event people from environmental sustainable committee. So it was a great opportunity for direct connection. Again this is typically the first stage of building capacity and community level opportunity and states where this has been done and the broader context for the state of virginia is that"
+    "start": 16752.769,
+    "end": 16783.497,
+    "text": "for those of who weren't able to join us at the fairfax country club the mayor was able to george mason university had part of its science series. Which george mason produced. I was pleased to be a part of that process. One of the lead authors. We had a variety of people there. It is stage setting and foundational. A number of the other folks from"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16814.163,
-    "end": 16846.393,
-    "text": "the state will be in all likelihood increasing its level of focus on addressing climate change particularly the impacts of climate change by becoming more resilient. I think it was recorded and online if you want to watch that presentation. Also on the trail of zips by spark. I know we're going to have an"
+    "start": 16783.799,
+    "end": 16816.163,
+    "text": "the city were able to join that event people from environmental sustainable committee. So it was a great opportunity for direct connection. Again this is typically the first stage of building capacity and community level opportunity and states where this has been done and the broader context for the state of virginia is that the state will be in all"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16846.662,
-    "end": 16878.626,
-    "text": "update on that. But the construction has really come along. And it's worth to see what that's looking like. At the same time that construction process must have been hammered by having the better month of a month of ice and below average temperatures. But I think it's well worth looking at and I want to give kudos to everyone working."
+    "start": 16816.399,
+    "end": 16848.662,
+    "text": "likelihood increasing its level of focus on addressing climate change particularly the impacts of climate change by becoming more resilient. I think it was recorded and online if you want to watch that presentation. Also on the trail of zips by spark. I know we're going to have an update on that."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16881.197,
-    "end": 16912.593,
-    "text": "given the night of the hour I'm going to call it appear. >> council member bates. thank you. No comments. council member Mcquillan. >> thank you. I want to thank everyone who came out and made a public comment and then I wanted to share a few opportunities for our community to come together in. Tomorrow evening at 7 sherwood will story sprint presented with fall with the book festival."
+    "start": 16849.264,
+    "end": 16883.197,
+    "text": "But the construction has really come along. And it's worth to see what that's looking like. At the same time that construction process must have been hammered by having the better month of a month of ice and below average temperatures. But I think it's well worth looking at and I want to give kudos to everyone working. given the night of the hour I'm"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16916.332,
-    "end": 16952.933,
-    "text": "Three authors will have 20 minutes to finish a book suggested by the opening and closing lines. Beginning at 5:30. It's one of my favorite events they hold there. They'll have cultural dispraise. Student performances, the student performances start at 6:30. Do not MISS That. Next week we have the extreme night egg hunt that's going to take base at historic blenham."
+    "start": 16883.866,
+    "end": 16885.8,
+    "text": "going to call it appear. council member bates."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16953.936,
-    "end": 16986.166,
-    "text": "On more serious note I want to acknowledge the recent at old dominion earth. My son is a student there. So this felt especially close to home. On a personal note that same son will be celebrating his 19th birthday next week and I just have to give him a shout-out and tell everyone how proud I am. Finally with the easter weekend"
+    "start": 16885.935,
+    "end": 16888.69,
+    "text": "thank you. No comments."
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 16987.47,
-    "end": 17021.235,
-    "text": "I want to wish everybody who celebrates a happy easter. council member hall the arc of virginia. The f cultural which yes is happening in the evening. Also the small pran outreach meeting is also on the thursday night. I will be at northern virginia re- regional conference so I'm going"
+    "start": 16888.504,
+    "end": 16921.936,
+    "text": "council member Mcquillan. thank you. I want to thank everyone who came out and made a public comment and then I wanted to share a few opportunities for our community to come together in. Tomorrow evening at 7 sherwood will story sprint presented with fall with the book festival. Three authors will have 20 minutes to finish a book suggested by the opening and"
   },
   {
     "speaker": "Unknown Speaker",
-    "start": 17022.139,
+    "start": 16923.305,
+    "end": 16955.936,
+    "text": "closing lines. Beginning at 5:30. It's one of my favorite events they hold there. They'll have cultural dispraise. Student performances, the student performances start at 6:30. Do not MISS That. Next week we have the extreme night egg hunt that's going to take base at historic blenham. On more serious note I want to"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16956.872,
+    "end": 16990.305,
+    "text": "acknowledge the recent at old dominion earth. My son is a student there. So this felt especially close to home. On a personal note that same son will be celebrating his 19th birthday next week and I just have to give him a shout-out and tell everyone how proud I am. Finally with the easter weekend I want to wish everybody who celebrates a happy easter."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 16992.775,
+    "end": 17024.139,
+    "text": "council member hall the arc of virginia. The f cultural which yes is happening in the evening. Also the small pran outreach meeting is also on the thursday night. I will be at northern virginia re- regional conference so I'm going to MISS It all."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "start": 17025.775,
     "end": 17027.775,
-    "text": "to MISS It all. So I'm going to adjourn us."
+    "text": "So I'm going to adjourn us."
   }
 ];
 

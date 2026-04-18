@@ -43,7 +43,12 @@ def normalize_ws(s: str) -> str:
 
 
 def chunk_segments(segments: list[dict[str, Any]], target_seconds: int = 30, max_chars: int = 650) -> list[dict[str, Any]]:
-    """Combine small Whisper segments into larger turns for readability/search."""
+    """Combine small segments into larger turns for readability/search.
+
+    If segments contain `new_speaker: true` (as provided by captions parsing), we flush the
+    current buffer before starting the new segment. This preserves speaker-change boundaries
+    even when we do not know speaker names.
+    """
     turns: list[dict[str, Any]] = []
     buf: list[str] = []
     start = None
@@ -61,6 +66,9 @@ def chunk_segments(segments: list[dict[str, Any]], target_seconds: int = 30, max
         end = None
 
     for seg in segments:
+        if bool(seg.get("new_speaker")) and buf:
+            flush()
+
         s = float(seg.get("start", 0) or 0)
         e = float(seg.get("end", s) or s)
         t = str(seg.get("text", "") or "")
@@ -107,10 +115,7 @@ def segments_from_webvtt(vtt_text: str) -> list[dict[str, Any]]:
     sid = 0
 
     def normalize_caption(text: str) -> str:
-        t = normalize_ws(text)
-        # Strip common closed-caption speaker marker
-        t = re.sub(r"^>>\s*", "", t)
-        return t
+        return normalize_ws(text)
 
     while i < len(lines):
         line = lines[i].lstrip("\ufeff").strip()
@@ -141,12 +146,17 @@ def segments_from_webvtt(vtt_text: str) -> list[dict[str, Any]]:
         end = _parse_vtt_timestamp(m.group(2))
 
         i += 1
-        buf: list[str] = []
+        buf_lines: list[str] = []
+        new_speaker = False
         while i < len(lines) and lines[i].strip() != "":
-            buf.append(lines[i].strip())
+            ln = lines[i].strip()
+            if ln.startswith(">>"):
+                new_speaker = True
+                ln = ln[2:].lstrip()
+            buf_lines.append(ln)
             i += 1
 
-        text = normalize_caption(" ".join(buf))
+        text = normalize_caption(" ".join(buf_lines))
 
         # Drop vendor watermarks/noise
         if re.search(r"aberdeen\s+captioning|www\.|\b\d{3}-\d{3}-\d{4}\b", text, flags=re.I):
@@ -158,6 +168,7 @@ def segments_from_webvtt(vtt_text: str) -> list[dict[str, Any]]:
                 "start": float(start),
                 "end": float(end),
                 "text": text,
+                "new_speaker": bool(new_speaker),
             })
             sid += 1
 
