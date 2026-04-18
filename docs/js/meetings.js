@@ -12,6 +12,13 @@
     }
   }
 
+  function shorten(s, maxLen) {
+    const t = String(s || '').replace(/\s+/g, ' ').trim();
+    if (!t) return '';
+    if (t.length <= maxLen) return t;
+    return t.slice(0, maxLen - 1).trimEnd() + '…';
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     if (typeof SEARCH_INDEX === 'undefined' || !SEARCH_INDEX || !Array.isArray(SEARCH_INDEX.meetings)) return;
     const container = document.getElementById('meetings');
@@ -39,8 +46,12 @@
       card.appendChild(h3);
 
       const p = document.createElement('p');
-      const secs = Array.isArray(m.sections) ? m.sections.slice(0, 3) : [];
-      p.textContent = secs.length ? secs.join(', ') : (m.meeting_type ? (m.meeting_type + ' meeting') : '');
+      const secs = Array.isArray(m.sections) ? m.sections.slice(0, 2) : [];
+      if (secs.length) {
+        p.textContent = secs.map(function (x) { return shorten(x, 48); }).join(' • ') + (m.sections.length > 2 ? ' • …' : '');
+      } else {
+        p.textContent = m.meeting_type ? (m.meeting_type + ' meeting') : '';
+      }
       card.appendChild(p);
 
       const a = document.createElement('a');
@@ -52,4 +63,3 @@
     });
   });
 })();
-

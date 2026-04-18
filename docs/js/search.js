@@ -82,7 +82,7 @@
         sections.forEach(function(section) {
             const option = document.createElement('option');
             option.value = section;
-            option.textContent = section;
+            option.textContent = section.length > 80 ? (section.slice(0, 79).trimEnd() + '…') : section;
             sectionFilter.appendChild(option);
         });
     }
