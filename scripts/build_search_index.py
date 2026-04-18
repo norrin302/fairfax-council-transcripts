@@ -105,6 +105,11 @@ def build() -> None:
             raise RuntimeError(f"Invalid meeting config in {meeting.get('_path')}: missing required fields")
 
         data_path = (REPO_ROOT / transcript_turns_js).resolve()
+        if not data_path.exists():
+            # Allow incremental backfills where meeting metadata exists but transcript not yet published.
+            # We only include meetings that have published turn data.
+            continue
+
         turns = _extract_turns_from_js(data_path)
 
         # Meeting duration best-effort

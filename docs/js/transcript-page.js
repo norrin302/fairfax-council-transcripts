@@ -281,6 +281,8 @@
     }
 
     // Merge consecutive turns by the same speaker into a single block.
+    // Important: if the speaker is unknown, do NOT merge. Unknown labels are not reliable
+    // and merging would incorrectly combine multiple people.
     const blocks = [];
     turns.forEach((turn) => {
       let speaker = String(turn.speaker || 'Unknown').trim();
@@ -293,7 +295,8 @@
       if (!text) return;
 
       const last = blocks.length ? blocks[blocks.length - 1] : null;
-      if (last && String(last.speaker) === speaker) {
+      const canMerge = speaker !== 'Unknown Speaker';
+      if (canMerge && last && String(last.speaker) === speaker) {
         last.end = Math.max(Number(last.end) || 0, end);
         last.texts.push(text);
       } else {

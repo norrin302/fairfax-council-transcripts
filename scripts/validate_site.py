@@ -45,11 +45,14 @@ def validate_meetings() -> None:
         if p.stem != meeting_id:
             die(f"{p}: filename stem must equal meeting_id ({meeting_id})")
 
-        # Docs paths
+        # Docs paths (allow incremental backfills where meeting metadata exists
+        # but transcript hasn't been published yet)
         transcript_html = REPO_ROOT / "docs" / m["transcript_url"]
-        require(transcript_html, "transcript HTML")
         turns_js = REPO_ROOT / m["transcript_turns_js"]
-        require(turns_js, "transcript turns JS")
+
+        if not transcript_html.exists() or not turns_js.exists():
+            print(f"WARN: {meeting_id} not published yet (missing docs assets)")
+            continue
 
         # Quick validation that TRANSCRIPT_TURNS is present
         raw = turns_js.read_text(encoding="utf-8")
@@ -75,4 +78,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-
