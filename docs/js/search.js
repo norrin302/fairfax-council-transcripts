@@ -78,7 +78,7 @@
     function searchSegments(query, speaker, fromDate, toDate) {
         if (!SEARCH_INDEX || !SEARCH_INDEX.segments) return [];
 
-        return SEARCH_INDEX.segments.filter(function(segment) {
+        const filtered = SEARCH_INDEX.segments.filter(function(segment) {
             // Text match
             const textMatch = segment.transcript_text.toLowerCase().includes(query) ||
                               segment.snippet.toLowerCase().includes(query);
@@ -94,6 +94,14 @@
 
             return true;
         });
+
+        // Sort: newest meeting first, then chronological within meeting
+        filtered.sort(function(a, b) {
+            if (a.meeting_date !== b.meeting_date) return a.meeting_date < b.meeting_date ? 1 : -1;
+            return (a.start_seconds || 0) - (b.start_seconds || 0);
+        });
+
+        return filtered;
     }
 
     function displayResults(results, query) {
@@ -135,7 +143,7 @@
                 html += '<div class="result-meta">';
                 html += '<span class="result-speaker"><i class="fas fa-user"></i> ' + escapeHtml(segment.speaker) + '</span>';
                 html += '<span class="result-timestamp"><i class="fas fa-clock"></i> ' + segment.timestamp_label + '</span>';
-                html += '<span class="result-agenda">' + escapeHtml(segment.agenda_item) + '</span>';
+                html += '<span class="result-agenda">' + escapeHtml(segment.section || '') + '</span>';
                 html += '</div>';
                 html += '<div class="result-snippet">' + highlightText(segment.snippet, query) + '</div>';
                 html += '<div class="result-actions">';
@@ -212,12 +220,30 @@
     };
 
     function buildCitation(segment, meeting) {
-        const url = window.location.origin + '/' + meeting.transcript_url + '#t=' + segment.start_seconds;
+        // Build URLs relative to the current page (works on GitHub Pages project sites)
+        const transcriptUrl = new URL(meeting.transcript_url, window.location.href);
+        transcriptUrl.hash = 't=' + segment.start_seconds;
+
+        let videoUrl = '';
+        if (meeting.source_url) {
+            try {
+                const u = new URL(meeting.source_url);
+                u.searchParams.set('start', String(Math.max(0, Math.floor(segment.start_seconds || 0))));
+                videoUrl = u.toString();
+            } catch (e) {
+                videoUrl = meeting.source_url;
+            }
+        }
+
+        const quote = String(segment.transcript_text || '').replace(/\s+/g, ' ').trim();
+        const clippedQuote = quote.length > 400 ? quote.slice(0, 399).trimEnd() + '…' : quote;
+
         return `[${formatDate(meeting.meeting_date)} - ${meeting.title}]\n` +
                `Speaker: ${segment.speaker}\n` +
                `Time: ${segment.timestamp_label}\n` +
-               `Quote: "${segment.transcript_text}"\n` +
-               `Source: ${url}`;
+               `Quote: "${clippedQuote}"\n` +
+               `Transcript: ${transcriptUrl.toString()}\n` +
+               (videoUrl ? `Video: ${videoUrl}` : '');
     }
 
     function showToast(message) {

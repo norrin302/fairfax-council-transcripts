@@ -14,12 +14,28 @@ from datetime import datetime
 from pathlib import Path
 import hashlib
 
-try:
-    import yt_dlp
-except ImportError:
-    print("Installing yt-dlp...")
-    subprocess.run([sys.executable, "-m", "pip", "install", "yt_dlp", "-q"], check=True)
-    import yt_dlp
+
+def require_yt_dlp():
+    """Import yt_dlp with a clear, reproducible install hint.
+
+    Note: Many environments (including Ubuntu/Debian) block system-wide pip installs
+    (PEP 668). We intentionally do NOT auto-install dependencies here.
+    """
+    try:
+        import yt_dlp  # type: ignore
+        return yt_dlp
+    except ImportError:
+        print(
+            "ERROR: Missing dependency 'yt-dlp'.\n\n"
+            "Create a virtual environment and install requirements:\n"
+            "  python3 -m venv .venv\n"
+            "  source .venv/bin/activate\n"
+            "  pip install -r requirements.txt\n\n"
+            "Alternatively on Ubuntu/Debian you can try:\n"
+            "  sudo apt-get install yt-dlp\n",
+            file=sys.stderr,
+        )
+        sys.exit(2)
 
 # Known Fairfax City Council members and officials
 COUNCIL_MEMBERS = {
@@ -70,6 +86,7 @@ def format_timestamp_webvtt(seconds: float) -> str:
 
 def download_video(url: str, output_dir: str) -> dict:
     """Download video from Granicus URL, return metadata"""
+    yt_dlp = require_yt_dlp()
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
     

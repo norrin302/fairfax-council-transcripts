@@ -23,13 +23,21 @@ if ! command -v python3 &> /dev/null; then
 fi
 
 # Install dependencies
-echo "Installing dependencies..."
-pip install openai yt-dlp -q 2>/dev/null || pip3 install openai yt-dlp -q
+echo "Setting up Python virtual environment..."
+if [ ! -d ".venv" ]; then
+  python3 -m venv .venv
+fi
+
+source .venv/bin/activate
+
+echo "Installing dependencies into .venv..."
+python -m pip install --upgrade pip -q
+python -m pip install -r requirements.txt -q
 
 # Run transcription
 echo ""
 echo "Starting transcription..."
-python3 scripts/transcribe_demo.py
+python scripts/transcribe_demo.py
 
 echo ""
 echo "Done! Check the transcripts/ directory for output."

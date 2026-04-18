@@ -1,0 +1,9 @@
+# Minimal dependencies for the transcription pipeline (static site itself is pure HTML/CSS/JS)
+openai>=1.0.0
+yt-dlp>=2024.1.0
+
+# Optional (local/free transcription):
+# openai-whisper
+# torch
+# torchaudio
+# transformers

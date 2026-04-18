@@ -10,10 +10,10 @@ AI-powered transcription of Fairfax City Council meetings for transparency and a
 
 This project provides searchable, timestamped transcripts of Fairfax City Council meetings. Transcripts are generated using OpenAI Whisper and include:
 
-- 📋 Full-text search across all meetings
-- 🎙️ Speaker identification
-- ⏱️ Clickable timestamps with deep linking
-- 📋 Copy citation feature
+- 📋 Full-text search across published meetings
+- 🎙️ Best-effort automated speaker labels (may contain errors)
+- ⏱️ Clickable timestamps (video deep links + shareable transcript deep links)
+- 📋 Copy citation feature (quote + timestamp + links)
 - 🔗 Links to official city video archives
 
 ## Current Transcripts
@@ -27,8 +27,8 @@ This project provides searchable, timestamped transcripts of Fairfax City Counci
 1. **Download** - Meeting video downloaded from Granicus (Fairfax's official archive)
 2. **Extract Audio** - Convert to MP3 (Whisper has 25MB limit)
 3. **Transcribe** - OpenAI Whisper API processes the audio
-4. **Format** - Convert to HTML with timestamps, speakers, and agenda navigation
-5. **Index** - Add to search index for cross-meeting search
+4. **Format** - Convert to HTML with timestamps, best-effort speaker labels, and section shortcuts
+5. **Index** - Build a client-side search index for cross-meeting search
 6. **Deploy** - Push to GitHub Pages
 
 ## Project Structure
@@ -50,17 +50,28 @@ fairfax-council-transcripts/
 
 ## Adding a New Meeting
 
-1. Find the meeting on [Fairfax Granicus](https://fairfax.granicus.com/)
-2. Download the video or extract audio
-3. Convert to MP3 under 25MB: `ffmpeg -i video.mp4 -vn -acodec mp3 audio.mp3`
-4. Run transcription:
+0. (One-time) set up Python deps:
    ```bash
-   python scripts/transcribe.py audio.mp3 > transcript.json
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install -r requirements.txt
    ```
-5. Create HTML page in `docs/transcripts/`
-6. Update `docs/js/search-index.js` with new segments
-7. Add meeting card to `docs/index.html`
-8. Commit and push
+1. Find the meeting on [Fairfax Granicus](https://fairfax.granicus.com/)
+2. Run transcription (downloads + transcribes from Granicus):
+   ```bash
+   python3 scripts/transcribe.py "https://fairfax.granicus.com/player/clip/4519" --output .
+   ```
+3. Publish the meeting to the static site:
+   - Create `docs/transcripts/<meeting_id>.html`
+   - Create `docs/transcripts/<meeting_id>-data.js` (TRANSCRIPT_TURNS)
+   - Add a meeting card to `docs/index.html`
+   
+   (Automation is planned, but today this step is partially manual.)
+4. Rebuild the search index:
+   ```bash
+   python3 scripts/build_search_index.py
+   ```
+5. Commit and push
 
 ## Architecture
 

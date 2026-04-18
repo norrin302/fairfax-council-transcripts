@@ -1,109 +1,101 @@
 # Quick Start Guide
 
-## Transcribe a Meeting
+This repo is a **static GitHub Pages site**. The published site lives under `docs/`.
 
-### Option 1: Use OpenAI Whisper API (Recommended)
+- Local development: serve the `docs/` folder
+- GitHub Pages: branch `main`, folder `/docs`
+
+## 0) One-time setup (for transcription scripts)
+
+The website itself needs no build step, but the transcription scripts require Python deps.
 
 ```bash
-# Set your API key
-export OPENAI_API_KEY='sk-your-key-here'
+# From repo root
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
 
-# Run transcription
+If `python3 -m venv` fails, install venv support (Ubuntu/Debian):
+
+```bash
+sudo apt-get install python3-venv
+```
+
+## 1) Transcribe a Meeting
+
+### Option A: Whisper API (recommended)
+
+```bash
+export OPENAI_API_KEY='sk-...'
+
+# Example (Granicus clip URL)
+python scripts/transcribe.py "https://fairfax.granicus.com/player/clip/4519" --output .
+```
+
+### Option B: Run the 5-minute demo (Whisper API)
+
+```bash
+export OPENAI_API_KEY='sk-...'
 ./scripts/run_transcription.sh
 ```
 
-### Option 2: Manual Transcription
+### Option C: Local Whisper (no API key)
+
+This is optional and heavier (torch + whisper models). Use a dedicated environment.
+
+## 2) Publish to GitHub Pages
+
+This repo is already structured for GitHub Pages.
+
+### Using the GitHub UI
+
+1. Repo Settings → Pages
+2. Source: `Deploy from a branch`
+3. Branch: `main`
+4. Folder: `/docs`
+
+### Using the GitHub CLI
 
 ```bash
-# Install dependencies
-pip install openai yt-dlp
-
-# Download a meeting video (or use the existing demo)
-python3 scripts/transcribe.py "https://fairfax.granicus.com/player/clip/4421" --output .
-
-# For a shorter demo
-yt-dlp -f hls-3701 --download-sections "*0:00-5:00" -o "demo.mp4" "https://fairfax.granicus.com/player/clip/4421"
+# Enable GitHub Pages from /docs
+gh api repos/{owner}/fairfax-council-transcripts/pages \
+  -X PUT \
+  -f source='{"branch":"main","path":"/docs"}'
 ```
 
-### Option 3: Use Local Whisper (No API)
+Your site will be live at:
+`https://{username}.github.io/fairfax-council-transcripts/`
+
+## 3) Local preview
 
 ```bash
-# Install whisper
-pip install openai-whisper
-
-# Run transcription
-python3 scripts/transcribe.py "<video_url>" --output . --no-api
+cd docs
+python3 -m http.server 8000
+# open http://127.0.0.1:8000/
 ```
 
-## Deploy to GitHub Pages
+## 4) Rebuild the global search index
+
+The homepage search uses a prebuilt client-side index at `docs/js/search-index.js`.
 
 ```bash
-# Initialize git (if not already)
-cd fairfax-council-transcripts
-git init
-git add .
-git commit -m "Initial commit"
-
-# Create GitHub repo and push
-gh repo create fairfax-council-transcripts --public --source=. --push
-
-# Enable GitHub Pages
-gh api repos/{owner}/fairfax-council-transcripts/pages -X PUT -f source='{"branch":"main","path":"/site"}'
-
-# Your site will be live at:
-# https://{username}.github.io/fairfax-council-transcripts
+python3 scripts/build_search_index.py
 ```
 
-## File Structure
+## File structure (current)
 
 ```
 fairfax-council-transcripts/
-├── site/                    # GitHub Pages site
-│   ├── index.html          # Main page
-│   ├── css/style.css      # Styling
-│   └── transcripts/       # Generated transcripts
-├── scripts/
-│   ├── transcribe.py      # Main transcription script
-│   └── transcribe_demo.py # Quick demo script
-├── videos/                 # Downloaded video files
-├── transcripts/            # Text transcripts
-├── archive/                # JSON/WebVTT archives
-└── README.md
+├── docs/                     # GitHub Pages publish root
+│   ├── index.html
+│   ├── js/
+│   └── transcripts/
+├── scripts/                  # Transcription + index build helpers
+├── transcripts/              # Raw transcript JSON outputs (source data)
+├── videos/                   # Downloaded media (optional)
+├── templates/
+├── README.md
+├── QUICKSTART.md
+└── requirements.txt
 ```
-
-## Customize
-
-### Add Council Members
-
-Edit `scripts/transcribe.py` and update the `COUNCIL_MEMBERS` dictionary:
-
-```python
-COUNCIL_MEMBERS = {
-    "Stacy Hall": {"role": "City Council Member", "title": "Councilwoman"},
-    # Add more members...
-}
-```
-
-### Site Styling
-
-Edit `site/css/style.css` to match your branding.
-
-## Costs
-
-- OpenAI Whisper API: ~$0.006 per minute of audio
-- Typical 2-hour meeting: ~$0.72
-- 5-minute demo: ~$0.03
-
-## Troubleshooting
-
-**Video won't download:**
-- Check if the URL is correct
-- Try a different format: `yt-dlp -F <url>`
-
-**No API key error:**
-- Make sure OPENAI_API_KEY is set
-- Check the key is valid at platform.openai.com
-
-**Transcript is empty:**
-- Check if audio is present in the video
-- Try a different video URL

@@ -24,10 +24,12 @@ if not api_key:
 try:
     from openai import OpenAI
 except ImportError:
-    print("Installing openai...")
-    import subprocess
-    subprocess.run([sys.executable, '-m', 'pip', 'install', 'openai', '-q'], check=True)
-    from openai import OpenAI
+    print("ERROR: Missing dependency 'openai'.")
+    print("Create a virtual environment and install requirements:")
+    print("  python3 -m venv .venv")
+    print("  source .venv/bin/activate")
+    print("  pip install -r requirements.txt")
+    sys.exit(2)
 
 def main():
     video_path = 'videos/fairfax_demo_5min.mp4'
