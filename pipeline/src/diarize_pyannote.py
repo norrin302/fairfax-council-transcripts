@@ -24,6 +24,7 @@ _pipeline_mod.hf_hub_download = _hf_hub_download_compat
 from pyannote.audio import Pipeline
 
 
+# Improved diarization config: higher min_duration to reduce over-segmentation
 DEFAULT_YAML = """version: 3.1.0
 
 pipeline:
@@ -35,14 +36,14 @@ pipeline:
     embedding_exclude_overlap: true
     segmentation: pyannote/segmentation-3.0
     segmentation_batch_size: 8
-
 params:
   clustering:
     method: centroid
-    min_cluster_size: 12
-    threshold: 0.7045654963945799
+    min_cluster_size: 15
+    threshold: 0.72
   segmentation:
-    min_duration_off: 0.0
+    min_duration_off: 0.5
+    min_duration_on: 0.3
 """
 
 
@@ -60,6 +61,7 @@ def main() -> int:
     token_file = Path(args.token_file) if args.token_file else None
     if not token_file or not token_file.exists():
         raise SystemExit("Missing HF token file. Provide --token-file or HF_TOKEN_FILE env.")
+
     token = token_file.read_text(encoding="utf-8").strip()
     if not token:
         raise SystemExit("HF token file is empty")
@@ -70,9 +72,9 @@ def main() -> int:
         cfg_path = f.name
 
     pipeline = Pipeline.from_pretrained(cfg_path, use_auth_token=token)
+
     try:
         import torch
-
         if torch.cuda.is_available():
             pipeline.to(torch.device("cuda"))
     except Exception:
@@ -82,21 +84,24 @@ def main() -> int:
 
     segs = []
     for turn, _, speaker in diar.itertracks(yield_label=True):
-        segs.append({"start": float(turn.start), "end": float(turn.end), "speaker": str(speaker)})
+        segs.append({
+            "start": float(turn.start),
+            "end": float(turn.end),
+            "speaker": str(speaker),
+        })
 
     out_path = Path(args.out)
     if not out_path.is_absolute():
         out_path = Path.cwd() / out_path
     out_path.parent.mkdir(parents=True, exist_ok=True)
+
     out_path.write_text(
         json.dumps({"audio": str(audio_path), "segments": segs}, indent=2),
         encoding="utf-8",
     )
-
     print(str(out_path))
     return 0
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
