@@ -8,7 +8,7 @@ FROM ${BASE_IMAGE}
 
 RUN python3 -m pip install --no-cache-dir -U pip \
   && python3 -m pip install --no-cache-dir nvidia-cublas-cu12 \
-  && CUBLAS_LIB="$(python3 -c 'import pathlib, nvidia.cublas; print((pathlib.Path(nvidia.cublas.__file__).resolve().parent / "lib"))')" \
+  && CUBLAS_LIB="$(python3 -c 'import pathlib, nvidia.cublas; p=next(iter(nvidia.cublas.__path__)); print(pathlib.Path(p) / "lib")')" \
   && echo "$CUBLAS_LIB" > /etc/ld.so.conf.d/nvidia-cublas.conf \
   && ldconfig
 
