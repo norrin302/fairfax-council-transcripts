@@ -24,7 +24,7 @@ _pipeline_mod.hf_hub_download = _hf_hub_download_compat
 from pyannote.audio import Pipeline
 
 
-# Improved diarization config: higher min_duration to reduce over-segmentation
+# Default pipeline config with improved parameters for less over-segmentation
 DEFAULT_YAML = """version: 3.1.0
 
 pipeline:
