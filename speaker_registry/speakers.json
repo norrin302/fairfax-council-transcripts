@@ -1,0 +1,54 @@
+{
+  "schema": "fairfax.speaker_registry.v1",
+  "speakers": [
+    {
+      "speaker_key": "mayor_catherine_read",
+      "display_name": "Mayor Catherine Read",
+      "role": "mayor",
+      "aliases": ["Catherine Read", "Mayor Read", "Mayor Catherine Read"]
+    },
+    {
+      "speaker_key": "council_tom_peterson",
+      "display_name": "Councilmember Tom Peterson",
+      "role": "council",
+      "aliases": ["Tom Peterson", "Councilmember Peterson"]
+    },
+    {
+      "speaker_key": "council_stacy_hardy_chandler",
+      "display_name": "Councilmember Stacy Hardy-Chandler",
+      "role": "council",
+      "aliases": ["Stacy Hardy-Chandler", "Councilmember Hardy-Chandler", "Councilmember Hardy Chandler"]
+    },
+    {
+      "speaker_key": "council_rachel_mcquillen",
+      "display_name": "Councilmember Rachel McQuillen",
+      "role": "council",
+      "aliases": ["Rachel McQuillen", "Councilmember McQuillen"]
+    },
+    {
+      "speaker_key": "council_stacy_hall",
+      "display_name": "Councilmember Stacy Hall",
+      "role": "council",
+      "aliases": ["Stacy Hall", "Councilmember Hall"]
+    },
+    {
+      "speaker_key": "council_anthony_amos",
+      "display_name": "Councilmember Anthony Amos",
+      "role": "council",
+      "aliases": ["Anthony Amos", "Councilmember Amos"]
+    },
+    {
+      "speaker_key": "council_billy_bates",
+      "display_name": "Councilmember Billy Bates",
+      "role": "council",
+      "aliases": ["Billy Bates", "Councilmember Bates"]
+    },
+    {
+      "speaker_key": "city_manager_david_coll",
+      "display_name": "City Manager David Coll",
+      "role": "staff",
+      "aliases": ["David Coll", "City Manager Coll", "City Manager"]
+    }
+  ]
+}
+
