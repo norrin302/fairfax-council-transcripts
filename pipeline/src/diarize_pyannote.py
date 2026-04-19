@@ -24,9 +24,10 @@ _pipeline_mod.hf_hub_download = _hf_hub_download_compat
 from pyannote.audio import Pipeline
 
 
-# More aggressive config to reduce over-segmentation
-# - min_duration_off: 1.0s (require 1s gap before splitting)
-# - threshold: 0.75 (stricter speaker clustering)
+# Very aggressive config to minimize over-segmentation
+# - min_duration_off: 2.0s (require 2s gap before splitting)
+# - threshold: 0.78 (very strict speaker clustering)
+# - min_cluster_size: 25 (larger minimum speaker segments)
 DEFAULT_YAML = """version: 3.1.0
 
 pipeline:
@@ -41,10 +42,10 @@ pipeline:
 params:
   clustering:
     method: centroid
-    min_cluster_size: 20
-    threshold: 0.75
+    min_cluster_size: 25
+    threshold: 0.78
   segmentation:
-    min_duration_off: 1.0
+    min_duration_off: 2.0
 """
 
 
