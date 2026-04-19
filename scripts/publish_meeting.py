@@ -92,9 +92,10 @@ def chunk_segments(segments: list[dict[str, Any]], target_seconds: int = 30, max
         seg_hint = str(seg.get("speaker_hint") or "").strip()
         seg_hint_strength = str(seg.get("speaker_hint_strength") or "").strip()
 
-        # For highly reliable hints, we carry the hint forward across segments until the
-        # next new_speaker boundary.
-        if seg_hint and seg_hint_strength in {"explicit", "marker"}:
+        # Carry reliable hints forward across segments until the next new_speaker boundary.
+        # NOTE: inline headers are usually reliable for Fairfax clips and help avoid
+        # excessive "Unknown Speaker" breaks.
+        if seg_hint and seg_hint_strength in {"explicit", "marker", "inline"}:
             if seg_hint != active_hint:
                 if buf:
                     flush()
@@ -103,8 +104,8 @@ def chunk_segments(segments: list[dict[str, Any]], target_seconds: int = 30, max
 
         # Compute the effective hint for this segment.
         # - If the segment itself has a hint, use it.
-        # - Otherwise, only inherit the active hint when it was explicit.
-        effective_hint = seg_hint or (active_hint if active_hint_strength in {"explicit", "marker"} else "")
+        # - Otherwise, inherit the active hint when it was set by a reliable boundary.
+        effective_hint = seg_hint or (active_hint if active_hint_strength in {"explicit", "marker", "inline"} else "")
         effective_strength = seg_hint_strength or (active_hint_strength if effective_hint else "")
 
         s = float(seg.get("start", 0) or 0)
@@ -624,6 +625,24 @@ def dominant_diar_speaker(segments: list[dict[str, Any]], start: float, end: flo
     return max(totals.items(), key=lambda kv: kv[1])[0]
 
 
+def _sentence_case_lead(text: str) -> str:
+    """Capitalize the first alphabetical character (light touch).
+
+    Captions sometimes start lowercased; this improves readability without trying to
+    rewrite the whole transcript.
+    """
+    s = str(text or "")
+    if not s:
+        return s
+    # Find the first letter and capitalize it.
+    for i, ch in enumerate(s):
+        if ch.isalpha():
+            if ch.islower():
+                return s[:i] + ch.upper() + s[i + 1 :]
+            return s
+    return s
+
+
 def label_speakers(turns: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """Best-effort speaker labeling using heuristics from scripts/transcribe.py."""
     # Import without triggering yt-dlp requirements
@@ -824,6 +843,18 @@ def main() -> int:
             if strength not in {"explicit", "marker", "inline", "inline_loose"}:
                 continue
 
+            # Avoid using very short cues (e.g., vote roll-call "Aye") to learn identity
+            # mappings. These often overlap the wrong diarization speaker and create
+            # catastrophic mislabels.
+            seg_text = normalize_ws(str(seg.get("text") or ""))
+            seg_dur = float(seg.get("end", 0) or 0) - float(seg.get("start", 0) or 0)
+            if seg_dur < 2.0:
+                continue
+            if len(seg_text) < 40:
+                continue
+            if re.fullmatch(r"(?:aye|nay|abstain|present|motion\s+passes|so\s+moved)\.?", seg_text.strip().lower()):
+                continue
+
             start = float(seg.get("start", 0) or 0)
             end = float(seg.get("end", 0) or 0)
 
@@ -840,10 +871,22 @@ def main() -> int:
             scores[sid][hint] = scores[sid].get(hint, 0) + weight
 
         for sid, hcounts in scores.items():
-            best_hint, best = max(hcounts.items(), key=lambda kv: kv[1])
-            # Require a little evidence to avoid mapping on tiny cues.
-            if best >= 3:
-                speaker_id_to_hint[sid] = best_hint
+            items = sorted(hcounts.items(), key=lambda kv: kv[1], reverse=True)
+            if not items:
+                continue
+            best_hint, best = items[0]
+            second = items[1][1] if len(items) > 1 else 0
+            total = sum(hcounts.values())
+            share = (best / total) if total else 0.0
+
+            # Only accept high-confidence, non-tied mappings.
+            if best < 5:
+                continue
+            if best == second:
+                continue
+            if share < 0.70:
+                continue
+            speaker_id_to_hint[sid] = best_hint
 
     raw_turns = chunk_segments(segments, target_seconds=args.chunk_seconds, max_chars=args.max_chars)
 
@@ -879,7 +922,7 @@ def main() -> int:
                 ),
                 "start": float(t["start"]),
                 "end": float(t["end"]),
-                "text": str(t.get("text", "") or ""),
+                "text": _sentence_case_lead(str(t.get("text", "") or "")),
             }
             for t in raw_turns
         ]
