@@ -9,5 +9,7 @@ This directory will hold the reproducible, Docker-based pipeline for:
 - safe identification (speaker registry + conservative confidence thresholds)
 - correction workflow (deterministic rebuild without editing generated HTML)
 
-Status: under active development.
+Notes:
+- GPU transcription requires NVIDIA Container Toolkit on the host. The ASR image installs CUDA BLAS (libcublas) at build-time to avoid runtime failures.
 
+Status: under active development.

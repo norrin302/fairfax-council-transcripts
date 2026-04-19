@@ -46,11 +46,24 @@ def main() -> int:
     ])
 
     # Find the downloaded file (yt-dlp expands extension).
-    src = None
+    # yt-dlp may leave sidecar files (e.g. .ytdl) or partial downloads (.part).
+    # Select the largest plausible media file.
+    candidates = []
     for p in audio_dir.iterdir():
-        if p.name.startswith("source.") and p.is_file():
-            src = p
-            break
+        if not (p.name.startswith("source.") and p.is_file()):
+            continue
+        suf = set(p.suffixes)
+        if ".part" in suf or ".ytdl" in suf:
+            continue
+        try:
+            sz = p.stat().st_size
+        except Exception:
+            continue
+        if sz < 1024 * 1024:
+            continue
+        candidates.append((sz, p))
+
+    src = max(candidates, key=lambda x: x[0])[1] if candidates else None
     if not src:
         raise SystemExit("Download finished but could not find source.*")
 
@@ -75,4 +88,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

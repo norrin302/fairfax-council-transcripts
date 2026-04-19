@@ -19,8 +19,10 @@ services:
     volumes:
       - ./work:/work
     working_dir: /work
-    # GPU enablement is host-specific. Use:
-    #   docker compose -f pipeline/compose.yml run --rm --gpus all asr_faster_whisper ...
+    # GPU enablement is host-specific.
+    # If your `docker compose run` supports it, you can use `--gpus all`.
+    # Otherwise, run with plain docker:
+    #   docker run --rm --gpus all -v "$PWD/work:/work" -w /work fairfax-pipeline-asr_faster_whisper:latest ...
 
   # 3) Diarization (pyannote)
   diarize_pyannote:
@@ -48,4 +50,3 @@ services:
       - ../corrections:/repo/corrections
       - ../speaker_registry:/repo/speaker_registry
     working_dir: /work
-
