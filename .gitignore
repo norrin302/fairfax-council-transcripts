@@ -13,3 +13,7 @@ transcripts/elevenlabs/
 
 # Large media/chunks
 videos/**
+
+# Secrets (never commit)
+pipeline/secrets/
+**/hf_token*.txt
