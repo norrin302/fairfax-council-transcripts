@@ -8,7 +8,7 @@ AI-powered transcription of Fairfax City Council meetings for transparency and a
 
 ## About
 
-This project provides searchable, timestamped transcripts of Fairfax City Council meetings. Transcripts are generated using OpenAI Whisper and include:
+This project provides searchable, timestamped transcripts of Fairfax City Council meetings. Phase 1 transcripts are generated locally on Juggernaut (WhisperX-first) and include:
 
 - 📋 Full-text search across published meetings
 - 🎙️ Best-effort automated speaker labels (may contain errors)

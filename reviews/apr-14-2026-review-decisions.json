@@ -2,34 +2,2923 @@
   "schema": "fairfax.review_decisions.v1",
   "meeting_id": "apr-14-2026",
   "status": "draft",
-  "notes": "Canonical human review decisions for apr-14-2026. Edit reviewer_action fields and optional overrides, then apply with scripts/apply_review_decisions.py.",
+  "source_queue": "reviews/apr-14-2026-review-queue.json",
+  "allowed_actions": [
+    "pending",
+    "keep_unknown",
+    "mark_public_comment",
+    "approve_named_official",
+    "correct_text",
+    "suppress_turn",
+    "hold_back_text"
+  ],
   "decisions": [
     {
       "turn_id": "turn_000001",
-      "reviewer_action": "keep_unknown",
+      "reviewer_action": "pending",
       "speaker_public_override": "",
       "speaker_status_override": "",
       "text_override": "",
       "suppress": false,
-      "notes": "Opening call-to-order text appears usable, but diarization did not resolve a speaker. Keep conservative unless formally approved."
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000002",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000003",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
     },
     {
       "turn_id": "turn_000008",
-      "reviewer_action": "keep_unknown",
+      "reviewer_action": "pending",
       "speaker_public_override": "",
       "speaker_status_override": "",
       "text_override": "",
       "suppress": false,
-      "notes": "Mixed diarization block. Leave unnamed on public site."
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000023",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000042",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000098",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000099",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000101",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000103",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000105",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000121",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000123",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000125",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000127",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000129",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000130",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000131",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000132",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000134",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000135",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000136",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000137",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000138",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000139",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000140",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000141",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000143",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000144",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000145",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000146",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000147",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000148",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000149",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000150",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000151",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000152",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000153",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000154",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000155",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000156",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000157",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000158",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000159",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000160",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000161",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000162",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000163",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000164",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000165",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000166",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000167",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000168",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000169",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000170",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000171",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000172",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000173",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000174",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000175",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000176",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000177",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000178",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000179",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000180",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000181",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000182",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000183",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000184",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000185",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000186",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000187",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000188",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000189",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000190",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000191",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000192",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000193",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000194",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000195",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000196",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000197",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000198",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000199",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000200",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000201",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000202",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000203",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000204",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000205",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000208",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000212",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000213",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000214",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000218",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000219",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000223",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000232",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000234",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000236",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000239",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000241",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000244",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000246",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000249",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000250",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000251",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000252",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000254",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000256",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000257",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000259",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000260",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000262",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000264",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000265",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000266",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000269",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000272",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000274",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000275",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000277",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000278",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000280",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000282",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000284",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000286",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000289",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000290",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000291",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000293",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000294",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000296",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000298",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000300",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000301",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000302",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
     },
     {
       "turn_id": "turn_000303",
-      "reviewer_action": "mark_public_comment",
-      "speaker_public_override": "Public Comment Speaker",
-      "speaker_status_override": "public_comment_unverified",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
       "text_override": "",
       "suppress": false,
-      "notes": "Roll-call style prompt to an unverified commenter should remain generic, not a named official."
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000304",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000306",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000307",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000308",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000310",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000311",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000313",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000317",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000318",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000319",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000320",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000321",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000322",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000323",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000324",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000326",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000327",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000328",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000329",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000330",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000331",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000332",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000333",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000334",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000335",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000336",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000337",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000338",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000339",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000342",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000344",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000347",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000348",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000350",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000352",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000353",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000355",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000356",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000357",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000358",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000359",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000362",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000363",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000364",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000365",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000367",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000370",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000372",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000373",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000374",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000375",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000376",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000379",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000380",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000382",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000384",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000385",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000386",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000387",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000389",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000391",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000392",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000394",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000395",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000396",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000397",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000399",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000400",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000401",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000402",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000403",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000405",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000408",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000409",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000411",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000412",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000414",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000416",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000417",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000418",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000419",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000421",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000424",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000426",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000428",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000429",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000430",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000432",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000433",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000434",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000435",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000437",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000439",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000440",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000443",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000448",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000449",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000451",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000452",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000453",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000457",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000458",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000460",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000461",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000463",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000464",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000466",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000467",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000468",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000469",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000470",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000471",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000474",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000475",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000477",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000481",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000483",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000484",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000485",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000486",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000487",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000488",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000489",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000490",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000491",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000492",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000494",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000496",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000501",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000503",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000505",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000508",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000509",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000510",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000512",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000514",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000515",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000519",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000521",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000522",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000523",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000525",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000528",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000535",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000536",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000537",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000538",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000539",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000540",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000541",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000542",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000543",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000544",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000545",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000546",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000547",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000548",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000550",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000554",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000556",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000557",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000558",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000559",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000560",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000561",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000564",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000566",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000567",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000569",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000571",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000572",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000574",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000575",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000577",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000579",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000580",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000582",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000583",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000585",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000586",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000587",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000588",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000589",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000590",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
+    },
+    {
+      "turn_id": "turn_000591",
+      "reviewer_action": "pending",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": ""
     }
   ]
 }
