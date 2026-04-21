@@ -63,7 +63,7 @@ fairfax-council-transcripts/
 1. Add or verify `meetings/<meeting_id>.json`
 2. Ingest from Granicus to Juggernaut local storage:
    ```bash
-   python3 scripts/phase1_ingest.py "<granicus_clip_url>" --meeting-id <meeting_id> --work-root /mnt/disk1/fairfax-phase1/work
+   python3 scripts/phase1_ingest.py "<granicus_clip_url>" --meeting-id <meeting_id> --work-root /mnt/disk1/fairfax-phase1/work --format audio
    ```
 3. Run the Phase 1 local pipeline on Juggernaut:
    ```bash

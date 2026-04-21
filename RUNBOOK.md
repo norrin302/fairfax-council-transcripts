@@ -56,7 +56,8 @@ Recommended local-only work root:
 python3 scripts/phase1_ingest.py \
   "https://fairfax.granicus.com/player/clip/4519?view_id=13&redirect=true" \
   --meeting-id apr-14-2026 \
-  --work-root /mnt/disk1/fairfax-phase1/work
+  --work-root /mnt/disk1/fairfax-phase1/work \
+  --format audio
 ```
 
 Outputs on Juggernaut:
@@ -64,6 +65,8 @@ Outputs on Juggernaut:
 - `/mnt/disk1/fairfax-phase1/work/apr-14-2026/media/<downloaded-file>`
 
 Notes:
+- default ingest preference is `--format audio` for Phase 1 because audio is the canonical working input
+- use `--format video` only when source video is specifically needed
 - idempotent unless `--force` is used
 - large downloaded media stays off Git
 

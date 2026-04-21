@@ -32,7 +32,8 @@ Phase 1 uses a static GitHub Pages site, but the ingest, normalization, ASR, and
 python3 scripts/phase1_ingest.py \
   "https://fairfax.granicus.com/player/clip/4519?view_id=13&redirect=true" \
   --meeting-id apr-14-2026 \
-  --work-root /mnt/disk1/fairfax-phase1/work
+  --work-root /mnt/disk1/fairfax-phase1/work \
+  --format audio
 ```
 
 ### Run normalize + local WhisperX + local diarization + structured publish

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-"""Phase 1 ingest: download a Granicus clip to a Juggernaut work root.
+"""Phase 1 ingest: download Granicus source media or source audio to a Juggernaut work root.
 
+Default behavior prefers source audio because Phase 1's working input is audio, not video.
 Idempotent by default: if the target file exists and looks non-empty, it will not re-download unless --force.
 
 This script intentionally does NOT write large binaries into Git.
@@ -28,6 +29,7 @@ def main() -> int:
     ap.add_argument("url", help="Granicus clip URL")
     ap.add_argument("--meeting-id", required=True)
     ap.add_argument("--work-root", required=True, help="Work root on Juggernaut (not in Git)")
+    ap.add_argument("--format", choices=["audio", "video"], default="audio", help="Prefer source audio by default; use video only when needed")
     ap.add_argument("--force", action="store_true")
     args = ap.parse_args()
 
@@ -50,15 +52,16 @@ def main() -> int:
         except Exception:
             pass
 
-    # Download best available media to the meeting media dir.
+    # Download media to the meeting media dir.
     # NOTE: We keep filenames deterministic by embedding meeting id.
     outtmpl = str(media_dir / f"{args.meeting_id}.%(ext)s")
+    format_selector = "bestaudio/best" if args.format == "audio" else "bestvideo*+bestaudio/best"
     cmd = [
         "yt-dlp",
         "--no-warnings",
         "--no-playlist",
         "-f",
-        "bestaudio/best",
+        format_selector,
         "-o",
         outtmpl,
         args.url,
@@ -76,6 +79,7 @@ def main() -> int:
         "url": args.url,
         "filepath": filepath,
         "work_root": str(work_root),
+        "download_format": args.format,
     }
     marker.write_text(json.dumps(info, indent=2), encoding="utf-8")
 
