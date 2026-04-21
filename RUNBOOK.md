@@ -3,6 +3,8 @@
 ## Phase 1 pipeline overview
 
 Phase 1 stays on the static GitHub Pages architecture.
+Canonical Phase 1 transcript path is local WhisperX-first processing on Juggernaut.
+Older Whisper API scripts remain fallback only and are not the primary documented workflow.
 
 Source of truth flow:
 

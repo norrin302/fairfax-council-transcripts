@@ -28,8 +28,9 @@ def main() -> int:
         text = str(turn.get("text") or "").strip()
         status = str(turn.get("speaker_status") or "")
         reason = str(turn.get("review_reason") or "")
-        is_short_unknown = status in {"unknown", "unresolved", "mixed"} and len(text.split()) <= 3
-        if not (bool(turn.get("needs_review")) or is_short_unknown):
+        is_short_unknown = status in {"unknown", "unresolved", "mixed", "public_comment_unverified"} and len(text.split()) <= 3
+        suspicious_text = len(text.split()) <= 3 or any(bad in text.lower() for bad in ["even more oh", "has the name", ". i"])
+        if not (bool(turn.get("needs_review")) or is_short_unknown or suspicious_text):
             continue
 
         start = max(0, idx - args.context)

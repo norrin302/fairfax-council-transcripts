@@ -39,6 +39,9 @@ def main() -> int:
 
     labeled_turns: list[dict[str, Any]] = []
     for t in turns:
+        text = str(t.get("text") or "").strip()
+        if not text:
+            continue
         labeled_turns.append(
             {
                 "speaker": str(t.get("speaker_public") or "Unknown Speaker"),
@@ -46,7 +49,7 @@ def main() -> int:
                 "speaker_source_detail": str(t.get("review_reason") or ""),
                 "start": float(t.get("start", 0) or 0),
                 "end": float(t.get("end", 0) or 0),
-                "text": str(t.get("text") or "").strip(),
+                "text": text,
             }
         )
 

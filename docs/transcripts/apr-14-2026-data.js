@@ -5,22 +5,6 @@ const TRANSCRIPT_TURNS = [
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "no_diarization",
-    "start": 0.0,
-    "end": 2.0,
-    "text": "Oh"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 30.0,
-    "end": 32.0,
-    "text": "I"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
     "start": 60.0,
     "end": 72.44,
     "text": "Would like to call the regular meeting of April 14th 2026 to order. It's good to see the chamber full We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the Pledge of Allegiance"
@@ -29,17 +13,9 @@ const TRANSCRIPT_TURNS = [
     "speaker": "Mayor Catherine Read",
     "speaker_source": "approved",
     "speaker_source_detail": "merged_micro_turn",
-    "start": 77.04,
-    "end": 87.04,
-    "text": ". I"
-  },
-  {
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "approved",
-    "speaker_source_detail": "merged_micro_turn",
     "start": 104.3,
     "end": 117.04,
-    "text": "Will now ask Suzanne Levy Eric Carson and Alana quarrels with the city of Fairfax Library to come down for the proclamation acknowledging National Library Week I"
+    "text": "Will now ask Suzanne Levy Eric Carson and Alana quarrels with the city of Fairfax Library to come down for the proclamation acknowledging National Library Week"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -127,15 +103,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "mixed_or_rejected_audio",
     "start": 373.14,
     "end": 377.54,
-    "text": "Mayor Reed has the name to have a library card. We expect"
-  },
-  {
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "approved",
-    "speaker_source_detail": "merged_micro_turn",
-    "start": 383.3,
-    "end": 387.3,
-    "text": "Even more Oh"
+    "text": "We expect"
   },
   {
     "speaker": "Unknown Speaker",
@@ -146,28 +114,12 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you so much and thank you for this and the staff is going to take it back to the library And I'll put it in a prominent place. will see you at the library"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 415.3,
-    "end": 417.3,
-    "text": "I"
-  },
-  {
     "speaker": "Mayor Catherine Read",
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 419.66,
     "end": 435.1,
     "text": "Am now going to ask Stephanie Kupka and a Safford City Environmental Sustainability Committee members Faisal alam rusty Russell and everyone else who is here from the ESC To come down here so we can talk about Earth Day and Arbor Day"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
-    "start": 439.18,
-    "end": 441.18,
-    "text": "All right"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -231,7 +183,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 617.24,
     "end": 651.36,
-    "text": "Something, and I have exported a lot of power out there. So this year again, the Solarize Virginia is a great program. It's opening up again on April 16th, Stephanie? Yes. On April 15th, and it will continue. It is a very good vetted program. It's the best rate you're going to get. So just spread the word out and do that. And please join us on the Arbor Day on April 25th. The event begins at 9 a.m. We will have some students who are written beautiful poetries. They will be reciting. We'll have tree giveaways, tree plantations, and a lot of fun. So please join us."
+    "text": "Something, and I have exported a lot of power out there. So this year again, the Solarize Virginia is a great program. It's opening up again on April 16th, Stephanie? Yes. On April 15th, and it will continue. It is a very good vetted program. It's the best rate you're going to get. So just spread the word out and do that. And please join us on the Arbor Day on April 25th. The event begins at 9 a.m. We will have some students who are written beautiful poetries. They will be reciting. We'll have tree giveaways, tree plantations, and a lot of fun. So please join us"
   },
   {
     "speaker": "Unknown Speaker",
@@ -239,15 +191,23 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 651.36,
     "end": 658.84,
-    "text": "All right. Any other remarks? Okay. Thank you."
+    "text": "All right. Any other remarks? Okay. Thank you"
   },
   {
     "speaker": "Mayor Catherine Read",
     "speaker_source": "approved",
-    "speaker_source_detail": "merged_micro_turn",
+    "speaker_source_detail": "",
     "start": 658.84,
+    "end": 663.84,
+    "text": "And think that's at Pat Rodeo Park? Yes. Pat Rodeo Park. think that's a new venue for us"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unresolved",
+    "speaker_source_detail": "unresolved_identity",
+    "start": 663.84,
     "end": 665.84,
-    "text": "And think that's at Pat Rodeo Park? Yes. Pat Rodeo Park. think that's a new venue for us. Okay. Picture."
+    "text": "Okay. Picture"
   },
   {
     "speaker": "Unknown Speaker",
@@ -255,7 +215,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 665.84,
     "end": 695.32,
-    "text": "Squeeze in. All right. Excellent. Excellent. Thank you all. Thank you all for being here. All right."
+    "text": "Squeeze in. All right. Excellent. Excellent. Thank you all. Thank you all for being here. All right"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -319,7 +279,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 790.44,
     "end": 828.4,
-    "text": "And where and how to grow milkweed, which is a key piece of the puzzle in creating habitat and educating citizens benefits other pollinators that need healthy habitats as well. Now therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, do hereby commit to the Mayor's Monarch Pledge, this is a nationwide thing, the Mayor's Monarch Pledge, and encourage all residents to participate in community activities that support and celebrate monarch conservation so that these magnificent butterflies will once again flourish across this continent. And with that, will turn it over to Ms. Janet Jaworski."
+    "text": "And where and how to grow milkweed, which is a key piece of the puzzle in creating habitat and educating citizens benefits other pollinators that need healthy habitats as well. Now therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, do hereby commit to the Mayor's Monarch Pledge, this is a nationwide thing, the Mayor's Monarch Pledge, and encourage all residents to participate in community activities that support and celebrate monarch conservation so that these magnificent butterflies will once again flourish across this continent. And with that, will turn it over to Ms. Janet Jaworski"
   },
   {
     "speaker": "Janet Jaworski",
@@ -375,7 +335,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 926.88,
     "end": 964.32,
-    "text": "You can reach out to the city clerk and get my address, but you can actually have butterflies flying around you. You can see caterpillars in the yard and it's very exciting. Mary, my colleague from the women's club also has a lot of milkweed in her yard. Cindy Meyer has milkweed in her yard and there are probably a number of you who also have that. It's very exciting. It's a science project going on right in your yard. I've had field trips from our daycare down the street. I've done some stuff virtually for the science teacher at Daniel's Run. So it's very exciting. So I'm happy to guide anybody who wants to do this project. So turn it over to Stephanie."
+    "text": "You can reach out to the city clerk and get my address, but you can actually have butterflies flying around you. You can see caterpillars in the yard and it's very exciting. Mary, my colleague from the women's club also has a lot of milkweed in her yard. Cindy Meyer has milkweed in her yard and there are probably a number of you who also have that. It's very exciting. It's a science project going on right in your yard. I've had field trips from our daycare down the street. I've done some stuff virtually for the science teacher at Daniel's Run. So it's very exciting. So I'm happy to guide anybody who wants to do this project. So turn it over to Stephanie"
   },
   {
     "speaker": "Fasa Alam",
@@ -383,7 +343,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 965.32,
     "end": 967.32,
-    "text": "Well, thank you, Jen. You covered all of it."
+    "text": "Well, thank you, Jen. You covered all of it"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -391,15 +351,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 970.32,
     "end": 984.32,
-    "text": "Well, so the commitment to, you know, and I've got asters in my yard and these plants are beautiful too. So think about the fact that when you choose what you plant in your yard, there's all kinds of benefits, like you get to have butterflies. Okay, with that, a photo."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 995.32,
-    "end": 997.32,
-    "text": "All right."
+    "text": "Well, so the commitment to, you know, and I've got asters in my yard and these plants are beautiful too. So think about the fact that when you choose what you plant in your yard, there's all kinds of benefits, like you get to have butterflies. Okay, with that, a photo"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -407,7 +359,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 1017.32,
     "end": 1029.56,
-    "text": "So I'm going to now invite the women's club of Fairfax to join me up here so that we can talk about the 70th anniversary of this very august body of women who exist here in our city."
+    "text": "So I'm going to now invite the women's club of Fairfax to join me up here so that we can talk about the 70th anniversary of this very august body of women who exist here in our city"
   },
   {
     "speaker": "Unknown Speaker",
@@ -415,7 +367,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 1036.56,
     "end": 1040.56,
-    "text": "Everybody, this is wonderful. Everybody in, everybody in, everybody in."
+    "text": "Everybody, this is wonderful. Everybody in, everybody in, everybody in"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -423,7 +375,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 1042.56,
     "end": 1047.56,
-    "text": "Lovely to see everyone. Lovely to see everyone. Is everybody in? Okay."
+    "text": "Lovely to see everyone. Lovely to see everyone. Is everybody in? Okay"
   },
   {
     "speaker": "Unknown Speaker",
@@ -479,7 +431,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 1138.56,
     "end": 1181.56,
-    "text": "Families and the community and continues today as a unified and diverse group of women dedicated to enhancing the lives of families and strengthening their community through volunteer service. Now, therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, Virginia, in concert with the City Council, do hereby commend the Women's Club of Fairfax on their 70th anniversary and encourage all citizens of the City of Fairfax to recognize, commemorate and celebrate the wonderful contributions the Women's Club of Fairfax has made to the betterment of the City of Fairfax. And with that, who is speaking? Martha, come on, the President of the Women's Club."
+    "text": "Families and the community and continues today as a unified and diverse group of women dedicated to enhancing the lives of families and strengthening their community through volunteer service. Now, therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, Virginia, in concert with the City Council, do hereby commend the Women's Club of Fairfax on their 70th anniversary and encourage all citizens of the City of Fairfax to recognize, commemorate and celebrate the wonderful contributions the Women's Club of Fairfax has made to the betterment of the City of Fairfax. And with that, who is speaking? Martha, come on, the President of the Women's Club"
   },
   {
     "speaker": "Unknown Speaker",
@@ -487,7 +439,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 1181.56,
     "end": 1208.36,
-    "text": "Good evening. I just want to say that we feel very fortunate to be a part of the city and we enjoy doing as much as we can to be supportive of the city. And think it's pretty impressive that we have sustained ourselves for 70 years. years, considering all the different ups and downs of the past 70 years. And we look forward to serving you for many more years."
+    "text": "Good evening. I just want to say that we feel very fortunate to be a part of the city and we enjoy doing as much as we can to be supportive of the city. And think it's pretty impressive that we have sustained ourselves for 70 years. years, considering all the different ups and downs of the past 70 years. And we look forward to serving you for many more years"
   },
   {
     "speaker": "Unknown Speaker",
@@ -495,15 +447,31 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 1208.36,
     "end": 1222.36,
-    "text": "Thank you. Thank you. All right. Everybody scrunch on in. Yeah, big turn."
+    "text": "Thank you. Thank you. All right. Everybody scrunch on in. Yeah, big turn"
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
     "speaker_source": "approved",
     "speaker_source_detail": "merged_micro_turn",
     "start": 1222.36,
+    "end": 1225.36,
+    "text": "Big turn Okay"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "no_diarization",
+    "start": 1225.36,
+    "end": 1226.36,
+    "text": "Come forward"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unresolved",
+    "speaker_source_detail": "unresolved_identity",
+    "start": 1226.36,
     "end": 1227.36,
-    "text": "Big turn. Okay. Come forward. Come on."
+    "text": "Come on"
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
@@ -511,7 +479,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 1227.36,
     "end": 1229.36,
-    "text": "Somebody reach out. Okay, there we go."
+    "text": "Somebody reach out. Okay, there we go"
   },
   {
     "speaker": "JC Martinez",
@@ -519,15 +487,23 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 1229.36,
     "end": 1231.36,
-    "text": "Okay. Okay."
+    "text": "Okay. Okay"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unresolved",
     "speaker_source_detail": "unresolved_identity",
     "start": 1231.36,
+    "end": 1238.36,
+    "text": "So, think it's not working. Okay. Okay. Okay. Okay. Okay. Okay"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unresolved",
+    "speaker_source_detail": "unresolved_identity",
+    "start": 1238.36,
     "end": 1240.36,
-    "text": "So, think it's not working. Okay. Okay. Okay. Okay. Okay. Okay. Okay. Okay."
+    "text": "Okay. Okay"
   },
   {
     "speaker": "Unknown Speaker",
@@ -535,7 +511,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 1240.36,
     "end": 1251.36,
-    "text": "Okay. Okay. Okay. Okay. Okay. Thanks. Okay. Okay. Okay. Okay. All right."
+    "text": "Okay. Okay. Okay. Okay. Okay. Thanks. Okay. Okay. Okay. Okay All right"
   },
   {
     "speaker": "Unknown Speaker",
@@ -543,7 +519,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 1251.36,
     "end": 1268.08,
-    "text": "And Eddie and Martha. Thank you so much. And Alison, you guys look fantastic. Just so awesome to hear you Pauling. Thank you so much. All right. It's so great to hear you call it. And no, I'm not going to start over. I said I was going to say, no not going to start over. I just wanted to hear you call it."
+    "text": "And Eddie and Martha. Thank you so much. And Alison, you guys look fantastic. Just so awesome to hear you Pauling. Thank you so much. All right. It's so great to hear you call it. And no, I'm not going to start over. I said I was going to say, no not going to start over. I just wanted to hear you call it"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -559,7 +535,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 1274.92,
     "end": 1277.84,
-    "text": "You. Come on."
+    "text": "You. Come on"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -567,7 +543,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 1277.84,
     "end": 1280.44,
-    "text": "It's cool to stand up here and just be stared at."
+    "text": "It's cool to stand up here and just be stared at"
   },
   {
     "speaker": "Unknown Speaker",
@@ -575,7 +551,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 1280.44,
     "end": 1289.0,
-    "text": "Trust me, not awkward at all."
+    "text": "Trust me, not awkward at all"
   },
   {
     "speaker": "Unknown Speaker",
@@ -583,15 +559,23 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 1289.0,
     "end": 1291.0,
-    "text": "All good. All good."
+    "text": "All good. All good"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
     "speaker_source_detail": "no_diarization",
     "start": 1291.0,
+    "end": 1292.0,
+    "text": "You guys are important"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unresolved",
+    "speaker_source_detail": "unresolved_identity",
+    "start": 1292.0,
     "end": 1293.0,
-    "text": "You guys are important. So important."
+    "text": "So important"
   },
   {
     "speaker": "Unknown Speaker",
@@ -599,7 +583,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 1293.0,
     "end": 1297.0,
-    "text": "Very important. All right. Everybody in the cutest. All right."
+    "text": "Very important. All right. Everybody in the cutest All right"
   },
   {
     "speaker": "Unknown Speaker",
@@ -623,7 +607,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 1352.96,
     "end": 1395.0,
-    "text": "Our residents have with emergency services, serving as the vital link between the public and emergency responders. And whereas, public safety telecommunicators contribute substantially to the apprehension of criminals, the suppression of fires, and the treatment of patients, demonstrating professionalism, understanding, and dedication in every call they handle. And whereas, within the Police Department, a Dispatcher of the Year is nominated by police personnel to recognize an individual for exceptional performance, exemplifying the commitment and excellence demonstrated by all emergency dispatch professionals in our city each and every day, 24 hours a day, and 7 days a week."
+    "text": "Our residents have with emergency services, serving as the vital link between the public and emergency responders. And whereas, public safety telecommunicators contribute substantially to the apprehension of criminals, the suppression of fires, and the treatment of patients, demonstrating professionalism, understanding, and dedication in every call they handle. And whereas, within the Police Department, a Dispatcher of the Year is nominated by police personnel to recognize an individual for exceptional performance, exemplifying the commitment and excellence demonstrated by all emergency dispatch professionals in our city each and every day, 24 hours a day, and 7 days a week"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -631,7 +615,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 1395.0,
     "end": 1436.4,
-    "text": "Now therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, do hereby proclaim April 12-18, 2026 as National Public Safety Telecommunicators Week in the City of Fairfax, and encourage all members of our community to join in extending our warmest measure of gratitude and support to our Public Safety Telecommunications Dispatchers, including our award recipient, Aliyah Tibbs, Aliyah Tibbs, Elijah, okay, Elijah Tibbs, the 2025 Dispatcher of the Year who provides critical and essential services daily to the countless number of residents, business owners, and visitors within our community."
+    "text": "Now therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, do hereby proclaim April 12-18, 2026 as National Public Safety Telecommunicators Week in the City of Fairfax, and encourage all members of our community to join in extending our warmest measure of gratitude and support to our Public Safety Telecommunications Dispatchers, including our award recipient, Aliyah Tibbs, Aliyah Tibbs, Elijah, okay, Elijah Tibbs, the 2025 Dispatcher of the Year who provides critical and essential services daily to the countless number of residents, business owners, and visitors within our community"
   },
   {
     "speaker": "Unknown Speaker",
@@ -639,7 +623,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 1436.4,
     "end": 1451.92,
-    "text": "So with that, Elijah, Chief."
+    "text": "So with that, Elijah, Chief"
   },
   {
     "speaker": "Elijah Tibbs",
@@ -655,7 +639,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 1470.16,
     "end": 1475.04,
-    "text": "As our Dispatcher of the Year for 2025, our Communications and Records Supervisor, Ms."
+    "text": "As our Dispatcher of the Year for 2025, our Communications and Records Supervisor, Ms"
   },
   {
     "speaker": "Elijah Tibbs",
@@ -671,7 +655,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 1495.56,
     "end": 1501.32,
-    "text": "Any type of emergency, if you need direction somewhere, you call the police and they answer."
+    "text": "Any type of emergency, if you need direction somewhere, you call the police and they answer"
   },
   {
     "speaker": "Elijah Tibbs",
@@ -687,7 +671,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 1538.36,
     "end": 1544.88,
-    "text": "And routing it to the right people, and assigning the right personnel to respond to that call. It's incredible."
+    "text": "And routing it to the right people, and assigning the right personnel to respond to that call. It's incredible"
   },
   {
     "speaker": "Unknown Speaker",
@@ -703,7 +687,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "merged_micro_turn",
     "start": 1549.56,
     "end": 1552.84,
-    "text": "For our proclamation. Mayor, thank you so much. Thank you."
+    "text": "For our proclamation. Mayor, thank you so much Thank you"
   },
   {
     "speaker": "Unknown Speaker",
@@ -719,7 +703,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 1560.36,
     "end": 1563.72,
-    "text": "Forgot to introduce Sherry."
+    "text": "Forgot to introduce Sherry"
   },
   {
     "speaker": "Unknown Speaker",
@@ -735,7 +719,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 1565.72,
     "end": 1574.08,
-    "text": "Okay. Wonderful, wonderful. Sherry's our pure wellness dog, so she's here to support everybody."
+    "text": "Okay. Wonderful, wonderful. Sherry's our pure wellness dog, so she's here to support everybody"
   },
   {
     "speaker": "Unknown Speaker",
@@ -743,7 +727,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 1574.08,
     "end": 1576.08,
-    "text": "So we are going to now have a picture. All right."
+    "text": "So we are going to now have a picture All right"
   },
   {
     "speaker": "Unknown Speaker",
@@ -751,7 +735,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 1636.08,
     "end": 1643.88,
-    "text": "We can move on to the adoption of the agenda."
+    "text": "We can move on to the adoption of the agenda"
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
@@ -759,7 +743,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 1643.88,
     "end": 1648.84,
-    "text": "Is there a motion to approve the agenda? move to adopt the agenda as presented."
+    "text": "Is there a motion to approve the agenda? move to adopt the agenda as presented"
   },
   {
     "speaker": "Unknown Speaker",
@@ -770,20 +754,12 @@ const TRANSCRIPT_TURNS = [
     "text": "Is there a second?"
   },
   {
-    "speaker": "Councilmember Anthony Amos",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 1649.84,
-    "end": 1650.84,
-    "text": "Second."
-  },
-  {
     "speaker": "Mayor Catherine Read",
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 1650.84,
     "end": 1653.04,
-    "text": "The motion has been made and seconded."
+    "text": "The motion has been made and seconded"
   },
   {
     "speaker": "Unknown Speaker",
@@ -791,7 +767,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 1653.04,
     "end": 1655.2,
-    "text": "A roll call vote."
+    "text": "A roll call vote"
   },
   {
     "speaker": "Unknown Speaker",
@@ -799,7 +775,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 1655.2,
     "end": 1663.2,
-    "text": "Councilmember Amos? Aye. Councilmember Hall? Aye. Councilmember Hardy-Chandler? Aye. Councilmember Peterson? Aye."
+    "text": "Councilmember Amos? Aye. Councilmember Hall? Aye. Councilmember Hardy-Chandler? Aye. Councilmember Peterson? Aye"
   },
   {
     "speaker": "Unknown Speaker",
@@ -807,7 +783,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 1663.2,
     "end": 1665.2,
-    "text": "Councilmember Bates? Aye."
+    "text": "Councilmember Bates? Aye"
   },
   {
     "speaker": "Unknown Speaker",
@@ -823,7 +799,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 1676.84,
     "end": 1690.08,
-    "text": "Will be Anita Light. Good evening, Mayor Reed and members of City Council."
+    "text": "Will be Anita Light. Good evening, Mayor Reed and members of City Council"
   },
   {
     "speaker": "Unknown Speaker",
@@ -831,15 +807,23 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "mixed_or_rejected_audio",
     "start": 1690.08,
     "end": 1734.64,
-    "text": "My name is Anita Light, and I'm here tonight in three capacities. First as the chair of the Fairfax Village in the City Advisory Board, resident of Fairfax City, obviously, and as an older adult. As chair of the Fairfax Village in the City Advisory Board, we wanted to emphasize our support for the Willard Sherwood Center, as noted in our letter to you all dated April 6th. In that letter, we noted that supporting the new Willard Sherwood Center would help make accessibility for older adults easier and safer. We also noted that this project was a community partnership effort with the county, as well as the residents of both the city and the county."
+    "text": "My name is Anita Light, and I'm here tonight in three capacities. First as the chair of the Fairfax Village in the City Advisory Board, resident of Fairfax City, obviously, and as an older adult. As chair of the Fairfax Village in the City Advisory Board, we wanted to emphasize our support for the Willard Sherwood Center, as noted in our letter to you all dated April 6th. In that letter, we noted that supporting the new Willard Sherwood Center would help make accessibility for older adults easier and safer. We also noted that this project was a community partnership effort with the county, as well as the residents of both the city and the county"
   },
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "mixed",
     "speaker_source_detail": "mixed_or_rejected_audio",
     "start": 1734.64,
+    "end": 1738.76,
+    "text": "And finally, we highlighted that this project is a long-term investment for the future of"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "no_diarization",
+    "start": 1738.76,
     "end": 1740.16,
-    "text": "And finally, we highlighted that this project is a long-term investment for the future of The city."
+    "text": "The city"
   },
   {
     "speaker": "Unknown Speaker",
@@ -903,7 +887,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "mixed_or_rejected_audio",
     "start": 1870.56,
     "end": 1888.16,
-    "text": "While there is a cost to modernization and there will be additional costs to the center, I urge you to support its development that will help the more than 9,000 older adults in Fairfax City and we appreciate and thank you for your consideration. Thank you."
+    "text": "While there is a cost to modernization and there will be additional costs to the center, I urge you to support its development that will help the more than 9,000 older adults in Fairfax City and we appreciate and thank you for your consideration. Thank you"
   },
   {
     "speaker": "Unknown Speaker",
@@ -911,7 +895,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 1888.16,
     "end": 1892.0,
-    "text": "Our next speaker is Kevin Anderson."
+    "text": "Our next speaker is Kevin Anderson"
   },
   {
     "speaker": "Kevin Anderson",
@@ -943,7 +927,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 1930.96,
     "end": 1934.8,
-    "text": "Hardly be considered green."
+    "text": "Hardly be considered green"
   },
   {
     "speaker": "Kevin Anderson",
@@ -999,7 +983,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 2034.16,
     "end": 2037.52,
-    "text": "Or if you're like me to your grandchildren."
+    "text": "Or if you're like me to your grandchildren"
   },
   {
     "speaker": "Kevin Anderson",
@@ -1039,7 +1023,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 2086.16,
     "end": 2099.84,
-    "text": "If we build a new center and we do a gradual transition to the new one, it'll be more of an evolutionary change to the routine. So I beseech you to approve this project and I thank you for your time."
+    "text": "If we build a new center and we do a gradual transition to the new one, it'll be more of an evolutionary change to the routine. So I beseech you to approve this project and I thank you for your time"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1047,7 +1031,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 2099.84,
     "end": 2105.44,
-    "text": "Thank you. Our next speaker is Douglas Stewart."
+    "text": "Thank you. Our next speaker is Douglas Stewart"
   },
   {
     "speaker": "Douglas Stewart",
@@ -1079,7 +1063,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 2248.48,
     "end": 2255.92,
-    "text": "Like stormwater management. So think this is going to change people's experiences of the city for generations and I"
+    "text": "Like stormwater management. So think this is going to change people's experiences of the city for generations and"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1087,7 +1071,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 2255.92,
     "end": 2259.44,
-    "text": "Strongly support it. Thank you."
+    "text": "Strongly support it. Thank you"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1095,7 +1079,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 2260.08,
     "end": 2263.84,
-    "text": "Our next speaker is Janet Jaworski."
+    "text": "Our next speaker is Janet Jaworski"
   },
   {
     "speaker": "Janet Jaworski",
@@ -1230,8 +1214,16 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "unresolved",
     "speaker_source_detail": "unresolved_identity",
     "start": 2640.18,
+    "end": 2653.98,
+    "text": "Their tax dollars paying both capital cost and operating costs please stand up our next speaker is Dale Lucena thank you"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "no_diarization",
+    "start": 2653.98,
     "end": 2656.04,
-    "text": "Their tax dollars paying both capital cost and operating costs please stand up our next speaker is Dale Lucena thank you You"
+    "text": "You"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1335,7 +1327,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 2838.7,
     "end": 2855.5,
-    "text": "Good evening thank you for the opportunity to speak with you tonight my name is Becky Rager I live at 4141 Evergreen Drive been there for 31 years I'm a current member of the Fairfax Village in the City Advisory Board I"
+    "text": "Good evening thank you for the opportunity to speak with you tonight my name is Becky Rager I live at 4141 Evergreen Drive been there for 31 years I'm a current member of the Fairfax Village in the City Advisory Board"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1399,7 +1391,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 2981.06,
     "end": 3003.52,
-    "text": "Facilitate a workshop the next this creates a sustainable model for future programs without additional cost I believe the new Willard Sherwood facility with all the infrastructure enhancements will provide is necessary to continue to deliver modern equitable full services for the entire community. Thank you."
+    "text": "Facilitate a workshop the next this creates a sustainable model for future programs without additional cost I believe the new Willard Sherwood facility with all the infrastructure enhancements will provide is necessary to continue to deliver modern equitable full services for the entire community Thank you"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1407,7 +1399,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 3005.4,
     "end": 3007.36,
-    "text": "Our next speaker is Alan Glenn."
+    "text": "Our next speaker is Alan Glenn"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1439,7 +1431,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 3146.82,
     "end": 3192.98,
-    "text": "In the community, regardless of age, income, strata, or which neighborhood you live in. So to me, it's definitely needed and I strongly support it. Thank you very much. Oh, as long as I've got 30 seconds left, let me just say Mr. Lustina, who was the previous speaker, would like to endorse his comments. I served on the board with him for five years of the Housing Renaissance Corporation. That was one of three city boards that I've had the privilege to serve on over the years. And think that board and the funding from the city served a important need to maintain and upgrade existing housing stock in the city. Thank you."
+    "text": "In the community, regardless of age, income, strata, or which neighborhood you live in. So to me, it's definitely needed and I strongly support it. Thank you very much. Oh, as long as I've got 30 seconds left, let me just say Mr. Lustina, who was the previous speaker, would like to endorse his comments. I served on the board with him for five years of the Housing Renaissance Corporation. That was one of three city boards that I've had the privilege to serve on over the years. And think that board and the funding from the city served a important need to maintain and upgrade existing housing stock in the city Thank you"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1447,15 +1439,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 3194.62,
     "end": 3196.78,
-    "text": "Our next speaker is William Pitchford."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 3201.74,
-    "end": 3202.58,
-    "text": "Thank you."
+    "text": "Our next speaker is William Pitchford"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1463,7 +1447,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 3206.3,
     "end": 3250.16,
-    "text": "Good evening and thank you for the opportunity to speak this evening. My name is William Pitchford. I live on School Street in the city of Fairfax. In two weeks at the April 28th city council meeting, you will be asked to approve a resolution to proceed with the Willard Sherwood Health and Community Center Project and a resolution for the Economic Development Authority to issue bonds to finance such capital projects. I'm asking you to approve both resolutions as it is the best option for the citizens of Fairfax City and the city's overall economic and infrastructure development. I'd like to offer a few points on why you should approve these two measures."
+    "text": "Good evening and thank you for the opportunity to speak this evening. My name is William Pitchford. I live on School Street in the city of Fairfax. In two weeks at the April 28th city council meeting, you will be asked to approve a resolution to proceed with the Willard Sherwood Health and Community Center Project and a resolution for the Economic Development Authority to issue bonds to finance such capital projects. I'm asking you to approve both resolutions as it is the best option for the citizens of Fairfax City and the city's overall economic and infrastructure development. I'd like to offer a few points on why you should approve these two measures"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1479,7 +1463,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 3252.66,
     "end": 3295.24,
-    "text": "The citizens of Fairfax City are in desperate need for a community center that meets their needs and have expressed this with broad support for the project through two years of design reviews with broad support for the project, oh, with two years of design reviews and approvals from previous and current city council. This is probably the most vetted capital improvement project the city has undertaken. The new Willard Sherwood Community Center will be a joint venture project with Fairfax County. The cost of building and operating the facility is shared, significantly reducing the burden to the city taxpayers."
+    "text": "The citizens of Fairfax City are in desperate need for a community center that meets their needs and have expressed this with broad support for the project through two years of design reviews with broad support for the project, oh, with two years of design reviews and approvals from previous and current city council. This is probably the most vetted capital improvement project the city has undertaken. The new Willard Sherwood Community Center will be a joint venture project with Fairfax County. The cost of building and operating the facility is shared, significantly reducing the burden to the city taxpayers"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1519,7 +1503,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 3352.38,
     "end": 3358.88,
-    "text": "In February of this year. Like most community service organizations, this is where they have meetings."
+    "text": "In February of this year. Like most community service organizations, this is where they have meetings"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1527,7 +1511,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 3358.88,
     "end": 3362.64,
-    "text": "And just like this council meeting, it started at 7 p.m."
+    "text": "And just like this council meeting, it started at 7 p.m"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1535,7 +1519,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 3363.48,
     "end": 3371.58,
-    "text": "Unlike the normal council meetings, it ended at the decent hour of 8.30, which was still well past sunset."
+    "text": "Unlike the normal council meetings, it ended at the decent hour of 8.30, which was still well past sunset"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1567,7 +1551,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 3386.26,
     "end": 3418.86,
-    "text": "What someone 10 to 15 years older than would do. Basically, they would stop participating in their community after dark. For those of you who have any reservations about the Neifert Project, would challenge you to hold an official city meeting at Green Acres. It doesn't have to be the next council meeting, but it could be a planning commission or economic development authority meeting. In conclusion, I'm asking you to approve the two resolutions at the April 28th council meeting. Thank you."
+    "text": "What someone 10 to 15 years older than would do. Basically, they would stop participating in their community after dark. For those of you who have any reservations about the Neifert Project, would challenge you to hold an official city meeting at Green Acres. It doesn't have to be the next council meeting, but it could be a planning commission or economic development authority meeting. In conclusion, I'm asking you to approve the two resolutions at the April 28th council meeting Thank you"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1575,15 +1559,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 3420.46,
     "end": 3422.58,
-    "text": "Our last speaker is Toby Sorenson."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 3430.22,
-    "end": 3431.06,
-    "text": "Thank you."
+    "text": "Our last speaker is Toby Sorenson"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1599,7 +1575,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 3460.78,
     "end": 3461.62,
-    "text": "We do know."
+    "text": "We do know"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1655,7 +1631,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 3583.18,
     "end": 3623.08,
-    "text": "And design process anew? Would the county choose a different location for the health center, one that would not be in the city? If the county chose a different location, what would they decide to do with the land that they own next to the Sherwood Center? We want to continue to have a senior center and a preschool and community spaces for our residents, as well as to have a health department located within the city. If you believe you have a hard decision to make about funding Willard Sherwood, think also about the really hard decisions you will have to make if you don't vote to fund it. Thank you for listening."
+    "text": "And design process anew? Would the county choose a different location for the health center, one that would not be in the city? If the county chose a different location, what would they decide to do with the land that they own next to the Sherwood Center? We want to continue to have a senior center and a preschool and community spaces for our residents, as well as to have a health department located within the city. If you believe you have a hard decision to make about funding Willard Sherwood, think also about the really hard decisions you will have to make if you don't vote to fund it. Thank you for listening"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1703,7 +1679,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 3702.88,
     "end": 3711.0,
-    "text": "Move to approve the consent agenda items 6A through M as presented and the accompanying motions in the staff reports."
+    "text": "Move to approve the consent agenda items 6A through M as presented and the accompanying motions in the staff reports"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -1711,7 +1687,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 3711.0,
     "end": 3719.92,
-    "text": "Is there a second? Second. We have a motion made by Council Member Stacy Hardy-Chandler and seconded by Council Member Peterson, a roll call vote."
+    "text": "Is there a second? Second. We have a motion made by Council Member Stacy Hardy-Chandler and seconded by Council Member Peterson, a roll call vote"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1730,20 +1706,12 @@ const TRANSCRIPT_TURNS = [
     "text": "Aye. Council Member Bates? Aye. Council Member Peterson? Aye. Council Member Hardy-Chandler? Aye. Council Member Hall? Aye. Council Member Amos?"
   },
   {
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 3731.88,
-    "end": 3732.4,
-    "text": "Aye."
-  },
-  {
     "speaker": "Unknown Speaker",
     "speaker_source": "unresolved",
     "speaker_source_detail": "unresolved_identity",
     "start": 3732.4,
     "end": 3737.2,
-    "text": "Motion passed unanimously. We'll go to appointments to boards, commissions, and advisory committees."
+    "text": "Motion passed unanimously. We'll go to appointments to boards, commissions, and advisory committees"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -1767,7 +1735,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 3786.6,
     "end": 3805.12,
-    "text": "Appoint Lauren Oliver for a remainder of a three-year term extending through February 11, 2028. Appoint David Fleischer for a three-year term extending through April 14, 2029. And exclude Nova Park's appointments until May 12."
+    "text": "Appoint Lauren Oliver for a remainder of a three-year term extending through February 11, 2028. Appoint David Fleischer for a three-year term extending through April 14, 2029. And exclude Nova Park's appointments until May 12"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1775,7 +1743,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 3805.12,
     "end": 3808.44,
-    "text": "Is there a second? Second."
+    "text": "Is there a second? Second"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -1799,7 +1767,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 3822.96,
     "end": 3834.0,
-    "text": "There has been additional clarity on procedure that allows for input while safeguarding conflict of interest. And want additional time for that to happen."
+    "text": "There has been additional clarity on procedure that allows for input while safeguarding conflict of interest. And want additional time for that to happen"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -1815,7 +1783,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 3835.08,
     "end": 3837.72,
-    "text": "I'm not following that."
+    "text": "I'm not following that"
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
@@ -1823,7 +1791,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 3837.72,
     "end": 3846.32,
-    "text": "Each candidate can be considered individually. And while would recuse myself from one of the candidates, I do want to have input on other candidates."
+    "text": "Each candidate can be considered individually. And while would recuse myself from one of the candidates, I do want to have input on other candidates"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -1839,7 +1807,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 3856.08,
     "end": 3863.76,
-    "text": "Individual people are on their own merit. And would like to have input on the individuals who are candidates on their own merit."
+    "text": "Individual people are on their own merit. And would like to have input on the individuals who are candidates on their own merit"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -1847,7 +1815,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 3863.76,
     "end": 3876.8,
-    "text": "So we have three applicants for two slots, one of whom is your husband. Right. Under state law for jurisdictions that follow it, that's normally considered a conflict of interest."
+    "text": "So we have three applicants for two slots, one of whom is your husband. Right. Under state law for jurisdictions that follow it, that's normally considered a conflict of interest"
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
@@ -1855,7 +1823,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 3876.84,
     "end": 3880.96,
-    "text": "Would recuse myself, as I have historically, on the vote for my husband."
+    "text": "Would recuse myself, as I have historically, on the vote for my husband"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -1871,7 +1839,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 3891.72,
     "end": 3900.44,
-    "text": "It is my understanding that there is appropriate input that can be made on other candidates for this position. And would like to have that input."
+    "text": "It is my understanding that there is appropriate input that can be made on other candidates for this position. And would like to have that input"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -1887,7 +1855,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 3903.6,
     "end": 3907.08,
-    "text": "Are going to be voting on a slot."
+    "text": "Are going to be voting on a slot"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -1903,7 +1871,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 3908.84,
     "end": 3911.12,
-    "text": "Where your husband is an applicant."
+    "text": "Where your husband is an applicant"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -1919,7 +1887,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 3916.04,
     "end": 3920.84,
-    "text": "This is regarded as a clear conflict of interest."
+    "text": "This is regarded as a clear conflict of interest"
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
@@ -1927,7 +1895,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 3920.84,
     "end": 3927.24,
-    "text": "Each slot is independent. OK. And they're not the same slot. OK. think that's."
+    "text": "Each slot is independent. OK. And they're not the same slot. OK. think that's"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -1935,7 +1903,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 3927.24,
     "end": 3929.8,
-    "text": "Let me recognize Council Member McQuillan."
+    "text": "Let me recognize Council Member McQuillan"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1943,7 +1911,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 3934.28,
     "end": 3939.68,
-    "text": "Our residents applied for these roles in good faith."
+    "text": "Our residents applied for these roles in good faith"
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
@@ -1951,7 +1919,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 3939.68,
     "end": 3946.92,
-    "text": "They interviewed in good faith. Council discusses these applications through the established process."
+    "text": "They interviewed in good faith. Council discusses these applications through the established process"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1959,7 +1927,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 3946.92,
     "end": 3959.12,
-    "text": "We should respect the process, vote, and move forward. That's how I feel. Thank you. Council Member Hall."
+    "text": "We should respect the process, vote, and move forward. That's how I feel. Thank you. Council Member Hall"
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -1975,7 +1943,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4004.96,
     "end": 4010.16,
-    "text": "Or different thing. But I still think that this is very messy."
+    "text": "Or different thing. But I still think that this is very messy"
   },
   {
     "speaker": "Unknown Speaker",
@@ -1991,7 +1959,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4013.28,
     "end": 4017.0,
-    "text": "Where we are at a split vote."
+    "text": "Where we are at a split vote"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2007,7 +1975,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4021.68,
     "end": 4044.0,
-    "text": "Used against certain members of council when it comes to making decisions on other things. There have been many high-density housing options that have passed simply because there is a vote, and it is split, and the mayor can break a tie. And I do not agree with that in its own merit. And I simply do not agree with it now."
+    "text": "Used against certain members of council when it comes to making decisions on other things. There have been many high-density housing options that have passed simply because there is a vote, and it is split, and the mayor can break a tie. And I do not agree with that in its own merit. And I simply do not agree with it now"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -2015,7 +1983,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4044.0,
     "end": 4076.04,
-    "text": "Thank you. And would point out that the first 63 years of this city's history, the mayor was not excluded from the discussions or appointments to boards and commission until this council. And so whether I have feelings about that or not, this council decided that, which is why we have an even number of people voting on these appointments. Up until this council, as far as the mayors that I have spoken with previously, this was not an issue. So there are issues here. For sure, there are on many fronts. Council Member Amos."
+    "text": "Thank you. And would point out that the first 63 years of this city's history, the mayor was not excluded from the discussions or appointments to boards and commission until this council. And so whether I have feelings about that or not, this council decided that, which is why we have an even number of people voting on these appointments. Up until this council, as far as the mayors that I have spoken with previously, this was not an issue. So there are issues here. For sure, there are on many fronts. Council Member Amos"
   },
   {
     "speaker": "Councilmember Anthony Amos",
@@ -2039,7 +2007,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 4107.08,
     "end": 4117.04,
-    "text": "So one of the nice things about the State and Local Government Conflict of Interest Act is that decision is left to the individual member."
+    "text": "So one of the nice things about the State and Local Government Conflict of Interest Act is that decision is left to the individual member"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2047,7 +2015,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 4120.16,
     "end": 4145.2,
-    "text": "Have my opinions as to whether it's appropriate for a member to vote for a position in which his or her husband, family member is a candidate. will say, think the answer to that question is not really a legal one. So Council Member Hardy-Chandler is taking her own counsel on this, and that is all will say on that."
+    "text": "Have my opinions as to whether it's appropriate for a member to vote for a position in which his or her husband, family member is a candidate. will say, think the answer to that question is not really a legal one. So Council Member Hardy-Chandler is taking her own counsel on this, and that is all will say on that"
   },
   {
     "speaker": "Councilmember Anthony Amos",
@@ -2055,7 +2023,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4145.2,
     "end": 4153.68,
-    "text": "Thank you. So to follow up on that, I completely understand that this is a frustrating circumstance and has been for some time."
+    "text": "Thank you. So to follow up on that, I completely understand that this is a frustrating circumstance and has been for some time"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2079,7 +2047,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 4165.28,
     "end": 4168.36,
-    "text": "And have additional discussion."
+    "text": "And have additional discussion"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -2087,7 +2055,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4168.36,
     "end": 4169.84,
-    "text": "Council Member McQuillan."
+    "text": "Council Member McQuillan"
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
@@ -2103,7 +2071,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 4186.44,
     "end": 4188.52,
-    "text": "Yes, that is clear in the city charter."
+    "text": "Yes, that is clear in the city charter"
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
@@ -2111,7 +2079,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "merged_micro_turn",
     "start": 4188.52,
     "end": 4199.48,
-    "text": "Thank you. Can the city attorney confirm that interviews and deliberations on applicants occur in closed session and the final appointments are voted in open session at a regular meeting? Yes."
+    "text": "Thank you. Can the city attorney confirm that interviews and deliberations on applicants occur in closed session and the final appointments are voted in open session at a regular meeting? Yes"
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
@@ -2119,7 +2087,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4199.48,
     "end": 4212.12,
-    "text": "And can the city? The attorney also clarified for the public whether any individual member's recusal on a particular appointment does or does not change the council's collective authority to proceed under its established appointment procedures."
+    "text": "And can the city? The attorney also clarified for the public whether any individual member's recusal on a particular appointment does or does not change the council's collective authority to proceed under its established appointment procedures"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2135,7 +2103,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4215.4,
     "end": 4226.48,
-    "text": "Whether any individual member's recusal on a particular appointment does or does not change the council's collective authority to proceed under its established appointment procedures."
+    "text": "Whether any individual member's recusal on a particular appointment does or does not change the council's collective authority to proceed under its established appointment procedures"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2143,7 +2111,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 4226.48,
     "end": 4246.88,
-    "text": "An individual's recusal simply changes the number of votes required. And it also, even if a majority of council members recuse on an item, it doesn't affect the quorum for purposes of voting on an item. So it just simply becomes the remaining members vote on the particular appointment."
+    "text": "An individual's recusal simply changes the number of votes required. And it also, even if a majority of council members recuse on an item, it doesn't affect the quorum for purposes of voting on an item. So it just simply becomes the remaining members vote on the particular appointment"
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
@@ -2151,7 +2119,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4246.88,
     "end": 4259.12,
-    "text": "Excellent, thank you. The city's own materials say appointments are made by city council and coordinated through the city clerk. I'm asking that we simply restate the city's own rules on the record."
+    "text": "Excellent, thank you. The city's own materials say appointments are made by city council and coordinated through the city clerk. I'm asking that we simply restate the city's own rules on the record"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2159,7 +2127,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 4259.12,
     "end": 4265.24,
-    "text": "That's all I'm doing. I also want to, I do have a few more questions."
+    "text": "That's all I'm doing. I also want to, I do have a few more questions"
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
@@ -2167,7 +2135,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4265.24,
     "end": 4266.84,
-    "text": "Sorry, I'm kind of going through here."
+    "text": "Sorry, I'm kind of going through here"
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
@@ -2175,7 +2143,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4274.28,
     "end": 4277.28,
-    "text": "OK, I asked those. Just double checking, making sure my note's here."
+    "text": "OK, I asked those. Just double checking, making sure my note's here"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2199,7 +2167,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4293.2,
     "end": 4304.0,
-    "text": "Yes, of course. Go for it. Council Member Hardy-Chandler, to my recollection, each time we have met to discuss this board and commission, you have refused yourself."
+    "text": "Yes, of course. Go for it. Council Member Hardy-Chandler, to my recollection, each time we have met to discuss this board and commission, you have refused yourself"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2223,7 +2191,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 4310.48,
     "end": 4311.96,
-    "text": "Chosen to remove yourself."
+    "text": "Chosen to remove yourself"
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
@@ -2231,7 +2199,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4316.0,
     "end": 4359.24,
-    "text": "That was without clarification that I could have input on the other candidates. Having received that clarification, want to exercise that. I see an appointment for a four-year term extending through April 14, 2030, and serving as a representative to Parks and Recreation Advisory Board as separate from the other appointment, which I recused myself from, extending through September 30, 2029. These are separate, independent appointments. If these candidates were coming up for candidacy separately, if that was without the second one, would certainly have a voice on the other position."
+    "text": "That was without clarification that I could have input on the other candidates. Having received that clarification, want to exercise that. I see an appointment for a four-year term extending through April 14, 2030, and serving as a representative to Parks and Recreation Advisory Board as separate from the other appointment, which I recused myself from, extending through September 30, 2029. These are separate, independent appointments. If these candidates were coming up for candidacy separately, if that was without the second one, would certainly have a voice on the other position"
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
@@ -2239,7 +2207,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4359.24,
     "end": 4366.36,
-    "text": "So in my opinion, with this new information, I do want to have input on this other position, which is a separate appointment."
+    "text": "So in my opinion, with this new information, I do want to have input on this other position, which is a separate appointment"
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -2255,7 +2223,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 4391.76,
     "end": 4405.2,
-    "text": "In the 20 years I've been city attorney, well, I'll turn it around by saying my experience has been that most appointments to boards and commissions tend to be close to unanimous by the body. That's the fair statement."
+    "text": "In the 20 years I've been city attorney, well, I'll turn it around by saying my experience has been that most appointments to boards and commissions tend to be close to unanimous by the body. That's the fair statement"
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -2271,7 +2239,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 4416.08,
     "end": 4453.44,
-    "text": "The mayor can vote on procedural aspects related to the appointment. So for example, deferring action on an appointment, those type of things are perfectly legitimate. I have always taken the position that the appointments to boards and commissions legally is the province of the city council. It is also true, and people throw the word tradition around, it is also not an incorrect statement how it was characterized previously as to previous actions by previous councils and mayors. But that is not a legal requirement. That is just simply an agreement among the parties."
+    "text": "The mayor can vote on procedural aspects related to the appointment. So for example, deferring action on an appointment, those type of things are perfectly legitimate. I have always taken the position that the appointments to boards and commissions legally is the province of the city council. It is also true, and people throw the word tradition around, it is also not an incorrect statement how it was characterized previously as to previous actions by previous councils and mayors. But that is not a legal requirement. That is just simply an agreement among the parties"
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -2295,7 +2263,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4462.76,
     "end": 4476.08,
-    "text": "Frequently, we should understand that you are making a statement that says that the mayor legally is not entitled to vote on these things, and that it has been council that votes on boards and commission nominations."
+    "text": "Frequently, we should understand that you are making a statement that says that the mayor legally is not entitled to vote on these things, and that it has been council that votes on boards and commission nominations"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2303,7 +2271,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 4476.08,
     "end": 4480.44,
-    "text": "I'm not making a legal statement on the mayor voting. I didn't write the city's charter."
+    "text": "I'm not making a legal statement on the mayor voting. I didn't write the city's charter"
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -2311,7 +2279,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4480.44,
     "end": 4484.68,
-    "text": "Understand, but we rely on you to interpret and to give us your best legal opinion."
+    "text": "Understand, but we rely on you to interpret and to give us your best legal opinion"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2319,7 +2287,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 4484.68,
     "end": 4493.4,
-    "text": "Absolutely, and it's also true that on matters such as recusal, et cetera, those are the province of individual members of this body and the mayor."
+    "text": "Absolutely, and it's also true that on matters such as recusal, et cetera, those are the province of individual members of this body and the mayor"
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -2327,7 +2295,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4493.4,
     "end": 4496.16,
-    "text": "Yes, OK. will give it back to Council Member McQuillan now."
+    "text": "Yes, OK. will give it back to Council Member McQuillan now"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -2343,7 +2311,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "merged_micro_turn",
     "start": 4529.88,
     "end": 4532.84,
-    "text": "Yes, please. Thank you."
+    "text": "Yes, please Thank you"
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
@@ -2351,7 +2319,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "merged_micro_turn",
     "start": 4532.84,
     "end": 4561.68,
-    "text": "What concerns me is the appearance problem. If a member properly recuses from a specific appointment because of a spouse's candidacy, but then after learning the outcome, seeks to delay the process because the full result is not what she wanted, that creates an appearance of personal influence over a public appointment. Even the appearance of that is damaging. And that's my concern. Thank you."
+    "text": "What concerns me is the appearance problem. If a member properly recuses from a specific appointment because of a spouse's candidacy, but then after learning the outcome, seeks to delay the process because the full result is not what she wanted, that creates an appearance of personal influence over a public appointment. Even the appearance of that is damaging. And that's my concern Thank you"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -2359,7 +2327,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4561.68,
     "end": 4563.36,
-    "text": "Council Member Hardy-Chandler."
+    "text": "Council Member Hardy-Chandler"
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
@@ -2375,7 +2343,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 4583.04,
     "end": 4586.16,
-    "text": "For other commissions."
+    "text": "For other commissions"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -2415,7 +2383,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 4672.88,
     "end": 4674.8,
-    "text": "That appears improper."
+    "text": "That appears improper"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -2423,7 +2391,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4674.8,
     "end": 4677.4,
-    "text": "Think this is an ethical issue."
+    "text": "Think this is an ethical issue"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2439,15 +2407,23 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4680.52,
     "end": 4711.5,
-    "text": "Want to exist without proper conflicts of interest procedures to prevent this very kind of thing from happening. And we see that state law intends very clearly to avoid this, and very clearly for localities to follow this. Whether or not we've taken the step we need to in codifying this is another matter. I believe we should. But this clearly is something that fits within the realm of our practice that we now find ourselves being faced with a conflict."
+    "text": "Want to exist without proper conflicts of interest procedures to prevent this very kind of thing from happening. And we see that state law intends very clearly to avoid this, and very clearly for localities to follow this. Whether or not we've taken the step we need to in codifying this is another matter. I believe we should. But this clearly is something that fits within the realm of our practice that we now find ourselves being faced with a conflict"
   },
   {
     "speaker": "Mayor Catherine Read",
     "speaker_source": "approved",
-    "speaker_source_detail": "merged_micro_turn",
+    "speaker_source_detail": "",
     "start": 4711.5,
+    "end": 4723.86,
+    "text": "We have a motion on the floor. It's been properly made and seconded. Let's go to a roll call vote to see if we have votes on this dais to move that motion forward"
+  },
+  {
+    "speaker": "Public Comment Speaker",
+    "speaker_source": "public_comment_unverified",
+    "speaker_source_detail": "unverified_public_comment",
+    "start": 4723.86,
     "end": 4725.86,
-    "text": "We have a motion on the floor. It's been properly made and seconded. Let's go to a roll call vote to see if we have votes on this dais to move that motion forward. Ms. Shinaberry?"
+    "text": "Ms. Shinaberry?"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2463,7 +2439,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4731.54,
     "end": 4735.66,
-    "text": "I'm sorry. Read the motion, please, that we are voting on right now."
+    "text": "I'm sorry. Read the motion, please, that we are voting on right now"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2471,7 +2447,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 4735.66,
     "end": 4739.94,
-    "text": "So the hardy chandler. Yeah."
+    "text": "So the hardy chandler Yeah"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2480,14 +2456,6 @@ const TRANSCRIPT_TURNS = [
     "start": 4739.94,
     "end": 4743.86,
     "text": "To me, 12. Hardy Chandler?"
-  },
-  {
-    "speaker": "Councilmember Tom Peterson",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 4743.86,
-    "end": 4744.74,
-    "text": "Aye."
   },
   {
     "speaker": "Unknown Speaker",
@@ -2503,7 +2471,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4745.86,
     "end": 4754.98,
-    "text": "No, with a caveat to just the questions. We're not finished here. Some other important details we didn't get a chance to ask about during this process."
+    "text": "No, with a caveat to just the questions. We're not finished here. Some other important details we didn't get a chance to ask about during this process"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2514,20 +2482,12 @@ const TRANSCRIPT_TURNS = [
     "text": "Council Member Bates? Aye. Council Member McQuillan?"
   },
   {
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 4759.46,
-    "end": 4760.18,
-    "text": "No."
-  },
-  {
     "speaker": "Unknown Speaker",
     "speaker_source": "unresolved",
     "speaker_source_detail": "unresolved_identity",
     "start": 4760.18,
     "end": 4762.14,
-    "text": "OK, motion failed 3 to 3."
+    "text": "OK, motion failed 3 to 3"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -2535,7 +2495,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4762.14,
     "end": 4764.9,
-    "text": "And we are going to move on to the public hearings."
+    "text": "And we are going to move on to the public hearings"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2543,7 +2503,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 4768.38,
     "end": 4791.34,
-    "text": "The only public hearing tonight is for the FY 27 budget. This is the third and final public hearing of the proposed FY 27 budget the city manager presented on February 24, 2026. I had two speakers sign up prior to the meeting. After I call those two speakers up, if there's anybody else in the room that wants to speak on the budget, may come forward. So the first speaker is Douglas Stewart."
+    "text": "The only public hearing tonight is for the FY 27 budget. This is the third and final public hearing of the proposed FY 27 budget the city manager presented on February 24, 2026. I had two speakers sign up prior to the meeting. After I call those two speakers up, if there's anybody else in the room that wants to speak on the budget, may come forward. So the first speaker is Douglas Stewart"
   },
   {
     "speaker": "Douglas Stewart",
@@ -2551,7 +2511,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4799.46,
     "end": 4836.16,
-    "text": "Good evening. So, as I mentioned in my previous comments, my wife and I have lived in Fairfax City for 22 years. Our son's a proud graduate of Fairfax High School. And the city provides an exceptional level of public services and education at a lower tax rate than most nearby jurisdictions. But think that one area where we need to improve is reducing our energy costs. The cost of electricity is increasing significantly. And fuel costs for vehicles are, as we know, very volatile. This has consequences both for our public buildings and fleets, and for city residents and businesses."
+    "text": "Good evening. So, as I mentioned in my previous comments, my wife and I have lived in Fairfax City for 22 years. Our son's a proud graduate of Fairfax High School. And the city provides an exceptional level of public services and education at a lower tax rate than most nearby jurisdictions. But think that one area where we need to improve is reducing our energy costs. The cost of electricity is increasing significantly. And fuel costs for vehicles are, as we know, very volatile. This has consequences both for our public buildings and fleets, and for city residents and businesses"
   },
   {
     "speaker": "Douglas Stewart",
@@ -2559,7 +2519,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4837.32,
     "end": 4879.76,
-    "text": "Just in our one household, it takes some work to keep track of our utility bill and identify where we are spending too much and could save energy. Now imagine that multiplied by hundreds, if not thousands, of different utility accounts at a complex entity such as our city needs to manage. Who's keeping track of these costs and looking to realize more efficiencies and savings? Solar is now the cheapest, cleanest, and fastest to deploy energy source available in Virginia. We should be using solar for more of our public operations and buildings, including our schools. The city has a green building policy that can drive more energy savings, both for our public buildings and for new private development."
+    "text": "Just in our one household, it takes some work to keep track of our utility bill and identify where we are spending too much and could save energy. Now imagine that multiplied by hundreds, if not thousands, of different utility accounts at a complex entity such as our city needs to manage. Who's keeping track of these costs and looking to realize more efficiencies and savings? Solar is now the cheapest, cleanest, and fastest to deploy energy source available in Virginia. We should be using solar for more of our public operations and buildings, including our schools. The city has a green building policy that can drive more energy savings, both for our public buildings and for new private development"
   },
   {
     "speaker": "Douglas Stewart",
@@ -2567,7 +2527,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 4879.76,
     "end": 4919.0,
-    "text": "But without dedicated staffing, we can't put it in place. think a dedicated energy manager can save the city significant energy expenses above the cost to fund this new position. They can also report on the savings so that you as a council and we, the citizens, know what we are saving and what we could do better. Beyond this, an energy manager can also help the city secure more outside funding from grants and connect with financing instruments that will support the upfront costs of new solar. For private developments, we can't hold developers to building higher performance buildings without the energy manager to implement our green building policy."
+    "text": "But without dedicated staffing, we can't put it in place. think a dedicated energy manager can save the city significant energy expenses above the cost to fund this new position. They can also report on the savings so that you as a council and we, the citizens, know what we are saving and what we could do better. Beyond this, an energy manager can also help the city secure more outside funding from grants and connect with financing instruments that will support the upfront costs of new solar. For private developments, we can't hold developers to building higher performance buildings without the energy manager to implement our green building policy"
   },
   {
     "speaker": "Douglas Stewart",
@@ -2575,7 +2535,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "merged_micro_turn",
     "start": 4919.0,
     "end": 4937.76,
-    "text": "And those higher performance buildings will save our residents money in the form of reduced utility bills. So, to conclude, would urge inclusion of a full-time position for an energy manager in the city budget. Thank you."
+    "text": "And those higher performance buildings will save our residents money in the form of reduced utility bills. So, to conclude, would urge inclusion of a full-time position for an energy manager in the city budget Thank you"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2583,7 +2543,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 4937.76,
     "end": 4939.76,
-    "text": "Our next speaker is Jennifer Rose."
+    "text": "Our next speaker is Jennifer Rose"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2591,7 +2551,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 4952.0,
     "end": 4989.12,
-    "text": "Good evening, Mayor and members of council. Jennifer Rose, Executive Director of the Central Fairfax Chamber of Commerce. Thank you for the opportunity to speak and for the significant work by Fairfax City staff that has gone into developing the fiscal year 27 proposed budget. We recognize the real fiscal pressures the city is managing, particularly increases in school tuition and debt service. And we appreciate your commitment to maintaining services without adding new full-time equivalent positions. From the Chamber's perspective, want to focus on one key issue, ensuring that Fairfax remains competitive for small businesses while making necessary revenue decisions."
+    "text": "Good evening, Mayor and members of council. Jennifer Rose, Executive Director of the Central Fairfax Chamber of Commerce. Thank you for the opportunity to speak and for the significant work by Fairfax City staff that has gone into developing the fiscal year 27 proposed budget. We recognize the real fiscal pressures the city is managing, particularly increases in school tuition and debt service. And we appreciate your commitment to maintaining services without adding new full-time equivalent positions. From the Chamber's perspective, want to focus on one key issue, ensuring that Fairfax remains competitive for small businesses while making necessary revenue decisions"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2607,7 +2567,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 5031.2,
     "end": 5067.36,
-    "text": "Now that the county's implemented its own four percent meals tax. We respectfully urge Council to reconsider this increase or, at minimum, include a clear sunset and ensure that any new revenue is reinvested in ways that directly support the hospitality and small business community. Second, if additional revenue is needed, there are more balanced alternatives. The Chamber supports exploring visitor-based revenue options, such as aligning the transient occupancy tax with regional levels, if authorized by the General Assembly. This approach brings in revenue from visitors rather than placing additional strain on local businesses and residents."
+    "text": "Now that the county's implemented its own four percent meals tax. We respectfully urge Council to reconsider this increase or, at minimum, include a clear sunset and ensure that any new revenue is reinvested in ways that directly support the hospitality and small business community. Second, if additional revenue is needed, there are more balanced alternatives. The Chamber supports exploring visitor-based revenue options, such as aligning the transient occupancy tax with regional levels, if authorized by the General Assembly. This approach brings in revenue from visitors rather than placing additional strain on local businesses and residents"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2623,7 +2583,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 5111.2,
     "end": 5135.92,
-    "text": "Continue investing in the systems and resources that support the growth. So our request is straightforward. Avoid disproportionate impacts on any one industry. Pursue a more balanced, visitor-informed revenue strategy. And continue investing in the economic development efforts that will strengthen Fairfax over the long term. Thank you for your time, your leadership, and your commitment to our community. We look forward to continuing to partner with you."
+    "text": "Continue investing in the systems and resources that support the growth. So our request is straightforward. Avoid disproportionate impacts on any one industry. Pursue a more balanced, visitor-informed revenue strategy. And continue investing in the economic development efforts that will strengthen Fairfax over the long term. Thank you for your time, your leadership, and your commitment to our community. We look forward to continuing to partner with you"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2639,7 +2599,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 5146.08,
     "end": 5158.4,
-    "text": "Okay. will now close the public hearing on the proposed FY27 budget. Budget adoption will be on May 5th, 2026, beginning at 7 p.m."
+    "text": "Okay. will now close the public hearing on the proposed FY27 budget. Budget adoption will be on May 5th, 2026, beginning at 7 p.m"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2671,7 +2631,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 5264.98,
     "end": 5269.22,
-    "text": "The evening. So having a parking garage attached to the building would help solve that problem."
+    "text": "The evening. So having a parking garage attached to the building would help solve that problem"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2679,7 +2639,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 5270.18,
     "end": 5278.26,
-    "text": "Am well aware that this building would raise my property taxes. I've owned two houses in the city over the space of 35 years."
+    "text": "Am well aware that this building would raise my property taxes. I've owned two houses in the city over the space of 35 years"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2687,7 +2647,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 5278.26,
     "end": 5309.94,
-    "text": "My real estate taxes have never gone down. The rate may have decreased, but the amount I paid always went up. And I understand that because every year the cost of living goes up. In my adult life, the consumer price index has decreased only one time. Hundreds of citizens like me have spoken for more than a decade in open houses about wanting this project. And we know that the city will need to raise taxes to do this and may need to sell bonds. This has been openly disclosed and discussed throughout the planning process."
+    "text": "My real estate taxes have never gone down. The rate may have decreased, but the amount I paid always went up. And I understand that because every year the cost of living goes up. In my adult life, the consumer price index has decreased only one time. Hundreds of citizens like me have spoken for more than a decade in open houses about wanting this project. And we know that the city will need to raise taxes to do this and may need to sell bonds. This has been openly disclosed and discussed throughout the planning process"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2703,7 +2663,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 5316.98,
     "end": 5352.02,
-    "text": "And the dedicated city staff who have worked diligently to pack as much as possible into this site. Over the years, I've never heard a city council member campaign on the idea of canceling this project. And I don't think now that any of you did. What I ask at this point is this. You've heard from the experts about what can be put into this building and how it benefits the community. And you've heard the community speak about the wants that we have. I ask that you follow up on promises that have been made, advance this project, and finance it as needed."
+    "text": "And the dedicated city staff who have worked diligently to pack as much as possible into this site. Over the years, I've never heard a city council member campaign on the idea of canceling this project. And I don't think now that any of you did. What I ask at this point is this. You've heard from the experts about what can be put into this building and how it benefits the community. And you've heard the community speak about the wants that we have. I ask that you follow up on promises that have been made, advance this project, and finance it as needed"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2719,7 +2679,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 5359.38,
     "end": 5362.74,
-    "text": "All right. will now recess the record. Well, hang on before you do that."
+    "text": "All right. will now recess the record. Well, hang on before you do that"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -2727,7 +2687,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 5362.74,
     "end": 5371.46,
-    "text": "Excuse me. I have not recognized you, Council Member Peterson. am now adjourning the meeting to go into a work session. We will stay in the chamber."
+    "text": "Excuse me. I have not recognized you, Council Member Peterson. am now adjourning the meeting to go into a work session. We will stay in the chamber"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2735,7 +2695,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 5376.5,
     "end": 5380.1,
-    "text": "Our work session item is discussion on the proposed after-sales plan."
+    "text": "Our work session item is discussion on the proposed after-sales plan"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2743,7 +2703,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 5380.18,
     "end": 5390.5,
-    "text": "Our work session item is discussion on the proposed FY 2027 budget. City Council identified topics. I'm going to recognize Daniel Alexander, City Manager, for the staff discussion. All right."
+    "text": "Our work session item is discussion on the proposed FY 2027 budget. City Council identified topics. I'm going to recognize Daniel Alexander, City Manager, for the staff discussion All right"
   },
   {
     "speaker": "Mr. Alexander",
@@ -2759,7 +2719,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 5433.16,
     "end": 5444.16,
-    "text": "A constructive markup session on the 28th, and hopefully adoption on the 5th. So with that, I'm going to turn it over to our Assistant City Manager and CFO, Mr. Martinez."
+    "text": "A constructive markup session on the 28th, and hopefully adoption on the 5th. So with that, I'm going to turn it over to our Assistant City Manager and CFO, Mr. Martinez"
   },
   {
     "speaker": "JC Martinez",
@@ -2775,7 +2735,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 5482.84,
     "end": 5490.08,
-    "text": "Proposed changes of three revenue sources, two within the BPOL and one on TOT."
+    "text": "Proposed changes of three revenue sources, two within the BPOL and one on TOT"
   },
   {
     "speaker": "JC Martinez",
@@ -2783,7 +2743,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 5490.08,
     "end": 5540.72,
-    "text": "These three items were introduced earlier this evening and represent a potential maximum increase. As communicated in several respective budget memos, the associated revenue from these increases are listed on the right side. Additionally, the Commissioner of the Revenue, in collaboration with the Budget Director, reviewed and revised upward the anticipated personal property revenue projection originally budgeted in the proposed FY 2027 budget by an additional $400,000. Let me be clear that this increase does not represent any change to the personal property tax rate and is solely due to a revised forecasting and modeling."
+    "text": "These three items were introduced earlier this evening and represent a potential maximum increase. As communicated in several respective budget memos, the associated revenue from these increases are listed on the right side. Additionally, the Commissioner of the Revenue, in collaboration with the Budget Director, reviewed and revised upward the anticipated personal property revenue projection originally budgeted in the proposed FY 2027 budget by an additional $400,000. Let me be clear that this increase does not represent any change to the personal property tax rate and is solely due to a revised forecasting and modeling"
   },
   {
     "speaker": "JC Martinez",
@@ -2791,7 +2751,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 5540.72,
     "end": 5588.04,
-    "text": "Turning to expenditures, there are a few important updates to highlight. First, health insurance costs have increased beyond our original projections. Specifically, we are now projecting an additional 5.5% increase above the initial 8% forecast, largely driven by higher than anticipated claims activity. In response, staff is taking a proactive approach. We have a meeting scheduled this Friday with our insurance representative to explore strategies to help curtail future cost increases, including evaluating plan design options and potential rebidding of our insurance contract. Secondly, you will see personal expense savings reflected in the updated numbers."
+    "text": "Turning to expenditures, there are a few important updates to highlight. First, health insurance costs have increased beyond our original projections. Specifically, we are now projecting an additional 5.5% increase above the initial 8% forecast, largely driven by higher than anticipated claims activity. In response, staff is taking a proactive approach. We have a meeting scheduled this Friday with our insurance representative to explore strategies to help curtail future cost increases, including evaluating plan design options and potential rebidding of our insurance contract. Secondly, you will see personal expense savings reflected in the updated numbers"
   },
   {
     "speaker": "JC Martinez",
@@ -2812,10 +2772,18 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "JC Martinez",
     "speaker_source": "approved",
-    "speaker_source_detail": "merged_micro_turn",
+    "speaker_source_detail": "",
     "start": 5677.88,
+    "end": 5715.6,
+    "text": "Sales tax dedication to school projects contingent upon voter approval through local referendum. Importantly, those revenues would be restricted to construction or major renovation projects and could not be used to supplant existing local funding that has already been budgeted or appropriated. That is the key language in the change that is in the current draft language. The General Assembly will be reconvening a special session, and hopefully we will know more by the end of this month or the beginning of May"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "no_diarization",
+    "start": 5715.6,
     "end": 5718.56,
-    "text": "Sales tax dedication to school projects contingent upon voter approval through local referendum. Importantly, those revenues would be restricted to construction or major renovation projects and could not be used to supplant existing local funding that has already been budgeted or appropriated. That is the key language in the change that is in the current draft language. The General Assembly will be reconvening a special session, and hopefully we will know more by the end of this month or the beginning of May. Next slide."
+    "text": "Next slide"
   },
   {
     "speaker": "JC Martinez",
@@ -2823,7 +2791,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 5718.56,
     "end": 5723.84,
-    "text": "Fund balance, really quickly, provides a high-level look of our fund balance status."
+    "text": "Fund balance, really quickly, provides a high-level look of our fund balance status"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2863,7 +2831,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 5798.0,
     "end": 5803.72,
-    "text": "Access link that will now be held via Zoom instead of Teams."
+    "text": "Access link that will now be held via Zoom instead of Teams"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2879,7 +2847,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 5815.36,
     "end": 5848.88,
-    "text": "And all distribution lists with the new Zoom updated link. Looking ahead, April 28th is a key milestone with multiple public hearings, and our final work session where staff will present, again, refined options and draft changes for council deliberation. In closing, tonight's update is meant to keep council informed of where things stand today. We will return on April 28th with more detailed analysis, refined assumptions, and actionable options to help guide your decision making."
+    "text": "And all distribution lists with the new Zoom updated link. Looking ahead, April 28th is a key milestone with multiple public hearings, and our final work session where staff will present, again, refined options and draft changes for council deliberation. In closing, tonight's update is meant to keep council informed of where things stand today. We will return on April 28th with more detailed analysis, refined assumptions, and actionable options to help guide your decision making"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2911,7 +2879,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 5899.0,
     "end": 5927.96,
-    "text": "It's going to depend on the current language. The last language I saw, think, on meals tax, I'm looking at the budget director, because think she showed it to me, the language may not be applicable to meals, or restaurant meals for the additional 1%. That is still something that is being evaluated. We won't know, and think that's sort of the biggest predicament that we're in right now is there has been no final determination by Richmond, so we're trying to be as adaptive and as prudent as possible."
+    "text": "It's going to depend on the current language. The last language I saw, think, on meals tax, I'm looking at the budget director, because think she showed it to me, the language may not be applicable to meals, or restaurant meals for the additional 1%. That is still something that is being evaluated. We won't know, and think that's sort of the biggest predicament that we're in right now is there has been no final determination by Richmond, so we're trying to be as adaptive and as prudent as possible"
   },
   {
     "speaker": "Councilmember Anthony Amos",
@@ -2919,7 +2887,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 5927.96,
     "end": 5936.04,
-    "text": "Yeah, I know we're still waiting for legislative updates, but once we get that clarification if that is the case, think it's worth a follow-up discussion."
+    "text": "Yeah, I know we're still waiting for legislative updates, but once we get that clarification if that is the case, think it's worth a follow-up discussion"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2927,15 +2895,23 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 5936.04,
     "end": 5940.52,
-    "text": "Thank you. Council Member Peterson."
+    "text": "Thank you. Council Member Peterson"
   },
   {
     "speaker": "Councilmember Tom Peterson",
     "speaker_source": "approved",
-    "speaker_source_detail": "merged_micro_turn",
+    "speaker_source_detail": "",
     "start": 5940.52,
+    "end": 5954.56,
+    "text": "You went through a number of specifics, and I don't think we had numbers on slides in front of us. Is there going to be a listing that we can refer back to with all of this?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "no_diarization",
+    "start": 5954.56,
     "end": 5955.56,
-    "text": "You went through a number of specifics, and I don't think we had numbers on slides in front of us. Is there going to be a listing that we can refer back to with all of this? Definitely."
+    "text": "Definitely"
   },
   {
     "speaker": "JC Martinez",
@@ -2943,7 +2919,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 5955.56,
     "end": 5984.44,
-    "text": "So, think this traditionally is being uploaded the next morning, so tomorrow morning, and then as mentioned, on April 28th, we will present at least four to five options or scenarios very similarly, what we did last year to council. It's my understanding that we also have meetings sort of scheduled one-on-ones, starting next week with council to sort of walk through some of those potential scenarios, but definitely have it in a public forum on the 28th."
+    "text": "So, think this traditionally is being uploaded the next morning, so tomorrow morning, and then as mentioned, on April 28th, we will present at least four to five options or scenarios very similarly, what we did last year to council. It's my understanding that we also have meetings sort of scheduled one-on-ones, starting next week with council to sort of walk through some of those potential scenarios, but definitely have it in a public forum on the 28th"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -2951,7 +2927,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 5984.44,
     "end": 5985.44,
-    "text": "And so, thank you."
+    "text": "And so, thank you"
   },
   {
     "speaker": "Unknown Speaker",
@@ -2959,7 +2935,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 5985.44,
     "end": 5992.6,
-    "text": "To put this in context, then, you had a series of numbers."
+    "text": "To put this in context, then, you had a series of numbers"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -2983,7 +2959,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 6022.76,
     "end": 6025.56,
-    "text": "Of February, we're keeping track of that."
+    "text": "Of February, we're keeping track of that"
   },
   {
     "speaker": "JC Martinez",
@@ -2991,15 +2967,23 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6025.56,
     "end": 6045.4,
-    "text": "We're not anticipating any other changes between now and the end of May other than the two that we've identified that were not listed on here, the VDOT repayment and then the potential school deferral on debt. Besides that, we're trying to formulate an option and scenarios for council."
+    "text": "We're not anticipating any other changes between now and the end of May other than the two that we've identified that were not listed on here, the VDOT repayment and then the potential school deferral on debt. Besides that, we're trying to formulate an option and scenarios for council"
   },
   {
     "speaker": "Councilmember Tom Peterson",
     "speaker_source": "approved",
-    "speaker_source_detail": "merged_micro_turn",
+    "speaker_source_detail": "",
     "start": 6045.4,
+    "end": 6065.2,
+    "text": "So when we get back together again April 28th, you'll have scenarios for us to discuss and we will have a scenario then that this information will be factored into, which will be at least one of the scenarios, the manager's proposed budget. Is that correct?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unresolved",
+    "speaker_source_detail": "unresolved_identity",
+    "start": 6065.2,
     "end": 6066.2,
-    "text": "So when we get back together again April 28th, you'll have scenarios for us to discuss and we will have a scenario then that this information will be factored into, which will be at least one of the scenarios, the manager's proposed budget. Is that correct? Correct."
+    "text": "Correct"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -3007,7 +2991,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6066.2,
     "end": 6082.08,
-    "text": "Okay. And then we will have additional scenarios that you've been able to develop based on further work that you've done on all of these items, including revenue and expense improvements that you've been able to identify. Is that fair? Correct, Councilmember. Okay."
+    "text": "Okay. And then we will have additional scenarios that you've been able to develop based on further work that you've done on all of these items, including revenue and expense improvements that you've been able to identify. Is that fair? Correct, Councilmember. Okay"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3015,7 +2999,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 6082.08,
     "end": 6083.08,
-    "text": "Thank you very much."
+    "text": "Thank you very much"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -3023,7 +3007,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "merged_micro_turn",
     "start": 6083.52,
     "end": 6085.52,
-    "text": "Councilmember McQuillan? Okay."
+    "text": "Councilmember McQuillan? Okay"
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
@@ -3039,7 +3023,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6095.2,
     "end": 6102.32,
-    "text": "Think you're referring, Councilmember, to the potential 1% sales tax for school capital."
+    "text": "Think you're referring, Councilmember, to the potential 1% sales tax for school capital"
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
@@ -3063,7 +3047,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6191.66,
     "end": 6196.62,
-    "text": "Sharply in early April amid high crude prices and geopolitical disruption."
+    "text": "Sharply in early April amid high crude prices and geopolitical disruption"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3071,7 +3055,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 6196.62,
     "end": 6198.82,
-    "text": "That's affecting the grocery stores."
+    "text": "That's affecting the grocery stores"
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
@@ -3079,7 +3063,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6198.82,
     "end": 6241.2,
-    "text": "It's affecting everyone in the food industry. We're seeing an uptick of food insecurity, especially among our lower middle class families. So please keep all of this in mind when we're discussing increasing the meals tax, because it doesn't, it's just not one meal. This is several meals. People eat hundreds of meals over their lifetime, or over a year. So when we're talking about increasing the tax, yeah, it sounds like a small amount, but it's really hitting our restaurants hard. And we like to brag, we're often celebrating the city's restaurant scene as unique and defining these cultural strengths. Just recognize that this is impacting those businesses when we do this."
+    "text": "It's affecting everyone in the food industry. We're seeing an uptick of food insecurity, especially among our lower middle class families. So please keep all of this in mind when we're discussing increasing the meals tax, because it doesn't, it's just not one meal. This is several meals. People eat hundreds of meals over their lifetime, or over a year. So when we're talking about increasing the tax, yeah, it sounds like a small amount, but it's really hitting our restaurants hard. And we like to brag, we're often celebrating the city's restaurant scene as unique and defining these cultural strengths. Just recognize that this is impacting those businesses when we do this"
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
@@ -3087,7 +3071,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "merged_micro_turn",
     "start": 6241.2,
     "end": 6243.64,
-    "text": "That's all I wanted to share. Thank you."
+    "text": "That's all I wanted to share Thank you"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -3095,7 +3079,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6243.64,
     "end": 6246.0,
-    "text": "Council Member Hall."
+    "text": "Council Member Hall"
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -3103,7 +3087,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6246.0,
     "end": 6290.2,
-    "text": "Thank you. In anticipation of the conversation about BPOL, I reached out to two different people, one specifically with a very large car dealership who does repairs and car sales, and then another person that I reached out to is a professional in the legal area. So the, think they're both, the car tax was, or the car BPOL conversation was more about the lesser of two evils of real estate taxes versus BPOL tax. The conversation that we had focused very heavily on the fact that the majority of the BPOL, I actually didn't realize we collected it on car sales. I thought it was only on the service portion, but that is passed through to purchasers."
+    "text": "Thank you. In anticipation of the conversation about BPOL, I reached out to two different people, one specifically with a very large car dealership who does repairs and car sales, and then another person that I reached out to is a professional in the legal area. So the, think they're both, the car tax was, or the car BPOL conversation was more about the lesser of two evils of real estate taxes versus BPOL tax. The conversation that we had focused very heavily on the fact that the majority of the BPOL, I actually didn't realize we collected it on car sales. I thought it was only on the service portion, but that is passed through to purchasers"
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -3119,7 +3103,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6333.96,
     "end": 6376.88,
-    "text": "The phrasing is, and that, you know, the county think is at 0.31, 31 cents. So there was some concern that an abrupt hike like that would suggest that people are leaving or will leave in the coming years. This person also had some very interesting information with regard to the meals tax and specifically said that there's a restaurant that has a chain here that also has one near us in the county, and he said that he purposely doesn't go to the one in the city because it had the 4% meals tax. So think he was fairly shocked when he went to the county counterpart restaurant and found that that meals tax was there now. So he said, I guess I can go back to the local city one."
+    "text": "The phrasing is, and that, you know, the county think is at 0.31, 31 cents. So there was some concern that an abrupt hike like that would suggest that people are leaving or will leave in the coming years. This person also had some very interesting information with regard to the meals tax and specifically said that there's a restaurant that has a chain here that also has one near us in the county, and he said that he purposely doesn't go to the one in the city because it had the 4% meals tax. So think he was fairly shocked when he went to the county counterpart restaurant and found that that meals tax was there now. So he said, I guess I can go back to the local city one"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3127,7 +3111,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 6376.88,
     "end": 6385.44,
-    "text": "However, what he did suggest was that maybe we consider reducing the meals tax rate to 2%."
+    "text": "However, what he did suggest was that maybe we consider reducing the meals tax rate to 2%"
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -3143,7 +3127,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6423.16,
     "end": 6459.88,
-    "text": "Prepared chicken. And, you know, the tax now was four cents higher than it was before. I mean, she said four cents is not a lot, but four cents consistently all the time felt like a lot. And so she was, you know, doing the correlation of just what that half cent would be. So personally, I hate the meals tax. I've always hated the meals tax. I'm happy the county now has one because think it makes us comparable. I also do recognize that in order to generate that 1.25 million that the meals tax increase of a half a cent, sorry, half a percent will bring in would also require, I believe it's 1.417 cents on the real estate tax rate."
+    "text": "Prepared chicken. And, you know, the tax now was four cents higher than it was before. I mean, she said four cents is not a lot, but four cents consistently all the time felt like a lot. And so she was, you know, doing the correlation of just what that half cent would be. So personally, I hate the meals tax. I've always hated the meals tax. I'm happy the county now has one because think it makes us comparable. I also do recognize that in order to generate that 1.25 million that the meals tax increase of a half a cent, sorry, half a percent will bring in would also require, I believe it's 1.417 cents on the real estate tax rate"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3175,7 +3159,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6477.36,
     "end": 6518.6,
-    "text": "Not reducing our expenses? And so I'm happy to see some of the slides and things that you're showing forth here that are talking about reductions, but think it's a very valid question. So I don't expect a response now. I do have specific questions that would like responses to, but I wanted to just give you some overall thoughts. I personally am very interested in seeing ways that we can try to bridge the gap between what the EDA was receiving and then is no longer receiving. I personally would really like to see the renaissance program reinstated. I know I was the one I believe last year who suggested that maybe we put a pause on it and it was truly meant to be a pause."
+    "text": "Not reducing our expenses? And so I'm happy to see some of the slides and things that you're showing forth here that are talking about reductions, but think it's a very valid question. So I don't expect a response now. I do have specific questions that would like responses to, but I wanted to just give you some overall thoughts. I personally am very interested in seeing ways that we can try to bridge the gap between what the EDA was receiving and then is no longer receiving. I personally would really like to see the renaissance program reinstated. I know I was the one I believe last year who suggested that maybe we put a pause on it and it was truly meant to be a pause"
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -3183,7 +3167,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6518.6,
     "end": 6555.56,
-    "text": "It was not meant to be a removal from future consideration. I did reach out to the staff counterpart today and asked if it were to be reinstated, how many loans would we be able to service and get that similar information that we were provided with last year, which made me more willing to consider putting a pause on it. Now my questions are going to come in. So the conversation about the $600,000 for the schools versus the 1.1 deferred, I understand, or I don't understand, I see we have school board member Sarah Kelsey here as well as our superintendent Dustin Wright, and I understand that there was a meeting last night with the school board."
+    "text": "It was not meant to be a removal from future consideration. I did reach out to the staff counterpart today and asked if it were to be reinstated, how many loans would we be able to service and get that similar information that we were provided with last year, which made me more willing to consider putting a pause on it. Now my questions are going to come in. So the conversation about the $600,000 for the schools versus the 1.1 deferred, I understand, or I don't understand, I see we have school board member Sarah Kelsey here as well as our superintendent Dustin Wright, and I understand that there was a meeting last night with the school board"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3199,7 +3183,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6561.48,
     "end": 6565.76,
-    "text": "Are the schools in favor of this? I'd like to just hear from the schools if that's possible."
+    "text": "Are the schools in favor of this? I'd like to just hear from the schools if that's possible"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3207,7 +3191,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 6565.76,
     "end": 6573.48,
-    "text": "Not to put you on the spot or anything, but you're here, so you probably expected to be brought up."
+    "text": "Not to put you on the spot or anything, but you're here, so you probably expected to be brought up"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -3215,7 +3199,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "merged_micro_turn",
     "start": 6573.48,
     "end": 6589.16,
-    "text": "Certainly, Mr. Wright, if you would like to add something. Thank you."
+    "text": "Certainly, Mr. Wright, if you would like to add something Thank you"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3239,7 +3223,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 6608.92,
     "end": 6616.32,
-    "text": "And the path moving forward. None of it was related to the proposal that you heard this evening. We were not aware of that proposal at that time."
+    "text": "And the path moving forward. None of it was related to the proposal that you heard this evening. We were not aware of that proposal at that time"
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -3247,7 +3231,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6620.4,
     "end": 6627.64,
-    "text": "Thank you. OK, I thought that was being discussed with the schools prior to our conversation tonight."
+    "text": "Thank you. OK, I thought that was being discussed with the schools prior to our conversation tonight"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -3255,7 +3239,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6627.64,
     "end": 6628.84,
-    "text": "Mr. Alexander."
+    "text": "Mr. Alexander"
   },
   {
     "speaker": "Mr. Alexander",
@@ -3263,7 +3247,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6628.84,
     "end": 6658.3,
-    "text": "Yeah. So we have talked to council about it up to this point. We have talked today with them about it. And so I don't know the degree to which Mr. Wright has socialized that with the board yet. We're calling it an option in respect to, think, the council and also in respect to schools. And so it's going to, like the other things that we brought up tonight, beg some further conversation around that."
+    "text": "Yeah. So we have talked to council about it up to this point. We have talked today with them about it. And so I don't know the degree to which Mr. Wright has socialized that with the board yet. We're calling it an option in respect to, think, the council and also in respect to schools. And so it's going to, like the other things that we brought up tonight, beg some further conversation around that"
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -3271,7 +3255,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6658.3,
     "end": 6663.38,
-    "text": "OK. Thank you. Sorry to call out the very uncomfortable elephant in the room, but I was just curious where schools were on this."
+    "text": "OK. Thank you. Sorry to call out the very uncomfortable elephant in the room, but I was just curious where schools were on this"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3279,7 +3263,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 6663.38,
     "end": 6666.34,
-    "text": "So thank you."
+    "text": "So thank you"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -3287,7 +3271,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6666.34,
     "end": 6668.1,
-    "text": "Council Member Peterson."
+    "text": "Council Member Peterson"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -3295,15 +3279,23 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6668.1,
     "end": 6710.3,
-    "text": "Wanted to just build a little bit on some of the inflation-related information that Council Member McQuillan provided, because it is an important part of the inflation equation, but it's only a part of the equation. And just to note, we heard some testimony tonight about the concern about energy prices. We know from earlier information provided by staff that Dominion Energy has notified us we should be expecting a 32% increase in electricity. We know also that we're looking at a 13% increase in natural gas on the energy front."
+    "text": "Wanted to just build a little bit on some of the inflation-related information that Council Member McQuillan provided, because it is an important part of the inflation equation, but it's only a part of the equation. And just to note, we heard some testimony tonight about the concern about energy prices. We know from earlier information provided by staff that Dominion Energy has notified us we should be expecting a 32% increase in electricity. We know also that we're looking at a 13% increase in natural gas on the energy front"
   },
   {
     "speaker": "Councilmember Tom Peterson",
     "speaker_source": "approved",
-    "speaker_source_detail": "merged_micro_turn",
+    "speaker_source_detail": "",
     "start": 6710.3,
+    "end": 6734.88,
+    "text": "Those are two sources that serve what we call the stationary source sector, buildings, facilities, et cetera. And it affects the city's own budget. And I understand that our projection on increased electricity costs, if that materializes, will knock on the door $400,000 incremental expense. Is that a correct recollection of the impact of that cost"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "no_diarization",
+    "start": 6734.88,
     "end": 6736.4,
-    "text": "Those are two sources that serve what we call the stationary source sector, buildings, facilities, et cetera. And it affects the city's own budget. And I understand that our projection on increased electricity costs, if that materializes, will knock on the door $400,000 incremental expense. Is that a correct recollection of the impact of that cost Increase?"
+    "text": "Increase?"
   },
   {
     "speaker": "JC Martinez",
@@ -3311,7 +3303,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6736.4,
     "end": 6744.84,
-    "text": "It is based off of the assumption that that rate increase is going to hold. That has not been confirmed. Dominion put that out."
+    "text": "It is based off of the assumption that that rate increase is going to hold. That has not been confirmed. Dominion put that out"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3343,7 +3335,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6753.8,
     "end": 6755.4,
-    "text": "Not 35%."
+    "text": "Not 35%"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -3351,7 +3343,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6755.4,
     "end": 6769.0,
-    "text": "That would certainly be good news if that happened. I know there's a lot of concern that those rates are going to go up and that the unexpected changes will be on the upward side, but we're not there yet. It's good to know. But clearly, energy is up."
+    "text": "That would certainly be good news if that happened. I know there's a lot of concern that those rates are going to go up and that the unexpected changes will be on the upward side, but we're not there yet. It's good to know. But clearly, energy is up"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3367,7 +3359,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6773.2,
     "end": 6798.36,
-    "text": "And that may be the highest and fastest rate of inflation for any household expenses that we experience. The latest that I saw for unreimbursed health care expenses, it's running an increase of 21.5% this year. And there's a big caveat there because Obamacare has not been refunded yet, and it's not clear that it will be. So for people who are dependent upon that and the reimbursements associated with it, this is a big load."
+    "text": "And that may be the highest and fastest rate of inflation for any household expenses that we experience. The latest that I saw for unreimbursed health care expenses, it's running an increase of 21.5% this year. And there's a big caveat there because Obamacare has not been refunded yet, and it's not clear that it will be. So for people who are dependent upon that and the reimbursements associated with it, this is a big load"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3391,7 +3383,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6840.28,
     "end": 6842.88,
-    "text": "Are changing in a major way that we cannot control."
+    "text": "Are changing in a major way that we cannot control"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3399,7 +3391,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 6842.88,
     "end": 6846.32,
-    "text": "But there are things that we can control."
+    "text": "But there are things that we can control"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -3431,7 +3423,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 6869.76,
     "end": 6874.16,
-    "text": "But it's looking at the sector and what to do with that."
+    "text": "But it's looking at the sector and what to do with that"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -3439,7 +3431,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6874.16,
     "end": 6898.68,
-    "text": "If and as you come back with thoughts around any of our housing programs, but including the Renaissance Housing Program, I'm wondering if you might be able to think through what a slightly more integrated approach to something like the Renaissance Housing Program might be, given that I know you're looking hard at what an integrated approach to this housing area maybe might look like in the future. I'm wondering if that might be a possible thing."
+    "text": "If and as you come back with thoughts around any of our housing programs, but including the Renaissance Housing Program, I'm wondering if you might be able to think through what a slightly more integrated approach to something like the Renaissance Housing Program might be, given that I know you're looking hard at what an integrated approach to this housing area maybe might look like in the future. I'm wondering if that might be a possible thing"
   },
   {
     "speaker": "Mr. Alexander",
@@ -3447,7 +3439,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 6898.68,
     "end": 6928.4,
-    "text": "Think you framed it well, Council Member. It certainly is part of the way we'd want to look at, as you say, an integrated program. I don't believe that we're prepared to, obviously, introduce that as part of the current plan, but certainly should be, think, should be part of the way we look at our complete approach to our housing. That certainly will be something that we bring back to Council as we discuss everything related to housing. think you framed it exactly the way we're looking at it."
+    "text": "Think you framed it well, Council Member. It certainly is part of the way we'd want to look at, as you say, an integrated program. I don't believe that we're prepared to, obviously, introduce that as part of the current plan, but certainly should be, think, should be part of the way we look at our complete approach to our housing. That certainly will be something that we bring back to Council as we discuss everything related to housing. think you framed it exactly the way we're looking at it"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -3471,7 +3463,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "merged_micro_turn",
     "start": 7015.72,
     "end": 7045.52,
-    "text": "It would just be great to know that as we're doing that and we're looking through the energy lens, we're looking at cost savings, we're looking at economic gains from doing this, and we're looking at ways in which that can be done in an environmentally friendly manner, because think that's the win-win everybody is looking for. And I know we've probably gotten a head start on that because we have talented staff that are looking at that. But that thematically is, think, where really all jurisdictions are kind of heading this way. Thank you."
+    "text": "It would just be great to know that as we're doing that and we're looking through the energy lens, we're looking at cost savings, we're looking at economic gains from doing this, and we're looking at ways in which that can be done in an environmentally friendly manner, because think that's the win-win everybody is looking for. And I know we've probably gotten a head start on that because we have talented staff that are looking at that. But that thematically is, think, where really all jurisdictions are kind of heading this way Thank you"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -3479,7 +3471,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 7045.52,
     "end": 7047.24,
-    "text": "Council Member Hardy-Chandler."
+    "text": "Council Member Hardy-Chandler"
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
@@ -3503,7 +3495,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 7101.0,
     "end": 7104.08,
-    "text": "When there have been those changes."
+    "text": "When there have been those changes"
   },
   {
     "speaker": "JC Martinez",
@@ -3519,7 +3511,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 7148.6,
     "end": 7163.92,
-    "text": "That we looked at, 10 or 15 years. It was actually an increase, a net increase. Here goes. Excellent. Thank you, Ms. Riddle. So go to the next couple of slides, and you can actually see the comparison. I don't have my glasses."
+    "text": "That we looked at, 10 or 15 years. It was actually an increase, a net increase. Here goes. Excellent. Thank you, Ms. Riddle. So go to the next couple of slides, and you can actually see the comparison. I don't have my glasses"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3527,7 +3519,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 7163.92,
     "end": 7165.84,
-    "text": "Here we go."
+    "text": "Here we go"
   },
   {
     "speaker": "JC Martinez",
@@ -3543,7 +3535,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 7208.7,
     "end": 7231.92,
-    "text": "Show that about 3% is sort of passed through or back to the restaurants while they file their timely receipts to the city as well. So over that same course time frame, over $2 million was given back to these businesses as a form of collecting the tax on behalf of the city."
+    "text": "Show that about 3% is sort of passed through or back to the restaurants while they file their timely receipts to the city as well. So over that same course time frame, over $2 million was given back to these businesses as a form of collecting the tax on behalf of the city"
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
@@ -3575,7 +3567,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 7334.82,
     "end": 7352.9,
-    "text": "And if the city attorney would help, we could probably create an agreement to sort of put some structure on maybe put some x number percentage to lower income housing or lower thresholds that would impact a different population."
+    "text": "And if the city attorney would help, we could probably create an agreement to sort of put some structure on maybe put some x number percentage to lower income housing or lower thresholds that would impact a different population"
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
@@ -3583,7 +3575,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 7352.9,
     "end": 7365.5,
-    "text": "So just to clarify, there is an opportunity for like an MOU process to find some common ground to meet the program's aims as well as the city's aims, potentially? would say yes. Good to hear."
+    "text": "So just to clarify, there is an opportunity for like an MOU process to find some common ground to meet the program's aims as well as the city's aims, potentially? would say yes. Good to hear"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3591,7 +3583,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 7365.5,
     "end": 7369.7,
-    "text": "Thank you so much. Council Member McQuillan."
+    "text": "Thank you so much. Council Member McQuillan"
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
@@ -3607,7 +3599,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 7413.26,
     "end": 7440.72,
-    "text": "Of federal and tech employment, which we know isn't expanding right now, increased demand for dining in suburban and mixed use developments, and growth of food delivery and e-commerce. So I just wanted to, since some of those actually correlate to the things that I mentioned, gas prices, things that have increased the struggle for our small businesses and specifically our restaurants, I just wanted to provide that extra information. Thank you."
+    "text": "Of federal and tech employment, which we know isn't expanding right now, increased demand for dining in suburban and mixed use developments, and growth of food delivery and e-commerce. So I just wanted to, since some of those actually correlate to the things that I mentioned, gas prices, things that have increased the struggle for our small businesses and specifically our restaurants, I just wanted to provide that extra information. Thank you"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -3615,7 +3607,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 7443.78,
     "end": 7445.02,
-    "text": "Council Member Hull."
+    "text": "Council Member Hull"
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -3639,7 +3631,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 7470.58,
     "end": 7498.86,
-    "text": "It's been a while is the best answer that I can give right now. But as I stated, we are meeting with our rep this Friday. And given the increases year over year, think Council Member Peterson also alluded to, these are one of those inflationary increases that we can't necessarily control, but we're going to try to get ahead of it. And then if need be, really look at a potential rebid on that contract or break away from that plan and go independent."
+    "text": "It's been a while is the best answer that I can give right now. But as I stated, we are meeting with our rep this Friday. And given the increases year over year, think Council Member Peterson also alluded to, these are one of those inflationary increases that we can't necessarily control, but we're going to try to get ahead of it. And then if need be, really look at a potential rebid on that contract or break away from that plan and go independent"
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -3655,7 +3647,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 7505.18,
     "end": 7520.34,
-    "text": "We're pretty much locked in because we are just advertising what those rates are to the employees. We have open enrollment May 1, so we would probably have to wait an entire year before we could do that. But we would do that legwork now in preparation for FY 28."
+    "text": "We're pretty much locked in because we are just advertising what those rates are to the employees. We have open enrollment May 1, so we would probably have to wait an entire year before we could do that. But we would do that legwork now in preparation for FY 28"
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -3671,7 +3663,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "merged_micro_turn",
     "start": 7558.62,
     "end": 7561.3,
-    "text": "We do. OK."
+    "text": "We do OK"
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -3687,7 +3679,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 7564.66,
     "end": 7595.3,
-    "text": "It varies. We looked at the plan. I'll look at Ms. Riddle if she remembers a little bit better. But we had those statistics. We just reviewed them again about a couple of weeks, maybe three weeks ago, when we got the renewal notices. will say that given that the employer, the city, is not the only one taking some of this burden, the employee will also see a increase of about 12%. That may actually move some people out of those higher plans into lower plans."
+    "text": "It varies. We looked at the plan. I'll look at Ms. Riddle if she remembers a little bit better. But we had those statistics. We just reviewed them again about a couple of weeks, maybe three weeks ago, when we got the renewal notices. will say that given that the employer, the city, is not the only one taking some of this burden, the employee will also see a increase of about 12%. That may actually move some people out of those higher plans into lower plans"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3703,7 +3695,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 7598.62,
     "end": 7610.18,
-    "text": "Lessen the impact of the 325 overall. Because they're going to see an increase in one plan. While some other plans were stagnant, they may migrate to those."
+    "text": "Lessen the impact of the 325 overall. Because they're going to see an increase in one plan. While some other plans were stagnant, they may migrate to those"
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -3727,7 +3719,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 7632.1,
     "end": 7637.94,
-    "text": "I'm just curious if we cap at a certain rate or what we cover for families and other individuals and whatnot."
+    "text": "I'm just curious if we cap at a certain rate or what we cover for families and other individuals and whatnot"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3743,7 +3735,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 7648.58,
     "end": 7652.98,
-    "text": "As it goes to all employees. OK, my apologies. I wasn't really planning on discussing this in detail tonight."
+    "text": "As it goes to all employees. OK, my apologies. I wasn't really planning on discussing this in detail tonight"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3767,7 +3759,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 7659.7,
     "end": 7673.06,
-    "text": "That have our health insurance. The majority is with Anthem. We have two plans with Anthem. And then we have about, think it's about 20% to 30% of employees are with Kaiser."
+    "text": "That have our health insurance. The majority is with Anthem. We have two plans with Anthem. And then we have about, think it's about 20% to 30% of employees are with Kaiser"
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -3775,7 +3767,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "merged_micro_turn",
     "start": 7673.06,
     "end": 7674.38,
-    "text": "OK. Yeah."
+    "text": "OK Yeah"
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -3783,7 +3775,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 7674.38,
     "end": 7706.54,
-    "text": "OK. And I just have one other thing. And I know I've asked this a couple of times previously. And I don't know that we ever really come to a definitive yes or no. would like to suggest that when we either send out our final tax bills or when we send a response saying, hey, thank you for what you paid, would strongly like to send a letter, not me personally, but the city that says, thank you for paying your real estate taxes. Here are some of the things that you funded. And just make it more of a personal impact opportunity to let people know that we know things are tough. So I don't know if that needs consensus from council or not."
+    "text": "OK. And I just have one other thing. And I know I've asked this a couple of times previously. And I don't know that we ever really come to a definitive yes or no. would like to suggest that when we either send out our final tax bills or when we send a response saying, hey, thank you for what you paid, would strongly like to send a letter, not me personally, but the city that says, thank you for paying your real estate taxes. Here are some of the things that you funded. And just make it more of a personal impact opportunity to let people know that we know things are tough. So I don't know if that needs consensus from council or not"
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -3791,7 +3783,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 7706.54,
     "end": 7710.14,
-    "text": "But that would be something that would recommend to the finance department."
+    "text": "But that would be something that would recommend to the finance department"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3799,7 +3791,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 7710.14,
     "end": 7713.18,
-    "text": "So thank you."
+    "text": "So thank you"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -3807,7 +3799,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 7713.18,
     "end": 7715.54,
-    "text": "Council Member Peterson."
+    "text": "Council Member Peterson"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -3839,7 +3831,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 7775.78,
     "end": 7802.92,
-    "text": "And revenues to avoid us being on a yo-yo, this destabilizing pattern that has happened in the past where we've gone too far up, too far down, and then had to play catch up. And it's had a destabilizing effect. So if we can understand to the best of your ability what a smoother trajectory looks like and how we are consistent with that so we could avoid the deviations in either direction. That would really be very helpful."
+    "text": "And revenues to avoid us being on a yo-yo, this destabilizing pattern that has happened in the past where we've gone too far up, too far down, and then had to play catch up. And it's had a destabilizing effect. So if we can understand to the best of your ability what a smoother trajectory looks like and how we are consistent with that so we could avoid the deviations in either direction. That would really be very helpful"
   },
   {
     "speaker": "Mr. Alexander",
@@ -3855,15 +3847,23 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 7818.28,
     "end": 7822.16,
-    "text": "With our budget discussion."
+    "text": "With our budget discussion"
   },
   {
     "speaker": "Councilmember Tom Peterson",
     "speaker_source": "approved",
-    "speaker_source_detail": "merged_micro_turn",
+    "speaker_source_detail": "",
     "start": 7822.16,
+    "end": 7832.4,
+    "text": "Great, great. Really appreciate it again, because we saw some roller coaster stuff in the past that think we always want to try to avoid in the future"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "no_diarization",
+    "start": 7832.4,
     "end": 7835.32,
-    "text": "Great, great. Really appreciate it again, because we saw some roller coaster stuff in the past that think we always want to try to avoid in the future. Very helpful."
+    "text": "Very helpful"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -3871,7 +3871,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 7835.32,
     "end": 7836.24,
-    "text": "Council Member Bates."
+    "text": "Council Member Bates"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3887,7 +3887,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 7881.16,
     "end": 7885.72,
-    "text": "Respond to emergencies that occur at the restaurants in the city."
+    "text": "Respond to emergencies that occur at the restaurants in the city"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3903,7 +3903,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 7890.12,
     "end": 7918.0,
-    "text": "More of a necessity than eating at a restaurant. Certainly some people don't have time to cook. However, there are frozen meals available at the grocery store, that kind of thing. So that's also kind of locking ourselves out of if we wanted to use part of that to alleviate some of the burden on our homeowners through the real estate tax rate."
+    "text": "More of a necessity than eating at a restaurant. Certainly some people don't have time to cook. However, there are frozen meals available at the grocery store, that kind of thing. So that's also kind of locking ourselves out of if we wanted to use part of that to alleviate some of the burden on our homeowners through the real estate tax rate"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3919,7 +3919,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 7920.6,
     "end": 7926.24,
-    "text": "Want to encourage caution in ruling out as we go forward."
+    "text": "Want to encourage caution in ruling out as we go forward"
   },
   {
     "speaker": "JC Martinez",
@@ -3927,7 +3927,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 7929.64,
     "end": 7954.2,
-    "text": "Yes, Mr. Martinez. Thank you, Mary. I just want to add a couple of clarifying notes. Regarding the meals tax, a potential 2% reduction with each half percent being about 1.3, that's $5.8 million, almost $6 million that would be reduced."
+    "text": "Yes, Mr. Martinez. Thank you, Mary. I just want to add a couple of clarifying notes. Regarding the meals tax, a potential 2% reduction with each half percent being about 1.3, that's $5.8 million, almost $6 million that would be reduced"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3943,7 +3943,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 7959.96,
     "end": 8004.8,
-    "text": "To the equivalent of almost $0.06, $0.058 on the current real estate tax rate. And think Council Member Hall made that statement. And then additionally, just to clarify, and it's not on the screen per se, but when the manager proposed his budget, we realized about $1.3 million in savings from available balances, specifically in operating CIP funds that came over to the general fund side. And now we've shown another $400,000. So in totality, the city has saved about $1.7 million in the FY27 budget. So not an insignificant amount given our size."
+    "text": "To the equivalent of almost $0.06, $0.058 on the current real estate tax rate. And think Council Member Hall made that statement. And then additionally, just to clarify, and it's not on the screen per se, but when the manager proposed his budget, we realized about $1.3 million in savings from available balances, specifically in operating CIP funds that came over to the general fund side. And now we've shown another $400,000. So in totality, the city has saved about $1.7 million in the FY27 budget. So not an insignificant amount given our size"
   },
   {
     "speaker": "Unknown Speaker",
@@ -3951,7 +3951,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 8004.8,
     "end": 8009.04,
-    "text": "Just wanted to make those two statements."
+    "text": "Just wanted to make those two statements"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -3983,7 +3983,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 8025.12,
     "end": 8051.24,
-    "text": "We were in the second quarter financial review. The budget director displayed a $2.7, $2. some odd million additional revenue that has not been realized but is anticipated for FY26 with the understanding that that additional revenue would go to unassigned or assigned fund balance to sort of bridge the gap for FY27."
+    "text": "We were in the second quarter financial review. The budget director displayed a $2.7, $2. some odd million additional revenue that has not been realized but is anticipated for FY26 with the understanding that that additional revenue would go to unassigned or assigned fund balance to sort of bridge the gap for FY27"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -4007,7 +4007,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 8112.52,
     "end": 8117.44,
-    "text": "And potentially the FY28 budget."
+    "text": "And potentially the FY28 budget"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -4023,7 +4023,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 8131.72,
     "end": 8156.08,
-    "text": "Yeah, we have a process for those changes on a change sheet. I'm getting a nod in the affirmative. That's one element of a few elements that we've discussed tonight that we're going to need to work through, some of which we have kind of pushed out just recently. So all of those changes from a revenue and expenditure perspective will be part of the scenarios that we bring to you on the 28th."
+    "text": "Yeah, we have a process for those changes on a change sheet. I'm getting a nod in the affirmative. That's one element of a few elements that we've discussed tonight that we're going to need to work through, some of which we have kind of pushed out just recently. So all of those changes from a revenue and expenditure perspective will be part of the scenarios that we bring to you on the 28th"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -4055,7 +4055,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 8215.12,
     "end": 8235.48,
-    "text": "And be responsive. And we'll certainly bring that back to you. You don't have that yet either. You have, we've had plenty of hearings and engagement. Engaged platform's been up. We've done a lot of that. But that's another element that we're going to bring to you on the 28th and have a fully transparent discussion around everything related to revenues and expenditures."
+    "text": "And be responsive. And we'll certainly bring that back to you. You don't have that yet either. You have, we've had plenty of hearings and engagement. Engaged platform's been up. We've done a lot of that. But that's another element that we're going to bring to you on the 28th and have a fully transparent discussion around everything related to revenues and expenditures"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -4063,7 +4063,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 8235.48,
     "end": 8236.08,
-    "text": "Fantastic."
+    "text": "Fantastic"
   },
   {
     "speaker": "Unknown Speaker",
@@ -4087,7 +4087,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 8281.36,
     "end": 8295.4,
-    "text": "You're responsive to our requests about engage in the budget, I mean, we're throwing everything at you, and you all are just handling it and rolling with it. And I just wanted to say thank you, because I don't think we do that enough here, and acknowledge how much work that is on you."
+    "text": "You're responsive to our requests about engage in the budget, I mean, we're throwing everything at you, and you all are just handling it and rolling with it. And I just wanted to say thank you, because I don't think we do that enough here, and acknowledge how much work that is on you"
   },
   {
     "speaker": "Unknown Speaker",
@@ -4095,7 +4095,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 8295.4,
     "end": 8297.56,
-    "text": "So thank you."
+    "text": "So thank you"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -4103,7 +4103,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 8297.56,
     "end": 8300.96,
-    "text": "OK, any other questions, comments? Council member Peterson."
+    "text": "OK, any other questions, comments? Council member Peterson"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -4127,7 +4127,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 8316.64,
     "end": 8352.8,
-    "text": "Encouraging them to please try to attend April 16th or tune in, because it's a substantive point in time where you can ask those specific questions and really get into the granular side of this. So we've got a lot of that still coming in that really indicates the desire for people to understand things at a specific level. So the event was really made for that purpose, and this is your opportunity. Again, I know you've tried to make it easy, so folks can tune in remotely as well. want to encourage everybody to take advantage of that. And just a note that I personally like Zoom a lot better than I like Teams."
+    "text": "Encouraging them to please try to attend April 16th or tune in, because it's a substantive point in time where you can ask those specific questions and really get into the granular side of this. So we've got a lot of that still coming in that really indicates the desire for people to understand things at a specific level. So the event was really made for that purpose, and this is your opportunity. Again, I know you've tried to make it easy, so folks can tune in remotely as well. want to encourage everybody to take advantage of that. And just a note that I personally like Zoom a lot better than I like Teams"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -4135,7 +4135,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 8357.08,
     "end": 8371.32,
-    "text": "Any other questions or comments before we? OK, I'm now going to reconvene the regular meeting. Mr. Alexander for future meeting topics."
+    "text": "Any other questions or comments before we? OK, I'm now going to reconvene the regular meeting. Mr. Alexander for future meeting topics"
   },
   {
     "speaker": "Mr. Alexander",
@@ -4143,7 +4143,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 8371.32,
     "end": 8414.4,
-    "text": "Thank you, Mayor and Council. Looking ahead to the 28th, we've had a lot of conversation up to this point, and so much of this will be focused on public hearings related to the budget. There will be some items not requiring a public hearing to include significantly the Blenheim Boulevard project. And then as we mentioned before, we'll be talking about Willard Sherwood and the item. that we've talked about tonight and also on there is the consideration of bond resolution for general obligation bonds for the school project. Work session wise, we are again planning the third quarter financial review."
+    "text": "Thank you, Mayor and Council. Looking ahead to the 28th, we've had a lot of conversation up to this point, and so much of this will be focused on public hearings related to the budget. There will be some items not requiring a public hearing to include significantly the Blenheim Boulevard project. And then as we mentioned before, we'll be talking about Willard Sherwood and the item. that we've talked about tonight and also on there is the consideration of bond resolution for general obligation bonds for the school project. Work session wise, we are again planning the third quarter financial review"
   },
   {
     "speaker": "Mr. Alexander",
@@ -4159,7 +4159,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 8458.6,
     "end": 8486.56,
-    "text": "Dwelling units and the council salaries will be back on that night. We've talked to council up to this point, getting later into May about Wilcoxon Trail Extension. So we'll bring that back to you with a presentation. And that gets us into June. Happy to answer any questions relative to what we've discussed on these meetings or looking out through the remainder of the year at council's pleasure."
+    "text": "Dwelling units and the council salaries will be back on that night. We've talked to council up to this point, getting later into May about Wilcoxon Trail Extension. So we'll bring that back to you with a presentation. And that gets us into June. Happy to answer any questions relative to what we've discussed on these meetings or looking out through the remainder of the year at council's pleasure"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -4167,7 +4167,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 8489.56,
     "end": 8491.6,
-    "text": "Council Member Peterson."
+    "text": "Council Member Peterson"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -4183,7 +4183,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 8514.36,
     "end": 8519.68,
-    "text": "Think it's multiple parts. I confess I didn't go back and look at last year's script, so you caught me a little off-track."
+    "text": "Think it's multiple parts. I confess I didn't go back and look at last year's script, so you caught me a little off-track"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -4191,7 +4191,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 8519.68,
     "end": 8520.88,
-    "text": "That's why I'm asking."
+    "text": "That's why I'm asking"
   },
   {
     "speaker": "Unknown Speaker",
@@ -4199,7 +4199,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 8521.96,
     "end": 8524.72,
-    "text": "We can go back and look at the agenda from that meeting if you'd like."
+    "text": "We can go back and look at the agenda from that meeting if you'd like"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -4207,7 +4207,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 8524.72,
     "end": 8531.1,
-    "text": "Okay, it would be wonderful just to have that nice and clear so we sort of know what we're doing with that."
+    "text": "Okay, it would be wonderful just to have that nice and clear so we sort of know what we're doing with that"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -4231,7 +4231,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 8553.6,
     "end": 8558.44,
-    "text": "Then we will look for council comments starting with the city manager."
+    "text": "Then we will look for council comments starting with the city manager"
   },
   {
     "speaker": "Mr. Alexander",
@@ -4247,7 +4247,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 8603.58,
     "end": 8606.46,
-    "text": "As we move forward, so thank you very much."
+    "text": "As we move forward, so thank you very much"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -4303,7 +4303,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 8721.26,
     "end": 8764.7,
-    "text": "All of those perspectives. They directly shape how I approach the work we do here. I also want to recognize how important it is that everyone in our community, especially students and families, feel supported and safe and that there's confidence in coming forward when something is wrong. This month, as we observe Sexual Assault Awareness Month, that message feels especially meaningful and timely. It's a reminder of the importance of fostering a community where individuals feel heard, respected, and protected and where speaking up is met with support and care. want to close by sincerely thanking everyone who has taken the time to reach out, share your thoughts, and engage in these conversations."
+    "text": "All of those perspectives. They directly shape how I approach the work we do here. I also want to recognize how important it is that everyone in our community, especially students and families, feel supported and safe and that there's confidence in coming forward when something is wrong. This month, as we observe Sexual Assault Awareness Month, that message feels especially meaningful and timely. It's a reminder of the importance of fostering a community where individuals feel heard, respected, and protected and where speaking up is met with support and care. want to close by sincerely thanking everyone who has taken the time to reach out, share your thoughts, and engage in these conversations"
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
@@ -4311,7 +4311,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "merged_micro_turn",
     "start": 8764.7,
     "end": 8771.46,
-    "text": "That participation matters. It's democracy at work and I truly value it. Thank you."
+    "text": "That participation matters. It's democracy at work and I truly value it Thank you"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -4319,7 +4319,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 8771.46,
     "end": 8772.66,
-    "text": "Council Member Bates."
+    "text": "Council Member Bates"
   },
   {
     "speaker": "Unknown Speaker",
@@ -4327,7 +4327,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 8773.66,
     "end": 8784.08,
-    "text": "Want to second the comments in support of survivors of sexual assault in recognition of Sexual Assault Awareness Month. Thank you."
+    "text": "Want to second the comments in support of survivors of sexual assault in recognition of Sexual Assault Awareness Month Thank you"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -4335,7 +4335,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 8784.94,
     "end": 8829.54,
-    "text": "Council Member Peterson. I wanted to share a personal health note, really as a part of just general awareness to help everybody. So, it's sort of a funny thing, you know, after you turn 65, suddenly your doctors start spending a lot more time paying attention to you and they start running you through all kinds of tests that you probably should have been doing like 25 years earlier and it's like, oops, you know. So, interesting process, takes a little time, just heads up, but I ended up, as a part of that, having a sleep test and finding out that I had sleep apnea and for those of you who don't know, it means you stop breathing while you're sleeping, which is not exactly a great thing to do."
+    "text": "Council Member Peterson. I wanted to share a personal health note, really as a part of just general awareness to help everybody. So, it's sort of a funny thing, you know, after you turn 65, suddenly your doctors start spending a lot more time paying attention to you and they start running you through all kinds of tests that you probably should have been doing like 25 years earlier and it's like, oops, you know. So, interesting process, takes a little time, just heads up, but I ended up, as a part of that, having a sleep test and finding out that I had sleep apnea and for those of you who don't know, it means you stop breathing while you're sleeping, which is not exactly a great thing to do"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -4359,7 +4359,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 8853.18,
     "end": 8885.34,
-    "text": "10 to 20 seconds, but for some of us it's a whole lot longer. For me it's between 50, five zero, and 130 seconds per episode when I stop breathing. So, you know, you get a little bit tired the next day if you're trying to get to sleep like that. So the bad news is that, but the good news is it's eminently treatable. It's very easy to get a sleep test. You take it home, you do it, it's not a problem. And the remedy for it, if you have apnea, is to wear a sleep mask."
+    "text": "10 to 20 seconds, but for some of us it's a whole lot longer. For me it's between 50, five zero, and 130 seconds per episode when I stop breathing. So, you know, you get a little bit tired the next day if you're trying to get to sleep like that. So the bad news is that, but the good news is it's eminently treatable. It's very easy to get a sleep test. You take it home, you do it, it's not a problem. And the remedy for it, if you have apnea, is to wear a sleep mask"
   },
   {
     "speaker": "Unknown Speaker",
@@ -4367,7 +4367,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 8885.34,
     "end": 8888.18,
-    "text": "Do that and what a game changer."
+    "text": "Do that and what a game changer"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -4375,7 +4375,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 8888.18,
     "end": 8922.9,
-    "text": "Can't say that I'm leaping tall buildings, but pretty close to it. It really has been a complete game changer. One of the things I learned is that people are apparently really good about detecting acute fatigue and really terrible about detecting chronic fatigue until you've gotten over it and it's like, oh my God, I can't believe all this time I did that. So would encourage everybody, if you haven't already, to seriously consider getting a sleep test and don't wait until you're 65. My doctor says, you need to be doing this at 40 and go tell your insurance company, you know, to take care of you and do that."
+    "text": "Can't say that I'm leaping tall buildings, but pretty close to it. It really has been a complete game changer. One of the things I learned is that people are apparently really good about detecting acute fatigue and really terrible about detecting chronic fatigue until you've gotten over it and it's like, oh my God, I can't believe all this time I did that. So would encourage everybody, if you haven't already, to seriously consider getting a sleep test and don't wait until you're 65. My doctor says, you need to be doing this at 40 and go tell your insurance company, you know, to take care of you and do that"
   },
   {
     "speaker": "Unknown Speaker",
@@ -4383,7 +4383,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 8922.9,
     "end": 8927.98,
-    "text": "And there's a lot of things in that category. So would heartily recommend it."
+    "text": "And there's a lot of things in that category. So would heartily recommend it"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -4391,7 +4391,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 8927.98,
     "end": 8968.58,
-    "text": "Again, easy to do. The thing to be aware of also is it can be lethal. And so unfortunately my family has friends and relations who didn't survive these episodes that took place at night. So it's serious business. The other thing, just to be aware of, is that it can catch up with you if you don't treat it at pretty inconvenient times. So somebody in our family, no names mentioned, fell asleep at a stoplight. And the person behind him thought he was texting, right? So he came up and knocked on the window, which is a good thing. He said, dude, what are you doing here? And he was like snoring."
+    "text": "Again, easy to do. The thing to be aware of also is it can be lethal. And so unfortunately my family has friends and relations who didn't survive these episodes that took place at night. So it's serious business. The other thing, just to be aware of, is that it can catch up with you if you don't treat it at pretty inconvenient times. So somebody in our family, no names mentioned, fell asleep at a stoplight. And the person behind him thought he was texting, right? So he came up and knocked on the window, which is a good thing. He said, dude, what are you doing here? And he was like snoring"
   },
   {
     "speaker": "Unknown Speaker",
@@ -4436,10 +4436,26 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Councilmember Tom Peterson",
     "speaker_source": "approved",
-    "speaker_source_detail": "merged_micro_turn",
+    "speaker_source_detail": "",
     "start": 9093.72,
+    "end": 9112.92,
+    "text": "Seems to have become a point of conflict and concern for the council. So would hope that the committee would be open to or the council rather would be open to having our attorney come back and provide us best advice in both of these areas. And let me just ask if there's anybody who doesn't agree with"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "no_diarization",
+    "start": 9112.92,
+    "end": 9113.92,
+    "text": "That"
+  },
+  {
+    "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 9114.92,
     "end": 9115.92,
-    "text": "Seems to have become a point of conflict and concern for the council. So would hope that the committee would be open to or the council rather would be open to having our attorney come back and provide us best advice in both of these areas. And let me just ask if there's anybody who doesn't agree with That. Mr. Luebkeman."
+    "text": "Mr. Luebkeman"
   },
   {
     "speaker": "Unknown Speaker",
@@ -4447,7 +4463,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 9115.92,
     "end": 9159.82,
-    "text": "Appreciate the promotion. Just so I understand, we have talked with every council in the 20 years that I've been here about doing a code of ethics generally and councils have not adopted it. Are you all suggesting that we bring back a suggested code of ethics? We're certainly prepared to do that. We have the materials that we've updated year after year. Or are you suggesting bringing forward a one-off related just to that discrete issue, which is a different thing but could be included in your policy with respect to boards and commissions, for example? I just want to understand the tasking."
+    "text": "Appreciate the promotion. Just so I understand, we have talked with every council in the 20 years that I've been here about doing a code of ethics generally and councils have not adopted it. Are you all suggesting that we bring back a suggested code of ethics? We're certainly prepared to do that. We have the materials that we've updated year after year. Or are you suggesting bringing forward a one-off related just to that discrete issue, which is a different thing but could be included in your policy with respect to boards and commissions, for example? I just want to understand the tasking"
   },
   {
     "speaker": "Unknown Speaker",
@@ -4455,7 +4471,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 9159.82,
     "end": 9160.82,
-    "text": "I'm sorry."
+    "text": "I'm sorry"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -4463,7 +4479,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 9160.82,
     "end": 9182.92,
-    "text": "Well, sequentially, the latter, but then ultimately the former. I mean, think we're overdue having a code of ethics, but the proximate thing we need to deal with here is a conflict. We did not advance the board and commission appointments tonight because of the distraction and frankly destabilization associated with the conflicts of interest issue."
+    "text": "Well, sequentially, the latter, but then ultimately the former. I mean, think we're overdue having a code of ethics, but the proximate thing we need to deal with here is a conflict. We did not advance the board and commission appointments tonight because of the distraction and frankly destabilization associated with the conflicts of interest issue"
   },
   {
     "speaker": "Unknown Speaker",
@@ -4487,7 +4503,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 9228.02,
     "end": 9235.26,
-    "text": "Urgent and needs to be done so that we can get back on track with our board and commission appointments, which at this stage are apparently frozen."
+    "text": "Urgent and needs to be done so that we can get back on track with our board and commission appointments, which at this stage are apparently frozen"
   },
   {
     "speaker": "Unknown Speaker",
@@ -4495,7 +4511,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "unresolved_identity",
     "start": 9240.22,
     "end": 9263.26,
-    "text": "So just looking at the calendar, considering you're in the middle of budget season, would assume that perhaps the meeting or a couple meetings after budget adoption would be a good target for this discussion. And it will be a discussion because I assume there are differing views on this, but we'll be prepared to bring some information back at a work session if that's the will of the council."
+    "text": "So just looking at the calendar, considering you're in the middle of budget season, would assume that perhaps the meeting or a couple meetings after budget adoption would be a good target for this discussion. And it will be a discussion because I assume there are differing views on this, but we'll be prepared to bring some information back at a work session if that's the will of the council"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -4503,7 +4519,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 9263.26,
     "end": 9272.96,
-    "text": "Happy to do it. We can, yes, and we can look to the city manager to look at a futures list to put that discussion. Thank you. Council Member Hardy-Chandler."
+    "text": "Happy to do it. We can, yes, and we can look to the city manager to look at a futures list to put that discussion. Thank you. Council Member Hardy-Chandler"
   },
   {
     "speaker": "Unknown Speaker",
@@ -4519,7 +4535,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 9281.78,
     "end": 9324.22,
-    "text": "Connections kickoff that happened April 8th. Jennifer Rose and her curriculum trying to support residents and business owners to understand the inner workings of our city and come from an informed place and an engaged place, think, was second cohort. We even have alumni from the first cohort here. So it really is a program that I hope we can continue to support and rally around. So I was very honored to be there and to welcome that cohort. So thank you very much. I also want to highlight a very successful Home for Life Expo."
+    "text": "Connections kickoff that happened April 8th. Jennifer Rose and her curriculum trying to support residents and business owners to understand the inner workings of our city and come from an informed place and an engaged place, think, was second cohort. We even have alumni from the first cohort here. So it really is a program that I hope we can continue to support and rally around. So I was very honored to be there and to welcome that cohort. So thank you very much. I also want to highlight a very successful Home for Life Expo"
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
@@ -4535,7 +4551,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 9371.12,
     "end": 9413.68,
-    "text": "10th. I also want to acknowledge the Commission for Women event today. I was very honored to be a part of the commission during the time when the Woman of Influence Award was created during my five-year tenure on that commission. So I know that they do good work and really want to celebrate contributions to the community. Beyond that, I also want to just highlight, in spite of the discussion today, you know, part of being a servant is that you're going to work with people who have differences of opinion and express those differences. That's healthy. So think that there was a dynamic discussion earlier."
+    "text": "10th. I also want to acknowledge the Commission for Women event today. I was very honored to be a part of the commission during the time when the Woman of Influence Award was created during my five-year tenure on that commission. So I know that they do good work and really want to celebrate contributions to the community. Beyond that, I also want to just highlight, in spite of the discussion today, you know, part of being a servant is that you're going to work with people who have differences of opinion and express those differences. That's healthy. So think that there was a dynamic discussion earlier"
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
@@ -4543,7 +4559,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 9413.68,
     "end": 9462.68,
-    "text": "And although we come from this, come to this with different perspectives, I was raised and will continue to respect everyone and that that respect comes through no matter whether there's agreement or disagreement. And I do believe that one of the aspects that would have prevented the discussion earlier or can prevent future conflicts is more expedient appointments because think that part of the delay contributed to the dynamic that happened. But I really hope that we can get people on boards earlier. So with that, I'll just wrap up and appreciate it."
+    "text": "And although we come from this, come to this with different perspectives, I was raised and will continue to respect everyone and that that respect comes through no matter whether there's agreement or disagreement. And I do believe that one of the aspects that would have prevented the discussion earlier or can prevent future conflicts is more expedient appointments because think that part of the delay contributed to the dynamic that happened. But I really hope that we can get people on boards earlier. So with that, I'll just wrap up and appreciate it"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -4551,7 +4567,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 9462.68,
     "end": 9464.44,
-    "text": "Council Member Hall."
+    "text": "Council Member Hall"
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -4567,7 +4583,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 9503.78,
     "end": 9515.44,
-    "text": "They were like, we got this, it goes in reverse, it's all good. So it was fun. There were so many people there, I was barely able to like touch part of the truck, but I did get to push. So that was very exciting. We had a great, great turnout."
+    "text": "They were like, we got this, it goes in reverse, it's all good. So it was fun. There were so many people there, I was barely able to like touch part of the truck, but I did get to push. So that was very exciting. We had a great, great turnout"
   },
   {
     "speaker": "Unknown Speaker",
@@ -4599,7 +4615,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 9591.46,
     "end": 9594.12,
-    "text": "Woman of Influence recipient."
+    "text": "Woman of Influence recipient"
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -4607,7 +4623,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 9594.12,
     "end": 9619.5,
-    "text": "And your time, your energy, your dedication, it is seen, it is recognized. And you are just an amazing resident here. And think one of your greatest abilities is the ability to rally those around you, right? Anybody can go out and pull weeds and do whatever, but you do it in such a way that makes people want to be a part of whatever organization or entity or group that you're working with."
+    "text": "And your time, your energy, your dedication, it is seen, it is recognized. And you are just an amazing resident here. And think one of your greatest abilities is the ability to rally those around you, right? Anybody can go out and pull weeds and do whatever, but you do it in such a way that makes people want to be a part of whatever organization or entity or group that you're working with"
   },
   {
     "speaker": "Unknown Speaker",
@@ -4631,7 +4647,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 9663.48,
     "end": 9692.68,
-    "text": "To have input on a budget, right? It's a living document that kind of goes on and on. Yes, we set it for one year, but then we immediately move on to the next one. So would strongly encourage you to attend the virtual or in-person event on Thursday. will certainly be there because we know budget's my jam, right? Having to enjoy it. So thank you. And again, please, please, please continue to share your thoughts. And ideas, honestly, on ways that we could do this whole thing better. So thank you."
+    "text": "To have input on a budget, right? It's a living document that kind of goes on and on. Yes, we set it for one year, but then we immediately move on to the next one. So would strongly encourage you to attend the virtual or in-person event on Thursday. will certainly be there because we know budget's my jam, right? Having to enjoy it. So thank you. And again, please, please, please continue to share your thoughts. And ideas, honestly, on ways that we could do this whole thing better. So thank you"
   },
   {
     "speaker": "Councilmember Anthony Amos",
@@ -4639,7 +4655,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 9692.68,
     "end": 9727.48,
-    "text": "Council Member Amos. would also extend that to remember the noise ordinance is still open for discussion and comment until May 12th. So keep that in mind. I'm gonna apologize in advance. I wish I didn't have so many announcements, but I'll try to run through real quick. want to echo the congratulations to Katie Johnson for your award, very well deserved. I know that the county held an absolutely wonderful celebration for Michael Fry at the government center. I know I saw the mayor there, former supervisor who did a lot, especially when it comes to animal rights and protections, and has the animal shelter in the county named after him."
+    "text": "Council Member Amos. would also extend that to remember the noise ordinance is still open for discussion and comment until May 12th. So keep that in mind. I'm gonna apologize in advance. I wish I didn't have so many announcements, but I'll try to run through real quick. want to echo the congratulations to Katie Johnson for your award, very well deserved. I know that the county held an absolutely wonderful celebration for Michael Fry at the government center. I know I saw the mayor there, former supervisor who did a lot, especially when it comes to animal rights and protections, and has the animal shelter in the county named after him"
   },
   {
     "speaker": "Unknown Speaker",
@@ -4663,7 +4679,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 9733.84,
     "end": 9735.92,
-    "text": "For everything he's done."
+    "text": "For everything he's done"
   },
   {
     "speaker": "Councilmember Anthony Amos",
@@ -4671,7 +4687,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 9735.92,
     "end": 9780.52,
-    "text": "Columbia was great. If y'all want to see pictures, just talk to me after or another day because I know, interesting night. I do want to share that tomorrow at Fairfax High School is the Hire a Lion Fair. I'm going to look at Jennifer Rose very sharply because it was really, really thanks to her. So would love to thank the Fairfax Forward Foundation, Central Fairfax Chamber, city schools, Dan Phillips and Maureen Kim came in so clutch on making this happen, my colleagues on the dais, and all the businesses who signed up. We ended up hitting our max for businesses tomorrow. So it should be very solid turnout, good mix of folks. I wish I could have gotten in contact with Woody's Ice Cream, but I tried, I tried."
+    "text": "Columbia was great. If y'all want to see pictures, just talk to me after or another day because I know, interesting night. I do want to share that tomorrow at Fairfax High School is the Hire a Lion Fair. I'm going to look at Jennifer Rose very sharply because it was really, really thanks to her. So would love to thank the Fairfax Forward Foundation, Central Fairfax Chamber, city schools, Dan Phillips and Maureen Kim came in so clutch on making this happen, my colleagues on the dais, and all the businesses who signed up. We ended up hitting our max for businesses tomorrow. So it should be very solid turnout, good mix of folks. I wish I could have gotten in contact with Woody's Ice Cream, but I tried, I tried"
   },
   {
     "speaker": "Councilmember Anthony Amos",
@@ -4679,7 +4695,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 9780.52,
     "end": 9821.2,
-    "text": "But so there should be 20 vendors there and it should be a really good time. Hope everyone can make it. Starting at 9.50 a.m. during lion time. Also excited to share Poetry Night for Spotlight on the Arts. I guess I kind of got put in charge of that for some reason. It's not my intention, but it kind of just fell into my lap. And it's very well fitting for National Poetry Month. And I've always said that I feel like so much attention is given to the visual arts. would love to see more emphasis on the literary arts. And Sharon Chang has talked to all of us about that. But also excited to announce that we confirmed that Angelique Palmer, the Fairfax Poet Laureate will be in attendance."
+    "text": "But so there should be 20 vendors there and it should be a really good time. Hope everyone can make it. Starting at 9.50 a.m. during lion time. Also excited to share Poetry Night for Spotlight on the Arts. I guess I kind of got put in charge of that for some reason. It's not my intention, but it kind of just fell into my lap. And it's very well fitting for National Poetry Month. And I've always said that I feel like so much attention is given to the visual arts. would love to see more emphasis on the literary arts. And Sharon Chang has talked to all of us about that. But also excited to announce that we confirmed that Angelique Palmer, the Fairfax Poet Laureate will be in attendance"
   },
   {
     "speaker": "Councilmember Anthony Amos",
@@ -4687,7 +4703,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 9821.2,
     "end": 9863.82,
-    "text": "So she will be headlining the event. So we're very excited to have her there. It'll be Monday, April 27th, starting at 6 p.m. in the top section of Old Fire Station 3. So very excited for that. And then the last thing will say is I just wanted to give a special thanks to Leadership Fairfax for honoring me with the 40 Under 40 Award earlier today. I have a weird feeling about awards. I greatly appreciate it. Starting off as a car salesman when I first got here and kind of being relatively unknown to where am now, I just feel like I'm a culmination of everyone I've ever met. And I'm just eternally grateful for everyone I've met and those who came before me."
+    "text": "So she will be headlining the event. So we're very excited to have her there. It'll be Monday, April 27th, starting at 6 p.m. in the top section of Old Fire Station 3. So very excited for that. And then the last thing will say is I just wanted to give a special thanks to Leadership Fairfax for honoring me with the 40 Under 40 Award earlier today. I have a weird feeling about awards. I greatly appreciate it. Starting off as a car salesman when I first got here and kind of being relatively unknown to where am now, I just feel like I'm a culmination of everyone I've ever met. And I'm just eternally grateful for everyone I've met and those who came before me"
   },
   {
     "speaker": "Councilmember Anthony Amos",
@@ -4695,7 +4711,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 9863.82,
     "end": 9864.9,
-    "text": "And that's it."
+    "text": "And that's it"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -4703,7 +4719,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 9866.9,
     "end": 9869.14,
-    "text": "Council Member Hardy-Chandler."
+    "text": "Council Member Hardy-Chandler"
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
@@ -4711,7 +4727,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 9869.14,
     "end": 9909.86,
-    "text": "Apologies, just one more follow-up. I did wanna acknowledge the celebration of the Educational and Charitable Foundation celebrating 25 years serving the Fairfax region. And that celebration, as always, offers scholarships to incredible students that definitely give you hope and optimism for the future. And I really appreciate the mayor coming to the event and doing a proclamation and acknowledgement of all of the work that the Educational and Charitable Foundation does for our region. Really dedicated to community service and also a great interview with an author. But thank you, Mayor, for coming to that."
+    "text": "Apologies, just one more follow-up. I did wanna acknowledge the celebration of the Educational and Charitable Foundation celebrating 25 years serving the Fairfax region. And that celebration, as always, offers scholarships to incredible students that definitely give you hope and optimism for the future. And I really appreciate the mayor coming to the event and doing a proclamation and acknowledgement of all of the work that the Educational and Charitable Foundation does for our region. Really dedicated to community service and also a great interview with an author. But thank you, Mayor, for coming to that"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -4727,7 +4743,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 9953.74,
     "end": 9987.04,
-    "text": "Which is the following Friday. But there are events for the rest of April and into the first part of May. So please check online for all of the events happening all over. Fairfax High School has their Rotten Tomatoes show at the high school. And there's a lot of other events. There's music and theater going on in the next three weeks that celebrate the arts and is an important part of Spotlight on the Arts. So with that, am now going to adjourn this meeting at 9.46 p.m. on Tuesday."
+    "text": "Which is the following Friday. But there are events for the rest of April and into the first part of May. So please check online for all of the events happening all over. Fairfax High School has their Rotten Tomatoes show at the high school. And there's a lot of other events. There's music and theater going on in the next three weeks that celebrate the arts and is an important part of Spotlight on the Arts. So with that, am now going to adjourn this meeting at 9.46 p.m. on Tuesday"
   }
 ];
 

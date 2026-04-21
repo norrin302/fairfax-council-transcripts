@@ -1,5 +1,11 @@
 # Quick Start Guide
 
+Phase 1 canonical path:
+- local WhisperX-first transcription on Juggernaut
+- structured transcript JSON is the source of truth
+- public site output is generated from structured data
+- older Whisper API scripts are fallback only
+
 This repo is a **static GitHub Pages site**. The published site lives under `docs/`.
 
 - Local development: serve the `docs/` folder

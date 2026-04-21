@@ -43,6 +43,13 @@ _FILLER_TURNS = {
     "♪♪",
 }
 
+_PUBLIC_COMMENT_MARKERS = {
+    "mr.",
+    "ms.",
+    "mrs.",
+    "dr.",
+}
+
 
 def _load_diar(path: Path) -> list[DiarSeg]:
     obj = json.loads(path.read_text(encoding="utf-8"))
@@ -145,6 +152,10 @@ def _cleanup_text(text: str) -> str:
     text = re.sub(r"\b(come)(?:\s+\1\b)+", r"\1", text, flags=re.IGNORECASE)
     text = re.sub(r"\b(play)\s+a\s+little\s+bit\s+of\s+the\s+pledge\s+of\s+allegiance\b", "", text, flags=re.IGNORECASE)
     text = re.sub(r"\bit's a little bit of the pledge of allegiance\b", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"\beven more\s+oh\b", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"\bmayor\s+reed\s+has\s+the\s+name\s+to\s+have\s+a\s+library\s+card\b", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"\bi\s*$", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"^\.\s*", "", text)
     text = re.sub(r"^(?:i[\.,!?]?\s+)+", "", text, flags=re.IGNORECASE)
     text = re.sub(r"\bi\s+(?=will\b|am\b|move\b|think\b|want\b|would\b)", "", text, flags=re.IGNORECASE)
     text = re.sub(r"\s+([,.;:!?])", r"\1", text)
@@ -154,6 +165,7 @@ def _cleanup_text(text: str) -> str:
     if re.fullmatch(r"[♪\s]+", text):
         return ""
 
+    text = text.strip(" ,.-")
     if text:
         text = text[:1].upper() + text[1:]
     return text
@@ -170,7 +182,7 @@ def _load_approvals(path: Path) -> dict[str, dict[str, Any]]:
     return obj
 
 
-def _public_label_policy(speaker_raw: str, approvals: dict[str, dict[str, Any]]) -> tuple[str, str, bool, str]:
+def _public_label_policy(speaker_raw: str, approvals: dict[str, dict[str, Any]], text: str = "") -> tuple[str, str, bool, str]:
     a = approvals.get(speaker_raw) or {}
     status = str(a.get("status") or "").strip()
     name = str(a.get("name") or "").strip()
@@ -180,6 +192,11 @@ def _public_label_policy(speaker_raw: str, approvals: dict[str, dict[str, Any]])
 
     if status.startswith("rejected") or status == "mixed":
         return "Unknown Speaker", "mixed", True, "mixed_or_rejected_audio"
+
+    normalized = re.sub(r"\s+", " ", (text or "").strip())
+    first = normalized.split(" ", 1)[0].lower() if normalized else ""
+    if speaker_raw == "UNKNOWN" and first in _PUBLIC_COMMENT_MARKERS:
+        return "Public Comment Speaker", "public_comment_unverified", True, "unverified_public_comment"
 
     if speaker_raw == "UNKNOWN":
         return "Unknown Speaker", "unknown", True, "no_diarization"
@@ -193,8 +210,8 @@ def _is_micro_turn(turn: dict[str, Any]) -> bool:
         return True
     words = text.split()
     if len(words) <= 2:
-        normalized = re.sub(r"[^a-z]+", " ", text.lower()).strip()
-        if normalized in _FILLER_TURNS or len(normalized.split()) <= 2:
+        normalized = re.sub(r"[^a-z♪]+", " ", text.lower()).strip()
+        if normalized in _FILLER_TURNS:
             return True
     return False
 
@@ -246,7 +263,7 @@ def _merge_micro_turns(turns: list[dict[str, Any]], max_gap: float) -> list[dict
         if cur["text"]:
             merged.append(cur)
         i += 1
-    return [t for t in merged if str(t.get("text") or "").strip()]
+    return [t for t in merged if str(t.get("text") or "").strip() and not _is_micro_turn(t)]
 
 
 def main() -> int:
@@ -306,8 +323,8 @@ def main() -> int:
 
     structured_turns: list[dict[str, Any]] = []
     for i, t in enumerate(turns):
-        speaker_public, speaker_status, needs_review, reason = _public_label_policy(str(t["speaker_raw"]), approvals)
         text = _cleanup_text(_join_tokens(t["parts"]))
+        speaker_public, speaker_status, needs_review, reason = _public_label_policy(str(t["speaker_raw"]), approvals, text)
         structured_turns.append(
             {
                 "turn_id": f"turn_{i+1:06d}",
