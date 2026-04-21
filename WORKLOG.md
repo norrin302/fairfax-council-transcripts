@@ -85,3 +85,36 @@ Reviewed-enough standard for public publishing:
 - unresolved and mixed blocks remain conservative
 - questionable text is either left conservative, corrected with human review, or suppressed
 - regenerated site must pass `scripts/validate_site.py`
+
+### 2026-04-21 bounded review milestone (opening + early public comment)
+
+- Branch: `feat/manual-review-workflow-apr14`
+- PR: https://github.com/norrin302/fairfax-council-transcripts/pull/5
+
+What was reviewed:
+- opening / ceremonial procedural flow
+- roll call / public comment intro
+- conservative handling of early public comment blocks (kept unnamed unless explicitly approved)
+
+Counts:
+- total review items before: 391
+- applied reviewer decisions total: 58
+- review queue remaining: 323
+- needs_review remaining: 225
+
+Names safely promoted in this batch:
+- Mayor Catherine Read
+- Janet Jaworski
+- Elijah Tibbs
+
+Turns suppressed in this batch:
+- some procedural/photo-chatter junk was suppressed and then removed from the structured output during rebuild (suppressed turns do not remain as empty rows)
+
+Text corrections made in this batch:
+- 0
+
+Next blocking decision:
+- whether to continue reviewer decisions for public comment identity/text on this branch now, or defer to a follow-up batch after human review
+
+Next recommended step:
+- continue review by focusing on public comment blocks and mixed/rejected diarization sections, keeping speaker identity conservative and applying only explicit approvals
