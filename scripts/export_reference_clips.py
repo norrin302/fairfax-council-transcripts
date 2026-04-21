@@ -92,6 +92,7 @@ def main() -> int:
     ap.add_argument("--min-duration", type=float, default=6.0, help="Only export clips at least this long")
     ap.add_argument("--max-clips-per-speaker", type=int, default=4, help="Maximum exported clips per speaker")
     ap.add_argument("--top-speakers", type=int, default=12, help="Only export the most talkative speakers (0 = all)")
+    ap.add_argument("--speaker", action="append", default=[], help="Export only this speaker ID (repeatable)")
     args = ap.parse_args()
 
     audio = Path(args.audio)
@@ -113,7 +114,10 @@ def main() -> int:
         by_speaker.setdefault(seg.speaker, []).append(seg)
 
     ranked_speakers = sorted(total_seconds.items(), key=lambda kv: kv[1], reverse=True)
-    if args.top_speakers > 0:
+    requested = {s.strip() for s in args.speaker if s.strip()}
+    if requested:
+        allowed = requested
+    elif args.top_speakers > 0:
         allowed = {speaker for speaker, _ in ranked_speakers[: args.top_speakers]}
     else:
         allowed = {speaker for speaker, _ in ranked_speakers}
@@ -127,6 +131,7 @@ def main() -> int:
             "min_duration": args.min_duration,
             "max_clips_per_speaker": args.max_clips_per_speaker,
             "top_speakers": args.top_speakers,
+            "requested_speakers": sorted(requested),
         },
         "speakers": [],
     }
