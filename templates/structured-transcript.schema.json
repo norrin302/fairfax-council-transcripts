@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Fairfax structured transcript (v1)",
+  "type": "object",
+  "required": ["schema", "meeting", "turns"],
+  "properties": {
+    "schema": {"type": "string", "const": "fairfax.structured_transcript.v1"},
+    "meeting": {
+      "type": "object",
+      "required": ["meeting_id", "meeting_date", "title", "source_url"],
+      "properties": {
+        "meeting_id": {"type": "string"},
+        "meeting_date": {"type": "string"},
+        "title": {"type": "string"},
+        "source_url": {"type": "string"}
+      }
+    },
+    "turns": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["turn_id", "start", "end", "text", "speaker_raw", "speaker_public", "speaker_status", "needs_review"],
+        "properties": {
+          "turn_id": {"type": "string"},
+          "start": {"type": "number"},
+          "end": {"type": "number"},
+          "text": {"type": "string"},
+          "speaker_raw": {"type": "string"},
+          "speaker_public": {"type": "string"},
+          "speaker_status": {"type": "string", "enum": ["approved", "unresolved", "mixed", "unknown"]},
+          "needs_review": {"type": "boolean"},
+          "review_reason": {"type": "string"},
+          "confidence": {"type": ["number", "null"]}
+        }
+      }
+    }
+  }
+}
