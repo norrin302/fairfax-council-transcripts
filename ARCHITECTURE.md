@@ -1,77 +1,98 @@
 # ARCHITECTURE
 
-## Overview
+## Architectural stance
 
-The project should remain a static GitHub Pages site at the presentation layer while the processing pipeline becomes more structured, auditable, and review-driven.
+For Phase 1, the project keeps the **current static GitHub Pages site** as the public presentation layer.
 
-The architecture splits into:
-1. ingest
-2. local processing on Juggernaut
-3. human review / approval
-4. static artifact generation
-5. Git-based publication
+Heavy processing happens on **Juggernaut**, while the Git repo remains the canonical home for:
+- project docs
+- meeting metadata
+- reviewed publish artifacts
+- compact approval / registry state
+
+The project should not add a richer backend until the static model is a demonstrated blocker.
+
+## Canonical Phase 1 pipeline
+
+1. **Ingest** meeting metadata from Granicus into `meetings/<meeting_id>.json`
+2. **Prepare audio** on Juggernaut
+3. **Transcribe locally** with the WhisperX-first path
+4. **Run local diarization** on Juggernaut
+5. **Export review artifacts** for speaker validation
+6. **Apply manual speaker approvals** and registry-backed decisions
+7. **Generate static publish artifacts** in `docs/`
+8. **Rebuild search index**
+9. **Commit and push reviewed publish outputs**
+10. **Publish via GitHub Pages**
+
+This is the official near-term path.
+
+---
 
 ## 1. Ingest from Granicus
 
-### Inputs
-- Fairfax Granicus clip URL
-- meeting metadata and official links
+### Source of truth
+- Granicus clip URL
+- official city meeting links
+- official agenda/minutes/packet references
 - optional Granicus agenda index markers
 
-### Current repo pieces
-- `scripts/transcribe.py`
-- `scripts/import_granicus_agenda_index.py`
-- `scripts/import_viewpublisher_2026_city_council.py`
+### Repo artifacts
 - `meetings/*.json`
+- `scripts/import_granicus_agenda_index.py`
+- ingest/transcription helpers under `scripts/`
 
-### Desired role
-- Establish the meeting ID and canonical metadata record
-- Download or reference source media for local processing
-- Preserve official URLs in meeting metadata for public linking
+### Output
+A canonical meeting metadata record that survives retries and supports publishing regardless of which transcript engine was used.
 
-## 2. Local diarization on Juggernaut GPU
+---
 
-### Purpose
-Run the heavier audio processing locally on Juggernaut rather than pushing everything through paid API calls.
+## 2. Local processing on Juggernaut GPU
 
-### Current repo pieces
+### Why Juggernaut
+- lower recurring costs than full API-first operation
+- better support for local diarization and embedding workflows
+- richer intermediate artifacts for review
+
+### Current code areas
 - `pipeline/src/prep_audio.py`
 - `pipeline/src/transcribe_faster_whisper.py`
 - `pipeline/src/diarize_pyannote.py`
 - `pipeline/docker/*`
 
-### Expected flow
-1. Pull meeting media or extract audio
-2. Normalize audio into a consistent working format
-3. Run transcription locally where appropriate
-4. Run diarization locally on GPU
-5. Save intermediate artifacts as files, not hidden state
+### Processing outputs
+- normalized audio
+- transcript JSON / aligned words
+- diarization segments
+- review clip candidates
+- embedding files
 
-### Constraints
-- container outputs must remain writable by the normal operator account
-- diarization output must be reviewable and versionable as an artifact
-- over-segmentation should be treated as a known failure mode
+These outputs are primarily operational and should remain on Juggernaut unless a compact reviewed subset is promoted into Git.
+
+---
 
 ## 3. Transcription path
 
-### Phase 1 expectation
-Preserve the current static site and prioritize auditable output over a full rewrite.
+## Decision
+Use the **WhisperX-first local flow** as the Phase 1 transcript engine, paired with local diarization and existing static-site publishing.
 
-### Likely near-term path
-- use the current repo/site structure as the publish target
-- use the best available local or API transcription path per meeting
-- keep transcript timing aligned with the public video
-- treat speaker naming as a separate review problem from raw text generation
+### Why this path
+- better fit for word-level alignment and later speaker review
+- better cost profile than using the older OpenAI Whisper path as the default
+- integrates naturally with local diarization and reference-clip workflows
+- does not require replacing the static site architecture
 
-### Decision principle
-Text quality, timestamps, and speaker attribution should be separable concerns. A transcript should not inherit speculative speaker names just because the text exists.
+### Non-decision
+The older OpenAI Whisper/static publish flow is not deleted, but it is not the official Phase 1 default.
+
+---
 
 ## 4. Speaker registry and reference clips
 
-### Purpose
-Create durable, reusable voice references for recurring speakers.
+### Goal
+Maintain a reusable voice registry for recurring officials and other manually approved speakers.
 
-### Current repo pieces
+### Current code areas
 - `speaker_registry/speakers.json`
 - `pipeline/src/extract_embedding.py`
 - `pipeline/src/speaker_registry.py`
@@ -82,98 +103,108 @@ Create durable, reusable voice references for recurring speakers.
 - `scripts/match_reference_embeddings.py`
 
 ### Required artifacts
-- manual speaker approvals
+- manual approval records
 - reference clips
-- embedding files
-- central reference voice registry
+- embedding JSON files
+- central reusable voice registry metadata
 
-### Key rule
-Only human-approved identities should enter the reusable voice registry.
+### Rule
+No identity should enter the reusable voice registry without explicit human approval.
+
+---
 
 ## 5. Review workflow for low-confidence speaker assignments
 
-### Principle
-Low-confidence assignments must never flow straight to the public site.
+### Public label policy
+- approved known speaker -> real name
+- likely public commenter but unverified -> `Public Comment Speaker`
+- unresolved / mixed / low-confidence -> `Unknown Speaker`
 
 ### Review stages
-1. Export long candidate clips per diarized speaker
-2. Build review sheets with transcript excerpts and timestamps
-3. Allow manual approval / rejection / mixed-audio marking
-4. Build or update reference embeddings from approved samples
-5. Match unresolved speakers against the registry conservatively
-6. Publish only accepted identities
+1. export diarized reference clips
+2. generate review sheet with timestamps and transcript excerpts
+3. mark each candidate as approved, rejected/mixed, or unresolved
+4. update reference registry from approved samples
+5. run conservative matching for future meetings or unresolved buckets
+6. publish only approved names
 
-### Output states
-- approved
-- rejected / mixed
-- unresolved / generic placeholder
+### Why this matters
+Transcript text quality and speaker identity quality are separate problems. The architecture must not assume that one being “mostly right” makes the other safe for publication.
 
-### Public behavior
-If confidence is low, the public site should show a generic or unknown label rather than a guessed real name.
+---
 
 ## 6. Artifact generation for static site publishing
 
-### Current repo pieces
+### Current code areas
 - `scripts/publish_meeting.py`
 - `scripts/build_verified_transcript_from_diarization.py`
-- `docs/transcripts/*`
 - `scripts/build_search_index.py`
+- `docs/transcripts/*`
 
 ### Publish artifacts
 - `docs/transcripts/<meeting_id>.html`
 - `docs/transcripts/<meeting_id>-data.js`
 - `docs/js/search-index.js`
-- meeting metadata in `meetings/<meeting_id>.json`
 
-### Phase 1 direction
-Keep the static Pages site, but improve how those artifacts are generated and reviewed.
+### Phase 1 rule
+Keep the current static Pages artifact model. Improve generation quality and review gates, not the public hosting architecture.
+
+---
 
 ## 7. Search/index strategy
 
 ### Current strategy
-Client-side search with a prebuilt JSON-style JS index generated from meeting metadata and transcript turns.
+Client-side search driven by a generated JS index.
 
-### Phase 1 strategy
-Keep this approach.
+### Phase 1 decision
+Keep the current prebuilt client-side search index.
 
-Reasons:
-- cheap to host
-- easy to audit
-- works well with GitHub Pages
-- avoids adding backend complexity too early
+### Why
+- zero backend requirement
+- easy to review in Git
+- consistent with static Pages hosting
+- good enough for current project size
 
-### Future strategy
-Revisit only if static search becomes too slow, too large, or too limited for the project’s needs.
+### Future trigger for change
+Only reconsider if corpus size, latency, or search quality clearly exceed what the static index can support.
+
+---
 
 ## 8. Deployment strategy
 
-### Current strategy
-- repo on GitHub
+### Current deployment
+- GitHub repo as release record
 - `main` branch
-- static Pages publish from `docs/`
+- GitHub Pages serving `docs/`
 
-### Phase 1 recommendation
-Retain this strategy.
+### Phase 1 decision
+Do not replace this deployment model.
 
-Reasons:
-- simplest possible public hosting
-- already working
-- low cost
-- easy rollback via Git
-- transparent history of public artifacts
+### Why
+- simplest rollback story
+- lowest hosting complexity
+- public outputs are transparent and versioned
+- aligns with the project’s auditability requirement
 
-### Operational note
-Heavy processing can continue to live on Juggernaut as long as the publish output remains deterministic and Git is treated as the public release record.
+---
 
-## Architecture decision summary
+## 9. Acceptance-test meeting
 
-For Phase 1, keep the public architecture static and Git-driven.
+### Decision
+Use **April 14, 2026 (`apr-14-2026`)** as the first end-to-end acceptance-test meeting.
 
-Invest effort in:
-- documentation
-- artifact discipline
-- reproducible local processing
-- review gates for speaker identity
-- reference voice registry growth
+### Why
+- already exercises the current workflow deeply
+- includes proclamation, public comment, council discussion, and staff sections
+- already surfaced the main failure modes that Phase 1 must solve
 
-Do not replace the public site architecture unless the static approach becomes a demonstrated blocker.
+---
+
+## Architecture summary
+
+The architecture is deliberately conservative:
+- **static site stays**
+- **local processing improves**
+- **speaker review becomes explicit**
+- **Git stores the reviewed public truth**
+- **Juggernaut stores the heavy operational working set**
