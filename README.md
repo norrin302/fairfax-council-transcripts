@@ -25,12 +25,15 @@ This project provides searchable, timestamped transcripts of Fairfax City Counci
 
 ## How Transcripts Are Generated
 
-1. **Download** - Meeting video downloaded from Granicus (Fairfax's official archive)
-2. **Extract Audio** - Convert to MP3 (Whisper has 25MB limit)
-3. **Transcribe** - OpenAI Whisper API processes the audio
-4. **Format** - Convert to HTML with timestamps, best-effort speaker labels, and section shortcuts
-5. **Index** - Build a client-side search index for cross-meeting search
-6. **Deploy** - Push to GitHub Pages
+Phase 1 pipeline:
+
+1. **Ingest** - Download meeting media from Granicus using a repeatable meeting-id based script
+2. **Normalize** - Convert source media on Juggernaut to canonical mono 16 kHz WAV
+3. **Transcribe** - Run local WhisperX-first transcription on Juggernaut
+4. **Diarize** - Run local diarization and keep raw intermediates for audit/debug
+5. **Structure** - Build `transcripts_structured/<meeting_id>.json` as the source of truth
+6. **Publish** - Generate static HTML, transcript JS, and search index from structured data
+7. **Deploy** - Push committed site artifacts to GitHub Pages
 
 ## Project Structure
 
@@ -51,38 +54,34 @@ fairfax-council-transcripts/
 
 ## Adding a New Meeting
 
-0. (One-time) set up Python deps:
+0. One-time setup:
    ```bash
    python3 -m venv .venv
    source .venv/bin/activate
    pip install -r requirements.txt
    ```
-1. Find the meeting on [Fairfax Granicus](https://fairfax.granicus.com/)
-2. Run transcription (downloads + transcribes from Granicus):
+1. Add or verify `meetings/<meeting_id>.json`
+2. Ingest from Granicus to Juggernaut local storage:
    ```bash
-   python3 scripts/transcribe.py "https://fairfax.granicus.com/player/clip/4519" --meeting-id <meeting_id> --output .
+   python3 scripts/phase1_ingest.py "<granicus_clip_url>" --meeting-id <meeting_id> --work-root /mnt/disk1/fairfax-phase1/work --format audio
    ```
-3. Publish the meeting to the static site:
-    - Create `meetings/<meeting_id>.json` (meeting metadata + sections + official links)
-    - Optional: auto-import official agenda index points (times + labels) from Granicus into `sections`:
-      ```bash
-      python3 scripts/import_granicus_agenda_index.py <meeting_id>
-      ```
-    - Generate the transcript page + turns JS from Whisper JSON:
-      ```bash
-      python3 scripts/publish_meeting.py <meeting_id> --input transcripts/<meeting_id>_complete.json
-      ```
-    - (Optional) If needed, update homepage copy in `docs/index.html`.
-   
-   (Automation is planned, but today this step is partially manual.)
-4. Commit and push
+3. Run the Phase 1 local pipeline on Juggernaut:
+   ```bash
+   python3 scripts/run_phase1_local_pipeline.py <meeting_id> --work-root /mnt/disk1/fairfax-phase1/work --hf-token-file ~/secrets/hf_token.txt
+   ```
+4. Review unresolved speakers if needed via `approvals/<meeting_id>.json`
+5. Re-run publish if approvals changed:
+   ```bash
+   python3 scripts/publish_structured_meeting.py <meeting_id> --structured transcripts_structured/<meeting_id>.json
+   ```
+6. Commit and push published/code artifacts only
 
 ## Architecture
 
 - **Frontend**: Static HTML/CSS/JS on GitHub Pages
 - **Search**: Client-side JavaScript with pre-built search index
 - **Index build**: `scripts/build_search_index.py` reads `meetings/*.json` + transcript turn data
-- **Transcription**: OpenAI Whisper API
+- **Transcription**: Local WhisperX-first on Juggernaut for Phase 1
 - **Hosting**: GitHub Pages (free, reliable)
 - **Video Links**: Direct to Granicus (city's official archive)
 
