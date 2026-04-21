@@ -15,9 +15,11 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Opening call-to-order text appears usable, but diarization did not resolve a speaker. Keep conservative unless formally approved.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000002",
@@ -98,10 +100,12 @@
       "text": "Thank You mayor I'm honored to be your representative to Representative to the Fairfax County Public Library Board of Trustees. I'm in my second year as chairman of the board Fortunately, you can only serve two years. So I'll be turning it over to somebody in July, but it's a real honor and Some of you may know my career was at the Fairfax City Regional Library And so this is just a continuation of what I did for many years and I wanted to interview Deuce our library director Eric Carzon Elena corals is the branch manager at City of Fairfax and Jackie Consolvo is the head of the circulation department So when you go into the library next week to celebrate National Library Week",
       "speaker_raw": "SPEAKER_19",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "mixed",
-      "needs_review": true,
-      "review_reason": "mixed_or_rejected_audio",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Mixed diarization block. Leave unnamed on public site.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000009",
@@ -3639,9 +3643,11 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Public Comment Speaker",
       "speaker_status": "public_comment_unverified",
-      "needs_review": true,
-      "review_reason": "unverified_public_comment",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:mark_public_comment",
+      "confidence": null,
+      "reviewer_notes": "Roll-call style prompt to an unverified commenter should remain generic, not a named official.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000304",

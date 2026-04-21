@@ -62,6 +62,8 @@ def main() -> int:
                 "end": turn.get("end"),
                 "text": text,
                 "word_count": len(text.split()),
+                "final_reviewer_action": "pending",
+                "final_reviewer_notes": "",
                 "context": context,
             }
         )
@@ -70,6 +72,15 @@ def main() -> int:
         "schema": "fairfax.review_queue.v1",
         "meeting_id": args.meeting_id,
         "structured_source": args.structured,
+        "allowed_reviewer_actions": [
+            "pending",
+            "keep_unknown",
+            "mark_public_comment",
+            "approve_named_official",
+            "correct_text",
+            "suppress_turn",
+            "hold_back_text",
+        ],
         "items": items,
     }
 

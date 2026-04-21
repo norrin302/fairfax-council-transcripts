@@ -63,9 +63,38 @@ python3 scripts/publish_structured_meeting.py apr-14-2026 \
 python3 scripts/import_granicus_agenda_index.py apr-14-2026
 ```
 
-### Manual speaker review policy
+### Manual review workflow
 
-If `approvals/apr-14-2026.json` is incomplete or absent, unresolved speakers stay `Unknown Speaker` on the public site.
+Generate the review queue:
+
+```bash
+python3 scripts/build_review_queue.py apr-14-2026 \
+  --structured transcripts_structured/apr-14-2026.json \
+  --out reviews/apr-14-2026-review-queue.json
+```
+
+Export and edit reviewer decisions:
+
+```bash
+python3 scripts/export_review_template.py apr-14-2026 \
+  --queue reviews/apr-14-2026-review-queue.json \
+  --out reviews/apr-14-2026-review-decisions.json
+```
+
+Apply decisions and rebuild:
+
+```bash
+python3 scripts/apply_review_decisions.py apr-14-2026 \
+  --structured transcripts_structured/apr-14-2026.json \
+  --decisions reviews/apr-14-2026-review-decisions.json
+
+python3 scripts/publish_structured_meeting.py apr-14-2026 \
+  --structured transcripts_structured/apr-14-2026.json
+
+python3 scripts/validate_site.py
+```
+
+If approvals or review decisions are incomplete, unresolved speakers stay conservative on the public site.
 
 ### Legacy Whisper API path
 

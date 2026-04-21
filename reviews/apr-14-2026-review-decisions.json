@@ -1,0 +1,35 @@
+{
+  "schema": "fairfax.review_decisions.v1",
+  "meeting_id": "apr-14-2026",
+  "status": "draft",
+  "notes": "Canonical human review decisions for apr-14-2026. Edit reviewer_action fields and optional overrides, then apply with scripts/apply_review_decisions.py.",
+  "decisions": [
+    {
+      "turn_id": "turn_000001",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Opening call-to-order text appears usable, but diarization did not resolve a speaker. Keep conservative unless formally approved."
+    },
+    {
+      "turn_id": "turn_000008",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Mixed diarization block. Leave unnamed on public site."
+    },
+    {
+      "turn_id": "turn_000303",
+      "reviewer_action": "mark_public_comment",
+      "speaker_public_override": "Public Comment Speaker",
+      "speaker_status_override": "public_comment_unverified",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Roll-call style prompt to an unverified commenter should remain generic, not a named official."
+    }
+  ]
+}

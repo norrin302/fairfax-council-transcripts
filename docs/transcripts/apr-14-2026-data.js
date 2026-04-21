@@ -4,7 +4,7 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Unknown Speaker",
     "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
+    "speaker_source_detail": "reviewed:keep_unknown",
     "start": 60.0,
     "end": 72.44,
     "text": "Would like to call the regular meeting of April 14th 2026 to order. It's good to see the chamber full We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the Pledge of Allegiance"
@@ -59,8 +59,8 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "speaker": "Unknown Speaker",
-    "speaker_source": "mixed",
-    "speaker_source_detail": "mixed_or_rejected_audio",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "reviewed:keep_unknown",
     "start": 265.04,
     "end": 311.96,
     "text": "Thank You mayor I'm honored to be your representative to Representative to the Fairfax County Public Library Board of Trustees. I'm in my second year as chairman of the board Fortunately, you can only serve two years. So I'll be turning it over to somebody in July, but it's a real honor and Some of you may know my career was at the Fairfax City Regional Library And so this is just a continuation of what I did for many years and I wanted to interview Deuce our library director Eric Carzon Elena corals is the branch manager at City of Fairfax and Jackie Consolvo is the head of the circulation department So when you go into the library next week to celebrate National Library Week"
@@ -2420,7 +2420,7 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Public Comment Speaker",
     "speaker_source": "public_comment_unverified",
-    "speaker_source_detail": "unverified_public_comment",
+    "speaker_source_detail": "reviewed:mark_public_comment",
     "start": 4723.86,
     "end": 4725.86,
     "text": "Ms. Shinaberry?"

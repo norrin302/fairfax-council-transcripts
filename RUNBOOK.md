@@ -117,10 +117,11 @@ Local-only artifacts kept on Juggernaut:
 Default approval input:
 - `approvals/<meeting_id>.json`
 
-Lightweight review queue output:
+Canonical review artifacts:
 - `reviews/<meeting_id>-review-queue.json`
+- `reviews/<meeting_id>-review-decisions.json`
 
-Generate it with:
+Generate the queue:
 
 ```bash
 python3 scripts/build_review_queue.py <meeting_id> \
@@ -128,9 +129,36 @@ python3 scripts/build_review_queue.py <meeting_id> \
   --out reviews/<meeting_id>-review-queue.json
 ```
 
+Export a reviewer decisions template:
+
+```bash
+python3 scripts/export_review_template.py <meeting_id> \
+  --queue reviews/<meeting_id>-review-queue.json \
+  --out reviews/<meeting_id>-review-decisions.json
+```
+
+Apply reviewer decisions:
+
+```bash
+python3 scripts/apply_review_decisions.py <meeting_id> \
+  --structured transcripts_structured/<meeting_id>.json \
+  --decisions reviews/<meeting_id>-review-decisions.json
+```
+
+Then regenerate public output:
+
+```bash
+python3 scripts/publish_structured_meeting.py <meeting_id> \
+  --structured transcripts_structured/<meeting_id>.json
+
+python3 scripts/validate_site.py
+```
+
 Policy:
 - only `status: approved` with a real `name` may publish a person name
-- `rejected_*`, `mixed`, missing approvals, and unknown diarization all publish as `Unknown Speaker`
+- likely public commenters without verified identity may publish as `Public Comment Speaker`
+- `rejected_*`, `mixed`, missing approvals, and unknown diarization stay conservative
+- reviewer text changes must not invent wording
 
 If approvals are not ready yet, the pipeline still succeeds, but unresolved speakers stay conservative on the public site.
 
