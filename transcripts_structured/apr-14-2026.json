@@ -2764,12 +2764,13 @@
       "end": 3939.68,
       "text": "Our residents applied for these roles in good faith",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Councilmember Rachel McQuillen",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000240",
@@ -2789,12 +2790,13 @@
       "end": 3959.12,
       "text": "We should respect the process, vote, and move forward. That's how I feel. Thank you. Council Member Hall",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Councilmember Rachel McQuillen",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000242",
@@ -2814,11 +2816,12 @@
       "end": 4010.16,
       "text": "Or different thing. But I still think that this is very messy",
       "speaker_raw": "SPEAKER_27",
-      "speaker_public": "Councilmember Stacy Hall",
+      "speaker_public": "Councilmember Rachel McQuillen",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewed": true
     },
     {
       "turn_id": "turn_000244",
@@ -2826,12 +2829,13 @@
       "end": 4013.28,
       "text": "And think that we are in a situation",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Councilmember Rachel McQuillen",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000245",
@@ -2839,11 +2843,12 @@
       "end": 4017.0,
       "text": "Where we are at a split vote",
       "speaker_raw": "SPEAKER_27",
-      "speaker_public": "Councilmember Stacy Hall",
+      "speaker_public": "Councilmember Rachel McQuillen",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewed": true
     },
     {
       "turn_id": "turn_000246",
@@ -2851,12 +2856,13 @@
       "end": 4021.68,
       "text": "And unfortunately, math often is",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Councilmember Rachel McQuillen",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000247",
@@ -2893,7 +2899,8 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000250",
@@ -2901,12 +2908,13 @@
       "end": 4107.08,
       "text": "Excluding her husband?",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Councilmember Anthony Amos",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000251",
@@ -2914,12 +2922,13 @@
       "end": 4117.04,
       "text": "So one of the nice things about the State and Local Government Conflict of Interest Act is that decision is left to the individual member",
       "speaker_raw": "SPEAKER_25",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Councilmember Anthony Amos",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000252",
@@ -2927,12 +2936,13 @@
       "end": 4145.2,
       "text": "Have my opinions as to whether it's appropriate for a member to vote for a position in which his or her husband, family member is a candidate. will say, think the answer to that question is not really a legal one. So Council Member Hardy-Chandler is taking her own counsel on this, and that is all will say on that",
       "speaker_raw": "SPEAKER_25",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Councilmember Anthony Amos",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000253",
@@ -2943,8 +2953,9 @@
       "speaker_public": "Councilmember Anthony Amos",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewed": true
     },
     {
       "turn_id": "turn_000254",

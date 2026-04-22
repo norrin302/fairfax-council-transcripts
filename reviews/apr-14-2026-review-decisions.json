@@ -915,75 +915,75 @@
     },
     {
       "turn_id": "turn_000239",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Rachel McQuillen",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Bounded by McQuillen turns at 3940s/3947s; CM MCQUILLEN confirmed at dais in adjacent frame"
     },
     {
       "turn_id": "turn_000241",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Rachel McQuillen",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "CM MCQUILLEN at dais confirmed (frame 3947s close-up); bracketed by McQuillen"
     },
     {
       "turn_id": "turn_000244",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Rachel McQuillen",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Bounded by McQuillen cluster"
     },
     {
       "turn_id": "turn_000246",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Rachel McQuillen",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Bounded by McQuillen cluster"
     },
     {
       "turn_id": "turn_000249",
       "reviewer_action": "approve_named_official",
-      "speaker_public_override": "",
+      "speaker_public_override": "Councilmember Anthony Amos",
       "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+      "notes": "CM AMOS at dais confirmed (frame at 4105s); Amos asking conflict of interest questions"
     },
     {
       "turn_id": "turn_000250",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Anthony Amos",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Amos continuation; bracketed by Amos"
     },
     {
       "turn_id": "turn_000251",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Anthony Amos",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+      "notes": "Amos continuation; bracketed by Amos"
     },
     {
       "turn_id": "turn_000252",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Anthony Amos",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+      "notes": "Amos continuation; bracketed by Amos"
     },
     {
       "turn_id": "turn_000254",

@@ -1738,9 +1738,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Let me recognize Council Member McQuillan"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Councilmember Rachel McQuillen",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 3934.28,
     "end": 3939.68,
     "text": "Our residents applied for these roles in good faith"
@@ -1754,9 +1754,9 @@ const TRANSCRIPT_TURNS = [
     "text": "They interviewed in good faith. Council discusses these applications through the established process"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Councilmember Rachel McQuillen",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 3946.92,
     "end": 3959.12,
     "text": "We should respect the process, vote, and move forward. That's how I feel. Thank you. Council Member Hall"
@@ -1770,33 +1770,33 @@ const TRANSCRIPT_TURNS = [
     "text": "Also think that we have taken a very, very long time, especially on this one item. There are two people that are currently serving in this role who are now one year beyond their designated term. And I do not and have not thought that it was appropriate that they continue to serve simply because this council can't come to an agreement. And think we had what I thought was a very productive meeting a few weeks ago, where we came out with two names that you can see on the motion. And I understand that maybe you have a different thought now, that you understand maybe you can vote on a different spot"
   },
   {
-    "speaker": "Councilmember Stacy Hall",
+    "speaker": "Councilmember Rachel McQuillen",
     "speaker_source": "approved",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 4004.96,
     "end": 4010.16,
     "text": "Or different thing. But I still think that this is very messy"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Councilmember Rachel McQuillen",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 4010.16,
     "end": 4013.28,
     "text": "And think that we are in a situation"
   },
   {
-    "speaker": "Councilmember Stacy Hall",
+    "speaker": "Councilmember Rachel McQuillen",
     "speaker_source": "approved",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 4013.28,
     "end": 4017.0,
     "text": "Where we are at a split vote"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Councilmember Rachel McQuillen",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 4017.0,
     "end": 4021.68,
     "text": "And unfortunately, math often is"
@@ -1826,25 +1826,25 @@ const TRANSCRIPT_TURNS = [
     "text": "So when the initial discussion happened in March, I was clearly not here for that towards the end since I was out of the country. I got back on my understanding, was there supposed to be a recusal? And I really think, for me, there's only one question that really needs to be answered, and that would probably come from our city attorney, is that, per your review, should Council Member Hardy-Chandler have been included in the vote for two of the appointees"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Councilmember Anthony Amos",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 4105.0,
     "end": 4107.08,
     "text": "Excluding her husband?"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Councilmember Anthony Amos",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 4107.08,
     "end": 4117.04,
     "text": "So one of the nice things about the State and Local Government Conflict of Interest Act is that decision is left to the individual member"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Councilmember Anthony Amos",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 4120.16,
     "end": 4145.2,
     "text": "Have my opinions as to whether it's appropriate for a member to vote for a position in which his or her husband, family member is a candidate. will say, think the answer to that question is not really a legal one. So Council Member Hardy-Chandler is taking her own counsel on this, and that is all will say on that"
@@ -1852,7 +1852,7 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Councilmember Anthony Amos",
     "speaker_source": "approved",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 4145.2,
     "end": 4153.68,
     "text": "Thank you. So to follow up on that, I completely understand that this is a frustrating circumstance and has been for some time"
