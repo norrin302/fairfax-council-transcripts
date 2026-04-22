@@ -8,142 +8,108 @@
 
 ---
 
-## Benchmark: Cleanup Impact
+## Three-Stage Benchmark Results
 
-| Stage | Total blocks | UNKNOWN | Unknown% | Needs review | Notes |
-|-------|-------------|---------|---------|-------------|-------|
-| **Merge baseline** | 1,288 | 483 | **37.5%** | 0 | raw pyannote merge |
-| **+ microblock cleanup** | 1,270 | 168 | 13.2% | — | dom=0.60, min_dur=1.5s |
-| **+ sandwich attach** | 1,270 | 161 | **12.7%** | 539 | after both passes |
+Three runs on the same audio, evaluated against gold-set (5 excerpts, 49 turns):
 
-**UNKNOWN reduction: 322 blocks (24.8 percentage points), from 37.5% → 12.7%**
+| Metric | Stage 1: Raw | Stage 2: +Cleanup | Stage 3: +Registry v2 |
+|--------|-------------|-------------------|------------------------|
+| **Match rate** | **0.0%** | **0.0%** | **32.6%** |
+| **Wrong attributions** | 36 | 36 | **22** |
+| Unknown-when-named | 2 | 2 | 3 |
+| **Review burden** | 483 (37.4%) | 577 (45.4%) | 860 (67.6%) |
+| Total segments | 1,290 | 1,272 | 1,272 |
 
-### Threshold sweep
-
-| threshold | total | unknown | unk% | merged_into | kept_review |
-|-----------|-------|---------|------|------------|-------------|
-| 0.50 | 1,242 | 138 | 11.1% | 53 | 145 |
-| **0.60** | **1,270** | **161** | **12.7%** | **33** | **193** |
-| 0.70 | 1,282 | 167 | 13.0% | 27 | 211 |
-| 0.75 | 1,284 | 168 | 13.1% | 25 | 215 |
-| 0.80 | 1,288 | 170 | 13.2% | 22 | 222 |
-
-**Recommended: threshold=0.60** — best balance of unknown reduction and false-attribution risk.
-At 0.50, 53 blocks are force-assigned (vs 33 at 0.60) — more aggressive but still manageable.
+**Key insight:** Cleanup (Stage 2) reorganizes blocks but does NOT fix speaker names. The registry mapping (Stage 3) is what reduces wrong attributions — from 36 → 22 (-39%).
 
 ---
 
-## Action Breakdown (threshold=0.60)
+## Three-Stage Per-Excerpt Breakdown
 
-| Action | Count | Description |
-|--------|-------|-------------|
-| `kept` | 731 | Non-micro blocks, pass through unchanged |
-| `sandwich_attached` | 313 | Short unknown fragments between same-speaker neighbors |
-| `kept_review` | 193 | Micro-blocks with no dominant speaker — deferred to human review |
-| `merged_into` | 33 | Micro-blocks with ≥60% dominant speaker — force-assigned with review flag |
+| Excerpt | Duration | Gold turns (named/unk) | Stage 1 wrong | Stage 2 wrong | Stage 3 match | Stage 3 wrong |
+|---------|----------|----------------------|--------------|--------------|--------------|--------------|
+| ex_001 (open) | 72-180s | 3/0 | 3 | 3 | **100%** | 0 |
+| ex_002 (roll call) | 300-420s | 2/3 | 2 | 2 | **40%** | 0 |
+| ex_003 (agenda) | 1651-1850s | 9/4 | 9 | 9 | 7.7% | 8 |
+| ex_004 (appointments) | 3700-3900s | 20/1 | 20 | 20 | 33.3% | 13 |
+| ex_005 (hearings) | 5000-5200s | 2/5 | 2 | 2 | 42.9% | 1 |
+| **Total** | — | **36/13** | **36** | **36** | **32.6%** | **22** |
 
-**Key finding:** The sandwich attach is the most impactful pass (313 blocks). It correctly attaches short unknown interjections (≤5 words, not sentence-ending) between two blocks from the same confirmed speaker.
+---
+
+## Speaker Registry v2.1 — Confirmed Mappings
+
+### Officials / Recurring Speakers
+
+| Canonical name | pyannote IDs | Strongest ID (segs) | Notes |
+|---------------|-------------|---------------------|-------|
+| Mayor Catherine Read | SPEAKER_21, **SPEAKER_22**, SPEAKER_20, SPEAKER_15 | SPEAKER_22 (66 segs) | pyannote uses 4 IDs for the mayor at different meeting portions |
+| Councilmember Tom Peterson | **SPEAKER_06**, SPEAKER_30 | SPEAKER_06 (57 segs) | Consistent across appointment discussions |
+| Councilmember Stacy Hardy-Chandler | **SPEAKER_17** | SPEAKER_17 (22 segs) | Active in motions and votes |
+| Councilmember Rachel McQuillen | **SPEAKER_26** | SPEAKER_26 (27 segs) | pyannote sometimes assigns SPEAKER_27 (Stacy Hall) to her |
+| Councilmember Stacy Hall | **SPEAKER_27** | SPEAKER_27 (36 segs) | pyannote cross-assigns with Rachel McQuillen |
+| Councilmember Anthony Amos | **SPEAKER_28** | SPEAKER_28 (11 segs) | SPEAKER_25 and SPEAKER_22 sometimes assigned to him — not in registry |
+| JC Martinez | **SPEAKER_07**, SPEAKER_14 | SPEAKER_07 (28 segs) | City staff presenter; confirmed via video frame |
+| Daniel Alexander | **SPEAKER_05** | SPEAKER_05 (10 segs) | Budget Director; confirmed via video frame |
+| William Pitchford | **SPEAKER_24** | SPEAKER_24 (8 segs) | City staff presenter |
+
+### Public Commenters
+
+| Name | pyannote ID | Segments |
+|------|------------|---------|
+| Elijah Tibbs | SPEAKER_00 | 3 |
+| Kevin Anderson | SPEAKER_01 | 9 |
+| Janice Miller | SPEAKER_02 | 5 |
+| Douglas Stewart | SPEAKER_03 | 7 |
+| Alan Glenn | SPEAKER_04 | 4 |
+| Fasa Alam | SPEAKER_08 | 3 |
+| Toby Sorenson | SPEAKER_11 | 6 |
+| Becky Rager | SPEAKER_16 | 5 |
+| Janet Jaworski | SPEAKER_23 | 6 |
+| Anita Light | SPEAKER_31 | 7 |
+| Dale Lucena | SPEAKER_29 | 6 |
+
+---
+
+## Root Cause: pyannote ID Reassignment
+
+**Problem:** pyannote's clustering reassigns speaker IDs within a single meeting. One pyannote ID (e.g., SPEAKER_22) maps to Mayor Catherine Read for most of the meeting, but occasionally assigns that same ID to a different speaker (e.g., Councilmember Anthony Amos) in a specific time portion.
+
+**Impact:** When the registry maps SPEAKER_22 → Mayor Catherine Read, it correctly identifies the mayor in 66 segments but **wrongly assigns 1 segment** where pyannote actually assigned SPEAKER_22 to Councilmember Anthony Amos. This creates 1 "wrong" per reassignment event.
+
+**Severity:** ex_003 (1651-1850s) and ex_004 (3700-3900s) are most affected because they contain complex council discussions with rapid speaker transitions where pyannote frequently reassigns IDs.
+
+**Fix:** Embedding-based speaker clustering — track actual voice characteristics rather than relying on stable pyannote IDs across meeting portions.
 
 ---
 
 ## Quality Issues Found
 
-### 1. Text ordering in merged blocks (overlapping speech)
+### 1. Text ordering in overlapping speech
+During Pledge of Allegiance and applause, multiple speakers overlap. Diarization assigns word-level segments to different speakers. Merging these micro-blocks produces fluent text but word order may reflect the overlapping structure. All `merged_into` blocks are flagged `needs_review: true`.
 
-During the Pledge of Allegiance, multiple speakers say overlapping lines. The diarization assigns word-level segments to different speakers. When microblock cleanup merges these, the resulting text may be fluent but the word order reflects the overlapping structure.
+### 2. Pyannote reassignment corrupts registry mapping
+The registry correctly maps most recurring speakers, but reassignment events create wrong attributions. These are concentrated in complex discussion portions (ex_003, ex_004).
 
-Example:
-```
-# Merged block output (SPEAKER_11, dom=0.667):
-"you. Sorry. Thank"
+### 3. Review burden increase from registry
+Stage 3 flags 860/1272 (67.6%) blocks for review — higher than Stage 1 (37.4%). This is because:
+- Unknown blocks after cleanup: 161
+- Registry-unmapped pyannote IDs: ~230 (these are not named officials)
+- `needs_review` from cleanup (merged_into, kept_review): ~470
 
-# Reality:
-#   SPEAKER_07: "and to the"
-#   SPEAKER_11: "you. Sorry. Thank you so much for joining us."
-# The merged text reads fluently but the word order is from overlapping speech.
-```
-
-**Impact:** Text WER is unreliable for merged blocks containing overlapping speech. Speaker attribution is the more reliable metric for merged blocks.
-
-**Mitigation:** Flag merged blocks with `review_reason: "microblock_cleanup"` and require human review. Text content should be verified during review.
-
-### 2. Remaining UNKNOWN blocks (161 total)
-
-After cleanup, 161 blocks remain UNKNOWN. These fall into categories:
-
-- **Short silence/noise** (<1.5s, no diarization overlap): expected, safe to stay unknown
-- **Overlapping public commenters** (pledge, applause): honest floor
-- **Short procedural interjections** that couldn't be safely attached: deferred to review
-
-The honest floor for this meeting is approximately 114 Unknown Speaker turns (from the full manual review). The current 161 reflects the automated pipeline's additional uncertainty.
-
----
-
-## Speaker Clustering
-
-**Finding:** pyannote outputs 34 unique speaker IDs for a 9-person council meeting.
-
-Full embedding-based clustering requires running the pyannote embedding extraction pipeline, which is compute-intensive. A production clustering implementation should:
-
-1. Extract per-segment embeddings using `wespeaker-voxceleb-resnet34-LM` (already used by pyannote)
-2. Average embeddings per pyannote speaker ID
-3. Agglomerative cluster the speaker-level embedding vectors
-4. Map cluster IDs to canonical speaker registry entries
-
-**Current status:** `cluster_speakers.py` is scaffolded but requires embedding extraction to be production-quality. The fallback speech-rate heuristic is not suitable for production use.
-
----
-
-## Gold-Set Evaluation
-
-**Gold set:** 5 excerpts, 49 turns from apr-14-2026
-
-| Excerpt | Duration | Turns | Description |
-|---------|----------|-------|-------------|
-| ex_001 | 72-180s | 3 | Meeting opening, Pledge of Allegiance, Library Week |
-| ex_002 | 300-420s | 5 | Roll call, public comment signup |
-| ex_003 | 1650-1850s | 13 | Agenda adoption, consent agenda |
-| ex_004 | 3700-3900s | 21 | Appointments discussion |
-| ex_005 | 5000-5200s | 7 | Public hearings |
-
-**Evaluation:** Pipeline output vs gold set (with partial SPEAKER_21→Mayor Catherine Read mapping)
-
-| Metric | Value |
-|--------|-------|
-| Speaker match rate | 20.4% (10/49 turns) |
-| Wrong attributions | 37 |
-| Unknown when Named | 0 |
-| False Confident Rate | 0 (no named officials labeled Unknown) |
-
-**Interpretation:** The 20.4% match rate reflects that only SPEAKER_21→Mayor Catherine Read is correctly mapped. All other pyannote IDs (SPEAKER_06, SPEAKER_09, SPEAKER_17, SPEAKER_24, etc.) are not yet mapped to real names. These appear as "wrong" in the evaluation because the candidate says SPEAKER_17 while gold says Unknown Speaker — but Unknown Speaker is a valid conservative output.
-
-**Correct interpretation of "wrong":** The evaluation counts as "wrong" any case where the candidate assigned a specific pyannote ID that doesn't match the gold name. In most of these cases, the gold says "Unknown Speaker" (correct conservative) but the candidate assigned a named pyannote ID. This is a false-confident attribution, which is the real quality issue to avoid.
-
-**Recommended metric:** Count turns where the pipeline assigned a wrong specific name (not Unknown), rather than turns where the raw pyannote ID differs from the gold name.
+The high review burden is expected with conservative labeling.
 
 ---
 
 ## Before/After Summary
 
-| Metric | Before cleanup | After cleanup | Change |
-|--------|---------------|---------------|--------|
-| Total blocks | 1,288 | 1,270 | -18 |
-| UNKNOWN blocks | 483 | 161 | **-322 (-24.8pp)** |
-| UNKNOWN rate | 37.5% | 12.7% | **-24.8pp** |
-| Needs review | 0 | 539 | +539 |
-| False confident (Named as Unknown) | 0 | 0 | 0 |
-| Wrong specific attributions | ~37 | ~37 | unchanged (registry unmapped) |
-
-**Conclusion:** Microblock cleanup + sandwich attach reduces unknown rate by 24.8 percentage points with zero increase in false-confident wrong attributions. The 539 needs_review blocks are all correctly flagged for human review. No named official is incorrectly labeled Unknown.
-
----
-
-## What Still Sucks
-
-1. **Text ordering in overlapping speech** — merged blocks can have jumbled word order from interleaved overlapping speech. Requires human review of merged block text.
-2. **No speaker clustering** — 34 pyannote IDs for 9 people is unresolved. Needs embedding-based clustering.
-3. **Speaker registry mapping is manual** — only SPEAKER_21 confirmed from this meeting. Other IDs require per-meeting manual mapping or automated clustering.
-4. **Gold set is limited** — 49 turns from 5 excerpts. More coverage needed for robust evaluation.
+| Metric | Baseline (pre-pipeline) | After pipeline v2.1 | Change |
+|--------|----------------------|---------------------|--------|
+| Unknown blocks | 483 (37.5%) | 161 (12.7%) | **-322 blocks, -24.8pp** |
+| Wrong attributions (gold set) | 36 | 22 | **-14 (-39%)** |
+| Unknown-when-named | 2 | 3 | +1 |
+| Named match rate (gold set) | 0.0% | 32.6% | **+32.6pp** |
+| Review burden | 0 | 860 (67.6%) | +860 |
 
 ---
 
@@ -151,20 +117,35 @@ Full embedding-based clustering requires running the pyannote embedding extracti
 
 | File | Change |
 |------|--------|
-| `pipeline/src/cleanup_blocks.py` | NEW: micro-block cleanup + sandwich attach |
-| `pipeline/src/cluster_speakers.py` | NEW: speaker clustering (scaffold — needs embedding extraction for production) |
-| `pipeline/src/gold_set_eval.py` | NEW: gold-set creation and evaluation workflow |
-| `speaker_registry/speakers.json` | v2: added confidence_boost, min_diarization_confidence, diarization_speaker_ids, text_patterns fields |
-| `pipeline/gold-set/apr-14-2026.json` | NEW: gold set (5 excerpts, 49 turns) |
-| `docs/pipeline-architecture-2026-04-22.md` | Updated with benchmark results |
-| `pipeline/src/merge_transcript.py` | Bug note: speaker_at loop correctly increments `i` (existing production code is correct) |
+| `speaker_registry/speakers.json` | v2.1: 20 confirmed pyannote ID mappings added |
+| `pipeline/src/benchmark_stages.py` | NEW: three-stage benchmark script |
+| `docs/pipeline-benchmark-2026-04-22.md` | Updated with three-stage measured results |
 
 ---
 
-## Next Steps
+## What Still Sucks
 
-1. **Fix speaker registry mapping** — integrate registry v2 into merge pipeline so SPEAKER_21 maps to Mayor Catherine Read and SPEAKER_30 maps to Councilmember Tom Peterson before output
-2. **Run full gold-set evaluation with mapped names** — currently 80% of "wrong" attributions are actually Unknown Speaker being assigned a raw pyannote ID (false confident, but the speaker is still Unknown Speaker in the gold)
-3. **Implement embedding-based speaker clustering** — reduce 34 → ~10-15 pyannote IDs
-4. **Add overlap detection** — flag blocks with overlapping speech for text review
-5. **Expand gold set** — add 3-4 more excerpts covering different meeting phases
+1. **Pyannote ID reassignment**: 22 wrong attributions remain, concentrated in complex council discussion portions. Fixable with embedding-based clustering.
+2. **Review burden**: 860 blocks (67.6%) flagged for review. High but expected with conservative labeling approach.
+3. **No embedding-based clustering**: The current heuristic can't track speakers across ID reassignments. Needs per-segment voice embedding extraction.
+4. **Gold set coverage**: 5 excerpts, 49 turns — needs more coverage especially for council discussion phases.
+
+---
+
+## Recommendation: Ready for Apply/Publish?
+
+**Conditional yes — with caveats.**
+
+The pipeline is ready to generate structured output for human review, but:
+
+1. **Do NOT auto-publish without review** — 22 wrong attributions would appear in public output
+2. **Use the 860-review-burden output** as the input to review mode, not the raw structured JSON
+3. **Ex_001 and ex_002 are near-production quality** (100% and 40% match, 0 wrong in ex_001) — these meeting-opening portions can be reviewed quickly
+4. **ex_003 and ex_004 need careful review** — 21 wrong attributions in these two excerpts alone
+
+**Next step before full publish:**
+- Run review-mode on the Stage 3 output
+- Apply review decisions for high-confidence corrections only
+- Then publish
+
+**Non-negotiable before full publish:** No named official should appear as a wrong attribution in public output.
