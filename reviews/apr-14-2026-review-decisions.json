@@ -1,0 +1,2924 @@
+{
+  "schema": "fairfax.review_decisions.v1",
+  "meeting_id": "apr-14-2026",
+  "status": "draft",
+  "source_queue": "reviews/apr-14-2026-review-queue.json",
+  "allowed_actions": [
+    "pending",
+    "keep_unknown",
+    "mark_public_comment",
+    "approve_named_official",
+    "correct_text",
+    "suppress_turn",
+    "hold_back_text"
+  ],
+  "decisions": [
+    {
+      "turn_id": "turn_000001",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Opening call-to-order continuation; strongly supported by adjacent approved mayor context."
+    },
+    {
+      "turn_id": "turn_000002",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Library proclamation intro; adjacent approved mayor context."
+    },
+    {
+      "turn_id": "turn_000003",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of mayor proclamation text; same speaker context."
+    },
+    {
+      "turn_id": "turn_000008",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Likely library representative, but this turn does not self-identify clearly enough to promote to a real name."
+    },
+    {
+      "turn_id": "turn_000023",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Fasa Alam",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Clear continuation of immediately prior approved Fasa Alam ESC / Solarize remarks."
+    },
+    {
+      "turn_id": "turn_000042",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janet Jaworski",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Clear continuation of adjacent approved Janet Jaworski remarks."
+    },
+    {
+      "turn_id": "turn_000098",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Procedural roll-call continuation grouped with adjacent approved mayor turns. Slightly messy merge, but acceptable if kept consistent."
+    },
+    {
+      "turn_id": "turn_000099",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Procedural transition into public comment; adjacent approved mayor context."
+    },
+    {
+      "turn_id": "turn_000101",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Anita Light",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Speaker self-identifies in this turn as Anita Light; safe approval."
+    },
+    {
+      "turn_id": "turn_000103",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Anita Light",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Tiny split fragment clearly continuing Anita Light’s already identified remarks."
+    },
+    {
+      "turn_id": "turn_000105",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Anita Light",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of Anita Light remarks; same speech block."
+    },
+    {
+      "turn_id": "turn_000121",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Kevin Anderson",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "No-diarization fragment embedded inside adjacent approved Kevin Anderson remarks."
+    },
+    {
+      "turn_id": "turn_000123",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Kevin Anderson",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation fragment inside approved Kevin Anderson speech."
+    },
+    {
+      "turn_id": "turn_000125",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Kevin Anderson",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "No-diarization continuation of Kevin Anderson block."
+    },
+    {
+      "turn_id": "turn_000127",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Kevin Anderson",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of Kevin Anderson speech; same context and topic."
+    },
+    {
+      "turn_id": "turn_000129",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Procedural introduction of next speaker; likely mayor in the same calling-speakers sequence."
+    },
+    {
+      "turn_id": "turn_000130",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Douglas Stewart",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Speaker self-identifies as Douglas Stewart in this turn; safe approval."
+    },
+    {
+      "turn_id": "turn_000131",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Douglas Stewart",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of Douglas Stewart’s already identified remarks."
+    },
+    {
+      "turn_id": "turn_000132",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Douglas Stewart",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of Douglas Stewart speech; same speaker block."
+    },
+    {
+      "turn_id": "turn_000134",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Douglas Stewart",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Closing fragment of Douglas Stewart remarks; obvious continuation."
+    },
+    {
+      "turn_id": "turn_000135",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Procedural announcement of Janet Jaworski; likely mayor continuation in speaker-calling flow."
+    },
+    {
+      "turn_id": "turn_000136",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janet Jaworski",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Speaker self-identifies as Janet Jaworski in this turn; safe approval."
+    },
+    {
+      "turn_id": "turn_000137",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janet Jaworski",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "No-diarization fragment embedded between adjacent approved Janet Jaworski remarks."
+    },
+    {
+      "turn_id": "turn_000138",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Non-council speaker; maintaining conservative label."
+    },
+    {
+      "turn_id": "turn_000139",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Non-council speaker; maintaining conservative label."
+    },
+    {
+      "turn_id": "turn_000140",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janet Jaworski",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Short continuation fragment inside Janet Jaworski speech block."
+    },
+    {
+      "turn_id": "turn_000141",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Non-council speaker; maintaining conservative label."
+    },
+    {
+      "turn_id": "turn_000143",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Procedural transition from Janet Jaworski close into calling Janice Miller, consistent with mayor speaker-calling flow."
+    },
+    {
+      "turn_id": "turn_000144",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janice Miller",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Speaker self-identifies as Janice Miller in this turn; safe approval."
+    },
+    {
+      "turn_id": "turn_000145",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janice Miller",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "No-diarization continuation of Janice Miller speech."
+    },
+    {
+      "turn_id": "turn_000146",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janice Miller",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of Janice Miller remarks; same speech block and topic."
+    },
+    {
+      "turn_id": "turn_000147",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janice Miller",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Short embedded continuation fragment inside Janice Miller speech."
+    },
+    {
+      "turn_id": "turn_000148",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janice Miller",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of Janice Miller remarks with same unresolved block context now anchored by self-identification."
+    },
+    {
+      "turn_id": "turn_000149",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janice Miller",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "No-diarization continuation fragment inside Janice Miller speech."
+    },
+    {
+      "turn_id": "turn_000150",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janice Miller",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of Janice Miller remarks; same speech block."
+    },
+    {
+      "turn_id": "turn_000151",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janice Miller",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of Janice Miller remarks through closing argument."
+    },
+    {
+      "turn_id": "turn_000152",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Mixed speaker transition; treating as public comment; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000153",
+      "reviewer_action": "suppress_turn",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": true,
+      "notes": "Single-word stray fragment after speaker transition; suppress as obvious junk."
+    },
+    {
+      "turn_id": "turn_000154",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Dale Lucena",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "City captions cross-check supports mayor call-up as Dale Lucena, and this opening begins the same contiguous speech block."
+    },
+    {
+      "turn_id": "turn_000155",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Dale Lucena",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Caption cross-check confirms this no-diarization fragment is part of Dale Lucena's opening remarks."
+    },
+    {
+      "turn_id": "turn_000156",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Dale Lucena",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of Dale Lucena remarks, supported by contiguous caption flow."
+    },
+    {
+      "turn_id": "turn_000157",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Dale Lucena",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Short no-diarization continuation fragment inside Dale Lucena speech, confirmed by caption flow."
+    },
+    {
+      "turn_id": "turn_000158",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Dale Lucena",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of Dale Lucena remarks on Fairfax Renaissance Housing Corporation, supported by contiguous caption flow."
+    },
+    {
+      "turn_id": "turn_000159",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Dale Lucena",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "No-diarization continuation fragment inside Dale Lucena speech, confirmed by caption flow."
+    },
+    {
+      "turn_id": "turn_000160",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Dale Lucena",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of Dale Lucena remarks; same contiguous speech block."
+    },
+    {
+      "turn_id": "turn_000161",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Dale Lucena",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Short no-diarization continuation fragment inside Dale Lucena speech, confirmed by caption flow."
+    },
+    {
+      "turn_id": "turn_000162",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Dale Lucena",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of Dale Lucena remarks; same contiguous speech block."
+    },
+    {
+      "turn_id": "turn_000163",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Dale Lucena",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "No-diarization continuation fragment inside Dale Lucena speech, confirmed by caption flow."
+    },
+    {
+      "turn_id": "turn_000164",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Dale Lucena",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Closing portion of Dale Lucena remarks, supported by contiguous caption flow and adjacent call-up context."
+    },
+    {
+      "turn_id": "turn_000165",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "City captions confirm this is the mayor calling up Rebecca Rader before the next speaker self-identifies."
+    },
+    {
+      "turn_id": "turn_000166",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Becky Rager",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Speaker self-identifies as Becky Rager in this turn; safe approval."
+    },
+    {
+      "turn_id": "turn_000167",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Becky Rager",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "No-diarization continuation inside Becky Rager speech block."
+    },
+    {
+      "turn_id": "turn_000168",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Becky Rager",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of Becky Rager remarks; same speech block and topic."
+    },
+    {
+      "turn_id": "turn_000169",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Becky Rager",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Embedded continuation fragment inside Becky Rager remarks."
+    },
+    {
+      "turn_id": "turn_000170",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Becky Rager",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of Becky Rager remarks; same identified speaker block."
+    },
+    {
+      "turn_id": "turn_000171",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Becky Rager",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Short no-diarization fragment continuing Becky Rager speech."
+    },
+    {
+      "turn_id": "turn_000172",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Becky Rager",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of Becky Rager remarks with same advisory-board context."
+    },
+    {
+      "turn_id": "turn_000173",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Becky Rager",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Short continuation fragment inside Becky Rager speech."
+    },
+    {
+      "turn_id": "turn_000174",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Becky Rager",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Closing fragment of Becky Rager remarks; same identified speaker block."
+    },
+    {
+      "turn_id": "turn_000175",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Procedural call-up for Alan Glenn, consistent with adjacent mayor speaker-calling turns."
+    },
+    {
+      "turn_id": "turn_000176",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Alan Glenn",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Speaker self-identifies as Alan Glenn in this turn; safe approval."
+    },
+    {
+      "turn_id": "turn_000177",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Alan Glenn",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of Alan Glenn remarks; same identified speech block."
+    },
+    {
+      "turn_id": "turn_000178",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Alan Glenn",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of Alan Glenn remarks with same speaker and topic."
+    },
+    {
+      "turn_id": "turn_000179",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Alan Glenn",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Closing portion of Alan Glenn remarks; same self-identified speaker block."
+    },
+    {
+      "turn_id": "turn_000180",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Procedural next-speaker call-up for William Pitchford, consistent with mayor public-comment flow."
+    },
+    {
+      "turn_id": "turn_000181",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Speaker self-identifies as William Pitchford in this turn; safe approval."
+    },
+    {
+      "turn_id": "turn_000182",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Short no-diarization continuation inside William Pitchford speech block."
+    },
+    {
+      "turn_id": "turn_000183",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of William Pitchford remarks; same identified speaker block."
+    },
+    {
+      "turn_id": "turn_000184",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of William Pitchford remarks on Green Acres conditions."
+    },
+    {
+      "turn_id": "turn_000185",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Embedded no-diarization fragment inside William Pitchford speech."
+    },
+    {
+      "turn_id": "turn_000186",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of William Pitchford remarks; same speaker and topic."
+    },
+    {
+      "turn_id": "turn_000187",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Short continuation fragment inside William Pitchford speech block."
+    },
+    {
+      "turn_id": "turn_000188",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of William Pitchford remarks; same identified speaker block."
+    },
+    {
+      "turn_id": "turn_000189",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "No-diarization continuation fragment inside William Pitchford speech."
+    },
+    {
+      "turn_id": "turn_000190",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of William Pitchford remarks on meeting timing and safety."
+    },
+    {
+      "turn_id": "turn_000191",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Short continuation fragment inside William Pitchford speech."
+    },
+    {
+      "turn_id": "turn_000192",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of William Pitchford remarks; same speaker block."
+    },
+    {
+      "turn_id": "turn_000193",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Short no-diarization continuation inside William Pitchford speech."
+    },
+    {
+      "turn_id": "turn_000194",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Closing portion of William Pitchford remarks; same self-identified speaker block."
+    },
+    {
+      "turn_id": "turn_000195",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Procedural final-speaker call-up for Toby Sorenson, consistent with adjacent mayor turns."
+    },
+    {
+      "turn_id": "turn_000196",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Toby Sorenson",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Speaker self-identifies as Toby Sorenson in this turn; safe approval."
+    },
+    {
+      "turn_id": "turn_000197",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Toby Sorenson",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Tiny no-diarization continuation fragment inside Toby Sorenson speech block."
+    },
+    {
+      "turn_id": "turn_000198",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Toby Sorenson",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of Toby Sorenson remarks; same identified speaker block."
+    },
+    {
+      "turn_id": "turn_000199",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Toby Sorenson",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of Toby Sorenson remarks; same speaker and topic."
+    },
+    {
+      "turn_id": "turn_000200",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Toby Sorenson",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of Toby Sorenson remarks into project-risk questions."
+    },
+    {
+      "turn_id": "turn_000201",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Toby Sorenson",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Short no-diarization continuation fragment inside Toby Sorenson speech."
+    },
+    {
+      "turn_id": "turn_000202",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Toby Sorenson",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Continuation of Toby Sorenson remarks; same identified speaker block."
+    },
+    {
+      "turn_id": "turn_000203",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Toby Sorenson",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Short continuation fragment inside Toby Sorenson speech block."
+    },
+    {
+      "turn_id": "turn_000204",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Toby Sorenson",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Closing portion of Toby Sorenson remarks; same self-identified speaker block."
+    },
+    {
+      "turn_id": "turn_000205",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Procedural transition back to agenda business, consistent with adjacent mayor remarks."
+    },
+    {
+      "turn_id": "turn_000208",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Short no-diarization continuation of mayor consent-agenda remarks."
+    },
+    {
+      "turn_id": "turn_000212",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Short roll-call continuation consistent with adjacent approved mayor procedural remarks."
+    },
+    {
+      "turn_id": "turn_000213",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Roll-call continuation and prompt, consistent with adjacent approved mayor procedural flow."
+    },
+    {
+      "turn_id": "turn_000214",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Procedural transition to appointments, consistent with adjacent approved mayor remarks."
+    },
+    {
+      "turn_id": "turn_000218",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Caption/video cross-check confirms this is Mayor Catherine Read making a procedural handoff to Councilmember McQuillan. No text change or segmentation change needed."
+    },
+    {
+      "turn_id": "turn_000219",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000223",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000232",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000234",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000236",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000239",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000241",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000244",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000246",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000249",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000250",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000251",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000252",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000254",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000256",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000257",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000259",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000260",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000262",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000264",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000265",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000266",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000269",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000272",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000274",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000275",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000277",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000278",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000280",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000282",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000284",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000286",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000289",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000290",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000291",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000293",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000294",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000296",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000298",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000300",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000301",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000302",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000303",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Non-council speaker; maintaining conservative label."
+    },
+    {
+      "turn_id": "turn_000304",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000306",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000307",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000308",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000310",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000311",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000313",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000317",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Non-council speaker; maintaining conservative label."
+    },
+    {
+      "turn_id": "turn_000318",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000319",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000320",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000321",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000322",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000323",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000324",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000326",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000327",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000328",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000329",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000330",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000331",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000332",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000333",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000334",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000335",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000336",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000337",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000338",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000339",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Non-council speaker; maintaining conservative label."
+    },
+    {
+      "turn_id": "turn_000342",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000344",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Non-council speaker; maintaining conservative label."
+    },
+    {
+      "turn_id": "turn_000347",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Non-council speaker; maintaining conservative label."
+    },
+    {
+      "turn_id": "turn_000348",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000350",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000352",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Non-council speaker; maintaining conservative label."
+    },
+    {
+      "turn_id": "turn_000353",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000355",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000356",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Non-council speaker; maintaining conservative label."
+    },
+    {
+      "turn_id": "turn_000357",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000358",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000359",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000362",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000363",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000364",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000365",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Non-council speaker; maintaining conservative label."
+    },
+    {
+      "turn_id": "turn_000367",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000370",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000372",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000373",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000374",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000375",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000376",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000379",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000380",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000382",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000384",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000385",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000386",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000387",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000389",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000391",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000392",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000394",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000395",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000396",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000397",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000399",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000400",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000401",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000402",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000403",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000405",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000408",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000409",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000411",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000412",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000414",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000416",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000417",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Non-council speaker; maintaining conservative label."
+    },
+    {
+      "turn_id": "turn_000418",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000419",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000421",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000424",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000426",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000428",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000429",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000430",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Non-council speaker; maintaining conservative label."
+    },
+    {
+      "turn_id": "turn_000432",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000433",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000434",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000435",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000437",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000439",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Non-council speaker; maintaining conservative label."
+    },
+    {
+      "turn_id": "turn_000440",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000443",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000448",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Caption/video cross-check confirms this is Mayor Catherine Read making a procedural handoff to Councilmember McQuillan. No text change or segmentation change needed."
+    },
+    {
+      "turn_id": "turn_000449",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000451",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Caption/video cross-check confirms Mayor Catherine Read spoke the line 'Council Member Hull'. The called-out name may conflict with the next speaker, but speaker attribution of the utterance is clear. Kept text as-is and attributed to Mayor Catherine Read."
+    },
+    {
+      "turn_id": "turn_000452",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000453",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000457",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000458",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Non-council speaker; maintaining conservative label."
+    },
+    {
+      "turn_id": "turn_000460",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Non-council speaker; maintaining conservative label."
+    },
+    {
+      "turn_id": "turn_000461",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Approved under same-speaker sandwich rule. Fragment sits between two approved JC Martinez turns on the same health-insurance savings answer and reads as a direct continuation. No segmentation change needed."
+    },
+    {
+      "turn_id": "turn_000463",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000464",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Stacy Hall",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Approved under same-speaker sandwich rule. Fragment sits between two approved Councilmember Stacy Hall turns in the same health-insurance question sequence and reads as a direct continuation. No segmentation change needed."
+    },
+    {
+      "turn_id": "turn_000466",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000467",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000468",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000469",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000470",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000471",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000474",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000475",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000477",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Tom Peterson",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Approved under same-speaker sandwich rule. Fragment sits between two approved Councilmember Tom Peterson turns in the same inflation/housing discussion and reads as a direct continuation. No segmentation change needed."
+    },
+    {
+      "turn_id": "turn_000481",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000483",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000484",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000485",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000486",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000487",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000488",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000489",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000490",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000491",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Non-council speaker; maintaining conservative label."
+    },
+    {
+      "turn_id": "turn_000492",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000494",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000496",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000501",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000503",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Non-council speaker; maintaining conservative label."
+    },
+    {
+      "turn_id": "turn_000505",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000508",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000509",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000510",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000512",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000514",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000515",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000519",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Non-council speaker; maintaining conservative label."
+    },
+    {
+      "turn_id": "turn_000521",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000522",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000523",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000525",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000528",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000535",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Rachel McQuillen",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Approved under strict same-speaker sandwich rule. Fragment sits between two clean approved Councilmember Rachel McQuillen turns in the same city-priorities remarks and reads as a direct continuation. No segmentation change needed."
+    },
+    {
+      "turn_id": "turn_000536",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000537",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Rachel McQuillen",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Approved under strict same-speaker sandwich rule. Fragment sits between two clean approved Councilmember Rachel McQuillen turns in the same city-priorities / quality-of-life remarks and reads as a direct continuation. No segmentation change needed."
+    },
+    {
+      "turn_id": "turn_000538",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000539",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000540",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000541",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000542",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000543",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000544",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Tom Peterson",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Approved under strict same-speaker sandwich rule. Fragment sits between two clean approved Councilmember Tom Peterson turns in the same sleep-apnea/personal-health remarks and reads as a direct continuation. No segmentation change needed."
+    },
+    {
+      "turn_id": "turn_000545",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000546",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000547",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000548",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000550",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000554",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000556",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000557",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000558",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000559",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000560",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000561",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000564",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000566",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000567",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000569",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000571",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000572",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000574",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Stacy Hall",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Approved under strict same-speaker sandwich rule. Fragment sits between two clean approved Councilmember Stacy Hall turns in the same event/retired-chiefs remarks and reads as a direct continuation. No segmentation change needed."
+    },
+    {
+      "turn_id": "turn_000575",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000577",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000579",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000580",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000582",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000583",
+      "reviewer_action": "keep_unknown",
+      "speaker_public_override": "",
+      "speaker_status_override": "",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+    },
+    {
+      "turn_id": "turn_000585",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Anthony Amos",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Approved under strict same-speaker sandwich rule. Fragment sits between two clean approved Councilmember Anthony Amos turns in the same tribute/commentary sequence and reads as a direct continuation. No segmentation change needed."
+    },
+    {
+      "turn_id": "turn_000586",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000587",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000588",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000589",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000590",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    },
+    {
+      "turn_id": "turn_000591",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+    }
+  ]
+}
