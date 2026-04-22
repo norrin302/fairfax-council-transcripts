@@ -392,7 +392,224 @@ body {
 
 .toast.show { opacity: 1; }
 
+/* ---- Review Mode UI ---- */
+.review-banner {
+  background: linear-gradient(135deg, #553c9a, #6b46c1);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.review-banner i { font-size: 16px; }
+
+.review-exit-link { color: #e9d8fd; text-decoration: underline; }
+.review-exit-link:hover { color: #fff; }
+
+.review-pending-badge {
+  background: #ed8936;
+  color: white;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 8px;
+}
+
+.label-btn {
+  border: 1px solid #6b46c1;
+  background: #fff;
+  color: #553c9a;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 6px;
+}
+
+.label-btn:hover { background: #faf5ff; }
+
+/* Review modal */
+.review-modal {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 2000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.review-modal.open { display: flex; }
+
+.review-modal-content {
+  background: white;
+  border-radius: 16px;
+  padding: 28px;
+  max-width: 560px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+}
+
+.review-modal-content h3 {
+  margin: 0 0 20px 0;
+  color: #1a365d;
+}
+
+.rm-section { margin-bottom: 16px; }
+
+.rm-label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 6px;
+}
+
+.rm-required { color: #e53e3e; }
+
+.rm-info-text {
+  background: #f7fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 13px;
+  color: #4a5568;
+  font-family: monospace;
+}
+
+.rm-turn-preview {
+  background: #faf5ff;
+  border: 1px solid #e9d8fd;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 14px;
+  color: #2d3748;
+  line-height: 1.6;
+  max-height: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rm-input {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 15px;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.rm-input:focus { border-color: #6b46c1; }
+
+.rm-quick-pick {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.rm-hint { font-size: 12px; color: #718096; width: 100%; }
+
+.quick-pick-btn {
+  border: 1px solid #6b46c1;
+  background: #faf5ff;
+  color: #553c9a;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.quick-pick-btn:hover { background: #6b46c1; color: white; }
+
+.rm-radio-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.rm-radio {
+  font-size: 14px;
+  color: #2d3748;
+  cursor: pointer;
+}
+
+.rm-textarea {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 14px;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  resize: vertical;
+  font-family: inherit;
+  outline: none;
+}
+
+.rm-textarea:focus { border-color: #6b46c1; }
+
+.rm-hint-text {
+  font-size: 12px;
+  color: #718096;
+  margin: 4px 0 0 0;
+}
+
+.rm-decision-output {
+  background: #1a365d;
+  color: #e2e8f0;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 12px;
+}
+
+.rm-instructions {
+  background: #f0fff4;
+  border: 1px solid #38a169;
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 13px;
+  color: #276749;
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+.rm-instructions code {
+  background: #c6f6d5;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.rm-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.primary-btn { background: #6b46c1; color: white; border-color: #6b46c1; }
+.primary-btn:hover { background: #553c9a; }
+.primary-btn:disabled { opacity: 0.45; cursor: not-allowed; }
+
 @media (max-width: 600px) {
   .meeting-header { padding: 20px; }
   .container { padding: 14px; }
+  .review-modal-content { padding: 18px; }
 }
