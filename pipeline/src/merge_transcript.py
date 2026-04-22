@@ -6,6 +6,17 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
+from .cleanup_blocks import (
+    _seg_start as _s_start,
+    _seg_end as _s_end,
+    _id as _s_id,
+    _spk as _s_spk,
+    _txt as _s_txt,
+    _name as _s_name,
+    _role as _s_role,
+    _conf as _s_conf,
+    _needs_review as _s_nr,
+)
 from .utils import hhmmss, norm_ws, read_json, write_json
 
 
@@ -100,6 +111,42 @@ def _load_registry(path: Path) -> dict[str, dict[str, Any]]:
     return by_key
 
 
+def _build_speaker_id_to_key_map(
+    registry: dict[str, dict[str, Any]],
+    corrections_speaker_map: dict[str, Any],
+) -> dict[str, tuple[str, float, str]]:
+    """Build mapping from raw diarization speaker ID (e.g. SPEAKER_21)
+    to (speaker_key, confidence, reason).
+
+    Registry v2 fields used:
+      - diarization_speaker_ids: known pyannote IDs for this person
+      - confidence_boost: default confidence for named officials
+      - text_patterns: name patterns to spot in ASR text
+
+    Corrections take priority over registry.
+    """
+    speaker_id_to_key: dict[str, tuple[str, float, str]] = {}
+
+    # First: corrections (manual overrides)
+    for raw_id, m in corrections_speaker_map.items():
+        key = str(m.get("speaker_key", "")).strip()
+        conf = float(m.get("confidence", 1.0))
+        reason = str(m.get("reason", "manual_mapping")).strip()
+        if key:
+            speaker_id_to_key[str(raw_id)] = (key, conf, reason)
+
+    # Second: registry diarization_speaker_ids (if not already mapped)
+    for key, reg in registry.items():
+        diar_ids = reg.get("diarization_speaker_ids") or []
+        boost = float(reg.get("confidence_boost", 0.0))
+        for raw_id in diar_ids:
+            raw_id = str(raw_id).strip()
+            if raw_id and raw_id not in speaker_id_to_key:
+                speaker_id_to_key[raw_id] = (key, boost, "diarization_speaker_id_match")
+
+    return speaker_id_to_key
+
+
 def _load_corrections(path: Path) -> dict[str, Any]:
     if not path.exists():
         return {}
@@ -120,6 +167,23 @@ def main() -> int:
     ap.add_argument("--corrections", default="")
     ap.add_argument("--max-seconds", type=float, default=35.0)
     ap.add_argument("--max-gap", type=float, default=1.2)
+    ap.add_argument(
+        "--min-duration",
+        type=float,
+        default=1.5,
+        help="Minimum duration (s) to avoid microblock cleanup (default: 1.5)",
+    )
+    ap.add_argument(
+        "--dominance-threshold",
+        type=float,
+        default=0.60,
+        help="Fraction of cluster duration required for dominant speaker (default: 0.60)",
+    )
+    ap.add_argument(
+        "--skip-sandwich",
+        action="store_true",
+        help="Skip the sandwich-attachment pass in cleanup",
+    )
     args = ap.parse_args()
 
     asr_path = Path(args.asr)
@@ -140,7 +204,7 @@ def main() -> int:
     if not isinstance(speaker_map, dict):
         speaker_map = {}
 
-    # Build speaker-separated blocks.
+    # Build raw blocks.
     blocks: list[dict[str, Any]] = []
     state: dict[str, Any] = {"i": 0, "active": []}
 
@@ -175,48 +239,88 @@ def main() -> int:
     if cur is not None:
         blocks.append(cur)
 
-    # Apply identification (corrections first, then registry).
+    # ---- Stage 1: Microblock cleanup ----
+    from .cleanup_blocks import cleanup_segments as _cleanup_segments, attach_to_neighbors as _attach_to_neighbors
+
+    # Convert raw blocks to Segment dataclass-compatible dicts for cleanup
+    segs_for_cleanup = [
+        {
+            "segment_id": f"seg_{i+1:06d}",
+            "start": float(b["start"]),
+            "end": float(b["end"]),
+            "speaker_id": str(b["speaker_id"]),
+            "text": " ".join(b["words"]),
+            "speaker_name": "Unknown Speaker",
+            "speaker_role": "unknown",
+            "speaker_confidence": 0.0,
+            "needs_review": False,
+            "review_reason": "",
+        }
+        for i, b in enumerate(blocks)
+    ]
+
+    min_dur = float(getattr(args, "min_duration", 1.5) or 1.5)
+    dom_thresh = float(getattr(args, "dominance_threshold", 0.60) or 0.60)
+
+    cleaned_segs = _cleanup_segments(
+        segs_for_cleanup,
+        min_duration=min_dur,
+        dominance_threshold=dom_thresh,
+    )
+    if not getattr(args, "skip_sandwich", False):
+        cleaned_segs = _attach_to_neighbors(cleaned_segs)
+
+    # ---- Stage 2: Build speaker ID -> speaker_key map ----
+    speaker_id_to_key = _build_speaker_id_to_key_map(registry, corrections.get("speaker_map", {}))
+
+    # ---- Stage 3: Apply identification to cleaned segments ----
     segments_out: list[dict[str, Any]] = []
-    for idx, b in enumerate(blocks):
-        speaker_id = str(b["speaker_id"])
+    for idx, seg in enumerate(cleaned_segs):
+        raw_id = str(seg.get("speaker_id", ""))
+        cleanup_action = str(seg.get("cleanup_action", "kept"))
+
+        # Lookup via corrections + registry
         speaker_key = ""
         speaker_conf = 0.0
-        review_reason = ""
+        review_reason = str(seg.get("review_reason") or "")
 
-        if speaker_id in speaker_map:
-            m = speaker_map.get(speaker_id) or {}
-            speaker_key = str(m.get("speaker_key") or "").strip()
-            speaker_conf = float(m.get("confidence") or 1.0)
-            review_reason = str(m.get("reason") or "manual_mapping").strip()
+        if raw_id in speaker_id_to_key:
+            speaker_key, speaker_conf, map_reason = speaker_id_to_key[raw_id]
+            if not review_reason:
+                review_reason = map_reason
 
         reg = registry.get(speaker_key) if speaker_key else None
         if reg:
-            speaker_name = str(reg.get("display_name") or reg.get("name") or "Unknown Speaker")
+            speaker_name = str(reg.get("display_name") or "Unknown Speaker")
             speaker_role = str(reg.get("role") or "unknown")
         else:
             speaker_name = "Unknown Speaker"
             speaker_role = "unknown"
-            if speaker_id != "UNKNOWN":
-                review_reason = review_reason or "unmapped_known_speaker_id"
-            else:
-                review_reason = review_reason or "no_diarization"
+            if raw_id != "UNKNOWN" and not review_reason:
+                review_reason = review_reason or "unmapped_diarization_id"
 
-        text = _join_words(b["words"]).strip()
-        needs_review = (speaker_name == "Unknown Speaker") or (speaker_conf < 0.85)
+        text = str(seg.get("text", "")).strip()
+        needs_review = (
+            bool(seg.get("needs_review", False))
+            or speaker_name == "Unknown Speaker"
+            or speaker_conf < 0.85
+        )
 
         segments_out.append(
             {
-                "segment_id": f"seg_{idx+1:06d}",
-                "start_seconds": float(b["start"]),
-                "end_seconds": float(b["end"]),
-                "timestamp_label": hhmmss(float(b["start"])),
-                "speaker_id": speaker_id,
+                "segment_id": _s_id(seg) or str(f"seg_{idx+1:06d}"),
+                "start_seconds": _s_start(seg),
+                "end_seconds": _s_end(seg),
+                "timestamp_label": hhmmss(_s_start(seg)),
+                "speaker_id": raw_id,
                 "speaker_name": speaker_name,
                 "speaker_role": speaker_role,
                 "speaker_confidence": float(round(speaker_conf, 3)),
-                "text": text,
-                "needs_review": bool(needs_review),
-                "review_reason": review_reason or ("low_confidence" if speaker_conf < 0.85 else ""),
+                "text": _s_txt(seg).strip(),
+                "needs_review": needs_review,
+                "review_reason": review_reason,
+                # Audit fields from cleanup
+                "cleanup_action": cleanup_action,
             }
         )
 
