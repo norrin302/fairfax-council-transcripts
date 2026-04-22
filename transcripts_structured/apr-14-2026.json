@@ -3771,12 +3771,13 @@
       "end": 4989.12,
       "text": "Good evening, Mayor and members of council. Jennifer Rose, Executive Director of the Central Fairfax Chamber of Commerce. Thank you for the opportunity to speak and for the significant work by Fairfax City staff that has gone into developing the fiscal year 27 proposed budget. We recognize the real fiscal pressures the city is managing, particularly increases in school tuition and debt service. And we appreciate your commitment to maintaining services without adding new full-time equivalent positions. From the Chamber's perspective, want to focus on one key issue, ensuring that Fairfax remains competitive for small businesses while making necessary revenue decisions",
       "speaker_raw": "SPEAKER_13",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Jennifer Rose",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000320",
@@ -3797,12 +3798,13 @@
       "end": 5067.36,
       "text": "Now that the county's implemented its own four percent meals tax. We respectfully urge Council to reconsider this increase or, at minimum, include a clear sunset and ensure that any new revenue is reinvested in ways that directly support the hospitality and small business community. Second, if additional revenue is needed, there are more balanced alternatives. The Chamber supports exploring visitor-based revenue options, such as aligning the transient occupancy tax with regional levels, if authorized by the General Assembly. This approach brings in revenue from visitors rather than placing additional strain on local businesses and residents",
       "speaker_raw": "SPEAKER_13",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Mary McDaniel",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000322",
@@ -4726,12 +4728,13 @@
       "end": 6477.36,
       "text": "Or what if we only had to raise it one cent, all they continue to ask back is why are we",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Councilmember Rachel McQuillen",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000395",
@@ -4752,12 +4755,13 @@
       "end": 6555.56,
       "text": "It was not meant to be a removal from future consideration. I did reach out to the staff counterpart today and asked if it were to be reinstated, how many loans would we be able to service and get that similar information that we were provided with last year, which made me more willing to consider putting a pause on it. Now my questions are going to come in. So the conversation about the $600,000 for the schools versus the 1.1 deferred, I understand, or I don't understand, I see we have school board member Sarah Kelsey here as well as our superintendent Dustin Wright, and I understand that there was a meeting last night with the school board",
       "speaker_raw": "SPEAKER_27",
-      "speaker_public": "Councilmember Stacy Hall",
+      "speaker_public": "Councilmember Rachel McQuillen",
       "speaker_status": "approved",
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000397",
@@ -4778,11 +4782,12 @@
       "end": 6565.76,
       "text": "Are the schools in favor of this? I'd like to just hear from the schools if that's possible",
       "speaker_raw": "SPEAKER_27",
-      "speaker_public": "Councilmember Stacy Hall",
+      "speaker_public": "Councilmember Rachel McQuillen",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewed": true
     },
     {
       "turn_id": "turn_000399",
@@ -4867,12 +4872,13 @@
       "end": 6628.84,
       "text": "Mr. Alexander",
       "speaker_raw": "SPEAKER_22",
-      "speaker_public": "Mayor Catherine Read",
+      "speaker_public": "Councilmember Anthony Amos",
       "speaker_status": "approved",
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000406",
@@ -4880,11 +4886,12 @@
       "end": 6658.3,
       "text": "Yeah. So we have talked to council about it up to this point. We have talked today with them about it. And so I don't know the degree to which Mr. Wright has socialized that with the board yet. We're calling it an option in respect to, think, the council and also in respect to schools. And so it's going to, like the other things that we brought up tonight, beg some further conversation around that",
       "speaker_raw": "SPEAKER_05",
-      "speaker_public": "Mr. Alexander",
+      "speaker_public": "Councilmember Anthony Amos",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewed": true
     },
     {
       "turn_id": "turn_000407",
@@ -4892,11 +4899,12 @@
       "end": 6663.38,
       "text": "OK. Thank you. Sorry to call out the very uncomfortable elephant in the room, but I was just curious where schools were on this",
       "speaker_raw": "SPEAKER_27",
-      "speaker_public": "Councilmember Stacy Hall",
+      "speaker_public": "Councilmember Anthony Amos",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewed": true
     },
     {
       "turn_id": "turn_000408",
@@ -5259,11 +5267,12 @@
       "end": 7101.0,
       "text": "Show in terms of what actually happens and what actually has happened in the past",
       "speaker_raw": "SPEAKER_17",
-      "speaker_public": "Councilmember Stacy Hardy-Chandler",
+      "speaker_public": "Councilmember Stacy Hall",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewed": true
     },
     {
       "turn_id": "turn_000437",
@@ -5271,12 +5280,13 @@
       "end": 7104.08,
       "text": "When there have been those changes",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Councilmember Stacy Hall",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000438",
@@ -5284,11 +5294,12 @@
       "end": 7148.6,
       "text": "I'm going to try to go off of memory, Council Member. We did present something at a work session with some historical data that actually compared the city of Alexandria, who has a 5% meals tax compared to the city. They've had it for about 20 years, so very similar to our 4% as well. Additionally, in that presentation, there was an actual number of increased restaurants over the same 10 to 15 year period in the city. So not necessarily a migration out, more of an expansion. want to say it was on average 2 and 1 half or 3 and 1 half per year that we increased the restaurant count between the time frame",
       "speaker_raw": "SPEAKER_07",
-      "speaker_public": "JC Martinez",
+      "speaker_public": "Councilmember Stacy Hall",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewed": true
     },
     {
       "turn_id": "turn_000439",
@@ -5296,12 +5307,13 @@
       "end": 7163.92,
       "text": "That we looked at, 10 or 15 years. It was actually an increase, a net increase. Here goes. Excellent. Thank you, Ms. Riddle. So go to the next couple of slides, and you can actually see the comparison. I don't have my glasses",
       "speaker_raw": "SPEAKER_07",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Councilmember Stacy Hall",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Non-council speaker; maintaining conservative label."
+      "reviewer_notes": "Non-council speaker; maintaining conservative label.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000440",

@@ -2378,9 +2378,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Our next speaker is Jennifer Rose"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Jennifer Rose",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 4952.0,
     "end": 4989.12,
     "text": "Good evening, Mayor and members of council. Jennifer Rose, Executive Director of the Central Fairfax Chamber of Commerce. Thank you for the opportunity to speak and for the significant work by Fairfax City staff that has gone into developing the fiscal year 27 proposed budget. We recognize the real fiscal pressures the city is managing, particularly increases in school tuition and debt service. And we appreciate your commitment to maintaining services without adding new full-time equivalent positions. From the Chamber's perspective, want to focus on one key issue, ensuring that Fairfax remains competitive for small businesses while making necessary revenue decisions"
@@ -2394,9 +2394,9 @@ const TRANSCRIPT_TURNS = [
     "text": "First, the proposed meals tax increase from four percent to four and a half percent. We understand the goal of diversifying revenue. However, a meals tax is, in practice, a single industry tax. It places the greatest burden on restaurants, many of them small, locally owned businesses. We know this. They operate on thin margins and on the customers who support them. Restaurants are not just another sector. They are a cornerstone of our local economy. They drive foot traffic, support tourism, and contribute to the vibrancy of Old Town and our commercial corridors. And would like to point out, for the first time in more than 20 years, our restaurants are finally on a level playing field with Fairfax County restaurants"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Mary McDaniel",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 5031.2,
     "end": 5067.36,
     "text": "Now that the county's implemented its own four percent meals tax. We respectfully urge Council to reconsider this increase or, at minimum, include a clear sunset and ensure that any new revenue is reinvested in ways that directly support the hospitality and small business community. Second, if additional revenue is needed, there are more balanced alternatives. The Chamber supports exploring visitor-based revenue options, such as aligning the transient occupancy tax with regional levels, if authorized by the General Assembly. This approach brings in revenue from visitors rather than placing additional strain on local businesses and residents"
@@ -2978,9 +2978,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Some thoughts that would like to hear about. The other thing is, you know, everyone I talk to when I talk about the lesser of two taxes"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Councilmember Rachel McQuillen",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 6472.6,
     "end": 6477.36,
     "text": "Or what if we only had to raise it one cent, all they continue to ask back is why are we"
@@ -2994,7 +2994,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Not reducing our expenses? And so I'm happy to see some of the slides and things that you're showing forth here that are talking about reductions, but think it's a very valid question. So I don't expect a response now. I do have specific questions that would like responses to, but I wanted to just give you some overall thoughts. I personally am very interested in seeing ways that we can try to bridge the gap between what the EDA was receiving and then is no longer receiving. I personally would really like to see the renaissance program reinstated. I know I was the one I believe last year who suggested that maybe we put a pause on it and it was truly meant to be a pause"
   },
   {
-    "speaker": "Councilmember Stacy Hall",
+    "speaker": "Councilmember Rachel McQuillen",
     "speaker_source": "approved",
     "speaker_source_detail": "reviewed:approve_named_official",
     "start": 6518.6,
@@ -3010,9 +3010,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Didn't get a chance to watch all of it. Are there, was it a good conversation?"
   },
   {
-    "speaker": "Councilmember Stacy Hall",
+    "speaker": "Councilmember Rachel McQuillen",
     "speaker_source": "approved",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 6561.48,
     "end": 6565.76,
     "text": "Are the schools in favor of this? I'd like to just hear from the schools if that's possible"
@@ -3066,7 +3066,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you. OK, I thought that was being discussed with the schools prior to our conversation tonight"
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Councilmember Anthony Amos",
     "speaker_source": "approved",
     "speaker_source_detail": "reviewed:approve_named_official",
     "start": 6627.64,
@@ -3074,17 +3074,17 @@ const TRANSCRIPT_TURNS = [
     "text": "Mr. Alexander"
   },
   {
-    "speaker": "Mr. Alexander",
+    "speaker": "Councilmember Anthony Amos",
     "speaker_source": "approved",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 6628.84,
     "end": 6658.3,
     "text": "Yeah. So we have talked to council about it up to this point. We have talked today with them about it. And so I don't know the degree to which Mr. Wright has socialized that with the board yet. We're calling it an option in respect to, think, the council and also in respect to schools. And so it's going to, like the other things that we brought up tonight, beg some further conversation around that"
   },
   {
-    "speaker": "Councilmember Stacy Hall",
+    "speaker": "Councilmember Anthony Amos",
     "speaker_source": "approved",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 6658.3,
     "end": 6663.38,
     "text": "OK. Thank you. Sorry to call out the very uncomfortable elephant in the room, but I was just curious where schools were on this"
@@ -3314,33 +3314,33 @@ const TRANSCRIPT_TURNS = [
     "text": "And I hate to ask for data that I didn't previously ask you to prepare, but I'm just curious if there is just historic knowledge of sort of the, for lack of a better word, sort of restaurant migration sort of behavior historically when there have been changes in the meals tax. I might not be recalling this accurately, but I believe that there was sort of some landscape multi-jurisdictional information that was previously presented. I'm just wondering if, in addition to the anecdotal conversations that we might have with residents, what sort of the trends"
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacy Hall",
     "speaker_source": "approved",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 7095.08,
     "end": 7101.0,
     "text": "Show in terms of what actually happens and what actually has happened in the past"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Councilmember Stacy Hall",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 7101.0,
     "end": 7104.08,
     "text": "When there have been those changes"
   },
   {
-    "speaker": "JC Martinez",
+    "speaker": "Councilmember Stacy Hall",
     "speaker_source": "approved",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 7104.08,
     "end": 7148.6,
     "text": "I'm going to try to go off of memory, Council Member. We did present something at a work session with some historical data that actually compared the city of Alexandria, who has a 5% meals tax compared to the city. They've had it for about 20 years, so very similar to our 4% as well. Additionally, in that presentation, there was an actual number of increased restaurants over the same 10 to 15 year period in the city. So not necessarily a migration out, more of an expansion. want to say it was on average 2 and 1 half or 3 and 1 half per year that we increased the restaurant count between the time frame"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Councilmember Stacy Hall",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 7148.6,
     "end": 7163.92,
     "text": "That we looked at, 10 or 15 years. It was actually an increase, a net increase. Here goes. Excellent. Thank you, Ms. Riddle. So go to the next couple of slides, and you can actually see the comparison. I don't have my glasses"

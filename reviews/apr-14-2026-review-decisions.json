@@ -1338,12 +1338,12 @@
     },
     {
       "turn_id": "turn_000319",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Jennifer Rose",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+      "notes": "Explicit self-identification: \"Good evening, Mayor and members of council. Jennifer Rose, Executive Director of the Central Fairfax...\" — speaker names themselves"
     },
     {
       "turn_id": "turn_000320",
@@ -1356,12 +1356,12 @@
     },
     {
       "turn_id": "turn_000321",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mary McDaniel",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+      "notes": "Explicit self-identification: \"Im Mary McDaniel, a resident of the Fairfax City...\" — speaker names themselves"
     },
     {
       "turn_id": "turn_000322",
@@ -1815,12 +1815,12 @@
     },
     {
       "turn_id": "turn_000394",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Rachel McQuillen",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Video frame at 3947s shows CM MCQUILLEN at dais; text is substantive policy remarks typical of council deliberation"
     },
     {
       "turn_id": "turn_000395",
@@ -1834,11 +1834,11 @@
     {
       "turn_id": "turn_000396",
       "reviewer_action": "approve_named_official",
-      "speaker_public_override": "",
+      "speaker_public_override": "Councilmember Rachel McQuillen",
       "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+      "notes": "Bounded by Stacy Hall turns (turn_000395/turn_000397); CM MCQUILLEN at dais confirmed in adjacent frame; natural continuation"
     },
     {
       "turn_id": "turn_000397",
@@ -1897,11 +1897,11 @@
     {
       "turn_id": "turn_000405",
       "reviewer_action": "approve_named_official",
-      "speaker_public_override": "",
+      "speaker_public_override": "Councilmember Anthony Amos",
       "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Council member/mayor turn already correctly identified; clearing pending."
+      "notes": "Video frame at 4107s shows CM AMOS at dais; substantive questions on conflict of interest"
     },
     {
       "turn_id": "turn_000408",
@@ -2076,21 +2076,21 @@
     },
     {
       "turn_id": "turn_000437",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Stacy Hall",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Bounded by Stacy Hall turns; CM HALL confirmed at dais; natural continuation"
     },
     {
       "turn_id": "turn_000439",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Stacy Hall",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Non-council speaker; maintaining conservative label."
+      "notes": "CM HALL at dais confirmed; quote from city attorney framed as council deliberation"
     },
     {
       "turn_id": "turn_000440",
