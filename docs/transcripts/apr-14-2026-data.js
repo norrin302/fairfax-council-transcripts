@@ -3450,9 +3450,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you. I had one question I forgot to ask. You mentioned that the health insurance had gone up here 5%, which think was about 400,000, 300 and some thousand? OK. And I know that I've asked this question before, and I'm sorry I don't remember your answer. But when was the last time that we did bid and look at our provider and look at our plan types"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "JC Martinez",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 7465.22,
     "end": 7470.58,
     "text": "And see are we offering things that are competitive?"
@@ -3490,9 +3490,9 @@ const TRANSCRIPT_TURNS = [
     "text": "OK, so I do this for my company as well. And so I know nobody likes to have two deductibles in a year, but what we ended up doing was we actually renewed January 1 instead of doing a July 1 renewal. So we had six months of one plan and then looped it back in. I understand we operate on a fiscal year, so that might create some challenges. But would think that if it's attractive enough to consider a move that we should potentially see what our timeline options are. My other question is, do we currently offer HSA compatible plans, like high deductible plans? We do. We do. And do we have the FSA options as well?"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "JC Martinez",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 7558.62,
     "end": 7561.3,
     "text": "We do OK"
@@ -3506,9 +3506,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Do you know what our employees tend to choose most of?"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "JC Martinez",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 7564.66,
     "end": 7595.3,
     "text": "It varies. We looked at the plan. I'll look at Ms. Riddle if she remembers a little bit better. But we had those statistics. We just reviewed them again about a couple of weeks, maybe three weeks ago, when we got the renewal notices. will say that given that the employer, the city, is not the only one taking some of this burden, the employee will also see a increase of about 12%. That may actually move some people out of those higher plans into lower plans"
@@ -3554,9 +3554,9 @@ const TRANSCRIPT_TURNS = [
     "text": "I'm just curious if we cap at a certain rate or what we cover for families and other individuals and whatnot"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "JC Martinez",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 7637.94,
     "end": 7648.58,
     "text": "The FY27 rates have not been released yet to employees. But 26, I believe, are on the website. OK. And I'm assuming you'll get it when 27 comes out"
@@ -3570,25 +3570,25 @@ const TRANSCRIPT_TURNS = [
     "text": "As it goes to all employees. OK, my apologies. I wasn't really planning on discussing this in detail tonight"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "JC Martinez",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 7653.74,
     "end": 7655.9,
     "text": "Yeah, no, and just to give you a little bit of context"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "JC Martinez",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 7655.9,
     "end": 7659.7,
     "text": "We have just over 80% of our eligible employees"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "JC Martinez",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 7659.7,
     "end": 7673.06,
     "text": "That have our health insurance. The majority is with Anthem. We have two plans with Anthem. And then we have about, think it's about 20% to 30% of employees are with Kaiser"
@@ -3618,9 +3618,9 @@ const TRANSCRIPT_TURNS = [
     "text": "But that would be something that would recommend to the finance department"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "JC Martinez",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 7710.14,
     "end": 7713.18,
     "text": "So thank you"
@@ -3834,9 +3834,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Allocated that money from the unassigned fund balance, there's now a different plan. And I just think it's important before we get to April 28 for people to understand what that plan is for the FY27"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Mr. Alexander",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 8112.52,
     "end": 8117.44,
     "text": "And potentially the FY28 budget"
@@ -3850,9 +3850,9 @@ const TRANSCRIPT_TURNS = [
     "text": "So will there be a budget memo? Or how will you kind of put this up for the sake of transparency to the public when they come to discuss the budget on the 16th? How will that be rolled out?"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Mr. Alexander",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 8131.72,
     "end": 8156.08,
     "text": "Yeah, we have a process for those changes on a change sheet. I'm getting a nod in the affirmative. That's one element of a few elements that we've discussed tonight that we're going to need to work through, some of which we have kind of pushed out just recently. So all of those changes from a revenue and expenditure perspective will be part of the scenarios that we bring to you on the 28th"
@@ -3866,9 +3866,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Guess my question is, will there be anything prior to the 28th that, you know, because we're having this event on the 16th and we have not discussed this since it is a very new thing"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Mr. Alexander",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 8168.96,
     "end": 8172.36,
     "text": "That just happened?"
@@ -3898,9 +3898,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Fantastic"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 8236.08,
     "end": 8239.12,
     "text": "Any council member McQuillan?"
@@ -3922,9 +3922,9 @@ const TRANSCRIPT_TURNS = [
     "text": "You're responsive to our requests about engage in the budget, I mean, we're throwing everything at you, and you all are just handling it and rolling with it. And I just wanted to say thank you, because I don't think we do that enough here, and acknowledge how much work that is on you"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 8295.4,
     "end": 8297.56,
     "text": "So thank you"
@@ -3946,9 +3946,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Yeah, just to build on that, great thanks to all of you. And think the April 16th engagement is a very helpful and important time. I know we're all getting emails from people with questions"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 8312.72,
     "end": 8316.64,
     "text": "And thoughts and what have you, and I'm"
@@ -3978,9 +3978,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you, Mayor and Council. Looking ahead to the 28th, we've had a lot of conversation up to this point, and so much of this will be focused on public hearings related to the budget. There will be some items not requiring a public hearing to include significantly the Blenheim Boulevard project. And then as we mentioned before, we'll be talking about Willard Sherwood and the item. that we've talked about tonight and also on there is the consideration of bond resolution for general obligation bonds for the school project. Work session wise, we are again planning the third quarter financial review"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Mr. Alexander",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 8415.26,
     "end": 8458.6,
     "text": "So we're looking forward to that. And then as we've discussed, the budget draft changes presented and deliberated on that night also. May 5th, committed to budget. In its entirety. And then looking ahead, moving forward into May, significantly, we'll have items on public hearings on financial costs, capital costs related to the sewer system and bonds related to that. Also, we will bring back the noise discussion on that night. We'll talk potential options for detached accessory"
@@ -4010,9 +4010,9 @@ const TRANSCRIPT_TURNS = [
     "text": "On May 5th, the very last item, seven, considering adopting the budget, et cetera, et cetera. Is that a single vote that is on both budget and appropriations? Or are we doing a two-step budget then appropriation?"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 8514.36,
     "end": 8519.68,
     "text": "Think it's multiple parts. I confess I didn't go back and look at last year's script, so you caught me a little off-track"
@@ -4026,9 +4026,9 @@ const TRANSCRIPT_TURNS = [
     "text": "That's why I'm asking"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 8521.96,
     "end": 8524.72,
     "text": "We can go back and look at the agenda from that meeting if you'd like"
@@ -4050,9 +4050,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Other questions on the futures agenda portion of this?"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 8538.72,
     "end": 8543.72,
     "text": "Okay, if there's no more questions on that"

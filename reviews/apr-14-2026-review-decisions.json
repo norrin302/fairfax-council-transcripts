@@ -2148,12 +2148,12 @@
     },
     {
       "turn_id": "turn_000453",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Staff benefits response; bracketed by JC Martinez 7471s and Stacy Hall 7559s"
     },
     {
       "turn_id": "turn_000457",
@@ -2166,21 +2166,21 @@
     },
     {
       "turn_id": "turn_000458",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Non-council speaker; maintaining conservative label."
+      "notes": "Employee benefits Q&A; bracketed by JC Martinez and Stacy Hall"
     },
     {
       "turn_id": "turn_000460",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Non-council speaker; maintaining conservative label."
+      "notes": "Employee benefits response; bracketed by JC Martinez 7561s and Stacy Hall 7565s"
     },
     {
       "turn_id": "turn_000461",
@@ -2211,12 +2211,12 @@
     },
     {
       "turn_id": "turn_000466",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+      "notes": "Health insurance rates response; bracketed by JC Martinez"
     },
     {
       "turn_id": "turn_000467",
@@ -2229,30 +2229,30 @@
     },
     {
       "turn_id": "turn_000468",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+      "notes": "Health insurance context; bracketed by JC Martinez 7660s and Stacy Hall 7673s"
     },
     {
       "turn_id": "turn_000469",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Employee health insurance stats; bracketed by JC Martinez cluster"
     },
     {
       "turn_id": "turn_000470",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+      "notes": "Anthem health plan info; bracketed by JC Martinez cluster"
     },
     {
       "turn_id": "turn_000471",
@@ -2265,12 +2265,12 @@
     },
     {
       "turn_id": "turn_000474",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Staff closing remark; bracketed by JC Martinez"
     },
     {
       "turn_id": "turn_000475",
@@ -2409,30 +2409,30 @@
     },
     {
       "turn_id": "turn_000501",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mr. Alexander",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Budget memo process; bracketed by Mayor Read 8097s/8117s; staff responding to council question"
     },
     {
       "turn_id": "turn_000503",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mr. Alexander",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Non-council speaker; maintaining conservative label."
+      "notes": "Change sheet process response; bracketed by Mayor Read and Mr. Alexander 8156s"
     },
     {
       "turn_id": "turn_000505",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mr. Alexander",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Brief follow-up; bracketed by Mr. Alexander"
     },
     {
       "turn_id": "turn_000508",
@@ -2445,12 +2445,12 @@
     },
     {
       "turn_id": "turn_000509",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Mayor calling on council member; procedural transition after \"Fantastic\""
     },
     {
       "turn_id": "turn_000510",
@@ -2463,12 +2463,12 @@
     },
     {
       "turn_id": "turn_000512",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Mayor closing remarks in budget session"
     },
     {
       "turn_id": "turn_000514",
@@ -2481,21 +2481,21 @@
     },
     {
       "turn_id": "turn_000515",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Tom Peterson",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Interjection; bracketed by Peterson cluster 8317s/8357s"
     },
     {
       "turn_id": "turn_000519",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mr. Alexander",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Non-council speaker; maintaining conservative label."
+      "notes": "Staff closing remarks; bracketed by Mr. Alexander 8371s and Mayor Read 8357s"
     },
     {
       "turn_id": "turn_000521",
@@ -2517,30 +2517,30 @@
     },
     {
       "turn_id": "turn_000523",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Tom Peterson",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+      "notes": "Peterson question; bracketed by Peterson 8520s/8525s"
     },
     {
       "turn_id": "turn_000525",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Tom Peterson",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+      "notes": "Peterson continuation; bracketed by Peterson cluster"
     },
     {
       "turn_id": "turn_000528",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Mayor closing futures agenda; procedural"
     },
     {
       "turn_id": "turn_000535",

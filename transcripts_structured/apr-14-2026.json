@@ -5506,12 +5506,13 @@
       "end": 7470.58,
       "text": "And see are we offering things that are competitive?",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "JC Martinez",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000454",
@@ -5568,12 +5569,13 @@
       "end": 7561.3,
       "text": "We do OK",
       "speaker_raw": "SPEAKER_07",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "JC Martinez",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Non-council speaker; maintaining conservative label."
+      "reviewer_notes": "Non-council speaker; maintaining conservative label.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000459",
@@ -5593,12 +5595,13 @@
       "end": 7595.3,
       "text": "It varies. We looked at the plan. I'll look at Ms. Riddle if she remembers a little bit better. But we had those statistics. We just reviewed them again about a couple of weeks, maybe three weeks ago, when we got the renewal notices. will say that given that the employer, the city, is not the only one taking some of this burden, the employee will also see a increase of about 12%. That may actually move some people out of those higher plans into lower plans",
       "speaker_raw": "SPEAKER_07",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "JC Martinez",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Non-council speaker; maintaining conservative label."
+      "reviewer_notes": "Non-council speaker; maintaining conservative label.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000461",
@@ -5669,12 +5672,13 @@
       "end": 7648.58,
       "text": "The FY27 rates have not been released yet to employees. But 26, I believe, are on the website. OK. And I'm assuming you'll get it when 27 comes out",
       "speaker_raw": "SPEAKER_14",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "JC Martinez",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000467",
@@ -5695,12 +5699,13 @@
       "end": 7655.9,
       "text": "Yeah, no, and just to give you a little bit of context",
       "speaker_raw": "SPEAKER_14",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "JC Martinez",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000469",
@@ -5708,12 +5713,13 @@
       "end": 7659.7,
       "text": "We have just over 80% of our eligible employees",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "JC Martinez",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000470",
@@ -5721,12 +5727,13 @@
       "end": 7673.06,
       "text": "That have our health insurance. The majority is with Anthem. We have two plans with Anthem. And then we have about, think it's about 20% to 30% of employees are with Kaiser",
       "speaker_raw": "SPEAKER_14",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "JC Martinez",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000471",
@@ -5771,12 +5778,13 @@
       "end": 7713.18,
       "text": "So thank you",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "JC Martinez",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000475",
@@ -6113,12 +6121,13 @@
       "end": 8117.44,
       "text": "And potentially the FY28 budget",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Mr. Alexander",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000502",
@@ -6138,12 +6147,13 @@
       "end": 8156.08,
       "text": "Yeah, we have a process for those changes on a change sheet. I'm getting a nod in the affirmative. That's one element of a few elements that we've discussed tonight that we're going to need to work through, some of which we have kind of pushed out just recently. So all of those changes from a revenue and expenditure perspective will be part of the scenarios that we bring to you on the 28th",
       "speaker_raw": "SPEAKER_05",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Mr. Alexander",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Non-council speaker; maintaining conservative label."
+      "reviewer_notes": "Non-council speaker; maintaining conservative label.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000504",
@@ -6163,12 +6173,13 @@
       "end": 8172.36,
       "text": "That just happened?",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Mr. Alexander",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000506",
@@ -6213,12 +6224,13 @@
       "end": 8239.12,
       "text": "Any council member McQuillan?",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000510",
@@ -6251,12 +6263,13 @@
       "end": 8297.56,
       "text": "So thank you",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000513",
@@ -6289,12 +6302,13 @@
       "end": 8316.64,
       "text": "And thoughts and what have you, and I'm",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Councilmember Tom Peterson",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000516",
@@ -6338,12 +6352,13 @@
       "end": 8458.6,
       "text": "So we're looking forward to that. And then as we've discussed, the budget draft changes presented and deliberated on that night also. May 5th, committed to budget. In its entirety. And then looking ahead, moving forward into May, significantly, we'll have items on public hearings on financial costs, capital costs related to the sewer system and bonds related to that. Also, we will bring back the noise discussion on that night. We'll talk potential options for detached accessory",
       "speaker_raw": "SPEAKER_05",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Mr. Alexander",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Non-council speaker; maintaining conservative label."
+      "reviewer_notes": "Non-council speaker; maintaining conservative label.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000520",
@@ -6389,12 +6404,13 @@
       "end": 8519.68,
       "text": "Think it's multiple parts. I confess I didn't go back and look at last year's script, so you caught me a little off-track",
       "speaker_raw": "SPEAKER_25",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Councilmember Tom Peterson",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000524",
@@ -6414,12 +6430,13 @@
       "end": 8524.72,
       "text": "We can go back and look at the agenda from that meeting if you'd like",
       "speaker_raw": "SPEAKER_25",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Councilmember Tom Peterson",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000526",
@@ -6451,12 +6468,13 @@
       "end": 8543.72,
       "text": "Okay, if there's no more questions on that",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000529",
