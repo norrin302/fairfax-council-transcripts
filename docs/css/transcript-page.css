@@ -608,8 +608,247 @@ body {
 .primary-btn:hover { background: #553c9a; }
 .primary-btn:disabled { opacity: 0.45; cursor: not-allowed; }
 
+/* ---- Review mode v2: Banner ---- */
+.review-banner {
+  background: linear-gradient(135deg, #44337a, #6b46c1);
+  color: white;
+  padding: 12px 18px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.review-banner-icon { font-size: 18px; }
+
+.review-banner-text { flex: 1; }
+
+.review-staged-count {
+  background: rgba(255,255,255,0.2);
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+}
+
+.review-action-btn {
+  border: 1px solid rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0.1);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.review-action-btn:hover { background: rgba(255,255,255,0.25); }
+.review-action-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.review-action-btn-danger:hover { background: rgba(229, 62, 62, 0.5); }
+
+.review-exit-link { color: #e9d8fd; text-decoration: underline; margin-left: auto; }
+.review-exit-link:hover { color: #fff; }
+
+/* ---- Review mode v2: Sidebar ---- */
+.review-sidebar {
+  background: #f7fafc;
+  border: 2px solid #6b46c1;
+  border-radius: 12px;
+  padding: 0;
+  margin-bottom: 20px;
+  max-height: 420px;
+  overflow-y: auto;
+}
+
+.review-sidebar-header {
+  background: linear-gradient(135deg, #44337a, #6b46c1);
+  color: white;
+  padding: 12px 16px;
+  border-radius: 10px 10px 0 0;
+}
+
+.review-sidebar-header h3 {
+  margin: 0;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.review-sidebar-count {
+  background: rgba(255,255,255,0.25);
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.review-sidebar-empty {
+  padding: 20px;
+  text-align: center;
+  color: #718096;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.review-staged-item {
+  padding: 12px 16px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.review-staged-item:hover { background: #edf2f7; }
+
+.review-staged-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.review-staged-turn {
+  font-family: monospace;
+  font-size: 12px;
+  color: #2b6cb0;
+  font-weight: 600;
+}
+
+.review-staged-time {
+  font-size: 12px;
+  color: #718096;
+  font-family: monospace;
+}
+
+.review-staged-speaker {
+  font-weight: 700;
+  color: #1a365d;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.review-staged-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.review-staged-action {
+  font-size: 12px;
+  color: #4a5568;
+}
+
+.review-badge {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.review-badge-council { background: rgba(43, 108, 176, 0.15); color: #2b6cb0; }
+.review-badge-staff { background: rgba(237, 137, 54, 0.15); color: #9c4221; }
+.review-badge-public { background: rgba(159, 122, 234, 0.15); color: #553c9a; }
+.review-badge-unknown { background: rgba(160, 174, 192, 0.15); color: #4a5568; }
+
+.review-staged-notes {
+  font-size: 12px;
+  color: #4a5568;
+  margin-top: 4px;
+  font-style: italic;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.review-staged-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.review-item-edit-btn,
+.review-item-remove-btn {
+  border: 1px solid #cbd5e0;
+  background: #fff;
+  color: #4a5568;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.review-item-edit-btn:hover { background: #edf2f7; border-color: #6b46c1; color: #553c9a; }
+.review-item-remove-btn:hover { background: #fff5f5; border-color: #e53e3e; color: #c53030; }
+
+/* ---- Review modal v2 ---- */
+.rm-turn-id { font-family: monospace; font-weight: 700; color: #2b6cb0; }
+.rm-turn-time { font-family: monospace; color: #718096; }
+
+.rm-quick-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.rm-quick-btn {
+  font-size: 13px;
+  padding: 7px 12px;
+}
+
+.rm-quick-btn-warn {
+  border-color: #e53e3e;
+  color: #c53030;
+}
+
+.rm-quick-btn-warn:hover { background: #fff5f5; }
+
+.rm-quick-pick-label {
+  font-size: 12px;
+  color: #718096;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+/* ---- Passphrase gate ---- */
+#review-passphrase-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 3000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.review-passphrase-box {
+  background: white;
+  border-radius: 16px;
+  padding: 28px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+
+.review-passphrase-box h3 {
+  margin: 0 0 14px 0;
+  color: #1a365d;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.review-passphrase-box p { font-size: 14px; color: #4a5568; margin: 0 0 10px 0; }
+
+/* ---- Passphrase styles already in modal CSS above ---- */
+
 @media (max-width: 600px) {
   .meeting-header { padding: 20px; }
   .container { padding: 14px; }
   .review-modal-content { padding: 18px; }
+  .review-banner { font-size: 13px; padding: 10px 14px; }
 }

@@ -1,17 +1,24 @@
 /* ============================================================
-   Review-mode speaker labeling UI
+   Review-mode speaker labeling — v2
+   reviewer cockpit for staged decisions + export
+
    Enable: add ?review=1 to the transcript page URL.
-   Writes to: localStorage (staging) + reviews/<meeting>-review-decisions.json (via apply)
+   Passphrase gate: reviewer confirms once per session (stored in sessionStorage).
+   Staging: localStorage key per meeting_id (merged on export).
+   Safe architecture: decisions never written directly to public output.
    ============================================================ */
 
 (function () {
   'use strict';
 
   // ---- Config ----
-  const REVIEW_KEY = 'review_mode';
-  const PENDING_KEY = (meetingId) => `reviewdecisions:pending:${String(meetingId || '').trim()}`;
+  var REVIEW_SESSION_KEY = 'review_session';
+  var REVIEW_SESSION_VALUE = 'confirmed';   // value stored in sessionStorage after passphrase confirm
+  var PENDING_KEY = function (meetingId) {
+    return 'reviewdecisions:pending:' + String(meetingId || '').trim();
+  };
 
-  const COUNCIL_QUICK_PICK = [
+  var COUNCIL_QUICK_PICK = [
     'Mayor Catherine Read',
     'Councilmember Anthony Amos',
     'Councilmember Billy Bates',
@@ -19,41 +26,52 @@
     'Councilmember Stacy Hardy-Chandler',
     'Councilmember Rachel McQuillen',
     'Councilmember Tom Peterson',
+  ];
+
+  var STAFF_QUICK_PICK = [
     'JC Martinez',
     'Mr. Alexander',
     'William Pitchford',
   ];
 
   // ---- State ----
-  let REVIEW_MODE = false;
-  let PENDING_DECISIONS = [];
+  var REVIEW_MODE = false;
+  var SESSION_CONFIRMED = false;
+  var PENDING_DECISIONS = [];
+  var MEETING_ID = '';
+  var ACTIVE_TURN_ID = null;   // turn_id currently in the modal (null = new)
 
   // ---- Helpers ----
-  function getMeetingId() {
-    const m = (typeof MEETING !== 'undefined' && MEETING) ? MEETING : {};
-    return String(m.meeting_id || '').trim();
-  }
-
   function getTurns() {
     return (typeof TRANSCRIPT_TURNS !== 'undefined') ? TRANSCRIPT_TURNS : [];
   }
 
-  function isReviewMode() {
-    const params = new URLSearchParams(window.location.search);
-    return params.get('review') === '1';
+  function speakerKey(s) {
+    return String(s || '').toLowerCase().replace(/\s+/g, ' ').trim();
+  }
+
+  function formatTime(seconds) {
+    var s = Math.max(0, Math.floor(Number(seconds) || 0));
+    var m = Math.floor((s % 3600) / 60);
+    var sec = s % 60;
+    return String(m).padStart(2, '0') + ':' + String(sec).padStart(2, '0');
+  }
+
+  function formatTimestamp(seconds) {
+    return String(Math.floor(Number(seconds) || 0));
   }
 
   function showToast(msg) {
-    const existing = document.querySelector('.toast');
+    var existing = document.querySelector('.toast');
     if (existing) existing.remove();
-    const t = document.createElement('div');
+    var t = document.createElement('div');
     t.className = 'toast';
     t.textContent = msg;
     document.body.appendChild(t);
-    setTimeout(() => t.classList.add('show'), 10);
-    setTimeout(() => {
+    setTimeout(function () { t.classList.add('show'); }, 10);
+    setTimeout(function () {
       t.classList.remove('show');
-      setTimeout(() => t.remove(), 300);
+      setTimeout(function () { t.remove(); }, 300);
     }, 2200);
   }
 
@@ -61,7 +79,7 @@
     if (navigator.clipboard && navigator.clipboard.writeText) {
       return navigator.clipboard.writeText(text);
     }
-    const ta = document.createElement('textarea');
+    var ta = document.createElement('textarea');
     ta.value = text;
     document.body.appendChild(ta);
     ta.select();
@@ -70,400 +88,667 @@
     return Promise.resolve();
   }
 
-  function formatTime(seconds) {
-    const s = Math.max(0, Math.floor(Number(seconds) || 0));
-    const m = Math.floor((s % 3600) / 60);
-    const sec = s % 60;
-    return `${String(m).padStart(2, '0')}:${String(sec).padStart(2, '0')}`;
+  function getMeetingMeta() {
+    var m = (typeof MEETING !== 'undefined' && MEETING) ? MEETING : {};
+    return {
+      id: String(m.meeting_id || '').trim(),
+      date: String(m.display_date || m.meeting_date || '').trim(),
+      title: String(m.title || '').trim(),
+    };
+  }
+
+  // ---- Passphrase gate ----
+  function isReviewMode() {
+    var params = new URLSearchParams(window.location.search);
+    return params.get('review') === '1';
+  }
+
+  function isSessionConfirmed() {
+    try {
+      return sessionStorage.getItem(REVIEW_SESSION_KEY) === REVIEW_SESSION_VALUE;
+    } catch (e) { return false; }
+  }
+
+  function confirmSession() {
+    try { sessionStorage.setItem(REVIEW_SESSION_KEY, REVIEW_SESSION_VALUE); } catch (e) {}
+    SESSION_CONFIRMED = true;
+  }
+
+  function showPassphraseGate(callback) {
+    // Build a small overlay
+    var overlay = document.createElement('div');
+    overlay.id = 'review-passphrase-overlay';
+    overlay.innerHTML =
+      '<div class="review-passphrase-box">' +
+        '<h3><i class="fas fa-lock"></i> Review Mode</h3>' +
+        '<p>Enter the reviewer passphrase to continue.</p>' +
+        '<p class="rm-hint-text">Passphrase: <code>review</code></p>' +
+        '<input type="password" id="rm-passphrase-input" class="rm-input" placeholder="Enter passphrase" autocomplete="off">' +
+        '<div class="rm-actions" style="margin-top:14px;">' +
+          '<button type="button" id="rm-passphrase-submit" class="mini-btn primary-btn">Confirm</button>' +
+        '</div>' +
+        '<p id="rm-passphrase-error" style="color:#e53e3e;font-size:13px;display:none;margin-top:8px;">Incorrect passphrase. Please try again.</p>' +
+      '</div>';
+    overlay.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.55);z-index:3000;display:flex;align-items:center;justify-content:center;padding:20px;';
+    document.body.appendChild(overlay);
+
+    var input = document.getElementById('rm-passphrase-input');
+    var submitBtn = document.getElementById('rm-passphrase-submit');
+    var errorEl = document.getElementById('rm-passphrase-error');
+
+    function attempt() {
+      var val = input.value.trim();
+      if (val === 'review') {
+        overlay.remove();
+        confirmSession();
+        callback();
+      } else {
+        errorEl.style.display = 'block';
+        input.value = '';
+        input.focus();
+      }
+    }
+
+    submitBtn.addEventListener('click', attempt);
+    input.addEventListener('keydown', function (e) { if (e.key === 'Enter') attempt(); });
+    input.focus();
   }
 
   // ---- Pending decisions storage ----
   function loadPending() {
-    const key = PENDING_KEY(getMeetingId());
     try {
-      return JSON.parse(localStorage.getItem(key) || '[]');
-    } catch (_) { return []; }
+      return JSON.parse(localStorage.getItem(PENDING_KEY(MEETING_ID)) || '[]');
+    } catch (e) { return []; }
   }
 
   function savePending(decisions) {
-    const key = PENDING_KEY(getMeetingId());
-    localStorage.setItem(key, JSON.stringify(decisions || []));
+    try {
+      localStorage.setItem(PENDING_KEY(MEETING_ID), JSON.stringify(decisions || []));
+    } catch (e) {}
+    PENDING_DECISIONS = decisions || [];
   }
 
   function addPending(decision) {
-    const all = loadPending();
+    var all = loadPending();
     // Replace existing decision for same turn_id, or append
-    const idx = all.findIndex((d) => d.turn_id === decision.turn_id);
+    var idx = -1;
+    for (var i = 0; i < all.length; i++) {
+      if (all[i].turn_id === decision.turn_id) { idx = i; break; }
+    }
     if (idx >= 0) all[idx] = decision;
     else all.push(decision);
     savePending(all);
     PENDING_DECISIONS = all;
   }
 
-  // ---- Build speaker block info (index → turn_ids) ----
-  function buildBlockIndexMap() {
-    // Returns array parallel to rendered blocks: each entry = { start, end, turnIds[] }
-    const turns = getTurns();
-    const blocks = [];
-    let i = 0;
-    turns.forEach((turn) => {
-      let speaker = String(turn.speaker || 'Unknown').trim();
+  function removePending(turnId) {
+    var all = loadPending();
+    all = all.filter(function (d) { return d.turn_id !== turnId; });
+    savePending(all);
+  }
+
+  function clearAllPending() {
+    savePending([]);
+  }
+
+  // ---- Build block index (matches render logic) ----
+  function buildBlockIndex() {
+    var turns = getTurns();
+    var blocks = [];
+    for (var i = 0; i < turns.length; i++) {
+      var turn = turns[i];
+      var speaker = String(turn.speaker || 'Unknown').trim();
       if (!speaker || speaker.toLowerCase() === 'speaker' || speaker.toLowerCase() === 'unknown') {
         speaker = 'Unknown Speaker';
       }
-      const speakerSource = String(turn.speaker_source || '').trim() || (speaker === 'Unknown Speaker' ? 'unknown' : '');
-      const spKey = speakerKey(speaker);
-      const start = Number(turn.start) || 0;
-      const end = Number(turn.end) || start;
-      const text = String(turn.text || '').replace(/\s+/g, ' ').trim();
-      if (!text) return;
+      var speakerSource = String(turn.speaker_source || '').trim() || (speaker === 'Unknown Speaker' ? 'unknown' : '');
+      var start = Number(turn.start) || 0;
+      var end = Number(turn.end) || start;
+      var text = String(turn.text || '').replace(/\s+/g, ' ').trim();
+      if (!text) continue;
 
-      const last = blocks.length ? blocks[blocks.length - 1] : null;
-      const canMerge = speaker !== 'Unknown Speaker';
+      var last = blocks.length ? blocks[blocks.length - 1] : null;
+      var canMerge = speaker !== 'Unknown Speaker';
       if (canMerge && last && String(last.speaker) === speaker && String(last.speakerSource || '') === String(speakerSource || '')) {
         last.end = Math.max(Number(last.end) || 0, end);
         last.turnIds.push(turn.turn_id);
         last.texts.push(text);
+        last.endTime = Math.max(last.endTime || 0, end);
       } else {
         blocks.push({
-          speaker,
-          speakerKey: spKey,
-          speakerSource,
-          start,
-          end,
+          speaker: speaker,
+          speakerKey: speakerKey(speaker),
+          speakerSource: speakerSource,
+          start: start,
+          end: end,
+          endTime: end,
           turnIds: [turn.turn_id],
-          texts: [text]
+          texts: [text],
+          // first turn data for display
+          turn_id: turn.turn_id,
         });
       }
-    });
+    }
     return blocks;
   }
 
-  function speakerKey(s) {
-    return String(s || '').toLowerCase().replace(/\s+/g, ' ').trim();
+  function findBlockForTurnId(turnId) {
+    var blocks = buildBlockIndex();
+    for (var i = 0; i < blocks.length; i++) {
+      if (blocks[i].turnIds.indexOf(String(turnId)) >= 0) return { block: blocks[i], index: i };
+    }
+    return null;
   }
 
-  // ---- Inject Label Speaker buttons into unlabeled blocks ----
+  // ---- Wire Label buttons into unlabeled blocks ----
   function wireLabelButtons() {
-    document.querySelectorAll('.speaker-block').forEach((block) => {
-      const speakerKey2 = String(block.dataset.speaker || '').toLowerCase();
+    var blocks = buildBlockIndex();
+    document.querySelectorAll('.speaker-block').forEach(function (block) {
+      var speakerKey2 = String(block.dataset.speaker || '').toLowerCase();
       if (speakerKey2 !== speakerKey('Unknown Speaker')) return;
+      var blockIndex = parseInt(block.dataset.index || '0', 10);
+      var blockInfo = blocks[blockIndex];
+      if (!blockInfo) return;
+
       // Already has a label-btn?
       if (block.querySelector('.label-btn')) return;
 
-      const btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'label-btn';
-      btn.title = 'Label this speaker (review mode)';
-      btn.innerHTML = '<i class="fas fa-tag"></i> Label speaker';
-      btn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        openModal(block);
+      // Check if this block is already staged
+      var staged = PENDING_DECISIONS.find(function (d) {
+        return blockInfo.turnIds.indexOf(d.turn_id) >= 0;
       });
 
-      // Insert after the header actions
-      const header = block.querySelector('.turn-header');
-      if (header) header.appendChild(btn);
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = staged ? 'label-btn label-btn-staged' : 'label-btn';
+      btn.title = staged ? 'Edit staged label (review mode)' : 'Label this speaker (review mode)';
+      btn.innerHTML = staged
+        ? '<i class="fas fa-edit"></i> Edit label'
+        : '<i class="fas fa-tag"></i> Label speaker';
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        openModalForTurn(blockInfo.turnIds[0]);
+      });
+      block.querySelector('.turn-header').appendChild(btn);
     });
   }
 
-  // ---- Modal ----
-  let activeBlock = null;
-  let activeBlockInfo = null;
+  // ---- Review banner ----
+  function showReviewBanner() {
+    var existing = document.getElementById('review-banner');
+    if (existing) existing.remove();
+    var meta = getMeetingMeta();
+    var pending = PENDING_DECISIONS;
+    var banner = document.createElement('div');
+    banner.id = 'review-banner';
+    banner.className = 'review-banner';
+    banner.innerHTML =
+      '<span class="review-banner-icon"><i class="fas fa-edit"></i></span>' +
+      '<span class="review-banner-text">' +
+        '<strong>Review mode</strong> — ' + meta.id +
+      '</span>' +
+      '<span class="review-staged-count" id="review-staged-count">' +
+        (pending.length > 0 ? pending.length + ' staged decision' + (pending.length !== 1 ? 's' : '') : 'no staged decisions') +
+      '</span>' +
+      '<button type="button" id="review-export-btn" class="review-action-btn"' + (pending.length === 0 ? ' disabled' : '') + '>' +
+        '<i class="fas fa-download"></i> Export JSON' +
+      '</button>' +
+      '<button type="button" id="review-copy-btn" class="review-action-btn"' + (pending.length === 0 ? ' disabled' : '') + '>' +
+        '<i class="fas fa-copy"></i> Copy JSON' +
+      '</button>' +
+      '<button type="button" id="review-clear-btn" class="review-action-btn review-action-btn-danger"' + (pending.length === 0 ? ' disabled' : '') + '>' +
+        '<i class="fas fa-trash-alt"></i> Clear all' +
+      '</button>' +
+      '<a href="?" class="review-exit-link">Exit review mode</a>';
+    document.querySelector('.container').prepend(banner);
 
-  function openModal(blockEl) {
-    activeBlock = blockEl;
-    const idx = parseInt(blockEl.dataset.index || '0', 10);
-    const blocks = buildBlockIndexMap();
-    activeBlockInfo = blocks[idx] || null;
+    // Export download
+    document.getElementById('review-export-btn').addEventListener('click', function () {
+      exportDownload();
+    });
 
-    // Populate turn info in modal
-    const modal = getModal();
-    const turnInfo = modal.querySelector('#rm-turn-info');
-    const turnText = modal.querySelector('#rm-turn-text');
-    const speakerNameInput = modal.querySelector('#rm-speaker-name');
-    const typeCouncil = modal.querySelector('#rm-type-council');
-    const typeStaff = modal.querySelector('#rm-type-staff');
-    const typePublic = modal.querySelector('#rm-type-public');
-    const typeUnknown = modal.querySelector('#rm-type-unknown');
-    const scopeThis = modal.querySelector('#rm-scope-this');
-    const evidenceNote = modal.querySelector('#rm-evidence');
-    const submitBtn = modal.querySelector('#rm-submit');
-    const decisionOutput = modal.querySelector('#rm-decision-output');
-    const copyBtn = modal.querySelector('#rm-copy-decision');
-    const applyInstructions = modal.querySelector('#rm-apply-instructions');
+    // Copy JSON
+    document.getElementById('review-copy-btn').addEventListener('click', function () {
+      var json = JSON.stringify(PENDING_DECISIONS, null, 2);
+      copyText(json).then(function () { showToast('JSON copied to clipboard'); });
+    });
 
-    if (turnInfo) turnInfo.textContent = activeBlockInfo
-      ? `Turn IDs: ${activeBlockInfo.turnIds.join(', ')} | Time: ${formatTime(activeBlockInfo.start)}`
-      : `Index: ${idx}`;
-    if (turnText) turnText.textContent = (activeBlockInfo ? activeBlockInfo.texts[0] : blockEl.querySelector('.turn-text')?.textContent || '').slice(0, 120) + '…';
+    // Clear all with confirmation
+    document.getElementById('review-clear-btn').addEventListener('click', function () {
+      if (pending.length === 0) return;
+      if (window.confirm('Clear all ' + pending.length + ' staged decision' + (pending.length !== 1 ? 's' : '') + '? This cannot be undone.')) {
+        clearAllPending();
+        renderSidebar();
+        updateBannerCounts();
+        wireLabelButtons();
+        showToast('All staged decisions cleared');
+      }
+    });
+  }
 
-    // Reset form
-    speakerNameInput.value = '';
-    typeCouncil.checked = false;
-    typeStaff.checked = false;
-    typePublic.checked = false;
-    typeUnknown.checked = false;
-    scopeThis.checked = true;
-    evidenceNote.value = '';
-    decisionOutput.style.display = 'none';
-    applyInstructions.style.display = 'none';
-    submitBtn.disabled = true;
+  function updateBannerCounts() {
+    var countEl = document.getElementById('review-staged-count');
+    var exportBtn = document.getElementById('review-export-btn');
+    var copyBtn = document.getElementById('review-copy-btn');
+    var clearBtn = document.getElementById('review-clear-btn');
+    var pending = PENDING_DECISIONS;
+    if (countEl) {
+      countEl.textContent = pending.length > 0
+        ? pending.length + ' staged decision' + (pending.length !== 1 ? 's' : '')
+        : 'no staged decisions';
+    }
+    if (exportBtn) exportBtn.disabled = pending.length === 0;
+    if (copyBtn) copyBtn.disabled = pending.length === 0;
+    if (clearBtn) clearBtn.disabled = pending.length === 0;
+  }
 
-    // Enable submit only when evidence note has content (for named labels)
-    const updateSubmitState = () => {
-      const hasName = speakerNameInput.value.trim().length > 0;
-      const hasNote = evidenceNote.value.trim().length > 0;
-      const hasType = typeCouncil.checked || typeStaff.checked || typePublic.checked || typeUnknown.checked;
-      submitBtn.disabled = !hasType || (hasName && !hasNote);
+  // ---- Sidebar ----
+  function getSidebar() {
+    var existing = document.getElementById('review-sidebar');
+    if (existing) return existing;
+    var sidebar = document.createElement('div');
+    sidebar.id = 'review-sidebar';
+    sidebar.className = 'review-sidebar';
+    document.querySelector('.container').appendChild(sidebar);
+    return sidebar;
+  }
+
+  function renderSidebar() {
+    var sidebar = getSidebar();
+    var pending = PENDING_DECISIONS;
+
+    if (pending.length === 0) {
+      sidebar.innerHTML =
+        '<div class="review-sidebar-header">' +
+          '<h3><i class="fas fa-list"></i> Staged Decisions</h3>' +
+        '</div>' +
+        '<div class="review-sidebar-empty">No staged decisions yet.<br>Click "Label speaker" on an unlabeled block to begin.</div>';
+      return;
+    }
+
+    var html = '<div class="review-sidebar-header">' +
+      '<h3><i class="fas fa-list"></i> Staged Decisions <span class="review-sidebar-count">' + pending.length + '</span></h3>' +
+    '</div>';
+
+    for (var i = 0; i < pending.length; i++) {
+      var d = pending[i];
+      var actionLabel = actionToLabel(d.reviewer_action || 'keep_unknown');
+      var typeBadge = typeToBadge(d.speaker_type || 'unknown');
+      html +=
+        '<div class="review-staged-item" data-turn-id="' + d.turn_id + '">' +
+          '<div class="review-staged-header">' +
+            '<span class="review-staged-turn">' + d.turn_id + '</span>' +
+            '<span class="review-staged-time">' + (d.timestamp ? formatTime(d.timestamp) : '') + '</span>' +
+          '</div>' +
+          '<div class="review-staged-speaker">' + escHtml(String(d.speaker_name || '(unnamed)')) + '</div>' +
+          '<div class="review-staged-meta">' +
+            '<span class="review-staged-action">' + actionLabel + '</span>' +
+            typeBadge +
+          '</div>' +
+          (d.notes ? '<div class="review-staged-notes">' + escHtml(String(d.notes || '')) + '</div>' : '') +
+          '<div class="review-staged-actions">' +
+            '<button type="button" class="review-item-edit-btn" data-turn-id="' + d.turn_id + '"><i class="fas fa-edit"></i> Edit</button>' +
+            '<button type="button" class="review-item-remove-btn" data-turn-id="' + d.turn_id + '"><i class="fas fa-trash-alt"></i> Remove</button>' +
+          '</div>' +
+        '</div>';
+    }
+
+    sidebar.innerHTML = html;
+
+    // Wire edit/remove
+    sidebar.querySelectorAll('.review-item-edit-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var turnId = btn.getAttribute('data-turn-id');
+        openModalForTurn(turnId);
+      });
+    });
+    sidebar.querySelectorAll('.review-item-remove-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var turnId = btn.getAttribute('data-turn-id');
+        removePending(turnId);
+        renderSidebar();
+        updateBannerCounts();
+        wireLabelButtons();
+        showToast('Staged decision removed');
+      });
+    });
+  }
+
+  function escHtml(str) {
+    return String(str || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function actionToLabel(action) {
+    var map = {
+      'keep_unknown': 'Keep unknown',
+      'mark_public_comment': 'Public comment',
+      'approve_named_official': 'Named official',
+      'suppress_turn': 'Suppress',
     };
+    return map[action] || action || 'unknown';
+  }
 
-    speakerNameInput.addEventListener('input', updateSubmitState);
-    evidenceNote.addEventListener('input', updateSubmitState);
-    [typeCouncil, typeStaff, typePublic, typeUnknown].forEach((r) => r.addEventListener('change', updateSubmitState));
+  function typeToBadge(type) {
+    var map = {
+      'council': '<span class="review-badge review-badge-council">Council</span>',
+      'staff': '<span class="review-badge review-badge-staff">Staff</span>',
+      'public_comment': '<span class="review-badge review-badge-public">Public</span>',
+      'unknown': '<span class="review-badge review-badge-unknown">Unknown</span>',
+    };
+    return map[type] || '<span class="review-badge review-badge-unknown">Unknown</span>';
+  }
 
-    copyBtn.style.display = 'none';
+  // ---- Export ----
+  function exportDownload() {
+    var pending = PENDING_DECISIONS;
+    if (pending.length === 0) return;
+    var blob = new Blob([JSON.stringify(pending, null, 2)], { type: 'application/json' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = MEETING_ID + '-staged-decisions.json';
+    document.body.appendChild(a);
+    a.click();
+    setTimeout(function () { document.body.removeChild(a); URL.revokeObjectURL(url); }, 100);
+    showToast('Downloaded ' + pending.length + ' decision' + (pending.length !== 1 ? 's' : '') + ' as JSON');
+  }
 
+  // ---- Modal ----
+  var modalEl = null;
+
+  function getModal() {
+    if (modalEl) return modalEl;
+    modalEl = document.createElement('div');
+    modalEl.id = 'review-modal';
+    modalEl.className = 'review-modal';
+    modalEl.style.display = 'none';
+    document.body.appendChild(modalEl);
+    return modalEl;
+  }
+
+  function openModalForTurn(turnId) {
+    var blocks = buildBlockIndex();
+    var blockInfo = null;
+    var blockIndex = -1;
+    for (var i = 0; i < blocks.length; i++) {
+      if (blocks[i].turnIds.indexOf(String(turnId)) >= 0) {
+        blockInfo = blocks[i];
+        blockIndex = i;
+        break;
+      }
+    }
+    if (!blockInfo) return;
+
+    ACTIVE_TURN_ID = String(turnId);
+    var modal = getModal();
+
+    // Check if already staged — pre-populate
+    var existing = PENDING_DECISIONS.find(function (d) { return d.turn_id === ACTIVE_TURN_ID; });
+
+    modal.innerHTML = getModalHtml(blockInfo, existing);
+
+    // Wire quick-picks
+    modal.querySelectorAll('.quick-pick-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var name = btn.textContent.trim();
+        var input = modal.querySelector('#rm-speaker-name');
+        if (input) input.value = name;
+        var typeCouncil = modal.querySelector('#rm-type-council');
+        var typeStaff = modal.querySelector('#rm-type-staff');
+        if (typeCouncil) typeCouncil.checked = true;
+        if (typeStaff) typeStaff.checked = true;
+        updateSubmitState(modal);
+      });
+    });
+
+    // Quick action buttons
+    var quickKeepUnknown = modal.querySelector('#rm-quick-keep-unknown');
+    var quickPublic = modal.querySelector('#rm-quick-public');
+    var quickSuppress = modal.querySelector('#rm-quick-suppress');
+    var submitBtn = modal.querySelector('#rm-submit');
+    var evidenceNote = modal.querySelector('#rm-evidence');
+    var speakerNameInput = modal.querySelector('#rm-speaker-name');
+
+    if (quickKeepUnknown) {
+      quickKeepUnknown.addEventListener('click', function () {
+        var typeUnknown = modal.querySelector('#rm-type-unknown');
+        if (typeUnknown) typeUnknown.checked = true;
+        evidenceNote.value = evidenceNote.value.trim() || 'Reviewer action: keep unknown';
+        updateSubmitState(modal);
+      });
+    }
+    if (quickPublic) {
+      quickPublic.addEventListener('click', function () {
+        var typePublic = modal.querySelector('#rm-type-public');
+        if (typePublic) typePublic.checked = true;
+        updateSubmitState(modal);
+      });
+    }
+    if (quickSuppress) {
+      quickSuppress.addEventListener('click', function () {
+        evidenceNote.value = evidenceNote.value.trim() || 'Suppress turn — reviewer action';
+        var decision = buildDecisionFromModal(modal);
+        decision.reviewer_action = 'suppress_turn';
+        decision.suppress = true;
+        saveDecision(decision);
+      });
+    }
+
+    // Submit
+    submitBtn.addEventListener('click', function () {
+      var decision = buildDecisionFromModal(modal);
+      if (!decision) return;
+      saveDecision(decision);
+    });
+
+    // Cancel
+    modal.querySelector('#rm-cancel').addEventListener('click', closeModal);
+
+    // Backdrop click closes
+    modal.addEventListener('click', function (e) {
+      if (e.target === modal) closeModal();
+    });
+
+    updateSubmitState(modal);
     modal.classList.add('open');
     modal.style.display = 'flex';
   }
 
   function closeModal() {
-    const modal = getModal();
+    var modal = getModal();
     modal.classList.remove('open');
-    setTimeout(() => { modal.style.display = 'none'; }, 200);
-    activeBlock = null;
-    activeBlockInfo = null;
+    setTimeout(function () { modal.style.display = 'none'; modal.innerHTML = ''; }, 200);
+    ACTIVE_TURN_ID = null;
   }
 
-  function getModal() {
-    let modal = document.getElementById('review-modal');
-    if (!modal) {
-      modal = document.createElement('div');
-      modal.id = 'review-modal';
-      modal.className = 'review-modal';
-      modal.style.display = 'none';
-      modal.innerHTML = getModalHtml();
-      document.body.appendChild(modal);
-
-      // Close on backdrop click
-      modal.addEventListener('click', (e) => {
-        if (e.target === modal) closeModal();
-      });
-
-      // Quick-pick wiring
-      modal.querySelectorAll('.quick-pick-btn').forEach((btn) => {
-        btn.addEventListener('click', () => {
-          const input = modal.querySelector('#rm-speaker-name');
-          if (input) input.value = btn.textContent;
-          // Auto-select council type
-          const typeCouncil = modal.querySelector('#rm-type-council');
-          if (typeCouncil) typeCouncil.checked = true;
-          modal.querySelector('#rm-submit').disabled = false;
-        });
-      });
-
-      // Submit
-      modal.querySelector('#rm-submit').addEventListener('click', () => {
-        const decision = buildDecision();
-        if (!decision) return;
-        addPending(decision);
-        showSavedDecision(decision);
-      });
-
-      // Copy decision
-      modal.querySelector('#rm-copy-decision').addEventListener('click', () => {
-        const output = modal.querySelector('#rm-decision-output');
-        copyText(output.textContent || '').then(() => showToast('Copied!')).catch(() => showToast('Copy failed'));
-      });
-
-      // Close
-      modal.querySelector('#rm-cancel').addEventListener('click', closeModal);
-    }
-    return modal;
+  function updateSubmitState(modal) {
+    var submitBtn = modal.querySelector('#rm-submit');
+    if (!submitBtn) return;
+    var speakerNameInput = modal.querySelector('#rm-speaker-name');
+    var evidenceNote = modal.querySelector('#rm-evidence');
+    var typeUnknown = modal.querySelector('#rm-type-unknown');
+    var hasType = modal.querySelector('#rm-type-council').checked ||
+      modal.querySelector('#rm-type-staff').checked ||
+      modal.querySelector('#rm-type-public').checked ||
+      modal.querySelector('#rm-type-unknown').checked;
+    var hasName = speakerNameInput && speakerNameInput.value.trim().length > 0;
+    var hasNote = evidenceNote && evidenceNote.value.trim().length > 0;
+    // Named labels require evidence; unknown/keep_unknown do not
+    var needsNote = hasName;
+    submitBtn.disabled = !hasType || (needsNote && !hasNote);
   }
 
-  function buildDecision() {
-    if (!activeBlockInfo) return null;
-    const modal = getModal();
+  function saveDecision(decision) {
+    addPending(decision);
+    renderSidebar();
+    updateBannerCounts();
+    wireLabelButtons();
+    closeModal();
+    showToast('Decision saved — ' + PENDING_DECISIONS.length + ' staged');
+  }
 
-    const speakerName = modal.querySelector('#rm-speaker-name').value.trim();
-    const typeCouncil = modal.querySelector('#rm-type-council').checked;
-    const typeStaff = modal.querySelector('#rm-type-staff').checked;
-    const typePublic = modal.querySelector('#rm-type-public').checked;
-    const typeUnknown = modal.querySelector('#rm-type-unknown').checked;
-    const scopeThis = modal.querySelector('#rm-scope-this').checked;
-    const evidenceNote = modal.querySelector('#rm-evidence').value.trim();
+  function buildDecisionFromModal(modal) {
+    var speakerName = modal.querySelector('#rm-speaker-name').value.trim();
+    var typeCouncil = modal.querySelector('#rm-type-council').checked;
+    var typeStaff = modal.querySelector('#rm-type-staff').checked;
+    var typePublic = modal.querySelector('#rm-type-public').checked;
+    var typeUnknown = modal.querySelector('#rm-type-unknown').checked;
+    var evidenceNote = (modal.querySelector('#rm-evidence').value || '').trim();
 
-    let action = 'keep_unknown';
-    let speakerPublic = '';
-    let speakerStatus = '';
+    var speakerType = '';
+    var action = 'keep_unknown';
+    var speakerPublic = '';
+    var speakerStatus = '';
 
     if (typeUnknown) {
       action = 'keep_unknown';
+      speakerType = 'unknown';
     } else if (typePublic) {
       action = 'mark_public_comment';
-      speakerPublic = speakerName || 'Public Comment';
+      speakerType = 'public_comment';
+      speakerPublic = speakerName || 'Public Comment Speaker';
       speakerStatus = 'approved';
-    } else if (typeStaff || typeCouncil) {
+    } else if (typeCouncil) {
       action = 'approve_named_official';
+      speakerType = 'council';
+      speakerPublic = speakerName;
+      speakerStatus = 'approved';
+    } else if (typeStaff) {
+      action = 'approve_named_official';
+      speakerType = 'staff';
       speakerPublic = speakerName;
       speakerStatus = 'approved';
     }
 
-    // For scope, determine which turn_ids
-    let turnIds = [];
-    if (scopeThis || !activeBlockInfo) {
-      turnIds = activeBlockInfo ? [activeBlockInfo.turnIds[0]] : [];
-    }
-
-    // Build decision objects
-    const decisions = turnIds.map((turn_id) => ({
-      turn_id,
+    return {
+      turn_id: ACTIVE_TURN_ID,
       reviewer_action: action,
+      speaker_name: speakerName,
+      speaker_type: speakerType,
       speaker_public_override: speakerPublic,
       speaker_status_override: speakerStatus,
       text_override: '',
       suppress: false,
-      notes: evidenceNote || `Reviewer: ${action}`,
-    }));
-
-    return decisions.length === 1 ? decisions[0] : decisions[0];
+      notes: evidenceNote,
+      timestamp: Date.now(),
+    };
   }
 
-  function showSavedDecision(decision) {
-    const modal = getModal();
-    const output = modal.querySelector('#rm-decision-output');
-    const instructions = modal.querySelector('#rm-apply-instructions');
-    const copyBtn = modal.querySelector('#rm-copy-decision');
+  function getModalHtml(blockInfo, existing) {
+    var timeLabel = formatTime(blockInfo.start);
+    var previewText = (blockInfo.texts[0] || '').slice(0, 120) + (blockInfo.texts[0] || '').length > 120 ? '…' : '';
+    var exSpeaker = existing ? existing.speaker_name || '' : '';
+    var exNotes = existing ? existing.notes || '' : '';
+    var exType = existing ? existing.speaker_type || '' : '';
+    var exAction = existing ? existing.reviewer_action || '' : '';
 
-    const json = JSON.stringify(decision, null, 2);
-    output.textContent = json;
-    output.style.display = 'block';
-    instructions.style.display = 'block';
-    copyBtn.style.display = 'inline-flex';
+    return [
+      '<div class="review-modal-content">',
+        '<h3><i class="fas fa-tag"></i> ' + (existing ? 'Edit Staged Label' : 'Label Speaker') + '</h3>',
 
-    // Disable form fields
-    modal.querySelector('#rm-submit').disabled = true;
-    modal.querySelector('#rm-speaker-name').disabled = true;
-    modal.querySelector('#rm-evidence').disabled = true;
-    [modal.querySelector('#rm-type-council'),
-     modal.querySelector('#rm-type-staff'),
-     modal.querySelector('#rm-type-public'),
-     modal.querySelector('#rm-type-unknown')].forEach((r) => r.disabled = true);
-    modal.querySelectorAll('.quick-pick-btn').forEach((b) => b.disabled = true);
-  }
+        // Turn info
+        '<div class="rm-section">',
+          '<label class="rm-label">Turn</label>',
+          '<div class="rm-info-text">',
+            '<span class="rm-turn-id">' + blockInfo.turnIds[0] + '</span> &bull; ',
+            '<span class="rm-turn-time">' + timeLabel + '</span>',
+          '</div>',
+        '</div>',
 
-  function getModalHtml() {
-    return `
-      <div class="review-modal-content">
-        <h3><i class="fas fa-tag"></i> Label Speaker (Review Mode)</h3>
+        // Text preview
+        '<div class="rm-section">',
+          '<label class="rm-label">Speaker text</label>',
+          '<div class="rm-turn-preview">' + escHtml(previewText) + '</div>',
+        '</div>',
 
-        <div class="rm-section">
-          <label class="rm-label">Turn info</label>
-          <div id="rm-turn-info" class="rm-info-text"></div>
-        </div>
+        // Quick actions
+        '<div class="rm-section rm-quick-actions">',
+          '<button type="button" id="rm-quick-keep-unknown" class="mini-btn rm-quick-btn">Keep unknown</button>',
+          '<button type="button" id="rm-quick-public" class="mini-btn rm-quick-btn">Public comment</button>',
+          '<button type="button" id="rm-quick-suppress" class="mini-btn rm-quick-btn rm-quick-btn-warn"><i class="fas fa-ban"></i> Suppress turn</button>',
+        '</div>',
 
-        <div class="rm-section">
-          <label class="rm-label">Speaker text preview</label>
-          <div id="rm-turn-text" class="rm-turn-preview"></div>
-        </div>
+        // Speaker name
+        '<div class="rm-section">',
+          '<label class="rm-label" for="rm-speaker-name">Speaker name</label>',
+          '<input type="text" id="rm-speaker-name" class="rm-input" value="' + escHtml(exSpeaker) + '" placeholder="Type or pick from list below" autocomplete="off">',
+          '<div class="rm-quick-pick-label">Council members:</div>',
+          '<div class="rm-quick-pick">',
+            COUNCIL_QUICK_PICK.map(function (n) { return '<button type="button" class="quick-pick-btn">' + escHtml(n) + '</button>'; }).join(''),
+          '</div>',
+          '<div class="rm-quick-pick-label" style="margin-top:8px;">Staff:</div>',
+          '<div class="rm-quick-pick">',
+            STAFF_QUICK_PICK.map(function (n) { return '<button type="button" class="quick-pick-btn">' + escHtml(n) + '</button>'; }).join(''),
+          '</div>',
+        '</div>',
 
-        <div class="rm-section">
-          <label class="rm-label" for="rm-speaker-name">Speaker name</label>
-          <input type="text" id="rm-speaker-name" class="rm-input" placeholder="Type or pick from list below" autocomplete="off">
-          <div class="rm-quick-pick">
-            <span class="rm-hint">Quick pick:</span>
-            ${COUNCIL_QUICK_PICK.map((name) => `
-              <button type="button" class="quick-pick-btn">${name}</button>
-            `).join('')}
-          </div>
-        </div>
+        // Speaker type
+        '<div class="rm-section">',
+          '<label class="rm-label">Speaker type</label>',
+          '<div class="rm-radio-group">',
+            '<label class="rm-radio"><input type="radio" name="rm-type" id="rm-type-council" value="council"' + (exType === 'council' ? ' checked' : '') + '> Council / Mayor</label>',
+            '<label class="rm-radio"><input type="radio" name="rm-type" id="rm-type-staff" value="staff"' + (exType === 'staff' ? ' checked' : '') + '> Staff</label>',
+            '<label class="rm-radio"><input type="radio" name="rm-type" id="rm-type-public" value="public_comment"' + (exType === 'public_comment' ? ' checked' : '') + '> Public comment</label>',
+            '<label class="rm-radio"><input type="radio" name="rm-type" id="rm-type-unknown" value="unknown"' + (exType === 'unknown' || !exType ? ' checked' : '') + '> Keep unknown</label>',
+          '</div>',
+        '</div>',
 
-        <div class="rm-section">
-          <label class="rm-label">Speaker type</label>
-          <div class="rm-radio-group">
-            <label class="rm-radio"><input type="radio" name="rm-type" id="rm-type-council" value="council"> Council / Mayor</label>
-            <label class="rm-radio"><input type="radio" name="rm-type" id="rm-type-staff" value="staff"> Staff</label>
-            <label class="rm-radio"><input type="radio" name="rm-type" id="rm-type-public" value="public_comment"> Public Comment</label>
-            <label class="rm-radio"><input type="radio" name="rm-type" id="rm-type-unknown" value="unknown"> Keep unknown</label>
-          </div>
-        </div>
+        // Evidence notes
+        '<div class="rm-section">',
+          '<label class="rm-label" for="rm-evidence">Evidence / notes <span class="rm-required">*</span></label>',
+          '<textarea id="rm-evidence" class="rm-textarea" rows="3" placeholder="e.g. Video frame at 6899s shows CM PETERSON nameplate">' + escHtml(exNotes) + '</textarea>',
+          '<p class="rm-hint-text">Required for any named label. Explain the evidence supporting this decision.</p>',
+        '</div>',
 
-        <div class="rm-section">
-          <label class="rm-label">Apply to</label>
-          <div class="rm-radio-group">
-            <label class="rm-radio"><input type="radio" name="rm-scope" id="rm-scope-this" value="this" checked> This turn only</label>
-          </div>
-          <p class="rm-hint-text">Contiguous block and same-speaker cluster application available via manual JSON editing.</p>
-        </div>
-
-        <div class="rm-section">
-          <label class="rm-label" for="rm-evidence">Evidence / notes <span class="rm-required">*</span></label>
-          <textarea id="rm-evidence" class="rm-textarea" rows="3" placeholder="Describe the evidence that supports this label (video timestamp, adjacent speaker context, etc.)"></textarea>
-          <p class="rm-hint-text">Required for any named label. Helps future reviewers understand the decision.</p>
-        </div>
-
-        <div id="rm-decision-output" class="rm-decision-output" style="display:none;"></div>
-        <div id="rm-apply-instructions" class="rm-instructions" style="display:none;">
-          <b>Saved!</b> To apply this decision:<br>
-          1. Copy the JSON above<br>
-          2. Add it to <code>reviews/&lt;meeting&gt;-review-decisions.json</code> in the <code>decisions</code> array<br>
-          3. Run: <code>python scripts/apply_review_decisions.py apr-14-2026</code><br>
-          4. Run: <code>python scripts/publish_structured_meeting.py apr-14-2026</code>
-        </div>
-
-        <div class="rm-actions">
-          <button type="button" id="rm-copy-decision" class="mini-btn" style="display:none;"><i class="fas fa-copy"></i> Copy JSON</button>
-          <button type="button" id="rm-submit" class="mini-btn primary-btn" disabled><i class="fas fa-save"></i> Save decision</button>
-          <button type="button" id="rm-cancel" class="mini-btn">Cancel</button>
-        </div>
-      </div>
-    `;
-  }
-
-  // ---- Show review mode indicator ----
-  function showReviewModeBanner() {
-    const existing = document.getElementById('review-banner');
-    if (existing) return;
-    const banner = document.createElement('div');
-    banner.id = 'review-banner';
-    banner.className = 'review-banner';
-    banner.innerHTML = '<i class="fas fa-edit"></i> Review mode active — unlabeled turns can be labeled | <a href="?" class="review-exit-link">Exit review mode</a>';
-    document.querySelector('.container').prepend(banner);
-
-    // Add pending count badge
-    const pending = loadPending();
-    if (pending.length > 0) {
-      const badge = document.createElement('span');
-      badge.className = 'review-pending-badge';
-      badge.textContent = `${pending.length} pending decision${pending.length > 1 ? 's' : ''}`;
-      banner.appendChild(badge);
-    }
+        // Actions
+        '<div class="rm-actions">',
+          '<button type="button" id="rm-submit" class="mini-btn primary-btn" disabled><i class="fas fa-save"></i> Save decision</button>',
+          '<button type="button" id="rm-cancel" class="mini-btn">Cancel</button>',
+        '</div>',
+      '</div>',
+    ].join('');
   }
 
   // ---- Init ----
   function init() {
-    REVIEW_MODE = isReviewMode();
-    if (!REVIEW_MODE) return;
+    if (!isReviewMode()) return;
 
-    // Show banner
-    showReviewModeBanner();
-
-    // Load pending
+    var meta = getMeetingMeta();
+    MEETING_ID = meta.id;
     PENDING_DECISIONS = loadPending();
 
-    // Inject label buttons once transcript is rendered
-    // DOMContentLoaded already fired, so run now; use MutationObserver for safety
-    if (document.getElementById('transcript') && document.getElementById('transcript').children.length > 0) {
-      wireLabelButtons();
+    if (!isSessionConfirmed()) {
+      showPassphraseGate(function () {
+        proceedInit();
+      });
     } else {
-      const observer = new MutationObserver(() => {
-        const container = document.getElementById('transcript');
-        if (container && container.children.length > 0) {
-          wireLabelButtons();
-          observer.disconnect();
-        }
+      proceedInit();
+    }
+  }
+
+  function proceedInit() {
+    // Show banner
+    showReviewBanner();
+
+    // Render sidebar
+    renderSidebar();
+
+    // Wire label buttons once transcript is rendered
+    var checkAndWire = function () {
+      var container = document.getElementById('transcript');
+      if (container && container.children.length > 0) {
+        wireLabelButtons();
+        return true;
+      }
+      return false;
+    };
+    if (!checkAndWire()) {
+      var observer = new MutationObserver(function () {
+        if (checkAndWire()) observer.disconnect();
       });
       observer.observe(document.getElementById('transcript') || document.body, { childList: true, subtree: true });
     }
