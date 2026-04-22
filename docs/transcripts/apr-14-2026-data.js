@@ -2562,9 +2562,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you, Mr. Alexander, Mayor, Council. This evening, if we can go to the next slide, Ms. Riddle, tonight's presentation is intended to provide a high-level update on the FY 2027 budget, specifically focusing, as the Manager stated, on revenues and expenditures assumptions. As a reminder, this is not the final iteration. Staff will return on April 28th with more detailed scenarios and options for Council's consideration as we move toward finalizing the budget. We'll begin with revenues. Listed on the sheet that's on the screen and before you are previously discussed additional"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "JC Martinez",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 5482.84,
     "end": 5490.08,
     "text": "Proposed changes of three revenue sources, two within the BPOL and one on TOT"
@@ -2578,9 +2578,9 @@ const TRANSCRIPT_TURNS = [
     "text": "These three items were introduced earlier this evening and represent a potential maximum increase. As communicated in several respective budget memos, the associated revenue from these increases are listed on the right side. Additionally, the Commissioner of the Revenue, in collaboration with the Budget Director, reviewed and revised upward the anticipated personal property revenue projection originally budgeted in the proposed FY 2027 budget by an additional $400,000. Let me be clear that this increase does not represent any change to the personal property tax rate and is solely due to a revised forecasting and modeling"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "JC Martinez",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 5540.72,
     "end": 5588.04,
     "text": "Turning to expenditures, there are a few important updates to highlight. First, health insurance costs have increased beyond our original projections. Specifically, we are now projecting an additional 5.5% increase above the initial 8% forecast, largely driven by higher than anticipated claims activity. In response, staff is taking a proactive approach. We have a meeting scheduled this Friday with our insurance representative to explore strategies to help curtail future cost increases, including evaluating plan design options and potential rebidding of our insurance contract. Secondly, you will see personal expense savings reflected in the updated numbers"
@@ -2602,17 +2602,17 @@ const TRANSCRIPT_TURNS = [
     "text": "Would phase the payment approximately one-third in FY27 and the remaining two-thirds in FY28. Second, we are considering a modification to the timing of school-related debt. Rather than committing the full $1.7 million in FY27, the proposed approach would include only $600,000 in the baseline budget through a contingency within the assigned fund balance, with the remaining $1.1 million deferred for future consideration. This approach is intended to preserve flexibility as we monitor potential changes at the state level. Specifically, current Virginia Senate bill amendment language would authorize the 1%"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "JC Martinez",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 5677.88,
     "end": 5715.6,
     "text": "Sales tax dedication to school projects contingent upon voter approval through local referendum. Importantly, those revenues would be restricted to construction or major renovation projects and could not be used to supplant existing local funding that has already been budgeted or appropriated. That is the key language in the change that is in the current draft language. The General Assembly will be reconvening a special session, and hopefully we will know more by the end of this month or the beginning of May"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "JC Martinez",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 5715.6,
     "end": 5718.56,
     "text": "Next slide"
@@ -2626,9 +2626,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Fund balance, really quickly, provides a high-level look of our fund balance status"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "JC Martinez",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 5723.84,
     "end": 5728.64,
     "text": "This is intended as a preview and a reminder of more detailed analysis that is regularly"
@@ -2642,17 +2642,17 @@ const TRANSCRIPT_TURNS = [
     "text": "Presented during our quarterly financial review with councils that our budget director does. Our next quarterly update is also scheduled for April 28th. That will happen prior to the last budget work session. As part of those reviews, we not only walk through the fund balance levels, but also provide an updated snapshot of our current fiscal position, revenues versus expenditures, as well as a refreshed five-year financial projection. And then lastly, next slide, thank you. You're probably used to seeing this. We just want to reiterate, the last slide outlines our budget calendar and where we are in the process. At this point, we are more than halfway through the FY27 budget development cycle, and we"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "JC Martinez",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 5774.6,
     "end": 5791.68,
     "text": "Are entering the phase where council direction becomes critical in shaping the final document. I also want to highlight one upcoming engagement opportunity. The Engage Fairfax Fiscal Year 2027 Community Budget Exchange is scheduled for April 16th"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "JC Martinez",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 5791.68,
     "end": 5798.0,
     "text": "And has been updated, let me say that one more time, has been updated to reflect a revised"
@@ -2666,17 +2666,17 @@ const TRANSCRIPT_TURNS = [
     "text": "Access link that will now be held via Zoom instead of Teams"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "JC Martinez",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 5803.72,
     "end": 5815.36,
     "text": "We were notified by Microsoft Teams that there was a bug, so we had to pivot very quickly, and as of this afternoon, a few hours ago, the communications staff has updated all links"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "JC Martinez",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 5815.36,
     "end": 5848.88,
     "text": "And all distribution lists with the new Zoom updated link. Looking ahead, April 28th is a key milestone with multiple public hearings, and our final work session where staff will present, again, refined options and draft changes for council deliberation. In closing, tonight's update is meant to keep council informed of where things stand today. We will return on April 28th with more detailed analysis, refined assumptions, and actionable options to help guide your decision making"
@@ -2786,9 +2786,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Not 100%, so what was displayed in some of the other slides, the revenues and the expenditures are what we know of right now. The most traditional way that we've displayed this is the budget change sheet. That will be a part of it. That's sort of the debit and the credits. The changes that are now known as of when the manager proposed his budget at the end"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "JC Martinez",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 6022.76,
     "end": 6025.56,
     "text": "Of February, we're keeping track of that"
@@ -3034,25 +3034,25 @@ const TRANSCRIPT_TURNS = [
     "text": "Certainly, Mr. Wright, if you would like to add something Thank you"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "William Pitchford",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 6589.16,
     "end": 6605.0,
     "text": "Thank you, Mayor Reed, and good evening to the council. Council Member Hall, I'm here to observe and listen, but I'm happy to answer your question. that you just posed. The conversation last night was around our elementary school"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "William Pitchford",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 6605.0,
     "end": 6608.92,
     "text": "Capital projects, and the current state of them"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "William Pitchford",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 6608.92,
     "end": 6616.32,
     "text": "And the path moving forward. None of it was related to the proposal that you heard this evening. We were not aware of that proposal at that time"
@@ -3090,9 +3090,9 @@ const TRANSCRIPT_TURNS = [
     "text": "OK. Thank you. Sorry to call out the very uncomfortable elephant in the room, but I was just curious where schools were on this"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "William Pitchford",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 6663.38,
     "end": 6666.34,
     "text": "So thank you"
@@ -3122,9 +3122,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Those are two sources that serve what we call the stationary source sector, buildings, facilities, et cetera. And it affects the city's own budget. And I understand that our projection on increased electricity costs, if that materializes, will knock on the door $400,000 incremental expense. Is that a correct recollection of the impact of that cost"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "JC Martinez",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 6734.88,
     "end": 6736.4,
     "text": "Increase?"
@@ -3138,9 +3138,9 @@ const TRANSCRIPT_TURNS = [
     "text": "It is based off of the assumption that that rate increase is going to hold. That has not been confirmed. Dominion put that out"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "JC Martinez",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 6744.84,
     "end": 6747.84,
     "text": "It is my understanding that that will more than likely not"
@@ -3154,17 +3154,17 @@ const TRANSCRIPT_TURNS = [
     "text": "Happen. You will have a more realistic increase"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "JC Martinez",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 6750.2,
     "end": 6753.8,
     "text": "Based off historical trends, probably around 10% or 12%"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 6753.8,
     "end": 6755.4,
     "text": "Not 35%"
@@ -3178,9 +3178,9 @@ const TRANSCRIPT_TURNS = [
     "text": "That would certainly be good news if that happened. I know there's a lot of concern that those rates are going to go up and that the unexpected changes will be on the upward side, but we're not there yet. It's good to know. But clearly, energy is up"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 6769.0,
     "end": 6773.2,
     "text": "Would just note also that health care expenses are up"
@@ -3194,9 +3194,9 @@ const TRANSCRIPT_TURNS = [
     "text": "And that may be the highest and fastest rate of inflation for any household expenses that we experience. The latest that I saw for unreimbursed health care expenses, it's running an increase of 21.5% this year. And there's a big caveat there because Obamacare has not been refunded yet, and it's not clear that it will be. So for people who are dependent upon that and the reimbursements associated with it, this is a big load"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 6798.36,
     "end": 6801.44,
     "text": "For an average family of four in the city of Fairfax"
@@ -3218,9 +3218,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Are changing in a major way that we cannot control"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 6842.88,
     "end": 6846.32,
     "text": "But there are things that we can control"
@@ -3234,9 +3234,9 @@ const TRANSCRIPT_TURNS = [
     "text": "To switch gears and go to the Renaissance Housing Program"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 6849.04,
     "end": 6853.48,
     "text": "Just out of curiosity, I believe"
@@ -3250,9 +3250,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Based on prior conversations and some of the staff consultations on housing issues of a variety of types, we're taking a really hard look at how we are approaching our housing programs here in the city. And that's not limited to affordable housing"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 6869.76,
     "end": 6874.16,
     "text": "But it's looking at the sector and what to do with that"

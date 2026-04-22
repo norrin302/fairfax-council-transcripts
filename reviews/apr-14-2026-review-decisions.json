@@ -1518,84 +1518,84 @@
     },
     {
       "turn_id": "turn_000342",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Budget presentation turn; bracketed by JC Martinez turns 341/343; staff presenter at podium"
     },
     {
       "turn_id": "turn_000344",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Non-council speaker; maintaining conservative label."
+      "notes": "Budget expenditure overview; bracketed by JC Martinez turns; staff presentation"
     },
     {
       "turn_id": "turn_000347",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Non-council speaker; maintaining conservative label."
+      "notes": "Sales tax dedication; bracketed by JC Martinez turns; staff presenter"
     },
     {
       "turn_id": "turn_000348",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "\"Next slide\" — staff presentation slide announcement"
     },
     {
       "turn_id": "turn_000350",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Budget preview remark; bracketed by JC Martinez turns; staff presenter"
     },
     {
       "turn_id": "turn_000352",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Non-council speaker; maintaining conservative label."
+      "notes": "Council direction critical; bracketed by JC Martinez turns; staff presenter"
     },
     {
       "turn_id": "turn_000353",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Updated language remark; bracketed by JC Martinez; staff presenter"
     },
     {
       "turn_id": "turn_000355",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Microsoft Teams bug note; bracketed by JC Martinez; staff presenter"
     },
     {
       "turn_id": "turn_000356",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Non-council speaker; maintaining conservative label."
+      "notes": "Zoom distribution list update; bracketed by JC Martinez; staff presenter"
     },
     {
       "turn_id": "turn_000357",
@@ -1671,12 +1671,12 @@
     },
     {
       "turn_id": "turn_000370",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Staff answer bracketed by JC Martinez (turn_000369/turn_000371)"
     },
     {
       "turn_id": "turn_000372",
@@ -1869,30 +1869,30 @@
     },
     {
       "turn_id": "turn_000401",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+      "notes": "Self-identification: \"Im here to observe and listen, but Im happy to answer your question\" — William Pitchford, staff observer at school meeting"
     },
     {
       "turn_id": "turn_000402",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Staff continuation; bracketed by William Pitchford turn_000401"
     },
     {
       "turn_id": "turn_000403",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
+      "notes": "Staff continuation; bracketed by William Pitchford turn_000401/turn_000402"
     },
     {
       "turn_id": "turn_000405",
@@ -1905,12 +1905,12 @@
     },
     {
       "turn_id": "turn_000408",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Staff closing remark; bracketed by William Pitchford cluster"
     },
     {
       "turn_id": "turn_000409",
@@ -1932,39 +1932,39 @@
     },
     {
       "turn_id": "turn_000412",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Brief response bracketed by JC Martinez; staff in budget Q&A"
     },
     {
       "turn_id": "turn_000414",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Staff response in budget discussion; bracketed by JC Martinez"
     },
     {
       "turn_id": "turn_000416",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Staff response with specific figure; bracketed by JC Martinez"
     },
     {
       "turn_id": "turn_000417",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Tom Peterson",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Non-council speaker; maintaining conservative label."
+      "notes": "Peterson interjection; bracketed by Peterson turns at 6066s and 6192s? No — check context"
     },
     {
       "turn_id": "turn_000418",
@@ -1977,48 +1977,48 @@
     },
     {
       "turn_id": "turn_000419",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Tom Peterson",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Health care expense note; bracketed by Tom Peterson cluster"
     },
     {
       "turn_id": "turn_000421",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Tom Peterson",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Health care average family; bracketed by Tom Peterson"
     },
     {
       "turn_id": "turn_000424",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Tom Peterson",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Budget control note; bracketed by Tom Peterson cluster"
     },
     {
       "turn_id": "turn_000426",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Tom Peterson",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Sector curiosity; bracketed by Tom Peterson"
     },
     {
       "turn_id": "turn_000428",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Tom Peterson",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Sector comment; bracketed by Tom Peterson"
     },
     {
       "turn_id": "turn_000429",
