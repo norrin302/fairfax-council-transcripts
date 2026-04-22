@@ -1,0 +1,162 @@
+{
+  "meeting_id": "apr-14-2026",
+  "applied_at": "2026-04-22T23:19:01.346655+00:00",
+  "applied_by": "neo_targeted_correction_pass",
+  "decisions_applied": 17,
+  "decisions": [
+    {
+      "turn_id": "turn_000097",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "CORRECTION: vote call \"Councilmember Amos. Aye.\" is Mayor Catherine Read procedural speech. pyannote SPEAKER_24 (William Pitchford) assigned in error. overlap=3.9s. corrected from William Pitchford."
+    },
+    {
+      "turn_id": "turn_000099",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "CORRECTION: \"Aye. Motion passed unanimously.\" is Mayor Catherine Read procedural announcement. pyannote SPEAKER_24 in error. overlap=11.6s. corrected from William Pitchford."
+    },
+    {
+      "turn_id": "turn_000100",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "CORRECTION: procedural transition is Mayor Catherine Read. pyannote SPEAKER_04 (Alan Glenn) in error. overlap=3.7s. corrected from Alan Glenn."
+    },
+    {
+      "turn_id": "turn_000101",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Anita Light",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "CORRECTION: full segment (31.3s) is Anita Light speaking about advisory board. Gold correctly identifies Anita Light. Pipeline assigned SPEAKER_04 (Alan Glenn) in error. corrected from Alan Glenn. note: gold=Anita Light confirmed."
+    },
+    {
+      "turn_id": "turn_000210",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Stacy Hardy-Chandler",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "CORRECTION: consent agenda motion \"move to approve items 6A through M\" is Stacy Hardy-Chandler. pyannote SPEAKER_16 (Becky Rager) in error. overlap=6.9s. corrected from Becky Rager."
+    },
+    {
+      "turn_id": "turn_000212",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "CORRECTION: Mayor calling roll (\"Councilmember\"). pyannote SPEAKER_24 (William Pitchford) in error. overlap=0.7s. corrected from William Pitchford."
+    },
+    {
+      "turn_id": "turn_000213",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "CORRECTION: \"Aye. Councilmember Bates? Aye.\" is Mayor Catherine Read vote call. pyannote SPEAKER_24 in error. overlap=9.2s. corrected from William Pitchford."
+    },
+    {
+      "turn_id": "turn_000214",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "CORRECTION: \"Motion passed unanimously.\" is Mayor Catherine Read procedural announcement. pyannote SPEAKER_24 in error. overlap=3.9s. corrected from William Pitchford."
+    },
+    {
+      "turn_id": "turn_000216",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Stacy Hardy-Chandler",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "CORRECTION: appointment motion \"I move to appoint the following applicants.\" is Stacy Hardy-Chandler. pyannote SPEAKER_16 (Becky Rager) in error. overlap=35.3s. corrected from Becky Rager."
+    },
+    {
+      "turn_id": "turn_000217",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Stacy Hardy-Chandler",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "CORRECTION: appointment motion continuation \"James Gillespie for a two-year term...\" is Stacy Hardy-Chandler. pyannote SPEAKER_16 in error. overlap=18.3s. corrected from Becky Rager."
+    },
+    {
+      "turn_id": "turn_000220",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Tom Peterson",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "CORRECTION: \"May I ask why the final two appointments are being pulled?\" is Tom Peterson council question. pyannote SPEAKER_07 (JC Martinez) in error. overlap=5.9s. corrected from JC Martinez."
+    },
+    {
+      "turn_id": "turn_000221",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Stacy Hardy-Chandler",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "CORRECTION: procedure response \"There has been additional clarity on procedure...\" is Stacy Hardy-Chandler. pyannote SPEAKER_16 (Becky Rager) in error. overlap=10.4s. corrected from Becky Rager."
+    },
+    {
+      "turn_id": "turn_000222",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Tom Peterson",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "CORRECTION: \"Can you clarify that?\" is Tom Peterson asking for clarification. pyannote SPEAKER_07 (JC Martinez) in error. overlap=1.1s. corrected from JC Martinez."
+    },
+    {
+      "turn_id": "turn_000224",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Stacy Hardy-Chandler",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "CORRECTION: \"Each candidate can be considered individually...\" is Stacy Hardy-Chandler on appointments. pyannote SPEAKER_16 (Becky Rager) in error. overlap=8.0s. corrected from Becky Rager."
+    },
+    {
+      "turn_id": "turn_000226",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Stacy Hardy-Chandler",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "CORRECTION: \"Individual people are on their own merit...\" is Stacy Hardy-Chandler. pyannote SPEAKER_16 (Becky Rager) in error. overlap=7.6s. corrected from Becky Rager."
+    },
+    {
+      "turn_id": "turn_000228",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Stacy Hardy-Chandler",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "CORRECTION: recusal statement \"I would recuse myself, as I have historically...\" is Stacy Hardy-Chandler. pyannote SPEAKER_16 (Becky Rager) in error. overlap=3.8s. corrected from Becky Rager."
+    },
+    {
+      "turn_id": "turn_000230",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Stacy Hardy-Chandler",
+      "speaker_status_override": "approved",
+      "text_override": "",
+      "suppress": false,
+      "notes": "CORRECTION: \"is my understanding that there is appropriate input...\" is Stacy Hardy-Chandler. pyannote SPEAKER_16 (Becky Rager) in error. overlap=8.1s. corrected from Becky Rager."
+    }
+  ],
+  "note": "Conservative pass: only corrected where overlap >= 1.1s AND text content unambiguously identifies correct speaker. Did NOT correct text-based Anita Light guesses (gold=Unknown for those segments)."
+}

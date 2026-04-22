@@ -612,7 +612,7 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Mayor Catherine Read",
     "speaker_source": "approved",
-    "speaker_source_detail": "reviewed:approve_named_official",
+    "speaker_source_detail": "corrected:approve_named_official",
     "start": 1655.2,
     "end": 1663.2,
     "text": "Councilmember Amos? Aye. Councilmember Hall? Aye. Councilmember Hardy-Chandler? Aye. Councilmember Peterson? Aye"
@@ -628,7 +628,7 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Mayor Catherine Read",
     "speaker_source": "approved",
-    "speaker_source_detail": "reviewed:approve_named_official",
+    "speaker_source_detail": "corrected:approve_named_official",
     "start": 1665.2,
     "end": 1676.84,
     "text": "Motion passed unanimously. Sorry. All right. We will go on to initial general public comment. I had 10 speakers sign up by 5 o'clock p.m. today, so will call the first one up, which"
@@ -636,7 +636,7 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Mayor Catherine Read",
     "speaker_source": "approved",
-    "speaker_source_detail": "reviewed:approve_named_official",
+    "speaker_source_detail": "corrected:approve_named_official",
     "start": 1676.84,
     "end": 1690.08,
     "text": "Will be Anita Light. Good evening, Mayor Reed and members of City Council"
@@ -644,7 +644,7 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Anita Light",
     "speaker_source": "approved",
-    "speaker_source_detail": "reviewed:approve_named_official",
+    "speaker_source_detail": "corrected:approve_named_official",
     "start": 1690.08,
     "end": 1734.64,
     "text": "My name is Anita Light, and I'm here tonight in three capacities. First as the chair of the Fairfax Village in the City Advisory Board, resident of Fairfax City, obviously, and as an older adult. As chair of the Fairfax Village in the City Advisory Board, we wanted to emphasize our support for the Willard Sherwood Center, as noted in our letter to you all dated April 6th. In that letter, we noted that supporting the new Willard Sherwood Center would help make accessibility for older adults easier and safer. We also noted that this project was a community partnership effort with the county, as well as the residents of both the city and the county"
@@ -1508,7 +1508,7 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
     "speaker_source": "approved",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "corrected:approve_named_official",
     "start": 3702.88,
     "end": 3711.0,
     "text": "Move to approve the consent agenda items 6A through M as presented and the accompanying motions in the staff reports"
@@ -1524,7 +1524,7 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Mayor Catherine Read",
     "speaker_source": "approved",
-    "speaker_source_detail": "reviewed:approve_named_official",
+    "speaker_source_detail": "corrected:approve_named_official",
     "start": 3719.92,
     "end": 3722.36,
     "text": "Council Member McQuillan?"
@@ -1532,7 +1532,7 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Mayor Catherine Read",
     "speaker_source": "approved",
-    "speaker_source_detail": "reviewed:approve_named_official",
+    "speaker_source_detail": "corrected:approve_named_official",
     "start": 3722.36,
     "end": 3731.88,
     "text": "Aye. Council Member Bates? Aye. Council Member Peterson? Aye. Council Member Hardy-Chandler? Aye. Council Member Hall? Aye. Council Member Amos?"
@@ -1540,7 +1540,7 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Mayor Catherine Read",
     "speaker_source": "approved",
-    "speaker_source_detail": "reviewed:approve_named_official",
+    "speaker_source_detail": "corrected:approve_named_official",
     "start": 3732.4,
     "end": 3737.2,
     "text": "Motion passed unanimously. We'll go to appointments to boards, commissions, and advisory committees"
@@ -1556,7 +1556,7 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
     "speaker_source": "approved",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "corrected:approve_named_official",
     "start": 3742.92,
     "end": 3786.6,
     "text": "Move to appoint the following applicants. Commission on the Arts, appoint Melissa Miller for a remainder of a three-year term extending through July 9, 2027. Appoint Kenneth Krafchick for a remainder of a three-year term extending through October 26, 2028. Appoint Ann Morrison for a three-year term extending through April 14, 2029. Reappoint Sharon Clark-Chang for a three-year term extending through February 11, 2029. Continuum of Care, appoint James Gillespie for a two-year term extending through April 14, 2028. Environmental Sustainability Committee"
@@ -1564,7 +1564,7 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
     "speaker_source": "approved",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "corrected:approve_named_official",
     "start": 3786.6,
     "end": 3805.12,
     "text": "Appoint Lauren Oliver for a remainder of a three-year term extending through February 11, 2028. Appoint David Fleischer for a three-year term extending through April 14, 2029. And exclude Nova Park's appointments until May 12"
@@ -1588,7 +1588,7 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Councilmember Tom Peterson",
     "speaker_source": "approved",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "corrected:approve_named_official",
     "start": 3816.28,
     "end": 3822.96,
     "text": "May I ask why the final two appointments are being pulled? Council Member Hardy-Chandler?"
@@ -1596,7 +1596,7 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
     "speaker_source": "approved",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "corrected:approve_named_official",
     "start": 3822.96,
     "end": 3834.0,
     "text": "There has been additional clarity on procedure that allows for input while safeguarding conflict of interest. And want additional time for that to happen"
@@ -1604,7 +1604,7 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Councilmember Tom Peterson",
     "speaker_source": "approved",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "corrected:approve_named_official",
     "start": 3834.0,
     "end": 3835.08,
     "text": "Can you clarify that?"
@@ -1620,7 +1620,7 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
     "speaker_source": "approved",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "corrected:approve_named_official",
     "start": 3837.72,
     "end": 3846.32,
     "text": "Each candidate can be considered individually. And while would recuse myself from one of the candidates, I do want to have input on other candidates"
@@ -1636,7 +1636,7 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
     "speaker_source": "approved",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "corrected:approve_named_official",
     "start": 3856.08,
     "end": 3863.76,
     "text": "Individual people are on their own merit. And would like to have input on the individuals who are candidates on their own merit"
@@ -1652,7 +1652,7 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
     "speaker_source": "approved",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "corrected:approve_named_official",
     "start": 3876.84,
     "end": 3880.96,
     "text": "Would recuse myself, as I have historically, on the vote for my husband"
@@ -1668,7 +1668,7 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
     "speaker_source": "approved",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "corrected:approve_named_official",
     "start": 3891.72,
     "end": 3900.44,
     "text": "It is my understanding that there is appropriate input that can be made on other candidates for this position. And would like to have that input"
