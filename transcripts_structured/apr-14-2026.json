@@ -4256,12 +4256,13 @@
       "end": 5853.52,
       "text": "Happy to answer any questions. Councilmember Amos?",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "JC Martinez",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000358",
@@ -4282,12 +4283,13 @@
       "end": 5899.0,
       "text": "Paid off, is that correct?",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "JC Martinez",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000360",
@@ -5950,12 +5952,13 @@
       "end": 7954.2,
       "text": "Yes, Mr. Martinez. Thank you, Mary. I just want to add a couple of clarifying notes. Regarding the meals tax, a potential 2% reduction with each half percent being about 1.3, that's $5.8 million, almost $6 million that would be reduced",
       "speaker_raw": "SPEAKER_07",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Councilmember Billy Bates",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Non-council speaker; maintaining conservative label."
+      "reviewer_notes": "Non-council speaker; maintaining conservative label.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000492",
@@ -5963,12 +5966,13 @@
       "end": 7959.96,
       "text": "Or I'm sorry, that would be 1.3, so about over $5 million",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Councilmember Billy Bates",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000493",

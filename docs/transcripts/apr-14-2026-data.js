@@ -2682,9 +2682,9 @@ const TRANSCRIPT_TURNS = [
     "text": "And all distribution lists with the new Zoom updated link. Looking ahead, April 28th is a key milestone with multiple public hearings, and our final work session where staff will present, again, refined options and draft changes for council deliberation. In closing, tonight's update is meant to keep council informed of where things stand today. We will return on April 28th with more detailed analysis, refined assumptions, and actionable options to help guide your decision making"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "JC Martinez",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 5848.88,
     "end": 5853.52,
     "text": "Happy to answer any questions. Councilmember Amos?"
@@ -2698,9 +2698,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you. I know I submitted a number of questions prior to going on my trip, and I know you're still working on those, and I'm assuming generating a response to circulate to everyone, or to me, whatever works best. The only other question and follow-up I'd like to discuss is specifically, I know that the chamber just brought it up, would like to have a more serious discussion on adding a sunset to the increase in the meals tax contingent on the 1% being activated. And I may be misunderstanding this, but once we get the 1% for school construction, essentially restaurants would be at 5.5% versus 4.5%, at least for the time being until they're"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "JC Martinez",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 5895.28,
     "end": 5899.0,
     "text": "Paid off, is that correct?"
@@ -3754,17 +3754,17 @@ const TRANSCRIPT_TURNS = [
     "text": "Want to encourage caution in ruling out as we go forward"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Councilmember Billy Bates",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 7929.64,
     "end": 7954.2,
     "text": "Yes, Mr. Martinez. Thank you, Mary. I just want to add a couple of clarifying notes. Regarding the meals tax, a potential 2% reduction with each half percent being about 1.3, that's $5.8 million, almost $6 million that would be reduced"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "reviewed:keep_unknown",
+    "speaker": "Councilmember Billy Bates",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:approve_named_official",
     "start": 7954.2,
     "end": 7959.96,
     "text": "Or I'm sorry, that would be 1.3, so about over $5 million"

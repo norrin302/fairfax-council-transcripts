@@ -1599,12 +1599,12 @@
     },
     {
       "turn_id": "turn_000357",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Video frame shows staff at podium; turn ends with \"Councilmember Amos?\" — JC Martinez wrapping presentation and directing to council member for questions"
     },
     {
       "turn_id": "turn_000358",
@@ -1617,12 +1617,12 @@
     },
     {
       "turn_id": "turn_000359",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "JC Martinez",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Brief follow-up question from JC Martinez to Peterson; natural continuation of podium exchange"
     },
     {
       "turn_id": "turn_000362",
@@ -2373,21 +2373,21 @@
     },
     {
       "turn_id": "turn_000491",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Billy Bates",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Non-council speaker; maintaining conservative label."
+      "notes": "Video frame at 7930s shows CM BATES nameplate at podium. Councilmember Billy Bates identified."
     },
     {
       "turn_id": "turn_000492",
-      "reviewer_action": "keep_unknown",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Councilmember Billy Bates",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
+      "notes": "Video frame at 7930s shows CM BATES nameplate at podium. Councilmember Billy Bates identified."
     },
     {
       "turn_id": "turn_000494",
