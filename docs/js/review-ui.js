@@ -1,5 +1,5 @@
 /* ============================================================
-   Review-mode speaker labeling — v2.1
+   Review-mode speaker labeling — v2.2
    reviewer cockpit for staged decisions + export
 
    Enable: add ?review=1 to the transcript page URL.
@@ -13,6 +13,12 @@
    - Guardrails on suppress/keep_unknown actions
    - Unexported-state dirty indicator
    - beforeunload warning for open tabs
+
+   v2.2 provenance polish:
+   - decision_id: stable unique ID per staged decision
+   - export_batch_id: per-export-session grouping ID
+   - exported_at: ISO timestamp set at export time
+   - Apply-time provenance written to structured JSON metadata
    ============================================================ */
 
 (function () {
@@ -27,7 +33,7 @@
   var EXPORT_FLAG_KEY = function (meetingId) {
     return 'reviewdecisions:exported:' + String(meetingId || '').trim();
   };
-  var UI_VERSION = '2.1';
+  var UI_VERSION = '2.2';
   var REVIEWER_DEFAULT = 'manual-review';
 
   var COUNCIL_QUICK_PICK = [
@@ -54,6 +60,7 @@
   var MEETING_ID = '';
   var ACTIVE_TURN_ID = null;
   var DIRTY_STATE = false;       // true when staged decisions exist and haven't been exported
+  var CURRENT_EXPORT_BATCH_ID = null;  // set once per export event; used to tag all decisions in that export
 
   // ---- Helpers ----
   function getTurns() {
@@ -69,6 +76,13 @@
     var m = Math.floor((s % 3600) / 60);
     var sec = s % 60;
     return String(m).padStart(2, '0') + ':' + String(sec).padStart(2, '0');
+  }
+
+  // ---- ID generation (stable, no crypto required) ----
+  function generateId() {
+    // Date.now().toString(36) gives a compact time-sortable prefix.
+    // + random suffix makes it unique enough for audit use.
+    return Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 8);
   }
 
   function formatISOTime(timestamp) {
@@ -259,6 +273,7 @@
   function buildExportDecision(decision) {
     return {
       meeting_id: MEETING_ID,
+      decision_id: decision.decision_id || generateId(),
       turn_id: decision.turn_id,
       timestamp: decision.timestamp || Date.now(),
       reviewed_at: formatISOTime(decision.timestamp || Date.now()),
@@ -272,6 +287,8 @@
       text_override: '',
       suppress: decision.suppress || false,
       ui_version: UI_VERSION,
+      exported_at: formatISOTime(Date.now()),
+      export_batch_id: CURRENT_EXPORT_BATCH_ID || '',
     };
   }
 
@@ -418,7 +435,11 @@
 
   // ---- Export ----
   function getExportPayload() {
-    // Build full audit-enriched decisions for export
+    // Build full audit-enriched decisions for export.
+    // A new export_batch_id is generated once per export event so all
+    // decisions in this export share the same batch ID — making it easy to
+    // distinguish separate export sessions from repeated exports of the same decisions.
+    CURRENT_EXPORT_BATCH_ID = generateId();
     var decisions = loadPending();
     var exportDecisions = [];
     for (var i = 0; i < decisions.length; i++) {
@@ -506,6 +527,7 @@
             '<span class="review-staged-action">' + actionLabel + '</span>' +
             typeBadge +
           '</div>' +
+          '<div class="review-staged-decision-id">ID: ' + escHtml(String(d.decision_id || '—')) + '</div>' +
           (noteTrunc ? '<div class="review-staged-notes" title="' + escHtml(String(d.evidence_note || d.notes || '')) + '">' + escHtml(noteTrunc) + '</div>' : '') +
           '<div class="review-staged-actions">' +
             '<button type="button" class="review-item-edit-btn" data-turn-id="' + escHtml(String(d.turn_id || '')) + '"><i class="fas fa-edit"></i> Edit</button>' +
@@ -755,6 +777,7 @@
 
     return {
       turn_id: ACTIVE_TURN_ID,
+      decision_id: existing && existing.decision_id ? existing.decision_id : generateId(),
       reviewer_action: action,
       speaker_name: speakerName,
       speaker_type: speakerType,

@@ -784,6 +784,8 @@ body {
 .review-item-edit-btn:hover { background: #edf2f7; border-color: #6b46c1; color: #553c9a; }
 .review-item-remove-btn:hover { background: #fff5f5; border-color: #e53e3e; color: #c53030; }
 
+.review-staged-decision-id { font-size: 11px; color: #a0aec0; font-family: monospace; margin-top: 2px; }
+
 .review-exported-icon { color: #38a169; font-size: 13px; }
 .review-pending-icon { color: #ed8936; font-size: 13px; }
 

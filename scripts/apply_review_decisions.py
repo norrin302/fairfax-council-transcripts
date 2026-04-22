@@ -3,12 +3,19 @@
 
 This keeps the structured transcript as the canonical editable artifact.
 The site is regenerated only after explicit review decisions are applied.
+
+Provenance tracking (v2.2+):
+  Each apply run records a provenance entry in:
+    - structured_json["_review_apply_provenance"]: append-only log of apply events
+    - <structured_dir>/.apply-reports/<meeting_id>-<ts>.json: one report per apply run
 """
 
 from __future__ import annotations
 
 import argparse
 import json
+import os
+from datetime import datetime, timezone
 from pathlib import Path
 
 
@@ -28,18 +35,39 @@ def main() -> int:
     ap.add_argument("meeting_id")
     ap.add_argument("--structured", required=True)
     ap.add_argument("--decisions", required=True)
-    ap.add_argument("--out", default="", help="Optional output path; defaults to overwriting --structured")
+    ap.add_argument(
+        "--out",
+        default="",
+        help="Optional output path; defaults to overwriting --structured",
+    )
     args = ap.parse_args()
 
     structured_path = Path(args.structured)
     decisions_path = Path(args.decisions)
+    out_path = Path(args.out) if args.out else structured_path
 
     structured = json.loads(structured_path.read_text(encoding="utf-8"))
     decisions_doc = json.loads(decisions_path.read_text(encoding="utf-8"))
+
+    # ---- Collect provenance from decisions ----
+    decisions_list = decisions_doc.get("decisions") or []
+    decision_ids = [str(d.get("decision_id", "")) for d in decisions_list if d.get("decision_id")]
+    batch_ids = list(
+        dict.fromkeys(
+            str(d.get("export_batch_id", "")) for d in decisions_list if d.get("export_batch_id")
+        )
+    )
+    # Deduplicate while preserving order
+    batch_ids = list(dict.fromkeys(batch_ids))
+
+    applied_at = datetime.now(timezone.utc).isoformat()
+
+    # ---- Apply each decision ----
     turns = structured.get("turns") or []
     turn_map = {str(t.get("turn_id")): t for t in turns}
+    applied_count = 0
 
-    for decision in decisions_doc.get("decisions") or []:
+    for decision in decisions_list:
         turn_id = str(decision.get("turn_id") or "")
         action = str(decision.get("reviewer_action") or "pending")
         if not turn_id or action not in ALLOWED_ACTIONS:
@@ -87,12 +115,63 @@ def main() -> int:
             turn["needs_review"] = False
             turn["review_reason"] = f"reviewed:{action}"
 
-    structured["turns"] = [t for t in turns if str(t.get("text") or "").strip()]
+        applied_count += 1
 
-    out_path = Path(args.out) if args.out else structured_path
+    # Prune suppressed/empty turns
+    structured["turns"] = [
+        t for t in turns if str(t.get("text") or "").strip()
+    ]
+
+    # ---- Build provenance entry ----
+    provenance_entry = {
+        "applied_at": applied_at,
+        "applied_from_decisions_file": str(decisions_path.resolve()),
+        "applied_decision_count": applied_count,
+        "applied_decision_ids": decision_ids,
+        "applied_export_batch_ids": batch_ids,
+        "apply_script_version": "2.2",
+    }
+
+    # ---- Append to structured JSON metadata ----
+    if "_review_apply_provenance" not in structured:
+        structured["_review_apply_provenance"] = []
+    structured["_review_apply_provenance"].append(provenance_entry)
+
+    # ---- Write structured JSON ----
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(json.dumps(structured, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(out_path)
+    out_path.write_text(
+        json.dumps(structured, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
+
+    # ---- Write sidecar apply report ----
+    report_dir = out_path.parent / ".apply-reports"
+    report_dir.mkdir(parents=True, exist_ok=True)
+    ts_suffix = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    report_path = report_dir / f"{args.meeting_id}-{ts_suffix}.json"
+    report = {
+        "meeting_id": args.meeting_id,
+        "structured_output": str(out_path.resolve()),
+        "provenance": provenance_entry,
+        "decisions_applied": [
+            {
+                "decision_id": str(d.get("decision_id", "")),
+                "export_batch_id": str(d.get("export_batch_id", "")),
+                "turn_id": str(d.get("turn_id", "")),
+                "reviewer_action": str(d.get("reviewer_action", "")),
+                "speaker_name": str(d.get("speaker_name", "")),
+            }
+            for d in decisions_list
+            if str(d.get("turn_id", "")) in turn_map
+            and str(d.get("reviewer_action", "")) in ALLOWED_ACTIONS
+        ],
+    }
+    report_path.write_text(
+        json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
+
+    print(f"Applied {applied_count} decisions")
+    print(f"Structured JSON: {out_path}")
+    print(f"Apply report:    {report_path}")
     return 0
 
 
