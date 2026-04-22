@@ -1,4 +1,4 @@
-# Review Mode — Speaker Labeling (v2)
+# Review Mode — Speaker Labeling (v2.1)
 
 ## Overview
 
@@ -11,79 +11,125 @@ Review mode is a reviewer cockpit for labeling unlabeled speaker blocks in the t
 
 ---
 
+## Security Model (Important — Read This)
+
+**`?review=1` + passphrase is convenience gating, NOT authentication.**
+
+This system is designed to prevent casual or accidental access by people who happen to be using the same browser. It does NOT:
+- Authenticate a real user identity
+- Protect sensitive data from a determined attacker
+- Provide any security boundary against someone who knows the passphrase
+
+If you need real access control, this system must be upgraded with proper auth. For now, treat the passphrase as a soft door latch, not a locked gate.
+
+---
+
 ## Enabling Review Mode
 
 **Step 1 — URL parameter:**
-
-Add `?review=1` to any transcript page URL:
 
 ```
 https://norrin302.github.io/fairfax-council-transcripts/transcripts/apr-14-2026.html?review=1
 ```
 
-**Step 2 — Passphrase confirmation (v2):**
+**Step 2 — Passphrase confirmation (v2+):**
 
-On first use in a browser session, a small passphrase prompt appears. Enter `review` to confirm. The confirmation is stored in `sessionStorage` for the duration of the browser tab — you won't be prompted again until you close the tab.
+On first use in a browser tab, enter `review` when prompted. Confirmation is stored in `sessionStorage` for the tab — you won't be prompted again until you close the tab.
 
 ---
 
-## The Reviewer Cockpit (v2)
+## The Reviewer Cockpit (v2.1)
 
-Once review mode is active, the page shows:
-
-1. **Purple review banner** — top of page, confirms review mode is active with meeting ID and staged decision count
-2. **Staged Decisions sidebar** — below the banner, lists all decisions staged in the current session
-3. **Label speaker buttons** — appear on every unlabeled speaker block
+Once active, the page shows:
+1. **Purple review banner** — meeting ID, staged decision count, dirty-state indicator, export/copy/clear buttons
+2. **Staged Decisions sidebar** — all staged decisions with edit/remove per item, export-status icons
+3. **Label speaker buttons** — on every unlabeled block
 
 ---
 
 ## Staging a Label
 
-1. Click **Label speaker** on any unlabeled block (or **Edit label** if already staged)
+1. Click **Label speaker** (or **Edit label** if already staged) on any unlabeled block
 2. Fill in the modal:
-   - **Speaker name** — free text, or use quick-pick buttons for known council/staff names
+   - **Speaker name** — free text or quick-pick for known council/staff names
    - **Speaker type** — Council / Mayor, Staff, Public comment, or Keep unknown
-   - **Evidence / notes** — required for any named label; describe the supporting evidence
+   - **Evidence / notes** — required for named labels; full text preserved in export
+   - **Reviewer name** — your name or alias for audit traceability; default is `manual-review`
 3. Click **Save decision**
-4. The decision appears in the Staged Decisions sidebar
 
 ### Quick Actions
 
-Three one-click shortcuts at the top of the modal:
-- **Keep unknown** — marks the turn for `keep_unknown`
-- **Public comment** — marks as public commenter
-- **Suppress turn** — marks for `suppress_turn` with a default note
+- **Keep unknown** — sets note to "Reviewer action: keep unknown" if empty, saves immediately
+- **Public comment** — checks public type, does NOT auto-save (lets you add evidence first)
+- **Suppress turn** — requires note OR a confirm dialog; prevents accidental suppression
+
+### Guardrails on Suppress / Keep Unknown
+
+Both actions now require either:
+- A non-empty evidence note, OR
+- An explicit confirm dialog if no note is provided
+
+This makes it harder to click through sloppily and damage the audit record.
 
 ---
 
 ## Staged Decisions Sidebar
 
 Each staged item shows:
-- **Turn ID** and **timestamp**
-- **Speaker name** applied
-- **Action** (Named official / Public comment / Keep unknown / Suppress)
-- **Type badge** (Council / Staff / Public / Unknown)
-- **Evidence note** (truncated if long)
+- **Turn ID** + timestamp
+- **Speaker name** + export-status icon (✓ exported / ○ pending)
+- **Action** label + type badge
+- **Evidence note** (truncated to 60 chars in sidebar; full text preserved in export)
 - **Edit** and **Remove** buttons
 
-Clicking **Edit** reopens the modal pre-populated with the existing decision. Clicking **Remove** deletes the staged decision.
+Export-status icons let you see at a glance which decisions have already been exported vs. which are still unexported.
+
+---
+
+## Dirty State Indicator
+
+When staged decisions exist but none have been exported yet, the review banner shows:
+
+> ⚠️ unexported
+
+Clicking **Export JSON** or **Copy JSON** clears the dirty state. If you stage new decisions after exporting, the dirty indicator reappears.
+
+**beforeunload warning:** If you have unexported decisions and try to close or navigate away from the tab, the browser will warn you. Export or copy your decisions before leaving.
 
 ---
 
 ## Exporting Staged Decisions
 
-Two export options in the review banner:
+Two options in the review banner:
 
-- **Copy JSON** — copies the staged decisions JSON to your clipboard, formatted for direct paste into `reviews/<meeting>-review-decisions.json`
+- **Copy JSON** — copies the full audit-enriched decision JSON to clipboard
 - **Export JSON** — downloads a `.json` file named `<meeting>-staged-decisions.json`
 
-The exported JSON is an array of decision objects matching the `decisions[]` schema in the review decisions artifact.
+Both include the full audit metadata for each decision. Export format:
 
-**To merge into the review artifact:**
+```json
+{
+  "meeting_id": "apr-14-2026",
+  "turn_id": "turn_000123",
+  "timestamp": 1743201000000,
+  "reviewed_at": "2026-04-22T20:30:00.000Z",
+  "reviewer": "manual-review",
+  "reviewer_action": "approve_named_official",
+  "speaker_name": "Councilmember Tom Peterson",
+  "speaker_type": "council",
+  "evidence_note": "Video frame at 6899s shows CM PETERSON nameplate at dais",
+  "speaker_public_override": "Councilmember Tom Peterson",
+  "speaker_status_override": "approved",
+  "suppress": false,
+  "ui_version": "2.1"
+}
+```
+
+### Merging into the Review Artifact
 
 1. Open `reviews/apr-14-2026-review-decisions.json`
 2. Find the `decisions` array
-3. Paste the exported JSON into the array (or merge — later entries for the same `turn_id` replace earlier ones)
+3. Paste the exported decisions into the array (later entry for same `turn_id` replaces earlier)
 4. Deduplicate by `turn_id`
 
 ---
@@ -93,12 +139,12 @@ The exported JSON is an array of decision objects matching the `decisions[]` sch
 ```bash
 cd fairfax-council-transcripts
 
-# 1. Apply decisions to structured transcript
+# 1. Apply decisions
 python3 scripts/apply_review_decisions.py apr-14-2026 \
   --structured transcripts_structured/apr-14-2026.json \
   --decisions reviews/apr-14-2026-review-decisions.json
 
-# 2. Republish meeting (generates public HTML + data.js)
+# 2. Republish meeting
 python3 scripts/publish_structured_meeting.py apr-14-2026
 
 # 3. Rebuild search index
@@ -112,40 +158,39 @@ cd docs && python3 ../scripts/validate_site.py --meeting-id apr-14-2026
 
 ---
 
-## Clearing Staged Decisions
-
-Click **Clear all** in the review banner. A confirmation dialog appears before clearing. This removes all staged decisions from localStorage.
-
----
-
-## Safety Model
-
-- **Gated by URL param + passphrase** — not just a naked `?review=1`
-- **No public writeback** — decisions never go directly to public output
-- **No GitHub API writeback** — reviewer manually merges into the artifact
-- **Evidence notes required** for named labels — no speculative labeling
-- **Scope is per-turn only** — no segmentation changes from this UI
-- Decisions are in localStorage — they persist across page refreshes but are browser-local
-
----
-
-## Files Changed (v2)
+## Files Changed (v2.1)
 
 | File | Change |
 |------|--------|
-| `docs/js/review-ui.js` | Complete rewrite — staged decisions panel, sidebar, export, passphrase gate, quick actions |
-| `docs/css/transcript-page.css` | Banner, sidebar, modal, badge, and quick-action styles |
-| `docs/REVIEW_WORKFLOW.md` | Updated to reflect v2 workflow |
+| `docs/js/review-ui.js` | Audit metadata, reviewer field, export enricher, guardrails, dirty state, beforeunload |
+| `docs/css/transcript-page.css` | Export-status icons (✓/○), dirty indicator |
+| `docs/REVIEW_WORKFLOW.md` | Updated — security model clarification, guardrails docs, full audit schema |
+
+---
+
+## Export Schema (v2.1)
+
+Every exported decision includes:
+
+| Field | Description |
+|-------|-------------|
+| `meeting_id` | Meeting ID for context |
+| `turn_id` | Turn being labeled |
+| `timestamp` | Unix ms when decision was created |
+| `reviewed_at` | ISO 8601 timestamp of review |
+| `reviewer` | Reviewer name/alias; defaults to `manual-review` |
+| `reviewer_action` | Action taken |
+| `speaker_name` | Label applied |
+| `speaker_type` | `council`, `staff`, `public_comment`, `unknown` |
+| `evidence_note` | Full evidence text (not truncated) |
+| `speaker_public_override` | Named official override |
+| `speaker_status_override` | Status override |
+| `suppress` | Boolean |
+| `ui_version` | `2.1` |
 
 ---
 
 ## Demo
 
 **URL:** `https://norrin302.github.io/fairfax-council-transcripts/transcripts/apr-14-2026.html?review=1`
-
-1. Open the URL above — passphrase prompt appears, enter `review`
-2. Purple review banner + Staged Decisions sidebar appear
-3. Find an unlabeled block (purple "unlabeled" badge) — click **Label speaker**
-4. Quick-pick a name, select type, add evidence note, save
-5. Decision appears in sidebar — click **Export JSON** or **Copy JSON**
-6. Merge into `reviews/apr-14-2026-review-decisions.json` → run apply/publish commands above
+**Passphrase:** `review`

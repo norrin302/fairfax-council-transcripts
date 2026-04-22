@@ -1,11 +1,18 @@
 /* ============================================================
-   Review-mode speaker labeling — v2
+   Review-mode speaker labeling — v2.1
    reviewer cockpit for staged decisions + export
 
    Enable: add ?review=1 to the transcript page URL.
    Passphrase gate: reviewer confirms once per session (stored in sessionStorage).
    Staging: localStorage key per meeting_id (merged on export).
    Safe architecture: decisions never written directly to public output.
+
+   v2.1 hardening:
+   - Audit metadata in all exported decisions
+   - Full evidence preserved (not truncated)
+   - Guardrails on suppress/keep_unknown actions
+   - Unexported-state dirty indicator
+   - beforeunload warning for open tabs
    ============================================================ */
 
 (function () {
@@ -13,10 +20,15 @@
 
   // ---- Config ----
   var REVIEW_SESSION_KEY = 'review_session';
-  var REVIEW_SESSION_VALUE = 'confirmed';   // value stored in sessionStorage after passphrase confirm
+  var REVIEW_SESSION_VALUE = 'confirmed';
   var PENDING_KEY = function (meetingId) {
     return 'reviewdecisions:pending:' + String(meetingId || '').trim();
   };
+  var EXPORT_FLAG_KEY = function (meetingId) {
+    return 'reviewdecisions:exported:' + String(meetingId || '').trim();
+  };
+  var UI_VERSION = '2.1';
+  var REVIEWER_DEFAULT = 'manual-review';
 
   var COUNCIL_QUICK_PICK = [
     'Mayor Catherine Read',
@@ -38,8 +50,10 @@
   var REVIEW_MODE = false;
   var SESSION_CONFIRMED = false;
   var PENDING_DECISIONS = [];
+  var EXPORTED_SET = {};         // turn_ids that have been exported this session
   var MEETING_ID = '';
-  var ACTIVE_TURN_ID = null;   // turn_id currently in the modal (null = new)
+  var ACTIVE_TURN_ID = null;
+  var DIRTY_STATE = false;       // true when staged decisions exist and haven't been exported
 
   // ---- Helpers ----
   function getTurns() {
@@ -57,8 +71,9 @@
     return String(m).padStart(2, '0') + ':' + String(sec).padStart(2, '0');
   }
 
-  function formatTimestamp(seconds) {
-    return String(Math.floor(Number(seconds) || 0));
+  function formatISOTime(timestamp) {
+    try { return new Date(Number(timestamp) || Date.now()).toISOString(); }
+    catch (e) { return new Date().toISOString(); }
   }
 
   function showToast(msg) {
@@ -97,6 +112,54 @@
     };
   }
 
+  // ---- Dirty state management ----
+  function markDirty() {
+    DIRTY_STATE = true;
+    updateDirtyIndicator();
+  }
+
+  function clearDirty() {
+    DIRTY_STATE = false;
+    EXPORTED_SET = {};
+    try { localStorage.removeItem(EXPORT_FLAG_KEY(MEETING_ID)); } catch (e) {}
+    updateDirtyIndicator();
+  }
+
+  function markExported(turnIds) {
+    for (var i = 0; i < turnIds.length; i++) EXPORTED_SET[String(turnIds[i])] = true;
+    try {
+      localStorage.setItem(EXPORT_FLAG_KEY(MEETING_ID), JSON.stringify(EXPORTED_SET));
+    } catch (e) {}
+    DIRTY_STATE = false;
+    updateDirtyIndicator();
+  }
+
+  function loadExportedSet() {
+    try {
+      var raw = localStorage.getItem(EXPORT_FLAG_KEY(MEETING_ID));
+      if (raw) EXPORTED_SET = JSON.parse(raw) || {};
+    } catch (e) { EXPORTED_SET = {}; }
+  }
+
+  function updateDirtyIndicator() {
+    var dirtyEl = document.getElementById('review-dirty-indicator');
+    if (!dirtyEl) return;
+    if (DIRTY_STATE) {
+      dirtyEl.style.display = 'inline-flex';
+    } else {
+      dirtyEl.style.display = 'none';
+    }
+  }
+
+  // ---- beforeunload ----
+  function handleBeforeUnload(e) {
+    if (!DIRTY_STATE) return;
+    var msg = 'You have unexported staged decisions. Leaving this page will lose them.';
+    e.preventDefault();
+    e.returnValue = msg;
+    return msg;
+  }
+
   // ---- Passphrase gate ----
   function isReviewMode() {
     var params = new URLSearchParams(window.location.search);
@@ -115,7 +178,6 @@
   }
 
   function showPassphraseGate(callback) {
-    // Build a small overlay
     var overlay = document.createElement('div');
     overlay.id = 'review-passphrase-overlay';
     overlay.innerHTML =
@@ -170,7 +232,6 @@
 
   function addPending(decision) {
     var all = loadPending();
-    // Replace existing decision for same turn_id, or append
     var idx = -1;
     for (var i = 0; i < all.length; i++) {
       if (all[i].turn_id === decision.turn_id) { idx = i; break; }
@@ -179,19 +240,42 @@
     else all.push(decision);
     savePending(all);
     PENDING_DECISIONS = all;
+    markDirty();
   }
 
   function removePending(turnId) {
     var all = loadPending();
     all = all.filter(function (d) { return d.turn_id !== turnId; });
     savePending(all);
+    markDirty();
   }
 
   function clearAllPending() {
     savePending([]);
+    clearDirty();
   }
 
-  // ---- Build block index (matches render logic) ----
+  // ---- Build audit-enriched decision for export ----
+  function buildExportDecision(decision) {
+    return {
+      meeting_id: MEETING_ID,
+      turn_id: decision.turn_id,
+      timestamp: decision.timestamp || Date.now(),
+      reviewed_at: formatISOTime(decision.timestamp || Date.now()),
+      reviewer: decision.reviewer || REVIEWER_DEFAULT,
+      reviewer_action: decision.reviewer_action || 'keep_unknown',
+      speaker_name: decision.speaker_name || '',
+      speaker_type: decision.speaker_type || 'unknown',
+      evidence_note: decision.evidence_note || decision.notes || '',
+      speaker_public_override: decision.speaker_public_override || '',
+      speaker_status_override: decision.speaker_status_override || '',
+      text_override: '',
+      suppress: decision.suppress || false,
+      ui_version: UI_VERSION,
+    };
+  }
+
+  // ---- Build block index ----
   function buildBlockIndex() {
     var turns = getTurns();
     var blocks = [];
@@ -224,20 +308,11 @@
           endTime: end,
           turnIds: [turn.turn_id],
           texts: [text],
-          // first turn data for display
           turn_id: turn.turn_id,
         });
       }
     }
     return blocks;
-  }
-
-  function findBlockForTurnId(turnId) {
-    var blocks = buildBlockIndex();
-    for (var i = 0; i < blocks.length; i++) {
-      if (blocks[i].turnIds.indexOf(String(turnId)) >= 0) return { block: blocks[i], index: i };
-    }
-    return null;
   }
 
   // ---- Wire Label buttons into unlabeled blocks ----
@@ -249,11 +324,8 @@
       var blockIndex = parseInt(block.dataset.index || '0', 10);
       var blockInfo = blocks[blockIndex];
       if (!blockInfo) return;
-
-      // Already has a label-btn?
       if (block.querySelector('.label-btn')) return;
 
-      // Check if this block is already staged
       var staged = PENDING_DECISIONS.find(function (d) {
         return blockInfo.turnIds.indexOf(d.turn_id) >= 0;
       });
@@ -290,6 +362,9 @@
       '<span class="review-staged-count" id="review-staged-count">' +
         (pending.length > 0 ? pending.length + ' staged decision' + (pending.length !== 1 ? 's' : '') : 'no staged decisions') +
       '</span>' +
+      '<span class="review-dirty-indicator" id="review-dirty-indicator" style="display:none;">' +
+        '<i class="fas fa-exclamation-circle"></i> unexported' +
+      '</span>' +
       '<button type="button" id="review-export-btn" class="review-action-btn"' + (pending.length === 0 ? ' disabled' : '') + '>' +
         '<i class="fas fa-download"></i> Export JSON' +
       '</button>' +
@@ -302,18 +377,14 @@
       '<a href="?" class="review-exit-link">Exit review mode</a>';
     document.querySelector('.container').prepend(banner);
 
-    // Export download
     document.getElementById('review-export-btn').addEventListener('click', function () {
       exportDownload();
     });
 
-    // Copy JSON
     document.getElementById('review-copy-btn').addEventListener('click', function () {
-      var json = JSON.stringify(PENDING_DECISIONS, null, 2);
-      copyText(json).then(function () { showToast('JSON copied to clipboard'); });
+      copyExportJSON();
     });
 
-    // Clear all with confirmation
     document.getElementById('review-clear-btn').addEventListener('click', function () {
       if (pending.length === 0) return;
       if (window.confirm('Clear all ' + pending.length + ' staged decision' + (pending.length !== 1 ? 's' : '') + '? This cannot be undone.')) {
@@ -324,6 +395,8 @@
         showToast('All staged decisions cleared');
       }
     });
+
+    updateDirtyIndicator();
   }
 
   function updateBannerCounts() {
@@ -340,6 +413,45 @@
     if (exportBtn) exportBtn.disabled = pending.length === 0;
     if (copyBtn) copyBtn.disabled = pending.length === 0;
     if (clearBtn) clearBtn.disabled = pending.length === 0;
+    updateDirtyIndicator();
+  }
+
+  // ---- Export ----
+  function getExportPayload() {
+    // Build full audit-enriched decisions for export
+    var decisions = loadPending();
+    var exportDecisions = [];
+    for (var i = 0; i < decisions.length; i++) {
+      exportDecisions.push(buildExportDecision(decisions[i]));
+    }
+    return exportDecisions;
+  }
+
+  function exportDownload() {
+    var payload = getExportPayload();
+    if (payload.length === 0) return;
+    var blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = MEETING_ID + '-staged-decisions.json';
+    document.body.appendChild(a);
+    a.click();
+    setTimeout(function () { document.body.removeChild(a); URL.revokeObjectURL(url); }, 100);
+
+    var turnIds = payload.map(function (d) { return d.turn_id; });
+    markExported(turnIds);
+    showToast('Downloaded ' + payload.length + ' decision' + (payload.length !== 1 ? 's' : '') + ' as JSON');
+  }
+
+  function copyExportJSON() {
+    var payload = getExportPayload();
+    if (payload.length === 0) return;
+    copyText(JSON.stringify(payload, null, 2)).then(function () {
+      var turnIds = payload.map(function (d) { return d.turn_id; });
+      markExported(turnIds);
+      showToast('JSON copied to clipboard');
+    }).catch(function () { showToast('Copy failed'); });
   }
 
   // ---- Sidebar ----
@@ -374,28 +486,36 @@
       var d = pending[i];
       var actionLabel = actionToLabel(d.reviewer_action || 'keep_unknown');
       var typeBadge = typeToBadge(d.speaker_type || 'unknown');
+      var wasExported = EXPORTED_SET[String(d.turn_id)] ? true : false;
+      var exportIcon = wasExported
+        ? '<span class="review-exported-icon" title="Exported"><i class="fas fa-check-circle"></i></span>'
+        : '<span class="review-pending-icon" title="Not yet exported"><i class="fas fa-clock"></i></span>';
+
+      // Truncate display in sidebar; full text preserved in stored/exported decision
+      var noteTrunc = String(d.evidence_note || d.notes || '').slice(0, 60) +
+        (String(d.evidence_note || d.notes || '').length > 60 ? '…' : '');
+
       html +=
         '<div class="review-staged-item" data-turn-id="' + d.turn_id + '">' +
           '<div class="review-staged-header">' +
-            '<span class="review-staged-turn">' + d.turn_id + '</span>' +
-            '<span class="review-staged-time">' + (d.timestamp ? formatTime(d.timestamp) : '') + '</span>' +
+            '<span class="review-staged-turn">' + escHtml(String(d.turn_id || '')) + '</span>' +
+            '<span class="review-staged-time">' + (d.timestamp ? formatTime(d.timestamp / 1000) : '') + '</span>' +
           '</div>' +
-          '<div class="review-staged-speaker">' + escHtml(String(d.speaker_name || '(unnamed)')) + '</div>' +
+          '<div class="review-staged-speaker">' + escHtml(String(d.speaker_name || '(unnamed)')) + ' ' + exportIcon + '</div>' +
           '<div class="review-staged-meta">' +
             '<span class="review-staged-action">' + actionLabel + '</span>' +
             typeBadge +
           '</div>' +
-          (d.notes ? '<div class="review-staged-notes">' + escHtml(String(d.notes || '')) + '</div>' : '') +
+          (noteTrunc ? '<div class="review-staged-notes" title="' + escHtml(String(d.evidence_note || d.notes || '')) + '">' + escHtml(noteTrunc) + '</div>' : '') +
           '<div class="review-staged-actions">' +
-            '<button type="button" class="review-item-edit-btn" data-turn-id="' + d.turn_id + '"><i class="fas fa-edit"></i> Edit</button>' +
-            '<button type="button" class="review-item-remove-btn" data-turn-id="' + d.turn_id + '"><i class="fas fa-trash-alt"></i> Remove</button>' +
+            '<button type="button" class="review-item-edit-btn" data-turn-id="' + escHtml(String(d.turn_id || '')) + '"><i class="fas fa-edit"></i> Edit</button>' +
+            '<button type="button" class="review-item-remove-btn" data-turn-id="' + escHtml(String(d.turn_id || '')) + '"><i class="fas fa-trash-alt"></i> Remove</button>' +
           '</div>' +
         '</div>';
     }
 
     sidebar.innerHTML = html;
 
-    // Wire edit/remove
     sidebar.querySelectorAll('.review-item-edit-btn').forEach(function (btn) {
       btn.addEventListener('click', function () {
         var turnId = btn.getAttribute('data-turn-id');
@@ -442,21 +562,6 @@
     return map[type] || '<span class="review-badge review-badge-unknown">Unknown</span>';
   }
 
-  // ---- Export ----
-  function exportDownload() {
-    var pending = PENDING_DECISIONS;
-    if (pending.length === 0) return;
-    var blob = new Blob([JSON.stringify(pending, null, 2)], { type: 'application/json' });
-    var url = URL.createObjectURL(blob);
-    var a = document.createElement('a');
-    a.href = url;
-    a.download = MEETING_ID + '-staged-decisions.json';
-    document.body.appendChild(a);
-    a.click();
-    setTimeout(function () { document.body.removeChild(a); URL.revokeObjectURL(url); }, 100);
-    showToast('Downloaded ' + pending.length + ' decision' + (pending.length !== 1 ? 's' : '') + ' as JSON');
-  }
-
   // ---- Modal ----
   var modalEl = null;
 
@@ -473,11 +578,9 @@
   function openModalForTurn(turnId) {
     var blocks = buildBlockIndex();
     var blockInfo = null;
-    var blockIndex = -1;
     for (var i = 0; i < blocks.length; i++) {
       if (blocks[i].turnIds.indexOf(String(turnId)) >= 0) {
         blockInfo = blocks[i];
-        blockIndex = i;
         break;
       }
     }
@@ -485,11 +588,15 @@
 
     ACTIVE_TURN_ID = String(turnId);
     var modal = getModal();
-
-    // Check if already staged — pre-populate
     var existing = PENDING_DECISIONS.find(function (d) { return d.turn_id === ACTIVE_TURN_ID; });
 
     modal.innerHTML = getModalHtml(blockInfo, existing);
+
+    // Wire reviewer field
+    var reviewerInput = modal.querySelector('#rm-reviewer');
+    if (reviewerInput) {
+      reviewerInput.value = existing && existing.reviewer ? existing.reviewer : REVIEWER_DEFAULT;
+    }
 
     // Wire quick-picks
     modal.querySelectorAll('.quick-pick-btn').forEach(function (btn) {
@@ -505,22 +612,30 @@
       });
     });
 
-    // Quick action buttons
     var quickKeepUnknown = modal.querySelector('#rm-quick-keep-unknown');
     var quickPublic = modal.querySelector('#rm-quick-public');
     var quickSuppress = modal.querySelector('#rm-quick-suppress');
     var submitBtn = modal.querySelector('#rm-submit');
     var evidenceNote = modal.querySelector('#rm-evidence');
-    var speakerNameInput = modal.querySelector('#rm-speaker-name');
 
+    // Quick Keep unknown — set note if empty, then save
     if (quickKeepUnknown) {
       quickKeepUnknown.addEventListener('click', function () {
         var typeUnknown = modal.querySelector('#rm-type-unknown');
         if (typeUnknown) typeUnknown.checked = true;
-        evidenceNote.value = evidenceNote.value.trim() || 'Reviewer action: keep unknown';
-        updateSubmitState(modal);
+        var note = evidenceNote.value.trim();
+        if (!note) {
+          note = 'Reviewer action: keep unknown';
+          evidenceNote.value = note;
+        }
+        var decision = buildDecisionFromModal(modal);
+        decision.reviewer_action = 'keep_unknown';
+        decision.speaker_type = 'unknown';
+        saveDecision(decision);
       });
     }
+
+    // Quick Public comment
     if (quickPublic) {
       quickPublic.addEventListener('click', function () {
         var typePublic = modal.querySelector('#rm-type-public');
@@ -528,27 +643,42 @@
         updateSubmitState(modal);
       });
     }
+
+    // Quick Suppress — requires note or confirm
     if (quickSuppress) {
       quickSuppress.addEventListener('click', function () {
-        evidenceNote.value = evidenceNote.value.trim() || 'Suppress turn — reviewer action';
+        var note = (evidenceNote.value || '').trim();
+        if (!note) {
+          var confirmed = window.confirm(
+            'Suppress this turn? No evidence note was provided.\n\nClick OK to suppress with a default note, or Cancel to go back and add a note.'
+          );
+          if (!confirmed) return;
+          note = 'Suppress turn — reviewer action (no explicit evidence provided)';
+          evidenceNote.value = note;
+        }
         var decision = buildDecisionFromModal(modal);
         decision.reviewer_action = 'suppress_turn';
         decision.suppress = true;
+        decision.evidence_note = note;
         saveDecision(decision);
       });
     }
 
-    // Submit
     submitBtn.addEventListener('click', function () {
       var decision = buildDecisionFromModal(modal);
       if (!decision) return;
+      // Guardrail: suppress and keep_unknown require note or confirm
+      if ((decision.reviewer_action === 'suppress_turn' || decision.reviewer_action === 'keep_unknown') && !decision.evidence_note) {
+        var confirmed = window.confirm(
+          'No evidence note was provided for "' + decision.reviewer_action + '".\n\n' +
+          'This makes audit difficult. Click OK to save without a note, or Cancel to add one.'
+        );
+        if (!confirmed) return;
+      }
       saveDecision(decision);
     });
 
-    // Cancel
     modal.querySelector('#rm-cancel').addEventListener('click', closeModal);
-
-    // Backdrop click closes
     modal.addEventListener('click', function (e) {
       if (e.target === modal) closeModal();
     });
@@ -570,14 +700,12 @@
     if (!submitBtn) return;
     var speakerNameInput = modal.querySelector('#rm-speaker-name');
     var evidenceNote = modal.querySelector('#rm-evidence');
-    var typeUnknown = modal.querySelector('#rm-type-unknown');
     var hasType = modal.querySelector('#rm-type-council').checked ||
       modal.querySelector('#rm-type-staff').checked ||
       modal.querySelector('#rm-type-public').checked ||
       modal.querySelector('#rm-type-unknown').checked;
     var hasName = speakerNameInput && speakerNameInput.value.trim().length > 0;
     var hasNote = evidenceNote && evidenceNote.value.trim().length > 0;
-    // Named labels require evidence; unknown/keep_unknown do not
     var needsNote = hasName;
     submitBtn.disabled = !hasType || (needsNote && !hasNote);
   }
@@ -593,6 +721,7 @@
 
   function buildDecisionFromModal(modal) {
     var speakerName = modal.querySelector('#rm-speaker-name').value.trim();
+    var reviewer = modal.querySelector('#rm-reviewer').value.trim() || REVIEWER_DEFAULT;
     var typeCouncil = modal.querySelector('#rm-type-council').checked;
     var typeStaff = modal.querySelector('#rm-type-staff').checked;
     var typePublic = modal.querySelector('#rm-type-public').checked;
@@ -629,12 +758,14 @@
       reviewer_action: action,
       speaker_name: speakerName,
       speaker_type: speakerType,
+      evidence_note: evidenceNote,
       speaker_public_override: speakerPublic,
       speaker_status_override: speakerStatus,
       text_override: '',
       suppress: false,
       notes: evidenceNote,
       timestamp: Date.now(),
+      reviewer: reviewer,
     };
   }
 
@@ -642,9 +773,9 @@
     var timeLabel = formatTime(blockInfo.start);
     var previewText = (blockInfo.texts[0] || '').slice(0, 120) + (blockInfo.texts[0] || '').length > 120 ? '…' : '';
     var exSpeaker = existing ? existing.speaker_name || '' : '';
-    var exNotes = existing ? existing.notes || '' : '';
+    var exNotes = existing ? (existing.evidence_note || existing.notes || '') : '';
     var exType = existing ? existing.speaker_type || '' : '';
-    var exAction = existing ? existing.reviewer_action || '' : '';
+    var exReviewer = existing && existing.reviewer ? existing.reviewer : REVIEWER_DEFAULT;
 
     return [
       '<div class="review-modal-content">',
@@ -654,7 +785,7 @@
         '<div class="rm-section">',
           '<label class="rm-label">Turn</label>',
           '<div class="rm-info-text">',
-            '<span class="rm-turn-id">' + blockInfo.turnIds[0] + '</span> &bull; ',
+            '<span class="rm-turn-id">' + escHtml(blockInfo.turnIds[0]) + '</span> &bull; ',
             '<span class="rm-turn-time">' + timeLabel + '</span>',
           '</div>',
         '</div>',
@@ -697,11 +828,18 @@
           '</div>',
         '</div>',
 
-        // Evidence notes
+        // Evidence notes (full text stored — not truncated in export)
         '<div class="rm-section">',
           '<label class="rm-label" for="rm-evidence">Evidence / notes <span class="rm-required">*</span></label>',
           '<textarea id="rm-evidence" class="rm-textarea" rows="3" placeholder="e.g. Video frame at 6899s shows CM PETERSON nameplate">' + escHtml(exNotes) + '</textarea>',
-          '<p class="rm-hint-text">Required for any named label. Explain the evidence supporting this decision.</p>',
+          '<p class="rm-hint-text">Required for any named label. Stored in full in export; truncated in sidebar display.</p>',
+        '</div>',
+
+        // Reviewer identity
+        '<div class="rm-section">',
+          '<label class="rm-label" for="rm-reviewer">Reviewer name</label>',
+          '<input type="text" id="rm-reviewer" class="rm-input" value="' + escHtml(exReviewer) + '" placeholder="Your name or alias" autocomplete="off">',
+          '<p class="rm-hint-text">Included in audit metadata for traceability. Default: "manual-review".</p>',
         '</div>',
 
         // Actions
@@ -720,6 +858,10 @@
     var meta = getMeetingMeta();
     MEETING_ID = meta.id;
     PENDING_DECISIONS = loadPending();
+    loadExportedSet();
+    DIRTY_STATE = PENDING_DECISIONS.length > 0 && Object.keys(EXPORTED_SET).length === 0;
+
+    window.addEventListener('beforeunload', handleBeforeUnload);
 
     if (!isSessionConfirmed()) {
       showPassphraseGate(function () {
@@ -731,13 +873,9 @@
   }
 
   function proceedInit() {
-    // Show banner
     showReviewBanner();
-
-    // Render sidebar
     renderSidebar();
 
-    // Wire label buttons once transcript is rendered
     var checkAndWire = function () {
       var container = document.getElementById('transcript');
       if (container && container.children.length > 0) {
