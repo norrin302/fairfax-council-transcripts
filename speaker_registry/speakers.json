@@ -1,54 +1,152 @@
 {
-  "schema": "fairfax.speaker_registry.v1",
+  "schema": "fairfax.speaker_registry.v2",
+  "description": "Canonical speaker registry for Fairfax City Council transcripts. Use for safe auto-identification only. Unknown or uncertain speakers must remain 'Unknown Speaker' or 'Public Comment Speaker'.",
   "speakers": [
     {
       "speaker_key": "mayor_catherine_read",
       "display_name": "Mayor Catherine Read",
       "role": "mayor",
-      "aliases": ["Catherine Read", "Mayor Read", "Mayor Catherine Read"]
+      "confidence_boost": 0.95,
+      "min_diarization_confidence": 0.40,
+      "aliases": ["Catherine Read", "Mayor Read", "Mayor Catherine Read", "Mayor"],
+      "titles": ["Mayor"],
+      "diarization_speaker_ids": ["SPEAKER_21"],
+      "text_patterns": ["Mayor Read", "Mayor Catherine Read", "Catherine Read"],
+      "notes": "Mayor of Fairfax City. Primary speaker for procedural announcements, meeting open/close, vote announcements."
     },
     {
       "speaker_key": "council_tom_peterson",
       "display_name": "Councilmember Tom Peterson",
       "role": "council",
-      "aliases": ["Tom Peterson", "Councilmember Peterson"]
+      "confidence_boost": 0.95,
+      "min_diarization_confidence": 0.40,
+      "aliases": ["Tom Peterson", "Councilmember Peterson", "Councilmember Tom Peterson", "Peterson"],
+      "titles": ["Councilmember", "Mr. Peterson"],
+      "diarization_speaker_ids": ["SPEAKER_30"],
+      "text_patterns": ["Councilmember Peterson", "Tom Peterson", "Mr. Peterson"],
+      "notes": "Councilmember Tom Peterson. Active in budget, policy, and city manager discussions."
     },
     {
       "speaker_key": "council_stacy_hardy_chandler",
       "display_name": "Councilmember Stacy Hardy-Chandler",
       "role": "council",
-      "aliases": ["Stacy Hardy-Chandler", "Councilmember Hardy-Chandler", "Councilmember Hardy Chandler"]
+      "confidence_boost": 0.90,
+      "min_diarization_confidence": 0.40,
+      "aliases": ["Stacy Hardy-Chandler", "Councilmember Hardy-Chandler", "Councilmember Hardy Chandler", "Hardy-Chandler"],
+      "titles": ["Councilmember"],
+      "diarization_speaker_ids": [],
+      "text_patterns": ["Hardy-Chandler", "Councilmember Hardy-Chandler", "Hardy Chandler"],
+      "notes": "Councilmember Stacy Hardy-Chandler."
     },
     {
       "speaker_key": "council_rachel_mcquillen",
       "display_name": "Councilmember Rachel McQuillen",
       "role": "council",
-      "aliases": ["Rachel McQuillen", "Councilmember McQuillen"]
+      "confidence_boost": 0.90,
+      "min_diarization_confidence": 0.40,
+      "aliases": ["Rachel McQuillen", "Councilmember McQuillen", "McQuillen", "Councilmember McQuillan"],
+      "titles": ["Councilmember", "Ms. McQuillen"],
+      "diarization_speaker_ids": [],
+      "text_patterns": ["Councilmember McQuillen", "Rachel McQuillen", "McQuillen"],
+      "notes": "Councilmember Rachel McQuillen. Active in community services, parks, and recreation discussions."
     },
     {
       "speaker_key": "council_stacy_hall",
       "display_name": "Councilmember Stacy Hall",
       "role": "council",
-      "aliases": ["Stacy Hall", "Councilmember Hall"]
+      "confidence_boost": 0.90,
+      "min_diarization_confidence": 0.40,
+      "aliases": ["Stacy Hall", "Councilmember Hall", "Council Member Hall", "Hall"],
+      "titles": ["Councilmember", "Ms. Hall"],
+      "diarization_speaker_ids": [],
+      "text_patterns": ["Councilmember Hall", "Stacy Hall", "Council Member Hall", "Ms. Hall"],
+      "notes": "Councilmember Stacy Hall. Note: name overlap risk with Stacy Hardy-Chandler. Distinguish by context."
     },
     {
       "speaker_key": "council_anthony_amos",
       "display_name": "Councilmember Anthony Amos",
       "role": "council",
-      "aliases": ["Anthony Amos", "Councilmember Amos"]
+      "confidence_boost": 0.90,
+      "min_diarization_confidence": 0.40,
+      "aliases": ["Anthony Amos", "Councilmember Amos", "Council Member Amos", "Amos"],
+      "titles": ["Councilmember"],
+      "diarization_speaker_ids": [],
+      "text_patterns": ["Councilmember Amos", "Anthony Amos", "Mr. Amos"],
+      "notes": "Councilmember Anthony Amos."
     },
     {
       "speaker_key": "council_billy_bates",
       "display_name": "Councilmember Billy Bates",
       "role": "council",
-      "aliases": ["Billy Bates", "Councilmember Bates"]
+      "confidence_boost": 0.90,
+      "min_diarization_confidence": 0.40,
+      "aliases": ["Billy Bates", "Councilmember Bates", "Council Member Bates", "Bates"],
+      "titles": ["Councilmember"],
+      "diarization_speaker_ids": [],
+      "text_patterns": ["Councilmember Bates", "Billy Bates", "Mr. Bates"],
+      "notes": "Councilmember Billy Bates."
+    },
+    {
+      "speaker_key": "jc_martinez",
+      "display_name": "JC Martinez",
+      "role": "staff",
+      "confidence_boost": 0.90,
+      "min_diarization_confidence": 0.50,
+      "aliases": ["JC Martinez", "Martinez", "Mr. Martinez"],
+      "titles": ["Mr."],
+      "diarization_speaker_ids": [],
+      "text_patterns": ["JC Martinez", "Mr. Martinez"],
+      "notes": "City staff / presenter. Seen at staff podium during presentations. Name confirmed via video frame at 5849s."
+    },
+    {
+      "speaker_key": "william_pitchford",
+      "display_name": "William Pitchford",
+      "role": "staff",
+      "confidence_boost": 0.85,
+      "min_diarization_confidence": 0.50,
+      "aliases": ["William Pitchford", "Mr. Pitchford", "Pitchford"],
+      "titles": ["Mr."],
+      "diarization_speaker_ids": [],
+      "text_patterns": ["Mr. Pitchford", "William Pitchford"],
+      "notes": "City staff."
+    },
+    {
+      "speaker_key": "daniel_alexander",
+      "display_name": "Daniel Alexander",
+      "role": "staff",
+      "confidence_boost": 0.85,
+      "min_diarization_confidence": 0.50,
+      "aliases": ["Daniel Alexander", "Mr. Alexander", "Alexander"],
+      "titles": ["Mr."],
+      "diarization_speaker_ids": [],
+      "text_patterns": ["Mr. Alexander", "Daniel Alexander"],
+      "notes": "Budget Director / City staff. Name confirmed via video frame at 6899s."
     },
     {
       "speaker_key": "city_manager_david_coll",
       "display_name": "City Manager David Coll",
       "role": "staff",
-      "aliases": ["David Coll", "City Manager Coll", "City Manager"]
+      "confidence_boost": 0.95,
+      "min_diarization_confidence": 0.40,
+      "aliases": ["David Coll", "City Manager Coll", "City Manager"],
+      "titles": ["City Manager", "Mr. Coll"],
+      "diarization_speaker_ids": [],
+      "text_patterns": ["City Manager Coll", "City Manager", "David Coll", "Mr. Coll"],
+      "notes": "City Manager of Fairfax City."
     }
-  ]
+  ],
+  "_metadata": {
+    "version": "v2",
+    "updated": "2026-04-22",
+    "confidence_threshold_named_official": 0.40,
+    "confidence_threshold_public_comment": 0.80,
+    "confidence_threshold_unknown": 0.0,
+    "safe_labeling_rules": [
+      "Never assign a real name without min_diarization_confidence threshold met",
+      "text_patterns require verbatim match in ASR output",
+      "public commenters require stronger evidence (0.80+)",
+      "Unknown Speaker is always acceptable - prefer over wrong attribution",
+      "diarization_speaker_ids are pyannote IDs confirmed from this meeting only - do not carry forward across meetings without re-verification"
+    ]
+  }
 }
-
