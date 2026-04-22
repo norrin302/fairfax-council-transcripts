@@ -18,8 +18,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Opening call-to-order continuation; strongly supported by adjacent approved mayor context.",
-      "reviewed": true
+      "reviewer_notes": "Opening call-to-order continuation; strongly supported by adjacent approved mayor context."
     },
     {
       "turn_id": "turn_000002",
@@ -32,8 +31,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Library proclamation intro; adjacent approved mayor context.",
-      "reviewed": true
+      "reviewer_notes": "Library proclamation intro; adjacent approved mayor context."
     },
     {
       "turn_id": "turn_000003",
@@ -46,8 +44,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of mayor proclamation text; same speaker context.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of mayor proclamation text; same speaker context."
     },
     {
       "turn_id": "turn_000004",
@@ -72,8 +69,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of mayor proclamation, safe to attribute to approved mayor based on adjacent approved turns.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of mayor proclamation, safe to attribute to approved mayor based on adjacent approved turns."
     },
     {
       "turn_id": "turn_000006",
@@ -110,8 +106,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Likely library representative, but this turn does not self-identify clearly enough to promote to a real name.",
-      "reviewed": true
+      "reviewer_notes": "Likely library representative, but this turn does not self-identify clearly enough to promote to a real name."
     },
     {
       "turn_id": "turn_000009",
@@ -124,8 +119,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Mixed or rejected diarization block, keep conservative.",
-      "reviewed": true
+      "reviewer_notes": "Mixed or rejected diarization block, keep conservative."
     },
     {
       "turn_id": "turn_000011",
@@ -138,8 +132,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Mixed or rejected diarization block, keep conservative.",
-      "reviewed": true
+      "reviewer_notes": "Mixed or rejected diarization block, keep conservative."
     },
     {
       "turn_id": "turn_000012",
@@ -164,8 +157,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Mixed or rejected diarization block, keep conservative.",
-      "reviewed": true
+      "reviewer_notes": "Mixed or rejected diarization block, keep conservative."
     },
     {
       "turn_id": "turn_000015",
@@ -202,8 +194,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of adjacent mayor proclamation text.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of adjacent mayor proclamation text."
     },
     {
       "turn_id": "turn_000018",
@@ -228,8 +219,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of adjacent mayor proclamation text.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of adjacent mayor proclamation text."
     },
     {
       "turn_id": "turn_000020",
@@ -278,8 +268,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Clear continuation of immediately prior approved Fasa Alam ESC / Solarize remarks.",
-      "reviewed": true
+      "reviewer_notes": "Clear continuation of immediately prior approved Fasa Alam ESC / Solarize remarks."
     },
     {
       "turn_id": "turn_000024",
@@ -292,8 +281,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Procedural remarks by mayor between approved mayor turns.",
-      "reviewed": true
+      "reviewer_notes": "Procedural remarks by mayor between approved mayor turns."
     },
     {
       "turn_id": "turn_000025",
@@ -318,8 +306,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Photo coordination and thanks align with adjacent approved mayor turns.",
-      "reviewed": true
+      "reviewer_notes": "Photo coordination and thanks align with adjacent approved mayor turns."
     },
     {
       "turn_id": "turn_000028",
@@ -344,8 +331,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of mayor remarks during proclamation setup.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of mayor remarks during proclamation setup."
     },
     {
       "turn_id": "turn_000030",
@@ -370,8 +356,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of mayor proclamation text.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of mayor proclamation text."
     },
     {
       "turn_id": "turn_000032",
@@ -396,8 +381,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of mayor proclamation text.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of mayor proclamation text."
     },
     {
       "turn_id": "turn_000034",
@@ -446,8 +430,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of adjacent Janet Jaworski educational remarks.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of adjacent Janet Jaworski educational remarks."
     },
     {
       "turn_id": "turn_000038",
@@ -472,8 +455,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of adjacent Janet Jaworski educational remarks.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of adjacent Janet Jaworski educational remarks."
     },
     {
       "turn_id": "turn_000040",
@@ -498,8 +480,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of adjacent Janet Jaworski educational remarks.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of adjacent Janet Jaworski educational remarks."
     },
     {
       "turn_id": "turn_000042",
@@ -512,8 +493,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Clear continuation of adjacent approved Janet Jaworski remarks.",
-      "reviewed": true
+      "reviewer_notes": "Clear continuation of adjacent approved Janet Jaworski remarks."
     },
     {
       "turn_id": "turn_000043",
@@ -562,8 +542,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Photo coordination by mayor during proclamation flow.",
-      "reviewed": true
+      "reviewer_notes": "Photo coordination by mayor during proclamation flow."
     },
     {
       "turn_id": "turn_000049",
@@ -588,8 +567,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of mayor proclamation text.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of mayor proclamation text."
     },
     {
       "turn_id": "turn_000051",
@@ -614,8 +592,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of mayor proclamation text.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of mayor proclamation text."
     },
     {
       "turn_id": "turn_000053",
@@ -652,8 +629,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Photo coordination chatter, keep unnamed.",
-      "reviewed": true
+      "reviewer_notes": "Photo coordination chatter, keep unnamed."
     },
     {
       "turn_id": "turn_000060",
@@ -678,8 +654,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Questionable photo coordination text, keep conservative.",
-      "reviewed": true
+      "reviewer_notes": "Questionable photo coordination text, keep conservative."
     },
     {
       "turn_id": "turn_000064",
@@ -692,8 +667,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Photo coordination chatter, keep unnamed.",
-      "reviewed": true
+      "reviewer_notes": "Photo coordination chatter, keep unnamed."
     },
     {
       "turn_id": "turn_000068",
@@ -718,8 +692,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Short off-mic comment, keep unnamed.",
-      "reviewed": true
+      "reviewer_notes": "Short off-mic comment, keep unnamed."
     },
     {
       "turn_id": "turn_000073",
@@ -732,8 +705,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Short off-mic chatter, keep unnamed.",
-      "reviewed": true
+      "reviewer_notes": "Short off-mic chatter, keep unnamed."
     },
     {
       "turn_id": "turn_000074",
@@ -746,8 +718,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of mayor proclamation text.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of mayor proclamation text."
     },
     {
       "turn_id": "turn_000075",
@@ -796,8 +767,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Mayor handoff into telecommunicators presentation.",
-      "reviewed": true
+      "reviewer_notes": "Mayor handoff into telecommunicators presentation."
     },
     {
       "turn_id": "turn_000080",
@@ -810,8 +780,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of adjacent Elijah Tibbs introduction.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of adjacent Elijah Tibbs introduction."
     },
     {
       "turn_id": "turn_000081",
@@ -836,8 +805,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of adjacent Elijah Tibbs remarks.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of adjacent Elijah Tibbs remarks."
     },
     {
       "turn_id": "turn_000083",
@@ -862,8 +830,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of adjacent Elijah Tibbs remarks.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of adjacent Elijah Tibbs remarks."
     },
     {
       "turn_id": "turn_000087",
@@ -876,8 +843,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Speaker not safely identified.",
-      "reviewed": true
+      "reviewer_notes": "Speaker not safely identified."
     },
     {
       "turn_id": "turn_000088",
@@ -902,8 +868,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Speaker not safely identified.",
-      "reviewed": true
+      "reviewer_notes": "Speaker not safely identified."
     },
     {
       "turn_id": "turn_000090",
@@ -916,8 +881,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Speaker not safely identified, leave unnamed.",
-      "reviewed": true
+      "reviewer_notes": "Speaker not safely identified, leave unnamed."
     },
     {
       "turn_id": "turn_000091",
@@ -930,8 +894,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Speaker not safely identified, leave unnamed.",
-      "reviewed": true
+      "reviewer_notes": "Speaker not safely identified, leave unnamed."
     },
     {
       "turn_id": "turn_000092",
@@ -944,8 +907,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Procedural transition by mayor before approved council motion.",
-      "reviewed": true
+      "reviewer_notes": "Procedural transition by mayor before approved council motion."
     },
     {
       "turn_id": "turn_000093",
@@ -970,8 +932,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Procedural prompt by mayor.",
-      "reviewed": true
+      "reviewer_notes": "Procedural prompt by mayor."
     },
     {
       "turn_id": "turn_000095",
@@ -996,8 +957,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Procedural call for roll vote by mayor.",
-      "reviewed": true
+      "reviewer_notes": "Procedural call for roll vote by mayor."
     },
     {
       "turn_id": "turn_000097",
@@ -1010,8 +970,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Procedural roll-call/public comment intro by mayor; safe to attribute.",
-      "reviewed": true
+      "reviewer_notes": "Procedural roll-call/public comment intro by mayor; safe to attribute."
     },
     {
       "turn_id": "turn_000098",
@@ -1024,8 +983,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Procedural roll-call continuation grouped with adjacent approved mayor turns. Slightly messy merge, but acceptable if kept consistent.",
-      "reviewed": true
+      "reviewer_notes": "Procedural roll-call continuation grouped with adjacent approved mayor turns. Slightly messy merge, but acceptable if kept consistent."
     },
     {
       "turn_id": "turn_000099",
@@ -1038,8 +996,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Procedural transition into public comment; adjacent approved mayor context.",
-      "reviewed": true
+      "reviewer_notes": "Procedural transition into public comment; adjacent approved mayor context."
     },
     {
       "turn_id": "turn_000100",
@@ -1052,8 +1009,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Procedural roll-call/public comment intro by mayor; safe to attribute.",
-      "reviewed": true
+      "reviewer_notes": "Procedural roll-call/public comment intro by mayor; safe to attribute."
     },
     {
       "turn_id": "turn_000101",
@@ -1066,8 +1022,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Speaker self-identifies in this turn as Anita Light; safe approval.",
-      "reviewed": true
+      "reviewer_notes": "Speaker self-identifies in this turn as Anita Light; safe approval."
     },
     {
       "turn_id": "turn_000102",
@@ -1080,8 +1035,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Public comment content in mixed/rejected diarization block; keep unnamed.",
-      "reviewed": true
+      "reviewer_notes": "Public comment content in mixed/rejected diarization block; keep unnamed."
     },
     {
       "turn_id": "turn_000103",
@@ -1094,8 +1048,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Tiny split fragment clearly continuing Anita Light’s already identified remarks.",
-      "reviewed": true
+      "reviewer_notes": "Tiny split fragment clearly continuing Anita Light’s already identified remarks."
     },
     {
       "turn_id": "turn_000104",
@@ -1108,8 +1061,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Public comment content in mixed/rejected diarization block; keep unnamed.",
-      "reviewed": true
+      "reviewer_notes": "Public comment content in mixed/rejected diarization block; keep unnamed."
     },
     {
       "turn_id": "turn_000105",
@@ -1122,8 +1074,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of Anita Light remarks; same speech block.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of Anita Light remarks; same speech block."
     },
     {
       "turn_id": "turn_000106",
@@ -1136,8 +1087,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Public comment continuation with no diarization; keep unnamed.",
-      "reviewed": true
+      "reviewer_notes": "Public comment continuation with no diarization; keep unnamed."
     },
     {
       "turn_id": "turn_000107",
@@ -1150,8 +1100,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Public comment content in mixed/rejected diarization block; keep unnamed.",
-      "reviewed": true
+      "reviewer_notes": "Public comment content in mixed/rejected diarization block; keep unnamed."
     },
     {
       "turn_id": "turn_000108",
@@ -1164,8 +1113,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Public comment continuation with no diarization; keep unnamed.",
-      "reviewed": true
+      "reviewer_notes": "Public comment continuation with no diarization; keep unnamed."
     },
     {
       "turn_id": "turn_000109",
@@ -1178,8 +1126,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Public comment content in mixed/rejected diarization block; keep unnamed.",
-      "reviewed": true
+      "reviewer_notes": "Public comment content in mixed/rejected diarization block; keep unnamed."
     },
     {
       "turn_id": "turn_000110",
@@ -1192,8 +1139,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Public comment continuation with no diarization; keep unnamed.",
-      "reviewed": true
+      "reviewer_notes": "Public comment continuation with no diarization; keep unnamed."
     },
     {
       "turn_id": "turn_000111",
@@ -1206,8 +1152,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Public comment content in mixed/rejected diarization block; keep unnamed.",
-      "reviewed": true
+      "reviewer_notes": "Public comment content in mixed/rejected diarization block; keep unnamed."
     },
     {
       "turn_id": "turn_000112",
@@ -1220,8 +1165,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Calling next public commenter is procedural by mayor.",
-      "reviewed": true
+      "reviewer_notes": "Calling next public commenter is procedural by mayor."
     },
     {
       "turn_id": "turn_000113",
@@ -1246,8 +1190,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Public comment continuation with no diarization; keep unnamed.",
-      "reviewed": true
+      "reviewer_notes": "Public comment continuation with no diarization; keep unnamed."
     },
     {
       "turn_id": "turn_000115",
@@ -1272,8 +1215,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Public comment continuation with no diarization; keep unnamed.",
-      "reviewed": true
+      "reviewer_notes": "Public comment continuation with no diarization; keep unnamed."
     },
     {
       "turn_id": "turn_000117",
@@ -1310,8 +1252,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Public comment continuation with no diarization; keep unnamed.",
-      "reviewed": true
+      "reviewer_notes": "Public comment continuation with no diarization; keep unnamed."
     },
     {
       "turn_id": "turn_000120",
@@ -1336,8 +1277,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "No-diarization fragment embedded inside adjacent approved Kevin Anderson remarks.",
-      "reviewed": true
+      "reviewer_notes": "No-diarization fragment embedded inside adjacent approved Kevin Anderson remarks."
     },
     {
       "turn_id": "turn_000122",
@@ -1362,8 +1302,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation fragment inside approved Kevin Anderson speech.",
-      "reviewed": true
+      "reviewer_notes": "Continuation fragment inside approved Kevin Anderson speech."
     },
     {
       "turn_id": "turn_000124",
@@ -1388,8 +1327,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "No-diarization continuation of Kevin Anderson block.",
-      "reviewed": true
+      "reviewer_notes": "No-diarization continuation of Kevin Anderson block."
     },
     {
       "turn_id": "turn_000126",
@@ -1414,8 +1352,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of Kevin Anderson speech; same context and topic.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of Kevin Anderson speech; same context and topic."
     },
     {
       "turn_id": "turn_000128",
@@ -1440,8 +1377,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Procedural introduction of next speaker; likely mayor in the same calling-speakers sequence.",
-      "reviewed": true
+      "reviewer_notes": "Procedural introduction of next speaker; likely mayor in the same calling-speakers sequence."
     },
     {
       "turn_id": "turn_000130",
@@ -1454,8 +1390,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Speaker self-identifies as Douglas Stewart in this turn; safe approval.",
-      "reviewed": true
+      "reviewer_notes": "Speaker self-identifies as Douglas Stewart in this turn; safe approval."
     },
     {
       "turn_id": "turn_000131",
@@ -1468,8 +1403,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of Douglas Stewart’s already identified remarks.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of Douglas Stewart’s already identified remarks."
     },
     {
       "turn_id": "turn_000132",
@@ -1482,8 +1416,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of Douglas Stewart speech; same speaker block.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of Douglas Stewart speech; same speaker block."
     },
     {
       "turn_id": "turn_000133",
@@ -1508,8 +1441,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Closing fragment of Douglas Stewart remarks; obvious continuation.",
-      "reviewed": true
+      "reviewer_notes": "Closing fragment of Douglas Stewart remarks; obvious continuation."
     },
     {
       "turn_id": "turn_000135",
@@ -1522,8 +1454,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Procedural announcement of Janet Jaworski; likely mayor continuation in speaker-calling flow.",
-      "reviewed": true
+      "reviewer_notes": "Procedural announcement of Janet Jaworski; likely mayor continuation in speaker-calling flow."
     },
     {
       "turn_id": "turn_000136",
@@ -1536,8 +1467,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Speaker self-identifies as Janet Jaworski in this turn; safe approval.",
-      "reviewed": true
+      "reviewer_notes": "Speaker self-identifies as Janet Jaworski in this turn; safe approval."
     },
     {
       "turn_id": "turn_000137",
@@ -1550,8 +1480,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "No-diarization fragment embedded between adjacent approved Janet Jaworski remarks.",
-      "reviewed": true
+      "reviewer_notes": "No-diarization fragment embedded between adjacent approved Janet Jaworski remarks."
     },
     {
       "turn_id": "turn_000138",
@@ -1559,11 +1488,12 @@
       "end": 2357.92,
       "text": "This was a huge topic of conversation and this is going back you know more than 10 years from now. The need for a full service community center. So I do support it for all the reasons that you've been hearing from from all of the other residents coming up to support it. I'm going to focus on something a little bit different, although am a member of the Senior Center, but I'm going to try to highlight some benefits for adults of all ages. As a former competitive athlete, think the walking track, the gym, the fitness center are going to be so key to both the physical and mental health of our residents. As we all know, mental health and physical health are intertwined and a happy healthy both mentally and",
       "speaker_raw": "SPEAKER_23",
-      "speaker_public": "Janet Jaworski",
-      "speaker_status": "approved",
+      "speaker_public": "Unknown Speaker",
+      "speaker_status": "unknown",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Non-council speaker; maintaining conservative label."
     },
     {
       "turn_id": "turn_000139",
@@ -1571,11 +1501,12 @@
       "end": 2382.48,
       "text": "Physically population here is really something that you cannot put a price tag on. I realize as Mr. Stewart said we all know there's a price tag involved. We're mindful of that, but to me the advantages far outweigh the disadvantages. I love the fact that it will be multi-generational. You know our city motto is Live Life Connected. think this is a great way",
       "speaker_raw": "SPEAKER_23",
-      "speaker_public": "Janet Jaworski",
-      "speaker_status": "approved",
+      "speaker_public": "Unknown Speaker",
+      "speaker_status": "unknown",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Non-council speaker; maintaining conservative label."
     },
     {
       "turn_id": "turn_000140",
@@ -1588,8 +1519,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Short continuation fragment inside Janet Jaworski speech block.",
-      "reviewed": true
+      "reviewer_notes": "Short continuation fragment inside Janet Jaworski speech block."
     },
     {
       "turn_id": "turn_000141",
@@ -1597,11 +1527,12 @@
       "end": 2430.04,
       "text": "Be a number of meeting rooms there as you know, so it will be a place to gather exercise and really build community. Secondly, it's going to be walkable for a lot of us. I know that's not true for all neighbors. but for my neighborhood in Daniels run woods it will be walkable and we can get a jumpstart on our workout routine by walking to and from which think will be great it also is accessible for public transportation which is wonderful lastly our relationship with the county I was so pleased to hear that you had a successful meeting with the county last week that's fantastic I appreciate the fact that there were no objections to the timeline and that's",
       "speaker_raw": "SPEAKER_23",
-      "speaker_public": "Janet Jaworski",
-      "speaker_status": "approved",
+      "speaker_public": "Unknown Speaker",
+      "speaker_status": "unknown",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Non-council speaker; maintaining conservative label."
     },
     {
       "turn_id": "turn_000142",
@@ -1626,8 +1557,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Procedural transition from Janet Jaworski close into calling Janice Miller, consistent with mayor speaker-calling flow.",
-      "reviewed": true
+      "reviewer_notes": "Procedural transition from Janet Jaworski close into calling Janice Miller, consistent with mayor speaker-calling flow."
     },
     {
       "turn_id": "turn_000144",
@@ -1640,8 +1570,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Speaker self-identifies as Janice Miller in this turn; safe approval.",
-      "reviewed": true
+      "reviewer_notes": "Speaker self-identifies as Janice Miller in this turn; safe approval."
     },
     {
       "turn_id": "turn_000145",
@@ -1654,8 +1583,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "No-diarization continuation of Janice Miller speech.",
-      "reviewed": true
+      "reviewer_notes": "No-diarization continuation of Janice Miller speech."
     },
     {
       "turn_id": "turn_000146",
@@ -1668,8 +1596,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of Janice Miller remarks; same speech block and topic.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of Janice Miller remarks; same speech block and topic."
     },
     {
       "turn_id": "turn_000147",
@@ -1682,8 +1609,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Short embedded continuation fragment inside Janice Miller speech.",
-      "reviewed": true
+      "reviewer_notes": "Short embedded continuation fragment inside Janice Miller speech."
     },
     {
       "turn_id": "turn_000148",
@@ -1696,8 +1622,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of Janice Miller remarks with same unresolved block context now anchored by self-identification.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of Janice Miller remarks with same unresolved block context now anchored by self-identification."
     },
     {
       "turn_id": "turn_000149",
@@ -1710,8 +1635,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "No-diarization continuation fragment inside Janice Miller speech.",
-      "reviewed": true
+      "reviewer_notes": "No-diarization continuation fragment inside Janice Miller speech."
     },
     {
       "turn_id": "turn_000150",
@@ -1724,8 +1648,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of Janice Miller remarks; same speech block.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of Janice Miller remarks; same speech block."
     },
     {
       "turn_id": "turn_000151",
@@ -1738,8 +1661,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of Janice Miller remarks through closing argument.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of Janice Miller remarks through closing argument."
     },
     {
       "turn_id": "turn_000152",
@@ -1748,12 +1670,11 @@
       "text": "Their tax dollars paying both capital cost and operating costs please stand up our next speaker is Dale Lucena thank you",
       "speaker_raw": "SPEAKER_02",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "hold_back_text",
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Caption cross-check shows this line blends the end of Janice Miller remarks with the mayor call-up for Dale Lucena. Kept conservative as mixed transition.",
-      "reviewed": true
+      "reviewer_notes": "Caption cross-check shows this line blends the end of Janice Miller remarks with the mayor call-up for Dale Lucena. Kept conservative as mixed transition."
     },
     {
       "turn_id": "turn_000154",
@@ -1766,8 +1687,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "City captions cross-check supports mayor call-up as Dale Lucena, and this opening begins the same contiguous speech block.",
-      "reviewed": true
+      "reviewer_notes": "City captions cross-check supports mayor call-up as Dale Lucena, and this opening begins the same contiguous speech block."
     },
     {
       "turn_id": "turn_000155",
@@ -1780,8 +1700,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Caption cross-check confirms this no-diarization fragment is part of Dale Lucena's opening remarks.",
-      "reviewed": true
+      "reviewer_notes": "Caption cross-check confirms this no-diarization fragment is part of Dale Lucena's opening remarks."
     },
     {
       "turn_id": "turn_000156",
@@ -1794,8 +1713,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of Dale Lucena remarks, supported by contiguous caption flow.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of Dale Lucena remarks, supported by contiguous caption flow."
     },
     {
       "turn_id": "turn_000157",
@@ -1808,8 +1726,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Short no-diarization continuation fragment inside Dale Lucena speech, confirmed by caption flow.",
-      "reviewed": true
+      "reviewer_notes": "Short no-diarization continuation fragment inside Dale Lucena speech, confirmed by caption flow."
     },
     {
       "turn_id": "turn_000158",
@@ -1822,8 +1739,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of Dale Lucena remarks on Fairfax Renaissance Housing Corporation, supported by contiguous caption flow.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of Dale Lucena remarks on Fairfax Renaissance Housing Corporation, supported by contiguous caption flow."
     },
     {
       "turn_id": "turn_000159",
@@ -1836,8 +1752,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "No-diarization continuation fragment inside Dale Lucena speech, confirmed by caption flow.",
-      "reviewed": true
+      "reviewer_notes": "No-diarization continuation fragment inside Dale Lucena speech, confirmed by caption flow."
     },
     {
       "turn_id": "turn_000160",
@@ -1850,8 +1765,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of Dale Lucena remarks; same contiguous speech block.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of Dale Lucena remarks; same contiguous speech block."
     },
     {
       "turn_id": "turn_000161",
@@ -1864,8 +1778,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Short no-diarization continuation fragment inside Dale Lucena speech, confirmed by caption flow.",
-      "reviewed": true
+      "reviewer_notes": "Short no-diarization continuation fragment inside Dale Lucena speech, confirmed by caption flow."
     },
     {
       "turn_id": "turn_000162",
@@ -1878,8 +1791,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of Dale Lucena remarks; same contiguous speech block.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of Dale Lucena remarks; same contiguous speech block."
     },
     {
       "turn_id": "turn_000163",
@@ -1892,8 +1804,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "No-diarization continuation fragment inside Dale Lucena speech, confirmed by caption flow.",
-      "reviewed": true
+      "reviewer_notes": "No-diarization continuation fragment inside Dale Lucena speech, confirmed by caption flow."
     },
     {
       "turn_id": "turn_000164",
@@ -1906,8 +1817,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Closing portion of Dale Lucena remarks, supported by contiguous caption flow and adjacent call-up context.",
-      "reviewed": true
+      "reviewer_notes": "Closing portion of Dale Lucena remarks, supported by contiguous caption flow and adjacent call-up context."
     },
     {
       "turn_id": "turn_000165",
@@ -1920,8 +1830,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "City captions confirm this is the mayor calling up Rebecca Rader before the next speaker self-identifies.",
-      "reviewed": true
+      "reviewer_notes": "City captions confirm this is the mayor calling up Rebecca Rader before the next speaker self-identifies."
     },
     {
       "turn_id": "turn_000166",
@@ -1934,8 +1843,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Speaker self-identifies as Becky Rager in this turn; safe approval.",
-      "reviewed": true
+      "reviewer_notes": "Speaker self-identifies as Becky Rager in this turn; safe approval."
     },
     {
       "turn_id": "turn_000167",
@@ -1948,8 +1856,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "No-diarization continuation inside Becky Rager speech block.",
-      "reviewed": true
+      "reviewer_notes": "No-diarization continuation inside Becky Rager speech block."
     },
     {
       "turn_id": "turn_000168",
@@ -1962,8 +1869,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of Becky Rager remarks; same speech block and topic.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of Becky Rager remarks; same speech block and topic."
     },
     {
       "turn_id": "turn_000169",
@@ -1976,8 +1882,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Embedded continuation fragment inside Becky Rager remarks.",
-      "reviewed": true
+      "reviewer_notes": "Embedded continuation fragment inside Becky Rager remarks."
     },
     {
       "turn_id": "turn_000170",
@@ -1990,8 +1895,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of Becky Rager remarks; same identified speaker block.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of Becky Rager remarks; same identified speaker block."
     },
     {
       "turn_id": "turn_000171",
@@ -2004,8 +1908,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Short no-diarization fragment continuing Becky Rager speech.",
-      "reviewed": true
+      "reviewer_notes": "Short no-diarization fragment continuing Becky Rager speech."
     },
     {
       "turn_id": "turn_000172",
@@ -2018,8 +1921,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of Becky Rager remarks with same advisory-board context.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of Becky Rager remarks with same advisory-board context."
     },
     {
       "turn_id": "turn_000173",
@@ -2032,8 +1934,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Short continuation fragment inside Becky Rager speech.",
-      "reviewed": true
+      "reviewer_notes": "Short continuation fragment inside Becky Rager speech."
     },
     {
       "turn_id": "turn_000174",
@@ -2046,8 +1947,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Closing fragment of Becky Rager remarks; same identified speaker block.",
-      "reviewed": true
+      "reviewer_notes": "Closing fragment of Becky Rager remarks; same identified speaker block."
     },
     {
       "turn_id": "turn_000175",
@@ -2060,8 +1960,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Procedural call-up for Alan Glenn, consistent with adjacent mayor speaker-calling turns.",
-      "reviewed": true
+      "reviewer_notes": "Procedural call-up for Alan Glenn, consistent with adjacent mayor speaker-calling turns."
     },
     {
       "turn_id": "turn_000176",
@@ -2074,8 +1973,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Speaker self-identifies as Alan Glenn in this turn; safe approval.",
-      "reviewed": true
+      "reviewer_notes": "Speaker self-identifies as Alan Glenn in this turn; safe approval."
     },
     {
       "turn_id": "turn_000177",
@@ -2088,8 +1986,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of Alan Glenn remarks; same identified speech block.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of Alan Glenn remarks; same identified speech block."
     },
     {
       "turn_id": "turn_000178",
@@ -2102,8 +1999,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of Alan Glenn remarks with same speaker and topic.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of Alan Glenn remarks with same speaker and topic."
     },
     {
       "turn_id": "turn_000179",
@@ -2116,8 +2012,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Closing portion of Alan Glenn remarks; same self-identified speaker block.",
-      "reviewed": true
+      "reviewer_notes": "Closing portion of Alan Glenn remarks; same self-identified speaker block."
     },
     {
       "turn_id": "turn_000180",
@@ -2130,8 +2025,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Procedural next-speaker call-up for William Pitchford, consistent with mayor public-comment flow.",
-      "reviewed": true
+      "reviewer_notes": "Procedural next-speaker call-up for William Pitchford, consistent with mayor public-comment flow."
     },
     {
       "turn_id": "turn_000181",
@@ -2144,8 +2038,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Speaker self-identifies as William Pitchford in this turn; safe approval.",
-      "reviewed": true
+      "reviewer_notes": "Speaker self-identifies as William Pitchford in this turn; safe approval."
     },
     {
       "turn_id": "turn_000182",
@@ -2158,8 +2051,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Short no-diarization continuation inside William Pitchford speech block.",
-      "reviewed": true
+      "reviewer_notes": "Short no-diarization continuation inside William Pitchford speech block."
     },
     {
       "turn_id": "turn_000183",
@@ -2172,8 +2064,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of William Pitchford remarks; same identified speaker block.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of William Pitchford remarks; same identified speaker block."
     },
     {
       "turn_id": "turn_000184",
@@ -2186,8 +2077,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of William Pitchford remarks on Green Acres conditions.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of William Pitchford remarks on Green Acres conditions."
     },
     {
       "turn_id": "turn_000185",
@@ -2200,8 +2090,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Embedded no-diarization fragment inside William Pitchford speech.",
-      "reviewed": true
+      "reviewer_notes": "Embedded no-diarization fragment inside William Pitchford speech."
     },
     {
       "turn_id": "turn_000186",
@@ -2214,8 +2103,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of William Pitchford remarks; same speaker and topic.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of William Pitchford remarks; same speaker and topic."
     },
     {
       "turn_id": "turn_000187",
@@ -2228,8 +2116,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Short continuation fragment inside William Pitchford speech block.",
-      "reviewed": true
+      "reviewer_notes": "Short continuation fragment inside William Pitchford speech block."
     },
     {
       "turn_id": "turn_000188",
@@ -2242,8 +2129,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of William Pitchford remarks; same identified speaker block.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of William Pitchford remarks; same identified speaker block."
     },
     {
       "turn_id": "turn_000189",
@@ -2256,8 +2142,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "No-diarization continuation fragment inside William Pitchford speech.",
-      "reviewed": true
+      "reviewer_notes": "No-diarization continuation fragment inside William Pitchford speech."
     },
     {
       "turn_id": "turn_000190",
@@ -2270,8 +2155,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of William Pitchford remarks on meeting timing and safety.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of William Pitchford remarks on meeting timing and safety."
     },
     {
       "turn_id": "turn_000191",
@@ -2284,8 +2168,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Short continuation fragment inside William Pitchford speech.",
-      "reviewed": true
+      "reviewer_notes": "Short continuation fragment inside William Pitchford speech."
     },
     {
       "turn_id": "turn_000192",
@@ -2298,8 +2181,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of William Pitchford remarks; same speaker block.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of William Pitchford remarks; same speaker block."
     },
     {
       "turn_id": "turn_000193",
@@ -2312,8 +2194,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Short no-diarization continuation inside William Pitchford speech.",
-      "reviewed": true
+      "reviewer_notes": "Short no-diarization continuation inside William Pitchford speech."
     },
     {
       "turn_id": "turn_000194",
@@ -2326,8 +2207,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Closing portion of William Pitchford remarks; same self-identified speaker block.",
-      "reviewed": true
+      "reviewer_notes": "Closing portion of William Pitchford remarks; same self-identified speaker block."
     },
     {
       "turn_id": "turn_000195",
@@ -2340,8 +2220,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Procedural final-speaker call-up for Toby Sorenson, consistent with adjacent mayor turns.",
-      "reviewed": true
+      "reviewer_notes": "Procedural final-speaker call-up for Toby Sorenson, consistent with adjacent mayor turns."
     },
     {
       "turn_id": "turn_000196",
@@ -2354,8 +2233,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Speaker self-identifies as Toby Sorenson in this turn; safe approval.",
-      "reviewed": true
+      "reviewer_notes": "Speaker self-identifies as Toby Sorenson in this turn; safe approval."
     },
     {
       "turn_id": "turn_000197",
@@ -2368,8 +2246,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Tiny no-diarization continuation fragment inside Toby Sorenson speech block.",
-      "reviewed": true
+      "reviewer_notes": "Tiny no-diarization continuation fragment inside Toby Sorenson speech block."
     },
     {
       "turn_id": "turn_000198",
@@ -2382,8 +2259,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of Toby Sorenson remarks; same identified speaker block.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of Toby Sorenson remarks; same identified speaker block."
     },
     {
       "turn_id": "turn_000199",
@@ -2396,8 +2272,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of Toby Sorenson remarks; same speaker and topic.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of Toby Sorenson remarks; same speaker and topic."
     },
     {
       "turn_id": "turn_000200",
@@ -2410,8 +2285,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of Toby Sorenson remarks into project-risk questions.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of Toby Sorenson remarks into project-risk questions."
     },
     {
       "turn_id": "turn_000201",
@@ -2424,8 +2298,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Short no-diarization continuation fragment inside Toby Sorenson speech.",
-      "reviewed": true
+      "reviewer_notes": "Short no-diarization continuation fragment inside Toby Sorenson speech."
     },
     {
       "turn_id": "turn_000202",
@@ -2438,8 +2311,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of Toby Sorenson remarks; same identified speaker block.",
-      "reviewed": true
+      "reviewer_notes": "Continuation of Toby Sorenson remarks; same identified speaker block."
     },
     {
       "turn_id": "turn_000203",
@@ -2452,8 +2324,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Short continuation fragment inside Toby Sorenson speech block.",
-      "reviewed": true
+      "reviewer_notes": "Short continuation fragment inside Toby Sorenson speech block."
     },
     {
       "turn_id": "turn_000204",
@@ -2466,8 +2337,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Closing portion of Toby Sorenson remarks; same self-identified speaker block.",
-      "reviewed": true
+      "reviewer_notes": "Closing portion of Toby Sorenson remarks; same self-identified speaker block."
     },
     {
       "turn_id": "turn_000205",
@@ -2480,8 +2350,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Procedural transition back to agenda business, consistent with adjacent mayor remarks.",
-      "reviewed": true
+      "reviewer_notes": "Procedural transition back to agenda business, consistent with adjacent mayor remarks."
     },
     {
       "turn_id": "turn_000206",
@@ -2518,8 +2387,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Short no-diarization continuation of mayor consent-agenda remarks.",
-      "reviewed": true
+      "reviewer_notes": "Short no-diarization continuation of mayor consent-agenda remarks."
     },
     {
       "turn_id": "turn_000209",
@@ -2568,8 +2436,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Short roll-call continuation consistent with adjacent approved mayor procedural remarks.",
-      "reviewed": true
+      "reviewer_notes": "Short roll-call continuation consistent with adjacent approved mayor procedural remarks."
     },
     {
       "turn_id": "turn_000213",
@@ -2582,8 +2449,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Roll-call continuation and prompt, consistent with adjacent approved mayor procedural flow.",
-      "reviewed": true
+      "reviewer_notes": "Roll-call continuation and prompt, consistent with adjacent approved mayor procedural flow."
     },
     {
       "turn_id": "turn_000214",
@@ -2596,8 +2462,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Procedural transition to appointments, consistent with adjacent approved mayor remarks.",
-      "reviewed": true
+      "reviewer_notes": "Procedural transition to appointments, consistent with adjacent approved mayor remarks."
     },
     {
       "turn_id": "turn_000215",
@@ -2641,11 +2506,12 @@
       "end": 3808.44,
       "text": "Is there a second? Second",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Caption/video cross-check confirms this is Mayor Catherine Read making a procedural handoff to Councilmember McQuillan. No text change or segmentation change needed."
     },
     {
       "turn_id": "turn_000219",
@@ -2656,8 +2522,9 @@
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000220",
@@ -2703,9 +2570,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000224",
@@ -2811,9 +2679,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000233",
@@ -2835,9 +2704,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000235",
@@ -2859,9 +2729,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000237",
@@ -2895,9 +2766,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000240",
@@ -2919,9 +2791,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000242",
@@ -2955,9 +2828,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000245",
@@ -2979,9 +2853,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000247",
@@ -3016,8 +2891,9 @@
       "speaker_public": "Councilmember Anthony Amos",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000250",
@@ -3027,9 +2903,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000251",
@@ -3038,10 +2915,11 @@
       "text": "So one of the nice things about the State and Local Government Conflict of Interest Act is that decision is left to the individual member",
       "speaker_raw": "SPEAKER_25",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000252",
@@ -3050,10 +2928,11 @@
       "text": "Have my opinions as to whether it's appropriate for a member to vote for a position in which his or her husband, family member is a candidate. will say, think the answer to that question is not really a legal one. So Council Member Hardy-Chandler is taking her own counsel on this, and that is all will say on that",
       "speaker_raw": "SPEAKER_25",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000253",
@@ -3075,9 +2954,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000255",
@@ -3099,9 +2979,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000257",
@@ -3112,8 +2993,9 @@
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000258",
@@ -3134,10 +3016,11 @@
       "text": "Yes, that is clear in the city charter",
       "speaker_raw": "SPEAKER_25",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000260",
@@ -3147,9 +3030,10 @@
       "speaker_raw": "SPEAKER_26",
       "speaker_public": "Councilmember Rachel McQuillen",
       "speaker_status": "approved",
-      "needs_review": true,
-      "review_reason": "merged_micro_turn",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000261",
@@ -3170,10 +3054,11 @@
       "text": "Could you restate that question, please?",
       "speaker_raw": "SPEAKER_25",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000263",
@@ -3194,10 +3079,11 @@
       "text": "An individual's recusal simply changes the number of votes required. And it also, even if a majority of council members recuse on an item, it doesn't affect the quorum for purposes of voting on an item. So it just simply becomes the remaining members vote on the particular appointment",
       "speaker_raw": "SPEAKER_25",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000265",
@@ -3208,8 +3094,9 @@
       "speaker_public": "Councilmember Rachel McQuillen",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000266",
@@ -3219,9 +3106,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000267",
@@ -3255,9 +3143,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000270",
@@ -3291,9 +3180,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000273",
@@ -3315,9 +3205,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000275",
@@ -3328,8 +3219,9 @@
       "speaker_public": "Councilmember Stacy Hardy-Chandler",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000276",
@@ -3352,8 +3244,9 @@
       "speaker_public": "Councilmember Stacy Hall",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000278",
@@ -3362,10 +3255,11 @@
       "text": "In the 20 years I've been city attorney, well, I'll turn it around by saying my experience has been that most appointments to boards and commissions tend to be close to unanimous by the body. That's the fair statement",
       "speaker_raw": "SPEAKER_25",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000279",
@@ -3386,10 +3280,11 @@
       "text": "The mayor can vote on procedural aspects related to the appointment. So for example, deferring action on an appointment, those type of things are perfectly legitimate. I have always taken the position that the appointments to boards and commissions legally is the province of the city council. It is also true, and people throw the word tradition around, it is also not an incorrect statement how it was characterized previously as to previous actions by previous councils and mayors. But that is not a legal requirement. That is just simply an agreement among the parties",
       "speaker_raw": "SPEAKER_25",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000281",
@@ -3411,9 +3306,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000283",
@@ -3434,10 +3330,11 @@
       "text": "I'm not making a legal statement on the mayor voting. I didn't write the city's charter",
       "speaker_raw": "SPEAKER_25",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000285",
@@ -3458,10 +3355,11 @@
       "text": "Absolutely, and it's also true that on matters such as recusal, et cetera, those are the province of individual members of this body and the mayor",
       "speaker_raw": "SPEAKER_25",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000287",
@@ -3495,9 +3393,10 @@
       "speaker_raw": "SPEAKER_26",
       "speaker_public": "Councilmember Rachel McQuillen",
       "speaker_status": "approved",
-      "needs_review": true,
-      "review_reason": "merged_micro_turn",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000290",
@@ -3507,9 +3406,10 @@
       "speaker_raw": "SPEAKER_26",
       "speaker_public": "Councilmember Rachel McQuillen",
       "speaker_status": "approved",
-      "needs_review": true,
-      "review_reason": "merged_micro_turn",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000291",
@@ -3520,8 +3420,9 @@
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000292",
@@ -3543,9 +3444,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000294",
@@ -3556,8 +3458,9 @@
       "speaker_public": "Councilmember Tom Peterson",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000295",
@@ -3579,9 +3482,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000297",
@@ -3603,9 +3507,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000299",
@@ -3627,9 +3532,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000301",
@@ -3640,8 +3546,9 @@
       "speaker_public": "Councilmember Tom Peterson",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000302",
@@ -3652,8 +3559,9 @@
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000303",
@@ -3661,13 +3569,12 @@
       "end": 4725.86,
       "text": "Ms. Shinaberry?",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Public Comment Speaker",
-      "speaker_status": "public_comment_unverified",
+      "speaker_public": "Unknown Speaker",
+      "speaker_status": "unknown",
       "needs_review": false,
-      "review_reason": "reviewed:mark_public_comment",
+      "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Roll-call style prompt to an unverified commenter should remain generic, not a named official.",
-      "reviewed": true
+      "reviewer_notes": "Non-council speaker; maintaining conservative label."
     },
     {
       "turn_id": "turn_000304",
@@ -3676,10 +3583,11 @@
       "text": "Council Member Amos? Aye. Council Member Hall?",
       "speaker_raw": "SPEAKER_15",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000305",
@@ -3700,10 +3608,11 @@
       "text": "So the hardy chandler Yeah",
       "speaker_raw": "SPEAKER_15",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000307",
@@ -3712,10 +3621,11 @@
       "text": "To me, 12. Hardy Chandler?",
       "speaker_raw": "SPEAKER_15",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000308",
@@ -3724,10 +3634,11 @@
       "text": "Council Member Peterson?",
       "speaker_raw": "SPEAKER_15",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000309",
@@ -3748,10 +3659,11 @@
       "text": "Council Member Bates? Aye. Council Member McQuillan?",
       "speaker_raw": "SPEAKER_15",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000311",
@@ -3760,10 +3672,11 @@
       "text": "OK, motion failed 3 to 3",
       "speaker_raw": "SPEAKER_15",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000312",
@@ -3784,10 +3697,11 @@
       "text": "The only public hearing tonight is for the FY 27 budget. This is the third and final public hearing of the proposed FY 27 budget the city manager presented on February 24, 2026. I had two speakers sign up prior to the meeting. After I call those two speakers up, if there's anybody else in the room that wants to speak on the budget, may come forward. So the first speaker is Douglas Stewart",
       "speaker_raw": "SPEAKER_15",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000314",
@@ -3831,11 +3745,12 @@
       "end": 4937.76,
       "text": "And those higher performance buildings will save our residents money in the form of reduced utility bills. So, to conclude, would urge inclusion of a full-time position for an energy manager in the city budget Thank you",
       "speaker_raw": "SPEAKER_03",
-      "speaker_public": "Douglas Stewart",
-      "speaker_status": "approved",
-      "needs_review": true,
-      "review_reason": "merged_micro_turn",
-      "confidence": null
+      "speaker_public": "Unknown Speaker",
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Non-council speaker; maintaining conservative label."
     },
     {
       "turn_id": "turn_000318",
@@ -3844,10 +3759,11 @@
       "text": "Our next speaker is Jennifer Rose",
       "speaker_raw": "SPEAKER_15",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000319",
@@ -3856,10 +3772,11 @@
       "text": "Good evening, Mayor and members of council. Jennifer Rose, Executive Director of the Central Fairfax Chamber of Commerce. Thank you for the opportunity to speak and for the significant work by Fairfax City staff that has gone into developing the fiscal year 27 proposed budget. We recognize the real fiscal pressures the city is managing, particularly increases in school tuition and debt service. And we appreciate your commitment to maintaining services without adding new full-time equivalent positions. From the Chamber's perspective, want to focus on one key issue, ensuring that Fairfax remains competitive for small businesses while making necessary revenue decisions",
       "speaker_raw": "SPEAKER_13",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000320",
@@ -3868,10 +3785,11 @@
       "text": "First, the proposed meals tax increase from four percent to four and a half percent. We understand the goal of diversifying revenue. However, a meals tax is, in practice, a single industry tax. It places the greatest burden on restaurants, many of them small, locally owned businesses. We know this. They operate on thin margins and on the customers who support them. Restaurants are not just another sector. They are a cornerstone of our local economy. They drive foot traffic, support tourism, and contribute to the vibrancy of Old Town and our commercial corridors. And would like to point out, for the first time in more than 20 years, our restaurants are finally on a level playing field with Fairfax County restaurants",
       "speaker_raw": "SPEAKER_13",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000321",
@@ -3880,10 +3798,11 @@
       "text": "Now that the county's implemented its own four percent meals tax. We respectfully urge Council to reconsider this increase or, at minimum, include a clear sunset and ensure that any new revenue is reinvested in ways that directly support the hospitality and small business community. Second, if additional revenue is needed, there are more balanced alternatives. The Chamber supports exploring visitor-based revenue options, such as aligning the transient occupancy tax with regional levels, if authorized by the General Assembly. This approach brings in revenue from visitors rather than placing additional strain on local businesses and residents",
       "speaker_raw": "SPEAKER_13",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000322",
@@ -3892,10 +3811,11 @@
       "text": "Similarly, if B-Poll adjustments are considered, it is critical to protect small businesses. The City's current threshold of $10,000 is very low and captures many micro-businesses. Any changes should include raising the threshold and phasing in increases to avoid unintended impacts on startups and small firms. Third, and just as important, we encourage you to protect economic development capacity. The most sustainable way to reduce long-term tax pressure is not by increasing rates, but by growing the commercial tax base. That requires continued investment in business attraction, retention, and, critically, faster and more predictable permitting. If we want Fairfax to remain competitive in attracting and retaining businesses, we must",
       "speaker_raw": "SPEAKER_13",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000323",
@@ -3904,10 +3824,11 @@
       "text": "Continue investing in the systems and resources that support the growth. So our request is straightforward. Avoid disproportionate impacts on any one industry. Pursue a more balanced, visitor-informed revenue strategy. And continue investing in the economic development efforts that will strengthen Fairfax over the long term. Thank you for your time, your leadership, and your commitment to our community. We look forward to continuing to partner with you",
       "speaker_raw": "SPEAKER_13",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000324",
@@ -3916,10 +3837,11 @@
       "text": "Is there anybody else in the room that would like to speak on the proposed FY27 budget?",
       "speaker_raw": "SPEAKER_15",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000325",
@@ -3940,10 +3862,11 @@
       "text": "Ms. Schoenberg? We will move forward to second general public comment. I had one person sign up prior to the start of the meeting. will call them forward. Mary McDaniel?",
       "speaker_raw": "SPEAKER_15",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000327",
@@ -3952,10 +3875,11 @@
       "text": "Thank you. I'm Mary McDaniel, a resident of the Fairfax City, and my comments tonight are unrelated to my role on the city's electoral board. I'm speaking in support of the Willard Sherwood Center, and I'm asking that the city council advance this project. It's an essential facility for our growing city. I have attended a ton of open houses on this and have always supported the project. As I look at it, it seems very obvious that we should move ahead, and I started thinking about why would you maybe cancel the project? And one might be that the services that are going to be covered are not needed anymore. But in fact, the services are needed more now than 10 years ago when project planning",
       "speaker_raw": "SPEAKER_10",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000328",
@@ -3964,10 +3888,11 @@
       "text": "Started. Speaking to a few of them, the daycare center. Our population has grown, and along with that is the need for child care. Public health services. Again, larger population means more demand. On top of that, the federal government has significantly reduced spending on public health and plans to continue to do more. So states and localities have to step up. Community space. In the past 10 years, we have learned a lot about the importance of personal contact and mental health. You know, texting is fine for some things, but face-to-face communication is far more important as is exercise. So the senior center is really critical. Something that doesn't get talked about much is parking. The Sherwood Center parking center fills up when popular programs are taking place in",
       "speaker_raw": "SPEAKER_10",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000329",
@@ -3976,10 +3901,11 @@
       "text": "The evening. So having a parking garage attached to the building would help solve that problem",
       "speaker_raw": "SPEAKER_10",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000330",
@@ -3989,9 +3915,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000331",
@@ -4000,10 +3927,11 @@
       "text": "My real estate taxes have never gone down. The rate may have decreased, but the amount I paid always went up. And I understand that because every year the cost of living goes up. In my adult life, the consumer price index has decreased only one time. Hundreds of citizens like me have spoken for more than a decade in open houses about wanting this project. And we know that the city will need to raise taxes to do this and may need to sell bonds. This has been openly disclosed and discussed throughout the planning process",
       "speaker_raw": "SPEAKER_10",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000332",
@@ -4013,9 +3941,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000333",
@@ -4024,10 +3953,11 @@
       "text": "And the dedicated city staff who have worked diligently to pack as much as possible into this site. Over the years, I've never heard a city council member campaign on the idea of canceling this project. And I don't think now that any of you did. What I ask at this point is this. You've heard from the experts about what can be put into this building and how it benefits the community. And you've heard the community speak about the wants that we have. I ask that you follow up on promises that have been made, advance this project, and finance it as needed",
       "speaker_raw": "SPEAKER_10",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000334",
@@ -4037,9 +3967,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000335",
@@ -4049,9 +3980,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000336",
@@ -4062,8 +3994,9 @@
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000337",
@@ -4073,9 +4006,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000338",
@@ -4084,10 +4018,11 @@
       "text": "Our work session item is discussion on the proposed FY 2027 budget. City Council identified topics. I'm going to recognize Daniel Alexander, City Manager, for the staff discussion All right",
       "speaker_raw": "SPEAKER_15",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000339",
@@ -4095,11 +4030,12 @@
       "end": 5433.16,
       "text": "Good evening, Mayor and Council. To frame this discussion, tonight will largely be a conversation around revenues and expenditures. It's not going to be the full picture. We've had some conversations up to this point. We have some moving items. We still have some things that we expect out of Richmond relative to their process, and so there will be some additional conversations around how those numbers are shifting. But think for the most part, as where we are in the process, we're a good place to talk about some things that have come up regarding revenues and expenditures, answer some of the questions that you've asked around those items, and then prep us to move forward into",
       "speaker_raw": "SPEAKER_05",
-      "speaker_public": "Mr. Alexander",
-      "speaker_status": "approved",
+      "speaker_public": "Unknown Speaker",
+      "speaker_status": "unknown",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Non-council speaker; maintaining conservative label."
     },
     {
       "turn_id": "turn_000340",
@@ -4133,9 +4069,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000343",
@@ -4155,11 +4092,12 @@
       "end": 5588.04,
       "text": "Turning to expenditures, there are a few important updates to highlight. First, health insurance costs have increased beyond our original projections. Specifically, we are now projecting an additional 5.5% increase above the initial 8% forecast, largely driven by higher than anticipated claims activity. In response, staff is taking a proactive approach. We have a meeting scheduled this Friday with our insurance representative to explore strategies to help curtail future cost increases, including evaluating plan design options and potential rebidding of our insurance contract. Secondly, you will see personal expense savings reflected in the updated numbers",
       "speaker_raw": "SPEAKER_07",
-      "speaker_public": "JC Martinez",
-      "speaker_status": "approved",
+      "speaker_public": "Unknown Speaker",
+      "speaker_status": "unknown",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Non-council speaker; maintaining conservative label."
     },
     {
       "turn_id": "turn_000345",
@@ -4191,11 +4129,12 @@
       "end": 5715.6,
       "text": "Sales tax dedication to school projects contingent upon voter approval through local referendum. Importantly, those revenues would be restricted to construction or major renovation projects and could not be used to supplant existing local funding that has already been budgeted or appropriated. That is the key language in the change that is in the current draft language. The General Assembly will be reconvening a special session, and hopefully we will know more by the end of this month or the beginning of May",
       "speaker_raw": "SPEAKER_07",
-      "speaker_public": "JC Martinez",
-      "speaker_status": "approved",
+      "speaker_public": "Unknown Speaker",
+      "speaker_status": "unknown",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Non-council speaker; maintaining conservative label."
     },
     {
       "turn_id": "turn_000348",
@@ -4205,9 +4144,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000349",
@@ -4229,9 +4169,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000351",
@@ -4251,11 +4192,12 @@
       "end": 5791.68,
       "text": "Are entering the phase where council direction becomes critical in shaping the final document. I also want to highlight one upcoming engagement opportunity. The Engage Fairfax Fiscal Year 2027 Community Budget Exchange is scheduled for April 16th",
       "speaker_raw": "SPEAKER_07",
-      "speaker_public": "JC Martinez",
-      "speaker_status": "approved",
+      "speaker_public": "Unknown Speaker",
+      "speaker_status": "unknown",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Non-council speaker; maintaining conservative label."
     },
     {
       "turn_id": "turn_000353",
@@ -4265,9 +4207,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000354",
@@ -4289,9 +4232,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000356",
@@ -4299,11 +4243,12 @@
       "end": 5848.88,
       "text": "And all distribution lists with the new Zoom updated link. Looking ahead, April 28th is a key milestone with multiple public hearings, and our final work session where staff will present, again, refined options and draft changes for council deliberation. In closing, tonight's update is meant to keep council informed of where things stand today. We will return on April 28th with more detailed analysis, refined assumptions, and actionable options to help guide your decision making",
       "speaker_raw": "SPEAKER_07",
-      "speaker_public": "JC Martinez",
-      "speaker_status": "approved",
+      "speaker_public": "Unknown Speaker",
+      "speaker_status": "unknown",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Non-council speaker; maintaining conservative label."
     },
     {
       "turn_id": "turn_000357",
@@ -4313,9 +4258,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000358",
@@ -4326,8 +4272,9 @@
       "speaker_public": "Councilmember Anthony Amos",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000359",
@@ -4337,9 +4284,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000360",
@@ -4373,9 +4321,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000363",
@@ -4386,8 +4335,9 @@
       "speaker_public": "Councilmember Tom Peterson",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000364",
@@ -4397,9 +4347,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000365",
@@ -4407,11 +4358,12 @@
       "end": 5984.44,
       "text": "So, think this traditionally is being uploaded the next morning, so tomorrow morning, and then as mentioned, on April 28th, we will present at least four to five options or scenarios very similarly, what we did last year to council. It's my understanding that we also have meetings sort of scheduled one-on-ones, starting next week with council to sort of walk through some of those potential scenarios, but definitely have it in a public forum on the 28th",
       "speaker_raw": "SPEAKER_07",
-      "speaker_public": "JC Martinez",
-      "speaker_status": "approved",
+      "speaker_public": "Unknown Speaker",
+      "speaker_status": "unknown",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Non-council speaker; maintaining conservative label."
     },
     {
       "turn_id": "turn_000366",
@@ -4433,9 +4385,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000368",
@@ -4469,9 +4422,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000371",
@@ -4494,8 +4448,9 @@
       "speaker_public": "Councilmember Tom Peterson",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000373",
@@ -4504,10 +4459,11 @@
       "text": "Correct",
       "speaker_raw": "SPEAKER_04",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000374",
@@ -4518,8 +4474,9 @@
       "speaker_public": "Councilmember Tom Peterson",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000375",
@@ -4529,9 +4486,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000376",
@@ -4541,9 +4499,10 @@
       "speaker_raw": "SPEAKER_06",
       "speaker_public": "Councilmember Tom Peterson",
       "speaker_status": "approved",
-      "needs_review": true,
-      "review_reason": "merged_micro_turn",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000377",
@@ -4578,8 +4537,9 @@
       "speaker_public": "Councilmember Rachel McQuillen",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000380",
@@ -4590,8 +4550,9 @@
       "speaker_public": "Councilmember Rachel McQuillen",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000381",
@@ -4613,9 +4574,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000383",
@@ -4637,9 +4599,10 @@
       "speaker_raw": "SPEAKER_26",
       "speaker_public": "Councilmember Rachel McQuillen",
       "speaker_status": "approved",
-      "needs_review": true,
-      "review_reason": "merged_micro_turn",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000385",
@@ -4650,8 +4613,9 @@
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000386",
@@ -4662,8 +4626,9 @@
       "speaker_public": "Councilmember Stacy Hall",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000387",
@@ -4674,8 +4639,9 @@
       "speaker_public": "Councilmember Stacy Hall",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000388",
@@ -4697,9 +4663,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000390",
@@ -4722,8 +4689,9 @@
       "speaker_public": "Councilmember Stacy Hall",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000392",
@@ -4733,9 +4701,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000393",
@@ -4757,9 +4726,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000395",
@@ -4770,8 +4740,9 @@
       "speaker_public": "Councilmember Stacy Hall",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000396",
@@ -4782,8 +4753,9 @@
       "speaker_public": "Councilmember Stacy Hall",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000397",
@@ -4793,9 +4765,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000398",
@@ -4817,9 +4790,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000400",
@@ -4829,9 +4803,10 @@
       "speaker_raw": "SPEAKER_22",
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "approved",
-      "needs_review": true,
-      "review_reason": "merged_micro_turn",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000401",
@@ -4840,10 +4815,11 @@
       "text": "Thank you, Mayor Reed, and good evening to the council. Council Member Hall, I'm here to observe and listen, but I'm happy to answer your question. that you just posed. The conversation last night was around our elementary school",
       "speaker_raw": "SPEAKER_30",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000402",
@@ -4853,9 +4829,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000403",
@@ -4864,10 +4841,11 @@
       "text": "And the path moving forward. None of it was related to the proposal that you heard this evening. We were not aware of that proposal at that time",
       "speaker_raw": "SPEAKER_30",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000404",
@@ -4890,8 +4868,9 @@
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000406",
@@ -4925,9 +4904,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000409",
@@ -4938,8 +4918,9 @@
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000410",
@@ -4962,8 +4943,9 @@
       "speaker_public": "Councilmember Tom Peterson",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000412",
@@ -4973,9 +4955,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000413",
@@ -4997,9 +4980,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000415",
@@ -5021,9 +5005,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000417",
@@ -5031,11 +5016,12 @@
       "end": 6755.4,
       "text": "Not 35%",
       "speaker_raw": "SPEAKER_07",
-      "speaker_public": "JC Martinez",
-      "speaker_status": "approved",
+      "speaker_public": "Unknown Speaker",
+      "speaker_status": "unknown",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Non-council speaker; maintaining conservative label."
     },
     {
       "turn_id": "turn_000418",
@@ -5046,8 +5032,9 @@
       "speaker_public": "Councilmember Tom Peterson",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000419",
@@ -5057,9 +5044,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000420",
@@ -5081,9 +5069,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000422",
@@ -5117,9 +5106,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000425",
@@ -5141,9 +5131,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000427",
@@ -5165,9 +5156,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000429",
@@ -5178,8 +5170,9 @@
       "speaker_public": "Councilmember Tom Peterson",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000430",
@@ -5187,11 +5180,12 @@
       "end": 6928.4,
       "text": "Think you framed it well, Council Member. It certainly is part of the way we'd want to look at, as you say, an integrated program. I don't believe that we're prepared to, obviously, introduce that as part of the current plan, but certainly should be, think, should be part of the way we look at our complete approach to our housing. That certainly will be something that we bring back to Council as we discuss everything related to housing. think you framed it exactly the way we're looking at it",
       "speaker_raw": "SPEAKER_05",
-      "speaker_public": "Mr. Alexander",
-      "speaker_status": "approved",
+      "speaker_public": "Unknown Speaker",
+      "speaker_status": "unknown",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Non-council speaker; maintaining conservative label."
     },
     {
       "turn_id": "turn_000431",
@@ -5214,8 +5208,9 @@
       "speaker_public": "Councilmember Tom Peterson",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000433",
@@ -5225,9 +5220,10 @@
       "speaker_raw": "SPEAKER_06",
       "speaker_public": "Councilmember Tom Peterson",
       "speaker_status": "approved",
-      "needs_review": true,
-      "review_reason": "merged_micro_turn",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000434",
@@ -5238,8 +5234,9 @@
       "speaker_public": "Councilmember Tom Peterson",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000435",
@@ -5250,8 +5247,9 @@
       "speaker_public": "Councilmember Stacy Hardy-Chandler",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000436",
@@ -5273,9 +5271,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000438",
@@ -5295,11 +5294,12 @@
       "end": 7163.92,
       "text": "That we looked at, 10 or 15 years. It was actually an increase, a net increase. Here goes. Excellent. Thank you, Ms. Riddle. So go to the next couple of slides, and you can actually see the comparison. I don't have my glasses",
       "speaker_raw": "SPEAKER_07",
-      "speaker_public": "JC Martinez",
-      "speaker_status": "approved",
+      "speaker_public": "Unknown Speaker",
+      "speaker_status": "unknown",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Non-council speaker; maintaining conservative label."
     },
     {
       "turn_id": "turn_000440",
@@ -5309,9 +5309,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000441",
@@ -5346,8 +5347,9 @@
       "speaker_public": "Councilmember Stacy Hardy-Chandler",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000444",
@@ -5403,11 +5405,12 @@
       "end": 7369.7,
       "text": "Thank you so much. Council Member McQuillan",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Caption/video cross-check confirms this is Mayor Catherine Read making a procedural handoff to Councilmember McQuillan. No text change or segmentation change needed."
     },
     {
       "turn_id": "turn_000449",
@@ -5418,8 +5421,9 @@
       "speaker_public": "Councilmember Rachel McQuillen",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000450",
@@ -5442,8 +5446,9 @@
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Caption/video cross-check confirms Mayor Catherine Read spoke the line 'Council Member Hull'. The called-out name may conflict with the next speaker, but speaker attribution of the utterance is clear. Kept text as-is and attributed to Mayor Catherine Read."
     },
     {
       "turn_id": "turn_000452",
@@ -5454,8 +5459,9 @@
       "speaker_public": "Councilmember Stacy Hall",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000453",
@@ -5465,9 +5471,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000454",
@@ -5514,8 +5521,9 @@
       "speaker_public": "Councilmember Stacy Hall",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000458",
@@ -5523,11 +5531,12 @@
       "end": 7561.3,
       "text": "We do OK",
       "speaker_raw": "SPEAKER_07",
-      "speaker_public": "JC Martinez",
-      "speaker_status": "approved",
-      "needs_review": true,
-      "review_reason": "merged_micro_turn",
-      "confidence": null
+      "speaker_public": "Unknown Speaker",
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Non-council speaker; maintaining conservative label."
     },
     {
       "turn_id": "turn_000459",
@@ -5547,11 +5556,12 @@
       "end": 7595.3,
       "text": "It varies. We looked at the plan. I'll look at Ms. Riddle if she remembers a little bit better. But we had those statistics. We just reviewed them again about a couple of weeks, maybe three weeks ago, when we got the renewal notices. will say that given that the employer, the city, is not the only one taking some of this burden, the employee will also see a increase of about 12%. That may actually move some people out of those higher plans into lower plans",
       "speaker_raw": "SPEAKER_07",
-      "speaker_public": "JC Martinez",
-      "speaker_status": "approved",
+      "speaker_public": "Unknown Speaker",
+      "speaker_status": "unknown",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Non-council speaker; maintaining conservative label."
     },
     {
       "turn_id": "turn_000461",
@@ -5559,11 +5569,12 @@
       "end": 7598.62,
       "text": "So there may actually be some, when I say savings",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "JC Martinez",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Approved under same-speaker sandwich rule. Fragment sits between two approved JC Martinez turns on the same health-insurance savings answer and reads as a direct continuation. No segmentation change needed."
     },
     {
       "turn_id": "turn_000462",
@@ -5586,8 +5597,9 @@
       "speaker_public": "Councilmember Stacy Hall",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000464",
@@ -5595,11 +5607,12 @@
       "end": 7632.1,
       "text": "What that cost sharing looks like, is that an option?",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Councilmember Stacy Hall",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Approved under same-speaker sandwich rule. Fragment sits between two approved Councilmember Stacy Hall turns in the same health-insurance question sequence and reads as a direct continuation. No segmentation change needed."
     },
     {
       "turn_id": "turn_000465",
@@ -5620,10 +5633,11 @@
       "text": "The FY27 rates have not been released yet to employees. But 26, I believe, are on the website. OK. And I'm assuming you'll get it when 27 comes out",
       "speaker_raw": "SPEAKER_14",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000467",
@@ -5634,8 +5648,9 @@
       "speaker_public": "Councilmember Stacy Hall",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000468",
@@ -5644,10 +5659,11 @@
       "text": "Yeah, no, and just to give you a little bit of context",
       "speaker_raw": "SPEAKER_14",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000469",
@@ -5657,9 +5673,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000470",
@@ -5668,10 +5685,11 @@
       "text": "That have our health insurance. The majority is with Anthem. We have two plans with Anthem. And then we have about, think it's about 20% to 30% of employees are with Kaiser",
       "speaker_raw": "SPEAKER_14",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000471",
@@ -5681,9 +5699,10 @@
       "speaker_raw": "SPEAKER_27",
       "speaker_public": "Councilmember Stacy Hall",
       "speaker_status": "approved",
-      "needs_review": true,
-      "review_reason": "merged_micro_turn",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000472",
@@ -5717,9 +5736,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000475",
@@ -5730,8 +5750,9 @@
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000476",
@@ -5751,11 +5772,12 @@
       "end": 7733.58,
       "text": "Is that the price of housing has gone down a third of a percent this year. The forecast for the Virginia realtors through the end of the year",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Councilmember Tom Peterson",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Approved under same-speaker sandwich rule. Fragment sits between two approved Councilmember Tom Peterson turns in the same inflation/housing discussion and reads as a direct continuation. No segmentation change needed."
     },
     {
       "turn_id": "turn_000478",
@@ -5801,9 +5823,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000482",
@@ -5825,9 +5848,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000484",
@@ -5838,8 +5862,9 @@
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000485",
@@ -5848,10 +5873,11 @@
       "text": "So as before, I support the proposed increase in the meals tax. It's much more modest than what was proposed last time around. And at the end of the day, certainly not something that we love to do, but even if we're able to make up that revenue through an increase in the BPOL tax, or fees, or some other revenue source, that ends up being that much less funding that we could use to perhaps further support our employees, our public safety employees, who",
       "speaker_raw": "SPEAKER_12",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000486",
@@ -5860,10 +5886,11 @@
       "text": "Respond to emergencies that occur at the restaurants in the city",
       "speaker_raw": "SPEAKER_12",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000487",
@@ -5873,9 +5900,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000488",
@@ -5884,10 +5912,11 @@
       "text": "More of a necessity than eating at a restaurant. Certainly some people don't have time to cook. However, there are frozen meals available at the grocery store, that kind of thing. So that's also kind of locking ourselves out of if we wanted to use part of that to alleviate some of the burden on our homeowners through the real estate tax rate",
       "speaker_raw": "SPEAKER_12",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000489",
@@ -5897,9 +5926,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000490",
@@ -5908,10 +5938,11 @@
       "text": "Want to encourage caution in ruling out as we go forward",
       "speaker_raw": "SPEAKER_12",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000491",
@@ -5919,11 +5950,12 @@
       "end": 7954.2,
       "text": "Yes, Mr. Martinez. Thank you, Mary. I just want to add a couple of clarifying notes. Regarding the meals tax, a potential 2% reduction with each half percent being about 1.3, that's $5.8 million, almost $6 million that would be reduced",
       "speaker_raw": "SPEAKER_07",
-      "speaker_public": "JC Martinez",
-      "speaker_status": "approved",
+      "speaker_public": "Unknown Speaker",
+      "speaker_status": "unknown",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Non-council speaker; maintaining conservative label."
     },
     {
       "turn_id": "turn_000492",
@@ -5933,9 +5965,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000493",
@@ -5957,9 +5990,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000495",
@@ -5981,9 +6015,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000497",
@@ -6041,9 +6076,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000502",
@@ -6063,11 +6099,12 @@
       "end": 8156.08,
       "text": "Yeah, we have a process for those changes on a change sheet. I'm getting a nod in the affirmative. That's one element of a few elements that we've discussed tonight that we're going to need to work through, some of which we have kind of pushed out just recently. So all of those changes from a revenue and expenditure perspective will be part of the scenarios that we bring to you on the 28th",
       "speaker_raw": "SPEAKER_05",
-      "speaker_public": "Mr. Alexander",
-      "speaker_status": "approved",
+      "speaker_public": "Unknown Speaker",
+      "speaker_status": "unknown",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Non-council speaker; maintaining conservative label."
     },
     {
       "turn_id": "turn_000504",
@@ -6089,9 +6126,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000506",
@@ -6126,8 +6164,9 @@
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000509",
@@ -6137,9 +6176,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000510",
@@ -6150,8 +6190,9 @@
       "speaker_public": "Councilmember Rachel McQuillen",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000511",
@@ -6173,9 +6214,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000513",
@@ -6198,8 +6240,9 @@
       "speaker_public": "Councilmember Tom Peterson",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000515",
@@ -6209,9 +6252,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000516",
@@ -6255,11 +6299,12 @@
       "end": 8458.6,
       "text": "So we're looking forward to that. And then as we've discussed, the budget draft changes presented and deliberated on that night also. May 5th, committed to budget. In its entirety. And then looking ahead, moving forward into May, significantly, we'll have items on public hearings on financial costs, capital costs related to the sewer system and bonds related to that. Also, we will bring back the noise discussion on that night. We'll talk potential options for detached accessory",
       "speaker_raw": "SPEAKER_05",
-      "speaker_public": "Mr. Alexander",
-      "speaker_status": "approved",
+      "speaker_public": "Unknown Speaker",
+      "speaker_status": "unknown",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Non-council speaker; maintaining conservative label."
     },
     {
       "turn_id": "turn_000520",
@@ -6282,8 +6327,9 @@
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000522",
@@ -6294,8 +6340,9 @@
       "speaker_public": "Councilmember Tom Peterson",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000523",
@@ -6304,10 +6351,11 @@
       "text": "Think it's multiple parts. I confess I didn't go back and look at last year's script, so you caught me a little off-track",
       "speaker_raw": "SPEAKER_25",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000524",
@@ -6328,10 +6376,11 @@
       "text": "We can go back and look at the agenda from that meeting if you'd like",
       "speaker_raw": "SPEAKER_25",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000526",
@@ -6365,9 +6414,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000529",
@@ -6447,11 +6497,12 @@
       "end": 8688.74,
       "text": "And I'm proud of the continued focus",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Councilmember Rachel McQuillen",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Approved under strict same-speaker sandwich rule. Fragment sits between two clean approved Councilmember Rachel McQuillen turns in the same city-priorities remarks and reads as a direct continuation. No segmentation change needed."
     },
     {
       "turn_id": "turn_000536",
@@ -6462,8 +6513,9 @@
       "speaker_public": "Councilmember Rachel McQuillen",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000537",
@@ -6471,11 +6523,12 @@
       "end": 8721.26,
       "text": "Or overall quality of life, I deeply value",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Councilmember Rachel McQuillen",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Approved under strict same-speaker sandwich rule. Fragment sits between two clean approved Councilmember Rachel McQuillen turns in the same city-priorities / quality-of-life remarks and reads as a direct continuation. No segmentation change needed."
     },
     {
       "turn_id": "turn_000538",
@@ -6486,8 +6539,9 @@
       "speaker_public": "Councilmember Rachel McQuillen",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000539",
@@ -6497,9 +6551,10 @@
       "speaker_raw": "SPEAKER_26",
       "speaker_public": "Councilmember Rachel McQuillen",
       "speaker_status": "approved",
-      "needs_review": true,
-      "review_reason": "merged_micro_turn",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000540",
@@ -6510,8 +6565,9 @@
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000541",
@@ -6520,10 +6576,11 @@
       "text": "Want to second the comments in support of survivors of sexual assault in recognition of Sexual Assault Awareness Month Thank you",
       "speaker_raw": "SPEAKER_12",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000542",
@@ -6534,8 +6591,9 @@
       "speaker_public": "Councilmember Tom Peterson",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000543",
@@ -6546,8 +6604,9 @@
       "speaker_public": "Councilmember Tom Peterson",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000544",
@@ -6555,11 +6614,12 @@
       "end": 8853.18,
       "text": "Stop breathing for a moderate is not that long",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Councilmember Tom Peterson",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Approved under strict same-speaker sandwich rule. Fragment sits between two clean approved Councilmember Tom Peterson turns in the same sleep-apnea/personal-health remarks and reads as a direct continuation. No segmentation change needed."
     },
     {
       "turn_id": "turn_000545",
@@ -6570,8 +6630,9 @@
       "speaker_public": "Councilmember Tom Peterson",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000546",
@@ -6581,9 +6642,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000547",
@@ -6594,8 +6656,9 @@
       "speaker_public": "Councilmember Tom Peterson",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000548",
@@ -6605,9 +6668,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000549",
@@ -6629,9 +6693,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000551",
@@ -6677,9 +6742,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000555",
@@ -6701,9 +6767,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000557",
@@ -6714,8 +6781,9 @@
       "speaker_public": "Councilmember Tom Peterson",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000558",
@@ -6724,10 +6792,11 @@
       "text": "Appreciate the promotion. Just so I understand, we have talked with every council in the 20 years that I've been here about doing a code of ethics generally and councils have not adopted it. Are you all suggesting that we bring back a suggested code of ethics? We're certainly prepared to do that. We have the materials that we've updated year after year. Or are you suggesting bringing forward a one-off related just to that discrete issue, which is a different thing but could be included in your policy with respect to boards and commissions, for example? I just want to understand the tasking",
       "speaker_raw": "SPEAKER_25",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000559",
@@ -6737,9 +6806,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000560",
@@ -6750,8 +6820,9 @@
       "speaker_public": "Councilmember Tom Peterson",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000561",
@@ -6761,9 +6832,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000562",
@@ -6796,10 +6868,11 @@
       "text": "So just looking at the calendar, considering you're in the middle of budget season, would assume that perhaps the meeting or a couple meetings after budget adoption would be a good target for this discussion. And it will be a discussion because I assume there are differing views on this, but we'll be prepared to bring some information back at a work session if that's the will of the council",
       "speaker_raw": "SPEAKER_25",
       "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_status": "unknown",
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Unresolved speaker status; treating as public commenter; conservative resolution."
     },
     {
       "turn_id": "turn_000565",
@@ -6821,9 +6894,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000567",
@@ -6834,8 +6908,9 @@
       "speaker_public": "Councilmember Stacy Hardy-Chandler",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000568",
@@ -6858,8 +6933,9 @@
       "speaker_public": "Councilmember Stacy Hardy-Chandler",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000570",
@@ -6882,8 +6958,9 @@
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000572",
@@ -6894,8 +6971,9 @@
       "speaker_public": "Councilmember Stacy Hall",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000573",
@@ -6915,11 +6993,12 @@
       "end": 9519.72,
       "text": "It was really, really great to see all these retired chiefs and",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Councilmember Stacy Hall",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Approved under strict same-speaker sandwich rule. Fragment sits between two clean approved Councilmember Stacy Hall turns in the same event/retired-chiefs remarks and reads as a direct continuation. No segmentation change needed."
     },
     {
       "turn_id": "turn_000575",
@@ -6930,8 +7009,9 @@
       "speaker_public": "Councilmember Stacy Hall",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000576",
@@ -6953,9 +7033,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000578",
@@ -6977,9 +7058,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000580",
@@ -6990,8 +7072,9 @@
       "speaker_public": "Councilmember Stacy Hall",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000581",
@@ -7014,8 +7097,9 @@
       "speaker_public": "Councilmember Anthony Amos",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000583",
@@ -7025,9 +7109,10 @@
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:keep_unknown",
+      "confidence": null,
+      "reviewer_notes": "Public commenter; speaker not identified in available evidence; conservative resolution."
     },
     {
       "turn_id": "turn_000584",
@@ -7047,11 +7132,12 @@
       "end": 9735.92,
       "text": "For everything he's done",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Councilmember Anthony Amos",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Approved under strict same-speaker sandwich rule. Fragment sits between two clean approved Councilmember Anthony Amos turns in the same tribute/commentary sequence and reads as a direct continuation. No segmentation change needed."
     },
     {
       "turn_id": "turn_000586",
@@ -7062,8 +7148,9 @@
       "speaker_public": "Councilmember Anthony Amos",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000587",
@@ -7074,8 +7161,9 @@
       "speaker_public": "Councilmember Anthony Amos",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000588",
@@ -7086,8 +7174,9 @@
       "speaker_public": "Councilmember Anthony Amos",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000589",
@@ -7098,8 +7187,9 @@
       "speaker_public": "Councilmember Anthony Amos",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000590",
@@ -7110,8 +7200,9 @@
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000591",
@@ -7122,8 +7213,9 @@
       "speaker_public": "Councilmember Stacy Hardy-Chandler",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Council member/mayor turn already correctly identified; clearing pending."
     },
     {
       "turn_id": "turn_000592",
