@@ -48,56 +48,11 @@
       ]
     },
     {
-      "turn_id": "turn_000002",
-      "speaker_raw": "SPEAKER_22",
-      "speaker_public": "Mayor Catherine Read",
-      "speaker_status": "approved",
-      "review_reason": "merged_micro_turn",
-      "start": 104.3,
-      "end": 117.04,
-      "text": "Will now ask Suzanne Levy Eric Carson and Alana quarrels with the city of Fairfax Library to come down for the proclamation acknowledging National Library Week",
-      "word_count": 26,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000001",
-          "speaker_public": "Mayor Catherine Read",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "approved",
-          "start": 60.0,
-          "end": 72.44,
-          "text": "Would like to call the regular meeting of April 14th 2026 to order. It's good to see the chamber full We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the Pledge of Allegiance",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000002",
-          "speaker_public": "Mayor Catherine Read",
-          "speaker_raw": "SPEAKER_22",
-          "speaker_status": "approved",
-          "start": 104.3,
-          "end": 117.04,
-          "text": "Will now ask Suzanne Levy Eric Carson and Alana quarrels with the city of Fairfax Library to come down for the proclamation acknowledging National Library Week",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000003",
-          "speaker_public": "Mayor Catherine Read",
-          "speaker_raw": "SPEAKER_22",
-          "speaker_status": "approved",
-          "start": 130.2,
-          "end": 175.36,
-          "text": "Will you be in the middle? Okay. I'll be in the middle. That sounds reasonable. All right, whereas Libraries spark creativity fuel imagination and inspire lifelong learning Offering a space where individuals of all ages can find joy through exploration and discovery And whereas libraries serve is vibrant community hubs connecting people with knowledge technology and resources While fostering civic engagement critical thinking and cultural enrichment and whereas libraries provide free and equitable Provide free and equitable access to books digital tools and innovative programming ensuring that all Individuals regardless of background have the support they need to learn connect and thrive and whereas libraries partner with schools",
-          "is_target": false
-        }
-      ]
-    },
-    {
       "turn_id": "turn_000003",
       "speaker_raw": "SPEAKER_22",
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "approved",
-      "review_reason": "",
+      "review_reason": "reviewed:approve_named_official",
       "start": 130.2,
       "end": 175.36,
       "text": "Will you be in the middle? Okay. I'll be in the middle. That sounds reasonable. All right, whereas Libraries spark creativity fuel imagination and inspire lifelong learning Offering a space where individuals of all ages can find joy through exploration and discovery And whereas libraries serve is vibrant community hubs connecting people with knowledge technology and resources While fostering civic engagement critical thinking and cultural enrichment and whereas libraries provide free and equitable Provide free and equitable access to books digital tools and innovative programming ensuring that all Individuals regardless of background have the support they need to learn connect and thrive and whereas libraries partner with schools",
@@ -185,7 +140,7 @@
     {
       "turn_id": "turn_000023",
       "speaker_raw": "SPEAKER_08",
-      "speaker_public": "Mayor Catherine Read",
+      "speaker_public": "Fasa Alam",
       "speaker_status": "approved",
       "review_reason": "reviewed:approve_named_official",
       "start": 617.24,
@@ -207,7 +162,7 @@
         },
         {
           "turn_id": "turn_000023",
-          "speaker_public": "Mayor Catherine Read",
+          "speaker_public": "Fasa Alam",
           "speaker_raw": "SPEAKER_08",
           "speaker_status": "approved",
           "start": 617.24,
@@ -365,9 +320,9 @@
     {
       "turn_id": "turn_000101",
       "speaker_raw": "SPEAKER_31",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "mixed",
-      "review_reason": "reviewed:keep_unknown",
+      "speaker_public": "Anita Light",
+      "speaker_status": "approved",
+      "review_reason": "reviewed:approve_named_official",
       "start": 1690.08,
       "end": 1734.64,
       "text": "My name is Anita Light, and I'm here tonight in three capacities. First as the chair of the Fairfax Village in the City Advisory Board, resident of Fairfax City, obviously, and as an older adult. As chair of the Fairfax Village in the City Advisory Board, we wanted to emphasize our support for the Willard Sherwood Center, as noted in our letter to you all dated April 6th. In that letter, we noted that supporting the new Willard Sherwood Center would help make accessibility for older adults easier and safer. We also noted that this project was a community partnership effort with the county, as well as the residents of both the city and the county",
@@ -387,9 +342,9 @@
         },
         {
           "turn_id": "turn_000101",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Anita Light",
           "speaker_raw": "SPEAKER_31",
-          "speaker_status": "mixed",
+          "speaker_status": "approved",
           "start": 1690.08,
           "end": 1734.64,
           "text": "My name is Anita Light, and I'm here tonight in three capacities. First as the chair of the Fairfax Village in the City Advisory Board, resident of Fairfax City, obviously, and as an older adult. As chair of the Fairfax Village in the City Advisory Board, we wanted to emphasize our support for the Willard Sherwood Center, as noted in our letter to you all dated April 6th. In that letter, we noted that supporting the new Willard Sherwood Center would help make accessibility for older adults easier and safer. We also noted that this project was a community partnership effort with the county, as well as the residents of both the city and the county",
@@ -410,9 +365,9 @@
     {
       "turn_id": "turn_000103",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "reviewed:keep_unknown",
+      "speaker_public": "Anita Light",
+      "speaker_status": "approved",
+      "review_reason": "reviewed:approve_named_official",
       "start": 1738.76,
       "end": 1740.16,
       "text": "The city",
@@ -432,9 +387,9 @@
         },
         {
           "turn_id": "turn_000103",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Anita Light",
           "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
+          "speaker_status": "approved",
           "start": 1738.76,
           "end": 1740.16,
           "text": "The city",
@@ -455,9 +410,9 @@
     {
       "turn_id": "turn_000105",
       "speaker_raw": "SPEAKER_31",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "mixed",
-      "review_reason": "reviewed:keep_unknown",
+      "speaker_public": "Anita Light",
+      "speaker_status": "approved",
+      "review_reason": "reviewed:approve_named_official",
       "start": 1784.92,
       "end": 1815.68,
       "text": "For the residents than they would otherwise be able to do, for instance, on social services, emergency dispatch, libraries, court services, and schools, to name a few. Without these partnerships, the cost to our residents would be significantly more. if we had to provide these basic services on our own. I've been a lifelong proponent of continuous improvement in organizations and while the Willard Sherwood Center is not an organization it is a joint partnership with the county that needs to be continuously improved",
@@ -477,9 +432,9 @@
         },
         {
           "turn_id": "turn_000105",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Anita Light",
           "speaker_raw": "SPEAKER_31",
-          "speaker_status": "mixed",
+          "speaker_status": "approved",
           "start": 1784.92,
           "end": 1815.68,
           "text": "For the residents than they would otherwise be able to do, for instance, on social services, emergency dispatch, libraries, court services, and schools, to name a few. Without these partnerships, the cost to our residents would be significantly more. if we had to provide these basic services on our own. I've been a lifelong proponent of continuous improvement in organizations and while the Willard Sherwood Center is not an organization it is a joint partnership with the county that needs to be continuously improved",
@@ -498,236 +453,11 @@
       ]
     },
     {
-      "turn_id": "turn_000121",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 2013.92,
-      "end": 2017.76,
-      "text": "And that we incur to see what percentages",
-      "word_count": 8,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000120",
-          "speaker_public": "Kevin Anderson",
-          "speaker_raw": "SPEAKER_01",
-          "speaker_status": "approved",
-          "start": 1989.52,
-          "end": 2013.92,
-          "text": "That the expense is on the higher end of that range. Compared to the energy efficient and sustainable features planned for the project, the anticipated savings would be in the 30 to 50 percent annually and it could be even as high as 70 percent. This of course will have to be observed with the actual charge",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000121",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2013.92,
-          "end": 2017.76,
-          "text": "And that we incur to see what percentages",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000122",
-          "speaker_public": "Kevin Anderson",
-          "speaker_raw": "SPEAKER_01",
-          "speaker_status": "approved",
-          "start": 2017.76,
-          "end": 2034.16,
-          "text": "Actually saved but I'm willing to bet that it'll be on the higher end. Beyond the potential cost savings though, there are the numerous environmental benefits to the project design and it'll have a positive impact on the planet that we hand off to our children",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000123",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 2034.16,
-      "end": 2037.52,
-      "text": "Or if you're like me to your grandchildren",
-      "word_count": 8,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000122",
-          "speaker_public": "Kevin Anderson",
-          "speaker_raw": "SPEAKER_01",
-          "speaker_status": "approved",
-          "start": 2017.76,
-          "end": 2034.16,
-          "text": "Actually saved but I'm willing to bet that it'll be on the higher end. Beyond the potential cost savings though, there are the numerous environmental benefits to the project design and it'll have a positive impact on the planet that we hand off to our children",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000123",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2034.16,
-          "end": 2037.52,
-          "text": "Or if you're like me to your grandchildren",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000124",
-          "speaker_public": "Kevin Anderson",
-          "speaker_raw": "SPEAKER_01",
-          "speaker_status": "approved",
-          "start": 2037.52,
-          "end": 2050.32,
-          "text": "Some of these elements are the fact that the project is LED gold certified and it has features like rooftop solar panels, indoor water reductions features, LED lighting",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000125",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 2050.32,
-      "end": 2056.56,
-      "text": "Light pollution remediation and high performance building elements",
-      "word_count": 8,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000124",
-          "speaker_public": "Kevin Anderson",
-          "speaker_raw": "SPEAKER_01",
-          "speaker_status": "approved",
-          "start": 2037.52,
-          "end": 2050.32,
-          "text": "Some of these elements are the fact that the project is LED gold certified and it has features like rooftop solar panels, indoor water reductions features, LED lighting",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000125",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2050.32,
-          "end": 2056.56,
-          "text": "Light pollution remediation and high performance building elements",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000126",
-          "speaker_public": "Kevin Anderson",
-          "speaker_raw": "SPEAKER_01",
-          "speaker_status": "approved",
-          "start": 2056.56,
-          "end": 2079.76,
-          "text": "To retain heating and cooling and many others. Another subject I'd like to talk about is routines. We all have them. They usually evolve over life events but if this project fails to move forward and Greenacres has to close down for major renovations or rebuild, it's going to be an abrupt change to",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000127",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 2079.76,
-      "end": 2086.16,
-      "text": "Many of our members routines and basically what I'm saying is that",
-      "word_count": 12,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000126",
-          "speaker_public": "Kevin Anderson",
-          "speaker_raw": "SPEAKER_01",
-          "speaker_status": "approved",
-          "start": 2056.56,
-          "end": 2079.76,
-          "text": "To retain heating and cooling and many others. Another subject I'd like to talk about is routines. We all have them. They usually evolve over life events but if this project fails to move forward and Greenacres has to close down for major renovations or rebuild, it's going to be an abrupt change to",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000127",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2079.76,
-          "end": 2086.16,
-          "text": "Many of our members routines and basically what I'm saying is that",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000128",
-          "speaker_public": "Kevin Anderson",
-          "speaker_raw": "SPEAKER_01",
-          "speaker_status": "approved",
-          "start": 2086.16,
-          "end": 2099.84,
-          "text": "If we build a new center and we do a gradual transition to the new one, it'll be more of an evolutionary change to the routine. So I beseech you to approve this project and I thank you for your time",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000129",
-      "speaker_raw": "SPEAKER_15",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 2099.84,
-      "end": 2105.44,
-      "text": "Thank you. Our next speaker is Douglas Stewart",
-      "word_count": 8,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000128",
-          "speaker_public": "Kevin Anderson",
-          "speaker_raw": "SPEAKER_01",
-          "speaker_status": "approved",
-          "start": 2086.16,
-          "end": 2099.84,
-          "text": "If we build a new center and we do a gradual transition to the new one, it'll be more of an evolutionary change to the routine. So I beseech you to approve this project and I thank you for your time",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000129",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_15",
-          "speaker_status": "unresolved",
-          "start": 2099.84,
-          "end": 2105.44,
-          "text": "Thank you. Our next speaker is Douglas Stewart",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000130",
-          "speaker_public": "Douglas Stewart",
-          "speaker_raw": "SPEAKER_03",
-          "speaker_status": "approved",
-          "start": 2114.64,
-          "end": 2160.96,
-          "text": "Good evening. Douglas Stewart, 10822 Maple Street. I'm here to also voice my support for moving forward with the Willard Sherwood Center. I appreciate the discussions you've had about this project. My wife and I have lived here for 22 years and I realize this project has both operating and capital costs that we have to reckon with and that we'll see in our tax bills. The costs are significant but I believe the benefits will far outweigh them and really we're talking about a multi-generational community center, something for all ages, with first-class preventive health services. We're talking about a new third place for our youth and people of all ages. We're talking about outstanding",
-          "is_target": false
-        }
-      ]
-    },
-    {
       "turn_id": "turn_000130",
       "speaker_raw": "SPEAKER_03",
       "speaker_public": "Douglas Stewart",
       "speaker_status": "approved",
-      "review_reason": "",
+      "review_reason": "reviewed:approve_named_official",
       "start": 2114.64,
       "end": 2160.96,
       "text": "Good evening. Douglas Stewart, 10822 Maple Street. I'm here to also voice my support for moving forward with the Willard Sherwood Center. I appreciate the discussions you've had about this project. My wife and I have lived here for 22 years and I realize this project has both operating and capital costs that we have to reckon with and that we'll see in our tax bills. The costs are significant but I believe the benefits will far outweigh them and really we're talking about a multi-generational community center, something for all ages, with first-class preventive health services. We're talking about a new third place for our youth and people of all ages. We're talking about outstanding",
@@ -737,9 +467,9 @@
       "context": [
         {
           "turn_id": "turn_000129",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Mayor Catherine Read",
           "speaker_raw": "SPEAKER_15",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 2099.84,
           "end": 2105.44,
           "text": "Thank you. Our next speaker is Douglas Stewart",
@@ -772,7 +502,7 @@
       "speaker_raw": "SPEAKER_03",
       "speaker_public": "Douglas Stewart",
       "speaker_status": "approved",
-      "review_reason": "",
+      "review_reason": "reviewed:approve_named_official",
       "start": 2160.96,
       "end": 2204.4,
       "text": "Facilities that the whole community can congregate in and enjoy. People from 8 to 80 to 90 or even 6 to 90 or what I mean. There's something in this for everyone and also just the preventive health, including serving our residents in Fairfax City, will be outstanding including dentistry. It's going to improve quality of life for so many people in so many different ways. The costs are significant. We know we're going to see higher tax bills. We know that and sometimes when you're looking at the future, what are we going to have in the future here? It's uncertain. It's an investment but it's going to be here for generations and I'm confident",
@@ -817,7 +547,7 @@
       "speaker_raw": "SPEAKER_03",
       "speaker_public": "Douglas Stewart",
       "speaker_status": "approved",
-      "review_reason": "",
+      "review_reason": "reviewed:approve_named_official",
       "start": 2204.4,
       "end": 2248.48,
       "text": "That in 30 years our kids today or the grandkids of our kids, the kids of our kids are going to be talking about this and have memories. I did this. Do you remember when we did this at the community center? It's going to be part of our community and it couldn't be in a better place right near our signature park and our downtown. So think it's a fantastic investment. The previous speaker mentioned the LEED Gold and I just would just emphasize that I hope you stick to that LEED Gold standard. That's a really high standard for energy and water efficiency and if we hold to that as the previous speaker mentioned, we're going to significantly save in energy costs and other costs from",
@@ -858,101 +588,11 @@
       ]
     },
     {
-      "turn_id": "turn_000134",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 2255.92,
-      "end": 2259.44,
-      "text": "Strongly support it. Thank you",
-      "word_count": 5,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000133",
-          "speaker_public": "Douglas Stewart",
-          "speaker_raw": "SPEAKER_03",
-          "speaker_status": "approved",
-          "start": 2248.48,
-          "end": 2255.92,
-          "text": "Like stormwater management. So think this is going to change people's experiences of the city for generations and",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000134",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2255.92,
-          "end": 2259.44,
-          "text": "Strongly support it. Thank you",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000135",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_15",
-          "speaker_status": "unresolved",
-          "start": 2260.08,
-          "end": 2263.84,
-          "text": "Our next speaker is Janet Jaworski",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000135",
-      "speaker_raw": "SPEAKER_15",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 2260.08,
-      "end": 2263.84,
-      "text": "Our next speaker is Janet Jaworski",
-      "word_count": 6,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000134",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2255.92,
-          "end": 2259.44,
-          "text": "Strongly support it. Thank you",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000135",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_15",
-          "speaker_status": "unresolved",
-          "start": 2260.08,
-          "end": 2263.84,
-          "text": "Our next speaker is Janet Jaworski",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000136",
-          "speaker_public": "Janet Jaworski",
-          "speaker_raw": "SPEAKER_23",
-          "speaker_status": "approved",
-          "start": 2267.52,
-          "end": 2306.88,
-          "text": "Good evening Mayor Reed and members of the City Council. I also am here to, Janet Jaworski 3621 Heritage Lane for the record. I also am here to lend my support to the Willard Sherwood project. I do wear a number of hats in the city as you know so these are my comments as a resident and not representing any organization or department for which I volunteer. Pete and I have lived here for 26 years and honestly think the need for a community center has been part of the dialogue for the entire time that we've lived here. In fact, during my six-year tenure on the",
-          "is_target": false
-        }
-      ]
-    },
-    {
       "turn_id": "turn_000136",
       "speaker_raw": "SPEAKER_23",
       "speaker_public": "Janet Jaworski",
       "speaker_status": "approved",
-      "review_reason": "",
+      "review_reason": "reviewed:approve_named_official",
       "start": 2267.52,
       "end": 2306.88,
       "text": "Good evening Mayor Reed and members of the City Council. I also am here to, Janet Jaworski 3621 Heritage Lane for the record. I also am here to lend my support to the Willard Sherwood project. I do wear a number of hats in the city as you know so these are my comments as a resident and not representing any organization or department for which I volunteer. Pete and I have lived here for 26 years and honestly think the need for a community center has been part of the dialogue for the entire time that we've lived here. In fact, during my six-year tenure on the",
@@ -962,9 +602,9 @@
       "context": [
         {
           "turn_id": "turn_000135",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Mayor Catherine Read",
           "speaker_raw": "SPEAKER_15",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 2260.08,
           "end": 2263.84,
           "text": "Our next speaker is Janet Jaworski",
@@ -982,57 +622,12 @@
         },
         {
           "turn_id": "turn_000137",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Janet Jaworski",
           "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
+          "speaker_status": "approved",
           "start": 2306.96,
           "end": 2314.0,
           "text": "Planning Commission from 2014 to 2020, including a three-year stint on PRAB",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000137",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 2306.96,
-      "end": 2314.0,
-      "text": "Planning Commission from 2014 to 2020, including a three-year stint on PRAB",
-      "word_count": 12,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000136",
-          "speaker_public": "Janet Jaworski",
-          "speaker_raw": "SPEAKER_23",
-          "speaker_status": "approved",
-          "start": 2267.52,
-          "end": 2306.88,
-          "text": "Good evening Mayor Reed and members of the City Council. I also am here to, Janet Jaworski 3621 Heritage Lane for the record. I also am here to lend my support to the Willard Sherwood project. I do wear a number of hats in the city as you know so these are my comments as a resident and not representing any organization or department for which I volunteer. Pete and I have lived here for 26 years and honestly think the need for a community center has been part of the dialogue for the entire time that we've lived here. In fact, during my six-year tenure on the",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000137",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2306.96,
-          "end": 2314.0,
-          "text": "Planning Commission from 2014 to 2020, including a three-year stint on PRAB",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000138",
-          "speaker_public": "Janet Jaworski",
-          "speaker_raw": "SPEAKER_23",
-          "speaker_status": "approved",
-          "start": 2314.0,
-          "end": 2357.92,
-          "text": "This was a huge topic of conversation and this is going back you know more than 10 years from now. The need for a full service community center. So I do support it for all the reasons that you've been hearing from from all of the other residents coming up to support it. I'm going to focus on something a little bit different, although am a member of the Senior Center, but I'm going to try to highlight some benefits for adults of all ages. As a former competitive athlete, think the walking track, the gym, the fitness center are going to be so key to both the physical and mental health of our residents. As we all know, mental health and physical health are intertwined and a happy healthy both mentally and",
           "is_target": false
         }
       ]
@@ -1052,9 +647,9 @@
       "context": [
         {
           "turn_id": "turn_000137",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Janet Jaworski",
           "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
+          "speaker_status": "approved",
           "start": 2306.96,
           "end": 2314.0,
           "text": "Planning Commission from 2014 to 2020, including a three-year stint on PRAB",
@@ -1117,57 +712,12 @@
         },
         {
           "turn_id": "turn_000140",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Janet Jaworski",
           "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
+          "speaker_status": "approved",
           "start": 2382.48,
           "end": 2386.88,
           "text": "That we can all connect and share experiences together. There will",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000140",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 2382.48,
-      "end": 2386.88,
-      "text": "That we can all connect and share experiences together. There will",
-      "word_count": 11,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000139",
-          "speaker_public": "Janet Jaworski",
-          "speaker_raw": "SPEAKER_23",
-          "speaker_status": "approved",
-          "start": 2357.92,
-          "end": 2382.48,
-          "text": "Physically population here is really something that you cannot put a price tag on. I realize as Mr. Stewart said we all know there's a price tag involved. We're mindful of that, but to me the advantages far outweigh the disadvantages. I love the fact that it will be multi-generational. You know our city motto is Live Life Connected. think this is a great way",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000140",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2382.48,
-          "end": 2386.88,
-          "text": "That we can all connect and share experiences together. There will",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000141",
-          "speaker_public": "Janet Jaworski",
-          "speaker_raw": "SPEAKER_23",
-          "speaker_status": "approved",
-          "start": 2386.88,
-          "end": 2430.04,
-          "text": "Be a number of meeting rooms there as you know, so it will be a place to gather exercise and really build community. Secondly, it's going to be walkable for a lot of us. I know that's not true for all neighbors. but for my neighborhood in Daniels run woods it will be walkable and we can get a jumpstart on our workout routine by walking to and from which think will be great it also is accessible for public transportation which is wonderful lastly our relationship with the county I was so pleased to hear that you had a successful meeting with the county last week that's fantastic I appreciate the fact that there were no objections to the timeline and that's",
           "is_target": false
         }
       ]
@@ -1187,9 +737,9 @@
       "context": [
         {
           "turn_id": "turn_000140",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Janet Jaworski",
           "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
+          "speaker_status": "approved",
           "start": 2382.48,
           "end": 2386.88,
           "text": "That we can all connect and share experiences together. There will",
@@ -1218,416 +768,11 @@
       ]
     },
     {
-      "turn_id": "turn_000143",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 2445.08,
-      "end": 2453.8,
-      "text": "Forward and I appreciate your time thank you our next speakers Janice Miller",
-      "word_count": 13,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000142",
-          "speaker_public": "Janet Jaworski",
-          "speaker_raw": "SPEAKER_23",
-          "speaker_status": "approved",
-          "start": 2430.04,
-          "end": 2445.08,
-          "text": "Really great news think continuing to nurture that relationship with the county is huge and this is a great way that we can partner with the county moving forward so would ask for your yes vote on April 28th to move this",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000143",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2445.08,
-          "end": 2453.8,
-          "text": "Forward and I appreciate your time thank you our next speakers Janice Miller",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000144",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_02",
-          "speaker_status": "unresolved",
-          "start": 2456.24,
-          "end": 2486.68,
-          "text": "I'm a little shorter than Janet good evening ladies and gentlemen Mayor Reed members of council staff residents and guests my name is Janice Miller and am here to support moving forward with the Willard Sherwood project and I support council members authorizing the EDA to sell revenue bonds to finance this project questions have been raised recently regarding the economic",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000144",
-      "speaker_raw": "SPEAKER_02",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 2456.24,
-      "end": 2486.68,
-      "text": "I'm a little shorter than Janet good evening ladies and gentlemen Mayor Reed members of council staff residents and guests my name is Janice Miller and am here to support moving forward with the Willard Sherwood project and I support council members authorizing the EDA to sell revenue bonds to finance this project questions have been raised recently regarding the economic",
-      "word_count": 61,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000143",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2445.08,
-          "end": 2453.8,
-          "text": "Forward and I appreciate your time thank you our next speakers Janice Miller",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000144",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_02",
-          "speaker_status": "unresolved",
-          "start": 2456.24,
-          "end": 2486.68,
-          "text": "I'm a little shorter than Janet good evening ladies and gentlemen Mayor Reed members of council staff residents and guests my name is Janice Miller and am here to support moving forward with the Willard Sherwood project and I support council members authorizing the EDA to sell revenue bonds to finance this project questions have been raised recently regarding the economic",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000145",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2486.68,
-          "end": 2492.72,
-          "text": "Advantages of this proposed projects please consider the following Willard",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000145",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 2486.68,
-      "end": 2492.72,
-      "text": "Advantages of this proposed projects please consider the following Willard",
-      "word_count": 10,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000144",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_02",
-          "speaker_status": "unresolved",
-          "start": 2456.24,
-          "end": 2486.68,
-          "text": "I'm a little shorter than Janet good evening ladies and gentlemen Mayor Reed members of council staff residents and guests my name is Janice Miller and am here to support moving forward with the Willard Sherwood project and I support council members authorizing the EDA to sell revenue bonds to finance this project questions have been raised recently regarding the economic",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000145",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2486.68,
-          "end": 2492.72,
-          "text": "Advantages of this proposed projects please consider the following Willard",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000146",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_02",
-          "speaker_status": "unresolved",
-          "start": 2492.72,
-          "end": 2520.34,
-          "text": "Sherwood would be a long-term economic economic anchor it would strengthen downtown vitality due to its central location it would generate consistent weekday activity that will support downtown retail and services it would increase pedestrian activity in the downtown area it would reinforce Old Town as a hub for daily life and not solely as a spot for dining out night",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000146",
-      "speaker_raw": "SPEAKER_02",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 2492.72,
-      "end": 2520.34,
-      "text": "Sherwood would be a long-term economic economic anchor it would strengthen downtown vitality due to its central location it would generate consistent weekday activity that will support downtown retail and services it would increase pedestrian activity in the downtown area it would reinforce Old Town as a hub for daily life and not solely as a spot for dining out night",
-      "word_count": 61,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000145",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2486.68,
-          "end": 2492.72,
-          "text": "Advantages of this proposed projects please consider the following Willard",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000146",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_02",
-          "speaker_status": "unresolved",
-          "start": 2492.72,
-          "end": 2520.34,
-          "text": "Sherwood would be a long-term economic economic anchor it would strengthen downtown vitality due to its central location it would generate consistent weekday activity that will support downtown retail and services it would increase pedestrian activity in the downtown area it would reinforce Old Town as a hub for daily life and not solely as a spot for dining out night",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000147",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2520.34,
-          "end": 2530.96,
-          "text": "Life and or special events Willard Sherwood would demonstrate capital leverage and fiscal efficiency the capital costs are divided between the",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000147",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 2520.34,
-      "end": 2530.96,
-      "text": "Life and or special events Willard Sherwood would demonstrate capital leverage and fiscal efficiency the capital costs are divided between the",
-      "word_count": 21,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000146",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_02",
-          "speaker_status": "unresolved",
-          "start": 2492.72,
-          "end": 2520.34,
-          "text": "Sherwood would be a long-term economic economic anchor it would strengthen downtown vitality due to its central location it would generate consistent weekday activity that will support downtown retail and services it would increase pedestrian activity in the downtown area it would reinforce Old Town as a hub for daily life and not solely as a spot for dining out night",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000147",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2520.34,
-          "end": 2530.96,
-          "text": "Life and or special events Willard Sherwood would demonstrate capital leverage and fiscal efficiency the capital costs are divided between the",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000148",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_02",
-          "speaker_status": "unresolved",
-          "start": 2530.96,
-          "end": 2548.22,
-          "text": "County and the city based on programmatic usage the city avoids land acquisition costs demolition costs and site preparation costs the shared infrastructure and parking reduce capital duplication energy efficient",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000148",
-      "speaker_raw": "SPEAKER_02",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 2530.96,
-      "end": 2548.22,
-      "text": "County and the city based on programmatic usage the city avoids land acquisition costs demolition costs and site preparation costs the shared infrastructure and parking reduce capital duplication energy efficient",
-      "word_count": 30,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000147",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2520.34,
-          "end": 2530.96,
-          "text": "Life and or special events Willard Sherwood would demonstrate capital leverage and fiscal efficiency the capital costs are divided between the",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000148",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_02",
-          "speaker_status": "unresolved",
-          "start": 2530.96,
-          "end": 2548.22,
-          "text": "County and the city based on programmatic usage the city avoids land acquisition costs demolition costs and site preparation costs the shared infrastructure and parking reduce capital duplication energy efficient",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000149",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2548.22,
-          "end": 2553.14,
-          "text": "Design lowers operating costs Willard Sherwood will support workforce and",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000149",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 2548.22,
-      "end": 2553.14,
-      "text": "Design lowers operating costs Willard Sherwood will support workforce and",
-      "word_count": 10,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000148",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_02",
-          "speaker_status": "unresolved",
-          "start": 2530.96,
-          "end": 2548.22,
-          "text": "County and the city based on programmatic usage the city avoids land acquisition costs demolition costs and site preparation costs the shared infrastructure and parking reduce capital duplication energy efficient",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000149",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2548.22,
-          "end": 2553.14,
-          "text": "Design lowers operating costs Willard Sherwood will support workforce and",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000150",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_02",
-          "speaker_status": "unresolved",
-          "start": 2553.14,
-          "end": 2597.14,
-          "text": "Talent competitiveness it will help attract and retain public and private sector employees and professional households it will reinforce the city's identity as a service rich community it will enhance the city's appeal relatively relative to competing jurisdictions unlike mark market driven projects the center provides enduring economic value across all business cycles all these factors support office occupancy mixed-use development and economic security Willard Sherwood advances the city's strategic priorities and economic development goals it maximizes limited land resources and",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000150",
-      "speaker_raw": "SPEAKER_02",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 2553.14,
-      "end": 2597.14,
-      "text": "Talent competitiveness it will help attract and retain public and private sector employees and professional households it will reinforce the city's identity as a service rich community it will enhance the city's appeal relatively relative to competing jurisdictions unlike mark market driven projects the center provides enduring economic value across all business cycles all these factors support office occupancy mixed-use development and economic security Willard Sherwood advances the city's strategic priorities and economic development goals it maximizes limited land resources and",
-      "word_count": 81,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000149",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2548.22,
-          "end": 2553.14,
-          "text": "Design lowers operating costs Willard Sherwood will support workforce and",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000150",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_02",
-          "speaker_status": "unresolved",
-          "start": 2553.14,
-          "end": 2597.14,
-          "text": "Talent competitiveness it will help attract and retain public and private sector employees and professional households it will reinforce the city's identity as a service rich community it will enhance the city's appeal relatively relative to competing jurisdictions unlike mark market driven projects the center provides enduring economic value across all business cycles all these factors support office occupancy mixed-use development and economic security Willard Sherwood advances the city's strategic priorities and economic development goals it maximizes limited land resources and",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000151",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_02",
-          "speaker_status": "unresolved",
-          "start": 2597.14,
-          "end": 2640.18,
-          "text": "Preserve green space through joint development it uses external funding to reduce city exposure it strengthens downtown downtown vitality it supports quality of life it builds on past city-county partnerships and establishes a model for future city-county collaboration in summary by providing the opportunity for enhanced business tax income this project will deliver sustained economic value that will ultimately far exceed its direct fiscal cost there are many in the audience who support Willard Sherwood with those who support this project are willing to pay reasonable fees for usage and approve of",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000151",
-      "speaker_raw": "SPEAKER_02",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 2597.14,
-      "end": 2640.18,
-      "text": "Preserve green space through joint development it uses external funding to reduce city exposure it strengthens downtown downtown vitality it supports quality of life it builds on past city-county partnerships and establishes a model for future city-county collaboration in summary by providing the opportunity for enhanced business tax income this project will deliver sustained economic value that will ultimately far exceed its direct fiscal cost there are many in the audience who support Willard Sherwood with those who support this project are willing to pay reasonable fees for usage and approve of",
-      "word_count": 92,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000150",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_02",
-          "speaker_status": "unresolved",
-          "start": 2553.14,
-          "end": 2597.14,
-          "text": "Talent competitiveness it will help attract and retain public and private sector employees and professional households it will reinforce the city's identity as a service rich community it will enhance the city's appeal relatively relative to competing jurisdictions unlike mark market driven projects the center provides enduring economic value across all business cycles all these factors support office occupancy mixed-use development and economic security Willard Sherwood advances the city's strategic priorities and economic development goals it maximizes limited land resources and",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000151",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_02",
-          "speaker_status": "unresolved",
-          "start": 2597.14,
-          "end": 2640.18,
-          "text": "Preserve green space through joint development it uses external funding to reduce city exposure it strengthens downtown downtown vitality it supports quality of life it builds on past city-county partnerships and establishes a model for future city-county collaboration in summary by providing the opportunity for enhanced business tax income this project will deliver sustained economic value that will ultimately far exceed its direct fiscal cost there are many in the audience who support Willard Sherwood with those who support this project are willing to pay reasonable fees for usage and approve of",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000152",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_02",
-          "speaker_status": "unresolved",
-          "start": 2640.18,
-          "end": 2653.98,
-          "text": "Their tax dollars paying both capital cost and operating costs please stand up our next speaker is Dale Lucena thank you",
-          "is_target": false
-        }
-      ]
-    },
-    {
       "turn_id": "turn_000152",
       "speaker_raw": "SPEAKER_02",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
+      "review_reason": "hold_back_text",
       "start": 2640.18,
       "end": 2653.98,
       "text": "Their tax dollars paying both capital cost and operating costs please stand up our next speaker is Dale Lucena thank you",
@@ -1637,9 +782,9 @@
       "context": [
         {
           "turn_id": "turn_000151",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Janice Miller",
           "speaker_raw": "SPEAKER_02",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 2597.14,
           "end": 2640.18,
           "text": "Preserve green space through joint development it uses external funding to reduce city exposure it strengthens downtown downtown vitality it supports quality of life it builds on past city-county partnerships and establishes a model for future city-county collaboration in summary by providing the opportunity for enhanced business tax income this project will deliver sustained economic value that will ultimately far exceed its direct fiscal cost there are many in the audience who support Willard Sherwood with those who support this project are willing to pay reasonable fees for usage and approve of",
@@ -1656,1048 +801,13 @@
           "is_target": true
         },
         {
-          "turn_id": "turn_000153",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2653.98,
-          "end": 2656.04,
-          "text": "You",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000153",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 2653.98,
-      "end": 2656.04,
-      "text": "You",
-      "word_count": 1,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000152",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_02",
-          "speaker_status": "unresolved",
-          "start": 2640.18,
-          "end": 2653.98,
-          "text": "Their tax dollars paying both capital cost and operating costs please stand up our next speaker is Dale Lucena thank you",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000153",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2653.98,
-          "end": 2656.04,
-          "text": "You",
-          "is_target": true
-        },
-        {
           "turn_id": "turn_000154",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Dale Lucena",
           "speaker_raw": "SPEAKER_29",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 2672.94,
           "end": 2689.42,
           "text": "Good evening madam mayor city council members and assembled city staff I have I'd like to speak to just two issues with my in my a lot of time the first is",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000154",
-      "speaker_raw": "SPEAKER_29",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 2672.94,
-      "end": 2689.42,
-      "text": "Good evening madam mayor city council members and assembled city staff I have I'd like to speak to just two issues with my in my a lot of time the first is",
-      "word_count": 32,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000153",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2653.98,
-          "end": 2656.04,
-          "text": "You",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000154",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_29",
-          "speaker_status": "unresolved",
-          "start": 2672.94,
-          "end": 2689.42,
-          "text": "Good evening madam mayor city council members and assembled city staff I have I'd like to speak to just two issues with my in my a lot of time the first is",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000155",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2689.42,
-          "end": 2699.78,
-          "text": "The Willard Community Center all the good things that have been said about it I support would add one other thing that I didn't hear yet and that is",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000155",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 2689.42,
-      "end": 2699.78,
-      "text": "The Willard Community Center all the good things that have been said about it I support would add one other thing that I didn't hear yet and that is",
-      "word_count": 29,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000154",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_29",
-          "speaker_status": "unresolved",
-          "start": 2672.94,
-          "end": 2689.42,
-          "text": "Good evening madam mayor city council members and assembled city staff I have I'd like to speak to just two issues with my in my a lot of time the first is",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000155",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2689.42,
-          "end": 2699.78,
-          "text": "The Willard Community Center all the good things that have been said about it I support would add one other thing that I didn't hear yet and that is",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000156",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_29",
-          "speaker_status": "unresolved",
-          "start": 2699.78,
-          "end": 2718.3,
-          "text": "Combining the community center in the center of the city think is it just makes sense to me and it's a great opportunity to reinforce old town as a hub of daily activities which has been necessary for a long time and we've",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000156",
-      "speaker_raw": "SPEAKER_29",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 2699.78,
-      "end": 2718.3,
-      "text": "Combining the community center in the center of the city think is it just makes sense to me and it's a great opportunity to reinforce old town as a hub of daily activities which has been necessary for a long time and we've",
-      "word_count": 43,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000155",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2689.42,
-          "end": 2699.78,
-          "text": "The Willard Community Center all the good things that have been said about it I support would add one other thing that I didn't hear yet and that is",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000156",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_29",
-          "speaker_status": "unresolved",
-          "start": 2699.78,
-          "end": 2718.3,
-          "text": "Combining the community center in the center of the city think is it just makes sense to me and it's a great opportunity to reinforce old town as a hub of daily activities which has been necessary for a long time and we've",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000157",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2718.3,
-          "end": 2724.26,
-          "text": "Talked about that quite a bit so I recommend that you support the that",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000157",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 2718.3,
-      "end": 2724.26,
-      "text": "Talked about that quite a bit so I recommend that you support the that",
-      "word_count": 14,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000156",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_29",
-          "speaker_status": "unresolved",
-          "start": 2699.78,
-          "end": 2718.3,
-          "text": "Combining the community center in the center of the city think is it just makes sense to me and it's a great opportunity to reinforce old town as a hub of daily activities which has been necessary for a long time and we've",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000157",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2718.3,
-          "end": 2724.26,
-          "text": "Talked about that quite a bit so I recommend that you support the that",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000158",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_29",
-          "speaker_status": "unresolved",
-          "start": 2724.26,
-          "end": 2748.38,
-          "text": "Issue the other one has to do with the Fairfax Renaissance Housing Corporation which is an organization that provides the city of Fairfax homeowners an attractive opportunity to upgrade and improve the quality of the city's residential neighborhoods over the past 23 years of its existence it has",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000158",
-      "speaker_raw": "SPEAKER_29",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 2724.26,
-      "end": 2748.38,
-      "text": "Issue the other one has to do with the Fairfax Renaissance Housing Corporation which is an organization that provides the city of Fairfax homeowners an attractive opportunity to upgrade and improve the quality of the city's residential neighborhoods over the past 23 years of its existence it has",
-      "word_count": 48,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000157",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2718.3,
-          "end": 2724.26,
-          "text": "Talked about that quite a bit so I recommend that you support the that",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000158",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_29",
-          "speaker_status": "unresolved",
-          "start": 2724.26,
-          "end": 2748.38,
-          "text": "Issue the other one has to do with the Fairfax Renaissance Housing Corporation which is an organization that provides the city of Fairfax homeowners an attractive opportunity to upgrade and improve the quality of the city's residential neighborhoods over the past 23 years of its existence it has",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000159",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2748.38,
-          "end": 2758.3,
-          "text": "Provided funding to 290 improvement loans and has not lost a single penny to",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000159",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 2748.38,
-      "end": 2758.3,
-      "text": "Provided funding to 290 improvement loans and has not lost a single penny to",
-      "word_count": 14,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000158",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_29",
-          "speaker_status": "unresolved",
-          "start": 2724.26,
-          "end": 2748.38,
-          "text": "Issue the other one has to do with the Fairfax Renaissance Housing Corporation which is an organization that provides the city of Fairfax homeowners an attractive opportunity to upgrade and improve the quality of the city's residential neighborhoods over the past 23 years of its existence it has",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000159",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2748.38,
-          "end": 2758.3,
-          "text": "Provided funding to 290 improvement loans and has not lost a single penny to",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000160",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_29",
-          "speaker_status": "unresolved",
-          "start": 2758.3,
-          "end": 2774.74,
-          "text": "A bad loan plus the city gets back money from the housing corporation program due to the permanent improvements that are made and thus the tax that goes with",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000160",
-      "speaker_raw": "SPEAKER_29",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 2758.3,
-      "end": 2774.74,
-      "text": "A bad loan plus the city gets back money from the housing corporation program due to the permanent improvements that are made and thus the tax that goes with",
-      "word_count": 29,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000159",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2748.38,
-          "end": 2758.3,
-          "text": "Provided funding to 290 improvement loans and has not lost a single penny to",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000160",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_29",
-          "speaker_status": "unresolved",
-          "start": 2758.3,
-          "end": 2774.74,
-          "text": "A bad loan plus the city gets back money from the housing corporation program due to the permanent improvements that are made and thus the tax that goes with",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000161",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2774.74,
-          "end": 2785.22,
-          "text": "That permanent improvement goes with the home okay and so when the increase comes",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000161",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 2774.74,
-      "end": 2785.22,
-      "text": "That permanent improvement goes with the home okay and so when the increase comes",
-      "word_count": 14,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000160",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_29",
-          "speaker_status": "unresolved",
-          "start": 2758.3,
-          "end": 2774.74,
-          "text": "A bad loan plus the city gets back money from the housing corporation program due to the permanent improvements that are made and thus the tax that goes with",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000161",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2774.74,
-          "end": 2785.22,
-          "text": "That permanent improvement goes with the home okay and so when the increase comes",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000162",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_29",
-          "speaker_status": "unresolved",
-          "start": 2785.22,
-          "end": 2792.42,
-          "text": "For that and the city which receives a return on its investment and it",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000162",
-      "speaker_raw": "SPEAKER_29",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 2785.22,
-      "end": 2792.42,
-      "text": "For that and the city which receives a return on its investment and it",
-      "word_count": 14,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000161",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2774.74,
-          "end": 2785.22,
-          "text": "That permanent improvement goes with the home okay and so when the increase comes",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000162",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_29",
-          "speaker_status": "unresolved",
-          "start": 2785.22,
-          "end": 2792.42,
-          "text": "For that and the city which receives a return on its investment and it",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000163",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2792.42,
-          "end": 2799.98,
-          "text": "Continues and continues so this program was not funded last year and now we",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000163",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 2792.42,
-      "end": 2799.98,
-      "text": "Continues and continues so this program was not funded last year and now we",
-      "word_count": 14,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000162",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_29",
-          "speaker_status": "unresolved",
-          "start": 2785.22,
-          "end": 2792.42,
-          "text": "For that and the city which receives a return on its investment and it",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000163",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2792.42,
-          "end": 2799.98,
-          "text": "Continues and continues so this program was not funded last year and now we",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000164",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_29",
-          "speaker_status": "unresolved",
-          "start": 2799.98,
-          "end": 2823.22,
-          "text": "Can't do any loans at all because they don't have funds for it and so I strongly urge that this City Council fund it for next year so that we can continue this program because it returns money to you and the person is that the people that get the improvements like it a lot believe me I thank you for your",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000164",
-      "speaker_raw": "SPEAKER_29",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 2799.98,
-      "end": 2823.22,
-      "text": "Can't do any loans at all because they don't have funds for it and so I strongly urge that this City Council fund it for next year so that we can continue this program because it returns money to you and the person is that the people that get the improvements like it a lot believe me I thank you for your",
-      "word_count": 62,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000163",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2792.42,
-          "end": 2799.98,
-          "text": "Continues and continues so this program was not funded last year and now we",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000164",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_29",
-          "speaker_status": "unresolved",
-          "start": 2799.98,
-          "end": 2823.22,
-          "text": "Can't do any loans at all because they don't have funds for it and so I strongly urge that this City Council fund it for next year so that we can continue this program because it returns money to you and the person is that the people that get the improvements like it a lot believe me I thank you for your",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000165",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_15",
-          "speaker_status": "unresolved",
-          "start": 2823.22,
-          "end": 2830.06,
-          "text": "Kind attention our next speakers Rebecca Rader",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000165",
-      "speaker_raw": "SPEAKER_15",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 2823.22,
-      "end": 2830.06,
-      "text": "Kind attention our next speakers Rebecca Rader",
-      "word_count": 7,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000164",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_29",
-          "speaker_status": "unresolved",
-          "start": 2799.98,
-          "end": 2823.22,
-          "text": "Can't do any loans at all because they don't have funds for it and so I strongly urge that this City Council fund it for next year so that we can continue this program because it returns money to you and the person is that the people that get the improvements like it a lot believe me I thank you for your",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000165",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_15",
-          "speaker_status": "unresolved",
-          "start": 2823.22,
-          "end": 2830.06,
-          "text": "Kind attention our next speakers Rebecca Rader",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000166",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_16",
-          "speaker_status": "unresolved",
-          "start": 2838.7,
-          "end": 2855.5,
-          "text": "Good evening thank you for the opportunity to speak with you tonight my name is Becky Rager I live at 4141 Evergreen Drive been there for 31 years I'm a current member of the Fairfax Village in the City Advisory Board",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000166",
-      "speaker_raw": "SPEAKER_16",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 2838.7,
-      "end": 2855.5,
-      "text": "Good evening thank you for the opportunity to speak with you tonight my name is Becky Rager I live at 4141 Evergreen Drive been there for 31 years I'm a current member of the Fairfax Village in the City Advisory Board",
-      "word_count": 41,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000165",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_15",
-          "speaker_status": "unresolved",
-          "start": 2823.22,
-          "end": 2830.06,
-          "text": "Kind attention our next speakers Rebecca Rader",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000166",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_16",
-          "speaker_status": "unresolved",
-          "start": 2838.7,
-          "end": 2855.5,
-          "text": "Good evening thank you for the opportunity to speak with you tonight my name is Becky Rager I live at 4141 Evergreen Drive been there for 31 years I'm a current member of the Fairfax Village in the City Advisory Board",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000167",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2855.5,
-          "end": 2860.58,
-          "text": "Spoke to you last month in overall support of the Willard Sherwood Health",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000167",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 2855.5,
-      "end": 2860.58,
-      "text": "Spoke to you last month in overall support of the Willard Sherwood Health",
-      "word_count": 13,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000166",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_16",
-          "speaker_status": "unresolved",
-          "start": 2838.7,
-          "end": 2855.5,
-          "text": "Good evening thank you for the opportunity to speak with you tonight my name is Becky Rager I live at 4141 Evergreen Drive been there for 31 years I'm a current member of the Fairfax Village in the City Advisory Board",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000167",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2855.5,
-          "end": 2860.58,
-          "text": "Spoke to you last month in overall support of the Willard Sherwood Health",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000168",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_16",
-          "speaker_status": "unresolved",
-          "start": 2860.58,
-          "end": 2887.38,
-          "text": "Center and the Community Center I'm here today to briefly express how the village in the city could enhance services as a result of the new facility I'm mentioning a few possibilities today as we move forward the Advisory Board members village members and volunteers can brainstorm other possibilities for expanded services that directly support older adults and those with disabilities",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000168",
-      "speaker_raw": "SPEAKER_16",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 2860.58,
-      "end": 2887.38,
-      "text": "Center and the Community Center I'm here today to briefly express how the village in the city could enhance services as a result of the new facility I'm mentioning a few possibilities today as we move forward the Advisory Board members village members and volunteers can brainstorm other possibilities for expanded services that directly support older adults and those with disabilities",
-      "word_count": 61,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000167",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2855.5,
-          "end": 2860.58,
-          "text": "Spoke to you last month in overall support of the Willard Sherwood Health",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000168",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_16",
-          "speaker_status": "unresolved",
-          "start": 2860.58,
-          "end": 2887.38,
-          "text": "Center and the Community Center I'm here today to briefly express how the village in the city could enhance services as a result of the new facility I'm mentioning a few possibilities today as we move forward the Advisory Board members village members and volunteers can brainstorm other possibilities for expanded services that directly support older adults and those with disabilities",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000169",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2887.38,
-          "end": 2896.98,
-          "text": "Beyond what is currently available we will also work with the Willard Health Center and the Green Acres staff to create new programs which could include",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000169",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 2887.38,
-      "end": 2896.98,
-      "text": "Beyond what is currently available we will also work with the Willard Health Center and the Green Acres staff to create new programs which could include",
-      "word_count": 26,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000168",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_16",
-          "speaker_status": "unresolved",
-          "start": 2860.58,
-          "end": 2887.38,
-          "text": "Center and the Community Center I'm here today to briefly express how the village in the city could enhance services as a result of the new facility I'm mentioning a few possibilities today as we move forward the Advisory Board members village members and volunteers can brainstorm other possibilities for expanded services that directly support older adults and those with disabilities",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000169",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2887.38,
-          "end": 2896.98,
-          "text": "Beyond what is currently available we will also work with the Willard Health Center and the Green Acres staff to create new programs which could include",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000170",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_16",
-          "speaker_status": "unresolved",
-          "start": 2897.22,
-          "end": 2937.94,
-          "text": "And I'm just listing a few intergenerational activities such as tutoring or reading to the children in the child care center working on shared craft projects in dedicated spaces where projects could remain until completed growing and maintaining a rooftop or the garden and creating a gardening circle working with the neighboring Willard Health Center to have a memory cafe once a month where people who are in the early stages of cognitive impairment and their caregivers can meet socialize and trade ideas developing workshops designed",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000170",
-      "speaker_raw": "SPEAKER_16",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 2897.22,
-      "end": 2937.94,
-      "text": "And I'm just listing a few intergenerational activities such as tutoring or reading to the children in the child care center working on shared craft projects in dedicated spaces where projects could remain until completed growing and maintaining a rooftop or the garden and creating a gardening circle working with the neighboring Willard Health Center to have a memory cafe once a month where people who are in the early stages of cognitive impairment and their caregivers can meet socialize and trade ideas developing workshops designed",
-      "word_count": 86,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000169",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2887.38,
-          "end": 2896.98,
-          "text": "Beyond what is currently available we will also work with the Willard Health Center and the Green Acres staff to create new programs which could include",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000170",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_16",
-          "speaker_status": "unresolved",
-          "start": 2897.22,
-          "end": 2937.94,
-          "text": "And I'm just listing a few intergenerational activities such as tutoring or reading to the children in the child care center working on shared craft projects in dedicated spaces where projects could remain until completed growing and maintaining a rooftop or the garden and creating a gardening circle working with the neighboring Willard Health Center to have a memory cafe once a month where people who are in the early stages of cognitive impairment and their caregivers can meet socialize and trade ideas developing workshops designed",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000171",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2937.94,
-          "end": 2943.14,
-          "text": "To improve memory and cognitive function creating a digital storytelling club",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000171",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 2937.94,
-      "end": 2943.14,
-      "text": "To improve memory and cognitive function creating a digital storytelling club",
-      "word_count": 11,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000170",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_16",
-          "speaker_status": "unresolved",
-          "start": 2897.22,
-          "end": 2937.94,
-          "text": "And I'm just listing a few intergenerational activities such as tutoring or reading to the children in the child care center working on shared craft projects in dedicated spaces where projects could remain until completed growing and maintaining a rooftop or the garden and creating a gardening circle working with the neighboring Willard Health Center to have a memory cafe once a month where people who are in the early stages of cognitive impairment and their caregivers can meet socialize and trade ideas developing workshops designed",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000171",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2937.94,
-          "end": 2943.14,
-          "text": "To improve memory and cognitive function creating a digital storytelling club",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000172",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_16",
-          "speaker_status": "unresolved",
-          "start": 2943.14,
-          "end": 2974.86,
-          "text": "Where seniors use technology and record their life stories and conducting a vintage hat and fashion showcase where members bring in their vintage collections and show them and then discuss the stories behind them all of these proposed suggestions could be done without additional staffing costs as members are not just consumers they are staff our village consists of members and volunteers with an extensive variety of backgrounds and experience",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000172",
-      "speaker_raw": "SPEAKER_16",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 2943.14,
-      "end": 2974.86,
-      "text": "Where seniors use technology and record their life stories and conducting a vintage hat and fashion showcase where members bring in their vintage collections and show them and then discuss the stories behind them all of these proposed suggestions could be done without additional staffing costs as members are not just consumers they are staff our village consists of members and volunteers with an extensive variety of backgrounds and experience",
-      "word_count": 70,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000171",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2937.94,
-          "end": 2943.14,
-          "text": "To improve memory and cognitive function creating a digital storytelling club",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000172",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_16",
-          "speaker_status": "unresolved",
-          "start": 2943.14,
-          "end": 2974.86,
-          "text": "Where seniors use technology and record their life stories and conducting a vintage hat and fashion showcase where members bring in their vintage collections and show them and then discuss the stories behind them all of these proposed suggestions could be done without additional staffing costs as members are not just consumers they are staff our village consists of members and volunteers with an extensive variety of backgrounds and experience",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000173",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2974.86,
-          "end": 2980.98,
-          "text": "For example a member might receive a ride to the doctor one day and",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000173",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 2974.86,
-      "end": 2980.98,
-      "text": "For example a member might receive a ride to the doctor one day and",
-      "word_count": 14,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000172",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_16",
-          "speaker_status": "unresolved",
-          "start": 2943.14,
-          "end": 2974.86,
-          "text": "Where seniors use technology and record their life stories and conducting a vintage hat and fashion showcase where members bring in their vintage collections and show them and then discuss the stories behind them all of these proposed suggestions could be done without additional staffing costs as members are not just consumers they are staff our village consists of members and volunteers with an extensive variety of backgrounds and experience",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000173",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2974.86,
-          "end": 2980.98,
-          "text": "For example a member might receive a ride to the doctor one day and",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000174",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_16",
-          "speaker_status": "unresolved",
-          "start": 2981.06,
-          "end": 3003.52,
-          "text": "Facilitate a workshop the next this creates a sustainable model for future programs without additional cost I believe the new Willard Sherwood facility with all the infrastructure enhancements will provide is necessary to continue to deliver modern equitable full services for the entire community Thank you",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000174",
-      "speaker_raw": "SPEAKER_16",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 2981.06,
-      "end": 3003.52,
-      "text": "Facilitate a workshop the next this creates a sustainable model for future programs without additional cost I believe the new Willard Sherwood facility with all the infrastructure enhancements will provide is necessary to continue to deliver modern equitable full services for the entire community Thank you",
-      "word_count": 46,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000173",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 2974.86,
-          "end": 2980.98,
-          "text": "For example a member might receive a ride to the doctor one day and",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000174",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_16",
-          "speaker_status": "unresolved",
-          "start": 2981.06,
-          "end": 3003.52,
-          "text": "Facilitate a workshop the next this creates a sustainable model for future programs without additional cost I believe the new Willard Sherwood facility with all the infrastructure enhancements will provide is necessary to continue to deliver modern equitable full services for the entire community Thank you",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000175",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_15",
-          "speaker_status": "unresolved",
-          "start": 3005.4,
-          "end": 3007.36,
-          "text": "Our next speaker is Alan Glenn",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000175",
-      "speaker_raw": "SPEAKER_15",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 3005.4,
-      "end": 3007.36,
-      "text": "Our next speaker is Alan Glenn",
-      "word_count": 6,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000174",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_16",
-          "speaker_status": "unresolved",
-          "start": 2981.06,
-          "end": 3003.52,
-          "text": "Facilitate a workshop the next this creates a sustainable model for future programs without additional cost I believe the new Willard Sherwood facility with all the infrastructure enhancements will provide is necessary to continue to deliver modern equitable full services for the entire community Thank you",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000175",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_15",
-          "speaker_status": "unresolved",
-          "start": 3005.4,
-          "end": 3007.36,
-          "text": "Our next speaker is Alan Glenn",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000176",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_04",
-          "speaker_status": "unresolved",
-          "start": 3016.48,
-          "end": 3060.16,
-          "text": "Thank you. Alan Glenn, long time resident of the city and now a resident just outside the city. I wanted to speak tonight also in favor of the project that Willard Health Center, Sherwood Center. Both on my wife's behalf, Judy Blanchard and myself, we're strongly in support of it. We've benefited from some of the services over the years. Our kids were vaccinated at the health center in their early childhood period. We've had other counseling and services over the years. We've both of us have used the senior center",
           "is_target": false
         }
       ]
@@ -2705,9 +815,9 @@
     {
       "turn_id": "turn_000176",
       "speaker_raw": "SPEAKER_04",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
+      "speaker_public": "Alan Glenn",
+      "speaker_status": "approved",
+      "review_reason": "reviewed:approve_named_official",
       "start": 3016.48,
       "end": 3060.16,
       "text": "Thank you. Alan Glenn, long time resident of the city and now a resident just outside the city. I wanted to speak tonight also in favor of the project that Willard Health Center, Sherwood Center. Both on my wife's behalf, Judy Blanchard and myself, we're strongly in support of it. We've benefited from some of the services over the years. Our kids were vaccinated at the health center in their early childhood period. We've had other counseling and services over the years. We've both of us have used the senior center",
@@ -2717,9 +827,9 @@
       "context": [
         {
           "turn_id": "turn_000175",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Mayor Catherine Read",
           "speaker_raw": "SPEAKER_15",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 3005.4,
           "end": 3007.36,
           "text": "Our next speaker is Alan Glenn",
@@ -2727,9 +837,9 @@
         },
         {
           "turn_id": "turn_000176",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Alan Glenn",
           "speaker_raw": "SPEAKER_04",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 3016.48,
           "end": 3060.16,
           "text": "Thank you. Alan Glenn, long time resident of the city and now a resident just outside the city. I wanted to speak tonight also in favor of the project that Willard Health Center, Sherwood Center. Both on my wife's behalf, Judy Blanchard and myself, we're strongly in support of it. We've benefited from some of the services over the years. Our kids were vaccinated at the health center in their early childhood period. We've had other counseling and services over the years. We've both of us have used the senior center",
@@ -2737,102 +847,12 @@
         },
         {
           "turn_id": "turn_000177",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Alan Glenn",
           "speaker_raw": "SPEAKER_04",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 3060.16,
           "end": 3095.58,
           "text": "And continue to be members there. think the expanded opportunities for childcare and public health that'll be offered and available through this project are very much in demand. To me, this project is one of a number that I consider crown jewels in the community where the city partners with the county in coming up with a wonderful facility to serve everyone, including the public schools where both our kids went and the public library that we've used",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000177",
-      "speaker_raw": "SPEAKER_04",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 3060.16,
-      "end": 3095.58,
-      "text": "And continue to be members there. think the expanded opportunities for childcare and public health that'll be offered and available through this project are very much in demand. To me, this project is one of a number that I consider crown jewels in the community where the city partners with the county in coming up with a wonderful facility to serve everyone, including the public schools where both our kids went and the public library that we've used",
-      "word_count": 78,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000176",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_04",
-          "speaker_status": "unresolved",
-          "start": 3016.48,
-          "end": 3060.16,
-          "text": "Thank you. Alan Glenn, long time resident of the city and now a resident just outside the city. I wanted to speak tonight also in favor of the project that Willard Health Center, Sherwood Center. Both on my wife's behalf, Judy Blanchard and myself, we're strongly in support of it. We've benefited from some of the services over the years. Our kids were vaccinated at the health center in their early childhood period. We've had other counseling and services over the years. We've both of us have used the senior center",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000177",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_04",
-          "speaker_status": "unresolved",
-          "start": 3060.16,
-          "end": 3095.58,
-          "text": "And continue to be members there. think the expanded opportunities for childcare and public health that'll be offered and available through this project are very much in demand. To me, this project is one of a number that I consider crown jewels in the community where the city partners with the county in coming up with a wonderful facility to serve everyone, including the public schools where both our kids went and the public library that we've used",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000178",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_04",
-          "speaker_status": "unresolved",
-          "start": 3102.14,
-          "end": 3146.82,
-          "text": "And the health centers. Personally, think you all have a difficult job as elected leaders to a two-year term where you have to consider the strategic needs of the community and balance them against costs and budgetary issues. But think in this case, the project will serve a need to re-update and replace the senior center that's now at Green Acres and provide better health and public services and childcare and early childhood health for residents. The nice thing about this is it serves everybody",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000178",
-      "speaker_raw": "SPEAKER_04",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 3102.14,
-      "end": 3146.82,
-      "text": "And the health centers. Personally, think you all have a difficult job as elected leaders to a two-year term where you have to consider the strategic needs of the community and balance them against costs and budgetary issues. But think in this case, the project will serve a need to re-update and replace the senior center that's now at Green Acres and provide better health and public services and childcare and early childhood health for residents. The nice thing about this is it serves everybody",
-      "word_count": 85,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000177",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_04",
-          "speaker_status": "unresolved",
-          "start": 3060.16,
-          "end": 3095.58,
-          "text": "And continue to be members there. think the expanded opportunities for childcare and public health that'll be offered and available through this project are very much in demand. To me, this project is one of a number that I consider crown jewels in the community where the city partners with the county in coming up with a wonderful facility to serve everyone, including the public schools where both our kids went and the public library that we've used",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000178",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_04",
-          "speaker_status": "unresolved",
-          "start": 3102.14,
-          "end": 3146.82,
-          "text": "And the health centers. Personally, think you all have a difficult job as elected leaders to a two-year term where you have to consider the strategic needs of the community and balance them against costs and budgetary issues. But think in this case, the project will serve a need to re-update and replace the senior center that's now at Green Acres and provide better health and public services and childcare and early childhood health for residents. The nice thing about this is it serves everybody",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000179",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_04",
-          "speaker_status": "unresolved",
-          "start": 3146.82,
-          "end": 3192.98,
-          "text": "In the community, regardless of age, income, strata, or which neighborhood you live in. So to me, it's definitely needed and I strongly support it. Thank you very much. Oh, as long as I've got 30 seconds left, let me just say Mr. Lustina, who was the previous speaker, would like to endorse his comments. I served on the board with him for five years of the Housing Renaissance Corporation. That was one of three city boards that I've had the privilege to serve on over the years. And think that board and the funding from the city served a important need to maintain and upgrade existing housing stock in the city Thank you",
           "is_target": false
         }
       ]
@@ -2840,9 +860,9 @@
     {
       "turn_id": "turn_000179",
       "speaker_raw": "SPEAKER_04",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
+      "speaker_public": "Alan Glenn",
+      "speaker_status": "approved",
+      "review_reason": "reviewed:approve_named_official",
       "start": 3146.82,
       "end": 3192.98,
       "text": "In the community, regardless of age, income, strata, or which neighborhood you live in. So to me, it's definitely needed and I strongly support it. Thank you very much. Oh, as long as I've got 30 seconds left, let me just say Mr. Lustina, who was the previous speaker, would like to endorse his comments. I served on the board with him for five years of the Housing Renaissance Corporation. That was one of three city boards that I've had the privilege to serve on over the years. And think that board and the funding from the city served a important need to maintain and upgrade existing housing stock in the city Thank you",
@@ -2852,9 +872,9 @@
       "context": [
         {
           "turn_id": "turn_000178",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Alan Glenn",
           "speaker_raw": "SPEAKER_04",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 3102.14,
           "end": 3146.82,
           "text": "And the health centers. Personally, think you all have a difficult job as elected leaders to a two-year term where you have to consider the strategic needs of the community and balance them against costs and budgetary issues. But think in this case, the project will serve a need to re-update and replace the senior center that's now at Green Acres and provide better health and public services and childcare and early childhood health for residents. The nice thing about this is it serves everybody",
@@ -2862,9 +882,9 @@
         },
         {
           "turn_id": "turn_000179",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Alan Glenn",
           "speaker_raw": "SPEAKER_04",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 3146.82,
           "end": 3192.98,
           "text": "In the community, regardless of age, income, strata, or which neighborhood you live in. So to me, it's definitely needed and I strongly support it. Thank you very much. Oh, as long as I've got 30 seconds left, let me just say Mr. Lustina, who was the previous speaker, would like to endorse his comments. I served on the board with him for five years of the Housing Renaissance Corporation. That was one of three city boards that I've had the privilege to serve on over the years. And think that board and the funding from the city served a important need to maintain and upgrade existing housing stock in the city Thank you",
@@ -2872,57 +892,12 @@
         },
         {
           "turn_id": "turn_000180",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Mayor Catherine Read",
           "speaker_raw": "SPEAKER_15",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 3194.62,
           "end": 3196.78,
           "text": "Our next speaker is William Pitchford",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000180",
-      "speaker_raw": "SPEAKER_15",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 3194.62,
-      "end": 3196.78,
-      "text": "Our next speaker is William Pitchford",
-      "word_count": 6,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000179",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_04",
-          "speaker_status": "unresolved",
-          "start": 3146.82,
-          "end": 3192.98,
-          "text": "In the community, regardless of age, income, strata, or which neighborhood you live in. So to me, it's definitely needed and I strongly support it. Thank you very much. Oh, as long as I've got 30 seconds left, let me just say Mr. Lustina, who was the previous speaker, would like to endorse his comments. I served on the board with him for five years of the Housing Renaissance Corporation. That was one of three city boards that I've had the privilege to serve on over the years. And think that board and the funding from the city served a important need to maintain and upgrade existing housing stock in the city Thank you",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000180",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_15",
-          "speaker_status": "unresolved",
-          "start": 3194.62,
-          "end": 3196.78,
-          "text": "Our next speaker is William Pitchford",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000181",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
-          "start": 3206.3,
-          "end": 3250.16,
-          "text": "Good evening and thank you for the opportunity to speak this evening. My name is William Pitchford. I live on School Street in the city of Fairfax. In two weeks at the April 28th city council meeting, you will be asked to approve a resolution to proceed with the Willard Sherwood Health and Community Center Project and a resolution for the Economic Development Authority to issue bonds to finance such capital projects. I'm asking you to approve both resolutions as it is the best option for the citizens of Fairfax City and the city's overall economic and infrastructure development. I'd like to offer a few points on why you should approve these two measures",
           "is_target": false
         }
       ]
@@ -2930,9 +905,9 @@
     {
       "turn_id": "turn_000181",
       "speaker_raw": "SPEAKER_24",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
+      "speaker_public": "William Pitchford",
+      "speaker_status": "approved",
+      "review_reason": "reviewed:approve_named_official",
       "start": 3206.3,
       "end": 3250.16,
       "text": "Good evening and thank you for the opportunity to speak this evening. My name is William Pitchford. I live on School Street in the city of Fairfax. In two weeks at the April 28th city council meeting, you will be asked to approve a resolution to proceed with the Willard Sherwood Health and Community Center Project and a resolution for the Economic Development Authority to issue bonds to finance such capital projects. I'm asking you to approve both resolutions as it is the best option for the citizens of Fairfax City and the city's overall economic and infrastructure development. I'd like to offer a few points on why you should approve these two measures",
@@ -2942,9 +917,9 @@
       "context": [
         {
           "turn_id": "turn_000180",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Mayor Catherine Read",
           "speaker_raw": "SPEAKER_15",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 3194.62,
           "end": 3196.78,
           "text": "Our next speaker is William Pitchford",
@@ -2952,9 +927,9 @@
         },
         {
           "turn_id": "turn_000181",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "William Pitchford",
           "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 3206.3,
           "end": 3250.16,
           "text": "Good evening and thank you for the opportunity to speak this evening. My name is William Pitchford. I live on School Street in the city of Fairfax. In two weeks at the April 28th city council meeting, you will be asked to approve a resolution to proceed with the Willard Sherwood Health and Community Center Project and a resolution for the Economic Development Authority to issue bonds to finance such capital projects. I'm asking you to approve both resolutions as it is the best option for the citizens of Fairfax City and the city's overall economic and infrastructure development. I'd like to offer a few points on why you should approve these two measures",
@@ -2962,102 +937,12 @@
         },
         {
           "turn_id": "turn_000182",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "William Pitchford",
           "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
+          "speaker_status": "approved",
           "start": 3250.16,
           "end": 3252.66,
           "text": "As you have heard throughout this evening",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000182",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 3250.16,
-      "end": 3252.66,
-      "text": "As you have heard throughout this evening",
-      "word_count": 7,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000181",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
-          "start": 3206.3,
-          "end": 3250.16,
-          "text": "Good evening and thank you for the opportunity to speak this evening. My name is William Pitchford. I live on School Street in the city of Fairfax. In two weeks at the April 28th city council meeting, you will be asked to approve a resolution to proceed with the Willard Sherwood Health and Community Center Project and a resolution for the Economic Development Authority to issue bonds to finance such capital projects. I'm asking you to approve both resolutions as it is the best option for the citizens of Fairfax City and the city's overall economic and infrastructure development. I'd like to offer a few points on why you should approve these two measures",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000182",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 3250.16,
-          "end": 3252.66,
-          "text": "As you have heard throughout this evening",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000183",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
-          "start": 3252.66,
-          "end": 3295.24,
-          "text": "The citizens of Fairfax City are in desperate need for a community center that meets their needs and have expressed this with broad support for the project through two years of design reviews with broad support for the project, oh, with two years of design reviews and approvals from previous and current city council. This is probably the most vetted capital improvement project the city has undertaken. The new Willard Sherwood Community Center will be a joint venture project with Fairfax County. The cost of building and operating the facility is shared, significantly reducing the burden to the city taxpayers",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000183",
-      "speaker_raw": "SPEAKER_24",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 3252.66,
-      "end": 3295.24,
-      "text": "The citizens of Fairfax City are in desperate need for a community center that meets their needs and have expressed this with broad support for the project through two years of design reviews with broad support for the project, oh, with two years of design reviews and approvals from previous and current city council. This is probably the most vetted capital improvement project the city has undertaken. The new Willard Sherwood Community Center will be a joint venture project with Fairfax County. The cost of building and operating the facility is shared, significantly reducing the burden to the city taxpayers",
-      "word_count": 100,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000182",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 3250.16,
-          "end": 3252.66,
-          "text": "As you have heard throughout this evening",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000183",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
-          "start": 3252.66,
-          "end": 3295.24,
-          "text": "The citizens of Fairfax City are in desperate need for a community center that meets their needs and have expressed this with broad support for the project through two years of design reviews with broad support for the project, oh, with two years of design reviews and approvals from previous and current city council. This is probably the most vetted capital improvement project the city has undertaken. The new Willard Sherwood Community Center will be a joint venture project with Fairfax County. The cost of building and operating the facility is shared, significantly reducing the burden to the city taxpayers",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000184",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
-          "start": 3295.24,
-          "end": 3339.22,
-          "text": "This is a generational opportunity for the citizens of Fairfax. Another opportunity like this will most likely not come around again in our lifetime. The current Green Acres facility is completely inadequate to meet the community's current and future needs. The facility was built in 1961 as an elementary school. That was before schools had air conditioning. It was retired in 2000. It was never intended to be a community or senior center. The building is well beyond its useful lifespan. It's located in the center of a residential community, has no public transportation access",
           "is_target": false
         }
       ]
@@ -3065,9 +950,9 @@
     {
       "turn_id": "turn_000184",
       "speaker_raw": "SPEAKER_24",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
+      "speaker_public": "William Pitchford",
+      "speaker_status": "approved",
+      "review_reason": "reviewed:approve_named_official",
       "start": 3295.24,
       "end": 3339.22,
       "text": "This is a generational opportunity for the citizens of Fairfax. Another opportunity like this will most likely not come around again in our lifetime. The current Green Acres facility is completely inadequate to meet the community's current and future needs. The facility was built in 1961 as an elementary school. That was before schools had air conditioning. It was retired in 2000. It was never intended to be a community or senior center. The building is well beyond its useful lifespan. It's located in the center of a residential community, has no public transportation access",
@@ -3077,9 +962,9 @@
       "context": [
         {
           "turn_id": "turn_000183",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "William Pitchford",
           "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 3252.66,
           "end": 3295.24,
           "text": "The citizens of Fairfax City are in desperate need for a community center that meets their needs and have expressed this with broad support for the project through two years of design reviews with broad support for the project, oh, with two years of design reviews and approvals from previous and current city council. This is probably the most vetted capital improvement project the city has undertaken. The new Willard Sherwood Community Center will be a joint venture project with Fairfax County. The cost of building and operating the facility is shared, significantly reducing the burden to the city taxpayers",
@@ -3087,9 +972,9 @@
         },
         {
           "turn_id": "turn_000184",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "William Pitchford",
           "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 3295.24,
           "end": 3339.22,
           "text": "This is a generational opportunity for the citizens of Fairfax. Another opportunity like this will most likely not come around again in our lifetime. The current Green Acres facility is completely inadequate to meet the community's current and future needs. The facility was built in 1961 as an elementary school. That was before schools had air conditioning. It was retired in 2000. It was never intended to be a community or senior center. The building is well beyond its useful lifespan. It's located in the center of a residential community, has no public transportation access",
@@ -3097,57 +982,12 @@
         },
         {
           "turn_id": "turn_000185",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "William Pitchford",
           "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
+          "speaker_status": "approved",
           "start": 3339.22,
           "end": 3343.58,
           "text": "Poor ADA compliance, and a dangerous parking lot",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000185",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 3339.22,
-      "end": 3343.58,
-      "text": "Poor ADA compliance, and a dangerous parking lot",
-      "word_count": 8,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000184",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
-          "start": 3295.24,
-          "end": 3339.22,
-          "text": "This is a generational opportunity for the citizens of Fairfax. Another opportunity like this will most likely not come around again in our lifetime. The current Green Acres facility is completely inadequate to meet the community's current and future needs. The facility was built in 1961 as an elementary school. That was before schools had air conditioning. It was retired in 2000. It was never intended to be a community or senior center. The building is well beyond its useful lifespan. It's located in the center of a residential community, has no public transportation access",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000185",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 3339.22,
-          "end": 3343.58,
-          "text": "Poor ADA compliance, and a dangerous parking lot",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000186",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
-          "start": 3344.26,
-          "end": 3348.82,
-          "text": "Especially at night. I had the honor of attending a Fairfax City Citizens",
           "is_target": false
         }
       ]
@@ -3155,9 +995,9 @@
     {
       "turn_id": "turn_000186",
       "speaker_raw": "SPEAKER_24",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
+      "speaker_public": "William Pitchford",
+      "speaker_status": "approved",
+      "review_reason": "reviewed:approve_named_official",
       "start": 3344.26,
       "end": 3348.82,
       "text": "Especially at night. I had the honor of attending a Fairfax City Citizens",
@@ -3167,9 +1007,9 @@
       "context": [
         {
           "turn_id": "turn_000185",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "William Pitchford",
           "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
+          "speaker_status": "approved",
           "start": 3339.22,
           "end": 3343.58,
           "text": "Poor ADA compliance, and a dangerous parking lot",
@@ -3177,9 +1017,9 @@
         },
         {
           "turn_id": "turn_000186",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "William Pitchford",
           "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 3344.26,
           "end": 3348.82,
           "text": "Especially at night. I had the honor of attending a Fairfax City Citizens",
@@ -3187,327 +1027,12 @@
         },
         {
           "turn_id": "turn_000187",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "William Pitchford",
           "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
+          "speaker_status": "approved",
           "start": 3348.82,
           "end": 3352.38,
           "text": "For Smarter Growth meeting at Green Acres",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000187",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 3348.82,
-      "end": 3352.38,
-      "text": "For Smarter Growth meeting at Green Acres",
-      "word_count": 7,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000186",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
-          "start": 3344.26,
-          "end": 3348.82,
-          "text": "Especially at night. I had the honor of attending a Fairfax City Citizens",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000187",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 3348.82,
-          "end": 3352.38,
-          "text": "For Smarter Growth meeting at Green Acres",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000188",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
-          "start": 3352.38,
-          "end": 3358.88,
-          "text": "In February of this year. Like most community service organizations, this is where they have meetings",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000188",
-      "speaker_raw": "SPEAKER_24",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 3352.38,
-      "end": 3358.88,
-      "text": "In February of this year. Like most community service organizations, this is where they have meetings",
-      "word_count": 16,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000187",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 3348.82,
-          "end": 3352.38,
-          "text": "For Smarter Growth meeting at Green Acres",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000188",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
-          "start": 3352.38,
-          "end": 3358.88,
-          "text": "In February of this year. Like most community service organizations, this is where they have meetings",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000189",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 3358.88,
-          "end": 3362.64,
-          "text": "And just like this council meeting, it started at 7 p.m",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000189",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 3358.88,
-      "end": 3362.64,
-      "text": "And just like this council meeting, it started at 7 p.m",
-      "word_count": 11,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000188",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
-          "start": 3352.38,
-          "end": 3358.88,
-          "text": "In February of this year. Like most community service organizations, this is where they have meetings",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000189",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 3358.88,
-          "end": 3362.64,
-          "text": "And just like this council meeting, it started at 7 p.m",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000190",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
-          "start": 3363.48,
-          "end": 3371.58,
-          "text": "Unlike the normal council meetings, it ended at the decent hour of 8.30, which was still well past sunset",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000190",
-      "speaker_raw": "SPEAKER_24",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 3363.48,
-      "end": 3371.58,
-      "text": "Unlike the normal council meetings, it ended at the decent hour of 8.30, which was still well past sunset",
-      "word_count": 19,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000189",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 3358.88,
-          "end": 3362.64,
-          "text": "And just like this council meeting, it started at 7 p.m",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000190",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
-          "start": 3363.48,
-          "end": 3371.58,
-          "text": "Unlike the normal council meetings, it ended at the decent hour of 8.30, which was still well past sunset",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000191",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 3372.54,
-          "end": 3376.1,
-          "text": "When leaving, when leaving the meeting",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000191",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 3372.54,
-      "end": 3376.1,
-      "text": "When leaving, when leaving the meeting",
-      "word_count": 6,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000190",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
-          "start": 3363.48,
-          "end": 3371.58,
-          "text": "Unlike the normal council meetings, it ended at the decent hour of 8.30, which was still well past sunset",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000191",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 3372.54,
-          "end": 3376.1,
-          "text": "When leaving, when leaving the meeting",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000192",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
-          "start": 3376.1,
-          "end": 3384.0,
-          "text": "Was absolutely shocked to walk out to a darkened parking lot. Having to reverse the narrow, steep staircase",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000192",
-      "speaker_raw": "SPEAKER_24",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 3376.1,
-      "end": 3384.0,
-      "text": "Was absolutely shocked to walk out to a darkened parking lot. Having to reverse the narrow, steep staircase",
-      "word_count": 18,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000191",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 3372.54,
-          "end": 3376.1,
-          "text": "When leaving, when leaving the meeting",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000192",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
-          "start": 3376.1,
-          "end": 3384.0,
-          "text": "Was absolutely shocked to walk out to a darkened parking lot. Having to reverse the narrow, steep staircase",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000193",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 3384.0,
-          "end": 3386.26,
-          "text": "To find my car, I tried to imagine",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000193",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 3384.0,
-      "end": 3386.26,
-      "text": "To find my car, I tried to imagine",
-      "word_count": 8,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000192",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
-          "start": 3376.1,
-          "end": 3384.0,
-          "text": "Was absolutely shocked to walk out to a darkened parking lot. Having to reverse the narrow, steep staircase",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000193",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 3384.0,
-          "end": 3386.26,
-          "text": "To find my car, I tried to imagine",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000194",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
-          "start": 3386.26,
-          "end": 3418.86,
-          "text": "What someone 10 to 15 years older than would do. Basically, they would stop participating in their community after dark. For those of you who have any reservations about the Neifert Project, would challenge you to hold an official city meeting at Green Acres. It doesn't have to be the next council meeting, but it could be a planning commission or economic development authority meeting. In conclusion, I'm asking you to approve the two resolutions at the April 28th council meeting Thank you",
           "is_target": false
         }
       ]
@@ -3515,9 +1040,9 @@
     {
       "turn_id": "turn_000194",
       "speaker_raw": "SPEAKER_24",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
+      "speaker_public": "William Pitchford",
+      "speaker_status": "approved",
+      "review_reason": "reviewed:approve_named_official",
       "start": 3386.26,
       "end": 3418.86,
       "text": "What someone 10 to 15 years older than would do. Basically, they would stop participating in their community after dark. For those of you who have any reservations about the Neifert Project, would challenge you to hold an official city meeting at Green Acres. It doesn't have to be the next council meeting, but it could be a planning commission or economic development authority meeting. In conclusion, I'm asking you to approve the two resolutions at the April 28th council meeting Thank you",
@@ -3527,9 +1052,9 @@
       "context": [
         {
           "turn_id": "turn_000193",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "William Pitchford",
           "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
+          "speaker_status": "approved",
           "start": 3384.0,
           "end": 3386.26,
           "text": "To find my car, I tried to imagine",
@@ -3537,9 +1062,9 @@
         },
         {
           "turn_id": "turn_000194",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "William Pitchford",
           "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 3386.26,
           "end": 3418.86,
           "text": "What someone 10 to 15 years older than would do. Basically, they would stop participating in their community after dark. For those of you who have any reservations about the Neifert Project, would challenge you to hold an official city meeting at Green Acres. It doesn't have to be the next council meeting, but it could be a planning commission or economic development authority meeting. In conclusion, I'm asking you to approve the two resolutions at the April 28th council meeting Thank you",
@@ -3547,57 +1072,12 @@
         },
         {
           "turn_id": "turn_000195",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Mayor Catherine Read",
           "speaker_raw": "SPEAKER_15",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 3420.46,
           "end": 3422.58,
           "text": "Our last speaker is Toby Sorenson",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000195",
-      "speaker_raw": "SPEAKER_15",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 3420.46,
-      "end": 3422.58,
-      "text": "Our last speaker is Toby Sorenson",
-      "word_count": 6,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000194",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_24",
-          "speaker_status": "unresolved",
-          "start": 3386.26,
-          "end": 3418.86,
-          "text": "What someone 10 to 15 years older than would do. Basically, they would stop participating in their community after dark. For those of you who have any reservations about the Neifert Project, would challenge you to hold an official city meeting at Green Acres. It doesn't have to be the next council meeting, but it could be a planning commission or economic development authority meeting. In conclusion, I'm asking you to approve the two resolutions at the April 28th council meeting Thank you",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000195",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_15",
-          "speaker_status": "unresolved",
-          "start": 3420.46,
-          "end": 3422.58,
-          "text": "Our last speaker is Toby Sorenson",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000196",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_11",
-          "speaker_status": "unresolved",
-          "start": 3434.62,
-          "end": 3459.94,
-          "text": "Good evening. Toby Sorenson, 10137 Spring Lake Terrace. Mayor Reed and council members, the reason am once again here to speak about supporting the Willard Sherwood Health and Community Center is because many of us still do not know whether you are going to vote to fund it on April 28th or not. If any of you are still undecided to vote, please consider the following. If you vote for the funding, there are many things",
           "is_target": false
         }
       ]
@@ -3605,9 +1085,9 @@
     {
       "turn_id": "turn_000196",
       "speaker_raw": "SPEAKER_11",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
+      "speaker_public": "Toby Sorenson",
+      "speaker_status": "approved",
+      "review_reason": "reviewed:approve_named_official",
       "start": 3434.62,
       "end": 3459.94,
       "text": "Good evening. Toby Sorenson, 10137 Spring Lake Terrace. Mayor Reed and council members, the reason am once again here to speak about supporting the Willard Sherwood Health and Community Center is because many of us still do not know whether you are going to vote to fund it on April 28th or not. If any of you are still undecided to vote, please consider the following. If you vote for the funding, there are many things",
@@ -3617,9 +1097,9 @@
       "context": [
         {
           "turn_id": "turn_000195",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Mayor Catherine Read",
           "speaker_raw": "SPEAKER_15",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 3420.46,
           "end": 3422.58,
           "text": "Our last speaker is Toby Sorenson",
@@ -3627,9 +1107,9 @@
         },
         {
           "turn_id": "turn_000196",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Toby Sorenson",
           "speaker_raw": "SPEAKER_11",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 3434.62,
           "end": 3459.94,
           "text": "Good evening. Toby Sorenson, 10137 Spring Lake Terrace. Mayor Reed and council members, the reason am once again here to speak about supporting the Willard Sherwood Health and Community Center is because many of us still do not know whether you are going to vote to fund it on April 28th or not. If any of you are still undecided to vote, please consider the following. If you vote for the funding, there are many things",
@@ -3637,9 +1117,9 @@
         },
         {
           "turn_id": "turn_000197",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Toby Sorenson",
           "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
+          "speaker_status": "approved",
           "start": 3460.78,
           "end": 3461.62,
           "text": "We do know",
@@ -3650,9 +1130,9 @@
     {
       "turn_id": "turn_000197",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
+      "speaker_public": "Toby Sorenson",
+      "speaker_status": "approved",
+      "review_reason": "reviewed:approve_named_official",
       "start": 3460.78,
       "end": 3461.62,
       "text": "We do know",
@@ -3662,9 +1142,9 @@
       "context": [
         {
           "turn_id": "turn_000196",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Toby Sorenson",
           "speaker_raw": "SPEAKER_11",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 3434.62,
           "end": 3459.94,
           "text": "Good evening. Toby Sorenson, 10137 Spring Lake Terrace. Mayor Reed and council members, the reason am once again here to speak about supporting the Willard Sherwood Health and Community Center is because many of us still do not know whether you are going to vote to fund it on April 28th or not. If any of you are still undecided to vote, please consider the following. If you vote for the funding, there are many things",
@@ -3672,9 +1152,9 @@
         },
         {
           "turn_id": "turn_000197",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Toby Sorenson",
           "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
+          "speaker_status": "approved",
           "start": 3460.78,
           "end": 3461.62,
           "text": "We do know",
@@ -3682,57 +1162,12 @@
         },
         {
           "turn_id": "turn_000198",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Toby Sorenson",
           "speaker_raw": "SPEAKER_11",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 3461.62,
           "end": 3504.86,
           "text": "We know what the city's share of the joint project will be thanks to the guaranteed maximum pricing contract. We know what the operating costs will be thanks to the research done by the project consultants. We know the basic level of class and rental fees that will cover operating expenses. We know the higher level of class and rental fees that will cover operating expenses plus provide a surplus that can be put toward the yearly bond payment. We know what the bond payment will be if the city goes to bond this spring. We know that we will be able to keep a senior center and have it located in a modern facility with better services. We know that we will be able to keep",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000198",
-      "speaker_raw": "SPEAKER_11",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 3461.62,
-      "end": 3504.86,
-      "text": "We know what the city's share of the joint project will be thanks to the guaranteed maximum pricing contract. We know what the operating costs will be thanks to the research done by the project consultants. We know the basic level of class and rental fees that will cover operating expenses. We know the higher level of class and rental fees that will cover operating expenses plus provide a surplus that can be put toward the yearly bond payment. We know what the bond payment will be if the city goes to bond this spring. We know that we will be able to keep a senior center and have it located in a modern facility with better services. We know that we will be able to keep",
-      "word_count": 127,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000197",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 3460.78,
-          "end": 3461.62,
-          "text": "We do know",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000198",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_11",
-          "speaker_status": "unresolved",
-          "start": 3461.62,
-          "end": 3504.86,
-          "text": "We know what the city's share of the joint project will be thanks to the guaranteed maximum pricing contract. We know what the operating costs will be thanks to the research done by the project consultants. We know the basic level of class and rental fees that will cover operating expenses. We know the higher level of class and rental fees that will cover operating expenses plus provide a surplus that can be put toward the yearly bond payment. We know what the bond payment will be if the city goes to bond this spring. We know that we will be able to keep a senior center and have it located in a modern facility with better services. We know that we will be able to keep",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000199",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_11",
-          "speaker_status": "unresolved",
-          "start": 3504.86,
-          "end": 3549.38,
-          "text": "A much needed preschool in the city. We know that we will have a well-located community center that will draw people and businesses to the downtown area. We know that we will have continued access to important health department services right in the middle of the city. Finally, we know when this project will be completed. If you do not vote to fund Willard Sherwood, there are many things we will not know. Would we begin again to create a plan to build or rebuild a community center? How much would that new planning cost? Would a new project be located at Green Acres? Would a new project be located elsewhere? Where would that be and how much would it cost?",
           "is_target": false
         }
       ]
@@ -3740,9 +1175,9 @@
     {
       "turn_id": "turn_000199",
       "speaker_raw": "SPEAKER_11",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
+      "speaker_public": "Toby Sorenson",
+      "speaker_status": "approved",
+      "review_reason": "reviewed:approve_named_official",
       "start": 3504.86,
       "end": 3549.38,
       "text": "A much needed preschool in the city. We know that we will have a well-located community center that will draw people and businesses to the downtown area. We know that we will have continued access to important health department services right in the middle of the city. Finally, we know when this project will be completed. If you do not vote to fund Willard Sherwood, there are many things we will not know. Would we begin again to create a plan to build or rebuild a community center? How much would that new planning cost? Would a new project be located at Green Acres? Would a new project be located elsewhere? Where would that be and how much would it cost?",
@@ -3752,9 +1187,9 @@
       "context": [
         {
           "turn_id": "turn_000198",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Toby Sorenson",
           "speaker_raw": "SPEAKER_11",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 3461.62,
           "end": 3504.86,
           "text": "We know what the city's share of the joint project will be thanks to the guaranteed maximum pricing contract. We know what the operating costs will be thanks to the research done by the project consultants. We know the basic level of class and rental fees that will cover operating expenses. We know the higher level of class and rental fees that will cover operating expenses plus provide a surplus that can be put toward the yearly bond payment. We know what the bond payment will be if the city goes to bond this spring. We know that we will be able to keep a senior center and have it located in a modern facility with better services. We know that we will be able to keep",
@@ -3762,9 +1197,9 @@
         },
         {
           "turn_id": "turn_000199",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Toby Sorenson",
           "speaker_raw": "SPEAKER_11",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 3504.86,
           "end": 3549.38,
           "text": "A much needed preschool in the city. We know that we will have a well-located community center that will draw people and businesses to the downtown area. We know that we will have continued access to important health department services right in the middle of the city. Finally, we know when this project will be completed. If you do not vote to fund Willard Sherwood, there are many things we will not know. Would we begin again to create a plan to build or rebuild a community center? How much would that new planning cost? Would a new project be located at Green Acres? Would a new project be located elsewhere? Where would that be and how much would it cost?",
@@ -3772,192 +1207,12 @@
         },
         {
           "turn_id": "turn_000200",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Toby Sorenson",
           "speaker_raw": "SPEAKER_11",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 3549.38,
           "end": 3570.74,
           "text": "How far into the future will we be looking and how much will the cost of bonds be at that time? If we do nothing, will we lose the senior center and the preschool? Since the city council and the county board of supervisors signed a letter of understanding for full design and construction of the joint project",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000200",
-      "speaker_raw": "SPEAKER_11",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 3549.38,
-      "end": 3570.74,
-      "text": "How far into the future will we be looking and how much will the cost of bonds be at that time? If we do nothing, will we lose the senior center and the preschool? Since the city council and the county board of supervisors signed a letter of understanding for full design and construction of the joint project",
-      "word_count": 58,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000199",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_11",
-          "speaker_status": "unresolved",
-          "start": 3504.86,
-          "end": 3549.38,
-          "text": "A much needed preschool in the city. We know that we will have a well-located community center that will draw people and businesses to the downtown area. We know that we will have continued access to important health department services right in the middle of the city. Finally, we know when this project will be completed. If you do not vote to fund Willard Sherwood, there are many things we will not know. Would we begin again to create a plan to build or rebuild a community center? How much would that new planning cost? Would a new project be located at Green Acres? Would a new project be located elsewhere? Where would that be and how much would it cost?",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000200",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_11",
-          "speaker_status": "unresolved",
-          "start": 3549.38,
-          "end": 3570.74,
-          "text": "How far into the future will we be looking and how much will the cost of bonds be at that time? If we do nothing, will we lose the senior center and the preschool? Since the city council and the county board of supervisors signed a letter of understanding for full design and construction of the joint project",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000201",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 3570.74,
-          "end": 3574.18,
-          "text": "Would the county expect the city to compensate them",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000201",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 3570.74,
-      "end": 3574.18,
-      "text": "Would the county expect the city to compensate them",
-      "word_count": 9,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000200",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_11",
-          "speaker_status": "unresolved",
-          "start": 3549.38,
-          "end": 3570.74,
-          "text": "How far into the future will we be looking and how much will the cost of bonds be at that time? If we do nothing, will we lose the senior center and the preschool? Since the city council and the county board of supervisors signed a letter of understanding for full design and construction of the joint project",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000201",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 3570.74,
-          "end": 3574.18,
-          "text": "Would the county expect the city to compensate them",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000202",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_11",
-          "speaker_status": "unresolved",
-          "start": 3574.18,
-          "end": 3580.3,
-          "text": "For the money they have spent on the project so far? Would the county expect the city to compensate them",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000202",
-      "speaker_raw": "SPEAKER_11",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 3574.18,
-      "end": 3580.3,
-      "text": "For the money they have spent on the project so far? Would the county expect the city to compensate them",
-      "word_count": 20,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000201",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 3570.74,
-          "end": 3574.18,
-          "text": "Would the county expect the city to compensate them",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000202",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_11",
-          "speaker_status": "unresolved",
-          "start": 3574.18,
-          "end": 3580.3,
-          "text": "For the money they have spent on the project so far? Would the county expect the city to compensate them",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000203",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 3580.3,
-          "end": 3583.18,
-          "text": "For the money it will need to begin their planning",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000203",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 3580.3,
-      "end": 3583.18,
-      "text": "For the money it will need to begin their planning",
-      "word_count": 10,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000202",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_11",
-          "speaker_status": "unresolved",
-          "start": 3574.18,
-          "end": 3580.3,
-          "text": "For the money they have spent on the project so far? Would the county expect the city to compensate them",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000203",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 3580.3,
-          "end": 3583.18,
-          "text": "For the money it will need to begin their planning",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000204",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_11",
-          "speaker_status": "unresolved",
-          "start": 3583.18,
-          "end": 3623.08,
-          "text": "And design process anew? Would the county choose a different location for the health center, one that would not be in the city? If the county chose a different location, what would they decide to do with the land that they own next to the Sherwood Center? We want to continue to have a senior center and a preschool and community spaces for our residents, as well as to have a health department located within the city. If you believe you have a hard decision to make about funding Willard Sherwood, think also about the really hard decisions you will have to make if you don't vote to fund it. Thank you for listening",
           "is_target": false
         }
       ]
@@ -3965,9 +1220,9 @@
     {
       "turn_id": "turn_000204",
       "speaker_raw": "SPEAKER_11",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
+      "speaker_public": "Toby Sorenson",
+      "speaker_status": "approved",
+      "review_reason": "reviewed:approve_named_official",
       "start": 3583.18,
       "end": 3623.08,
       "text": "And design process anew? Would the county choose a different location for the health center, one that would not be in the city? If the county chose a different location, what would they decide to do with the land that they own next to the Sherwood Center? We want to continue to have a senior center and a preschool and community spaces for our residents, as well as to have a health department located within the city. If you believe you have a hard decision to make about funding Willard Sherwood, think also about the really hard decisions you will have to make if you don't vote to fund it. Thank you for listening",
@@ -3977,9 +1232,9 @@
       "context": [
         {
           "turn_id": "turn_000203",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Toby Sorenson",
           "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
+          "speaker_status": "approved",
           "start": 3580.3,
           "end": 3583.18,
           "text": "For the money it will need to begin their planning",
@@ -3987,9 +1242,9 @@
         },
         {
           "turn_id": "turn_000204",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Toby Sorenson",
           "speaker_raw": "SPEAKER_11",
-          "speaker_status": "unresolved",
+          "speaker_status": "approved",
           "start": 3583.18,
           "end": 3623.08,
           "text": "And design process anew? Would the county choose a different location for the health center, one that would not be in the city? If the county chose a different location, what would they decide to do with the land that they own next to the Sherwood Center? We want to continue to have a senior center and a preschool and community spaces for our residents, as well as to have a health department located within the city. If you believe you have a hard decision to make about funding Willard Sherwood, think also about the really hard decisions you will have to make if you don't vote to fund it. Thank you for listening",
@@ -3997,102 +1252,12 @@
         },
         {
           "turn_id": "turn_000205",
-          "speaker_public": "Unknown Speaker",
+          "speaker_public": "Mayor Catherine Read",
           "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
+          "speaker_status": "approved",
           "start": 3623.08,
           "end": 3632.36,
           "text": "We can move to the consent agenda. OK, before we move forward, want",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000205",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 3623.08,
-      "end": 3632.36,
-      "text": "We can move to the consent agenda. OK, before we move forward, want",
-      "word_count": 13,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000204",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_11",
-          "speaker_status": "unresolved",
-          "start": 3583.18,
-          "end": 3623.08,
-          "text": "And design process anew? Would the county choose a different location for the health center, one that would not be in the city? If the county chose a different location, what would they decide to do with the land that they own next to the Sherwood Center? We want to continue to have a senior center and a preschool and community spaces for our residents, as well as to have a health department located within the city. If you believe you have a hard decision to make about funding Willard Sherwood, think also about the really hard decisions you will have to make if you don't vote to fund it. Thank you for listening",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000205",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 3623.08,
-          "end": 3632.36,
-          "text": "We can move to the consent agenda. OK, before we move forward, want",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000206",
-          "speaker_public": "Mayor Catherine Read",
-          "speaker_raw": "SPEAKER_22",
-          "speaker_status": "approved",
-          "start": 3632.36,
-          "end": 3675.04,
-          "text": "To take a moment to briefly address consent agenda items 6F through 6K and 6M. These items are administrative in nature and represent the first step in a multi-step process, what we refer to as the introduction phase. This step is intended to formally notify our residents and business community of the city's proposed actions. There will be a full opportunity for public input at the next stage, which is the public hearing scheduled for our next regular meeting on April 28. Following that, the third and final step will be council consideration and action",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000208",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 3695.72,
-      "end": 3698.96,
-      "text": "Agenda from the dais?",
-      "word_count": 4,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000207",
-          "speaker_public": "Mayor Catherine Read",
-          "speaker_raw": "SPEAKER_22",
-          "speaker_status": "approved",
-          "start": 3675.04,
-          "end": 3695.72,
-          "text": "As part of budget adoption night on May 5. So again, tonight's action is simply to move these items forward in the process and ensure the community is informed and has the opportunity to participate. Are there any questions on any of the items on the consent",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000208",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 3695.72,
-          "end": 3698.96,
-          "text": "Agenda from the dais?",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000209",
-          "speaker_public": "Mayor Catherine Read",
-          "speaker_raw": "SPEAKER_22",
-          "speaker_status": "approved",
-          "start": 3698.96,
-          "end": 3702.88,
-          "text": "Seeing none, is there a motion?",
           "is_target": false
         }
       ]
@@ -4100,9 +1265,9 @@
     {
       "turn_id": "turn_000212",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
+      "review_reason": "reviewed:approve_named_official",
       "start": 3719.92,
       "end": 3722.36,
       "text": "Council Member McQuillan?",
@@ -4122,112 +1287,22 @@
         },
         {
           "turn_id": "turn_000212",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 3719.92,
-          "end": 3722.36,
-          "text": "Council Member McQuillan?",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000213",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_15",
-          "speaker_status": "unresolved",
-          "start": 3722.36,
-          "end": 3731.88,
-          "text": "Aye. Council Member Bates? Aye. Council Member Peterson? Aye. Council Member Hardy-Chandler? Aye. Council Member Hall? Aye. Council Member Amos?",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000213",
-      "speaker_raw": "SPEAKER_15",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 3722.36,
-      "end": 3731.88,
-      "text": "Aye. Council Member Bates? Aye. Council Member Peterson? Aye. Council Member Hardy-Chandler? Aye. Council Member Hall? Aye. Council Member Amos?",
-      "word_count": 20,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000212",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 3719.92,
-          "end": 3722.36,
-          "text": "Council Member McQuillan?",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000213",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_15",
-          "speaker_status": "unresolved",
-          "start": 3722.36,
-          "end": 3731.88,
-          "text": "Aye. Council Member Bates? Aye. Council Member Peterson? Aye. Council Member Hardy-Chandler? Aye. Council Member Hall? Aye. Council Member Amos?",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000214",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_15",
-          "speaker_status": "unresolved",
-          "start": 3732.4,
-          "end": 3737.2,
-          "text": "Motion passed unanimously. We'll go to appointments to boards, commissions, and advisory committees",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000214",
-      "speaker_raw": "SPEAKER_15",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "review_reason": "unresolved_identity",
-      "start": 3732.4,
-      "end": 3737.2,
-      "text": "Motion passed unanimously. We'll go to appointments to boards, commissions, and advisory committees",
-      "word_count": 13,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000213",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_15",
-          "speaker_status": "unresolved",
-          "start": 3722.36,
-          "end": 3731.88,
-          "text": "Aye. Council Member Bates? Aye. Council Member Peterson? Aye. Council Member Hardy-Chandler? Aye. Council Member Hall? Aye. Council Member Amos?",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000214",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "SPEAKER_15",
-          "speaker_status": "unresolved",
-          "start": 3732.4,
-          "end": 3737.2,
-          "text": "Motion passed unanimously. We'll go to appointments to boards, commissions, and advisory committees",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000215",
           "speaker_public": "Mayor Catherine Read",
-          "speaker_raw": "SPEAKER_22",
+          "speaker_raw": "UNKNOWN",
           "speaker_status": "approved",
-          "start": 3737.2,
-          "end": 3742.92,
-          "text": "Is there a motion to approve the appointments to boards, commissions, and advisory commissions? Council Member Hardy-Chandler?",
+          "start": 3719.92,
+          "end": 3722.36,
+          "text": "Council Member McQuillan?",
+          "is_target": true
+        },
+        {
+          "turn_id": "turn_000213",
+          "speaker_public": "Mayor Catherine Read",
+          "speaker_raw": "SPEAKER_15",
+          "speaker_status": "approved",
+          "start": 3722.36,
+          "end": 3731.88,
+          "text": "Aye. Council Member Bates? Aye. Council Member Peterson? Aye. Council Member Hardy-Chandler? Aye. Council Member Hall? Aye. Council Member Amos?",
           "is_target": false
         }
       ]

@@ -18,7 +18,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Opening call-to-order is by mayor; safe to attribute for publish.",
+      "reviewer_notes": "Opening call-to-order continuation; strongly supported by adjacent approved mayor context.",
       "reviewed": true
     },
     {
@@ -29,9 +29,11 @@
       "speaker_raw": "SPEAKER_22",
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "approved",
-      "needs_review": true,
-      "review_reason": "merged_micro_turn",
-      "confidence": null
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Library proclamation intro; adjacent approved mayor context.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000003",
@@ -42,8 +44,10 @@
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of mayor proclamation text; same speaker context.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000004",
@@ -106,7 +110,7 @@
       "needs_review": false,
       "review_reason": "reviewed:keep_unknown",
       "confidence": null,
-      "reviewer_notes": "Mixed diarization block. Leave unnamed on public site.",
+      "reviewer_notes": "Likely library representative, but this turn does not self-identify clearly enough to promote to a real name.",
       "reviewed": true
     },
     {
@@ -269,12 +273,12 @@
       "end": 651.36,
       "text": "Something, and I have exported a lot of power out there. So this year again, the Solarize Virginia is a great program. It's opening up again on April 16th, Stephanie? Yes. On April 15th, and it will continue. It is a very good vetted program. It's the best rate you're going to get. So just spread the word out and do that. And please join us on the Arbor Day on April 25th. The event begins at 9 a.m. We will have some students who are written beautiful poetries. They will be reciting. We'll have tree giveaways, tree plantations, and a lot of fun. So please join us",
       "speaker_raw": "SPEAKER_08",
-      "speaker_public": "Mayor Catherine Read",
+      "speaker_public": "Fasa Alam",
       "speaker_status": "approved",
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of mayor proclamation flow.",
+      "reviewer_notes": "Clear continuation of immediately prior approved Fasa Alam ESC / Solarize remarks.",
       "reviewed": true
     },
     {
@@ -508,7 +512,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Continuation of Janet Jaworski remarks (adjacent approved blocks).",
+      "reviewer_notes": "Clear continuation of adjacent approved Janet Jaworski remarks.",
       "reviewed": true
     },
     {
@@ -1020,7 +1024,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Procedural roll-call/public comment intro by mayor; safe to attribute.",
+      "reviewer_notes": "Procedural roll-call continuation grouped with adjacent approved mayor turns. Slightly messy merge, but acceptable if kept consistent.",
       "reviewed": true
     },
     {
@@ -1034,7 +1038,7 @@
       "needs_review": false,
       "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Procedural roll-call/public comment intro by mayor; safe to attribute.",
+      "reviewer_notes": "Procedural transition into public comment; adjacent approved mayor context.",
       "reviewed": true
     },
     {
@@ -1057,12 +1061,12 @@
       "end": 1734.64,
       "text": "My name is Anita Light, and I'm here tonight in three capacities. First as the chair of the Fairfax Village in the City Advisory Board, resident of Fairfax City, obviously, and as an older adult. As chair of the Fairfax Village in the City Advisory Board, we wanted to emphasize our support for the Willard Sherwood Center, as noted in our letter to you all dated April 6th. In that letter, we noted that supporting the new Willard Sherwood Center would help make accessibility for older adults easier and safer. We also noted that this project was a community partnership effort with the county, as well as the residents of both the city and the county",
       "speaker_raw": "SPEAKER_31",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "mixed",
+      "speaker_public": "Anita Light",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Public comment content in mixed/rejected diarization block; keep unnamed.",
+      "reviewer_notes": "Speaker self-identifies in this turn as Anita Light; safe approval.",
       "reviewed": true
     },
     {
@@ -1085,12 +1089,12 @@
       "end": 1740.16,
       "text": "The city",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
+      "speaker_public": "Anita Light",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Public comment continuation with no diarization; keep unnamed.",
+      "reviewer_notes": "Tiny split fragment clearly continuing Anita Light’s already identified remarks.",
       "reviewed": true
     },
     {
@@ -1113,12 +1117,12 @@
       "end": 1815.68,
       "text": "For the residents than they would otherwise be able to do, for instance, on social services, emergency dispatch, libraries, court services, and schools, to name a few. Without these partnerships, the cost to our residents would be significantly more. if we had to provide these basic services on our own. I've been a lifelong proponent of continuous improvement in organizations and while the Willard Sherwood Center is not an organization it is a joint partnership with the county that needs to be continuously improved",
       "speaker_raw": "SPEAKER_31",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "mixed",
+      "speaker_public": "Anita Light",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "reviewed:keep_unknown",
+      "review_reason": "reviewed:approve_named_official",
       "confidence": null,
-      "reviewer_notes": "Public comment content in mixed/rejected diarization block; keep unnamed.",
+      "reviewer_notes": "Continuation of Anita Light remarks; same speech block.",
       "reviewed": true
     },
     {
@@ -1327,11 +1331,13 @@
       "end": 2017.76,
       "text": "And that we incur to see what percentages",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Kevin Anderson",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "No-diarization fragment embedded inside adjacent approved Kevin Anderson remarks.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000122",
@@ -1351,11 +1357,13 @@
       "end": 2037.52,
       "text": "Or if you're like me to your grandchildren",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Kevin Anderson",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation fragment inside approved Kevin Anderson speech.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000124",
@@ -1375,11 +1383,13 @@
       "end": 2056.56,
       "text": "Light pollution remediation and high performance building elements",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Kevin Anderson",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "No-diarization continuation of Kevin Anderson block.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000126",
@@ -1399,11 +1409,13 @@
       "end": 2086.16,
       "text": "Many of our members routines and basically what I'm saying is that",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Kevin Anderson",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of Kevin Anderson speech; same context and topic.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000128",
@@ -1423,11 +1435,13 @@
       "end": 2105.44,
       "text": "Thank you. Our next speaker is Douglas Stewart",
       "speaker_raw": "SPEAKER_15",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Procedural introduction of next speaker; likely mayor in the same calling-speakers sequence.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000130",
@@ -1438,8 +1452,10 @@
       "speaker_public": "Douglas Stewart",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Speaker self-identifies as Douglas Stewart in this turn; safe approval.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000131",
@@ -1450,8 +1466,10 @@
       "speaker_public": "Douglas Stewart",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of Douglas Stewart’s already identified remarks.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000132",
@@ -1462,8 +1480,10 @@
       "speaker_public": "Douglas Stewart",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of Douglas Stewart speech; same speaker block.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000133",
@@ -1483,11 +1503,13 @@
       "end": 2259.44,
       "text": "Strongly support it. Thank you",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Douglas Stewart",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Closing fragment of Douglas Stewart remarks; obvious continuation.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000135",
@@ -1495,11 +1517,13 @@
       "end": 2263.84,
       "text": "Our next speaker is Janet Jaworski",
       "speaker_raw": "SPEAKER_15",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Procedural announcement of Janet Jaworski; likely mayor continuation in speaker-calling flow.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000136",
@@ -1510,8 +1534,10 @@
       "speaker_public": "Janet Jaworski",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
-      "confidence": null
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Speaker self-identifies as Janet Jaworski in this turn; safe approval.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000137",
@@ -1519,11 +1545,13 @@
       "end": 2314.0,
       "text": "Planning Commission from 2014 to 2020, including a three-year stint on PRAB",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Janet Jaworski",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "No-diarization fragment embedded between adjacent approved Janet Jaworski remarks.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000138",
@@ -1555,11 +1583,13 @@
       "end": 2386.88,
       "text": "That we can all connect and share experiences together. There will",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Janet Jaworski",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Short continuation fragment inside Janet Jaworski speech block.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000141",
@@ -1591,11 +1621,13 @@
       "end": 2453.8,
       "text": "Forward and I appreciate your time thank you our next speakers Janice Miller",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Procedural transition from Janet Jaworski close into calling Janice Miller, consistent with mayor speaker-calling flow.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000144",
@@ -1603,11 +1635,13 @@
       "end": 2486.68,
       "text": "I'm a little shorter than Janet good evening ladies and gentlemen Mayor Reed members of council staff residents and guests my name is Janice Miller and am here to support moving forward with the Willard Sherwood project and I support council members authorizing the EDA to sell revenue bonds to finance this project questions have been raised recently regarding the economic",
       "speaker_raw": "SPEAKER_02",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Janice Miller",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Speaker self-identifies as Janice Miller in this turn; safe approval.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000145",
@@ -1615,11 +1649,13 @@
       "end": 2492.72,
       "text": "Advantages of this proposed projects please consider the following Willard",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Janice Miller",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "No-diarization continuation of Janice Miller speech.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000146",
@@ -1627,11 +1663,13 @@
       "end": 2520.34,
       "text": "Sherwood would be a long-term economic economic anchor it would strengthen downtown vitality due to its central location it would generate consistent weekday activity that will support downtown retail and services it would increase pedestrian activity in the downtown area it would reinforce Old Town as a hub for daily life and not solely as a spot for dining out night",
       "speaker_raw": "SPEAKER_02",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Janice Miller",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of Janice Miller remarks; same speech block and topic.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000147",
@@ -1639,11 +1677,13 @@
       "end": 2530.96,
       "text": "Life and or special events Willard Sherwood would demonstrate capital leverage and fiscal efficiency the capital costs are divided between the",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Janice Miller",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Short embedded continuation fragment inside Janice Miller speech.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000148",
@@ -1651,11 +1691,13 @@
       "end": 2548.22,
       "text": "County and the city based on programmatic usage the city avoids land acquisition costs demolition costs and site preparation costs the shared infrastructure and parking reduce capital duplication energy efficient",
       "speaker_raw": "SPEAKER_02",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Janice Miller",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of Janice Miller remarks with same unresolved block context now anchored by self-identification.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000149",
@@ -1663,11 +1705,13 @@
       "end": 2553.14,
       "text": "Design lowers operating costs Willard Sherwood will support workforce and",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Janice Miller",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "No-diarization continuation fragment inside Janice Miller speech.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000150",
@@ -1675,11 +1719,13 @@
       "end": 2597.14,
       "text": "Talent competitiveness it will help attract and retain public and private sector employees and professional households it will reinforce the city's identity as a service rich community it will enhance the city's appeal relatively relative to competing jurisdictions unlike mark market driven projects the center provides enduring economic value across all business cycles all these factors support office occupancy mixed-use development and economic security Willard Sherwood advances the city's strategic priorities and economic development goals it maximizes limited land resources and",
       "speaker_raw": "SPEAKER_02",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Janice Miller",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of Janice Miller remarks; same speech block.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000151",
@@ -1687,11 +1733,13 @@
       "end": 2640.18,
       "text": "Preserve green space through joint development it uses external funding to reduce city exposure it strengthens downtown downtown vitality it supports quality of life it builds on past city-county partnerships and establishes a model for future city-county collaboration in summary by providing the opportunity for enhanced business tax income this project will deliver sustained economic value that will ultimately far exceed its direct fiscal cost there are many in the audience who support Willard Sherwood with those who support this project are willing to pay reasonable fees for usage and approve of",
       "speaker_raw": "SPEAKER_02",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Janice Miller",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of Janice Miller remarks through closing argument.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000152",
@@ -1702,20 +1750,10 @@
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unresolved",
       "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
-    },
-    {
-      "turn_id": "turn_000153",
-      "start": 2653.98,
-      "end": 2656.04,
-      "text": "You",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "review_reason": "hold_back_text",
+      "confidence": null,
+      "reviewer_notes": "Caption cross-check shows this line blends the end of Janice Miller remarks with the mayor call-up for Dale Lucena. Kept conservative as mixed transition.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000154",
@@ -1723,11 +1761,13 @@
       "end": 2689.42,
       "text": "Good evening madam mayor city council members and assembled city staff I have I'd like to speak to just two issues with my in my a lot of time the first is",
       "speaker_raw": "SPEAKER_29",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Dale Lucena",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "City captions cross-check supports mayor call-up as Dale Lucena, and this opening begins the same contiguous speech block.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000155",
@@ -1735,11 +1775,13 @@
       "end": 2699.78,
       "text": "The Willard Community Center all the good things that have been said about it I support would add one other thing that I didn't hear yet and that is",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Dale Lucena",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Caption cross-check confirms this no-diarization fragment is part of Dale Lucena's opening remarks.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000156",
@@ -1747,11 +1789,13 @@
       "end": 2718.3,
       "text": "Combining the community center in the center of the city think is it just makes sense to me and it's a great opportunity to reinforce old town as a hub of daily activities which has been necessary for a long time and we've",
       "speaker_raw": "SPEAKER_29",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Dale Lucena",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of Dale Lucena remarks, supported by contiguous caption flow.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000157",
@@ -1759,11 +1803,13 @@
       "end": 2724.26,
       "text": "Talked about that quite a bit so I recommend that you support the that",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Dale Lucena",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Short no-diarization continuation fragment inside Dale Lucena speech, confirmed by caption flow.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000158",
@@ -1771,11 +1817,13 @@
       "end": 2748.38,
       "text": "Issue the other one has to do with the Fairfax Renaissance Housing Corporation which is an organization that provides the city of Fairfax homeowners an attractive opportunity to upgrade and improve the quality of the city's residential neighborhoods over the past 23 years of its existence it has",
       "speaker_raw": "SPEAKER_29",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Dale Lucena",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of Dale Lucena remarks on Fairfax Renaissance Housing Corporation, supported by contiguous caption flow.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000159",
@@ -1783,11 +1831,13 @@
       "end": 2758.3,
       "text": "Provided funding to 290 improvement loans and has not lost a single penny to",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Dale Lucena",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "No-diarization continuation fragment inside Dale Lucena speech, confirmed by caption flow.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000160",
@@ -1795,11 +1845,13 @@
       "end": 2774.74,
       "text": "A bad loan plus the city gets back money from the housing corporation program due to the permanent improvements that are made and thus the tax that goes with",
       "speaker_raw": "SPEAKER_29",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Dale Lucena",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of Dale Lucena remarks; same contiguous speech block.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000161",
@@ -1807,11 +1859,13 @@
       "end": 2785.22,
       "text": "That permanent improvement goes with the home okay and so when the increase comes",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Dale Lucena",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Short no-diarization continuation fragment inside Dale Lucena speech, confirmed by caption flow.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000162",
@@ -1819,11 +1873,13 @@
       "end": 2792.42,
       "text": "For that and the city which receives a return on its investment and it",
       "speaker_raw": "SPEAKER_29",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Dale Lucena",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of Dale Lucena remarks; same contiguous speech block.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000163",
@@ -1831,11 +1887,13 @@
       "end": 2799.98,
       "text": "Continues and continues so this program was not funded last year and now we",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Dale Lucena",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "No-diarization continuation fragment inside Dale Lucena speech, confirmed by caption flow.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000164",
@@ -1843,11 +1901,13 @@
       "end": 2823.22,
       "text": "Can't do any loans at all because they don't have funds for it and so I strongly urge that this City Council fund it for next year so that we can continue this program because it returns money to you and the person is that the people that get the improvements like it a lot believe me I thank you for your",
       "speaker_raw": "SPEAKER_29",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Dale Lucena",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Closing portion of Dale Lucena remarks, supported by contiguous caption flow and adjacent call-up context.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000165",
@@ -1855,11 +1915,13 @@
       "end": 2830.06,
       "text": "Kind attention our next speakers Rebecca Rader",
       "speaker_raw": "SPEAKER_15",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "City captions confirm this is the mayor calling up Rebecca Rader before the next speaker self-identifies.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000166",
@@ -1867,11 +1929,13 @@
       "end": 2855.5,
       "text": "Good evening thank you for the opportunity to speak with you tonight my name is Becky Rager I live at 4141 Evergreen Drive been there for 31 years I'm a current member of the Fairfax Village in the City Advisory Board",
       "speaker_raw": "SPEAKER_16",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Becky Rager",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Speaker self-identifies as Becky Rager in this turn; safe approval.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000167",
@@ -1879,11 +1943,13 @@
       "end": 2860.58,
       "text": "Spoke to you last month in overall support of the Willard Sherwood Health",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Becky Rager",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "No-diarization continuation inside Becky Rager speech block.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000168",
@@ -1891,11 +1957,13 @@
       "end": 2887.38,
       "text": "Center and the Community Center I'm here today to briefly express how the village in the city could enhance services as a result of the new facility I'm mentioning a few possibilities today as we move forward the Advisory Board members village members and volunteers can brainstorm other possibilities for expanded services that directly support older adults and those with disabilities",
       "speaker_raw": "SPEAKER_16",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Becky Rager",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of Becky Rager remarks; same speech block and topic.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000169",
@@ -1903,11 +1971,13 @@
       "end": 2896.98,
       "text": "Beyond what is currently available we will also work with the Willard Health Center and the Green Acres staff to create new programs which could include",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Becky Rager",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Embedded continuation fragment inside Becky Rager remarks.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000170",
@@ -1915,11 +1985,13 @@
       "end": 2937.94,
       "text": "And I'm just listing a few intergenerational activities such as tutoring or reading to the children in the child care center working on shared craft projects in dedicated spaces where projects could remain until completed growing and maintaining a rooftop or the garden and creating a gardening circle working with the neighboring Willard Health Center to have a memory cafe once a month where people who are in the early stages of cognitive impairment and their caregivers can meet socialize and trade ideas developing workshops designed",
       "speaker_raw": "SPEAKER_16",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Becky Rager",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of Becky Rager remarks; same identified speaker block.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000171",
@@ -1927,11 +1999,13 @@
       "end": 2943.14,
       "text": "To improve memory and cognitive function creating a digital storytelling club",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Becky Rager",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Short no-diarization fragment continuing Becky Rager speech.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000172",
@@ -1939,11 +2013,13 @@
       "end": 2974.86,
       "text": "Where seniors use technology and record their life stories and conducting a vintage hat and fashion showcase where members bring in their vintage collections and show them and then discuss the stories behind them all of these proposed suggestions could be done without additional staffing costs as members are not just consumers they are staff our village consists of members and volunteers with an extensive variety of backgrounds and experience",
       "speaker_raw": "SPEAKER_16",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Becky Rager",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of Becky Rager remarks with same advisory-board context.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000173",
@@ -1951,11 +2027,13 @@
       "end": 2980.98,
       "text": "For example a member might receive a ride to the doctor one day and",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Becky Rager",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Short continuation fragment inside Becky Rager speech.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000174",
@@ -1963,11 +2041,13 @@
       "end": 3003.52,
       "text": "Facilitate a workshop the next this creates a sustainable model for future programs without additional cost I believe the new Willard Sherwood facility with all the infrastructure enhancements will provide is necessary to continue to deliver modern equitable full services for the entire community Thank you",
       "speaker_raw": "SPEAKER_16",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Becky Rager",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Closing fragment of Becky Rager remarks; same identified speaker block.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000175",
@@ -1975,11 +2055,13 @@
       "end": 3007.36,
       "text": "Our next speaker is Alan Glenn",
       "speaker_raw": "SPEAKER_15",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Procedural call-up for Alan Glenn, consistent with adjacent mayor speaker-calling turns.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000176",
@@ -1987,11 +2069,13 @@
       "end": 3060.16,
       "text": "Thank you. Alan Glenn, long time resident of the city and now a resident just outside the city. I wanted to speak tonight also in favor of the project that Willard Health Center, Sherwood Center. Both on my wife's behalf, Judy Blanchard and myself, we're strongly in support of it. We've benefited from some of the services over the years. Our kids were vaccinated at the health center in their early childhood period. We've had other counseling and services over the years. We've both of us have used the senior center",
       "speaker_raw": "SPEAKER_04",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Alan Glenn",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Speaker self-identifies as Alan Glenn in this turn; safe approval.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000177",
@@ -1999,11 +2083,13 @@
       "end": 3095.58,
       "text": "And continue to be members there. think the expanded opportunities for childcare and public health that'll be offered and available through this project are very much in demand. To me, this project is one of a number that I consider crown jewels in the community where the city partners with the county in coming up with a wonderful facility to serve everyone, including the public schools where both our kids went and the public library that we've used",
       "speaker_raw": "SPEAKER_04",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Alan Glenn",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of Alan Glenn remarks; same identified speech block.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000178",
@@ -2011,11 +2097,13 @@
       "end": 3146.82,
       "text": "And the health centers. Personally, think you all have a difficult job as elected leaders to a two-year term where you have to consider the strategic needs of the community and balance them against costs and budgetary issues. But think in this case, the project will serve a need to re-update and replace the senior center that's now at Green Acres and provide better health and public services and childcare and early childhood health for residents. The nice thing about this is it serves everybody",
       "speaker_raw": "SPEAKER_04",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Alan Glenn",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of Alan Glenn remarks with same speaker and topic.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000179",
@@ -2023,11 +2111,13 @@
       "end": 3192.98,
       "text": "In the community, regardless of age, income, strata, or which neighborhood you live in. So to me, it's definitely needed and I strongly support it. Thank you very much. Oh, as long as I've got 30 seconds left, let me just say Mr. Lustina, who was the previous speaker, would like to endorse his comments. I served on the board with him for five years of the Housing Renaissance Corporation. That was one of three city boards that I've had the privilege to serve on over the years. And think that board and the funding from the city served a important need to maintain and upgrade existing housing stock in the city Thank you",
       "speaker_raw": "SPEAKER_04",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Alan Glenn",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Closing portion of Alan Glenn remarks; same self-identified speaker block.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000180",
@@ -2035,11 +2125,13 @@
       "end": 3196.78,
       "text": "Our next speaker is William Pitchford",
       "speaker_raw": "SPEAKER_15",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Procedural next-speaker call-up for William Pitchford, consistent with mayor public-comment flow.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000181",
@@ -2047,11 +2139,13 @@
       "end": 3250.16,
       "text": "Good evening and thank you for the opportunity to speak this evening. My name is William Pitchford. I live on School Street in the city of Fairfax. In two weeks at the April 28th city council meeting, you will be asked to approve a resolution to proceed with the Willard Sherwood Health and Community Center Project and a resolution for the Economic Development Authority to issue bonds to finance such capital projects. I'm asking you to approve both resolutions as it is the best option for the citizens of Fairfax City and the city's overall economic and infrastructure development. I'd like to offer a few points on why you should approve these two measures",
       "speaker_raw": "SPEAKER_24",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "William Pitchford",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Speaker self-identifies as William Pitchford in this turn; safe approval.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000182",
@@ -2059,11 +2153,13 @@
       "end": 3252.66,
       "text": "As you have heard throughout this evening",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "William Pitchford",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Short no-diarization continuation inside William Pitchford speech block.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000183",
@@ -2071,11 +2167,13 @@
       "end": 3295.24,
       "text": "The citizens of Fairfax City are in desperate need for a community center that meets their needs and have expressed this with broad support for the project through two years of design reviews with broad support for the project, oh, with two years of design reviews and approvals from previous and current city council. This is probably the most vetted capital improvement project the city has undertaken. The new Willard Sherwood Community Center will be a joint venture project with Fairfax County. The cost of building and operating the facility is shared, significantly reducing the burden to the city taxpayers",
       "speaker_raw": "SPEAKER_24",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "William Pitchford",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of William Pitchford remarks; same identified speaker block.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000184",
@@ -2083,11 +2181,13 @@
       "end": 3339.22,
       "text": "This is a generational opportunity for the citizens of Fairfax. Another opportunity like this will most likely not come around again in our lifetime. The current Green Acres facility is completely inadequate to meet the community's current and future needs. The facility was built in 1961 as an elementary school. That was before schools had air conditioning. It was retired in 2000. It was never intended to be a community or senior center. The building is well beyond its useful lifespan. It's located in the center of a residential community, has no public transportation access",
       "speaker_raw": "SPEAKER_24",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "William Pitchford",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of William Pitchford remarks on Green Acres conditions.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000185",
@@ -2095,11 +2195,13 @@
       "end": 3343.58,
       "text": "Poor ADA compliance, and a dangerous parking lot",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "William Pitchford",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Embedded no-diarization fragment inside William Pitchford speech.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000186",
@@ -2107,11 +2209,13 @@
       "end": 3348.82,
       "text": "Especially at night. I had the honor of attending a Fairfax City Citizens",
       "speaker_raw": "SPEAKER_24",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "William Pitchford",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of William Pitchford remarks; same speaker and topic.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000187",
@@ -2119,11 +2223,13 @@
       "end": 3352.38,
       "text": "For Smarter Growth meeting at Green Acres",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "William Pitchford",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Short continuation fragment inside William Pitchford speech block.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000188",
@@ -2131,11 +2237,13 @@
       "end": 3358.88,
       "text": "In February of this year. Like most community service organizations, this is where they have meetings",
       "speaker_raw": "SPEAKER_24",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "William Pitchford",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of William Pitchford remarks; same identified speaker block.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000189",
@@ -2143,11 +2251,13 @@
       "end": 3362.64,
       "text": "And just like this council meeting, it started at 7 p.m",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "William Pitchford",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "No-diarization continuation fragment inside William Pitchford speech.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000190",
@@ -2155,11 +2265,13 @@
       "end": 3371.58,
       "text": "Unlike the normal council meetings, it ended at the decent hour of 8.30, which was still well past sunset",
       "speaker_raw": "SPEAKER_24",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "William Pitchford",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of William Pitchford remarks on meeting timing and safety.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000191",
@@ -2167,11 +2279,13 @@
       "end": 3376.1,
       "text": "When leaving, when leaving the meeting",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "William Pitchford",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Short continuation fragment inside William Pitchford speech.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000192",
@@ -2179,11 +2293,13 @@
       "end": 3384.0,
       "text": "Was absolutely shocked to walk out to a darkened parking lot. Having to reverse the narrow, steep staircase",
       "speaker_raw": "SPEAKER_24",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "William Pitchford",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of William Pitchford remarks; same speaker block.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000193",
@@ -2191,11 +2307,13 @@
       "end": 3386.26,
       "text": "To find my car, I tried to imagine",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "William Pitchford",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Short no-diarization continuation inside William Pitchford speech.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000194",
@@ -2203,11 +2321,13 @@
       "end": 3418.86,
       "text": "What someone 10 to 15 years older than would do. Basically, they would stop participating in their community after dark. For those of you who have any reservations about the Neifert Project, would challenge you to hold an official city meeting at Green Acres. It doesn't have to be the next council meeting, but it could be a planning commission or economic development authority meeting. In conclusion, I'm asking you to approve the two resolutions at the April 28th council meeting Thank you",
       "speaker_raw": "SPEAKER_24",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "William Pitchford",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Closing portion of William Pitchford remarks; same self-identified speaker block.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000195",
@@ -2215,11 +2335,13 @@
       "end": 3422.58,
       "text": "Our last speaker is Toby Sorenson",
       "speaker_raw": "SPEAKER_15",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Procedural final-speaker call-up for Toby Sorenson, consistent with adjacent mayor turns.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000196",
@@ -2227,11 +2349,13 @@
       "end": 3459.94,
       "text": "Good evening. Toby Sorenson, 10137 Spring Lake Terrace. Mayor Reed and council members, the reason am once again here to speak about supporting the Willard Sherwood Health and Community Center is because many of us still do not know whether you are going to vote to fund it on April 28th or not. If any of you are still undecided to vote, please consider the following. If you vote for the funding, there are many things",
       "speaker_raw": "SPEAKER_11",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Toby Sorenson",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Speaker self-identifies as Toby Sorenson in this turn; safe approval.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000197",
@@ -2239,11 +2363,13 @@
       "end": 3461.62,
       "text": "We do know",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Toby Sorenson",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Tiny no-diarization continuation fragment inside Toby Sorenson speech block.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000198",
@@ -2251,11 +2377,13 @@
       "end": 3504.86,
       "text": "We know what the city's share of the joint project will be thanks to the guaranteed maximum pricing contract. We know what the operating costs will be thanks to the research done by the project consultants. We know the basic level of class and rental fees that will cover operating expenses. We know the higher level of class and rental fees that will cover operating expenses plus provide a surplus that can be put toward the yearly bond payment. We know what the bond payment will be if the city goes to bond this spring. We know that we will be able to keep a senior center and have it located in a modern facility with better services. We know that we will be able to keep",
       "speaker_raw": "SPEAKER_11",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Toby Sorenson",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of Toby Sorenson remarks; same identified speaker block.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000199",
@@ -2263,11 +2391,13 @@
       "end": 3549.38,
       "text": "A much needed preschool in the city. We know that we will have a well-located community center that will draw people and businesses to the downtown area. We know that we will have continued access to important health department services right in the middle of the city. Finally, we know when this project will be completed. If you do not vote to fund Willard Sherwood, there are many things we will not know. Would we begin again to create a plan to build or rebuild a community center? How much would that new planning cost? Would a new project be located at Green Acres? Would a new project be located elsewhere? Where would that be and how much would it cost?",
       "speaker_raw": "SPEAKER_11",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Toby Sorenson",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of Toby Sorenson remarks; same speaker and topic.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000200",
@@ -2275,11 +2405,13 @@
       "end": 3570.74,
       "text": "How far into the future will we be looking and how much will the cost of bonds be at that time? If we do nothing, will we lose the senior center and the preschool? Since the city council and the county board of supervisors signed a letter of understanding for full design and construction of the joint project",
       "speaker_raw": "SPEAKER_11",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Toby Sorenson",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of Toby Sorenson remarks into project-risk questions.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000201",
@@ -2287,11 +2419,13 @@
       "end": 3574.18,
       "text": "Would the county expect the city to compensate them",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Toby Sorenson",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Short no-diarization continuation fragment inside Toby Sorenson speech.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000202",
@@ -2299,11 +2433,13 @@
       "end": 3580.3,
       "text": "For the money they have spent on the project so far? Would the county expect the city to compensate them",
       "speaker_raw": "SPEAKER_11",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Toby Sorenson",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Continuation of Toby Sorenson remarks; same identified speaker block.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000203",
@@ -2311,11 +2447,13 @@
       "end": 3583.18,
       "text": "For the money it will need to begin their planning",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Toby Sorenson",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Short continuation fragment inside Toby Sorenson speech block.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000204",
@@ -2323,11 +2461,13 @@
       "end": 3623.08,
       "text": "And design process anew? Would the county choose a different location for the health center, one that would not be in the city? If the county chose a different location, what would they decide to do with the land that they own next to the Sherwood Center? We want to continue to have a senior center and a preschool and community spaces for our residents, as well as to have a health department located within the city. If you believe you have a hard decision to make about funding Willard Sherwood, think also about the really hard decisions you will have to make if you don't vote to fund it. Thank you for listening",
       "speaker_raw": "SPEAKER_11",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Toby Sorenson",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Closing portion of Toby Sorenson remarks; same self-identified speaker block.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000205",
@@ -2335,11 +2475,13 @@
       "end": 3632.36,
       "text": "We can move to the consent agenda. OK, before we move forward, want",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Procedural transition back to agenda business, consistent with adjacent mayor remarks.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000206",
@@ -2371,11 +2513,13 @@
       "end": 3698.96,
       "text": "Agenda from the dais?",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Short no-diarization continuation of mayor consent-agenda remarks.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000209",
@@ -2419,11 +2563,13 @@
       "end": 3722.36,
       "text": "Council Member McQuillan?",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Short roll-call continuation consistent with adjacent approved mayor procedural remarks.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000213",
@@ -2431,11 +2577,13 @@
       "end": 3731.88,
       "text": "Aye. Council Member Bates? Aye. Council Member Peterson? Aye. Council Member Hardy-Chandler? Aye. Council Member Hall? Aye. Council Member Amos?",
       "speaker_raw": "SPEAKER_15",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Roll-call continuation and prompt, consistent with adjacent approved mayor procedural flow.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000214",
@@ -2443,11 +2591,13 @@
       "end": 3737.2,
       "text": "Motion passed unanimously. We'll go to appointments to boards, commissions, and advisory committees",
       "speaker_raw": "SPEAKER_15",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unresolved",
-      "needs_review": true,
-      "review_reason": "unresolved_identity",
-      "confidence": null
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
+      "needs_review": false,
+      "review_reason": "reviewed:approve_named_official",
+      "confidence": null,
+      "reviewer_notes": "Procedural transition to appointments, consistent with adjacent approved mayor remarks.",
+      "reviewed": true
     },
     {
       "turn_id": "turn_000215",

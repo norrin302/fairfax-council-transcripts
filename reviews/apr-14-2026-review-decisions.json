@@ -15,210 +15,210 @@
   "decisions": [
     {
       "turn_id": "turn_000001",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Opening call-to-order continuation; strongly supported by adjacent approved mayor context."
     },
     {
       "turn_id": "turn_000002",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Library proclamation intro; adjacent approved mayor context."
     },
     {
       "turn_id": "turn_000003",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of mayor proclamation text; same speaker context."
     },
     {
       "turn_id": "turn_000008",
-      "reviewer_action": "pending",
+      "reviewer_action": "keep_unknown",
       "speaker_public_override": "",
       "speaker_status_override": "",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Likely library representative, but this turn does not self-identify clearly enough to promote to a real name."
     },
     {
       "turn_id": "turn_000023",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Fasa Alam",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Clear continuation of immediately prior approved Fasa Alam ESC / Solarize remarks."
     },
     {
       "turn_id": "turn_000042",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janet Jaworski",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Clear continuation of adjacent approved Janet Jaworski remarks."
     },
     {
       "turn_id": "turn_000098",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Procedural roll-call continuation grouped with adjacent approved mayor turns. Slightly messy merge, but acceptable if kept consistent."
     },
     {
       "turn_id": "turn_000099",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Procedural transition into public comment; adjacent approved mayor context."
     },
     {
       "turn_id": "turn_000101",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Anita Light",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Speaker self-identifies in this turn as Anita Light; safe approval."
     },
     {
       "turn_id": "turn_000103",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Anita Light",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Tiny split fragment clearly continuing Anita Light’s already identified remarks."
     },
     {
       "turn_id": "turn_000105",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Anita Light",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of Anita Light remarks; same speech block."
     },
     {
       "turn_id": "turn_000121",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Kevin Anderson",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "No-diarization fragment embedded inside adjacent approved Kevin Anderson remarks."
     },
     {
       "turn_id": "turn_000123",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Kevin Anderson",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation fragment inside approved Kevin Anderson speech."
     },
     {
       "turn_id": "turn_000125",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Kevin Anderson",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "No-diarization continuation of Kevin Anderson block."
     },
     {
       "turn_id": "turn_000127",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Kevin Anderson",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of Kevin Anderson speech; same context and topic."
     },
     {
       "turn_id": "turn_000129",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Procedural introduction of next speaker; likely mayor in the same calling-speakers sequence."
     },
     {
       "turn_id": "turn_000130",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Douglas Stewart",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Speaker self-identifies as Douglas Stewart in this turn; safe approval."
     },
     {
       "turn_id": "turn_000131",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Douglas Stewart",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of Douglas Stewart’s already identified remarks."
     },
     {
       "turn_id": "turn_000132",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Douglas Stewart",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of Douglas Stewart speech; same speaker block."
     },
     {
       "turn_id": "turn_000134",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Douglas Stewart",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Closing fragment of Douglas Stewart remarks; obvious continuation."
     },
     {
       "turn_id": "turn_000135",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Procedural announcement of Janet Jaworski; likely mayor continuation in speaker-calling flow."
     },
     {
       "turn_id": "turn_000136",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janet Jaworski",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Speaker self-identifies as Janet Jaworski in this turn; safe approval."
     },
     {
       "turn_id": "turn_000137",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janet Jaworski",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "No-diarization fragment embedded between adjacent approved Janet Jaworski remarks."
     },
     {
       "turn_id": "turn_000138",
@@ -240,12 +240,12 @@
     },
     {
       "turn_id": "turn_000140",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janet Jaworski",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Short continuation fragment inside Janet Jaworski speech block."
     },
     {
       "turn_id": "turn_000141",
@@ -258,606 +258,606 @@
     },
     {
       "turn_id": "turn_000143",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Procedural transition from Janet Jaworski close into calling Janice Miller, consistent with mayor speaker-calling flow."
     },
     {
       "turn_id": "turn_000144",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janice Miller",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Speaker self-identifies as Janice Miller in this turn; safe approval."
     },
     {
       "turn_id": "turn_000145",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janice Miller",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "No-diarization continuation of Janice Miller speech."
     },
     {
       "turn_id": "turn_000146",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janice Miller",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of Janice Miller remarks; same speech block and topic."
     },
     {
       "turn_id": "turn_000147",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janice Miller",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Short embedded continuation fragment inside Janice Miller speech."
     },
     {
       "turn_id": "turn_000148",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janice Miller",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of Janice Miller remarks with same unresolved block context now anchored by self-identification."
     },
     {
       "turn_id": "turn_000149",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janice Miller",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "No-diarization continuation fragment inside Janice Miller speech."
     },
     {
       "turn_id": "turn_000150",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janice Miller",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of Janice Miller remarks; same speech block."
     },
     {
       "turn_id": "turn_000151",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Janice Miller",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of Janice Miller remarks through closing argument."
     },
     {
       "turn_id": "turn_000152",
-      "reviewer_action": "pending",
+      "reviewer_action": "hold_back_text",
       "speaker_public_override": "",
       "speaker_status_override": "",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Caption cross-check shows this line blends the end of Janice Miller remarks with the mayor call-up for Dale Lucena. Kept conservative as mixed transition."
     },
     {
       "turn_id": "turn_000153",
-      "reviewer_action": "pending",
+      "reviewer_action": "suppress_turn",
       "speaker_public_override": "",
       "speaker_status_override": "",
       "text_override": "",
-      "suppress": false,
-      "notes": ""
+      "suppress": true,
+      "notes": "Single-word stray fragment after speaker transition; suppress as obvious junk."
     },
     {
       "turn_id": "turn_000154",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Dale Lucena",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "City captions cross-check supports mayor call-up as Dale Lucena, and this opening begins the same contiguous speech block."
     },
     {
       "turn_id": "turn_000155",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Dale Lucena",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Caption cross-check confirms this no-diarization fragment is part of Dale Lucena's opening remarks."
     },
     {
       "turn_id": "turn_000156",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Dale Lucena",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of Dale Lucena remarks, supported by contiguous caption flow."
     },
     {
       "turn_id": "turn_000157",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Dale Lucena",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Short no-diarization continuation fragment inside Dale Lucena speech, confirmed by caption flow."
     },
     {
       "turn_id": "turn_000158",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Dale Lucena",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of Dale Lucena remarks on Fairfax Renaissance Housing Corporation, supported by contiguous caption flow."
     },
     {
       "turn_id": "turn_000159",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Dale Lucena",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "No-diarization continuation fragment inside Dale Lucena speech, confirmed by caption flow."
     },
     {
       "turn_id": "turn_000160",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Dale Lucena",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of Dale Lucena remarks; same contiguous speech block."
     },
     {
       "turn_id": "turn_000161",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Dale Lucena",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Short no-diarization continuation fragment inside Dale Lucena speech, confirmed by caption flow."
     },
     {
       "turn_id": "turn_000162",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Dale Lucena",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of Dale Lucena remarks; same contiguous speech block."
     },
     {
       "turn_id": "turn_000163",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Dale Lucena",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "No-diarization continuation fragment inside Dale Lucena speech, confirmed by caption flow."
     },
     {
       "turn_id": "turn_000164",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Dale Lucena",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Closing portion of Dale Lucena remarks, supported by contiguous caption flow and adjacent call-up context."
     },
     {
       "turn_id": "turn_000165",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "City captions confirm this is the mayor calling up Rebecca Rader before the next speaker self-identifies."
     },
     {
       "turn_id": "turn_000166",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Becky Rager",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Speaker self-identifies as Becky Rager in this turn; safe approval."
     },
     {
       "turn_id": "turn_000167",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Becky Rager",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "No-diarization continuation inside Becky Rager speech block."
     },
     {
       "turn_id": "turn_000168",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Becky Rager",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of Becky Rager remarks; same speech block and topic."
     },
     {
       "turn_id": "turn_000169",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Becky Rager",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Embedded continuation fragment inside Becky Rager remarks."
     },
     {
       "turn_id": "turn_000170",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Becky Rager",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of Becky Rager remarks; same identified speaker block."
     },
     {
       "turn_id": "turn_000171",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Becky Rager",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Short no-diarization fragment continuing Becky Rager speech."
     },
     {
       "turn_id": "turn_000172",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Becky Rager",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of Becky Rager remarks with same advisory-board context."
     },
     {
       "turn_id": "turn_000173",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Becky Rager",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Short continuation fragment inside Becky Rager speech."
     },
     {
       "turn_id": "turn_000174",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Becky Rager",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Closing fragment of Becky Rager remarks; same identified speaker block."
     },
     {
       "turn_id": "turn_000175",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Procedural call-up for Alan Glenn, consistent with adjacent mayor speaker-calling turns."
     },
     {
       "turn_id": "turn_000176",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Alan Glenn",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Speaker self-identifies as Alan Glenn in this turn; safe approval."
     },
     {
       "turn_id": "turn_000177",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Alan Glenn",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of Alan Glenn remarks; same identified speech block."
     },
     {
       "turn_id": "turn_000178",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Alan Glenn",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of Alan Glenn remarks with same speaker and topic."
     },
     {
       "turn_id": "turn_000179",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Alan Glenn",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Closing portion of Alan Glenn remarks; same self-identified speaker block."
     },
     {
       "turn_id": "turn_000180",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Procedural next-speaker call-up for William Pitchford, consistent with mayor public-comment flow."
     },
     {
       "turn_id": "turn_000181",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Speaker self-identifies as William Pitchford in this turn; safe approval."
     },
     {
       "turn_id": "turn_000182",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Short no-diarization continuation inside William Pitchford speech block."
     },
     {
       "turn_id": "turn_000183",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of William Pitchford remarks; same identified speaker block."
     },
     {
       "turn_id": "turn_000184",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of William Pitchford remarks on Green Acres conditions."
     },
     {
       "turn_id": "turn_000185",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Embedded no-diarization fragment inside William Pitchford speech."
     },
     {
       "turn_id": "turn_000186",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of William Pitchford remarks; same speaker and topic."
     },
     {
       "turn_id": "turn_000187",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Short continuation fragment inside William Pitchford speech block."
     },
     {
       "turn_id": "turn_000188",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of William Pitchford remarks; same identified speaker block."
     },
     {
       "turn_id": "turn_000189",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "No-diarization continuation fragment inside William Pitchford speech."
     },
     {
       "turn_id": "turn_000190",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of William Pitchford remarks on meeting timing and safety."
     },
     {
       "turn_id": "turn_000191",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Short continuation fragment inside William Pitchford speech."
     },
     {
       "turn_id": "turn_000192",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of William Pitchford remarks; same speaker block."
     },
     {
       "turn_id": "turn_000193",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Short no-diarization continuation inside William Pitchford speech."
     },
     {
       "turn_id": "turn_000194",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "William Pitchford",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Closing portion of William Pitchford remarks; same self-identified speaker block."
     },
     {
       "turn_id": "turn_000195",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Procedural final-speaker call-up for Toby Sorenson, consistent with adjacent mayor turns."
     },
     {
       "turn_id": "turn_000196",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Toby Sorenson",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Speaker self-identifies as Toby Sorenson in this turn; safe approval."
     },
     {
       "turn_id": "turn_000197",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Toby Sorenson",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Tiny no-diarization continuation fragment inside Toby Sorenson speech block."
     },
     {
       "turn_id": "turn_000198",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Toby Sorenson",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of Toby Sorenson remarks; same identified speaker block."
     },
     {
       "turn_id": "turn_000199",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Toby Sorenson",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of Toby Sorenson remarks; same speaker and topic."
     },
     {
       "turn_id": "turn_000200",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Toby Sorenson",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of Toby Sorenson remarks into project-risk questions."
     },
     {
       "turn_id": "turn_000201",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Toby Sorenson",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Short no-diarization continuation fragment inside Toby Sorenson speech."
     },
     {
       "turn_id": "turn_000202",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Toby Sorenson",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Continuation of Toby Sorenson remarks; same identified speaker block."
     },
     {
       "turn_id": "turn_000203",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Toby Sorenson",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Short continuation fragment inside Toby Sorenson speech block."
     },
     {
       "turn_id": "turn_000204",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Toby Sorenson",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Closing portion of Toby Sorenson remarks; same self-identified speaker block."
     },
     {
       "turn_id": "turn_000205",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Procedural transition back to agenda business, consistent with adjacent mayor remarks."
     },
     {
       "turn_id": "turn_000208",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Short no-diarization continuation of mayor consent-agenda remarks."
     },
     {
       "turn_id": "turn_000212",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Short roll-call continuation consistent with adjacent approved mayor procedural remarks."
     },
     {
       "turn_id": "turn_000213",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Roll-call continuation and prompt, consistent with adjacent approved mayor procedural flow."
     },
     {
       "turn_id": "turn_000214",
-      "reviewer_action": "pending",
-      "speaker_public_override": "",
-      "speaker_status_override": "",
+      "reviewer_action": "approve_named_official",
+      "speaker_public_override": "Mayor Catherine Read",
+      "speaker_status_override": "approved",
       "text_override": "",
       "suppress": false,
-      "notes": ""
+      "notes": "Procedural transition to appointments, consistent with adjacent approved mayor remarks."
     },
     {
       "turn_id": "turn_000218",

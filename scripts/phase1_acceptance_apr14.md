@@ -60,7 +60,23 @@ Outputs expected in Git repo:
 Optional but recommended before public naming:
 - `approvals/apr-14-2026.json`
 
-Only approved identities publish as real names. Everything else remains `Unknown Speaker`.
+Only approved or strongly supported identities publish as real names. Everything else remains `Unknown Speaker`.
+
+### Name-conflict precedence rule
+
+When speaker-name evidence conflicts, resolve labels in this order:
+1. speaker self-identification
+2. official roster or agenda evidence tied directly to that speaker block
+3. internally consistent contiguous speech block
+4. chair or mayor call-up line
+5. captions or subtitles as advisory only
+
+Operational rule:
+- preserve a conflicting call-up line in transcript text where it was spoken
+- do not let a weaker call-up override a stronger self-identification for the public speaker label
+- store both `called_as_name` and `supported_public_name` when they differ
+- use `display_name` for public output
+- prefer `Unknown Speaker` over speculative identity merging when evidence is weak
 
 ### 5) Validation
 
