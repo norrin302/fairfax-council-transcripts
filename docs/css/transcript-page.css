@@ -1108,3 +1108,11 @@ body {
   border-radius: 4px; color: #718096; cursor: pointer;
 }
 .rm-video-close-btn:hover { background: #edf2f7; }
+.vc-video-btn {
+  flex-shrink: 0; font-size: 10px; padding: 2px 5px;
+  background: #edf2f7; border: 1px solid #cbd5e0; border-radius: 4px;
+  color: #2b6cb0; cursor: pointer; margin-right: 6px; vertical-align: middle;
+}
+.vc-video-btn:hover { background: #e2e8f0; color: #1a4a7a; }
+.vc-turn-text { display: flex; align-items: flex-start; margin-bottom: 5px; }
+.vc-turn-text span { flex: 1; }

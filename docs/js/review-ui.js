@@ -627,11 +627,17 @@
         '</div>' +
         '<div class="vc-cluster-body' + (isExpanded ? '' : ' vc-hidden') + '" id="' + clusterId + '">';
 
-      // Per-turn text previews
+      // Per-turn text previews with video links
       var texts = cluster.texts || [];
+      var startTimes = cluster.start_times || [];
       for (var ti = 0; ti < texts.length; ti++) {
         var preview = texts[ti].slice(0, 100) + (texts[ti].length > 100 ? '…' : '');
-        html += '<div class="vc-turn-text">' + escHtml(preview) + '</div>';
+        var ts = startTimes[ti];
+        var videoBtn = '';
+        if (ts != null) {
+          videoBtn = '<button type="button" class="vc-video-btn" data-start="' + ts + '" title="Watch at ' + formatTime(ts) + '"><i class="fas fa-play"></i></button>';
+        }
+        html += '<div class="vc-turn-text">' + videoBtn + '<span>' + escHtml(preview) + '</span></div>';
       }
 
       html +=
@@ -816,6 +822,16 @@
         if (icon) {
           icon.className = isHidden ? 'fas fa-chevron-down' : 'fas fa-chevron-right';
         }
+      });
+    });
+
+    // Video button in cluster turn list
+    sidebar.querySelectorAll('.vc-video-btn').forEach(function (btn) {
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var startSec = parseInt(btn.getAttribute('data-start') || '0', 10);
+        var meta = getMeetingMeta();
+        showVideoEmbed(startSec, meta.sourceUrl);
       });
     });
 
