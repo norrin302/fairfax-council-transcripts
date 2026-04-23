@@ -499,7 +499,7 @@
     if (!MEETING_ID) return;
     try {
       var xhr = new XMLHttpRequest();
-      xhr.open('GET', 'reviews/' + MEETING_ID + '-voice-clusters.json', false);
+      xhr.open('GET', 'docs/reviews/' + MEETING_ID + '-voice-clusters.json', false);
       xhr.send(null);
       if (xhr.status === 200) {
         VOICE_CLUSTERS = JSON.parse(xhr.responseText);
