@@ -479,26 +479,27 @@ body {
 .rm-required { color: #e53e3e; }
 
 .rm-info-text {
-  background: #f7fafc;
-  border: 1px solid #e2e8f0;
-  border-radius: 8px;
-  padding: 8px 12px;
+  background: #edf2f7;
+  border: 1px solid #cbd5e0;
+  border-radius: 6px;
+  padding: 7px 12px;
   font-size: 13px;
-  color: #4a5568;
-  font-family: monospace;
+  color: #718096;
+  font-style: italic;
 }
 
 .rm-turn-preview {
-  background: #faf5ff;
-  border: 1px solid #e9d8fd;
-  border-radius: 8px;
-  padding: 10px 14px;
-  font-size: 14px;
-  color: #2d3748;
-  line-height: 1.6;
+  background: #f7fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 13px;
+  color: #718096;
+  line-height: 1.5;
   max-height: 80px;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-style: italic;
 }
 
 .rm-input {
