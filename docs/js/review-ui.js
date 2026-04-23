@@ -906,7 +906,7 @@
 
     var checkAndWire = function () {
       var container = document.getElementById('transcript');
-      if (container && container.children.length > 0) {
+      if (container && container.querySelector('.speaker-block')) {
         wireLabelButtons();
         return true;
       }
@@ -914,7 +914,7 @@
     };
     if (!checkAndWire()) {
       var observer = new MutationObserver(function () {
-        if (checkAndWire()) observer.disconnect();
+        if (checkAndWire()) { observer.disconnect(); }
       });
       observer.observe(document.getElementById('transcript') || document.body, { childList: true, subtree: true });
     }
