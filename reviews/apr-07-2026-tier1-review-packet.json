@@ -1,0 +1,808 @@
+[
+  {
+    "turn_id": "turn_000105",
+    "start": 1683.11,
+    "end": 1693.15,
+    "speaker_raw": "SPEAKER_17",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "Okay, and then the same thing would apply to Lucian who I had no idea that his staff works every single weekend Again, is that optional or is that optional over time?",
+    "word_count": 32,
+    "reason": "known_bad_window:ex_003_agenda_adoption",
+    "context_before": [
+      {
+        "turn_id": "turn_000104",
+        "sp": "Daniel Alexander",
+        "raw": "SPEAKER_05",
+        "text": "Okay, I think the the reality from a de facto standpoint is that when events get large the"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000106",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_02",
+        "text": "I think it's a sign up first for you know who wants the overtime and then it's an assignme"
+      }
+    ],
+    "candidate": "Councilmember Stacy Hardy-Chandler",
+    "confidence": 0.75,
+    "evidence": "registry_confirmed",
+    "gold_set_candidate": true
+  },
+  {
+    "turn_id": "turn_000106",
+    "start": 1693.87,
+    "end": 1714.29,
+    "speaker_raw": "SPEAKER_02",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "I think it's a sign up first for you know who wants the overtime and then it's an assignment past that point It's the same For us with parks crew for overtime for most of the city departments where we're running over time We do try to give people who want the overtime the opportunity to sign up first and then the end the day we We do assign some people we have to assign some people in fill spaces.",
+    "word_count": 80,
+    "reason": "known_bad_window:ex_003_agenda_adoption",
+    "context_before": [
+      {
+        "turn_id": "turn_000105",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_17",
+        "text": "Okay, and then the same thing would apply to Lucian who I had no idea that his staff works"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000107",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_17",
+        "text": "Okay And when it comes to our administrative staff Is that my understanding is that if som"
+      }
+    ],
+    "candidate": "Unknown \u2014 staff (leave until confirmed)",
+    "confidence": 0.0,
+    "evidence": "unknown_staff",
+    "gold_set_candidate": true
+  },
+  {
+    "turn_id": "turn_000107",
+    "start": 1715.03,
+    "end": 1734.99,
+    "speaker_raw": "SPEAKER_17",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "Okay And when it comes to our administrative staff Is that my understanding is that if someone works the Saturday of fall festival that they then have comp time to be used At another time does that apply to? Which of our employees does that apply to with regard to the employees that are typically at events such as these?",
+    "word_count": 60,
+    "reason": "known_bad_window:ex_003_agenda_adoption",
+    "context_before": [
+      {
+        "turn_id": "turn_000106",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_02",
+        "text": "I think it's a sign up first for you know who wants the overtime and then it's an assignme"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000108",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_02",
+        "text": "It depends based on people's, you know exemption whether or not they have their overtime e"
+      }
+    ],
+    "candidate": "Councilmember Stacy Hardy-Chandler",
+    "confidence": 0.75,
+    "evidence": "registry_confirmed",
+    "gold_set_candidate": true
+  },
+  {
+    "turn_id": "turn_000108",
+    "start": 1736.43,
+    "end": 1751.57,
+    "speaker_raw": "SPEAKER_02",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "It depends based on people's, you know exemption whether or not they have their overtime eligible or not. And so most We're asking people to come in on a weekend and fill these spaces. So most those hours are overtime hours that people are Eligible for and using",
+    "word_count": 48,
+    "reason": "known_bad_window:ex_003_agenda_adoption",
+    "context_before": [
+      {
+        "turn_id": "turn_000107",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_17",
+        "text": "Okay And when it comes to our administrative staff Is that my understanding is that if som"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000109",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_17",
+        "text": "Okay. Do they have the option to take comp time instead of overtime or"
+      }
+    ],
+    "candidate": "Unknown \u2014 staff (leave until confirmed)",
+    "confidence": 0.0,
+    "evidence": "unknown_staff",
+    "gold_set_candidate": true
+  },
+  {
+    "turn_id": "turn_000109",
+    "start": 1751.57,
+    "end": 1755.19,
+    "speaker_raw": "SPEAKER_17",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "Okay. Do they have the option to take comp time instead of overtime or",
+    "word_count": 14,
+    "reason": "known_bad_window:ex_003_agenda_adoption",
+    "context_before": [
+      {
+        "turn_id": "turn_000108",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_02",
+        "text": "It depends based on people's, you know exemption whether or not they have their overtime e"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000110",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_02",
+        "text": "Yes, okay So then you have the option and sometimes newer employees will do it so they can"
+      }
+    ],
+    "candidate": "Councilmember Stacy Hardy-Chandler",
+    "confidence": 0.75,
+    "evidence": "registry_confirmed",
+    "gold_set_candidate": true
+  },
+  {
+    "turn_id": "turn_000110",
+    "start": 1755.19,
+    "end": 1763.93,
+    "speaker_raw": "SPEAKER_02",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "Yes, okay So then you have the option and sometimes newer employees will do it so they can build up some time off But most the time people do want the overtime",
+    "word_count": 32,
+    "reason": "known_bad_window:ex_003_agenda_adoption",
+    "context_before": [
+      {
+        "turn_id": "turn_000109",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_17",
+        "text": "Okay. Do they have the option to take comp time instead of overtime or"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000111",
+        "sp": "Unknown Speaker",
+        "raw": "UNKNOWN",
+        "text": "And"
+      }
+    ],
+    "candidate": "Unknown \u2014 staff (leave until confirmed)",
+    "confidence": 0.0,
+    "evidence": "unknown_staff",
+    "gold_set_candidate": true
+  },
+  {
+    "turn_id": "turn_000111",
+    "start": 1763.93,
+    "end": 1764.45,
+    "speaker_raw": "UNKNOWN",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unknown",
+    "text": "And",
+    "word_count": 1,
+    "reason": "known_bad_window:ex_003_agenda_adoption",
+    "context_before": [
+      {
+        "turn_id": "turn_000110",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_02",
+        "text": "Yes, okay So then you have the option and sometimes newer employees will do it so they can"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000112",
+        "sp": "Daniel Alexander",
+        "raw": "SPEAKER_05",
+        "text": "I think It's important to say here that we have to follow our FLSA standards totally under"
+      }
+    ],
+    "candidate": "Unknown \u2014 microblock (leave)",
+    "confidence": 0.0,
+    "evidence": "short_unknown",
+    "gold_set_candidate": false
+  },
+  {
+    "turn_id": "turn_000113",
+    "start": 1779.93,
+    "end": 1815.05,
+    "speaker_raw": "SPEAKER_17",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "Yes. Okay And this is a fairly specific question But the information that had been sent regarding the most recent conversation about the third -party event had some hourly rates over three -year span that Looked to be a little outdated. I don't know how old the hourly rates were so I know that we've kind of talked about What is a traditional hourly rate and those kind of things? But are those when you're coming up with these numbers here for the eighty eight thousand four hundred and ten Is this assume? X -rate for every and I understand we have a timekeeping system that is getting a little more",
+    "word_count": 111,
+    "reason": "known_bad_window:ex_003_agenda_adoption",
+    "context_before": [
+      {
+        "turn_id": "turn_000112",
+        "sp": "Daniel Alexander",
+        "raw": "SPEAKER_05",
+        "text": "I think It's important to say here that we have to follow our FLSA standards totally under"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000114",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_17",
+        "text": "Updated these days But is this just an expectation of X rate for every police officer that"
+      }
+    ],
+    "candidate": "Councilmember Stacy Hardy-Chandler",
+    "confidence": 0.75,
+    "evidence": "registry_confirmed",
+    "gold_set_candidate": true
+  },
+  {
+    "turn_id": "turn_000114",
+    "start": 1815.05,
+    "end": 1826.17,
+    "speaker_raw": "SPEAKER_17",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "Updated these days But is this just an expectation of X rate for every police officer that's there or Y rate for every? EMS or paramedic that's there",
+    "word_count": 28,
+    "reason": "known_bad_window:ex_003_agenda_adoption",
+    "context_before": [
+      {
+        "turn_id": "turn_000113",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_17",
+        "text": "Yes. Okay And this is a fairly specific question But the information that had been sent re"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000115",
+        "sp": "Unknown Speaker",
+        "raw": "UNKNOWN",
+        "text": "It"
+      }
+    ],
+    "candidate": "Councilmember Stacy Hardy-Chandler",
+    "confidence": 0.75,
+    "evidence": "registry_confirmed",
+    "gold_set_candidate": true
+  },
+  {
+    "turn_id": "turn_000115",
+    "start": 1826.17,
+    "end": 1826.85,
+    "speaker_raw": "UNKNOWN",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unknown",
+    "text": "It",
+    "word_count": 1,
+    "reason": "known_bad_window:ex_003_agenda_adoption",
+    "context_before": [
+      {
+        "turn_id": "turn_000114",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_17",
+        "text": "Updated these days But is this just an expectation of X rate for every police officer that"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000116",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_02",
+        "text": "Is a best estimate because People's rates do vary based on how long you've been here your "
+      }
+    ],
+    "candidate": "Unknown \u2014 microblock (leave)",
+    "confidence": 0.0,
+    "evidence": "short_unknown",
+    "gold_set_candidate": false
+  },
+  {
+    "turn_id": "turn_000116",
+    "start": 1826.85,
+    "end": 1851.51,
+    "speaker_raw": "SPEAKER_02",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "Is a best estimate because People's rates do vary based on how long you've been here your seniority And so it depends on if you pull perhaps for an event like a senior fire marshal or a newer fire marshal I know that Mitzi, Indiana used an average of those rates to determine the hourly rate for each Like public works fire Police and so those we did use an average so there is a range in there,",
+    "word_count": 78,
+    "reason": "known_bad_window:ex_003_agenda_adoption",
+    "context_before": [
+      {
+        "turn_id": "turn_000115",
+        "sp": "Unknown Speaker",
+        "raw": "UNKNOWN",
+        "text": "It"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000117",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_17",
+        "text": "Okay But those averages is that the same average you've been using for six years now Or is"
+      }
+    ],
+    "candidate": "Unknown \u2014 staff (leave until confirmed)",
+    "confidence": 0.0,
+    "evidence": "unknown_staff",
+    "gold_set_candidate": true
+  },
+  {
+    "turn_id": "turn_000125",
+    "start": 2001.23,
+    "end": 2036.25,
+    "speaker_raw": "SPEAKER_17",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "These other vendors that are coming in that are generating sales that we could somehow benefit I feel like that would help to offset some of these other Operational costs whether they're hard or soft costs that we're not currently calculating But I do again want to really point out that there is a benefit to holding things here And we just don't know what that number is. Yep, and you know it Councilmember McQuillan and I talked about this before too You know does it make sense sometimes to do these over two days to encourage people to stay in a hotel overnight to eat At our restaurants, you know to go out to breakfast before they show up at the next event You know it to end it a little bit earlier",
+    "word_count": 134,
+    "reason": "vote_call_pattern",
+    "context_before": [
+      {
+        "turn_id": "turn_000124",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_17",
+        "text": "Think what is very I'll call it frustrating is a lot of the food trucks that come in for t"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000126",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_17",
+        "text": "Or you know kind of flex the time so that we're encouraging people to stay And move around"
+      }
+    ],
+    "candidate": "Councilmember Stacy Hardy-Chandler",
+    "confidence": 0.75,
+    "evidence": "registry_confirmed",
+    "gold_set_candidate": true
+  },
+  {
+    "turn_id": "turn_000139",
+    "start": 2270.23,
+    "end": 2305.31,
+    "speaker_raw": "SPEAKER_17",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "So I know you're looking for information here and a kind of a yay or nay I'm I'm leaning towards some sort of hybrid between two and three I think that based upon let's say number of participants or people that show up I think that We do make money off of things right there is an added benefit We just don't know what it is so I think that it's not as easy as just saying well It's a total cost of $48,000 for us right it might look like that it might actually be much higher when you take into account",
+    "word_count": 103,
+    "reason": "vote_call_pattern",
+    "context_before": [
+      {
+        "turn_id": "turn_000138",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_17",
+        "text": "Yeah And actually the other thing that I I guess I should have realized But I didn't reall"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000140",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_17",
+        "text": "The depreciation on the Vehicles the barricades the fact that our hourly rates are varied "
+      }
+    ],
+    "candidate": "Councilmember Stacy Hardy-Chandler",
+    "confidence": 0.75,
+    "evidence": "registry_confirmed",
+    "gold_set_candidate": true
+  },
+  {
+    "turn_id": "turn_000558",
+    "start": 9254.17,
+    "end": 9285.75,
+    "speaker_raw": "SPEAKER_06",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "The budget memo If you go to the second page really quick Miss Riddle The Commissioner of Revenue did provide some graphics and a chart that are displayed there up on the screen sort of doing given a comparison of people rates within our Northern Virginia area how the city which is sort of highlighted in that red or salmon color sort of in the middle and Then the Northern Virginia average as well towards the bottom and that green or yellow color",
+    "word_count": 83,
+    "reason": "vote_call_pattern",
+    "context_before": [
+      {
+        "turn_id": "turn_000557",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_06",
+        "text": "Very quickly, what do you see on the screen and then also what was been previously provide"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000559",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_06",
+        "text": "My my color scheme is different than what is on the sheet there or what's being displayed "
+      }
+    ],
+    "candidate": "Councilmember Tom Peterson",
+    "confidence": 0.75,
+    "evidence": "registry_confirmed",
+    "gold_set_candidate": true
+  },
+  {
+    "turn_id": "turn_000559",
+    "start": 9287.63,
+    "end": 9323.57,
+    "speaker_raw": "SPEAKER_06",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "My my color scheme is different than what is on the sheet there or what's being displayed there, but I think additionally the Commissioner of Revenue sort of noted that we were almost At the max at every single section except for one That one specifically is in the professional real estate and financial section We are currently at point four zero when the Northern Virginia average is point four eight I think it's some correspondence back with council the Commissioner of Revenue noted that that may be a possibility Of",
+    "word_count": 91,
+    "reason": "vote_call_pattern",
+    "context_before": [
+      {
+        "turn_id": "turn_000558",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_06",
+        "text": "The budget memo If you go to the second page really quick Miss Riddle The Commissioner of "
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000560",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_06",
+        "text": "A potential increase in that one area everything else We are either at the max or at the s"
+      }
+    ],
+    "candidate": "Councilmember Tom Peterson",
+    "confidence": 0.75,
+    "evidence": "registry_confirmed",
+    "gold_set_candidate": true
+  },
+  {
+    "turn_id": "turn_000563",
+    "start": 9352.83,
+    "end": 9354.83,
+    "speaker_raw": "SPEAKER_06",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "One more time councilmember. Sorry,",
+    "word_count": 5,
+    "reason": "vote_call_pattern",
+    "context_before": [
+      {
+        "turn_id": "turn_000562",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_06",
+        "text": "Lessors of property"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000564",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_11",
+        "text": "So if I'm on the right graph I've got two column sets. Mm -hmm that have the same"
+      }
+    ],
+    "candidate": "Councilmember Tom Peterson",
+    "confidence": 0.75,
+    "evidence": "registry_confirmed",
+    "gold_set_candidate": false
+  },
+  {
+    "turn_id": "turn_000571",
+    "start": 9440.64,
+    "end": 9461.18,
+    "speaker_raw": "SPEAKER_06",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "The other half that you mentioned councilmember Peterson the professional real estate and financial where the state maximum is point five eight The city is currently at point four zero the Northern Virginia average is point four eight That one there would be room potentially to increase.",
+    "word_count": 47,
+    "reason": "vote_call_pattern",
+    "context_before": [
+      {
+        "turn_id": "turn_000570",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_06",
+        "text": "Yes, and no so the less or is of property commercial side. We are at the max Based off of "
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000572",
+        "sp": "Unknown Speaker",
+        "raw": "UNKNOWN",
+        "text": "So"
+      }
+    ],
+    "candidate": "Councilmember Tom Peterson",
+    "confidence": 0.75,
+    "evidence": "registry_confirmed",
+    "gold_set_candidate": true
+  },
+  {
+    "turn_id": "turn_000583",
+    "start": 9544.08,
+    "end": 9579.46,
+    "speaker_raw": "SPEAKER_06",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "Memo number six to the manager's point and I think to where I think councilmember Peterson maybe councilmember or other council members were sort of alluding to if We were to potentially increase that one segment in the people rate the That area specifically In professional real estate and financial from point four to the northern Virginia average of point four eight The Commissioner revenue did state that bringing that up by that amount",
+    "word_count": 74,
+    "reason": "vote_call_pattern",
+    "context_before": [
+      {
+        "turn_id": "turn_000582",
+        "sp": "Unknown Speaker",
+        "raw": "UNKNOWN",
+        "text": "Budget"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000584",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_06",
+        "text": "Would potentially generate an additional almost $700,000 so six hundred and ninety eight t"
+      }
+    ],
+    "candidate": "Councilmember Tom Peterson",
+    "confidence": 0.75,
+    "evidence": "registry_confirmed",
+    "gold_set_candidate": true
+  },
+  {
+    "turn_id": "turn_000619",
+    "start": 10068.72,
+    "end": 10103.9,
+    "speaker_raw": "SPEAKER_06",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "Sure and we'll do I mean you'll see it in the introduction because it needs to be published But we'll probably do another budget memo as well in conjunction in coordination with the Commissioner revenue So that way you clearly understand counsel the body understands what the thought process was and what the values would be as well So we could definitely do that if I can sort of go back to budget memo 6 because I Heard something on potentially earmarking or setting aside some money for economic development In addition or the second part of budget memo number 6 we talk about the TOT the transit occupancy tack",
+    "word_count": 110,
+    "reason": "vote_call_pattern",
+    "context_before": [
+      {
+        "turn_id": "turn_000618",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_09",
+        "text": "It sounds like everybody's on board with giving ourselves flexibility You can always say n"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000620",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_06",
+        "text": "Tax that's sort of on the second page I think miss Riddle has it up perfect. So currently "
+      }
+    ],
+    "candidate": "Councilmember Tom Peterson",
+    "confidence": 0.75,
+    "evidence": "registry_confirmed",
+    "gold_set_candidate": true
+  },
+  {
+    "turn_id": "turn_000620",
+    "start": 10103.9,
+    "end": 10138.96,
+    "speaker_raw": "SPEAKER_06",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "Tax that's sort of on the second page I think miss Riddle has it up perfect. So currently we are introducing That rate subject to Legislation being passed it was introduced. It seems like it's favorable. We will not know until the 13th of April But in discussion again with the city attorney. He's suggesting that we introduce it contingent upon The formal approval from the General Assembly given that we've met the introduction Process it's currently",
+    "word_count": 77,
+    "reason": "vote_call_pattern",
+    "context_before": [
+      {
+        "turn_id": "turn_000619",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_06",
+        "text": "Sure and we'll do I mean you'll see it in the introduction because it needs to be publishe"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000621",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_06",
+        "text": "At four percent We would be recommending and this was sort of built into the budget Via si"
+      }
+    ],
+    "candidate": "Councilmember Tom Peterson",
+    "confidence": 0.75,
+    "evidence": "registry_confirmed",
+    "gold_set_candidate": true
+  },
+  {
+    "turn_id": "turn_000629",
+    "start": 10336.54,
+    "end": 10371.66,
+    "speaker_raw": "SPEAKER_06",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "And councilmember really quickly and it's on the screen right now as well So your math wasn't too far off and you're absolutely Right. It's about an additional 1.1 million dollars or the equivalent of one point two one cents on the current real estate tax rate By doing these two changes the people change Specifically and we can incorporate what the change would be on the other side, but the 698 that's listed there is going from point four zero to point four eight in that one category and Then going from nine to twelve",
+    "word_count": 96,
+    "reason": "vote_call_pattern",
+    "context_before": [
+      {
+        "turn_id": "turn_000628",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_17",
+        "text": "We do become a bit of a tourism destination and that we start to have some additional hote"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000630",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_06",
+        "text": "Percent is an additional 375 on the TOT Combine those two. That's about 1.1 million not in"
+      }
+    ],
+    "candidate": "Councilmember Tom Peterson",
+    "confidence": 0.75,
+    "evidence": "registry_confirmed",
+    "gold_set_candidate": true
+  },
+  {
+    "turn_id": "turn_000702",
+    "start": 11591.49,
+    "end": 11626.69,
+    "speaker_raw": "SPEAKER_06",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "No, so your memories correct councilmember Peterson at the November budget retreat we did show some CIP sandwich slides is what I called them In one of those slides it did show a projected future spend About half of it half half a billion dollars was attributable to a potential future renovation of the high school And then also the middle school Those two projects are not a hundred percent scope schools has not come forward It was just based off of the",
+    "word_count": 83,
+    "reason": "vote_call_pattern",
+    "context_before": [
+      {
+        "turn_id": "turn_000701",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_11",
+        "text": "Underscore the need to have this very very serious conversation about how are we approachi"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000703",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_06",
+        "text": "September 2023 feasibility study done by Mosley that identified all schools and at some po"
+      }
+    ],
+    "candidate": "Councilmember Tom Peterson",
+    "confidence": 0.75,
+    "evidence": "registry_confirmed",
+    "gold_set_candidate": true
+  },
+  {
+    "turn_id": "turn_000704",
+    "start": 11653.93,
+    "end": 11677.59,
+    "speaker_raw": "SPEAKER_06",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "Absolutely large ticket items. I think councilmember Hall summarized it very well. These are Generational investments probably the last time that the city had significant capital investments of this magnitude was when it was founded Sixty some odd years ago and now we're sort of at that point where we need to renovate and we're constructing you as well So absolutely correct, sir",
+    "word_count": 63,
+    "reason": "vote_call_pattern",
+    "context_before": [
+      {
+        "turn_id": "turn_000703",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_06",
+        "text": "September 2023 feasibility study done by Mosley that identified all schools and at some po"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000705",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_09",
+        "text": "Councilmember"
+      }
+    ],
+    "candidate": "Councilmember Tom Peterson",
+    "confidence": 0.75,
+    "evidence": "registry_confirmed",
+    "gold_set_candidate": true
+  },
+  {
+    "turn_id": "turn_000715",
+    "start": 11751.51,
+    "end": 11786.53,
+    "speaker_raw": "SPEAKER_06",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "I Think councilmember Hall was sort of bringing that up So we'll use the school referendum because that's pretty recent where once a referendum passes the clock starts You have eight years Where you can pull debt off of that approved referendum you could ask the circuit court for a two -year extension But beyond that so a maximum of ten years is the limit that you would have to pull debt Associated and directly tied to that approval of that referendum if you don't complete pulling debt within that time frame You would have",
+    "word_count": 95,
+    "reason": "vote_call_pattern",
+    "context_before": [
+      {
+        "turn_id": "turn_000714",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_19",
+        "text": "Is there time in the timeline to do that, you know based on when we need to issue those bo"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000716",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_06",
+        "text": "To and if you need to do another referendum if you still need to renovate and or complete "
+      }
+    ],
+    "candidate": "Councilmember Tom Peterson",
+    "confidence": 0.75,
+    "evidence": "registry_confirmed",
+    "gold_set_candidate": true
+  },
+  {
+    "turn_id": "turn_000727",
+    "start": 11876.78,
+    "end": 11912.02,
+    "speaker_raw": "SPEAKER_06",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "I think we do that already during the budget process so while we're while council's considering the FY X budget and we're reviewing the CIP That's a part of the budget we have numerous work sessions and public hearings that the public can attend all related to the budget and either Provide feedback for or against that specific item I think that's what councilmember Hall was alluding to where there is slightly more Public engagement during that process but to her point",
+    "word_count": 82,
+    "reason": "vote_call_pattern",
+    "context_before": [
+      {
+        "turn_id": "turn_000726",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_19",
+        "text": "Well I mean like you know if for something that wouldn't otherwise require a referendum if"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000728",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_06",
+        "text": "You do Virginia you can't vote every single year as well. So it's a little bit of both in "
+      }
+    ],
+    "candidate": "Councilmember Tom Peterson",
+    "confidence": 0.75,
+    "evidence": "registry_confirmed",
+    "gold_set_candidate": true
+  },
+  {
+    "turn_id": "turn_000761",
+    "start": 12314.73,
+    "end": 12349.75,
+    "speaker_raw": "SPEAKER_17",
+    "speaker_public": "Unknown Speaker",
+    "speaker_status": "unresolved",
+    "text": "General thing, I know we don't get council comments tonight, but I did reach out to each of my colleagues the Only person I didn't hear back from was councilmember Amos, which is expected because he is away But I just wanted to bring this to Staffs attention. I know I emailed with Anna Safford our urban forester, but there have been several Properties in neighborhoods that have taken down an extraordinary number of trees without getting proper permits and It was heartbreaking to see what happened recently to a couple in my",
+    "word_count": 93,
+    "reason": "vote_call_pattern",
+    "context_before": [
+      {
+        "turn_id": "turn_000760",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_17",
+        "text": "Sorry. Thank you Just to wrap up on the referendum thing I I What think maybe put a pin in"
+      }
+    ],
+    "context_after": [
+      {
+        "turn_id": "turn_000762",
+        "sp": "Unknown Speaker",
+        "raw": "SPEAKER_17",
+        "text": "Neighborhood And so I reached out with some questions and I was told that the current city"
+      }
+    ],
+    "candidate": "Councilmember Stacy Hardy-Chandler",
+    "confidence": 0.75,
+    "evidence": "registry_confirmed",
+    "gold_set_candidate": true
+  }
+]

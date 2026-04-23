@@ -8,7 +8,7 @@ AI-powered transcription of Fairfax City Council meetings for transparency and a
 
 ## About
 
-This project provides searchable, timestamped transcripts of Fairfax City Council meetings. Phase 1 transcripts are generated locally on Juggernaut (WhisperX-first) and include:
+This project provides searchable, timestamped transcripts of Fairfax City Council meetings. Transcripts are generated using OpenAI Whisper and include:
 
 - 📋 Full-text search across published meetings
 - 🎙️ Best-effort automated speaker labels (may contain errors)
@@ -44,10 +44,8 @@ fairfax-council-transcripts/
 │   ├── transcripts/        # Individual meeting transcripts
 │   ├── css/                # Stylesheets
 │   └── js/                 # Search & interaction scripts
-├── scripts/                 # Phase 1 ingest, local pipeline, publish, and fallback helpers
-│   ├── run_phase1_local_pipeline.py
-│   ├── build_structured_transcript.py
-│   └── transcribe.py       # Legacy/fallback Whisper API path
+├── scripts/                 # Transcription pipeline
+│   └── transcribe.py       # Whisper API integration
 ├── videos/                  # Source audio files
 ├── templates/               # Data schemas
 │   └── meeting.schema.json # Canonical meeting model
@@ -82,12 +80,9 @@ fairfax-council-transcripts/
 
 - **Frontend**: Static HTML/CSS/JS on GitHub Pages
 - **Search**: Client-side JavaScript with pre-built search index
-- **Index build**: `scripts/build_search_index.py` reads `meetings/*.json` + published turn data
-- **Phase 1 transcription**: Local WhisperX-first on Juggernaut
-- **Structured source of truth**: `transcripts_structured/<meeting_id>.json`
-- **Publish step**: `scripts/publish_structured_meeting.py` generates public site output from structured data
-- **Fallback path**: older OpenAI Whisper flow is retained only as fallback/legacy tooling
-- **Hosting**: GitHub Pages
+- **Index build**: `scripts/build_search_index.py` reads `meetings/*.json` + transcript turn data
+- **Transcription**: Local WhisperX-first on Juggernaut for Phase 1
+- **Hosting**: GitHub Pages (free, reliable)
 - **Video Links**: Direct to Granicus (city's official archive)
 
 ## Official Resources

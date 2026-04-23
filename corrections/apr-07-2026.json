@@ -1,0 +1,17 @@
+{
+  "schema": "fairfax.window_overrides.v1",
+  "meeting_id": "apr-07-2026",
+  "applied_by": "approach_b",
+  "description": "Window overrides for known_bad_window:ex_003_agenda_adoption (1652-1751s)",
+  "overrides": [
+    {
+      "window_start": 1638.0,
+      "window_end": 1752.0,
+      "original_speaker": "SPEAKER_20",
+      "override_speaker": "SPEAKER_09",
+      "reason": "misattribution_to_mayor_window",
+      "source": "speaker_audit_apr-07-2026",
+      "description": "SPEAKER_20 is Mayor Catherine Read's pyannote ID. Mayor absent from 1638-1752s Q&A window despite 86 turns elsewhere. SPEAKER_20's content matches Mayor-level substantive responses."
+    }
+  ]
+}

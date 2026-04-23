@@ -1,0 +1,18 @@
+{
+  "schema": "fairfax.approvals.v1",
+  "meeting_id": "apr-07-2026",
+  "approvals": {
+    "SPEAKER_09": {
+      "status": "approved",
+      "name": "Mayor Catherine Read",
+      "role": "mayor",
+      "notes": "Override SPEAKER_20->SPEAKER_09 in 1638-1752s. Mayor confirmed by pyannote ID registry cross-meeting consistency. SPEAKER_09 has 86 turns as Mayor calling meeting to order and addressing council."
+    },
+    "SPEAKER_05": {
+      "status": "approved",
+      "name": "Daniel Alexander",
+      "role": "staff",
+      "notes": "Confirmed by 'Alexander. It's a great question' at 3074.4s. Budget Director."
+    }
+  }
+}

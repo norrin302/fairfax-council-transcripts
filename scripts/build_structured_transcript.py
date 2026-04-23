@@ -22,35 +22,6 @@ class DiarSeg:
     speaker: str
 
 
-_FILLER_TURNS = {
-    "oh",
-    "uh",
-    "um",
-    "hmm",
-    "mm",
-    "mhm",
-    "yeah",
-    "yes",
-    "no",
-    "okay",
-    "ok",
-    "aye",
-    "second",
-    "all right",
-    "thank you",
-    "i",
-    "i i",
-    "♪♪",
-}
-
-_PUBLIC_COMMENT_MARKERS = {
-    "mr.",
-    "ms.",
-    "mrs.",
-    "dr.",
-}
-
-
 def _load_diar(path: Path) -> list[DiarSeg]:
     obj = json.loads(path.read_text(encoding="utf-8"))
     segs = obj.get("segments") if isinstance(obj, dict) else None
@@ -141,33 +112,10 @@ def _join_tokens(parts: list[str]) -> str:
     return re.sub(r"\s+", " ", out).strip()
 
 
-def _cleanup_text(text: str) -> str:
+def _normalize_text(text: str) -> str:
     text = re.sub(r"\s+", " ", text or "").strip()
-    if not text:
-        return ""
-
-    text = re.sub(r"\b([A-Za-z]+)(?:\s+\1\b){2,}", r"\1", text, flags=re.IGNORECASE)
-    text = re.sub(r"\b(all right)(?:,?\s+\1\b)+", r"\1", text, flags=re.IGNORECASE)
-    text = re.sub(r"\b(thank you)(?:,?\s+\1\b)+", r"\1", text, flags=re.IGNORECASE)
-    text = re.sub(r"\b(come)(?:\s+\1\b)+", r"\1", text, flags=re.IGNORECASE)
-    text = re.sub(r"\b(play)\s+a\s+little\s+bit\s+of\s+the\s+pledge\s+of\s+allegiance\b", "", text, flags=re.IGNORECASE)
-    text = re.sub(r"\bit's a little bit of the pledge of allegiance\b", "", text, flags=re.IGNORECASE)
-    text = re.sub(r"\beven more\s+oh\b", "", text, flags=re.IGNORECASE)
-    text = re.sub(r"\bmayor\s+reed\s+has\s+the\s+name\s+to\s+have\s+a\s+library\s+card\b", "", text, flags=re.IGNORECASE)
-    text = re.sub(r"\bi\s*$", "", text, flags=re.IGNORECASE)
-    text = re.sub(r"^\.\s*", "", text)
-    text = re.sub(r"^(?:i[\.,!?]?\s+)+", "", text, flags=re.IGNORECASE)
-    text = re.sub(r"\bi\s+(?=will\b|am\b|move\b|think\b|want\b|would\b)", "", text, flags=re.IGNORECASE)
-    text = re.sub(r"\s+([,.;:!?])", r"\1", text)
-    text = re.sub(r"([,.;:!?]){2,}", r"\1", text)
-    text = re.sub(r"\s+", " ", text).strip(" ,")
-
-    if re.fullmatch(r"[♪\s]+", text):
-        return ""
-
-    text = text.strip(" ,.-")
     if text:
-        text = text[:1].upper() + text[1:]
+        return text[:1].upper() + text[1:]
     return text
 
 
@@ -182,7 +130,7 @@ def _load_approvals(path: Path) -> dict[str, dict[str, Any]]:
     return obj
 
 
-def _public_label_policy(speaker_raw: str, approvals: dict[str, dict[str, Any]], text: str = "") -> tuple[str, str, bool, str]:
+def _public_label_policy(speaker_raw: str, approvals: dict[str, dict[str, Any]]) -> tuple[str, str, bool, str]:
     a = approvals.get(speaker_raw) or {}
     status = str(a.get("status") or "").strip()
     name = str(a.get("name") or "").strip()
@@ -193,77 +141,10 @@ def _public_label_policy(speaker_raw: str, approvals: dict[str, dict[str, Any]],
     if status.startswith("rejected") or status == "mixed":
         return "Unknown Speaker", "mixed", True, "mixed_or_rejected_audio"
 
-    normalized = re.sub(r"\s+", " ", (text or "").strip())
-    first = normalized.split(" ", 1)[0].lower() if normalized else ""
-    if speaker_raw == "UNKNOWN" and first in _PUBLIC_COMMENT_MARKERS:
-        return "Public Comment Speaker", "public_comment_unverified", True, "unverified_public_comment"
-
     if speaker_raw == "UNKNOWN":
         return "Unknown Speaker", "unknown", True, "no_diarization"
 
     return "Unknown Speaker", "unresolved", True, "unresolved_identity"
-
-
-def _is_micro_turn(turn: dict[str, Any]) -> bool:
-    text = str(turn.get("text") or "").strip()
-    if not text:
-        return True
-    words = text.split()
-    if len(words) <= 2:
-        normalized = re.sub(r"[^a-z♪]+", " ", text.lower()).strip()
-        if normalized in _FILLER_TURNS:
-            return True
-    return False
-
-
-def _merge_micro_turns(turns: list[dict[str, Any]], max_gap: float) -> list[dict[str, Any]]:
-    merged: list[dict[str, Any]] = []
-    i = 0
-    while i < len(turns):
-        cur = dict(turns[i])
-        if _is_micro_turn(cur):
-            prev = merged[-1] if merged else None
-            nxt = turns[i + 1] if i + 1 < len(turns) else None
-            prev_gap = float(cur["start"]) - float(prev["end"]) if prev else 9999.0
-            next_gap = float(nxt["start"]) - float(cur["end"]) if nxt else 9999.0
-
-            if prev and prev.get("speaker_raw") == cur.get("speaker_raw") and prev_gap <= max_gap:
-                prev["end"] = cur["end"]
-                prev["text"] = _cleanup_text(f"{prev['text']} {cur['text']}")
-                i += 1
-                continue
-
-            if nxt and nxt.get("speaker_raw") == cur.get("speaker_raw") and next_gap <= max_gap:
-                nxt = dict(nxt)
-                nxt["start"] = cur["start"]
-                nxt["text"] = _cleanup_text(f"{cur['text']} {nxt['text']}")
-                turns[i + 1] = nxt
-                i += 1
-                continue
-
-            if prev and prev_gap <= max_gap and cur.get("speaker_status") != "approved":
-                prev["end"] = cur["end"]
-                prev["text"] = _cleanup_text(f"{prev['text']} {cur['text']}")
-                prev["needs_review"] = True
-                prev["review_reason"] = prev.get("review_reason") or "merged_micro_turn"
-                i += 1
-                continue
-
-            if not prev and nxt and next_gap <= max_gap and cur.get("speaker_status") != "approved":
-                nxt = dict(nxt)
-                nxt["start"] = cur["start"]
-                nxt["text"] = _cleanup_text(f"{cur['text']} {nxt['text']}")
-                nxt["needs_review"] = True
-                nxt["review_reason"] = nxt.get("review_reason") or "merged_leading_micro_turn"
-                turns[i + 1] = nxt
-                i += 1
-                continue
-
-        cur["text"] = _cleanup_text(str(cur.get("text") or ""))
-        if cur["text"]:
-            merged.append(cur)
-        i += 1
-    return [t for t in merged if str(t.get("text") or "").strip() and not _is_micro_turn(t)]
 
 
 def main() -> int:
@@ -273,9 +154,9 @@ def main() -> int:
     ap.add_argument("--diarization", required=True, help="Diarization JSON with segments[]")
     ap.add_argument("--approvals", default="", help="Optional manual approvals JSON mapping diar speaker_id to public names")
     ap.add_argument("--out", required=True, help="Output structured transcript JSON")
-    ap.add_argument("--max-gap", type=float, default=2.4)
-    ap.add_argument("--max-seconds", type=float, default=42.0)
-    ap.add_argument("--max-chars", type=int, default=720)
+    ap.add_argument("--max-gap", type=float, default=1.2)
+    ap.add_argument("--max-seconds", type=float, default=35.0)
+    ap.add_argument("--max-chars", type=int, default=650)
     args = ap.parse_args()
 
     meeting = load_meeting(args.meeting_id)
@@ -323,8 +204,8 @@ def main() -> int:
 
     structured_turns: list[dict[str, Any]] = []
     for i, t in enumerate(turns):
-        text = _cleanup_text(_join_tokens(t["parts"]))
-        speaker_public, speaker_status, needs_review, reason = _public_label_policy(str(t["speaker_raw"]), approvals, text)
+        speaker_public, speaker_status, needs_review, reason = _public_label_policy(str(t["speaker_raw"]), approvals)
+        text = _normalize_text(_join_tokens(t["parts"]))
         structured_turns.append(
             {
                 "turn_id": f"turn_{i+1:06d}",
@@ -339,11 +220,6 @@ def main() -> int:
                 "confidence": None,
             }
         )
-
-    structured_turns = _merge_micro_turns(structured_turns, max_gap=max(args.max_gap, 3.0))
-
-    for i, t in enumerate(structured_turns):
-        t["turn_id"] = f"turn_{i+1:06d}"
 
     out = {
         "schema": "fairfax.structured_transcript.v1",
