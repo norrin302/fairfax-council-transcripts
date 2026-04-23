@@ -362,7 +362,8 @@
       btn.addEventListener('click', function (e) {
         e.stopPropagation();
         try {
-          openModalForTurn(blockInfo.turnIds[0]);
+          var tid = blockInfo.turnIds[0];
+          openModalForTurn(tid == null ? blockInfo : tid);
         } catch (err) {
           console.error('[review-ui] openModalForTurn error:', err);
         }
@@ -616,10 +617,19 @@
     console.log('[review-ui] openModalForTurn called, turnId=' + turnId);
     var blocks = buildBlockIndex();
     var blockInfo = null;
-    for (var i = 0; i < blocks.length; i++) {
-      if (blocks[i].turnIds.indexOf(String(turnId)) >= 0) {
-        blockInfo = blocks[i];
-        break;
+
+    // Accept either a turnId string or a blockInfo object directly
+    if (turnId && typeof turnId === 'object' && turnId.speaker !== undefined) {
+      blockInfo = turnId;
+    } else if (turnId === null || turnId === undefined) {
+      // Use first block with unknown speaker as fallback for testing
+      blockInfo = blocks.find(function(b) { return b.speakerKey === speakerKey('Unknown Speaker'); }) || null;
+    } else {
+      for (var i = 0; i < blocks.length; i++) {
+        if (blocks[i].turnIds.indexOf(String(turnId)) >= 0) {
+          blockInfo = blocks[i];
+          break;
+        }
       }
     }
     if (!blockInfo) { console.log('[review-ui] openModalForTurn: blockInfo not found for turnId=' + turnId); return; }
