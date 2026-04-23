@@ -334,7 +334,9 @@
 
   // ---- Wire Label buttons into unlabeled blocks ----
   function wireLabelButtons() {
+    console.log('[review-ui] wireLabelButtons called, transcript children:', document.querySelectorAll('.speaker-block').length);
     var blocks = buildBlockIndex();
+    console.log('[review-ui] blocks from index:', blocks.length);
     document.querySelectorAll('.speaker-block').forEach(function (block) {
       var speakerKey2 = String(block.dataset.speaker || '').toLowerCase();
       if (speakerKey2 !== speakerKey('Unknown Speaker')) return;
@@ -598,6 +600,7 @@
   }
 
   function openModalForTurn(turnId) {
+    console.log('[review-ui] openModalForTurn called, turnId=' + turnId);
     var blocks = buildBlockIndex();
     var blockInfo = null;
     for (var i = 0; i < blocks.length; i++) {
@@ -606,7 +609,8 @@
         break;
       }
     }
-    if (!blockInfo) return;
+    if (!blockInfo) { console.log('[review-ui] openModalForTurn: blockInfo not found for turnId=' + turnId); return; }
+    console.log('[review-ui] openModalForTurn: blockInfo found, speaker=' + blockInfo.speaker);
 
     ACTIVE_TURN_ID = String(turnId);
     var modal = getModal();
