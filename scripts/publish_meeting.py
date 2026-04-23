@@ -768,7 +768,8 @@ def write_transcript_html(meeting: dict[str, Any], out_path: Path) -> None:
     }, ensure_ascii=False)};
   </script>
   <script src=\"./{meeting_id}-data.js\"></script>
-  <script src=\"../js/transcript-page.js\"></script>
+  <script src="../js/transcript-page.js"></script>
+  <script src="../js/review-ui.js" defer></script>
 </body>
 </html>
 """
