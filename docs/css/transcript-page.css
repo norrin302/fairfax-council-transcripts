@@ -1082,3 +1082,29 @@ body {
   border-radius: 4px;
   color: #2d3748;
 }
+
+/* ---- Video embed in modal ---- */
+.rm-video-section { margin: 0 0 14px 0; }
+.rm-video-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+.rm-video-header span { font-size: 12px; color: #718096; }
+.rm-video-link-btn {
+  font-size: 11px; padding: 2px 8px; background: #edf2f7;
+  border: 1px solid #cbd5e0; border-radius: 4px; color: #2b6cb0; cursor: pointer; text-decoration: none;
+}
+.rm-video-link-btn:hover { background: #e2e8f0; }
+.rm-video-container {
+  position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;
+  border-radius: 8px; background: #000; margin-top: 4px;
+}
+.rm-video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
+.rm-video-placeholder {
+  position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+  display: flex; align-items: center; justify-content: center;
+  color: #718096; font-size: 13px; background: #1a202c;
+}
+.rm-video-close-row { display: flex; justify-content: flex-end; margin-top: 4px; }
+.rm-video-close-btn {
+  font-size: 11px; padding: 2px 8px; background: transparent; border: 1px solid #cbd5e0;
+  border-radius: 4px; color: #718096; cursor: pointer;
+}
+.rm-video-close-btn:hover { background: #edf2f7; }

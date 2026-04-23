@@ -63,6 +63,7 @@
   var CURRENT_EXPORT_BATCH_ID = null;  // set once per export event; used to tag all decisions in that export
   var CURRENTLY_HIGHLIGHTED_BLOCK = null;  // currently keyboard-navigated unknown block
   var VOICE_CLUSTERS = null;     // loaded from reviews/<meeting_id>-voice-clusters.json // gitignored, served via raw GitHub
+  var VIDEO_EMBED_OPEN = false;  // true when video embed is visible in modal
   var ACTIVE_SIDEBAR_TAB = 'decisions';  // 'decisions' | 'clusters'
 
   // ---- Helpers ----
@@ -126,6 +127,7 @@
       id: String(m.meeting_id || '').trim(),
       date: String(m.display_date || m.meeting_date || '').trim(),
       title: String(m.title || '').trim(),
+      sourceUrl: String(m.source_url || '').trim(),
     };
   }
 
@@ -837,6 +839,40 @@
     });
   }
 
+  function showVideoEmbed(blockStart, sourceUrl) {
+    if (!sourceUrl) return;
+    VIDEO_EMBED_OPEN = true;
+    var area = document.getElementById('rm-video-embed-area');
+    if (!area) return;
+    var clipId = sourceUrl.split('/').pop() || '';
+    var embedUrl = sourceUrl;
+    if (blockStart > 0) {
+      embedUrl = sourceUrl + (sourceUrl.includes('?') ? '&' : '?') + 'start=' + blockStart;
+    }
+    area.innerHTML = '<div class="rm-video-container"><div class="rm-video-placeholder">Loading video...</div></div>';
+    var container = area.querySelector('.rm-video-container');
+    var iframe = document.createElement('iframe');
+    iframe.src = embedUrl;
+    iframe.allow = 'autoplay; fullscreen';
+    iframe.title = 'Video at ' + formatTime(blockStart);
+    container.innerHTML = '';
+    container.appendChild(iframe);
+    document.getElementById('rm-video-toggle-btn').style.display = 'none';
+    var closeRow = document.createElement('div');
+    closeRow.className = 'rm-video-close-row';
+    closeRow.innerHTML = '<button type="button" id="rm-video-close-btn" class="rm-video-close-btn"><i class="fas fa-times"></i> Hide video</button>';
+    area.appendChild(closeRow);
+    document.getElementById('rm-video-close-btn').addEventListener('click', closeVideoEmbed);
+  }
+
+  function closeVideoEmbed() {
+    VIDEO_EMBED_OPEN = false;
+    var area = document.getElementById('rm-video-embed-area');
+    if (area) area.innerHTML = '';
+    var toggleBtn = document.getElementById('rm-video-toggle-btn');
+    if (toggleBtn) toggleBtn.style.display = '';
+  }
+
   function escHtml(str) {
     return String(str || '')
       .replace(/&/g, '&amp;')
@@ -1000,10 +1036,20 @@
     updateSubmitState(modal);
     modal.classList.add('open');
     modal.style.display = 'flex';
+
+    // Wire video toggle
+    var videoToggleBtn = modal.querySelector('#rm-video-toggle-btn');
+    if (videoToggleBtn) {
+      videoToggleBtn.addEventListener('click', function () {
+        var meta = getMeetingMeta();
+        showVideoEmbed(blockInfo.start, meta.sourceUrl);
+      });
+    }
   }
 
   function closeModal() {
     var modal = getModal();
+    closeVideoEmbed();
     modal.classList.remove('open');
     setTimeout(function () { modal.style.display = 'none'; modal.innerHTML = ''; }, 200);
     ACTIVE_TURN_ID = null;
@@ -1109,6 +1155,17 @@
         '<div class="rm-section">',
           '<label class="rm-label">Speaker text</label>',
           '<div class="rm-turn-preview">' + escHtml(previewText) + '</div>',
+        '</div>',
+
+        // Video embed
+        '<div class="rm-video-section" id="rm-video-section">',
+          '<div class="rm-video-header">',
+            '<span>Video at ' + timeLabel + '</span>',
+            '<button type="button" id="rm-video-toggle-btn" class="rm-video-link-btn">',
+              '<i class="fas fa-play"></i> Watch video',
+            '</button>',
+          '</div>',
+          '<div id="rm-video-embed-area"></div>',
         '</div>',
 
         // Quick actions
