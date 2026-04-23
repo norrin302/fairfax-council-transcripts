@@ -61,6 +61,7 @@
   var ACTIVE_TURN_ID = null;
   var DIRTY_STATE = false;       // true when staged decisions exist and haven't been exported
   var CURRENT_EXPORT_BATCH_ID = null;  // set once per export event; used to tag all decisions in that export
+  var CURRENTLY_HIGHLIGHTED_BLOCK = null;  // currently keyboard-navigated unknown block
   var VOICE_CLUSTERS = null;     // loaded from reviews/<meeting_id>-voice-clusters.json
   var ACTIVE_SIDEBAR_TAB = 'decisions';  // 'decisions' | 'clusters'
 

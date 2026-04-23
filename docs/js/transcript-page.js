@@ -946,6 +946,8 @@
     const turns = (typeof TRANSCRIPT_TURNS !== 'undefined') ? TRANSCRIPT_TURNS : [];
 
     const blocks = renderTranscript(turns, meeting);
+    // Expose for review-ui.js keyboard navigation
+    window.TRANSCRIPT_BLOCKS = blocks;
     renderOfficialResources(meeting);
     renderSectionLinks(meeting);
     renderSpeakerChips(blocks);
@@ -956,6 +958,20 @@
     wireSectionLinks();
 
     wireMatchNav();
+
+    // ---- Unknown speaker counter ----
+    (function () {
+      var all = document.querySelectorAll('.speaker-block');
+      var unknown = document.querySelectorAll('.speaker-block.unknown');
+      if (unknown.length === 0) return;
+      var tools = document.getElementById('transcript-tools');
+      if (!tools) return;
+      var el = document.createElement('span');
+      el.className = 'unknown-counter';
+      el.textContent = '\uD83D\uDCDD ' + unknown.length + ' / ' + all.length + ' turns need review';
+      var h3 = tools.querySelector('h3');
+      if (h3) h3.appendChild(el);
+    })();
 
     // ---- Review mode button ----
     var reviewBtn = document.getElementById('btn-review-mode');
