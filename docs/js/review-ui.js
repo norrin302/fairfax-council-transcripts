@@ -62,7 +62,7 @@
   var DIRTY_STATE = false;       // true when staged decisions exist and haven't been exported
   var CURRENT_EXPORT_BATCH_ID = null;  // set once per export event; used to tag all decisions in that export
   var CURRENTLY_HIGHLIGHTED_BLOCK = null;  // currently keyboard-navigated unknown block
-  var VOICE_CLUSTERS = null;     // loaded from reviews/<meeting_id>-voice-clusters.json
+  var VOICE_CLUSTERS = null;     // loaded from reviews/<meeting_id>-voice-clusters.json // gitignored, served via raw GitHub
   var ACTIVE_SIDEBAR_TAB = 'decisions';  // 'decisions' | 'clusters'
 
   // ---- Helpers ----
@@ -499,7 +499,7 @@
     if (!MEETING_ID) return;
     try {
       var xhr = new XMLHttpRequest();
-      xhr.open('GET', 'docs/reviews/' + MEETING_ID + '-voice-clusters.json', false);
+      xhr.open('GET', 'reviews/' + MEETING_ID + '-voice-clusters.json', false);
       xhr.send(null);
       if (xhr.status === 200) {
         VOICE_CLUSTERS = JSON.parse(xhr.responseText);
