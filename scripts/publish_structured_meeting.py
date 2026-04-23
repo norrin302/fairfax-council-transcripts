@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import subprocess
 import sys
 from pathlib import Path
 from typing import Any
@@ -60,6 +61,23 @@ def main() -> int:
 
     print(turns_out)
     print(html_out)
+
+    # Run voice clustering so clusters file is available for review UI
+    cluster_script = REPO_ROOT / "scripts" / "cluster_for_review.py"
+    try:
+        result = subprocess.run(
+            [sys.executable, str(cluster_script), args.meeting_id],
+            capture_output=True,
+            text=True,
+            timeout=120,
+        )
+        if result.returncode == 0:
+            print(result.stdout.strip())
+        else:
+            print("cluster_for_review warning:", result.stderr.strip(), file=sys.stderr)
+    except Exception as exc:
+        print(f"cluster_for_review skipped ({exc})", file=sys.stderr)
+
     return 0
 
 

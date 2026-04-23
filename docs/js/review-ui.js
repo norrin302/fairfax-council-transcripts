@@ -61,6 +61,8 @@
   var ACTIVE_TURN_ID = null;
   var DIRTY_STATE = false;       // true when staged decisions exist and haven't been exported
   var CURRENT_EXPORT_BATCH_ID = null;  // set once per export event; used to tag all decisions in that export
+  var VOICE_CLUSTERS = null;     // loaded from reviews/<meeting_id>-voice-clusters.json
+  var ACTIVE_SIDEBAR_TAB = 'decisions';  // 'decisions' | 'clusters'
 
   // ---- Helpers ----
   function getTurns() {
@@ -491,6 +493,194 @@
     }).catch(function () { showToast('Copy failed'); });
   }
 
+  // ---- Voice clusters ----
+  function loadVoiceClusters() {
+    if (!MEETING_ID) return;
+    try {
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', 'reviews/' + MEETING_ID + '-voice-clusters.json', false);
+      xhr.send(null);
+      if (xhr.status === 200) {
+        VOICE_CLUSTERS = JSON.parse(xhr.responseText);
+      } else {
+        VOICE_CLUSTERS = null;
+      }
+    } catch (e) {
+      VOICE_CLUSTERS = null;
+    }
+  }
+
+  function stageClusterDecisions(cluster) {
+    // Stage an 'approve_named_official' decision for every turn in the cluster
+    var speakerName = cluster.likely_speaker || '';
+    var speakerKey2 = cluster.likely_speaker_key || '';
+    // Determine speaker type from key prefix or name heuristics
+    var speakerType = 'council';
+    if (/^(jc_martinez|mr_alexander|william_pitchford)/i.test(speakerKey2)) {
+      speakerType = 'staff';
+    }
+    for (var i = 0; i < cluster.turn_ids.length; i++) {
+      var turnId = cluster.turn_ids[i];
+      var existing = PENDING_DECISIONS.find(function (d) { return d.turn_id === turnId; });
+      var decision = {
+        turn_id: turnId,
+        decision_id: existing && existing.decision_id ? existing.decision_id : generateId(),
+        reviewer_action: 'approve_named_official',
+        speaker_name: speakerName,
+        speaker_type: speakerType,
+        evidence_note: 'Bulk label from voice cluster "' + cluster.cluster_id + '" (confidence ' + cluster.confidence + ')',
+        speaker_public_override: speakerName,
+        speaker_status_override: 'approved',
+        text_override: '',
+        suppress: false,
+        notes: 'Bulk label from voice cluster "' + cluster.cluster_id + '" (confidence ' + cluster.confidence + ')',
+        timestamp: Date.now(),
+        reviewer: REVIEWER_DEFAULT,
+      };
+      addPending(decision);
+    }
+    markDirty();
+    renderSidebar();
+    updateBannerCounts();
+    wireLabelButtons();
+    showToast('Staged ' + cluster.turn_ids.length + ' turn(s) as "' + speakerName + '"');
+  }
+
+  function stageSingletonDecision(turnId, speakerName) {
+    // Quick-label a singleton turn as the most likely speaker (council by default)
+    var speakerKey2 = speakerName ? speakerName.toLowerCase().replace(/\s+/g, '') : '';
+    var speakerType = 'council';
+    if (/^(jc_martinez|mr_alexander|william_pitchford)/i.test(speakerKey2)) {
+      speakerType = 'staff';
+    }
+    var existing = PENDING_DECISIONS.find(function (d) { return d.turn_id === turnId; });
+    var decision = {
+      turn_id: turnId,
+      decision_id: existing && existing.decision_id ? existing.decision_id : generateId(),
+      reviewer_action: 'approve_named_official',
+      speaker_name: speakerName,
+      speaker_type: speakerType,
+      evidence_note: 'Bulk label from voice cluster singleton',
+      speaker_public_override: speakerName,
+      speaker_status_override: 'approved',
+      text_override: '',
+      suppress: false,
+      notes: 'Bulk label from voice cluster singleton',
+      timestamp: Date.now(),
+      reviewer: REVIEWER_DEFAULT,
+    };
+    addPending(decision);
+    markDirty();
+    renderSidebar();
+    updateBannerCounts();
+    wireLabelButtons();
+    showToast('Staged turn as "' + speakerName + '"');
+  }
+
+  function renderVoiceClustersPanel() {
+    var meta = getMeetingMeta();
+    if (!meta.id) return '<div class="review-sidebar-empty">No meeting ID.</div>';
+
+    loadVoiceClusters();
+
+    if (!VOICE_CLUSTERS) {
+      return '<div class="review-sidebar-header">' +
+        '<h3><i class="fas fa-waveform"></i> Voice Clusters</h3>' +
+        '</div>' +
+        '<div class="review-sidebar-empty">' +
+        'No clusters file found for this meeting.<br><br>' +
+        'Run clustering first:<br>' +
+        '<code style="font-size:11px;">python3 scripts/cluster_for_review.py ' + escHtml(meta.id) + '</code>' +
+        '</div>';
+    }
+
+    var clusters = VOICE_CLUSTERS.clusters || [];
+    var singletons = VOICE_CLUSTERS.singletons || [];
+    var totalUnknown = clusters.reduce(function (s, c) { return s + c.turn_ids.length; }, 0) + singletons.length;
+
+    var html = '<div class="review-sidebar-header">' +
+      '<h3><i class="fas fa-waveform"></i> Voice Clusters</h3>' +
+      '</div>' +
+      '<div class="vc-meta">' +
+        clusters.length + ' cluster(s), ' + totalUnknown + ' unknown turn(s)</div>';
+
+    // Clusters
+    if (clusters.length === 0 && singletons.length === 0) {
+      html += '<div class="review-sidebar-empty">No unknown turns to cluster.</div>';
+      return html;
+    }
+
+    for (var ci = 0; ci < clusters.length; ci++) {
+      var cluster = clusters[ci];
+      var confPct = Math.round((cluster.confidence || 0) * 100);
+      var clusterId = 'vc-cluster-' + ci;
+      var isExpanded = ci === 0; // expand first cluster by default
+
+      html += '<div class="vc-cluster">' +
+        '<div class="vc-cluster-header" data-cluster="' + ci + '">' +
+          '<span class="vc-cluster-toggle"><i class="fas fa-chevron-' + (isExpanded ? 'down' : 'right') + '"></i></span>' +
+          '<span class="vc-cluster-speaker">' + escHtml(cluster.likely_speaker || '?') + '</span>' +
+          '<span class="vc-cluster-meta">' + cluster.turn_ids.length + ' turn(s) &bull; ' + confPct + '% conf</span>' +
+        '</div>' +
+        '<div class="vc-cluster-body' + (isExpanded ? '' : ' vc-hidden') + '" id="' + clusterId + '">';
+
+      // Per-turn text previews
+      var texts = cluster.texts || [];
+      for (var ti = 0; ti < texts.length; ti++) {
+        var preview = texts[ti].slice(0, 100) + (texts[ti].length > 100 ? '…' : '');
+        html += '<div class="vc-turn-text">' + escHtml(preview) + '</div>';
+      }
+
+      html +=
+        '<div class="vc-cluster-actions">' +
+          '<button type="button" class="vc-label-cluster-btn" data-cluster="' + ci + '">' +
+            '<i class="fas fa-tag"></i> Label all as ' + escHtml(cluster.likely_speaker || '?') +
+          '</button>' +
+        '</div>' +
+      '</div></div>';
+    }
+
+    // Singletons
+    if (singletons.length > 0) {
+      html += '<div class="vc-singletons-section">' +
+        '<div class="vc-singletons-header">' +
+          '<span>' + singletons.length + ' singleton(s) — no confident match</span>' +
+        '</div>';
+      // Show first 10 singletons with quick-label
+      var showCount = Math.min(singletons.length, 10);
+      for (var si = 0; si < showCount; si++) {
+        var sTurnId = singletons[si];
+        // Find the turn text from TRANSCRIPT_TURNS
+        var sTurn = null;
+        var allTurns = getTurns();
+        for (var ti = 0; ti < allTurns.length; ti++) {
+          if (String(allTurns[ti].turn_id || '') === String(sTurnId)) {
+            sTurn = allTurns[ti];
+            break;
+          }
+        }
+        var sText = sTurn ? (sTurn.text || '').slice(0, 80) + ((sTurn.text || '').length > 80 ? '…' : '') : sTurnId;
+        html += '<div class="vc-singleton-item">' +
+          '<div class="vc-singleton-turn">' + escHtml(String(sTurnId)) + '</div>' +
+          '<div class="vc-singleton-text">' + escHtml(sText) + '</div>' +
+          '<div class="vc-singleton-actions">';
+        // Show council quick-picks for singleton
+        for (var qi = 0; qi < COUNCIL_QUICK_PICK.length; qi++) {
+          var qName = COUNCIL_QUICK_PICK[qi];
+          html += '<button type="button" class="vc-singleton-label-btn" data-turn="' + escHtml(String(sTurnId)) + '" data-speaker="' + escHtml(qName) + '">' +
+            escHtml(qName.split(' ').pop()) + '</button>';
+        }
+        html += '</div></div>';
+      }
+      if (singletons.length > 10) {
+        html += '<div class="vc-singletons-more">+' + (singletons.length - 10) + ' more (stage individually via transcript)</div>';
+      }
+      html += '</div>';
+    }
+
+    return html;
+  }
+
   // ---- Sidebar ----
   function getSidebar() {
     var existing = document.getElementById('review-sidebar');
@@ -506,18 +696,39 @@
     var sidebar = getSidebar();
     var pending = PENDING_DECISIONS;
 
+    // Tab bar
+    var html = '<div class="review-sidebar-tabs">' +
+      '<button type="button" class="review-tab-btn' + (ACTIVE_SIDEBAR_TAB === 'decisions' ? ' active' : '') + '" data-tab="decisions">' +
+        '<i class="fas fa-list"></i> Staged <span class="review-tab-count">' + pending.length + '</span>' +
+      '</button>' +
+      '<button type="button" class="review-tab-btn' + (ACTIVE_SIDEBAR_TAB === 'clusters' ? ' active' : '') + '" data-tab="clusters">' +
+        '<i class="fas fa-waveform"></i> Voice Clusters' +
+      '</button>' +
+    '</div>';
+
+    // Decisions panel
+    html += '<div class="review-tab-panel" id="review-decisions-panel">';
     if (pending.length === 0) {
-      sidebar.innerHTML =
-        '<div class="review-sidebar-header">' +
-          '<h3><i class="fas fa-list"></i> Staged Decisions</h3>' +
-        '</div>' +
-        '<div class="review-sidebar-empty">No staged decisions yet.<br>Click "Label speaker" on an unlabeled block to begin.</div>';
+      html += '<div class="review-sidebar-empty">No staged decisions yet.<br>Click "Label speaker" on an unlabeled block to begin.</div>';
+    }
+
+    // Close decisions panel and open clusters panel based on active tab
+    if (ACTIVE_SIDEBAR_TAB === 'clusters') {
+      html += '</div>'; // close decisions panel
+      html += '<div class="review-tab-panel" id="review-clusters-panel">';
+      html += renderVoiceClustersPanel();
+      html += '</div>'; // close clusters panel
+      sidebar.innerHTML = html;
+      wireSidebarEvents();
       return;
     }
 
-    var html = '<div class="review-sidebar-header">' +
-      '<h3><i class="fas fa-list"></i> Staged Decisions <span class="review-sidebar-count">' + pending.length + '</span></h3>' +
-    '</div>';
+    // ---- Decisions panel content ----
+    if (pending.length > 0) {
+      html += '<div class="review-sidebar-header">' +
+        '<h3><i class="fas fa-list"></i> Staged Decisions <span class="review-sidebar-count">' + pending.length + '</span></h3>' +
+      '</div>';
+    }
 
     for (var i = 0; i < pending.length; i++) {
       var d = pending[i];
@@ -552,8 +763,26 @@
         '</div>';
     }
 
-    sidebar.innerHTML = html;
+    html += '</div>'; // close decisions panel
+    html += '</div>'; // close tab-panels wrapper
 
+    sidebar.innerHTML = html;
+    wireSidebarEvents();
+  }
+
+  function wireSidebarEvents() {
+    var sidebar = getSidebar();
+
+    // Tab switching
+    sidebar.querySelectorAll('.review-tab-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var tab = btn.getAttribute('data-tab');
+        ACTIVE_SIDEBAR_TAB = tab;
+        renderSidebar();
+      });
+    });
+
+    // Decision edit/remove
     sidebar.querySelectorAll('.review-item-edit-btn').forEach(function (btn) {
       btn.addEventListener('click', function () {
         var turnId = btn.getAttribute('data-turn-id');
@@ -568,6 +797,41 @@
         updateBannerCounts();
         wireLabelButtons();
         showToast('Staged decision removed');
+      });
+    });
+
+    // Voice cluster expand/collapse
+    sidebar.querySelectorAll('.vc-cluster-header').forEach(function (hdr) {
+      hdr.addEventListener('click', function () {
+        var clusterIdx = parseInt(hdr.getAttribute('data-cluster') || '0', 10);
+        var bodyId = 'vc-cluster-' + clusterIdx;
+        var body = document.getElementById(bodyId);
+        if (!body) return;
+        var isHidden = body.classList.contains('vc-hidden');
+        body.classList.toggle('vc-hidden');
+        var icon = hdr.querySelector('.vc-cluster-toggle i');
+        if (icon) {
+          icon.className = isHidden ? 'fas fa-chevron-down' : 'fas fa-chevron-right';
+        }
+      });
+    });
+
+    // Label all in cluster
+    sidebar.querySelectorAll('.vc-label-cluster-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var clusterIdx = parseInt(btn.getAttribute('data-cluster') || '0', 10);
+        if (VOICE_CLUSTERS && VOICE_CLUSTERS.clusters && VOICE_CLUSTERS.clusters[clusterIdx]) {
+          stageClusterDecisions(VOICE_CLUSTERS.clusters[clusterIdx]);
+        }
+      });
+    });
+
+    // Label singleton individually
+    sidebar.querySelectorAll('.vc-singleton-label-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var turnId = btn.getAttribute('data-turn');
+        var speakerName = btn.getAttribute('data-speaker');
+        stageSingletonDecision(turnId, speakerName);
       });
     });
   }
@@ -901,6 +1165,142 @@
     ].join('');
   }
 
+  // ---- Keyboard navigation ----
+  // TRANSCRIPT_BLOCKS is set by transcript-page.js after rendering (via window.TRANSCRIPT_BLOCKS).
+  function getAllUnknownDomBlocks() {
+    var all = window.TRANSCRIPT_BLOCKS || [];
+    var result = [];
+    for (var i = 0; i < all.length; i++) {
+      if (all[i].speakerKey === speakerKey('Unknown Speaker')) result.push(all[i]);
+    }
+    return result;
+  }
+
+  function findDomBlockForBlock(blockInfo) {
+    var all = document.querySelectorAll('.speaker-block');
+    for (var i = 0; i < all.length; i++) {
+      var el = all[i];
+      if (String(el.dataset.speaker || '') === String(blockInfo.speakerKey || '') &&
+          String(el.dataset.time || '') === String(Math.floor(blockInfo.start || 0))) {
+        return el;
+      }
+    }
+    return null;
+  }
+
+  function setReviewHighlight(blockEl) {
+    if (CURRENTLY_HIGHLIGHTED_BLOCK) {
+      CURRENTLY_HIGHLIGHTED_BLOCK.classList.remove('review-highlighted');
+    }
+    CURRENTLY_HIGHLIGHTED_BLOCK = blockEl;
+    if (blockEl) {
+      blockEl.classList.add('review-highlighted');
+      blockEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }
+
+  function showShortcutsOverlay() {
+    var existing = document.getElementById('review-shortcuts-overlay');
+    if (existing) existing.remove();
+    var overlay = document.createElement('div');
+    overlay.id = 'review-shortcuts-overlay';
+    overlay.innerHTML =
+      '<div class="review-shortcuts-box">' +
+        '<h3>Keyboard Shortcuts</h3>' +
+        '<table>' +
+          '<tr><td><kbd>j</kbd> / <kbd>\u2193</kbd></td><td>Next unknown block</td></tr>' +
+          '<tr><td><kbd>k</kbd> / <kbd>\u2191</kbd></td><td>Previous unknown block</td></tr>' +
+          '<tr><td><kbd>l</kbd></td><td>Label currently highlighted block</td></tr>' +
+          '<tr><td><kbd>Esc</kbd></td><td>Close modal</td></tr>' +
+          '<tr><td><kbd>?</kbd></td><td>Show this overlay</td></tr>' +
+        '</table>' +
+        '<button type="button" id="review-shortcuts-close" class="mini-btn" style="margin-top:14px;">Close</button>' +
+      '</div>';
+    overlay.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:4000;display:flex;align-items:center;justify-content:center;padding:20px;';
+    document.body.appendChild(overlay);
+    overlay.querySelector('#review-shortcuts-close').addEventListener('click', function () { overlay.remove(); });
+    overlay.addEventListener('click', function (e) { if (e.target === overlay) overlay.remove(); });
+  }
+
+  function showShortcutsToast() {
+    try {
+      if (sessionStorage.getItem('review_shortcuts_toast_shown')) return;
+      sessionStorage.setItem('review_shortcuts_toast_shown', '1');
+    } catch (e) {}
+    var toast = document.createElement('div');
+    toast.id = 'review-shortcuts-toast';
+    toast.className = 'toast';
+    toast.textContent = 'Press ? for keyboard shortcuts';
+    document.body.appendChild(toast);
+    setTimeout(function () { toast.classList.add('show'); }, 10);
+    setTimeout(function () {
+      toast.classList.remove('show');
+      setTimeout(function () { toast.remove(); }, 300);
+    }, 3500);
+  }
+
+  function handleReviewKeyboard(e) {
+    var modal = getModal();
+    var modalOpen = modal && modal.style.display !== 'none' && modal.classList.contains('open');
+
+    if (e.key === 'Escape') {
+      if (modalOpen) { closeModal(); e.preventDefault(); }
+      return;
+    }
+
+    if (modalOpen) return;
+
+    var unknownBlocks = getAllUnknownDomBlocks();
+    if (!unknownBlocks.length) return;
+
+    if (e.key === '?' || e.key === '/') {
+      showShortcutsOverlay();
+      e.preventDefault();
+      return;
+    }
+
+    if (e.key === 'j' || e.key === 'ArrowDown') {
+      var unknownDomEls = [];
+      var allEls = document.querySelectorAll('.speaker-block');
+      for (var ai = 0; ai < allEls.length; ai++) {
+        if (allEls[ai].dataset.speaker === speakerKey('Unknown Speaker')) unknownDomEls.push(allEls[ai]);
+      }
+      var curIdx = CURRENTLY_HIGHLIGHTED_BLOCK ? unknownDomEls.indexOf(CURRENTLY_HIGHLIGHTED_BLOCK) : -1;
+      var nextIdx = curIdx < unknownDomEls.length - 1 ? curIdx + 1 : 0;
+      setReviewHighlight(unknownDomEls[nextIdx]);
+      e.preventDefault();
+    } else if (e.key === 'k' || e.key === 'ArrowUp') {
+      var unknownDomEls2 = [];
+      var allEls2 = document.querySelectorAll('.speaker-block');
+      for (var bi = 0; bi < allEls2.length; bi++) {
+        if (allEls2[bi].dataset.speaker === speakerKey('Unknown Speaker')) unknownDomEls2.push(allEls2[bi]);
+      }
+      var curIdx2 = CURRENTLY_HIGHLIGHTED_BLOCK ? unknownDomEls2.indexOf(CURRENTLY_HIGHLIGHTED_BLOCK) : 0;
+      var prevIdx = curIdx2 > 0 ? curIdx2 - 1 : unknownDomEls2.length - 1;
+      setReviewHighlight(unknownDomEls2[prevIdx]);
+      e.preventDefault();
+    } else if (e.key === 'l') {
+      var el = CURRENTLY_HIGHLIGHTED_BLOCK;
+      if (!el && unknownBlocks.length > 0) {
+        var firstEl = findDomBlockForBlock(unknownBlocks[0]);
+        if (firstEl) { setReviewHighlight(firstEl); el = firstEl; }
+      }
+      if (el) {
+        var blockStart = parseInt(el.dataset.time || '0', 10);
+        var blockSpk = el.dataset.speaker || '';
+        for (var ci = 0; ci < unknownBlocks.length; ci++) {
+          if (String(unknownBlocks[ci].speakerKey || '') === String(blockSpk) &&
+              Math.floor(unknownBlocks[ci].start || 0) === blockStart) {
+            ACTIVE_TURN_ID = String(unknownBlocks[ci].turnIds[0] || '');
+            openModalForTurn(ACTIVE_TURN_ID);
+            break;
+          }
+        }
+        e.preventDefault();
+      }
+    }
+  }
+
   // ---- Init ----
   function init() {
     console.log('[review-ui] init called, isReviewMode=' + isReviewMode() + ', document.readyState=' + document.readyState);
@@ -941,6 +1341,10 @@
       });
       observer.observe(document.getElementById('transcript') || document.body, { childList: true, subtree: true });
     }
+
+    // Keyboard navigation + first-session shortcut toast
+    showShortcutsToast();
+    document.addEventListener('keydown', handleReviewKeyboard);
   }
 
   console.log('[review-ui] init setup, about to call init()');

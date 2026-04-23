@@ -790,6 +790,177 @@ body {
 .review-exported-icon { color: #38a169; font-size: 13px; }
 .review-pending-icon { color: #ed8936; font-size: 13px; }
 
+/* ---- Voice clusters panel ---- */
+.review-sidebar-tabs {
+  display: flex;
+  border-bottom: 2px solid #e2e8f0;
+  background: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+.review-tab-btn {
+  flex: 1;
+  padding: 10px 8px;
+  border: none;
+  background: transparent;
+  color: #718096;
+  font-size: 13px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border-bottom: 3px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.review-tab-btn:hover { color: #6b46c1; }
+.review-tab-btn.active { color: #6b46c1; border-bottom-color: #6b46c1; font-weight: 600; }
+.review-tab-count {
+  background: #edf2f7;
+  color: #4a5568;
+  padding: 1px 6px;
+  border-radius: 999px;
+  font-size: 11px;
+}
+
+.review-tab-panel {
+  overflow-y: auto;
+}
+
+.vc-meta {
+  padding: 8px 16px;
+  font-size: 12px;
+  color: #718096;
+  background: #f7fafc;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.vc-cluster {
+  border-top: 1px solid #e2e8f0;
+}
+
+.vc-cluster-header {
+  padding: 10px 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #f7fafc;
+  transition: background 0.1s;
+}
+.vc-cluster-header:hover { background: #edf2f7; }
+
+.vc-cluster-toggle { color: #a0aec0; font-size: 11px; }
+
+.vc-cluster-speaker {
+  font-weight: 700;
+  color: #2b6cb0;
+  font-size: 14px;
+  flex: 1;
+}
+
+.vc-cluster-meta {
+  font-size: 12px;
+  color: #718096;
+}
+
+.vc-cluster-body {
+  padding: 10px 16px 12px;
+  background: #fff;
+}
+
+.vc-cluster-body.vc-hidden { display: none; }
+
+.vc-turn-text {
+  font-size: 13px;
+  color: #4a5568;
+  padding: 4px 0;
+  border-bottom: 1px solid #f0f0f0;
+  line-height: 1.5;
+}
+
+.vc-cluster-actions {
+  margin-top: 10px;
+}
+
+.vc-label-cluster-btn {
+  width: 100%;
+  padding: 8px 12px;
+  background: linear-gradient(135deg, #44337a, #6b46c1);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 13px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: opacity 0.15s;
+}
+.vc-label-cluster-btn:hover { opacity: 0.85; }
+
+.vc-singletons-section {
+  border-top: 2px solid #e2e8f0;
+  background: #fafafa;
+}
+
+.vc-singletons-header {
+  padding: 10px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #4a5568;
+  background: #f0f0f0;
+}
+
+.vc-singleton-item {
+  padding: 8px 16px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.vc-singleton-turn {
+  font-family: monospace;
+  font-size: 12px;
+  color: #2b6cb0;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.vc-singleton-text {
+  font-size: 12px;
+  color: #718096;
+  margin-bottom: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.vc-singleton-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.vc-singleton-label-btn {
+  font-size: 11px;
+  padding: 3px 8px;
+  border: 1px solid #cbd5e0;
+  background: #fff;
+  color: #4a5568;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.1s, border-color 0.1s;
+}
+.vc-singleton-label-btn:hover { background: #edf2f7; border-color: #6b46c1; color: #553c9a; }
+
+.vc-singletons-more {
+  padding: 8px 16px;
+  font-size: 12px;
+  color: #a0aec0;
+  font-style: italic;
+}
+
 /* ---- Review modal v2 ---- */
 .rm-turn-id { font-family: monospace; font-weight: 700; color: #2b6cb0; }
 .rm-turn-time { font-family: monospace; color: #718096; }
@@ -857,4 +1028,57 @@ body {
   .container { padding: 14px; }
   .review-modal-content { padding: 18px; }
   .review-banner { font-size: 13px; padding: 10px 14px; }
+}
+
+/* ---- Unknown speaker counter ---- */
+.unknown-counter {
+  display: inline-block;
+  margin-left: 14px;
+  font-size: 13px;
+  color: #718096;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* ---- Keyboard navigation highlight ---- */
+.speaker-block.review-highlighted {
+  border-left: 3px solid #805ad5;
+  background: #faf5ff;
+}
+
+/* ---- Keyboard shortcuts overlay ---- */
+.review-shortcuts-box {
+  background: white;
+  border-radius: 16px;
+  padding: 28px 32px;
+  max-width: 380px;
+  width: 100%;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+.review-shortcuts-box h3 {
+  margin: 0 0 16px 0;
+  color: #1a365d;
+}
+.review-shortcuts-box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.review-shortcuts-box td {
+  padding: 6px 0;
+  font-size: 14px;
+  color: #4a5568;
+}
+.review-shortcuts-box td:first-child {
+  white-space: nowrap;
+  padding-right: 16px;
+}
+.review-shortcuts-box kbd {
+  display: inline-block;
+  padding: 2px 7px;
+  font-size: 12px;
+  font-family: monospace;
+  background: #edf2f7;
+  border: 1px solid #cbd5e0;
+  border-radius: 4px;
+  color: #2d3748;
 }
