@@ -1,177 +1,166 @@
 #!/usr/bin/env python3
-"""Apply human review decisions to a structured transcript.
+"""Apply review decisions from a staged-decisions JSON export to a structured transcript.
 
-This keeps the structured transcript as the canonical editable artifact.
-The site is regenerated only after explicit review decisions are applied.
+Reads decisions exported from docs/js/review-ui.js (the review cockpit), updates the
+matching turns in transcripts_structured/<meeting_id>.json, then republishes the
+meeting docs.
 
-Provenance tracking (v2.2+):
-  Each apply run records a provenance entry in:
-    - structured_json["_review_apply_provenance"]: append-only log of apply events
-    - <structured_dir>/.apply-reports/<meeting_id>-<ts>.json: one report per apply run
+Usage:
+    python3 scripts/apply_review_decisions.py apr-14-2026 --decisions ~/Downloads/apr-14-2026-staged-decisions.json
+    python3 scripts/apply_review_decisions.py apr-14-2026 --decisions decisions.json --dry-run
 """
 
 from __future__ import annotations
 
 import argparse
 import json
-import os
-from datetime import datetime, timezone
+import subprocess
+import sys
 from pathlib import Path
+from typing import Any
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+STRUCTURED_DIR = REPO_ROOT / "transcripts_structured"
 
 
-ALLOWED_ACTIONS = {
-    "pending",
-    "keep_unknown",
-    "mark_public_comment",
-    "approve_named_official",
-    "correct_text",
-    "suppress_turn",
-    "hold_back_text",
-}
+def load_structured(meeting_id: str) -> dict[str, Any]:
+    path = STRUCTURED_DIR / f"{meeting_id}.json"
+    if not path.exists():
+        raise SystemExit(f"Structured transcript not found: {path}")
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def load_decisions(decisions_path: str) -> list[dict[str, Any]]:
+    p = Path(decisions_path)
+    if not p.exists():
+        raise SystemExit(f"Decisions file not found: {p}")
+    data = json.loads(p.read_text(encoding="utf-8"))
+    if not isinstance(data, list):
+        raise SystemExit("Decisions file must contain a JSON array.")
+    return data
+
+
+def build_review_reason(decision: dict[str, Any]) -> str:
+    """Construct a review_reason string from the decision."""
+    action = decision.get("reviewer_action", "keep_unknown")
+    evidence = decision.get("evidence_note", "")
+    reason = f"reviewed:{action}"
+    if evidence:
+        reason += f" | {evidence}"
+    return reason
+
+
+def apply_decisions(
+    data: dict[str, Any],
+    decisions: list[dict[str, Any]],
+    dry_run: bool = False,
+) -> tuple[int, int, int]:
+    """Apply decisions to turns in data. Returns (approved, unknown, suppressed) counts."""
+    turns_by_id: dict[str, dict[str, Any]] = {t["turn_id"]: t for t in data.get("turns", [])}
+
+    approved = 0
+    unknown = 0
+    suppressed = 0
+
+    for decision in decisions:
+        turn_id = decision.get("turn_id")
+        if not turn_id:
+            print("  [WARN] Decision missing turn_id, skipping", file=sys.stderr)
+            continue
+
+        turn = turns_by_id.get(turn_id)
+        if turn is None:
+            print(f"  [WARN] turn_id '{turn_id}' not found in structured transcript, skipping", file=sys.stderr)
+            continue
+
+        suppress = bool(decision.get("suppress", False))
+
+        if suppress:
+            # Redact the speaker — turn stays in transcript but is marked suppressed
+            turn["speaker_public"] = "REDACTED"
+            turn["speaker_status"] = "suppressed"
+            turn["review_reason"] = build_review_reason(decision)
+            suppressed += 1
+        else:
+            speaker_public = decision.get("speaker_public_override") or turn.get("speaker_public", "Unknown Speaker")
+            speaker_status = decision.get("speaker_status_override") or turn.get("speaker_status", "unknown")
+
+            turn["speaker_public"] = speaker_public
+            turn["speaker_status"] = speaker_status
+            turn["review_reason"] = build_review_reason(decision)
+            turn["reviewer_notes"] = decision.get("evidence_note", "")
+
+            if speaker_status == "approved":
+                approved += 1
+            else:
+                unknown += 1
+
+        # Idempotent: always overwrite — re-running same decisions just confirms them
+
+    return approved, unknown, suppressed
+
+
+def republish_meeting(meeting_id: str) -> None:
+    """Rebuild docs/transcripts/<meeting_id>-data.js and <meeting_id>.html."""
+    structured_path = STRUCTURED_DIR / f"{meeting_id}.json"
+    result = subprocess.run(
+        [
+            sys.executable,
+            str(REPO_ROOT / "scripts" / "publish_structured_meeting.py"),
+            meeting_id,
+            "--structured",
+            str(structured_path),
+        ],
+        capture_output=True,
+        text=True,
+    )
+    if result.returncode != 0:
+        print(f"  [ERROR] publish_structured_meeting.py failed:\n{result.stderr}", file=sys.stderr)
+        raise SystemExit(f"Republish failed with code {result.returncode}")
+    print(f"  Republished: docs/transcripts/{meeting_id}-data.js and {meeting_id}.html")
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="Apply review decisions to structured transcript")
-    ap.add_argument("meeting_id")
-    ap.add_argument("--structured", required=True)
-    ap.add_argument("--decisions", required=True)
+    ap = argparse.ArgumentParser(
+        description="Apply review decisions from review-ui export to a structured transcript."
+    )
+    ap.add_argument("meeting_id", help="Meeting ID (e.g. apr-14-2026)")
     ap.add_argument(
-        "--out",
-        default="",
-        help="Optional output path; defaults to overwriting --structured",
+        "--decisions",
+        required=True,
+        dest="decisions_path",
+        help="Path to the staged-decisions JSON file exported from the review UI",
+    )
+    ap.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Print what would change without writing any files",
     )
     args = ap.parse_args()
 
-    structured_path = Path(args.structured)
-    decisions_path = Path(args.decisions)
-    out_path = Path(args.out) if args.out else structured_path
+    print(f"Loading structured transcript: {args.meeting_id}")
+    data = load_structured(args.meeting_id)
 
-    structured = json.loads(structured_path.read_text(encoding="utf-8"))
-    decisions_doc = json.loads(decisions_path.read_text(encoding="utf-8"))
+    print(f"Loading decisions from: {args.decisions_path}")
+    decisions = load_decisions(args.decisions_path)
+    print(f"  {len(decisions)} decision(s) to apply")
 
-    # ---- Collect provenance from decisions ----
-    decisions_list = decisions_doc.get("decisions") or []
-    decision_ids = [str(d.get("decision_id", "")) for d in decisions_list if d.get("decision_id")]
-    batch_ids = list(
-        dict.fromkeys(
-            str(d.get("export_batch_id", "")) for d in decisions_list if d.get("export_batch_id")
-        )
-    )
-    # Deduplicate while preserving order
-    batch_ids = list(dict.fromkeys(batch_ids))
+    approved, unknown, suppressed = apply_decisions(data, decisions, dry_run=args.dry_run)
 
-    applied_at = datetime.now(timezone.utc).isoformat()
+    if args.dry_run:
+        print("\n[DRY RUN] No files written. Would apply:")
+    else:
+        # Write updated structured transcript
+        out_path = STRUCTURED_DIR / f"{args.meeting_id}.json"
+        tmp_path = out_path.with_suffix(".json.tmp")
+        tmp_path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+        tmp_path.rename(out_path)
+        print(f"\nWrote: {out_path}")
+        republish_meeting(args.meeting_id)
+        print("\nApplied:")
 
-    # ---- Apply each decision ----
-    turns = structured.get("turns") or []
-    turn_map = {str(t.get("turn_id")): t for t in turns}
-    applied_count = 0
+    print(f"  Applied {len(decisions)} decisions: {approved} approved, {unknown} kept unknown, {suppressed} suppressed")
 
-    for decision in decisions_list:
-        turn_id = str(decision.get("turn_id") or "")
-        action = str(decision.get("reviewer_action") or "pending")
-        if not turn_id or action not in ALLOWED_ACTIONS:
-            continue
-        turn = turn_map.get(turn_id)
-        if not turn or action == "pending":
-            continue
-
-        speaker_public_override = str(decision.get("speaker_public_override") or "").strip()
-        speaker_status_override = str(decision.get("speaker_status_override") or "").strip()
-        text_override = str(decision.get("text_override") or "").strip()
-        suppress = bool(decision.get("suppress"))
-        notes = str(decision.get("notes") or "").strip()
-
-        if action == "keep_unknown":
-            turn["speaker_public"] = "Unknown Speaker"
-            turn["speaker_status"] = speaker_status_override or "unknown"
-        elif action == "mark_public_comment":
-            turn["speaker_public"] = speaker_public_override or "Public Comment Speaker"
-            turn["speaker_status"] = speaker_status_override or "public_comment_unverified"
-        elif action == "approve_named_official":
-            if speaker_public_override:
-                turn["speaker_public"] = speaker_public_override
-            if speaker_status_override:
-                turn["speaker_status"] = speaker_status_override
-            else:
-                turn["speaker_status"] = "approved"
-        elif action == "correct_text":
-            if text_override:
-                turn["text"] = text_override
-        elif action == "hold_back_text":
-            turn["speaker_public"] = speaker_public_override or turn.get("speaker_public") or "Unknown Speaker"
-            turn["speaker_status"] = speaker_status_override or str(turn.get("speaker_status") or "unknown")
-            turn["needs_review"] = True
-            turn["review_reason"] = "hold_back_text"
-        elif action == "suppress_turn" or suppress:
-            turn["text"] = ""
-            turn["needs_review"] = False
-            turn["review_reason"] = "suppressed_by_reviewer"
-
-        if notes:
-            turn["reviewer_notes"] = notes
-        turn["reviewed"] = True
-        if action != "hold_back_text" and turn.get("text"):
-            turn["needs_review"] = False
-            turn["review_reason"] = f"reviewed:{action}"
-
-        applied_count += 1
-
-    # Prune suppressed/empty turns
-    structured["turns"] = [
-        t for t in turns if str(t.get("text") or "").strip()
-    ]
-
-    # ---- Build provenance entry ----
-    provenance_entry = {
-        "applied_at": applied_at,
-        "applied_from_decisions_file": str(decisions_path.resolve()),
-        "applied_decision_count": applied_count,
-        "applied_decision_ids": decision_ids,
-        "applied_export_batch_ids": batch_ids,
-        "apply_script_version": "2.2",
-    }
-
-    # ---- Append to structured JSON metadata ----
-    if "_review_apply_provenance" not in structured:
-        structured["_review_apply_provenance"] = []
-    structured["_review_apply_provenance"].append(provenance_entry)
-
-    # ---- Write structured JSON ----
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(
-        json.dumps(structured, indent=2, ensure_ascii=False), encoding="utf-8"
-    )
-
-    # ---- Write sidecar apply report ----
-    report_dir = out_path.parent / ".apply-reports"
-    report_dir.mkdir(parents=True, exist_ok=True)
-    ts_suffix = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-    report_path = report_dir / f"{args.meeting_id}-{ts_suffix}.json"
-    report = {
-        "meeting_id": args.meeting_id,
-        "structured_output": str(out_path.resolve()),
-        "provenance": provenance_entry,
-        "decisions_applied": [
-            {
-                "decision_id": str(d.get("decision_id", "")),
-                "export_batch_id": str(d.get("export_batch_id", "")),
-                "turn_id": str(d.get("turn_id", "")),
-                "reviewer_action": str(d.get("reviewer_action", "")),
-                "speaker_name": str(d.get("speaker_name", "")),
-            }
-            for d in decisions_list
-            if str(d.get("turn_id", "")) in turn_map
-            and str(d.get("reviewer_action", "")) in ALLOWED_ACTIONS
-        ],
-    }
-    report_path.write_text(
-        json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8"
-    )
-
-    print(f"Applied {applied_count} decisions")
-    print(f"Structured JSON: {out_path}")
-    print(f"Apply report:    {report_path}")
     return 0
 
 
