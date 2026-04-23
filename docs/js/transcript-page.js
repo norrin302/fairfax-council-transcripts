@@ -806,6 +806,7 @@
         '  <button id="btn-toggle-unlabeled" type="button" class="mini-btn"><i class="fas fa-filter"></i> Hide unlabeled</button>' +
         '  <button id="btn-export-csv" type="button" class="mini-btn"><i class="fas fa-file-csv"></i> Export CSV</button>' +
         '  <button id="btn-export-md" type="button" class="mini-btn"><i class="fas fa-file-lines"></i> Export Markdown</button>' +
+        '  <button id="btn-review-mode" type="button" class="mini-btn mini-btn-review"><i class="fas fa-wand-magic-sparkles"></i> Review mode</button>' +
         '</div>';
       anchor.parentNode.insertBefore(tools, anchor.nextSibling);
     }
@@ -955,6 +956,17 @@
     wireSectionLinks();
 
     wireMatchNav();
+
+    // ---- Review mode button ----
+    var reviewBtn = document.getElementById('btn-review-mode');
+    if (reviewBtn && !reviewBtn.dataset.bound) {
+      reviewBtn.dataset.bound = '1';
+      reviewBtn.addEventListener('click', function () {
+        var url = new URL(window.location.href);
+        url.searchParams.set('review', '1');
+        window.location.href = url.toString();
+      });
+    }
 
     applyTranscriptFilters();
 
