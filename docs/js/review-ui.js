@@ -334,11 +334,14 @@
 
   // ---- Wire Label buttons into unlabeled blocks ----
   function wireLabelButtons() {
-    console.log('[review-ui] wireLabelButtons called, transcript children:', document.querySelectorAll('.speaker-block').length);
+    console.log('[review-ui] wireLabelButtons called, speaker-blocks:', document.querySelectorAll('.speaker-block').length);
     var blocks = buildBlockIndex();
-    console.log('[review-ui] blocks from index:', blocks.length);
+    console.log('[review-ui] buildBlockIndex returned:', blocks.length, 'blocks');
+    if (blocks.length > 0) console.log('[review-ui] first block speaker:', blocks[0].speaker, 'key:', blocks[0].speakerKey);
+    console.log('[review-ui] speakerKey("Unknown Speaker"):', speakerKey('Unknown Speaker'));
     document.querySelectorAll('.speaker-block').forEach(function (block) {
       var speakerKey2 = String(block.dataset.speaker || '').toLowerCase();
+      console.log('[review-ui] block dataset.speaker:', block.dataset.speaker, '-> key:', speakerKey2, 'compare:', speakerKey2 === speakerKey('Unknown Speaker'));
       if (speakerKey2 !== speakerKey('Unknown Speaker')) return;
       var blockIndex = parseInt(block.dataset.index || '0', 10);
       var blockInfo = blocks[blockIndex];
@@ -358,9 +361,19 @@
         : '<i class="fas fa-tag"></i> Label speaker';
       btn.addEventListener('click', function (e) {
         e.stopPropagation();
-        openModalForTurn(blockInfo.turnIds[0]);
+        try {
+          openModalForTurn(blockInfo.turnIds[0]);
+        } catch (err) {
+          console.error('[review-ui] openModalForTurn error:', err);
+        }
       });
-      block.querySelector('.turn-header').appendChild(btn);
+      var hdr = block.querySelector('.turn-header');
+      if (hdr) {
+        hdr.appendChild(btn);
+        console.log('[review-ui] Label button appended to turn-header for block speaker=' + blockInfo.speaker + ', turnIds=' + JSON.stringify(blockInfo.turnIds));
+      } else {
+        console.log('[review-ui] ERROR: no .turn-header found in block');
+      }
     });
   }
 
