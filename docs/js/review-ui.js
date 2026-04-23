@@ -880,6 +880,7 @@
 
   // ---- Init ----
   function init() {
+    console.log('[review-ui] init called, isReviewMode=' + isReviewMode() + ', document.readyState=' + document.readyState);
     if (!isReviewMode()) return;
 
     var meta = getMeetingMeta();
@@ -919,9 +920,12 @@
     }
   }
 
+  console.log('[review-ui] init setup, about to call init()');
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
+    console.log('[review-ui] added DOMContentLoaded listener');
   } else {
+    console.log('[review-ui] calling init() immediately');
     init();
   }
 })();
