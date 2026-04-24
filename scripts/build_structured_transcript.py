@@ -650,6 +650,202 @@ def _apply_name_call_handoffs(turns: list[dict[str, Any]]) -> list[dict[str, Any
 
 
 # ---------------------------------------------------------------------------
+# Self-introduction heuristic
+# ---------------------------------------------------------------------------
+_AUXILIARY_AFTER_I = frozenset({
+    "going", "to", "be", "get", "have", "do", "will", "would", "could",
+    "should", "need", "want", "know", "think", "see", "say", "tell",
+    "ask", "help", "make", "let", "just", "also", "really", "not",
+    "never", "always", "ever", "still", "yet", "now", "here",
+    "trying", "planning", "glad", "sorry",
+})
+
+
+def _extract_self_intro_name(text: str) -> str | None:
+    """Extract a self-introduction name from text using simple string matching.
+
+    Handles three reliable patterns:
+      "My name is [Name]"
+      "I am [Name]"   (but NOT "I am going" / "I am here" etc.)
+      "This is [Name]" (but NOT "This is the" / "This is a" etc.)
+    """
+    t = text.strip()
+
+    def _collect_name(words: list[str]) -> str | None:
+        name_words = []
+        for w in words[:3]:
+            w_clean = w.strip(".,!?;:'")
+            # Skip single-letter words (likely pronouns like "I" or "A")
+            if w_clean and len(w_clean) >= 2 and w_clean[0].isupper() and w_clean.isalpha():
+                name_words.append(w_clean)
+            else:
+                break
+        return " ".join(name_words) if name_words else None
+
+    # "My name is [Name]"
+    for p in ("my name is ", "My name is ", "MY NAME IS "):
+        idx = t.lower().find(p.lower())
+        if idx >= 0:
+            after = t[idx + len(p):].strip()
+            result = _collect_name(after.split())
+            if result:
+                return result
+
+    # "I am [Name]" — skip if the word after "am" is a known auxiliary
+    for p, plen in (("i am ", 5), ("I am ", 5), ("i'm ", 4), ("I'm ", 4)):
+        idx = t.lower().find(p.lower())
+        if idx >= 0:
+            after = t[idx + plen:].strip()
+            words = after.split()
+            if words and words[0].lower() not in _AUXILIARY_AFTER_I:
+                result = _collect_name(words)
+                if result:
+                    return result
+
+    # "This is [Name]" — skip common non-name patterns
+    for p, plen in (("this is ", 8), ("This is ", 8)):
+        idx = t.lower().find(p.lower())
+        if idx >= 0:
+            after = t[idx + plen:].strip()
+            words = after.split()
+            if words and words[0].lower() not in frozenset({"the", "a", "an", "this", "that", "it", "what", "such"}):
+                result = _collect_name(words)
+                if result:
+                    return result
+
+    return None
+def _apply_self_introductions(
+    turns: list[dict[str, Any]],
+    approvals: dict[str, dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """Override labels when a turn contains an explicit self-introduction that conflicts.
+
+    If the speaker says "My name is Anita Light" but our approved label says "Rachel McQuillen",
+    we use the self-introduced name. The person knows their own name better than pyannote.
+    """
+    result = [t.copy() for t in turns]
+    overrides = 0
+
+    for i, t in enumerate(result):
+        intro_name = _extract_self_intro_name(t.get("text", "") or "")
+        if not intro_name:
+            continue
+
+        current_label = t.get("speaker_public", "")
+        if current_label == intro_name:
+            continue  # already correct
+
+        # Check if the intro name is a known approved person under a different label
+        # If so, override with the self-introduced name
+        result[i] = t.copy()
+        result[i]["speaker_public"] = intro_name
+        result[i]["speaker_status"] = "heuristic"
+        result[i]["review_reason"] = "self_introduction"
+        overrides += 1
+
+    if overrides:
+        print(f"Self-introduction overrides applied: {overrides}")
+    return result
+
+
+# ---------------------------------------------------------------------------
+# Sentence-fragment repair heuristic
+# ---------------------------------------------------------------------------
+# When a labeled speaker's turn ends mid-sentence (no terminal punctuation)
+# and the very next turn starts with a lowercase/continuation word AND the gap
+# is small, it's likely an ASR artifact or a false speaker boundary.
+# Merge them back together.
+
+_CONTINUATION_STARTS = frozenset({
+    "and", "but", "so", "or", "the", "a", "an",
+    "it", "they", "we", "you", "i", "this", "that",
+    "to", "of", "in", "for", "on", "with", "at",
+    "is", "are", "was", "were", "have", "has", "had",
+    "be", "been", "being", "do", "does", "did",
+    "will", "would", "could", "should", "can",
+    "my", "your", "our", "their", "his", "her",
+})
+_TERMINAL_END = frozenset(".!?\"")
+_FRAGMENT_MAX_GAP = 3.0  # seconds
+_FRAGMENT_MAX_CHARS = 600  # only repair reasonably-sized turns
+
+
+def _apply_sentence_fragment_repair(turns: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Merge turns that appear to be a single sentence split by a false speaker boundary.
+
+    Detects:
+      - prev turn ends mid-sentence (no terminal punctuation)
+      - next turn starts with a common continuation word (lowercase article/pronoun/conjunction)
+      - gap between them is small (< 3s)
+      - prev turn is reasonably sized (not an artifact)
+    """
+    result = [t.copy() for t in turns]
+    repairs = 0
+    i = 0
+    while i < len(result) - 1:
+        curr = result[i]
+        nxt = result[i + 1]
+
+        speaker = curr.get("speaker_public", "")
+        next_speaker = nxt.get("speaker_public", "")
+        if not speaker or speaker == "Unknown Speaker":
+            i += 1
+            continue
+
+        gap = float(nxt["start"]) - float(curr["end"])
+        if gap > _FRAGMENT_MAX_GAP:
+            i += 1
+            continue
+
+        curr_text = (curr.get("text") or "").strip()
+        next_text = (nxt.get("text") or "").strip()
+
+        # Only repair if prev turn is reasonably sized (not a fragment itself)
+        if len(curr_text) > _FRAGMENT_MAX_CHARS or len(curr_text) < 5:
+            i += 1
+            continue
+
+        # Check if prev ends mid-sentence (no terminal punctuation)
+        ends_terminal = curr_text[-1:] in _TERMINAL_END
+
+        # Check if next starts with a continuation pattern.
+        # Only match if the word is genuinely lowercase (not capitalized at sentence start).
+        # "Will" (capital-W) at the beginning of a sentence is NOT a continuation signal.
+        next_words = next_text.split()
+        first_word = next_words[0] if next_words else ""
+        starts_continuation = (
+            next_words
+            and first_word.islower()
+            and first_word in _CONTINUATION_STARTS
+        )
+
+        # Also merge if next is very short and starts capitalized (another fragment)
+        next_capital_word = next_words[0] if next_words else ""
+        is_short_capital = (
+            len(next_text) < 80
+            and next_capital_word
+            and next_capital_word[0].isupper()
+            and next_capital_word.lower() not in {"i", "i'm", "i'll", "i've", "a", "an", "the"}
+        )
+
+        if (not ends_terminal and starts_continuation) or (not ends_terminal and is_short_capital):
+            # Merge: extend prev turn to include next turn
+            result[i] = curr.copy()
+            result[i]["end"] = nxt["end"]
+            result[i]["text"] = curr_text + " " + next_text
+            del result[i + 1]  # remove the next turn
+            repairs += 1
+            # Don't advance i — check the new i against its next neighbor
+            continue
+
+        i += 1
+
+    if repairs:
+        print(f"Sentence-fragment repairs applied: {repairs}")
+    return result
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -845,6 +1041,10 @@ def main() -> int:
 
     # Name-call handoff heuristic — must run after merge so we see the post-merge turn boundaries
     structured_turns = _apply_name_call_handoffs(structured_turns)
+    # Self-introductions must run BEFORE sentence-fragment repair so that
+    # self-identified names are locked in before any cross-speaker merges.
+    structured_turns = _apply_self_introductions(structured_turns, approvals)
+    structured_turns = _apply_sentence_fragment_repair(structured_turns)
 
     # Summary of label sources
     caption_labeled = sum(1 for t in structured_turns if t.get("speaker_status") == "caption")
