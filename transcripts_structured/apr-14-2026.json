@@ -4,13 +4,16 @@
     "meeting_id": "apr-14-2026",
     "meeting_date": "2026-04-14",
     "title": "City Council Regular Meeting",
-    "source_url": "https://fairfax.granicus.com/player/clip/4519"
+    "source_url": "https://fairfax.granicus.com/player/clip/4519",
+    "reviewed": true,
+    "reviewed_at": "2026-04-24T05:06:47.913Z",
+    "review_decisions_count": 0
   },
   "turns": [
     {
       "turn_id": "turn_000001",
-      "start": 0.0,
-      "end": 2.0,
+      "start": 0,
+      "end": 2,
       "text": "Oh",
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
@@ -21,8 +24,8 @@
     },
     {
       "turn_id": "turn_000002",
-      "start": 30.0,
-      "end": 32.0,
+      "start": 30,
+      "end": 32,
       "text": "I",
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
@@ -33,7 +36,7 @@
     },
     {
       "turn_id": "turn_000003",
-      "start": 60.0,
+      "start": 60,
       "end": 72.44,
       "text": "Would like to call the regular meeting of April 14th 2026 to order. It's good to see the chamber full We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the Pledge of Allegiance",
       "speaker_raw": "UNKNOWN",
@@ -118,7 +121,7 @@
     {
       "turn_id": "turn_000010",
       "start": 184.16,
-      "end": 189.0,
+      "end": 189,
       "text": "Strengthening the entire community and whereas libraries empower job seekers",
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
@@ -658,7 +661,7 @@
     {
       "turn_id": "turn_000055",
       "start": 926.88,
-      "end": 962.0,
+      "end": 962,
       "text": "You can reach out to the city clerk and get my address, but you can actually have butterflies flying around you. You can see caterpillars in the yard and it's very exciting. Mary, my colleague from the women's club also has a lot of milkweed in her yard. Cindy Meyer has milkweed in her yard and there are probably a number of you who also have that. It's very exciting. It's a science project going on right in your yard. I've had field trips from our daycare down the street. I've done some stuff virtually for the science teacher at Daniel's Run. So it's very exciting. So I'm happy to guide anybody who wants to do this",
       "speaker_raw": "SPEAKER_23",
       "speaker_public": "Janet Jaworski",
@@ -669,7 +672,7 @@
     },
     {
       "turn_id": "turn_000056",
-      "start": 962.0,
+      "start": 962,
       "end": 964.32,
       "text": "Project. So turn it over to Stephanie.",
       "speaker_raw": "SPEAKER_23",
@@ -1042,7 +1045,7 @@
     {
       "turn_id": "turn_000087",
       "start": 1280.44,
-      "end": 1289.0,
+      "end": 1289,
       "text": "Trust me, not awkward at all.",
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
@@ -1053,8 +1056,8 @@
     },
     {
       "turn_id": "turn_000088",
-      "start": 1289.0,
-      "end": 1291.0,
+      "start": 1289,
+      "end": 1291,
       "text": "All good. All good.",
       "speaker_raw": "SPEAKER_20",
       "speaker_public": "Unknown Speaker",
@@ -1065,8 +1068,8 @@
     },
     {
       "turn_id": "turn_000089",
-      "start": 1291.0,
-      "end": 1292.0,
+      "start": 1291,
+      "end": 1292,
       "text": "You guys are important.",
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
@@ -1077,8 +1080,8 @@
     },
     {
       "turn_id": "turn_000090",
-      "start": 1292.0,
-      "end": 1293.0,
+      "start": 1292,
+      "end": 1293,
       "text": "So important.",
       "speaker_raw": "SPEAKER_20",
       "speaker_public": "Unknown Speaker",
@@ -1089,8 +1092,8 @@
     },
     {
       "turn_id": "turn_000091",
-      "start": 1293.0,
-      "end": 1296.0,
+      "start": 1293,
+      "end": 1296,
       "text": "Very important. All right. Everybody in the cutest.",
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
@@ -1101,8 +1104,8 @@
     },
     {
       "turn_id": "turn_000092",
-      "start": 1296.0,
-      "end": 1297.0,
+      "start": 1296,
+      "end": 1297,
       "text": "All right.",
       "speaker_raw": "SPEAKER_20",
       "speaker_public": "Unknown Speaker",
@@ -1113,7 +1116,7 @@
     },
     {
       "turn_id": "turn_000093",
-      "start": 1297.0,
+      "start": 1297,
       "end": 1308.04,
       "text": "Whereas, the week of April 12th through 18th, 2026 has been designated as National Public",
       "speaker_raw": "UNKNOWN",
@@ -1630,7 +1633,7 @@
     {
       "turn_id": "turn_000136",
       "start": 1888.16,
-      "end": 1892.0,
+      "end": 1892,
       "text": "Our next speaker is Kevin Anderson.",
       "speaker_raw": "SPEAKER_15",
       "speaker_public": "Unknown Speaker",
@@ -1942,7 +1945,7 @@
     {
       "turn_id": "turn_000162",
       "start": 2306.96,
-      "end": 2314.0,
+      "end": 2314,
       "text": "Planning Commission from 2014 to 2020, including a three-year stint on PRAB,",
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
@@ -1953,7 +1956,7 @@
     },
     {
       "turn_id": "turn_000163",
-      "start": 2314.0,
+      "start": 2314,
       "end": 2350.32,
       "text": "This was a huge topic of conversation and this is going back you know more than 10 years from now. The need for a full service community center. So I do support it for all the reasons that you've been hearing from from all of the other residents coming up to support it. I'm going to focus on something a little bit different, although I am a member of the Senior Center, but I'm going to try to highlight some benefits for adults of all ages. As a former competitive athlete, I think the walking track, the gym, the fitness center are going to be so key to both the physical and mental health of our",
       "speaker_raw": "SPEAKER_23",
@@ -2470,7 +2473,7 @@
     {
       "turn_id": "turn_000206",
       "start": 3102.14,
-      "end": 3104.0,
+      "end": 3104,
       "text": "And the health centers.",
       "speaker_raw": "SPEAKER_04",
       "speaker_public": "Unknown Speaker",
@@ -2710,7 +2713,7 @@
     {
       "turn_id": "turn_000226",
       "start": 3381.62,
-      "end": 3384.0,
+      "end": 3384,
       "text": "Having to reverse the narrow, steep staircase",
       "speaker_raw": "SPEAKER_24",
       "speaker_public": "Unknown Speaker",
@@ -2721,7 +2724,7 @@
     },
     {
       "turn_id": "turn_000227",
-      "start": 3384.0,
+      "start": 3384,
       "end": 3386.26,
       "text": "To find my car, I tried to imagine",
       "speaker_raw": "UNKNOWN",
@@ -2974,7 +2977,7 @@
     {
       "turn_id": "turn_000248",
       "start": 3702.88,
-      "end": 3711.0,
+      "end": 3711,
       "text": "I move to approve the consent agenda items 6A through M as presented and the accompanying motions in the staff reports.",
       "speaker_raw": "SPEAKER_17",
       "speaker_public": "Councilmember Stacy Hardy-Chandler",
@@ -2985,7 +2988,7 @@
     },
     {
       "turn_id": "turn_000249",
-      "start": 3711.0,
+      "start": 3711,
       "end": 3719.92,
       "text": "Is there a second? Second. We have a motion made by Council Member Stacy Hardy-Chandler and seconded by Council Member Peterson, a roll call vote.",
       "speaker_raw": "SPEAKER_22",
@@ -3118,7 +3121,7 @@
     {
       "turn_id": "turn_000260",
       "start": 3822.96,
-      "end": 3834.0,
+      "end": 3834,
       "text": "There has been additional clarity on procedure that allows for input while safeguarding conflict of interest. And I want additional time for that to happen.",
       "speaker_raw": "SPEAKER_17",
       "speaker_public": "Councilmember Stacy Hardy-Chandler",
@@ -3129,7 +3132,7 @@
     },
     {
       "turn_id": "turn_000261",
-      "start": 3834.0,
+      "start": 3834,
       "end": 3835.08,
       "text": "Can you clarify that?",
       "speaker_raw": "SPEAKER_06",
@@ -3406,7 +3409,7 @@
     {
       "turn_id": "turn_000284",
       "start": 4013.28,
-      "end": 4017.0,
+      "end": 4017,
       "text": "Where we are at a split vote.",
       "speaker_raw": "SPEAKER_27",
       "speaker_public": "Councilmember Stacy Hall",
@@ -3417,7 +3420,7 @@
     },
     {
       "turn_id": "turn_000285",
-      "start": 4017.0,
+      "start": 4017,
       "end": 4021.68,
       "text": "And unfortunately, math often is",
       "speaker_raw": "UNKNOWN",
@@ -3430,7 +3433,7 @@
     {
       "turn_id": "turn_000286",
       "start": 4021.68,
-      "end": 4044.0,
+      "end": 4044,
       "text": "Used against certain members of council when it comes to making decisions on other things. There have been many high-density housing options that have passed simply because there is a vote, and it is split, and the mayor can break a tie. And I do not agree with that in its own merit. And I simply do not agree with it now.",
       "speaker_raw": "SPEAKER_27",
       "speaker_public": "Councilmember Stacy Hall",
@@ -3441,7 +3444,7 @@
     },
     {
       "turn_id": "turn_000287",
-      "start": 4044.0,
+      "start": 4044,
       "end": 4076.04,
       "text": "Thank you. And I would point out that the first 63 years of this city's history, the mayor was not excluded from the discussions or appointments to boards and commission until this council. And so whether I have feelings about that or not, this council decided that, which is why we have an even number of people voting on these appointments. Up until this council, as far as the mayors that I have spoken with previously, this was not an issue. So there are issues here. For sure, there are on many fronts. Council Member Amos.",
       "speaker_raw": "SPEAKER_22",
@@ -3454,7 +3457,7 @@
     {
       "turn_id": "turn_000288",
       "start": 4076.04,
-      "end": 4105.0,
+      "end": 4105,
       "text": "So when the initial discussion happened in March, I was clearly not here for that towards the end since I was out of the country. I got back on my understanding, was there supposed to be a recusal? And I really think, for me, there's only one question that really needs to be answered, and that would probably come from our city attorney, is that, per your review, should Council Member Hardy-Chandler have been included in the vote for two of the appointees",
       "speaker_raw": "SPEAKER_28",
       "speaker_public": "Councilmember Anthony Amos",
@@ -3465,7 +3468,7 @@
     },
     {
       "turn_id": "turn_000289",
-      "start": 4105.0,
+      "start": 4105,
       "end": 4107.08,
       "text": "Excluding her husband?",
       "speaker_raw": "UNKNOWN",
@@ -3730,7 +3733,7 @@
     {
       "turn_id": "turn_000311",
       "start": 4293.2,
-      "end": 4304.0,
+      "end": 4304,
       "text": "Yes, of course. Go for it. Council Member Hardy-Chandler, to my recollection, each time we have met to discuss this board and commission, you have refused yourself.",
       "speaker_raw": "SPEAKER_27",
       "speaker_public": "Councilmember Stacy Hall",
@@ -3741,7 +3744,7 @@
     },
     {
       "turn_id": "turn_000312",
-      "start": 4304.0,
+      "start": 4304,
       "end": 4306.6,
       "text": "OK, so every single time we've had discussions",
       "speaker_raw": "UNKNOWN",
@@ -3777,7 +3780,7 @@
     },
     {
       "turn_id": "turn_000315",
-      "start": 4316.0,
+      "start": 4316,
       "end": 4351.44,
       "text": "That was without clarification that I could have input on the other candidates. Having received that clarification, I want to exercise that. I see an appointment for a four-year term extending through April 14, 2030, and serving as a representative to Parks and Recreation Advisory Board as separate from the other appointment, which I recused myself from, extending through September 30, 2029. These are separate, independent appointments. If these candidates were coming up for candidacy separately,",
       "speaker_raw": "SPEAKER_17",
@@ -4377,7 +4380,7 @@
     },
     {
       "turn_id": "turn_000365",
-      "start": 4952.0,
+      "start": 4952,
       "end": 4982.96,
       "text": "Good evening, Mayor and members of council. Jennifer Rose, Executive Director of the Central Fairfax Chamber of Commerce. Thank you for the opportunity to speak and for the significant work by Fairfax City staff that has gone into developing the fiscal year 27 proposed budget. We recognize the real fiscal pressures the city is managing, particularly increases in school tuition and debt service. And we appreciate your commitment to maintaining services without adding new full-time equivalent positions. From the Chamber's perspective, I want to focus on one key issue,",
       "speaker_raw": "SPEAKER_13",
@@ -4450,7 +4453,7 @@
     {
       "turn_id": "turn_000371",
       "start": 5136.96,
-      "end": 5142.0,
+      "end": 5142,
       "text": "Is there anybody else in the room that would like to speak on the proposed FY27 budget?",
       "speaker_raw": "SPEAKER_15",
       "speaker_public": "Unknown Speaker",
@@ -4473,8 +4476,8 @@
     },
     {
       "turn_id": "turn_000373",
-      "start": 5160.0,
-      "end": 5168.0,
+      "start": 5160,
+      "end": 5168,
       "text": "Ms. Schoenberg? We will move forward to second general public comment. I had one person sign up prior to the start of the meeting. I will call them forward. Mary McDaniel?",
       "speaker_raw": "SPEAKER_15",
       "speaker_public": "Unknown Speaker",
@@ -4497,7 +4500,7 @@
     },
     {
       "turn_id": "turn_000375",
-      "start": 5178.0,
+      "start": 5178,
       "end": 5213.68,
       "text": "I'm Mary McDaniel, a resident of the Fairfax City, and my comments tonight are unrelated to my role on the city's electoral board. I'm speaking in support of the Willard Sherwood Center, and I'm asking that the city council advance this project. It's an essential facility for our growing city. I have attended a ton of open houses on this and have always supported the project. As I look at it, it seems very obvious that we should move ahead, and I started thinking about why would you maybe cancel the project? And one might be that the services that are going to be covered are not needed anymore.",
       "speaker_raw": "SPEAKER_10",
@@ -4750,7 +4753,7 @@
     {
       "turn_id": "turn_000396",
       "start": 5530.76,
-      "end": 5570.0,
+      "end": 5570,
       "text": "Tax rate and is solely due to a revised forecasting and modeling. Turning to expenditures, there are a few important updates to highlight. First, health insurance costs have increased beyond our original projections. Specifically, we are now projecting an additional 5.5% increase above the initial 8% forecast, largely driven by higher than anticipated claims activity. In response, staff is taking a proactive approach. We have a meeting scheduled this Friday with our insurance representative to explore strategies",
       "speaker_raw": "SPEAKER_07",
       "speaker_public": "JC Martinez",
@@ -4761,7 +4764,7 @@
     },
     {
       "turn_id": "turn_000397",
-      "start": 5570.0,
+      "start": 5570,
       "end": 5606.36,
       "text": "To help curtail future cost increases, including evaluating plan design options and potential rebidding of our insurance contract. Secondly, you will see personal expense savings reflected in the updated numbers. Approximately half of these savings result from a review of current staffing levels where we are prioritizing the reallocation of existing vacant positions rather than adding new FTEs. This approach allows us to meet operational needs while maintaining fiscal discipline.",
       "speaker_raw": "SPEAKER_07",
@@ -4870,7 +4873,7 @@
     {
       "turn_id": "turn_000406",
       "start": 5791.68,
-      "end": 5798.0,
+      "end": 5798,
       "text": "And has been updated, let me say that one more time, has been updated to reflect a revised",
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
@@ -4881,7 +4884,7 @@
     },
     {
       "turn_id": "turn_000407",
-      "start": 5798.0,
+      "start": 5798,
       "end": 5803.72,
       "text": "Access link that will now be held via Zoom instead of Teams.",
       "speaker_raw": "SPEAKER_07",
@@ -4954,7 +4957,7 @@
     {
       "turn_id": "turn_000413",
       "start": 5895.28,
-      "end": 5899.0,
+      "end": 5899,
       "text": "Paid off, is that correct?",
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
@@ -4965,7 +4968,7 @@
     },
     {
       "turn_id": "turn_000414",
-      "start": 5899.0,
+      "start": 5899,
       "end": 5927.96,
       "text": "It's going to depend on the current language. The last language I saw, I think, on meals tax, I'm looking at the budget director, because I think she showed it to me, the language may not be applicable to meals, or restaurant meals for the additional 1%. That is still something that is being evaluated. We won't know, and I think that's sort of the biggest predicament that we're in right now is there has been no final determination by Richmond, so we're trying to be as adaptive and as prudent as possible.",
       "speaker_raw": "SPEAKER_07",
@@ -5073,7 +5076,7 @@
     },
     {
       "turn_id": "turn_000423",
-      "start": 6000.0,
+      "start": 6000,
       "end": 6022.76,
       "text": "Not 100%, so what was displayed in some of the other slides, the revenues and the expenditures are what we know of right now. The most traditional way that we've displayed this is the budget change sheet. That will be a part of it. That's sort of the debit and the credits. The changes that are now known as of when the manager proposed his budget at the end",
       "speaker_raw": "SPEAKER_07",
@@ -5290,7 +5293,7 @@
     {
       "turn_id": "turn_000441",
       "start": 6243.64,
-      "end": 6246.0,
+      "end": 6246,
       "text": "Council Member Hall.",
       "speaker_raw": "SPEAKER_22",
       "speaker_public": "Mayor Catherine Read",
@@ -5301,7 +5304,7 @@
     },
     {
       "turn_id": "turn_000442",
-      "start": 6246.0,
+      "start": 6246,
       "end": 6281.64,
       "text": "Thank you. In anticipation of the conversation about BPOL, I reached out to two different people, one specifically with a very large car dealership who does repairs and car sales, and then another person that I reached out to is a professional in the legal area. So the, I think they're both, the car tax was, or the car BPOL conversation was more about the lesser of two evils of real estate taxes versus BPOL tax. The conversation that we had focused very heavily on the fact that the majority of the",
       "speaker_raw": "SPEAKER_27",
@@ -5518,7 +5521,7 @@
     {
       "turn_id": "turn_000460",
       "start": 6589.16,
-      "end": 6605.0,
+      "end": 6605,
       "text": "Thank you, Mayor Reed, and good evening to the council. Council Member Hall, I'm here to observe and listen, but I'm happy to answer your question. that you just posed. The conversation last night was around our elementary school",
       "speaker_raw": "SPEAKER_30",
       "speaker_public": "Unknown Speaker",
@@ -5529,7 +5532,7 @@
     },
     {
       "turn_id": "turn_000461",
-      "start": 6605.0,
+      "start": 6605,
       "end": 6608.92,
       "text": "Capital projects, and the current state of them,",
       "speaker_raw": "UNKNOWN",
@@ -5722,7 +5725,7 @@
     {
       "turn_id": "turn_000477",
       "start": 6755.4,
-      "end": 6769.0,
+      "end": 6769,
       "text": "That would certainly be good news if that happened. I know there's a lot of concern that those rates are going to go up and that the unexpected changes will be on the upward side, but we're not there yet. It's good to know. But clearly, energy is up.",
       "speaker_raw": "SPEAKER_06",
       "speaker_public": "Councilmember Tom Peterson",
@@ -5733,7 +5736,7 @@
     },
     {
       "turn_id": "turn_000478",
-      "start": 6769.0,
+      "start": 6769,
       "end": 6773.2,
       "text": "I would just note also that health care expenses are up",
       "speaker_raw": "UNKNOWN",
@@ -5962,7 +5965,7 @@
     {
       "turn_id": "turn_000497",
       "start": 7085.32,
-      "end": 7101.0,
+      "end": 7101,
       "text": "I'm just wondering if, in addition to the anecdotal conversations that we might have with residents, what sort of the trends show in terms of what actually happens and what actually has happened in the past",
       "speaker_raw": "SPEAKER_17",
       "speaker_public": "Councilmember Stacy Hardy-Chandler",
@@ -5973,7 +5976,7 @@
     },
     {
       "turn_id": "turn_000498",
-      "start": 7101.0,
+      "start": 7101,
       "end": 7104.08,
       "text": "When there have been those changes.",
       "speaker_raw": "UNKNOWN",
@@ -6033,7 +6036,7 @@
     },
     {
       "turn_id": "turn_000503",
-      "start": 7200.0,
+      "start": 7200,
       "end": 7231.92,
       "text": "To do just with the work that our economic development office does. People want to move into the city. Also on the left hand side, it does show that about 3% is sort of passed through or back to the restaurants while they file their timely receipts to the city as well. So over that same course time frame, over $2 million was given back to these businesses as a form of collecting the tax on behalf of the city.",
       "speaker_raw": "SPEAKER_07",
@@ -6586,7 +6589,7 @@
     {
       "turn_id": "turn_000549",
       "start": 7839.04,
-      "end": 7876.0,
+      "end": 7876,
       "text": "So as before, I support the proposed increase in the meals tax. It's much more modest than what was proposed last time around. And at the end of the day, certainly not something that we love to do, but even if we're able to make up that revenue through an increase in the BPOL tax, or fees, or some other revenue source, that ends up being that much less funding that we could use to perhaps further support",
       "speaker_raw": "SPEAKER_12",
       "speaker_public": "Unknown Speaker",
@@ -6597,7 +6600,7 @@
     },
     {
       "turn_id": "turn_000550",
-      "start": 7876.0,
+      "start": 7876,
       "end": 7885.72,
       "text": "Our employees, our public safety employees, who respond to emergencies that occur at the restaurants in the city.",
       "speaker_raw": "SPEAKER_12",
@@ -6622,7 +6625,7 @@
     {
       "turn_id": "turn_000552",
       "start": 7890.12,
-      "end": 7918.0,
+      "end": 7918,
       "text": "More of a necessity than eating at a restaurant. Certainly some people don't have time to cook. However, there are frozen meals available at the grocery store, that kind of thing. So that's also kind of locking ourselves out of if we wanted to use part of that to alleviate some of the burden on our homeowners through the real estate tax rate.",
       "speaker_raw": "SPEAKER_12",
       "speaker_public": "Unknown Speaker",
@@ -6633,7 +6636,7 @@
     },
     {
       "turn_id": "turn_000553",
-      "start": 7918.0,
+      "start": 7918,
       "end": 7920.6,
       "text": "So it's something that I think I, again,",
       "speaker_raw": "UNKNOWN",
@@ -6898,7 +6901,7 @@
     {
       "turn_id": "turn_000575",
       "start": 8239.12,
-      "end": 8276.0,
+      "end": 8276,
       "text": "Sorry. I just want to thank you. I recognize that this is not a fun topic to discuss, and I'm sure it's not great unless you're Mr. Martinez to work on it. But I just, I recognize the amount of work you're doing, the amount of time it takes. You're continuing to do it with a smile on your face. And I can feel this isn't a fun process for anyone, but you all, this is what you have to do for your job, and you don't get to just decide you're done. So I just want to say thank you to all of the employees and staff that are working hard right now,",
       "speaker_raw": "SPEAKER_26",
       "speaker_public": "Councilmember Rachel McQuillen",
@@ -6909,7 +6912,7 @@
     },
     {
       "turn_id": "turn_000576",
-      "start": 8276.0,
+      "start": 8276,
       "end": 8295.4,
       "text": "Especially you all that are in the room. Because hearing the speed in which you're responsive to our requests about engage in the budget, I mean, we're throwing everything at you, and you all are just handling it and rolling with it. And I just wanted to say thank you, because I don't think we do that enough here, and acknowledge how much work that is on you.",
       "speaker_raw": "SPEAKER_26",
@@ -8039,7 +8042,7 @@
       "turn_id": "turn_000670",
       "start": 9991.14,
       "end": 9994.14,
-      "text": "♪♪",
+      "text": "âªâª",
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
@@ -8051,7 +8054,7 @@
       "turn_id": "turn_000671",
       "start": 10002.54,
       "end": 10005.54,
-      "text": "♪♪",
+      "text": "âªâª",
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
@@ -8063,7 +8066,7 @@
       "turn_id": "turn_000672",
       "start": 10009.54,
       "end": 10012.54,
-      "text": "♪♪",
+      "text": "âªâª",
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
@@ -8075,7 +8078,7 @@
       "turn_id": "turn_000673",
       "start": 10015.54,
       "end": 10018.54,
-      "text": "♪♪",
+      "text": "âªâª",
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
