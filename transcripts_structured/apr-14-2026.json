@@ -6,8 +6,8 @@
     "title": "City Council Regular Meeting",
     "source_url": "https://fairfax.granicus.com/player/clip/4519",
     "reviewed": true,
-    "reviewed_at": "2026-04-24T05:08:12.530Z",
-    "review_decisions_count": 1
+    "reviewed_at": "2026-04-24T05:25:51.213Z",
+    "review_decisions_count": 2
   },
   "turns": [
     {
@@ -35,7 +35,10 @@
       "speaker_status": "unknown",
       "needs_review": true,
       "review_reason": "no_diarization",
-      "confidence": null
+      "confidence": null,
+      "speaker": "Public Comment Speaker",
+      "speaker_source": "approved",
+      "speaker_source_detail": "reviewed:mark_public_comment"
     },
     {
       "turn_id": "turn_000003",
@@ -8045,7 +8048,7 @@
       "turn_id": "turn_000670",
       "start": 9991.14,
       "end": 9994.14,
-      "text": "Ã¢ÂÂªÃ¢ÂÂª",
+      "text": "ÃÂ¢ÃÂÃÂªÃÂ¢ÃÂÃÂª",
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
@@ -8057,7 +8060,7 @@
       "turn_id": "turn_000671",
       "start": 10002.54,
       "end": 10005.54,
-      "text": "Ã¢ÂÂªÃ¢ÂÂª",
+      "text": "ÃÂ¢ÃÂÃÂªÃÂ¢ÃÂÃÂª",
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
@@ -8069,7 +8072,7 @@
       "turn_id": "turn_000672",
       "start": 10009.54,
       "end": 10012.54,
-      "text": "Ã¢ÂÂªÃ¢ÂÂª",
+      "text": "ÃÂ¢ÃÂÃÂªÃÂ¢ÃÂÃÂª",
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
@@ -8081,7 +8084,7 @@
       "turn_id": "turn_000673",
       "start": 10015.54,
       "end": 10018.54,
-      "text": "Ã¢ÂÂªÃ¢ÂÂª",
+      "text": "ÃÂ¢ÃÂÃÂªÃÂ¢ÃÂÃÂª",
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
