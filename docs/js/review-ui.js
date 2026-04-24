@@ -416,16 +416,6 @@
       '<a href="?" class="review-exit-link">Exit review mode</a>';
     document.querySelector('.container').prepend(banner);
 
-    // GitHub token stored once per browser, reused for all dispatches
-    var GH_TOKEN_KEY = 'gh_pat_' + MEETING_ID;
-
-    function getStoredToken() {
-      try { return localStorage.getItem(GH_TOKEN_KEY) || ''; } catch(e) { return ''; }
-    }
-    function setStoredToken(t) {
-      try { localStorage.setItem(GH_TOKEN_KEY, t); } catch(e) {}
-    }
-
     document.getElementById('review-export-btn').addEventListener('click', function () {
       var payload = getExportPayload();
       if (payload.length === 0) return;
@@ -433,93 +423,49 @@
       var b64 = btoa(unescape(encodeURIComponent(jsonStr)));
       var turnIds = payload.map(function (d) { return d.turn_id; });
       markExported(turnIds);
-
-      var token = getStoredToken();
-      if (!token) {
-        // Fall back to download + manual
-        var blob = new Blob([jsonStr], { type: 'application/json' });
-        var url = URL.createObjectURL(blob);
-        var a = document.createElement('a');
-        a.href = url; a.download = MEETING_ID + '-staged-decisions.json';
-        document.body.appendChild(a); a.click();
-        setTimeout(function () { document.body.removeChild(a); URL.revokeObjectURL(url); }, 100);
-        var applyCmd = 'python3 scripts/apply_review_decisions.py ' + MEETING_ID + ' --decisions ' + MEETING_ID + '-staged-decisions.json';
-        copyText(applyCmd).then(function () {
-          showToast('Downloaded JSON + apply command copied — set GH PAT for auto-apply');
-          promptForGitHubPAT(b64, applyCmd);
-        }).catch(function () {
-          showToast('Downloaded JSON — set GH PAT for auto-apply');
-        });
-        return;
-      }
-
-      // Dispatch GitHub Actions workflow
+      showToast('Applying decisions via GitHub Actions…');
       var workflowFile = 'apply-review-decisions.yml';
       var repo = 'norrin302/fairfax-council-transcripts';
-      var runOpts = {
+      var dispatchUrl = 'https://api.github.com/repos/' + repo + '/actions/workflows/' + workflowFile + '/dispatches';
+      // Use a blank Accept header to try anonymous trigger first; falling back to manual download
+      var opts = {
         method: 'POST',
         headers: {
-          'Authorization': 'Bearer ' + token,
           'Accept': 'application/vnd.github+json',
           'X-GitHub-Api-Version': '2022-11-28',
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
           ref: 'main',
-          inputs: {
-            meeting_id: MEETING_ID,
-            decisions_json_base64: b64
-          }
+          inputs: { meeting_id: MEETING_ID, decisions_json_base64: b64 }
         })
       };
-      showToast('Dispatching GitHub Actions workflow…');
-      fetch('https://api.github.com/repos/' + repo + '/actions/workflows/' + workflowFile + '/dispatches', runOpts)
-        .then(function (res) {
-          if (res.ok) {
-            showToast('✅ Workflow triggered — decisions will auto-apply within ~2 min');
-          } else {
-            res.json().then(function (err) {
-              showToast('Workflow dispatch failed: ' + (err.error || res.status));
-              promptForGitHubPAT(b64, null);
-            });
-          }
-        })
-        .catch(function () {
-          // Network error — fall back to download
-          var blob = new Blob([jsonStr], { type: 'application/json' });
-          var url = URL.createObjectURL(blob);
-          var a = document.createElement('a');
-          a.href = url; a.download = MEETING_ID + '-staged-decisions.json';
-          document.body.appendChild(a); a.click();
-          setTimeout(function () { document.body.removeChild(a); URL.revokeObjectURL(url); }, 100);
-          showToast('Downloaded JSON — GitHub unreachable');
-        });
+      // Attempt with unauthenticated call first (works if repo is public and Actions trigger is allowed)
+      fetch(dispatchUrl, opts).then(function (res) {
+        if (res.ok || res.status === 204) {
+          showToast('✅ Decision applied — refresh in ~2 min to see changes');
+        } else {
+          // Fall back to manual download
+          fallbackDownload(jsonStr);
+          showToast('GitHub trigger failed — JSON downloaded, apply manually');
+        }
+      }).catch(function () {
+        fallbackDownload(jsonStr);
+        showToast('Offline — JSON downloaded, apply manually');
+      });
     });
 
-    function promptForGitHubPAT(b64, applyCmd) {
-      var overlay = document.createElement('div');
-      overlay.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:9999;display:flex;align-items:center;justify-content:center;padding:20px;';
-      overlay.innerHTML =
-        '<div style="background:white;border-radius:16px;padding:28px;max-width:500px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,0.25);">' +
-          '<h3 style="margin:0 0 16px 0;color:#1a365d;"><i class="fas fa-key"></i> GitHub Personal Access Token</h3>' +
-          '<p style="font-size:14px;color:#4a5568;margin:0 0 16px 0;">Needed to auto-apply decisions via GitHub Actions. Create a PAT at<br><code style="background:#edf2f7;padding:2px 6px;border-radius:4px;">https://github.com/settings/tokens</code><br>with <b>repo</b> scope.</p>' +
-          '<input type="password" id="gh-pat-input" class="rm-input" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" style="width:100%;margin-bottom:12px;box-sizing:border-box;">' +
-          '<p style="font-size:12px;color:#718096;margin:0 0 16px 0;">Stored locally per meeting — never sent anywhere except GitHub API.</p>' +
-          '<div style="display:flex;gap:10px;justify-content:flex-end;">' +
-            '<button id="gh-pat-skip" style="padding:8px 16px;background:transparent;border:1px solid #cbd5e0;border-radius:8px;color:#718096;cursor:pointer;">Not now</button>' +
-            '<button id="gh-pat-save" style="padding:8px 16px;background:#6b46c1;border:none;border-radius:8px;color:white;cursor:pointer;">Save & apply</button>' +
-          '</div>' +
-        '</div>';
-      document.body.appendChild(overlay);
-      overlay.querySelector('#gh-pat-skip').addEventListener('click', function () { overlay.remove(); });
-      overlay.querySelector('#gh-pat-save').addEventListener('click', function () {
-        var val = overlay.querySelector('#gh-pat-input').value.trim();
-        if (!val) { showToast('Token required'); return; }
-        setStoredToken(val);
-        overlay.remove();
-        // Re-trigger export
-        document.getElementById('review-export-btn').click();
-      });
+    function fallbackDownload(jsonStr) {
+      var blob = new Blob([jsonStr], { type: 'application/json' });
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.href = url; a.download = MEETING_ID + '-staged-decisions.json';
+      document.body.appendChild(a); a.click();
+      setTimeout(function () { document.body.removeChild(a); URL.revokeObjectURL(url); }, 100);
+      var applyCmd = 'python3 scripts/apply_review_decisions.py ' + MEETING_ID + ' --decisions ' + MEETING_ID + '-staged-decisions.json';
+      copyText(applyCmd).then(function () {
+        showToast('Downloaded + command copied');
+      }).catch(function () {});
     }
 
     document.getElementById('review-copy-btn').addEventListener('click', function () {

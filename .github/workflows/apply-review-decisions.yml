@@ -1,6 +1,9 @@
 name: Apply Review Decisions
 
 on:
+  repository_dispatch:
+    types: [apply-review-decisions]
+
   workflow_dispatch:
     inputs:
       meeting_id:
@@ -8,7 +11,7 @@ on:
         required: true
         type: string
       decisions_json_base64:
-        description: 'Decisions JSON as base64 string (get this from the Export button)'
+        description: 'Decisions JSON as base64 string'
         required: true
         type: string
 
@@ -21,8 +24,8 @@ jobs:
 
       - name: Decode decisions JSON
         run: |
-          echo "${{ github.event.inputs.decisions_json_base64 }}" | base64 -d > decisions.json
-          echo "Decisions count: $(jq length decisions.json)"
+          echo "${{ github.event.inputs.decisions_json_base64 || github.event.payload.decisions_json_base64 }}" | base64 -d > decisions.json
+          echo "Decisions: $(jq length decisions.json)"
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,33 +34,16 @@ jobs:
 
       - name: Run apply script
         run: |
+          MEETING_ID="${{ github.event.inputs.meeting_id || github.event.payload.meeting_id }}"
           python3 scripts/apply_review_decisions.py \
-            ${{ github.event.inputs.meeting_id }} \
+            "$MEETING_ID" \
             --decisions decisions.json \
-            --commit "apply_review_decisions: ${{ github.event.inputs.meeting_id }} decisions applied via GitHub Actions"
+            --commit "apply_review_decisions: $MEETING_ID decisions applied"
 
       - name: Push changes
         run: |
           git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Comment on dispatch origin
-        if: github.event.inputs.comment_id != ''
+      - name: Done
         run: |
-          gh api repos/${{ github.repository }}/issues/comments/${{ github.event.inputs.comment_id }}/reactions \
-            --method POST \
-            --field content="✅ Decisions applied and pushed to main"
-
-  build-pages:
-    runs-on: ubuntu-latest
-    needs: apply
-    steps:
-      - name: Wait for GitHub Pages rebuild
-        run: |
-          echo "Waiting 90s for Pages rebuild..."
-          sleep 90
-
-      - name: Notify complete
-        run: |
-          echo "Done. Check https://norrin302.github.io/fairfax-council-transcripts/transcripts/${{ github.event.inputs.meeting_id }}.html"
+          echo "Done — https://norrin302.github.io/fairfax-council-transcripts/transcripts/$MEETING_ID.html"
