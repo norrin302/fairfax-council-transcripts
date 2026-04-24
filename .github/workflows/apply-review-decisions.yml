@@ -1,0 +1,63 @@
+name: Apply Review Decisions
+
+on:
+  workflow_dispatch:
+    inputs:
+      meeting_id:
+        description: 'Meeting ID (e.g. apr-14-2026)'
+        required: true
+        type: string
+      decisions_json_base64:
+        description: 'Decisions JSON as base64 string (get this from the Export button)'
+        required: true
+        type: string
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Decode decisions JSON
+        run: |
+          echo "${{ github.event.inputs.decisions_json_base64 }}" | base64 -d > decisions.json
+          echo "Decisions count: $(jq length decisions.json)"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run apply script
+        run: |
+          python3 scripts/apply_review_decisions.py \
+            ${{ github.event.inputs.meeting_id }} \
+            --decisions decisions.json \
+            --commit "apply_review_decisions: ${{ github.event.inputs.meeting_id }} decisions applied via GitHub Actions"
+
+      - name: Push changes
+        run: |
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Comment on dispatch origin
+        if: github.event.inputs.comment_id != ''
+        run: |
+          gh api repos/${{ github.repository }}/issues/comments/${{ github.event.inputs.comment_id }}/reactions \
+            --method POST \
+            --field content="✅ Decisions applied and pushed to main"
+
+  build-pages:
+    runs-on: ubuntu-latest
+    needs: apply
+    steps:
+      - name: Wait for GitHub Pages rebuild
+        run: |
+          echo "Waiting 90s for Pages rebuild..."
+          sleep 90
+
+      - name: Notify complete
+        run: |
+          echo "Done. Check https://norrin302.github.io/fairfax-council-transcripts/transcripts/${{ github.event.inputs.meeting_id }}.html"
