@@ -363,34 +363,45 @@ def _load_caption_hints(vtt_text: str) -> list[dict[str, Any]]:
 
 
 def _caption_speaker_at(t: float, caption_segs: list[dict[str, Any]]) -> tuple[str, str]:
-    """Return (speaker_hint, strength) for the caption segment covering time t.
+    """Return (speaker_hint, strength) for time t using caption hints.
 
-    Only returns non-empty if the caption has a reliable hint (explicit/inline/marker).
-    Falls back to the most recent caption segment with a hint if current time has none.
+    Uses the most recent caption speaker hint that is active at time t.
+    Captions are continuous within a speaker's turn, so if a hint is set at time T0
+    and t > T0 with no intervening NEW speaker marker, the hint carries forward.
     """
     if not caption_segs:
         return "", ""
-    # Find covering segment
+
+    # Build ordered list of caption segments with hints
+    # For each segment, determine if it STARTS a new speaker (has explicit hint)
+    hint_segs: list[tuple[float, float, str, str]] = []  # (start, end, hint, strength)
+    current_hint = ""
+    current_strength = ""
     for seg in caption_segs:
-        if float(seg["start"]) <= t <= float(seg["end"]):
-            hint = str(seg.get("speaker_hint") or "").strip()
-            strength = str(seg.get("speaker_hint_strength") or "").strip()
-            if hint and strength in {"explicit", "inline", "marker"}:
-                return hint, strength
-    # Fall back to most recent segment before t with a reliable hint
-    best_hint = ""
-    best_strength = ""
-    best_end = -1.0
-    for seg in caption_segs:
-        end = float(seg["end"])
-        if end <= t and end > best_end:
-            hint = str(seg.get("speaker_hint") or "").strip()
-            strength = str(seg.get("speaker_hint_strength") or "").strip()
-            if hint and strength in {"explicit", "inline", "marker"}:
-                best_hint = hint
-                best_strength = strength
-                best_end = end
-    return best_hint, best_strength
+        hint = str(seg.get("speaker_hint") or "").strip()
+        strength = str(seg.get("speaker_hint_strength") or "").strip()
+        s = float(seg["start"])
+        e = float(seg["end"])
+        if hint and strength in {"explicit", "inline", "marker"}:
+            current_hint = hint
+            current_strength = strength
+        if current_hint:
+            hint_segs.append((s, e, current_hint, current_strength))
+
+    if not hint_segs:
+        return "", ""
+
+    # Find the active hint at time t: the last segment where start <= t
+    # The speaker at t is the hint from the most recent segment STARTING at or before t
+    # that hasn't been overridden by a new speaker.
+    best: tuple[str, str] = ("", "")
+    for s, e, hint, strength in hint_segs:
+        if s <= t:
+            best = (hint, strength)
+        else:
+            # Segments are ordered by start time, first miss means no more applicable segs
+            break
+    return best
 
 
 # ---------------------------------------------------------------------------
@@ -409,6 +420,15 @@ COUNCIL_MEMBERS = {
 }
 
 
+def _labeled_name(base_name: str) -> str:
+    """Return full labeled name with title prefix (e.g. 'Mayor Catherine Read')."""
+    info = COUNCIL_MEMBERS.get(base_name, {})
+    title = info.get("title", "")
+    if title in ("Mayor", "City Manager"):
+        return f"{title} {base_name}"
+    return base_name
+
+
 def _identify_speaker_from_text(text: str, prev_speaker: str | None = None) -> str | None:
     """Attempt to identify speaker from transcript text content using heuristics.
 
@@ -418,15 +438,20 @@ def _identify_speaker_from_text(text: str, prev_speaker: str | None = None) -> s
     text_lower = text.lower()
 
     # Check for explicit speaker identification (name mentioned in speech)
-    for name in COUNCIL_MEMBERS:
+    for name, info in COUNCIL_MEMBERS.items():
         if name.lower() in text_lower:
+            title = info.get("title", "")
+            if title == "Mayor":
+                return f"Mayor {name}"
+            if title == "City Manager":
+                return f"City Manager {name}"
             return name
 
     # Role-based patterns
     if any(term in text_lower for term in ["as mayor", "this is your mayor", "i'm the mayor", "i am mayor"]):
-        return "Catherine Read"
+        return "Mayor Catherine Read"
     if "city manager" in text_lower and "david coll" in text_lower:
-        return "David Coll"
+        return "City Manager David Coll"
 
     # Pattern: councilmember [Name] (council members saying their own names during roll call)
     cm_match = re.search(r"council\s*(?:member|woman|man)\s+([a-z][a-z\-']+)", text_lower)
@@ -453,18 +478,27 @@ def _identify_speaker_from_text(text: str, prev_speaker: str | None = None) -> s
     ]
     if any(phrase in text_lower for phrase in mayor_opening_phrases):
         # High confidence mayor indicator
-        return "Catherine Read"
+        return "Mayor Catherine Read"
 
-    # Carry over previous speaker for continuation phrases
-    if prev_speaker and prev_speaker in COUNCIL_MEMBERS:
-        if prev_speaker == "Catherine Read":
+    # Carry over previous speaker for continuation phrases.
+    # prev_speaker may be the full labeled name ("Mayor Catherine Read") or base name.
+    # Normalize to base name for COUNCIL_MEMBERS lookup.
+    def _base_name(labeled: str) -> str:
+        for key in COUNCIL_MEMBERS:
+            if labeled == key or labeled == _labeled_name(key):
+                return key
+        return labeled
+
+    base = _base_name(prev_speaker or "")
+    if base in COUNCIL_MEMBERS:
+        if base == "Catherine Read":
             short_text = text_lower[:100]
             continuation_phrases = [
                 "i ", "we ", "the ", "this ", "our ", "to the",
                 "pledge", "allegiance", "ask ", "please ", "will now",
             ]
             if any(phrase in short_text for phrase in continuation_phrases):
-                return prev_speaker
+                return _labeled_name(base)
 
     return None
 
@@ -506,7 +540,7 @@ def _public_label_policy(
             src = "caption" if speaker_raw == "UNKNOWN" else "caption_override"
             return hint, src, False, f"caption:{strength}"
 
-    # Try text-based heuristic identification
+    # Try text-based heuristic identification (for UNKNOWN, unresolved, or any case without approved name)
     if text_hint:
         identified = _identify_speaker_from_text(text_hint, prev_speaker)
         if identified:
@@ -653,6 +687,66 @@ def main() -> int:
                 "confidence": None,
             }
         )
+
+    # -----------------------------------------------------------------------
+    # Post-processing: merge consecutive turns using speaker-chain logic
+    # -----------------------------------------------------------------------
+    # Russ's rule: small unknown gaps between labeled speech = same person still
+    # talking. We merge labeled blocks with tiny unknown gaps into the same chain.
+    # Two rules:
+    #   1. Same labeled speaker + small gap → merge
+    #   2. Labeled speaker + small-gap Unknown next to it → Unknown absorbed into speaker
+    # No merging across labeled→labeled boundaries (different people speaking).
+
+    MERGE_MAX_GAP = 4.0   # seconds; labeled+labeled merge threshold
+    ABSORB_MAX_GAP = 4.0  # seconds; Unknown blocks absorbed into adjacent labeled
+
+    def _is_labeled(speaker: str) -> bool:
+        return speaker not in ("Unknown Speaker", "")
+
+    merged: list[dict[str, Any]] = []
+    for t in structured_turns:
+        speaker = t.get("speaker_public", "")
+
+        if not merged:
+            merged.append(t)
+            continue
+
+        prev = merged[-1]
+        prev_speaker = prev.get("speaker_public", "")
+        gap = float(t["start"]) - float(prev["end"])
+
+        # Case A: both labeled, same speaker, small gap → merge
+        if _is_labeled(speaker) and _is_labeled(prev_speaker) and prev_speaker == speaker and gap < MERGE_MAX_GAP:
+            prev["end"] = t["end"]
+            prev["text"] = prev["text"] + " " + t["text"]
+            # Take better status if needed
+            status_priority = {"approved": 5, "heuristic": 4, "caption": 3, "caption_override": 3, "unresolved": 2, "unknown": 1}
+            if status_priority.get(t.get("speaker_status", ""), 0) > status_priority.get(prev.get("speaker_status", ""), 0):
+                prev["speaker_status"] = t["speaker_status"]
+                prev["review_reason"] = t.get("review_reason")
+            continue
+
+        # Case B: prev is labeled, current is Unknown, tiny gap → absorb Unknown into prev speaker
+        if _is_labeled(prev_speaker) and not _is_labeled(speaker) and gap < ABSORB_MAX_GAP:
+            prev["end"] = t["end"]
+            prev["text"] = prev["text"] + " " + t["text"]
+            continue
+
+        # Case C: current is labeled, prev is Unknown, tiny gap → absorb into current speaker
+        if not _is_labeled(prev_speaker) and _is_labeled(speaker) and gap < ABSORB_MAX_GAP:
+            # Extend the previous turn with this labeled turn's speaker and text
+            # The prev turn keeps its speaker (Unknown) but extends its text and end time
+            prev["end"] = t["end"]
+            prev["text"] = prev["text"] + " " + t["text"]
+            continue
+
+        # Otherwise: keep separate
+        merged.append(t)
+
+    before = len(structured_turns)
+    structured_turns = merged
+    print(f"Merged {before} turns into {len(structured_turns)} (merged {before - len(structured_turns)} fragments)")
 
     # Summary of label sources
     caption_labeled = sum(1 for t in structured_turns if t.get("speaker_status") == "caption")
