@@ -528,10 +528,7 @@
       var existing = PENDING_DECISIONS.find(function (d) { return d.turn_id === turnId; });
       var decision = {
         turn_id: turnId,
-        decision_id: (function () {
-        var prev = PENDING_DECISIONS.find(function (d) { return d.turn_id === ACTIVE_TURN_ID; });
-        return prev && prev.decision_id ? prev.decision_id : generateId();
-      })(),
+        decision_id: existing && existing.decision_id ? existing.decision_id : generateId(),
         reviewer_action: 'approve_named_official',
         speaker_name: speakerName,
         speaker_type: speakerType,
@@ -563,10 +560,7 @@
     var existing = PENDING_DECISIONS.find(function (d) { return d.turn_id === turnId; });
     var decision = {
       turn_id: turnId,
-      decision_id: (function () {
-        var prev = PENDING_DECISIONS.find(function (d) { return d.turn_id === ACTIVE_TURN_ID; });
-        return prev && prev.decision_id ? prev.decision_id : generateId();
-      })(),
+      decision_id: existing && existing.decision_id ? existing.decision_id : generateId(),
       reviewer_action: 'approve_named_official',
       speaker_name: speakerName,
       speaker_type: speakerType,
