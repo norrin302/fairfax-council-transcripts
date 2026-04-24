@@ -10,9 +10,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Oh"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
+    "speaker": "Public Comment Speaker",
+    "speaker_source": "approved",
+    "speaker_source_detail": "reviewed:mark_public_comment",
     "start": 30.0,
     "end": 32.0,
     "text": "I"
@@ -5359,7 +5359,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 9991.14,
     "end": 9994.14,
-    "text": "Ã¢ÂÂªÃ¢ÂÂª"
+    "text": "ÃÂ¢ÃÂÃÂªÃÂ¢ÃÂÃÂª"
   },
   {
     "speaker": "Unknown Speaker",
@@ -5367,7 +5367,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 10002.54,
     "end": 10005.54,
-    "text": "Ã¢ÂÂªÃ¢ÂÂª"
+    "text": "ÃÂ¢ÃÂÃÂªÃÂ¢ÃÂÃÂª"
   },
   {
     "speaker": "Unknown Speaker",
@@ -5375,7 +5375,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 10009.54,
     "end": 10012.54,
-    "text": "Ã¢ÂÂªÃ¢ÂÂª"
+    "text": "ÃÂ¢ÃÂÃÂªÃÂ¢ÃÂÃÂª"
   },
   {
     "speaker": "Unknown Speaker",
@@ -5383,7 +5383,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 10015.54,
     "end": 10018.54,
-    "text": "Ã¢ÂÂªÃ¢ÂÂª"
+    "text": "ÃÂ¢ÃÂÃÂªÃÂ¢ÃÂÃÂª"
   }
 ];
 
