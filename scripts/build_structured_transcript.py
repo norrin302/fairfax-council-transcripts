@@ -643,7 +643,7 @@ def _apply_name_call_handoffs(turns: list[dict[str, Any]]) -> list[dict[str, Any
                 result[i + 1]["speaker_public"] = named
                 result[i + 1]["speaker_status"] = "heuristic"
                 result[i + 1]["review_reason"] = "name_call_handoff"
-                result[i + 1]["handoff_applied"] = True
+                result[i + 1]["handoff_applied"] = True  # store as actual bool for merge logic
                 overrides += 1
                 continue
 
@@ -1042,8 +1042,8 @@ def main() -> int:
         # heuristic-labeled turns that were upgraded from unknown via handoff or self-intro).
         _do_merge = (_is_labeled(speaker) and _is_labeled(prev_speaker)
                 and prev_speaker == speaker and gap < MERGE_MAX_GAP
-                and not (prev.get("handoff_applied") or prev.get("self_intro_applied"))
-                and not (t.get("speaker_status") == "heuristic" and prev.get("handoff_applied")))
+                and ((prev.get("handoff_applied") is not True and prev.get("self_intro_applied") is not True)
+                     or (t.get("speaker_status") == "approved" and prev.get("speaker_status") == "heuristic" and prev.get("handoff_applied") is True)))
         if _do_merge:
             prev["end"] = t["end"]
             prev["text"] = prev["text"] + " " + t["text"]

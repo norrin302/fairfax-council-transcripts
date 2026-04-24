@@ -94,26 +94,26 @@
     {
       "turn_id": "turn_000014",
       "start": 265.04,
-      "end": 303.6,
-      "text": "Thank You mayor I'm honored to be your representative to Representative to the Fairfax County Public Library Board of Trustees. I'm in my second year as chairman of the board Fortunately, you can only serve two years. So I'll be turning it over to somebody in July, but it's a real honor and Some of you may know my career was at the Fairfax City Regional Library And so this is just a continuation of what I did for many years and I wanted to interview Deuce our library director Eric Carzon Elena corals is the branch manager at City of Fairfax and Jackie",
-      "speaker_raw": "SPEAKER_19",
-      "speaker_public": "Suzanne Levy",
-      "speaker_status": "heuristic",
-      "needs_review": false,
-      "review_reason": "name_call_handoff",
-      "confidence": null,
-      "handoff_applied": true
-    },
-    {
-      "turn_id": "turn_000015",
-      "start": 303.92,
-      "end": 330.04,
-      "text": "Consolvo is the head of the circulation department So when you go into the library next week to celebrate National Library Week Please say hi to everybody and if you don't have a library card We have beautiful new cards that were designed by citizens in the community and You can replace your old card with a pretty new one or you can get a card for the first time We really want to have you",
+      "end": 328.04,
+      "text": "Thank You mayor I'm honored to be your representative to Representative to the Fairfax County Public Library Board of Trustees. I'm in my second year as chairman of the board Fortunately, you can only serve two years. So I'll be turning it over to somebody in July, but it's a real honor and Some of you may know my career was at the Fairfax City Regional Library And so this is just a continuation of what I did for many years and I wanted to interview Deuce our library director Eric Carzon Elena corals is the branch manager at City of Fairfax and Jackie Consolvo is the head of the circulation department So when you go into the library next week to celebrate National Library Week Please say hi to everybody and if you don't have a library card We have beautiful new cards that were designed by citizens in the community and You can replace your old card with a pretty new one or you can get a card for the first time",
       "speaker_raw": "SPEAKER_19",
       "speaker_public": "Suzanne Levy",
       "speaker_status": "approved",
       "needs_review": false,
       "review_reason": "",
+      "confidence": null,
+      "handoff_applied": true
+    },
+    {
+      "turn_id": "turn_000016",
+      "start": 328.04,
+      "end": 330.04,
+      "text": "We really want to have you",
+      "speaker_raw": "UNKNOWN",
+      "speaker_public": "Unknown Speaker",
+      "speaker_status": "unknown",
+      "needs_review": true,
+      "review_reason": "no_diarization",
       "confidence": null
     },
     {
