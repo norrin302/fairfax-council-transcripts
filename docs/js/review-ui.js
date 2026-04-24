@@ -1095,10 +1095,16 @@
     }
 
     submitBtn.addEventListener('click', function () {
+      console.log('[review-ui] submit clicked, hasType=' + hasType);
       var decision = buildDecisionFromModal(modal);
-      if (!decision) return;
+      if (!decision) { console.log('[review-ui] buildDecisionFromModal returned null'); return; }
+      console.log('[review-ui] decision:', JSON.stringify({action: decision.reviewer_action, type: decision.speaker_type, name: decision.speaker_name}));
       saveDecision(decision);
     });
+    // Also try click capture in bubbling phase to catch preventDefault issues
+    submitBtn.addEventListener('click', function (e) {
+      console.log('[review-ui] submitBtn click fired, disabled=' + submitBtn.disabled);
+    }, true);
 
     modal.querySelector('#rm-cancel').addEventListener('click', closeModal);
     modal.addEventListener('click', function (e) {
