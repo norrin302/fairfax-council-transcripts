@@ -589,11 +589,16 @@ def _apply_name_call_handoffs(turns: list[dict[str, Any]]) -> list[dict[str, Any
     overrides = 0
 
     for i, t in enumerate(result):
-
         m = _HANDOVER_PAT.search(t.get("text", "") or "")
         if not m:
             continue
         named = m.group(1).strip()  # e.g. "Stephanie"
+        # Skip role titles (e.g. "our Assistant City Manager", "the City Manager")
+        role_prefixes = ("our ", "the ", "your ", "this ", "my ", "city ", "assistant ", "assistant city ",
+                         "city manager", "mayor ", "councilmember ", "council member", "mr. ", "ms. ",
+                         "mrs. ", "dr. ", "hon. ")
+        if named.lower().startswith(role_prefixes):
+            continue
         # Look at the very next turn
         if i + 1 >= len(result):
             continue
@@ -1033,9 +1038,10 @@ def main() -> int:
         gap = float(t["start"]) - float(prev["end"])
 
         # Case A: both labeled, same speaker, small gap → merge
-        # Block only if the PREVIOUS turn was relabeled by a heuristic (handoff/self-intro)
-        # AND THE CURRENT TURN IS NOT itself heuristic (i.e., don't block labeled→heuristic merges,
-        # but DO block heuristic→labeled so heuristic turn doesn't absorb following labeled speech).
+        # Block if the PREVIOUS turn was relabeled by a heuristic (handoff/self-intro) —
+        # such turns represent complete speech acts that should not absorb following turns.
+        # Exception: don't block labeled→heuristic merges (so labeled turns can absorb
+        # heuristic-labeled turns that were upgraded from unknown via handoff or self-intro).
         if (_is_labeled(speaker) and _is_labeled(prev_speaker)
                 and prev_speaker == speaker and gap < MERGE_MAX_GAP
                 and not (prev.get("handoff_applied") or prev.get("self_intro_applied"))

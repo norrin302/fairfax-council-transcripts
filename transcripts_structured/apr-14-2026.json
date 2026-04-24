@@ -2493,12 +2493,11 @@
       "end": 5490.08,
       "text": "Thank you, Mr. Alexander, Mayor, Council. This evening, if we can go to the next slide, Ms. Riddle, tonight's presentation is intended to provide a high-level update on the FY 2027 budget, specifically focusing, as the Manager stated, on revenues and expenditures assumptions. As a reminder, this is not the final iteration. Staff will return on April 28th with more detailed scenarios and options for Council's consideration as we move toward finalizing the budget. We'll begin with revenues. Listed on the sheet that's on the screen and before you are previously discussed additional Proposed changes of three revenue sources, two within the BPOL and one on TOT.",
       "speaker_raw": "SPEAKER_07",
-      "speaker_public": "our Assistant",
-      "speaker_status": "heuristic",
+      "speaker_public": "JC Martinez",
+      "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "name_call_handoff",
-      "confidence": null,
-      "handoff_applied": true
+      "review_reason": "",
+      "confidence": null
     },
     {
       "turn_id": "turn_000395",
