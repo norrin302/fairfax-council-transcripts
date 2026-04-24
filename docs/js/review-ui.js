@@ -528,7 +528,10 @@
       var existing = PENDING_DECISIONS.find(function (d) { return d.turn_id === turnId; });
       var decision = {
         turn_id: turnId,
-        decision_id: existing && existing.decision_id ? existing.decision_id : generateId(),
+        decision_id: (function () {
+        var prev = PENDING_DECISIONS.find(function (d) { return d.turn_id === ACTIVE_TURN_ID; });
+        return prev && prev.decision_id ? prev.decision_id : generateId();
+      })(),
         reviewer_action: 'approve_named_official',
         speaker_name: speakerName,
         speaker_type: speakerType,
@@ -560,7 +563,10 @@
     var existing = PENDING_DECISIONS.find(function (d) { return d.turn_id === turnId; });
     var decision = {
       turn_id: turnId,
-      decision_id: existing && existing.decision_id ? existing.decision_id : generateId(),
+      decision_id: (function () {
+        var prev = PENDING_DECISIONS.find(function (d) { return d.turn_id === ACTIVE_TURN_ID; });
+        return prev && prev.decision_id ? prev.decision_id : generateId();
+      })(),
       reviewer_action: 'approve_named_official',
       speaker_name: speakerName,
       speaker_type: speakerType,
@@ -1095,16 +1101,10 @@
     }
 
     submitBtn.addEventListener('click', function () {
-      console.log('[review-ui] submit clicked, hasType=' + hasType);
       var decision = buildDecisionFromModal(modal);
-      if (!decision) { console.log('[review-ui] buildDecisionFromModal returned null'); return; }
-      console.log('[review-ui] decision:', JSON.stringify({action: decision.reviewer_action, type: decision.speaker_type, name: decision.speaker_name}));
+      if (!decision) return;
       saveDecision(decision);
     });
-    // Also try click capture in bubbling phase to catch preventDefault issues
-    submitBtn.addEventListener('click', function (e) {
-      console.log('[review-ui] submitBtn click fired, disabled=' + submitBtn.disabled);
-    }, true);
 
     modal.querySelector('#rm-cancel').addEventListener('click', closeModal);
     modal.addEventListener('click', function (e) {
@@ -1194,7 +1194,10 @@
 
     return {
       turn_id: ACTIVE_TURN_ID,
-      decision_id: existing && existing.decision_id ? existing.decision_id : generateId(),
+      decision_id: (function () {
+        var prev = PENDING_DECISIONS.find(function (d) { return d.turn_id === ACTIVE_TURN_ID; });
+        return prev && prev.decision_id ? prev.decision_id : generateId();
+      })(),
       reviewer_action: action,
       speaker_name: speakerName,
       speaker_type: speakerType,
