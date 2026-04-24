@@ -1061,7 +1061,7 @@
       });
     }
 
-    // Quick Public comment
+    // Quick Public comment — stage decision and show confirmation, keep modal open
     if (quickPublic) {
       quickPublic.addEventListener('click', function () {
         var typePublic = modal.querySelector('#rm-type-public');
@@ -1070,7 +1070,11 @@
         decision.reviewer_action = 'mark_public_comment';
         decision.speaker_type = 'public_comment';
         decision.evidence_note = decision.evidence_note || 'Public comment turn';
-        saveDecision(decision);
+        addPending(decision);
+        showToast('Public comment staged — ' + PENDING_DECISIONS.length + ' total');
+        updateBannerCounts();
+        renderSidebar();
+        wireLabelButtons();
       });
     }
 
