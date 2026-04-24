@@ -1137,9 +1137,8 @@
       modal.querySelector('#rm-type-public').checked ||
       modal.querySelector('#rm-type-unknown').checked;
     var hasName = speakerNameInput && speakerNameInput.value.trim().length > 0;
-    var hasNote = evidenceNote && evidenceNote.value.trim().length > 0;
-    // Evidence note is optional; type + name (if provided) is sufficient
-    submitBtn.disabled = !hasType || (hasName && !hasNote);
+    // Evidence note is fully optional; only type selection is required
+    submitBtn.disabled = !hasType;
   }
 
   function saveDecision(decision) {
