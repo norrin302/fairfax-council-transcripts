@@ -1106,6 +1106,10 @@
     });
 
     updateSubmitState(modal);
+    // Wire radio buttons to re-check submit state on change
+    modal.querySelectorAll('input[name="rm-type"]').forEach(function (radio) {
+      radio.addEventListener('change', function () { updateSubmitState(modal); });
+    });
     modal.classList.add('open');
     modal.style.display = 'flex';
 
@@ -1136,8 +1140,6 @@
       modal.querySelector('#rm-type-staff').checked ||
       modal.querySelector('#rm-type-public').checked ||
       modal.querySelector('#rm-type-unknown').checked;
-    var hasName = speakerNameInput && speakerNameInput.value.trim().length > 0;
-    // Evidence note is fully optional; only type selection is required
     submitBtn.disabled = !hasType;
   }
 
