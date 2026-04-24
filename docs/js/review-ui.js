@@ -659,7 +659,8 @@
       var showCount = Math.min(singletons.length, 10);
       for (var si = 0; si < showCount; si++) {
         var sTurnId = singletons[si];
-        // Find the turn text from TRANSCRIPT_TURNS
+        var sTurnStart = 0;
+        // Find the turn text and start time from TRANSCRIPT_TURNS
         var sTurn = null;
         var allTurns = getTurns();
         for (var ti = 0; ti < allTurns.length; ti++) {
@@ -668,10 +669,16 @@
             break;
           }
         }
+        if (sTurn) {
+          sTurnStart = parseFloat(sTurn.start || sTurn.time || 0);
+        }
         var sText = sTurn ? (sTurn.text || '').slice(0, 80) + ((sTurn.text || '').length > 80 ? '…' : '') : sTurnId;
+        var sVideoBtn = sTurnStart > 0
+          ? '<button type="button" class="vc-video-btn" data-start="' + sTurnStart + '" title="Watch at ' + formatTime(sTurnStart) + '"><i class="fas fa-play"></i></button>'
+          : '';
         html += '<div class="vc-singleton-item">' +
           '<div class="vc-singleton-turn">' + escHtml(String(sTurnId)) + '</div>' +
-          '<div class="vc-singleton-text">' + escHtml(sText) + '</div>' +
+          '<div class="vc-singleton-text">' + sVideoBtn + '<span>' + escHtml(sText) + '</span></div>' +
           '<div class="vc-singleton-actions">';
         // Show council quick-picks for singleton
         for (var qi = 0; qi < COUNCIL_QUICK_PICK.length; qi++) {

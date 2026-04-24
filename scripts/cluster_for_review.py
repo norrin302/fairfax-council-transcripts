@@ -226,6 +226,7 @@ def compute_clusters(structured: dict, confidence_threshold: float = 0.25) -> di
             "confidence": round(confidence, 3),
             "turn_ids": [ct["turn_id"] for ct in cluster_turns],
             "texts": [ct["text"] for ct in cluster_turns],
+            "start_times": [ct.get("start", 0) for ct in cluster_turns],
         })
         i = j
 
