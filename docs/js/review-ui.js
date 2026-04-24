@@ -63,7 +63,8 @@
   var CURRENT_EXPORT_BATCH_ID = null;  // set once per export event; used to tag all decisions in that export
   var CURRENTLY_HIGHLIGHTED_BLOCK = null;  // currently keyboard-navigated unknown block
   var VOICE_CLUSTERS = null;     // loaded from reviews/<meeting_id>-voice-clusters.json // gitignored, served via raw GitHub
-  var VIDEO_EMBED_OPEN = false;  // true when video embed is visible in modal
+  var VIDEO_EMBED_OPEN = false;  // true when floating video panel is open
+  var ACTIVE_CLUSTER_VIDEO = null;  // {start, sourceUrl} for the floating panel
   var ACTIVE_SIDEBAR_TAB = 'decisions';  // 'decisions' | 'clusters'
 
   // ---- Helpers ----
@@ -605,7 +606,13 @@
       '<h3><i class="fas fa-waveform"></i> Voice Clusters</h3>' +
       '</div>' +
       '<div class="vc-meta">' +
-        clusters.length + ' cluster(s), ' + totalUnknown + ' unknown turn(s)</div>';
+        clusters.length + ' cluster(s), ' + totalUnknown + ' unknown turn(s)</div>' +
+      '<div id="vc-video-panel" style="display:none;">' +
+        '<div id="vc-video-area"></div>' +
+        '<div style="text-align:right;margin-top:4px;">' +
+          '<button type="button" id="vc-video-close-btn" style="font-size:11px;padding:2px 8px;background:transparent;border:1px solid #cbd5e0;border-radius:4px;color:#718096;cursor:pointer;">Hide video</button>' +
+        '</div>' +
+      '</div>';
 
     // Clusters
     if (clusters.length === 0 && singletons.length === 0) {
@@ -838,9 +845,15 @@
         e.stopPropagation();
         var startSec = parseInt(btn.getAttribute('data-start') || '0', 10);
         var meta = getMeetingMeta();
-        showVideoEmbed(startSec, meta.sourceUrl);
+        showClusterVideo(startSec, meta.sourceUrl);
       });
     });
+
+    // Close cluster video button
+    var vcCloseBtn = document.getElementById('vc-video-close-btn');
+    if (vcCloseBtn) {
+      vcCloseBtn.addEventListener('click', closeClusterVideo);
+    }
 
     // Label all in cluster
     sidebar.querySelectorAll('.vc-label-cluster-btn').forEach(function (btn) {
@@ -860,6 +873,34 @@
         stageSingletonDecision(turnId, speakerName);
       });
     });
+  }
+
+  function showClusterVideo(startSec, sourceUrl) {
+    if (!sourceUrl) return;
+    ACTIVE_CLUSTER_VIDEO = { start: startSec, sourceUrl: sourceUrl };
+    var panel = document.getElementById('vc-video-panel');
+    var area = document.getElementById('vc-video-area');
+    if (!panel || !area) return;
+    var embedUrl = sourceUrl + (sourceUrl.includes('?') ? '&' : '?') + 'start=' + startSec;
+    area.innerHTML = '<div class=\'rm-video-container\'><div class=\'rm-video-placeholder\'>Loading...</div></div>';
+    var container = area.querySelector('.rm-video-container');
+    var iframe = document.createElement('iframe');
+    iframe.src = embedUrl;
+    iframe.allow = 'autoplay; fullscreen';
+    iframe.title = 'Video at ' + formatTime(startSec);
+    container.innerHTML = '';
+    container.appendChild(iframe);
+    panel.style.display = '';
+    VIDEO_EMBED_OPEN = true;
+  }
+
+  function closeClusterVideo() {
+    var area = document.getElementById('vc-video-area');
+    if (area) area.innerHTML = '';
+    var panel = document.getElementById('vc-video-panel');
+    if (panel) panel.style.display = 'none';
+    VIDEO_EMBED_OPEN = false;
+    ACTIVE_CLUSTER_VIDEO = null;
   }
 
   function showVideoEmbed(blockStart, sourceUrl) {
