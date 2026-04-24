@@ -416,57 +416,33 @@
       '<a href="?" class="review-exit-link">Exit review mode</a>';
     document.querySelector('.container').prepend(banner);
 
+    var APPLY_WORKER_URL = 'https://fairfax-apply.norrinopenclaw.workers.dev';
+
     document.getElementById('review-export-btn').addEventListener('click', function () {
       var payload = getExportPayload();
       if (payload.length === 0) return;
-      var jsonStr = JSON.stringify(payload, null, 2);
-      var b64 = btoa(unescape(encodeURIComponent(jsonStr)));
-      var turnIds = payload.map(function (d) { return d.turn_id; });
+      var decisions = payload; // array of decisions
+      var turnIds = decisions.map(function (d) { return d.turn_id; });
       markExported(turnIds);
-      showToast('Applying decisions via GitHub Actions…');
-      var workflowFile = 'apply-review-decisions.yml';
-      var repo = 'norrin302/fairfax-council-transcripts';
-      var dispatchUrl = 'https://api.github.com/repos/' + repo + '/actions/workflows/' + workflowFile + '/dispatches';
-      // Use a blank Accept header to try anonymous trigger first; falling back to manual download
-      var opts = {
+      showToast('Applying decisions…');
+      fetch(APPLY_WORKER_URL, {
         method: 'POST',
-        headers: {
-          'Accept': 'application/vnd.github+json',
-          'X-GitHub-Api-Version': '2022-11-28',
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          ref: 'main',
-          inputs: { meeting_id: MEETING_ID, decisions_json_base64: b64 }
-        })
-      };
-      // Attempt with unauthenticated call first (works if repo is public and Actions trigger is allowed)
-      fetch(dispatchUrl, opts).then(function (res) {
-        if (res.ok || res.status === 204) {
-          showToast('✅ Decision applied — refresh in ~2 min to see changes');
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ meeting_id: MEETING_ID, decisions: decisions })
+      }).then(function (res) {
+        if (res.ok) {
+          return res.json().then(function (r) {
+            showToast('✅ ' + r.message);
+          });
         } else {
-          // Fall back to manual download
-          fallbackDownload(jsonStr);
-          showToast('GitHub trigger failed — JSON downloaded, apply manually');
+          return res.text().then(function (err) {
+            showToast('Apply failed: ' + err.slice(0, 100));
+          });
         }
       }).catch(function () {
-        fallbackDownload(jsonStr);
-        showToast('Offline — JSON downloaded, apply manually');
+        showToast('Network error — export manually if needed');
       });
     });
-
-    function fallbackDownload(jsonStr) {
-      var blob = new Blob([jsonStr], { type: 'application/json' });
-      var url = URL.createObjectURL(blob);
-      var a = document.createElement('a');
-      a.href = url; a.download = MEETING_ID + '-staged-decisions.json';
-      document.body.appendChild(a); a.click();
-      setTimeout(function () { document.body.removeChild(a); URL.revokeObjectURL(url); }, 100);
-      var applyCmd = 'python3 scripts/apply_review_decisions.py ' + MEETING_ID + ' --decisions ' + MEETING_ID + '-staged-decisions.json';
-      copyText(applyCmd).then(function () {
-        showToast('Downloaded + command copied');
-      }).catch(function () {});
-    }
 
     document.getElementById('review-copy-btn').addEventListener('click', function () {
       copyExportJSON();
