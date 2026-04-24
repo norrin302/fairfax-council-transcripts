@@ -700,6 +700,7 @@ def main() -> int:
 
     MERGE_MAX_GAP = 4.0   # seconds; labeled+labeled merge threshold
     ABSORB_MAX_GAP = 4.0  # seconds; Unknown blocks absorbed into adjacent labeled
+    ABSORB_MIN_CHARS = 30  # minimum text length to absorb; tiny fragments are likely ASR noise
 
     def _is_labeled(speaker: str) -> bool:
         return speaker not in ("Unknown Speaker", "")
@@ -728,18 +729,15 @@ def main() -> int:
             continue
 
         # Case B: prev is labeled, current is Unknown, tiny gap → absorb Unknown into prev speaker
+        # (fills small ASR noise gaps within continuous labeled speech)
         if _is_labeled(prev_speaker) and not _is_labeled(speaker) and gap < ABSORB_MAX_GAP:
             prev["end"] = t["end"]
             prev["text"] = prev["text"] + " " + t["text"]
             continue
 
-        # Case C: current is labeled, prev is Unknown, tiny gap → absorb into current speaker
-        if not _is_labeled(prev_speaker) and _is_labeled(speaker) and gap < ABSORB_MAX_GAP:
-            # Extend the previous turn with this labeled turn's speaker and text
-            # The prev turn keeps its speaker (Unknown) but extends its text and end time
-            prev["end"] = t["end"]
-            prev["text"] = prev["text"] + " " + t["text"]
-            continue
+        # Case C removed — do NOT absorb labeled turns into an Unknown-prev block.
+        # Unknown→labeled transitions are real speaker changes; keep them separate.
+        # Case B already handles labeled→Unknown (the more common ASR fragmentation).
 
         # Otherwise: keep separate
         merged.append(t)
