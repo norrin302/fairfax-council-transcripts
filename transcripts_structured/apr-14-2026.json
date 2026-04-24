@@ -205,10 +205,10 @@
       "end": 967.32,
       "text": "Well, thank you, Jen. You covered all of it.",
       "speaker_raw": "SPEAKER_08",
-      "speaker_public": "Fasa Alam",
-      "speaker_status": "approved",
+      "speaker_public": "Stephanie",
+      "speaker_status": "heuristic",
       "needs_review": false,
-      "review_reason": "",
+      "review_reason": "name_call_handoff",
       "confidence": null
     },
     {

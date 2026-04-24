@@ -553,6 +553,103 @@ def _public_label_policy(
 
 
 # ---------------------------------------------------------------------------
+# Name-call handoff heuristic
+# ---------------------------------------------------------------------------
+# When a speaker explicitly names the next speaker ("turn it over to [Name]"),
+# and the immediately following turn thanks that person (e.g. "thank you, Jen"),
+# override the next turn's label to the named speaker. This corrects pyannote
+# mis-attributions when the next speaker actually self-identifies in their response.
+
+_HANDOVER_PAT = re.compile(
+    r"(?:turn\s+it\s+over\s+to\s+|hand\s+(?:it\s+)?over\s+to\s+|pass\s+(?:it\s+)?to\s+|=>>\s*)\s*([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)",
+    re.IGNORECASE,
+)
+_THANKYOU_PAT = re.compile(
+    r"(?:thank\s+you[.,!?\s]*|thanks[.,!?\s]*)([A-Z][a-z]+)",
+    re.IGNORECASE,
+)
+
+
+def _apply_name_call_handoffs(turns: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Override speaker labels for name-call handoff turns.
+
+    Scans for patterns like:
+      "... turn it over to Stephanie"  +  "Thank you, Jen"  =>  next turn = Stephanie
+
+    The named person is used verbatim as the label (no title prefix needed;
+    _labeled_name() is a separate pass in publish_meeting.py for approved officials).
+    """
+    CHASING_MAX_GAP = 5.0  # seconds; handoff must be within this window
+    result = [t.copy() for t in turns]
+    overrides = 0
+
+    for i, t in enumerate(result):
+        m = _HANDOVER_PAT.search(t.get("text", "") or "")
+        if not m:
+            continue
+        named = m.group(1).strip()  # e.g. "Stephanie"
+        # Look at the very next turn
+        if i + 1 >= len(result):
+            continue
+        nxt = result[i + 1]
+        gap = float(nxt["start"]) - float(t["end"])
+        if gap > CHASING_MAX_GAP:
+            continue
+        # Does the next turn thank the handing-off speaker?
+        # Walk backwards through prev turns to find who just spoke
+        prev_texts: list[str] = []
+        for j in range(i - 1, max(i - 3, -1), -1):
+            sp = result[j].get("speaker_public", "")
+            if sp and sp != "Unknown Speaker":
+                prev_texts.append(sp)
+                break
+        prev_name = prev_texts[0] if prev_texts else ""
+        # Check if next turn thanks prev_name (using first name or known nickname)
+        nicknames = {
+            "janet": "jen",
+            "mary": "mary",
+            "fasa": "fasa",
+            "fasal": "fasal",
+            "stacy": "stacy",
+            "tom": "tom",
+            "pete": "pete",
+            "rachel": "rachel",
+            "anthony": "anthony",
+            "douglas": "doug",
+            "doug": "doug",
+            "alexander": "alex",
+            "alex": "alex",
+            "kevin": "kevin",
+            "jc": "jc",
+        }
+        expected_nick = nicknames.get(prev_name.lower().split()[-1], prev_name.lower().split()[-1])
+        thank_you_m = _THANKYOU_PAT.search(nxt.get("text", "") or "")
+        if thank_you_m:
+            thanked = thank_you_m.group(1).lower()
+            if thanked == expected_nick or thanked == prev_name.lower().split()[-1]:
+                # Confident: next speaker is the named person
+                result[i + 1] = nxt.copy()
+                result[i + 1]["speaker_public"] = named
+                result[i + 1]["speaker_status"] = "heuristic"
+                result[i + 1]["review_reason"] = "name_call_handoff"
+                overrides += 1
+                continue
+
+        # Fallback: if no thank-you match but we have strong named handoff + single-word
+        # response that looks like an acceptance, still override
+        if gap < 3.0 and len(nxt.get("text", "").split()) <= 15:
+            result[i + 1] = nxt.copy()
+            result[i + 1]["speaker_public"] = named
+            result[i + 1]["speaker_status"] = "heuristic"
+            result[i + 1]["review_reason"] = "name_call_handoff"
+            overrides += 1
+
+    if overrides:
+        print(f"Name-call handoffs applied: {overrides}")
+    return result
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -745,6 +842,9 @@ def main() -> int:
     before = len(structured_turns)
     structured_turns = merged
     print(f"Merged {before} turns into {len(structured_turns)} (merged {before - len(structured_turns)} fragments)")
+
+    # Name-call handoff heuristic — must run after merge so we see the post-merge turn boundaries
+    structured_turns = _apply_name_call_handoffs(structured_turns)
 
     # Summary of label sources
     caption_labeled = sum(1 for t in structured_turns if t.get("speaker_status") == "caption")
