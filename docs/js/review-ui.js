@@ -838,7 +838,6 @@
         e.stopPropagation();
         var startSec = parseInt(btn.getAttribute('data-start') || '0', 10);
         var meta = getMeetingMeta();
-        console.log('[review-ui] video btn click: startSec=' + startSec + ', sourceUrl=' + meta.sourceUrl);
         showVideoEmbed(startSec, meta.sourceUrl);
       });
     });
@@ -864,8 +863,7 @@
   }
 
   function showVideoEmbed(blockStart, sourceUrl) {
-    console.log('[review-ui] showVideoEmbed: blockStart=' + blockStart + ', sourceUrl=' + sourceUrl);
-    if (!sourceUrl) { console.log('[review-ui] showVideoEmbed: no sourceUrl, returning early'); return; }
+    if (!sourceUrl) return;
     VIDEO_EMBED_OPEN = true;
     var area = document.getElementById('rm-video-embed-area');
     if (!area) return;
