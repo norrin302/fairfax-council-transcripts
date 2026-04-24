@@ -881,7 +881,7 @@
     var panel = document.getElementById('vc-video-panel');
     var area = document.getElementById('vc-video-area');
     if (!panel || !area) return;
-    var embedUrl = sourceUrl + (sourceUrl.includes('?') ? '&' : '?') + 'start=' + startSec;
+    var embedUrl = makeVideoEmbedUrl(sourceUrl, startSec);
     area.innerHTML = '<div class=\'rm-video-container\'><div class=\'rm-video-placeholder\'>Loading...</div></div>';
     var container = area.querySelector('.rm-video-container');
     var iframe = document.createElement('iframe');
@@ -903,16 +903,27 @@
     ACTIVE_CLUSTER_VIDEO = null;
   }
 
+  function makeVideoEmbedUrl(sourceUrl, blockStart) {
+    if (!sourceUrl) return '';
+    try {
+      var u = new URL(sourceUrl);
+      if (blockStart > 0) {
+        u.searchParams.set('entrytime', String(Math.floor(Number(blockStart) || 0)));
+        u.searchParams.set('autostart', '1');
+      }
+      return u.toString();
+    } catch (_) {
+      return sourceUrl;
+    }
+  }
+
   function showVideoEmbed(blockStart, sourceUrl) {
     if (!sourceUrl) return;
     VIDEO_EMBED_OPEN = true;
     var area = document.getElementById('rm-video-embed-area');
     if (!area) return;
     var clipId = sourceUrl.split('/').pop() || '';
-    var embedUrl = sourceUrl;
-    if (blockStart > 0) {
-      embedUrl = sourceUrl + (sourceUrl.includes('?') ? '&' : '?') + 'start=' + blockStart;
-    }
+    var embedUrl = makeVideoEmbedUrl(sourceUrl, blockStart);
     area.innerHTML = '<div class="rm-video-container"><div class="rm-video-placeholder">Loading video...</div></div>';
     var container = area.querySelector('.rm-video-container');
     var iframe = document.createElement('iframe');
