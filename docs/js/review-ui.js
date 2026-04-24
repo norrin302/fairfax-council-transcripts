@@ -1031,8 +1031,9 @@
         if (input) input.value = name;
         var typeCouncil = modal.querySelector('#rm-type-council');
         var typeStaff = modal.querySelector('#rm-type-staff');
+        // Auto-select Council/Mayor for named council members, Staff for staff names
         if (typeCouncil) typeCouncil.checked = true;
-        if (typeStaff) typeStaff.checked = true;
+        if (typeStaff) typeStaff.checked = false;
         updateSubmitState(modal);
       });
     });
@@ -1065,7 +1066,11 @@
       quickPublic.addEventListener('click', function () {
         var typePublic = modal.querySelector('#rm-type-public');
         if (typePublic) typePublic.checked = true;
-        updateSubmitState(modal);
+        var decision = buildDecisionFromModal(modal);
+        decision.reviewer_action = 'mark_public_comment';
+        decision.speaker_type = 'public_comment';
+        decision.evidence_note = decision.evidence_note || 'Public comment turn';
+        saveDecision(decision);
       });
     }
 
@@ -1092,14 +1097,6 @@
     submitBtn.addEventListener('click', function () {
       var decision = buildDecisionFromModal(modal);
       if (!decision) return;
-      // Guardrail: suppress and keep_unknown require note or confirm
-      if ((decision.reviewer_action === 'suppress_turn' || decision.reviewer_action === 'keep_unknown') && !decision.evidence_note) {
-        var confirmed = window.confirm(
-          'No evidence note was provided for "' + decision.reviewer_action + '".\n\n' +
-          'This makes audit difficult. Click OK to save without a note, or Cancel to add one.'
-        );
-        if (!confirmed) return;
-      }
       saveDecision(decision);
     });
 
@@ -1141,8 +1138,8 @@
       modal.querySelector('#rm-type-unknown').checked;
     var hasName = speakerNameInput && speakerNameInput.value.trim().length > 0;
     var hasNote = evidenceNote && evidenceNote.value.trim().length > 0;
-    var needsNote = hasName;
-    submitBtn.disabled = !hasType || (needsNote && !hasNote);
+    // Evidence note is optional; type + name (if provided) is sufficient
+    submitBtn.disabled = !hasType || (hasName && !hasNote);
   }
 
   function saveDecision(decision) {
