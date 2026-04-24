@@ -78,5 +78,10 @@
       "name": "",
       "speaker_key": ""
     }
+  },
+  "SPEAKER_24": {
+    "status": "approved",
+    "name": "Stephanie Kupka",
+    "speaker_key": ""
   }
 }

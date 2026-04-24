@@ -1004,8 +1004,6 @@ def main() -> int:
     structured_turns = _apply_name_call_handoffs(structured_turns)
     structured_turns = _apply_self_introductions(structured_turns, approvals)
 
-
-
     # -----------------------------------------------------------------------
     # Post-processing: merge consecutive turns using speaker-chain logic
     # -----------------------------------------------------------------------
@@ -1030,7 +1028,7 @@ def main() -> int:
         speaker = t.get("speaker_public", "")
 
         if not merged:
-            merged.append(t)
+            merged.append(t.copy())
             continue
 
         prev = merged[-1]
@@ -1042,10 +1040,11 @@ def main() -> int:
         # such turns represent complete speech acts that should not absorb following turns.
         # Exception: don't block labeled→heuristic merges (so labeled turns can absorb
         # heuristic-labeled turns that were upgraded from unknown via handoff or self-intro).
-        if (_is_labeled(speaker) and _is_labeled(prev_speaker)
+        _do_merge = (_is_labeled(speaker) and _is_labeled(prev_speaker)
                 and prev_speaker == speaker and gap < MERGE_MAX_GAP
                 and not (prev.get("handoff_applied") or prev.get("self_intro_applied"))
-                and not (t.get("speaker_status") == "heuristic" and prev.get("handoff_applied"))):
+                and not (t.get("speaker_status") == "heuristic" and prev.get("handoff_applied")))
+        if _do_merge:
             prev["end"] = t["end"]
             prev["text"] = prev["text"] + " " + t["text"]
 
@@ -1061,23 +1060,10 @@ def main() -> int:
         # A 0-gap Unknown turn directly abutting a labeled turn is a pyannote artifact,
         # not a real gap — don't absorb it. Require gap > 0.
         if _is_labeled(prev_speaker) and not _is_labeled(speaker) and 0 < gap < ABSORB_MAX_GAP and unknown_absorbed_count < MAX_CONSECUTIVE_ABSORB:
-
             prev["end"] = t["end"]
             prev["text"] = prev["text"] + " " + t["text"]
             unknown_absorbed_count += 1
             continue
-
-        # Case C removed — do NOT absorb labeled turns into an Unknown-prev block.
-        # Unknown→labeled transitions are real speaker changes; keep them separate.
-        # Case B already handles labeled→Unknown (the more common ASR fragmentation). — prevents mega-turns from pyannote-failed "?" segments
-        # being absorbed into labeled speaker blocks.
-        # Small ASR fragments are better kept as separate Unknown turns for heuristics to identify.
-        # if _is_labeled(prev_speaker) and not _is_labeled(speaker) and gap < ABSORB_MAX_GAP and unknown_absorbed_count < MAX_CONSECUTIVE_ABSORB:
-        #     prev["end"] = t["end"]
-        #     prev["text"] = prev["text"] + " " + t["text"]
-        #     unknown_absorbed_count += 1
-        #     continue
-        unknown_absorbed_count = 0  # reset even if Case B disabled
 
         # Case C removed — do NOT absorb labeled turns into an Unknown-prev block.
         # Unknown→labeled transitions are real speaker changes; keep them separate.
