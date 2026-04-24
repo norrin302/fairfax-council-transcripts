@@ -1032,7 +1032,6 @@ def main() -> int:
         prev_speaker = prev.get("speaker_public", "")
         gap = float(t["start"]) - float(prev["end"])
 
-        # Debug: track i=6 (265s heuristic) and i=7 (303.9s approved) potential merge
         # Case A: both labeled, same speaker, small gap → merge
         # Block only if the PREVIOUS turn was relabeled by a heuristic (handoff/self-intro)
         # AND THE CURRENT TURN IS NOT itself heuristic (i.e., don't block labeled→heuristic merges,
@@ -1041,7 +1040,6 @@ def main() -> int:
                 and prev_speaker == speaker and gap < MERGE_MAX_GAP
                 and not (prev.get("handoff_applied") or prev.get("self_intro_applied"))
                 and not (t.get("speaker_status") == "heuristic" and prev.get("handoff_applied"))):
-
             prev["end"] = t["end"]
             prev["text"] = prev["text"] + " " + t["text"]
 
