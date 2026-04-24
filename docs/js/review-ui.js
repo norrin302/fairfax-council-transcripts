@@ -417,7 +417,26 @@
     document.querySelector('.container').prepend(banner);
 
     document.getElementById('review-export-btn').addEventListener('click', function () {
-      exportDownload();
+      var payload = getExportPayload();
+      if (payload.length === 0) return;
+      // Download the JSON
+      var blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.href = url;
+      a.download = MEETING_ID + '-staged-decisions.json';
+      document.body.appendChild(a);
+      a.click();
+      setTimeout(function () { document.body.removeChild(a); URL.revokeObjectURL(url); }, 100);
+      var turnIds = payload.map(function (d) { return d.turn_id; });
+      markExported(turnIds);
+      // Also copy the apply command to clipboard
+      var applyCmd = 'python3 scripts/apply_review_decisions.py ' + MEETING_ID + ' --decisions ' + MEETING_ID + '-staged-decisions.json';
+      copyText(applyCmd).then(function () {
+        showToast('Downloaded JSON + apply command copied to clipboard');
+      }).catch(function () {
+        showToast('Downloaded ' + payload.length + ' decision(s) — copy command manually');
+      });
     });
 
     document.getElementById('review-copy-btn').addEventListener('click', function () {
