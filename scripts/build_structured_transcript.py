@@ -469,6 +469,11 @@ def _identify_speaker_from_text(text: str, prev_speaker: str | None = None) -> s
             if name.startswith(first_name):
                 return name
 
+    # Library board representative heuristic: "your representative to the Fairfax County
+    # Public Library Board [of Trustees]" — Suzanne Levy is the chair/rep for the library proclamation.
+    if "your representative to the fairfax county public library board" in text_lower:
+        return "Suzanne Levy"
+
     # MAYOR OPENING PATTERN: detect meeting opening without needing prior context
     # The mayor typically opens with "call the meeting to order", "pledge", "ask [staff] to..."
     mayor_opening_phrases = [
@@ -561,7 +566,7 @@ def _public_label_policy(
 # mis-attributions when the next speaker actually self-identifies in their response.
 
 _HANDOVER_PAT = re.compile(
-    r"(?:turn\s+it\s+over\s+to\s+|hand\s+(?:it\s+)?over\s+to\s+|pass\s+(?:it\s+)?to\s+|=>>\s*)\s*([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)",
+    r"(?:turn\s+it\s+over\s+to\s+(?:(?:miss|mr|mrs|ms|dr)\s+)?|hand\s+(?:it\s+)?over\s+to\s+(?:(?:miss|mr|mrs|ms|dr)\s+)?|pass\s+(?:it\s+)?to\s+(?:(?:miss|mr|mrs|ms|dr)\s+)?|=>>\s*)\s*([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)",
     re.IGNORECASE,
 )
 _THANKYOU_PAT = re.compile(
