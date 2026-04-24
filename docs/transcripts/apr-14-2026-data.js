@@ -46,16 +46,32 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 130.2,
+    "end": 264.12,
+    "text": "Will you be in the middle? Okay. I'll be in the middle. That sounds reasonable. All right, whereas Libraries spark creativity fuel imagination and inspire lifelong learning Offering a space where individuals of all ages can find joy through exploration and discovery And whereas libraries serve is vibrant community hubs connecting people with knowledge technology and resources While fostering civic engagement critical thinking and cultural enrichment and whereas libraries provide free and equitable Provide free and equitable access to books digital tools and innovative programming ensuring that all Individuals regardless of background have the support they need to learn connect and thrive and whereas libraries partner with schools businesses and organizations Connecting the dots to maximize resources increasing efficiency and expand access to essential services Strengthening the entire community and whereas libraries empower job seekers Entrepreneurs and lifelong learners by providing access to resources training and Opportunities that support career growth and economic success and whereas libraries nurture young minds through story times steam programs and literacy initiatives fostering curiosity and a love of learning that lasts a lifetime and Whereas libraries protect the right to read think and explore without censorship standing as champions of intellectual freedom and free expert expression and Whereas dedicated librarians and library workers provide welcoming spaces that inspire discovery Collaboration and creativity for all and whereas libraries Librarians and library workers across the country are joining together to celebrate National Library Week under the theme Find your joy Now therefore I Catherine S Reid mayor of the city of Fairfax do hereby proclaim April 19 to the 25th 2026 is National Library Week in the city of Fairfax and encourage the community during this week to visit their library Explore its resources and celebrate all the ways that the library helps our community find joy And with that I turn it over to miss Suzanne Levy. Okay"
+  },
+  {
+    "speaker": "Suzanne Levy",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 265.04,
     "end": 358.46,
-    "text": "Will you be in the middle? Okay. I'll be in the middle. That sounds reasonable. All right, whereas Libraries spark creativity fuel imagination and inspire lifelong learning Offering a space where individuals of all ages can find joy through exploration and discovery And whereas libraries serve is vibrant community hubs connecting people with knowledge technology and resources While fostering civic engagement critical thinking and cultural enrichment and whereas libraries provide free and equitable Provide free and equitable access to books digital tools and innovative programming ensuring that all Individuals regardless of background have the support they need to learn connect and thrive and whereas libraries partner with schools businesses and organizations Connecting the dots to maximize resources increasing efficiency and expand access to essential services Strengthening the entire community and whereas libraries empower job seekers Entrepreneurs and lifelong learners by providing access to resources training and Opportunities that support career growth and economic success and whereas libraries nurture young minds through story times steam programs and literacy initiatives fostering curiosity and a love of learning that lasts a lifetime and Whereas libraries protect the right to read think and explore without censorship standing as champions of intellectual freedom and free expert expression and Whereas dedicated librarians and library workers provide welcoming spaces that inspire discovery Collaboration and creativity for all and whereas libraries Librarians and library workers across the country are joining together to celebrate National Library Week under the theme Find your joy Now therefore I Catherine S Reid mayor of the city of Fairfax do hereby proclaim April 19 to the 25th 2026 is National Library Week in the city of Fairfax and encourage the community during this week to visit their library Explore its resources and celebrate all the ways that the library helps our community find joy And with that I turn it over to miss Suzanne Levy. Okay Thank You mayor I'm honored to be your representative to Representative to the Fairfax County Public Library Board of Trustees. I'm in my second year as chairman of the board Fortunately, you can only serve two years. So I'll be turning it over to somebody in July, but it's a real honor and Some of you may know my career was at the Fairfax City Regional Library And so this is just a continuation of what I did for many years and I wanted to interview Deuce our library director Eric Carzon Elena corals is the branch manager at City of Fairfax and Jackie Consolvo is the head of the circulation department So when you go into the library next week to celebrate National Library Week Please say hi to everybody and if you don't have a library card We have beautiful new cards that were designed by citizens in the community and You can replace your old card with a pretty new one or you can get a card for the first time We really want to have you Coming in our doors seeing all the wonderful things that are going on and check out our book sale The children's book sale is the first weekend in May and the adult book sale is in the second week of May and our wonderful Friends of the library raise money to support library activities and Help us purchase materials that are not in the budget to be purchased. So thank you for this honor We really appreciate the opportunity to be here"
+    "text": "Thank You mayor I'm honored to be your representative to Representative to the Fairfax County Public Library Board of Trustees. I'm in my second year as chairman of the board Fortunately, you can only serve two years. So I'll be turning it over to somebody in July, but it's a real honor and Some of you may know my career was at the Fairfax City Regional Library And so this is just a continuation of what I did for many years and I wanted to interview Deuce our library director Eric Carzon Elena corals is the branch manager at City of Fairfax and Jackie Consolvo is the head of the circulation department So when you go into the library next week to celebrate National Library Week Please say hi to everybody and if you don't have a library card We have beautiful new cards that were designed by citizens in the community and You can replace your old card with a pretty new one or you can get a card for the first time We really want to have you Coming in our doors seeing all the wonderful things that are going on and check out our book sale The children's book sale is the first weekend in May and the adult book sale is in the second week of May and our wonderful Friends of the library raise money to support library activities and Help us purchase materials that are not in the budget to be purchased. So thank you for this honor We really appreciate the opportunity to be here"
   },
   {
     "speaker": "Mayor Catherine Read",
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 364.86,
+    "end": 369.66,
+    "text": "And really if you don't have a library card really"
+  },
+  {
+    "speaker": "Suzanne Levy",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 373.14,
     "end": 377.54,
-    "text": "And really if you don't have a library card really Mayor Reed has the name to have a library card. We expect"
+    "text": "Mayor Reed has the name to have a library card. We expect"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -66,9 +82,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Even more Oh"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "mixed",
-    "speaker_source_detail": "mixed_or_rejected_audio",
+    "speaker": "Suzanne Levy",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 400.94,
     "end": 410.9,
     "text": "Thank you so much and thank you for this and the staff is going to take it back to the library And I'll put it in a prominent place. I will see you at the library"
@@ -130,9 +146,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you, Mayor Reed. Following up on the Mayor's comments, I have a certified monarch way station in our yard, which some of you may have heard of, it's through Monarch Watch at the University of Kansas. So besides in public parks and public spaces, individual homeowners really can make a difference for the monarch butterfly. Really, even one milkweed plant in your yard can make a huge difference because, as the Mayor said, that is the only Food that the monarch caterpillar will eat. And so if you have a milkweed plant in your Yard, the caterpillars can start their life cycle and of course metamorphosis into the butterfly. The other thing you can do as a homeowner is have nectar plants in your yard, particularly late blooming nectar plants in the fall. The migration to Mexico in this Area is August through October. And so if you have a nectar source in your yard that The butterflies can access during that southward migration, that is very helpful to them. So some ideas for planting in your yard would be goldenrod or aster so that they've got that nectar source on their way to Mexico. The good news is that in this past overwintering season in Mexico, there was a 64% increase in the amount of butterfly, in the amount of monarchs that were there. So we're showing some improvement. We're not really there yet to the goal, but we're moving in the right direction. So that was good news from the Overwintering sites in Mexico. So you can, if anyone wants to visit my yard this summer, You can reach out to the city clerk and get my address, but you can actually have butterflies flying around you. You can see caterpillars in the yard and it's very exciting. Mary, my colleague from the women's club also has a lot of milkweed in her yard. Cindy Meyer has milkweed in her yard and there are probably a number of you who also have that. It's very exciting. It's a science project going on right in your yard. I've had field trips from our daycare down the street. I've done some stuff virtually for the science teacher at Daniel's Run. So it's very exciting. So I'm happy to guide anybody who wants to do this Project. So turn it over to Stephanie."
   },
   {
-    "speaker": "Fasa Alam",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
+    "speaker": "Stephanie",
+    "speaker_source": "heuristic",
+    "speaker_source_detail": "name_call_handoff",
     "start": 965.32,
     "end": 967.32,
     "text": "Well, thank you, Jen. You covered all of it."
@@ -274,9 +290,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Motion passed unanimously. Sorry. All right. We will go on to initial general public comment. I had 10 speakers sign up by 5 o'clock p.m. today, so I will call the first one up, which"
   },
   {
-    "speaker": "Councilmember Rachel McQuillen",
-    "speaker_source": "caption",
-    "speaker_source_detail": "caption:explicit",
+    "speaker": "Anita Light",
+    "speaker_source": "heuristic",
+    "speaker_source_detail": "self_introduction",
     "start": 1676.84,
     "end": 1892.0,
     "text": "Will be Anita Light. Good evening, Mayor Reed and members of City Council. My name is Anita Light, and I'm here tonight in three capacities. First as the chair of the Fairfax Village in the City Advisory Board, resident of Fairfax City, obviously, and as an older adult. As chair of the Fairfax Village in the City Advisory Board, we wanted to emphasize our support for the Willard Sherwood Center, as noted in our letter to you all dated April 6th. In that letter, we noted that supporting the new Willard Sherwood Center would help make accessibility for older adults easier and safer. We also noted that this project was a community partnership effort with the county, as well as the residents of both the city and the county. And finally, we highlighted that this project is a long-term investment for the future of The city. And as an additional note on the advisory board, and for a more important reason, we really support advancing the Willard Sherwood Center to help enhance the Villages Expo that we had this past Friday, which was a huge success. And if we had even better facility with better parking, it would help that event even better. And as a resident of the city, I support the Willard Sherwood Center because this facility will afford a generational opportunity for programming for older adults and children And support the health care needs of our city. The partnership with the county has been longstanding, and as a result, the city is able to do more for the residents than they would otherwise be able to do, for instance, on social services, emergency dispatch, libraries, court services, and schools, to name a few. Without these partnerships, the cost to our residents would be significantly more. if we had to provide these basic services on our own. I've been a lifelong proponent of continuous improvement in organizations and while the Willard Sherwood Center is not an organization it is a joint Partnership with the county that needs to be continuously improved And nurtured to avoid even further cost. As an older adult, which I'm getting Older and older by the minute, I support the Willard Sherwood Center project because participating in programs at Green Acres is potentially hazardous to my physical well-being. When I attended events at the Green Acres Center I had had recent knee surgery and since parking at the Green Acres Center is at a premium, walking to the entrance was very difficult and walking down those steps to get to the front door was Even more difficult and then once you get inside the Building you have more steps to get to some of the rooms and that gets increasingly difficult for the older people. Having access to a new modernized Willard Sherwood Center, so while I urge you to, While there is a cost to modernization and there will be additional costs to the center, I urge you to support its development that will help the more than 9,000 older adults in Fairfax City and we appreciate and thank you for your consideration. Thank you. Our next speaker is Kevin Anderson."
@@ -294,24 +310,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "caption",
     "speaker_source_detail": "caption:explicit",
     "start": 1915.84,
-    "end": 1924.96,
-    "text": "Willard Sherwood project. Green Acres is a apt name when you consider the ball fields and the"
-  },
-  {
-    "speaker": "Kevin Anderson",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 1924.96,
-    "end": 1930.96,
-    "text": "Surrounding grounds but the building, the HVAC system and the utilities can"
-  },
-  {
-    "speaker": "Councilmember Rachel McQuillen",
-    "speaker_source": "caption",
-    "speaker_source_detail": "caption:explicit",
-    "start": 1930.96,
     "end": 1934.8,
-    "text": "Hardly be considered green."
+    "text": "Willard Sherwood project. Green Acres is a apt name when you consider the ball fields and the Surrounding grounds but the building, the HVAC system and the utilities can Hardly be considered green."
   },
   {
     "speaker": "Kevin Anderson",
@@ -334,64 +334,32 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 1989.52,
-    "end": 2013.92,
-    "text": "That the expense is on the higher end of that range. Compared to the energy efficient and sustainable features planned for the project, the anticipated savings would be in the 30 to 50 percent annually and it could be even as high as 70 percent. This of course will have to be observed with the actual charge"
-  },
-  {
-    "speaker": "Councilmember Rachel McQuillen",
-    "speaker_source": "caption",
-    "speaker_source_detail": "caption:explicit",
-    "start": 2013.92,
     "end": 2017.76,
-    "text": "And that we incur to see what percentages"
+    "text": "That the expense is on the higher end of that range. Compared to the energy efficient and sustainable features planned for the project, the anticipated savings would be in the 30 to 50 percent annually and it could be even as high as 70 percent. This of course will have to be observed with the actual charge And that we incur to see what percentages"
   },
   {
     "speaker": "Kevin Anderson",
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 2017.76,
-    "end": 2034.16,
-    "text": "Actually saved but I'm willing to bet that it'll be on the higher end. Beyond the potential cost savings though, there are the numerous environmental benefits to the project design and it'll have a positive impact on the planet that we hand off to our children"
-  },
-  {
-    "speaker": "Councilmember Rachel McQuillen",
-    "speaker_source": "caption",
-    "speaker_source_detail": "caption:explicit",
-    "start": 2034.16,
     "end": 2037.52,
-    "text": "Or if you're like me to your grandchildren."
+    "text": "Actually saved but I'm willing to bet that it'll be on the higher end. Beyond the potential cost savings though, there are the numerous environmental benefits to the project design and it'll have a positive impact on the planet that we hand off to our children Or if you're like me to your grandchildren."
   },
   {
     "speaker": "Kevin Anderson",
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 2037.52,
-    "end": 2050.32,
-    "text": "Some of these elements are the fact that the project is LED gold certified and it has features like rooftop solar panels, indoor water reductions features, LED lighting,"
-  },
-  {
-    "speaker": "Councilmember Rachel McQuillen",
-    "speaker_source": "caption",
-    "speaker_source_detail": "caption:explicit",
-    "start": 2050.32,
     "end": 2056.56,
-    "text": "Light pollution remediation and high performance building elements"
+    "text": "Some of these elements are the fact that the project is LED gold certified and it has features like rooftop solar panels, indoor water reductions features, LED lighting, Light pollution remediation and high performance building elements"
   },
   {
     "speaker": "Kevin Anderson",
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 2056.56,
-    "end": 2079.76,
-    "text": "To retain heating and cooling and many others. Another subject I'd like to talk about is routines. We all have them. They usually evolve over life events but if this project fails to move forward and Greenacres has to close down for major renovations or rebuild, it's going to be an abrupt change to"
-  },
-  {
-    "speaker": "Councilmember Rachel McQuillen",
-    "speaker_source": "caption",
-    "speaker_source_detail": "caption:explicit",
-    "start": 2079.76,
     "end": 2086.16,
-    "text": "Many of our members routines and basically what I'm saying is that"
+    "text": "To retain heating and cooling and many others. Another subject I'd like to talk about is routines. We all have them. They usually evolve over life events but if this project fails to move forward and Greenacres has to close down for major renovations or rebuild, it's going to be an abrupt change to Many of our members routines and basically what I'm saying is that"
   },
   {
     "speaker": "Kevin Anderson",
@@ -430,16 +398,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 2267.52,
-    "end": 2306.88,
-    "text": "Good evening Mayor Reed and members of the City Council. I also am here to, Janet Jaworski 3621 Heritage Lane for the record. I also am here to lend my support to the Willard Sherwood project. I do wear a number of hats in the city as you know so these are my comments as a resident and not representing any organization or department for which I volunteer. Pete and I have lived here for 26 years and honestly I think the need for a community center has been part of the dialogue for the entire time that we've lived Here. In fact, during my six-year tenure on the"
-  },
-  {
-    "speaker": "Councilmember Rachel McQuillen",
-    "speaker_source": "caption",
-    "speaker_source_detail": "caption:explicit",
-    "start": 2306.96,
     "end": 2314.0,
-    "text": "Planning Commission from 2014 to 2020, including a three-year stint on PRAB,"
+    "text": "Good evening Mayor Reed and members of the City Council. I also am here to, Janet Jaworski 3621 Heritage Lane for the record. I also am here to lend my support to the Willard Sherwood project. I do wear a number of hats in the city as you know so these are my comments as a resident and not representing any organization or department for which I volunteer. Pete and I have lived here for 26 years and honestly I think the need for a community center has been part of the dialogue for the entire time that we've lived Here. In fact, during my six-year tenure on the Planning Commission from 2014 to 2020, including a three-year stint on PRAB,"
   },
   {
     "speaker": "Janet Jaworski",
@@ -466,9 +426,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Be a number of meeting rooms there as you know, so it will be a place to gather exercise and really build community. Secondly, it's going to be walkable for a lot of us. I know that's not true for all neighbors. but for my neighborhood in Daniels run woods it will be walkable and we can get a jumpstart on our workout routine by walking to and from which I think will be great it also is accessible for public transportation which is wonderful lastly our relationship with the county I was so pleased to hear that you had a successful meeting with the county last week that's fantastic I Appreciate the fact that there were no objections to the timeline and that's really great news I think continuing to nurture that relationship with the county is huge and this is a great way that we can partner with the county moving forward so I would ask for your yes vote on April 28th to move this"
   },
   {
-    "speaker": "Councilmember Rachel McQuillen",
-    "speaker_source": "caption",
-    "speaker_source_detail": "caption:explicit",
+    "speaker": "Janice Miller",
+    "speaker_source": "heuristic",
+    "speaker_source_detail": "self_introduction",
     "start": 2445.08,
     "end": 2656.04,
     "text": "Forward and I appreciate your time thank you our next speakers Janice Miller I'm a little shorter than Janet good evening ladies and gentlemen Mayor Reed members of council staff residents and guests my name is Janice Miller and I am here to support moving forward with the Willard Sherwood project and I support council members authorizing the EDA to sell revenue bonds to finance this project questions have been raised recently regarding the economic Advantages of this proposed projects please consider the following Willard Sherwood would be a long-term economic economic anchor it would strengthen downtown vitality due to its central location it would generate consistent weekday activity that will support downtown retail and services it would increase pedestrian activity in the downtown area it would reinforce Old Town as a hub for daily life and not solely as a spot for dining out night Life and or special events Willard Sherwood would demonstrate capital leverage and fiscal efficiency the capital costs are divided between the County and the city based on programmatic usage the city avoids land acquisition costs demolition costs and site preparation costs the shared infrastructure and parking reduce capital duplication energy efficient Design lowers operating costs Willard Sherwood will support workforce and Talent competitiveness it will help attract and retain public and private sector employees and professional households it will reinforce the city's identity as a service rich community it will enhance the city's appeal relatively relative to competing jurisdictions unlike mark market driven projects the center provides enduring economic value across all business cycles all these factors support office occupancy mixed-use development and economic security Willard Sherwood advances the city's strategic priorities And economic development goals it maximizes limited land resources and preserve green space through joint development it uses external funding to reduce city exposure it strengthens downtown downtown vitality it supports quality of life it builds on past city-county partnerships and establishes a model for future city-county collaboration in summary by providing the opportunity for enhanced business tax income this project will deliver sustained economic value that will ultimately far exceed its direct fiscal Cost there are many in the audience who support Willard Sherwood with those who support this project are willing to pay reasonable fees for usage and approve of their tax dollars paying both capital cost and operating costs please stand up our next speaker is Dale Lucena thank you You"
@@ -482,9 +442,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Good evening madam mayor city council members and assembled city staff I have I'd like to speak to just two issues with my in my a lot of time the first is The Willard Community Center all the good things that have been said about it I support I would add one other thing that I didn't hear yet and that is Combining the community center in the center of the city I think is it just makes sense to me and it's a great opportunity to reinforce old town as a hub of daily activities which has been necessary for a long time and we've Talked about that quite a bit so I recommend that you support the that Issue the other one has to do with the Fairfax Renaissance Housing Corporation which is an organization that provides the city of Fairfax homeowners an attractive opportunity to upgrade and improve the quality of the city's residential neighborhoods over the past 23 years of its existence it has Provided funding to 290 improvement loans and has not lost a single penny to A bad loan plus the city gets back money from the housing corporation program due to the permanent improvements that are made and thus the tax that goes with That permanent improvement goes with the home okay and so when the increase comes For that and the city which receives a return on its investment and it Continues and continues so this program was not funded last year and now we Can't do any loans at all because they don't have funds for it and so I strongly urge that this City Council fund it for next year so that we can continue this program because it returns money to you and the person is that the people that get the improvements like it a lot believe me I thank you for your Kind attention our next speakers Rebecca Rader"
   },
   {
-    "speaker": "Councilmember Rachel McQuillen",
-    "speaker_source": "caption_override",
-    "speaker_source_detail": "caption:explicit",
+    "speaker": "Becky Rager",
+    "speaker_source": "heuristic",
+    "speaker_source_detail": "self_introduction",
     "start": 2838.7,
     "end": 3007.36,
     "text": "Good evening thank you for the opportunity to speak with you tonight my name is Becky Rager I live at 4141 Evergreen Drive been there for 31 years I'm a current member of the Fairfax Village in the City Advisory Board I Spoke to you last month in overall support of the Willard Sherwood Health Center and the Community Center I'm here today to briefly express how the village in the city could enhance services as a result of the new facility I'm mentioning a few possibilities today as we move forward the Advisory Board members village members and volunteers can brainstorm other possibilities for expanded services that directly support older adults and those with disabilities Beyond what is currently available we will also work with the Willard Health Center and the Green Acres staff to create new programs which could include And I'm just listing a few intergenerational activities such as tutoring or reading to the children in the child care center working on shared craft projects in dedicated spaces where projects could remain until completed growing and maintaining a rooftop or the garden and creating a gardening circle working with the neighboring Willard Health Center to have a memory cafe once a month where people who are in the early stages of cognitive impairment and their caregivers can meet socialize and trade ideas developing workshops designed To improve memory and cognitive function creating a digital storytelling club Where seniors use technology and record their life stories and conducting a vintage hat and fashion showcase where members bring in their vintage collections and show them and then discuss the stories behind them all of these proposed suggestions could be done without additional staffing costs as members are not just consumers they are staff our village consists of members and volunteers with an extensive variety of backgrounds and experience For example a member might receive a ride to the doctor one day and Facilitate a workshop the next this creates a sustainable model for future programs without additional cost I believe the new Willard Sherwood facility with all the infrastructure enhancements will provide is necessary to continue to deliver modern equitable full services for the entire community. Thank you. Our next speaker is Alan Glenn."
@@ -506,9 +466,9 @@ const TRANSCRIPT_TURNS = [
     "text": "And the health centers. Personally, I think you all have a difficult job as elected leaders to a two-year term where you have to consider the strategic needs of the community and balance them against costs and budgetary issues. But I think in this case, the project will serve a need To re-update and replace the senior center that's now at Green Acres and provide better health and public services and childcare and early childhood health for residents. The nice thing about this is it serves everybody in the community, regardless of age, income, strata, or which neighborhood you live in. So to me, it's definitely needed and I strongly support it. Thank you very much. Oh, as long as I've got 30 seconds left, Let me just say Mr. Lustina, who was the previous speaker, I would like to endorse his comments. I served on the board with him for five years of the Housing Renaissance Corporation. That was one of three city boards that I've had the privilege to serve on over the years. And I think that board and the funding from the city served a important need to maintain and upgrade existing housing stock in the city. Thank you. Our next speaker is William Pitchford."
   },
   {
-    "speaker": "Councilmember Rachel McQuillen",
-    "speaker_source": "caption",
-    "speaker_source_detail": "caption:explicit",
+    "speaker": "William Pitchford",
+    "speaker_source": "heuristic",
+    "speaker_source_detail": "self_introduction",
     "start": 3201.74,
     "end": 3422.58,
     "text": "Thank you. Good evening and thank you for the opportunity to speak this evening. My name is William Pitchford. I live on School Street in the city of Fairfax. In two weeks at the April 28th city council meeting, you will be asked to approve a resolution to proceed with the Willard Sherwood Health and Community Center Project and a resolution for the Economic Development Authority to issue bonds to finance such capital projects. I'm asking you to approve both resolutions as it is the best option for the citizens of Fairfax City And the city's overall economic and infrastructure development. I'd like to offer a few points on why you should approve these two measures. As you have heard throughout this evening, The citizens of Fairfax City are in desperate need for a community center that meets their needs and have expressed this with broad support for the project through two years of design reviews with broad support for the project, oh, with two years of design reviews and approvals from previous and current city council. This is probably the most vetted capital improvement project the city has undertaken. The new Willard Sherwood Community Center will be a joint venture project with Fairfax County. The cost of building and operating the facility is shared, significantly reducing the burden to the city taxpayers. This is a generational opportunity for the citizens of Fairfax. Another opportunity like this will most likely not come around again in our lifetime. The current Green Acres facility is completely inadequate to meet the community's current and future needs. The facility was built in 1961 as an elementary school. That was before schools had air conditioning. It was retired in 2000. It was never intended to be a community or senior center. The building is well beyond its useful lifespan. It's located in the center of a residential community, has no public transportation access, Poor ADA compliance, and a dangerous parking lot, Especially at night. I had the honor of attending a Fairfax City Citizens For Smarter Growth meeting at Green Acres In February of this year. Like most community service organizations, this is where they have meetings. And just like this council meeting, it started at 7 p.m. Unlike the normal council meetings, it ended at the decent hour of 8.30, which was still well past sunset. When leaving, when leaving the meeting, I was absolutely shocked to walk out to a darkened parking lot. Having to reverse the narrow, steep staircase To find my car, I tried to imagine What someone 10 to 15 years older than I would do. Basically, they would stop participating in their community after dark. For those of you who have any reservations about the Neifert Project, I would challenge you to hold an official city meeting at Green Acres. It doesn't have to be the next council meeting, but it could be a planning commission or economic development authority meeting. In conclusion, I'm asking you to approve the two resolutions at the April 28th council meeting. Thank you. Our last speaker is Toby Sorenson."
@@ -710,32 +670,16 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 3900.44,
-    "end": 3903.6,
-    "text": "OK. So the simple question here is whether you"
-  },
-  {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
-    "speaker_source": "caption",
-    "speaker_source_detail": "caption:explicit",
-    "start": 3903.6,
     "end": 3907.08,
-    "text": "Are going to be voting on a slot."
+    "text": "OK. So the simple question here is whether you Are going to be voting on a slot."
   },
   {
     "speaker": "Councilmember Tom Peterson",
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 3907.08,
-    "end": 3908.84,
-    "text": "There's two slots with three applicants"
-  },
-  {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
-    "speaker_source": "caption",
-    "speaker_source_detail": "caption:explicit",
-    "start": 3908.84,
     "end": 3911.12,
-    "text": "Where your husband is an applicant."
+    "text": "There's two slots with three applicants Where your husband is an applicant."
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -854,24 +798,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "caption",
     "speaker_source_detail": "caption:explicit",
     "start": 4304.0,
-    "end": 4306.6,
-    "text": "OK, so every single time we've had discussions"
-  },
-  {
-    "speaker": "Councilmember Stacy Hall",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 4306.6,
-    "end": 4310.48,
-    "text": "And conversations, you have, on your own,"
-  },
-  {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
-    "speaker_source": "caption",
-    "speaker_source_detail": "caption:explicit",
-    "start": 4310.48,
     "end": 4311.96,
-    "text": "Chosen to remove yourself."
+    "text": "OK, so every single time we've had discussions And conversations, you have, on your own, Chosen to remove yourself."
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
@@ -918,16 +846,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 4453.44,
-    "end": 4459.2,
-    "text": "OK, so I think if we have hired you as our attorney, and we tend to consider you an expert in all things city"
-  },
-  {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
-    "speaker_source": "caption",
-    "speaker_source_detail": "caption:explicit",
-    "start": 4459.2,
     "end": 4462.76,
-    "text": "Legal, and we thank you very much for your service"
+    "text": "OK, so I think if we have hired you as our attorney, and we tend to consider you an expert in all things city Legal, and we thank you very much for your service"
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -1162,9 +1082,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Ms. Schoenberg? We will move forward to second general public comment. I had one person sign up prior to the start of the meeting. I will call them forward. Mary McDaniel?"
   },
   {
-    "speaker": "Councilmember Billy Bates",
-    "speaker_source": "caption_override",
-    "speaker_source_detail": "caption:explicit",
+    "speaker": "Mary McDaniel",
+    "speaker_source": "heuristic",
+    "speaker_source_detail": "self_introduction",
     "start": 5175.68,
     "end": 5362.74,
     "text": "Thank you. I'm Mary McDaniel, a resident of the Fairfax City, and my comments tonight are unrelated to my role on the city's electoral board. I'm speaking in support of the Willard Sherwood Center, and I'm asking that the city council advance this project. It's an essential facility for our growing city. I have attended a ton of open houses on this and have always supported the project. As I look at it, it seems very obvious that we should move ahead, and I started thinking about why would you maybe cancel the project? And one might be that the services that are going to be covered are not needed anymore. But in fact, the services are needed more now than 10 years ago when project planning started. Speaking to a few of them, the daycare center. Our population has grown, and along with that is the need for child care. Public health services. Again, larger population means more demand. On top of that, the federal government has significantly reduced spending on public health and plans to continue to do more. So states and localities have to step up. Community space. In the past 10 years, we have learned a lot about the importance of personal contact and mental health. You know, texting is fine for some things, but face-to-face communication is far more important as is exercise. So the senior center is really critical. Something that doesn't get talked about much is parking. The Sherwood Center parking center fills up when popular programs are taking place in the evening. So having a parking garage attached to the building would help solve that problem. I am well aware that this building would raise my property taxes. I've owned two houses in the city over the space of 35 years. My real estate taxes have never gone down. The rate may have decreased, but the amount I paid always went up. And I understand that because every year the cost of living goes up. In my adult life, the consumer price index has decreased only one time. Hundreds of citizens like me have spoken for more than a decade in open houses about wanting this project. And we know that the city will need to raise taxes to do this and may need to sell bonds. This has been openly disclosed and discussed throughout the planning process. We've had a ton of experts weigh in from architects, building engineers, landscape people, And the dedicated city staff who have worked diligently to pack as much as possible into this site. Over the years, I've never heard a city council member campaign on the idea of canceling this project. And I don't think now that any of you did. What I ask at this point is this. You've heard from the experts about what can be put into this building and how it benefits the community. And you've heard the community speak about the wants that we have. I ask that you follow up on promises that have been made, advance this project, and finance it as needed. Is there anybody else in the room that would like to speak under the general public comment? All right. I will now recess the record. Well, hang on before you do that."
@@ -1198,16 +1118,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 5444.16,
-    "end": 5482.84,
-    "text": "Thank you, Mr. Alexander, Mayor, Council. This evening, if we can go to the next slide, Ms. Riddle, tonight's presentation is intended to provide a high-level update on the FY 2027 budget, specifically focusing, as the Manager stated, on revenues and expenditures assumptions. As a reminder, this is not the final iteration. Staff will return on April 28th with more detailed scenarios and options for Council's consideration as we move toward finalizing the budget. We'll begin with revenues. Listed on the sheet that's on the screen and before you are previously discussed additional"
-  },
-  {
-    "speaker": "Councilmember Billy Bates",
-    "speaker_source": "caption",
-    "speaker_source_detail": "caption:explicit",
-    "start": 5482.84,
     "end": 5490.08,
-    "text": "Proposed changes of three revenue sources, two within the BPOL and one on TOT."
+    "text": "Thank you, Mr. Alexander, Mayor, Council. This evening, if we can go to the next slide, Ms. Riddle, tonight's presentation is intended to provide a high-level update on the FY 2027 budget, specifically focusing, as the Manager stated, on revenues and expenditures assumptions. As a reminder, this is not the final iteration. Staff will return on April 28th with more detailed scenarios and options for Council's consideration as we move toward finalizing the budget. We'll begin with revenues. Listed on the sheet that's on the screen and before you are previously discussed additional Proposed changes of three revenue sources, two within the BPOL and one on TOT."
   },
   {
     "speaker": "JC Martinez",
@@ -1254,16 +1166,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "caption",
     "speaker_source_detail": "caption:explicit",
     "start": 5791.68,
-    "end": 5798.0,
-    "text": "And has been updated, let me say that one more time, has been updated to reflect a revised"
-  },
-  {
-    "speaker": "JC Martinez",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 5798.0,
     "end": 5803.72,
-    "text": "Access link that will now be held via Zoom instead of Teams."
+    "text": "And has been updated, let me say that one more time, has been updated to reflect a revised Access link that will now be held via Zoom instead of Teams."
   },
   {
     "speaker": "Councilmember Billy Bates",
@@ -1358,16 +1262,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 6000.0,
-    "end": 6022.76,
-    "text": "Not 100%, so what was displayed in some of the other slides, the revenues and the expenditures are what we know of right now. The most traditional way that we've displayed this is the budget change sheet. That will be a part of it. That's sort of the debit and the credits. The changes that are now known as of when the manager proposed his budget at the end"
-  },
-  {
-    "speaker": "Councilmember Tom Peterson",
-    "speaker_source": "caption",
-    "speaker_source_detail": "caption:explicit",
-    "start": 6022.76,
     "end": 6025.56,
-    "text": "Of February, we're keeping track of that."
+    "text": "Not 100%, so what was displayed in some of the other slides, the revenues and the expenditures are what we know of right now. The most traditional way that we've displayed this is the budget change sheet. That will be a part of it. That's sort of the debit and the credits. The changes that are now known as of when the manager proposed his budget at the end Of February, we're keeping track of that."
   },
   {
     "speaker": "JC Martinez",
@@ -1502,32 +1398,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "caption",
     "speaker_source_detail": "caption:explicit",
     "start": 6744.84,
-    "end": 6747.84,
-    "text": "It is my understanding that that will more than likely not"
-  },
-  {
-    "speaker": "JC Martinez",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 6747.84,
-    "end": 6750.2,
-    "text": "Happen. You will have a more realistic increase"
-  },
-  {
-    "speaker": "Councilmember Tom Peterson",
-    "speaker_source": "caption",
-    "speaker_source_detail": "caption:explicit",
-    "start": 6750.2,
-    "end": 6753.8,
-    "text": "Based off historical trends, probably around 10% or 12%,"
-  },
-  {
-    "speaker": "JC Martinez",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 6753.8,
     "end": 6755.4,
-    "text": "Not 35%."
+    "text": "It is my understanding that that will more than likely not Happen. You will have a more realistic increase Based off historical trends, probably around 10% or 12%, Not 35%."
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -1846,16 +1718,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 8156.08,
-    "end": 8168.96,
-    "text": "I guess my question is, will there be anything prior to the 28th that, you know, because we're having this event on the 16th and we have not discussed this since it is a very new thing"
-  },
-  {
-    "speaker": "Councilmember Tom Peterson",
-    "speaker_source": "caption",
-    "speaker_source_detail": "caption:explicit",
-    "start": 8168.96,
     "end": 8172.36,
-    "text": "That just happened?"
+    "text": "I guess my question is, will there be anything prior to the 28th that, you know, because we're having this event on the 16th and we have not discussed this since it is a very new thing That just happened?"
   },
   {
     "speaker": "Mr. Alexander",
@@ -1902,16 +1766,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 8300.96,
-    "end": 8312.72,
-    "text": "Yeah, just to build on that, great thanks to all of you. And I think the April 16th engagement is a very helpful and important time. I know we're all getting emails from people with questions"
-  },
-  {
-    "speaker": "Councilmember Rachel McQuillen",
-    "speaker_source": "caption",
-    "speaker_source_detail": "caption:marker",
-    "start": 8312.72,
     "end": 8316.64,
-    "text": "And thoughts and what have you, and I'm"
+    "text": "Yeah, just to build on that, great thanks to all of you. And I think the April 16th engagement is a very helpful and important time. I know we're all getting emails from people with questions And thoughts and what have you, and I'm"
   },
   {
     "speaker": "Councilmember Tom Peterson",
