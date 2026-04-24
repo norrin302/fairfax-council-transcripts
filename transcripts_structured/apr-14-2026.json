@@ -21,9 +21,9 @@
       "needs_review": true,
       "review_reason": "no_diarization",
       "confidence": null,
-      "speaker": "SUPPRESSED",
-      "speaker_source": "suppressed",
-      "speaker_source_detail": "worker-test"
+      "speaker": null,
+      "speaker_source": null,
+      "speaker_source_detail": null
     },
     {
       "turn_id": "turn_000002",
@@ -36,9 +36,9 @@
       "needs_review": true,
       "review_reason": "no_diarization",
       "confidence": null,
-      "speaker": "Public Comment Speaker",
-      "speaker_source": "approved",
-      "speaker_source_detail": "reviewed:mark_public_comment"
+      "speaker": null,
+      "speaker_source": null,
+      "speaker_source_detail": null
     },
     {
       "turn_id": "turn_000003",
@@ -8048,7 +8048,7 @@
       "turn_id": "turn_000670",
       "start": 9991.14,
       "end": 9994.14,
-      "text": "ÃÂ¢ÃÂÃÂªÃÂ¢ÃÂÃÂª",
+      "text": "\u00c3\u0083\u00c2\u00a2\u00c3\u0082\u00c2\u0099\u00c3\u0082\u00c2\u00aa\u00c3\u0083\u00c2\u00a2\u00c3\u0082\u00c2\u0099\u00c3\u0082\u00c2\u00aa",
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
@@ -8060,7 +8060,7 @@
       "turn_id": "turn_000671",
       "start": 10002.54,
       "end": 10005.54,
-      "text": "ÃÂ¢ÃÂÃÂªÃÂ¢ÃÂÃÂª",
+      "text": "\u00c3\u0083\u00c2\u00a2\u00c3\u0082\u00c2\u0099\u00c3\u0082\u00c2\u00aa\u00c3\u0083\u00c2\u00a2\u00c3\u0082\u00c2\u0099\u00c3\u0082\u00c2\u00aa",
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
@@ -8072,7 +8072,7 @@
       "turn_id": "turn_000672",
       "start": 10009.54,
       "end": 10012.54,
-      "text": "ÃÂ¢ÃÂÃÂªÃÂ¢ÃÂÃÂª",
+      "text": "\u00c3\u0083\u00c2\u00a2\u00c3\u0082\u00c2\u0099\u00c3\u0082\u00c2\u00aa\u00c3\u0083\u00c2\u00a2\u00c3\u0082\u00c2\u0099\u00c3\u0082\u00c2\u00aa",
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
@@ -8084,7 +8084,7 @@
       "turn_id": "turn_000673",
       "start": 10015.54,
       "end": 10018.54,
-      "text": "ÃÂ¢ÃÂÃÂªÃÂ¢ÃÂÃÂª",
+      "text": "\u00c3\u0083\u00c2\u00a2\u00c3\u0082\u00c2\u0099\u00c3\u0082\u00c2\u00aa\u00c3\u0083\u00c2\u00a2\u00c3\u0082\u00c2\u0099\u00c3\u0082\u00c2\u00aa",
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Unknown Speaker",
       "speaker_status": "unknown",
