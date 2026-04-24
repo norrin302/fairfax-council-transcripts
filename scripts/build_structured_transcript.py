@@ -5,6 +5,7 @@ import argparse
 import json
 import re
 import sys
+import urllib.request
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -130,7 +131,364 @@ def _load_approvals(path: Path) -> dict[str, dict[str, Any]]:
     return obj
 
 
-def _public_label_policy(speaker_raw: str, approvals: dict[str, dict[str, Any]]) -> tuple[str, str, bool, str]:
+# ---------------------------------------------------------------------------
+# Granicus caption parsing — speaker hints from WebVTT captions
+# ---------------------------------------------------------------------------
+
+def _parse_vtt_timestamp(ts: str) -> float:
+    """Parse WebVTT timestamp HH:MM:SS.mmm → seconds."""
+    h, m, rest = ts.split(":")
+    s, ms = rest.split(".")
+    return int(h) * 3600 + int(m) * 60 + int(s) + int(ms) / 1000.0
+
+
+def _fetch_granicus_captions_vtt(source_video_url: str) -> str:
+    """Fetch Granicus WebVTT captions from public endpoint (no API key needed)."""
+    m = re.search(r"/clip/(\d+)", source_video_url or "")
+    if not m:
+        raise RuntimeError(f"Could not extract clip id from source_video_url: {source_video_url}")
+    clip_id = m.group(1)
+    url = f"https://fairfax.granicus.com/videos/{clip_id}/captions.vtt"
+    with urllib.request.urlopen(url, timeout=60) as resp:
+        return resp.read().decode("utf-8", errors="ignore")
+
+
+def _load_caption_hints(vtt_text: str) -> list[dict[str, Any]]:
+    """Parse WebVTT into caption segments with speaker_hint and strength.
+
+    Returns list of {start, end, speaker_hint, speaker_hint_strength, text}.
+    Uses the same parsing logic as publish_meeting.py segments_from_webvtt().
+    """
+    lines = [ln.rstrip("\n") for ln in (vtt_text or "").splitlines()]
+    segs: list[dict[str, Any]] = []
+    i = 0
+
+    def normalize_ws(s: str) -> str:
+        return re.sub(r"\s+", " ", s or "").strip()
+
+    def titleize_name(raw: str) -> str:
+        parts = re.split(r"([\-'])", raw.strip())
+        out = []
+        for p in parts:
+            if p in {"-", "'"}:
+                out.append(p)
+            else:
+                out.append(p[:1].upper() + p[1:].lower() if p else "")
+        return "".join(out)
+
+    def norm_for_hint(s: str) -> str:
+        s = (s or "").strip().lower()
+        s = re.sub(r"[^a-z\-\'\s]", " ", s)
+        s = re.sub(r"\s+", " ", s).strip()
+        return s
+
+    roster_last_to_full = {
+        "amos": "Anthony Amos",
+        "bates": "Billy Bates",
+        "hall": "Stacy Hall",
+        "hardy-chandler": "Stacy Hardy-Chandler",
+        "mcquillen": "Rachel McQuillen",
+        "peterson": "Tom Peterson",
+    }
+    roster_keys = list(roster_last_to_full.keys())
+
+    def canon_last(raw_last: str) -> str:
+        raw_last = (raw_last or "").strip().lower()
+        raw_last = re.sub(r"[^a-z\-']", "", raw_last)
+        if not raw_last:
+            return ""
+        if raw_last in roster_last_to_full:
+            return raw_last
+        import difflib
+        best = None
+        best_ratio = 0.0
+        second_ratio = 0.0
+        for k in roster_keys:
+            r = difflib.SequenceMatcher(a=raw_last, b=k).ratio()
+            if r > best_ratio:
+                second_ratio = best_ratio
+                best_ratio = r
+                best = k
+            elif r > second_ratio:
+                second_ratio = r
+        if best and (best_ratio >= 0.66 or (best_ratio >= 0.58 and (best_ratio - second_ratio) >= 0.12)):
+            return best
+        first = raw_last[:1]
+        if first:
+            candidates = [k for k in roster_keys if k.startswith(first)]
+            if len(candidates) == 1:
+                return candidates[0]
+        return ""
+
+    def parse_speaker_hint(line: str) -> str:
+        low = norm_for_hint(line)
+        m = re.match(r"^(council\s*member|councilmember|councilman|councilwoman)\s+([a-z][a-z\-']+)", low)
+        if m:
+            last = canon_last(m.group(2))
+            if not last:
+                return ""
+            full = roster_last_to_full.get(last)
+            if full:
+                return f"Councilmember {full}"
+            return f"Councilmember {titleize_name(last)}"
+        m = re.match(r"^(mayor)\s+([a-z][a-z\-']+)", low)
+        if m:
+            token = re.sub(r"[^a-z\-']", "", m.group(2) or "").strip().lower()
+            import difflib
+            if difflib.SequenceMatcher(a=token, b="read").ratio() >= 0.7:
+                return "Mayor Catherine Read"
+            return ""
+        m = re.match(r"^(city\s+manager)\s+([a-z][a-z\-']+)", low)
+        if m:
+            token = re.sub(r"[^a-z\-']", "", m.group(2) or "").strip().lower()
+            import difflib
+            if difflib.SequenceMatcher(a=token, b="coll").ratio() >= 0.7:
+                return "City Manager David Coll"
+            return ""
+        return ""
+
+    def split_inline_speaker_header(line: str) -> tuple[str, str, str]:
+        """Detect inline speaker header at start of cue. Returns (hint, remainder, strength)."""
+        l = (line or "").strip()
+        low = norm_for_hint(l)
+        m = re.match(r"^(council\s*member|councilmember|councilman|councilwoman)\s+([a-z][a-z\-']+)\.\s*(.*)", low)
+        if m:
+            last = canon_last(m.group(2))
+            if last:
+                full = roster_last_to_full.get(last)
+                hint = f"Councilmember {full}" if full else f"Councilmember {titleize_name(last)}"
+                rem = m.group(3).strip()
+                return hint, rem, "inline"
+        m = re.match(r"^(mayor)\s+([a-z][a-z\-']+)\.\s*(.*)", low)
+        if m:
+            token = re.sub(r"[^a-z\-']", "", m.group(2) or "").strip().lower()
+            import difflib
+            if difflib.SequenceMatcher(a=token, b="read").ratio() >= 0.7:
+                hint = "Mayor Catherine Read"
+                rem = m.group(3).strip()
+                return hint, rem, "inline"
+        return "", "", ""
+
+    def looks_like_label_only(line: str) -> bool:
+        """Heuristic: single short line that looks like a name/title, not speech."""
+        line = (line or "").strip()
+        if not line:
+            return False
+        words = line.split()
+        if len(words) > 4:
+            return False
+        if re.match(r"^(council\s*member|councilmember|councilman|councilwoman|mayor|city\s*manager)\s+[a-z]", line, re.I):
+            return True
+        if re.match(r"^[A-Z][a-z]+(\s+[A-Z][a-z]+)*$", line):
+            return True
+        return False
+
+    while i < len(lines):
+        line = lines[i].lstrip("\ufeff").strip()
+        if not line:
+            i += 1
+            continue
+        if line.upper().startswith("WEBVTT"):
+            i += 1
+            continue
+        if (i + 1) < len(lines) and ("-->" in lines[i + 1]):
+            i += 1
+            line = lines[i].strip()
+        if "-->" not in line:
+            i += 1
+            continue
+        m_ts = re.match(r"(\d\d:\d\d:\d\d\.\d\d\d)\s*-->\s*(\d\d:\d\d:\d\d\.\d\d\d)", line)
+        if not m_ts:
+            i += 1
+            continue
+        start = _parse_vtt_timestamp(m_ts.group(1))
+        end = _parse_vtt_timestamp(m_ts.group(2))
+        i += 1
+        buf_lines: list[str] = []
+        new_speaker = False
+        speaker_hint = ""
+        speaker_hint_strength = ""
+        while i < len(lines) and lines[i].strip() != "":
+            ln = lines[i].strip()
+            if ln.startswith(">>"):
+                new_speaker = True
+                ln = ln[2:].lstrip()
+                if not speaker_hint:
+                    speaker_hint = parse_speaker_hint(ln)
+                    if speaker_hint:
+                        speaker_hint_strength = "explicit"
+            if not speaker_hint and not buf_lines:
+                ihint, remainder, istrength = split_inline_speaker_header(ln)
+                if ihint:
+                    if not remainder:
+                        j = i + 1
+                        nxt = ""
+                        while j < len(lines) and lines[j].strip() != "":
+                            nxt = lines[j].strip()
+                            if nxt:
+                                break
+                            j += 1
+                        if nxt and looks_like_label_only(nxt):
+                            ihint = ""
+                    if ihint:
+                        speaker_hint = ihint
+                        speaker_hint_strength = istrength or "inline"
+                        new_speaker = True
+                        ln = remainder
+            buf_lines.append(ln)
+            i += 1
+        if not speaker_hint and buf_lines:
+            first = str(buf_lines[0] or "").strip()
+            mh = re.match(r"^(council\s*member|mayor|city\s*manager)\s+([a-z][a-z\-\']+)\.?$", norm_for_hint(first))
+            if mh:
+                speaker_hint = parse_speaker_hint(first)
+                if speaker_hint:
+                    buf_lines = buf_lines[1:]
+                    speaker_hint_strength = "marker"
+                    new_speaker = True
+        text = normalize_ws(" ".join(buf_lines))
+        if re.search(r"aberdeen\s+captioning|www\.|\b\d{3}-\d{3}-\d{4}\b", text, flags=re.I):
+            i += 1
+            continue
+        if speaker_hint and speaker_hint_strength in {"explicit", "inline", "marker"}:
+            segs.append({
+                "start": start, "end": end,
+                "speaker_hint": speaker_hint,
+                "speaker_hint_strength": speaker_hint_strength,
+                "text": text,
+            })
+        i += 1
+
+    return segs
+
+
+def _caption_speaker_at(t: float, caption_segs: list[dict[str, Any]]) -> tuple[str, str]:
+    """Return (speaker_hint, strength) for the caption segment covering time t.
+
+    Only returns non-empty if the caption has a reliable hint (explicit/inline/marker).
+    Falls back to the most recent caption segment with a hint if current time has none.
+    """
+    if not caption_segs:
+        return "", ""
+    # Find covering segment
+    for seg in caption_segs:
+        if float(seg["start"]) <= t <= float(seg["end"]):
+            hint = str(seg.get("speaker_hint") or "").strip()
+            strength = str(seg.get("speaker_hint_strength") or "").strip()
+            if hint and strength in {"explicit", "inline", "marker"}:
+                return hint, strength
+    # Fall back to most recent segment before t with a reliable hint
+    best_hint = ""
+    best_strength = ""
+    best_end = -1.0
+    for seg in caption_segs:
+        end = float(seg["end"])
+        if end <= t and end > best_end:
+            hint = str(seg.get("speaker_hint") or "").strip()
+            strength = str(seg.get("speaker_hint_strength") or "").strip()
+            if hint and strength in {"explicit", "inline", "marker"}:
+                best_hint = hint
+                best_strength = strength
+                best_end = end
+    return best_hint, best_strength
+
+
+# ---------------------------------------------------------------------------
+# Text-based heuristic speaker identification (from transcribe.py)
+# ---------------------------------------------------------------------------
+
+COUNCIL_MEMBERS = {
+    "Stacy Hall": {"role": "City Council Member", "title": "Councilwoman"},
+    "Catherine Read": {"role": "Mayor", "title": "Mayor"},
+    "Anthony Amos": {"role": "City Council Member", "title": "Councilman"},
+    "Billy Bates": {"role": "City Council Member", "title": "Councilman"},
+    "Stacy Hardy-Chandler": {"role": "City Council Member", "title": "Councilwoman"},
+    "Rachel McQuillen": {"role": "City Council Member", "title": "Councilwoman"},
+    "Tom Peterson": {"role": "City Council Member", "title": "Councilman"},
+    "David Coll": {"role": "City Manager", "title": "City Manager"},
+}
+
+
+def _identify_speaker_from_text(text: str, prev_speaker: str | None = None) -> str | None:
+    """Attempt to identify speaker from transcript text content using heuristics.
+
+    Returns the identified name or None if no confident identification possible.
+    Used as a fallback when pyannote speaker labels are not in the approvals registry.
+    """
+    text_lower = text.lower()
+
+    # Check for explicit speaker identification (name mentioned in speech)
+    for name in COUNCIL_MEMBERS:
+        if name.lower() in text_lower:
+            return name
+
+    # Role-based patterns
+    if any(term in text_lower for term in ["as mayor", "this is your mayor", "i'm the mayor", "i am mayor"]):
+        return "Catherine Read"
+    if "city manager" in text_lower and "david coll" in text_lower:
+        return "David Coll"
+
+    # Pattern: councilmember [Name] (council members saying their own names during roll call)
+    cm_match = re.search(r"council\s*(?:member|woman|man)\s+([a-z][a-z\-']+)", text_lower)
+    if cm_match:
+        first_name = cm_match.group(1).capitalize()
+        for name in COUNCIL_MEMBERS:
+            if name.startswith(first_name):
+                return name
+
+    # Pattern: "Thank you, [FirstName]" often indicates the next speaker
+    thanks_match = re.search(r"thank you[,\s]+([A-Z][a-z]+)", text)
+    if thanks_match:
+        first_name = thanks_match.group(1).capitalize()
+        for name in COUNCIL_MEMBERS:
+            if name.startswith(first_name):
+                return name
+
+    # MAYOR OPENING PATTERN: detect meeting opening without needing prior context
+    # The mayor typically opens with "call the meeting to order", "pledge", "ask [staff] to..."
+    mayor_opening_phrases = [
+        "call the", "regular meeting", "to order", "pledge of allegiance",
+        "ask suzanne levy", "ask eric carlson", "ask alana",
+        "i pledge", "will now ask", "please rise",
+    ]
+    if any(phrase in text_lower for phrase in mayor_opening_phrases):
+        # High confidence mayor indicator
+        return "Catherine Read"
+
+    # Carry over previous speaker for continuation phrases
+    if prev_speaker and prev_speaker in COUNCIL_MEMBERS:
+        if prev_speaker == "Catherine Read":
+            short_text = text_lower[:100]
+            continuation_phrases = [
+                "i ", "we ", "the ", "this ", "our ", "to the",
+                "pledge", "allegiance", "ask ", "please ", "will now",
+            ]
+            if any(phrase in short_text for phrase in continuation_phrases):
+                return prev_speaker
+
+    return None
+
+
+# ---------------------------------------------------------------------------
+# Label policy
+# ---------------------------------------------------------------------------
+
+def _public_label_policy(
+    speaker_raw: str,
+    approvals: dict[str, dict[str, Any]],
+    caption_segs: list[dict[str, Any]] | None = None,
+    turn_mid: float = 0.0,
+    text_hint: str = "",
+    prev_speaker: str | None = None,
+) -> tuple[str, str, bool, str]:
+    """Resolve public speaker label from diarization speaker + approvals + caption hints + text heuristics.
+
+    Priority:
+    1. Approved named official from approvals registry
+    2. Granicus caption hint (for segments with caption speaker markers)
+    3. Text-based heuristic identification (for explicit name/role mentions)
+    4. "Unknown Speaker" with appropriate reason
+    """
     a = approvals.get(speaker_raw) or {}
     status = str(a.get("status") or "").strip()
     name = str(a.get("name") or "").strip()
@@ -141,18 +499,42 @@ def _public_label_policy(speaker_raw: str, approvals: dict[str, dict[str, Any]])
     if status.startswith("rejected") or status == "mixed":
         return "Unknown Speaker", "mixed", True, "mixed_or_rejected_audio"
 
+    # Try Granicus caption hint as fallback
+    if caption_segs:
+        hint, strength = _caption_speaker_at(turn_mid, caption_segs)
+        if hint and strength in {"explicit", "inline", "marker"}:
+            src = "caption" if speaker_raw == "UNKNOWN" else "caption_override"
+            return hint, src, False, f"caption:{strength}"
+
+    # Try text-based heuristic identification
+    if text_hint:
+        identified = _identify_speaker_from_text(text_hint, prev_speaker)
+        if identified:
+            return identified, "heuristic", False, "text_heuristic"
+
     if speaker_raw == "UNKNOWN":
         return "Unknown Speaker", "unknown", True, "no_diarization"
 
     return "Unknown Speaker", "unresolved", True, "unresolved_identity"
 
 
+# ---------------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------------
+
 def main() -> int:
-    ap = argparse.ArgumentParser(description="Build structured transcript turns (Phase 1) from ASR + diarization")
+    ap = argparse.ArgumentParser(
+        description="Build structured transcript turns (Phase 1) from ASR + diarization. "
+                    "Optionally uses Granicus caption speaker hints as fallback for undiarized segments."
+    )
     ap.add_argument("meeting_id")
     ap.add_argument("--asr", required=True, help="ASR JSON with word_segments[]/words[] or segments[]")
     ap.add_argument("--diarization", required=True, help="Diarization JSON with segments[]")
-    ap.add_argument("--approvals", default="", help="Optional manual approvals JSON mapping diar speaker_id to public names")
+    ap.add_argument("--approvals", default="", help="Optional manual approvals JSON")
+    ap.add_argument("--captions-vtt", default="",
+                    help="Path or URL to WebVTT captions. If a Granicus source_video_url is available "
+                         "in meeting metadata and this starts with 'fetch:', the captions will be "
+                         "retrieved from Granicus automatically.")
     ap.add_argument("--out", required=True, help="Output structured transcript JSON")
     ap.add_argument("--max-gap", type=float, default=1.2)
     ap.add_argument("--max-seconds", type=float, default=35.0)
@@ -163,6 +545,36 @@ def main() -> int:
     asr_units = _load_asr_units(Path(args.asr))
     diar = _load_diar(Path(args.diarization))
     approvals = _load_approvals(Path(args.approvals)) if args.approvals else {}
+
+    # Load caption hints
+    caption_segs: list[dict[str, Any]] = []
+    captions_vtt = (args.captions_vtt or "").strip()
+    if captions_vtt:
+        if captions_vtt.startswith("fetch:"):
+            # Auto-fetch from Granicus using meeting source_video_url
+            source_url = str(meeting.get("source_video_url") or meeting.get("source_url") or "")
+            if not source_url:
+                print("WARNING: --captions-vtt=fetch: but no source_video_url in meeting metadata; skipping captions")
+            else:
+                print(f"Fetching Granicus captions from: {source_url}")
+                vtt_text = _fetch_granicus_captions_vtt(source_url)
+                caption_segs = _load_caption_hints(vtt_text)
+                print(f"  Caption segments with speaker hints: {len(caption_segs)}")
+        elif captions_vtt.startswith("http://") or captions_vtt.startswith("https://"):
+            # Fetch from URL
+            with urllib.request.urlopen(captions_vtt, timeout=60) as resp:
+                vtt_text = resp.read().decode("utf-8", errors="ignore")
+            caption_segs = _load_caption_hints(vtt_text)
+            print(f"Loaded {len(caption_segs)} caption segments from URL")
+        else:
+            # Local file
+            vtt_path = Path(captions_vtt)
+            if vtt_path.exists():
+                vtt_text = vtt_path.read_text(encoding="utf-8")
+                caption_segs = _load_caption_hints(vtt_text)
+                print(f"Loaded {len(caption_segs)} caption segments from {vtt_path}")
+            else:
+                print(f"WARNING: captions-vtt file not found: {vtt_path}")
 
     state: dict[str, Any] = {"idx": 0, "active": []}
     tagged = []
@@ -203,16 +615,37 @@ def main() -> int:
         turns.append(cur)
 
     structured_turns: list[dict[str, Any]] = []
+    prev_speaker: str | None = None  # Track previously identified real speaker
+    prev_raw: str | None = None       # Track previous pyannote speaker label
     for i, t in enumerate(turns):
-        speaker_public, speaker_status, needs_review, reason = _public_label_policy(str(t["speaker_raw"]), approvals)
-        text = _normalize_text(_join_tokens(t["parts"]))
+        turn_mid = (float(t["start"]) + float(t["end"])) / 2.0
+        text_raw = _normalize_text(_join_tokens(t["parts"]))
+        speaker_public, speaker_status, needs_review, reason = _public_label_policy(
+            str(t["speaker_raw"]), approvals,
+            caption_segs if caption_segs else None,
+            turn_mid,
+            text_hint=text_raw,
+            prev_speaker=prev_speaker,
+        )
+        # Update prev_speaker for continuation detection
+        raw = str(t["speaker_raw"])
+        if speaker_public and speaker_public != "Unknown Speaker":
+            prev_speaker = speaker_public
+            prev_raw = raw
+        elif raw != "UNKNOWN" and raw == prev_raw:
+            # Same pyannote speaker continuing across turns — track raw ID too
+            prev_speaker = speaker_public if speaker_public != "Unknown Speaker" else prev_speaker
+        # For UNKNOWN segments, carry forward last known raw speaker if same diar segment
+        if raw == "UNKNOWN" and prev_raw and prev_raw != "UNKNOWN":
+            prev_speaker = prev_speaker  # keep last known
+
         structured_turns.append(
             {
                 "turn_id": f"turn_{i+1:06d}",
                 "start": round(float(t["start"]), 3),
                 "end": round(float(t["end"]), 3),
-                "text": text,
-                "speaker_raw": str(t["speaker_raw"]),
+                "text": text_raw,
+                "speaker_raw": raw,
                 "speaker_public": speaker_public,
                 "speaker_status": speaker_status,
                 "needs_review": bool(needs_review),
@@ -220,6 +653,14 @@ def main() -> int:
                 "confidence": None,
             }
         )
+
+    # Summary of label sources
+    caption_labeled = sum(1 for t in structured_turns if t.get("speaker_status") == "caption")
+    heuristic_labeled = sum(1 for t in structured_turns if t.get("speaker_status") == "heuristic")
+    unknown = sum(1 for t in structured_turns if t.get("speaker_status") == "unknown")
+    approved = sum(1 for t in structured_turns if t.get("speaker_status") == "approved")
+    unresolved = sum(1 for t in structured_turns if t.get("speaker_status") == "unresolved")
+    print(f"Labels: {approved} approved, {heuristic_labeled} heuristic, {caption_labeled} from captions, {unresolved} unresolved, {unknown} unknown")
 
     out = {
         "schema": "fairfax.structured_transcript.v1",
