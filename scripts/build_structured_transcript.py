@@ -589,6 +589,7 @@ def _apply_name_call_handoffs(turns: list[dict[str, Any]]) -> list[dict[str, Any
     overrides = 0
 
     for i, t in enumerate(result):
+
         m = _HANDOVER_PAT.search(t.get("text", "") or "")
         if not m:
             continue
@@ -637,16 +638,20 @@ def _apply_name_call_handoffs(turns: list[dict[str, Any]]) -> list[dict[str, Any
                 result[i + 1]["speaker_public"] = named
                 result[i + 1]["speaker_status"] = "heuristic"
                 result[i + 1]["review_reason"] = "name_call_handoff"
+                result[i + 1]["handoff_applied"] = True
                 overrides += 1
                 continue
 
-        # Fallback: if no thank-you match but we have strong named handoff + single-word
-        # response that looks like an acceptance, still override
-        if gap < 3.0 and len(nxt.get("text", "").split()) <= 15:
+        # Fallback: if no thank-you match but we have strong named handoff + response from next turn,
+        # treat it as a handoff regardless of response length. A named person responding to being
+        # called on will speak at length — that's not an ASR artifact. The explicit "turn it over to [Name]"
+        # + immediate response (gap<3s) + different speaker is sufficient signal.
+        if gap < 3.0:
             result[i + 1] = nxt.copy()
             result[i + 1]["speaker_public"] = named
             result[i + 1]["speaker_status"] = "heuristic"
             result[i + 1]["review_reason"] = "name_call_handoff"
+            result[i + 1]["handoff_applied"] = True
             overrides += 1
 
     if overrides:
@@ -746,6 +751,7 @@ def _apply_self_introductions(
         result[i]["speaker_public"] = intro_name
         result[i]["speaker_status"] = "heuristic"
         result[i]["review_reason"] = "self_introduction"
+        result[i]["self_intro_applied"] = True
         overrides += 1
 
     if overrides:
@@ -987,6 +993,15 @@ def main() -> int:
         )
 
     # -----------------------------------------------------------------------
+    # Pre-merge heuristics: identify speakers before merging so Case A/B can
+    # use heuristic flags to make better merge decisions.
+    # -----------------------------------------------------------------------
+    structured_turns = _apply_name_call_handoffs(structured_turns)
+    structured_turns = _apply_self_introductions(structured_turns, approvals)
+
+
+
+    # -----------------------------------------------------------------------
     # Post-processing: merge consecutive turns using speaker-chain logic
     # -----------------------------------------------------------------------
     # Russ's rule: small unknown gaps between labeled speech = same person still
@@ -999,12 +1014,14 @@ def main() -> int:
     MERGE_MAX_GAP = 4.0   # seconds; labeled+labeled merge threshold
     ABSORB_MAX_GAP = 4.0  # seconds; Unknown blocks absorbed into adjacent labeled
     ABSORB_MIN_CHARS = 30  # minimum text length to absorb; tiny fragments are likely ASR noise
+    MAX_CONSECUTIVE_ABSORB = 12  # max Unknown segments Case B will absorb in a row into one chain
 
     def _is_labeled(speaker: str) -> bool:
         return speaker not in ("Unknown Speaker", "")
 
     merged: list[dict[str, Any]] = []
-    for t in structured_turns:
+    unknown_absorbed_count = 0  # consecutive Case B absorptions into current chain
+    for i, t in enumerate(structured_turns):
         speaker = t.get("speaker_public", "")
 
         if not merged:
@@ -1015,23 +1032,48 @@ def main() -> int:
         prev_speaker = prev.get("speaker_public", "")
         gap = float(t["start"]) - float(prev["end"])
 
+        # Debug: track i=6 (265s heuristic) and i=7 (303.9s approved) potential merge
         # Case A: both labeled, same speaker, small gap → merge
-        if _is_labeled(speaker) and _is_labeled(prev_speaker) and prev_speaker == speaker and gap < MERGE_MAX_GAP:
+        # Block only if the PREVIOUS turn was relabeled by a heuristic (handoff/self-intro)
+        # AND THE CURRENT TURN IS NOT itself heuristic (i.e., don't block labeled→heuristic merges,
+        # but DO block heuristic→labeled so heuristic turn doesn't absorb following labeled speech).
+        if (_is_labeled(speaker) and _is_labeled(prev_speaker)
+                and prev_speaker == speaker and gap < MERGE_MAX_GAP
+                and not (prev.get("handoff_applied") or prev.get("self_intro_applied"))
+                and not (t.get("speaker_status") == "heuristic" and prev.get("handoff_applied"))):
+
             prev["end"] = t["end"]
             prev["text"] = prev["text"] + " " + t["text"]
+
             # Take better status if needed
             status_priority = {"approved": 5, "heuristic": 4, "caption": 3, "caption_override": 3, "unresolved": 2, "unknown": 1}
             if status_priority.get(t.get("speaker_status", ""), 0) > status_priority.get(prev.get("speaker_status", ""), 0):
                 prev["speaker_status"] = t["speaker_status"]
                 prev["review_reason"] = t.get("review_reason")
+            unknown_absorbed_count = 0
             continue
 
-        # Case B: prev is labeled, current is Unknown, tiny gap → absorb Unknown into prev speaker
-        # (fills small ASR noise gaps within continuous labeled speech)
-        if _is_labeled(prev_speaker) and not _is_labeled(speaker) and gap < ABSORB_MAX_GAP:
+        # Case B: absorb small Unknown gaps into adjacent labeled speakers
+        # A 0-gap Unknown turn directly abutting a labeled turn is a pyannote artifact,
+        # not a real gap — don't absorb it. Require gap > 0.
+        if _is_labeled(prev_speaker) and not _is_labeled(speaker) and 0 < gap < ABSORB_MAX_GAP and unknown_absorbed_count < MAX_CONSECUTIVE_ABSORB:
+
             prev["end"] = t["end"]
             prev["text"] = prev["text"] + " " + t["text"]
+            unknown_absorbed_count += 1
             continue
+
+        # Case C removed — do NOT absorb labeled turns into an Unknown-prev block.
+        # Unknown→labeled transitions are real speaker changes; keep them separate.
+        # Case B already handles labeled→Unknown (the more common ASR fragmentation). — prevents mega-turns from pyannote-failed "?" segments
+        # being absorbed into labeled speaker blocks.
+        # Small ASR fragments are better kept as separate Unknown turns for heuristics to identify.
+        # if _is_labeled(prev_speaker) and not _is_labeled(speaker) and gap < ABSORB_MAX_GAP and unknown_absorbed_count < MAX_CONSECUTIVE_ABSORB:
+        #     prev["end"] = t["end"]
+        #     prev["text"] = prev["text"] + " " + t["text"]
+        #     unknown_absorbed_count += 1
+        #     continue
+        unknown_absorbed_count = 0  # reset even if Case B disabled
 
         # Case C removed — do NOT absorb labeled turns into an Unknown-prev block.
         # Unknown→labeled transitions are real speaker changes; keep them separate.
@@ -1039,16 +1081,13 @@ def main() -> int:
 
         # Otherwise: keep separate
         merged.append(t)
+        unknown_absorbed_count = 0
 
     before = len(structured_turns)
     structured_turns = merged
     print(f"Merged {before} turns into {len(structured_turns)} (merged {before - len(structured_turns)} fragments)")
 
-    # Name-call handoff heuristic — must run after merge so we see the post-merge turn boundaries
-    structured_turns = _apply_name_call_handoffs(structured_turns)
-    # Self-introductions must run BEFORE sentence-fragment repair so that
-    # self-identified names are locked in before any cross-speaker merges.
-    structured_turns = _apply_self_introductions(structured_turns, approvals)
+    # Sentence-fragment repair runs after merge to fix cross-speaker splits
     structured_turns = _apply_sentence_fragment_repair(structured_turns)
 
     # Summary of label sources
