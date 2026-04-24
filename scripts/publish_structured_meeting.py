@@ -40,11 +40,15 @@ def main() -> int:
 
     labeled_turns: list[dict[str, Any]] = []
     for t in turns:
+        # Worker writes to speaker/speaker_source; speaker_public/speaker_status is the pre-review baseline.
+        # When review decisions are applied, speaker is set directly. Use it if present.
+        effective_speaker = t.get("speaker") or t.get("speaker_public") or "Unknown Speaker"
+        effective_source = t.get("speaker_source") or t.get("speaker_status") or "unknown"
         labeled_turns.append(
             {
-                "speaker": str(t.get("speaker_public") or "Unknown Speaker"),
-                "speaker_source": str(t.get("speaker_status") or "unknown"),
-                "speaker_source_detail": str(t.get("review_reason") or ""),
+                "speaker": str(effective_speaker),
+                "speaker_source": str(effective_source),
+                "speaker_source_detail": str(t.get("speaker_source_detail") or t.get("review_reason") or ""),
                 "start": float(t.get("start", 0) or 0),
                 "end": float(t.get("end", 0) or 0),
                 "text": str(t.get("text") or "").strip(),
