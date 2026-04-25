@@ -383,7 +383,7 @@
         hdr.appendChild(btn);
         console.log('[review-ui] Label button appended to turn-header for block speaker=' + blockInfoForThisBlock.speaker + ', turnIds=' + JSON.stringify(blockInfoForThisBlock.turnIds));
       } else {
-        console.log('[review-ui] ERROR: no .turn-header found in block');
+        console.log('[review-ui] ERROR: no .turn-header found in block - speakerKey=' + block.dataset.speaker + ', start=' + block.dataset.time);
       }
     });
   }
@@ -1346,7 +1346,10 @@
     var all = document.querySelectorAll('.speaker-block');
     for (var i = 0; i < all.length; i++) {
       var el = all[i];
-      if (String(el.dataset.speaker || '') === String(blockInfo.speakerKey || '') &&
+      // Normalize both sides to lowercase for reliable comparison.
+      // transcript-page.js stores dataset.speaker via speakerKey() (already lowercased),
+      // but we lowercase again here to handle any edge cases.
+      if (String(el.dataset.speaker || '').toLowerCase() === String(blockInfo.speakerKey || '').toLowerCase() &&
           String(el.dataset.time || '') === String(Math.floor(blockInfo.start || 0))) {
         return el;
       }
