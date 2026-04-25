@@ -1344,6 +1344,15 @@
 
   function findDomBlockForBlock(blockInfo) {
     var all = document.querySelectorAll('.speaker-block');
+    // DEBUG: log first call only
+    if (!window.__findDomBlockForBlock._logged) {
+      window.__findDomBlockForBlock._logged = true;
+      console.log('[review-ui] findDomBlockForBlock FIRST CALL — blockInfo:', JSON.stringify(blockInfo));
+      console.log('[review-ui] DOM has', all.length, 'speaker-blocks');
+      if (all.length > 0) {
+        console.log('[review-ui] DOM[0]: speaker=' + all[0].dataset.speaker + ' time=' + all[0].dataset.time);
+      }
+    }
     for (var i = 0; i < all.length; i++) {
       var el = all[i];
       // Normalize both sides to lowercase for reliable comparison.
@@ -1353,6 +1362,12 @@
           String(el.dataset.time || '') === String(Math.floor(blockInfo.start || 0))) {
         return el;
       }
+    }
+    // DEBUG: log when returning null
+    if (!window.__findDomBlockForBlock._nullLogged) {
+      window.__findDomBlockForBlock._nullLogged = true;
+      console.log('[review-ui] findDomBlockForBlock returning NULL for:', JSON.stringify(blockInfo));
+      console.log('[review-ui] Checked', all.length, 'DOM blocks, none matched');
     }
     return null;
   }
@@ -1515,6 +1530,10 @@
     showShortcutsToast();
     document.addEventListener('keydown', handleReviewKeyboard);
   }
+
+  // ---- Debug: expose findDomBlockForBlock globally ----
+  window.__findDomBlockForBlock = findDomBlockForBlock;
+  window.__buildBlockIndex = buildBlockIndex;
 
   console.log('[review-ui] init setup, about to call init()');
   if (document.readyState === 'loading') {
