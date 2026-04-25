@@ -352,7 +352,7 @@
       // can correct any misattributed speaker, including named officials and public commenters.
       // Only skip if block has no turn IDs.
       var blockInfoForThisBlock = findDomBlockForBlock({
-        speakerKey: String(block.dataset.speaker || '').replace(/\s+/g, '').toLowerCase(),
+        speakerKey: block.dataset.speaker || '',
         start: Number(block.dataset.time) || 0
       });
       if (!blockInfoForThisBlock || !blockInfoForThisBlock.turnIds || blockInfoForThisBlock.turnIds.length === 0) return;
