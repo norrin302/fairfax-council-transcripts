@@ -1118,26 +1118,53 @@ def main() -> int:
             unknown_absorbed_count = 0
             continue
 
-        # Case B: absorb small UNKNOWN-labeled gaps (speaker_raw=UNKNOWN) into adjacent labeled speakers.
-        # A pyannote speaker ID like SPEAKER_29 may resolve to "Unknown Speaker" publicly.
-        # We must NOT absorb UNKNOWN into "Unknown Speaker" prev — Case A (speaker_raw match)
-        # handles that case. We only absorb into prev speakers that are genuinely KNOWN
-        # (not "Unknown Speaker"), so we don't merge different unknown speakers together.
+        # 
+        # Case B: absorb UNKNOWN-labeled gaps (speaker_raw=UNKNOWN) into adjacent speakers.
+        # Two scenarios:
+        #   1. prev_speaker is genuinely KNOWN — original behavior
+        #   2. prev_speaker is "Unknown Speaker" but flanking speakers share same speaker_raw.
+        #      This handles pyannote oscillation where SPEAKER_29 alternates with UNKNOWN gaps.
         prev_raw = prev.get("speaker_raw", "")
         curr_raw = t.get("speaker_raw", "")
-        if (prev_raw != "UNKNOWN" and curr_raw == "UNKNOWN"
-                and prev_speaker != "Unknown Speaker"
+        _case_b_fired = False
+        if (curr_raw == "UNKNOWN"
                 and gap < ABSORB_MAX_GAP and unknown_absorbed_count < MAX_CONSECUTIVE_ABSORB):
-            prev["end"] = t["end"]
-            prev["text"] = prev["text"] + " " + t["text"]
-            unknown_absorbed_count += 1
+            # Scenario 1: absorb UNKNOWN into genuinely known prev speaker
+            if (prev_raw != "UNKNOWN" and prev_speaker != "Unknown Speaker"):
+                prev["end"] = t["end"]
+                prev["text"] = prev["text"] + " " + t["text"]
+                unknown_absorbed_count += 1
+                _case_b_fired = True
+            # Scenario 2: absorb UNKNOWN when flanking speakers share same speaker_raw.
+            # Look ahead past consecutive UNKNOWN blocks to find the next non-UNKNOWN block.
+            # If it has the same speaker_raw as prev, absorb all those UNKNOWN blocks.
+            elif prev_raw != "UNKNOWN":
+                look_i = i + 1
+                total_gap = gap
+                while look_i < len(structured_turns):
+                    look_t = structured_turns[look_i]
+                    look_curr_raw = look_t.get("speaker_raw", "")
+                    if look_curr_raw != "UNKNOWN":
+                        # Found next non-UNKNOWN — check if speaker_raw matches prev
+                        if look_curr_raw == prev_raw:
+                            # Safe to absorb: flanking speakers share same pyannote ID.
+                            # Absorb all UNKNOWN blocks from i through look_i-1 into prev.
+                            for _abs_i in range(i, look_i):
+                                abs_t = structured_turns[_abs_i]
+                                prev["end"] = abs_t["end"]
+                                prev["text"] = prev["text"] + " " + abs_t["text"]
+                                unknown_absorbed_count += 1
+                            _case_b_fired = True
+                        break
+                    # It's UNKNOWN — accumulate gap
+                    total_gap += float(look_t["start"]) - float(structured_turns[look_i - 1]["end"])
+                    if total_gap >= ABSORB_MAX_GAP:
+                        break
+                    look_i += 1
+        if _case_b_fired:
             continue
 
-        # Case C removed — do NOT absorb labeled turns into an Unknown-prev block.
-        # Unknown→labeled transitions are real speaker changes; keep them separate.
-        # Case B already handles labeled→Unknown (the more common ASR fragmentation).
-
-        # Otherwise: keep separate
+# Otherwise: keep separate
         merged.append(t)
         unknown_absorbed_count = 0
 
