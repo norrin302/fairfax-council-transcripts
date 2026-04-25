@@ -471,7 +471,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 2823.22,
     "end": 2830.06,
-    "text": "Kind attention our next speakers Rebecca Rader"
+    "text": "Kind attention our next speakers Rebecca Rager"
   },
   {
     "speaker": "Becky Rager",
