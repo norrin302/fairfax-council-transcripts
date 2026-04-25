@@ -1000,6 +1000,48 @@ def main() -> int:
         )
 
     # -----------------------------------------------------------------------
+    # Pre-merge: consolidate consecutive turns by shared speaker_raw
+    # When pyannote oscillates between SPEAKER_XX and UNKNOWN for the same speaker
+    # (common with filler words like "the", "and", "so" getting labeled UNKNOWN while
+    # content words get SPEAKER_XX), we merge identical speaker_raw blocks FIRST so the
+    # oscillation is resolved before text heuristics run. Without this, Case A/B can't
+    # merge across different speaker_raw values even when it's clearly the same person.
+    # -----------------------------------------------------------------------
+    _raw_sessions: dict[int, list[dict]] = {}
+    for t in structured_turns:
+        sid = id(t)
+        _raw_sessions[sid] = [t]
+    raw_merged: list[dict[str, Any]] = []
+    i = 0
+    while i < len(structured_turns):
+        t = structured_turns[i]
+        raw = str(t.get("speaker_raw") or "")
+        # Strip pyannote suffix (_sp, _spk, etc.) for comparison
+        base_raw = re.sub(r'_spk?$', '', raw)
+        # Collect consecutive turns with same base speaker_raw
+        group = [t]
+        j = i + 1
+        while j < len(structured_turns):
+            next_raw = str(structured_turns[j].get("speaker_raw") or "")
+            next_base = re.sub(r'_spk?$', '', next_raw)
+            if next_base == base_raw:
+                group.append(structured_turns[j])
+                j += 1
+            else:
+                break
+        # Merge the group into one turn
+        if len(group) == 1:
+            raw_merged.append(t.copy())
+        else:
+            merged_t = group[0].copy()
+            merged_t["end"] = group[-1]["end"]
+            merged_t["text"] = " ".join(g["text"] for g in group)
+            raw_merged.append(merged_t)
+        i = j
+    print(f"Pre-merged {len(structured_turns)} turns into {len(raw_merged)} by speaker_raw (raw consolidation)")
+    structured_turns = raw_merged
+
+    # -----------------------------------------------------------------------
     # Pre-merge heuristics: identify speakers before merging so Case A/B can
     # use heuristic flags to make better merge decisions.
     # -----------------------------------------------------------------------

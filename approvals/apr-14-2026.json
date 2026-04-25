@@ -40,7 +40,7 @@
     },
     "SPEAKER_08": {
       "status": "approved",
-      "name": "Fasa Alam",
+      "name": "Faisal Alam",
       "speaker_key": ""
     },
     "SPEAKER_00": {
@@ -107,6 +107,11 @@
       "status": "approved",
       "name": "Mayor Catherine Read",
       "speaker_key": "mayor_catherine_read"
+    },
+    "SPEAKER_16": {
+      "status": "approved",
+      "name": "Becky Rager",
+      "speaker_key": "becky_rager"
     }
   },
   "SPEAKER_24": {
