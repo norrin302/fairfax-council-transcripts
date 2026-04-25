@@ -972,17 +972,26 @@ def main() -> int:
             text_hint=text_raw,
             prev_speaker=prev_speaker,
         )
-        # Update prev_speaker for continuation detection
+        # Update prev_speaker for continuation detection.
+        # Key principle: speaker_raw is the trustable pyannote signal. If consecutive turns
+        # share the same speaker_raw (non-UNKNOWN), they're the same speaker regardless of
+        # what speaker_public resolves to. Carry prev_speaker in that case even if
+        # speaker_public = "Unknown Speaker" (means pyannote had a real ID but name unknown).
         raw = str(t["speaker_raw"])
-        if speaker_public and speaker_public != "Unknown Speaker":
+        if raw != "UNKNOWN" and raw == prev_raw:
+            # Same pyannote speaker continuing — carry prev_speaker even if "Unknown Speaker"
+            # (pyannote knew who it was, just didn't resolve to a name).
+            prev_speaker = prev_speaker or speaker_public
+        elif raw == "UNKNOWN" and prev_raw and prev_raw != "UNKNOWN":
+            # UNKNOWN between two real pyannote speakers — carry prev_speaker forward.
+            # This prevents breaking the speaker chain across pyannote's UNKNOWN fragments.
+            pass  # prev_speaker already carries from previous step
+        elif speaker_public and speaker_public != "Unknown Speaker":
             prev_speaker = speaker_public
             prev_raw = raw
-        elif raw != "UNKNOWN" and raw == prev_raw:
-            # Same pyannote speaker continuing across turns — track raw ID too
-            prev_speaker = speaker_public if speaker_public != "Unknown Speaker" else prev_speaker
-        # For UNKNOWN segments, carry forward last known raw speaker if same diar segment
-        if raw == "UNKNOWN" and prev_raw and prev_raw != "UNKNOWN":
-            prev_speaker = prev_speaker  # keep last known
+        else:
+            # UNKNOWN with no prior speaker, or other case — update prev_raw only
+            prev_raw = raw if raw != "UNKNOWN" else prev_raw
 
         structured_turns.append(
             {
