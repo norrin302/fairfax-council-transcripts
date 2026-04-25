@@ -30,16 +30,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 77.04,
-    "end": 85.04,
-    "text": "I Play a little bit of the Pledge of Allegiance It's a little bit of the Pledge of Allegiance. It's a little bit of the Pledge of Allegiance"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 85.04,
     "end": 87.04,
-    "text": "I"
+    "text": "I Play a little bit of the Pledge of Allegiance It's a little bit of the Pledge of Allegiance. It's a little bit of the Pledge of Allegiance I"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -62,16 +54,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 265.04,
-    "end": 328.04,
-    "text": "Thank You mayor I'm honored to be your representative to Representative to the Fairfax County Public Library Board of Trustees. I'm in my second year as chairman of the board Fortunately, you can only serve two years. So I'll be turning it over to somebody in July, but it's a real honor and Some of you may know my career was at the Fairfax City Regional Library And so this is just a continuation of what I did for many years and I wanted to interview Deuce our library director Eric Carson Elena corals is the branch manager at City of Fairfax and Jackie Consolvo is the head of the circulation department So when you go into the library next week to celebrate National Library Week Please say hi to everybody and if you don't have a library card We have beautiful new cards that were designed by citizens in the community and You can replace your old card with a pretty new one or you can get a card for the first time"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 328.04,
     "end": 330.04,
-    "text": "We really want to have you"
+    "text": "Thank You mayor I'm honored to be your representative to Representative to the Fairfax County Public Library Board of Trustees. I'm in my second year as chairman of the board Fortunately, you can only serve two years. So I'll be turning it over to somebody in July, but it's a real honor and Some of you may know my career was at the Fairfax City Regional Library And so this is just a continuation of what I did for many years and I wanted to interview Deuce our library director Eric Carson Elena corals is the branch manager at City of Fairfax and Jackie Consolvo is the head of the circulation department So when you go into the library next week to celebrate National Library Week Please say hi to everybody and if you don't have a library card We have beautiful new cards that were designed by citizens in the community and You can replace your old card with a pretty new one or you can get a card for the first time We really want to have you"
   },
   {
     "speaker": "Suzanne Levy",
@@ -158,120 +142,24 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 611.56,
-    "end": 651.36,
-    "text": "Room have that. And since October, I have not paid anything to Dominion other than $7 something, and I have exported a lot of power out there. So this year again, the Solarize Virginia is a great program. It's opening up again on April 16th, Stephanie? Yes. On April 15th, and it will continue. It is a very good vetted program. It's the best rate you're going to get. So just spread the word out and do that. And please join us on the Arbor Day on April 25th. The event begins at 9 a.m. We will have some students who are written beautiful poetries. They will be reciting. We'll have tree giveaways, tree plantations, And a lot of fun. So please join us."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 651.36,
     "end": 658.84,
-    "text": "All right. Any other remarks? Okay. Thank you."
+    "text": "Room have that. And since October, I have not paid anything to Dominion other than $7 something, and I have exported a lot of power out there. So this year again, the Solarize Virginia is a great program. It's opening up again on April 16th, Stephanie? Yes. On April 15th, and it will continue. It is a very good vetted program. It's the best rate you're going to get. So just spread the word out and do that. And please join us on the Arbor Day on April 25th. The event begins at 9 a.m. We will have some students who are written beautiful poetries. They will be reciting. We'll have tree giveaways, tree plantations, And a lot of fun. So please join us. All right. Any other remarks? Okay. Thank you."
   },
   {
     "speaker": "Mayor Catherine Read",
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 658.84,
-    "end": 663.84,
-    "text": "And I think that's at Pat Rodeo Park? Yes. Pat Rodeo Park. I think that's a new venue for us."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
-    "start": 663.84,
-    "end": 665.84,
-    "text": "Okay. Picture."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 665.84,
-    "end": 695.32,
-    "text": "Squeeze in. All right. Excellent. Excellent. Thank you all. Thank you all for being here. All right."
-  },
-  {
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 695.8,
-    "end": 701.8,
-    "text": "All right. So joining Stephanie and Anna, I'm looking for Janet Jaworski, Mary Driver-Downs,"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 701.8,
-    "end": 716.8,
-    "text": "Faisal Alam, and Rusty Russell. You guys, where'd you go? All right. More and more things to"
-  },
-  {
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 717.28,
     "end": 828.4,
-    "text": "So many things. Whereas the monarch butterfly is an iconic North American species whose multi-generational migration and metamorphosis from caterpillar to butterfly has captured The imagination of millions of Americans. And whereas both the Western and Eastern monarch Populations have seen significant declines with less than 1% of the Western monarch population Remaining, while the Eastern population has fallen by as much as 90%. And whereas the City of Fairfax recognizes that human health ultimately depends on well-functioning ecosystems and that biodiverse regions can better support food production, healthy soil and air quality, and can foster healthy connections between humans and wildlife. And whereas cities, towns, and counties have a critical role to play in helping save the monarch butterfly by providing habitat at public parks and median strips, community gardens, and municipal buildings that serve as community hubs such as recreation centers, libraries, and schools. And whereas simple changes in landscaping, ordinances, or school policies can make a big difference For the monarch, educating citizens about how to provide essential habitat for monarchs and where and how to grow milkweed, which is a key piece of the puzzle in creating habitat and educating citizens benefits other pollinators that need healthy habitats as well. Now therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, do hereby commit to the Mayor's Monarch Pledge, this is a nationwide thing, the Mayor's Monarch Pledge, and encourage all residents to participate in community activities that support and celebrate monarch conservation so that these magnificent butterflies will once again flourish across this continent. And with that, I will turn it over to Ms. Janet Jaworski."
+    "text": "And I think that's at Pat Rodeo Park? Yes. Pat Rodeo Park. I think that's a new venue for us. Okay. Picture. Squeeze in. All right. Excellent. Excellent. Thank you all. Thank you all for being here. All right. All right. So joining Stephanie and Anna, I'm looking for Janet Jaworski, Mary Driver-Downs, Faisal Alam, and Rusty Russell. You guys, where'd you go? All right. More and more things to So many things. Whereas the monarch butterfly is an iconic North American species whose multi-generational migration and metamorphosis from caterpillar to butterfly has captured The imagination of millions of Americans. And whereas both the Western and Eastern monarch Populations have seen significant declines with less than 1% of the Western monarch population Remaining, while the Eastern population has fallen by as much as 90%. And whereas the City of Fairfax recognizes that human health ultimately depends on well-functioning ecosystems and that biodiverse regions can better support food production, healthy soil and air quality, and can foster healthy connections between humans and wildlife. And whereas cities, towns, and counties have a critical role to play in helping save the monarch butterfly by providing habitat at public parks and median strips, community gardens, and municipal buildings that serve as community hubs such as recreation centers, libraries, and schools. And whereas simple changes in landscaping, ordinances, or school policies can make a big difference For the monarch, educating citizens about how to provide essential habitat for monarchs and where and how to grow milkweed, which is a key piece of the puzzle in creating habitat and educating citizens benefits other pollinators that need healthy habitats as well. Now therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, do hereby commit to the Mayor's Monarch Pledge, this is a nationwide thing, the Mayor's Monarch Pledge, and encourage all residents to participate in community activities that support and celebrate monarch conservation so that these magnificent butterflies will once again flourish across this continent. And with that, I will turn it over to Ms. Janet Jaworski."
   },
   {
     "speaker": "Janet Jaworski",
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 831.4,
-    "end": 859.64,
-    "text": "Thank you, Mayor Reed. Following up on the Mayor's comments, I have a certified monarch way station in our yard, which some of you may have heard of, it's through Monarch Watch at the University of Kansas. So besides in public parks and public spaces, individual homeowners really can make a difference for the monarch butterfly. Really, even one milkweed plant in your yard can make a huge difference because, as the Mayor said, that is the only"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 859.64,
-    "end": 865.16,
-    "text": "Food that the monarch caterpillar will eat. And so if you have a milkweed plant in your"
-  },
-  {
-    "speaker": "Janet Jaworski",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 865.16,
-    "end": 882.84,
-    "text": "Yard, the caterpillars can start their life cycle and of course metamorphosis into the butterfly. The other thing you can do as a homeowner is have nectar plants in your yard, particularly late blooming nectar plants in the fall. The migration to Mexico in this"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 882.84,
-    "end": 887.92,
-    "text": "Area is August through October. And so if you have a nectar source in your yard that"
-  },
-  {
-    "speaker": "Janet Jaworski",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 887.92,
-    "end": 920.4,
-    "text": "The butterflies can access during that southward migration, that is very helpful to them. So some ideas for planting in your yard would be goldenrod or aster so that they've got that nectar source on their way to Mexico. The good news is that in this past overwintering season in Mexico, there was a 64% increase in the amount of butterfly, in the amount of monarchs that were there. So we're showing some improvement. We're not really there yet to the goal, but we're moving in the right direction. So that was good news from the"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 920.4,
-    "end": 926.88,
-    "text": "Overwintering sites in Mexico. So you can, if anyone wants to visit my yard this summer,"
-  },
-  {
-    "speaker": "Janet Jaworski",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 926.88,
     "end": 964.32,
-    "text": "You can reach out to the city clerk and get my address, but you can actually have butterflies flying around you. You can see caterpillars in the yard and it's very exciting. Mary, my colleague from the women's club also has a lot of milkweed in her yard. Cindy Meyer has milkweed in her yard and there are probably a number of you who also have that. It's very exciting. It's a science project going on right in your yard. I've had field trips from our daycare down the street. I've done some stuff virtually for the science teacher at Daniel's Run. So it's very exciting. So I'm happy to guide anybody who wants to do this Project. So turn it over to Stephanie."
+    "text": "Thank you, Mayor Reed. Following up on the Mayor's comments, I have a certified monarch way station in our yard, which some of you may have heard of, it's through Monarch Watch at the University of Kansas. So besides in public parks and public spaces, individual homeowners really can make a difference for the monarch butterfly. Really, even one milkweed plant in your yard can make a huge difference because, as the Mayor said, that is the only Food that the monarch caterpillar will eat. And so if you have a milkweed plant in your Yard, the caterpillars can start their life cycle and of course metamorphosis into the butterfly. The other thing you can do as a homeowner is have nectar plants in your yard, particularly late blooming nectar plants in the fall. The migration to Mexico in this Area is August through October. And so if you have a nectar source in your yard that The butterflies can access during that southward migration, that is very helpful to them. So some ideas for planting in your yard would be goldenrod or aster so that they've got that nectar source on their way to Mexico. The good news is that in this past overwintering season in Mexico, there was a 64% increase in the amount of butterfly, in the amount of monarchs that were there. So we're showing some improvement. We're not really there yet to the goal, but we're moving in the right direction. So that was good news from the Overwintering sites in Mexico. So you can, if anyone wants to visit my yard this summer, You can reach out to the city clerk and get my address, but you can actually have butterflies flying around you. You can see caterpillars in the yard and it's very exciting. Mary, my colleague from the women's club also has a lot of milkweed in her yard. Cindy Meyer has milkweed in her yard and there are probably a number of you who also have that. It's very exciting. It's a science project going on right in your yard. I've had field trips from our daycare down the street. I've done some stuff virtually for the science teacher at Daniel's Run. So it's very exciting. So I'm happy to guide anybody who wants to do this Project. So turn it over to Stephanie."
   },
   {
     "speaker": "Stephanie",
@@ -310,208 +198,48 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 1036.56,
-    "end": 1208.36,
-    "text": "Everybody, this is wonderful. Everybody in, everybody in, everybody in. Lovely to see everyone. Lovely to see everyone. Is everybody in? Okay. Who's over there? We all here? Okay. Whereas, the women's club of Fairfax was established in 1956 by friends wanting to make a difference in the community and further their commitment by registering their club with the state and national general federation of women's clubs. And whereas, as the town of Fairfax became the city of Fairfax, the area grew from a quiet rural Community into a bustling region. The women's club was an active participant in keeping The history and small town feel alive through generous contributions of time and financial Support of many worthy causes. And whereas, the women's club of Fairfax continues to contribute funds and volunteer services to Fairfax cultural and civic organizations and Events such as the Independence Day celebration, City of Fairfax Band Association, Fairfax Volunteer Fire Department, the Inter-Service Club Council and the Chocolate Lovers Festival and has adopted the School Street Park, providing quarterly maintenance of weeding and planting as well as donating a park bench to encourage use of the park. And whereas, the women's club of Fairfax supported the construction of the Turning Point Suffragist Memorial in Occoquan Regional Park and annually offers an achievement scholarship to a graduating local high school senior who will attend a Virginia university or college. And whereas, The women's club of Fairfax offers programs focusing on issues of importance to women, families and the community and continues today as a unified and diverse group of women dedicated to enhancing the lives of families and strengthening their community through volunteer service. Now, therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, Virginia, in concert with the City Council, do hereby commend the Women's Club of Fairfax on their 70th anniversary and encourage all citizens of the City of Fairfax to recognize, commemorate and celebrate the wonderful contributions the Women's Club of Fairfax has made to the Betterment of the City of Fairfax. And with that, who is speaking? Martha, come on, the President of the Women's Club. Good evening. I just want to say that we feel very fortunate to be a part of the city and we enjoy doing as much as we can to be supportive of the city. And I think it's pretty impressive that we have sustained ourselves for 70 years. years, considering all the different ups and downs of the past 70 years. And we look forward to serving you for many more years."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 1208.36,
     "end": 1222.36,
-    "text": "Thank you. Thank you. All right. Everybody scrunch on in. Yeah, big turn."
+    "text": "Everybody, this is wonderful. Everybody in, everybody in, everybody in. Lovely to see everyone. Lovely to see everyone. Is everybody in? Okay. Who's over there? We all here? Okay. Whereas, the women's club of Fairfax was established in 1956 by friends wanting to make a difference in the community and further their commitment by registering their club with the state and national general federation of women's clubs. And whereas, as the town of Fairfax became the city of Fairfax, the area grew from a quiet rural Community into a bustling region. The women's club was an active participant in keeping The history and small town feel alive through generous contributions of time and financial Support of many worthy causes. And whereas, the women's club of Fairfax continues to contribute funds and volunteer services to Fairfax cultural and civic organizations and Events such as the Independence Day celebration, City of Fairfax Band Association, Fairfax Volunteer Fire Department, the Inter-Service Club Council and the Chocolate Lovers Festival and has adopted the School Street Park, providing quarterly maintenance of weeding and planting as well as donating a park bench to encourage use of the park. And whereas, the women's club of Fairfax supported the construction of the Turning Point Suffragist Memorial in Occoquan Regional Park and annually offers an achievement scholarship to a graduating local high school senior who will attend a Virginia university or college. And whereas, The women's club of Fairfax offers programs focusing on issues of importance to women, families and the community and continues today as a unified and diverse group of women dedicated to enhancing the lives of families and strengthening their community through volunteer service. Now, therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, Virginia, in concert with the City Council, do hereby commend the Women's Club of Fairfax on their 70th anniversary and encourage all citizens of the City of Fairfax to recognize, commemorate and celebrate the wonderful contributions the Women's Club of Fairfax has made to the Betterment of the City of Fairfax. And with that, who is speaking? Martha, come on, the President of the Women's Club. Good evening. I just want to say that we feel very fortunate to be a part of the city and we enjoy doing as much as we can to be supportive of the city. And I think it's pretty impressive that we have sustained ourselves for 70 years. years, considering all the different ups and downs of the past 70 years. And we look forward to serving you for many more years. Thank you. Thank you. All right. Everybody scrunch on in. Yeah, big turn."
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 1222.36,
-    "end": 1224.36,
-    "text": "Big turn."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
-    "start": 1224.36,
-    "end": 1225.36,
-    "text": "Okay."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 1225.36,
-    "end": 1226.36,
-    "text": "Come forward."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
-    "start": 1226.36,
-    "end": 1227.36,
-    "text": "Come on."
-  },
-  {
-    "speaker": "Councilmember Rachel McQuillen",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 1227.36,
     "end": 1229.36,
-    "text": "Somebody reach out. Okay, there we go."
+    "text": "Big turn. Okay. Come forward. Come on. Somebody reach out. Okay, there we go."
   },
   {
     "speaker": "JC Martinez",
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 1229.36,
-    "end": 1231.36,
-    "text": "Okay. Okay."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
-    "start": 1231.36,
     "end": 1238.36,
-    "text": "So, I think it's not working. Okay. Okay. Okay. Okay. Okay. Okay."
+    "text": "Okay. Okay. So, I think it's not working. Okay. Okay. Okay. Okay. Okay. Okay."
   },
   {
     "speaker": "Alan Glenn",
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 1238.36,
-    "end": 1240.36,
-    "text": "Okay. Okay."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 1240.36,
-    "end": 1250.36,
-    "text": "Okay. Okay. Okay. Okay. Okay. Thanks. Okay. Okay. Okay. Okay."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
-    "start": 1250.36,
-    "end": 1251.36,
-    "text": "All right."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 1251.36,
     "end": 1268.08,
-    "text": "And Eddie and Martha. Thank you so much. And Alison, you guys look fantastic. Just so awesome to hear you Pauling. Thank you so much. All right. It's so great to hear you call it. And no, I'm not going to start over. I said I was going to say, no not going to start over. I just wanted to hear you call it."
+    "text": "Okay. Okay. Okay. Okay. Okay. Okay. Okay. Thanks. Okay. Okay. Okay. Okay. All right. And Eddie and Martha. Thank you so much. And Alison, you guys look fantastic. Just so awesome to hear you Pauling. Thank you so much. All right. It's so great to hear you call it. And no, I'm not going to start over. I said I was going to say, no not going to start over. I just wanted to hear you call it."
   },
   {
     "speaker": "Mayor Catherine Read",
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 1268.08,
-    "end": 1277.84,
-    "text": "Yes, it's fine. You're welcome. I'm going to get all the New York City police dispatchers to come down here so we can celebrate You. Come on."
-  },
-  {
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 1277.84,
-    "end": 1280.44,
-    "text": "It's cool to stand up here and just be stared at."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 1280.44,
-    "end": 1289.0,
-    "text": "Trust me, not awkward at all."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
-    "start": 1289.0,
-    "end": 1291.0,
-    "text": "All good. All good."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 1291.0,
-    "end": 1292.0,
-    "text": "You guys are important."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
-    "start": 1292.0,
-    "end": 1293.0,
-    "text": "So important."
-  },
-  {
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "heuristic",
-    "speaker_source_detail": "text_heuristic",
-    "start": 1293.0,
-    "end": 1296.0,
-    "text": "Very important. All right. Everybody in the cutest."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
-    "start": 1296.0,
-    "end": 1297.0,
-    "text": "All right."
-  },
-  {
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 1297.0,
-    "end": 1436.4,
-    "text": "Whereas, the week of April 12th through 18th, 2026 has been designated as National Public Safety Telecommunicators Week, a time to raise awareness and recognize the critical contributions of highly trained telecommunications professionals who provide vital 911 emergency assistance to those in need. And whereas, emergencies requiring police, fire, or emergency medical services can occur at any time, and the prompt response of police officers, firefighters, and paramedics is essential to the protection of life and preservation of property. And whereas, the safety of police officers, firefighters, and paramedics depends upon the quality and accuracy of information obtained from citizens who contact the City of Fairfax Emergency Communications Center. And whereas, public safety telecommunicators are the first and most critical point of contact our residents have with emergency services, serving as the vital link between the public and emergency responders. And whereas, public safety telecommunicators contribute substantially to the apprehension of criminals, the suppression of fires, and the treatment of patients, demonstrating professionalism, understanding, and dedication in every call they handle. And whereas, within the Police Department, a Dispatcher of the Year is nominated by police personnel to recognize an individual for exceptional performance, exemplifying the commitment and Excellence demonstrated by all emergency dispatch professionals in our city each and every day, 24 hours a day, and 7 days a week. Now therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, do hereby proclaim April 12-18, 2026 as National Public Safety Telecommunicators Week in the City of Fairfax, and encourage all members of our community to join in extending our warmest measure of gratitude and support to our Public Safety Telecommunications Dispatchers, including our award recipient, Aliyah Tibbs, Aliyah Tibbs, Elijah, okay, Elijah Tibbs, the 2025 Dispatcher of the Year who provides critical and essential services daily to the countless number of residents, business owners, and visitors within our community."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 1436.4,
     "end": 1451.92,
-    "text": "So with that, Elijah, Chief."
+    "text": "Yes, it's fine. You're welcome. I'm going to get all the New York City police dispatchers to come down here so we can celebrate You. Come on. It's cool to stand up here and just be stared at. Trust me, not awkward at all. All good. All good. You guys are important. So important. Very important. All right. Everybody in the cutest. All right. Whereas, the week of April 12th through 18th, 2026 has been designated as National Public Safety Telecommunicators Week, a time to raise awareness and recognize the critical contributions of highly trained telecommunications professionals who provide vital 911 emergency assistance to those in need. And whereas, emergencies requiring police, fire, or emergency medical services can occur at any time, and the prompt response of police officers, firefighters, and paramedics is essential to the protection of life and preservation of property. And whereas, the safety of police officers, firefighters, and paramedics depends upon the quality and accuracy of information obtained from citizens who contact the City of Fairfax Emergency Communications Center. And whereas, public safety telecommunicators are the first and most critical point of contact our residents have with emergency services, serving as the vital link between the public and emergency responders. And whereas, public safety telecommunicators contribute substantially to the apprehension of criminals, the suppression of fires, and the treatment of patients, demonstrating professionalism, understanding, and dedication in every call they handle. And whereas, within the Police Department, a Dispatcher of the Year is nominated by police personnel to recognize an individual for exceptional performance, exemplifying the commitment and Excellence demonstrated by all emergency dispatch professionals in our city each and every day, 24 hours a day, and 7 days a week. Now therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, do hereby proclaim April 12-18, 2026 as National Public Safety Telecommunicators Week in the City of Fairfax, and encourage all members of our community to join in extending our warmest measure of gratitude and support to our Public Safety Telecommunications Dispatchers, including our award recipient, Aliyah Tibbs, Aliyah Tibbs, Elijah, okay, Elijah Tibbs, the 2025 Dispatcher of the Year who provides critical and essential services daily to the countless number of residents, business owners, and visitors within our community. So with that, Elijah, Chief."
   },
   {
     "speaker": "Elijah Tibbs",
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 1451.92,
-    "end": 1470.16,
-    "text": "Good evening everybody. You know, it's a great opportunity to be here with you and celebrating such an important, important group of professionals in our public safety world. I just want to introduce everybody really quickly. Our Dispatcher, Ms. Araceli Gonzalez, Ms. Courtney Ellis, Elijah Tibbs, who was just introduced"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 1470.16,
-    "end": 1475.04,
-    "text": "As our Dispatcher of the Year for 2025, our Communications and Records Supervisor, Ms."
-  },
-  {
-    "speaker": "Elijah Tibbs",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 1475.04,
     "end": 1495.56,
-    "text": "Cynthia Tetherton, our Lieutenant, Ms. Stephanie Sharp, who oversees the entire operation, and then Captain Brock Rutter, who oversees the Administrative Services Division. With them, there's another six Dispatchers that help answer all the phone calls from people within our city, whether you're living here, working here, visiting, if you have"
+    "text": "Good evening everybody. You know, it's a great opportunity to be here with you and celebrating such an important, important group of professionals in our public safety world. I just want to introduce everybody really quickly. Our Dispatcher, Ms. Araceli Gonzalez, Ms. Courtney Ellis, Elijah Tibbs, who was just introduced As our Dispatcher of the Year for 2025, our Communications and Records Supervisor, Ms. Cynthia Tetherton, our Lieutenant, Ms. Stephanie Sharp, who oversees the entire operation, and then Captain Brock Rutter, who oversees the Administrative Services Division. With them, there's another six Dispatchers that help answer all the phone calls from people within our city, whether you're living here, working here, visiting, if you have"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -526,80 +254,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 1501.32,
-    "end": 1544.88,
-    "text": "And it's something beautiful to watch if you ever have the opportunity to be in a 911 center and to see what happens, particularly when there's a critical situation occurring in the city, and all of them come together, and whether it's, you have to understand what they do. They take the phone call, they're a detective, they're asking questions, they're figuring out what it is that's happening, where it's happening, what's that vital information that has to get routed to our responding police or fire personnel. At the same time, they're typing it all and routing it to the police officers and emergency personnel real-time. As they're typing it, figuring out what to ask, what's the next question, typing it in And routing it to the right people, and assigning the right personnel to respond to that call. It's incredible."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 1544.88,
-    "end": 1549.56,
-    "text": "And so I really thank all of our Dispatchers, appreciate everybody supporting them, and"
-  },
-  {
-    "speaker": "Elijah Tibbs",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 1549.56,
-    "end": 1551.84,
-    "text": "For our proclamation. Mayor, thank you so much."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 1551.84,
-    "end": 1552.84,
-    "text": "Thank you."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
-    "start": 1552.84,
-    "end": 1560.24,
-    "text": "And who is, who is this officer, officer?"
-  },
-  {
-    "speaker": "Elijah Tibbs",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 1560.36,
-    "end": 1563.72,
-    "text": "I forgot to introduce Sherry."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
-    "start": 1563.72,
-    "end": 1565.72,
-    "text": "Officer Sherry? Okay, Officer Sherry?"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 1565.72,
-    "end": 1574.08,
-    "text": "Okay. Wonderful, wonderful. Sherry's our pure wellness dog, so she's here to support everybody."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
-    "start": 1574.08,
-    "end": 1575.08,
-    "text": "So we are going to now have a picture."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 1575.08,
     "end": 1576.08,
-    "text": "All right."
+    "text": "And it's something beautiful to watch if you ever have the opportunity to be in a 911 center and to see what happens, particularly when there's a critical situation occurring in the city, and all of them come together, and whether it's, you have to understand what they do. They take the phone call, they're a detective, they're asking questions, they're figuring out what it is that's happening, where it's happening, what's that vital information that has to get routed to our responding police or fire personnel. At the same time, they're typing it all and routing it to the police officers and emergency personnel real-time. As they're typing it, figuring out what to ask, what's the next question, typing it in And routing it to the right people, and assigning the right personnel to respond to that call. It's incredible. And so I really thank all of our Dispatchers, appreciate everybody supporting them, and For our proclamation. Mayor, thank you so much. Thank you. And who is, who is this officer, officer? I forgot to introduce Sherry. Officer Sherry? Okay, Officer Sherry? Okay. Wonderful, wonderful. Sherry's our pure wellness dog, so she's here to support everybody. So we are going to now have a picture. All right."
   },
   {
     "speaker": "Unknown Speaker",
@@ -614,16 +270,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 1643.88,
-    "end": 1648.84,
-    "text": "Is there a motion to approve the agenda? I move to adopt the agenda as presented."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 1648.84,
     "end": 1649.84,
-    "text": "Is there a second?"
+    "text": "Is there a motion to approve the agenda? I move to adopt the agenda as presented. Is there a second?"
   },
   {
     "speaker": "Councilmember Anthony Amos",
@@ -638,16 +286,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 1650.84,
-    "end": 1653.04,
-    "text": "The motion has been made and seconded."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 1653.04,
     "end": 1655.2,
-    "text": "A roll call vote."
+    "text": "The motion has been made and seconded. A roll call vote."
   },
   {
     "speaker": "Councilmember Anthony Amos",
@@ -678,104 +318,16 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "heuristic",
     "speaker_source_detail": "self_introduction",
     "start": 1690.08,
-    "end": 1725.68,
-    "text": "My name is Anita Light, and I'm here tonight in three capacities. First as the chair of the Fairfax Village in the City Advisory Board, resident of Fairfax City, obviously, and as an older adult. As chair of the Fairfax Village in the City Advisory Board, we wanted to emphasize our support for the Willard Sherwood Center, as noted in our letter to you all dated April 6th. In that letter, we noted that supporting the new Willard Sherwood Center would help make accessibility for older adults easier and safer."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "mixed",
-    "speaker_source_detail": "mixed_or_rejected_audio",
-    "start": 1725.68,
     "end": 1738.76,
-    "text": "We also noted that this project was a community partnership effort with the county, as well as the residents of both the city and the county. And finally, we highlighted that this project is a long-term investment for the future of"
+    "text": "My name is Anita Light, and I'm here tonight in three capacities. First as the chair of the Fairfax Village in the City Advisory Board, resident of Fairfax City, obviously, and as an older adult. As chair of the Fairfax Village in the City Advisory Board, we wanted to emphasize our support for the Willard Sherwood Center, as noted in our letter to you all dated April 6th. In that letter, we noted that supporting the new Willard Sherwood Center would help make accessibility for older adults easier and safer. We also noted that this project was a community partnership effort with the county, as well as the residents of both the city and the county. And finally, we highlighted that this project is a long-term investment for the future of"
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
     "speaker_source": "caption",
     "speaker_source_detail": "caption:explicit",
     "start": 1738.76,
-    "end": 1740.16,
-    "text": "The city."
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "mixed",
-    "speaker_source_detail": "mixed_or_rejected_audio",
-    "start": 1740.16,
-    "end": 1775.2,
-    "text": "And as an additional note on the advisory board, and for a more important reason, we really support advancing the Willard Sherwood Center to help enhance the Villages Expo that we had this past Friday, which was a huge success. And if we had even better facility with better parking, it would help that event even better. And as a resident of the city, I support the Willard Sherwood Center because this facility will afford a generational opportunity for programming for older adults and children"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "mixed",
-    "speaker_source_detail": "mixed_or_rejected_audio",
-    "start": 1775.32,
-    "end": 1811.76,
-    "text": "And support the health care needs of our city. The partnership with the county has been longstanding, and as a result, the city is able to do more for the residents than they would otherwise be able to do, for instance, on social services, emergency dispatch, libraries, court services, and schools, to name a few. Without these partnerships, the cost to our residents would be significantly more. if we had to provide these basic services on our own. I've been a lifelong proponent of continuous improvement in organizations and while the Willard Sherwood Center is not an organization it is a joint"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "mixed",
-    "speaker_source_detail": "mixed_or_rejected_audio",
-    "start": 1811.76,
-    "end": 1815.68,
-    "text": "Partnership with the county that needs to be continuously improved"
-  },
-  {
-    "speaker": "Councilmember Rachel McQuillen",
-    "speaker_source": "caption",
-    "speaker_source_detail": "caption:explicit",
-    "start": 1815.68,
-    "end": 1821.68,
-    "text": "And nurtured to avoid even further cost. As an older adult, which I'm getting"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "mixed",
-    "speaker_source_detail": "mixed_or_rejected_audio",
-    "start": 1821.68,
-    "end": 1850.72,
-    "text": "Older and older by the minute, I support the Willard Sherwood Center project because participating in programs at Green Acres is potentially hazardous to my physical well-being. When I attended events at the Green Acres Center I had had recent knee surgery and since parking at the Green Acres Center is at a premium, walking to the entrance was very difficult and walking down those steps to get to the front door was"
-  },
-  {
-    "speaker": "Councilmember Rachel McQuillen",
-    "speaker_source": "caption",
-    "speaker_source_detail": "caption:explicit",
-    "start": 1850.72,
-    "end": 1853.68,
-    "text": "Even more difficult and then once you get inside the"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "mixed",
-    "speaker_source_detail": "mixed_or_rejected_audio",
-    "start": 1853.68,
-    "end": 1865.36,
-    "text": "Building you have more steps to get to some of the rooms and that gets increasingly difficult for the older people. Having access to a new modernized Willard"
-  },
-  {
-    "speaker": "Councilmember Rachel McQuillen",
-    "speaker_source": "caption",
-    "speaker_source_detail": "caption:explicit",
-    "start": 1865.36,
-    "end": 1870.56,
-    "text": "Sherwood Center, so while I urge you to,"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "mixed",
-    "speaker_source_detail": "mixed_or_rejected_audio",
-    "start": 1870.56,
-    "end": 1888.16,
-    "text": "While there is a cost to modernization and there will be additional costs to the center, I urge you to support its development that will help the more than 9,000 older adults in Fairfax City and we appreciate and thank you for your consideration. Thank you."
-  },
-  {
-    "speaker": "Councilmember Rachel McQuillen",
-    "speaker_source": "caption_override",
-    "speaker_source_detail": "caption:explicit",
-    "start": 1888.16,
     "end": 1892.0,
-    "text": "Our next speaker is Kevin Anderson."
+    "text": "The city. And as an additional note on the advisory board, and for a more important reason, we really support advancing the Willard Sherwood Center to help enhance the Villages Expo that we had this past Friday, which was a huge success. And if we had even better facility with better parking, it would help that event even better. And as a resident of the city, I support the Willard Sherwood Center because this facility will afford a generational opportunity for programming for older adults and children And support the health care needs of our city. The partnership with the county has been longstanding, and as a result, the city is able to do more for the residents than they would otherwise be able to do, for instance, on social services, emergency dispatch, libraries, court services, and schools, to name a few. Without these partnerships, the cost to our residents would be significantly more. if we had to provide these basic services on our own. I've been a lifelong proponent of continuous improvement in organizations and while the Willard Sherwood Center is not an organization it is a joint Partnership with the county that needs to be continuously improved And nurtured to avoid even further cost. As an older adult, which I'm getting Older and older by the minute, I support the Willard Sherwood Center project because participating in programs at Green Acres is potentially hazardous to my physical well-being. When I attended events at the Green Acres Center I had had recent knee surgery and since parking at the Green Acres Center is at a premium, walking to the entrance was very difficult and walking down those steps to get to the front door was Even more difficult and then once you get inside the Building you have more steps to get to some of the rooms and that gets increasingly difficult for the older people. Having access to a new modernized Willard Sherwood Center, so while I urge you to, While there is a cost to modernization and there will be additional costs to the center, I urge you to support its development that will help the more than 9,000 older adults in Fairfax City and we appreciate and thank you for your consideration. Thank you. Our next speaker is Kevin Anderson."
   },
   {
     "speaker": "Kevin Anderson",

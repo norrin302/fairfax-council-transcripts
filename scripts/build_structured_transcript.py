@@ -1057,9 +1057,12 @@ def main() -> int:
             continue
 
         # Case B: absorb small Unknown gaps into adjacent labeled speakers
-        # A 0-gap Unknown turn directly abutting a labeled turn is a pyannote artifact,
-        # not a real gap — don't absorb it. Require gap > 0.
-        if _is_labeled(prev_speaker) and not _is_labeled(speaker) and 0 < gap < ABSORB_MAX_GAP and unknown_absorbed_count < MAX_CONSECUTIVE_ABSORB:
+        # A 0-gap Unknown turn abutting a labeled prev speaker is a pyannote fragmentation
+        # artifact — absorb it (it's part of the prev labeled speaker's speech act).
+        # A 0-gap Unknown turn abutting an Unknown prev speaker is a real speaker change
+        # (or more fragments of the Unknown) — do NOT absorb (Case A would have merged if
+        # prev was labeled and same speaker).
+        if _is_labeled(prev_speaker) and not _is_labeled(speaker) and gap < ABSORB_MAX_GAP and unknown_absorbed_count < MAX_CONSECUTIVE_ABSORB:
             prev["end"] = t["end"]
             prev["text"] = prev["text"] + " " + t["text"]
             unknown_absorbed_count += 1
