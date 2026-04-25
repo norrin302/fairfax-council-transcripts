@@ -386,9 +386,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Good evening. Douglas Stewart, 10822 Maple Street. I'm here to also voice my support for moving forward with the Willard Sherwood Center. I appreciate the discussions you've had about this project. My wife and I have lived here for 22 years and I realize this project has both operating and capital costs that we have to reckon with and that we'll see in our tax bills. The costs are significant but I believe the benefits will far outweigh them and really we're talking about a multi-generational community center, something for all ages, with first-class preventive health Services. We're talking about a new third place for our youth and people of all ages. We're talking about outstanding facilities that the whole community can congregate in and enjoy. People from 8 to 80 to 90 or even 6 to 90 or what I mean. There's something in this for everyone and also just the preventive health, including serving our residents in Fairfax City, will be outstanding including dentistry. It's going to improve quality of life for so many people in so many different ways. The costs are significant. We know we're going to see higher tax bills. We know that and sometimes when you're looking at the future, what are we going to have in the future here? It's uncertain. It's an investment but it's going to be here for generations and I'm confident that in 30 years our kids today or the grandkids of our kids, the kids of our kids are going to be talking about this and have memories. I did this. Do you remember when we did this at the community center? It's going to be part of our community and it couldn't be in a better place right near our signature park and our downtown. So I think it's a fantastic investment. The previous speaker mentioned the LEED Gold and I just would just emphasize that I hope you stick to that LEED Gold standard. That's a really high standard for energy and water efficiency and if we hold to that as the previous speaker mentioned, we're going to significantly save in energy costs and other costs from like stormwater management. So I think this is going to change people's experiences of the city for generations and I"
   },
   {
-    "speaker": "Councilmember Rachel McQuillen",
-    "speaker_source": "caption",
-    "speaker_source_detail": "caption:explicit",
+    "speaker": "Douglas Stewart",
+    "speaker_source": "caption_override",
+    "speaker_source_detail": "caption:granicus_no_speaker_asr_confirms",
     "start": 2255.92,
     "end": 2259.44,
     "text": "Strongly support it. Thank you."

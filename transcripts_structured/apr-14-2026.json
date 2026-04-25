@@ -593,10 +593,10 @@
       "end": 2259.44,
       "text": "Strongly support it. Thank you.",
       "speaker_raw": "UNKNOWN",
-      "speaker_public": "Councilmember Rachel McQuillen",
-      "speaker_status": "caption",
+      "speaker_public": "Douglas Stewart",
+      "speaker_status": "caption_override",
       "needs_review": false,
-      "review_reason": "caption:explicit",
+      "review_reason": "caption:granicus_no_speaker_asr_confirms",
       "confidence": null
     },
     {
