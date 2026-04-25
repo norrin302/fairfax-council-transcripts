@@ -633,13 +633,11 @@ def _apply_name_call_handoffs(turns: list[dict[str, Any]]) -> list[dict[str, Any
             "kevin": "kevin",
             "jc": "jc",
         }
-        prev_parts = prev_name.lower().split()
-        prev_last = prev_parts[-1] if prev_parts else ""
-        expected_nick = nicknames.get(prev_last, prev_last)
+        expected_nick = nicknames.get(prev_name.lower().split()[-1], prev_name.lower().split()[-1])
         thank_you_m = _THANKYOU_PAT.search(nxt.get("text", "") or "")
         if thank_you_m:
             thanked = thank_you_m.group(1).lower()
-            if thanked == expected_nick or thanked == prev_last:
+            if thanked == expected_nick or thanked == prev_name.lower().split()[-1]:
                 # Confident: next speaker is the named person
                 result[i + 1] = nxt.copy()
                 result[i + 1]["speaker_public"] = named
@@ -1045,13 +1043,7 @@ def main() -> int:
         _do_merge = (_is_labeled(speaker) and _is_labeled(prev_speaker)
                 and prev_speaker == speaker and gap < MERGE_MAX_GAP
                 and ((prev.get("handoff_applied") is not True and prev.get("self_intro_applied") is not True)
-                     or (t.get("speaker_status") == "approved" and prev.get("speaker_status") == "heuristic" and prev.get("handoff_applied") is True)
-                     # self_intro is a pyannote artifact — the speaker said their name then continued.
-                     # Allow merging when prev has self_intro (same person continuing) regardless of status combo.
-                     or (prev.get("self_intro_applied") is True)
-                     # Merge same-speaker blocks separated by short labeled interjections (e.g., Mayor
-                     # briefly interjects then same council member resumes). Allow all-status combos.
-                     or (prev.get("speaker_status") == "approved" and t.get("speaker_status") == "approved")))
+                     or (t.get("speaker_status") == "approved" and prev.get("speaker_status") == "heuristic" and prev.get("handoff_applied") is True)))
         if _do_merge:
             prev["end"] = t["end"]
             prev["text"] = prev["text"] + " " + t["text"]
