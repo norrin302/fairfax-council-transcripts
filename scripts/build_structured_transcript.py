@@ -1043,7 +1043,10 @@ def main() -> int:
         _do_merge = (_is_labeled(speaker) and _is_labeled(prev_speaker)
                 and prev_speaker == speaker and gap < MERGE_MAX_GAP
                 and ((prev.get("handoff_applied") is not True and prev.get("self_intro_applied") is not True)
-                     or (t.get("speaker_status") == "approved" and prev.get("speaker_status") == "heuristic" and prev.get("handoff_applied") is True)))
+                     or (t.get("speaker_status") == "approved" and prev.get("speaker_status") == "heuristic" and prev.get("handoff_applied") is True)
+                     # Merge same-speaker blocks separated by short labeled interjections (e.g., Mayor
+                     # briefly interjects then same council member resumes). Allow all-status combos.
+                     or (prev.get("speaker_status") == "approved" and t.get("speaker_status") == "approved")))
         if _do_merge:
             prev["end"] = t["end"]
             prev["text"] = prev["text"] + " " + t["text"]

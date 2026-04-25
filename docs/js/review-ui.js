@@ -348,10 +348,10 @@
     document.querySelectorAll('.speaker-block').forEach(function (block) {
       var speakerKey2 = String(block.dataset.speaker || '').toLowerCase();
       console.log('[review-ui] block dataset.speaker:', block.dataset.speaker, '-> key:', speakerKey2, 'compare:', speakerKey2 === speakerKey('Unknown Speaker'));
-      if (speakerKey2 !== speakerKey('Unknown Speaker')) return;
-      var blockIndex = parseInt(block.dataset.index || '0', 10);
-      var blockInfo = blocks[blockIndex];
-      if (!blockInfo) return;
+      // Label button appears on ALL speaker blocks (not just Unknown), so reviewer
+      // can correct any misattributed speaker, including named officials and public commenters.
+      // Only skip if block has no turn IDs.
+      if (!blockInfo.turnIds || blockInfo.turnIds.length === 0) return;
       if (block.querySelector('.label-btn')) return;
 
       var staged = PENDING_DECISIONS.find(function (d) {
@@ -1237,9 +1237,9 @@
   function getModalHtml(blockInfo, existing) {
     var timeLabel = formatTime(blockInfo.start);
     var previewText = (blockInfo.texts[0] || '').slice(0, 120) + (blockInfo.texts[0] || '').length > 120 ? '…' : '';
-    var exSpeaker = existing ? existing.speaker_name || '' : '';
+    var exSpeaker = existing ? existing.speaker_name || '' : (blockInfo.speaker || '');
     var exNotes = existing ? (existing.evidence_note || existing.notes || '') : '';
-    var exType = existing ? existing.speaker_type || '' : '';
+    var exType = existing ? existing.speaker_type || '' : (blockInfo.speaker && blockInfo.speaker !== 'Unknown Speaker' ? 'labeled' : '');
     var exReviewer = existing && existing.reviewer ? existing.reviewer : REVIEWER_DEFAULT;
 
     return [
