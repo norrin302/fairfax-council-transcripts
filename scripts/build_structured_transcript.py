@@ -1084,16 +1084,19 @@ def main() -> int:
         # such turns represent complete speech acts that should not absorb following turns.
         # Exception: don't block labeled→heuristic merges (so labeled turns can absorb
         # heuristic-labeled turns that were upgraded from unknown via handoff or self-intro).
-        _do_merge = (_is_labeled(speaker) and _is_labeled(prev_speaker)
-                and prev_speaker == speaker and gap < MERGE_MAX_GAP
-                and ((prev.get("handoff_applied") is not True and prev.get("self_intro_applied") is not True)
-                     or (t.get("speaker_status") == "approved" and prev.get("speaker_status") == "heuristic" and prev.get("handoff_applied") is True)
-                     # self_intro is a pyannote artifact — the speaker said their name then continued.
-                     # Allow merging when prev has self_intro (same person continuing) regardless of status combo.
-                     or (prev.get("self_intro_applied") is True)
-                     # Merge same-speaker blocks separated by short labeled interjections (e.g., Mayor
-                     # briefly interjects then same council member resumes). Allow all-status combos.
-                     or (prev.get("speaker_status") == "approved" and t.get("speaker_status") == "approved")))
+        _do_merge = (
+            # Case A: both labeled, same speaker, small gap → merge
+            (_is_labeled(speaker) and _is_labeled(prev_speaker)
+             and prev_speaker == speaker and gap < MERGE_MAX_GAP
+             and ((prev.get("handoff_applied") is not True and prev.get("self_intro_applied") is not True)
+                  or (t.get("speaker_status") == "approved" and prev.get("speaker_status") == "heuristic" and prev.get("handoff_applied") is True)
+                  or (prev.get("self_intro_applied") is True)
+                  or (prev.get("speaker_status") == "approved" and t.get("speaker_status") == "approved")))
+            # Pre-merge groups consecutive same speaker_raw blocks, but Case A can't merge them
+            # when speaker_public resolves to "Unknown Speaker" for both (pyannote fragmentation).
+            # Merge if speaker_raw matches — pre-merge guarantees they're consecutive.
+            or (prev.get("speaker_raw") == t.get("speaker_raw") and gap < MERGE_MAX_GAP)
+        )
         if _do_merge:
             prev["end"] = t["end"]
             prev["text"] = prev["text"] + " " + t["text"]
