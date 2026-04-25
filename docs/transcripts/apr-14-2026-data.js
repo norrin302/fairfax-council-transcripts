@@ -111,7 +111,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 419.66,
     "end": 435.1,
-    "text": "Am now going to ask Stephanie Kupka and a Safford City Environmental Sustainability Committee members Faisal alam rusty Russell and everyone else who is here from the ESC To come come down here so we can talk about Earth Day and Arbor Day"
+    "text": "Am now going to ask Stephanie Kupka and a Safford City Environmental Sustainability Committee members Faisal Alam rusty Russell and everyone else who is here from the ESC To come come down here so we can talk about Earth Day and Arbor Day"
   },
   {
     "speaker": "Mayor Catherine Read",
