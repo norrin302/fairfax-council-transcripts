@@ -13,116 +13,26 @@
   ],
   "items": [
     {
-      "turn_id": "turn_000001",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 0.0,
-      "end": 2.0,
-      "text": "Oh",
-      "word_count": 1,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000001",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 0.0,
-          "end": 2.0,
-          "text": "Oh",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000002",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 30.0,
-          "end": 32.0,
-          "text": "I",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000002",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 30.0,
-      "end": 32.0,
-      "text": "I",
-      "word_count": 1,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000001",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 0.0,
-          "end": 2.0,
-          "text": "Oh",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000002",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 30.0,
-          "end": 32.0,
-          "text": "I",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000003",
-          "speaker_public": "Mayor Catherine Read",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "heuristic",
-          "start": 60.0,
-          "end": 72.44,
-          "text": "Would like to call the regular meeting of April 14th 2026 to order. It's good to see the chamber full We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the Pledge of Allegiance",
-          "is_target": false
-        }
-      ]
-    },
-    {
       "turn_id": "turn_000003",
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "heuristic",
       "review_reason": "text_heuristic",
-      "start": 60.0,
+      "start": 30.0,
       "end": 72.44,
-      "text": "Would like to call the regular meeting of April 14th 2026 to order. It's good to see the chamber full We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the Pledge of Allegiance",
-      "word_count": 43,
+      "text": "I Would like to call the regular meeting of April 14th 2026 to order. It's good to see the chamber full We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the Pledge of Allegiance",
+      "word_count": 44,
       "final_reviewer_action": "pending",
       "final_reviewer_notes": "",
       "context": [
-        {
-          "turn_id": "turn_000002",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 30.0,
-          "end": 32.0,
-          "text": "I",
-          "is_target": false
-        },
         {
           "turn_id": "turn_000003",
           "speaker_public": "Mayor Catherine Read",
           "speaker_raw": "UNKNOWN",
           "speaker_status": "heuristic",
-          "start": 60.0,
+          "start": 30.0,
           "end": 72.44,
-          "text": "Would like to call the regular meeting of April 14th 2026 to order. It's good to see the chamber full We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the Pledge of Allegiance",
+          "text": "I Would like to call the regular meeting of April 14th 2026 to order. It's good to see the chamber full We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the Pledge of Allegiance",
           "is_target": true
         },
         {
@@ -155,9 +65,9 @@
           "speaker_public": "Mayor Catherine Read",
           "speaker_raw": "UNKNOWN",
           "speaker_status": "heuristic",
-          "start": 60.0,
+          "start": 30.0,
           "end": 72.44,
-          "text": "Would like to call the regular meeting of April 14th 2026 to order. It's good to see the chamber full We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the Pledge of Allegiance",
+          "text": "I Would like to call the regular meeting of April 14th 2026 to order. It's good to see the chamber full We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the Pledge of Allegiance",
           "is_target": false
         },
         {
@@ -396,58 +306,13 @@
           "is_target": true
         },
         {
-          "turn_id": "turn_000023",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 415.3,
-          "end": 417.3,
-          "text": "I",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000023",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 415.3,
-      "end": 417.3,
-      "text": "I",
-      "word_count": 1,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000022",
-          "speaker_public": "Suzanne Levy",
-          "speaker_raw": "SPEAKER_19",
-          "speaker_status": "approved",
-          "start": 400.94,
-          "end": 410.9,
-          "text": "Thank you so much and thank you for this and the staff is going to take it back to the library And I'll put it in a prominent place. I will see you at the library",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000023",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 415.3,
-          "end": 417.3,
-          "text": "I",
-          "is_target": true
-        },
-        {
           "turn_id": "turn_000024",
           "speaker_public": "Mayor Catherine Read",
           "speaker_raw": "SPEAKER_22",
           "speaker_status": "approved",
-          "start": 419.66,
+          "start": 415.3,
           "end": 435.1,
-          "text": "Am now going to ask Stephanie Kupka and a Safford City Environmental Sustainability Committee members Faisal alam rusty Russell and everyone else who is here from the ESC To come come down here so we can talk about Earth Day and Arbor Day",
+          "text": "I Am now going to ask Stephanie Kupka and a Safford City Environmental Sustainability Committee members Faisal Alam rusty Russell and everyone else who is here from the ESC To come come down here so we can talk about Earth Day and Arbor Day",
           "is_target": false
         }
       ]
@@ -487,7 +352,7 @@
         },
         {
           "turn_id": "turn_000034",
-          "speaker_public": "Fasa Alam",
+          "speaker_public": "Faisal Alam",
           "speaker_raw": "SPEAKER_08",
           "speaker_status": "approved",
           "start": 611.56,
@@ -500,7 +365,7 @@
     {
       "turn_id": "turn_000034",
       "speaker_raw": "SPEAKER_08",
-      "speaker_public": "Fasa Alam",
+      "speaker_public": "Faisal Alam",
       "speaker_status": "approved",
       "review_reason": "",
       "start": 611.56,
@@ -522,7 +387,7 @@
         },
         {
           "turn_id": "turn_000034",
-          "speaker_public": "Fasa Alam",
+          "speaker_public": "Faisal Alam",
           "speaker_raw": "SPEAKER_08",
           "speaker_status": "approved",
           "start": 611.56,
@@ -557,7 +422,7 @@
       "context": [
         {
           "turn_id": "turn_000034",
-          "speaker_public": "Fasa Alam",
+          "speaker_public": "Faisal Alam",
           "speaker_raw": "SPEAKER_08",
           "speaker_status": "approved",
           "start": 611.56,
@@ -628,51 +493,6 @@
           "start": 965.32,
           "end": 967.32,
           "text": "Well, thank you, Jen. You covered all of it.",
-          "is_target": false
-        }
-      ]
-    },
-    {
-      "turn_id": "turn_000059",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "review_reason": "no_diarization",
-      "start": 995.32,
-      "end": 997.32,
-      "text": "All right.",
-      "word_count": 2,
-      "final_reviewer_action": "pending",
-      "final_reviewer_notes": "",
-      "context": [
-        {
-          "turn_id": "turn_000058",
-          "speaker_public": "Mayor Catherine Read",
-          "speaker_raw": "SPEAKER_22",
-          "speaker_status": "approved",
-          "start": 970.32,
-          "end": 984.32,
-          "text": "Well, so the commitment to, you know, and I've got asters in my yard and these plants are beautiful too. So think about the fact that when you choose what you plant in your yard, there's all kinds of benefits, like you get to have butterflies. Okay, with that, a photo.",
-          "is_target": false
-        },
-        {
-          "turn_id": "turn_000059",
-          "speaker_public": "Unknown Speaker",
-          "speaker_raw": "UNKNOWN",
-          "speaker_status": "unknown",
-          "start": 995.32,
-          "end": 997.32,
-          "text": "All right.",
-          "is_target": true
-        },
-        {
-          "turn_id": "turn_000060",
-          "speaker_public": "Mayor Catherine Read",
-          "speaker_raw": "SPEAKER_22",
-          "speaker_status": "approved",
-          "start": 1017.32,
-          "end": 1029.56,
-          "text": "So I'm going to now invite the women's club of Fairfax to join me up here so that we can talk about the 70th anniversary of this very august body of women who exist here in our city.",
           "is_target": false
         }
       ]

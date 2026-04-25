@@ -8,34 +8,10 @@
   },
   "turns": [
     {
-      "turn_id": "turn_000001",
-      "start": 0.0,
-      "end": 2.0,
-      "text": "Oh",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
-    },
-    {
-      "turn_id": "turn_000002",
-      "start": 30.0,
-      "end": 32.0,
-      "text": "I",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
-    },
-    {
       "turn_id": "turn_000003",
-      "start": 60.0,
+      "start": 30.0,
       "end": 72.44,
-      "text": "Would like to call the regular meeting of April 14th 2026 to order. It's good to see the chamber full We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the Pledge of Allegiance",
+      "text": "I Would like to call the regular meeting of April 14th 2026 to order. It's good to see the chamber full We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the Pledge of Allegiance",
       "speaker_raw": "UNKNOWN",
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "heuristic",
@@ -153,22 +129,10 @@
       "confidence": null
     },
     {
-      "turn_id": "turn_000023",
-      "start": 415.3,
-      "end": 417.3,
-      "text": "I",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
-      "confidence": null
-    },
-    {
       "turn_id": "turn_000024",
-      "start": 419.66,
+      "start": 415.3,
       "end": 435.1,
-      "text": "Am now going to ask Stephanie Kupka and a Safford City Environmental Sustainability Committee members Faisal Alam rusty Russell and everyone else who is here from the ESC To come come down here so we can talk about Earth Day and Arbor Day",
+      "text": "I Am now going to ask Stephanie Kupka and a Safford City Environmental Sustainability Committee members Faisal Alam rusty Russell and everyone else who is here from the ESC To come come down here so we can talk about Earth Day and Arbor Day",
       "speaker_raw": "SPEAKER_22",
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "approved",
@@ -219,7 +183,7 @@
       "end": 658.84,
       "text": "Room have that. And since October, I have not paid anything to Dominion other than $7 something, and I have exported a lot of power out there. So this year again, the Solarize Virginia is a great program. It's opening up again on April 16th, Stephanie? Yes. On April 15th, and it will continue. It is a very good vetted program. It's the best rate you're going to get. So just spread the word out and do that. And please join us on the Arbor Day on April 25th. The event begins at 9 a.m. We will have some students who are written beautiful poetries. They will be reciting. We'll have tree giveaways, tree plantations, And a lot of fun. So please join us. All right. Any other remarks? Okay. Thank you.",
       "speaker_raw": "SPEAKER_08",
-      "speaker_public": "Fasa Alam",
+      "speaker_public": "Faisal Alam",
       "speaker_status": "approved",
       "needs_review": false,
       "review_reason": "",
@@ -265,25 +229,13 @@
     {
       "turn_id": "turn_000058",
       "start": 970.32,
-      "end": 984.32,
-      "text": "Well, so the commitment to, you know, and I've got asters in my yard and these plants are beautiful too. So think about the fact that when you choose what you plant in your yard, there's all kinds of benefits, like you get to have butterflies. Okay, with that, a photo.",
+      "end": 997.32,
+      "text": "Well, so the commitment to, you know, and I've got asters in my yard and these plants are beautiful too. So think about the fact that when you choose what you plant in your yard, there's all kinds of benefits, like you get to have butterflies. Okay, with that, a photo. All right.",
       "speaker_raw": "SPEAKER_22",
       "speaker_public": "Mayor Catherine Read",
       "speaker_status": "approved",
       "needs_review": false,
       "review_reason": "",
-      "confidence": null
-    },
-    {
-      "turn_id": "turn_000059",
-      "start": 995.32,
-      "end": 997.32,
-      "text": "All right.",
-      "speaker_raw": "UNKNOWN",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "unknown",
-      "needs_review": true,
-      "review_reason": "no_diarization",
       "confidence": null
     },
     {
