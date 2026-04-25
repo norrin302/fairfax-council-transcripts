@@ -1109,23 +1109,30 @@ def main() -> int:
             unknown_absorbed_count = 0
             continue
 
-        # Case B: absorb small Unknown gaps into adjacent labeled speakers
-        # A 0-gap Unknown turn abutting a labeled prev speaker is a pyannote fragmentation
-        # artifact — absorb it (it's part of the prev labeled speaker's speech act).
-        # A 0-gap Unknown turn abutting an Unknown prev speaker is a real speaker change
-        # (or more fragments of the Unknown) — do NOT absorb (Case A would have merged if
-        # prev was labeled and same speaker).
-        # Case B: absorb small Unknown-labeled gaps (speaker_raw=UNKNOWN) into adjacent labeled speakers.
-        # We check speaker_raw directly — a pyannote speaker ID like SPEAKER_29 may resolve to
-        # "Unknown Speaker" publicly but is still a labeled pyannote speaker that should NOT be
-        # absorbed here. Only true UNKNOWN pyannote segments are Case B absorption targets.
+        # Case B: absorb small UNKNOWN-labeled gaps (speaker_raw=UNKNOWN) ONLY when flanked by
+        # the SAME pyannote speaker_raw on both sides (prev and next).
+        # This handles pyannote fragmenting one speaker's words: SPEAKER_XX...UNKNOWN...SPEAKER_XX
+        # where the filler words ("the", "and", "so") are labeled UNKNOWN while content words
+        # get SPEAKER_XX. We absorb the filler into the speaker's block.
+        # When flanked by DIFFERENT speaker_raw on each side (e.g. SPEAKER_21...UNKNOWN...SPEAKER_21
+        # where these are two different people), the UNKNOWN is a real speaker — do NOT absorb.
         prev_raw = prev.get("speaker_raw", "")
         curr_raw = t.get("speaker_raw", "")
-        if prev_raw != "UNKNOWN" and curr_raw == "UNKNOWN" and gap < ABSORB_MAX_GAP and unknown_absorbed_count < MAX_CONSECUTIVE_ABSORB:
-            prev["end"] = t["end"]
-            prev["text"] = prev["text"] + " " + t["text"]
-            unknown_absorbed_count += 1
-            continue
+        if (prev_raw != "UNKNOWN" and curr_raw == "UNKNOWN"
+                and gap < ABSORB_MAX_GAP and unknown_absorbed_count < MAX_CONSECUTIVE_ABSORB):
+            # Look ahead: find next non-UNKNOWN block's speaker_raw to determine if flanked by same speaker
+            next_raw: str | None = None
+            for lookahead in structured_turns[i + 1:]:
+                nr = str(lookahead.get("speaker_raw") or "")
+                if nr != "UNKNOWN":
+                    next_raw = nr
+                    break
+            # Only absorb if flanked by the SAME speaker_raw on both sides
+            if next_raw == prev_raw:
+                prev["end"] = t["end"]
+                prev["text"] = prev["text"] + " " + t["text"]
+                unknown_absorbed_count += 1
+                continue
 
         # Case C removed — do NOT absorb labeled turns into an Unknown-prev block.
         # Unknown→labeled transitions are real speaker changes; keep them separate.
