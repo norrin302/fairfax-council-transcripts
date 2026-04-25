@@ -1115,7 +1115,13 @@ def main() -> int:
         # A 0-gap Unknown turn abutting an Unknown prev speaker is a real speaker change
         # (or more fragments of the Unknown) — do NOT absorb (Case A would have merged if
         # prev was labeled and same speaker).
-        if _is_labeled(prev_speaker) and not _is_labeled(speaker) and gap < ABSORB_MAX_GAP and unknown_absorbed_count < MAX_CONSECUTIVE_ABSORB:
+        # Case B: absorb small Unknown-labeled gaps (speaker_raw=UNKNOWN) into adjacent labeled speakers.
+        # We check speaker_raw directly — a pyannote speaker ID like SPEAKER_29 may resolve to
+        # "Unknown Speaker" publicly but is still a labeled pyannote speaker that should NOT be
+        # absorbed here. Only true UNKNOWN pyannote segments are Case B absorption targets.
+        prev_raw = prev.get("speaker_raw", "")
+        curr_raw = t.get("speaker_raw", "")
+        if prev_raw != "UNKNOWN" and curr_raw == "UNKNOWN" and gap < ABSORB_MAX_GAP and unknown_absorbed_count < MAX_CONSECUTIVE_ABSORB:
             prev["end"] = t["end"]
             prev["text"] = prev["text"] + " " + t["text"]
             unknown_absorbed_count += 1
