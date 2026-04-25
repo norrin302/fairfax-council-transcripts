@@ -97,6 +97,16 @@
       "status": "approved",
       "name": "Jennifer Rose",
       "speaker_key": ""
+    },
+    "SPEAKER_20": {
+      "status": "approved",
+      "name": "Mayor Catherine Read",
+      "speaker_key": "mayor_catherine_read"
+    },
+    "SPEAKER_15": {
+      "status": "approved",
+      "name": "Mayor Catherine Read",
+      "speaker_key": "mayor_catherine_read"
     }
   },
   "SPEAKER_24": {

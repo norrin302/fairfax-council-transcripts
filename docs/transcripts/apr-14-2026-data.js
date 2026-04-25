@@ -114,9 +114,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Am now going to ask Stephanie Kupka and a Safford City Environmental Sustainability Committee members Faisal alam rusty Russell and everyone else who is here from the ESC To come come down here so we can talk about Earth Day and Arbor Day"
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 439.18,
     "end": 441.18,
     "text": "All right, all right, all right"
@@ -258,9 +258,9 @@ const TRANSCRIPT_TURNS = [
     "text": "And it's something beautiful to watch if you ever have the opportunity to be in a 911 center and to see what happens, particularly when there's a critical situation occurring in the city, and all of them come together, and whether it's, you have to understand what they do. They take the phone call, they're a detective, they're asking questions, they're figuring out what it is that's happening, where it's happening, what's that vital information that has to get routed to our responding police or fire personnel. At the same time, they're typing it all and routing it to the police officers and emergency personnel real-time. As they're typing it, figuring out what to ask, what's the next question, typing it in And routing it to the right people, and assigning the right personnel to respond to that call. It's incredible. And so I really thank all of our Dispatchers, appreciate everybody supporting them, and For our proclamation. Mayor, thank you so much. Thank you. And who is, who is this officer, officer? I forgot to introduce Sherry. Officer Sherry? Okay, Officer Sherry? Okay. Wonderful, wonderful. Sherry's our pure wellness dog, so she's here to support everybody. So we are going to now have a picture. All right."
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 1636.08,
     "end": 1643.88,
     "text": "We can move on to the adoption of the agenda."
@@ -286,16 +286,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 1650.84,
-    "end": 1655.2,
-    "text": "The motion has been made and seconded. A roll call vote."
-  },
-  {
-    "speaker": "Councilmember Anthony Amos",
-    "speaker_source": "caption_override",
-    "speaker_source_detail": "caption:explicit",
-    "start": 1655.2,
     "end": 1663.2,
-    "text": "Councilmember Amos? Aye. Councilmember Hall? Aye. Councilmember Hardy-Chandler? Aye. Councilmember Peterson? Aye."
+    "text": "The motion has been made and seconded. A roll call vote. Councilmember Amos? Aye. Councilmember Hall? Aye. Councilmember Hardy-Chandler? Aye. Councilmember Peterson? Aye."
   },
   {
     "speaker": "Councilmember Stacy Hall",
@@ -306,9 +298,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Councilmember Bates? Aye."
   },
   {
-    "speaker": "Councilmember Billy Bates",
-    "speaker_source": "caption_override",
-    "speaker_source_detail": "caption:explicit",
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 1665.2,
     "end": 1690.08,
     "text": "Motion passed unanimously. Sorry. All right. We will go on to initial general public comment. I had 10 speakers sign up by 5 o'clock p.m. today, so I will call the first one up, which Will be Anita Light. Good evening, Mayor Reed and members of City Council."
@@ -326,8 +318,16 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "caption",
     "speaker_source_detail": "caption:explicit",
     "start": 1738.76,
+    "end": 1888.16,
+    "text": "The city. And as an additional note on the advisory board, and for a more important reason, we really support advancing the Willard Sherwood Center to help enhance the Villages Expo that we had this past Friday, which was a huge success. And if we had even better facility with better parking, it would help that event even better. And as a resident of the city, I support the Willard Sherwood Center because this facility will afford a generational opportunity for programming for older adults and children And support the health care needs of our city. The partnership with the county has been longstanding, and as a result, the city is able to do more for the residents than they would otherwise be able to do, for instance, on social services, emergency dispatch, libraries, court services, and schools, to name a few. Without these partnerships, the cost to our residents would be significantly more. if we had to provide these basic services on our own. I've been a lifelong proponent of continuous improvement in organizations and while the Willard Sherwood Center is not an organization it is a joint Partnership with the county that needs to be continuously improved And nurtured to avoid even further cost. As an older adult, which I'm getting Older and older by the minute, I support the Willard Sherwood Center project because participating in programs at Green Acres is potentially hazardous to my physical well-being. When I attended events at the Green Acres Center I had had recent knee surgery and since parking at the Green Acres Center is at a premium, walking to the entrance was very difficult and walking down those steps to get to the front door was Even more difficult and then once you get inside the Building you have more steps to get to some of the rooms and that gets increasingly difficult for the older people. Having access to a new modernized Willard Sherwood Center, so while I urge you to, While there is a cost to modernization and there will be additional costs to the center, I urge you to support its development that will help the more than 9,000 older adults in Fairfax City and we appreciate and thank you for your consideration. Thank you."
+  },
+  {
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 1888.16,
     "end": 1892.0,
-    "text": "The city. And as an additional note on the advisory board, and for a more important reason, we really support advancing the Willard Sherwood Center to help enhance the Villages Expo that we had this past Friday, which was a huge success. And if we had even better facility with better parking, it would help that event even better. And as a resident of the city, I support the Willard Sherwood Center because this facility will afford a generational opportunity for programming for older adults and children And support the health care needs of our city. The partnership with the county has been longstanding, and as a result, the city is able to do more for the residents than they would otherwise be able to do, for instance, on social services, emergency dispatch, libraries, court services, and schools, to name a few. Without these partnerships, the cost to our residents would be significantly more. if we had to provide these basic services on our own. I've been a lifelong proponent of continuous improvement in organizations and while the Willard Sherwood Center is not an organization it is a joint Partnership with the county that needs to be continuously improved And nurtured to avoid even further cost. As an older adult, which I'm getting Older and older by the minute, I support the Willard Sherwood Center project because participating in programs at Green Acres is potentially hazardous to my physical well-being. When I attended events at the Green Acres Center I had had recent knee surgery and since parking at the Green Acres Center is at a premium, walking to the entrance was very difficult and walking down those steps to get to the front door was Even more difficult and then once you get inside the Building you have more steps to get to some of the rooms and that gets increasingly difficult for the older people. Having access to a new modernized Willard Sherwood Center, so while I urge you to, While there is a cost to modernization and there will be additional costs to the center, I urge you to support its development that will help the more than 9,000 older adults in Fairfax City and we appreciate and thank you for your consideration. Thank you. Our next speaker is Kevin Anderson."
+    "text": "Our next speaker is Kevin Anderson."
   },
   {
     "speaker": "Kevin Anderson",
@@ -402,9 +402,9 @@ const TRANSCRIPT_TURNS = [
     "text": "If we build a new center and we do a gradual transition to the new one, it'll be more of an evolutionary change to the routine. So I beseech you to approve this project and I thank you for your time."
   },
   {
-    "speaker": "Councilmember Rachel McQuillen",
-    "speaker_source": "caption_override",
-    "speaker_source_detail": "caption:explicit",
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 2099.84,
     "end": 2105.44,
     "text": "Thank you. Our next speaker is Douglas Stewart."
@@ -422,8 +422,16 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "caption",
     "speaker_source_detail": "caption:explicit",
     "start": 2255.92,
+    "end": 2259.44,
+    "text": "Strongly support it. Thank you."
+  },
+  {
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 2260.08,
     "end": 2263.84,
-    "text": "Strongly support it. Thank you. Our next speaker is Janet Jaworski."
+    "text": "Our next speaker is Janet Jaworski."
   },
   {
     "speaker": "Janet Jaworski",
@@ -486,8 +494,16 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "caption_override",
     "speaker_source_detail": "caption:explicit",
     "start": 2672.94,
+    "end": 2823.22,
+    "text": "Good evening madam mayor city council members and assembled city staff I have I'd like to speak to just two issues with my in my a lot of time the first is The Willard Community Center all the good things that have been said about it I support I would add one other thing that I didn't hear yet and that is Combining the community center in the center of the city I think is it just makes sense to me and it's a great opportunity to reinforce old town as a hub of daily activities which has been necessary for a long time and we've Talked about that quite a bit so I recommend that you support the that Issue the other one has to do with the Fairfax Renaissance Housing Corporation which is an organization that provides the city of Fairfax homeowners an attractive opportunity to upgrade and improve the quality of the city's residential neighborhoods over the past 23 years of its existence it has Provided funding to 290 improvement loans and has not lost a single penny to A bad loan plus the city gets back money from the housing corporation program due to the permanent improvements that are made and thus the tax that goes with That permanent improvement goes with the home okay and so when the increase comes For that and the city which receives a return on its investment and it Continues and continues so this program was not funded last year and now we Can't do any loans at all because they don't have funds for it and so I strongly urge that this City Council fund it for next year so that we can continue this program because it returns money to you and the person is that the people that get the improvements like it a lot believe me I thank you for your"
+  },
+  {
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 2823.22,
     "end": 2830.06,
-    "text": "Good evening madam mayor city council members and assembled city staff I have I'd like to speak to just two issues with my in my a lot of time the first is The Willard Community Center all the good things that have been said about it I support I would add one other thing that I didn't hear yet and that is Combining the community center in the center of the city I think is it just makes sense to me and it's a great opportunity to reinforce old town as a hub of daily activities which has been necessary for a long time and we've Talked about that quite a bit so I recommend that you support the that Issue the other one has to do with the Fairfax Renaissance Housing Corporation which is an organization that provides the city of Fairfax homeowners an attractive opportunity to upgrade and improve the quality of the city's residential neighborhoods over the past 23 years of its existence it has Provided funding to 290 improvement loans and has not lost a single penny to A bad loan plus the city gets back money from the housing corporation program due to the permanent improvements that are made and thus the tax that goes with That permanent improvement goes with the home okay and so when the increase comes For that and the city which receives a return on its investment and it Continues and continues so this program was not funded last year and now we Can't do any loans at all because they don't have funds for it and so I strongly urge that this City Council fund it for next year so that we can continue this program because it returns money to you and the person is that the people that get the improvements like it a lot believe me I thank you for your Kind attention our next speakers Rebecca Rader"
+    "text": "Kind attention our next speakers Rebecca Rader"
   },
   {
     "speaker": "Becky Rager",
@@ -514,9 +530,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you."
   },
   {
-    "speaker": "Councilmember Rachel McQuillen",
-    "speaker_source": "caption_override",
-    "speaker_source_detail": "caption:explicit",
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 3005.4,
     "end": 3007.36,
     "text": "Our next speaker is Alan Glenn."
@@ -538,9 +554,9 @@ const TRANSCRIPT_TURNS = [
     "text": "And the health centers. Personally, I think you all have a difficult job as elected leaders to a two-year term where you have to consider the strategic needs of the community and balance them against costs and budgetary issues. But I think in this case, the project will serve a need To re-update and replace the senior center that's now at Green Acres and provide better health and public services and childcare and early childhood health for residents. The nice thing about this is it serves everybody in the community, regardless of age, income, strata, or which neighborhood you live in. So to me, it's definitely needed and I strongly support it. Thank you very much. Oh, as long as I've got 30 seconds left, Let me just say Mr. Lustina, who was the previous speaker, I would like to endorse his comments. I served on the board with him for five years of the Housing Renaissance Corporation. That was one of three city boards that I've had the privilege to serve on over the years. And I think that board and the funding from the city served a important need to maintain and upgrade existing housing stock in the city. Thank you."
   },
   {
-    "speaker": "Councilmember Rachel McQuillen",
-    "speaker_source": "caption_override",
-    "speaker_source_detail": "caption:explicit",
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 3194.62,
     "end": 3196.78,
     "text": "Our next speaker is William Pitchford."
@@ -638,8 +654,16 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "caption",
     "speaker_source_detail": "caption:explicit",
     "start": 3418.02,
+    "end": 3418.86,
+    "text": "Thank you."
+  },
+  {
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 3420.46,
     "end": 3422.58,
-    "text": "Thank you. Our last speaker is Toby Sorenson."
+    "text": "Our last speaker is Toby Sorenson."
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
@@ -698,36 +722,12 @@ const TRANSCRIPT_TURNS = [
     "text": "Council Member McQuillan?"
   },
   {
-    "speaker": "Councilmember Billy Bates",
-    "speaker_source": "caption_override",
-    "speaker_source_detail": "caption:explicit",
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 3722.36,
-    "end": 3731.88,
-    "text": "Aye. Council Member Bates? Aye. Council Member Peterson? Aye. Council Member Hardy-Chandler? Aye. Council Member Hall? Aye. Council Member Amos?"
-  },
-  {
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 3731.88,
-    "end": 3732.4,
-    "text": "Aye."
-  },
-  {
-    "speaker": "Councilmember Stacy Hall",
-    "speaker_source": "caption_override",
-    "speaker_source_detail": "caption:explicit",
-    "start": 3732.4,
-    "end": 3737.2,
-    "text": "Motion passed unanimously. We'll go to appointments to boards, commissions, and advisory committees."
-  },
-  {
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 3737.2,
     "end": 3742.92,
-    "text": "Is there a motion to approve the appointments to boards, commissions, and advisory commissions? Council Member Hardy-Chandler?"
+    "text": "Aye. Council Member Bates? Aye. Council Member Peterson? Aye. Council Member Hardy-Chandler? Aye. Council Member Hall? Aye. Council Member Amos? Aye. Motion passed unanimously. We'll go to appointments to boards, commissions, and advisory committees. Is there a motion to approve the appointments to boards, commissions, and advisory commissions? Council Member Hardy-Chandler?"
   },
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
@@ -1134,16 +1134,48 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "caption",
     "speaker_source_detail": "caption:explicit",
     "start": 4723.86,
+    "end": 4725.86,
+    "text": "Ms. Shinaberry?"
+  },
+  {
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 4725.86,
     "end": 4728.74,
-    "text": "Ms. Shinaberry? Council Member Amos? Aye. Council Member Hall?"
+    "text": "Council Member Amos? Aye. Council Member Hall?"
   },
   {
     "speaker": "Councilmember Stacy Hall",
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 4731.54,
+    "end": 4735.66,
+    "text": "I'm sorry. Read the motion, please, that we are voting on right now."
+  },
+  {
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 4735.66,
+    "end": 4737.02,
+    "text": "So the hardy chandler."
+  },
+  {
+    "speaker": "Councilmember Stacy Hall",
+    "speaker_source": "caption",
+    "speaker_source_detail": "caption:explicit",
+    "start": 4737.02,
+    "end": 4739.94,
+    "text": "Yeah."
+  },
+  {
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 4739.94,
     "end": 4743.86,
-    "text": "I'm sorry. Read the motion, please, that we are voting on right now. So the hardy chandler. Yeah. To me, 12. Hardy Chandler?"
+    "text": "To me, 12. Hardy Chandler?"
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -1154,9 +1186,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Aye."
   },
   {
-    "speaker": "Councilmember Stacy Hall",
-    "speaker_source": "caption_override",
-    "speaker_source_detail": "caption:explicit",
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 4744.74,
     "end": 4745.86,
     "text": "Council Member Peterson?"
@@ -1170,44 +1202,12 @@ const TRANSCRIPT_TURNS = [
     "text": "No, with a caveat to just the questions. We're not finished here. Some other important details we didn't get a chance to ask about during this process."
   },
   {
-    "speaker": "Councilmember Stacy Hall",
-    "speaker_source": "caption_override",
-    "speaker_source_detail": "caption:explicit",
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 4754.98,
-    "end": 4759.46,
-    "text": "Council Member Bates? Aye. Council Member McQuillan?"
-  },
-  {
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 4759.46,
-    "end": 4760.18,
-    "text": "No."
-  },
-  {
-    "speaker": "Councilmember Stacy Hall",
-    "speaker_source": "caption_override",
-    "speaker_source_detail": "caption:explicit",
-    "start": 4760.18,
-    "end": 4762.14,
-    "text": "OK, motion failed 3 to 3."
-  },
-  {
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 4762.14,
-    "end": 4764.9,
-    "text": "And we are going to move on to the public hearings."
-  },
-  {
-    "speaker": "Councilmember Billy Bates",
-    "speaker_source": "caption_override",
-    "speaker_source_detail": "caption:explicit",
-    "start": 4768.38,
     "end": 4791.34,
-    "text": "The only public hearing tonight is for the FY 27 budget. This is the third and final public hearing of the proposed FY 27 budget the city manager presented on February 24, 2026. I had two speakers sign up prior to the meeting. After I call those two speakers up, if there's anybody else in the room that wants to speak on the budget, may come forward. So the first speaker is Douglas Stewart."
+    "text": "Council Member Bates? Aye. Council Member McQuillan? No. OK, motion failed 3 to 3. And we are going to move on to the public hearings. The only public hearing tonight is for the FY 27 budget. This is the third and final public hearing of the proposed FY 27 budget the city manager presented on February 24, 2026. I had two speakers sign up prior to the meeting. After I call those two speakers up, if there's anybody else in the room that wants to speak on the budget, may come forward. So the first speaker is Douglas Stewart."
   },
   {
     "speaker": "Douglas Stewart",
@@ -1222,8 +1222,16 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "caption",
     "speaker_source_detail": "caption:explicit",
     "start": 4934.76,
+    "end": 4937.76,
+    "text": "Thank you."
+  },
+  {
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 4937.76,
     "end": 4939.76,
-    "text": "Thank you. Our next speaker is Jennifer Rose."
+    "text": "Our next speaker is Jennifer Rose."
   },
   {
     "speaker": "Jennifer Rose",
@@ -1234,9 +1242,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Good evening, Mayor and members of council. Jennifer Rose, Executive Director of the Central Fairfax Chamber of Commerce. Thank you for the opportunity to speak and for the significant work by Fairfax City staff that has gone into developing the fiscal year 27 proposed budget. We recognize the real fiscal pressures the city is managing, particularly increases in school tuition and debt service. And we appreciate your commitment to maintaining services without adding new full-time equivalent positions. From the Chamber's perspective, I want to focus on one key issue, Ensuring that Fairfax remains competitive for small businesses while making necessary revenue decisions. First, the proposed meals tax increase from four percent to four and a half percent. We understand the goal of diversifying revenue. However, a meals tax is, in practice, a single industry tax. It places the greatest burden on restaurants, many of them small, locally owned businesses. We know this. They operate on thin margins and on the customers who support them. Restaurants are not just another sector. They are a cornerstone of our local economy. They drive foot traffic, support tourism, and contribute to the vibrancy of Old Town and our commercial corridors. And I would like to point out, for the first time in more than 20 years, our restaurants are finally on a level playing field with Fairfax County restaurants, now that the county's implemented its own four percent meals tax. We respectfully urge Council to reconsider this increase or, at minimum, include a clear sunset and ensure that any new revenue is reinvested in ways that directly support the hospitality and small business community. Second, if additional revenue is needed, there are more balanced alternatives. The Chamber supports exploring visitor-based revenue options, such as aligning the transient occupancy tax with regional levels, if authorized by the General Assembly. This approach brings in revenue from visitors rather than placing additional strain on local businesses and residents. Similarly, if B-Poll adjustments are considered, it is critical to protect small businesses. The City's current threshold of $10,000 is very low and captures many micro-businesses. Any changes should include raising the threshold and phasing in increases to avoid unintended Impacts on startups and small firms. Third, and just as important, we encourage you to protect economic development capacity. The most sustainable way to reduce long-term tax pressure is not by increasing rates, but by growing the commercial tax base. That requires continued investment in business attraction, retention, and, critically, faster and more predictable permitting. If we want Fairfax to remain competitive in attracting and retaining businesses, we must continue investing in the systems and resources that support the growth. So our request is straightforward. Avoid disproportionate impacts on any one industry. Pursue a more balanced, visitor-informed revenue strategy. And continue investing in the economic development efforts that will strengthen Fairfax over the long term. Thank you for your time, your leadership, and your commitment to our community. We look forward to continuing to partner with you."
   },
   {
-    "speaker": "Councilmember Billy Bates",
-    "speaker_source": "caption_override",
-    "speaker_source_detail": "caption:explicit",
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 5136.96,
     "end": 5142.0,
     "text": "Is there anybody else in the room that would like to speak on the proposed FY27 budget?"
@@ -1246,16 +1254,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 5146.08,
-    "end": 5158.4,
-    "text": "Okay. I will now close the public hearing on the proposed FY27 budget. Budget adoption will be on May 5th, 2026, beginning at 7 p.m."
-  },
-  {
-    "speaker": "Councilmember Billy Bates",
-    "speaker_source": "caption_override",
-    "speaker_source_detail": "caption:explicit",
-    "start": 5160.0,
     "end": 5168.0,
-    "text": "Ms. Schoenberg? We will move forward to second general public comment. I had one person sign up prior to the start of the meeting. I will call them forward. Mary McDaniel?"
+    "text": "Okay. I will now close the public hearing on the proposed FY27 budget. Budget adoption will be on May 5th, 2026, beginning at 7 p.m. Ms. Schoenberg? We will move forward to second general public comment. I had one person sign up prior to the start of the meeting. I will call them forward. Mary McDaniel?"
   },
   {
     "speaker": "Mary McDaniel",
@@ -1318,8 +1318,24 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "caption",
     "speaker_source_detail": "caption:explicit",
     "start": 5376.5,
+    "end": 5380.1,
+    "text": "Our work session item is discussion on the proposed after-sales plan."
+  },
+  {
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 5380.18,
+    "end": 5389.54,
+    "text": "Our work session item is discussion on the proposed FY 2027 budget. City Council identified topics. I'm going to recognize Daniel Alexander, City Manager, for the staff discussion."
+  },
+  {
+    "speaker": "Councilmember Billy Bates",
+    "speaker_source": "caption",
+    "speaker_source_detail": "caption:explicit",
+    "start": 5390.26,
     "end": 5390.5,
-    "text": "Our work session item is discussion on the proposed after-sales plan. Our work session item is discussion on the proposed FY 2027 budget. City Council identified topics. I'm going to recognize Daniel Alexander, City Manager, for the staff discussion. All right."
+    "text": "All right."
   },
   {
     "speaker": "Mr. Alexander",
