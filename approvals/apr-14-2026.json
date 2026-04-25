@@ -112,6 +112,16 @@
       "status": "approved",
       "name": "Becky Rager",
       "speaker_key": "becky_rager"
+    },
+    "SPEAKER_25": {
+      "status": "approved",
+      "name": "Brian Lubkeman",
+      "speaker_key": ""
+    },
+    "SPEAKER_29": {
+      "status": "public_comment",
+      "name": "Community Member (Willard Community Center / Fairfax Renaissance Housing)",
+      "speaker_key": ""
     }
   },
   "SPEAKER_24": {

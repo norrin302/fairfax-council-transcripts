@@ -535,6 +535,9 @@ def _public_label_policy(
     if status == "approved" and name:
         return name, "approved", False, ""
 
+    if status == "public_comment" and name:
+        return name, "public_comment", False, "public_comment"
+
     if status.startswith("rejected") or status == "mixed":
         return "Unknown Speaker", "mixed", True, "mixed_or_rejected_audio"
 

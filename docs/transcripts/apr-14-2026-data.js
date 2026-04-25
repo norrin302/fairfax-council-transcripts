@@ -296,7 +296,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 1268.08,
     "end": 1451.92,
-    "text": "Yes, it's fine. You're welcome. I'm going to get all the Fairfax City police dispatchers to come down here so we can celebrate You. Come on. It's cool to stand up here and just be stared at. Trust me, not awkward at all. All good. All good. You guys are important. So important. Very important. All right. Everybody in the cutest. All right. Whereas, the week of April 12th through 18th, 2026 has been designated as National Public Safety Telecommunicators Week, a time to raise awareness and recognize the critical contributions of highly trained telecommunications professionals who provide vital 911 emergency assistance to those in need. And whereas, emergencies requiring police, fire, or emergency medical services can occur at any time, and the prompt response of police officers, firefighters, and paramedics is essential to the protection of life and preservation of property. And whereas, the safety of police officers, firefighters, and paramedics depends upon the quality and accuracy of information obtained from citizens who contact the City of Fairfax Emergency Communications Center. And whereas, public safety telecommunicators are the first and most critical point of contact our residents have with emergency services, serving as the vital link between the public and emergency responders. And whereas, public safety telecommunicators contribute substantially to the apprehension of criminals, the suppression of fires, and the treatment of patients, demonstrating professionalism, understanding, and dedication in every call they handle. And whereas, within the Police Department, a Dispatcher of the Year is nominated by police personnel to recognize an individual for exceptional performance, exemplifying the commitment and Excellence demonstrated by all emergency dispatch professionals in our city each and every day, 24 hours a day, and 7 days a week. Now therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, do hereby proclaim April 12-18, 2026 as National Public Safety Telecommunicators Week in the City of Fairfax, and encourage all members of our community to join in extending our warmest measure of gratitude and support to our Public Safety Telecommunications Dispatchers, including our award recipient, Aliyah Tibbs, Aliyah Tibbs, Elijah, okay, Elijah Tibbs, the 2025 Dispatcher of the Year who provides critical and essential services daily to the countless number of residents, business owners, and visitors within our community. So with that, Elijah, Chief."
+    "text": "Yes, it's fine. You're welcome. I'm going to get all the New York City police dispatchers to come down here so we can celebrate You. Come on. It's cool to stand up here and just be stared at. Trust me, not awkward at all. All good. All good. You guys are important. So important. Very important. All right. Everybody in the cutest. All right. Whereas, the week of April 12th through 18th, 2026 has been designated as National Public Safety Telecommunicators Week, a time to raise awareness and recognize the critical contributions of highly trained telecommunications professionals who provide vital 911 emergency assistance to those in need. And whereas, emergencies requiring police, fire, or emergency medical services can occur at any time, and the prompt response of police officers, firefighters, and paramedics is essential to the protection of life and preservation of property. And whereas, the safety of police officers, firefighters, and paramedics depends upon the quality and accuracy of information obtained from citizens who contact the City of Fairfax Emergency Communications Center. And whereas, public safety telecommunicators are the first and most critical point of contact our residents have with emergency services, serving as the vital link between the public and emergency responders. And whereas, public safety telecommunicators contribute substantially to the apprehension of criminals, the suppression of fires, and the treatment of patients, demonstrating professionalism, understanding, and dedication in every call they handle. And whereas, within the Police Department, a Dispatcher of the Year is nominated by police personnel to recognize an individual for exceptional performance, exemplifying the commitment and Excellence demonstrated by all emergency dispatch professionals in our city each and every day, 24 hours a day, and 7 days a week. Now therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, do hereby proclaim April 12-18, 2026 as National Public Safety Telecommunicators Week in the City of Fairfax, and encourage all members of our community to join in extending our warmest measure of gratitude and support to our Public Safety Telecommunications Dispatchers, including our award recipient, Aliyah Tibbs, Aliyah Tibbs, Elijah, okay, Elijah Tibbs, the 2025 Dispatcher of the Year who provides critical and essential services daily to the countless number of residents, business owners, and visitors within our community. So with that, Elijah, Chief."
   },
   {
     "turn_id": "turn_000099",
@@ -453,9 +453,9 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000179",
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
+    "speaker": "Community Member (Willard Community Center / Fairfax Renaissance Housing)",
+    "speaker_source": "public_comment",
+    "speaker_source_detail": "public_comment",
     "start": 2672.94,
     "end": 2823.22,
     "text": "Good evening madam mayor city council members and assembled city staff I have I'd like to speak to just two issues with my in my a lot of time the first is The Willard Community Center all the good things that have been said about it I support I would add one other thing that I didn't hear yet and that is Combining the community center in the center of the city I think is it just makes sense to me and it's a great opportunity to reinforce old town as a hub of daily activities which has been necessary for a long time and we've Talked about that quite a bit so I recommend that you support the that Issue the other one has to do with the Fairfax Renaissance Housing Corporation which is an organization that provides the city of Fairfax homeowners an attractive opportunity to upgrade and improve the quality of the city's residential neighborhoods over the past 23 years of its existence it has Provided funding to 290 improvement loans and has not lost a single penny to A bad loan plus the city gets back money from the housing corporation program due to the permanent improvements that are made and thus the tax that goes with That permanent improvement goes with the home okay and so when the increase comes For that and the city which receives a return on its investment and it Continues and continues so this program was not funded last year and now we Can't do any loans at all because they don't have funds for it and so I strongly urge that this City Council fund it for next year so that we can continue this program because it returns money to you and the person is that the people that get the improvements like it a lot believe me I thank you for your"
@@ -516,9 +516,9 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000211",
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
+    "speaker": "Councilmember Rachel McQuillen",
+    "speaker_source": "caption",
+    "speaker_source_detail": "caption:explicit",
     "start": 3201.74,
     "end": 3202.58,
     "text": "Thank you."
@@ -543,21 +543,21 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000232",
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
+    "speaker": "Councilmember Rachel McQuillen",
+    "speaker_source": "caption",
+    "speaker_source_detail": "caption:explicit",
     "start": 3430.22,
-    "end": 3431.06,
-    "text": "Thank you."
+    "end": 3632.36,
+    "text": "Thank you. Good evening. Toby Sorenson, 10137 Spring Lake Terrace. Mayor Reed and council members, the reason I am once again here to speak about supporting the Willard Sherwood Health and Community Center is because many of us still do not know whether you are going to vote to fund it on April 28th or not. If any of you are still undecided to vote, please consider the following. If you vote for the funding, there are many things We do know. We know what the city's share of the joint project will be thanks to the guaranteed maximum pricing contract. We know what the operating costs will be thanks to the research done by the project consultants. We know the basic level of class and rental fees that will cover operating expenses. We know the higher level of class and rental fees that will cover operating expenses plus provide a surplus that can be put toward the yearly bond payment. We know what the bond payment will be if the city goes to bond this spring. We know that we will be able to keep a senior center And have it located in a modern facility with better services. We know that we will be able to keep a much needed preschool in the city. We know that we will have a well-located community center that will draw people and businesses to the downtown area. We know that we will have continued access to important health department services right in the middle of the city. Finally, we know when this project will be completed. If you do not vote to fund Willard Sherwood, there are many things we will not know. Would we begin again to create a plan To build or rebuild a community center? How much would that new planning cost? Would a new project be located at Green Acres? Would a new project be located elsewhere? Where would that be and how much would it cost? How far into the future will we be looking and how much will the cost of bonds be at that time? If we do nothing, will we lose the senior center and the preschool? Since the city council and the county board of supervisors signed a letter of understanding for full design and construction of the joint project, Would the county expect the city to compensate them For the money they have spent on the project so far? Would the county expect the city to compensate them For the money it will need to begin their planning And design process anew? Would the county choose a different location for the health center, one that would not be in the city? If the county chose a different location, what would they decide to do with the land that they own next to the Sherwood Center? We want to continue to have a senior center and a preschool and community spaces for our residents, as well as to have a health department located within the city. If you believe you have a hard decision to make about funding Willard Sherwood, think also about the really hard decisions You will have to make if you don't vote to fund it. Thank you for listening. We can move to the consent agenda. OK, before we move forward, I want"
   },
   {
-    "turn_id": "turn_000233",
+    "turn_id": "turn_000244",
     "speaker": "Mayor Catherine Read",
     "speaker_source": "approved",
     "speaker_source_detail": "",
-    "start": 3434.62,
+    "start": 3632.36,
     "end": 3702.88,
-    "text": "Good evening. Toby Sorenson, 10137 Spring Lake Terrace. Mayor Reed and council members, the reason I am once again here to speak about supporting the Willard Sherwood Health and Community Center is because many of us still do not know whether you are going to vote to fund it on April 28th or not. If any of you are still undecided to vote, please consider the following. If you vote for the funding, there are many things We do know. We know what the city's share of the joint project will be thanks to the guaranteed maximum pricing contract. We know what the operating costs will be thanks to the research done by the project consultants. We know the basic level of class and rental fees that will cover operating expenses. We know the higher level of class and rental fees that will cover operating expenses plus provide a surplus that can be put toward the yearly bond payment. We know what the bond payment will be if the city goes to bond this spring. We know that we will be able to keep a senior center And have it located in a modern facility with better services. We know that we will be able to keep a much needed preschool in the city. We know that we will have a well-located community center that will draw people and businesses to the downtown area. We know that we will have continued access to important health department services right in the middle of the city. Finally, we know when this project will be completed. If you do not vote to fund Willard Sherwood, there are many things we will not know. Would we begin again to create a plan To build or rebuild a community center? How much would that new planning cost? Would a new project be located at Green Acres? Would a new project be located elsewhere? Where would that be and how much would it cost? How far into the future will we be looking and how much will the cost of bonds be at that time? If we do nothing, will we lose the senior center and the preschool? Since the city council and the county board of supervisors signed a letter of understanding for full design and construction of the joint project, Would the county expect the city to compensate them For the money they have spent on the project so far? Would the county expect the city to compensate them For the money it will need to begin their planning And design process anew? Would the county choose a different location for the health center, one that would not be in the city? If the county chose a different location, what would they decide to do with the land that they own next to the Sherwood Center? We want to continue to have a senior center and a preschool and community spaces for our residents, as well as to have a health department located within the city. If you believe you have a hard decision to make about funding Willard Sherwood, think also about the really hard decisions You will have to make if you don't vote to fund it. Thank you for listening. We can move to the consent agenda. OK, before we move forward, I want To take a moment to briefly address consent agenda items 6F through 6K and 6M. These items are administrative in nature and represent the first step in a multi-step process, what we refer to as the introduction phase. This step is intended to formally notify our residents and business community of the city's proposed actions. There will be a full opportunity for public input at the next stage, which is the public hearing scheduled for our next regular meeting on April 28. Following that, the third and final step will be council consideration and action as part of budget adoption night on May 5. So again, tonight's action is simply to move these items forward in the process and ensure the community is informed and has the opportunity to participate. Are there any questions on any of the items on the consent Agenda from the dais? Seeing none, is there a motion?"
+    "text": "To take a moment to briefly address consent agenda items 6F through 6K and 6M. These items are administrative in nature and represent the first step in a multi-step process, what we refer to as the introduction phase. This step is intended to formally notify our residents and business community of the city's proposed actions. There will be a full opportunity for public input at the next stage, which is the public hearing scheduled for our next regular meeting on April 28. Following that, the third and final step will be council consideration and action as part of budget adoption night on May 5. So again, tonight's action is simply to move these items forward in the process and ensure the community is informed and has the opportunity to participate. Are there any questions on any of the items on the consent Agenda from the dais? Seeing none, is there a motion?"
   },
   {
     "turn_id": "turn_000248",
@@ -714,9 +714,9 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000278",
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "heuristic",
-    "speaker_source_detail": "text_heuristic",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker_source": "caption",
+    "speaker_source_detail": "caption:explicit",
     "start": 3934.28,
     "end": 3939.68,
     "text": "Our residents applied for these roles in good faith."
@@ -759,9 +759,9 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000290",
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
+    "speaker": "Brian Lubkeman",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 4107.08,
     "end": 4145.2,
     "text": "So one of the nice things about the State and Local Government Conflict of Interest Act is that decision is left to the individual member. I have my opinions as to whether it's appropriate for a member to vote for a position in which his or her husband, family member is a candidate. I will say, I think the answer to that question is not really a legal one. So Council Member Hardy-Chandler is taking her own counsel on this, and that is all I will say on that."
@@ -795,9 +795,9 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000298",
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
+    "speaker": "Brian Lubkeman",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 4186.44,
     "end": 4188.52,
     "text": "Yes, that is clear in the city charter."
@@ -813,9 +813,9 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000302",
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
+    "speaker": "Brian Lubkeman",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 4212.12,
     "end": 4215.4,
     "text": "Could you restate that question, please?"
@@ -831,9 +831,9 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000304",
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
+    "speaker": "Brian Lubkeman",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 4226.48,
     "end": 4246.88,
     "text": "An individual's recusal simply changes the number of votes required. And it also, even if a majority of council members recuse on an item, it doesn't affect the quorum for purposes of voting on an item. So it just simply becomes the remaining members vote on the particular appointment."
@@ -849,21 +849,12 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000309",
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 4286.16,
-    "end": 4288.44,
-    "text": "I'm sorry, I'm just going through my notes"
-  },
-  {
-    "turn_id": "turn_000310",
     "speaker": "Councilmember Rachel McQuillen",
     "speaker_source": "approved",
     "speaker_source_detail": "",
-    "start": 4288.44,
+    "start": 4286.16,
     "end": 4293.2,
-    "text": "Because I knew this was going to come up. May I read and ask a question in the meantime? Is that OK? Council Member Holt?"
+    "text": "I'm sorry, I'm just going through my notes Because I knew this was going to come up. May I read and ask a question in the meantime? Is that OK? Council Member Holt?"
   },
   {
     "turn_id": "turn_000311",
@@ -894,9 +885,9 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000318",
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
+    "speaker": "Brian Lubkeman",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 4391.76,
     "end": 4405.2,
     "text": "In the 20 years I've been city attorney, well, I'll turn it around by saying my experience has been that most appointments to boards and commissions tend to be close to unanimous by the body. That's the fair statement."
@@ -912,9 +903,9 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000320",
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
+    "speaker": "Brian Lubkeman",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 4416.08,
     "end": 4453.44,
     "text": "The mayor can vote on procedural aspects related to the appointment. So for example, deferring action on an appointment, those type of things are perfectly legitimate. I have always taken the position that the appointments to boards and commissions legally is the province of the city council. It is also true, and people throw the word tradition around, it is also not an incorrect statement how it was characterized previously as to previous actions by previous councils and mayors. But that is not a legal requirement. That is just simply an agreement among the parties."
@@ -930,9 +921,9 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000324",
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
+    "speaker": "Brian Lubkeman",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 4476.08,
     "end": 4480.44,
     "text": "I'm not making a legal statement on the mayor voting. I didn't write the city's charter."
@@ -948,9 +939,9 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000326",
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
+    "speaker": "Brian Lubkeman",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 4484.68,
     "end": 4493.4,
     "text": "Absolutely, and it's also true that on matters such as recusal, et cetera, those are the province of individual members of this body and the mayor."
@@ -1137,12 +1128,21 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000388",
+    "speaker": "Councilmember Billy Bates",
+    "speaker_source": "caption",
+    "speaker_source_detail": "caption:explicit",
+    "start": 5376.5,
+    "end": 5380.1,
+    "text": "Our work session item is discussion on the proposed after-sales plan."
+  },
+  {
+    "turn_id": "turn_000389",
     "speaker": "Mayor Catherine Read",
     "speaker_source": "approved",
     "speaker_source_detail": "",
-    "start": 5376.5,
+    "start": 5380.18,
     "end": 5390.5,
-    "text": "Our work session item is discussion on the proposed after-sales plan. Our work session item is discussion on the proposed FY 2027 budget. City Council identified topics. I'm going to recognize Daniel Alexander, City Manager, for the staff discussion. All right."
+    "text": "Our work session item is discussion on the proposed FY 2027 budget. City Council identified topics. I'm going to recognize Daniel Alexander, City Manager, for the staff discussion. All right."
   },
   {
     "turn_id": "turn_000391",
@@ -1303,8 +1303,17 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 6573.48,
+    "end": 6589.16,
+    "text": "Certainly, Mr. Wright, if you would like to add something. Thank you."
+  },
+  {
+    "turn_id": "turn_000460",
+    "speaker": "Councilmember Stacy Hall",
+    "speaker_source": "caption_override",
+    "speaker_source_detail": "caption:explicit",
+    "start": 6589.16,
     "end": 6616.32,
-    "text": "Certainly, Mr. Wright, if you would like to add something. Thank you. Thank you, Mayor Reed, and good evening to the council. Council Member Hall, I'm here to observe and listen, but I'm happy to answer your question. that you just posed. The conversation last night was around our elementary school Capital projects, and the current state of them, And the path moving forward. None of it was related to the proposal that you heard this evening. We were not aware of that proposal at that time."
+    "text": "Thank you, Mayor Reed, and good evening to the council. Council Member Hall, I'm here to observe and listen, but I'm happy to answer your question. that you just posed. The conversation last night was around our elementary school Capital projects, and the current state of them, And the path moving forward. None of it was related to the proposal that you heard this evening. We were not aware of that proposal at that time."
   },
   {
     "turn_id": "turn_000463",
@@ -1537,44 +1546,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 7610.18,
-    "end": 7637.94,
-    "text": "OK. I know we're not the overseers of all of the things. I just happen to have a personal interest and education in this area. If it's possible, if it's on our website, or you could direct me to somewhere that I could see what we pay versus what the employee pays, just so I can see What that cost sharing looks like, is that an option? I'm just curious if we cap at a certain rate or what we cover for families and other individuals and whatnot."
-  },
-  {
-    "turn_id": "turn_000529",
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
-    "start": 7637.94,
-    "end": 7648.58,
-    "text": "The FY27 rates have not been released yet to employees. But 26, I believe, are on the website. OK. And I'm assuming you'll get it when 27 comes out"
-  },
-  {
-    "turn_id": "turn_000530",
-    "speaker": "Councilmember Stacy Hall",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 7648.58,
-    "end": 7652.98,
-    "text": "As it goes to all employees. OK, my apologies. I wasn't really planning on discussing this in detail tonight."
-  },
-  {
-    "turn_id": "turn_000531",
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
-    "start": 7653.74,
-    "end": 7673.06,
-    "text": "Yeah, no, and just to give you a little bit of context, We have just over 80% of our eligible employees That have our health insurance. The majority is with Anthem. We have two plans with Anthem. And then we have about, I think it's about 20% to 30% of employees are with Kaiser."
-  },
-  {
-    "turn_id": "turn_000534",
-    "speaker": "Councilmember Stacy Hall",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 7673.06,
     "end": 7713.18,
-    "text": "OK. Yeah. OK. And I just have one other thing. And I know I've asked this a couple of times previously. And I don't know that we ever really come to a definitive yes or no. I would like to suggest that when we either send out our final tax bills or when we send a response saying, hey, thank you for what you paid, I would strongly like to send a letter, not me personally, but the city that says, thank you for paying your real estate taxes. Here are some of the things that you funded. And just make it more of a personal impact opportunity to let people know that we know things are tough. So I don't know if that needs consensus from council or not. But that would be something that I would recommend to the finance department. So thank you."
+    "text": "OK. I know we're not the overseers of all of the things. I just happen to have a personal interest and education in this area. If it's possible, if it's on our website, or you could direct me to somewhere that I could see what we pay versus what the employee pays, just so I can see What that cost sharing looks like, is that an option? I'm just curious if we cap at a certain rate or what we cover for families and other individuals and whatnot. The FY27 rates have not been released yet to employees. But 26, I believe, are on the website. OK. And I'm assuming you'll get it when 27 comes out As it goes to all employees. OK, my apologies. I wasn't really planning on discussing this in detail tonight. Yeah, no, and just to give you a little bit of context, We have just over 80% of our eligible employees That have our health insurance. The majority is with Anthem. We have two plans with Anthem. And then we have about, I think it's about 20% to 30% of employees are with Kaiser. OK. Yeah. OK. And I just have one other thing. And I know I've asked this a couple of times previously. And I don't know that we ever really come to a definitive yes or no. I would like to suggest that when we either send out our final tax bills or when we send a response saying, hey, thank you for what you paid, I would strongly like to send a letter, not me personally, but the city that says, thank you for paying your real estate taxes. Here are some of the things that you funded. And just make it more of a personal impact opportunity to let people know that we know things are tough. So I don't know if that needs consensus from council or not. But that would be something that I would recommend to the finance department. So thank you."
   },
   {
     "turn_id": "turn_000539",
@@ -1618,17 +1591,17 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 7835.32,
-    "end": 7890.12,
-    "text": "Council Member Bates. So as before, I support the proposed increase in the meals tax. It's much more modest than what was proposed last time around. And at the end of the day, certainly not something that we love to do, but even if we're able to make up that revenue through an increase in the BPOL tax, or fees, or some other revenue source, that ends up being that much less funding that we could use to perhaps further support Our employees, our public safety employees, who respond to emergencies that occur at the restaurants in the city. At the end of the day, housing is certainly"
+    "end": 7836.24,
+    "text": "Council Member Bates."
   },
   {
-    "turn_id": "turn_000552",
-    "speaker": "Unknown Speaker",
-    "speaker_source": "heuristic",
-    "speaker_source_detail": "text_heuristic",
-    "start": 7890.12,
+    "turn_id": "turn_000549",
+    "speaker": "Councilmember Billy Bates",
+    "speaker_source": "caption_override",
+    "speaker_source_detail": "caption:explicit",
+    "start": 7839.04,
     "end": 7926.24,
-    "text": "More of a necessity than eating at a restaurant. Certainly some people don't have time to cook. However, there are frozen meals available at the grocery store, that kind of thing. So that's also kind of locking ourselves out of if we wanted to use part of that to alleviate some of the burden on our homeowners through the real estate tax rate. So it's something that I think I, again, Want to encourage caution in ruling out as we go forward."
+    "text": "So as before, I support the proposed increase in the meals tax. It's much more modest than what was proposed last time around. And at the end of the day, certainly not something that we love to do, but even if we're able to make up that revenue through an increase in the BPOL tax, or fees, or some other revenue source, that ends up being that much less funding that we could use to perhaps further support Our employees, our public safety employees, who respond to emergencies that occur at the restaurants in the city. At the end of the day, housing is certainly More of a necessity than eating at a restaurant. Certainly some people don't have time to cook. However, there are frozen meals available at the grocery store, that kind of thing. So that's also kind of locking ourselves out of if we wanted to use part of that to alleviate some of the burden on our homeowners through the real estate tax rate. So it's something that I think I, again, Want to encourage caution in ruling out as we go forward."
   },
   {
     "turn_id": "turn_000555",
@@ -1767,9 +1740,9 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000590",
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
+    "speaker": "Brian Lubkeman",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 8514.36,
     "end": 8519.68,
     "text": "I think it's multiple parts. I confess I didn't go back and look at last year's script, so you caught me a little off-track."
@@ -1785,9 +1758,9 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000592",
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
+    "speaker": "Brian Lubkeman",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 8521.96,
     "end": 8524.72,
     "text": "We can go back and look at the agenda from that meeting if you'd like."
@@ -1852,8 +1825,17 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 8771.46,
+    "end": 8772.66,
+    "text": "Council Member Bates."
+  },
+  {
+    "turn_id": "turn_000610",
+    "speaker": "Councilmember Billy Bates",
+    "speaker_source": "caption_override",
+    "speaker_source_detail": "caption:explicit",
+    "start": 8773.66,
     "end": 8784.08,
-    "text": "Council Member Bates. I want to second the comments in support of survivors of sexual assault in recognition of Sexual Assault Awareness Month. Thank you."
+    "text": "I want to second the comments in support of survivors of sexual assault in recognition of Sexual Assault Awareness Month. Thank you."
   },
   {
     "turn_id": "turn_000612",
@@ -1866,21 +1848,12 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000630",
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
+    "speaker": "Brian Lubkeman",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 9115.92,
-    "end": 9159.82,
-    "text": "I appreciate the promotion. Just so I understand, we have talked with every council in the 20 years that I've been here about doing a code of ethics generally and councils have not adopted it. Are you all suggesting that we bring back a suggested code of ethics? We're certainly prepared to do that. We have the materials that we've updated year after year. Or are you suggesting bringing forward a one-off related just to that discrete issue, which is a different thing but could be Included in your policy with respect to boards and commissions, for example? I just want to understand the tasking."
-  },
-  {
-    "turn_id": "turn_000632",
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 9159.82,
     "end": 9160.82,
-    "text": "I'm sorry."
+    "text": "I appreciate the promotion. Just so I understand, we have talked with every council in the 20 years that I've been here about doing a code of ethics generally and councils have not adopted it. Are you all suggesting that we bring back a suggested code of ethics? We're certainly prepared to do that. We have the materials that we've updated year after year. Or are you suggesting bringing forward a one-off related just to that discrete issue, which is a different thing but could be Included in your policy with respect to boards and commissions, for example? I just want to understand the tasking. I'm sorry."
   },
   {
     "turn_id": "turn_000633",
@@ -1893,9 +1866,9 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000637",
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
+    "speaker": "Brian Lubkeman",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 9240.22,
     "end": 9263.26,
     "text": "So just looking at the calendar, considering you're in the middle of budget season, I would assume that perhaps the meeting or a couple meetings after budget adoption would be a good target for this discussion. And it will be a discussion because I assume there are differing views on this, but we'll be prepared to bring some information back at a work session if that's the will of the council."
@@ -1974,9 +1947,9 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000670",
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker_source": "caption",
+    "speaker_source_detail": "caption:explicit",
     "start": 9991.14,
     "end": 10018.54,
     "text": "♪♪ ♪♪ ♪♪ ♪♪"

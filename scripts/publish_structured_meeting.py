@@ -39,13 +39,14 @@ def main() -> int:
         raise SystemExit("Structured transcript missing turns[]")
 
     labeled_turns: list[dict[str, Any]] = []
-    for t in turns:
+    for idx, t in enumerate(turns):
         # Worker writes to speaker/speaker_source; speaker_public/speaker_status is the pre-review baseline.
         # When review decisions are applied, speaker is set directly. Use it if present.
         effective_speaker = t.get("speaker") or t.get("speaker_public") or "Unknown Speaker"
         effective_source = t.get("speaker_source") or t.get("speaker_status") or "unknown"
         labeled_turns.append(
             {
+                "turn_id": str(t.get("turn_id") or f"turn_{idx+1:06d}"),
                 "speaker": str(effective_speaker),
                 "speaker_source": str(effective_source),
                 "speaker_source_detail": str(t.get("speaker_source_detail") or t.get("review_reason") or ""),
@@ -54,7 +55,6 @@ def main() -> int:
                 "text": str(t.get("text") or "").strip(),
             }
         )
-
     turns_out = REPO_ROOT / "docs" / "transcripts" / f"{args.meeting_id}-data.js"
     html_out = REPO_ROOT / "docs" / "transcripts" / f"{args.meeting_id}.html"
 
