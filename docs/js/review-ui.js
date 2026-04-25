@@ -351,11 +351,15 @@
       // Label button appears on ALL speaker blocks (not just Unknown), so reviewer
       // can correct any misattributed speaker, including named officials and public commenters.
       // Only skip if block has no turn IDs.
-      if (!blockInfo.turnIds || blockInfo.turnIds.length === 0) return;
+      var blockInfoForThisBlock = findDomBlockForBlock({
+        speakerKey: String(block.dataset.speaker || '').replace(/\s+/g, '').toLowerCase(),
+        start: Number(block.dataset.time) || 0
+      });
+      if (!blockInfoForThisBlock || !blockInfoForThisBlock.turnIds || blockInfoForThisBlock.turnIds.length === 0) return;
       if (block.querySelector('.label-btn')) return;
 
       var staged = PENDING_DECISIONS.find(function (d) {
-        return blockInfo.turnIds.indexOf(d.turn_id) >= 0;
+        return blockInfoForThisBlock.turnIds.indexOf(d.turn_id) >= 0;
       });
 
       var btn = document.createElement('button');
@@ -368,8 +372,8 @@
       btn.addEventListener('click', function (e) {
         e.stopPropagation();
         try {
-          var tid = blockInfo.turnIds[0];
-          openModalForTurn(tid == null ? blockInfo : tid);
+          var tid = blockInfoForThisBlock.turnIds[0];
+          openModalForTurn(tid == null ? blockInfoForThisBlock : tid);
         } catch (err) {
           console.error('[review-ui] openModalForTurn error:', err);
         }
@@ -377,7 +381,7 @@
       var hdr = block.querySelector('.turn-header');
       if (hdr) {
         hdr.appendChild(btn);
-        console.log('[review-ui] Label button appended to turn-header for block speaker=' + blockInfo.speaker + ', turnIds=' + JSON.stringify(blockInfo.turnIds));
+        console.log('[review-ui] Label button appended to turn-header for block speaker=' + blockInfoForThisBlock.speaker + ', turnIds=' + JSON.stringify(blockInfoForThisBlock.turnIds));
       } else {
         console.log('[review-ui] ERROR: no .turn-header found in block');
       }
