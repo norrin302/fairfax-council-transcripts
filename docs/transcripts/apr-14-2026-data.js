@@ -6,24 +6,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "unknown",
     "speaker_source_detail": "no_diarization",
     "start": 0.0,
-    "end": 2.0,
-    "text": "Oh"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 30.0,
-    "end": 32.0,
-    "text": "I"
-  },
-  {
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "heuristic",
-    "speaker_source_detail": "text_heuristic",
-    "start": 60.0,
     "end": 72.44,
-    "text": "Would like to call the regular meeting of April 14th 2026 to order. It's good to see the chamber full We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the Pledge of Allegiance"
+    "text": "Oh I Would like to call the regular meeting of April 14th 2026 to order. It's good to see the chamber full We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the Pledge of Allegiance"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -126,24 +110,40 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "heuristic",
     "speaker_source_detail": "name_call_handoff",
     "start": 574.7,
-    "end": 611.56,
-    "text": "Good evening everyone so I'm here to as a Science teacher standing here in front of you and the ESC committee member To kind of this is a great day for all of us. We all are here We breathe oxygen and we all breathe it. Thanks to our trees So, please join us on the Arbor Day event on April 25th And I would also like to make a pitch for making our carbon footprint a little better than what? what we do. I am one of the persons who benefited from the city's Solarize Virginia program last year, and I have solar panels on my house and a few other friends who are also in this"
-  },
-  {
-    "speaker": "Fasa Alam",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 611.56,
     "end": 658.84,
-    "text": "Room have that. And since October, I have not paid anything to Dominion other than $7 something, and I have exported a lot of power out there. So this year again, the Solarize Virginia is a great program. It's opening up again on April 16th, Stephanie? Yes. On April 15th, and it will continue. It is a very good vetted program. It's the best rate you're going to get. So just spread the word out and do that. And please join us on the Arbor Day on April 25th. The event begins at 9 a.m. We will have some students who are written beautiful poetries. They will be reciting. We'll have tree giveaways, tree plantations, And a lot of fun. So please join us. All right. Any other remarks? Okay. Thank you."
+    "text": "Good evening everyone so I'm here to as a Science teacher standing here in front of you and the ESC committee member To kind of this is a great day for all of us. We all are here We breathe oxygen and we all breathe it. Thanks to our trees So, please join us on the Arbor Day event on April 25th And I would also like to make a pitch for making our carbon footprint a little better than what? what we do. I am one of the persons who benefited from the city's Solarize Virginia program last year, and I have solar panels on my house and a few other friends who are also in this Room have that. And since October, I have not paid anything to Dominion other than $7 something, and I have exported a lot of power out there. So this year again, the Solarize Virginia is a great program. It's opening up again on April 16th, Stephanie? Yes. On April 15th, and it will continue. It is a very good vetted program. It's the best rate you're going to get. So just spread the word out and do that. And please join us on the Arbor Day on April 25th. The event begins at 9 a.m. We will have some students who are written beautiful poetries. They will be reciting. We'll have tree giveaways, tree plantations, And a lot of fun. So please join us. All right. Any other remarks? Okay. Thank you."
   },
   {
     "speaker": "Mayor Catherine Read",
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 658.84,
+    "end": 663.84,
+    "text": "And I think that's at Pat Rodeo Park? Yes. Pat Rodeo Park. I think that's a new venue for us."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unresolved",
+    "speaker_source_detail": "unresolved_identity",
+    "start": 663.84,
+    "end": 665.84,
+    "text": "Okay. Picture."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "no_diarization",
+    "start": 665.84,
+    "end": 695.32,
+    "text": "Squeeze in. All right. Excellent. Excellent. Thank you all. Thank you all for being here. All right."
+  },
+  {
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 695.8,
     "end": 828.4,
-    "text": "And I think that's at Pat Rodeo Park? Yes. Pat Rodeo Park. I think that's a new venue for us. Okay. Picture. Squeeze in. All right. Excellent. Excellent. Thank you all. Thank you all for being here. All right. All right. So joining Stephanie and Anna, I'm looking for Janet Jaworski, Mary Driver-Downs, Faza Alam, and Rusty Russell. You guys, where'd you go? All right. More and more things to So many things. Whereas the monarch butterfly is an iconic North American species whose multi-generational migration and metamorphosis from caterpillar to butterfly has captured The imagination of millions of Americans. And whereas both the Western and Eastern monarch Populations have seen significant declines with less than 1% of the Western monarch population Remaining, while the Eastern population has fallen by as much as 90%. And whereas the City of Fairfax recognizes that human health ultimately depends on well-functioning ecosystems and that biodiverse regions can better support food production, healthy soil and air quality, and can foster healthy connections between humans and wildlife. And whereas cities, towns, and counties have a critical role to play in helping save the monarch butterfly by providing habitat at public parks and median strips, community gardens, and municipal buildings that serve as community hubs such as recreation centers, libraries, and schools. And whereas simple changes in landscaping, ordinances, or school policies can make a big difference For the monarch, educating citizens about how to provide essential habitat for monarchs and where and how to grow milkweed, which is a key piece of the puzzle in creating habitat and educating citizens benefits other pollinators that need healthy habitats as well. Now therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, do hereby commit to the Mayor's Monarch Pledge, this is a nationwide thing, the Mayor's Monarch Pledge, and encourage all residents to participate in community activities that support and celebrate monarch conservation so that these magnificent butterflies will once again flourish across this continent. And with that, I will turn it over to Ms. Janet Jaworski."
+    "text": "All right. So joining Stephanie and Anna, I'm looking for Janet Jaworski, Mary Driver-Downs, Faza Alam, and Rusty Russell. You guys, where'd you go? All right. More and more things to So many things. Whereas the monarch butterfly is an iconic North American species whose multi-generational migration and metamorphosis from caterpillar to butterfly has captured The imagination of millions of Americans. And whereas both the Western and Eastern monarch Populations have seen significant declines with less than 1% of the Western monarch population Remaining, while the Eastern population has fallen by as much as 90%. And whereas the City of Fairfax recognizes that human health ultimately depends on well-functioning ecosystems and that biodiverse regions can better support food production, healthy soil and air quality, and can foster healthy connections between humans and wildlife. And whereas cities, towns, and counties have a critical role to play in helping save the monarch butterfly by providing habitat at public parks and median strips, community gardens, and municipal buildings that serve as community hubs such as recreation centers, libraries, and schools. And whereas simple changes in landscaping, ordinances, or school policies can make a big difference For the monarch, educating citizens about how to provide essential habitat for monarchs and where and how to grow milkweed, which is a key piece of the puzzle in creating habitat and educating citizens benefits other pollinators that need healthy habitats as well. Now therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, do hereby commit to the Mayor's Monarch Pledge, this is a nationwide thing, the Mayor's Monarch Pledge, and encourage all residents to participate in community activities that support and celebrate monarch conservation so that these magnificent butterflies will once again flourish across this continent. And with that, I will turn it over to Ms. Janet Jaworski."
   },
   {
     "speaker": "Janet Jaworski",
@@ -198,24 +198,64 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 1222.36,
+    "end": 1224.36,
+    "text": "Big turn."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unresolved",
+    "speaker_source_detail": "unresolved_identity",
+    "start": 1224.36,
+    "end": 1227.36,
+    "text": "Okay. Come forward. Come on."
+  },
+  {
+    "speaker": "Councilmember Rachel McQuillen",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 1227.36,
     "end": 1229.36,
-    "text": "Big turn. Okay. Come forward. Come on. Somebody reach out. Okay, there we go."
+    "text": "Somebody reach out. Okay, there we go."
   },
   {
     "speaker": "JC Martinez",
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 1229.36,
+    "end": 1231.36,
+    "text": "Okay. Okay."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unresolved",
+    "speaker_source_detail": "unresolved_identity",
+    "start": 1231.36,
     "end": 1238.36,
-    "text": "Okay. Okay. So, I think it's not working. Okay. Okay. Okay. Okay. Okay. Okay."
+    "text": "So, I think it's not working. Okay. Okay. Okay. Okay. Okay. Okay."
   },
   {
     "speaker": "Alan Glenn",
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 1238.36,
+    "end": 1250.36,
+    "text": "Okay. Okay. Okay. Okay. Okay. Okay. Okay. Thanks. Okay. Okay. Okay. Okay."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unresolved",
+    "speaker_source_detail": "unresolved_identity",
+    "start": 1250.36,
+    "end": 1251.36,
+    "text": "All right."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "no_diarization",
+    "start": 1251.36,
     "end": 1268.08,
-    "text": "Okay. Okay. Okay. Okay. Okay. Okay. Okay. Thanks. Okay. Okay. Okay. Okay. All right. And Eddie and Martha. Thank you so much. And Alison, you guys look fantastic. Just so awesome to hear you Pauling. Thank you so much. All right. It's so great to hear you call it. And no, I'm not going to start over. I said I was going to say, no not going to start over. I just wanted to hear you call it."
+    "text": "And Eddie and Martha. Thank you so much. And Alison, you guys look fantastic. Just so awesome to hear you Pauling. Thank you so much. All right. It's so great to hear you call it. And no, I'm not going to start over. I said I was going to say, no not going to start over. I just wanted to hear you call it."
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -230,24 +270,40 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 1451.92,
-    "end": 1495.56,
-    "text": "Good evening everybody. You know, it's a great opportunity to be here with you and celebrating such an important, important group of professionals in our public safety world. I just want to introduce everybody really quickly. Our Dispatcher, Ms. Araceli Gonzalez, Ms. Courtney Ellis, Elijah Tibbs, who was just introduced As our Dispatcher of the Year for 2025, our Communications and Records Supervisor, Ms. Cynthia Tetherton, our Lieutenant, Ms. Stephanie Sharp, who oversees the entire operation, and then Captain Brock Rutter, who oversees the Administrative Services Division. With them, there's another six Dispatchers that help answer all the phone calls from people within our city, whether you're living here, working here, visiting, if you have"
+    "end": 1552.84,
+    "text": "Good evening everybody. You know, it's a great opportunity to be here with you and celebrating such an important, important group of professionals in our public safety world. I just want to introduce everybody really quickly. Our Dispatcher, Ms. Araceli Gonzalez, Ms. Courtney Ellis, Elijah Tibbs, who was just introduced As our Dispatcher of the Year for 2025, our Communications and Records Supervisor, Ms. Cynthia Tetherton, our Lieutenant, Ms. Stephanie Sharp, who oversees the entire operation, and then Captain Brock Rutter, who oversees the Administrative Services Division. With them, there's another six Dispatchers that help answer all the phone calls from people within our city, whether you're living here, working here, visiting, if you have Any type of emergency, if you need direction somewhere, you call the police and they answer. And it's something beautiful to watch if you ever have the opportunity to be in a 911 center and to see what happens, particularly when there's a critical situation occurring in the city, and all of them come together, and whether it's, you have to understand what they do. They take the phone call, they're a detective, they're asking questions, they're figuring out what it is that's happening, where it's happening, what's that vital information that has to get routed to our responding police or fire personnel. At the same time, they're typing it all and routing it to the police officers and emergency personnel real-time. As they're typing it, figuring out what to ask, what's the next question, typing it in And routing it to the right people, and assigning the right personnel to respond to that call. It's incredible. And so I really thank all of our Dispatchers, appreciate everybody supporting them, and For our proclamation. Mayor, thank you so much. Thank you."
   },
   {
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "heuristic",
-    "speaker_source_detail": "text_heuristic",
-    "start": 1495.56,
-    "end": 1501.32,
-    "text": "Any type of emergency, if you need direction somewhere, you call the police and they answer."
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unresolved",
+    "speaker_source_detail": "unresolved_identity",
+    "start": 1552.84,
+    "end": 1560.24,
+    "text": "And who is, who is this officer, officer?"
   },
   {
     "speaker": "Elijah Tibbs",
     "speaker_source": "approved",
     "speaker_source_detail": "",
-    "start": 1501.32,
+    "start": 1560.36,
+    "end": 1563.72,
+    "text": "I forgot to introduce Sherry."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unresolved",
+    "speaker_source_detail": "unresolved_identity",
+    "start": 1563.72,
+    "end": 1575.08,
+    "text": "Officer Sherry? Okay, Officer Sherry? Okay. Wonderful, wonderful. Sherry's our pure wellness dog, so she's here to support everybody. So we are going to now have a picture."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "no_diarization",
+    "start": 1575.08,
     "end": 1576.08,
-    "text": "And it's something beautiful to watch if you ever have the opportunity to be in a 911 center and to see what happens, particularly when there's a critical situation occurring in the city, and all of them come together, and whether it's, you have to understand what they do. They take the phone call, they're a detective, they're asking questions, they're figuring out what it is that's happening, where it's happening, what's that vital information that has to get routed to our responding police or fire personnel. At the same time, they're typing it all and routing it to the police officers and emergency personnel real-time. As they're typing it, figuring out what to ask, what's the next question, typing it in And routing it to the right people, and assigning the right personnel to respond to that call. It's incredible. And so I really thank all of our Dispatchers, appreciate everybody supporting them, and For our proclamation. Mayor, thank you so much. Thank you. And who is, who is this officer, officer? I forgot to introduce Sherry. Officer Sherry? Okay, Officer Sherry? Okay. Wonderful, wonderful. Sherry's our pure wellness dog, so she's here to support everybody. So we are going to now have a picture. All right."
+    "text": "All right."
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -286,16 +342,16 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "heuristic",
     "speaker_source_detail": "self_introduction",
     "start": 1690.08,
-    "end": 1738.76,
-    "text": "My name is Anita Light, and I'm here tonight in three capacities. First as the chair of the Fairfax Village in the City Advisory Board, resident of Fairfax City, obviously, and as an older adult. As chair of the Fairfax Village in the City Advisory Board, we wanted to emphasize our support for the Willard Sherwood Center, as noted in our letter to you all dated April 6th. In that letter, we noted that supporting the new Willard Sherwood Center would help make accessibility for older adults easier and safer. We also noted that this project was a community partnership effort with the county, as well as the residents of both the city and the county. And finally, we highlighted that this project is a long-term investment for the future of"
+    "end": 1888.16,
+    "text": "My name is Anita Light, and I'm here tonight in three capacities. First as the chair of the Fairfax Village in the City Advisory Board, resident of Fairfax City, obviously, and as an older adult. As chair of the Fairfax Village in the City Advisory Board, we wanted to emphasize our support for the Willard Sherwood Center, as noted in our letter to you all dated April 6th. In that letter, we noted that supporting the new Willard Sherwood Center would help make accessibility for older adults easier and safer. We also noted that this project was a community partnership effort with the county, as well as the residents of both the city and the county. And finally, we highlighted that this project is a long-term investment for the future of The city. And as an additional note on the advisory board, and for a more important reason, we really support advancing the Willard Sherwood Center to help enhance the Villages Expo that we had this past Friday, which was a huge success. And if we had even better facility with better parking, it would help that event even better. And as a resident of the city, I support the Willard Sherwood Center because this facility will afford a generational opportunity for programming for older adults and children And support the health care needs of our city. The partnership with the county has been longstanding, and as a result, the city is able to do more for the residents than they would otherwise be able to do, for instance, on social services, emergency dispatch, libraries, court services, and schools, to name a few. Without these partnerships, the cost to our residents would be significantly more. if we had to provide these basic services on our own. I've been a lifelong proponent of continuous improvement in organizations and while the Willard Sherwood Center is not an organization it is a joint Partnership with the county that needs to be continuously improved And nurtured to avoid even further cost. As an older adult, which I'm getting Older and older by the minute, I support the Willard Sherwood Center project because participating in programs at Green Acres is potentially hazardous to my physical well-being. When I attended events at the Green Acres Center I had had recent knee surgery and since parking at the Green Acres Center is at a premium, walking to the entrance was very difficult and walking down those steps to get to the front door was Even more difficult and then once you get inside the Building you have more steps to get to some of the rooms and that gets increasingly difficult for the older people. Having access to a new modernized Willard Sherwood Center, so while I urge you to, While there is a cost to modernization and there will be additional costs to the center, I urge you to support its development that will help the more than 9,000 older adults in Fairfax City and we appreciate and thank you for your consideration. Thank you."
   },
   {
     "speaker": "Mayor Catherine Read",
     "speaker_source": "approved",
     "speaker_source_detail": "",
-    "start": 1738.76,
+    "start": 1888.16,
     "end": 1892.0,
-    "text": "The city. And as an additional note on the advisory board, and for a more important reason, we really support advancing the Willard Sherwood Center to help enhance the Villages Expo that we had this past Friday, which was a huge success. And if we had even better facility with better parking, it would help that event even better. And as a resident of the city, I support the Willard Sherwood Center because this facility will afford a generational opportunity for programming for older adults and children And support the health care needs of our city. The partnership with the county has been longstanding, and as a result, the city is able to do more for the residents than they would otherwise be able to do, for instance, on social services, emergency dispatch, libraries, court services, and schools, to name a few. Without these partnerships, the cost to our residents would be significantly more. if we had to provide these basic services on our own. I've been a lifelong proponent of continuous improvement in organizations and while the Willard Sherwood Center is not an organization it is a joint Partnership with the county that needs to be continuously improved And nurtured to avoid even further cost. As an older adult, which I'm getting Older and older by the minute, I support the Willard Sherwood Center project because participating in programs at Green Acres is potentially hazardous to my physical well-being. When I attended events at the Green Acres Center I had had recent knee surgery and since parking at the Green Acres Center is at a premium, walking to the entrance was very difficult and walking down those steps to get to the front door was Even more difficult and then once you get inside the Building you have more steps to get to some of the rooms and that gets increasingly difficult for the older people. Having access to a new modernized Willard Sherwood Center, so while I urge you to, While there is a cost to modernization and there will be additional costs to the center, I urge you to support its development that will help the more than 9,000 older adults in Fairfax City and we appreciate and thank you for your consideration. Thank you. Our next speaker is Kevin Anderson."
+    "text": "Our next speaker is Kevin Anderson."
   },
   {
     "speaker": "Kevin Anderson",
@@ -350,88 +406,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "unresolved",
     "speaker_source_detail": "unresolved_identity",
     "start": 2672.94,
-    "end": 2689.42,
-    "text": "Good evening madam mayor city council members and assembled city staff I have I'd like to speak to just two issues with my in my a lot of time the first is"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 2689.42,
-    "end": 2699.78,
-    "text": "The Willard Community Center all the good things that have been said about it I support I would add one other thing that I didn't hear yet and that is"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
-    "start": 2699.78,
-    "end": 2718.3,
-    "text": "Combining the community center in the center of the city I think is it just makes sense to me and it's a great opportunity to reinforce old town as a hub of daily activities which has been necessary for a long time and we've"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 2718.3,
-    "end": 2724.26,
-    "text": "Talked about that quite a bit so I recommend that you support the that"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
-    "start": 2724.26,
-    "end": 2748.38,
-    "text": "Issue the other one has to do with the Fairfax Renaissance Housing Corporation which is an organization that provides the city of Fairfax homeowners an attractive opportunity to upgrade and improve the quality of the city's residential neighborhoods over the past 23 years of its existence it has"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 2748.38,
-    "end": 2758.3,
-    "text": "Provided funding to 290 improvement loans and has not lost a single penny to"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
-    "start": 2758.3,
-    "end": 2774.74,
-    "text": "A bad loan plus the city gets back money from the housing corporation program due to the permanent improvements that are made and thus the tax that goes with"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 2774.74,
-    "end": 2785.22,
-    "text": "That permanent improvement goes with the home okay and so when the increase comes"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
-    "start": 2785.22,
-    "end": 2792.42,
-    "text": "For that and the city which receives a return on its investment and it"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 2792.42,
-    "end": 2799.98,
-    "text": "Continues and continues so this program was not funded last year and now we"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
-    "start": 2799.98,
     "end": 2823.22,
-    "text": "Can't do any loans at all because they don't have funds for it and so I strongly urge that this City Council fund it for next year so that we can continue this program because it returns money to you and the person is that the people that get the improvements like it a lot believe me I thank you for your"
+    "text": "Good evening madam mayor city council members and assembled city staff I have I'd like to speak to just two issues with my in my a lot of time the first is The Willard Community Center all the good things that have been said about it I support I would add one other thing that I didn't hear yet and that is Combining the community center in the center of the city I think is it just makes sense to me and it's a great opportunity to reinforce old town as a hub of daily activities which has been necessary for a long time and we've Talked about that quite a bit so I recommend that you support the that Issue the other one has to do with the Fairfax Renaissance Housing Corporation which is an organization that provides the city of Fairfax homeowners an attractive opportunity to upgrade and improve the quality of the city's residential neighborhoods over the past 23 years of its existence it has Provided funding to 290 improvement loans and has not lost a single penny to A bad loan plus the city gets back money from the housing corporation program due to the permanent improvements that are made and thus the tax that goes with That permanent improvement goes with the home okay and so when the increase comes For that and the city which receives a return on its investment and it Continues and continues so this program was not funded last year and now we Can't do any loans at all because they don't have funds for it and so I strongly urge that this City Council fund it for next year so that we can continue this program because it returns money to you and the person is that the people that get the improvements like it a lot believe me I thank you for your"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -443,19 +419,11 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "speaker": "Becky Rager",
-    "speaker_source": "heuristic",
-    "speaker_source_detail": "self_introduction",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 2838.7,
-    "end": 2855.5,
-    "text": "Good evening thank you for the opportunity to speak with you tonight my name is Becky Rager I live at 4141 Evergreen Drive been there for 31 years I'm a current member of the Fairfax Village in the City Advisory Board I"
-  },
-  {
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "heuristic",
-    "speaker_source_detail": "text_heuristic",
-    "start": 2855.5,
     "end": 3002.68,
-    "text": "Spoke to you last month in overall support of the Willard Sherwood Health Center and the Community Center I'm here today to briefly express how the village in the city could enhance services as a result of the new facility I'm mentioning a few possibilities today as we move forward the Advisory Board members village members and volunteers can brainstorm other possibilities for expanded services that directly support older adults and those with disabilities Beyond what is currently available we will also work with the Willard Health Center and the Green Acres staff to create new programs which could include And I'm just listing a few intergenerational activities such as tutoring or reading to the children in the child care center working on shared craft projects in dedicated spaces where projects could remain until completed growing and maintaining a rooftop or the garden and creating a gardening circle working with the neighboring Willard Health Center to have a memory cafe once a month where people who are in the early stages of cognitive impairment and their caregivers can meet socialize and trade ideas developing workshops designed To improve memory and cognitive function creating a digital storytelling club Where seniors use technology and record their life stories and conducting a vintage hat and fashion showcase where members bring in their vintage collections and show them and then discuss the stories behind them all of these proposed suggestions could be done without additional staffing costs as members are not just consumers they are staff our village consists of members and volunteers with an extensive variety of backgrounds and experience For example a member might receive a ride to the doctor one day and Facilitate a workshop the next this creates a sustainable model for future programs without additional cost I believe the new Willard Sherwood facility with all the infrastructure enhancements will provide is necessary to continue to deliver modern equitable full services for the entire community."
+    "text": "Good evening thank you for the opportunity to speak with you tonight my name is Becky Rager I live at 4141 Evergreen Drive been there for 31 years I'm a current member of the Fairfax Village in the City Advisory Board I Spoke to you last month in overall support of the Willard Sherwood Health Center and the Community Center I'm here today to briefly express how the village in the city could enhance services as a result of the new facility I'm mentioning a few possibilities today as we move forward the Advisory Board members village members and volunteers can brainstorm other possibilities for expanded services that directly support older adults and those with disabilities Beyond what is currently available we will also work with the Willard Health Center and the Green Acres staff to create new programs which could include And I'm just listing a few intergenerational activities such as tutoring or reading to the children in the child care center working on shared craft projects in dedicated spaces where projects could remain until completed growing and maintaining a rooftop or the garden and creating a gardening circle working with the neighboring Willard Health Center to have a memory cafe once a month where people who are in the early stages of cognitive impairment and their caregivers can meet socialize and trade ideas developing workshops designed To improve memory and cognitive function creating a digital storytelling club Where seniors use technology and record their life stories and conducting a vintage hat and fashion showcase where members bring in their vintage collections and show them and then discuss the stories behind them all of these proposed suggestions could be done without additional staffing costs as members are not just consumers they are staff our village consists of members and volunteers with an extensive variety of backgrounds and experience For example a member might receive a ride to the doctor one day and Facilitate a workshop the next this creates a sustainable model for future programs without additional cost I believe the new Willard Sherwood facility with all the infrastructure enhancements will provide is necessary to continue to deliver modern equitable full services for the entire community."
   },
   {
     "speaker": "William Pitchford",
@@ -478,16 +446,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 3016.48,
-    "end": 3095.58,
-    "text": "Thank you. Alan Glenn, long time resident of the city and now a resident just outside the city. I wanted to speak tonight also in favor of the project that Willard Health Center, Sherwood Center. Both on my wife's behalf, Judy Blanchard and myself, we're strongly in support of it. We've benefited from some of the services over the years. Our kids were vaccinated at the health center in their early childhood period. We've had other counseling and services over the years. We've both of us have used the senior center and continue to be members there. I think the expanded opportunities for childcare and public health that'll be offered and available through this project are very much in demand. To me, this project is one of a number that I consider crown jewels in the community Where the city partners with the county in coming up with a wonderful facility to serve everyone, including the public schools where both our kids went and the public library that we've used"
-  },
-  {
-    "speaker": "Alan Glenn",
-    "speaker_source": "approved",
-    "speaker_source_detail": "",
-    "start": 3102.14,
     "end": 3192.98,
-    "text": "And the health centers. Personally, I think you all have a difficult job as elected leaders to a two-year term where you have to consider the strategic needs of the community and balance them against costs and budgetary issues. But I think in this case, the project will serve a need To re-update and replace the senior center that's now at Green Acres and provide better health and public services and childcare and early childhood health for residents. The nice thing about this is it serves everybody in the community, regardless of age, income, strata, or which neighborhood you live in. So to me, it's definitely needed and I strongly support it. Thank you very much. Oh, as long as I've got 30 seconds left, Let me just say Mr. Lustina, who was the previous speaker, I would like to endorse his comments. I served on the board with him for five years of the Housing Renaissance Corporation. That was one of three city boards that I've had the privilege to serve on over the years. And I think that board and the funding from the city served a important need to maintain and upgrade existing housing stock in the city. Thank you."
+    "text": "Thank you. Alan Glenn, long time resident of the city and now a resident just outside the city. I wanted to speak tonight also in favor of the project that Willard Health Center, Sherwood Center. Both on my wife's behalf, Judy Blanchard and myself, we're strongly in support of it. We've benefited from some of the services over the years. Our kids were vaccinated at the health center in their early childhood period. We've had other counseling and services over the years. We've both of us have used the senior center and continue to be members there. I think the expanded opportunities for childcare and public health that'll be offered and available through this project are very much in demand. To me, this project is one of a number that I consider crown jewels in the community Where the city partners with the county in coming up with a wonderful facility to serve everyone, including the public schools where both our kids went and the public library that we've used And the health centers. Personally, I think you all have a difficult job as elected leaders to a two-year term where you have to consider the strategic needs of the community and balance them against costs and budgetary issues. But I think in this case, the project will serve a need To re-update and replace the senior center that's now at Green Acres and provide better health and public services and childcare and early childhood health for residents. The nice thing about this is it serves everybody in the community, regardless of age, income, strata, or which neighborhood you live in. So to me, it's definitely needed and I strongly support it. Thank you very much. Oh, as long as I've got 30 seconds left, Let me just say Mr. Lustina, who was the previous speaker, I would like to endorse his comments. I served on the board with him for five years of the Housing Renaissance Corporation. That was one of three city boards that I've had the privilege to serve on over the years. And I think that board and the funding from the city served a important need to maintain and upgrade existing housing stock in the city. Thank you."
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -710,8 +670,24 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 4076.04,
+    "end": 4107.08,
+    "text": "So when the initial discussion happened in March, I was clearly not here for that towards the end since I was out of the country. I got back on my understanding, was there supposed to be a recusal? And I really think, for me, there's only one question that really needs to be answered, and that would probably come from our city attorney, is that, per your review, should Council Member Hardy-Chandler have been included in the vote for two of the appointees Excluding her husband?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unresolved",
+    "speaker_source_detail": "unresolved_identity",
+    "start": 4107.08,
+    "end": 4145.2,
+    "text": "So one of the nice things about the State and Local Government Conflict of Interest Act is that decision is left to the individual member. I have my opinions as to whether it's appropriate for a member to vote for a position in which his or her husband, family member is a candidate. I will say, I think the answer to that question is not really a legal one. So Council Member Hardy-Chandler is taking her own counsel on this, and that is all I will say on that."
+  },
+  {
+    "speaker": "Councilmember Anthony Amos",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 4145.2,
     "end": 4168.36,
-    "text": "So when the initial discussion happened in March, I was clearly not here for that towards the end since I was out of the country. I got back on my understanding, was there supposed to be a recusal? And I really think, for me, there's only one question that really needs to be answered, and that would probably come from our city attorney, is that, per your review, should Council Member Hardy-Chandler have been included in the vote for two of the appointees Excluding her husband? So one of the nice things about the State and Local Government Conflict of Interest Act is that decision is left to the individual member. I have my opinions as to whether it's appropriate for a member to vote for a position in which his or her husband, family member is a candidate. I will say, I think the answer to that question is not really a legal one. So Council Member Hardy-Chandler is taking her own counsel on this, and that is all I will say on that. Thank you. So to follow up on that, I completely understand that this is a frustrating circumstance and has been for some time. Ultimately, due to policy and procedure and the existing rules, it would be on Stacey Hardy-Chandler, Which means I believe that it would be necessary to push it to May 12th And have additional discussion."
+    "text": "Thank you. So to follow up on that, I completely understand that this is a frustrating circumstance and has been for some time. Ultimately, due to policy and procedure and the existing rules, it would be on Stacey Hardy-Chandler, Which means I believe that it would be necessary to push it to May 12th And have additional discussion."
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -726,16 +702,56 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 4172.72,
-    "end": 4266.84,
-    "text": "I have questions for you, Mr. Lefferman. Can the city attorney confirm for the public that the city of Fairfax operates under a council manager form of government and that the appointments to boards and commissions are made by the city council as a body? Yes, that is clear in the city charter. Thank you. Can the city attorney confirm that interviews and deliberations on applicants occur in closed session and the final appointments are voted in open session at a regular meeting? Yes. And can the city? The attorney also clarified for the public whether any individual member's recusal on a particular appointment does or does not change the council's collective authority to proceed under its established appointment procedures. Could you restate that question, please? Whether any individual member's recusal on a particular appointment does or does not change the council's collective authority to proceed under its established appointment procedures. An individual's recusal simply changes the number of votes required. And it also, even if a majority of council members recuse on an item, it doesn't affect the quorum for purposes of voting on an item. So it just simply becomes the remaining members vote on the particular appointment. Excellent, thank you. The city's own materials say appointments are made by city council and coordinated through the city clerk. I'm asking that we simply restate the city's own rules on the record. That's all I'm doing. I also want to, I do have a few more questions. Sorry, I'm kind of going through here."
+    "end": 4186.44,
+    "text": "I have questions for you, Mr. Lefferman. Can the city attorney confirm for the public that the city of Fairfax operates under a council manager form of government and that the appointments to boards and commissions are made by the city council as a body?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unresolved",
+    "speaker_source_detail": "unresolved_identity",
+    "start": 4186.44,
+    "end": 4188.52,
+    "text": "Yes, that is clear in the city charter."
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
     "speaker_source": "approved",
     "speaker_source_detail": "",
-    "start": 4274.28,
+    "start": 4188.52,
+    "end": 4212.12,
+    "text": "Thank you. Can the city attorney confirm that interviews and deliberations on applicants occur in closed session and the final appointments are voted in open session at a regular meeting? Yes. And can the city? The attorney also clarified for the public whether any individual member's recusal on a particular appointment does or does not change the council's collective authority to proceed under its established appointment procedures."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unresolved",
+    "speaker_source_detail": "unresolved_identity",
+    "start": 4212.12,
+    "end": 4215.4,
+    "text": "Could you restate that question, please?"
+  },
+  {
+    "speaker": "Councilmember Rachel McQuillen",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 4215.4,
+    "end": 4226.48,
+    "text": "Whether any individual member's recusal on a particular appointment does or does not change the council's collective authority to proceed under its established appointment procedures."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unresolved",
+    "speaker_source_detail": "unresolved_identity",
+    "start": 4226.48,
+    "end": 4246.88,
+    "text": "An individual's recusal simply changes the number of votes required. And it also, even if a majority of council members recuse on an item, it doesn't affect the quorum for purposes of voting on an item. So it just simply becomes the remaining members vote on the particular appointment."
+  },
+  {
+    "speaker": "Councilmember Rachel McQuillen",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 4246.88,
     "end": 4277.28,
-    "text": "OK, I asked those. Just double checking, making sure my note's here."
+    "text": "Excellent, thank you. The city's own materials say appointments are made by city council and coordinated through the city clerk. I'm asking that we simply restate the city's own rules on the record. That's all I'm doing. I also want to, I do have a few more questions. Sorry, I'm kind of going through here. OK, I asked those. Just double checking, making sure my note's here."
   },
   {
     "speaker": "Unknown Speaker",
@@ -774,8 +790,72 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 4366.36,
+    "end": 4391.76,
+    "text": "OK, and I understand your perspective on it. I happen to disagree. And I think that if a spouse or a family member serves on a board or commission, it makes perfect sense to be recusing. And clearly, the state code seems to support that. I did have one other question in the meantime before I pass the floor back to Councilman McQuillan. Mr. Lubkin, are you aware of any times in which the mayor has voted on a board or commission nomination?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unresolved",
+    "speaker_source_detail": "unresolved_identity",
+    "start": 4391.76,
+    "end": 4405.2,
+    "text": "In the 20 years I've been city attorney, well, I'll turn it around by saying my experience has been that most appointments to boards and commissions tend to be close to unanimous by the body. That's the fair statement."
+  },
+  {
+    "speaker": "Councilmember Stacy Hall",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 4405.2,
+    "end": 4416.08,
+    "text": "So I think we can enter that to how we would like it to. But it sounds like in most cases, a mayor's vote would not be needed. But is the charter wording such that the mayor does have a vote in that?"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unresolved",
+    "speaker_source_detail": "unresolved_identity",
+    "start": 4416.08,
+    "end": 4453.44,
+    "text": "The mayor can vote on procedural aspects related to the appointment. So for example, deferring action on an appointment, those type of things are perfectly legitimate. I have always taken the position that the appointments to boards and commissions legally is the province of the city council. It is also true, and people throw the word tradition around, it is also not an incorrect statement how it was characterized previously as to previous actions by previous councils and mayors. But that is not a legal requirement. That is just simply an agreement among the parties."
+  },
+  {
+    "speaker": "Councilmember Stacy Hall",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 4453.44,
+    "end": 4476.08,
+    "text": "OK, so I think if we have hired you as our attorney, and we tend to consider you an expert in all things city Legal, and we thank you very much for your service Frequently, we should understand that you are making a statement that says that the mayor legally is not entitled to vote on these things, and that it has been council that votes on boards and commission nominations."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unresolved",
+    "speaker_source_detail": "unresolved_identity",
+    "start": 4476.08,
+    "end": 4480.44,
+    "text": "I'm not making a legal statement on the mayor voting. I didn't write the city's charter."
+  },
+  {
+    "speaker": "Councilmember Stacy Hall",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 4480.44,
+    "end": 4484.68,
+    "text": "I understand, but we rely on you to interpret and to give us your best legal opinion."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unresolved",
+    "speaker_source_detail": "unresolved_identity",
+    "start": 4484.68,
+    "end": 4493.4,
+    "text": "Absolutely, and it's also true that on matters such as recusal, et cetera, those are the province of individual members of this body and the mayor."
+  },
+  {
+    "speaker": "Councilmember Stacy Hall",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 4493.4,
     "end": 4496.16,
-    "text": "OK, and I understand your perspective on it. I happen to disagree. And I think that if a spouse or a family member serves on a board or commission, it makes perfect sense to be recusing. And clearly, the state code seems to support that. I did have one other question in the meantime before I pass the floor back to Councilman McQuillan. Mr. Lubkin, are you aware of any times in which the mayor has voted on a board or commission nomination? In the 20 years I've been city attorney, well, I'll turn it around by saying my experience has been that most appointments to boards and commissions tend to be close to unanimous by the body. That's the fair statement. So I think we can enter that to how we would like it to. But it sounds like in most cases, a mayor's vote would not be needed. But is the charter wording such that the mayor does have a vote in that? The mayor can vote on procedural aspects related to the appointment. So for example, deferring action on an appointment, those type of things are perfectly legitimate. I have always taken the position that the appointments to boards and commissions legally is the province of the city council. It is also true, and people throw the word tradition around, it is also not an incorrect statement how it was characterized previously as to previous actions by previous councils and mayors. But that is not a legal requirement. That is just simply an agreement among the parties. OK, so I think if we have hired you as our attorney, and we tend to consider you an expert in all things city Legal, and we thank you very much for your service Frequently, we should understand that you are making a statement that says that the mayor legally is not entitled to vote on these things, and that it has been council that votes on boards and commission nominations. I'm not making a legal statement on the mayor voting. I didn't write the city's charter. I understand, but we rely on you to interpret and to give us your best legal opinion. Absolutely, and it's also true that on matters such as recusal, et cetera, those are the province of individual members of this body and the mayor. Yes, OK. I will give it back to Council Member McQuillan now."
+    "text": "Yes, OK. I will give it back to Council Member McQuillan now."
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -1286,8 +1366,40 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 7610.18,
+    "end": 7637.94,
+    "text": "OK. I know we're not the overseers of all of the things. I just happen to have a personal interest and education in this area. If it's possible, if it's on our website, or you could direct me to somewhere that I could see what we pay versus what the employee pays, just so I can see What that cost sharing looks like, is that an option? I'm just curious if we cap at a certain rate or what we cover for families and other individuals and whatnot."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unresolved",
+    "speaker_source_detail": "unresolved_identity",
+    "start": 7637.94,
+    "end": 7648.58,
+    "text": "The FY27 rates have not been released yet to employees. But 26, I believe, are on the website. OK. And I'm assuming you'll get it when 27 comes out"
+  },
+  {
+    "speaker": "Councilmember Stacy Hall",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 7648.58,
+    "end": 7652.98,
+    "text": "As it goes to all employees. OK, my apologies. I wasn't really planning on discussing this in detail tonight."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unresolved",
+    "speaker_source_detail": "unresolved_identity",
+    "start": 7653.74,
+    "end": 7673.06,
+    "text": "Yeah, no, and just to give you a little bit of context, We have just over 80% of our eligible employees That have our health insurance. The majority is with Anthem. We have two plans with Anthem. And then we have about, I think it's about 20% to 30% of employees are with Kaiser."
+  },
+  {
+    "speaker": "Councilmember Stacy Hall",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 7673.06,
     "end": 7713.18,
-    "text": "OK. I know we're not the overseers of all of the things. I just happen to have a personal interest and education in this area. If it's possible, if it's on our website, or you could direct me to somewhere that I could see what we pay versus what the employee pays, just so I can see What that cost sharing looks like, is that an option? I'm just curious if we cap at a certain rate or what we cover for families and other individuals and whatnot. The FY27 rates have not been released yet to employees. But 26, I believe, are on the website. OK. And I'm assuming you'll get it when 27 comes out As it goes to all employees. OK, my apologies. I wasn't really planning on discussing this in detail tonight. Yeah, no, and just to give you a little bit of context, We have just over 80% of our eligible employees That have our health insurance. The majority is with Anthem. We have two plans with Anthem. And then we have about, I think it's about 20% to 30% of employees are with Kaiser. OK. Yeah. OK. And I just have one other thing. And I know I've asked this a couple of times previously. And I don't know that we ever really come to a definitive yes or no. I would like to suggest that when we either send out our final tax bills or when we send a response saying, hey, thank you for what you paid, I would strongly like to send a letter, not me personally, but the city that says, thank you for paying your real estate taxes. Here are some of the things that you funded. And just make it more of a personal impact opportunity to let people know that we know things are tough. So I don't know if that needs consensus from council or not. But that would be something that I would recommend to the finance department. So thank you."
+    "text": "OK. Yeah. OK. And I just have one other thing. And I know I've asked this a couple of times previously. And I don't know that we ever really come to a definitive yes or no. I would like to suggest that when we either send out our final tax bills or when we send a response saying, hey, thank you for what you paid, I would strongly like to send a letter, not me personally, but the city that says, thank you for paying your real estate taxes. Here are some of the things that you funded. And just make it more of a personal impact opportunity to let people know that we know things are tough. So I don't know if that needs consensus from council or not. But that would be something that I would recommend to the finance department. So thank you."
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -1326,8 +1438,16 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 7835.32,
+    "end": 7890.12,
+    "text": "Council Member Bates. So as before, I support the proposed increase in the meals tax. It's much more modest than what was proposed last time around. And at the end of the day, certainly not something that we love to do, but even if we're able to make up that revenue through an increase in the BPOL tax, or fees, or some other revenue source, that ends up being that much less funding that we could use to perhaps further support Our employees, our public safety employees, who respond to emergencies that occur at the restaurants in the city. At the end of the day, housing is certainly"
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "heuristic",
+    "speaker_source_detail": "text_heuristic",
+    "start": 7890.12,
     "end": 7926.24,
-    "text": "Council Member Bates. So as before, I support the proposed increase in the meals tax. It's much more modest than what was proposed last time around. And at the end of the day, certainly not something that we love to do, but even if we're able to make up that revenue through an increase in the BPOL tax, or fees, or some other revenue source, that ends up being that much less funding that we could use to perhaps further support Our employees, our public safety employees, who respond to emergencies that occur at the restaurants in the city. At the end of the day, housing is certainly More of a necessity than eating at a restaurant. Certainly some people don't have time to cook. However, there are frozen meals available at the grocery store, that kind of thing. So that's also kind of locking ourselves out of if we wanted to use part of that to alleviate some of the burden on our homeowners through the real estate tax rate. So it's something that I think I, again, Want to encourage caution in ruling out as we go forward."
+    "text": "More of a necessity than eating at a restaurant. Certainly some people don't have time to cook. However, there are frozen meals available at the grocery store, that kind of thing. So that's also kind of locking ourselves out of if we wanted to use part of that to alleviate some of the burden on our homeowners through the real estate tax rate. So it's something that I think I, again, Want to encourage caution in ruling out as we go forward."
   },
   {
     "speaker": "JC Martinez",
@@ -1462,8 +1582,24 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 8519.68,
+    "end": 8520.88,
+    "text": "That's why I'm asking."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unresolved",
+    "speaker_source_detail": "unresolved_identity",
+    "start": 8521.96,
+    "end": 8524.72,
+    "text": "We can go back and look at the agenda from that meeting if you'd like."
+  },
+  {
+    "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 8524.72,
     "end": 8531.1,
-    "text": "That's why I'm asking. We can go back and look at the agenda from that meeting if you'd like. Okay, it would be wonderful just to have that nice and clear so we sort of know what we're doing with that."
+    "text": "Okay, it would be wonderful just to have that nice and clear so we sort of know what we're doing with that."
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -1518,8 +1654,32 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 8784.94,
+    "end": 9115.92,
+    "text": "Council Member Peterson. I wanted to share a personal health note, really as a part of just general awareness to help everybody. So, it's sort of a funny thing, you know, after you turn 65, suddenly your doctors start spending a lot more time paying attention to you and they start running you through all kinds of tests that you probably should have been doing like 25 years earlier and it's like, oops, you know. So, interesting process, takes a little time, just heads up, but I ended up, as a part of that, having a sleep test and finding out that I had sleep apnea And for those of you who don't know, it means you stop breathing while you're sleeping, which is not exactly a great thing to do. And there's various levels. I have what's known as moderate sleep apnea, which means technically between 15 and 30 times an hour you stop breathing and in my case it's 17 and while that may not seem like a big deal, it adds up so you could end up losing a couple hours of sleep every night from that. I mean, the average in terms of how much people Stop breathing for a moderate is not that long, 10 to 20 seconds, but for some of us it's a whole lot longer. For me it's between 50, five zero, and 130 seconds per episode when I stop breathing. So, you know, you get a little bit tired the next day if you're trying to get to sleep like that. So the bad news is that, but the good news is it's eminently treatable. It's very easy to get a sleep test. You take it home, you do it, it's not a problem. And the remedy for it, if you have apnea, is to wear a sleep mask. I do that and what a game changer. I can't say that I'm leaping tall buildings, but pretty close to it. It really has been a complete game changer. One of the things I learned is that people are apparently really good about detecting acute fatigue and really terrible about detecting chronic fatigue until you've gotten over it and it's like, oh my God, I can't believe all this time I did that. So I would encourage everybody, if you haven't already, to seriously consider getting a sleep test and don't wait until you're 65. My doctor says, you need to be doing this at 40 and go tell your insurance company, you know, to take care of you and do that. And there's a lot of things in that category. So I would heartily recommend it. Again, easy to do. The thing to be aware of also is it can be lethal. And so unfortunately my family has friends and relations who didn't survive these episodes that took place at night. So it's serious business. The other thing, just to be aware of, is that it can catch up with you if you don't treat it at pretty inconvenient times. So somebody in our family, no names mentioned, fell asleep at a stoplight. And the person behind him thought he was texting, right? So he came up and knocked on the window, Which is a good thing. He said, dude, what are you doing here? And he was like snoring. So you should try to protect yourself, But just remember we share the roads and we need to protect each other too. So we have a responsibility in our personal health to avoid health impacts to other people at the same time. So it's just one more reason to do this. And I would reach back also to the earlier conversation we had about healthcare. We're very fortunate. This area has, bar none, the best healthcare anywhere. We are really, really fortunate. to live in an area that has the kind of advanced accessible health care we do, but it comes at a price. Not everybody can get access, and we'll talk a bit more about The Willard Sherwood Center and the health center there, but public health is an incredibly important part of our system, but then the commercial health care system and the insurance-based system as well, but it's not equally accessible to everybody, and this is a pretty tough time right now because we haven't gotten reimbursements for Obamacare. A lot of people simply don't know what they're going to do. We do hear a lot of people saying they're making very hard choices about funding their health care and getting groceries, things like that, and those are really for real conversations that I think we need to internalize and appreciate as we go through what we can do here in the city to Take care of all these things. So the other thing I would just say based on our earlier discussion this evening is I would like I think a resolution here that would be quite timely and constructive would be for the city attorney to come back to us at some time in the not too distant future with a recommendation on how we might put in place a conflicts of interest policy that would deal with the potential for family conflicts related to slots that are under consideration for appointments. I think this is done rather commonly and probably standard templates for that. I think it would be very helpful for us to be able to have a look at that and get the benefit of your advice on how that might be handled. I think it also would be very helpful for us to see what the Options might be for us changing our holdover policy because it Seems to have become a point of conflict and concern for the council. So I would hope that the committee would be open to or the council rather would be open to having our attorney come back and provide us best advice in both of these areas. And let me just ask if there's anybody who doesn't agree with That. Mr. Luebkeman."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unresolved",
+    "speaker_source_detail": "unresolved_identity",
+    "start": 9115.92,
+    "end": 9159.82,
+    "text": "I appreciate the promotion. Just so I understand, we have talked with every council in the 20 years that I've been here about doing a code of ethics generally and councils have not adopted it. Are you all suggesting that we bring back a suggested code of ethics? We're certainly prepared to do that. We have the materials that we've updated year after year. Or are you suggesting bringing forward a one-off related just to that discrete issue, which is a different thing but could be Included in your policy with respect to boards and commissions, for example? I just want to understand the tasking."
+  },
+  {
+    "speaker": "Unknown Speaker",
+    "speaker_source": "unknown",
+    "speaker_source_detail": "no_diarization",
+    "start": 9159.82,
+    "end": 9160.82,
+    "text": "I'm sorry."
+  },
+  {
+    "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 9160.82,
     "end": 9235.26,
-    "text": "Council Member Peterson. I wanted to share a personal health note, really as a part of just general awareness to help everybody. So, it's sort of a funny thing, you know, after you turn 65, suddenly your doctors start spending a lot more time paying attention to you and they start running you through all kinds of tests that you probably should have been doing like 25 years earlier and it's like, oops, you know. So, interesting process, takes a little time, just heads up, but I ended up, as a part of that, having a sleep test and finding out that I had sleep apnea And for those of you who don't know, it means you stop breathing while you're sleeping, which is not exactly a great thing to do. And there's various levels. I have what's known as moderate sleep apnea, which means technically between 15 and 30 times an hour you stop breathing and in my case it's 17 and while that may not seem like a big deal, it adds up so you could end up losing a couple hours of sleep every night from that. I mean, the average in terms of how much people Stop breathing for a moderate is not that long, 10 to 20 seconds, but for some of us it's a whole lot longer. For me it's between 50, five zero, and 130 seconds per episode when I stop breathing. So, you know, you get a little bit tired the next day if you're trying to get to sleep like that. So the bad news is that, but the good news is it's eminently treatable. It's very easy to get a sleep test. You take it home, you do it, it's not a problem. And the remedy for it, if you have apnea, is to wear a sleep mask. I do that and what a game changer. I can't say that I'm leaping tall buildings, but pretty close to it. It really has been a complete game changer. One of the things I learned is that people are apparently really good about detecting acute fatigue and really terrible about detecting chronic fatigue until you've gotten over it and it's like, oh my God, I can't believe all this time I did that. So I would encourage everybody, if you haven't already, to seriously consider getting a sleep test and don't wait until you're 65. My doctor says, you need to be doing this at 40 and go tell your insurance company, you know, to take care of you and do that. And there's a lot of things in that category. So I would heartily recommend it. Again, easy to do. The thing to be aware of also is it can be lethal. And so unfortunately my family has friends and relations who didn't survive these episodes that took place at night. So it's serious business. The other thing, just to be aware of, is that it can catch up with you if you don't treat it at pretty inconvenient times. So somebody in our family, no names mentioned, fell asleep at a stoplight. And the person behind him thought he was texting, right? So he came up and knocked on the window, Which is a good thing. He said, dude, what are you doing here? And he was like snoring. So you should try to protect yourself, But just remember we share the roads and we need to protect each other too. So we have a responsibility in our personal health to avoid health impacts to other people at the same time. So it's just one more reason to do this. And I would reach back also to the earlier conversation we had about healthcare. We're very fortunate. This area has, bar none, the best healthcare anywhere. We are really, really fortunate. to live in an area that has the kind of advanced accessible health care we do, but it comes at a price. Not everybody can get access, and we'll talk a bit more about The Willard Sherwood Center and the health center there, but public health is an incredibly important part of our system, but then the commercial health care system and the insurance-based system as well, but it's not equally accessible to everybody, and this is a pretty tough time right now because we haven't gotten reimbursements for Obamacare. A lot of people simply don't know what they're going to do. We do hear a lot of people saying they're making very hard choices about funding their health care and getting groceries, things like that, and those are really for real conversations that I think we need to internalize and appreciate as we go through what we can do here in the city to Take care of all these things. So the other thing I would just say based on our earlier discussion this evening is I would like I think a resolution here that would be quite timely and constructive would be for the city attorney to come back to us at some time in the not too distant future with a recommendation on how we might put in place a conflicts of interest policy that would deal with the potential for family conflicts related to slots that are under consideration for appointments. I think this is done rather commonly and probably standard templates for that. I think it would be very helpful for us to be able to have a look at that and get the benefit of your advice on how that might be handled. I think it also would be very helpful for us to see what the Options might be for us changing our holdover policy because it Seems to have become a point of conflict and concern for the council. So I would hope that the committee would be open to or the council rather would be open to having our attorney come back and provide us best advice in both of these areas. And let me just ask if there's anybody who doesn't agree with That. Mr. Luebkeman. I appreciate the promotion. Just so I understand, we have talked with every council in the 20 years that I've been here about doing a code of ethics generally and councils have not adopted it. Are you all suggesting that we bring back a suggested code of ethics? We're certainly prepared to do that. We have the materials that we've updated year after year. Or are you suggesting bringing forward a one-off related just to that discrete issue, which is a different thing but could be Included in your policy with respect to boards and commissions, for example? I just want to understand the tasking. I'm sorry. Well, sequentially, the latter, but then ultimately the former. I mean, I think we're overdue having a code of ethics, but the proximate thing we need to deal with here is a conflict. We did not advance the board and commission appointments tonight because of the distraction and frankly destabilization associated with the conflicts of interest issue. And I think that's a shadow that is cast over the whole Appointment process that we need to remove the way the state has encouraged us to remove it through adherence of policy here. So that would be the first order of business to take care of that and then turn to the broader issue of the code of ethics. I would note that we all credit to you and to our city clerk for working very hard, putting in place for the first time a board and commission handbook that covers many, many issues, including conflicts of interest. We, I think, recognize that was a work in progress. There were outstanding issues that would need to be updated and added to that. I think tonight's discussion underscores the urgency of doing that in key areas, and this is one of those areas that is urgent and needs to be done so that we can get back on track with our board and commission appointments, which at this stage are apparently frozen."
+    "text": "Well, sequentially, the latter, but then ultimately the former. I mean, I think we're overdue having a code of ethics, but the proximate thing we need to deal with here is a conflict. We did not advance the board and commission appointments tonight because of the distraction and frankly destabilization associated with the conflicts of interest issue. And I think that's a shadow that is cast over the whole Appointment process that we need to remove the way the state has encouraged us to remove it through adherence of policy here. So that would be the first order of business to take care of that and then turn to the broader issue of the code of ethics. I would note that we all credit to you and to our city clerk for working very hard, putting in place for the first time a board and commission handbook that covers many, many issues, including conflicts of interest. We, I think, recognize that was a work in progress. There were outstanding issues that would need to be updated and added to that. I think tonight's discussion underscores the urgency of doing that in key areas, and this is one of those areas that is urgent and needs to be done so that we can get back on track with our board and commission appointments, which at this stage are apparently frozen."
   },
   {
     "speaker": "Unknown Speaker",
@@ -1598,32 +1758,8 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "unknown",
     "speaker_source_detail": "no_diarization",
     "start": 9991.14,
-    "end": 9994.14,
-    "text": "♪♪"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 10002.54,
-    "end": 10005.54,
-    "text": "♪♪"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 10009.54,
-    "end": 10012.54,
-    "text": "♪♪"
-  },
-  {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "no_diarization",
-    "start": 10015.54,
     "end": 10018.54,
-    "text": "♪♪"
+    "text": "♪♪ ♪♪ ♪♪ ♪♪"
   }
 ];
 
