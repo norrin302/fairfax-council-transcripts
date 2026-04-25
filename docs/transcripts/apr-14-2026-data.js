@@ -47,7 +47,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 104.3,
     "end": 117.04,
-    "text": "Will now ask Suzanne Levy Eric Carson and Alana quarrels with the city of Fairfax Library to come down for the proclamation acknowledging National Library Week I"
+    "text": "Will now ask Suzanne Levy Eric Carson and Alana Quarles with the city of Fairfax Library to come down for the proclamation acknowledging National Library Week I"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -63,7 +63,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 265.04,
     "end": 328.04,
-    "text": "Thank You mayor I'm honored to be your representative to Representative to the Fairfax County Public Library Board of Trustees. I'm in my second year as chairman of the board Fortunately, you can only serve two years. So I'll be turning it over to somebody in July, but it's a real honor and Some of you may know my career was at the Fairfax City Regional Library And so this is just a continuation of what I did for many years and I wanted to interview Deuce our library director Eric Carzon Elena corals is the branch manager at City of Fairfax and Jackie Consolvo is the head of the circulation department So when you go into the library next week to celebrate National Library Week Please say hi to everybody and if you don't have a library card We have beautiful new cards that were designed by citizens in the community and You can replace your old card with a pretty new one or you can get a card for the first time"
+    "text": "Thank You mayor I'm honored to be your representative to Representative to the Fairfax County Public Library Board of Trustees. I'm in my second year as chairman of the board Fortunately, you can only serve two years. So I'll be turning it over to somebody in July, but it's a real honor and Some of you may know my career was at the Fairfax City Regional Library And so this is just a continuation of what I did for many years and I wanted to interview Deuce our library director Eric Carson Elena corals is the branch manager at City of Fairfax and Jackie Consolvo is the head of the circulation department So when you go into the library next week to celebrate National Library Week Please say hi to everybody and if you don't have a library card We have beautiful new cards that were designed by citizens in the community and You can replace your old card with a pretty new one or you can get a card for the first time"
   },
   {
     "speaker": "Unknown Speaker",
@@ -207,7 +207,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "no_diarization",
     "start": 701.8,
     "end": 716.8,
-    "text": "Faza Alam, and Rusty Russell. You guys, where'd you go? All right. More and more things to"
+    "text": "Faisal Alam, and Rusty Russell. You guys, where'd you go? All right. More and more things to"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -378,9 +378,9 @@ const TRANSCRIPT_TURNS = [
     "text": "So, I think it's not working. Okay. Okay. Okay. Okay. Okay. Okay."
   },
   {
-    "speaker": "Unknown Speaker",
-    "speaker_source": "unresolved",
-    "speaker_source_detail": "unresolved_identity",
+    "speaker": "Alan Glenn",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 1238.36,
     "end": 1240.36,
     "text": "Okay. Okay."
@@ -950,24 +950,48 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "caption",
     "speaker_source_detail": "caption:explicit",
     "start": 2855.5,
-    "end": 3007.36,
-    "text": "Spoke to you last month in overall support of the Willard Sherwood Health Center and the Community Center I'm here today to briefly express how the village in the city could enhance services as a result of the new facility I'm mentioning a few possibilities today as we move forward the Advisory Board members village members and volunteers can brainstorm other possibilities for expanded services that directly support older adults and those with disabilities Beyond what is currently available we will also work with the Willard Health Center and the Green Acres staff to create new programs which could include And I'm just listing a few intergenerational activities such as tutoring or reading to the children in the child care center working on shared craft projects in dedicated spaces where projects could remain until completed growing and maintaining a rooftop or the garden and creating a gardening circle working with the neighboring Willard Health Center to have a memory cafe once a month where people who are in the early stages of cognitive impairment and their caregivers can meet socialize and trade ideas developing workshops designed To improve memory and cognitive function creating a digital storytelling club Where seniors use technology and record their life stories and conducting a vintage hat and fashion showcase where members bring in their vintage collections and show them and then discuss the stories behind them all of these proposed suggestions could be done without additional staffing costs as members are not just consumers they are staff our village consists of members and volunteers with an extensive variety of backgrounds and experience For example a member might receive a ride to the doctor one day and Facilitate a workshop the next this creates a sustainable model for future programs without additional cost I believe the new Willard Sherwood facility with all the infrastructure enhancements will provide is necessary to continue to deliver modern equitable full services for the entire community. Thank you. Our next speaker is Alan Glenn."
+    "end": 3002.68,
+    "text": "Spoke to you last month in overall support of the Willard Sherwood Health Center and the Community Center I'm here today to briefly express how the village in the city could enhance services as a result of the new facility I'm mentioning a few possibilities today as we move forward the Advisory Board members village members and volunteers can brainstorm other possibilities for expanded services that directly support older adults and those with disabilities Beyond what is currently available we will also work with the Willard Health Center and the Green Acres staff to create new programs which could include And I'm just listing a few intergenerational activities such as tutoring or reading to the children in the child care center working on shared craft projects in dedicated spaces where projects could remain until completed growing and maintaining a rooftop or the garden and creating a gardening circle working with the neighboring Willard Health Center to have a memory cafe once a month where people who are in the early stages of cognitive impairment and their caregivers can meet socialize and trade ideas developing workshops designed To improve memory and cognitive function creating a digital storytelling club Where seniors use technology and record their life stories and conducting a vintage hat and fashion showcase where members bring in their vintage collections and show them and then discuss the stories behind them all of these proposed suggestions could be done without additional staffing costs as members are not just consumers they are staff our village consists of members and volunteers with an extensive variety of backgrounds and experience For example a member might receive a ride to the doctor one day and Facilitate a workshop the next this creates a sustainable model for future programs without additional cost I believe the new Willard Sherwood facility with all the infrastructure enhancements will provide is necessary to continue to deliver modern equitable full services for the entire community."
+  },
+  {
+    "speaker": "William Pitchford",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 3002.68,
+    "end": 3003.52,
+    "text": "Thank you."
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
     "speaker_source": "caption_override",
     "speaker_source_detail": "caption:explicit",
+    "start": 3005.4,
+    "end": 3007.36,
+    "text": "Our next speaker is Alan Glenn."
+  },
+  {
+    "speaker": "Alan Glenn",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 3016.48,
     "end": 3095.58,
     "text": "Thank you. Alan Glenn, long time resident of the city and now a resident just outside the city. I wanted to speak tonight also in favor of the project that Willard Health Center, Sherwood Center. Both on my wife's behalf, Judy Blanchard and myself, we're strongly in support of it. We've benefited from some of the services over the years. Our kids were vaccinated at the health center in their early childhood period. We've had other counseling and services over the years. We've both of us have used the senior center and continue to be members there. I think the expanded opportunities for childcare and public health that'll be offered and available through this project are very much in demand. To me, this project is one of a number that I consider crown jewels in the community Where the city partners with the county in coming up with a wonderful facility to serve everyone, including the public schools where both our kids went and the public library that we've used"
   },
   {
+    "speaker": "Alan Glenn",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 3102.14,
+    "end": 3192.98,
+    "text": "And the health centers. Personally, I think you all have a difficult job as elected leaders to a two-year term where you have to consider the strategic needs of the community and balance them against costs and budgetary issues. But I think in this case, the project will serve a need To re-update and replace the senior center that's now at Green Acres and provide better health and public services and childcare and early childhood health for residents. The nice thing about this is it serves everybody in the community, regardless of age, income, strata, or which neighborhood you live in. So to me, it's definitely needed and I strongly support it. Thank you very much. Oh, as long as I've got 30 seconds left, Let me just say Mr. Lustina, who was the previous speaker, I would like to endorse his comments. I served on the board with him for five years of the Housing Renaissance Corporation. That was one of three city boards that I've had the privilege to serve on over the years. And I think that board and the funding from the city served a important need to maintain and upgrade existing housing stock in the city. Thank you."
+  },
+  {
     "speaker": "Councilmember Rachel McQuillen",
     "speaker_source": "caption_override",
     "speaker_source_detail": "caption:explicit",
-    "start": 3102.14,
+    "start": 3194.62,
     "end": 3196.78,
-    "text": "And the health centers. Personally, I think you all have a difficult job as elected leaders to a two-year term where you have to consider the strategic needs of the community and balance them against costs and budgetary issues. But I think in this case, the project will serve a need To re-update and replace the senior center that's now at Green Acres and provide better health and public services and childcare and early childhood health for residents. The nice thing about this is it serves everybody in the community, regardless of age, income, strata, or which neighborhood you live in. So to me, it's definitely needed and I strongly support it. Thank you very much. Oh, as long as I've got 30 seconds left, Let me just say Mr. Lustina, who was the previous speaker, I would like to endorse his comments. I served on the board with him for five years of the Housing Renaissance Corporation. That was one of three city boards that I've had the privilege to serve on over the years. And I think that board and the funding from the city served a important need to maintain and upgrade existing housing stock in the city. Thank you. Our next speaker is William Pitchford."
+    "text": "Our next speaker is William Pitchford."
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
@@ -979,19 +1003,91 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "speaker": "William Pitchford",
-    "speaker_source": "heuristic",
-    "speaker_source_detail": "self_introduction",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 3206.3,
-    "end": 3241.48,
-    "text": "Good evening and thank you for the opportunity to speak this evening. My name is William Pitchford. I live on School Street in the city of Fairfax. In two weeks at the April 28th city council meeting, you will be asked to approve a resolution to proceed with the Willard Sherwood Health and Community Center Project and a resolution for the Economic Development Authority to issue bonds to finance such capital projects. I'm asking you to approve both resolutions as it is the best option for the citizens of Fairfax City"
+    "end": 3250.16,
+    "text": "Good evening and thank you for the opportunity to speak this evening. My name is William Pitchford. I live on School Street in the city of Fairfax. In two weeks at the April 28th city council meeting, you will be asked to approve a resolution to proceed with the Willard Sherwood Health and Community Center Project and a resolution for the Economic Development Authority to issue bonds to finance such capital projects. I'm asking you to approve both resolutions as it is the best option for the citizens of Fairfax City And the city's overall economic and infrastructure development. I'd like to offer a few points on why you should approve these two measures."
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
-    "speaker_source": "caption_override",
+    "speaker_source": "caption",
     "speaker_source_detail": "caption:explicit",
-    "start": 3241.48,
+    "start": 3250.16,
+    "end": 3252.66,
+    "text": "As you have heard throughout this evening,"
+  },
+  {
+    "speaker": "William Pitchford",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 3252.66,
+    "end": 3339.22,
+    "text": "The citizens of Fairfax City are in desperate need for a community center that meets their needs and have expressed this with broad support for the project through two years of design reviews with broad support for the project, oh, with two years of design reviews and approvals from previous and current city council. This is probably the most vetted capital improvement project the city has undertaken. The new Willard Sherwood Community Center will be a joint venture project with Fairfax County. The cost of building and operating the facility is shared, significantly reducing the burden to the city taxpayers. This is a generational opportunity for the citizens of Fairfax. Another opportunity like this will most likely not come around again in our lifetime. The current Green Acres facility is completely inadequate to meet the community's current and future needs. The facility was built in 1961 as an elementary school. That was before schools had air conditioning. It was retired in 2000. It was never intended to be a community or senior center. The building is well beyond its useful lifespan. It's located in the center of a residential community, has no public transportation access,"
+  },
+  {
+    "speaker": "Councilmember Rachel McQuillen",
+    "speaker_source": "caption",
+    "speaker_source_detail": "caption:explicit",
+    "start": 3339.22,
+    "end": 3352.38,
+    "text": "Poor ADA compliance, and a dangerous parking lot, Especially at night. I had the honor of attending a Fairfax City Citizens For Smarter Growth meeting at Green Acres"
+  },
+  {
+    "speaker": "William Pitchford",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 3352.38,
+    "end": 3358.88,
+    "text": "In February of this year. Like most community service organizations, this is where they have meetings."
+  },
+  {
+    "speaker": "Councilmember Rachel McQuillen",
+    "speaker_source": "caption",
+    "speaker_source_detail": "caption:explicit",
+    "start": 3358.88,
+    "end": 3362.64,
+    "text": "And just like this council meeting, it started at 7 p.m."
+  },
+  {
+    "speaker": "William Pitchford",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 3363.48,
+    "end": 3371.58,
+    "text": "Unlike the normal council meetings, it ended at the decent hour of 8.30, which was still well past sunset."
+  },
+  {
+    "speaker": "Councilmember Rachel McQuillen",
+    "speaker_source": "caption",
+    "speaker_source_detail": "caption:explicit",
+    "start": 3372.54,
+    "end": 3376.1,
+    "text": "When leaving, when leaving the meeting,"
+  },
+  {
+    "speaker": "William Pitchford",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 3376.1,
+    "end": 3386.26,
+    "text": "I was absolutely shocked to walk out to a darkened parking lot. Having to reverse the narrow, steep staircase To find my car, I tried to imagine"
+  },
+  {
+    "speaker": "William Pitchford",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 3386.26,
+    "end": 3418.02,
+    "text": "What someone 10 to 15 years older than I would do. Basically, they would stop participating in their community after dark. For those of you who have any reservations about the Neifert Project, I would challenge you to hold an official city meeting at Green Acres. It doesn't have to be the next council meeting, but it could be a planning commission or economic development authority meeting. In conclusion, I'm asking you to approve the two resolutions at the April 28th council meeting."
+  },
+  {
+    "speaker": "Councilmember Rachel McQuillen",
+    "speaker_source": "caption",
+    "speaker_source_detail": "caption:explicit",
+    "start": 3418.02,
     "end": 3422.58,
-    "text": "And the city's overall economic and infrastructure development. I'd like to offer a few points on why you should approve these two measures. As you have heard throughout this evening, The citizens of Fairfax City are in desperate need for a community center that meets their needs and have expressed this with broad support for the project through two years of design reviews with broad support for the project, oh, with two years of design reviews and approvals from previous and current city council. This is probably the most vetted capital improvement project the city has undertaken. The new Willard Sherwood Community Center will be a joint venture project with Fairfax County. The cost of building and operating the facility is shared, significantly reducing the burden to the city taxpayers. This is a generational opportunity for the citizens of Fairfax. Another opportunity like this will most likely not come around again in our lifetime. The current Green Acres facility is completely inadequate to meet the community's current and future needs. The facility was built in 1961 as an elementary school. That was before schools had air conditioning. It was retired in 2000. It was never intended to be a community or senior center. The building is well beyond its useful lifespan. It's located in the center of a residential community, has no public transportation access, Poor ADA compliance, and a dangerous parking lot, Especially at night. I had the honor of attending a Fairfax City Citizens For Smarter Growth meeting at Green Acres In February of this year. Like most community service organizations, this is where they have meetings. And just like this council meeting, it started at 7 p.m. Unlike the normal council meetings, it ended at the decent hour of 8.30, which was still well past sunset. When leaving, when leaving the meeting, I was absolutely shocked to walk out to a darkened parking lot. Having to reverse the narrow, steep staircase To find my car, I tried to imagine What someone 10 to 15 years older than I would do. Basically, they would stop participating in their community after dark. For those of you who have any reservations about the Neifert Project, I would challenge you to hold an official city meeting at Green Acres. It doesn't have to be the next council meeting, but it could be a planning commission or economic development authority meeting. In conclusion, I'm asking you to approve the two resolutions at the April 28th council meeting. Thank you. Our last speaker is Toby Sorenson."
+    "text": "Thank you. Our last speaker is Toby Sorenson."
   },
   {
     "speaker": "Councilmember Rachel McQuillen",
@@ -1578,12 +1674,20 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you. Our next speaker is Jennifer Rose."
   },
   {
+    "speaker": "Jennifer Rose",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 4952.0,
+    "end": 5135.92,
+    "text": "Good evening, Mayor and members of council. Jennifer Rose, Executive Director of the Central Fairfax Chamber of Commerce. Thank you for the opportunity to speak and for the significant work by Fairfax City staff that has gone into developing the fiscal year 27 proposed budget. We recognize the real fiscal pressures the city is managing, particularly increases in school tuition and debt service. And we appreciate your commitment to maintaining services without adding new full-time equivalent positions. From the Chamber's perspective, I want to focus on one key issue, Ensuring that Fairfax remains competitive for small businesses while making necessary revenue decisions. First, the proposed meals tax increase from four percent to four and a half percent. We understand the goal of diversifying revenue. However, a meals tax is, in practice, a single industry tax. It places the greatest burden on restaurants, many of them small, locally owned businesses. We know this. They operate on thin margins and on the customers who support them. Restaurants are not just another sector. They are a cornerstone of our local economy. They drive foot traffic, support tourism, and contribute to the vibrancy of Old Town and our commercial corridors. And I would like to point out, for the first time in more than 20 years, our restaurants are finally on a level playing field with Fairfax County restaurants, now that the county's implemented its own four percent meals tax. We respectfully urge Council to reconsider this increase or, at minimum, include a clear sunset and ensure that any new revenue is reinvested in ways that directly support the hospitality and small business community. Second, if additional revenue is needed, there are more balanced alternatives. The Chamber supports exploring visitor-based revenue options, such as aligning the transient occupancy tax with regional levels, if authorized by the General Assembly. This approach brings in revenue from visitors rather than placing additional strain on local businesses and residents. Similarly, if B-Poll adjustments are considered, it is critical to protect small businesses. The City's current threshold of $10,000 is very low and captures many micro-businesses. Any changes should include raising the threshold and phasing in increases to avoid unintended Impacts on startups and small firms. Third, and just as important, we encourage you to protect economic development capacity. The most sustainable way to reduce long-term tax pressure is not by increasing rates, but by growing the commercial tax base. That requires continued investment in business attraction, retention, and, critically, faster and more predictable permitting. If we want Fairfax to remain competitive in attracting and retaining businesses, we must continue investing in the systems and resources that support the growth. So our request is straightforward. Avoid disproportionate impacts on any one industry. Pursue a more balanced, visitor-informed revenue strategy. And continue investing in the economic development efforts that will strengthen Fairfax over the long term. Thank you for your time, your leadership, and your commitment to our community. We look forward to continuing to partner with you."
+  },
+  {
     "speaker": "Councilmember Billy Bates",
     "speaker_source": "caption_override",
     "speaker_source_detail": "caption:explicit",
-    "start": 4952.0,
+    "start": 5136.96,
     "end": 5142.0,
-    "text": "Good evening, Mayor and members of council. Jennifer Rose, Executive Director of the Central Fairfax Chamber of Commerce. Thank you for the opportunity to speak and for the significant work by Fairfax City staff that has gone into developing the fiscal year 27 proposed budget. We recognize the real fiscal pressures the city is managing, particularly increases in school tuition and debt service. And we appreciate your commitment to maintaining services without adding new full-time equivalent positions. From the Chamber's perspective, I want to focus on one key issue, Ensuring that Fairfax remains competitive for small businesses while making necessary revenue decisions. First, the proposed meals tax increase from four percent to four and a half percent. We understand the goal of diversifying revenue. However, a meals tax is, in practice, a single industry tax. It places the greatest burden on restaurants, many of them small, locally owned businesses. We know this. They operate on thin margins and on the customers who support them. Restaurants are not just another sector. They are a cornerstone of our local economy. They drive foot traffic, support tourism, and contribute to the vibrancy of Old Town and our commercial corridors. And I would like to point out, for the first time in more than 20 years, our restaurants are finally on a level playing field with Fairfax County restaurants, now that the county's implemented its own four percent meals tax. We respectfully urge Council to reconsider this increase or, at minimum, include a clear sunset and ensure that any new revenue is reinvested in ways that directly support the hospitality and small business community. Second, if additional revenue is needed, there are more balanced alternatives. The Chamber supports exploring visitor-based revenue options, such as aligning the transient occupancy tax with regional levels, if authorized by the General Assembly. This approach brings in revenue from visitors rather than placing additional strain on local businesses and residents. Similarly, if B-Poll adjustments are considered, it is critical to protect small businesses. The City's current threshold of $10,000 is very low and captures many micro-businesses. Any changes should include raising the threshold and phasing in increases to avoid unintended Impacts on startups and small firms. Third, and just as important, we encourage you to protect economic development capacity. The most sustainable way to reduce long-term tax pressure is not by increasing rates, but by growing the commercial tax base. That requires continued investment in business attraction, retention, and, critically, faster and more predictable permitting. If we want Fairfax to remain competitive in attracting and retaining businesses, we must continue investing in the systems and resources that support the growth. So our request is straightforward. Avoid disproportionate impacts on any one industry. Pursue a more balanced, visitor-informed revenue strategy. And continue investing in the economic development efforts that will strengthen Fairfax over the long term. Thank you for your time, your leadership, and your commitment to our community. We look forward to continuing to partner with you. Is there anybody else in the room that would like to speak on the proposed FY27 budget?"
+    "text": "Is there anybody else in the room that would like to speak on the proposed FY27 budget?"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -1602,28 +1706,52 @@ const TRANSCRIPT_TURNS = [
     "text": "Ms. Schoenberg? We will move forward to second general public comment. I had one person sign up prior to the start of the meeting. I will call them forward. Mary McDaniel?"
   },
   {
-    "speaker": "Councilmember Billy Bates",
-    "speaker_source": "caption_override",
-    "speaker_source_detail": "caption:explicit",
+    "speaker": "Mary McDaniel",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
     "start": 5175.68,
-    "end": 5176.18,
-    "text": "Thank you."
+    "end": 5269.22,
+    "text": "Thank you. I'm Mary McDaniel, a resident of the Fairfax City, and my comments tonight are unrelated to my role on the city's electoral board. I'm speaking in support of the Willard Sherwood Center, and I'm asking that the city council advance this project. It's an essential facility for our growing city. I have attended a ton of open houses on this and have always supported the project. As I look at it, it seems very obvious that we should move ahead, and I started thinking about why would you maybe cancel the project? And one might be that the services that are going to be covered are not needed anymore. But in fact, the services are needed more now than 10 years ago when project planning started. Speaking to a few of them, the daycare center. Our population has grown, and along with that is the need for child care. Public health services. Again, larger population means more demand. On top of that, the federal government has significantly reduced spending on public health and plans to continue to do more. So states and localities have to step up. Community space. In the past 10 years, we have learned a lot about the importance of personal contact and mental health. You know, texting is fine for some things, but face-to-face communication is far more important as is exercise. So the senior center is really critical. Something that doesn't get talked about much is parking. The Sherwood Center parking center fills up when popular programs are taking place in the evening. So having a parking garage attached to the building would help solve that problem."
+  },
+  {
+    "speaker": "Councilmember Billy Bates",
+    "speaker_source": "caption",
+    "speaker_source_detail": "caption:explicit",
+    "start": 5270.18,
+    "end": 5278.26,
+    "text": "I am well aware that this building would raise my property taxes. I've owned two houses in the city over the space of 35 years."
   },
   {
     "speaker": "Mary McDaniel",
-    "speaker_source": "heuristic",
-    "speaker_source_detail": "self_introduction",
-    "start": 5178.0,
-    "end": 5213.68,
-    "text": "I'm Mary McDaniel, a resident of the Fairfax City, and my comments tonight are unrelated to my role on the city's electoral board. I'm speaking in support of the Willard Sherwood Center, and I'm asking that the city council advance this project. It's an essential facility for our growing city. I have attended a ton of open houses on this and have always supported the project. As I look at it, it seems very obvious that we should move ahead, and I started thinking about why would you maybe cancel the project? And one might be that the services that are going to be covered are not needed anymore."
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 5278.26,
+    "end": 5309.94,
+    "text": "My real estate taxes have never gone down. The rate may have decreased, but the amount I paid always went up. And I understand that because every year the cost of living goes up. In my adult life, the consumer price index has decreased only one time. Hundreds of citizens like me have spoken for more than a decade in open houses about wanting this project. And we know that the city will need to raise taxes to do this and may need to sell bonds. This has been openly disclosed and discussed throughout the planning process."
   },
   {
     "speaker": "Councilmember Billy Bates",
-    "speaker_source": "caption_override",
+    "speaker_source": "caption",
     "speaker_source_detail": "caption:explicit",
-    "start": 5213.68,
+    "start": 5310.82,
+    "end": 5316.98,
+    "text": "We've had a ton of experts weigh in from architects, building engineers, landscape people,"
+  },
+  {
+    "speaker": "Mary McDaniel",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 5316.98,
+    "end": 5352.02,
+    "text": "And the dedicated city staff who have worked diligently to pack as much as possible into this site. Over the years, I've never heard a city council member campaign on the idea of canceling this project. And I don't think now that any of you did. What I ask at this point is this. You've heard from the experts about what can be put into this building and how it benefits the community. And you've heard the community speak about the wants that we have. I ask that you follow up on promises that have been made, advance this project, and finance it as needed."
+  },
+  {
+    "speaker": "Councilmember Billy Bates",
+    "speaker_source": "caption",
+    "speaker_source_detail": "caption:explicit",
+    "start": 5352.82,
     "end": 5362.74,
-    "text": "But in fact, the services are needed more now than 10 years ago when project planning started. Speaking to a few of them, the daycare center. Our population has grown, and along with that is the need for child care. Public health services. Again, larger population means more demand. On top of that, the federal government has significantly reduced spending on public health and plans to continue to do more. So states and localities have to step up. Community space. In the past 10 years, we have learned a lot about the importance of personal contact and mental health. You know, texting is fine for some things, but face-to-face communication is far more important as is exercise. So the senior center is really critical. Something that doesn't get talked about much is parking. The Sherwood Center parking center fills up when popular programs are taking place in the evening. So having a parking garage attached to the building would help solve that problem. I am well aware that this building would raise my property taxes. I've owned two houses in the city over the space of 35 years. My real estate taxes have never gone down. The rate may have decreased, but the amount I paid always went up. And I understand that because every year the cost of living goes up. In my adult life, the consumer price index has decreased only one time. Hundreds of citizens like me have spoken for more than a decade in open houses about wanting this project. And we know that the city will need to raise taxes to do this and may need to sell bonds. This has been openly disclosed and discussed throughout the planning process. We've had a ton of experts weigh in from architects, building engineers, landscape people, And the dedicated city staff who have worked diligently to pack as much as possible into this site. Over the years, I've never heard a city council member campaign on the idea of canceling this project. And I don't think now that any of you did. What I ask at this point is this. You've heard from the experts about what can be put into this building and how it benefits the community. And you've heard the community speak about the wants that we have. I ask that you follow up on promises that have been made, advance this project, and finance it as needed. Is there anybody else in the room that would like to speak under the general public comment? All right. I will now recess the record. Well, hang on before you do that."
+    "text": "Is there anybody else in the room that would like to speak under the general public comment? All right. I will now recess the record. Well, hang on before you do that."
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -1814,8 +1942,24 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 6045.4,
+    "end": 6065.2,
+    "text": "So when we get back together again April 28th, you'll have scenarios for us to discuss and we will have a scenario then that this information will be factored into, which will be at least one of the scenarios, the manager's proposed budget. Is that correct?"
+  },
+  {
+    "speaker": "Alan Glenn",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 6065.2,
+    "end": 6066.2,
+    "text": "Correct."
+  },
+  {
+    "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "approved",
+    "speaker_source_detail": "",
+    "start": 6066.2,
     "end": 6085.52,
-    "text": "So when we get back together again April 28th, you'll have scenarios for us to discuss and we will have a scenario then that this information will be factored into, which will be at least one of the scenarios, the manager's proposed budget. Is that correct? Correct. Okay. And then we will have additional scenarios that you've been able to develop based on further work that you've done on all of these items, including revenue and expense improvements that you've been able to identify. Is that fair? Correct, Councilmember. Okay. Thank you very much. Councilmember McQuillan? Okay."
+    "text": "Okay. And then we will have additional scenarios that you've been able to develop based on further work that you've done on all of these items, including revenue and expense improvements that you've been able to identify. Is that fair? Correct, Councilmember. Okay. Thank you very much. Councilmember McQuillan? Okay."
   },
   {
     "speaker": "Councilmember Rachel McQuillen",

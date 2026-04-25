@@ -77,6 +77,26 @@
       "status": "rejected_mixed",
       "name": "",
       "speaker_key": ""
+    },
+    "SPEAKER_10": {
+      "status": "approved",
+      "name": "Mary McDaniel",
+      "speaker_key": ""
+    },
+    "SPEAKER_24": {
+      "status": "approved",
+      "name": "William Pitchford",
+      "speaker_key": ""
+    },
+    "SPEAKER_04": {
+      "status": "approved",
+      "name": "Alan Glenn",
+      "speaker_key": ""
+    },
+    "SPEAKER_13": {
+      "status": "approved",
+      "name": "Jennifer Rose",
+      "speaker_key": ""
     }
   },
   "SPEAKER_24": {
