@@ -27,34 +27,18 @@ jobs:
 
       - name: Decode votes JSON
         run: |
-          MEETING_ID="${{ github.event.inputs.meeting_id || github.event.client_payload.meeting_id }}"
           echo "${{ github.event.inputs.votes_json_base64 || github.event.client_payload.votes_json_base64 }}" | base64 -d > votes_in.json
-          echo "Meeting: $MEETING_ID"
-          echo "Votes count: $(jq '.votes | length' votes_in.json 2>/dev/null || echo 'N/A')"
 
       - name: Configure git
         run: |
           git config user.email "github-actions@openclaw.ai"
           git config user.name "GitHub Actions"
 
-      - name: Write votes file
+      - name: Save votes data
         run: |
           MEETING_ID="${{ github.event.inputs.meeting_id || github.event.client_payload.meeting_id }}"
-          python3 -c "
-import json, sys
-data = json.load(open('votes_in.json'))
-votes = data.get('votes', [])
-out = {
-  'meeting_id': MEETING_ID,
-  'clip_id': data.get('clip_id', ''),
-  'recorded_at': '',
-  'source': 'https://fairfax.granicus.com/AgendaViewer.php?clip_id=' + str(data.get('clip_id', '')),
-  'votes': votes
-}
-with open('docs/votes/' + MEETING_ID + '.json', 'w') as f:
-    json.dump(out, f, indent=2, ensure_ascii=False)
-print('Wrote docs/votes/' + MEETING_ID + '.json with', len(votes), 'votes')
-"
+          echo "MEETING_ID=$MEETING_ID"
+          python3 scripts/save_votes.py
 
       - name: Commit and push
         run: |
