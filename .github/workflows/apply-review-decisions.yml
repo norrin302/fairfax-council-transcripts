@@ -41,6 +41,8 @@ jobs:
 
       - name: Push changes
         run: |
+          git config user.email "github-actions@openclaw.ai"
+          git config user.name "GitHub Actions"
           git add -A
           git diff --cached --quiet && echo "No changes to commit" || git commit -m "Apply review decisions: $MEETING_ID"
           git push origin main
