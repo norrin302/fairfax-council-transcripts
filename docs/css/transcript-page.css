@@ -1243,3 +1243,7 @@ body {
   background: #fde68a;
 }
 
+
+.review-action-btn-votes { color: #fff; background: rgba(56,161,81,0.85); border-color: rgba(56,161,81,0.85); }
+.review-action-btn-votes:hover { background: rgba(56,161,81,1); border-color: rgba(56,161,81,1); }
+

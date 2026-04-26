@@ -1,0 +1,64 @@
+name: Save Votes Data
+
+on:
+  repository_dispatch:
+    types: [save-votes-data]
+
+  workflow_dispatch:
+    inputs:
+      meeting_id:
+        description: 'Meeting ID (e.g. apr-14-2026)'
+        required: true
+        type: string
+      votes_json_base64:
+        description: 'Votes JSON as base64 string'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  save-votes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Decode votes JSON
+        run: |
+          MEETING_ID="${{ github.event.inputs.meeting_id || github.event.client_payload.meeting_id }}"
+          echo "${{ github.event.inputs.votes_json_base64 || github.event.client_payload.votes_json_base64 }}" | base64 -d > votes_in.json
+          echo "Meeting: $MEETING_ID"
+          echo "Votes count: $(jq '.votes | length' votes_in.json 2>/dev/null || echo 'N/A')"
+
+      - name: Configure git
+        run: |
+          git config user.email "github-actions@openclaw.ai"
+          git config user.name "GitHub Actions"
+
+      - name: Write votes file
+        run: |
+          MEETING_ID="${{ github.event.inputs.meeting_id || github.event.client_payload.meeting_id }}"
+          python3 -c "
+import json, sys
+data = json.load(open('votes_in.json'))
+votes = data.get('votes', [])
+out = {
+  'meeting_id': MEETING_ID,
+  'clip_id': data.get('clip_id', ''),
+  'recorded_at': '',
+  'source': 'https://fairfax.granicus.com/AgendaViewer.php?clip_id=' + str(data.get('clip_id', '')),
+  'votes': votes
+}
+with open('docs/votes/' + MEETING_ID + '.json', 'w') as f:
+    json.dump(out, f, indent=2, ensure_ascii=False)
+print('Wrote docs/votes/' + MEETING_ID + '.json with', len(votes), 'votes')
+"
+
+      - name: Commit and push
+        run: |
+          MEETING_ID="${{ github.event.inputs.meeting_id || github.event.client_payload.meeting_id }}"
+          git add docs/votes/$MEETING_ID.json
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Add/update votes data: $MEETING_ID"
+          git push origin main

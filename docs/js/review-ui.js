@@ -476,6 +476,9 @@
       '<button type="button" id="review-token-btn" class="review-action-btn"' + (getGitHubToken() ? ' style="display:none"' : '') + '>' +
         '<i class="fas fa-key"></i> Set GitHub Token' +
       '</button>' +
+      '<button type="button" id="review-votes-btn" class="review-action-btn review-action-btn-votes">' +
+        '<i class="fas fa-poll"></i> Votes' +
+      '</button>' +
       '<button type="button" id="review-copy-btn" class="review-action-btn"' + (pending.length === 0 ? ' disabled' : '') + '>' +
         '<i class="fas fa-copy"></i> Copy JSON' +
       '</button>' +
@@ -542,6 +545,10 @@
         if (tokenBtn) tokenBtn.style.display = 'none';
         showToast('GitHub token saved');
       });
+    });
+
+    document.getElementById('review-votes-btn').addEventListener('click', function () {
+      openVotesModal();
     });
 
     document.getElementById('review-copy-btn').addEventListener('click', function () {
@@ -1591,6 +1598,14 @@
   }
 
   function proceedInit() {
+    // Expose clip_id for votes modal Granicus link
+    try {
+      var m = window.MEETING || window.meetingData || (typeof MEETING !== 'undefined' ? MEETING : null);
+      if (m && m.official_agenda_url) {
+        var m2 = m.official_agenda_url.match(/clip_id=(\d+)/);
+        if (m2) window.MEETING_CLIP_ID = m2[1];
+      }
+    } catch (e) {}
     showReviewBanner();
     // Roll call vote detection for review mode
     var rollCallDetected = detectRollCallSequences();
@@ -1752,6 +1767,228 @@
     var m = Math.floor(seconds / 60);
     var s = Math.floor(seconds % 60);
     return m + ':' + (s < 10 ? '0' : '') + s;
+  }
+
+
+
+  // ---- Votes Data Entry Modal ----
+  var VOTES_STORAGE_KEY = 'review:votes_data';
+
+  function loadVotesData() {
+    try {
+      var stored = localStorage.getItem(VOTES_STORAGE_KEY + ':' + MEETING_ID);
+      return stored ? JSON.parse(stored) : [];
+    } catch (e) { return []; }
+  }
+
+  function saveVotesDataLocally(votes) {
+    try {
+      localStorage.setItem(VOTES_STORAGE_KEY + ':' + MEETING_ID, JSON.stringify(votes));
+    } catch (e) {}
+  }
+
+  function openVotesModal() {
+    var existing = document.getElementById('votes-modal-overlay');
+    if (existing) { existing.remove(); }
+    var votes = loadVotesData();
+    renderVotesModal(votes);
+  }
+
+  function renderVotesModal(votes) {
+    var overlay = document.createElement('div');
+    overlay.id = 'votes-modal-overlay';
+    overlay.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.6);z-index:99998;display:flex;align-items:center;justify-content:center;padding:20px;';
+    var box = document.createElement('div');
+    box.style.cssText = 'background:#fff;border-radius:16px;padding:28px 32px;max-width:720px;width:100%;max-height:90vh;overflow-y:auto;font-family:system-ui,sans-serif;box-shadow:0 24px 64px rgba(0,0,0,0.35);';
+    overlay.appendChild(box);
+
+    // Header
+    var header = document.createElement('div');
+    header.style.cssText = 'display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;';
+    var title = document.createElement('div');
+    title.style.cssText = 'font-size:20px;font-weight:700;color:#111;';
+    title.textContent = '\uD83D\uDCCA Council Votes';
+    var closeBtn = document.createElement('button');
+    closeBtn.style.cssText = 'background:none;border:none;font-size:24px;cursor:pointer;color:#888;padding:0;line-height:1;';
+    closeBtn.textContent = '\u00D7';
+    closeBtn.onclick = function() { overlay.remove(); };
+    header.appendChild(title);
+    header.appendChild(closeBtn);
+    box.appendChild(header);
+
+    // Subline
+    var sub = document.createElement('div');
+    sub.style.cssText = 'font-size:13px;color:#666;margin-bottom:20px;line-height:1.5;';
+    sub.innerHTML = 'Enter roll call vote data from the <a href="https://fairfax.granicus.com/AgendaViewer.php?clip_id=' + (window.MEETING_CLIP_ID || '?') + '" target="_blank" style="color:#6b46c1;">Granicus Council Actions</a> for this meeting.';
+    box.appendChild(sub);
+
+    // Votes list
+    var listEl = document.createElement('div');
+    listEl.id = 'votes-list';
+    listEl.style.cssText = 'display:flex;flex-direction:column;gap:12px;margin-bottom:20px;';
+    box.appendChild(listEl);
+
+    // Add vote form
+    var form = document.createElement('div');
+    form.style.cssText = 'background:#f9f9f9;border-radius:12px;padding:16px;margin-bottom:16px;';
+    form.innerHTML = '<div style="font-size:14px;font-weight:600;color:#333;margin-bottom:12px;">Add Vote</div>' +
+      '<div style="display:grid;grid-template-columns:80px 1fr 100px;gap:8px;margin-bottom:8px;">' +
+      '<input type="text" id="vote-item" placeholder="Item #" style="padding:7px 10px;border:1px solid #ccc;border-radius:8px;font-size:14px;width:100%;box-sizing:border-box;">' +
+      '<input type="text" id="vote-title" placeholder="Title (e.g. Adoption of the agenda)" style="padding:7px 10px;border:1px solid #ccc;border-radius:8px;font-size:14px;width:100%;box-sizing:border-box;">' +
+      '<select id="vote-result" style="padding:7px 10px;border:1px solid #ccc;border-radius:8px;font-size:14px;width:100%;box-sizing:border-box;"><option value="PASSED">PASSED</option><option value="FAILED">FAILED</option><option value="NO_ACTION">NO ACTION</option></select>' +
+      '</div>' +
+      '<div style="display:grid;grid-template-columns:100px 1fr 120px;gap:8px;margin-bottom:8px;">' +
+      '<input type="text" id="vote-count" placeholder="Vote (e.g. 9-0)" style="padding:7px 10px;border:1px solid #ccc;border-radius:8px;font-size:14px;width:100%;box-sizing:border-box;">' +
+      '<input type="text" id="vote-opposed" placeholder="Opposed (comma-separated)" style="padding:7px 10px;border:1px solid #ccc;border-radius:8px;font-size:14px;width:100%;box-sizing:border-box;">' +
+      '<input type="number" id="vote-timestamp" placeholder="Timestamp (s)" style="padding:7px 10px;border:1px solid #ccc;border-radius:8px;font-size:14px;width:100%;box-sizing:border-box;">' +
+      '</div>' +
+      '<div style="display:flex;gap:8px;align-items:center;">' +
+      '<input type="text" id="vote-notes" placeholder="Notes (optional)" style="flex:1;padding:7px 10px;border:1px solid #ccc;border-radius:8px;font-size:14px;">' +
+      '<button id="vote-add-btn" style="padding:8px 16px;background:#6b46c1;color:#fff;border:none;border-radius:8px;font-size:14px;cursor:pointer;font-weight:600;white-space:nowrap;">+ Add</button>' +
+      '</div>';
+    box.appendChild(form);
+
+    // Error display
+    var errorEl = document.createElement('div');
+    errorEl.id = 'votes-error';
+    errorEl.style.cssText = 'color:#e53e3e;font-size:13px;margin-bottom:12px;display:none;';
+    box.insertBefore(errorEl, listEl);
+
+    document.getElementById('vote-add-btn').onclick = function() {
+      var item = document.getElementById('vote-item').value.trim();
+      var title = document.getElementById('vote-title').value.trim();
+      var result = document.getElementById('vote-result').value;
+      var count = document.getElementById('vote-count').value.trim();
+      var opposed = document.getElementById('vote-opposed').value.trim();
+      var ts = document.getElementById('vote-timestamp').value.trim();
+      var notes = document.getElementById('vote-notes').value.trim();
+      if (!item || !title) {
+        errorEl.textContent = 'Item # and Title are required.';
+        errorEl.style.display = 'block';
+        return;
+      }
+      errorEl.style.display = 'none';
+      votes.push({
+        item: item,
+        title: title,
+        result: result,
+        vote_count: count || null,
+        breakdown: result === 'PASSED' ? 'Unanimous' : (result === 'FAILED' ? 'Motion failed' : 'No action taken'),
+        opposed: opposed ? opposed.split(',').map(function(s) { return s.trim(); }) : [],
+        absent: [],
+        timestamp_seconds: ts ? parseInt(ts, 10) : null,
+        notes: notes
+      });
+      saveVotesDataLocally(votes);
+      renderVotesList(votes, listEl);
+      // Clear form
+      document.getElementById('vote-item').value = '';
+      document.getElementById('vote-title').value = '';
+      document.getElementById('vote-count').value = '';
+      document.getElementById('vote-opposed').value = '';
+      document.getElementById('vote-timestamp').value = '';
+      document.getElementById('vote-notes').value = '';
+    };
+
+    // Save to GitHub button
+    var saveBtn = document.createElement('button');
+    saveBtn.style.cssText = 'width:100%;padding:12px;background:#38a151;color:#fff;border:none;border-radius:10px;font-size:15px;font-weight:600;cursor:pointer;margin-bottom:8px;';
+    saveBtn.textContent = '\u2705 Save Votes to GitHub';
+    saveBtn.onclick = function() {
+      saveVotesToGitHub(votes, function(err) {
+        if (err) {
+          errorEl.textContent = 'Save failed: ' + err;
+          errorEl.style.display = 'block';
+        } else {
+          showToast('\u2705 Votes saved to GitHub');
+          overlay.remove();
+        }
+      });
+    };
+    box.appendChild(saveBtn);
+
+    // Download JSON button
+    var dlBtn = document.createElement('button');
+    dlBtn.style.cssText = 'width:100%;padding:10px;background:#fff;color:#6b46c1;border:2px solid #6b46c1;border-radius:10px;font-size:14px;font-weight:600;cursor:pointer;';
+    dlBtn.textContent = '\u2193 Download votes.json';
+    dlBtn.onclick = function() {
+      var blob = new Blob([JSON.stringify({meeting_id: MEETING_ID, clip_id: window.MEETING_CLIP_ID || '', votes: votes}, null, 2)], {type:'application/json'});
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.href = url; a.download = MEETING_ID + '-votes.json'; document.body.appendChild(a); a.click();
+      setTimeout(function() { document.body.removeChild(a); URL.revokeObjectURL(url); }, 100);
+    };
+    box.appendChild(dlBtn);
+
+    // Close on overlay click
+    overlay.addEventListener('click', function(e) {
+      if (e.target === overlay) overlay.remove();
+    });
+
+    renderVotesList(votes, listEl);
+    document.body.appendChild(overlay);
+  }
+
+  function renderVotesList(votes, listEl) {
+    listEl.innerHTML = '';
+    if (votes.length === 0) {
+      listEl.innerHTML = '<div style="color:#888;font-size:14px;text-align:center;padding:16px;">No votes added yet. Fill in the form above to add roll call votes.</div>';
+      return;
+    }
+    votes.forEach(function(v, idx) {
+      var card = document.createElement('div');
+      card.style.cssText = 'background:#f7fafc;border:1px solid #e2e8f0;border-radius:10px;padding:12px 14px;';
+      var resultColor = v.result === 'PASSED' ? '#38a151' : (v.result === 'FAILED' ? '#e53e3e' : '#888');
+      var resultBg = v.result === 'PASSED' ? '#f0fff4' : (v.result === 'FAILED' ? '#fff5f5' : '#f7f7f7');
+      card.innerHTML =
+        '<div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">' +
+        '<span style="background:' + resultBg + ';color:' + resultColor + ';font-size:11px;font-weight:700;padding:2px 8px;border-radius:20px;">' + v.result + '</span>' +
+        '<span style="font-size:13px;font-weight:600;color:#111;">Item ' + v.item + '</span>' +
+        '<span style="font-size:13px;color:#444;flex:1;">' + v.title + '</span>' +
+        (v.vote_count ? '<span style="font-size:12px;font-weight:600;color:#6b46c1;background:#f3f0ff;padding:2px 8px;border-radius:6px;">' + v.vote_count + '</span>' : '') +
+        '<button data-idx="' + idx + '" class="vote-remove-btn" style="background:none;border:none;color:#e53e3e;cursor:pointer;font-size:16px;padding:0 4px;line-height:1;">\u00D7</button>' +
+        '</div>' +
+        (v.opposed.length > 0 ? '<div style="font-size:12px;color:#e53e3e;">Opposed: ' + v.opposed.join(', ') + '</div>' : '') +
+        (v.notes ? '<div style="font-size:12px;color:#666;margin-top:2px;">' + v.notes + '</div>' : '');
+      card.querySelector('.vote-remove-btn').onclick = function() {
+        var votes = loadVotesData();
+        votes.splice(idx, 1);
+        saveVotesDataLocally(votes);
+        renderVotesList(votes, listEl);
+      };
+      listEl.appendChild(card);
+    });
+  }
+
+  function saveVotesToGitHub(votes, callback) {
+    var token = getGitHubToken();
+    if (!token) { callback('No GitHub token. Click "Set GitHub Token" first.'); return; }
+    var payload = {
+      meeting_id: MEETING_ID,
+      clip_id: window.MEETING_CLIP_ID || '',
+      votes: votes
+    };
+    var base64Payload = btoa(unescape(encodeURIComponent(JSON.stringify(payload))));
+    var body = JSON.stringify({
+      event_type: 'save-votes-data',
+      client_payload: {
+        meeting_id: MEETING_ID,
+        votes_json_base64: base64Payload
+      }
+    });
+    fetch(GITHUB_DISPATCH_URL, {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/vnd.github+json',
+        'Authorization': 'Bearer ' + token,
+        'X-GitHub-Api-Version': '2022-11-28',
+        'Content-Type': 'application/json'
+      },
+      body: body
+    }).then(function(res) {
+      if (res.ok) { callback(null); }
+      else { res.text().then(function(t) { callback(t.slice(0, 100)); }); }
+    }).catch(function() { callback('Network error'); });
   }
 
 
