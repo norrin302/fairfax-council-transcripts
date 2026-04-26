@@ -1343,31 +1343,25 @@
   }
 
   function findDomBlockForBlock(blockInfo) {
-    var all = document.querySelectorAll('.speaker-block');
-    // DEBUG: log first call only
-    if (!window.__findDomBlockForBlock._logged) {
-      window.__findDomBlockForBlock._logged = true;
-      console.log('[review-ui] findDomBlockForBlock FIRST CALL — blockInfo:', JSON.stringify(blockInfo));
-      console.log('[review-ui] DOM has', all.length, 'speaker-blocks');
-      if (all.length > 0) {
-        console.log('[review-ui] DOM[0]: speaker=' + all[0].dataset.speaker + ' time=' + all[0].dataset.time);
-      }
-    }
+    // Look up block info from TRANSCRIPT_BLOCKS (not DOM element) so we get turnIds.
+    var all = window.TRANSCRIPT_BLOCKS || [];
     for (var i = 0; i < all.length; i++) {
-      var el = all[i];
-      // Normalize both sides to lowercase for reliable comparison.
-      // transcript-page.js stores dataset.speaker via speakerKey() (already lowercased),
-      // but we lowercase again here to handle any edge cases.
-      if (String(el.dataset.speaker || '').toLowerCase() === String(blockInfo.speakerKey || '').toLowerCase() &&
-          String(el.dataset.time || '') === String(Math.floor(blockInfo.start || 0))) {
-        return el;
+      var b = all[i];
+      if (String(b.speakerKey || '').toLowerCase() === String(blockInfo.speakerKey || '').toLowerCase() &&
+          Math.floor(b.start || 0) === Math.floor(blockInfo.start || 0)) {
+        // DEBUG: log first call only
+        if (!window.__findDomBlockForBlock._logged) {
+          window.__findDomBlockForBlock._logged = true;
+          console.log('[review-ui] findDomBlockForBlock FIRST CALL — matched blockInfo at index:', i, JSON.stringify(blockInfo));
+          console.log('[review-ui] TRANSCRIPT_BLOCKS has', all.length, 'blocks');
+        }
+        return b;
       }
     }
     // DEBUG: log when returning null
     if (!window.__findDomBlockForBlock._nullLogged) {
       window.__findDomBlockForBlock._nullLogged = true;
       console.log('[review-ui] findDomBlockForBlock returning NULL for:', JSON.stringify(blockInfo));
-      console.log('[review-ui] Checked', all.length, 'DOM blocks, none matched');
     }
     return null;
   }
