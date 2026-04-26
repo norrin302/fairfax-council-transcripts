@@ -1233,3 +1233,13 @@ body {
   vertical-align: middle;
 }
 .staged-label-badge .fas { font-size: 10px; }
+
+/* ---- Roll Call Vote Detection Banner ---- */
+#rollcall-review-banner {
+  background: #fff8e1;
+  border: 2px solid #f59e0b;
+}
+#rollcall-review-banner a:hover {
+  background: #fde68a;
+}
+

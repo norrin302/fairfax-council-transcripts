@@ -1592,6 +1592,11 @@
 
   function proceedInit() {
     showReviewBanner();
+    // Roll call vote detection for review mode
+    var rollCallDetected = detectRollCallSequences();
+    if (rollCallDetected.length > 0) {
+      renderRollCallReviewBanner(rollCallDetected);
+    }
     renderSidebar();
 
     var checkAndWire = function () {
@@ -1627,4 +1632,127 @@
     console.log('[review-ui] calling init() immediately');
     init();
   }
+
+  // ---- Roll Call Vote Detection ----
+  // Detects mayor roll call vote sequences where individual responses
+  // are embedded in the mayor's turn (ASR merges them) and flags for review.
+  // Uses votes/<meeting_id>.json Granicus data to match outcomes.
+
+  var ROLL_CALL_PATTERN = /Council\s*(Member|Mr\.|Ms\.)\s+(\w+(?:\s+\w+)?)\s*[?:]\s*(Aye|No|I)\b/gi;
+  var ROLL_CALL_OUTCOME_PATTERNS = [
+    /(?:passed|approved|adopted)\s+(?:unanimously|by\s+\d+[\s-]+\d+)/i,
+    /motion\s+(?:passed|failed|fails?)\s*(?:\d+\s+to\s+\d+|\d+\s+-\s+\d+)/i,
+    /unanimous(?:ly)?/i,
+    /tie\s+vote/i,
+    /(?:\d+)\s+to\s+(?:\d+)/i,
+  ];
+
+  function detectRollCallSequences() {
+    if (!window.TRANSCRIPT_TURNS) return [];
+    var detected = [];
+    var turns = window.TRANSCRIPT_TURNS;
+    var i = 0;
+    while (i < turns.length) {
+      var turn = turns[i];
+      var speaker = turn.speaker_public || '';
+      var text = turn.text || '';
+      var hasRollCallMarker = /roll\s*call\s*vote/i.test(text);
+      var shortResponses = (text.match(ROLL_CALL_PATTERN) || []).length;
+
+      if ((hasRollCallMarker || shortResponses >= 2) && /Mayor/i.test(speaker)) {
+        var responses = [];
+        var pattern_copy = new RegExp(ROLL_CALL_PATTERN.source, ROLL_CALL_PATTERN.flags);
+        var match;
+        while ((match = pattern_copy.exec(text)) !== null) {
+          responses.push({ name: match[2], response: match[3], position: match.index });
+        }
+        var outcome = null;
+        for (var j = 0; j < ROLL_CALL_OUTCOME_PATTERNS.length; j++) {
+          var om = ROLL_CALL_OUTCOME_PATTERNS[j].exec(text);
+          if (om) { outcome = om[0]; break; }
+        }
+        // Check next few turns for outcome
+        var nextTexts = '';
+        for (var k = 1; k <= 2 && i + k < turns.length; k++) {
+          nextTexts += ' ' + (turns[i + k].text || '');
+        }
+        if (!outcome) {
+          for (var j = 0; j < ROLL_CALL_OUTCOME_PATTERNS.length; j++) {
+            var om = ROLL_CALL_OUTCOME_PATTERNS[j].exec(nextTexts);
+            if (om) { outcome = om[0]; break; }
+          }
+        }
+        if (responses.length > 0 || hasRollCallMarker) {
+          detected.push({
+            turn_id: turn.turn_id,
+            start: turn.start,
+            end: turn.end,
+            speaker: speaker,
+            response_count: responses.length,
+            responses: responses.slice(0, 20),
+            outcome: outcome,
+            needs_review: true,
+            review_reason: 'roll_call_missing_individual_attribution'
+          });
+        }
+        // Skip ahead 60 seconds to avoid duplicate detection
+        var skipTo = turn.start + 60;
+        while (i + 1 < turns.length && turns[i + 1].start < skipTo) i++;
+      }
+      i++;
+    }
+    return detected;
+  }
+
+  function renderRollCallReviewBanner(detected) {
+    if (!detected || detected.length === 0) return;
+    var existing = document.getElementById('rollcall-review-banner');
+    if (existing) existing.remove();
+    var banner = document.createElement('div');
+    banner.id = 'rollcall-review-banner';
+    banner.style.cssText = 'background:#fff8e1;border:2px solid #f59e0b;border-radius:12px;padding:16px 20px;margin:20px 0;font-family:system-ui,sans-serif;';
+    var title = document.createElement('div');
+    title.style.cssText = 'font-size:16px;font-weight:700;color:#92400e;margin-bottom:4px;';
+    title.textContent = '\u{1F4CA} Roll Call Vote Sections Detected (' + detected.length + ')';
+    var sub = document.createElement('div');
+    sub.style.cssText = 'font-size:13px;color:#78350f;margin-bottom:12px;';
+    sub.textContent = "ASR merged individual responses into the Mayor's turn. Review each section against Granicus Council Actions.";
+    banner.appendChild(title);
+    banner.appendChild(sub);
+    var list = document.createElement('div');
+    list.style.cssText = 'display:flex;flex-direction:column;gap:8px;';
+    detected.forEach(function(item) {
+      var link = document.createElement('a');
+      link.href = '#' + item.turn_id;
+      link.style.cssText = 'display:flex;align-items:center;gap:8px;padding:8px 12px;background:#fef3c7;border-radius:8px;text-decoration:none;color:#78350f;font-size:14px;';
+      var badge = document.createElement('span');
+      badge.style.cssText = 'background:#f59e0b;color:#fff;border-radius:50%;width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0;';
+      badge.textContent = item.response_count;
+      var time = document.createElement('span');
+      time.style.cssText = 'color:#92400e;font-size:12px;min-width:50px;';
+      time.textContent = _fmtTime(item.start);
+      var text = document.createElement('span');
+      text.style.cssText = 'flex:1;';
+      text.textContent = (item.outcome || 'Roll call vote') + ' \u2014 ' + item.response_count + ' response(s)';
+      link.appendChild(badge);
+      link.appendChild(time);
+      link.appendChild(text);
+      list.appendChild(link);
+    });
+    banner.appendChild(list);
+    var insertAfter = document.querySelector('.ai-notice') || document.querySelector('.meeting-header') || document.querySelector('.container');
+    if (insertAfter && insertAfter.nextSibling) {
+      insertAfter.parentNode.insertBefore(banner, insertAfter.nextSibling);
+    } else if (insertAfter) {
+      insertAfter.parentNode.appendChild(banner);
+    }
+  }
+
+  function _fmtTime(seconds) {
+    var m = Math.floor(seconds / 60);
+    var s = Math.floor(seconds % 60);
+    return m + ':' + (s < 10 ? '0' : '') + s;
+  }
+
+
 })();
