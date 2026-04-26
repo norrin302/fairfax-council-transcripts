@@ -395,7 +395,10 @@
           badge.className = 'staged-label-badge';
           badge.title = 'Staged label — will be applied on export';
           var labelText = staged.speaker_name || staged.speaker_public_override || staged.speaker_type || 'labeled';
-          badge.innerHTML = '<i class="fas fa-edit"></i> ' + escHtml(labelText);
+          badge.textContent = labelText;
+          var icon = document.createElement('i');
+          icon.className = 'fas fa-edit';
+          badge.insertBefore(icon, badge.firstChild);
           nameEl.appendChild(badge);
         }
       } else {
@@ -406,8 +409,8 @@
     });
   }
 
+
   // ---- Review banner ----
-  function showReviewBanner() {
     var existing = document.getElementById('review-banner');
     if (existing) existing.remove();
     var meta = getMeetingMeta();
