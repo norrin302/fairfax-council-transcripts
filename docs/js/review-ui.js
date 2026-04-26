@@ -33,8 +33,48 @@
   var EXPORT_FLAG_KEY = function (meetingId) {
     return 'reviewdecisions:exported:' + String(meetingId || '').trim();
   };
-  var UI_VERSION = '2.2';
+  var UI_VERSION = '2.3';
   var REVIEWER_DEFAULT = 'manual-review';
+  var GITHUB_TOKEN_KEY = 'review:github_token';
+  var GITHUB_REPO = 'norrin302/fairfax-council-transcripts';
+  var GITHUB_DISPATCH_URL = 'https://api.github.com/repos/' + GITHUB_REPO + '/dispatches';
+
+  function getGitHubToken() {
+    try { return localStorage.getItem(GITHUB_TOKEN_KEY) || ''; } catch (e) { return ''; }
+  }
+
+  function setGitHubToken(token) {
+    try { localStorage.setItem(GITHUB_TOKEN_KEY, token); } catch (e) {}
+  }
+
+  function showTokenPrompt(onSuccess) {
+    var overlay = document.createElement('div');
+    overlay.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.7);z-index:99999;display:flex;align-items:center;justify-content:center;';
+    var box = document.createElement('div');
+    box.style.cssText = 'background:#fff;color:#222;border-radius:12px;padding:32px;max-width:480px;width:90%;font-family:system-ui,sans-serif;box-shadow:0 20px 60px rgba(0,0,0,0.4);';
+    box.innerHTML = '<h2 style="margin:0 0 8px;font-size:20px;">\uD83D\uDD11 GitHub Token Required</h2>' +
+      '<p style="margin:0 0 20px;color:#555;line-height:1.5;">To apply changes with one click, paste a GitHub Personal Access Token with <code>repo</code> scope. The token is stored only in your browser and never sent anywhere except GitHub.</p>' +
+      '<input type="password" id="token-input" placeholder="ghp_..." style="width:100%;box-sizing:border-box;padding:10px 12px;border:1px solid #ccc;border-radius:8px;font-size:14px;margin-bottom:16px;" />' +
+      '<div style="display:flex;gap:10px;justify-content:flex-end;">' +
+      '<button id="token-cancel-btn" style="padding:8px 16px;border-radius:8px;border:1px solid #ccc;background:#f5f5f5;cursor:pointer;font-size:14px;">Cancel</button>' +
+      '<button id="token-save-btn" style="padding:8px 16px;border-radius:8px;border:none;background:#38a151;color:#fff;cursor:pointer;font-size:14px;font-weight:600;">Save Token</button>' + '</div>' +
+      '<p style="margin:12px 0 0;color:#888;font-size:12px;line-height:1.5;">Create at: GitHub.com \u2192 Settings \u2192 Developer Settings \u2192 Personal Access Tokens \u2192 Tokens (classic) \u2192 Generate new token (classic) \u2192 select <strong>repo</strong> scope.</p>';
+    overlay.appendChild(box);
+    document.body.appendChild(overlay);
+    document.getElementById('token-input').focus();
+    document.getElementById('token-cancel-btn').onclick = function () { document.body.removeChild(overlay); };
+    document.getElementById('token-save-btn').onclick = function () {
+      var val = document.getElementById('token-input').value.trim();
+      if (!val) return;
+      setGitHubToken(val);
+      document.body.removeChild(overlay);
+      if (onSuccess) onSuccess(val);
+    };
+    document.getElementById('token-input').onkeydown = function (e) {
+      if (e.key === 'Enter') document.getElementById('token-save-btn').click();
+      if (e.key === 'Escape') document.getElementById('token-cancel-btn').click();
+    };
+  }
 
   var COUNCIL_QUICK_PICK = [
     'Mayor Catherine Read',
@@ -430,8 +470,11 @@
       '<span class="review-dirty-indicator" id="review-dirty-indicator" style="display:none;">' +
         '<i class="fas fa-exclamation-circle"></i> unexported' +
       '</span>' +
-      '<button type="button" id="review-export-btn" class="review-action-btn"' + (pending.length === 0 ? ' disabled' : '') + '>' +
-        '<i class="fas fa-download"></i> Export JSON' +
+      '<button type="button" id="review-finish-btn" class="review-action-btn review-action-btn-finish"' + (pending.length === 0 || !getGitHubToken() ? ' disabled' : '') + '>' +
+        '<i class="fas fa-check"></i> Finish Review' +
+      '</button>' +
+      '<button type="button" id="review-token-btn" class="review-action-btn"' + (getGitHubToken() ? ' style="display:none"' : '') + '>' +
+        '<i class="fas fa-key"></i> Set GitHub Token' +
       '</button>' +
       '<button type="button" id="review-copy-btn" class="review-action-btn"' + (pending.length === 0 ? ' disabled' : '') + '>' +
         '<i class="fas fa-copy"></i> Copy JSON' +
@@ -442,31 +485,62 @@
       '<a href="?" class="review-exit-link">Exit review mode</a>';
     document.querySelector('.container').prepend(banner);
 
-    var APPLY_WORKER_URL = 'https://fairfax-apply.norrinopenclaw.workers.dev';
-
-    document.getElementById('review-export-btn').addEventListener('click', function () {
+    document.getElementById('review-finish-btn').addEventListener('click', function () {
+      var token = getGitHubToken();
+      if (!token) {
+        showTokenPrompt(function () {
+          document.getElementById('review-finish-btn').disabled = false;
+          document.getElementById('review-finish-btn').click();
+        });
+        return;
+      }
       var payload = getExportPayload();
       if (payload.length === 0) return;
-      var decisions = payload; // array of decisions
+      var decisions = payload;
       var turnIds = decisions.map(function (d) { return d.turn_id; });
       markExported(turnIds);
-      showToast('Applying decisions…');
-      fetch(APPLY_WORKER_URL, {
+      showToast('Applying decisions via GitHub Actions…');
+      var base64Payload = btoa(unescape(encodeURIComponent(JSON.stringify(payload))));
+      var body = JSON.stringify({
+        event_type: 'apply-review-decisions',
+        client_payload: {
+          meeting_id: MEETING_ID,
+          decisions_json_base64: base64Payload
+        }
+      });
+      fetch(GITHUB_DISPATCH_URL, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ meeting_id: MEETING_ID, decisions: decisions })
+        headers: {
+          'Accept': 'application/vnd.github+json',
+          'Authorization': 'Bearer ' + token,
+          'X-GitHub-Api-Version': '2022-11-28',
+          'Content-Type': 'application/json'
+        },
+        body: body
       }).then(function (res) {
         if (res.ok) {
-          return res.json().then(function (r) {
-            showToast('✅ ' + r.message);
-          });
+          showToast('✅ Decisions applied — transcript will update shortly');
+          clearAllPending();
+          renderSidebar();
+          updateBannerCounts();
+          wireLabelButtons();
         } else {
-          return res.text().then(function (err) {
-            showToast('Apply failed: ' + err.slice(0, 100));
+          res.text().then(function (err) {
+            showToast('Apply failed: ' + (err.slice ? err.slice(0, 100) : err));
           });
         }
       }).catch(function () {
-        showToast('Network error — export manually if needed');
+        showToast('Network error — try again or export manually');
+      });
+    });
+
+    document.getElementById('review-token-btn').addEventListener('click', function () {
+      showTokenPrompt(function (token) {
+        var finishBtn = document.getElementById('review-finish-btn');
+        var tokenBtn = document.getElementById('review-token-btn');
+        if (finishBtn) finishBtn.disabled = pending.length === 0;
+        if (tokenBtn) tokenBtn.style.display = 'none';
+        showToast('GitHub token saved');
       });
     });
 
@@ -490,7 +564,8 @@
 
   function updateBannerCounts() {
     var countEl = document.getElementById('review-staged-count');
-    var exportBtn = document.getElementById('review-export-btn');
+    var finishBtn = document.getElementById('review-finish-btn');
+    var tokenBtn = document.getElementById('review-token-btn');
     var copyBtn = document.getElementById('review-copy-btn');
     var clearBtn = document.getElementById('review-clear-btn');
     var pending = PENDING_DECISIONS;
@@ -499,7 +574,9 @@
         ? pending.length + ' staged decision' + (pending.length !== 1 ? 's' : '')
         : 'no staged decisions';
     }
-    if (exportBtn) exportBtn.disabled = pending.length === 0;
+    var hasToken = !!getGitHubToken();
+    if (finishBtn) finishBtn.disabled = pending.length === 0 || !hasToken;
+    if (tokenBtn) tokenBtn.style.display = hasToken ? 'none' : '';
     if (copyBtn) copyBtn.disabled = pending.length === 0;
     if (clearBtn) clearBtn.disabled = pending.length === 0;
     updateDirtyIndicator();

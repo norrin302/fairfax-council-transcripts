@@ -650,6 +650,9 @@ body {
 .review-action-btn:hover { background: rgba(255,255,255,0.25); }
 .review-action-btn:disabled { opacity: 0.4; cursor: not-allowed; }
 .review-action-btn-danger:hover { background: rgba(229, 62, 62, 0.5); }
+.review-action-btn-finish { background: rgba(56, 161, 81, 0.85); border-color: rgba(56, 161, 81, 0.85); color: #fff; }
+.review-action-btn-finish:hover { background: rgba(56, 161, 81, 1); border-color: rgba(56, 161, 81, 1); }
+.review-action-btn-finish:disabled { opacity: 0.4; cursor: not-allowed; background: rgba(56, 161, 81, 0.5); border-color: rgba(56, 161, 81, 0.5); }
 
 .review-exit-link { color: #e9d8fd; text-decoration: underline; margin-left: auto; }
 .review-exit-link:hover { color: #fff; }
