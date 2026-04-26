@@ -1,28 +1,14 @@
 #!/usr/bin/env python3
 """
-Optimal ASR + Diarization Fusion Pipeline
-=========================================
-Combines:
-  1. faster-whisper medium GPU (word-level ASR) → precise timestamps
-  2. pyannote 3.1 diarization → speaker segmentation
-  3. Approval-based speaker registry (cross-meeting consistency)
-  4. Text-content heuristics (mayor/staff/council patterns)
-  5. Name-pattern matching from speaker registry
-
-Accuracy strategy:
-  - Word-level ASR alignment to pyannote segments (not segment-level)
-  - Approval map overrides (authoritative)
-  - Multiple weak signals combined for speaker ID
-  - Needs_review only for genuinely ambiguous turns
+Optimal ASR + Diarization Fusion Pipeline v2
+=============================================
+Combines word-level ASR (faster-whisper) + pyannote 3.1 diarization.
+Includes same-speaker turn merging.
 """
 import json, bisect, re, sys
 from collections import Counter
 
-MEETING_ID = sys.argv[1] if len(sys.argv) > 1 else "apr-07-2026"
-ASR_FILE = f"pipeline_work/{MEETING_ID}/asr/faster-whisper_gpu_medium.json"
-DIAR_FILE = f"pipeline_work/{MEETING_ID}/diarization/pyannote_segments.json"
 REGISTRY_FILE = "pipeline_work/speakers.json"
-OUT_FILE = f"transcripts_structured/{MEETING_ID}_optimal.json"
 
 def load_registry():
     r = json.load(open(REGISTRY_FILE))
@@ -31,12 +17,9 @@ def load_registry():
         names.add(s['display_name'])
         for a in s.get('aliases', []):
             names.add(a)
-    # Add common honorifics
-    names.update(['Mayor', 'Mayor Read', 'City Manager', 'City Manager Coll'])
     return r, names
 
 def build_approval_map():
-    """Load cross-meeting approval mappings for stable SPEAKER_XX mapping."""
     approvals = {}
     import glob
     for fname in glob.glob("corrections/*-approvals.json"):
@@ -45,8 +28,7 @@ def build_approval_map():
             for sp, info in data.get('approvals', {}).items():
                 if info.get('status') == 'approved':
                     approvals[sp] = {'name': info['name'], 'role': info.get('role', 'unknown')}
-        except:
-            pass
+        except: pass
     return approvals
 
 def get_text_in_window(words, start, end):
@@ -55,57 +37,69 @@ def get_text_in_window(words, start, end):
         idx -= 1
     parts = []
     for w in words[idx:]:
-        if w['start'] >= end:
-            break
+        if w['start'] >= end: break
         if w['start'] < end and w['end'] > start:
             parts.append(w['word'])
     return ''.join(parts).strip()
 
 def is_mayor_text(text):
-    phrases = [
-        'good evening', 'call to order', ' work session', ' work session.',
-        'first item', 'recognize ', ' motion ', ' seconded', 'roll call',
-        'public comment', 'close ', 'city council', 'council chambers',
-        'parliamentary', 'rezoning', 'ordinance',
-    ]
+    phrases = ['good evening','call to order',' work session',' work session.',
+               'first item','recognize ',' motion ',' seconded','roll call',
+               'public comment','close ','city council','council chambers',
+               'parliamentary','rezoning','ordinance']
     t = text.lower()
     return sum(1 for p in phrases if p in t) >= 2
 
 def is_staff_text(text):
-    phrases = [
-        'director', 'manager', 'chief ', 'presenting', 'presentation',
-        'budget', 'parks', 'recreation', 'special events', 'police',
-        'finance', 'planning', 'city manager', 'assistant city manager',
-    ]
+    phrases = ['director','manager','chief ','presenting','presentation',
+                'budget','parks','recreation','special events','police',
+                'finance','planning','city manager','assistant city manager']
     t = text.lower()
     return sum(1 for p in phrases if p in t) >= 1
 
 def detect_councilmember_self_id(text):
-    """Self-identification: 'Councilmember [Name]' spoken by the speaker."""
-    patterns = [
-        r'\bCouncilmember\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)\b',
-        r'\bCouncilmember\s+([A-Z][a-z]+-\s*[A-Z][a-z]+)\b',
-    ]
+    patterns = [r'\bCouncilmember\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)\b',
+                r'\bCouncilmember\s+([A-Z][a-z]+-\s*[A-Z][a-z]+)\b']
     for p in patterns:
         m = re.search(p, text)
-        if m:
-            return m.group(1)
+        if m: return m.group(1)
     return None
 
+def merge_consecutive_same_speaker(turns, gap_threshold=2.0, max_turn_len=120):
+    merged = []
+    for t in turns:
+        if not merged:
+            merged.append(t.copy()); continue
+        prev = merged[-1]
+        gap = t['start'] - prev['end']
+        same = (t.get('speaker_public') == prev.get('speaker_public') and
+                t.get('speaker_status') == prev.get('speaker_status'))
+        too_long = (t['end'] - prev['start']) > max_turn_len
+        if same and gap < gap_threshold and not too_long:
+            prev['end'] = t['end']
+            prev['text'] = prev['text'] + ' ' + t['text']
+        else:
+            merged.append(t.copy())
+    return merged
+
 def main():
-    asr = json.load(open(ASR_FILE))
-    diar = json.load(open(DIAR_FILE))
+    meeting_id = sys.argv[1] if len(sys.argv) > 1 else "apr-07-2026"
+    asr_file = f"pipeline_work/{meeting_id}/asr/faster-whisper_gpu_medium.json"
+    diar_file = f"pipeline_work/{meeting_id}/diarization/pyannote_segments.json"
+    out_file = f"transcripts_structured/{meeting_id}_optimal.json"
+    
+    asr = json.load(open(asr_file))
+    diar = json.load(open(diar_file))
     registry, registry_names = load_registry()
     approval_map = build_approval_map()
     
     words = asr['words']
     diar_segs = sorted(diar['segments'], key=lambda x: x['start'])
-    
     diar_starts = [s['start'] for s in diar_segs]
     diar_ends = [s['end'] for s in diar_segs]
     diar_speakers = [s['speaker'] for s in diar_segs]
     
-    def find_speaker(word_start):
+    def find_spk(ws):
         idx = bisect.bisect_left(diar_starts, word_start)
         if idx > 0 and diar_starts[idx-1] <= word_start < diar_ends[idx-1]:
             return diar_speakers[idx-1]
@@ -113,57 +107,33 @@ def main():
             return diar_speakers[idx]
         return 'UNKNOWN'
     
-    # Stats
-    needs_review_ct = 0
-    auto_ct = 0
-    
     turns = []
-    turn_id = 0
-    
     for di in diar_segs:
         sp_raw = di['speaker']
-        text = get_text_in_window(words, di["start"], di["end"])
-        if not text:
-            continue
+        text = get_text_in_window(words, di['start'], di['end'])
+        if not text: continue
         
         speaker_public = sp_raw
         speaker_status = "needs_review"
         needs_review = True
         
-        # 1. APPROVAL MAP (authoritative, cross-meeting)
         if sp_raw in approval_map:
             speaker_public = approval_map[sp_raw]['name']
-            speaker_status = "approved_mapping"
-            needs_review = False
-        
-        # 2. MAYOR HEURISTIC
+            speaker_status = "approved_mapping"; needs_review = False
         elif is_mayor_text(text):
             speaker_public = "Mayor Catherine Read"
-            speaker_status = "auto_mayor"
-            needs_review = False
-        
-        # 3. SELF-IDENTIFICATION PATTERN
+            speaker_status = "auto_mayor"; needs_review = False
         elif detect_councilmember_self_id(text):
             speaker_public = "Councilmember " + detect_councilmember_self_id(text)
-            speaker_status = "auto_self_id"
-            needs_review = False
-        
-        # 4. REGISTRY NAME MATCH
-        elif any(name.lower() in text.lower() for name in registry_names):
-            matched_name = next(name for name in registry_names if name.lower() in text.lower())
-            speaker_public = matched_name
-            speaker_status = "auto_name_match"
-            needs_review = False
-        
-        # 5. STAFF HEURISTIC
+            speaker_status = "auto_self_id"; needs_review = False
+        elif any(n.lower() in text.lower() for n in registry_names):
+            matched = next(n for n in registry_names if n.lower() in text.lower())
+            speaker_public = matched; speaker_status = "auto_name_match"; needs_review = False
         elif is_staff_text(text):
-            speaker_public = "Staff Member"
-            speaker_status = "auto_staff"
-            needs_review = False
+            speaker_public = "Staff Member"; speaker_status = "auto_staff"; needs_review = False
         
-        turn_id += 1
         turns.append({
-            "turn_id": f"turn_{turn_id:06d}",
+            "turn_id": f"turn_{len(turns)+1:06d}",
             "start": round(di['start'], 2),
             "end": round(di['end'], 2),
             "text": text,
@@ -171,39 +141,28 @@ def main():
             "speaker_public": speaker_public,
             "speaker_status": speaker_status,
             "needs_review": needs_review,
-            "source": "word_level_fusion",
+            "source": "word_level_fusion_v2",
         })
-        
-        if needs_review:
-            needs_review_ct += 1
-        else:
-            auto_ct += 1
+    
+    turns = merge_consecutive_same_speaker(turns)
+    for i, t in enumerate(turns):
+        t['turn_id'] = f"turn_{i+1:06d}"
+    
+    needs_review_ct = sum(1 for t in turns if t.get('needs_review'))
+    auto_ct = len(turns) - needs_review_ct
+    print(f"=== {meeting_id} | Turns: {len(turns)} | Auto: {auto_ct} | Review: {needs_review_ct} ===")
     
     output = {
-        "meeting": MEETING_ID,
-        "clip_id": "4513",
-        "source": "word_level_fusion",
+        "meeting": meeting_id, "clip_id": "4513",
+        "source": "word_level_fusion_v2",
         "asr_model": asr.get('model', 'unknown'),
         "diar_model": "pyannote 3.1",
         "duration": asr.get('duration', 0),
         "turns": turns,
     }
-    
-    with open(OUT_FILE, 'w') as f:
+    with open(out_file, 'w') as f:
         json.dump(output, f, indent=2)
-    
-    # Stats
-    from collections import Counter
-    sp_dist = Counter(t['speaker_public'] for t in turns)
-    print(f"\n=== {MEETING_ID} Word-Level Fusion Results ===")
-    print(f"Total turns: {len(turns)}")
-    print(f"Auto-resolved: {auto_ct} ({auto_ct/len(turns)*100:.0f}%)")
-    print(f"Needs review: {needs_review_ct} ({needs_review_ct/len(turns)*100:.0f}%)")
-    print(f"\nSpeaker distribution:")
-    for sp, ct in sp_dist.most_common():
-        print(f"  {ct:4d}x | {sp}")
-    
-    print(f"\nWrote: {OUT_FILE}")
+    print(f"Wrote: {out_file}")
 
 if __name__ == "__main__":
     main()
