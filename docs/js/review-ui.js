@@ -1528,6 +1528,7 @@
   // ---- Debug: expose findDomBlockForBlock globally ----
   window.__findDomBlockForBlock = findDomBlockForBlock;
   window.__buildBlockIndex = buildBlockIndex;
+  window.__wireLabelButtons = wireLabelButtons;
 
   console.log('[review-ui] init setup, about to call init()');
   if (document.readyState === 'loading') {
