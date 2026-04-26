@@ -28,20 +28,14 @@ jobs:
       - name: Save votes data
         run: |
           MEETING_ID="${{ github.event.inputs.meeting_id || github.event.client_payload.meeting_id }}"
-          echo "=== MEETING_ID: $MEETING_ID ==="
-          VOTES_JSON_B64="${{ github.event.inputs.votes_json_base64 || github.event.client_payload.votes_json_base64 }}"
-          echo "=== b64 length: ${#VOTES_JSON_B64} ==="
-          echo "$VOTES_JSON_B64" | base64 -d > votes_in.json
-          echo "=== file size: $(stat -c%s votes_in.json) ==="
-          cat votes_in.json
-          echo "=== END ==="
-          ls -la scripts/
-          python3 scripts/save_votes.py 2>&1 || echo "PYTHON_FAILED"
-          echo "=== done ==="
+          echo "${{ github.event.inputs.votes_json_base64 || github.event.client_payload.votes_json_base64 }}" | base64 -d > votes_in.json
+          python3 scripts/save_votes.py
 
       - name: Commit and push
         run: |
           MEETING_ID="${{ github.event.inputs.meeting_id || github.event.client_payload.meeting_id }}"
+          git config user.email "github-actions@openclaw.ai"
+          git config user.name "GitHub Actions"
           git add docs/votes/$MEETING_ID.json
           git diff --cached --quiet && echo "No changes to commit" || git commit -m "Add/update votes data: $MEETING_ID"
           git push origin main
