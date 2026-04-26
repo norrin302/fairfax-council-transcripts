@@ -30,12 +30,14 @@ jobs:
           MEETING_ID="${{ github.event.inputs.meeting_id || github.event.client_payload.meeting_id }}"
           echo "=== MEETING_ID: $MEETING_ID ==="
           VOTES_JSON_B64="${{ github.event.inputs.votes_json_base64 || github.event.client_payload.votes_json_base64 }}"
-          echo "=== votes b64 length: ${#VOTES_JSON_B64} ==="
+          echo "=== b64 length: ${#VOTES_JSON_B64} ==="
           echo "$VOTES_JSON_B64" | base64 -d > votes_in.json
-          ls -la votes_in.json
-          head -c 200 votes_in.json
-          echo ""
-          python3 scripts/save_votes.py 2>&1
+          echo "=== file size: $(stat -c%s votes_in.json) ==="
+          cat votes_in.json
+          echo "=== END ==="
+          ls -la scripts/
+          python3 scripts/save_votes.py 2>&1 || echo "PYTHON_FAILED"
+          echo "=== done ==="
 
       - name: Commit and push
         run: |
