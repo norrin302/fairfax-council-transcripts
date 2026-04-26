@@ -3,54 +3,103 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>City Council Work Session - April 7, 2026</title>
-  <link rel="stylesheet" href="../css/style.css">
+  <title>apr-07-2026 — City Council Work Session | Fairfax City Council Transcripts</title>
   <link rel="stylesheet" href="../css/transcript-page.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/review-ui.css">
+  <script src="https://cdn.jsdelivr.net/npm/@anthropic-ai/sdk@4/distINCTIVE_API_FORMAT/claude-session.js"></script>
 </head>
 <body>
-  <div class="container">
-    <header class="meeting-header">
-      <h1><i class="fas fa-landmark"></i> Fairfax City Council Meeting</h1>
-      <div class="meta">
-        <span><i class="fas fa-calendar"></i> April 7, 2026</span> &bull;
-        <span><i class="fas fa-file-alt"></i> Full Transcript</span>
+<div id="app">
+  <header class="meeting-header">
+    <div class="header-inner">
+      <div class="header-meta">
+        <span class="meeting-type-badge work-session">Work Session</span>
+        <time class="meeting-date" id="meeting-date">apr-07-2026</time>
       </div>
-    </header>
-
-    <div class="ai-notice">
-      <h4><i class="fas fa-robot"></i> AI-Generated Transcript</h4>
-      <p>
-        This transcript was generated using AI speech recognition and best-effort speaker labeling.
-        It may contain errors.
-        For the official record, refer to the
-        <a href="https://fairfax.granicus.com/player/clip/4513" target="_blank" rel="noopener">city's video archive</a>.
-      </p>
+      <h1 class="meeting-title">City Council Work Session</h1>
+      <div class="meeting-subtitle">
+        City of Fairfax, Virginia — apr-07-2026
+      </div>
     </div>
+  </header>
 
-    <div class="official-links" id="official-resources"></div>
+  <div class="meeting-layout">
+    <aside class="speaker-panel">
+      <div class="panel-section">
+        <h2 class="panel-title">Speakers</h2>
+        <ul class="meeting-speaker-list">
+        <li class="meeting-speaker-item">
+          <span class="speaker-name">Mayor Catherine Read</span>
+          <span class="speaker-count">51 turns</span>
+        </li>
+        <li class="meeting-speaker-item">
+          <span class="speaker-name">Jay</span>
+          <span class="speaker-count">1 turns</span>
+        </li>
+        <li class="meeting-speaker-item">
+          <span class="speaker-name">MPO Carrie Jones</span>
+          <span class="speaker-count">1 turns</span>
+        </li>
+        <li class="meeting-speaker-item">
+          <span class="speaker-name">Presentation</span>
+          <span class="speaker-count">1 turns</span>
+        </li>
+        <li class="meeting-speaker-item">
+          <span class="speaker-name">Definitely</span>
+          <span class="speaker-count">1 turns</span>
+        </li>
+        <li class="meeting-speaker-item">
+          <span class="speaker-name">Anytime</span>
+          <span class="speaker-count">1 turns</span>
+        </li>
 
-    <div class="official-links">
-      <h3><i class="fas fa-list"></i> Jump to section</h3>
-      <div id="section-links" style="display:flex; gap:12px; flex-wrap:wrap;"></div>
-    </div>
+        </ul>
+      </div>
+      <div class="panel-section">
+        <h2 class="panel-title">Jump to</h2>
+        <ul class="time-index-list" id="time-index"></ul>
+      </div>
+      <div class="panel-section" id="votes-summary-container">
+        <h2 class="panel-title">Council Votes</h2>
+        <div id="votes-summary">
+          <p class="no-votes-note">No roll call votes recorded for this Work Session.</p>
+        </div>
+      </div>
+    </aside>
 
-    <div class="search-container">
-      <input type="text" id="search-input" placeholder="Search within this meeting... (type to filter)">
-      <div id="search-count"></div>
-    </div>
-
-    <div id="transcript">
-      <p style="color: #718096; text-align: center;">Loading transcript…</p>
-    </div>
-
-    <button id="back-to-top"><i class="fas fa-arrow-up"></i> Top</button>
+    <main class="transcript-main">
+      <div class="transcript-container" id="transcript-container">
+        <!-- Transcript turns rendered by JS -->
+      </div>
+    </main>
   </div>
+</div>
 
-  <script>
-    const MEETING = {"meeting_id": "apr-07-2026", "meeting_date": "2026-04-07", "display_date": "April 7, 2026", "title": "City Council Work Session", "source_url": "https://fairfax.granicus.com/player/clip/4513", "official_meetings_portal_url": "https://www.fairfaxva.gov/Government/Public-Meetings/City-Meetings", "official_agenda_url": "https://fairfax.granicus.com/AgendaViewer.php?clip_id=4513", "official_minutes_url": "https://fairfax.granicus.com/MinutesViewer.php?clip_id=4513", "official_packet_url": null, "sections": [{"start_seconds": 15, "label": "a. Discussion on Third Party Event Sponsorships."}, {"start_seconds": 3449, "label": "b. Discussion and update on city services and support for older adults."}, {"start_seconds": 7542, "label": "c. Discussion on Translation Services for City Council Meetings."}, {"start_seconds": 9051, "label": "d. Discussion on the proposed FY 2027 budget, General Fund Questions and Discussion (if needed)"}, {"start_seconds": 12969, "label": "2. Adjournment."}]};
-  </script>
-  <script src="./apr-07-2026-data.js"></script>
-  <script src="../js/transcript-page.js"></script>
+<div id="review-ui" class="review-ui-hidden">
+  <button class="review-toggle-btn" id="review-toggle-btn">Review Mode</button>
+  <div class="review-toolbar" id="review-toolbar">
+    <button class="review-action-btn" id="review-prev-btn">← Prev</button>
+    <button class="review-action-btn" id="review-next-btn">Next →</button>
+    <button class="review-action-btn review-action-btn-save" id="review-save-btn">Save</button>
+    <button class="review-action-btn review-action-btn-export" id="review-export-btn">Finish Review</button>
+    <button class="review-action-btn-votes" id="review-votes-btn">🗳 Votes</button>
+    <span class="review-status-text" id="review-status-text"></span>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-overlay"></div>
+
+<script>
+window.MEETING = {
+  meeting_id: "apr-07-2026",
+  clip_id: "4513",
+  granicus_url: "https://fairfax.granicus.com/AgendaViewer.php?clip_id=4513",
+  structured: null,
+  speakers: ["Mayor Catherine Read", "Unknown Speaker", "Jay", "MPO Carrie Jones", "Presentation", "Definitely", "Anytime"],
+  speaker_counts: {"Mayor Catherine Read": 51, "Unknown Speaker": 71, "Jay": 1, "MPO Carrie Jones": 1, "Presentation": 1, "Definitely": 1, "Anytime": 1},
+};
+</script>
+<script src="../js/transcript-page.js"></script>
+<script src="../js/review-ui.js"></script>
 </body>
 </html>
