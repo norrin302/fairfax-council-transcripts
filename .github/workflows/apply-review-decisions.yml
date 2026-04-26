@@ -37,11 +37,12 @@ jobs:
           MEETING_ID="${{ github.event.inputs.meeting_id || github.event.client_payload.meeting_id }}"
           python3 scripts/apply_review_decisions.py \
             "$MEETING_ID" \
-            --decisions decisions.json \
-            --commit "apply_review_decisions: $MEETING_ID decisions applied"
+            --decisions decisions.json
 
       - name: Push changes
         run: |
+          git add -A
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Apply review decisions: $MEETING_ID"
           git push origin main
 
       - name: Done
