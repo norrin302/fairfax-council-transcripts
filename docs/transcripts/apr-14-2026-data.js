@@ -1114,8 +1114,26 @@ const TRANSCRIPT_TURNS = [
     "speaker_source": "approved",
     "speaker_source_detail": "",
     "start": 5175.68,
+    "end": 5352.43,
+    "text": "Thank you. I'm Mary McDaniel, a resident of the Fairfax City, and my comments tonight are unrelated to my role on the city's electoral board. I'm speaking in support of the Willard Sherwood Center, and I'm asking that the city council advance this project. It's an essential facility for our growing city. I have attended a ton of open houses on this and have always supported the project. As I look at it, it seems very obvious that we should move ahead, and I started thinking about why would you maybe cancel the project? And one might be that the services that are going to be covered are not needed anymore. But in fact, the services are needed more now than 10 years ago when project planning started. Speaking to a few of them, the daycare center. Our population has grown, and along with that is the need for child care. Public health services. Again, larger population means more demand. On top of that, the federal government has significantly reduced spending on public health and plans to continue to do more. So states and localities have to step up. Community space. In the past 10 years, we have learned a lot about the importance of personal contact and mental health. You know, texting is fine for some things, but face-to-face communication is far more important as is exercise. So the senior center is really critical. Something that doesn't get talked about much is parking. The Sherwood Center parking center fills up when popular programs are taking place in the evening. So having a parking garage attached to the building would help solve that problem. I am well aware that this building would raise my property taxes. I've owned two houses in the city over the space of 35 years. My real estate taxes have never gone down. The rate may have decreased, but the amount I paid always went up. And I understand that because every year the cost of living goes up. In my adult life, the consumer price index has decreased only one time. Hundreds of citizens like me have spoken for more than a decade in open houses about wanting this project. And we know that the city will need to raise taxes to do this and may need to sell bonds. This has been openly disclosed and discussed throughout the planning process. We've had a ton of experts weigh in from architects, building engineers, landscape people, And the dedicated city staff who have worked diligently to pack as much as possible into this site. Over the years, I've never heard a city council member campaign on the idea of canceling this project. And I don't think now that any of you did. What I ask at this point is this. You've heard from the experts about what can be put into this building and how it benefits the community. And you've heard the community speak about the wants that we have. I ask that you follow up on promises that have been made, advance this project, and finance it as needed."
+  },
+  {
+    "turn_id": "turn_000374a",
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "caption",
+    "speaker_source_detail": "caption:explicit",
+    "start": 5352.43,
+    "end": 5360.65,
+    "text": "Is there anybody else in the room that would like to speak under the general public comment? All right. I will now recess the record."
+  },
+  {
+    "turn_id": "turn_000374b",
+    "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "caption",
+    "speaker_source_detail": "caption:explicit",
+    "start": 5360.65,
     "end": 5362.74,
-    "text": "Thank you. I'm Mary McDaniel, a resident of the Fairfax City, and my comments tonight are unrelated to my role on the city's electoral board. I'm speaking in support of the Willard Sherwood Center, and I'm asking that the city council advance this project. It's an essential facility for our growing city. I have attended a ton of open houses on this and have always supported the project. As I look at it, it seems very obvious that we should move ahead, and I started thinking about why would you maybe cancel the project? And one might be that the services that are going to be covered are not needed anymore. But in fact, the services are needed more now than 10 years ago when project planning started. Speaking to a few of them, the daycare center. Our population has grown, and along with that is the need for child care. Public health services. Again, larger population means more demand. On top of that, the federal government has significantly reduced spending on public health and plans to continue to do more. So states and localities have to step up. Community space. In the past 10 years, we have learned a lot about the importance of personal contact and mental health. You know, texting is fine for some things, but face-to-face communication is far more important as is exercise. So the senior center is really critical. Something that doesn't get talked about much is parking. The Sherwood Center parking center fills up when popular programs are taking place in the evening. So having a parking garage attached to the building would help solve that problem. I am well aware that this building would raise my property taxes. I've owned two houses in the city over the space of 35 years. My real estate taxes have never gone down. The rate may have decreased, but the amount I paid always went up. And I understand that because every year the cost of living goes up. In my adult life, the consumer price index has decreased only one time. Hundreds of citizens like me have spoken for more than a decade in open houses about wanting this project. And we know that the city will need to raise taxes to do this and may need to sell bonds. This has been openly disclosed and discussed throughout the planning process. We've had a ton of experts weigh in from architects, building engineers, landscape people, And the dedicated city staff who have worked diligently to pack as much as possible into this site. Over the years, I've never heard a city council member campaign on the idea of canceling this project. And I don't think now that any of you did. What I ask at this point is this. You've heard from the experts about what can be put into this building and how it benefits the community. And you've heard the community speak about the wants that we have. I ask that you follow up on promises that have been made, advance this project, and finance it as needed. Is there anybody else in the room that would like to speak under the general public comment? All right. I will now recess the record. Well, hang on before you do that."
+    "text": "Well, hang on before you do that."
   },
   {
     "turn_id": "turn_000387",
@@ -1952,7 +1970,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "caption:explicit",
     "start": 9991.14,
     "end": 10018.54,
-    "text": "♪♪ ♪♪ ♪♪ ♪♪"
+    "text": "\u266a\u266a \u266a\u266a \u266a\u266a \u266a\u266a"
   }
 ];
 
