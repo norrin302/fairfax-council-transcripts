@@ -1,0 +1,26 @@
+{
+  "meeting_id": "jan-13-2026",
+  "clip_id": "4436",
+  "recorded_at": "2026-01-13",
+  "source": "Granicus Council Actions (official minutes)",
+  "votes": [
+    {
+      "item": "7e",
+      "title": "Supplemental appropriation resolution ($4,600,000 Transform 66 Outside the Beltway Concession Funding for George Snyder Trail)",
+      "result": "FAILED",
+      "vote_count": "3-3",
+      "breakdown": "Hall, McQuillen, Peterson opposed",
+      "opposed": ["Councilmember Hall", "Councilmember McQuillen", "Councilmember Peterson"],
+      "notes": "Tie vote = fails. Failed for lack of 4 votes needed."
+    },
+    {
+      "item": "9a",
+      "title": "Resolution to cancel George Snyder Trail Project (VDOT UPC 112816)",
+      "result": "PASSED",
+      "vote_count": "4-2",
+      "breakdown": "Amos and Hardy-Chandler opposed",
+      "opposed": ["Councilmember Amos", "Councilmember Hardy Chandler"],
+      "notes": "Came after failed Item 7e. Agenda amended to replace original Item 9a (award of construction) with cancelation resolution."
+    }
+  ]
+}

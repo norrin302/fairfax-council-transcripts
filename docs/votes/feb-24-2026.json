@@ -1,0 +1,26 @@
+{
+  "meeting_id": "feb-24-2026",
+  "clip_id": "4474",
+  "recorded_at": "2026-02-24",
+  "source": "Granicus Council Actions (official minutes)",
+  "votes": [
+    {
+      "item": "4",
+      "title": "Adoption of the agenda",
+      "result": "PASSED",
+      "vote_count": "Unanimous",
+      "breakdown": "All councilmembers present",
+      "opposed": [],
+      "notes": ""
+    },
+    {
+      "item": "7",
+      "title": "Appointments to Boards, Commissions, and Advisory Committees (James Feather to BAR, Nick Tricarichi to Planning Commission)",
+      "result": "PASSED",
+      "vote_count": "Unanimous",
+      "breakdown": "All councilmembers present",
+      "opposed": [],
+      "notes": "James Feather appointed to Board of Architectural Review; Nick Tricarichi appointed to Planning Commission"
+    }
+  ]
+}
