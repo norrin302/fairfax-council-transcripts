@@ -1,0 +1,63 @@
+{
+  "meeting_id": "apr-14-2026",
+  "clip_id": "4519",
+  "recorded_at": "2026-04-14",
+  "source": "https://fairfax.granicus.com/MinutesViewer.php?view_id=13&clip_id=4519&doc_id=f8170baa-38d0-11f1-bb28-005056a89546",
+  "votes": [
+    {
+      "item": "4",
+      "title": "Adoption of the agenda",
+      "result": "PASSED",
+      "vote_count": "9-0",
+      "breakdown": "Unanimous",
+      "opposed": [],
+      "absent": [],
+      "timestamp_seconds": 1639,
+      "notes": ""
+    },
+    {
+      "item": "6",
+      "title": "Consent agenda",
+      "result": "PASSED",
+      "vote_count": "9-0",
+      "breakdown": "Unanimous",
+      "opposed": [],
+      "absent": [],
+      "timestamp_seconds": 3627,
+      "notes": "Includes 13 sub-items (minutes, agreements, ordinances, resolutions)"
+    },
+    {
+      "item": "7",
+      "title": "Appointments to Boards, Commissions, and Advisory Committees",
+      "result": "FAILED",
+      "vote_count": "3-3",
+      "breakdown": "Tie vote — motion fails",
+      "opposed": ["Councilmember Hall", "Councilmember McQuillen", "Councilmember Peterson"],
+      "absent": [],
+      "timestamp_seconds": 3734,
+      "notes": "Motion to appoint multiple applicants failed 3-3. Hall, McQuillen, Peterson opposed."
+    },
+    {
+      "item": "8",
+      "title": "Public hearing on the proposed FY27 budget",
+      "result": "NO_ACTION",
+      "vote_count": null,
+      "breakdown": "No Council action taken",
+      "opposed": [],
+      "absent": [],
+      "timestamp_seconds": 5161,
+      "notes": "Public hearing only; no vote"
+    },
+    {
+      "item": "11",
+      "title": "Recess to work session",
+      "result": "PASSED",
+      "vote_count": null,
+      "breakdown": "Motion to recess approved",
+      "opposed": [],
+      "absent": [],
+      "timestamp_seconds": 8363,
+      "notes": "Council recessed to work session"
+    }
+  ]
+}

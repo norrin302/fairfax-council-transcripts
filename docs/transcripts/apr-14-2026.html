@@ -28,6 +28,8 @@
       </p>
     </div>
 
+    <div id="votes-summary"></div>
+
     <div class="official-links" id="official-resources"></div>
 
     <div class="official-links">
@@ -53,5 +55,66 @@
   <script src="./apr-14-2026-data.js"></script>
   <script src="../js/transcript-page.js"></script>
   <script src="../js/review-ui.js" defer></script>
+  <script>
+  (function () {
+    var voteDataUrl = '../votes/' + MEETING.meeting_id + '.json';
+    fetch(voteDataUrl).then(function (r) {
+      if (!r.ok) return;
+      r.json().then(function (data) {
+        renderVotesSummary(data);
+      });
+    }).catch(function () {});
+
+    function renderVotesSummary(data) {
+      var container = document.getElementById('votes-summary');
+      if (!container) return;
+
+      var html = '<div class="votes-summary">' +
+        '<div class="votes-summary-header">' +
+          '<i class="fas fa-vote-yea" style="font-size:20px;color:#90cdf4;"></i>' +
+          '<h2>Council Votes</h2>' +
+          '<a class="votes-summary-link" href="' + (data.source || '#') + '" target="_blank" rel="noopener">View official minutes ↗</a>' +
+        '</div>' +
+        '<div class="votes-list">';
+
+      data.votes.forEach(function (v) {
+        var iconClass = v.result === 'PASSED' ? 'passed' : v.result === 'FAILED' ? 'failed' : 'no-action';
+        var iconChar = v.result === 'PASSED' ? '✓' : v.result === 'FAILED' ? '✗' : 'ℹ';
+        var itemClass = 'vote-item' + (v.opposed && v.opposed.length === 0 ? ' unanimous' : '') + (v.result === 'NO_ACTION' ? ' no-action' : '');
+        var countBadge = v.vote_count
+          ? '<span class="vote-count-badge ' + (v.result === 'PASSED' ? 'pass' : 'fail') + '">' + v.vote_count + '</span>'
+          : '';
+        var opposedLine = v.opposed && v.opposed.length > 0
+          ? '<span class="vote-opposed">Opposed: ' + v.opposed.join(', ') + '</span>'
+          : '';
+        var timecode = formatTime摔(v.timestamp_seconds);
+        var jumpUrl = '#t=' + v.timestamp_seconds;
+
+        html += '<div class="' + itemClass + '" style="cursor:pointer" onclick="window.location.hash=\'t=' + v.timestamp_seconds + '\'">';
+          '<div class="vote-icon ' + iconClass + '">' + iconChar + '</div>' +
+          '<div class="vote-body">' +
+            '<div class="vote-title">Item ' + v.item + ' — ' + v.title + '</div>' +
+            '<div class="vote-meta">' +
+              countBadge +
+              '<span>' + v.breakdown + '</span>' +
+              opposedLine +
+              '<span style="opacity:0.6">[' + timecode + ']</span>' +
+            '</div>' +
+          '</div>' +
+          '<a class="vote-jump" href="' + jumpUrl + '">▶ Jump</a>' +
+        '</div>';
+      });
+
+      html += '</div></div>';
+      container.innerHTML = html;
+    }
+
+    function formatTime摔(seconds) {
+      var m = Math.floor(seconds / 60);
+      var s = seconds % 60;
+      return m + ':' + (s < 10 ? '0' : '') + s;
+    }
+  })();
+  </script>
 </body>
 </html>
