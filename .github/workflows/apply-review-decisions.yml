@@ -24,7 +24,7 @@ jobs:
 
       - name: Decode decisions JSON
         run: |
-          echo "${{ github.event.inputs.decisions_json_base64 || github.event.payload.decisions_json_base64 }}" | base64 -d > decisions.json
+          echo "${{ github.event.inputs.decisions_json_base64 || github.event.client_payload.decisions_json_base64 }}" | base64 -d > decisions.json
           echo "Decisions: $(jq length decisions.json)"
 
       - name: Set up Python
@@ -34,7 +34,7 @@ jobs:
 
       - name: Run apply script
         run: |
-          MEETING_ID="${{ github.event.inputs.meeting_id || github.event.payload.meeting_id }}"
+          MEETING_ID="${{ github.event.inputs.meeting_id || github.event.client_payload.meeting_id }}"
           python3 scripts/apply_review_decisions.py \
             "$MEETING_ID" \
             --decisions decisions.json \
