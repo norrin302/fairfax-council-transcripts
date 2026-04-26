@@ -25,19 +25,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Decode votes JSON
-        run: |
-          echo "${{ github.event.inputs.votes_json_base64 || github.event.client_payload.votes_json_base64 }}" | base64 -d > votes_in.json
-
-      - name: Configure git
-        run: |
-          git config user.email "github-actions@openclaw.ai"
-          git config user.name "GitHub Actions"
-
       - name: Save votes data
         run: |
           MEETING_ID="${{ github.event.inputs.meeting_id || github.event.client_payload.meeting_id }}"
-          echo "MEETING_ID=$MEETING_ID"
+          echo "Meeting: $MEETING_ID"
+          VOTES_JSON_B64="${{ github.event.inputs.votes_json_base64 || github.event.client_payload.votes_json_base64 }}"
+          echo "$VOTES_JSON_B64" | base64 -d > votes_in.json
           python3 scripts/save_votes.py
 
       - name: Commit and push
