@@ -1116,3 +1116,23 @@ body {
 .vc-video-btn:hover { background: #e2e8f0; color: #1a4a7a; }
 .vc-turn-text { display: flex; align-items: flex-start; margin-bottom: 5px; }
 .vc-turn-text span { flex: 1; }
+
+/* ---- Staged decision visual feedback ---- */
+.speaker-block.has-staged-decision {
+  border-left-color: #805ad5 !important;
+  background: #faf5ff;
+}
+.staged-label-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 8px;
+  padding: 2px 8px;
+  background: #805ad5;
+  color: white;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  vertical-align: middle;
+}
+.staged-label-badge .fas { font-size: 10px; }

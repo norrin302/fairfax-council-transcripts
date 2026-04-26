@@ -385,6 +385,24 @@
       } else {
         console.log('[review-ui] ERROR: no .turn-header found in block - speakerKey=' + block.dataset.speaker + ', start=' + block.dataset.time);
       }
+
+      // Show staged label visually on the speaker-block
+      if (staged) {
+        block.classList.add('has-staged-decision');
+        var nameEl = block.querySelector('.speaker-name');
+        if (nameEl && !block.querySelector('.staged-label-badge')) {
+          var badge = document.createElement('span');
+          badge.className = 'staged-label-badge';
+          badge.title = 'Staged label — will be applied on export';
+          var labelText = staged.speaker_name || staged.speaker_public_override || staged.speaker_type || 'labeled';
+          badge.innerHTML = '<i class="fas fa-edit"></i> ' + escHtml(labelText);
+          nameEl.appendChild(badge);
+        }
+      } else {
+        block.classList.remove('has-staged-decision');
+        var b = block.querySelector('.staged-label-badge');
+        if (b) b.remove();
+      }
     });
   }
 
