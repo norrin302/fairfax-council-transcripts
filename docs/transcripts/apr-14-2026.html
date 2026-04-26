@@ -50,71 +50,10 @@
   </div>
 
   <script>
-    const MEETING = {"meeting_id": "apr-14-2026", "meeting_date": "2026-04-14", "display_date": "April 14, 2026", "title": "City Council Regular Meeting", "source_url": "https://fairfax.granicus.com/player/clip/4519", "official_meetings_portal_url": "https://www.fairfaxva.gov/Government/Public-Meetings/City-Meetings", "official_agenda_url": "https://fairfax.granicus.com/AgendaViewer.php?clip_id=4519", "official_minutes_url": "https://fairfax.granicus.com/MinutesViewer.php?clip_id=4519", "official_packet_url": null, "sections": [{"start_seconds": 71, "label": "1. Call the regular meeting to order. 7:00 P.M."}, {"start_seconds": 84, "label": "2. Pledge of Allegiance."}, {"start_seconds": 1639, "label": "4. Adoption of the agenda."}, {"start_seconds": 1669, "label": "5. Initial general public comment period (A maximum of three (3) minutes per speaker for any city matters not requiring a public hearing. The speakers who have registered with the city clerk’s office (703-385-7935) prior to 5:00 p.m. the day of the meeti"}, {"start_seconds": 3627, "label": "6. Consent agenda."}, {"start_seconds": 3734, "label": "7. Consideration of Appointments to Boards, Commissions, and Advisory Committees."}, {"start_seconds": 5161, "label": "9. Second general public comment period (a maximum of three (3) minutes per speaker for any city matters not requiring a public hearing – limited to speakers who did not speak under initial general public comment period)."}, {"start_seconds": 5364, "label": "11. Recess the regular meeting to go into a work session."}, {"start_seconds": 8363, "label": "13. Reconvene the regular meeting."}, {"start_seconds": 8367, "label": "14. Future Meeting Topics"}, {"start_seconds": 8557, "label": "15. City Manager report out (if needed)."}, {"start_seconds": 8607, "label": "16. Council Comments and Committee reports out (if needed)."}, {"start_seconds": 9982, "label": "18. Adjournment."}]};
+    const MEETING = {"meeting_id": "apr-14-2026", "meeting_date": "2026-04-14", "display_date": "April 14, 2026", "title": "City Council Regular Meeting", "source_url": "https://fairfax.granicus.com/player/clip/4519", "official_meetings_portal_url": "https://www.fairfaxva.gov/Government/Public-Meetings/City-Meetings", "official_agenda_url": "https://fairfax.granicus.com/AgendaViewer.php?clip_id=4519", "official_minutes_url": "https://fairfax.granicus.com/MinutesViewer.php?clip_id=4519", "official_packet_url": null, "sections": [{"start_seconds": 71, "label": "1. Call the regular meeting to order. 7:00 P.M."}, {"start_seconds": 84, "label": "2. Pledge of Allegiance."}, {"start_seconds": 1639, "label": "4. Adoption of the agenda."}, {"start_seconds": 1669, "label": "5. Initial general public comment period (A maximum of three (3) minutes per speaker for any city matters not requiring a public hearing. The speakers who have registered with the city clerk's office (703-385-7935) prior to 5:00 p.m. the day of the meeti"}, {"start_seconds": 3627, "label": "6. Consent agenda."}, {"start_seconds": 3734, "label": "7. Consideration of Appointments to Boards, Commissions, and Advisory Committees."}, {"start_seconds": 5161, "label": "9. Second general public comment period (a maximum of three (3) minutes per speaker for any city matters not requiring a public hearing – limited to speakers who did not speak under initial general public comment period)."}, {"start_seconds": 5364, "label": "11. Recess the regular meeting to go into a work session."}, {"start_seconds": 8363, "label": "13. Reconvene the regular meeting."}, {"start_seconds": 8367, "label": "14. Future Meeting Topics"}, {"start_seconds": 8557, "label": "15. City Manager report out (if needed)."}, {"start_seconds": 8607, "label": "16. Council Comments and Committee reports out (if needed)."}, {"start_seconds": 9982, "label": "18. Adjournment."}]};
   </script>
   <script src="./apr-14-2026-data.js"></script>
   <script src="../js/transcript-page.js"></script>
   <script src="../js/review-ui.js" defer></script>
-  <script>
-  (function () {
-    var voteDataUrl = '../votes/' + MEETING.meeting_id + '.json';
-    fetch(voteDataUrl).then(function (r) {
-      if (!r.ok) return;
-      r.json().then(function (data) {
-        renderVotesSummary(data);
-      });
-    }).catch(function () {});
-
-    function renderVotesSummary(data) {
-      var container = document.getElementById('votes-summary');
-      if (!container) return;
-
-      var html = '<div class="votes-summary">' +
-        '<div class="votes-summary-header">' +
-          '<i class="fas fa-vote-yea" style="font-size:20px;color:#90cdf4;"></i>' +
-          '<h2>Council Votes</h2>' +
-          '<a class="votes-summary-link" href="' + (data.source || '#') + '" target="_blank" rel="noopener">View official minutes ↗</a>' +
-        '</div>' +
-        '<div class="votes-list">';
-
-      data.votes.forEach(function (v) {
-        var iconClass = v.result === 'PASSED' ? 'passed' : v.result === 'FAILED' ? 'failed' : 'no-action';
-        var iconChar = v.result === 'PASSED' ? '✓' : v.result === 'FAILED' ? '✗' : 'ℹ';
-        var itemClass = 'vote-item' + (v.opposed && v.opposed.length === 0 ? ' unanimous' : '') + (v.result === 'NO_ACTION' ? ' no-action' : '');
-        var countBadge = v.vote_count
-          ? '<span class="vote-count-badge ' + (v.result === 'PASSED' ? 'pass' : 'fail') + '">' + v.vote_count + '</span>'
-          : '';
-        var opposedLine = v.opposed && v.opposed.length > 0
-          ? '<span class="vote-opposed">Opposed: ' + v.opposed.join(', ') + '</span>'
-          : '';
-        var timecode = formatTime摔(v.timestamp_seconds);
-        var jumpUrl = '#t=' + v.timestamp_seconds;
-
-        html += '<div class="' + itemClass + '" style="cursor:pointer" onclick="window.location.hash=\'t=' + v.timestamp_seconds + '\'">';
-          '<div class="vote-icon ' + iconClass + '">' + iconChar + '</div>' +
-          '<div class="vote-body">' +
-            '<div class="vote-title">Item ' + v.item + ' — ' + v.title + '</div>' +
-            '<div class="vote-meta">' +
-              countBadge +
-              '<span>' + v.breakdown + '</span>' +
-              opposedLine +
-              '<span style="opacity:0.6">[' + timecode + ']</span>' +
-            '</div>' +
-          '</div>' +
-          '<a class="vote-jump" href="' + jumpUrl + '">▶ Jump</a>' +
-        '</div>';
-      });
-
-      html += '</div></div>';
-      container.innerHTML = html;
-    }
-
-    function formatTime摔(seconds) {
-      var m = Math.floor(seconds / 60);
-      var s = seconds % 60;
-      return m + ':' + (s < 10 ? '0' : '') + s;
-    }
-  })();
-  </script>
 </body>
 </html>

@@ -986,6 +986,71 @@
 
     applyTranscriptFilters();
 
+    // ---- Council Votes Summary panel ----
+    (function () {
+      var dataUrl = '../votes/' + (typeof MEETING !== 'undefined' && MEETING && MEETING.meeting_id ? MEETING.meeting_id : '') + '.json';
+      fetch(dataUrl).then(function (r) {
+        if (!r.ok) return;
+        r.json().then(renderVotesPanel);
+      }).catch(function () {});
+
+      function renderVotesPanel(data) {
+        // Ensure votes-summary div exists in DOM before rendering
+        var container = document.getElementById('votes-summary');
+        if (!container) {
+          container = document.createElement('div');
+          container.id = 'votes-summary';
+          var ai = document.querySelector('.ai-notice');
+          if (ai && ai.parentNode) ai.parentNode.insertBefore(container, ai.nextSibling);
+          else {
+            var hdr = document.querySelector('.meeting-header');
+            if (hdr && hdr.parentNode) hdr.parentNode.insertBefore(container, hdr.nextSibling);
+            return;
+          }
+        }
+
+        var html = '<div class="votes-summary">' +
+          '<div class="votes-summary-header">' +
+            '<i class="fas fa-vote-yea" style="font-size:20px;color:#90cdf4;"></i>' +
+            '<h2>Council Votes</h2>' +
+            '<a class="votes-summary-link" href="' + (data.source || '#') + '" target="_blank" rel="noopener">View official minutes ↗</a>' +
+          '</div>' +
+          '<div class="votes-list">';
+
+        data.votes.forEach(function (v) {
+          var iconClass = v.result === 'PASSED' ? 'passed' : v.result === 'FAILED' ? 'failed' : 'no-action';
+          var iconChar = v.result === 'PASSED' ? '✓' : v.result === 'FAILED' ? '✗' : 'ℹ';
+          var itemClass = 'vote-item' + (v.opposed && v.opposed.length === 0 ? ' unanimous' : '') + (v.result === 'NO_ACTION' ? ' no-action' : '');
+          var countBadge = v.vote_count
+            ? '<span class="vote-count-badge ' + (v.result === 'PASSED' ? 'pass' : 'fail') + '">' + v.vote_count + '</span>'
+            : '';
+          var opposedLine = v.opposed && v.opposed.length > 0
+            ? '<span class="vote-opposed">Opposed: ' + v.opposed.join(', ') + '</span>'
+            : '';
+          var m = Math.floor(v.timestamp_seconds / 60);
+          var sec = v.timestamp_seconds % 60;
+          var timecode = m + ':' + (sec < 10 ? '0' : '') + sec;
+
+          html += '<div class="' + itemClass + '" style="cursor:pointer" onclick="window.location.hash=\'t=' + v.timestamp_seconds + '\'">' +
+            '<div class="vote-icon ' + iconClass + '">' + iconChar + '</div>' +
+            '<div class="vote-body">' +
+              '<div class="vote-title">Item ' + v.item + ' \u2014 ' + v.title + '</div>' +
+              '<div class="vote-meta">' +
+                countBadge +
+                '<span>' + v.breakdown + '</span>' +
+                opposedLine +
+                '<span style="opacity:0.6">[' + timecode + ']</span>' +
+              '</div>' +
+            '</div>' +
+            '<a class="vote-jump" href="#t=' + v.timestamp_seconds + '">▶ Jump</a>' +
+          '</div>';
+        });
+
+        html += '</div></div>';
+        container.innerHTML = html;
+      }
+    })();
+
     // Deep links from global search: #t=seconds
     handleDeepLink(blocks);
     window.addEventListener('hashchange', () => handleDeepLink(blocks));
