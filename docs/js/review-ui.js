@@ -1343,25 +1343,15 @@
   }
 
   function findDomBlockForBlock(blockInfo) {
-    // Look up block info from TRANSCRIPT_BLOCKS (not DOM element) so we get turnIds.
-    var all = window.TRANSCRIPT_BLOCKS || [];
+    // Look up block info from buildBlockIndex (which has turnIds) not TRANSCRIPT_BLOCKS.
+    var all = buildBlockIndex();
     for (var i = 0; i < all.length; i++) {
       var b = all[i];
+      // Match by speakerKey and start time
       if (String(b.speakerKey || '').toLowerCase() === String(blockInfo.speakerKey || '').toLowerCase() &&
           Math.floor(b.start || 0) === Math.floor(blockInfo.start || 0)) {
-        // DEBUG: log first call only
-        if (!window.__findDomBlockForBlock._logged) {
-          window.__findDomBlockForBlock._logged = true;
-          console.log('[review-ui] findDomBlockForBlock FIRST CALL — matched blockInfo at index:', i, JSON.stringify(blockInfo));
-          console.log('[review-ui] TRANSCRIPT_BLOCKS has', all.length, 'blocks');
-        }
         return b;
       }
-    }
-    // DEBUG: log when returning null
-    if (!window.__findDomBlockForBlock._nullLogged) {
-      window.__findDomBlockForBlock._nullLogged = true;
-      console.log('[review-ui] findDomBlockForBlock returning NULL for:', JSON.stringify(blockInfo));
     }
     return null;
   }
