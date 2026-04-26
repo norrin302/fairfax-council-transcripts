@@ -411,6 +411,7 @@
 
 
   // ---- Review banner ----
+  function showReviewBanner() {
     var existing = document.getElementById('review-banner');
     if (existing) existing.remove();
     var meta = getMeetingMeta();
