@@ -25,7 +25,7 @@ const TRANSCRIPT_TURNS = [
     "start": 46.08,
     "end": 46.76,
     "text": "answer any additional",
-    "speaker": "SPEAKER_00"
+    "speaker": "Anthony Amos"
   },
   {
     "turnId": "turn_000005",
@@ -39,14 +39,14 @@ const TRANSCRIPT_TURNS = [
     "start": 203.48,
     "end": 272.24,
     "text": "Currently within the city there are Some established annual third-party events and so these are third-party events that over time Have become annual There are eight of them five of them include road closures. So there are eight events, but only five Fill those six slots for road closures. So we are looking at the sweet mile, which is There are two rate road races on this list the sweet mile and then further down The turkey trot those are both events where the supporting agency covers all the costs so you'll see a zero dollar city expense there and that does not mean that the city does not support them with labor, but those costs are reimbursed by the organization and Then of the remaining eight we have the Asian Festival the ride of the Patriots Fairfax pride Juneteenth celebration the Labor Day car show Fiesta Fairfax Fairfax and the turkey trot And so the total expenses over time we've kind of come to these agreements Where the city is supporting these through direct overtime hours the total cost of those events is just over eighty eight thousand dollars",
-    "speaker": "SPEAKER_02"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000007",
     "start": 275.87,
     "end": 353.49,
     "text": "So the cost that you see listed there are direct costs So that means those are the cost of the overtime hours. It does not include indirect costs such as wear and tear to Equipment for the city We don't include any sort of rental rate that we would normally charge for the use of equipment such as barricades And we don't include offsets for rental revenue loss So when a group is using Old Town Hall that number does not include the rental revenue that could have been recouped through a private event So you'll see the list of direct costs that you see there You know sanitation services public work support all those overtime hours and because these events take place on weekends in our addition to people's staff Duties they are all at an overtime rate Then there's the indirect cost listed there as well which we do not include in the cost estimate So there is the wear and tear on infrastructure equipment use There's also I think important to note here under indirect cost there is a cap to the actual staff capacity to support these events We only have so many staff hours of overtime and for example The right-of-way crew which is Lucian and his team who do a lot of the road closures They work every single weekend of the year They do not Between a number of events and different things that are occurring as far as we work in the city There is just a capacity on the amount of these events that we can support in actual hours",
-    "speaker": "SPEAKER_02"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000008",
@@ -88,14 +88,14 @@ const TRANSCRIPT_TURNS = [
     "start": 843.04,
     "end": 869.87,
     "text": "We did as part of this process look at all of our neighbors regionally and locally there are no You know there are no formalized agreements to support third-party events with any of our neighbors We have heard that there might be some handshake deals here and there where the city is picking up some of the expenses as part of An old deal, but there is no formalized event We are the only city that has this process where we're just you know providing all these city services",
-    "speaker": "SPEAKER_02"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000014",
     "start": 871.96,
     "end": 878.9,
     "text": "Included we did put some links to just all these groups that we looked at all these comparison Jurisdictions",
-    "speaker": "SPEAKER_02"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000015",
@@ -116,42 +116,42 @@ const TRANSCRIPT_TURNS = [
     "start": 939.28,
     "end": 966.95,
     "text": "I'm sure there will be a lot of questions But to zoom in to the end just to help with the slide that is comparing some of the jurisdictions around us if you could It's kind of characterize Where they are in terms of option one two and three And if I understand correctly you said we're unique because we're the only one that's not Requiring some payment for services, but I may have misunderstood that can you clear all that up?",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000018",
     "start": 967.22,
     "end": 996.4,
     "text": "We are I apologize If I zip through that not at all We so we are supporting these a lot of our neighboring all of our neighboring jurisdictions their official policy is that if you are a third-party event Coming into the city you have to pay for your services, so There's different you know deposits way that the ways that that is done but everyone is paying the city for those services and We are paying for the services and not requiring any repayment from the group",
-    "speaker": "SPEAKER_02"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000019",
     "start": 969.21,
     "end": 970.01,
     "text": "that not at all",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000020",
     "start": 997.78,
     "end": 1005.24,
     "text": "So does that just to follow up does that mean functionally they are? option",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000021",
     "start": 1006.1,
     "end": 1017.42,
     "text": "Yeah, they do have a I'm I cannot speak to whether or not they have a cap on the number of events They allow but they are the option three so people can come into the city do a third-party event But they do have to pay for the services they receive from the city",
-    "speaker": "SPEAKER_02"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000022",
     "start": 1018.47,
     "end": 1019.55,
     "text": "Goodness good to know",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000023",
@@ -165,7 +165,7 @@ const TRANSCRIPT_TURNS = [
     "start": 1024.71,
     "end": 1061.16,
     "text": "so I just want to make sure it's fair to say this statement that this became a question because of the quantity of closures that was kind of remedied with the six cap and now you're coming to Kind of tackle some of the administrative transparency equity factors that affect maybe the quality of what we can offer or the impact right If that's the case option one is not what you would prefer correct because that's maintaining the the status quo It",
-    "speaker": "SPEAKER_08"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000025",
@@ -179,105 +179,105 @@ const TRANSCRIPT_TURNS = [
     "start": 1070.72,
     "end": 1070.73,
     "text": "no.",
-    "speaker": "SPEAKER_10"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000027",
     "start": 1070.73,
     "end": 1071.21,
     "text": "no. Mm-hmm,",
-    "speaker": "SPEAKER_08"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000028",
     "start": 1073.7,
     "end": 1078.56,
     "text": "Mm-hmm. So you if so you wouldn't prefer if we decided on option one, correct?",
-    "speaker": "SPEAKER_08"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000029",
     "start": 1078.56,
     "end": 1085.21,
     "text": "We would I do I would not Can we just like eliminate that I mean because it",
-    "speaker": "SPEAKER_02"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000030",
     "start": 1082.98,
     "end": 1097.34,
     "text": "we just like eliminate that I mean because it sounds like there's some challenges and I appreciate offering choices, but it doesn't it's Continuing with option one is the reason why you're coming before us. So",
-    "speaker": "SPEAKER_08"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000031",
     "start": 1098.36,
     "end": 1110.47,
     "text": "Yes, it's I mean it's not an enormous amount of money in the in the scheme of things But it is a big challenge administratively and it's something that continues to grow And so we'd like to build a framework around it before it gets larger and",
-    "speaker": "SPEAKER_02"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000032",
     "start": 1106.69,
     "end": 1107.18,
     "text": "to grow And",
-    "speaker": "SPEAKER_08"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000033",
     "start": 1110.64,
     "end": 1159.43,
     "text": "and to that end I want to thank you for not only addressing the direct costs But the indirect costs and I think that's something that can be kind of invisible in some of these circumstances For Option two it sounds like there could be some variations on that I didn't see and maybe you included this that option two would also have a limit and would it help in terms of thinking of a hybrid maybe a lower limit and I asked this question about option two because I really like the Sort of partnership spirit that's involved in that that it it can be seen as a collaboration between an entity and the city So just maybe speak to that a little bit more",
-    "speaker": "SPEAKER_08"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000034",
     "start": 1159.65,
     "end": 1222.78,
     "text": "Yeah And I think this if you know, I called it a grant program loosely because people will be coming to apply to For money from the city. I don't know if really that's what it is, but The goal would be to I think you know different festivals within the city have really blossomed because of the city support and so to be able to give Groups that opportunity while also helping them work towards financial Independence as a group would be a great way for the grant program to operate or if council chose it could be there could be No end to the cutoff for funding support It's certainly I think there's a lot of ways to structure that as a staff when we sat down our thought was to kind of develop a pot of money and Then You know support these events and let them let them, you know really grow within the city But then also work towards not being so reliant on city resources long term Which would still put us as an outlier amongst our neighbors because we're still supporting these city third-party events",
-    "speaker": "SPEAKER_02"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000035",
     "start": 1166.87,
     "end": 1166.97,
     "text": "don't know",
-    "speaker": "SPEAKER_00"
+    "speaker": "Anthony Amos"
   },
   {
     "turnId": "turn_000036",
     "start": 1225.41,
     "end": 1293.58,
     "text": "and Just a just a quick follow-up The I think the concern is the support Reducing over several years while Expenses are likely to increase Over those periods of time making it even harder maybe to hold those events So if two makes us an outlier Do we know we know the policy on our neighbors and what they're doing regionally in terms of option three do we know? The success of the and the key phrase that stands out should provide full recovery Yeah, right. That's the key phrase that that's a main takeaway. Yeah, do we know if there are if there's any information about maybe the diversity of Events that they host or anything about sort of the quality is it Sort of just big organizations that can do that and and we're attracting maybe smaller Do we have any of that sort of qualitative? Information we",
-    "speaker": "SPEAKER_08"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000037",
     "start": 1268.37,
     "end": 1271.95,
     "text": "right. That's the key phrase that that's a main takeaway. Yeah,",
-    "speaker": "SPEAKER_10"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000038",
     "start": 1293.7,
     "end": 1326.05,
     "text": "we can get that data. I I cannot speak to it right now I will say I think a lot of them are longer running events you know that maybe have a deeper well to draw from and have longer term sponsorships and More developed community ties to get that support And so I do think there are a lot of challenges to starting a third-party event without Really like a private business behind you or just as you know as a group of people who want to bring per se a cultural Festival to the community.",
-    "speaker": "SPEAKER_02"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000039",
     "start": 1326.36,
     "end": 1373.1,
     "text": "Yeah I'm very concerned about smaller groups and maybe providing them an opportunity as an outlier that they might not have access to With her neighbors. I guess my final comment would be to think about a Model where we can pilot it and get data and That it would be agile enough to make adjustments if the data supports it later on Rather than locking in one, you know per se but just saying let's you know pilot this model collect data on the kinds and not just You know standard measures of success, but also are we reaching maybe? Groups that to your point can't draw from a deeper. Well, so to speak. Yeah, thank you",
-    "speaker": "SPEAKER_08"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000040",
     "start": 1352.48,
     "end": 1352.97,
     "text": "one,",
-    "speaker": "SPEAKER_00"
+    "speaker": "Anthony Amos"
   },
   {
     "turnId": "turn_000041",
@@ -298,7 +298,7 @@ const TRANSCRIPT_TURNS = [
     "start": 1507.14,
     "end": 1512.32,
     "text": "Has economic development had a chance to weigh in on this at all by chance",
-    "speaker": "SPEAKER_16"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000044",
@@ -312,7 +312,7 @@ const TRANSCRIPT_TURNS = [
     "start": 1525.29,
     "end": 1560.23,
     "text": "opinion given the shortness of the time that excellent I just think that that's really important. Obviously in this discussion is to ensure we understand exactly how Either the options would affect consumer behavior and attendance because I want to ensure that if we're doing this that we're continuing we our community really is Used to these certain they look forward to these events and it's part of our culture It's part of who we are So I just want to make sure that we fully understand exactly how that's going to affect things if we pick one of these Options, so I think that would be really helpful to have that information",
-    "speaker": "SPEAKER_16"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000046",
@@ -333,7 +333,7 @@ const TRANSCRIPT_TURNS = [
     "start": 1602.77,
     "end": 1651.99,
     "text": "Right now because these are these are considered we have the group Like Stacey was saying of city sponsored events, and then these are city supported events These are items that are mandated for our officers to work So if they move to a self-funded option to where they're you know not not city funded per se they Most of those currently for us are voluntary assignments that they can sign up for if they don't fill them Then it's just not filled the scale of some of these if they're not if the staffing is not filled That the event can't take place so Right now we mandate that officers work these larger scale events We do do we go through a process where they can sign up we do a voluntary window where you know We open the signups, but then as it gets closer. We have to mandate that these are duty assignments",
-    "speaker": "SPEAKER_20"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000049",
@@ -347,21 +347,21 @@ const TRANSCRIPT_TURNS = [
     "start": 1675.14,
     "end": 1675.16,
     "text": "So",
-    "speaker": "SPEAKER_00"
+    "speaker": "Anthony Amos"
   },
   {
     "turnId": "turn_000051",
     "start": 1675.16,
     "end": 1675.45,
     "text": "So yeah,",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000052",
     "start": 1683.4,
     "end": 1693.12,
     "text": "Okay, and then the same thing would apply to Lucian who I had no idea that his staff works every single weekend Again, is that optional or is that optional over time?",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000053",
@@ -375,28 +375,28 @@ const TRANSCRIPT_TURNS = [
     "start": 1714.77,
     "end": 1735.24,
     "text": "Okay And when it comes to our administrative staff Is that my understanding is that if someone works the Saturday of fall festival that they then have comp time to be used At another time does that apply to? Which of our employees does that apply to with regard to the employees that are typically at events such as these?",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000055",
     "start": 1736.18,
     "end": 1751.61,
     "text": "It depends based on people's, you know exemption whether or not they have their overtime eligible or not. And so most We're asking people to come in on a weekend and fill these spaces. So most those hours are overtime hours that people are Eligible for and using okay.",
-    "speaker": "SPEAKER_02"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000056",
     "start": 1751.86,
     "end": 1757.19,
     "text": "okay. Do they have the option to take comp time instead of overtime or yes, okay So then you have",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000057",
     "start": 1754.96,
     "end": 1764.08,
     "text": "or yes, okay So then you have the option and sometimes newer employees will do it so they can build up some time off But most the time people do want the overtime and",
-    "speaker": "SPEAKER_02"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000058",
@@ -410,21 +410,21 @@ const TRANSCRIPT_TURNS = [
     "start": 1769.48,
     "end": 1770.57,
     "text": "totally understand Yeah, and I know",
-    "speaker": "SPEAKER_02"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000060",
     "start": 1770.03,
     "end": 1771.33,
     "text": "understand Yeah, and I know I just make clear",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000061",
     "start": 1775.47,
     "end": 1776.01,
     "text": "Where",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000062",
@@ -445,35 +445,35 @@ const TRANSCRIPT_TURNS = [
     "start": 1851.78,
     "end": 1903.67,
     "text": "okay But those averages is that the same average you've been using for six years now Or is that because the three years that I saw in that just for those three years just for those three years Okay, and was that recreating it from three years ago, or was that using the rates from that initial first year? Okay, thank you for clarifying that And then when it talks about Not exactly here, but like an example for Vienna Staff overtime beyond regular hours. Does that mean with how we're doing it? Does that mean that if our employees have already worked 40 hours and now they're working 10 hours on this Saturday is the expectation or the current method that we cover those 10 hours at their base rate and then the third party would pay the overtime or the expectation that they would Be expected to pay the full 10 hours at that hourly rate. That is overtime rate My",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000065",
     "start": 1858.36,
     "end": 1859.74,
     "text": "in that just for those three years",
-    "speaker": "SPEAKER_20"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000066",
     "start": 1866.03,
     "end": 1867.81,
     "text": "initial first year?",
-    "speaker": "SPEAKER_16"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000067",
     "start": 1869.93,
     "end": 1870.17,
     "text": "that",
-    "speaker": "SPEAKER_16"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000068",
     "start": 1904.46,
     "end": 1921.1,
     "text": "My understanding is that it is the pay the full overtime rate for those 10 hours I think outside of regular staff hours is more so like handing in your application during the week doing different things You might be doing with staff to plan the event while they're on regular hours during the week was my understanding",
-    "speaker": "SPEAKER_02"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000069",
@@ -487,14 +487,14 @@ const TRANSCRIPT_TURNS = [
     "start": 2020.56,
     "end": 2020.59,
     "text": "is. Yep,",
-    "speaker": "SPEAKER_10"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000071",
     "start": 2034.95,
     "end": 2034.97,
     "text": "it",
-    "speaker": "SPEAKER_00"
+    "speaker": "Anthony Amos"
   },
   {
     "turnId": "turn_000072",
@@ -508,28 +508,28 @@ const TRANSCRIPT_TURNS = [
     "start": 2176.16,
     "end": 2176.94,
     "text": "criteria, but those",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000074",
     "start": 2191.91,
     "end": 2192.23,
     "text": "some events",
-    "speaker": "SPEAKER_01"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000075",
     "start": 2220.14,
     "end": 2229.62,
     "text": "Thank you, and that was actually my next question was kind of the third party limited to six It seems like we you know we did add. I think the sweet mile was new this year or last year relatively new",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000076",
     "start": 2230.52,
     "end": 2249.15,
     "text": "This yeah this last February, but it is relatively new it is within the six road closures So as you'll note there's only five road closure events even though there are eight cities cities supported although two of those eight cover their own costs so both of the Both of our road races cover their costs yeah",
-    "speaker": "SPEAKER_02"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000077",
@@ -543,28 +543,28 @@ const TRANSCRIPT_TURNS = [
     "start": 2397.24,
     "end": 2397.58,
     "text": "kind of just",
-    "speaker": "SPEAKER_00"
+    "speaker": "Anthony Amos"
   },
   {
     "turnId": "turn_000079",
     "start": 2431.82,
     "end": 2559.06,
     "text": "you Councilmember Peterson Why yeah, that's a kind of where I've been going also that I I think some sort of a hybrid Would be worth looking at I also think that the ability to do that on a trial basis or a pilot basis gives us flexibility in terms of that and I agree with What councilmember McQuillan suggested I think initially and councilmember all has said more about? Would help to get at some additional data here One of the questions for instance is whether jurisdictions that have functionally this option three format going whether In their view whether they have data or not that has deterred Attendance or hurt them in terms of the strategic objectives of the jurisdiction in terms of tourism etc I don't know it may be that that's had no effect whatsoever But there's been an effect it would be good to know about on the hybrid Option the one thing that seems to me worth particularly focusing on is Calling this a grant mechanism Some kind, but if I understand it correctly That could be used as or some mechanism could be used as a way to have an option three But then selectively and strategically Have flexibility and make exceptions for certain cases like for folks who are coming in for the very first time or who have You know less means but are nonetheless really important etc It gives you a flexibility mechanism to deal with here of course there'd be a lot of complications associated with that From my perspective it would be good To receive something back that we could at least get started at so that we do something and not nothing and we don't let Perfect be the enemy of the good here and to counts to city manager Alexander's point. We I think it is time We stopped playing tennis without a net so I think we've got enough here to figure out how to take a next step And I'd certainly advocate in favor of that",
-    "speaker": "Councilmember Peterson"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000080",
     "start": 2561.5,
     "end": 2562.52,
     "text": "councilmember McCullough",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000081",
     "start": 2564.14,
     "end": 2567.39,
     "text": "Agree that we need a framework for sure",
-    "speaker": "SPEAKER_16"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000082",
@@ -585,7 +585,7 @@ const TRANSCRIPT_TURNS = [
     "start": 2643.63,
     "end": 2758.94,
     "text": "Yeah, I am I mean on the one hand we certainly Need to have some kind of control over how This expense might grow in the future on the other hand Looking at especially Fairfax County And you know Vianna Falls Church are kind of unique in that they're a bit smaller than the city even the city Fairfax But um Fairfax County on the other hand they have developments such as rest in town Center Fairfax corner that Completely run their own events and have their own private security You know large mixed-use developments that we don't have in the city right now so without the benefit of that I Kind of see having something beyond what the county has and what the other jurisdictions have is sort of in lieu of just not being able to have that and I think it's in a lot of ways preferable because It allows for smaller organizations that wouldn't be able to do that elsewhere to have a platform to bring us things like the Asian Festival or Somewhat of a larger event, but you know Fairfax pride Etc so I I think I am leaning toward Having some kind of framework has been laid out to Have a look at which events we want to cover and how much we want to cover But as was mentioned there, I guess a lot of different ways that we can do that so Certainly they have faith in staff to Look into how we can do that and as you know according to what's been laid out here and Look forward to further discussion on that",
-    "speaker": "SPEAKER_19"
+    "speaker": "Billy Bates"
   },
   {
     "turnId": "turn_000085",
@@ -606,7 +606,7 @@ const TRANSCRIPT_TURNS = [
     "start": 2926.93,
     "end": 2927.03,
     "text": "It",
-    "speaker": "SPEAKER_02"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000088",
@@ -634,7 +634,7 @@ const TRANSCRIPT_TURNS = [
     "start": 3206.52,
     "end": 3207.19,
     "text": "hand. Yes, chief",
-    "speaker": "SPEAKER_00"
+    "speaker": "Anthony Amos"
   },
   {
     "turnId": "turn_000092",
@@ -655,7 +655,7 @@ const TRANSCRIPT_TURNS = [
     "start": 3341.47,
     "end": 3373.51,
     "text": "we do saw the Juneteenth committee for those three events We do have a group of community members who assist with those events They are not supported by an organization that would help them be able to To raise funds I do think there's a possibility where we develop a framework and we're able to look at groups revenue and develop a Cost-share model where we're gonna you know based on the revenue that you're pulling in The city is asking for this much cost recovery So I think taking all of this information that you've given us we can come back with a good framework for what that looks Like that is manageable",
-    "speaker": "SPEAKER_02"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000095",
@@ -676,7 +676,7 @@ const TRANSCRIPT_TURNS = [
     "start": 3377.7,
     "end": 3377.83,
     "text": "so",
-    "speaker": "SPEAKER_02"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000098",
@@ -704,35 +704,35 @@ const TRANSCRIPT_TURNS = [
     "start": 3641.0,
     "end": 3895.03,
     "text": "Okay, the the topic of aging is important It's not just important for the residents that are getting older But it's also for those family members that are caring for those residents and also for those of us that are preparing as we get older And when I was thinking about when I was first asked to do this, I was thinking about just some trends some key things to think about of why You know, this is an important topic and a couple things I want to point out that residents age 50 and older or they make up a third of our community of the city and Eric Foreman who is the guy I go to for any kind of data He says in the next five years or so that that's going to continue. So they're a third of our population Almost 89% of the residents 65 and older who were applied from the line. I mean who Were part of the last census own their homes growing oak and be accompanied by increased needs and some vulnerabilities An FY 25 78 residents from the city of Fairfax got support through adult older adults and the adult protective services engaged with 24 adults who there were abuse and neglect concerns that they needed to look into so those are you know adults that have needed some assistance and engaged in the system Not every resident is going to require the same level of need I mean same level of support because sometimes you know, there's individuals because of your your ability You have resources. Maybe you live closer to your family Maybe your health status, you know, some of us have better genetics and others when it comes to health status and so Not you know on here you see Thirty seven hundred sixty six residents that are 65 and older all 3,700 are not going to need the village for instance But there are people that really need and value the village and need the you know Need those resources and so that's something that we have to really pay attention to they're not one size fits all But there's always a time when one of each of us is going to need some extra support or somebody in our family That we love is going to need extra support The city survey the community survey that was done about a year ago or so ago, I guess a year or so. Yeah One of the top human services issues was a lack of affordable housing and I think that one of the things that You know affordable housing why but it impacts older adults because we have folks in our community that want to downsize and they really can't afford it even though they own their homes because You know they bought their homes 40 years ago and the price have kind of changed since then But we also have older adults in northern, Virginia that are either precariously housed or unhoused It it ennerves me to think that anybody in in northern Virginia is aging into homelessness, but that's happening and The there there's going to be more as the baby boomers come you know They're really thinking that there's we're going to see more of that because of the cost of living If you look at the stats up there from 2025 regional point time count 280 residents in northern, Virginia now we're talking about an area. There's resources. It's very fairly affluent 280 adults 70 and older were in-housed on that night that they caught counted and Add to that 26 adults 80 and over were unhoused, and I just I just put that out there because You know when we talk about affordable housing for instance it hits people at different at different ways But I think it's something we need to pay attention to All right",
-    "speaker": "SPEAKER_03"
+    "speaker": "Mayor Catherine Read"
   },
   {
     "turnId": "turn_000102",
     "start": 3899.84,
     "end": 3966.06,
     "text": "And one of the other things I wanted to point out is normal aging for all of it for most of us Maybe not all of us, but for most of us it comes with changes in financial situation medical and physical needs and also life transitions And one of the things I would note that Again, even though all some of us maybe me You know we count down those days when we can retire that you can afford to retire and spend time with your loved Ones and kind of get out of the rat race of work That's still a huge transition Because you go from a chunk of your life Living you know and connecting with people within the workforce and then all of a sudden You're thinking okay. What I'm going to do with myself and am I going to be able to afford it? And so you know one of the questions I would ask the city is that how do we engage our older residents as they? Transition in retirement, and do we still make room at the table for them? And that we don't take it for granted that even though again people may be Skipping into retirement. It's still a transition All right",
-    "speaker": "SPEAKER_03"
+    "speaker": "Mayor Catherine Read"
   },
   {
     "turnId": "turn_000103",
     "start": 3970.6,
     "end": 4051.79,
     "text": "How do we find out that it's somebody in our community needs needs assistance? There's a different. There's a couple different ways That a lot of times a human services committee will hear about somebody in the community that's struggling or maybe needs a little bit more support And I rely you know other city Departments and the community members pay a key role in that but you know sometimes You're a little hesitant to reach out to the city and say hey my neighbor I think they're struggling a little bit can you help this can you help them or you know a loved one? You know saying hey my mom. I'm really worried about her. Can you help them? You know because some is a natural tendency. You know to think okay. I need to do it myself I don't want to reach out. I don't want to Let somebody know that I'm struggling, but one of the things that Is an important message from tonight is the human services We're here to protect and optimize well-being for everybody and that means that sometimes if somebody needs help They need to know where to come to and it is the city sometimes Even if it's somewhere where we're connecting a to b where they can get what they need And so I think that that's really important that Folks in the community they're aging that they see us as a resource and somebody that cares about them And are going to help them even if we don't have the exact resource for them. We're going to help them get to those resources",
-    "speaker": "SPEAKER_03"
+    "speaker": "Mayor Catherine Read"
   },
   {
     "turnId": "turn_000104",
     "start": 4054.72,
     "end": 4316.45,
     "text": "Okay, because I like visuals and colorful ones, too When I was first I was thinking about okay. How am I going to frame this this frame? How are we doing with older adults and thank goodness the AARP had done some work and so Eight domains of livable Livable framework, and it's the age-friendly network and actually over a thousand communities across the country are in their net in the age-friendly network Including seven in you in the Virginia including Alexandria and Arlington and to become a member of this network you have to Do a five-year framework where you do like a review Where you're where you're at as a community you do an action plan and you implement improvements in the areas of housing Transportation public spaces and social engagement, and I thought I mean even though you know tonight I'm not say okay. Let's go do this five-year study I just felt like this was a good way for us to frame and conversate have a conversation in the commute in our community about where we're at And how we're supporting Residents and you know I would say to you guys How do you I mean how does the city currently support older adults? I mean we're doing a good adults Are we doing a good job with it? Where are the gaps and where do we want to go like where do we feel like we need to go as a city? and some notable things that I wanted to point out to because there's a lot of information tied to these frameworks But a key thing is older adults need a place to gather and socialize Participate in activities and remain engaged in the community a Vast majority of older adults say I want to age in place I want to stay not maybe I'm not in my house But in my community and that means sometimes that they have access to those resources that they need to be able to be safe in their community in their home When we focus on these eight domains of livable Framework, we're not only helping older adults. We're impacting the whole community And some further reasons that this is important issue It's something for us to talk about is the world World Health Organization considers loneliness and social isolation is a public health priority and With loneliness and social isolation it it's a key factor in impacting mental health Conditions later in in life, so it's not just about being lonely at home You don't have anything to do, but it really does impact your mental and your physical well-being One in four adults experience social isolation and individuals who live alone or have chronic medical issues or Have functional decline already it impacts them even more so you got somebody who's having social isolation Already has some things that are impacting their day to day And Not being connected to other people it just it makes it worse There's a social this this one kind of caught my attention a little bit There's a strong association between social isolation and advanced health outcomes like John Hopkins did a study And it found that 50 there's a 50% increase risk for dementia for people that are with social isolation and 29% increased a risk for health disease, and I think I mean heart health disease heart disease But again, you know whatever the percentage is it impacts you if you're not connected to people if you don't feel can Worthy and connected to your community it does impact your health all of us All right So what we're going to talk about now The dream team here talk a little bit about you know how we're doing right now with these Eight domains of livability and I and I would say that We're already doing things with all these different areas And so I'm just going to pass it off to Jason and and they have just a little bit of information They want to share with you",
-    "speaker": "SPEAKER_03"
+    "speaker": "Mayor Catherine Read"
   },
   {
     "turnId": "turn_000105",
     "start": 4317.89,
     "end": 4454.04,
     "text": "Hello everybody Yes, I like to share a little bit about the village So currently we've grown to 167 members and we have 70 volunteers our advisory board consists of 12 members In January as you probably know the village received $10,000 grant from the Virginia villages collective to reduce the public health risk of social isolation We're using the funding to develop a training program that we're calling village connections the training members the training It's going to be to our volunteers to help with our members It's going to focus on how best to communicate how to identify issues of concern and safety and how best to build trust with our older population In addition as part of our strategic strategic plan we offer educational outreach and resources So for example, we have a bi-monthly newsletter called view from the village We also program the Friday morning speaker series February we had Steve Gurney from positive aging. They published the source book in the Beacon newspaper In May we have two speakers lined up We have two students from George Mason who are going to discuss AI the hidden biases and algorithms and deepfake scams And in May 29th, we have Main Street Bank They're going to give a talk about fraud and scams protecting yourself and your money these Events they we have attendance of between 30 and 70 people This Friday is the Fairfax village in the city advisory board is hosting our fourth home for life expo This year we have four sponsors. We have 35 exhibitors for guest speakers The the village connection Sorry, the connection newspaper highlighted the expo this week and it's from 10 to 2. I hope you guys can come by and check it out Yeah, so that's a little bit about what the village has been doing to help our community and I'm gonna pass it on to Back to you ran. Okay",
-    "speaker": "SPEAKER_01"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000106",
@@ -795,42 +795,42 @@ const TRANSCRIPT_TURNS = [
     "start": 5661.46,
     "end": 5667.75,
     "text": "Do you understand the question or am I pondering or am I being very state? Right now I",
-    "speaker": "SPEAKER_08"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000115",
     "start": 5662.61,
     "end": 5707.53,
     "text": "question or am I pondering or am I being very state? Right now I think some of this is that probably you know as a city Have we we've never really had that conversation like really looking at it with older adult at least since I've been here but my initial reaction would be first off is Strengthening and supporting what we're already doing if that means like increasing that or you know looking at the capacity And I would I would ask like the community response team like what kind of things are you guys running into when you're working with? Older adults that you know you wish if Santa was here you know, maybe What what he would be bringing us?",
-    "speaker": "SPEAKER_03"
+    "speaker": "Mayor Catherine Read"
   },
   {
     "turnId": "turn_000116",
     "start": 5708.24,
     "end": 5751.37,
     "text": "I think one thing that we run into is when we're working with older adult services and wanting To get someone connected like we recognize the need and we want to get them connected to service However, their income may not allow them to receive that service from the county So we're back at square one again trying to find resources that will fit their income requirements And they're able to get the support that they need So I think that's something as a community that would be helpful and not having that income Requirement and Just allowing for if someone needs that support then they should be able to it should be available to them",
-    "speaker": "SPEAKER_15"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000117",
     "start": 5753.17,
     "end": 5788.54,
     "text": "Yeah, in addition to that I would say I've noticed over time that Many of our older adult citizens fall in the category where they're they're surviving, but they're not thriving And so that's the issue we run into some of the times because if you're well below the survival mark I can get you lots of services But if you're just treading water it makes it very hard for us to connect them to things that would be my area Of improvement for us more than anything else Is that is that that is a big barrier to care for a lot of people where if they were worse off slightly? I'd have a much easier opportunity",
-    "speaker": "SPEAKER_12"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000118",
     "start": 5789.1,
     "end": 5834.26,
     "text": "And who wants to reinforce people being worse off in order to get services? I mean horrible I Also, just want to highlight all of the sort of preventative measures that that is, you know kind of a thing I think I was highlighting that in a meeting earlier today And that statistic is fantastic a dollar of an investment. You get a three dollar back on Return on that investment because there has been earlier less critical Intervention and I think that the extent to which we can build that Where the resources there's a smooth path between contact and resources That's really important",
-    "speaker": "SPEAKER_08"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000119",
     "start": 5834.48,
     "end": 5866.68,
     "text": "And I think one of the things I would add to is just I mean Because we work with family services with Fairfax County We get a lot of resources for them and they do a lot of work They do some work around caregiver support, but that would be another thing You know, maybe even with the village or something thinking about We're already doing some support with caregivers But maybe thinking about how we can maximize that because we rely on you know The people that are taking care of the older adults too. So I would probably put that in there",
-    "speaker": "SPEAKER_03"
+    "speaker": "Mayor Catherine Read"
   },
   {
     "turnId": "turn_000120",
@@ -865,35 +865,35 @@ const TRANSCRIPT_TURNS = [
     "start": 6077.43,
     "end": 6110.77,
     "text": "I Did want to ask how often do you or do you refer people? To some of the organization clubs things like that that we have in the area that could you had mentioned that There's this need for socialization and our aging population, and we have some really great organizations here in the city that provide that kind of Contact and and ability that socialization do you often link them to like we have the women's club And things things like that in this area. I just see that we have a lot of activity I wasn't sure how much you",
-    "speaker": "SPEAKER_16"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000125",
     "start": 6111.19,
     "end": 6209.02,
     "text": "I think right now it depends on like an individual. It's a one-to-one thing In that you know I could start team or village or either the senior senior get to know somebody and they say hey You should look at this that kind of thing you know so it's a one-off and and you know Fortunately or unfortunately sometimes by the time people come to our attention. There's other things going on, too But you know Any kind of resource or things where you feel like that's something that people can be connected to? That's something we can share through like you've heard there's several newsletters There's you know ways to communicate that because again There's people out in the community that we may never hang out with right they may never need us But that doesn't mean that social isolation doesn't impact them right so Just getting that information out and getting people connected And I think that's why I go back to I really rely on the community to let me know what's going on And that means to your neighbor if you see the neighbor that's maybe retired living by themselves lost their spouse You know Struggling you know taking that extra time to say hey you want to go to a woman's club with me You know we're having breakfast or those kind of things because I think that's part of being connected to you know Sometimes there's the formal resources that you connect with and sometimes It's just the things we take that extra minute to do that But you know any kind of those clubs or anything that you think would be connected We can share with the team, and you just never know when you when they'll meet or connect with somebody Go hey, this would be a great thing for you to do",
-    "speaker": "SPEAKER_03"
+    "speaker": "Mayor Catherine Read"
   },
   {
     "turnId": "turn_000126",
     "start": 6159.81,
     "end": 6160.22,
     "text": "them right so",
-    "speaker": "SPEAKER_10"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000127",
     "start": 6184.99,
     "end": 6185.68,
     "text": "breakfast or those",
-    "speaker": "SPEAKER_00"
+    "speaker": "Anthony Amos"
   },
   {
     "turnId": "turn_000128",
     "start": 6209.46,
     "end": 6252.03,
     "text": "Yeah, I was just thinking about the story that you told earlier that a lot of individuals aren't really in that threshold to receive some of these services and Sometimes just having that kind that communication that contact that support early on before you get to that point I I will put a little plug for our women's club here in the city is fantastic They send cards to people when they're ill they check on them. They you know wish them a happy birthday They do all of those little social interactions that allow you to feel recognized and help with that Isolation that we're experiencing and seeing in the area so that just was one of the ideas I thought was that might be a resource that we can you know greater coordination to provide that to people would be excellent. Thank",
-    "speaker": "SPEAKER_16"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000129",
@@ -907,14 +907,14 @@ const TRANSCRIPT_TURNS = [
     "start": 6257.04,
     "end": 6281.36,
     "text": "Yeah That was a excellent point You know sometimes when people retire they Are just kind of like hey, you know I don't need I don't need help I don't need to to go do anything. I don't want to bother with that and they end up just Being at home driving everybody else crazy, but um Not mentioning names, but um",
-    "speaker": "SPEAKER_19"
+    "speaker": "Billy Bates"
   },
   {
     "turnId": "turn_000131",
     "start": 6283.39,
     "end": 6341.74,
     "text": "But you know sometimes when we don't have anybody else at home That you know that becomes a really sad situation where you know and I think that's really why it's really important That sometimes they need that extra push to to go out and do something or to just know that they're Wanted I guess to the people are out there to care about them because a lot of you know People just deep down they you know, they want to be helped they want to belong but just don't really Know how to go about it or don't You know don't want to feel like they need that and so having that extra push Can be really important And as you also mentioned It really can have significant implications for mental and physical health And in many different ways, so yeah, thank you",
-    "speaker": "SPEAKER_19"
+    "speaker": "Billy Bates"
   },
   {
     "turnId": "turn_000132",
@@ -935,7 +935,7 @@ const TRANSCRIPT_TURNS = [
     "start": 6556.02,
     "end": 6677.65,
     "text": "There's some connections because we did look at that when we were doing that housing plan You know, one of the things I would say I believe pathway homes like the those Units that they're putting over their new building in the city are going to be for older, you know, like older adults I Think that you know also beacon landing. I bet they'll get some older adults too, you know because I think That there's definitely still a gap with Being able to afford staying in a house, you know staying in this area Especially if you were struggling when you were working and then all of a sudden you're not working and a medical thing happens And you know these things pile up But I think that the continuum of care is really looking at at that because older adults that's the biggest growing poppy subpopulation in the Homeless continuum. I think that that's something that Jamie's really paying attention to with the housing work I think the Lamb Center, you know sees a lot more older people So I think that it's something we need to look at more because it gets my attention when I see that And I then I have a vision of my mom if it was that was my mom You know that was living out on the street and with their medical issue or whatever And so I think we do need to pay attention to that and pay attention to opportunities and I think on Friday Jamie one of things she's Bringing is talking about the home sharing, you know, like I don't know. It's like one of many options You know, but there's there's some different opportunities to be creative in the community and try to find places where people can live You know and afford it but still stay in the community So yeah, I don't I wish I had all the answers then I would be making like I would have a minable peace prize And you know be retired but but I do think that is a on a serious note We really do need to be paying attention and talking about that",
-    "speaker": "SPEAKER_03"
+    "speaker": "Mayor Catherine Read"
   },
   {
     "turnId": "turn_000135",
@@ -949,14 +949,14 @@ const TRANSCRIPT_TURNS = [
     "start": 6683.8,
     "end": 6714.63,
     "text": "What do we do to help people who Are older and our homeowners and are Really worried with good reason about not being able to afford to stay in their existing homes Things are getting expensive including the burdens of homeownership through taxes, etc But this is pretty common fear people have that they're not going to be able to hang on to their home What do we do to help them?",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000137",
     "start": 6715.35,
     "end": 6823.81,
     "text": "I think there's different things because you know, some of the folks we're talking about The ones that don't own homes, so there's no resources So I think that with folks that have you know own homes the worried about keeping with the upkeep there Do you know all the expenses that it costs to live? I know AARP and some of those, you know, like sometimes we'll do Sessions or educate, you know, like there's connections to kind of think about that think about how to Maximize the resources you have I think that you know, that's Sometimes that that's a fear that maybe you have resources, but you're just worried That one more thing happens You're not going to have the resources and I think sometimes with some of the folks that we you know end up dealing with At the time when they come to us sometimes the older adults they're living by themselves That code has gotten involved in because they're not keeping their house or their yard or whatever, you know There's also sometimes those those critical conversations about Are you you know, are you at a place where maybe this is too much for you, you know Are there other options, you know, just starting to have those conversations I don't you know, there's just a lot of different ways. I don't think with our Services we don't have like a specific Thing, you know that we do one stop, you know thing that we do But you know that would actually also may even be a something to throw back to H cab too You know in regards about some, you know resources because we've got some housing people on that I know I worry about it I don't worry about being able to once I retire to be able to pay for the hot my house So I think that's a real thing for many people",
-    "speaker": "SPEAKER_03"
+    "speaker": "Mayor Catherine Read"
   },
   {
     "turnId": "turn_000138",
@@ -970,21 +970,21 @@ const TRANSCRIPT_TURNS = [
     "start": 6872.32,
     "end": 6912.27,
     "text": "I Was just gonna tell you mr. Peterson that so for most of those cases That's one of the common things that I deal with as the people that again are surviving not thriving or slowly going towards That not surviving level Thanks to our partnerships with the more robust areas of the county. We have access to utility support We have access to food support We've access to numerous other things that I can connect people to that not only buy them time But bring in expertise so whether we can quickly help them in the case of like they are destitute and need financial support Or if it's hey, we're heading that way Can we start to direct you to or a better way of living whether it be downsizing or things in your home itself? That is one of the things we can take advantage of here in the city",
-    "speaker": "SPEAKER_12"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000140",
     "start": 6912.72,
     "end": 6991.11,
     "text": "I'm sorry if I could add as well. So the city does offer What I would consider a pretty robust tax relief program for our seniors and also our Elderly and disabled we're actually in the process April 15th is the cutoff for the annual basis For people to apply and also renew that application. It's based off of a certain Asset amount that you can have total assets of about four hundred thousand dollars and then also an annual Income threshold depending on certain levels. You would either get a hundred percent 75 percent 50 percent or 25 percent credit on your real estate tax bill Once you qualify you just have to renew on an annual basis for three years To give you a very good statistic from last year. There was about a 250 individuals who applied and who received that tax benefit Totaling about 1.3 million dollars in revenue that was not received on the city That we were able to give those elderly residents those Potentially disabled residents that tax benefit on the city side and that's something that we review on an annual basis Bring the council every November and say would you like to review this and or increase those thresholds?",
-    "speaker": "SPEAKER_06"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000141",
     "start": 6991.6,
     "end": 6999.49,
     "text": "And so for people who are listening this evening who may have an interest do they call the city and say I'd like To talk to somebody about tax relief for seniors Absolutely,",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000142",
@@ -998,28 +998,28 @@ const TRANSCRIPT_TURNS = [
     "start": 7028.3,
     "end": 7030.11,
     "text": "and that information is also on the website April",
-    "speaker": "SPEAKER_03"
+    "speaker": "Mayor Catherine Read"
   },
   {
     "turnId": "turn_000144",
     "start": 7032.01,
     "end": 7032.03,
     "text": "deadline",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000145",
     "start": 7032.6,
     "end": 7033.78,
     "text": "for 2026",
-    "speaker": "SPEAKER_03"
+    "speaker": "Mayor Catherine Read"
   },
   {
     "turnId": "turn_000146",
     "start": 7035.56,
     "end": 7046.98,
     "text": "For the programs you are referencing for the people who are listening in this evening How do they reach you? How do they place a call and say you know what I could use a little bit of advice here?",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000147",
@@ -1033,42 +1033,42 @@ const TRANSCRIPT_TURNS = [
     "start": 7055.52,
     "end": 7056.95,
     "text": "Otherwise, who do they ask for",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000149",
     "start": 7060.23,
     "end": 7060.97,
     "text": "that was CRT.",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000150",
     "start": 7068.92,
     "end": 7240.01,
     "text": "Very helpful to know because I think one of the other things that Is perhaps generational there may be more to it than that is the way people communicate and For some people it's a whole lot easier to place a telephone call That it is to get on a computer and start punching numbers and all that kind of stuff So it's great to make a call and to get somebody live who can help on these kinds of things I think that's just a really crucial thing The other thing that I think is worth just knowing and noticing in case You haven't is that a lot of people are working a lot longer than they used to part of that's necessity You can't retire. I'm so sorry to say the retirement calculator ain't what it used to be so people are staying in the workforce and That should be recognized and we should Reward that without any penalty. I hate to use the term age discrimination, but I will because When you get there, you know how it feels So we need to create an environment that takes care of people who are continuing to work past the ages when in the past We thought it was retirement time because that is Norming a heck of a lot these days I so there's that I mean some people can't do that But a whole lot of people can people are taking care of themselves Also, so the whole definition of age brackets is now not what it used to be So we just need to get used to the fact that we've got an active older Population of professionals and others who are working and otherwise really active fully active and we need to appreciate that and not limit it The other thing is speaking anybody who's gotten older at whatever age this happens, but particularly After a certain point you start to wish that you had known and done certain things earlier in your life So I don't know where that fits in in terms of what we do here But back to the financial side one of them is wishing you had started saving money Earlier and to help people financially at the earliest possible ages I think it really needs to start in high school honestly the concept of saving and building a savings There's taking care of your health and being proactive about and that and not thinking and it's going to take care of itself For you, but there's a whole lot of things That make a very big difference in people's lives If they are proactive early in life and continuously and yet for whatever reason a lot of times We don't realize that until we sort of cross the bridge later on and say good grief. I wish I'd known that so Again, I don't know where that goes in terms of what we can do to help at an intergenerational people level younger people Appreciate the need to focus on those things So I would I would offer that as well.",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000151",
     "start": 7241.77,
     "end": 7288.77,
     "text": "I If there's ever a question in the community or somebody just doesn't know what to do they can call me You know Leslie a bastion they can call me and I can connect you know, I might connect them to Jamie I may connect them to serve team I may connect them for adult services because I mean that's kind of what I do And I think a lot of times I may not have the answer But I can least hear what's going on and try to figure out where they're trying to get and least get them started Because I think sometimes you just need a problem solver buddy, you know, like somebody that you can kind of work with and kind of figure out What's available? So I would put my name out there,",
-    "speaker": "SPEAKER_03"
+    "speaker": "Mayor Catherine Read"
   },
   {
     "turnId": "turn_000152",
     "start": 7289.31,
     "end": 7352.15,
     "text": "Well, if I could just add and appreciate if there's one thing This has been wonderful to hear all of this this evening But if there's one thing that I think is the most helpful and important at all Is that there's an opportunity for people to pick up a telephone and? call city ask for one of you or at least just ask the operator where Who they can talk to and they get somebody to talk to they get a person to talk to about all this The human side of this just cannot be overstated So really appreciate that that's an opportunity and again for everybody who's listening in this evening I would strongly encourage you not to hesitate to call the city about anything like this at any time I you know folks who've gone through that experience will tell you It has been so good to make that call and to talk to one of you guys and have you talk to them and help you out with All this and kind of navigate your way through whatever it is So it's really great to know and I'm hoping that you will be sure to continue doing that",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000153",
     "start": 7353.6,
     "end": 7353.62,
     "text": "Until",
-    "speaker": "SPEAKER_03"
+    "speaker": "Mayor Catherine Read"
   },
   {
     "turnId": "turn_000154",
@@ -1089,7 +1089,7 @@ const TRANSCRIPT_TURNS = [
     "start": 7409.02,
     "end": 7409.64,
     "text": "No",
-    "speaker": "SPEAKER_10"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000157",
@@ -1103,7 +1103,7 @@ const TRANSCRIPT_TURNS = [
     "start": 7502.03,
     "end": 7531.34,
     "text": "Peterson I don't think we're doing council comments tonight. We are not so I just as a matter of personal privilege would like to Wish my mother a happy birthday this Thursday. She will turn 98 There you go And she lives right here in the city of Fairfax on at Still Road Cross from Woodson and a nice residential home there where she's been now for almost a decade amazing Yeah,",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000159",
@@ -1152,21 +1152,21 @@ const TRANSCRIPT_TURNS = [
     "start": 7867.36,
     "end": 7931.47,
     "text": "hold the phone hold the phone So just for the benefit of other people who aren't aware of the cable grant fund That is that is the franchise fees the Crocs the Cox and Verizon pay the city for the privilege of having their businesses here Right, so that's not that's not tax money from residents. That is a franchise fee from those businesses That's something that Dave manages As we know as people cut the cord and gone to streaming services that that stream of revenue has shriveled So we have to manage it and you know make equipment last a little bit longer But we think that this is a valuable way to spend some of that that money The other thing I wanted to say is that this has potential to be a two-way communications device So in the same way that the resident is here Listening, you know to the language spoken the native language if they want to communicate back to you You just have to have the app open and put in your earbuds and you'll be able to hear what they're saying in English So that is gonna be pretty cool so with that it's show-and-tell time",
-    "speaker": "SPEAKER_07"
+    "speaker": "James Nichol (Consultant)"
   },
   {
     "turnId": "turn_000166",
     "start": 7881.58,
     "end": 7881.87,
     "text": "so that's",
-    "speaker": "SPEAKER_00"
+    "speaker": "Anthony Amos"
   },
   {
     "turnId": "turn_000167",
     "start": 7933.74,
     "end": 7939.7,
     "text": "Yeah, miss Shinneberry has some QR codes if you'd like to scan that just to just to see how it works",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000168",
@@ -1180,49 +1180,49 @@ const TRANSCRIPT_TURNS = [
     "start": 7949.13,
     "end": 7949.79,
     "text": "that same thing.",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000170",
     "start": 7958.37,
     "end": 8014.32,
     "text": "Anything that's spoken into a microphone would be captured and you can select a language So if you open this if you scan the QR code and open it doesn't open an app It goes to cablecast cloud service And once you once it populates your screen you will see on the bottom right-hand side An icon a figure inside of a circle if you tap that icon you can select a language You can select the font size the spacing and you can select audio While the Spanish Translation or audio portion is beta. I have found it. It does work a few other languages do work, but Right now they're not Committing to that but I've noticed that that they're working even in beta Form and if anybody has a question on how to open this and use it happy to help",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000171",
     "start": 8019.94,
     "end": 8044.8,
     "text": "So what you're seeing I worked with cablecast to give them one of our previous work sessions with the school board You know and then you'll see that it's it's branded with our with our seal in the top left corner And then you'll see the translation happening of that previous work session So I had to give them they can't do it live Because it requires the appliance to get it live, but yeah",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000172",
     "start": 8044.02,
     "end": 8048.34,
     "text": "but yeah",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000173",
     "start": 8048.34,
     "end": 8068.63,
     "text": "This is all wrong We have to pay for it first and get it installed then it'll be real time But this but that was the next best best thing using something pre-recorded that they could use Right, so you can see all the seven and if you don't see a language There is a little search box so you can type in the language and I'll usually bring it up for you language",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000174",
     "start": 8051.31,
     "end": 8057.12,
     "text": "We have to pay for it first and get it installed then it'll be real time But this but that was the next best best thing using",
-    "speaker": "SPEAKER_07"
+    "speaker": "James Nichol (Consultant)"
   },
   {
     "turnId": "turn_000175",
     "start": 8068.31,
     "end": 8088.02,
     "text": "for you language I Actually, we went and toured Old Dominion University over the weekend with my junior and they offer something like this in their classes Which I just think was amazing and they're like tell everybody about it I think they're the only university that actually offers it So this is super exciting that we can be doing this here in the city.",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000176",
@@ -1236,7 +1236,7 @@ const TRANSCRIPT_TURNS = [
     "start": 8088.39,
     "end": 8092.17,
     "text": "Were they using the media scribe? They call",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000178",
@@ -1250,42 +1250,42 @@ const TRANSCRIPT_TURNS = [
     "start": 8095.2,
     "end": 8098.06,
     "text": "rebranded it. I might have yeah So but I",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000180",
     "start": 8120.92,
     "end": 8136.28,
     "text": "So Dave and I have both worked in surrounding jurisdictions and we've checked and nobody else is using this yet So this would be a very forward-thinking thing for the city to adopt and we've already heard other people like wait What you're gonna be doing that sounds like something we should be doing. So now sign me",
-    "speaker": "SPEAKER_07"
+    "speaker": "James Nichol (Consultant)"
   },
   {
     "turnId": "turn_000181",
     "start": 8135.37,
     "end": 8137.48,
     "text": "So now sign me up I'm in I'm all in",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000182",
     "start": 8135.96,
     "end": 8143.82,
     "text": "now sign me up I'm in I'm all in in fact my counterparts at Fairfax County. We said they were coming tonight So I'm glad they're not glaring over my shoulder tonight",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000183",
     "start": 8143.35,
     "end": 8143.96,
     "text": "shoulder tonight",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000184",
     "start": 8143.5,
     "end": 8143.55,
     "text": "tonight",
-    "speaker": "SPEAKER_08"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000185",
@@ -1306,14 +1306,14 @@ const TRANSCRIPT_TURNS = [
     "start": 8147.75,
     "end": 8155.01,
     "text": "I like that. You can also adjust the font for those of us who are older It's amazing councilmember",
-    "speaker": "SPEAKER_08"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000188",
     "start": 8150.37,
     "end": 8150.49,
     "text": "those",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000189",
@@ -1334,63 +1334,63 @@ const TRANSCRIPT_TURNS = [
     "start": 8201.91,
     "end": 8202.11,
     "text": "into other",
-    "speaker": "SPEAKER_00"
+    "speaker": "Anthony Amos"
   },
   {
     "turnId": "turn_000192",
     "start": 8205.55,
     "end": 8205.8,
     "text": "embarrassing",
-    "speaker": "SPEAKER_00"
+    "speaker": "Anthony Amos"
   },
   {
     "turnId": "turn_000193",
     "start": 8205.58,
     "end": 8205.62,
     "text": "embarrassing",
-    "speaker": "SPEAKER_10"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000194",
     "start": 8217.04,
     "end": 8249.66,
     "text": "do. Yeah for sure something to keep in mind I mean we've we've been able to in I think take a look at the Spanish translation and been able to identify that It is accurate now, you know further testing You know there are ways to Use vocabulary where you can go back in and tell it don't use this word use this word Which we can do with our captioning our cloud captioning for the meetings as well So, you know, those are all things that will certainly keep an eye on might I suggest you try it in Chinese?",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000195",
     "start": 8247.18,
     "end": 8248.02,
     "text": "might I suggest",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000196",
     "start": 8251.8,
     "end": 8257.24,
     "text": "I would like to have somebody who speaks Chinese and and actually look at it That's exactly",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000197",
     "start": 8255.31,
     "end": 8283.5,
     "text": "actually look at it That's exactly what I would suggest is somebody who's fluent even And we have a lot of translators who live here and they do this for a living my next-door neighbor teaches China Chinese and English and what have you there are people who could help you with that, but that's one of the trickier ones And let me just say that's one where the translation mechanisms sometimes falter Understood councilmember Hardy Chandler",
-    "speaker": "Councilmember Hardy Chandler"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000198",
     "start": 8257.15,
     "end": 8257.34,
     "text": "That's exactly",
-    "speaker": "SPEAKER_10"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000199",
     "start": 8281.52,
     "end": 8282.03,
     "text": "Understood",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000200",
@@ -1404,7 +1404,7 @@ const TRANSCRIPT_TURNS = [
     "start": 8284.96,
     "end": 8311.41,
     "text": "Yeah, I think it would be helpful for our top spoken languages which Korean is Spoken very I'm curious in addition to setting up parameters for words that aren't used Does it learn then can it can it adjust through use and so will it kind of build a vocabulary around? Commonly used phrases or things that we tend to touch on",
-    "speaker": "SPEAKER_08"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000202",
@@ -1418,56 +1418,56 @@ const TRANSCRIPT_TURNS = [
     "start": 8346.63,
     "end": 8354.3,
     "text": "And when you say we would that fall on you and do you have the capacity to do that on an ongoing basis? If this were to be implemented",
-    "speaker": "SPEAKER_08"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000204",
     "start": 8354.74,
     "end": 8385.66,
     "text": "we have so far. I mean it can be time-consuming We haven't had too many obstacles with helping the cloud captioning AI captioner learn so far It's been fairly accurate. We've only had to make a few small adjustments with it So That that would be helpful if it worked that way for this service as well if we didn't have to make you know Baskets of adjustments to the vocabulary, but you know adjustments here and there once you do it stores them and it remembers",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000205",
     "start": 8381.08,
     "end": 8381.1,
     "text": "but",
-    "speaker": "SPEAKER_00"
+    "speaker": "Anthony Amos"
   },
   {
     "turnId": "turn_000206",
     "start": 8381.1,
     "end": 8381.44,
     "text": "but you know",
-    "speaker": "SPEAKER_08"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000207",
     "start": 8386.94,
     "end": 8389.98,
     "text": "But that would be under your purview right",
-    "speaker": "SPEAKER_08"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000208",
     "start": 8389.98,
     "end": 8393.88,
     "text": "right under under staff Okay in communications. Okay,",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000209",
     "start": 8392.37,
     "end": 8398.33,
     "text": "Okay in communications. Okay, just want to make sure that there are backups for right",
-    "speaker": "SPEAKER_08"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000210",
     "start": 8398.08,
     "end": 8398.09,
     "text": "right",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000211",
@@ -1481,7 +1481,7 @@ const TRANSCRIPT_TURNS = [
     "start": 8407.66,
     "end": 8410.4,
     "text": "I'm sure the sales team would be willing to hear from us",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000213",
@@ -1495,49 +1495,49 @@ const TRANSCRIPT_TURNS = [
     "start": 8445.09,
     "end": 8445.39,
     "text": "or",
-    "speaker": "SPEAKER_10"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000215",
     "start": 8466.27,
     "end": 8469.83,
     "text": "Can they do this from home if they're not live in the meeting?",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000216",
     "start": 8472.61,
     "end": 8490.81,
     "text": "I believe they have to be Present in the room, okay to do it But I can check on that and see if they're going to develop something because it relies on Capturing the audio here through the microphones, and it has to pass back through the system, but I can check on that",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000217",
     "start": 8492.73,
     "end": 8505.23,
     "text": "Yeah, I just didn't know if they weren't present, but they watched it either not live But if they went back and watched a recording of it if that would then be an option Since it's maybe hearing it on one end and then translating it on their end. Maybe",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000218",
     "start": 8507.46,
     "end": 8510.89,
     "text": "I don't think it does But again, I can yeah, I can check on that Not",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000219",
     "start": 8510.95,
     "end": 8527.51,
     "text": "Not to crap on your great idea here I mean again, we're never gonna get everybody all the time for everything, but I think We're making these steps. We're doing we're trying and I want to applaud you for what you've done to Define this and to bring it here. I appreciate it. Thank you I",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000220",
     "start": 8526.23,
     "end": 8527.09,
     "text": "I appreciate it.",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000221",
@@ -1551,21 +1551,21 @@ const TRANSCRIPT_TURNS = [
     "start": 8595.99,
     "end": 8599.19,
     "text": "Just realize I probably asked a dumb question. But how did you do this?",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000223",
     "start": 8601.76,
     "end": 8604.24,
     "text": "Because this is a recorded Right,",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000224",
     "start": 8601.79,
     "end": 8602.01,
     "text": "Because this",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000225",
@@ -1579,28 +1579,28 @@ const TRANSCRIPT_TURNS = [
     "start": 8643.88,
     "end": 8660.3,
     "text": "Okay so maybe in the future there would be an ability to upload it and then be able to Stream it or send out a link or something I'm not guaranteeing anything nor am I asking you to but it sounds like there is that capability I see where you're going with that like if you're able to do it for this little clip for the demo Yeah, why",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000227",
     "start": 8656.26,
     "end": 8665.73,
     "text": "I see where you're going with that like if you're able to do it for this little clip for the demo Yeah, why couldn't you do the whole meeting in whatever language you wanted it in? Yes. Yes. Yeah, it's good question",
-    "speaker": "SPEAKER_07"
+    "speaker": "James Nichol (Consultant)"
   },
   {
     "turnId": "turn_000228",
     "start": 8663.32,
     "end": 8667.81,
     "text": "Yes. Yes. Yeah, it's good question Something I can ask them. Yeah. Thank you.",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000229",
     "start": 8665.73,
     "end": 8666.93,
     "text": "question Something I can ask them.",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000230",
@@ -1614,7 +1614,7 @@ const TRANSCRIPT_TURNS = [
     "start": 8679.97,
     "end": 8697.05,
     "text": "my translation My inclination is to say you could do that But I don't want to say you could do that and then cablecast tell me you can't do that yet So, yeah, I'll ask them and see if that's possible It seems like it would be on the surface, right? But I can confirm with their engineers going we're",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000232",
@@ -1635,14 +1635,14 @@ const TRANSCRIPT_TURNS = [
     "start": 8811.89,
     "end": 8829.71,
     "text": "So when we launched this multilingual Test which is sort of could be a kickoff could we have a representative from there? Attend and give us sort of the the business model at all what they're envisioning And maybe what they're anticipating in terms of future capacity.",
-    "speaker": "SPEAKER_08"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000235",
     "start": 8832.09,
     "end": 8848.3,
     "text": "I could ask if they could have somebody attend But I'm sure that's information that we could ask them at least find out where they're headed but That would probably be the easiest way what can you tell us about where you're headed what your business model will be",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000236",
@@ -1656,21 +1656,21 @@ const TRANSCRIPT_TURNS = [
     "start": 8862.75,
     "end": 8904.72,
     "text": "well, so if I understand it the advantage that we're after here is something we call simultaneous translation. It's Real-time as opposed to sequential which has delay sequential you can do right now Right, you just do a voice memo. It does a transcript you put it into whatever translation program You want and you're done with it So for people who are listening in just to know if you want to do that if you want to record This meeting do a transcript and then a translation you can do that on your home right away This has the advantage of giving you live Concurrent or what we call simultaneous translation, so you don't have to wait and go through that drill is that a fair Characterization of what's going on here",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000238",
     "start": 8905.1,
     "end": 8951.46,
     "text": "that is that is fair. We we had some other Talks with folks who are using live Translators in the room and my counterparts of the county described a few situations with land use cases Where they they requested the live in room translator a human being and There has to be a statement the translator has to hear the statement the translator has to Translate the statement and so it's a kind of a There's a block of time a pause another block of time a pause so having something like this where you're getting yes alive in real time Basically translation is very helpful in those situations. Yeah",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000239",
     "start": 8951.46,
     "end": 8954.43,
     "text": "Yeah seamless natural just conversational. That's the goal",
-    "speaker": "SPEAKER_07"
+    "speaker": "James Nichol (Consultant)"
   },
   {
     "turnId": "turn_000240",
@@ -1684,7 +1684,7 @@ const TRANSCRIPT_TURNS = [
     "start": 8957.8,
     "end": 8972.97,
     "text": "just a flashback to pandemic learning for parents that had kids I think this is more like synchronous learning as opposed to asynchronous learning, right? You're not watching the teacher tell you something after the fact. You're actually listening at the time. So Good old pandemic and I think it helps people",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000242",
@@ -1698,7 +1698,7 @@ const TRANSCRIPT_TURNS = [
     "start": 9002.64,
     "end": 9025.0,
     "text": "I Meetings we added the closed caption element Which I personally love to use when some of our speakers that come out for public comment Whether they speak too quietly or a little softly or just can't make out a word That's been really helpful and I just see this as you know being an extension of that but for other other languages So this is great. I love this. Thank you",
-    "speaker": "SPEAKER_16"
+    "speaker": "Staff Member"
   },
   {
     "turnId": "turn_000244",
@@ -1712,7 +1712,7 @@ const TRANSCRIPT_TURNS = [
     "start": 9034.57,
     "end": 9036.8,
     "text": "So I should make headway on this project.",
-    "speaker": "SPEAKER_13"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000246",
@@ -1726,7 +1726,7 @@ const TRANSCRIPT_TURNS = [
     "start": 9041.03,
     "end": 9047.8,
     "text": "Oh, thank you for your time. We're really excited to share that. I'm glad that you felt the same way We're very excited. Thank you so much. Thank you",
-    "speaker": "SPEAKER_07"
+    "speaker": "James Nichol (Consultant)"
   },
   {
     "turnId": "turn_000248",
@@ -1761,28 +1761,28 @@ const TRANSCRIPT_TURNS = [
     "start": 9168.03,
     "end": 9177.8,
     "text": "number eight sure and I think it's number one actually and be ball Would be helpful",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000253",
     "start": 9177.03,
     "end": 9177.82,
     "text": "Would be helpful",
-    "speaker": "SPEAKER_06"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000254",
     "start": 9180.12,
     "end": 9184.35,
     "text": "one in six What was six or one and six?",
-    "speaker": "SPEAKER_06"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000255",
     "start": 9186.93,
     "end": 9187.47,
     "text": "They are",
-    "speaker": "SPEAKER_06"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000256",
@@ -1796,7 +1796,7 @@ const TRANSCRIPT_TURNS = [
     "start": 9212.9,
     "end": 9216.26,
     "text": "I also number five just as a general conversation sure",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000258",
@@ -1817,42 +1817,42 @@ const TRANSCRIPT_TURNS = [
     "start": 9350.06,
     "end": 9354.75,
     "text": "Lessors of property one more time councilmember. Sorry,",
-    "speaker": "SPEAKER_06"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000261",
     "start": 9355.24,
     "end": 9362.23,
     "text": "so if I'm on the right graph I've got two column sets. Mm-hmm that have the same label",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000262",
     "start": 9360.53,
     "end": 9367.14,
     "text": "Mm-hmm that have the same label once commercial ones residential Okay, great. Sure not",
-    "speaker": "SPEAKER_06"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000263",
     "start": 9365.45,
     "end": 9376.47,
     "text": "Okay, great. Sure not quite on and if I'm reading it correctly The first one is one where the city is lower significantly than the region",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000264",
     "start": 9377.81,
     "end": 9395.91,
     "text": "Correct it should be I think the one you're referring to is less or is of property in parentheses commercial We are at point two three the Northern Virginia average is point thirty The state maximum is actually point two three. So we are currently at the state maximum.",
-    "speaker": "SPEAKER_06"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000265",
     "start": 9396.22,
     "end": 9405.33,
     "text": "Okay, so there would be that one plus professional The professional category those are the two where we are a bit below",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000266",
@@ -1866,21 +1866,21 @@ const TRANSCRIPT_TURNS = [
     "start": 9461.51,
     "end": 9498.48,
     "text": "So I guess my my question on overall here is Where we do have opportunities for expansion and it looks like we've got some space between where we are at large And where the region is Northern Virginia region? What's the economic development effect on that in terms of business retention and expansion? Is it measurable? Is it significant? Is it insignificant? You know, does this make any difference at all in terms of again retention and expansion of business if so How much do we have any idea based on? Data based on experience from others sure",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000268",
     "start": 9499.09,
     "end": 9517.7,
     "text": "sure great question Unfortunately a question that I will not be able to answer tonight I would ask to probably have a conference with our colleagues whether it's the Commissioner revenue and Economic development more than likely just the Commissioner revenue to see if he can provide us some of that Economic data that would better inform that decision.",
-    "speaker": "SPEAKER_06"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000269",
     "start": 9520.6,
     "end": 9521.36,
     "text": "Mr. Alexander. I",
-    "speaker": "SPEAKER_06"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000270",
@@ -1929,14 +1929,14 @@ const TRANSCRIPT_TURNS = [
     "start": 9767.84,
     "end": 9768.39,
     "text": "just agreeing.",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000277",
     "start": 9773.31,
     "end": 9781.91,
     "text": "I support things that allow us flexibility later on so Being consistent with that. I am not opposed to introducing it",
-    "speaker": "SPEAKER_08"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000278",
@@ -1950,14 +1950,14 @@ const TRANSCRIPT_TURNS = [
     "start": 9784.29,
     "end": 9784.31,
     "text": "I",
-    "speaker": "SPEAKER_08"
+    "speaker": "Stacey Hardy-Chandler"
   },
   {
     "turnId": "turn_000280",
     "start": 9784.31,
     "end": 9785.51,
     "text": "I support introducing it",
-    "speaker": "SPEAKER_19"
+    "speaker": "Billy Bates"
   },
   {
     "turnId": "turn_000281",
@@ -1971,7 +1971,7 @@ const TRANSCRIPT_TURNS = [
     "start": 9787.94,
     "end": 9788.97,
     "text": "Absolutely. Yes.",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000283",
@@ -1992,56 +1992,56 @@ const TRANSCRIPT_TURNS = [
     "start": 9846.1,
     "end": 9850.51,
     "text": "I know you're looking at me. I'm sorry waiting to see if there's any other questions",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000286",
     "start": 9846.21,
     "end": 9964.21,
     "text": "I know you're looking at me. I'm sorry waiting to see if there's any other questions So question, let me start backwards so question number two in discussion with the city attorney Sort of came up and his advice to us is very similarly to the max advertised rate on the real estate tax Once you set it you can always go down, but you cannot go up So our recommendation would be to advertise if we're gonna make the change on that one specific item Advertised point four eight if council so chooses collectively you could reduce that to whatever you wanted to go But if you start at point four one, you cannot go above point four one So our recommendation would be advertised the max if need be pull back, thank you very much I would agree with that Question number one. It's good. I'm going in reverse Services like you noted was point two seven the Northern Virginia average is point three difference of about three basis points I would need to get with the Commissioner revenue see how much potential revenue that would generate I think the reason we did not recommend a change to that is that there was not as much variance Between the point four and the point four eight It is very comparable on point two seven to point three if you look at some of the other Northern Virginia's Rates they are pretty comparable again. The average is point three. Yes. The state maximum is point three six We could potentially go up to that amount I can have further discussions with the Commissioner revenue if need be That would be another item that if council so chooses we could also introduce as well Maybe at point three six or point three zero I don't know what council's sort of feeling or thought is that on right on that right now answer I",
-    "speaker": "SPEAKER_06"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000287",
     "start": 9899.01,
     "end": 9900.93,
     "text": "thank you very much I would agree with that",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000288",
     "start": 9964.87,
     "end": 9981.02,
     "text": "I I'm not saying yes, definitely But I would like to understand is that another six hundred thousand dollars in revenue or is this a sixty thousand dollar revenue difference? I think those might be key Differentials for again is the juice worth the squeeze or are you know, what are we looking at? Sure, we",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000289",
     "start": 9980.55,
     "end": 9991.97,
     "text": "Sure, we can try to get you that information as quickly as possible. Thank you as noted We would have to get something introduced and published by the end of business tomorrow if I'm not mistaken",
-    "speaker": "SPEAKER_06"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000290",
     "start": 9984.06,
     "end": 9984.48,
     "text": "Thank you",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000291",
     "start": 9993.09,
     "end": 10011.48,
     "text": "Okay for me that would be It would be nice to know how much we're talking about before we commit to advertising something like that But I don't expect anyone to pull it out of their back pocket at the moment either",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000292",
     "start": 10003.21,
     "end": 10003.58,
     "text": "But",
-    "speaker": "SPEAKER_06"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000293",
@@ -2055,21 +2055,21 @@ const TRANSCRIPT_TURNS = [
     "start": 10017.03,
     "end": 10019.29,
     "text": "right in the next 24 hours,",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000295",
     "start": 10034.99,
     "end": 10035.39,
     "text": "and maybe there's",
-    "speaker": "SPEAKER_00"
+    "speaker": "Anthony Amos"
   },
   {
     "turnId": "turn_000296",
     "start": 10047.0,
     "end": 10052.45,
     "text": "that That was going to be my request of counsel to consider but thank you",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000297",
@@ -2097,14 +2097,14 @@ const TRANSCRIPT_TURNS = [
     "start": 10278.34,
     "end": 10336.37,
     "text": "Yeah, I I think it's kind of like the others where I think going 12% is a good number to start with and to put out there for a public hearing To your point, we don't have a ton of hotels but what we do have is anticipated to bring in an extra six hundred and twenty five thousand dollars if we went to nine percent and Then to bring in another 375 on top of that. So that's like an extra million dollars right there and Most people that are paying this in most cases are not city residents that are here and all of that so and the hope for me at least is that we do become a bit of a tourism destination and that we start to have some additional hotels and opportunities So I I would be all in for these and I also I do want to thank you for the work that went in into the outside-the-box thinking of Something beyond real estate taxes I think we've been strongly reliant on that and I'm really happy to see that we're considering these other options So, thank you",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000301",
     "start": 10336.49,
     "end": 10381.72,
     "text": "you and councilmember really quickly and it's on the screen right now as well So your math wasn't too far off and you're absolutely Right. It's about an additional 1.1 million dollars or the equivalent of one point two one cents on the current real estate tax rate By doing these two changes the people change Specifically and we can incorporate what the change would be on the other side, but the 698 that's listed there is going from point four zero to point four eight in that one category and Then going from nine to twelve percent is an additional 375 on the TOT Combine those two. That's about 1.1 million not including the other potential people aspect of it",
-    "speaker": "SPEAKER_06"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000302",
@@ -2118,28 +2118,28 @@ const TRANSCRIPT_TURNS = [
     "start": 10385.13,
     "end": 10385.67,
     "text": "Yes, go ahead.",
-    "speaker": "SPEAKER_06"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000304",
     "start": 10419.6,
     "end": 10421.78,
     "text": "I knew we were getting there together Alright,",
-    "speaker": "SPEAKER_10"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000305",
     "start": 10421.78,
     "end": 10421.81,
     "text": "Alright,",
-    "speaker": "SPEAKER_00"
+    "speaker": "Anthony Amos"
   },
   {
     "turnId": "turn_000306",
     "start": 10430.97,
     "end": 10493.94,
     "text": "Councilman Peterson, so two questions the similar question we had on people which is what's the sensitivity the demand? Sensitivity to the higher tax is that significant in terms of you know? occupancy Does it do anything to hurt? The economic performance of the hotels I don't know but it just would be good to know where we are within that band of price Sensitivity for them the second thing is in terms of where if we do collect some set of funds whether they Go to or stay in unrestricted in general fund or set aside for economic development I take it that that is an open option at this stage And we could make a decision about what we'd want in the future and to the extent that that is an option we talk about You know I'd like a little bit more background information about what? the purpose and need of those funds would be an economic development and then Relative to keeping in the general fund as well I just like some clarity about",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000307",
@@ -2153,7 +2153,7 @@ const TRANSCRIPT_TURNS = [
     "start": 10493.94,
     "end": 10574.7,
     "text": "about what we're dealing with there sure and we can provide that I will give you a little bit of background a Current EDA board member, I think works or represents the Hotel industry is actually advocating to increase our TOT as well because she is aware that we are way below The average and I think that's why we introduced it as a body to the legislation Trying to bring it up to at least the average Northern, Virginia again That's about 9% so we're trying to get to that and then anything above that and the recommendation from the EDA specifically this Member was to try to set some of that money aside specifically reinvested back Into the EDO or EDA specifically in tourism as well. I think council would be fully aware even more so than the meals tax these taxes are probably Almost a hundred percent paid by non residents Individuals that would come and stay here more than likely don't live here. That's why they're in a hotel room So it is really reducing the burden on the residents and their real estate tax rate by trying to reassign that potential revenue to the TOT",
-    "speaker": "SPEAKER_06"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000309",
@@ -2167,7 +2167,7 @@ const TRANSCRIPT_TURNS = [
     "start": 10597.02,
     "end": 10601.36,
     "text": "there. That's what it is I know in some cases you just want to get out of the hotel so fast",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000311",
@@ -2188,7 +2188,7 @@ const TRANSCRIPT_TURNS = [
     "start": 10626.98,
     "end": 10627.97,
     "text": "review?",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000314",
@@ -2216,7 +2216,7 @@ const TRANSCRIPT_TURNS = [
     "start": 10718.05,
     "end": 10815.81,
     "text": "That's member Peterson. So just to cut to the chase it my reading of this and I'm going to stand corrected if I don't Have the right read here is That whether for the big ticket items or the small ticket items There's pluses and minuses associated with handling either of them with a referendum or not for that matter and Without unpacking all of that and I think again there are kind of pluses and minuses because there are different circumstances Etc It would I guess the question I have to ask is is really about policy and practice Every year we have great big stack of CIP items in front of us, which includes all of the above and It would seem to me that that would be a good time To have the conversation about what are we doing with these and what are we doing with new things and are any? of these Applicable potentially for a referendum But to have the conversation and that's really a matter of practice That we would do it and the next question is whether that needs to be affirmed or required With a policy so that we actually have the conversation each year But it would just seem to me that that's something that would be a an important and prudent thing for us to do Rather than necessarily attempting to set some sort of a bright line Which I think is a little bit difficult under the circumstances, but the bright line is problematic But having nothing whatsoever is is equally if not more problematic, and I would be curious to your feedback on that",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000318",
@@ -2237,7 +2237,7 @@ const TRANSCRIPT_TURNS = [
     "start": 10895.14,
     "end": 10927.03,
     "text": "Well, and then again as a matter of practice it would seem to me that it would be helpful To lay out a rationale that the council could use for sorting through that decision and Again cats and dogs we're going to have a lot of different CIP Items here, and they're going to vary and just sorting through how we deal with all that would be an enormous help because Where we are right now is we don't do that as a council as a body. I think at all",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000321",
@@ -2251,35 +2251,35 @@ const TRANSCRIPT_TURNS = [
     "start": 10971.33,
     "end": 10981.49,
     "text": "that. Well, then just to as a matter of practice stretch the conversation a little bit because It would seem to me",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000323",
     "start": 10983.85,
     "end": 10996.98,
     "text": "Setting aside the question mark of whether we use a referendum in any one of these cases. I Think this is really in your court from a management perspective, but it comes to our court to ensure that we are",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000324",
     "start": 10999.21,
     "end": 11047.0,
     "text": "Doing everything we can to get the best bead we possibly can on one of these projects at its outset to avoid a situation Where we have unexpected cost increases and you know So the the value of a referendum is it forces your hand to do that homework up front the downside of that is your Right and you're on a short lease, you know, see it robs you the flexibility. So I don't know what the remedy is for Taking actions to ensure we're doing all that we need to to get the earliest best understanding of the cost estimate to avoid the risk of cost escalations Again, the referendum raises that and forces it but I think independent of that from a good practice standpoint We ought to be doing it I would be just curious if you have any thoughts at this stage on that because we've seen a bit of that",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000325",
     "start": 11005.84,
     "end": 11006.06,
     "text": "to avoid",
-    "speaker": "SPEAKER_00"
+    "speaker": "Anthony Amos"
   },
   {
     "turnId": "turn_000326",
     "start": 11005.96,
     "end": 11005.99,
     "text": "avoid",
-    "speaker": "SPEAKER_10"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000327",
@@ -2293,14 +2293,14 @@ const TRANSCRIPT_TURNS = [
     "start": 11094.53,
     "end": 11126.01,
     "text": "My very last question is this absolutely is not a criticism of the Willard Sherwood project because If ever there's a project here, it's a big ticket item that has not Escalated that's it. I mean that cost number has stuck and then come down a little bit. So Again, no criticism whatsoever of that project from a cost management perspective However, it did not go through a referendum and it is a big ticket item any history or rationale on that",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000329",
     "start": 11113.97,
     "end": 11114.29,
     "text": "So Again,",
-    "speaker": "SPEAKER_10"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000330",
@@ -2328,14 +2328,14 @@ const TRANSCRIPT_TURNS = [
     "start": 11284.6,
     "end": 11284.71,
     "text": "resident",
-    "speaker": "SPEAKER_06"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000334",
     "start": 11306.23,
     "end": 11306.45,
     "text": "the",
-    "speaker": "SPEAKER_00"
+    "speaker": "Anthony Amos"
   },
   {
     "turnId": "turn_000335",
@@ -2356,7 +2356,7 @@ const TRANSCRIPT_TURNS = [
     "start": 11478.44,
     "end": 11590.74,
     "text": "counselor Peterson just to Maybe add to that and double check if I've got my numbers, right? I think oh gosh, it was Maybe earlier this year as well as last fall We were provided an estimate a best understanding of the set of capital improvement projects that we would have Over two five-year spans or a decadal span from 20 starting in 2026 to 2035 but ten years of CIP half and half over a billion dollars and The first half of it if I recall my math, right is like basically five hundred and twenty million and the second half is five hundred million, which is entirely an expectation around school renovation I Think from my standpoint the takeaway on that is these this is a big number. This is a big package This is a heck of a lot for this city to have to digest Realistically and in a relatively short period of time and the capacity that is required to implement a CIP Program at that scale over that period of time is not insignificant. It's a stretch. It's a challenge. It needs to be thought through in a very sober manner here for the city, so I say that just to Underscore the need to have this very very serious conversation about how are we approaching this package? referendum Approach is a tool but there are other tools there are other strategies for what has become a very very large package in Comparison to historically what we've done in the city. I could be wrong It may be that we've been here at that level before but my read is that we're in a different future situation So it'd be good to get some feedback on that",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000338",
@@ -2377,42 +2377,42 @@ const TRANSCRIPT_TURNS = [
     "start": 11685.45,
     "end": 11702.34,
     "text": "So first off Do you happen to know off top of your head if the city library was that a city? CIP project or was that split with the county? Do you know? That",
-    "speaker": "SPEAKER_19"
+    "speaker": "Billy Bates"
   },
   {
     "turnId": "turn_000341",
     "start": 11702.34,
     "end": 11708.13,
     "text": "That was a City CIP project that we are paying debt on you.",
-    "speaker": "SPEAKER_06"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000342",
     "start": 11706.71,
     "end": 11730.01,
     "text": "project that we are paying debt on you. Yeah. Yeah, but that did not go to a referendum Okay, thank you so that I think is something that is perhaps somewhat comparable to the Willard Sherwood project and perhaps Let me think what do you recall was that like oh eight or late late two thousands, I think",
-    "speaker": "SPEAKER_19"
+    "speaker": "Billy Bates"
   },
   {
     "turnId": "turn_000343",
     "start": 11711.35,
     "end": 11711.77,
     "text": "referendum",
-    "speaker": "SPEAKER_06"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000344",
     "start": 11731.29,
     "end": 11734.06,
     "text": "Around that time for yeah, I don't know the specific year",
-    "speaker": "SPEAKER_06"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000345",
     "start": 11732.19,
     "end": 11751.61,
     "text": "time for yeah, I don't know the specific year so recent history and So additionally, let's say that we wanted to do a referendum for the Willard Sherwood Center Is there time in the timeline to do that, you know based on when we need to issue those bonds I",
-    "speaker": "SPEAKER_19"
+    "speaker": "Billy Bates"
   },
   {
     "turnId": "turn_000346",
@@ -2426,7 +2426,7 @@ const TRANSCRIPT_TURNS = [
     "start": 11796.3,
     "end": 11815.33,
     "text": "so So what about like when we would need to Start You know issuing that debt in order to Have the project go forward on the timeline that We're on right now",
-    "speaker": "SPEAKER_19"
+    "speaker": "Billy Bates"
   },
   {
     "turnId": "turn_000348",
@@ -2440,49 +2440,49 @@ const TRANSCRIPT_TURNS = [
     "start": 11839.55,
     "end": 11839.72,
     "text": "not all",
-    "speaker": "SPEAKER_19"
+    "speaker": "Billy Bates"
   },
   {
     "turnId": "turn_000350",
     "start": 11845.52,
     "end": 11859.34,
     "text": "years So on the other hand For something like that Would Doing a public hearing sort of in lieu of referendum be an option",
-    "speaker": "SPEAKER_19"
+    "speaker": "Billy Bates"
   },
   {
     "turnId": "turn_000351",
     "start": 11861.18,
     "end": 11864.81,
     "text": "Not necessarily for a referendum. I think when we do well I",
-    "speaker": "SPEAKER_06"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000352",
     "start": 11861.5,
     "end": 11861.55,
     "text": "Not",
-    "speaker": "SPEAKER_19"
+    "speaker": "Billy Bates"
   },
   {
     "turnId": "turn_000353",
     "start": 11864.61,
     "end": 11876.79,
     "text": "well I mean like you know if for something that wouldn't otherwise require a referendum if we wanted to instead Have a public hearing Even though neither is necessarily required You know is that an option? I",
-    "speaker": "SPEAKER_19"
+    "speaker": "Billy Bates"
   },
   {
     "turnId": "turn_000354",
     "start": 11876.79,
     "end": 11919.59,
     "text": "[Likely council] [Likely council] I think we do that already during the budget process so while we're while council's considering the FY X budget and we're reviewing the CIP That's a part of the budget we have numerous work sessions and public hearings that the public can attend all related to the budget and either Provide feedback for or against that specific item I think that's what councilmember Hall was alluding to where there is slightly more Public engagement during that process but to her point you do Virginia you can't vote every single year as well. So it's a little bit of both in that in that respect.",
-    "speaker": "Councilmember Hall"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000355",
     "start": 11920.29,
     "end": 11925.96,
     "text": "Mm-hmm Yeah, that's a good point. Thank you Councilmember",
-    "speaker": "SPEAKER_19"
+    "speaker": "Billy Bates"
   },
   {
     "turnId": "turn_000356",
@@ -2545,7 +2545,7 @@ const TRANSCRIPT_TURNS = [
     "start": 12142.98,
     "end": 12163.02,
     "text": "I'm not jumping there what I'm responding to I think was the thought that you shared That I probably prompted which is That we could have a rationale of some sort Developed to help us through those kinds of decisions when we get to them to give us a little bit more guidance Than we currently have",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000365",
@@ -2559,7 +2559,7 @@ const TRANSCRIPT_TURNS = [
     "start": 12205.52,
     "end": 12212.62,
     "text": "sense Well, is this purely case by case or in addition to that there's there something broader and more systematic that helps us kind of know What we're heading into I",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000367",
@@ -2594,28 +2594,28 @@ const TRANSCRIPT_TURNS = [
     "start": 12499.12,
     "end": 12499.23,
     "text": "wasn't",
-    "speaker": "SPEAKER_10"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000372",
     "start": 12499.23,
     "end": 12499.28,
     "text": "wasn't a",
-    "speaker": "SPEAKER_00"
+    "speaker": "Anthony Amos"
   },
   {
     "turnId": "turn_000373",
     "start": 12607.8,
     "end": 12676.83,
     "text": "and I totally respect and understand that and I think we probably all or many of us Have that one tree in our yard or our neighbor's yard that we are worried about This was full-on clear cutting of two entire properties One was done years ago and it was it was right when we were doing the I believe it was the inaugural Halloween parade in Cobbdale and it was the house that was right next to the park So I don't even know how many emails and calls the city received about that I actually was not one of them, but it was such a It was just devastating so I completely understand that but I also think that there is an education component and a responsible city leadership of we understand you want to take out X trees or Y trees for these reasons and We will help you with planting new trees that are going to take you know, two more homeowner cycles or Generations in order to grow so it's not a it's not an all-or-nothing But I just I think especially since it hasn't been looked at since the 70s. I do think there's room for improvement So that was all I wasn't trying to take away anyone's tree rights, but there's room",
-    "speaker": "SPEAKER_17"
+    "speaker": "Stacy Hall"
   },
   {
     "turnId": "turn_000374",
     "start": 12676.29,
     "end": 12691.33,
     "text": "there's room Peterson When is the next time we're going to be speaking with? Anna Safford about urban forestry before the council and where this is going as whether that would be an appropriate time To understand this a little bit more clearly. I",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000375",
@@ -2629,7 +2629,7 @@ const TRANSCRIPT_TURNS = [
     "start": 12704.61,
     "end": 12727.04,
     "text": "Well, and I think all these points are really fair and well taken From my standpoint, I'm still a little bit confused on the patchwork Some places you can some places you can't and whatever it just would would be kind of nice Given that this is a real thing happening and more of it's going to happen. So if we could just count on Doing that it would be great. We'll bring it",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000377",
@@ -2671,14 +2671,14 @@ const TRANSCRIPT_TURNS = [
     "start": 12819.24,
     "end": 12820.41,
     "text": "Well only that",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000383",
     "start": 12822.63,
     "end": 12830.03,
     "text": "There's a big hop between April 14 and April 28 What happens during that period?",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000384",
@@ -2692,7 +2692,7 @@ const TRANSCRIPT_TURNS = [
     "start": 12852.0,
     "end": 12863.19,
     "text": "in terms of public discussion It's three more meetings as presently scheduled in my reading that in terms of public hearings, correct? then opportunities for us to have public discussion",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000386",
@@ -2734,7 +2734,7 @@ const TRANSCRIPT_TURNS = [
     "start": 12880.25,
     "end": 12895.67,
     "text": "May I ask that you just say a little bit more about that in case that didn't quite Get fully understood by people because I know you all have worked very hard in creating an interactive Yes Opportunity if you could share that for people who are listening here sure",
-    "speaker": "SPEAKER_11"
+    "speaker": "Tom Peterson"
   },
   {
     "turnId": "turn_000392",
