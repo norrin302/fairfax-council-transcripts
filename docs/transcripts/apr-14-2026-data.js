@@ -18,7 +18,7 @@ const TRANSCRIPT_TURNS = [
     "end": 263890
   },
   {
-    "speaker": "Councilmember Tom Peterson",
+    "speaker": "Suzanne Levy",
     "text": "Okay, thank you, Mayor. I'm honored to be your representative to the Fairfax County Public Library Board of Trustees. I'm in my second year as chairman of the board. Fortunately, you can only serve two years, so I'll be turning it over to somebody in July. But it's a real honor, and some of you may know my career was at the Fairfax City Regional Library. And so this is just a continuation of what I did for many years, and I wanted to introduce our library director, Eric Carzon. Elena Quarles is the branch manager at City of Fairfax, and Jackie Consalvo is the head of the circulation department. So when you go into the library next week to celebrate National Library Week, please say hi to everybody. And if you don't have a library card, we have beautiful new cards that were designed by citizens in the community. And you can replace your old card with a pretty new one, or you can get a card for the first time. We really want to have you coming in our doors, seeing all the wonderful things that are going on. And check out our book sale. The children's book sale is the first weekend in May, and the adult book sale is in the second week of May. And our wonderful friends of the library raised money to support library activities and help us purchase materials that are not in the budget to be purchased. So thank you for this honor. We really appreciate the opportunity to be here.",
     "start": 263890,
     "end": 358580
