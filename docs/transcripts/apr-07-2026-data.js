@@ -550,7 +550,7 @@ const TRANSCRIPT_TURNS = [
     "start": 2431.82,
     "end": 2559.06,
     "text": "you Councilmember Peterson Why yeah, that's a kind of where I've been going also that I I think some sort of a hybrid Would be worth looking at I also think that the ability to do that on a trial basis or a pilot basis gives us flexibility in terms of that and I agree with What councilmember McQuillan suggested I think initially and councilmember all has said more about? Would help to get at some additional data here One of the questions for instance is whether jurisdictions that have functionally this option three format going whether In their view whether they have data or not that has deterred Attendance or hurt them in terms of the strategic objectives of the jurisdiction in terms of tourism etc I don't know it may be that that's had no effect whatsoever But there's been an effect it would be good to know about on the hybrid Option the one thing that seems to me worth particularly focusing on is Calling this a grant mechanism Some kind, but if I understand it correctly That could be used as or some mechanism could be used as a way to have an option three But then selectively and strategically Have flexibility and make exceptions for certain cases like for folks who are coming in for the very first time or who have You know less means but are nonetheless really important etc It gives you a flexibility mechanism to deal with here of course there'd be a lot of complications associated with that From my perspective it would be good To receive something back that we could at least get started at so that we do something and not nothing and we don't let Perfect be the enemy of the good here and to counts to city manager Alexander's point. We I think it is time We stopped playing tennis without a net so I think we've got enough here to figure out how to take a next step And I'd certainly advocate in favor of that",
-    "speaker": "Councilmember Peterson Why"
+    "speaker": "Councilmember Peterson"
   },
   {
     "turnId": "turn_000080",
@@ -571,7 +571,7 @@ const TRANSCRIPT_TURNS = [
     "start": 2570.63,
     "end": 2636.67,
     "text": "Piggybacking off of councilmember Hall's comment about the meals tax I do wonder if we can just permitting or do something along that lines to make up some of What catch some of those fees that we're missing from not getting the meals tax or other things? That's the kind of information. I think that would be beneficial is to really know what the return on investment You know could be in Doing that like okay, we lose the meals tax if we bring in all these food trucks But if we have a permitting fee that is adjusted to compensate for some of that that could you know Maybe balance that out so that was my thought in bringing economic development into the mix was more of Looking at this and really trying to figure out a solution that like a hybrid as everyone is mentioning here Something along the line so still be able to help out the newer events or smaller events or provide a grant in some way But for you know the ones that are self-funded or the ones that we recognize can be self-funded I Think that more information is just what we need to be able to say which way we want to go with that",
-    "speaker": "Councilmember Hall"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000083",
@@ -851,7 +851,7 @@ const TRANSCRIPT_TURNS = [
     "start": 5935.2,
     "end": 6071.2,
     "text": "Just wanted to say thank you for the presentation and a lot of good information and new information for me as well Officer Johns, it's nice to see you outside of Katherine Johnson, though I'm sure they are missing you but excited for your new role here for sure Kind of a joke but not really so my husband just turned 49 and all these statistics about like 50 and older I feel like it used to be 65 and older or 55 and older now seeing that drop to 50 is it's not very far away for some of us now. So Yeah, I think we're gonna have a lot of people entering that 50 plus in the next few years for sure because pretty much All of my friends the exception of a couple that are younger over there are gonna be heading towards that soon but I think I think you you all do a really great job of Letting people know what services are out there. What's available. I'd loved hearing about how you work Someone goes to the hospital for something or your car accident that there's that connection that happens and that you know the follow-up time And I just think it's it's it's really great to know that we live in a community that does that I'm sure it's not always successful But just the fact that it's there and that it's you're it's trying right and at least if it's not successful Then it's that person still on your radar and you know Maybe I should follow up in a week or a month or six months or maybe see if they have any family or other friends nearby But I also think a reminder for all of us is you know as to the mayor's point with the caregivers You know know your neighbors know who has not been walking the dog lately you know know who you're used to seeing out there that maybe might not be there and taking over some cookies or Knock on the door and just say hello, and you might find that Maybe something has happened or you know they you just don't know what's going on in their lives so I think it's a good piece of advice for all of us to Check out watch out for each other. You know we are all in this together I think we were all so good with that during the pandemic. You know you'd see everybody out walking all the time But as we get busy again, and you know get different days stages of our lives I think we all just kind of sometimes forget about those that we don't see every day So just a little PSA and thank you to everyone that does all of these great things For our community for our residents and as staff members and as volunteers I think it's we do have a great village here, and you know I thank you all for what you're doing to keep it",
-    "speaker": "Mayor"
+    "speaker": "Mayor Catherine Read"
   },
   {
     "turnId": "turn_000123",
@@ -1327,7 +1327,7 @@ const TRANSCRIPT_TURNS = [
     "start": 8154.23,
     "end": 8217.04,
     "text": "It's amazing councilmember Peterson I don't know if you've checked quality control issues, but it'd be worth doing that So not not all translators are created equal right right and not all languages are easy Similar and ease to translate and sometimes you can get some goofs Sometimes they're problematic You know, I've used a lot of translators and a lot of public meetings in a lot of countries and you find it real quick that There are certain things that they have a tough time with and so technical things are a prime example of that It's often difficult for translation programs to be able to sort out Technical terminology jargon of different types and we use a lot of jargon politically in this country as well That's very difficult to translate into other countries and sometimes it translates in ways that are offensive or embarrassing and all that So just a long way of saying to the extent you can check it out To see how this has worked for others who've had to use it in this kind of an operating environment I think it'd be helpful to do.",
-    "speaker": "Councilmember Peterson"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000191",
@@ -1810,7 +1810,7 @@ const TRANSCRIPT_TURNS = [
     "start": 9343.7,
     "end": 9348.78,
     "text": "Councilmember Peterson just to clarify the last power the last two different",
-    "speaker": "Councilmember Peterson"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000260",
@@ -1859,7 +1859,7 @@ const TRANSCRIPT_TURNS = [
     "start": 9405.85,
     "end": 9461.22,
     "text": "Yes, and no so the less or is of property commercial side. We are at the max Based off of what the state would allow I Would assume that in some time in the past the state did not have a state maximum and Localities had different rates at some point the state came in and said this is the maximum and that's sort of where we are now If we were wanting to increase that we would have to petition the General Assembly to go anything above point two three Unlike the other half that you mentioned councilmember Peterson the professional real estate and financial where the state maximum is point five eight The city is currently at point four zero the Northern Virginia average is point four eight That one there would be room potentially to increase. So",
-    "speaker": "Councilmember Peterson"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000267",
@@ -1901,7 +1901,7 @@ const TRANSCRIPT_TURNS = [
     "start": 9543.79,
     "end": 9708.52,
     "text": "budget memo number six to the manager's point and I think to where I think councilmember Peterson maybe councilmember or other council members were sort of alluding to if We were to potentially increase that one segment in the people rate the That area specifically In professional real estate and financial from point four to the northern Virginia average of point four eight The Commissioner revenue did state that bringing that up by that amount would potentially generate an additional almost $700,000 so six hundred and ninety eight thousand he stated each additional One cent increase would yield about eighty seven thousand three hundred twenty five dollars, so that would be a potential Amount of additional revenue that has not been added or was included in the manager's proposed budget again I would need to follow up with the Commissioner revenue and try to get some of that economic data to see what the impact Would potentially be if we were to do something like that Aside again trying to increase that rates to the northern Virginia average of point four eight would potentially generate an additional $700,000 that has not previously been Advertised or incorporated in the FY 27 proposed budget that being said We are on somewhat of a tight timeline. I'm looking at the city clerk to verify this So April 14th, so next Tuesday seven days from today we will be advertising the introductions of certain rates Be pole is currently not listed in any staff report It is again not listed in the manager proposed budget if council were to give us direction Or the recommendation that we would give is to potentially add that in as a potential option or lever Doesn't necessarily mean we have to pull that lever at a later date We could just introduce it go through the administrative process if council so decides to not do anything to it We don't have to take any action on that item very similar to what transpired Last year with the meals rate where we introduced it it went all the way through budget adoption that night We actually affirmed no action made no change, but we went through the process So that would be a potential recommendation that staff would give given where we are sort of in the budget process and the administrative timing on the requirements to Introduce and advertise accordingly",
-    "speaker": "Councilmember Peterson"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000273",
@@ -2363,7 +2363,7 @@ const TRANSCRIPT_TURNS = [
     "start": 11591.45,
     "end": 11677.48,
     "text": "No, so your memories correct councilmember Peterson at the November budget retreat we did show some CIP sandwich slides is what I called them In one of those slides it did show a projected future spend About half of it half half a billion dollars was attributable to a potential future renovation of the high school And then also the middle school Those two projects are not a hundred percent scope schools has not come forward It was just based off of the September 2023 feasibility study done by Mosley that identified all schools and at some point Those will be need need to be renovated as well. And those were the anticipated projections at that time Additionally, you also have other infrastructure internally the property yard being one of the larger ones at about a hundred and twenty hundred and sixty million dollars currently that's being projected as well, so Absolutely large ticket items. I think councilmember Hall summarized it very well. These are Generational investments probably the last time that the city had significant capital investments of this magnitude was when it was founded Sixty some odd years ago and now we're sort of at that point where we need to renovate and we're constructing you as well So absolutely correct, sir",
-    "speaker": "Councilmember Hall"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000339",
@@ -2419,7 +2419,7 @@ const TRANSCRIPT_TURNS = [
     "start": 11751.61,
     "end": 11793.82,
     "text": "I Think councilmember Hall was sort of bringing that up So we'll use the school referendum because that's pretty recent where once a referendum passes the clock starts You have eight years Where you can pull debt off of that approved referendum you could ask the circuit court for a two-year extension But beyond that so a maximum of ten years is the limit that you would have to pull debt Associated and directly tied to that approval of that referendum if you don't complete pulling debt within that time frame You would have to and if you need to do another referendum if you still need to renovate and or complete construction of That project",
-    "speaker": "Councilmember Hall"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000347",
@@ -2474,7 +2474,7 @@ const TRANSCRIPT_TURNS = [
     "turnId": "turn_000354",
     "start": 11876.79,
     "end": 11919.59,
-    "text": "I think we do that already during the budget process so while we're while council's considering the FY X budget and we're reviewing the CIP That's a part of the budget we have numerous work sessions and public hearings that the public can attend all related to the budget and either Provide feedback for or against that specific item I think that's what councilmember Hall was alluding to where there is slightly more Public engagement during that process but to her point you do Virginia you can't vote every single year as well. So it's a little bit of both in that in that respect.",
+    "text": "[Likely council] I think we do that already during the budget process so while we're while council's considering the FY X budget and we're reviewing the CIP That's a part of the budget we have numerous work sessions and public hearings that the public can attend all related to the budget and either Provide feedback for or against that specific item I think that's what councilmember Hall was alluding to where there is slightly more Public engagement during that process but to her point you do Virginia you can't vote every single year as well. So it's a little bit of both in that in that respect.",
     "speaker": "Councilmember Hall"
   },
   {
@@ -2524,7 +2524,7 @@ const TRANSCRIPT_TURNS = [
     "start": 12079.32,
     "end": 12101.57,
     "text": "councilmember Peterson just to Clarify what we are doing with budget memo eight. It sounds like we're just looking forward at some point to hear more about how to Structure a thought process Around this I that's probably not the best way to describe this but we'll be hearing back from you at some point Is that where this is? Yeah, I it",
-    "speaker": "Councilmember Peterson"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000362",
@@ -2580,7 +2580,7 @@ const TRANSCRIPT_TURNS = [
     "start": 12276.36,
     "end": 12462.81,
     "text": "Hall. Sorry. Thank you Just to wrap up on the referendum thing I I What think maybe put a pin in it To borrow the mayor's phrase I'm interested in discussing it. I think We probably have bigger first to fry at the moment and it's not going to be another immediate need for a little bit later But I don't want to just let it completely go off the wayside. I do worry about putting something in that's too structured But I would like to revisit this in the future. It sounds like there's support for that as well So now off of budget for a moment just general thing, I know we don't get council comments tonight, but I did reach out to each of my colleagues the Only person I didn't hear back from was councilmember Amos, which is expected because he is away But I just wanted to bring this to Staffs attention. I know I emailed with Anna Safford our urban forester, but there have been several Properties in neighborhoods that have taken down an extraordinary number of trees without getting proper permits and It was heartbreaking to see what happened recently to a couple in my neighborhood And so I reached out with some questions and I was told that the current city code dates back to the 1970s With no update since then We back up just a minute. So people that need permits are in Zoning districts RL RM and RH and on a lot that is greater than or equal to one half acre and Only if the tree is greater than or equal to five inches in caliber, and I think that's at chest height So this really leaves which I didn't realize I was a pun But this leaves much of the city without a permit requirement even in single-family home and town home communities So what I was proposing to my colleagues was that could we Reconsider this for both lot size and the applicable zones Especially with all the new development coming in and that was when I had asked when it was last reviewed So just to be clear I shared that information with my colleagues and I said, you know, I had serious concerns about these things and there was support from everyone that responded to me so Five out of the six here including myself support looking into it and I understand that this is something that is likely Hopefully going to be covered in part of the tree conservation tax amendment package. It's coming up soon So I don't mean to put more work on staff, but I was really really Really devastated to see what happened in my neighborhood and the fact that Kind of putting all those steps together that anyone in most neighborhoods around here can just take out whatever trees they want at any time and I know I believe Anna Safford had said that I could be wrong 70% of our tree canopy is on private property and We're not protecting that as far as I'm concerned",
-    "speaker": "Councilmember Amos"
+    "speaker": "Unknown Speaker"
   },
   {
     "turnId": "turn_000370",
