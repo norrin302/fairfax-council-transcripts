@@ -30,7 +30,7 @@ const TRANSCRIPT_TURNS = [
     "end": 373010
   },
   {
-    "speaker": "Councilmember Tom Peterson",
+    "speaker": "Library Staff Member",
     "text": "Well, Mayor Reed has the name to have a library card.",
     "start": 373250,
     "end": 376450
@@ -84,7 +84,7 @@ const TRANSCRIPT_TURNS = [
     "end": 392050
   },
   {
-    "speaker": "Councilmember Tom Peterson",
+    "speaker": "Library Staff Member",
     "text": "Thank you so much, and thank you for this. And the staff is going to take it back to the library and put",
     "start": 401410,
     "end": 408010
