@@ -179,7 +179,7 @@
     const transcriptUrl = new URL(window.location.href);
     transcriptUrl.hash = `t=${Math.floor(Number(turn.start) || 0)}`;
 
-    const videoUrl = makeVideoUrl(meeting.source_url, turn.start);
+    const videoUrl = makeVideoUrl(meeting.source_url, turn.start / 1000);
     const quote = String(turn.text || '').replace(/\s+/g, ' ').trim();
     const clippedQuote = quote.length > 400 ? quote.slice(0, 399).trimEnd() + '…' : quote;
 
@@ -187,7 +187,7 @@
     return (
       `[${dateLabel} - ${meeting.title}]\n` +
       `Speaker: ${turn.speaker}\n` +
-      `Time: ${formatTime(turn.start)}\n` +
+      `Time: ${formatTime(turn.start / 1000)}\n` +
       `Quote: "${clippedQuote}"\n` +
       `Transcript: ${transcriptUrl.toString()}\n` +
       (videoUrl ? `Video: ${videoUrl}\n` : '')
@@ -370,11 +370,11 @@
       }
 
       const timeLink = document.createElement('a');
-      timeLink.href = makeVideoUrl(meeting.source_url, start);
+      timeLink.href = makeVideoUrl(meeting.source_url, start / 1000);
       timeLink.target = '_blank';
       timeLink.className = 'timestamp-link';
       timeLink.title = 'Open video at this time';
-      timeLink.innerHTML = '<i class="fas fa-play-circle"></i> ' + formatTime(start);
+      timeLink.innerHTML = '<i class="fas fa-play-circle"></i> ' + formatTime(start / 1000);
       timeLink.addEventListener('click', (e) => e.stopPropagation());
       header.appendChild(timeLink);
 

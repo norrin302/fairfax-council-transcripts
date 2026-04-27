@@ -776,7 +776,7 @@
         var ts = startTimes[ti];
         var videoBtn = '';
         if (ts != null) {
-          videoBtn = '<button type="button" class="vc-video-btn" data-start="' + ts + '" title="Watch at ' + formatTime(ts) + '"><i class="fas fa-play"></i></button>';
+          videoBtn = '<button type="button" class="vc-video-btn" data-start="' + Math.floor(ts / 1000) + '" title="Watch at ' + formatTime(ts / 1000) + '"><i class="fas fa-play"></i></button>';
         }
         html += '<div class="vc-turn-text">' + videoBtn + '<span>' + escHtml(preview) + '</span></div>';
       }
@@ -815,7 +815,7 @@
         }
         var sText = sTurn ? (sTurn.text || '').slice(0, 80) + ((sTurn.text || '').length > 80 ? '…' : '') : sTurnId;
         var sVideoBtn = sTurnStart > 0
-          ? '<button type="button" class="vc-video-btn" data-start="' + sTurnStart + '" title="Watch at ' + formatTime(sTurnStart) + '"><i class="fas fa-play"></i></button>'
+          ? '<button type="button" class="vc-video-btn" data-start="' + Math.floor(sTurnStart / 1000) + '" title="Watch at ' + formatTime(sTurnStart / 1000) + '"><i class="fas fa-play"></i></button>'
           : '';
         html += '<div class="vc-singleton-item">' +
           '<div class="vc-singleton-turn">' + escHtml(String(sTurnId)) + '</div>' +
@@ -1345,7 +1345,7 @@
   }
 
   function getModalHtml(blockInfo, existing) {
-    var timeLabel = formatTime(blockInfo.start);
+    var timeLabel = formatTime(blockInfo.start / 1000);
     var previewText = (blockInfo.texts[0] || '').slice(0, 120) + (blockInfo.texts[0] || '').length > 120 ? '…' : '';
     var exSpeaker = existing ? existing.speaker_name || '' : (blockInfo.speaker || '');
     var exNotes = existing ? (existing.evidence_note || existing.notes || '') : '';
