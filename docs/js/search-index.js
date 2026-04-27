@@ -10,7 +10,7 @@ const SEARCH_INDEX = {
       "title": "City Council Regular Meeting",
       "meeting_type": "regular",
       "source_url": "https://fairfax.granicus.com/player/clip/4519",
-      "duration_seconds": 10000360,
+      "duration_seconds": 10000,
       "transcript_url": "transcripts/apr-14-2026.html",
       "sections": [
         "1. Call the regular meeting to order. 7:00 P.M.",
