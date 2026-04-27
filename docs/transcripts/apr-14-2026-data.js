@@ -468,7 +468,7 @@ const TRANSCRIPT_TURNS = [
     "end": 3003250
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Mayor Catherine Read",
     "text": "Our next speaker is Alan Glenn.",
     "start": 3005330,
     "end": 3007170
@@ -480,7 +480,7 @@ const TRANSCRIPT_TURNS = [
     "end": 3192620
   },
   {
-    "speaker": "Councilmember Tom Peterson",
+    "speaker": "Mayor Catherine Read",
     "text": "Our next speaker is William Pitchford.",
     "start": 3194650,
     "end": 3196570
@@ -1056,7 +1056,7 @@ const TRANSCRIPT_TURNS = [
     "end": 4935080
   },
   {
-    "speaker": "Councilmember Tom Peterson",
+    "speaker": "Mayor Catherine Read",
     "text": "Our next speaker is Jennifer Rose.",
     "start": 4937560,
     "end": 4939160
