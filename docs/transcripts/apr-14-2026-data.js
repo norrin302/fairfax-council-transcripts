@@ -97,19 +97,19 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "speaker": "Councilmember Anthony Amos",
-    "text": "I guess.",
+    "text": "[Possible cross-talk] I guess.",
     "start": 444090,
     "end": 444490
   },
   {
     "speaker": "Mayor Catherine Read",
-    "text": "Well, you know, whatever.",
+    "text": "[Possible cross-talk] Well, you know, whatever.",
     "start": 445210,
     "end": 446250
   },
   {
     "speaker": "Councilmember Anthony Amos",
-    "text": "And the shoes.",
+    "text": "[Possible cross-talk] And the shoes.",
     "start": 446330,
     "end": 447050
   },
@@ -168,7 +168,7 @@ const TRANSCRIPT_TURNS = [
     "end": 1208820
   },
   {
-    "speaker": "Councilmember Tom Peterson",
+    "speaker": "Mayor Catherine Read",
     "text": "All right. I'll now ask our Fairfax City police dispatchers to come down here so we can celebrate you. Come on. It's cool to stand up here and just be stared at. Trust me, not awkward at all. All good. All good. You guys are important. So important. Very important. All right, everybody in. The cutest. All right. Whereas the week of April 12th through 18th, 2026, has been designated as National Public Safety Telecommunicators Week, a time to raise awareness and recognize the critical contributions of highly trained telecommunications professionals who provide vital 911 emergency assist to those in need. And whereas emergencies requiring police, fire or emergency medical services can occur at any time and the prompt response of police officers, firefighters and paramedics is essential to the protection of life and preservation of property. And whereas the safety of police officers, firefighters and paramedics depends upon the quality and accuracy of information obtained from citizens who contact the city of Fairfax emergency communications center. And whereas public safety telecommunicators are the first and most critical point of contact our residents have with emergency services, serving as the vital link between the public and emergency responders. And whereas public safety telecommunicators contribute substantially to the apprehension of criminals, the suppression of fires and the treatment of patients, demonstrating professionalism, understanding and dedication in every call they handle. And whereas within the police department, a dispatcher of the year is nominated by police personnel to recognize an individual for exceptional performance exemplifying the commitment and excellence demonstrated by all emergency dispatch professionals in our city each and every day, 24 hours a day and seven days a week. Now, therefore, I, Catherine S. Reed, mayor of the city of Fairfax, do hereby proclaim April 12 to 18, 2026, is National Public Safety Telecommunicators Week in the city of Fairfax and encourage all members of our community to join in extending our warmest measure of gratitude and support to our public safety telecommunications dispatchers, including our award recipient, Aliyah Tibbs. Aliyah Tibbs. Elijah. Okay. Elijah Tibbs, the 2025 Dispatcher of the year, who provides critical and essential services daily to the countless number of residents, business owners and visitors within our community. So with that, Elijah.",
     "start": 1267780,
     "end": 1439720
