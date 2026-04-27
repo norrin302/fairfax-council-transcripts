@@ -62,6 +62,9 @@ def _extract_turns_from_js(js_path: Path) -> list[dict[str, Any]]:
     if not m:
         raise RuntimeError(f"Could not find TRANSCRIPT_TURNS array in {js_path}")
     arr = m.group(1).strip()
+    # Old publish_meeting.py generated JS with trailing commas (invalid JSON).
+    # Strip trailing comma before closing bracket:  },\n]  ->  }\n]
+    arr = re.sub(r',(\s*])', r'\1', arr)
     turns = json.loads(arr)
     if not isinstance(turns, list):
         raise RuntimeError("TRANSCRIPT_TURNS did not parse to a list")
