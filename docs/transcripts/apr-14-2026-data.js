@@ -43,7 +43,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "speaker": "Councilmember Tom Peterson",
-    "text": "Okay.",
+    "text": "During group photo: Okay.",
     "start": 378930,
     "end": 379250
   },
@@ -55,13 +55,13 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "speaker": "Councilmember Anthony Amos",
-    "text": "Yeah.",
+    "text": "During group photo: Yeah.",
     "start": 380090,
     "end": 380530
   },
   {
     "speaker": "Councilmember Tom Peterson",
-    "text": "Sorry. Even more.",
+    "text": "During group photo: Sorry. Even more.",
     "start": 380850,
     "end": 384290
   },
@@ -73,13 +73,13 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "speaker": "Councilmember Tom Peterson",
-    "text": "Sorry.",
+    "text": "During group photo: Sorry.",
     "start": 390130,
     "end": 390610
   },
   {
     "speaker": "Mayor Catherine Read",
-    "text": "Okay.",
+    "text": "During group photo: Okay.",
     "start": 391410,
     "end": 392050
   },
