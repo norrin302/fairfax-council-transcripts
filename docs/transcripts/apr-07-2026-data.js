@@ -158,7 +158,7 @@ const TRANSCRIPT_TURNS = [
     "start": 1021.59,
     "end": 1022.66,
     "text": "councilmember Hardy Chandler",
-    "speaker": "Councilmember Hardy Chandler"
+    "speaker": "Mayor Catherine Read"
   },
   {
     "turnId": "turn_000024",
@@ -690,7 +690,7 @@ const TRANSCRIPT_TURNS = [
     "start": 3447.91,
     "end": 3457.43,
     "text": "Our next item is the discussion update on the city services and support for older adults I'm going to recognize Leslie Abashian our human services director for the presentation Gotta",
-    "speaker": "Staff Member"
+    "speaker": "Mayor Catherine Read"
   },
   {
     "turnId": "turn_000100",
@@ -760,7 +760,7 @@ const TRANSCRIPT_TURNS = [
     "start": 5042.33,
     "end": 5189.77,
     "text": "Hi, I'm MPO Carrie Jones, I'm new to this team but I Looking at some of the services we provide. I looked at data from the last 2023 2024 2025 and in all of those years with the 65 plus age range the Three common ways that we come into contact as a police department with older adults is through fraud reports Welfare checks and Anything related to traffic so traffic stop citations motor vehicle crashes So, you know with the fraud reports not only do we receive those calls through dispatch But our detectives also receive those calls from they receive referrals from investigators through banks through APS or other Services that adult older adults might be receiving In terms of like regionally there is a financial exploitation prevention task force Which looks like common trends throughout the region and then from there as a police department a CRT we're able to educate the Older adult population on what those scams might be or services that might be available to them For that compensation or to protect their information from further You know further issue with welfare checks That's something that we respond to that is Malika touched on Going into the home and having that human interaction. We see What issues there are? That we can assist with and connect them to their services in terms of traffic stops motor vehicle crashes the DMV the Virginia DMV does have a medical review has medical review services available not just through the police but also through family members any neighbors anyone can request a medical review service should they feel that they have a family member or a neighbor that might need to Be reviewed if they should continue to drive safely",
-    "speaker": "Staff Member"
+    "speaker": "Carrie Jones (MPO)"
   },
   {
     "turnId": "turn_000110",
@@ -1299,7 +1299,7 @@ const TRANSCRIPT_TURNS = [
     "start": 8146.35,
     "end": 8147.62,
     "text": "Councilmember Hardy Chandler.",
-    "speaker": "Councilmember Hardy Chandler"
+    "speaker": "Mayor Catherine Read"
   },
   {
     "turnId": "turn_000187",
@@ -2474,7 +2474,7 @@ const TRANSCRIPT_TURNS = [
     "turnId": "turn_000354",
     "start": 11876.79,
     "end": 11919.59,
-    "text": "[Likely council] I think we do that already during the budget process so while we're while council's considering the FY X budget and we're reviewing the CIP That's a part of the budget we have numerous work sessions and public hearings that the public can attend all related to the budget and either Provide feedback for or against that specific item I think that's what councilmember Hall was alluding to where there is slightly more Public engagement during that process but to her point you do Virginia you can't vote every single year as well. So it's a little bit of both in that in that respect.",
+    "text": "[Likely council] [Likely council] I think we do that already during the budget process so while we're while council's considering the FY X budget and we're reviewing the CIP That's a part of the budget we have numerous work sessions and public hearings that the public can attend all related to the budget and either Provide feedback for or against that specific item I think that's what councilmember Hall was alluding to where there is slightly more Public engagement during that process but to her point you do Virginia you can't vote every single year as well. So it's a little bit of both in that in that respect.",
     "speaker": "Councilmember Hall"
   },
   {
