@@ -116,6 +116,12 @@
     return String(s || '').toLowerCase().replace(/\s+/g, ' ').trim();
   }
 
+  // Auto-detect timestamp unit: if values look like ms (>1000s), convert to seconds
+  function toSec(msOrSec) {
+    var v = Number(msOrSec) || 0;
+    return v > 1000 ? v / 1000 : v;
+  }
+
   function formatTime(seconds) {
     var s = Math.max(0, Math.floor(Number(seconds) || 0));
     var m = Math.floor((s % 3600) / 60);
@@ -776,7 +782,7 @@
         var ts = startTimes[ti];
         var videoBtn = '';
         if (ts != null) {
-          videoBtn = '<button type="button" class="vc-video-btn" data-start="' + Math.floor(ts / 1000) + '" title="Watch at ' + formatTime(ts / 1000) + '"><i class="fas fa-play"></i></button>';
+          videoBtn = '<button type="button" class="vc-video-btn" data-start="' + Math.floor(toSec(ts)) + '" title="Watch at ' + formatTime(toSec(ts)) + '"><i class="fas fa-play"></i></button>';
         }
         html += '<div class="vc-turn-text">' + videoBtn + '<span>' + escHtml(preview) + '</span></div>';
       }
@@ -1345,7 +1351,7 @@
   }
 
   function getModalHtml(blockInfo, existing) {
-    var timeLabel = formatTime(blockInfo.start / 1000);
+    var timeLabel = formatTime(toSec(blockInfo.start));
     var previewText = (blockInfo.texts[0] || '').slice(0, 120) + (blockInfo.texts[0] || '').length > 120 ? '…' : '';
     var exSpeaker = existing ? existing.speaker_name || '' : (blockInfo.speaker || '');
     var exNotes = existing ? (existing.evidence_note || existing.notes || '') : '';
