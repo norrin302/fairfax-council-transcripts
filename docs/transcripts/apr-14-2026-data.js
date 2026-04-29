@@ -1,4 +1,4 @@
-// Speaker corrections applied: 63:53 Tom Peterson, 64:28 Stacy HC, 65:20 Stacy HC
+// Corrections: City Clerk for roll call; City Manager/Staff for work session Public Commenter labels
 const TRANSCRIPT_TURNS = [
   {
     "speaker": "Mayor Catherine Read",
@@ -361,7 +361,7 @@ const TRANSCRIPT_TURNS = [
     "text": "The motion has been made and seconded. A roll call vote."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "City Clerk",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1654760,
@@ -377,7 +377,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "City Clerk",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1656360,
@@ -409,7 +409,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "City Clerk",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1659520,
@@ -425,7 +425,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "City Clerk",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1661160,
@@ -441,7 +441,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "City Clerk",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1662640,
@@ -1689,7 +1689,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you. Okay. I thought that was being discussed with the schools prior to our conversation tonight, Mr. Alexander."
   },
   {
-    "speaker": "Public Commenter",
+    "speaker": "City Manager/Staff",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 6628710,
@@ -1697,7 +1697,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Yeah, so we. We have talked to council about it up to this point. We have talked today with them about it. And so I don't know the degree to which Mr. Wright has socialized that with the board yet. It is."
   },
   {
-    "speaker": "Public Commenter",
+    "speaker": "City Manager/Staff",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 6644190,
@@ -1705,7 +1705,7 @@ const TRANSCRIPT_TURNS = [
     "text": "We're."
   },
   {
-    "speaker": "Public Commenter",
+    "speaker": "City Manager/Staff",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 6644550,
@@ -1745,7 +1745,7 @@ const TRANSCRIPT_TURNS = [
     "text": "That would certainly be good news if that happened. I know there's a lot of concern that those rates are going to go up and that the unexpected changes will be on the upward side. But we're not there yet. It's good to know. But clearly energy is up. I would just note also that healthcare expenses are up and that maybe the highest and fastest rate of inflation for any household expenses that we experience. The latest that I saw for unreimbursed healthcare expenses, it's running an increase of 21.5% this year. And there's a big caveat there because Obamacare has not been refunded yet and it's not clear that it will be. So for people who are dependent upon that and the reimbursements associated with it, this is a big load for an average family of four in the city of Fairfax. The mean right now is looking at about $27,000 a year. You translate that out with other household expenses, including the ones we just heard about, and it's really saying that 150,000 median income is what you've got to have to swing it in terms of dealing with, with this cost load. So healthcare is a really big one. There isn't much, if anything, we can do about that except to stay well and get all the help we can doing that. But there are things we can control and Those are our property taxes, our real estate taxes, and other fees. So it's not surprising that people, as we've heard, are hoping that we will do everything we can to manage that cost agenda, recognizing that there are things that are changing in a major way that we cannot control, but there are things that we can control. To switch gears and go to the Renaissance housing Program, just out of curiosity, I believe, based on prior conversations and some of the staff consultations on housing issues of a variety of types, we're taking a really hard look at how we are approaching our housing programs here in the city. And that's not limited to affordable housing, but it's looking at the sector and what to do with that. As you if and as you come back with thoughts around any of our housing programs, but including the Renaissance housing program, I'm wondering if you might be able to think through what a slightly more integrated approach to something like the Renaissance Housing Program might be. Given that I know you're looking hard at what an integrated approach to this housing area maybe might look like in the future, I'm wondering if that might be a possible thing framed."
   },
   {
-    "speaker": "Public Commenter",
+    "speaker": "City Manager/Staff",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 6899550,
@@ -2009,7 +2009,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Just another quick note on the inflation thing. Maybe this is good news, maybe it's not. But the latest numbers I saw for the area on housing is that the price of housing has gone down a third of a percent this year. The forecast, Northern Virginia Realtors through the end of the year. End of the year, the high end of that is 1.9%. So housing is not one of the inflationary variables in terms of price that's going up, but we know that the cost of housing nonetheless is high. Going back to the. A little bit of the big picture here in terms of what we will see as we go forward. I know other council members have talked with you about this in terms of information that is of interest, but I. So I think one of the things that would be helpful is to the best of your ability to forecast forward five years to see what this trajectory looks like for the city in terms of expenses and revenues to, to avoid us being on a yoyo, this destabilizing pattern that has happened in the past where we've gone too far up, too far down and then had to play catch up and it's had a destabilizing effect. So if we can understand to the best of your ability what a smoother trajectory looks like and how we are consistent with that, so we could avoid the deviations in either direction, that would really be very helpful."
   },
   {
-    "speaker": "Public Commenter",
+    "speaker": "City Manager/Staff",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 7802890,
@@ -2089,7 +2089,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Sure. So, speaking of the unassigned fund balance, we had encumbered funds in anticipation of a repayment to VDOT out of the unassigned fund balance for this year, I believe. But now that we've actually gotten the bill from VDOT for the repayment, we are. There is. There is a plan, I believe, that is going to be explored about how to repay that. And I bring this up because we have the budget event on April 16, and I think we need to explain how the $3.5 million is going to be paid back and the fact that while we had, you know, we had encumbered but not actually allocated that money from the unassigned fund balance, there's now a different plan. And I just think it's important before we get to April 28th for people to understand what that plan is for the FY27 and potentially the FY28 budget. So will there be a budget memo or how. How will you kind of put this up for the sake of transparency to the public when they come to discuss the budget on the 16th? How will that be rolled out?"
   },
   {
-    "speaker": "Public Commenter",
+    "speaker": "City Manager/Staff",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 8131640,
@@ -2105,7 +2105,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I guess my question is, will there be anything prior to the 28th that, you know, because we're having this event on the 16th and we have not discussed this since. It is a very new. It's a very new thing that just happened."
   },
   {
-    "speaker": "Public Commenter",
+    "speaker": "City Manager/Staff",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 8172170,
@@ -2185,7 +2185,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Any other questions or comments before we. Okay, I'm now going to reconvene the regular meeting, Mr. Alexander, for future meeting topics."
   },
   {
-    "speaker": "Public Commenter",
+    "speaker": "City Manager/Staff",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 8371330,
@@ -2225,7 +2225,7 @@ const TRANSCRIPT_TURNS = [
     "text": "If there's no more questions on that, then we will look for council comments starting with the city manager."
   },
   {
-    "speaker": "Public Commenter",
+    "speaker": "City Manager/Staff",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 8559580,
