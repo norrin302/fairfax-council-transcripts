@@ -1,5 +1,4 @@
-// Transcript turns for apr-14-2026
-// CORRECTED: Russ video verification 2026-04-29
+// Speaker corrections applied: 63:53 Tom Peterson, 64:28 Stacy HC, 65:20 Stacy HC
 const TRANSCRIPT_TURNS = [
   {
     "speaker": "Mayor Catherine Read",
@@ -770,7 +769,7 @@ const TRANSCRIPT_TURNS = [
     "text": "There has been additional clarity on procedure that allows for input while safeguarding conflict of interest, and I want additional time for that to happen."
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ video verification 2026-04-29",
     "start": 3833870,
@@ -810,7 +809,7 @@ const TRANSCRIPT_TURNS = [
     "text": "So we have three applicants for two slots, one of whom is your husband."
   },
   {
-    "speaker": "Councilmember Tom Peterson",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 3868290,
@@ -858,7 +857,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Okay, so the simple question here is whether you are going to be voting on a slot. There are two slots with three applicants where your husband is an applicant. Because normally, under state law, for jurisdictions that follow it, this is regarded as a clear conflict of interest."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ video verification 2026-04-29",
     "start": 3920650,
@@ -2402,7 +2401,3 @@ const TRANSCRIPT_TURNS = [
     "text": "There's an event on Friday the 17th. There is a Spotlight on the Arts event. There is also the opening reception on April 24, which is the following Friday. But there are events for the rest of April and into the first part of May. So please check online for all of the events happening all over. Fairfax High School has their Rotten Tomatoes show at the high school and there's a lot of other events, music and theater going on in the next three weeks that celebrate the arts and is an important part of Spotlight on the Arts. So with that, I am now going to adjourn this meeting at 9:46pm on Tuesday. Sam."
   }
 ];
-
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = TRANSCRIPT_TURNS;
-}
