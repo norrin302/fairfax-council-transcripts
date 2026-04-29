@@ -1,4 +1,4 @@
-// Corrections: City Clerk for roll call; City Manager/Staff for work session Public Commenter labels
+// Roll call final correction: City Clerk announces motion passed
 const TRANSCRIPT_TURNS = [
   {
     "speaker": "Mayor Catherine Read",
@@ -457,7 +457,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Aye."
   },
   {
-    "speaker": "Unknown Speaker",
+    "speaker": "City Clerk",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1666360,
