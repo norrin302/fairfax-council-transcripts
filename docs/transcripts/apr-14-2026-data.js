@@ -1,5 +1,5 @@
 // Transcript turns for apr-14-2026
-// MERGED: old version + Russ-verified council debate labels
+// CORRECTED: Russ video verification 2026-04-29
 const TRANSCRIPT_TURNS = [
   {
     "speaker": "Mayor Catherine Read",
@@ -754,9 +754,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Yes. Councilmember Peterson, may I ask why the final two appointments are being pulled?"
   },
   {
-    "speaker": "Councilmember Tom Peterson",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "Russ video verification 2026-04-29",
     "start": 3820750,
     "end": 3822270,
     "text": "Council Member Hardy Chandler."
@@ -764,15 +764,15 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "Russ video verification 2026-04-29",
     "start": 3822910,
     "end": 3833310,
     "text": "There has been additional clarity on procedure that allows for input while safeguarding conflict of interest, and I want additional time for that to happen."
   },
   {
-    "speaker": "Councilmember Tom Peterson",
+    "speaker": "Councilmember Stacy Hardy-Chandler",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "Russ video verification 2026-04-29",
     "start": 3833870,
     "end": 3836270,
     "text": "Can you clarify that? I'm not following that."
@@ -780,7 +780,7 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Councilmember Stacy Hardy-Chandler",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "Russ video verification 2026-04-29",
     "start": 3837790,
     "end": 3845710,
     "text": "Each candidate can be considered individually, and while I would recuse myself from one of the candidates, I do want to have input on other candidates."
@@ -858,9 +858,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Okay, so the simple question here is whether you are going to be voting on a slot. There are two slots with three applicants where your husband is an applicant. Because normally, under state law, for jurisdictions that follow it, this is regarded as a clear conflict of interest."
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Mayor Catherine Read",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "Russ video verification 2026-04-29",
     "start": 3920650,
     "end": 3925290,
     "text": "Each slot is independent. Okay. And they're not the same. Slide. Okay."
@@ -868,23 +868,23 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Mayor Catherine Read",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "Russ video verification 2026-04-29",
     "start": 3925290,
     "end": 3929610,
     "text": "I think that's. Let me recognize council member McQuillan."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Rachel McQuillen",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "Russ video verification 2026-04-29",
     "start": 3934170,
     "end": 3953060,
     "text": "Our residents applied for these roles in good faith. They interviewed in good faith. Council discusses these applications through the established process. We should respect the process. Vote and move forward. That's how I feel."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Councilmember Stacy Hall",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "Russ video verification 2026-04-29",
     "start": 3954020,
     "end": 3957380,
     "text": "Thank you, Council Member Hall."
