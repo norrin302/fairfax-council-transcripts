@@ -1,4 +1,4 @@
-// Roll call final correction: City Clerk announces motion passed
+// Roll call corrected: City Clerk announces motion passed, Mayor Read presides
 const TRANSCRIPT_TURNS = [
   {
     "speaker": "Mayor Catherine Read",
@@ -62,7 +62,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 378930,
     "end": 379250,
-    "text": "During group photo: Okay."
+    "text": "Okay."
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -78,7 +78,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 380090,
     "end": 380530,
-    "text": "During group photo: Yeah."
+    "text": "Yeah."
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -86,7 +86,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 380850,
     "end": 384290,
-    "text": "During group photo: Sorry. Even more."
+    "text": "Sorry. Even more."
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -102,7 +102,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 390130,
     "end": 390610,
-    "text": "During group photo: Sorry."
+    "text": "Sorry."
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -110,7 +110,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 391410,
     "end": 392050,
-    "text": "During group photo: Okay."
+    "text": "Okay."
   },
   {
     "speaker": "Library Staff Member",
@@ -134,7 +134,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 444090,
     "end": 444490,
-    "text": "[Possible cross-talk] I guess."
+    "text": "I guess."
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -142,7 +142,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 445210,
     "end": 446250,
-    "text": "[Possible cross-talk] Well, you know, whatever."
+    "text": "Well, you know, whatever."
   },
   {
     "speaker": "Councilmember Anthony Amos",
@@ -150,7 +150,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 446330,
     "end": 447050,
-    "text": "[Possible cross-talk] And the shoes."
+    "text": "And the shoes."
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -329,7 +329,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Work."
   },
   {
-    "speaker": "Councilmember Billy Bates",
+    "speaker": "City Clerk",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1639300,
@@ -337,7 +337,7 @@ const TRANSCRIPT_TURNS = [
     "text": "We can move on to the adoption of the agenda."
   },
   {
-    "speaker": "Councilmember Tom Peterson",
+    "speaker": "Mayor Catherine Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1643700,
@@ -353,7 +353,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Second."
   },
   {
-    "speaker": "Councilmember Tom Peterson",
+    "speaker": "Mayor Catherine Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1651480,
