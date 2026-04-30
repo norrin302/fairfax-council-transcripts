@@ -1,4 +1,4 @@
-// Roll call corrected: City Clerk announces, Mayor Read presides
+// Fixes: 3 roll call name-readings + 1 additional misattribution corrected
 const TRANSCRIPT_TURNS = [
   {
     "speaker": "Mayor Catherine Read",
@@ -62,7 +62,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 378930,
     "end": 379250,
-    "text": "Okay."
+    "text": "During group photo: Okay."
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -78,7 +78,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 380090,
     "end": 380530,
-    "text": "Yeah."
+    "text": "During group photo: Yeah."
   },
   {
     "speaker": "Councilmember Tom Peterson",
@@ -86,7 +86,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 380850,
     "end": 384290,
-    "text": "Sorry. Even more."
+    "text": "During group photo: Sorry. Even more."
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -102,7 +102,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 390130,
     "end": 390610,
-    "text": "Sorry."
+    "text": "During group photo: Sorry."
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -110,7 +110,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 391410,
     "end": 392050,
-    "text": "Okay."
+    "text": "During group photo: Okay."
   },
   {
     "speaker": "Library Staff Member",
@@ -134,7 +134,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 444090,
     "end": 444490,
-    "text": "I guess."
+    "text": "[Possible cross-talk] I guess."
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -142,7 +142,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 445210,
     "end": 446250,
-    "text": "Well, you know, whatever."
+    "text": "[Possible cross-talk] Well, you know, whatever."
   },
   {
     "speaker": "Councilmember Anthony Amos",
@@ -150,7 +150,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 446330,
     "end": 447050,
-    "text": "And the shoes."
+    "text": "[Possible cross-talk] And the shoes."
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -329,7 +329,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Work."
   },
   {
-    "speaker": "City Clerk",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1639300,
@@ -337,7 +337,7 @@ const TRANSCRIPT_TURNS = [
     "text": "We can move on to the adoption of the agenda."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1643700,
@@ -353,7 +353,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Second."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1651480,
@@ -393,7 +393,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Aye."
   },
   {
-    "speaker": "City Clerk",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1657800,
@@ -473,7 +473,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Sorry."
   },
   {
-    "speaker": "City Clerk",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1669080,
@@ -753,7 +753,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Yes. Councilmember Peterson, may I ask why the final two appointments are being pulled?"
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "City Clerk",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ video verification 2026-04-29",
     "start": 3820750,
@@ -1209,7 +1209,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Yes, please. Thank you. What concerns me is the imperance, the appearance problem. If a member properly recuses from a specific appointment because of a spouse's candidacy, but then, after learning the outcome, seeks to delay the process because the full result is not what she wanted, that creates an appearance of personal influence over a public appointment. Even the appearance of that is damaging, and that's my concern. Thank you,"
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "City Clerk",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 4561600,
@@ -1225,7 +1225,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I think that would be an issue if I had a concern about my husband being appointed. So in my absence, my husband was appointed, and that has nothing to do with me. I want no input on that, whether he's appointed or not. What I want input on are the other candidates for the other positions, just as I have input on the other candidates for other commissions."
   },
   {
-    "speaker": "Councilmember Tom Peterson",
+    "speaker": "City Clerk",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 4586150,
@@ -2025,7 +2025,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Great. Great. Really, really appreciate it again, because we saw some roller coaster stuff in the past that I think we always want to try to avoid void in the future. Very helpful."
   },
   {
-    "speaker": "Councilmember Tom Peterson",
+    "speaker": "City Clerk",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 7835180,
