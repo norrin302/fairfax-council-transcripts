@@ -1,4 +1,5 @@
-// Fixes: 3 roll call name-readings + 1 additional misattribution corrected
+// Fairfax City Council Apr 14 2026 - Speaker label corrections
+// Fixes: roll call name-reading misattributions (video verified against Granicus 4519-1)
 const TRANSCRIPT_TURNS = [
   {
     "speaker": "Mayor Catherine Read",
@@ -393,7 +394,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Aye."
   },
   {
-    "speaker": "Councilmember Billy Bates",
+    "speaker": "City Clerk",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1657800,
@@ -473,7 +474,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Sorry."
   },
   {
-    "speaker": "Councilmember Billy Bates",
+    "speaker": "City Clerk",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1669080,
