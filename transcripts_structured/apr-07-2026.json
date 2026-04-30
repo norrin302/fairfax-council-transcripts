@@ -286,11 +286,13 @@
       "start": 1070.72,
       "end": 1070.73,
       "text": "no.",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Staff Member",
+      "speaker_public": "Staff Member",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Staff Member"
     },
     {
       "turn_id": "turn_000027",
@@ -407,11 +409,13 @@
       "start": 1268.37,
       "end": 1271.95,
       "text": "right. That's the key phrase that that's a main takeaway. Yeah,",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Stacey Hardy-Chandler",
+      "speaker_public": "Stacey Hardy-Chandler",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Stacey Hardy-Chandler"
     },
     {
       "turn_id": "turn_000038",
@@ -473,11 +477,13 @@
       "start": 1507.14,
       "end": 1512.32,
       "text": "Has economic development had a chance to weigh in on this at all by chance",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Daniel Alexander",
+      "speaker_public": "Daniel Alexander",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Daniel Alexander"
     },
     {
       "turn_id": "turn_000044",
@@ -495,11 +501,13 @@
       "start": 1525.29,
       "end": 1560.23,
       "text": "opinion given the shortness of the time that excellent I just think that that's really important. Obviously in this discussion is to ensure we understand exactly how Either the options would affect consumer behavior and attendance because I want to ensure that if we're doing this that we're continuing we our community really is Used to these certain they look forward to these events and it's part of our culture It's part of who we are So I just want to make sure that we fully understand exactly how that's going to affect things if we pick one of these Options, so I think that would be really helpful to have that information",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Staff Member",
+      "speaker_public": "Staff Member",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Staff Member"
     },
     {
       "turn_id": "turn_000046",
@@ -528,11 +536,13 @@
       "start": 1602.77,
       "end": 1651.99,
       "text": "Right now because these are these are considered we have the group Like Stacey was saying of city sponsored events, and then these are city supported events These are items that are mandated for our officers to work So if they move to a self-funded option to where they're you know not not city funded per se they Most of those currently for us are voluntary assignments that they can sign up for if they don't fill them Then it's just not filled the scale of some of these if they're not if the staffing is not filled That the event can't take place so Right now we mandate that officers work these larger scale events We do do we go through a process where they can sign up we do a voluntary window where you know We open the signups, but then as it gets closer. We have to mandate that these are duty assignments",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Staff Member",
+      "speaker_public": "Staff Member",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Staff Member"
     },
     {
       "turn_id": "turn_000049",
@@ -715,33 +725,39 @@
       "start": 1858.36,
       "end": 1859.74,
       "text": "in that just for those three years",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Stacey Hardy-Chandler",
+      "speaker_public": "Stacey Hardy-Chandler",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Stacey Hardy-Chandler"
     },
     {
       "turn_id": "turn_000066",
       "start": 1866.03,
       "end": 1867.81,
       "text": "initial first year?",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Stacey Hardy-Chandler",
+      "speaker_public": "Stacey Hardy-Chandler",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Stacey Hardy-Chandler"
     },
     {
       "turn_id": "turn_000067",
       "start": 1869.93,
       "end": 1870.17,
       "text": "that",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Stacey Hardy-Chandler",
+      "speaker_public": "Stacey Hardy-Chandler",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Stacey Hardy-Chandler"
     },
     {
       "turn_id": "turn_000068",
@@ -770,11 +786,13 @@
       "start": 2020.56,
       "end": 2020.59,
       "text": "is. Yep,",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Stacey Hardy-Chandler",
+      "speaker_public": "Stacey Hardy-Chandler",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Stacey Hardy-Chandler"
     },
     {
       "turn_id": "turn_000071",
@@ -891,22 +909,26 @@
       "start": 2564.14,
       "end": 2567.39,
       "text": "Agree that we need a framework for sure",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Tom Peterson",
+      "speaker_public": "Tom Peterson",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Tom Peterson"
     },
     {
       "turn_id": "turn_000082",
       "start": 2570.63,
       "end": 2636.67,
       "text": "Piggybacking off of councilmember Hall's comment about the meals tax I do wonder if we can just permitting or do something along that lines to make up some of What catch some of those fees that we're missing from not getting the meals tax or other things? That's the kind of information. I think that would be beneficial is to really know what the return on investment You know could be in Doing that like okay, we lose the meals tax if we bring in all these food trucks But if we have a permitting fee that is adjusted to compensate for some of that that could you know Maybe balance that out so that was my thought in bringing economic development into the mix was more of Looking at this and really trying to figure out a solution that like a hybrid as everyone is mentioning here Something along the line so still be able to help out the newer events or smaller events or provide a grant in some way But for you know the ones that are self-funded or the ones that we recognize can be self-funded I Think that more information is just what we need to be able to say which way we want to go with that",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "auto_name_match",
+      "speaker": "Staff Member",
+      "speaker_public": "Staff Member",
+      "speaker_status": "approved",
       "needs_review": false,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Staff Member"
     },
     {
       "turn_id": "turn_000083",
@@ -1276,22 +1298,26 @@
       "start": 5708.24,
       "end": 5751.37,
       "text": "I think one thing that we run into is when we're working with older adult services and wanting To get someone connected like we recognize the need and we want to get them connected to service However, their income may not allow them to receive that service from the county So we're back at square one again trying to find resources that will fit their income requirements And they're able to get the support that they need So I think that's something as a community that would be helpful and not having that income Requirement and Just allowing for if someone needs that support then they should be able to it should be available to them",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Mayor Catherine Read",
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Mayor Catherine Read"
     },
     {
       "turn_id": "turn_000117",
       "start": 5753.17,
       "end": 5788.54,
       "text": "Yeah, in addition to that I would say I've noticed over time that Many of our older adult citizens fall in the category where they're they're surviving, but they're not thriving And so that's the issue we run into some of the times because if you're well below the survival mark I can get you lots of services But if you're just treading water it makes it very hard for us to connect them to things that would be my area Of improvement for us more than anything else Is that is that that is a big barrier to care for a lot of people where if they were worse off slightly? I'd have a much easier opportunity",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Mayor Catherine Read",
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Mayor Catherine Read"
     },
     {
       "turn_id": "turn_000118",
@@ -1364,11 +1390,13 @@
       "start": 6077.43,
       "end": 6110.77,
       "text": "I Did want to ask how often do you or do you refer people? To some of the organization clubs things like that that we have in the area that could you had mentioned that There's this need for socialization and our aging population, and we have some really great organizations here in the city that provide that kind of Contact and and ability that socialization do you often link them to like we have the women's club And things things like that in this area. I just see that we have a lot of activity I wasn't sure how much you",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Mayor Catherine Read",
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Mayor Catherine Read"
     },
     {
       "turn_id": "turn_000125",
@@ -1386,11 +1414,13 @@
       "start": 6159.81,
       "end": 6160.22,
       "text": "them right so",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Mayor Catherine Read",
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Mayor Catherine Read"
     },
     {
       "turn_id": "turn_000127",
@@ -1408,11 +1438,13 @@
       "start": 6209.46,
       "end": 6252.03,
       "text": "Yeah, I was just thinking about the story that you told earlier that a lot of individuals aren't really in that threshold to receive some of these services and Sometimes just having that kind that communication that contact that support early on before you get to that point I I will put a little plug for our women's club here in the city is fantastic They send cards to people when they're ill they check on them. They you know wish them a happy birthday They do all of those little social interactions that allow you to feel recognized and help with that Isolation that we're experiencing and seeing in the area so that just was one of the ideas I thought was that might be a resource that we can you know greater coordination to provide that to people would be excellent. Thank",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Anthony Amos",
+      "speaker_public": "Anthony Amos",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Anthony Amos"
     },
     {
       "turn_id": "turn_000129",
@@ -1529,11 +1561,13 @@
       "start": 6872.32,
       "end": 6912.27,
       "text": "I Was just gonna tell you mr. Peterson that so for most of those cases That's one of the common things that I deal with as the people that again are surviving not thriving or slowly going towards That not surviving level Thanks to our partnerships with the more robust areas of the county. We have access to utility support We have access to food support We've access to numerous other things that I can connect people to that not only buy them time But bring in expertise so whether we can quickly help them in the case of like they are destitute and need financial support Or if it's hey, we're heading that way Can we start to direct you to or a better way of living whether it be downsizing or things in your home itself? That is one of the things we can take advantage of here in the city",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Staff Member",
+      "speaker_public": "Staff Member",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Staff Member"
     },
     {
       "turn_id": "turn_000140",
@@ -1716,11 +1750,13 @@
       "start": 7409.02,
       "end": 7409.64,
       "text": "No",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Mayor Catherine Read",
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Mayor Catherine Read"
     },
     {
       "turn_id": "turn_000157",
@@ -2090,11 +2126,13 @@
       "start": 8154.23,
       "end": 8217.04,
       "text": "It's amazing councilmember Peterson I don't know if you've checked quality control issues, but it'd be worth doing that So not not all translators are created equal right right and not all languages are easy Similar and ease to translate and sometimes you can get some goofs Sometimes they're problematic You know, I've used a lot of translators and a lot of public meetings in a lot of countries and you find it real quick that There are certain things that they have a tough time with and so technical things are a prime example of that It's often difficult for translation programs to be able to sort out Technical terminology jargon of different types and we use a lot of jargon politically in this country as well That's very difficult to translate into other countries and sometimes it translates in ways that are offensive or embarrassing and all that So just a long way of saying to the extent you can check it out To see how this has worked for others who've had to use it in this kind of an operating environment I think it'd be helpful to do.",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "auto_name_match",
+      "speaker": "Tom Peterson",
+      "speaker_public": "Tom Peterson",
+      "speaker_status": "approved",
       "needs_review": false,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Tom Peterson"
     },
     {
       "turn_id": "turn_000191",
@@ -2123,11 +2161,13 @@
       "start": 8205.58,
       "end": 8205.62,
       "text": "embarrassing",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Anthony Amos",
+      "speaker_public": "Anthony Amos",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Anthony Amos"
     },
     {
       "turn_id": "turn_000194",
@@ -2178,11 +2218,13 @@
       "start": 8257.15,
       "end": 8257.34,
       "text": "That's exactly",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Tom Peterson",
+      "speaker_public": "Tom Peterson",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Tom Peterson"
     },
     {
       "turn_id": "turn_000199",
@@ -2354,11 +2396,13 @@
       "start": 8445.09,
       "end": 8445.39,
       "text": "or",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Tom Peterson",
+      "speaker_public": "Tom Peterson",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Tom Peterson"
     },
     {
       "turn_id": "turn_000215",
@@ -2849,11 +2893,13 @@
       "start": 9343.7,
       "end": 9348.78,
       "text": "Councilmember Peterson just to clarify the last power the last two different",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "auto_self_id",
+      "speaker": "Councilmember McQuillen",
+      "speaker_public": "Councilmember McQuillen",
+      "speaker_status": "approved",
       "needs_review": false,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Councilmember McQuillen"
     },
     {
       "turn_id": "turn_000260",
@@ -2926,11 +2972,13 @@
       "start": 9405.85,
       "end": 9461.22,
       "text": "Yes, and no so the less or is of property commercial side. We are at the max Based off of what the state would allow I Would assume that in some time in the past the state did not have a state maximum and Localities had different rates at some point the state came in and said this is the maximum and that's sort of where we are now If we were wanting to increase that we would have to petition the General Assembly to go anything above point two three Unlike the other half that you mentioned councilmember Peterson the professional real estate and financial where the state maximum is point five eight The city is currently at point four zero the Northern Virginia average is point four eight That one there would be room potentially to increase. So",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "auto_name_match",
+      "speaker": "Tom Peterson",
+      "speaker_public": "Tom Peterson",
+      "speaker_status": "approved",
       "needs_review": false,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Tom Peterson"
     },
     {
       "turn_id": "turn_000267",
@@ -2992,11 +3040,13 @@
       "start": 9543.79,
       "end": 9708.52,
       "text": "budget memo number six to the manager's point and I think to where I think councilmember Peterson maybe councilmember or other council members were sort of alluding to if We were to potentially increase that one segment in the people rate the That area specifically In professional real estate and financial from point four to the northern Virginia average of point four eight The Commissioner revenue did state that bringing that up by that amount would potentially generate an additional almost $700,000 so six hundred and ninety eight thousand he stated each additional One cent increase would yield about eighty seven thousand three hundred twenty five dollars, so that would be a potential Amount of additional revenue that has not been added or was included in the manager's proposed budget again I would need to follow up with the Commissioner revenue and try to get some of that economic data to see what the impact Would potentially be if we were to do something like that Aside again trying to increase that rates to the northern Virginia average of point four eight would potentially generate an additional $700,000 that has not previously been Advertised or incorporated in the FY 27 proposed budget that being said We are on somewhat of a tight timeline. I'm looking at the city clerk to verify this So April 14th, so next Tuesday seven days from today we will be advertising the introductions of certain rates Be pole is currently not listed in any staff report It is again not listed in the manager proposed budget if council were to give us direction Or the recommendation that we would give is to potentially add that in as a potential option or lever Doesn't necessarily mean we have to pull that lever at a later date We could just introduce it go through the administrative process if council so decides to not do anything to it We don't have to take any action on that item very similar to what transpired Last year with the meals rate where we introduced it it went all the way through budget adoption that night We actually affirmed no action made no change, but we went through the process So that would be a potential recommendation that staff would give given where we are sort of in the budget process and the administrative timing on the requirements to Introduce and advertise accordingly",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "auto_name_match",
+      "speaker": "Staff Member",
+      "speaker_public": "Staff Member",
+      "speaker_status": "approved",
       "needs_review": false,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Staff Member"
     },
     {
       "turn_id": "turn_000273",
@@ -3344,11 +3394,13 @@
       "start": 10419.6,
       "end": 10421.78,
       "text": "I knew we were getting there together Alright,",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Tom Peterson",
+      "speaker_public": "Tom Peterson",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Tom Peterson"
     },
     {
       "turn_id": "turn_000305",
@@ -3586,11 +3638,13 @@
       "start": 11005.96,
       "end": 11005.99,
       "text": "avoid",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Tom Peterson",
+      "speaker_public": "Tom Peterson",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Tom Peterson"
     },
     {
       "turn_id": "turn_000327",
@@ -3619,11 +3673,13 @@
       "start": 11113.97,
       "end": 11114.29,
       "text": "So Again,",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Daniel Alexander",
+      "speaker_public": "Daniel Alexander",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Daniel Alexander"
     },
     {
       "turn_id": "turn_000330",
@@ -3718,11 +3774,13 @@
       "start": 11591.45,
       "end": 11677.48,
       "text": "No, so your memories correct councilmember Peterson at the November budget retreat we did show some CIP sandwich slides is what I called them In one of those slides it did show a projected future spend About half of it half half a billion dollars was attributable to a potential future renovation of the high school And then also the middle school Those two projects are not a hundred percent scope schools has not come forward It was just based off of the September 2023 feasibility study done by Mosley that identified all schools and at some point Those will be need need to be renovated as well. And those were the anticipated projections at that time Additionally, you also have other infrastructure internally the property yard being one of the larger ones at about a hundred and twenty hundred and sixty million dollars currently that's being projected as well, so Absolutely large ticket items. I think councilmember Hall summarized it very well. These are Generational investments probably the last time that the city had significant capital investments of this magnitude was when it was founded Sixty some odd years ago and now we're sort of at that point where we need to renovate and we're constructing you as well So absolutely correct, sir",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "auto_name_match",
+      "speaker": "Councilmember McQuillen",
+      "speaker_public": "Councilmember McQuillen",
+      "speaker_status": "approved",
       "needs_review": false,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Councilmember McQuillen"
     },
     {
       "turn_id": "turn_000339",
@@ -3806,11 +3864,13 @@
       "start": 11751.61,
       "end": 11793.82,
       "text": "I Think councilmember Hall was sort of bringing that up So we'll use the school referendum because that's pretty recent where once a referendum passes the clock starts You have eight years Where you can pull debt off of that approved referendum you could ask the circuit court for a two-year extension But beyond that so a maximum of ten years is the limit that you would have to pull debt Associated and directly tied to that approval of that referendum if you don't complete pulling debt within that time frame You would have to and if you need to do another referendum if you still need to renovate and or complete construction of That project",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "auto_name_match",
+      "speaker": "Tom Peterson",
+      "speaker_public": "Tom Peterson",
+      "speaker_status": "approved",
       "needs_review": false,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Tom Peterson"
     },
     {
       "turn_id": "turn_000347",
@@ -3971,11 +4031,13 @@
       "start": 12079.32,
       "end": 12101.57,
       "text": "councilmember Peterson just to Clarify what we are doing with budget memo eight. It sounds like we're just looking forward at some point to hear more about how to Structure a thought process Around this I that's probably not the best way to describe this but we'll be hearing back from you at some point Is that where this is? Yeah, I it",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "auto_name_match",
+      "speaker": "Councilmember McQuillen",
+      "speaker_public": "Councilmember McQuillen",
+      "speaker_status": "approved",
       "needs_review": false,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Councilmember McQuillen"
     },
     {
       "turn_id": "turn_000362",
@@ -4059,11 +4121,13 @@
       "start": 12276.36,
       "end": 12462.81,
       "text": "Hall. Sorry. Thank you Just to wrap up on the referendum thing I I What think maybe put a pin in it To borrow the mayor's phrase I'm interested in discussing it. I think We probably have bigger first to fry at the moment and it's not going to be another immediate need for a little bit later But I don't want to just let it completely go off the wayside. I do worry about putting something in that's too structured But I would like to revisit this in the future. It sounds like there's support for that as well So now off of budget for a moment just general thing, I know we don't get council comments tonight, but I did reach out to each of my colleagues the Only person I didn't hear back from was councilmember Amos, which is expected because he is away But I just wanted to bring this to Staffs attention. I know I emailed with Anna Safford our urban forester, but there have been several Properties in neighborhoods that have taken down an extraordinary number of trees without getting proper permits and It was heartbreaking to see what happened recently to a couple in my neighborhood And so I reached out with some questions and I was told that the current city code dates back to the 1970s With no update since then We back up just a minute. So people that need permits are in Zoning districts RL RM and RH and on a lot that is greater than or equal to one half acre and Only if the tree is greater than or equal to five inches in caliber, and I think that's at chest height So this really leaves which I didn't realize I was a pun But this leaves much of the city without a permit requirement even in single-family home and town home communities So what I was proposing to my colleagues was that could we Reconsider this for both lot size and the applicable zones Especially with all the new development coming in and that was when I had asked when it was last reviewed So just to be clear I shared that information with my colleagues and I said, you know, I had serious concerns about these things and there was support from everyone that responded to me so Five out of the six here including myself support looking into it and I understand that this is something that is likely Hopefully going to be covered in part of the tree conservation tax amendment package. It's coming up soon So I don't mean to put more work on staff, but I was really really Really devastated to see what happened in my neighborhood and the fact that Kind of putting all those steps together that anyone in most neighborhoods around here can just take out whatever trees they want at any time and I know I believe Anna Safford had said that I could be wrong 70% of our tree canopy is on private property and We're not protecting that as far as I'm concerned",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "auto_name_match",
+      "speaker": "Daniel Alexander",
+      "speaker_public": "Daniel Alexander",
+      "speaker_status": "approved",
       "needs_review": false,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Daniel Alexander"
     },
     {
       "turn_id": "turn_000370",
@@ -4081,11 +4145,13 @@
       "start": 12499.12,
       "end": 12499.23,
       "text": "wasn't",
-      "speaker": "Unknown Speaker",
-      "speaker_public": "Unknown Speaker",
-      "speaker_status": "needs_review",
+      "speaker": "Mayor Catherine Read",
+      "speaker_public": "Mayor Catherine Read",
+      "speaker_status": "approved",
       "needs_review": true,
-      "source": "word_level_fusion"
+      "source": "word_level_fusion",
+      "review_reason": "video_verified",
+      "speaker_raw": "Mayor Catherine Read"
     },
     {
       "turn_id": "turn_000372",
