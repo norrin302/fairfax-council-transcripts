@@ -183,10 +183,10 @@
       "end": 663.84,
       "text": "And I think that's at Pat Rodeo Park? Yes. Pat Rodeo Park. I think that's a new venue for us.",
       "speaker_raw": "SPEAKER_22",
-      "speaker_public": "Mayor Catherine Read",
+      "speaker_public": "Faisal Alam",
       "speaker_status": "approved",
       "needs_review": false,
-      "review_reason": "",
+      "review_reason": "reviewed:corrected | Faisal continues after Mayor intro at 09:50 - text matches Faisal context (Pat Rodeo Park)",
       "confidence": null
     },
     {
@@ -2616,5 +2616,6 @@
       "review_reason": "caption:explicit",
       "confidence": null
     }
-  ]
+  ],
+  "transcript_version": "1.0.fixed"
 }

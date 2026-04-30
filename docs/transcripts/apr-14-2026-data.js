@@ -1,20 +1,20 @@
-// Fixes: 3 roll call name-readings + 1 additional misattribution corrected
+// Fixes: 3 roll call name-readings + 1 additional misattribution corrected + 5 speaker corrections + 1 text split fixed
 const TRANSCRIPT_TURNS = [
   {
     "speaker": "Mayor Catherine Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 160,
-    "end": 94600,
+    "end": 263890,
     "text": "Sa. Sam. Good evening. I would like to call the regular meeting of April 14, 2026 to order. It's good to see the chamber full. We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the Pledge of Allegiance. I pledge allegiance to the flag of the United States of America and to the one nation under God, indivisible, with liberty and justice for all. I will now ask Suzanne Levy, Eric Carzon and Alana Quarles with the City of Fairfax Library to come down for the proclamation acknowledging National Library Week. Well, you'll be in the middle. Okay, I'll be. I'll be in the middle. That sounds reasonable. All right. Whereas Libraries spark creativity, fuel imagination, and inspire lifelong learning, offering a space where individuals of all ages can find joy through exploration and discovery. And whereas. Libraries serve as vibrant community hubs, connecting people with knowledge, technology and resources while fostering civic engagement, critical thinking and cultural enrichment. And whereas. Libraries provide free and equitable access to books, digital tools and innovative programming, ensuring that all individuals, regardless of background, have the support they need to learn, connect, and thrive. And whereas. Libraries partner with schools, businesses and organizations, connecting the dots to maximize resources, increasing efficiency and expand access to essential services, strengthening the entire community. And whereas. Libraries empower job seekers, entrepreneurs and lifelong learners by providing access to resources, training, and opportunities that support career growth and economic success. And whereas. Libraries nurture young minds through story times, STEAM programs and literacy initiatives, fostering curiosity and a love of learning that lasts a lifetime. And whereas. Libraries protect the right to read, think and explore without censorship, standing as champions of intellectual freedom and free expression. And whereas. Dedicated librarians and library workers provide welcoming spaces that inspire discovery, collaboration and creativity for all. And whereas libraries, librarians and library workers across the country are joining together to celebrate National Library Week under the theme, find your joy now. Therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, do hereby proclaim April 19th to the 25th, 2026, as National Library Week in the City of Fairfax and encourage the community during this week to visit their library, explore its resources, and celebrate all the ways that the library helps our community find joy. And with that, I turn it over to Ms. Suzanne Levy."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "REDACTED",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 160,
     "end": 263890,
-    "text": "one nation under God, indivisible, with liberty and justice for all. I will now ask Suzanne Levy, Eric Carzon and Alana Quarles with the City of Fairfax Library to come down for the proclamation acknowledging National Library Week. Well, you'll be in the middle. Okay, I'll be. I'll be in the middle. That sounds reasonable. All right. Whereas Libraries spark creativity, fuel imagination, and inspire lifelong learning, offering a space where individuals of all ages can find joy through exploration and discovery. And whereas. Libraries serve as vibrant community hubs, connecting people with knowledge, technology and resources while fostering civic engagement, critical thinking and cultural enrichment. And whereas. Libraries provide free and equitable access to books, digital tools and innovative programming, ensuring that all individuals, regardless of background, have the support they need to learn, connect, and thrive. And whereas. Libraries partner with schools, businesses and organizations, connecting the dots to maximize resources, increasing efficiency and expand access to essential services, strengthening the entire community. And whereas. Libraries empower job seekers, entrepreneurs and lifelong learners by providing access to resources, training, and opportunities that support career growth and economic success. And whereas. Libraries nurture young minds through story times, STEAM programs and literacy initiatives, fostering curiosity and a love of learning that lasts a lifetime. And whereas. Libraries protect the right to read, think and explore without censorship, standing as champions of intellectual freedom and free expression. And whereas. Dedicated librarians and library workers provide welcoming spaces that inspire discovery, collaboration and creativity for all. And whereas libraries, librarians and library workers across the country are joining together to celebrate National Library Week under the theme, find your joy now. Therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, do hereby proclaim April 19th to the 25th, 2026, as National Library Week in the City of Fairfax and encourage the community during this week to visit their library, explore its resources, and celebrate all the ways that the library helps our community find joy. And with that, I turn it over to Ms. Suzanne Levy."
+    "text": "[duplicate segment - superseded by extended preceding turn]"
   },
   {
     "speaker": "Suzanne Levy",
@@ -33,9 +33,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you. So now we're going to get a picture, right? And really, if you don't have a library card, really, it's time to get one. You don't have a library. Come on in."
   },
   {
-    "speaker": "Library Staff Member",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Suzanne Levy",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Corrected from Library Staff Member",
     "start": 373250,
     "end": 376450,
     "text": "Well, Mayor Reed has the name to have a library card."
@@ -129,17 +129,17 @@ const TRANSCRIPT_TURNS = [
     "text": "Good evening, everyone. So I'm here as a science teacher, standing here in front of you and the SC Committee member to kind of this is a great day for all of us. We all are here. We breathe oxygen and we all breathe it thanks to our trees."
   },
   {
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Faisa Alam",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Corrected from Mayor Catherine Read",
     "start": 590480,
     "end": 651300,
     "text": "So please join us on the Arbor day event on April 25th. And I would also like to make a pitch for making our carbon footprint a little better than what we do. I am one of the persons who benefited from the city's Solarize Virginia program last year, and I have solar panels on my house and few other friends who are also in this room have that. And since October, I have not paid anything to dominion other than $7 something, and I have exported a lot of power out there. So this year, again, the Solarize Virginia is a great program. It's opening up again in April 16th. Stephanie? Yes. 15th. And it will continue. It is a very good vetted program. It's the best rate you're going to get. So just spread the word out and do that. And please join us on the Arbor Day on April 25. The event begins at 9am we will have some students who are written beautiful poetries. They will be reciting. We'll have tree giveaways, tree plantations, and a lot of fun. So please join us."
   },
   {
-    "speaker": "Councilmember Tom Peterson",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Corrected from Councilmember Tom Peterson",
     "start": 651700,
     "end": 665300,
     "text": "All right, any other remarks? Okay. And I think that's at Pat Rodeo Park. Yes, Pat Rodeo Park. I think that's a new venue for us. Okay, picture"
@@ -161,9 +161,9 @@ const TRANSCRIPT_TURNS = [
     "text": "All right, so joining Stephanie and Anna, I'm looking for Janet Jaworski, Mary Driver Downs Faza Alam and Rusty Russell. You guys, where'd you go? All right, More. More things to celebrate. So many things. Whereas the monarch butterfly is an iconic North American species whose multi generational migration and metamorphosis from caterpillar to butterfly has captured the imagination of millions of Americans. And whereas both the western and eastern monarch populations have seen significant declines with less than 1% of the Western monarch population remaining, while the eastern population has fallen by as much as 90%. And whereas the city of Fairfax recognizes that human health ultimately depends on well functioning ecosystems and that biodiverse regions can better support food production, healthy soil and air quality, and can foster healthy connections between humans and wildlife. And whereas cities, towns and counties have a critical role to play in helping save the monarch butterfly by providing habitat at public parks, in median strips, community gardens, and municipal buildings that serve as community hubs, such as recreation centers, libraries and schools. And whereas simple changes in landscaping ordinances or school policies can make a big difference for the monarch, educating citizens about how to provide essential habitat for monarchs and where and how to grow milkweed, which is a key piece of the puzzle in creating habitat and educating citizens, benefits other pollinators that need healthy habitats as well. Now, therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, do hereby commit to the Mayor's Monarch Pledge. This is a nationwide thing, the Mayor's Monar Monarch Pledge, and encourage all residents to participate in community activities that support and celebrate monarch conservation so that these magnificent butterflies will once again flourish across this continent. And with that, I will turn it over to Ms. Janet Jaworski."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Janet Jaworski",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Corrected from Councilmember Anthony Amos",
     "start": 829960,
     "end": 965440,
     "text": "Okay, thank you, Mayor Reed. Following up on the Mayor's comments, I have a certified monarch waystation in our yard, which some of you may have heard of. It's through Monarch Watch at the University of Kansas. So besides, in public parks and public spaces, individual homeowners really can make a difference for the monarch butterfly. Really, even one milkweed plant in your yard can make a huge difference because as the mayor said, that is the only food that the monarch caterpillar will eat. And so if you have a milkweed plant in your yard and the caterpillars can start their life cycle and of course, metamorphosis into the butterfly, the other thing you can do as a homeowner is have nectar plants in your yard, particularly late blooming nectar plants in the fall. The migration to Mexico in this area is August through October. And so if you have a nectar source in your yard that the butterflies can access during that southward migration, that is very helpful to them. So some ideas for planting in your yard would be goldenrod or aster so that they've got that nectar source on their way to Mexico. The good news is that in this past overwintering season in Mexico, There was a 64% increase in the amount of butterfly and the amount of monarchs that were there. So we're showing some improvement. We're not really there yet to the goal, but we're moving in the right direction. So that was good news from the overwintering sites in Mexico. So you can, if anyone wants to visit my yard this summer, you can reach out to the city clerk and get my address. But you can actually have butterflies flying around you. You can see caterpillars in the yard, and it's very exciting. Mary, my colleague from the women's club also has a lot of milkweed in her yard. Cindy Meyer has milkweed in her yard. And there are probably a number of you who also have that. It's very exciting. It's a science project going on right in your yard. I've had field trips from our daycare down the street. I've done some stuff virtually for the science teacher at Daniel's Run. So it's very exciting. So I'm happy to guide anybody who wants to do this project? So turn it over to Stephanie Johnson has got."
@@ -177,9 +177,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you, Jen. You covered all of it. Well. So the commitment to, you know. And I've got astros in my yard. And. And these plants are beautiful, too. So think about the fact that when you choose what you plant in your yard, there's all kinds of benefits. Like you get to have butterflies. Okay with that? A. So I'm going to now invite the Women's Club of Fairfax to join me up here so that we can talk about the 70th anniversary of this very august body of women who exist here in our city. Everybody, this is wonderful. Everybody in. Everybody in. Everybody in. Lovely to see everyone. Lovely to see everyone. Is everybody in? Okay. We all here? Okay. Whereas the Women's Club of Fairfax was established in 1956 by friends wanting to make a difference in the community and further their commitment by registering their club with the state and national general federation of women's Clubs. And whereas as the town of Fairfax became the city of Fairfax, the area grew from a quiet rural community into a bustling region. The women's club was an active participant in keeping the history and small town feel alive through generous contributions of time and financial support of many worthy causes. And whereas. The Women's Club of Fairfax continues to contribute funds and volunteer services to Fairfax cultural and civic organizations and events such as the Independence Day celebration, City of Fairfax Band Association, Fairfax Volunteer fire Department, the inter service club council and the chocolate lovers Festival and has adopted the school street park, providing quarterly maintenance of weeding and planting as well as donating a park bench to encourage use of the park. And whereas. The Women's Club of Fairfax supported the construction of the Turning point Suffragist Memorial in Occoquan Regional park and annually offers an achievement scholarship to a graduating local high school senior who will attend a Virginia university or college. And whereas. The Women's Club of Fairfax offers programs focusing on issues of importance to women, family, families and the community and continues today as a unified and diverse group of women dedicated to enhancing the lives of families and strengthening their community through volunteers. Volunteer service. Now, therefore, I, Catherine S. Reed, mayor of the city of Fairfax, Virginia, in concert with the city council, do hereby commend the Women's Club of Fairfax on their 70th anniversary and encourage all citizens of the city of Fairfax to recognize, commemorate and celebrate the wonderful contributions the Women's Club of Fairfax has made to the betterment of the city of Fairfax. And with that. Who is speaking? Martha, come on. The president of the Women's club."
   },
   {
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Martha",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Corrected from Mayor Catherine Read",
     "start": 1182000,
     "end": 1208820,
     "text": "Good evening. I just want to say that we feel very fortunate to be a part of the city, and we enjoy doing as much as we can to be supportive of the city. And I think it's pretty impressive that we have sustained ourselves for 70 years, considering all the different ups and downs of the past 70 years. And we look forward to serving you for many more years. And thank you."
@@ -2361,3 +2361,7 @@ const TRANSCRIPT_TURNS = [
     "text": "There's an event on Friday the 17th. There is a Spotlight on the Arts event. There is also the opening reception on April 24, which is the following Friday. But there are events for the rest of April and into the first part of May. So please check online for all of the events happening all over. Fairfax High School has their Rotten Tomatoes show at the high school and there's a lot of other events, music and theater going on in the next three weeks that celebrate the arts and is an important part of Spotlight on the Arts. So with that, I am now going to adjourn this meeting at 9:46pm on Tuesday. Sam."
   }
 ];
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = TRANSCRIPT_TURNS;
+}
