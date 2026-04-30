@@ -1,5 +1,4 @@
 // Fairfax City Council Apr 14 2026 - Speaker label corrections (video verified)
-// Roll call section, name-readings, and scene marker prefixes corrected
 const TRANSCRIPT_TURNS = [
   {
     "speaker": "Mayor Catherine Read",
@@ -7,7 +6,7 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 160,
     "end": 94600,
-    "text": "Sa. Sam. Good evening. I would like to call the regular meeting of April 14, 2026 to order. It's good to see the chamber full. We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the Pledge of Allegiance. I pledge allegiance to the flag of the United States of America and to"
+    "text": "[inaudible] Good evening. I would like to call the regular meeting of April 14, 2026 to order. It's good to see the chamber full. We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the Pledge of Allegiance. I pledge allegiance to the flag of the United States of America and to"
   },
   {
     "speaker": "Mayor Catherine Read",
