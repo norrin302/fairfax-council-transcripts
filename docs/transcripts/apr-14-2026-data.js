@@ -1,4 +1,4 @@
-// Roll call corrected: City Clerk announces motion passed, Mayor Read presides
+// Roll call corrected: City Clerk announces, Mayor Read presides
 const TRANSCRIPT_TURNS = [
   {
     "speaker": "Mayor Catherine Read",
@@ -393,7 +393,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Aye."
   },
   {
-    "speaker": "Councilmember Billy Bates",
+    "speaker": "City Clerk",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1657800,
@@ -473,7 +473,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Sorry."
   },
   {
-    "speaker": "Councilmember Billy Bates",
+    "speaker": "City Clerk",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1669080,
