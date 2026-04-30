@@ -1,5 +1,4 @@
-// Fairfax City Council Apr 14 2026 - Speaker label corrections
-// Fixes: roll call name-reading misattributions (video verified against Granicus 4519-1)
+// Fairfax City Council Apr 14 2026 - Speaker label corrections (comprehensive)
 const TRANSCRIPT_TURNS = [
   {
     "speaker": "Mayor Catherine Read",
@@ -330,7 +329,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Work."
   },
   {
-    "speaker": "Councilmember Billy Bates",
+    "speaker": "City Clerk",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1639300,
@@ -338,7 +337,7 @@ const TRANSCRIPT_TURNS = [
     "text": "We can move on to the adoption of the agenda."
   },
   {
-    "speaker": "Councilmember Tom Peterson",
+    "speaker": "Mayor Catherine Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1643700,
@@ -354,7 +353,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Second."
   },
   {
-    "speaker": "Councilmember Tom Peterson",
+    "speaker": "Mayor Catherine Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1651480,
