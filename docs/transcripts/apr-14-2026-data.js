@@ -1,4 +1,4 @@
-// Fixes: 3 roll call name-readings + 1 additional misattribution corrected + 5 speaker corrections + 1 text split fixed
+// Fixes: 3 roll call name-readings + 1 additional misattribution corrected + 5 speaker corrections + 1 text split fixed + 14 additional corrections
 const TRANSCRIPT_TURNS = [
   {
     "speaker": "Mayor Catherine Read",
@@ -193,25 +193,25 @@ const TRANSCRIPT_TURNS = [
     "text": "All right. I'll now ask our Fairfax City police dispatchers to come down here so we can celebrate you. Come on. It's cool to stand up here and just be stared at. Trust me, not awkward at all. All good. All good. You guys are important. So important. Very important. All right, everybody in. The cutest. All right. Whereas the week of April 12th through 18th, 2026, has been designated as National Public Safety Telecommunicators Week, a time to raise awareness and recognize the critical contributions of highly trained telecommunications professionals who provide vital 911 emergency assist to those in need. And whereas emergencies requiring police, fire or emergency medical services can occur at any time and the prompt response of police officers, firefighters and paramedics is essential to the protection of life and preservation of property. And whereas the safety of police officers, firefighters and paramedics depends upon the quality and accuracy of information obtained from citizens who contact the city of Fairfax emergency communications center. And whereas public safety telecommunicators are the first and most critical point of contact our residents have with emergency services, serving as the vital link between the public and emergency responders. And whereas public safety telecommunicators contribute substantially to the apprehension of criminals, the suppression of fires and the treatment of patients, demonstrating professionalism, understanding and dedication in every call they handle. And whereas within the police department, a dispatcher of the year is nominated by police personnel to recognize an individual for exceptional performance exemplifying the commitment and excellence demonstrated by all emergency dispatch professionals in our city each and every day, 24 hours a day and seven days a week. Now, therefore, I, Catherine S. Reed, mayor of the city of Fairfax, do hereby proclaim April 12 to 18, 2026, is National Public Safety Telecommunicators Week in the city of Fairfax and encourage all members of our community to join in extending our warmest measure of gratitude and support to our public safety telecommunications dispatchers, including our award recipient, Aliyah Tibbs. Aliyah Tibbs. Elijah. Okay. Elijah Tibbs, the 2025 Dispatcher of the year, who provides critical and essential services daily to the countless number of residents, business owners and visitors within our community. So with that, Elijah."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "REDACTED",
+    "speaker_source": "background_noise",
+    "speaker_source_detail": "Corrected from Councilmember Anthony Amos",
     "start": 1440760,
     "end": 1441120,
     "text": "No."
   },
   {
-    "speaker": "Councilmember Tom Peterson",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "REDACTED",
+    "speaker_source": "background_noise",
+    "speaker_source_detail": "Corrected from Councilmember Tom Peterson",
     "start": 1441120,
     "end": 1441640,
     "text": "Cease."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "REDACTED",
+    "speaker_source": "background_noise",
+    "speaker_source_detail": "Corrected from Councilmember Anthony Amos",
     "start": 1445160,
     "end": 1445560,
     "text": "Chief."
@@ -225,41 +225,41 @@ const TRANSCRIPT_TURNS = [
     "text": "Good evening, everybody. You know, it's A great opportunity to be here with you and celebrating. So such an important, important group of professionals in our public safety world. I just want to introduce everybody really quickly. Our dispatcher, Ms. Araceli Gonzalez. Ms. Courtney Ellis. Elijah Tibbs, who was just introduced as our dispatcher of the year for 2025. Our communications and records supervisor, Ms. Cynthia Tetterton. Our lieutenant, Ms. Stephanie Sharp, who oversees the entire operation, and then Captain Brock Rutter, who oversees the administrative services division. With them. There's another six dispatchers that help answer all the phone calls from people within our city. Whether you're living here, working here, visiting, if you have any type of emergency, if you need directions somewhere, you call the police and they answer. And it's something beautiful to watch. If you ever have the opportunity to be in a911 center and to see what happens, particularly when there's a critical situation occurring in the city and all of them come together and whether it's. You have to understand what they do. They take the phone call, they're a detective, they're asking questions. They're figuring out what it is that's happening, where it's happening, what's that vital information that has to get routed to our responding police or fire personnel at the same time. They're typing it all and routing it to the police officers and emergency personnel, real time as they're typing it fast, figuring out what to ask, what's the next question, typing it in and routing it to the right people and assigning the right personnel to respond to that call. It's incredible. And so I really thank all of our dispatchers, appreciate everybody supporting them and for our proclamation. Mayor, thank you so much."
   },
   {
-    "speaker": "Councilmember Tom Peterson",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Corrected from Councilmember Tom Peterson",
     "start": 1556580,
     "end": 1562110,
     "text": "And who is. Who is this officer? Officer I forgot to introduce?"
   },
   {
-    "speaker": "Councilmember Stacy Hall",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Unknown Speaker",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Corrected from Stacy Hall",
     "start": 1562110,
     "end": 1562670,
     "text": "Sherry."
   },
   {
-    "speaker": "Councilmember Tom Peterson",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Corrected from Councilmember Tom Peterson",
     "start": 1563230,
     "end": 1566190,
     "text": "Officer Sherry. Okay, Officer Sherry."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "REDACTED",
+    "speaker_source": "background_noise",
+    "speaker_source_detail": "Corrected from Councilmember Anthony Amos",
     "start": 1568270,
     "end": 1568910,
     "text": "Okay."
   },
   {
-    "speaker": "Councilmember Tom Peterson",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Corrected from Councilmember Tom Peterson",
     "start": 1569390,
     "end": 1570390,
     "text": "Wonderful, wonderful."
@@ -273,49 +273,49 @@ const TRANSCRIPT_TURNS = [
     "text": "Sher's our wellness dog, so she. She's here to support everybody."
   },
   {
-    "speaker": "Councilmember Tom Peterson",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "REDACTED",
+    "speaker_source": "background_noise",
+    "speaker_source_detail": "Corrected from Councilmember Tom Peterson",
     "start": 1573950,
     "end": 1576510,
     "text": "So we are going to nab a picture. All."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "REDACTED",
+    "speaker_source": "background_noise",
+    "speaker_source_detail": "Corrected from Councilmember Anthony Amos",
     "start": 1586680,
     "end": 1586920,
     "text": "Work."
   },
   {
-    "speaker": "Councilmember Billy Bates",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Corrected from Councilmember Billy Bates",
     "start": 1639300,
     "end": 1641620,
     "text": "We can move on to the adoption of the agenda."
   },
   {
-    "speaker": "Councilmember Tom Peterson",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Corrected from Councilmember Tom Peterson",
     "start": 1643700,
     "end": 1649400,
     "text": "Is there a motion to approve the agenda? I move to adopt the agenda as presented. Is there a second?"
   },
   {
-    "speaker": "Councilmember Stacy Hall",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Councilmember Anthony Amos",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Corrected from Councilmember Stacy Hall",
     "start": 1650120,
     "end": 1650520,
     "text": "Second."
   },
   {
-    "speaker": "Councilmember Tom Peterson",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Corrected from Councilmember Tom Peterson",
     "start": 1651480,
     "end": 1654040,
     "text": "The motion has been made and seconded. A roll call vote."
@@ -425,9 +425,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Motion passed unanimously."
   },
   {
-    "speaker": "Councilmember Tom Peterson",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Councilmember Rachel McQuillen",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Corrected from Councilmember Tom Peterson",
     "start": 1667960,
     "end": 1668520,
     "text": "Sorry."
