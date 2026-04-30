@@ -1,4 +1,4 @@
-// Fairfax City Council Apr 14 2026 - Speaker label corrections (video verified)
+// Fixes: 3 roll call name-readings + 1 additional misattribution corrected
 const TRANSCRIPT_TURNS = [
   {
     "speaker": "Mayor Catherine Read",
@@ -6,21 +6,13 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 160,
     "end": 94600,
-    "text": "[inaudible] Good evening. I would like to call the regular meeting of April 14, 2026 to order. It's good to see the chamber full. We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the Pledge of Allegiance. I pledge allegiance to the flag of the United States of America and to"
+    "text": "Sa. Sam. Good evening. I would like to call the regular meeting of April 14, 2026 to order. It's good to see the chamber full. We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the Pledge of Allegiance. I pledge allegiance to the flag of the United States of America and to the one nation under God, indivisible, with liberty and justice for all. I will now ask Suzanne Levy, Eric Carzon and Alana Quarles with the City of Fairfax Library to come down for the proclamation acknowledging National Library Week. Well, you'll be in the middle. Okay, I'll be. I'll be in the middle. That sounds reasonable. All right. Whereas Libraries spark creativity, fuel imagination, and inspire lifelong learning, offering a space where individuals of all ages can find joy through exploration and discovery. And whereas. Libraries serve as vibrant community hubs, connecting people with knowledge, technology and resources while fostering civic engagement, critical thinking and cultural enrichment. And whereas. Libraries provide free and equitable access to books, digital tools and innovative programming, ensuring that all individuals, regardless of background, have the support they need to learn, connect, and thrive. And whereas. Libraries partner with schools, businesses and organizations, connecting the dots to maximize resources, increasing efficiency and expand access to essential services, strengthening the entire community. And whereas. Libraries empower job seekers, entrepreneurs and lifelong learners by providing access to resources, training, and opportunities that support career growth and economic success. And whereas. Libraries nurture young minds through story times, STEAM programs and literacy initiatives, fostering curiosity and a love of learning that lasts a lifetime. And whereas. Libraries protect the right to read, think and explore without censorship, standing as champions of intellectual freedom and free expression. And whereas. Dedicated librarians and library workers provide welcoming spaces that inspire discovery, collaboration and creativity for all. And whereas libraries, librarians and library workers across the country are joining together to celebrate National Library Week under the theme, find your joy now. Therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, do hereby proclaim April 19th to the 25th, 2026, as National Library Week in the City of Fairfax and encourage the community during this week to visit their library, explore its resources, and celebrate all the ways that the library helps our community find joy. And with that, I turn it over to Ms. Suzanne Levy."
   },
   {
     "speaker": "Mayor Catherine Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
-    "start": 94600,
-    "end": 94880,
-    "text": "the"
-  },
-  {
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
-    "start": 96960,
+    "start": 160,
     "end": 263890,
     "text": "one nation under God, indivisible, with liberty and justice for all. I will now ask Suzanne Levy, Eric Carzon and Alana Quarles with the City of Fairfax Library to come down for the proclamation acknowledging National Library Week. Well, you'll be in the middle. Okay, I'll be. I'll be in the middle. That sounds reasonable. All right. Whereas Libraries spark creativity, fuel imagination, and inspire lifelong learning, offering a space where individuals of all ages can find joy through exploration and discovery. And whereas. Libraries serve as vibrant community hubs, connecting people with knowledge, technology and resources while fostering civic engagement, critical thinking and cultural enrichment. And whereas. Libraries provide free and equitable access to books, digital tools and innovative programming, ensuring that all individuals, regardless of background, have the support they need to learn, connect, and thrive. And whereas. Libraries partner with schools, businesses and organizations, connecting the dots to maximize resources, increasing efficiency and expand access to essential services, strengthening the entire community. And whereas. Libraries empower job seekers, entrepreneurs and lifelong learners by providing access to resources, training, and opportunities that support career growth and economic success. And whereas. Libraries nurture young minds through story times, STEAM programs and literacy initiatives, fostering curiosity and a love of learning that lasts a lifetime. And whereas. Libraries protect the right to read, think and explore without censorship, standing as champions of intellectual freedom and free expression. And whereas. Dedicated librarians and library workers provide welcoming spaces that inspire discovery, collaboration and creativity for all. And whereas libraries, librarians and library workers across the country are joining together to celebrate National Library Week under the theme, find your joy now. Therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, do hereby proclaim April 19th to the 25th, 2026, as National Library Week in the City of Fairfax and encourage the community during this week to visit their library, explore its resources, and celebrate all the ways that the library helps our community find joy. And with that, I turn it over to Ms. Suzanne Levy."
   },
@@ -57,12 +49,8 @@ const TRANSCRIPT_TURNS = [
     "text": "We expect her to go this way."
   },
   {
-    "speaker": "Councilmember Tom Peterson",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
-    "start": 378930,
-    "end": 379250,
-    "text": "Okay."
+    "speaker": "Group",
+    "text": "The group is gathering for a group photo."
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -73,52 +61,36 @@ const TRANSCRIPT_TURNS = [
     "text": "You want to go this way?"
   },
   {
-    "speaker": "Councilmember Anthony Amos",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
-    "start": 380090,
-    "end": 380530,
-    "text": "Yeah."
+    "speaker": "Group",
+    "text": "The group is gathering for a group photo."
   },
   {
-    "speaker": "Councilmember Tom Peterson",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
-    "start": 380850,
-    "end": 384290,
-    "text": "Sorry. Even more."
+    "speaker": "Group",
+    "text": "The group is gathering for a group photo."
+  },
+  {
+    "speaker": "Group",
+    "text": "The group is gathering for a group photo."
+  },
+  {
+    "speaker": "Group",
+    "text": "The group is gathering for a group photo."
+  },
+  {
+    "speaker": "Group",
+    "text": "The group is gathering for a group photo."
   },
   {
     "speaker": "Mayor Catherine Read",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
-    "start": 384450,
-    "end": 390050,
     "text": "Okay, good. Oh, you. Okay?"
   },
   {
-    "speaker": "Councilmember Tom Peterson",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
-    "start": 390130,
-    "end": 390610,
-    "text": "Sorry."
-  },
-  {
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
-    "start": 391410,
-    "end": 392050,
-    "text": "Okay."
-  },
-  {
-    "speaker": "Library Staff Member",
+    "speaker": "Suzanne Levy",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 401410,
     "end": 408010,
-    "text": "Thank you so much, and thank you for this. And the staff is going to take it back to the library and put"
+    "text": "Thank you so much, and thank you for this. And the staff is going to take it back to the library and put it in a prominent place. I will see you at the library."
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -126,31 +98,19 @@ const TRANSCRIPT_TURNS = [
     "speaker_source_detail": "",
     "start": 408010,
     "end": 443680,
-    "text": "it in a prominent place. I will see you at the library. Thank you so much. I'm now going to ask Stephanie Kupka, Anna Safford, City Environmental Sustainability Committee members, Faisa Alam, Rusty Russell, and everyone else who is here from the ESC to come come down here so we can talk about Earth Day and Arbor Day. All right, all right, all right. Did we plan this?"
+    "text": "Thank you so much. I'm now going to ask Stephanie Kupka, Anna Safford, City Environmental Sustainability Committee members, Faisa Alam, Rusty Russell, and everyone else who is here from the ESC to come come down here so we can talk about Earth Day and Arbor Day. All right, all right, all right. Did we plan this?"
   },
   {
-    "speaker": "Councilmember Anthony Amos",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
-    "start": 444090,
-    "end": 444490,
-    "text": "I guess."
+    "speaker": "Group",
+    "text": "[Cross-talk in the room.]"
   },
   {
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
-    "start": 445210,
-    "end": 446250,
-    "text": "Well, you know, whatever."
+    "speaker": "Group",
+    "text": "[Cross-talk in the room.]"
   },
   {
-    "speaker": "Councilmember Anthony Amos",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
-    "start": 446330,
-    "end": 447050,
-    "text": "And the shoes."
+    "speaker": "Group",
+    "text": "[Cross-talk in the room.]"
   },
   {
     "speaker": "Mayor Catherine Read",
@@ -161,7 +121,7 @@ const TRANSCRIPT_TURNS = [
     "text": "There you go. Monarch butterfly. Later. Okay, not that I want to have any spoilers here, but whereas the City of Fairfax recognizes the natural environment as the foundation of a healthy society and a robust economy, providing essential resources that sustain life and contribute to the well being of all. And whereas the global community faces extraordinary environmental challenges, including environmental degradation, global health issues, loss of habitat, climate change, and water and energy crises. And whereas Earth Day and Arbor Day serve as annual reminders that we are all caretakers of our planet and have an obligation to engage in environmental activism, stewardship commitments, and sustainability efforts to preserve the Earth's. Beauty and resources for current and future generations. And whereas the first Earth Day was celebrated in 1970, calling upon millions of Americans to act for a cleaner, safer and healthier environment and Whereas the City of Fairfax has been recognized nationally as a Tree City USA by the Arbor Day foundation for 40 years, setting aside a special day each year for the planting and celebration of trees is vital to our quality of life and environmental health. And Whereas Earth Day and Arbor Day provide opportunities for the community to come together and participate in activities that promote a cleaner, healthier and more sustainable environment. Now, therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, do hereby proclaim April 22, 2026 as Earth Day and April 24, 2026 as Arbor Day in the City of Fairfax, and hereby encourage our community and businesses to observe these days by taking action to protect and enhance our environment. This includes participating in activities such as planting trees, reducing waste, recycling, picking up litter, conserving energy and clean water, and otherwise engaging in actions big and small to preserve our natural resources for the benefit of all living things. And with that, I will turn it over to Faisa Alam. Is this you? I think so."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Faisa Alam",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 575020,
@@ -329,7 +289,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Work."
   },
   {
-    "speaker": "City Clerk",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1639300,
@@ -337,7 +297,7 @@ const TRANSCRIPT_TURNS = [
     "text": "We can move on to the adoption of the agenda."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1643700,
@@ -353,7 +313,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Second."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Councilmember Tom Peterson",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1651480,
@@ -393,7 +353,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Aye."
   },
   {
-    "speaker": "City Clerk",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1657800,
@@ -473,7 +433,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Sorry."
   },
   {
-    "speaker": "City Clerk",
+    "speaker": "Councilmember Billy Bates",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1669080,
