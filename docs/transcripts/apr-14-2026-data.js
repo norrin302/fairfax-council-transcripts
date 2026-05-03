@@ -9,9 +9,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Sa. Sam. Good evening. I would like to call the regular meeting of April 14, 2026 to order. It's good to see the chamber full. We have a lot of things to celebrate tonight. If you are able and so choose, please rise for the Pledge of Allegiance. I pledge allegiance to the flag of the United States of America and to the one nation under God, indivisible, with liberty and justice for all. I will now ask Suzanne Levy, Eric Carzon and Alana Quarles with the City of Fairfax Library to come down for the proclamation acknowledging National Library Week. Well, you'll be in the middle. Okay, I'll be. I'll be in the middle. That sounds reasonable. All right. Whereas Libraries spark creativity, fuel imagination, and inspire lifelong learning, offering a space where individuals of all ages can find joy through exploration and discovery. And whereas. Libraries serve as vibrant community hubs, connecting people with knowledge, technology and resources while fostering civic engagement, critical thinking and cultural enrichment. And whereas. Libraries provide free and equitable access to books, digital tools and innovative programming, ensuring that all individuals, regardless of background, have the support they need to learn, connect, and thrive. And whereas. Libraries partner with schools, businesses and organizations, connecting the dots to maximize resources, increasing efficiency and expand access to essential services, strengthening the entire community. And whereas. Libraries empower job seekers, entrepreneurs and lifelong learners by providing access to resources, training, and opportunities that support career growth and economic success. And whereas. Libraries nurture young minds through story times, STEAM programs and literacy initiatives, fostering curiosity and a love of learning that lasts a lifetime. And whereas. Libraries protect the right to read, think and explore without censorship, standing as champions of intellectual freedom and free expression. And whereas. Dedicated librarians and library workers provide welcoming spaces that inspire discovery, collaboration and creativity for all. And whereas libraries, librarians and library workers across the country are joining together to celebrate National Library Week under the theme, find your joy now. Therefore, I, Catherine S. Reed, Mayor of the City of Fairfax, do hereby proclaim April 19th to the 25th, 2026, as National Library Week in the City of Fairfax and encourage the community during this week to visit their library, explore its resources, and celebrate all the ways that the library helps our community find joy. And with that, I turn it over to Ms. Suzanne Levy."
   },
   {
-    "speaker": "REDACTED",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Group",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Brief unidentifiable utterance - labeled REDACTED in error",
     "start": 160,
     "end": 263890,
     "text": "[duplicate segment - superseded by extended preceding turn]"
@@ -187,31 +187,31 @@ const TRANSCRIPT_TURNS = [
   {
     "speaker": "Mayor Catherine S. Read",
     "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker_source_detail": "Corrected ASR error: Aliyah -> Elijah Tibbs",
     "start": 1267780,
     "end": 1439720,
-    "text": "All right. I'll now ask our Fairfax City police dispatchers to come down here so we can celebrate you. Come on. It's cool to stand up here and just be stared at. Trust me, not awkward at all. All good. All good. You guys are important. So important. Very important. All right, everybody in. The cutest. All right. Whereas the week of April 12th through 18th, 2026, has been designated as National Public Safety Telecommunicators Week, a time to raise awareness and recognize the critical contributions of highly trained telecommunications professionals who provide vital 911 emergency assist to those in need. And whereas emergencies requiring police, fire or emergency medical services can occur at any time and the prompt response of police officers, firefighters and paramedics is essential to the protection of life and preservation of property. And whereas the safety of police officers, firefighters and paramedics depends upon the quality and accuracy of information obtained from citizens who contact the city of Fairfax emergency communications center. And whereas public safety telecommunicators are the first and most critical point of contact our residents have with emergency services, serving as the vital link between the public and emergency responders. And whereas public safety telecommunicators contribute substantially to the apprehension of criminals, the suppression of fires and the treatment of patients, demonstrating professionalism, understanding and dedication in every call they handle. And whereas within the police department, a dispatcher of the year is nominated by police personnel to recognize an individual for exceptional performance exemplifying the commitment and excellence demonstrated by all emergency dispatch professionals in our city each and every day, 24 hours a day and seven days a week. Now, therefore, I, Catherine S. Reed, mayor of the city of Fairfax, do hereby proclaim April 12 to 18, 2026, is National Public Safety Telecommunicators Week in the city of Fairfax and encourage all members of our community to join in extending our warmest measure of gratitude and support to our public safety telecommunications dispatchers, including our award recipient, Aliyah Tibbs. Aliyah Tibbs. Elijah. Okay. Elijah Tibbs, the 2025 Dispatcher of the year, who provides critical and essential services daily to the countless number of residents, business owners and visitors within our community. So with that, Elijah."
+    "text": "All right. I'll now ask our Fairfax City police dispatchers to come down here so we can celebrate you. Come on. It's cool to stand up here and just be stared at. Trust me, not awkward at all. All good. All good. You guys are important. So important. Very important. All right, everybody in. The cutest. All right. Whereas the week of April 12th through 18th, 2026, has been designated as National Public Safety Telecommunicators Week, a time to raise awareness and recognize the critical contributions of highly trained telecommunications professionals who provide vital 911 emergency assist to those in need. And whereas emergencies requiring police, fire or emergency medical services can occur at any time and the prompt response of police officers, firefighters and paramedics is essential to the protection of life and preservation of property. And whereas the safety of police officers, firefighters and paramedics depends upon the quality and accuracy of information obtained from citizens who contact the city of Fairfax emergency communications center. And whereas public safety telecommunicators are the first and most critical point of contact our residents have with emergency services, serving as the vital link between the public and emergency responders. And whereas public safety telecommunicators contribute substantially to the apprehension of criminals, the suppression of fires and the treatment of patients, demonstrating professionalism, understanding and dedication in every call they handle. And whereas within the police department, a dispatcher of the year is nominated by police personnel to recognize an individual for exceptional performance exemplifying the commitment and excellence demonstrated by all emergency dispatch professionals in our city each and every day, 24 hours a day and seven days a week. Now, therefore, I, Catherine S. Reed, mayor of the city of Fairfax, do hereby proclaim April 12 to 18, 2026, is National Public Safety Telecommunicators Week in the city of Fairfax and encourage all members of our community to join in extending our warmest measure of gratitude and support to our public safety telecommunications dispatchers, including our award recipient, Elijah Tibbs, the 2025 Dispatcher of the year, who provides critical and essential services daily to the countless number of residents, business owners and visitors within our community. So with that, Elijah."
   },
   {
-    "speaker": "REDACTED",
-    "speaker_source": "background_noise",
-    "speaker_source_detail": "Corrected from Councilmember Anthony Amos",
+    "speaker": "Group",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Brief unidentifiable utterance - labeled REDACTED in error",
     "start": 1440760,
     "end": 1441120,
     "text": "No."
   },
   {
-    "speaker": "REDACTED",
-    "speaker_source": "background_noise",
-    "speaker_source_detail": "Corrected from Councilmember Tom Peterson",
+    "speaker": "Group",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Brief unidentifiable utterance - labeled REDACTED in error",
     "start": 1441120,
     "end": 1441640,
     "text": "Cease."
   },
   {
-    "speaker": "REDACTED",
-    "speaker_source": "background_noise",
-    "speaker_source_detail": "Corrected from Councilmember Anthony Amos",
+    "speaker": "Group",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Brief unidentifiable utterance - labeled REDACTED in error",
     "start": 1445160,
     "end": 1445560,
     "text": "Chief."
@@ -249,9 +249,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Officer Sherry. Okay, Officer Sherry."
   },
   {
-    "speaker": "REDACTED",
-    "speaker_source": "background_noise",
-    "speaker_source_detail": "Corrected from Councilmember Anthony Amos",
+    "speaker": "Group",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Brief unidentifiable utterance - labeled REDACTED in error",
     "start": 1568270,
     "end": 1568910,
     "text": "Okay."
@@ -273,17 +273,17 @@ const TRANSCRIPT_TURNS = [
     "text": "Sher's our wellness dog, so she. She's here to support everybody."
   },
   {
-    "speaker": "REDACTED",
-    "speaker_source": "background_noise",
-    "speaker_source_detail": "Corrected from Councilmember Tom Peterson",
+    "speaker": "Group",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Brief unidentifiable utterance - labeled REDACTED in error",
     "start": 1573950,
     "end": 1576510,
     "text": "So we are going to nab a picture. All."
   },
   {
-    "speaker": "REDACTED",
-    "speaker_source": "background_noise",
-    "speaker_source_detail": "Corrected from Councilmember Anthony Amos",
+    "speaker": "Group",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Brief unidentifiable utterance - labeled REDACTED in error",
     "start": 1586680,
     "end": 1586920,
     "text": "Work."
@@ -673,20 +673,36 @@ const TRANSCRIPT_TURNS = [
     "text": "Council member Bates? Aye. Council Member Peterson Aye. Council Member Hardy Chandler?"
   },
   {
-    "speaker": "City Clerk",
-    "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Roll call vote response - clerk read back",
     "start": 3728100,
     "end": 3728580,
     "text": "Aye."
   },
   {
+    "speaker": "Councilmember Stacy R. Hall",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Roll call vote - Hall responded Aye",
+    "start": 3728660,
+    "end": 3728760,
+    "text": "Hall Aye."
+  },
+  {
+    "speaker": "Councilmember Anthony T. Amos",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Roll call vote - Amos responded Aye",
+    "start": 3728760,
+    "end": 3728860,
+    "text": "Council Member Amos Aye."
+  },
+  {
     "speaker": "City Clerk",
-    "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Motion result kept, vote responses moved to separate turns",
     "start": 3728660,
     "end": 3742820,
-    "text": "Council Member Hall Aye. Council Member Amos Aye. Motion passed unanimously Will go to appointments to boards, commissions and advisory committees. Is there A motion to approve the appointments to boards, Commissions and Advisory commissions. Council Member Hardy Chandler."
+    "text": "Motion passed unanimously. Will go to appointments to boards, commissions, and advisory committees."
   },
   {
     "speaker": "Councilmember Stacey D. Hardy-Chandler",
