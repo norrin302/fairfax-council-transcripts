@@ -449,9 +449,9 @@ const TRANSCRIPT_TURNS = [
     "text": "Good evening, Mayor Reed and members of city council. My name is Anita Light and I'm here tonight in three capacities. First is the chair of the Fairfax Village in the City Advisory Board, a resident of Fairfax City, obviously, and as an older adult. As chair of the Fairfax Village and the City Advisory Board, we wanted to emphasize our support for the Willard Sherwood center, as noted in our letter to you all, dated April 6th. In that letter, we noted that supporting the new Willard Sherwood center would help make accessibility for older adults easier and safer. We also noted that this project was a community partnership effort with the county as well as the residents of both the city and the county. And finally, we highlighted that this project is a long term investment for the future of the city. And as an additional note on the advisory board, and for a more important reason, we really support advancing the Willard Sherwood center to help enhance the Villages Expo that we had this past Friday, which was a huge success. And if we had even, even better facility with better parking, it would help that event even better. And as a city resident of the city, I support the Willard Sherwood center because this facility will afford."
   },
   {
-    "speaker": "Mayor Catherine S. Read",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Anita Light",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Video verified at 1770s - Anita Light speaking at podium",
     "start": 1770720,
     "end": 1866460,
     "text": "A generational opportunity for programming for older adults and children and support the healthcare needs of our city. The partnership with the county has been long standing and as a result, the city is able to do more for the residents than they would otherwise be able to do. For instance, on social services, emergency dispatch, libraries, court services, and schools, to name a few. Without these partnerships, the cost to our residents would be significantly more if we had to provide these basic services on our own. I've been a lifelong proponent of continuous improvement in organizations, and while the Willard Sherwood center is not an organization, it is a joint partnership with the county that needs to be continuously improved and nurtured to avoid even further costs. As an older adult, which I'm getting older and older by the minute, I support the Willard Sherwood center project because participating in programs at Green Acres is potentially hazardous to my physical well being. When I attended events at the Green Acres Center, I had had recent knee surgery and since parking at the Green Acres center is at a premium, walking to the entrance was very difficult and walking down those steps to get to the front door was even more difficult. And then once you get inside the building, you have more steps to get to some of the rooms and that gets increasingly difficult for the older people. Get having access to new modernized Willard Sterwood Center."
@@ -465,18 +465,26 @@ const TRANSCRIPT_TURNS = [
     "text": "Oh."
   },
   {
-    "speaker": "Mayor Catherine S. Read",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Anita Light",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Video verified at 1868s - Anita Light still speaking",
     "start": 1868700,
     "end": 1886630,
     "text": "So while I urge you to while there is a cost to modernization and there will be additional cost to the center, I urge you to support its development that will help the more than 9,000 older adults in Fairfax City. And and we appreciate and thank you for your consideration. Thank you."
   },
   {
-    "speaker": "Kevin Anderson",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Mayor Catherine S. Read",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Mayor introducing next speaker Kevin Anderson",
     "start": 1888150,
+    "end": 1888450,
+    "text": "Our next speaker is Kevin Anderson."
+  },
+  {
+    "speaker": "Kevin Anderson",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Actual speaker after mayor introduction",
+    "start": 1888450,
     "end": 2103630,
     "text": "Our next speaker is Kevin Anderson. I want to thank you for this opportunity. I am a county resident and a member of the Young at Heart Senior Center Council and I'm here to speak in favor of the Willard Sherwood Project. Green Acres is an apt name when you consider the ball fields and the surrounding grounds, but the building, the H VAC system and the utilities can hardly be considered green. Since I don't have access to the specifics of Green Acres, I utilized AI to assist me with my research and I could have used the AI to write my comments for me, but I was thinking that might be a little bit cheating. Plus, I didn't want to sprout a six finger on my hand either. So my research found that a 41,000 square foot school built in 1961 currently has an average cost for utilities ranging from 30,000 to $54,000. Considering the GA I'm sorry, has the original 163 steel frame windows and six exterior doors with windows all single pane. I'm pretty comfortable with the idea that the expense is on the higher end of that range. Compared to the energy efficient and sustainable features planned for the project. The anticipated savings would be in the 30 to 50% annually and could be even as high as 70%. This of course will have to be observed with the actual charge that we incur to see what percentage is actually saved. But I'm willing to bet that it will be on the higher end. Beyond the potential cost savings, there are numerous environmental benefits to the project design. It will have a positive impact on the planet that we hand off to our children or if you're like me, to your grandchildren. Some of these elements are the fact that the project is LED gold certified and it has features like rooftop solar panels, indoor water reductions features, LED lighting, light pollution remediation and high performance building elements to retain heating and cooling and many others. Another subject I'd like to talk about is routines. We all have them. They usually evolve over life events. But if this project fails to move forward and Grain Acres has to close down for major renovations or rebuild, it's going to be an abrupt change to many of our members routines. And basically what I'm saying is that if we build a new center and we do a gradual transition to the new one, it'll be more of an evolutionary change to the routine. So I beseech you to approve this project and I thank you for your time. Thank you. Our next speaker is Douglas Stewart."
   },
