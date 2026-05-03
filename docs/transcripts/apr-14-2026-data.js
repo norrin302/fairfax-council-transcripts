@@ -505,17 +505,17 @@ const TRANSCRIPT_TURNS = [
     "text": "Our next speaker is Jan Jaworski. Good evening Mayor Reed and members of the City Council. I also am here to Janet Jaworski, 3621 Heritage Lane. For the record, I also am here to lend my support to the Willard Sherwood Project. I do wear a number of hats in the city, as you know, so these are my comments as a resident and not representing any organization or department for which I volunteer. Pete and I have lived here for 26 years and honestly, I think the need for a community center has been part of the dialogue for the entire time that we've lived here. In fact, during my six year tenure on the Planning Commission from 2014 to 2020, including a three year stint on Prab, this was a huge topic of conversation. And this is going back more than 10 years from now, the need for a full service community center. So I do support it for all the reasons that you've been hearing from from all of the other residents coming up to support it. I'm going to focus on something a little bit different. Although I am a member of the senior center, but I'm going to try to highlight some benefits for adults of all ages. As a former competitive athlete, I think the walking track, the gym, the fitness center are going to be so key to both the physical and mental health of our residents. As we all know, mental health and physical health are intertwined and a happy, healthy, both mentally and physically. Population here."
   },
   {
-    "speaker": "Mayor Catherine S. Read",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Janet Jaworski",
+    "speaker_source": "correction",
+    "speaker_source_detail": "User video verification: Janet at podium 39:20-40:47",
     "start": 2360560,
     "end": 2446790,
     "text": "Is really something that you cannot put a price tag on. I realize, as Mr. Stewart said, we all know there's a price tag involved. We're mindful of that. But to me, the advantages far outweigh the disadvantages. I love the fact that it will be multi generational. You know, our city motto is live life connected. I think this is a great way that we can all connect and share experiences together. There will be a number of meeting rooms there, as you know, so it will be a place to gather, exercise and really build community. Secondly, it's going to be walkable for a lot of us. I know that's not true for all neighborhoods, but for my neighborhood in Daniels Run woods, it will be walkable. And we can get a jump start on our workout routine by walking to and from, which I think will be great. It also is accessible for public transportation, which is wonderful. Lastly, our relationship with the county. I was so pleased to hear that you had a successful meeting with the county last week. That's fantastic. I appreciate the fact that there were no objections to the timeline and that's really great news. I think continuing to nurture that relationship with the county is huge and this is a great way that we can partner with the county moving forward. So I would ask for your yes vote on April 28th to move this forward. And I appreciate your time."
   },
   {
-    "speaker": "Councilmember Tom Peterson",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Janet Jaworski",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Janet concluding her comment",
     "start": 2447620,
     "end": 2448100,
     "text": "Thank you."
@@ -545,17 +545,17 @@ const TRANSCRIPT_TURNS = [
     "text": "Our next speaker is Dale Lacina."
   },
   {
-    "speaker": "Councilmember Tom Peterson",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Dale Lacina",
+    "speaker_source": "correction",
+    "speaker_source_detail": "User video verification: Dale Lacina at podium",
     "start": 2651480,
     "end": 2651960,
     "text": "Thank."
   },
   {
-    "speaker": "Councilmember Anthony T. Amos",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Dale Lacina",
+    "speaker_source": "correction",
+    "speaker_source_detail": "User video verification: Dale Lacina at podium",
     "start": 2664700,
     "end": 2824020,
     "text": "You. Good evening, Madam Mayor, city council members and assembled city staff. I have. I'd like to speak to just two issues in my allotted time. The first is the Willard Community Center. All the good things that have been said about it I support. I would add one other thing that I didn't hear yet and that is combining the community center in the center of the city. I think it just makes sense to me and it's a great opportunity to reinforce Old Town as a hub of daily activities which has been necessary for a long time. And we've talked about that quite a bit. So I recommend that you support that issue. The other one has to do with the Fairfax Renaissance Housing Corporation, which is an organization that provides city of Fairfax homeowners an attractive opportunity to upgrade and improve the quality of the city's residential neighborhoods. Over the past 23 years of its existence, it has provided funding to 290 improvement loans and has not lost a single penny to a bad loan. Plus, the city gets back money from the housing Corporation program due to the permanent improvements that are made. And thus the tax that goes with that permanent improvement goes with the home, okay? And so when the increase comes for that, the city receives a return on its investment and it continues and continues. So this program was not funded last year and now we can't do any loans at all because they don't have funds for it. And so I strongly urge that this City Council fund it for next year so that we can continue this program because it returns money to you and the persons that the people that get the improvements like it a lot, believe me. I thank you for your kind attention."
@@ -577,17 +577,17 @@ const TRANSCRIPT_TURNS = [
     "text": "Good evening. Thank you for the opportunity to speak with you tonight. My name is Becky Rager. I live at 4141 Evergreen Drive. Been there for 31 years. I'm a current member of the Fairfax Village in the City Advisory Board. I spoke to you last month in overall support of the Willard Sherwood Health center and the community center. I'm here today to briefly express how the village and the city could enhance services as a result of the new facility. I'm mentioning a few possibilities today as we move forward. The advisory board members, village members and volunteers can brainstorm other possibilities for expanded services that directly support older adults and those with disabilities beyond what is currently available. We will also work with the Willard Health center and the Green Acres staff to create new programs which could include, and I'm just listing a few intergenerational activities such as tutoring or reading to the children in the child care center Working on shared craft projects in dedicated spaces where projects could remain until completed growing and maintaining a rooftop herb garden and creating a gardening circle working with the neighboring Willard Health center to have a memory cafe once a month where people who are in the early stages of cognitive impairment and their caregivers can meet, socialize and trade ideas developing workshops designed to improve memory and cognitive function creating a digital storytelling club where seniors use technology and record their life stories and conducting a vintage hat."
   },
   {
-    "speaker": "Mayor Catherine S. Read",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Becky Rager",
+    "speaker_source": "correction",
+    "speaker_source_detail": "User video verification: Becky Rager still speaking at 49:10",
     "start": 2950240,
     "end": 3001930,
     "text": "And fashion showcase where members bring in their vintage collections and show them and then discuss the stories behind them. All of these proposed suggestions could be done without additional staffing costs as members are not just consumers, they are staff. Our village consists of members and volunteers with an extensive variety of backgrounds and experience. For example, a member might receive a ride to the doctor one day and facilitate a workshop the next. This creates a sustainable model for future programs without additional cost. I believe the new Willard Sherwood facility, with all the infrastructure enhancements will provide is necessary to continue to deliver modern, equitable services for the entire community."
   },
   {
-    "speaker": "Councilmember Tom Peterson",
-    "speaker_source": "unknown",
-    "speaker_source_detail": "",
+    "speaker": "Becky Rager",
+    "speaker_source": "correction",
+    "speaker_source_detail": "Becky Rager concluding her comment at 50:02",
     "start": 3002770,
     "end": 3003250,
     "text": "Thank you."
