@@ -1,0 +1,59 @@
+{
+  "meeting_id": "feb-17-2026",
+  "meeting_date": "2026-02-17",
+  "display_date": "Feb 17, 2026",
+  "title": "City Council Special Meeting and Work Session",
+  "meeting_type": "work_session",
+  "city": "Fairfax, VA",
+  "granicus_clip_id": 4468,
+  "source_video_url": "https://fairfax.granicus.com/player/clip/4468",
+  "official_meetings_portal_url": "https://www.fairfaxva.gov/Government/Public-Meetings/City-Meetings",
+  "official_agenda_url": "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4468",
+  "official_minutes_url": null,
+  "official_packet_url": null,
+  "transcript_url": "transcripts/feb-17-2026.html",
+  "transcript_turns_js": "docs/transcripts/feb-17-2026-data.js",
+  "duration_seconds": 12600,
+  "sections": [
+    {
+      "start_seconds": 14,
+      "label": "1. Call the special meeting to order. 7:00 P.M., Work Session Room 111."
+    },
+    {
+      "start_seconds": 35,
+      "label": "2. Consideration of a resolution to endorse the City’s application to the Transportation Planning Board’s Regional Roadway Safety Program."
+    },
+    {
+      "start_seconds": 730,
+      "label": "3. Consideration of a resolution endorsing an application to the Virginia Department of Rail and Public Transportation’s Transit Ridership Incentive Program."
+    },
+    {
+      "start_seconds": 1209,
+      "label": "4. Consideration of a resolution to adopt the Affordable Housing Strategic Plan."
+    },
+    {
+      "start_seconds": 1495,
+      "label": "5. Recess the special meeting to go into a work session."
+    },
+    {
+      "start_seconds": 1505,
+      "label": "a. Discussion on the development of the Green Building Policy."
+    },
+    {
+      "start_seconds": 7112,
+      "label": "b. Introduction of draft Small Area Plan Zoning Ordinance Amendments."
+    },
+    {
+      "start_seconds": 11501,
+      "label": "c. Discussion of Alternative Delivery Methods for Construction."
+    },
+    {
+      "start_seconds": 12521,
+      "label": "8. City Manager report out."
+    },
+    {
+      "start_seconds": 12580,
+      "label": "9. Adjournment."
+    }
+  ]
+}

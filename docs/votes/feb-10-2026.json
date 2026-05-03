@@ -1,0 +1,35 @@
+{
+  "meeting_id": "feb-10-2026",
+  "clip_id": "4463",
+  "recorded_at": "2026-02-10",
+  "source": "Granicus Council Actions (official minutes)",
+  "votes": [
+    {
+      "item": "4",
+      "title": "Adoption of the agenda",
+      "result": "PASSED",
+      "vote_count": "Unanimous",
+      "breakdown": "All councilmembers present",
+      "opposed": [],
+      "notes": ""
+    },
+    {
+      "item": "6",
+      "title": "Consent agenda (6a-j: minutes, DMVMoves endorsement, remote participation policy, Housing board resolution, outdoor dining, Wenger Showmobile donation, noise ordinance introduction)",
+      "result": "PASSED",
+      "vote_count": "Unanimous",
+      "breakdown": "All councilmembers present",
+      "opposed": [],
+      "notes": "Items 6a through 6j approved as presented"
+    },
+    {
+      "item": "7a",
+      "title": "Urban Forest Master Plan (UFMP) adoption",
+      "result": "PASSED",
+      "vote_count": "Unanimous",
+      "breakdown": "All councilmembers present",
+      "opposed": [],
+      "notes": "Resolution approving and adopting Urban Forest Master Plan in draft dated December 2025"
+    }
+  ]
+}

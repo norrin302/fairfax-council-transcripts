@@ -1,0 +1,132 @@
+{
+  "schema": "fairfax.speaker_approvals.v1",
+  "meeting_id": "apr-14-2026",
+  "notes": "Human-verified speaker diarization IDs for apr-14-2026. Only these IDs may publish real names in Phase 1.",
+  "approvals": {
+    "SPEAKER_22": {
+      "status": "approved",
+      "name": "Mayor Catherine Read",
+      "speaker_key": "mayor_catherine_read"
+    },
+    "SPEAKER_06": {
+      "status": "approved",
+      "name": "Councilmember Tom Peterson",
+      "speaker_key": "council_tom_peterson"
+    },
+    "SPEAKER_17": {
+      "status": "approved",
+      "name": "Councilmember Stacy Hardy-Chandler",
+      "speaker_key": "council_stacy_hardy_chandler"
+    },
+    "SPEAKER_26": {
+      "status": "approved",
+      "name": "Councilmember Rachel McQuillen",
+      "speaker_key": "council_rachel_mcquillen"
+    },
+    "SPEAKER_27": {
+      "status": "approved",
+      "name": "Councilmember Stacy Hall",
+      "speaker_key": "council_stacy_hall"
+    },
+    "SPEAKER_28": {
+      "status": "approved",
+      "name": "Councilmember Anthony Amos",
+      "speaker_key": "council_anthony_amos"
+    },
+    "SPEAKER_23": {
+      "status": "approved",
+      "name": "Janet Jaworski",
+      "speaker_key": ""
+    },
+    "SPEAKER_08": {
+      "status": "approved",
+      "name": "Faisal Alam",
+      "speaker_key": ""
+    },
+    "SPEAKER_00": {
+      "status": "approved",
+      "name": "Elijah Tibbs",
+      "speaker_key": ""
+    },
+    "SPEAKER_01": {
+      "status": "approved",
+      "name": "Kevin Anderson",
+      "speaker_key": ""
+    },
+    "SPEAKER_03": {
+      "status": "approved",
+      "name": "Douglas Stewart",
+      "speaker_key": ""
+    },
+    "SPEAKER_07": {
+      "status": "approved",
+      "name": "JC Martinez",
+      "speaker_key": ""
+    },
+    "SPEAKER_05": {
+      "status": "approved",
+      "name": "Mr. Alexander",
+      "speaker_key": ""
+    },
+    "SPEAKER_19": {
+      "status": "approved",
+      "name": "Suzanne Levy",
+      "speaker_key": ""
+    },
+    "SPEAKER_31": {
+      "status": "rejected_mixed",
+      "name": "",
+      "speaker_key": ""
+    },
+    "SPEAKER_10": {
+      "status": "approved",
+      "name": "Mary McDaniel",
+      "speaker_key": ""
+    },
+    "SPEAKER_24": {
+      "status": "approved",
+      "name": "William Pitchford",
+      "speaker_key": ""
+    },
+    "SPEAKER_04": {
+      "status": "approved",
+      "name": "Alan Glenn",
+      "speaker_key": ""
+    },
+    "SPEAKER_13": {
+      "status": "approved",
+      "name": "Jennifer Rose",
+      "speaker_key": ""
+    },
+    "SPEAKER_20": {
+      "status": "approved",
+      "name": "Mayor Catherine Read",
+      "speaker_key": "mayor_catherine_read"
+    },
+    "SPEAKER_15": {
+      "status": "approved",
+      "name": "Mayor Catherine Read",
+      "speaker_key": "mayor_catherine_read"
+    },
+    "SPEAKER_16": {
+      "status": "approved",
+      "name": "Becky Rager",
+      "speaker_key": "becky_rager"
+    },
+    "SPEAKER_25": {
+      "status": "approved",
+      "name": "Brian Lubkeman",
+      "speaker_key": ""
+    },
+    "SPEAKER_29": {
+      "status": "public_comment",
+      "name": "Community Member (Willard Community Center / Fairfax Renaissance Housing)",
+      "speaker_key": ""
+    }
+  },
+  "SPEAKER_24": {
+    "status": "approved",
+    "name": "Stephanie Kupka",
+    "speaker_key": ""
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "meeting_id": "mar-03-2026",
+  "meeting_date": "2026-03-03",
+  "display_date": "Mar 3, 2026",
+  "title": "City Council Work Session",
+  "meeting_type": "work_session",
+  "city": "Fairfax, VA",
+  "granicus_clip_id": 4489,
+  "source_video_url": "https://fairfax.granicus.com/player/clip/4489",
+  "official_meetings_portal_url": "https://www.fairfaxva.gov/Government/Public-Meetings/City-Meetings",
+  "official_agenda_url": "https://fairfax.granicus.com/AgendaViewer.php?view_id=13&clip_id=4489",
+  "official_minutes_url": null,
+  "official_packet_url": null,
+  "transcript_url": "transcripts/mar-03-2026.html",
+  "transcript_turns_js": "docs/transcripts/mar-03-2026-data.js",
+  "duration_seconds": 10980,
+  "sections": [
+    {
+      "start_seconds": 53,
+      "label": "1. Work Session."
+    },
+    {
+      "start_seconds": 128,
+      "label": "a. FY27 Budget Presentation by Schools."
+    },
+    {
+      "start_seconds": 3138,
+      "label": "b. Discussion on General Fund Questions and Discussion."
+    },
+    {
+      "start_seconds": 5897,
+      "label": "c. Discussion on Historical Real Estate Tax Rates for the City."
+    },
+    {
+      "start_seconds": 7523,
+      "label": "d. Discussion on setting the Max Real Estate Tax Rate (Action Item for March 10, 2026)."
+    },
+    {
+      "start_seconds": 8707,
+      "label": "e. Follow-up on City Council Retreat and Next Steps."
+    },
+    {
+      "start_seconds": 10475,
+      "label": "2. Adjournment."
+    }
+  ]
+}

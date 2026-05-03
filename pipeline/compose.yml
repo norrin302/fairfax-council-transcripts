@@ -1,0 +1,52 @@
+name: fairfax-pipeline
+
+services:
+  # 1) Download + normalize audio (ffmpeg + yt-dlp)
+  prep:
+    build:
+      context: .
+      dockerfile: docker/prep/Dockerfile
+    volumes:
+      - ./work:/work
+      - ../meetings:/repo/meetings:ro
+    working_dir: /work
+
+  # 2) Transcription (faster-whisper baseline)
+  asr_faster_whisper:
+    build:
+      context: .
+      dockerfile: docker/asr-faster-whisper/Dockerfile
+    volumes:
+      - ./work:/work
+    working_dir: /work
+    # GPU enablement is host-specific.
+    # If your `docker compose run` supports it, you can use `--gpus all`.
+    # Otherwise, run with plain docker:
+    #   docker run --rm --gpus all -v "$PWD/work:/work" -w /work fairfax-pipeline-asr_faster_whisper:latest ...
+
+  # 3) Diarization (pyannote)
+  diarize_pyannote:
+    build:
+      context: .
+      dockerfile: docker/diarize-pyannote/Dockerfile
+    volumes:
+      - ./work:/work
+      - ./cache:/cache
+    environment:
+      - HF_HOME=/cache/hf
+      - HUGGINGFACE_HUB_CACHE=/cache/huggingface
+      - TRANSFORMERS_CACHE=/cache/transformers
+    working_dir: /work
+    # Requires HF token at runtime, e.g.:
+    #   -v /path/to/hf_token.txt:/run/secrets/hf_token:ro -e HF_TOKEN_FILE=/run/secrets/hf_token
+
+  # 4) Merge + corrections
+  merge:
+    build:
+      context: .
+      dockerfile: docker/merge/Dockerfile
+    volumes:
+      - ./work:/work
+      - ../corrections:/repo/corrections
+      - ../speaker_registry:/repo/speaker_registry
+    working_dir: /work

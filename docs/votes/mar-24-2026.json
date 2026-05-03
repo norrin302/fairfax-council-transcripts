@@ -1,0 +1,35 @@
+{
+  "meeting_id": "mar-24-2026",
+  "clip_id": "4504",
+  "recorded_at": "2026-03-24",
+  "source": "Granicus Council Actions (official minutes)",
+  "votes": [
+    {
+      "item": "4",
+      "title": "Adoption of the agenda (with removal of Item 16: Closed meeting)",
+      "result": "PASSED",
+      "vote_count": "Unanimous",
+      "breakdown": "All councilmembers present",
+      "opposed": [],
+      "notes": "Agenda item 16 (closed meeting for legal consultation) removed from agenda"
+    },
+    {
+      "item": "6",
+      "title": "Consent agenda (6a-d: March 3 and 10 minutes, Construction Management Design-Build resolution)",
+      "result": "PASSED",
+      "vote_count": "Unanimous",
+      "breakdown": "All councilmembers present",
+      "opposed": [],
+      "notes": ""
+    },
+    {
+      "item": "7a",
+      "title": "Noise ordinance amendment (Chapter 38, Article II) — public hearing continued to May 12, 2026",
+      "result": "NO_ACTION",
+      "vote_count": "N/A",
+      "breakdown": "Public hearing continued; no council action taken",
+      "opposed": [],
+      "notes": "Action deferred to May 12, 2026"
+    }
+  ]
+}

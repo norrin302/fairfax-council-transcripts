@@ -1,0 +1,549 @@
+{
+  "schema": "fairfax.gold_set.v1",
+  "meeting_id": "apr-14-2026",
+  "created_at": "2026-04-22T22:07:44.408980+00:00",
+  "total_excerpts": 5,
+  "total_duration_s": 788.1,
+  "excerpts": [
+    {
+      "excerpt_id": "ex_001",
+      "start": 72.0,
+      "end": 180.0,
+      "description": "Meeting opening, Pledge of Allegiance, Library Week proclamation — mixed voices, ceremonial speech",
+      "duration_s": 79.4,
+      "n_turns": 3,
+      "turns": [
+        {
+          "turn_id": "gold_ex_001_001",
+          "start": 104.3,
+          "end": 117.04,
+          "speaker_name": "Mayor Catherine Read",
+          "speaker_role": "unknown",
+          "text": "Will now ask Suzanne Levy Eric Carson and Alana quarrels with the city of Fairfax Library to come down for the proclamation acknowledging National Library Week",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_001_002",
+          "start": 130.2,
+          "end": 175.36,
+          "speaker_name": "Mayor Catherine Read",
+          "speaker_role": "unknown",
+          "text": "Will you be in the middle? Okay. I'll be in the middle. That sounds reasonable. All right, whereas Libraries spark creativity fuel imagination and inspire lifelong learning Offering a space where individuals of all ages can find joy through exploration and discovery And whereas libraries serve is vibrant community hubs connecting people with knowledge technology and resources While fostering civic engagement critical thinking and cultural enrichment and whereas libraries provide free and equitable Provide free and equitable access to books digital tools and innovative programming ensuring that all Individuals regardless of background have the support they need to learn connect and thrive and whereas libraries partner with schools",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_001_003",
+          "start": 175.68,
+          "end": 183.68,
+          "speaker_name": "Mayor Catherine Read",
+          "speaker_role": "unknown",
+          "text": "Businesses and organizations Connecting the dots to maximize resources increasing efficiency and expand access to essential services",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        }
+      ]
+    },
+    {
+      "excerpt_id": "ex_002",
+      "start": 300.0,
+      "end": 420.0,
+      "description": "Roll call, public comment signup — sparse council speech, procedural",
+      "duration_s": 123.1,
+      "n_turns": 5,
+      "turns": [
+        {
+          "turn_id": "gold_ex_002_001",
+          "start": 312.04,
+          "end": 328.04,
+          "speaker_name": "Unknown Speaker",
+          "speaker_role": "unknown",
+          "text": "Please say hi to everybody and if you don't have a library card We have beautiful new cards that were designed by citizens in the community and You can replace your old card with a pretty new one or you can get a card for the first time",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_002_002",
+          "start": 330.28,
+          "end": 358.46,
+          "speaker_name": "Unknown Speaker",
+          "speaker_role": "unknown",
+          "text": "Coming in our doors seeing all the wonderful things that are going on and check out our book sale The children's book sale is the first weekend in May and the adult book sale is in the second week of May and our wonderful Friends of the library raise money to support library activities and Help us purchase materials that are not in the budget to be purchased. So thank you for this honor We really appreciate the opportunity to be here",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_002_003",
+          "start": 364.86,
+          "end": 369.66,
+          "speaker_name": "Mayor Catherine Read",
+          "speaker_role": "unknown",
+          "text": "And really if you don't have a library card really",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_002_004",
+          "start": 400.94,
+          "end": 410.9,
+          "speaker_name": "Unknown Speaker",
+          "speaker_role": "unknown",
+          "text": "Thank you so much and thank you for this and the staff is going to take it back to the library And I'll put it in a prominent place. will see you at the library",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_002_005",
+          "start": 419.66,
+          "end": 435.1,
+          "speaker_name": "Mayor Catherine Read",
+          "speaker_role": "unknown",
+          "text": "Am now going to ask Stephanie Kupka and a Safford City Environmental Sustainability Committee members Faisal alam rusty Russell and everyone else who is here from the ESC To come down here so we can talk about Earth Day and Arbor Day",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        }
+      ]
+    },
+    {
+      "excerpt_id": "ex_003",
+      "start": 1650.0,
+      "end": 1850.0,
+      "description": "Agenda adoption, consent agenda — council debate, dais discussion",
+      "duration_s": 199.9,
+      "n_turns": 13,
+      "turns": [
+        {
+          "turn_id": "gold_ex_003_001",
+          "start": 1650.84,
+          "end": 1653.04,
+          "speaker_name": "Mayor Catherine Read",
+          "speaker_role": "unknown",
+          "text": "The motion has been made and seconded",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_003_002",
+          "start": 1653.04,
+          "end": 1655.2,
+          "speaker_name": "Mayor Catherine Read",
+          "speaker_role": "unknown",
+          "text": "A roll call vote",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_003_003",
+          "start": 1655.2,
+          "end": 1663.2,
+          "speaker_name": "Mayor Catherine Read",
+          "speaker_role": "unknown",
+          "text": "Councilmember Amos? Aye. Councilmember Hall? Aye. Councilmember Hardy-Chandler? Aye. Councilmember Peterson? Aye",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_003_004",
+          "start": 1663.2,
+          "end": 1665.2,
+          "speaker_name": "Mayor Catherine Read",
+          "speaker_role": "unknown",
+          "text": "Councilmember Bates? Aye",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_003_005",
+          "start": 1665.2,
+          "end": 1676.84,
+          "speaker_name": "Mayor Catherine Read",
+          "speaker_role": "unknown",
+          "text": "Motion passed unanimously. Sorry. All right. We will go on to initial general public comment. I had 10 speakers sign up by 5 o'clock p.m. today, so will call the first one up, which",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_003_006",
+          "start": 1676.84,
+          "end": 1690.08,
+          "speaker_name": "Mayor Catherine Read",
+          "speaker_role": "unknown",
+          "text": "Will be Anita Light. Good evening, Mayor Reed and members of City Council",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_003_007",
+          "start": 1690.08,
+          "end": 1734.64,
+          "speaker_name": "Anita Light",
+          "speaker_role": "unknown",
+          "text": "My name is Anita Light, and I'm here tonight in three capacities. First as the chair of the Fairfax Village in the City Advisory Board, resident of Fairfax City, obviously, and as an older adult. As chair of the Fairfax Village in the City Advisory Board, we wanted to emphasize our support for the Willard Sherwood Center, as noted in our letter to you all dated April 6th. In that letter, we noted that supporting the new Willard Sherwood Center would help make accessibility for older adults easier and safer. We also noted that this project was a community partnership effort with the county, as well as the residents of both the city and the county",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_003_008",
+          "start": 1734.64,
+          "end": 1738.76,
+          "speaker_name": "Unknown Speaker",
+          "speaker_role": "unknown",
+          "text": "And finally, we highlighted that this project is a long-term investment for the future of",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_003_009",
+          "start": 1738.76,
+          "end": 1740.16,
+          "speaker_name": "Anita Light",
+          "speaker_role": "unknown",
+          "text": "The city",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_003_010",
+          "start": 1740.16,
+          "end": 1784.92,
+          "speaker_name": "Unknown Speaker",
+          "speaker_role": "unknown",
+          "text": "And as an additional note on the advisory board, and for a more important reason, we really support advancing the Willard Sherwood Center to help enhance the Villages Expo that we had this past Friday, which was a huge success. And if we had even better facility with better parking, it would help that event even better. And as a resident of the city, I support the Willard Sherwood Center because this facility will afford a generational opportunity for programming for older adults and children and support the health care needs of our city. The partnership with the county has been longstanding, and as a result, the city is able to do more",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_003_011",
+          "start": 1784.92,
+          "end": 1815.68,
+          "speaker_name": "Anita Light",
+          "speaker_role": "unknown",
+          "text": "For the residents than they would otherwise be able to do, for instance, on social services, emergency dispatch, libraries, court services, and schools, to name a few. Without these partnerships, the cost to our residents would be significantly more. if we had to provide these basic services on our own. I've been a lifelong proponent of continuous improvement in organizations and while the Willard Sherwood Center is not an organization it is a joint partnership with the county that needs to be continuously improved",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_003_012",
+          "start": 1815.68,
+          "end": 1821.68,
+          "speaker_name": "Unknown Speaker",
+          "speaker_role": "unknown",
+          "text": "And nurtured to avoid even further cost. As an older adult, which I'm getting",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_003_013",
+          "start": 1821.68,
+          "end": 1850.72,
+          "speaker_name": "Unknown Speaker",
+          "speaker_role": "unknown",
+          "text": "Older and older by the minute, I support the Willard Sherwood Center project because participating in programs at Green Acres is potentially hazardous to my physical well-being. When I attended events at the Green Acres Center I had had recent knee surgery and since parking at the Green Acres Center is at a premium, walking to the entrance was very difficult and walking down those steps to get to the front door was",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        }
+      ]
+    },
+    {
+      "excerpt_id": "ex_004",
+      "start": 3700.0,
+      "end": 3900.0,
+      "description": "Appointments discussion — council back-and-forth, named official identification",
+      "duration_s": 197.6,
+      "n_turns": 21,
+      "turns": [
+        {
+          "turn_id": "gold_ex_004_001",
+          "start": 3702.88,
+          "end": 3711.0,
+          "speaker_name": "Councilmember Stacy Hardy-Chandler",
+          "speaker_role": "unknown",
+          "text": "Move to approve the consent agenda items 6A through M as presented and the accompanying motions in the staff reports",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_004_002",
+          "start": 3711.0,
+          "end": 3719.92,
+          "speaker_name": "Mayor Catherine Read",
+          "speaker_role": "unknown",
+          "text": "Is there a second? Second. We have a motion made by Council Member Stacy Hardy-Chandler and seconded by Council Member Peterson, a roll call vote",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_004_003",
+          "start": 3719.92,
+          "end": 3722.36,
+          "speaker_name": "Mayor Catherine Read",
+          "speaker_role": "unknown",
+          "text": "Council Member McQuillan?",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_004_004",
+          "start": 3722.36,
+          "end": 3731.88,
+          "speaker_name": "Mayor Catherine Read",
+          "speaker_role": "unknown",
+          "text": "Aye. Council Member Bates? Aye. Council Member Peterson? Aye. Council Member Hardy-Chandler? Aye. Council Member Hall? Aye. Council Member Amos?",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_004_005",
+          "start": 3732.4,
+          "end": 3737.2,
+          "speaker_name": "Mayor Catherine Read",
+          "speaker_role": "unknown",
+          "text": "Motion passed unanimously. We'll go to appointments to boards, commissions, and advisory committees",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_004_006",
+          "start": 3737.2,
+          "end": 3742.92,
+          "speaker_name": "Mayor Catherine Read",
+          "speaker_role": "unknown",
+          "text": "Is there a motion to approve the appointments to boards, commissions, and advisory commissions? Council Member Hardy-Chandler?",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_004_007",
+          "start": 3742.92,
+          "end": 3786.6,
+          "speaker_name": "Councilmember Stacy Hardy-Chandler",
+          "speaker_role": "unknown",
+          "text": "Move to appoint the following applicants. Commission on the Arts, appoint Melissa Miller for a remainder of a three-year term extending through July 9, 2027. Appoint Kenneth Krafchick for a remainder of a three-year term extending through October 26, 2028. Appoint Ann Morrison for a three-year term extending through April 14, 2029. Reappoint Sharon Clark-Chang for a three-year term extending through February 11, 2029. Continuum of Care, appoint James Gillespie for a two-year term extending through April 14, 2028. Environmental Sustainability Committee",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_004_008",
+          "start": 3786.6,
+          "end": 3805.12,
+          "speaker_name": "Councilmember Stacy Hardy-Chandler",
+          "speaker_role": "unknown",
+          "text": "Appoint Lauren Oliver for a remainder of a three-year term extending through February 11, 2028. Appoint David Fleischer for a three-year term extending through April 14, 2029. And exclude Nova Park's appointments until May 12",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_004_009",
+          "start": 3805.12,
+          "end": 3808.44,
+          "speaker_name": "Mayor Catherine Read",
+          "speaker_role": "unknown",
+          "text": "Is there a second? Second",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_004_010",
+          "start": 3808.44,
+          "end": 3816.28,
+          "speaker_name": "Mayor Catherine Read",
+          "speaker_role": "unknown",
+          "text": "There has been a motion and a second. Is there discussion on this motion? Yes. Council Member Peterson?",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_004_011",
+          "start": 3816.28,
+          "end": 3822.96,
+          "speaker_name": "Councilmember Tom Peterson",
+          "speaker_role": "unknown",
+          "text": "May I ask why the final two appointments are being pulled? Council Member Hardy-Chandler?",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_004_012",
+          "start": 3822.96,
+          "end": 3834.0,
+          "speaker_name": "Councilmember Stacy Hardy-Chandler",
+          "speaker_role": "unknown",
+          "text": "There has been additional clarity on procedure that allows for input while safeguarding conflict of interest. And want additional time for that to happen",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_004_013",
+          "start": 3834.0,
+          "end": 3835.08,
+          "speaker_name": "Councilmember Tom Peterson",
+          "speaker_role": "unknown",
+          "text": "Can you clarify that?",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_004_014",
+          "start": 3835.08,
+          "end": 3837.72,
+          "speaker_name": "Unknown Speaker",
+          "speaker_role": "unknown",
+          "text": "I'm not following that",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_004_015",
+          "start": 3837.72,
+          "end": 3846.32,
+          "speaker_name": "Councilmember Stacy Hardy-Chandler",
+          "speaker_role": "unknown",
+          "text": "Each candidate can be considered individually. And while would recuse myself from one of the candidates, I do want to have input on other candidates",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_004_016",
+          "start": 3846.32,
+          "end": 3856.08,
+          "speaker_name": "Councilmember Tom Peterson",
+          "speaker_role": "unknown",
+          "text": "Are you saying that you are going to vote on slots in which your husband is an applicant?",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_004_017",
+          "start": 3856.08,
+          "end": 3863.76,
+          "speaker_name": "Councilmember Stacy Hardy-Chandler",
+          "speaker_role": "unknown",
+          "text": "Individual people are on their own merit. And would like to have input on the individuals who are candidates on their own merit",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_004_018",
+          "start": 3863.76,
+          "end": 3876.8,
+          "speaker_name": "Councilmember Tom Peterson",
+          "speaker_role": "unknown",
+          "text": "So we have three applicants for two slots, one of whom is your husband. Right. Under state law for jurisdictions that follow it, that's normally considered a conflict of interest",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_004_019",
+          "start": 3876.84,
+          "end": 3880.96,
+          "speaker_name": "Councilmember Stacy Hardy-Chandler",
+          "speaker_role": "unknown",
+          "text": "Would recuse myself, as I have historically, on the vote for my husband",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_004_020",
+          "start": 3880.96,
+          "end": 3886.76,
+          "speaker_name": "Councilmember Tom Peterson",
+          "speaker_role": "unknown",
+          "text": "For the slot. Will you recuse yourself from a slot in which your husband is one of the applicants?",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_004_021",
+          "start": 3891.72,
+          "end": 3900.44,
+          "speaker_name": "Councilmember Stacy Hardy-Chandler",
+          "speaker_role": "unknown",
+          "text": "It is my understanding that there is appropriate input that can be made on other candidates for this position. And would like to have that input",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        }
+      ]
+    },
+    {
+      "excerpt_id": "ex_005",
+      "start": 5000.0,
+      "end": 5200.0,
+      "description": "Public hearings — public commenters at podium, staff response",
+      "duration_s": 188.1,
+      "n_turns": 7,
+      "turns": [
+        {
+          "turn_id": "gold_ex_005_001",
+          "start": 5031.2,
+          "end": 5067.36,
+          "speaker_name": "Mary McDaniel",
+          "speaker_role": "unknown",
+          "text": "Now that the county's implemented its own four percent meals tax. We respectfully urge Council to reconsider this increase or, at minimum, include a clear sunset and ensure that any new revenue is reinvested in ways that directly support the hospitality and small business community. Second, if additional revenue is needed, there are more balanced alternatives. The Chamber supports exploring visitor-based revenue options, such as aligning the transient occupancy tax with regional levels, if authorized by the General Assembly. This approach brings in revenue from visitors rather than placing additional strain on local businesses and residents",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_005_002",
+          "start": 5068.24,
+          "end": 5111.2,
+          "speaker_name": "Unknown Speaker",
+          "speaker_role": "unknown",
+          "text": "Similarly, if B-Poll adjustments are considered, it is critical to protect small businesses. The City's current threshold of $10,000 is very low and captures many micro-businesses. Any changes should include raising the threshold and phasing in increases to avoid unintended impacts on startups and small firms. Third, and just as important, we encourage you to protect economic development capacity. The most sustainable way to reduce long-term tax pressure is not by increasing rates, but by growing the commercial tax base. That requires continued investment in business attraction, retention, and, critically, faster and more predictable permitting. If we want Fairfax to remain competitive in attracting and retaining businesses, we must",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_005_003",
+          "start": 5111.2,
+          "end": 5135.92,
+          "speaker_name": "Unknown Speaker",
+          "speaker_role": "unknown",
+          "text": "Continue investing in the systems and resources that support the growth. So our request is straightforward. Avoid disproportionate impacts on any one industry. Pursue a more balanced, visitor-informed revenue strategy. And continue investing in the economic development efforts that will strengthen Fairfax over the long term. Thank you for your time, your leadership, and your commitment to our community. We look forward to continuing to partner with you",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_005_004",
+          "start": 5136.96,
+          "end": 5142.0,
+          "speaker_name": "Unknown Speaker",
+          "speaker_role": "unknown",
+          "text": "Is there anybody else in the room that would like to speak on the proposed FY27 budget?",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_005_005",
+          "start": 5146.08,
+          "end": 5158.4,
+          "speaker_name": "Mayor Catherine Read",
+          "speaker_role": "unknown",
+          "text": "Okay. will now close the public hearing on the proposed FY27 budget. Budget adoption will be on May 5th, 2026, beginning at 7 p.m",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_005_006",
+          "start": 5160.0,
+          "end": 5168.0,
+          "speaker_name": "Unknown Speaker",
+          "speaker_role": "unknown",
+          "text": "Ms. Schoenberg? We will move forward to second general public comment. I had one person sign up prior to the start of the meeting. will call them forward. Mary McDaniel?",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        },
+        {
+          "turn_id": "gold_ex_005_007",
+          "start": 5175.68,
+          "end": 5219.28,
+          "speaker_name": "Unknown Speaker",
+          "speaker_role": "unknown",
+          "text": "Thank you. I'm Mary McDaniel, a resident of the Fairfax City, and my comments tonight are unrelated to my role on the city's electoral board. I'm speaking in support of the Willard Sherwood Center, and I'm asking that the city council advance this project. It's an essential facility for our growing city. I have attended a ton of open houses on this and have always supported the project. As I look at it, it seems very obvious that we should move ahead, and I started thinking about why would you maybe cancel the project? And one might be that the services that are going to be covered are not needed anymore. But in fact, the services are needed more now than 10 years ago when project planning",
+          "is_final": true,
+          "notes": "Derived from reviewed structured transcript"
+        }
+      ]
+    }
+  ]
+}

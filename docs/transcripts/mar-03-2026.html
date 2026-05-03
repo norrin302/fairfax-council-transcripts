@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mar-03-2026 — City Council Work Session | Fairfax City Council Transcripts</title>
+  <link rel="stylesheet" href="../css/transcript-page.css">
+  <link rel="stylesheet" href="../css/review-ui.css">
+</head>
+<body>
+<div id="app">
+  <header class="meeting-header">
+    <div class="header-inner">
+      <div class="header-meta">
+        <span class="meeting-type-badge work-session">Work Session</span>
+        <time class="meeting-date">mar-03-2026</time>
+      </div>
+      <h1 class="meeting-title">City Council Work Session</h1>
+      <div class="meeting-subtitle">City of Fairfax, Virginia — mar-03-2026</div>
+    </div>
+  </header>
+  <div class="meeting-layout">
+    <aside class="speaker-panel">
+      <div class="panel-section">
+        <h2 class="panel-title">Speakers</h2>
+        <ul class="meeting-speaker-list">
+        <li class="meeting-speaker-item"><span class="speaker-name">Staff Member</span><span class="speaker-count">95 turns</span></li>
+        <li class="meeting-speaker-item"><span class="speaker-name">Mayor Catherine Read</span><span class="speaker-count">74 turns</span></li>
+        <li class="meeting-speaker-item"><span class="speaker-name">City Manager</span><span class="speaker-count">12 turns</span></li>
+        <li class="meeting-speaker-item"><span class="speaker-name">Councilmember Bates</span><span class="speaker-count">6 turns</span></li>
+        <li class="meeting-speaker-item"><span class="speaker-name">Daniel Alexander</span><span class="speaker-count">5 turns</span></li>
+        <li class="meeting-speaker-item"><span class="speaker-name">Councilmember Hall</span><span class="speaker-count">5 turns</span></li>
+        <li class="meeting-speaker-item"><span class="speaker-name">Councilmember Amos</span><span class="speaker-count">4 turns</span></li>
+        <li class="meeting-speaker-item"><span class="speaker-name">Councilmember Peterson</span><span class="speaker-count">3 turns</span></li>
+        <li class="meeting-speaker-item"><span class="speaker-name">Councilmember Hardy Chandler</span><span class="speaker-count">1 turns</span></li>
+
+        </ul>
+      </div>
+      <div class="panel-section"><h2 class="panel-title">Jump to</h2><ul class="time-index-list" id="time-index"></ul></div>
+      <div class="panel-section" id="votes-summary-container">
+        <h2 class="panel-title">Council Votes</h2>
+        <div id="votes-summary"><p class="no-votes-note">No roll call votes recorded for this Work Session.</p></div>
+      </div>
+    </aside>
+    <main class="transcript-main"><div class="transcript-container" id="transcript-container"></div></main>
+  </div>
+</div>
+<div id="review-ui" class="review-ui-hidden">
+  <button class="review-toggle-btn" id="review-toggle-btn">Review Mode</button>
+  <div class="review-toolbar" id="review-toolbar">
+    <button class="review-action-btn" id="review-prev-btn">← Prev</button>
+    <button class="review-action-btn" id="review-next-btn">Next →</button>
+    <button class="review-action-btn review-action-btn-save" id="review-save-btn">Save</button>
+    <button class="review-action-btn review-action-btn-export" id="review-export-btn">Finish Review</button>
+    <button class="review-action-btn-votes" id="review-votes-btn">🗳 Votes</button>
+    <span class="review-status-text" id="review-status-text"></span>
+  </div>
+</div>
+<div class="modal-overlay" id="modal-overlay"></div>
+<script>
+window.MEETING = {
+  meeting_id: "mar-03-2026",
+  clip_id: "4489",
+  granicus_url: "https://fairfax.granicus.com/AgendaViewer.php?clip_id=4489",
+  structured: null,
+  speakers: ["Mayor Catherine Read", "SPEAKER_07", "Daniel Alexander", "SPEAKER_08", "SPEAKER_16", "Staff Member", "SPEAKER_01", "City Manager", "Councilmember Amos", "SPEAKER_12", "SPEAKER_15", "Councilmember Hall", "SPEAKER_13", "SPEAKER_06", "SPEAKER_14", "Councilmember Bates", "SPEAKER_00", "SPEAKER_03", "Councilmember Peterson", "SPEAKER_10", "Councilmember Hardy Chandler", "SPEAKER_11", "SPEAKER_02", "SPEAKER_04"],
+  speaker_counts: {"Mayor Catherine Read": 74, "SPEAKER_07": 55, "Daniel Alexander": 5, "SPEAKER_08": 9, "SPEAKER_16": 8, "Staff Member": 95, "SPEAKER_01": 35, "City Manager": 12, "Councilmember Amos": 4, "SPEAKER_12": 15, "SPEAKER_15": 22, "Councilmember Hall": 5, "SPEAKER_13": 36, "SPEAKER_06": 24, "SPEAKER_14": 39, "Councilmember Bates": 6, "SPEAKER_00": 36, "SPEAKER_03": 15, "Councilmember Peterson": 3, "SPEAKER_10": 22, "Councilmember Hardy Chandler": 1, "SPEAKER_11": 11, "SPEAKER_02": 8, "SPEAKER_04": 14},
+  auto_resolved: 205,
+  needs_review: 349,
+};
+</script>
+<script src="../js/transcript-page.js"></script>
+<script src="../js/review-ui.js"></script>
+</body>
+</html>

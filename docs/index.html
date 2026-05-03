@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fairfax City Council Transcripts</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/search.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1><i class="fas fa-landmark"></i> City of Fairfax Council Transcripts</h1>
+            <p class="tagline">Transparent government, powered by AI transcription</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Cross-Meeting Search -->
+        <section class="global-search">
+            <h2><i class="fas fa-search"></i> Search All Transcripts</h2>
+            <div class="search-box">
+                <input type="text" id="global-search" placeholder="Search across published meetings...">
+                <button id="search-btn"><i class="fas fa-search"></i> Search</button>
+            </div>
+            <div class="search-filters">
+                <label><i class="fas fa-tags"></i> Meeting:
+                    <select id="filter-meeting-type">
+                        <option value="">All Types</option>
+                    </select>
+                </label>
+                <label><i class="fas fa-user"></i> Speaker:
+                    <select id="filter-speaker">
+                        <option value="">All Speakers</option>
+                    </select>
+                </label>
+                <label><i class="fas fa-list"></i> Section:
+                    <select id="filter-section">
+                        <option value="">All Sections</option>
+                    </select>
+                </label>
+                <label><i class="fas fa-calendar"></i> Date Range:
+                    <input type="date" id="filter-date-from">
+                    <span>to</span>
+                    <input type="date" id="filter-date-to">
+                </label>
+            </div>
+            <div id="search-results" class="search-results"></div>
+        </section>
+
+        <section class="intro">
+            <h2><i class="fas fa-info-circle"></i> About This Project</h2>
+            <p>
+                This site provides searchable transcripts of Fairfax City Council meetings.
+                Transcripts are generated using AI speech recognition and include timestamps,
+                best-effort speaker labels, and agenda-index navigation where available.
+            </p>
+            <p>
+                <strong>Councilwoman Stacy Hall</strong> is proud to support transparency in local government.
+                All meeting videos are public records from the
+                <a href="https://www.fairfaxva.gov/Government/Public-Meetings/City-Meetings" target="_blank">
+                    City of Fairfax official archive <i class="fas fa-external-link-alt"></i>
+                </a>.
+            </p>
+            <p style="opacity: 0.9; font-size: 14px;">
+                Video note: the city has reported Granicus streaming issues in Google Chrome. If playback fails, try Firefox, Safari, or Edge.
+            </p>
+        </section>
+
+        <section class="meetings-list">
+            <h2><i class="fas fa-calendar-alt"></i> Available Transcripts</h2>
+            <div class="meetings-grid" id="meetings">
+                <div class="meeting-card">
+                    <div class="meeting-date">
+                        <i class="fas fa-calendar"></i> April 14, 2026
+                    </div>
+                    <h3>City Council Meeting</h3>
+                    <p>Library Week Proclamation, community updates</p>
+                    <a href="transcripts/apr-14-2026.html"><i class="fas fa-file-alt"></i> View Transcript</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <h2><i class="fas fa-star"></i> Features</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <i class="fas fa-search"></i>
+                    <h3>Cross-Meeting Search</h3>
+                    <p>Search across published meeting transcripts to find exactly what was said.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-clock"></i>
+                    <h3>Clickable Timestamps</h3>
+                    <p>Click any timestamp to jump to that moment in the source video.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-users"></i>
+                    <h3>Speaker Identification</h3>
+                    <p>Best-effort automated speaker labels (may contain errors).</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>Agenda Index Navigation</h3>
+                    <p>Jump to agenda headings using the official Granicus video index (when available).</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>
+                <i class="fas fa-code"></i> Built with AI transcription technology |
+                <i class="fas fa-balance-scale"></i> Public records from City of Fairfax, VA
+            </p>
+            <p>
+                <a href="https://stacyforfairfax.com" target="_blank">
+                    <i class="fas fa-user"></i> Stacy Hall for Fairfax City Council
+                </a>
+            </p>
+        </div>
+    </footer>
+    <script src="./js/search-index.js"></script>
+    <script src="./js/meetings.js"></script>
+    <script src="./js/search.js"></script>
+</body>
+</html>

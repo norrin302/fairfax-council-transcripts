@@ -1,0 +1,741 @@
+{
+  "meeting_id": "apr-14-2026",
+  "clusters": [
+    {
+      "cluster_id": "cluster_001",
+      "likely_speaker": "JC Martinez",
+      "likely_speaker_key": "jcmartinez",
+      "confidence": 0.423,
+      "turn_ids": [
+        "turn_000036"
+      ],
+      "texts": [
+        "All right. Any other remarks? Okay. Thank you."
+      ],
+      "start_times": [
+        651.36
+      ]
+    },
+    {
+      "cluster_id": "cluster_002",
+      "likely_speaker": "Elijah Tibbs",
+      "likely_speaker_key": "elijahtibbs",
+      "confidence": 0.311,
+      "turn_ids": [
+        "turn_000039"
+      ],
+      "texts": [
+        "Squeeze in. All right. Excellent. Excellent. Thank you all. Thank you all for being here. All right."
+      ],
+      "start_times": [
+        665.84
+      ]
+    },
+    {
+      "cluster_id": "cluster_003",
+      "likely_speaker": "Elijah Tibbs",
+      "likely_speaker_key": "elijahtibbs",
+      "confidence": 0.269,
+      "turn_ids": [
+        "turn_000059"
+      ],
+      "texts": [
+        "All right."
+      ],
+      "start_times": [
+        995.32
+      ]
+    },
+    {
+      "cluster_id": "cluster_004",
+      "likely_speaker": "Elijah Tibbs",
+      "likely_speaker_key": "elijahtibbs",
+      "confidence": 0.298,
+      "turn_ids": [
+        "turn_000072"
+      ],
+      "texts": [
+        "Thank you. Thank you. All right. Everybody scrunch on in. Yeah, big turn."
+      ],
+      "start_times": [
+        1208.36
+      ]
+    },
+    {
+      "cluster_id": "cluster_005",
+      "likely_speaker": "JC Martinez",
+      "likely_speaker_key": "jcmartinez",
+      "confidence": 0.741,
+      "turn_ids": [
+        "turn_000081"
+      ],
+      "texts": [
+        "Okay. Okay. Okay. Okay. Okay. Thanks. Okay. Okay. Okay. Okay."
+      ],
+      "start_times": [
+        1240.36
+      ]
+    },
+    {
+      "cluster_id": "cluster_006",
+      "likely_speaker": "Elijah Tibbs",
+      "likely_speaker_key": "elijahtibbs",
+      "confidence": 0.252,
+      "turn_ids": [
+        "turn_000083"
+      ],
+      "texts": [
+        "And Eddie and Martha. Thank you so much. And Alison, you guys look fantastic. Just so awesome to hear you Pauling. Thank you so much. All right. It's so great to hear you call it. And no, I'm not going to start over. I said I was going to say, no not going to start over. I just wanted to hear you call it."
+      ],
+      "start_times": [
+        1251.36
+      ]
+    },
+    {
+      "cluster_id": "cluster_007",
+      "likely_speaker": "Elijah Tibbs",
+      "likely_speaker_key": "elijahtibbs",
+      "confidence": 0.255,
+      "turn_ids": [
+        "turn_000091"
+      ],
+      "texts": [
+        "Very important. All right. Everybody in the cutest."
+      ],
+      "start_times": [
+        1293.0
+      ]
+    },
+    {
+      "cluster_id": "cluster_008",
+      "likely_speaker": "Fasa Alam",
+      "likely_speaker_key": "fasaalam",
+      "confidence": 0.359,
+      "turn_ids": [
+        "turn_000107"
+      ],
+      "texts": [
+        "Thank you."
+      ],
+      "start_times": [
+        1551.84
+      ]
+    },
+    {
+      "cluster_id": "cluster_009",
+      "likely_speaker": "JC Martinez",
+      "likely_speaker_key": "jcmartinez",
+      "confidence": 0.264,
+      "turn_ids": [
+        "turn_000111"
+      ],
+      "texts": [
+        "Okay. Wonderful, wonderful. Sherry's our pure wellness dog, so she's here to support everybody."
+      ],
+      "start_times": [
+        1565.72
+      ]
+    },
+    {
+      "cluster_id": "cluster_010",
+      "likely_speaker": "Elijah Tibbs",
+      "likely_speaker_key": "elijahtibbs",
+      "confidence": 0.269,
+      "turn_ids": [
+        "turn_000113"
+      ],
+      "texts": [
+        "All right."
+      ],
+      "start_times": [
+        1575.08
+      ]
+    },
+    {
+      "cluster_id": "cluster_011",
+      "likely_speaker": "Councilmember Anthony Amos",
+      "likely_speaker_key": "councilmemberanthonyamos",
+      "confidence": 0.652,
+      "turn_ids": [
+        "turn_000116"
+      ],
+      "texts": [
+        "Is there a second?"
+      ],
+      "start_times": [
+        1648.84
+      ]
+    },
+    {
+      "cluster_id": "cluster_012",
+      "likely_speaker": "Unknown Speaker",
+      "likely_speaker_key": "unknownspeaker",
+      "confidence": 0.25,
+      "turn_ids": [
+        "turn_000138"
+      ],
+      "texts": [
+        "Willard Sherwood project. Green Acres is a apt name when you consider the ball fields and the"
+      ],
+      "start_times": [
+        1915.84
+      ]
+    },
+    {
+      "cluster_id": "cluster_013",
+      "likely_speaker": "JC Martinez",
+      "likely_speaker_key": "jcmartinez",
+      "confidence": 0.39,
+      "turn_ids": [
+        "turn_000186"
+      ],
+      "texts": [
+        "That permanent improvement goes with the home okay and so when the increase comes"
+      ],
+      "start_times": [
+        2774.74
+      ]
+    },
+    {
+      "cluster_id": "cluster_014",
+      "likely_speaker": "Fasa Alam",
+      "likely_speaker_key": "fasaalam",
+      "confidence": 0.359,
+      "turn_ids": [
+        "turn_000211"
+      ],
+      "texts": [
+        "Thank you."
+      ],
+      "start_times": [
+        3201.74
+      ]
+    },
+    {
+      "cluster_id": "cluster_015",
+      "likely_speaker": "Mayor Catherine Read",
+      "likely_speaker_key": "mayorcatherineread",
+      "confidence": 0.258,
+      "turn_ids": [
+        "turn_000222"
+      ],
+      "texts": [
+        "And just like this council meeting, it started at 7 p.m."
+      ],
+      "start_times": [
+        3358.88
+      ]
+    },
+    {
+      "cluster_id": "cluster_016",
+      "likely_speaker": "Fasa Alam",
+      "likely_speaker_key": "fasaalam",
+      "confidence": 0.359,
+      "turn_ids": [
+        "turn_000230",
+        "turn_000232"
+      ],
+      "texts": [
+        "Thank you.",
+        "Thank you."
+      ],
+      "start_times": [
+        3418.02,
+        3430.22
+      ]
+    },
+    {
+      "cluster_id": "cluster_017",
+      "likely_speaker": "Unknown Speaker",
+      "likely_speaker_key": "unknownspeaker",
+      "confidence": 0.297,
+      "turn_ids": [
+        "turn_000238"
+      ],
+      "texts": [
+        "Would the county expect the city to compensate them"
+      ],
+      "start_times": [
+        3570.74
+      ]
+    },
+    {
+      "cluster_id": "cluster_018",
+      "likely_speaker": "Mayor Catherine Read",
+      "likely_speaker_key": "mayorcatherineread",
+      "confidence": 0.555,
+      "turn_ids": [
+        "turn_000250"
+      ],
+      "texts": [
+        "Council Member McQuillan?"
+      ],
+      "start_times": [
+        3719.92
+      ]
+    },
+    {
+      "cluster_id": "cluster_019",
+      "likely_speaker": "Councilmember Anthony Amos",
+      "likely_speaker_key": "councilmemberanthonyamos",
+      "confidence": 0.652,
+      "turn_ids": [
+        "turn_000257"
+      ],
+      "texts": [
+        "Is there a second? Second."
+      ],
+      "start_times": [
+        3805.12
+      ]
+    },
+    {
+      "cluster_id": "cluster_020",
+      "likely_speaker": "Mayor Catherine Read",
+      "likely_speaker_key": "mayorcatherineread",
+      "confidence": 0.352,
+      "turn_ids": [
+        "turn_000280"
+      ],
+      "texts": [
+        "We should respect the process, vote, and move forward. That's how I feel. Thank you. Council Member Hall."
+      ],
+      "start_times": [
+        3946.92
+      ]
+    },
+    {
+      "cluster_id": "cluster_021",
+      "likely_speaker": "Elijah Tibbs",
+      "likely_speaker_key": "elijahtibbs",
+      "confidence": 0.269,
+      "turn_ids": [
+        "turn_000322"
+      ],
+      "texts": [
+        "Legal, and we thank you very much for your service"
+      ],
+      "start_times": [
+        4459.2
+      ]
+    },
+    {
+      "cluster_id": "cluster_022",
+      "likely_speaker": "Fasa Alam",
+      "likely_speaker_key": "fasaalam",
+      "confidence": 0.359,
+      "turn_ids": [
+        "turn_000330",
+        "turn_000332"
+      ],
+      "texts": [
+        "Thank you.",
+        "Thank you."
+      ],
+      "start_times": [
+        4530.44,
+        4558.96
+      ]
+    },
+    {
+      "cluster_id": "cluster_023",
+      "likely_speaker": "Mayor Catherine Read",
+      "likely_speaker_key": "mayorcatherineread",
+      "confidence": 0.261,
+      "turn_ids": [
+        "turn_000342"
+      ],
+      "texts": [
+        "And I can't imagine that this council would"
+      ],
+      "start_times": [
+        4677.4
+      ]
+    },
+    {
+      "cluster_id": "cluster_024",
+      "likely_speaker": "Fasa Alam",
+      "likely_speaker_key": "fasaalam",
+      "confidence": 0.359,
+      "turn_ids": [
+        "turn_000363"
+      ],
+      "texts": [
+        "Thank you."
+      ],
+      "start_times": [
+        4934.76
+      ]
+    },
+    {
+      "cluster_id": "cluster_025",
+      "likely_speaker": "Elijah Tibbs",
+      "likely_speaker_key": "elijahtibbs",
+      "confidence": 0.269,
+      "turn_ids": [
+        "turn_000390"
+      ],
+      "texts": [
+        "All right."
+      ],
+      "start_times": [
+        5390.26
+      ]
+    },
+    {
+      "cluster_id": "cluster_026",
+      "likely_speaker": "Mayor Catherine Read",
+      "likely_speaker_key": "mayorcatherineread",
+      "confidence": 0.527,
+      "turn_ids": [
+        "turn_000416"
+      ],
+      "texts": [
+        "Thank you. Council Member Peterson."
+      ],
+      "start_times": [
+        5936.04
+      ]
+    },
+    {
+      "cluster_id": "cluster_027",
+      "likely_speaker": "Elijah Tibbs",
+      "likely_speaker_key": "elijahtibbs",
+      "confidence": 0.381,
+      "turn_ids": [
+        "turn_000429"
+      ],
+      "texts": [
+        "Thank you very much."
+      ],
+      "start_times": [
+        6082.08
+      ]
+    },
+    {
+      "cluster_id": "cluster_028",
+      "likely_speaker": "JC Martinez",
+      "likely_speaker_key": "jcmartinez",
+      "confidence": 0.746,
+      "turn_ids": [
+        "turn_000431"
+      ],
+      "texts": [
+        "Okay."
+      ],
+      "start_times": [
+        6084.52
+      ]
+    },
+    {
+      "cluster_id": "cluster_029",
+      "likely_speaker": "Fasa Alam",
+      "likely_speaker_key": "fasaalam",
+      "confidence": 0.359,
+      "turn_ids": [
+        "turn_000440"
+      ],
+      "texts": [
+        "Thank you."
+      ],
+      "start_times": [
+        6242.64
+      ]
+    },
+    {
+      "cluster_id": "cluster_030",
+      "likely_speaker": "Fasa Alam",
+      "likely_speaker_key": "fasaalam",
+      "confidence": 0.359,
+      "turn_ids": [
+        "turn_000459"
+      ],
+      "texts": [
+        "Thank you."
+      ],
+      "start_times": [
+        6581.12
+      ]
+    },
+    {
+      "cluster_id": "cluster_031",
+      "likely_speaker": "Fasa Alam",
+      "likely_speaker_key": "fasaalam",
+      "confidence": 0.359,
+      "turn_ids": [
+        "turn_000467"
+      ],
+      "texts": [
+        "So thank you."
+      ],
+      "start_times": [
+        6663.38
+      ]
+    },
+    {
+      "cluster_id": "cluster_032",
+      "likely_speaker": "Fasa Alam",
+      "likely_speaker_key": "fasaalam",
+      "confidence": 0.359,
+      "turn_ids": [
+        "turn_000494"
+      ],
+      "texts": [
+        "Thank you."
+      ],
+      "start_times": [
+        7043.48
+      ]
+    },
+    {
+      "cluster_id": "cluster_033",
+      "likely_speaker": "Mayor Catherine Read",
+      "likely_speaker_key": "mayorcatherineread",
+      "confidence": 0.441,
+      "turn_ids": [
+        "turn_000509"
+      ],
+      "texts": [
+        "Thank you so much. Council Member McQuillan."
+      ],
+      "start_times": [
+        7365.5
+      ]
+    },
+    {
+      "cluster_id": "cluster_034",
+      "likely_speaker": "Fasa Alam",
+      "likely_speaker_key": "fasaalam",
+      "confidence": 0.359,
+      "turn_ids": [
+        "turn_000538"
+      ],
+      "texts": [
+        "So thank you."
+      ],
+      "start_times": [
+        7710.14
+      ]
+    },
+    {
+      "cluster_id": "cluster_035",
+      "likely_speaker": "Mayor Catherine Read",
+      "likely_speaker_key": "mayorcatherineread",
+      "confidence": 0.516,
+      "turn_ids": [
+        "turn_000574"
+      ],
+      "texts": [
+        "Any council member McQuillan?"
+      ],
+      "start_times": [
+        8236.08
+      ]
+    },
+    {
+      "cluster_id": "cluster_036",
+      "likely_speaker": "Fasa Alam",
+      "likely_speaker_key": "fasaalam",
+      "confidence": 0.359,
+      "turn_ids": [
+        "turn_000577"
+      ],
+      "texts": [
+        "So thank you."
+      ],
+      "start_times": [
+        8295.4
+      ]
+    },
+    {
+      "cluster_id": "cluster_037",
+      "likely_speaker": "JC Martinez",
+      "likely_speaker_key": "jcmartinez",
+      "confidence": 0.527,
+      "turn_ids": [
+        "turn_000595"
+      ],
+      "texts": [
+        "Okay, if there's no more questions on that,"
+      ],
+      "start_times": [
+        8538.72
+      ]
+    },
+    {
+      "cluster_id": "cluster_038",
+      "likely_speaker": "Fasa Alam",
+      "likely_speaker_key": "fasaalam",
+      "confidence": 0.359,
+      "turn_ids": [
+        "turn_000608",
+        "turn_000611"
+      ],
+      "texts": [
+        "Thank you.",
+        "Thank you."
+      ],
+      "start_times": [
+        8769.86,
+        8783.24
+      ]
+    }
+  ],
+  "singletons": [
+    "turn_000001",
+    "turn_000002",
+    "turn_000003",
+    "turn_000005",
+    "turn_000007",
+    "turn_000010",
+    "turn_000016",
+    "turn_000023",
+    "turn_000027",
+    "turn_000029",
+    "turn_000041",
+    "turn_000043",
+    "turn_000045",
+    "turn_000050",
+    "turn_000052",
+    "turn_000054",
+    "turn_000063",
+    "turn_000065",
+    "turn_000067",
+    "turn_000075",
+    "turn_000085",
+    "turn_000087",
+    "turn_000089",
+    "turn_000093",
+    "turn_000098",
+    "turn_000100",
+    "turn_000102",
+    "turn_000105",
+    "turn_000119",
+    "turn_000121",
+    "turn_000123",
+    "turn_000126",
+    "turn_000130",
+    "turn_000132",
+    "turn_000134",
+    "turn_000140",
+    "turn_000143",
+    "turn_000145",
+    "turn_000147",
+    "turn_000149",
+    "turn_000151",
+    "turn_000158",
+    "turn_000162",
+    "turn_000165",
+    "turn_000168",
+    "turn_000170",
+    "turn_000172",
+    "turn_000174",
+    "turn_000178",
+    "turn_000180",
+    "turn_000182",
+    "turn_000184",
+    "turn_000188",
+    "turn_000192",
+    "turn_000194",
+    "turn_000196",
+    "turn_000198",
+    "turn_000214",
+    "turn_000218",
+    "turn_000220",
+    "turn_000224",
+    "turn_000227",
+    "turn_000234",
+    "turn_000240",
+    "turn_000243",
+    "turn_000246",
+    "turn_000262",
+    "turn_000271",
+    "turn_000273",
+    "turn_000275",
+    "turn_000278",
+    "turn_000283",
+    "turn_000285",
+    "turn_000289",
+    "turn_000293",
+    "turn_000295",
+    "turn_000300",
+    "turn_000306",
+    "turn_000309",
+    "turn_000312",
+    "turn_000314",
+    "turn_000335",
+    "turn_000338",
+    "turn_000340",
+    "turn_000345",
+    "turn_000349",
+    "turn_000378",
+    "turn_000381",
+    "turn_000385",
+    "turn_000386",
+    "turn_000388",
+    "turn_000394",
+    "turn_000401",
+    "turn_000403",
+    "turn_000406",
+    "turn_000408",
+    "turn_000410",
+    "turn_000413",
+    "turn_000418",
+    "turn_000421",
+    "turn_000424",
+    "turn_000437",
+    "turn_000446",
+    "turn_000449",
+    "turn_000451",
+    "turn_000455",
+    "turn_000457",
+    "turn_000461",
+    "turn_000471",
+    "turn_000473",
+    "turn_000475",
+    "turn_000478",
+    "turn_000480",
+    "turn_000483",
+    "turn_000485",
+    "turn_000487",
+    "turn_000498",
+    "turn_000501",
+    "turn_000514",
+    "turn_000521",
+    "turn_000524",
+    "turn_000527",
+    "turn_000532",
+    "turn_000535",
+    "turn_000541",
+    "turn_000545",
+    "turn_000547",
+    "turn_000551",
+    "turn_000553",
+    "turn_000556",
+    "turn_000559",
+    "turn_000561",
+    "turn_000566",
+    "turn_000570",
+    "turn_000580",
+    "turn_000603",
+    "turn_000605",
+    "turn_000614",
+    "turn_000616",
+    "turn_000618",
+    "turn_000621",
+    "turn_000626",
+    "turn_000628",
+    "turn_000632",
+    "turn_000634",
+    "turn_000639",
+    "turn_000649",
+    "turn_000652",
+    "turn_000654",
+    "turn_000658",
+    "turn_000660",
+    "turn_000670",
+    "turn_000671",
+    "turn_000672",
+    "turn_000673"
+  ]
+}

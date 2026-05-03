@@ -1,0 +1,53 @@
+{
+  "meeting_id": "mar-10-2026",
+  "clip_id": "4494",
+  "recorded_at": "2026-03-10",
+  "source": "Granicus Council Actions (official minutes)",
+  "votes": [
+    {
+      "item": "2a",
+      "title": "Actions out of closed meeting — personnel action outlined by City Manager",
+      "result": "PASSED",
+      "vote_count": "Unanimous",
+      "breakdown": "All councilmembers present",
+      "opposed": [],
+      "notes": "Pursuant to City Charter Section 6.3(F)"
+    },
+    {
+      "item": "4",
+      "title": "Adoption of the agenda",
+      "result": "PASSED",
+      "vote_count": "Unanimous",
+      "breakdown": "All councilmembers present",
+      "opposed": [],
+      "notes": ""
+    },
+    {
+      "item": "6",
+      "title": "Consent agenda (6a-f: minutes from Feb 3, 10, 17, 24 meetings)",
+      "result": "PASSED",
+      "vote_count": "Unanimous",
+      "breakdown": "All councilmembers present",
+      "opposed": [],
+      "notes": ""
+    },
+    {
+      "item": "7a",
+      "title": "Rise and Shine Preschool Special Use Permit amendment (expand from 35 to 89 children, 10185 Main Street)",
+      "result": "PASSED",
+      "vote_count": "Unanimous",
+      "breakdown": "All councilmembers present",
+      "opposed": [],
+      "notes": "Approved with conditions"
+    },
+    {
+      "item": "9a",
+      "title": "Maximum real estate tax rate for FY 2027 to be advertised ($1.095 per $100 assessed value)",
+      "result": "PASSED",
+      "vote_count": "4-3",
+      "breakdown": "Hall, McQuillen, and Peterson opposed",
+      "opposed": ["Councilmember Hall", "Councilmember McQuillen", "Councilmember Peterson"],
+      "notes": "This is the advertised rate, not the adopted rate. Does not set the actual tax rate for FY 2027."
+    }
+  ]
+}
