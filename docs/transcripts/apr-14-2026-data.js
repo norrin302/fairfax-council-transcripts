@@ -1,7 +1,7 @@
 // Fixes: 3 roll call name-readings + 1 additional misattribution corrected + 5 speaker corrections + 1 text split fixed + 14 additional corrections
 const TRANSCRIPT_TURNS = [
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 160,
@@ -25,7 +25,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Okay, thank you, Mayor. I'm honored to be your representative to the Fairfax County Public Library Board of Trustees. I'm in my second year as chairman of the board. Fortunately, you can only serve two years, so I'll be turning it over to somebody in July. But it's a real honor, and some of you may know my career was at the Fairfax City Regional Library. And so this is just a continuation of what I did for many years, and I wanted to introduce our library director, Eric Carzon. Elena Quarles is the branch manager at City of Fairfax, and Jackie Consalvo is the head of the circulation department. So when you go into the library next week to celebrate National Library Week, please say hi to everybody. And if you don't have a library card, we have beautiful new cards that were designed by citizens in the community. And you can replace your old card with a pretty new one, or you can get a card for the first time. We really want to have you coming in our doors, seeing all the wonderful things that are going on. And check out our book sale. The children's book sale is the first weekend in May, and the adult book sale is in the second week of May. And our wonderful friends of the library raised money to support library activities and help us purchase materials that are not in the budget to be purchased. So thank you for this honor. We really appreciate the opportunity to be here."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 358820,
@@ -41,7 +41,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Well, Mayor Reed has the name to have a library card."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 376930,
@@ -53,7 +53,7 @@ const TRANSCRIPT_TURNS = [
     "text": "The group is gathering for a group photo."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 379250,
@@ -81,7 +81,7 @@ const TRANSCRIPT_TURNS = [
     "text": "The group is gathering for a group photo."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "text": "Okay, good. Oh, you. Okay?"
   },
   {
@@ -93,7 +93,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you so much, and thank you for this. And the staff is going to take it back to the library and put it in a prominent place. I will see you at the library."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 408010,
@@ -113,7 +113,7 @@ const TRANSCRIPT_TURNS = [
     "text": "[Cross-talk in the room.]"
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 447450,
@@ -137,7 +137,7 @@ const TRANSCRIPT_TURNS = [
     "text": "So please join us on the Arbor day event on April 25th. And I would also like to make a pitch for making our carbon footprint a little better than what we do. I am one of the persons who benefited from the city's Solarize Virginia program last year, and I have solar panels on my house and few other friends who are also in this room have that. And since October, I have not paid anything to dominion other than $7 something, and I have exported a lot of power out there. So this year, again, the Solarize Virginia is a great program. It's opening up again in April 16th. Stephanie? Yes. 15th. And it will continue. It is a very good vetted program. It's the best rate you're going to get. So just spread the word out and do that. And please join us on the Arbor Day on April 25. The event begins at 9am we will have some students who are written beautiful poetries. They will be reciting. We'll have tree giveaways, tree plantations, and a lot of fun. So please join us."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "correction",
     "speaker_source_detail": "Corrected from Councilmember Tom Peterson",
     "start": 651700,
@@ -145,7 +145,7 @@ const TRANSCRIPT_TURNS = [
     "text": "All right, any other remarks? Okay. And I think that's at Pat Rodeo Park. Yes, Pat Rodeo Park. I think that's a new venue for us. Okay, picture"
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 667140,
@@ -153,7 +153,7 @@ const TRANSCRIPT_TURNS = [
     "text": "squeeze."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 695640,
@@ -169,7 +169,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Okay, thank you, Mayor Reed. Following up on the Mayor's comments, I have a certified monarch waystation in our yard, which some of you may have heard of. It's through Monarch Watch at the University of Kansas. So besides, in public parks and public spaces, individual homeowners really can make a difference for the monarch butterfly. Really, even one milkweed plant in your yard can make a huge difference because as the mayor said, that is the only food that the monarch caterpillar will eat. And so if you have a milkweed plant in your yard and the caterpillars can start their life cycle and of course, metamorphosis into the butterfly, the other thing you can do as a homeowner is have nectar plants in your yard, particularly late blooming nectar plants in the fall. The migration to Mexico in this area is August through October. And so if you have a nectar source in your yard that the butterflies can access during that southward migration, that is very helpful to them. So some ideas for planting in your yard would be goldenrod or aster so that they've got that nectar source on their way to Mexico. The good news is that in this past overwintering season in Mexico, There was a 64% increase in the amount of butterfly and the amount of monarchs that were there. So we're showing some improvement. We're not really there yet to the goal, but we're moving in the right direction. So that was good news from the overwintering sites in Mexico. So you can, if anyone wants to visit my yard this summer, you can reach out to the city clerk and get my address. But you can actually have butterflies flying around you. You can see caterpillars in the yard, and it's very exciting. Mary, my colleague from the women's club also has a lot of milkweed in her yard. Cindy Meyer has milkweed in her yard. And there are probably a number of you who also have that. It's very exciting. It's a science project going on right in your yard. I've had field trips from our daycare down the street. I've done some stuff virtually for the science teacher at Daniel's Run. So it's very exciting. So I'm happy to guide anybody who wants to do this project? So turn it over to Stephanie Johnson has got."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 965760,
@@ -185,7 +185,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Good evening. I just want to say that we feel very fortunate to be a part of the city, and we enjoy doing as much as we can to be supportive of the city. And I think it's pretty impressive that we have sustained ourselves for 70 years, considering all the different ups and downs of the past 70 years. And we look forward to serving you for many more years. And thank you."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1267780,
@@ -217,7 +217,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Chief."
   },
   {
-    "speaker": "Councilmember Stacy Hall",
+    "speaker": "Councilmember Stacy R. Hall",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1451640,
@@ -225,7 +225,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Good evening, everybody. You know, it's A great opportunity to be here with you and celebrating. So such an important, important group of professionals in our public safety world. I just want to introduce everybody really quickly. Our dispatcher, Ms. Araceli Gonzalez. Ms. Courtney Ellis. Elijah Tibbs, who was just introduced as our dispatcher of the year for 2025. Our communications and records supervisor, Ms. Cynthia Tetterton. Our lieutenant, Ms. Stephanie Sharp, who oversees the entire operation, and then Captain Brock Rutter, who oversees the administrative services division. With them. There's another six dispatchers that help answer all the phone calls from people within our city. Whether you're living here, working here, visiting, if you have any type of emergency, if you need directions somewhere, you call the police and they answer. And it's something beautiful to watch. If you ever have the opportunity to be in a911 center and to see what happens, particularly when there's a critical situation occurring in the city and all of them come together and whether it's. You have to understand what they do. They take the phone call, they're a detective, they're asking questions. They're figuring out what it is that's happening, where it's happening, what's that vital information that has to get routed to our responding police or fire personnel at the same time. They're typing it all and routing it to the police officers and emergency personnel, real time as they're typing it fast, figuring out what to ask, what's the next question, typing it in and routing it to the right people and assigning the right personnel to respond to that call. It's incredible. And so I really thank all of our dispatchers, appreciate everybody supporting them and for our proclamation. Mayor, thank you so much."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "correction",
     "speaker_source_detail": "Corrected from Councilmember Tom Peterson",
     "start": 1556580,
@@ -241,7 +241,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Sherry."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "correction",
     "speaker_source_detail": "Corrected from Councilmember Tom Peterson",
     "start": 1563230,
@@ -257,7 +257,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Okay."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "correction",
     "speaker_source_detail": "Corrected from Councilmember Tom Peterson",
     "start": 1569390,
@@ -265,7 +265,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Wonderful, wonderful."
   },
   {
-    "speaker": "Councilmember Stacy Hall",
+    "speaker": "Councilmember Stacy R. Hall",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1570390,
@@ -289,7 +289,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Work."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "correction",
     "speaker_source_detail": "Corrected from Councilmember Billy Bates",
     "start": 1639300,
@@ -297,7 +297,7 @@ const TRANSCRIPT_TURNS = [
     "text": "We can move on to the adoption of the agenda."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "correction",
     "speaker_source_detail": "Corrected from Councilmember Tom Peterson",
     "start": 1643700,
@@ -305,7 +305,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Is there a motion to approve the agenda? I move to adopt the agenda as presented. Is there a second?"
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "correction",
     "speaker_source_detail": "Corrected from Councilmember Stacy Hall",
     "start": 1650120,
@@ -313,7 +313,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Second."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "correction",
     "speaker_source_detail": "Corrected from Councilmember Tom Peterson",
     "start": 1651480,
@@ -329,7 +329,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Council Member Amos."
   },
   {
-    "speaker": "Councilmember Stacy Hall",
+    "speaker": "Councilmember Stacy R. Hall",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1655880,
@@ -345,7 +345,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Councilmember Hall."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1657360,
@@ -353,7 +353,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Aye."
   },
   {
-    "speaker": "Councilmember Billy Bates",
+    "speaker": "Councilmember Billy M. Bates",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1657800,
@@ -377,7 +377,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Council Member Peterson."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1660680,
@@ -393,7 +393,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Councilmember bates."
   },
   {
-    "speaker": "Councilmember Stacy Hall",
+    "speaker": "Councilmember Stacy R. Hall",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1662200,
@@ -409,7 +409,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Councilman McQuillan."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1665000,
@@ -425,7 +425,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Motion passed unanimously."
   },
   {
-    "speaker": "Councilmember Rachel McQuillen",
+    "speaker": "Councilmember Rachel M. McQuillen",
     "speaker_source": "correction",
     "speaker_source_detail": "Corrected from Councilmember Tom Peterson",
     "start": 1667960,
@@ -433,7 +433,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Sorry."
   },
   {
-    "speaker": "Councilmember Billy Bates",
+    "speaker": "Councilmember Billy M. Bates",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1669080,
@@ -449,7 +449,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Good evening, Mayor Reed and members of city council. My name is Anita Light and I'm here tonight in three capacities. First is the chair of the Fairfax Village in the City Advisory Board, a resident of Fairfax City, obviously, and as an older adult. As chair of the Fairfax Village and the City Advisory Board, we wanted to emphasize our support for the Willard Sherwood center, as noted in our letter to you all, dated April 6th. In that letter, we noted that supporting the new Willard Sherwood center would help make accessibility for older adults easier and safer. We also noted that this project was a community partnership effort with the county as well as the residents of both the city and the county. And finally, we highlighted that this project is a long term investment for the future of the city. And as an additional note on the advisory board, and for a more important reason, we really support advancing the Willard Sherwood center to help enhance the Villages Expo that we had this past Friday, which was a huge success. And if we had even, even better facility with better parking, it would help that event even better. And as a city resident of the city, I support the Willard Sherwood center because this facility will afford."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1770720,
@@ -465,7 +465,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Oh."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 1868700,
@@ -497,7 +497,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Our next speaker is Jan Jaworski. Good evening Mayor Reed and members of the City Council. I also am here to Janet Jaworski, 3621 Heritage Lane. For the record, I also am here to lend my support to the Willard Sherwood Project. I do wear a number of hats in the city, as you know, so these are my comments as a resident and not representing any organization or department for which I volunteer. Pete and I have lived here for 26 years and honestly, I think the need for a community center has been part of the dialogue for the entire time that we've lived here. In fact, during my six year tenure on the Planning Commission from 2014 to 2020, including a three year stint on Prab, this was a huge topic of conversation. And this is going back more than 10 years from now, the need for a full service community center. So I do support it for all the reasons that you've been hearing from from all of the other residents coming up to support it. I'm going to focus on something a little bit different. Although I am a member of the senior center, but I'm going to try to highlight some benefits for adults of all ages. As a former competitive athlete, I think the walking track, the gym, the fitness center are going to be so key to both the physical and mental health of our residents. As we all know, mental health and physical health are intertwined and a happy, healthy, both mentally and physically. Population here."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 2360560,
@@ -513,7 +513,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 2450100,
@@ -529,7 +529,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I'm a little shorter than Janet. Good evening, ladies and gentlemen, Mayor Reed, members of council staff, residents and guests. My name is Janice Miller and I am here to support moving forward with the Willard Sherwood project. And I support council members authorizing the the EDA to sell revenue bonds to finance this project. Questions have been raised recently regarding the economic advantages of this proposed project. Please consider the following. Willard Sherwood would be a long term economic anchor. It would strengthen downtown vitality due to its central location. It would generate consistent weekday activity that will support downtown retail and services. It would increase pedestrian activity in the downtown area. It would reinforce Old Town as a hub for daily life and not solely as a spot for dining out, nightlife and or special events. Willard Sherwood would demonstrate capital leverage and fiscal efficiency. The capital costs are divided between the county and the city based on programmatic usage. The city avoids land acquisition costs, demolition costs and site preparation costs. The shared infrastructure and parking reduce capital duplication. Energy efficient design lowers operating costs. Willard Sherwood will support workforce and talent competitiveness. It will help attract and retain public and private sector employees and professional households. It will reinforce the city's identity as a service rich community. It will enhance the city's appeal relative to competing jurisdictions. Unlike market driven projects, the center provides enduring economic value across all business cycles. All these factors support office occupancy, mixed use development and economic security. Willard Sherwood advances the city's strategic priorities and economic development goals. It maximizes limited land resources and preserve green space through joint development. It uses external funding to reduce city exposure. It strengthens downtown vitality. It supports quality of life. It builds on past city county partnerships and establishes a model for future city county collaboration. In summary, by providing the opportunity for enhanced business tax income, this project will deliver sustained economic value that will ultimately far exceed its direct fiscal cost. There are many in the audience who support Willard Sherwood. Would those who support this project are willing to pay reasonable fees for usage and approve of their tax dollars paying both capital cost and operating costs? Please stand up."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 2648840,
@@ -545,7 +545,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 2664700,
@@ -553,7 +553,7 @@ const TRANSCRIPT_TURNS = [
     "text": "You. Good evening, Madam Mayor, city council members and assembled city staff. I have. I'd like to speak to just two issues in my allotted time. The first is the Willard Community Center. All the good things that have been said about it I support. I would add one other thing that I didn't hear yet and that is combining the community center in the center of the city. I think it just makes sense to me and it's a great opportunity to reinforce Old Town as a hub of daily activities which has been necessary for a long time. And we've talked about that quite a bit. So I recommend that you support that issue. The other one has to do with the Fairfax Renaissance Housing Corporation, which is an organization that provides city of Fairfax homeowners an attractive opportunity to upgrade and improve the quality of the city's residential neighborhoods. Over the past 23 years of its existence, it has provided funding to 290 improvement loans and has not lost a single penny to a bad loan. Plus, the city gets back money from the housing Corporation program due to the permanent improvements that are made. And thus the tax that goes with that permanent improvement goes with the home, okay? And so when the increase comes for that, the city receives a return on its investment and it continues and continues. So this program was not funded last year and now we can't do any loans at all because they don't have funds for it. And so I strongly urge that this City Council fund it for next year so that we can continue this program because it returns money to you and the persons that the people that get the improvements like it a lot, believe me. I thank you for your kind attention."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 2826340,
@@ -569,7 +569,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Good evening. Thank you for the opportunity to speak with you tonight. My name is Becky Rager. I live at 4141 Evergreen Drive. Been there for 31 years. I'm a current member of the Fairfax Village in the City Advisory Board. I spoke to you last month in overall support of the Willard Sherwood Health center and the community center. I'm here today to briefly express how the village and the city could enhance services as a result of the new facility. I'm mentioning a few possibilities today as we move forward. The advisory board members, village members and volunteers can brainstorm other possibilities for expanded services that directly support older adults and those with disabilities beyond what is currently available. We will also work with the Willard Health center and the Green Acres staff to create new programs which could include, and I'm just listing a few intergenerational activities such as tutoring or reading to the children in the child care center Working on shared craft projects in dedicated spaces where projects could remain until completed growing and maintaining a rooftop herb garden and creating a gardening circle working with the neighboring Willard Health center to have a memory cafe once a month where people who are in the early stages of cognitive impairment and their caregivers can meet, socialize and trade ideas developing workshops designed to improve memory and cognitive function creating a digital storytelling club where seniors use technology and record their life stories and conducting a vintage hat."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 2950240,
@@ -585,7 +585,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 3005330,
@@ -593,7 +593,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Our next speaker is Alan Glenn."
   },
   {
-    "speaker": "Councilmember Stacy Hall",
+    "speaker": "Councilmember Stacy R. Hall",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 3016450,
@@ -601,7 +601,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you. Alan Glenn, longtime resident of the city and now a resident just outside the city. I wanted to speak tonight also in favor of the project that Willard Health Center, Sherwood center, both on my wife's behalf, Judy Blanchard and myself were strongly in support of it. We've benefited from some of the services over the years. Our kids were vaccinated at the health center in their early childhood period. We've had other counseling and services over the years. Both of us have used the senior center and continue to be members there. I think the expanded opportunities for child care and public health that will be offered and available through this project are very much in demand to me. This project is one of a number that I consider crown jewels in the community where the city partners with the county and coming up with a wonderful facility to serve everyone, including the public schools where both our kids went and the public library that we've used and the. And the health centers. Personally, I think you all have a difficult job as elected leaders with to a two year term where you have to consider the strategic needs of the community and balance them against costs and budgetary issues. But I think in this case the project will solve a need to re update and replace the senior center that's now at Green Acres and provide better health and public services and childcare and health, early childhood health for residents. The nice thing about this is it serves everybody in the community regardless of age, income strata or which neighborhood you live in. So to me it's definitely needed and I strongly support it. Thank you very much. Oh, as long as I've got 30 seconds left. Let me just say Mr. Lastina, who is the president, previous speaker, I would like to endorse his comments. I served on the board with him for five years of the Housing Renaissance Corporation. That was one of three city boards that I've had the privilege to serve on over the years. And I think that board and the funding from the City served an important need to maintain and upgrade existing housing stock in the city. Thank you."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 3194650,
@@ -625,7 +625,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Good evening. Toby Sorenson, 10137 Spring Lake Terrace Mayor Reed and council members. The reason I am once again here to speak about supporting the Willard Sherwood Health and Community center is because many of us still do not know whether you are going to vote to fund it on April 28th or not. If any of you are still undecided to vote, please consider the following. If you vote for the funding, there are many things we do know. We know what the city's share of the joint project will be thanks to the guaranteed maximum pricing contract. We know what the operating costs will be thanks to the research done by the project consultants. We know the basic level of class and rental fees that will cover operating expenses. We know the higher level of class and rental fees that will cover operating expenses plus provide a surplus that can be put toward the yearly bond payment. We know what the bond payment will be if the city goes to bond this spring. We know that we will be able to keep a senior center and have it located in a modern facility with better services. We know that we will be able to keep a much needed preschool in the city. We know that we will have a well located community center that will draw people and businesses to the downtown area. We know that we will have continued access to important health department services right in the middle of the city. Finally, we know when this project will be completed. If you do not vote to fund Willard Sherwood, there are many things we will not know. Would we begin again to create a plan to build or rebuild a community center? How much would that new planning cost? Would a new."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "unknown",
     "speaker_source_detail": "",
     "start": 3540400,
@@ -641,7 +641,7 @@ const TRANSCRIPT_TURNS = [
     "text": "We can Move to the Consent Agenda okay, before we move forward, I want to make a take a moment to briefly address consent agenda items 6F through 6K and 6M. These items are administrative in nature and represent the first step in a multi step process, what we refer to as the introduction phase. This step is intended to formally notify our residents and business community of the city's proposed actions. There will be a full opportunity for public input at the next stage, which is the public hearing scheduled for our next regular meeting on April 28. Following that, the third and final step will be council consideration and action as part of Budget adoption night on May 5th. So again, tonight's action is simply to move these items forward in the process and ensure the community is informed and has the opportunity to participate. Are there any questions on any of the items on the Consent Agenda from the dais? Seeing none. Is there a motion?"
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 3702750,
@@ -649,7 +649,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I move to approve the consent agenda items 6A through M as presented and the accompanying motions in the staff reports."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 3710830,
@@ -657,7 +657,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Is there a second? Second we have a motion made by Council Member Stacy Hardy Chandler and seconded by Council member Peterson. A roll call vote. Council member McQuillan?"
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 3722270,
@@ -689,7 +689,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Council Member Hall Aye. Council Member Amos Aye. Motion passed unanimously Will go to appointments to boards, commissions and advisory committees. Is there A motion to approve the appointments to boards, Commissions and Advisory commissions. Council Member Hardy Chandler."
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 3742820,
@@ -697,7 +697,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I move to appoint the following applicants. Commission on the Arts. Appoint Melissa Miller for a remainder of a three year term extending through July 9, 2027. Appoint Kenneth Kraftchyk for a remainder of a three year term extending through October 26, 2028. Appoint Ann Morrison for a three year term extending through April 14, 2029. Reappoint Sharon Clark Chang for a three year term extending through February 11, 2029. Continuum of Care. Appoint James Gillespie for a two year term extending through April 14,2028. Environmental Sustainability Committee. Appoint Lauren Oliver for a remainder of a three year term extending through February 11, 2028. Appoint David Fleischer for a three year term extending through April 14, 2029. And exclude Nova Parks appointments until May 12."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 3805010,
@@ -721,7 +721,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Council Member Hardy Chandler."
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ video verification 2026-04-29",
     "start": 3822910,
@@ -737,7 +737,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Can you clarify that? I'm not following that."
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ video verification 2026-04-29",
     "start": 3837790,
@@ -753,7 +753,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Are you saying that you are going to vote on slots in which your husband is an applicant?"
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 3854990,
@@ -769,7 +769,7 @@ const TRANSCRIPT_TURNS = [
     "text": "So we have three applicants for two slots, one of whom is your husband."
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 3868290,
@@ -785,7 +785,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Okay. Under state law, for jurisdictions that follow it, that's normally considered a conflict of interest."
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 3876690,
@@ -801,7 +801,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Will you recuse yourself from a slot in which your husband is one of the applicants?"
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 3891740,
@@ -817,7 +817,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Okay, so the simple question here is whether you are going to be voting on a slot. There are two slots with three applicants where your husband is an applicant. Because normally, under state law, for jurisdictions that follow it, this is regarded as a clear conflict of interest."
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ video verification 2026-04-29",
     "start": 3920650,
@@ -825,7 +825,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Each slot is independent. Okay. And they're not the same. Slide. Okay."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ video verification 2026-04-29",
     "start": 3925290,
@@ -833,7 +833,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I think that's. Let me recognize council member McQuillan."
   },
   {
-    "speaker": "Councilmember Rachel McQuillen",
+    "speaker": "Councilmember Rachel M. McQuillen",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ video verification 2026-04-29",
     "start": 3934170,
@@ -841,7 +841,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Our residents applied for these roles in good faith. They interviewed in good faith. Council discusses these applications through the established process. We should respect the process. Vote and move forward. That's how I feel."
   },
   {
-    "speaker": "Councilmember Stacy Hall",
+    "speaker": "Councilmember Stacy R. Hall",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ video verification 2026-04-29",
     "start": 3954020,
@@ -857,7 +857,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I also think that we have taken a very, very long time, especially on this one item. There are two people that are currently serving in this role who are now one year beyond their designated term. And I do not and have not thought that it was appropriate that they continue to serve simply because this council can't come to an agreement. And I think we had what I thought was a very productive meeting a few weeks ago where we came out with two, two names that you can see on the motion. And I understand that maybe you have a different thought now that you understand maybe you can vote on a different spot or different thing. But I still think that this is very messy. And I think that we are in a situation where we are at a split vote. And unfortunately, math often is used against certain members of council when it comes to making decisions on other things. There have been many high density housing options that have passed simply because there is a vote and it is split and the mayor can break a tie. And I do not agree with that in its own merit and I simply do not agree with it now."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 4044090,
@@ -889,7 +889,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you. So to follow up on that, I completely understand that this is a frustrating circumstance and has been for some time. Ultimately, due to policy and procedure in the existing rules, it would be on Stacy Hardy Chandler, which means, I believe, that it would be necessary to push it to May 12th and have additional discussion."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 4168170,
@@ -897,7 +897,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Council member McQuillan."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 4172570,
@@ -913,7 +913,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Yes, that is clear in the city charter."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 4188490,
@@ -921,7 +921,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you. Can the city attorney confirm that interviews and deliberations on applicants occur in closed session and the final appointments are voted in open session at a regular meeting?"
   },
   {
-    "speaker": "Councilmember Stacy Hall",
+    "speaker": "Councilmember Stacy R. Hall",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 4198490,
@@ -929,7 +929,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Yes."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 4199290,
@@ -945,7 +945,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Could you restate that question, please?"
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 4215330,
@@ -961,7 +961,7 @@ const TRANSCRIPT_TURNS = [
     "text": "simply changes the number of votes required. And it also. Even if a majority of council members recuse on an item, it doesn't affect the quorum for purposes of voting on an item. So it just simply becomes the remaining members vote on the particular appointment."
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 4246820,
@@ -969,7 +969,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Excellent."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 4247380,
@@ -985,7 +985,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Okay."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 4274640,
@@ -993,7 +993,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I asked those. Just double checking, making sure."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 4276560,
@@ -1001,7 +1001,7 @@ const TRANSCRIPT_TURNS = [
     "text": "My notes here. Sorry."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 4289400,
@@ -1009,7 +1009,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I'm just going through my notes because I knew this was going to come up."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 4292480,
@@ -1041,7 +1041,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Council member Hardy Chandler, to my recollection, each time we have met to discuss this board and commission, you have recused yourself. Okay. So every single time we've had discussions and conversations, you have, on your own, chosen to remove yourself."
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 4316080,
@@ -1153,7 +1153,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I will give it back to Councilmember McQuillan now."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 4496030,
@@ -1161,7 +1161,7 @@ const TRANSCRIPT_TURNS = [
     "text": "No, actually, I give it back to Councilmember McQuillan because I'm running this business meeting. So thank you. So let me clarify. Let me clarify. By saying, when I said vote, I don't mean vote from the dais. What I'm saying is, when discussions were held in closed session about appointments to boards and commissions, there were seven people, if there were even seven people in the room who gave input. This is not about my voting from the dais for this. This is about the body acting like a body. What a concept. And I am still running this meeting. So, council member McQuillan, would you like to make further comments?"
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 4529820,
@@ -1177,7 +1177,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Council Member Hardy Chandler."
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 4563440,
@@ -1201,7 +1201,7 @@ const TRANSCRIPT_TURNS = [
     "text": "So, as a matter of practice, in this case, which is common, we have more than one slot open on a board and commission. We have multiple candidates, and it is not uncommon for the council to exercise flexibility and discretion on where those appointments fall among those set of slots that exist. This has happened frequently. In fact, it has involved councils actually appointing applicants to other committees than they had actually applied to. So this is certainly within the discretion of the council to decide who is appointed to which slot. The practical reality, again, is that it is very common to have multiple applicants for. For one or more slots. As a consequence of that, in this case, and anything like it, we have a candidate, an applicant, who is the husband of a council member who has applied for two different slots by virtue of applying in this area, and the council could be making appointments for that person in either of those slots. And as long as that applicant is still an applicant, and as long as the slots either of them are still open, then the dilemma that we have here is we have a spouse making an appointment of another spouse. And that, to me, is not just something that appears improper. I think this is an ethical issue, and I can't imagine that this council would want to exist without proper conflicts of interest procedures to prevent this very kind of thing from happening. And we see that state law intends very clearly to avoid this, and very clearly for localities to follow this. Whether or not we've taken the step we need to in codifying this is another matter. I believe we should. But this clearly is something that fits within the realm of our practice, that we now find ourselves being faced with a conflict."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 4711460,
@@ -1209,7 +1209,7 @@ const TRANSCRIPT_TURNS = [
     "text": "We have a motion on the floor. It's been properly made and seconded. Let's go to a roll call vote to see if we have votes."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 4720320,
@@ -1345,7 +1345,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Councilmember McQuillan. No. Okay. Motion failed three to three."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 4762050,
@@ -1377,7 +1377,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Our next speaker is Jennifer Rose."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 4951970,
@@ -1393,7 +1393,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Is there anybody else in the room that would like to speak on the proposed FY27 budget?"
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 5146160,
@@ -1409,7 +1409,7 @@ const TRANSCRIPT_TURNS = [
     "text": "will move forward to second general public comment I had one person sign up prior to the start of the meeting. I will call them forward. Mary McDaniel."
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 5175700,
@@ -1417,7 +1417,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you. I'm Mary McDaniel, a resident of the Fairfax City and my comments tonight are unrelated to my role on the city's electoral board. I'm speaking in support of the Willard Sherwood center and I'm asking that the City Council advance this project. It's an essential facility for our growing city. I have attended a ton of open houses on this and have always supported the project. As I look at it, it seems very obvious that we should move ahead and I started thinking about why would you maybe cancel the project? And one might be that the services that are going to be covered are not needed anymore. But in fact the services are needed more now than 10 years ago when project Planning started speaking to a few of them the Daycare Center. Our population has grown and along with that is the need for child care public health services. Again. Larger population means more demand. On top of that, the federal government has significantly reduced spending on public health and plans to continue to do more. So states and localities have to step up community space. In the past 10 years, we have learned a lot about the importance of personal contact and mental health. You know, texting is fine for some things, but face to face communication is far more important, as is exercise. So the senior center is really critical. Something that doesn't get talked about much is parking. The Sherwood Center Parking center fills up when popular programs are taking place in the evening, so having a parking garage attached to the building would help solve that problem. I am well aware that this building would raise my property taxes. I've owned two houses in the city over the space of 35 years. My real estate taxes have never gone down the rate may have decreased, but the amount I paid always went up. And I understand that because every year the cost of living goes up. In my adult life, this consumer price index has decreased only one time. Hundreds of citizens like me have spoken for more than a decade in open houses about wanting this project. And we know that the city will need to raise taxes to do this and may need to sell bonds. This has been openly disclosed and discussed throughout the planning process."
   },
   {
-    "speaker": "Councilmember Stacy Hall",
+    "speaker": "Councilmember Stacy R. Hall",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 5310960,
@@ -1433,7 +1433,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Is there anybody else in the room that would like to speak under the general public comment?"
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 5362540,
@@ -1441,7 +1441,7 @@ const TRANSCRIPT_TURNS = [
     "text": "All right, I will now recess the regulator."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 5364700,
@@ -1449,7 +1449,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Hang on before you do that."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 5365580,
@@ -1481,7 +1481,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you, Mr. Alexander. Mayor, council this evening, if we can go to the next slide. Ms. Riddle, tonight's presentation is intended to provide a high level update on the FY 2027 budget, specifically focusing, as the manager stated, on revenues and expenditures assumptions. As a reminder, this is not the final iteration. Staff will return on April 28th with more detailed scenarios and options for council's consideration as we move toward finalizing the budget. We'll begin with revenues listed on the sheet that's on the screen. And before you are previously discussed, additional proposed changes of three revenue sources, two within the B poll and one on ToT. These three items were introduced earlier this evening and represent a potential maximum increase as communicated in several respective budget memos. The associated revenue from these increases are listed on the right side. Additionally, the Commissioner of the Revenue, in collaboration with the Budget Director, reviewed and revised upward the anticipated personal property revenue projection originally budgeted in the proposed FY27 budget by an additional $400,000. Let me be clear that this increase does not represent any change to the personal property tax rate and is solely due to a revised forecasting and modeling. Next slide Turning to expenditures, there are a few important updates to highlight. First, health insurance costs have increased beyond our original projections. Specifically, we are now projecting an additional 5.5% increase above the initial 8% forecast, largely driven by higher than anticipated claims activity. In response, staff is taking a proactive approach. We are meeting we have a meeting scheduled this Friday with our Insurance representative to explore strategies to help curtail future cost increases, including evaluating plan design options and potential rebidding of our insurance contract. Secondly, you will see personal expense savings reflected in the updated numbers. Approximately half of these savings result from a review of current staffing levels where we are prioritizing the reallocation of existing vacant positions rather than adding new FTEs. This approach allows us to meet operational needs while maintaining fiscal discipline. The remaining savings are anticipated from projected employee retirements and turnover which will increase the current budgeted vacancies savings factor not reflected on the current sheet are two additional items still under evaluation. First, there is a payment to vdot. Staff is currently assessing the most appropriate structure with a preliminary approach that would phase the payment approximately 1/3 in FY27 and the remaining 2/3 in FY28. Second, we are considering a modification to the timing of school related debt rather than committing the full 1.7 million in FY27, the proposed approach would include only 600,000 in the baseline budget through a contingency within the assigned fund balance, the remaining 1.1 million deferred for future consideration. This approach is intended to preserve flexibility as we monitor potential changes at the state level. Specifically, current Virginia Senate bill amendment language would authorize the 1% sales tax dedication to school projects contingent upon voter approval through local referendum. Importantly, those revenues would be restricted to construction or major renovation projects and could not be used to supplant existing local funding that has already been budgeted or appropriated. That is the key language and the change that is in the current draft language. The General assembly will be reconvening a special session and hopefully we will Know more by the end of this month or the beginning of May. Next Slide Fund Balance really quickly provides a high level look of our fund balance status. This is intended as a preview and a reminder of more detailed analysis that is regularly presented during our quarterly Financial review with Councils that our Budget Director does. Our next quarterly update is also scheduled for April 28. That will happen prior to the last budget work session. As part of those reviews, we not only walk through the fund balance levels, but also provide an updated snapshot of our current fiscal position, revenues versus Expenditures as well as a refreshed five year financial projection. And then lastly, next slide. Thank you, you're probably used to seeing this. We just want to reiterate. The last slide outlines our budget calendar and where we are in the process. At this point we are more than halfway through the FY27 budget development cycle and we are entering the phase where Council direction becomes critical in shaping the final document. I also want to highlight one upcoming engagement opportunity. The Engage Fairfax Fiscal Year 2027 Community Budget Exchange is scheduled for April 16th has been updated. Let me say that one more time has been updated to reflect a revised access link that will now be held via Zoom instead of teams. We were notified by Microsoft Teams that there was a bug so we had a pivot very quickly and as of this afternoon a few hours ago, the communication staff has updated all links and all distribution lists with the new Zoom updated Link. Looking ahead, April 28 is a key milestone with multiple public hearings and our final work session where staff will present again refined options and draft changes for Council deliberation. In closing, tonight's update is meant to keep Council informed of where things stand today. We will return on April 28th with more detailed analysis, refined assumptions and actionable options to to help guide your decision making. Happy to answer any questions. Councilmember Amos thank you."
   },
   {
-    "speaker": "Councilmember Billy Bates",
+    "speaker": "Councilmember Billy M. Bates",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 5854090,
@@ -1577,7 +1577,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Okay, thank you very much, Council Member McQuillan."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 6085500,
@@ -1593,7 +1593,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I think you're referring, Council Member, to the potential 1% sales tax for school capital."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 6102580,
@@ -1617,7 +1617,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Expect a response. Now, I do have specific questions that I would like responses to, but I wanted to just give you some overall thoughts. I personally am very interested in seeing ways that we can try to bridge the gap between what the EDA was receiving and then is no longer receiving. I personally would really like to see the Renaissance program reinstated. I know I was the one, I believe, last year who suggested that maybe we put a pause on it. And it was truly meant to be a pause. It was not meant to be a removal from future consideration. I did reach out to the staff counterpart today and asked if it were to be reinstated, how many loans would we be able to service and get that similar information that we were provided with last year, which made me more willing to consider putting a pause on it. Now my questions are going to come in. So the conversation about the 6. $600,000 for the schools versus the 1.1 deferred. I understand or I don't understand. I see we have school board member Sarah Kelsey here as well as our superintendent Dustin Wright. And I understand that there was a meeting last night with the school board. I didn't get a chance to watch all of it. Are there. Was it a good conversation? Are the schools in favor of this? I'd like to just hear from the schools, if that's possible. Not to put you on the spot or anything, but you're here, so you probably expected to be brought up."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 6574500,
@@ -1633,7 +1633,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you."
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 6588820,
@@ -1721,7 +1721,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Okay. And then just another note that I think we've talked about before. We are not there yet in terms of going through the efficiency and innovation audit that last year we passed and requested. That is going to happen sometime in the not too distant future, we hope and expect. But I think the point is that we're not there yet in terms of knowing what potential that might have in terms of freeing up financial efficiency here. So we don't have the advantage of plugging that in now, but I think we have something to look forward to. So just to note that then on the, just to take a step back on the energy issue, there is an enormous amount of interest everywhere right now in getting ahead of the curve on that issue. And we've heard about it here. This is something that is pretty much everywhere and for very good reason. The load growth issue is not going to go away. It's a very big one. I think the real challenge that we have is to address this really rapid runaway train we call load growth, but to do it in an environmentally and economically friendly manner. And I think there's a way to do that. This happens to be my profession, so I know a lot of people are involved in this right now. But I think as we hear back from you about your thoughts on how the city can approach its part of this issue, it would just be great to know that as we're doing that and we're looking through the energy lens, we're looking at cost savings, we're looking at economic gains from doing this, and we're looking at ways in which that can be done in an environmentally friendly manner, because I think that's the win win everybody is looking for. And I know we've probably gotten a head start on that because we have talented staff that are looking at that. But that thematically is, I think, where really all jurisdictions are kind of heading this way. Thank you, Councilmember Hardy Chandler."
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 7050330,
@@ -1729,7 +1729,7 @@ const TRANSCRIPT_TURNS = [
     "text": "And I hate to ask for data that I didn't previously ask you to prepare, but I'm just curious if there is just historic knowledge of sort of the, for lack of a better word, sort of restaurant migration sort of behavior historically when there have been changes in the meals tax. I might not be recalling this accurately, but I believe that there was sort of some landscape."
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 7081600,
@@ -1745,7 +1745,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I'm going to try to go off of memory. Council member. We, we did present something at a work session with some historical data that actually compared the city of Alexandria, who has a 5% meals tax compared to the city. They've had it for about 20 years, so very similar to our 4% as well. Additionally, in that presentation there was an actual number of increased restaurants over the same 10 to 15 year period in the city. So not necessarily a migration out, more of an expansion. I want to say it was on average two and a half or three and a half per year that we increased the restaurant count between the timeframe that we looked at 10 or 15 years. It was actually an increase, a net increase. Here goes. Excellent. Thank you, Ms. Riddle. So go to the next couple of slides and you can actually see the comparison. I don't have my glasses. Here we go. There you go. Go back one. There you go. So on there over the 20 year time frame, 2016 to 2025, a net increase of 59 restaurants or about 30% from where we started on average. Looking at. I can't read it from here, sorry. 3% per year. About 7U. Yeah, 7U per year increase. So we are seeing an increase overall. I think a lot of that has to do just with the work that our economic development office does. People want to move into the city. Also on the left hand side, it does show that about 3% is sort of past, through or back to the restaurants while they file their timely receipts to the city as well. So over that same course time frame, over $2 million was given back to these businesses as a form of collecting the tax on behalf of the city."
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 7231800,
@@ -1761,7 +1761,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Excellent question, Council Member. And unfortunately, the Renaissance Housing Corporation is its independent body. So it does not directly fall under the city. It receives almost exclusively all its generating revenues or funds from the city. When we do fund them, there are their own independent parameters of how they, how individuals would qualify for a loan, what those qualification standards are in the sense of disbursement. They have their own limitations. To me, it would make sense that if the city is providing the majority of the funding that we may, if council so choose and if the city attorney would help, we could probably create an agreement to sort of put some structure on, maybe put some X number percentage to lower income housing or lower thresholds that would impact a different population."
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 7352810,
@@ -1769,7 +1769,7 @@ const TRANSCRIPT_TURNS = [
     "text": "So just to clarify, there is an opportunity for like an MOU process to find some common ground to meet the program's aims as well as the city's aims?"
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 7362810,
@@ -1777,7 +1777,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Potentially, I would say yes."
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 7364810,
@@ -1785,7 +1785,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Good to hear. Thank you so much, Council Member McQuillan."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 7369610,
@@ -1793,7 +1793,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 7370810,
@@ -1801,7 +1801,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I too would like more discussion on the Renaissance Housing Program and to look into that to see what we can do since I think that really is a great program specifically for a certain group that does not seem to qualify for a lot else out there. I also just wanted to let you all know or update you on some information I just found from the Northern Virginia Regional Commission. This is about restaurants in Northern Virginia. It says that on average they've grown at an average annual rate roughly of 3 to 5% over the past decade. Decade. So that is what we've seen here. But it says that key factors driving that growth include rising household incomes, urbanization, expansion of federal and tech employment, which we know isn't expanding right now, increased demand for dining and suburban and mixed use developments, and growth of food delivery and E commerce. So I just want to, since some of those actually correlate to the things that I mentioned, gas prices, things that have increased the struggle for our small businesses and specifically our restaurants. I just wanted to provide that extra information. Thank you,"
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 7443650,
@@ -1921,7 +1921,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Yeah. No. And just to give you a little bit of context, we have just over 80% of our eligible employees that have our health insurance. The majority is with Anthem. We have two plans with Anthem. And then we are about, I think it's about 20."
   },
   {
-    "speaker": "Councilmember Stacy Hall",
+    "speaker": "Councilmember Stacy R. Hall",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 7670240,
@@ -1937,7 +1937,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Okay."
   },
   {
-    "speaker": "Councilmember Stacy Hall",
+    "speaker": "Councilmember Stacy R. Hall",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 7673520,
@@ -1953,7 +1953,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Okay. And I just have one other thing, and I know I've asked this a couple times previously, and I don't know that we've ever really come to a definitive yes or no. But I would like to suggest that when we either send out our final tax bills or when we send a response saying, hey, thank you for what you paid, I would strongly like to send a letter, not me personally, but the city, that says, thank you for paying your real estate taxes. Here are some of the things that you funded. And just make it a more of a personal impact opportunity to let people know that we know things are tough. So I don't know if that needs consensus from council or not, but that would be something that I would recommend to the Finance department. So thank you,"
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 7713100,
@@ -2001,7 +2001,7 @@ const TRANSCRIPT_TURNS = [
     "text": "So as before, I support the proposed increase in the meals tax. It's much more modest than what was proposed last time around and at the end of the day, you know, certainly not something that we love to do. But even if we're able to make up that revenue through an increase in the B poll tax or fees and you know, some other revenue source that ends up being that much less the funding that we could use to perhaps further support our employees, our public safety employees who respond to emergencies that occur at the restaurants in the city. At the end of the day, housing is certainly more of a necessity than eating at a restaurant. You know, certainly some people, you know, don't have time to cook. However, there are, you know, frozen meals available at the grocery store, that kind of thing. So, you know, that's also kind of locking ourselves out of if we wanted to use part of that to alleviate some of the burden on our homeowners through the real estate tax rate. So it's something that I think I again want to encourage caution in ruling out as we go forward."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 7929500,
@@ -2041,7 +2041,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Excellent. Thank you."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 8052120,
@@ -2057,7 +2057,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Yeah, we have a process for those changes on a change sheet. Getting a nod in the affirmative. That's one element of a few elements that we've discussed tonight that we're going to need to work through, some of which we've have kind of pushed out just recently. So all of those changes from a revenue and expenditure perspective will be part of the scenarios that we bring to you on the 28th."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 8156010,
@@ -2073,7 +2073,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Yeah, I think that. And again, I apologize. Even with the school things a little clunky. Right. As we have talked about our options there. So from a revenue and expense perspective, these things are going to change as we move along. I think the 28th is our opportunity for us to have a full discussion on all of those and all those scenarios, which will include how we have given the Council options for decisions on how to approach that. What we've even brought up tonight are options and suggestions. Council may not like those and we may need to pivot. And so we'll have those discussions over the next couple weeks. I think Thursday is a great opportunity for the public to come out and ask their questions, be engaged and be responsive, and we'll certainly bring that back to you. You don't have that yet either. You have. We've had plenty of hearings and engagement, engaged platforms been up. We've done a lot of that. But that's another element that we're going to bring to you on the 28th and have a fully transparent discussion around everything related to revenues and expenditures."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 8235550,
@@ -2089,7 +2089,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Sorry."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 8239790,
@@ -2097,7 +2097,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I just want to thank you. I recognize that this is not a fun topic to discuss, and I'm sure it's not great unless you're Mr. Martinez"
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 8248990,
@@ -2105,7 +2105,7 @@ const TRANSCRIPT_TURNS = [
     "text": "to work on it."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 8250030,
@@ -2113,7 +2113,7 @@ const TRANSCRIPT_TURNS = [
     "text": "But I just, I recognize the amount of work you're doing, the amount of time it takes, you're continuing to do it with a smile on your face and."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 8260160,
@@ -2121,7 +2121,7 @@ const TRANSCRIPT_TURNS = [
     "text": "And I can feel this isn't a fun process for anyone but you all. This is what you have to do for your job and you don't get to just decide you're done. So I just want to say thank you to all of the employees and staff that are working hard right now that are especially you all that are in the room because hearing the speed in which you're responsive to our requests about engage and the budget, I mean, we're throwing everything at you and you all are just handling it and rolling with it. And I just wanted to say thank you because I don't think we do that enough here and acknowledge how much work that is on you. So thank you."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 8297490,
@@ -2137,7 +2137,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Yeah, I just to build on. Great. Thanks to all of you. And I think the April 16 engagement is a very helpful and important time. I know we're all getting emails from people with questions and thoughts and what have you and I'm encouraging them to please try to attend April 16th or tune in because it's a substantive point in time where you can ask those specific questions and really get into the granular side of this. So we've got a lot of that still coming in that really indicates the desire for people to understand things at a specific level. So the event was really made for that purpose. And this is your opportunity. Again, I know you try to make it easy so folks can tune in remotely as well. I want to encourage everybody to take advantage of that. And just a note that I personally like zoom a lot better than I like teams."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 8357120,
@@ -2161,7 +2161,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Councilmember Peterson on May 5, the very last item 7, considering adopting the budget, et cetera, et cetera. Is that a single vote that is on both budget and appropriations or are we doing a two step budget then appropriation? I think it's multiple parts. I confess I didn't go back and look at last year's script. So you caught me a little. That's why I'm asking. We can go back and look at the agenda from that meeting if you'd like. Okay. It would be wonderful just to have that nice and clear so we sort of know what we're doing with that."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 8533800,
@@ -2169,7 +2169,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Other questions on the futures agenda portion of this."
   },
   {
-    "speaker": "Councilmember Stacy Hall",
+    "speaker": "Councilmember Stacy R. Hall",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 8545960,
@@ -2177,7 +2177,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Okay."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 8547240,
@@ -2193,7 +2193,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Yeah, I will just reinforce our event on the 16th here in chambers at 6 o'. Clock. A few ways to participate remote in person and so and just watching on cable if you. If you so desire. So we look forward to engaging public around the fiscal year budget and as you know, most of our work has been around that. Look forward to over the next couple weeks engaging with council, answering questions. To Councilmember McQuillan's comment earlier, we're thankful to council. At the risk of sounding gratuitous, you presented a lot of challenges, a lot of questions, a lot of good food for thought relative to this process. Look forward to a little more of that over the next couple weeks and certainly help us and inform the process as we move forward. So thank you very much."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 8606310,
@@ -2201,7 +2201,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Council member McQuillan comments."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 8609600,
@@ -2209,7 +2209,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you. Yes, thank you. April is always an energizing time in our city. Our parks are full, our neighborhoods are active. There's a real sense of connection across the city that reflects the strength of this community. With early voting underway and a statewide amendment on the ballot next week, I encourage residents to stay informed and participate. Engagement at every level is what keeps our democracy strong at the city level. We're deep in budget season and These are some of the most important decisions we make all year. Right now, we are focused on ensuring strong support for our schools, maintaining public safety services, and investing responsibly in infrastructure that residents rely on every day. That includes continued coordination through our shared services partnership with Fairfax county, ongoing investments in roadway and pedestrian safety, and critical stormwater infrastructure projects that help protect our neighborhoods long term. We've also continued to support accessible public transportation through our fare free Q bus system while working through ongoing discussions around housing and affordability to help ensure Fairfax City remains a place where people can live, work and stay. This month also invites us to reflect on our environment, and I'm proud of the continued focus on protecting our green spaces, improving resilience, and ensuring we are planning thoughtfully for the future of this city. With that, I'd also like to congratulate the women of influence that received her award this evening. Katie Johnson, congratulations. Thank you for all you've done for our community. I'd also like to just point out, though, what guides my work most are the conversations I have with our residents. Whether it's concerns about safety, affordability or overall quality of life, I deeply value all of those perspectives. They directly shape how I approach the work we do here. I also want to recognize how important it is that everyone in our community, especially students and families, feel supported and safe, and that there's confidence in coming forward when something is wrong. This month, as we observe Sexual Assault Awareness Month, that message feels especially meaningful and timely. It's a reminder of the importance of fostering a community where individuals feel heard, respected and protected, and where speaking up is met with support and care. I want to close by sincerely thanking everyone who has taken the time to reach out, share your thoughts and engage in these conversations that participation matters. It's democracy at work and I truly value it."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 8769750,
@@ -2217,7 +2217,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Thank you, Council Member Bates."
   },
   {
-    "speaker": "Councilmember Anthony Amos",
+    "speaker": "Councilmember Anthony T. Amos",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 8773650,
@@ -2289,7 +2289,7 @@ const TRANSCRIPT_TURNS = [
     "text": "So just looking at the calendar, considering you're in the middle of budget season, I would assume that perhaps the meeting or a couple meetings after budget adoption would be a good target for this discussion. And it will be a discussion because I assume there are differing views on this. But we'll be prepared to bring some information back at a. At a work session if. If that's the will of the council, happy to do it."
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 9263450,
@@ -2297,7 +2297,7 @@ const TRANSCRIPT_TURNS = [
     "text": "We can. Yes. And we can look to the city manager to look at a futures list to put that discussion. Thank you, Council member Hardy Chandler. So, first of all, first of all, I want to acknowledge the civic connections kickoff that happened April 8th. Jennifer Rose and her curriculum trying to support residents and business owners to understand the inner workings of our city and come from an informed place and an engaged place, I think was second cohort. We even have alumni from the first cohort here. So it really is a program that I hope we can continue to support and rally around. So I was very honored to be there and to welcome that cohort. So thank you very much. I also want to highlight a very successful Home for Life Expo. I continue to be honored and impressed with being the liaison to the village and the city and to emphasize every time I get an opportunity that that is a working, very healthy, very dynamic advisory group. And the work that they do, not only for the city, but as a role model nationally, I think is really tremendous. My understanding is that the Home for Life attendees were significantly higher than last year. So continuing to expand access to resources and information for various people throughout our community. And I think that the benefits of that will go along beyond April 10th. I also want to acknowledge the Commission for Women event today. I was very honored to be a part of the commission during the time when the Woman of Influence Award was created, during my five year tenure on that commission. So I know that they do good work and really want to celebrate contributions to the community. Beyond that, I also want to just highlight, in spite of the discussion today, you know, part of being a servant is that you're going to work with people who have differences of opinion and express those differences. That's healthy. So I think that there was a dynamic discussion earlier and although we come from this, come to this with different perspectives, I was raised and will continue to respect everyone and that that respect comes through no matter whether there's agreement or disagreement. And I do believe that one of the aspects that would have prevented the discussion earlier or can prevent future."
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 9440240,
@@ -2313,7 +2313,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Council Member hall, thank you very much. I want to thank the county and our staff for putting on a great joint meeting last week. I don't think we had an opportunity with the work session to properly thank you all for doing that. I know there were a lot of questions that were answered and communication was really good. And it was nice to just have an open and upfront honest conversation, which I think was very, very helpful. I had a great time at my very first ever fire truck push in ceremony on Friday. I was very happy. I actually asked the question. I'm like, they're going to turn this on, right? Because otherwise, like, there's some older people here, somebody might hurt their back. I was feeling like risk management for a moment and they were like, we got this. It goes in reverse. It's all good. So it was fun. There were so many people there, I was barely able to touch part of the truck. But I did get to push, so that was very exciting. We had a great, great turnout. It was really, really great to see all these retired chiefs and all these other positions that have worked here for so long and now have gone off to retirement and come back and they just. There's such this camaraderie that you just see with firefighters and police too. And, you know, there's some, you know, finessing between the two departments, I think, too. You know, they rub each other in good ways, but it's just such a great group of people that just get together and just, they just exist and they all support each other and it was just, it was a really, really great opportunity for community, I'll say. There was an adorable little boy named Fireman Schultz, and he apparently was told to show up at 10am in order to be there for the push in. He got there 10 minutes early, but we had already pushed it in. And I felt terrible for this little boy. But I will say they all did a great job. They took pictures of him in front of the truck. But my heart went out to this little kid who clearly was. This was like the highlight of his month. So I am excited for the Women's Club of Fairfax fashion show on Saturday. There is Also on Sunday, April 19, a spring community cleanup at Van Dyke park starting at 9am I want to give a huge congratulations to Katie Johnson, who is still here to the bitter end for being our 2026 woman of influence recipient. And your time, your energy, your dedication, it is seen, it is recognized. And you are just an amazing resident here. And I think one of your greatest abilities is the ability to rally those around you. Right? Anybody can go out and pull weeds and do whatever, but you do it in such a way that makes people want to be a part of whatever organization or entity or group that you're working with. And you can find common ground with anybody on all of these different things. And it's just very, very spectacular and impressive to see. So thank you. I do also want to tell people that my campaign slogan when I ran was, this is your city and your opinion matters. And I wholeheartedly stand by that. And just as a reminder, you have two more weeks, essentially, to reach out to council, to send us questions, send us comments, let us know what you think about things. I hope you won't save it until the very last minute. So we're scrambling, you know, the morning of the 28th, but I do know that we also get to see many of you throughout our days and nights and, you know, the things that we're doing. So this will never be your last chance to have input on a budget. Right. It's a living document that kind of goes on and on. Yes, we set it for one year, but then we immediately move on to the next one. So I would strongly encourage you to attend the virtual or in person event on Thursday. I will certainly be there because we know budget's my jam. Right. I enjoy it. So thank you. And again, please, please, please continue to share your thoughts and ideas honestly on ways that we could do this whole thing better. So thank you, Council Member Amos."
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 9694050,
@@ -2321,7 +2321,7 @@ const TRANSCRIPT_TURNS = [
     "text": "I would also extend that to remember, the noise ordinance is still open for discussion and comment until May 12, so keep that in mind. I'm going to apologize in advance. I wish I didn't have so many announcements, but I'll try to run through real quick. I want to echo the congratulations to Katie Johnson for your award. Very well deserved. I know that the county held an absolutely wonderful celebration for Michael Fry at the government center. I know. I saw the mayor there, former supervisor, who did a lot, especially when it comes to animal rights and protections, and has the animal shelter in the county named after him. So just wanted to echo our sentiments to his family and that he was such a phenomenal human being for everything he's done. Columbia was great. If y' all want to see pictures, just talk to me after or another day, because I know. Interesting night. I do want to share that tomorrow at Fairfax High School is the Hire a Lion Fair. I'm going to look at Jennifer Rose very sharply because it was really, really thanks to her. So I would love to thank the Fairfax Ford Foundation, Central Fairfax Chamber, City Schools. Dan Phillips and Maureen Kim came in so clutch on making this happen. My colleagues on the dais and all the businesses who signed up, we ended up hitting our max for businesses tomorrow. So it should be very solid turnout, good mix of folks. Wish I could have gotten in contact with Woody's Ice Cream, but I tried, I tried, but. So there should be 20 vendors there and it should be a really good time. Hope everyone can make it starting at 9:50am during Lion Time. Also excited to share Poetry Night for Spotlight on the Arts. I guess I kind of got put in charge of that for some reason. It's not my intention, but I kind of just fell into my lap and it's very well fitting for National Poetry Month. And I've always said that I, I feel like so much attention is given to the visual arts. I would love to see more emphasis on the literary arts. And now Sharon Chang has talked to all of us about that. But also excited to announce that we confirmed that Angelique Palmer, the Fairfax Poet Laureate, will be in attendance. So she will be headlining the event. So we're very excited to have her there. It will be Monday, April 27, starting at 6pm in the top section of Old Fire Station 3. So very excited for that. And then the last thing I will say is I just wanted to give a special thanks to Leadership Fairfax for honoring me with the 40 under 40 award earlier today. I have a weird feeling about awards. I greatly appreciate it. You know, starting off as a car salesman when I first got here and kind of being relatively unknown to where I am now, I just feel like I'm a culmination of everyone I've ever met. And I'm just eternally grateful for everyone I've met and those who came before me. And that's it."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 9866900,
@@ -2329,7 +2329,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Councilmember Hardy Chandler."
   },
   {
-    "speaker": "Councilmember Stacy Hardy-Chandler",
+    "speaker": "Councilmember Stacey D. Hardy-Chandler",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 9869140,
@@ -2337,7 +2337,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Apologies, just one more follow up. I did want to acknowledge the celebration of the Educational and charitable foundation celebrating 25 years serving the Fairfax region. And that celebration, as always, offer scholarships to incredible students that definitely give you hope and optimism for the future. And I really appreciate the mayor coming to the event and doing a proclamation and acknowledgement of all of the work that the educational and charitable foundation does for our region. Really dedicated to community service. And also a great interview with an author but thank you Mayor for coming to that."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 9911700,
@@ -2345,7 +2345,7 @@ const TRANSCRIPT_TURNS = [
     "text": "So April, super busy month. Spotlight on the Arts got to talk about it because in 1985 our former mayor John Mason really put together Spotlight on the Arts. I think that it showed our commitment. We recently got an award for being one of the best small towns in America with our art scene. And Spotlight on the Arts has a number of events. The poetry event is one of them. The that council member Amos not only is apparently organizing the whole thing, but he is presenting there because council member Amos is a poet."
   },
   {
-    "speaker": "Councilmember Stacy Hall",
+    "speaker": "Councilmember Stacy R. Hall",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 9944510,
@@ -2353,7 +2353,7 @@ const TRANSCRIPT_TURNS = [
     "text": "Own it."
   },
   {
-    "speaker": "Mayor Catherine Read",
+    "speaker": "Mayor Catherine S. Read",
     "speaker_source": "manual_review",
     "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
     "start": 9946270,
