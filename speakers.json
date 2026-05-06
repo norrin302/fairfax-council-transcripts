@@ -1,0 +1,541 @@
+{
+  "schema": "fairfax.speaker_registry.v2",
+  "description": "Canonical speaker registry for Fairfax City Council transcripts. Use for safe auto-identification only. Unknown or uncertain speakers must remain 'Unknown Speaker' or 'Public Comment Speaker'.",
+  "_metadata": {
+    "version": "v2.4",
+    "updated": "2026-05-03",
+    "confidence_threshold_named_official": 0.4,
+    "confidence_threshold_public_comment": 0.8,
+    "confidence_threshold_unknown": 0.0,
+    "safe_labeling_rules": [
+      "Never assign a real name without min_diarization_confidence threshold met",
+      "text_patterns require verbatim match in ASR output",
+      "public commenters require stronger evidence (0.80+)",
+      "Unknown Speaker is always acceptable - prefer over wrong attribution",
+      "diarization_speaker_ids are pyannote IDs confirmed from apr-14-2026 only - do not carry forward across meetings without re-verification",
+      "Multiple pyannote IDs can map to the same person (pyannote reassigns IDs across meeting portions)"
+    ],
+    "change_note": "Verified all 7 council members + Mayor with pyannote IDs. Fixed 41 speaker labels in apr-14-2026-data.js."
+  },
+  "speakers": [
+    {
+      "speaker_key": "mayor_catherine_read",
+      "display_name": "Mayor Catherine Read",
+      "role": "mayor",
+      "confidence_boost": 0.95,
+      "min_diarization_confidence": 0.4,
+      "aliases": [
+        "Catherine Read",
+        "Mayor Read",
+        "Mayor Catherine Read",
+        "Mayor"
+      ],
+      "titles": [
+        "Mayor"
+      ],
+      "diarization_speaker_ids": [
+        "SPEAKER_21",
+        "SPEAKER_22",
+        "SPEAKER_20",
+        "SPEAKER_15"
+      ],
+      "text_patterns": [
+        "Mayor Read",
+        "Mayor Catherine Read",
+        "Catherine Read"
+      ],
+      "notes": "Mayor of Fairfax City. Primary speaker for procedural announcements, meeting open/close, vote announcements. pyannote uses 4 IDs across different meeting portions: SPEAKER_21 (procedural transitions), SPEAKER_22 (main council discussions), SPEAKER_15 (vote call roll), SPEAKER_20 (one segment)."
+    },
+    {
+      "speaker_key": "council_tom_peterson",
+      "display_name": "Councilmember Tom Peterson",
+      "role": "council",
+      "confidence_boost": 0.95,
+      "min_diarization_confidence": 0.4,
+      "aliases": [
+        "Tom Peterson",
+        "Councilmember Peterson",
+        "Councilmember Tom Peterson",
+        "Peterson"
+      ],
+      "titles": [
+        "Councilmember",
+        "Mr. Peterson"
+      ],
+      "diarization_speaker_ids": [
+        "SPEAKER_06",
+        "SPEAKER_30"
+      ],
+      "text_patterns": [
+        "Councilmember Peterson",
+        "Tom Peterson",
+        "Mr. Peterson"
+      ],
+      "notes": "Councilmember Tom Peterson. Active in appointments and policy discussions. pyannote primary ID: SPEAKER_06 (57 confirmed segments in apr-14-2026)."
+    },
+    {
+      "speaker_key": "council_billy_bates",
+      "display_name": "Councilmember Billy M. Bates",
+      "role": "council",
+      "confidence_boost": 0.9,
+      "min_diarization_confidence": 0.4,
+      "aliases": [
+        "Billy Bates",
+        "Councilmember Bates",
+        "Council Member Bates",
+        "Bates"
+      ],
+      "titles": [
+        "Councilmember"
+      ],
+      "diarization_speaker_ids": [
+        "SPEAKER_26"
+      ],
+      "text_patterns": [
+        "Councilmember Bates",
+        "Billy Bates",
+        "Mr. Bates"
+      ],
+      "notes": "Councilmember Billy M. Bates. pyannote ID: SPEAKER_26. Confirmed via video at ~8778s showing CM Bates speaking."
+    },
+    {
+      "speaker_key": "jc_martinez",
+      "display_name": "JC Martinez",
+      "role": "staff",
+      "confidence_boost": 0.9,
+      "min_diarization_confidence": 0.5,
+      "aliases": [
+        "JC Martinez",
+        "Martinez",
+        "Mr. Martinez"
+      ],
+      "titles": [
+        "Mr."
+      ],
+      "diarization_speaker_ids": [
+        "SPEAKER_07",
+        "SPEAKER_14"
+      ],
+      "text_patterns": [
+        "JC Martinez",
+        "Mr. Martinez"
+      ],
+      "notes": "City staff / presenter. pyannote IDs: SPEAKER_07 (28 segs, main), SPEAKER_14 (3 segs, staff podium). Name confirmed via video frame at ~5849s."
+    },
+    {
+      "speaker_key": "daniel_alexander",
+      "display_name": "Daniel Alexander",
+      "role": "staff",
+      "confidence_boost": 0.85,
+      "min_diarization_confidence": 0.5,
+      "aliases": [
+        "Daniel Alexander",
+        "Mr. Alexander",
+        "Alexander"
+      ],
+      "titles": [
+        "Mr."
+      ],
+      "diarization_speaker_ids": [
+        "SPEAKER_05"
+      ],
+      "text_patterns": [
+        "Mr. Alexander",
+        "Daniel Alexander"
+      ],
+      "notes": "Budget Director / City staff. pyannote ID: SPEAKER_05 (10 confirmed segments in apr-14-2026). Name confirmed via video frame at ~6899s."
+    },
+    {
+      "speaker_key": "william_pitchford",
+      "display_name": "William Pitchford",
+      "role": "staff",
+      "confidence_boost": 0.85,
+      "min_diarization_confidence": 0.5,
+      "aliases": [
+        "William Pitchford",
+        "Mr. Pitchford",
+        "Pitchford"
+      ],
+      "titles": [
+        "Mr."
+      ],
+      "diarization_speaker_ids": [
+        "SPEAKER_24"
+      ],
+      "text_patterns": [
+        "Mr. Pitchford",
+        "William Pitchford"
+      ],
+      "notes": "City staff / presenter. pyannote ID: SPEAKER_24 (8 confirmed segments in apr-14-2026). Note: SPEAKER_30 (William Pitchford, 2 segs) is the same person but separate ID from pyannote reassignment."
+    },
+    {
+      "speaker_key": "city_manager_david_coll",
+      "display_name": "City Manager David Coll",
+      "role": "staff",
+      "confidence_boost": 0.95,
+      "min_diarization_confidence": 0.4,
+      "aliases": [
+        "David Coll",
+        "City Manager Coll",
+        "City Manager"
+      ],
+      "titles": [
+        "City Manager",
+        "Mr. Coll"
+      ],
+      "diarization_speaker_ids": [],
+      "text_patterns": [
+        "City Manager Coll",
+        "City Manager",
+        "David Coll",
+        "Mr. Coll"
+      ],
+      "notes": "City Manager of Fairfax City. Not confidently identified in apr-14-2026 pyannote output."
+    },
+    {
+      "speaker_key": "elijah_tibbs",
+      "display_name": "Elijah Tibbs",
+      "role": "public",
+      "confidence_boost": 0.8,
+      "min_diarization_confidence": 0.6,
+      "aliases": [
+        "Elijah Tibbs",
+        "Mr. Tibbs"
+      ],
+      "titles": [
+        "Mr."
+      ],
+      "diarization_speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "text_patterns": [
+        "Elijah Tibbs"
+      ],
+      "notes": "Public commenter. 3 segments in apr-14-2026 (~265-401s). Presented award/recognition to police and fire."
+    },
+    {
+      "speaker_key": "kevin_anderson",
+      "display_name": "Kevin Anderson",
+      "role": "public",
+      "confidence_boost": 0.8,
+      "min_diarization_confidence": 0.6,
+      "aliases": [
+        "Kevin Anderson",
+        "Mr. Anderson"
+      ],
+      "titles": [
+        "Mr."
+      ],
+      "diarization_speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "text_patterns": [
+        "Kevin Anderson"
+      ],
+      "notes": "Public commenter. 9 segments in apr-14-2026 (~1902-2086s). Senior group representative."
+    },
+    {
+      "speaker_key": "janice_miller",
+      "display_name": "Janice Miller",
+      "role": "public",
+      "confidence_boost": 0.8,
+      "min_diarization_confidence": 0.6,
+      "aliases": [
+        "Janice Miller",
+        "Ms. Miller"
+      ],
+      "titles": [
+        "Ms."
+      ],
+      "diarization_speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "text_patterns": [
+        "Janice Miller"
+      ],
+      "notes": "Public commenter. 5 segments in apr-14-2026 (~2456-2640s)."
+    },
+    {
+      "speaker_key": "douglas_stewart",
+      "display_name": "Douglas Stewart",
+      "role": "public",
+      "confidence_boost": 0.8,
+      "min_diarization_confidence": 0.6,
+      "aliases": [
+        "Douglas Stewart",
+        "Mr. Stewart"
+      ],
+      "titles": [
+        "Mr."
+      ],
+      "diarization_speaker_ids": [
+        "SPEAKER_03"
+      ],
+      "text_patterns": [
+        "Douglas Stewart"
+      ],
+      "notes": "Public commenter. 7 segments in apr-14-2026 (~2115-4919s). Library support advocate."
+    },
+    {
+      "speaker_key": "alan_glenn",
+      "display_name": "Alan Glenn",
+      "role": "public",
+      "confidence_boost": 0.8,
+      "min_diarization_confidence": 0.6,
+      "aliases": [
+        "Alan Glenn",
+        "Mr. Glenn"
+      ],
+      "titles": [
+        "Mr."
+      ],
+      "diarization_speaker_ids": [
+        "SPEAKER_04"
+      ],
+      "text_patterns": [
+        "Alan Glenn"
+      ],
+      "notes": "Public commenter. 4 segments in apr-14-2026 (~3016-6065s). Longtime resident."
+    },
+    {
+      "speaker_key": "fasa_alam",
+      "display_name": "Fasa Alam",
+      "role": "public",
+      "confidence_boost": 0.8,
+      "min_diarization_confidence": 0.6,
+      "aliases": [
+        "Fasa Alam",
+        "Mr. Alam"
+      ],
+      "titles": [
+        "Mr."
+      ],
+      "diarization_speaker_ids": [
+        "SPEAKER_08"
+      ],
+      "text_patterns": [
+        "Fasa Alam"
+      ],
+      "notes": "Public commenter / Science teacher. 3 segments in apr-14-2026 (~575-965s). Solarize Virginia presenter."
+    },
+    {
+      "speaker_key": "toby_sorenson",
+      "display_name": "Toby Sorenson",
+      "role": "public",
+      "confidence_boost": 0.8,
+      "min_diarization_confidence": 0.6,
+      "aliases": [
+        "Toby Sorenson",
+        "Mr. Sorenson"
+      ],
+      "titles": [
+        "Mr."
+      ],
+      "diarization_speaker_ids": [
+        "SPEAKER_11"
+      ],
+      "text_patterns": [
+        "Toby Sorenson"
+      ],
+      "notes": "Public commenter. 6 segments in apr-14-2026 (~3435-3583s). Spring Lake Terrace resident; spoke on joint project and guaranteed maximum pricing."
+    },
+    {
+      "speaker_key": "becky_rager",
+      "display_name": "Becky Rager",
+      "role": "public",
+      "confidence_boost": 0.8,
+      "min_diarization_confidence": 0.6,
+      "aliases": [
+        "Becky Rager",
+        "Ms. Rager"
+      ],
+      "titles": [
+        "Ms."
+      ],
+      "diarization_speaker_ids": [
+        "SPEAKER_16"
+      ],
+      "text_patterns": [
+        "Becky Rager"
+      ],
+      "notes": "Public commenter. 5 segments in apr-14-2026 (~2839-2981s). Village concept advocate for community center."
+    },
+    {
+      "speaker_key": "janet_jaworski",
+      "display_name": "Janet Jaworski",
+      "role": "public",
+      "confidence_boost": 0.8,
+      "min_diarization_confidence": 0.6,
+      "aliases": [
+        "Janet Jaworski",
+        "Ms. Jaworski"
+      ],
+      "titles": [
+        "Ms."
+      ],
+      "diarization_speaker_ids": [
+        "SPEAKER_23"
+      ],
+      "text_patterns": [
+        "Janet Jaworski"
+      ],
+      "notes": "Public commenter. 6 segments in apr-14-2026 (~831-2430s). Monarch way station / environmental advocate."
+    },
+    {
+      "speaker_key": "anita_light",
+      "display_name": "Anita Light",
+      "role": "public",
+      "confidence_boost": 0.8,
+      "min_diarization_confidence": 0.6,
+      "aliases": [
+        "Anita Light",
+        "Ms. Light"
+      ],
+      "titles": [
+        "Ms."
+      ],
+      "diarization_speaker_ids": [
+        "SPEAKER_31"
+      ],
+      "text_patterns": [
+        "Anita Light"
+      ],
+      "notes": "Public commenter. 7 segments in apr-14-2026 (~1690-1871s). Chair of Fairfax transportation/sustainability advisory board."
+    },
+    {
+      "speaker_key": "dale_lucena",
+      "display_name": "Dale Lucena",
+      "role": "public",
+      "confidence_boost": 0.8,
+      "min_diarization_confidence": 0.6,
+      "aliases": [
+        "Dale Lucena",
+        "Mr. Lucena"
+      ],
+      "titles": [
+        "Mr."
+      ],
+      "diarization_speaker_ids": [
+        "SPEAKER_29"
+      ],
+      "text_patterns": [
+        "Dale Lucena"
+      ],
+      "notes": "Public commenter. 6 segments in apr-14-2026 (~2673-2800s)."
+    },
+    {
+      "speaker_key": "council_anthony_amos",
+      "display_name": "Councilmember Anthony T. Amos",
+      "role": "council",
+      "confidence_boost": 0.9,
+      "min_diarization_confidence": 0.4,
+      "aliases": [
+        "Anthony Amos",
+        "Councilmember Amos",
+        "Mr. Amos"
+      ],
+      "titles": [
+        "Councilmember"
+      ],
+      "diarization_speaker_ids": [
+        "SPEAKER_28"
+      ],
+      "text_patterns": [
+        "Councilmember Amos",
+        "Anthony Amos",
+        "Mr. Amos"
+      ],
+      "notes": "Councilmember Anthony T. Amos. pyannote ID: SPEAKER_28. Confirmed via video at 9:41 PM showing CM Amos speaking at dais."
+    },
+    {
+      "speaker_key": "council_stacy_hall",
+      "display_name": "Councilmember Stacy R. Hall",
+      "role": "council",
+      "confidence_boost": 0.9,
+      "min_diarization_confidence": 0.4,
+      "aliases": [
+        "Stacy Hall",
+        "Councilmember Hall",
+        "Ms. Hall"
+      ],
+      "titles": [
+        "Councilmember"
+      ],
+      "diarization_speaker_ids": [
+        "SPEAKER_25"
+      ],
+      "text_patterns": [
+        "Councilmember Hall",
+        "Stacy Hall",
+        "Ms. Hall"
+      ],
+      "notes": "Councilmember Stacy R. Hall. pyannote ID: SPEAKER_25. First active at 4107s. Confirmed via video at 8:08 PM showing CM Hall nameplate at dais."
+    },
+    {
+      "speaker_key": "council_stacey_hardy_chandler",
+      "display_name": "Councilmember Stacey D. Hardy-Chandler",
+      "role": "council",
+      "confidence_boost": 0.9,
+      "min_diarization_confidence": 0.4,
+      "aliases": [
+        "Stacey Hardy-Chandler",
+        "Councilmember Hardy-Chandler",
+        "Hardy-Chandler"
+      ],
+      "titles": [
+        "Councilmember"
+      ],
+      "diarization_speaker_ids": [
+        "SPEAKER_17"
+      ],
+      "text_patterns": [
+        "Councilmember Hardy-Chandler",
+        "Hardy-Chandler"
+      ],
+      "notes": "Councilmember Stacey D. Hardy-Chandler. pyannote ID: SPEAKER_17. Confirmed via video at 8:03 PM showing CM Hardy-Chandler at podium during appointments."
+    },
+    {
+      "speaker_key": "council_rachel_mcquillen",
+      "display_name": "Councilmember Rachel M. McQuillen",
+      "role": "council",
+      "confidence_boost": 0.9,
+      "min_diarization_confidence": 0.4,
+      "aliases": [
+        "Rachel McQuillen",
+        "Councilmember McQuillen",
+        "Ms. McQuillen"
+      ],
+      "titles": [
+        "Councilmember"
+      ],
+      "diarization_speaker_ids": [
+        "SPEAKER_10"
+      ],
+      "text_patterns": [
+        "Councilmember McQuillen",
+        "Rachel McQuillen",
+        "McQuillen"
+      ],
+      "notes": "Councilmember Rachel M. McQuillen. pyannote ID: SPEAKER_10. Confirmed via video at 9:03 PM showing CM McQuillen speaking during budget work session."
+    },
+    {
+      "speaker_key": "mary_mcdaniel",
+      "display_name": "Mary McDaniel",
+      "role": "public",
+      "confidence_boost": 0.7,
+      "min_diarization_confidence": 0.6,
+      "aliases": [
+        "Mary McDaniel",
+        "Ms. McDaniel"
+      ],
+      "titles": [
+        "Ms."
+      ],
+      "diarization_speaker_ids": [],
+      "text_patterns": [
+        "Mary McDaniel"
+      ],
+      "notes": "Public commenter. Fairfax City electoral board member."
+    }
+  ]
+}
