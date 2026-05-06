@@ -904,9 +904,9 @@ const TRANSCRIPT_TURNS =[
     "text": "Thank you. And I would point out that the first 63 years of this city's history, the mayor was not excluded from the discussions or appointments to boards and commission until this council. And so whether I have feelings about that or not, this council decided that, which is why we have an even number of people voting on these appointments. Up until this council. As far as the mayors that I have spoken with previously, this was not an issue. So there are issues here for sure. There are on many fronts."
   },
   {
-    "speaker": "City Clerk",
-    "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker": "Councilmember Anthony T. Amos",
+    "speaker_source": "context_correction",
+    "speaker_source_detail": "Amos explaining his understanding of recusal - out of country during initial discussion",
     "start": 4072380,
     "end": 4129850,
     "text": "Councilmember Amos So when the initial discussion happened in March, I was clearly not here for that. Towards the end, since I was out of the country, I got back in my understanding. Was there supposed to be a recusal? And I really think for me, there's only one question that really needs to be answered and that would probably come from our city attorney, is that, per your review, should Councilmember Hardy Chandler have been included in the vote for two of the appointees, excluding her husband? So one of the nice things about the State and Local Government Conflict of Interest act is that decision is left to the individual member. I have my opinions as to whether it's appropriate for a member to vote for a position in which his or her husband."
@@ -1376,9 +1376,9 @@ const TRANSCRIPT_TURNS =[
     "text": "Aye."
   },
   {
-    "speaker": "City Clerk",
-    "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker": "Councilmember Rachel M. McQuillen",
+    "speaker_source": "context_correction",
+    "speaker_source_detail": "McQuillen voting No on motion, merged with City Clerk announcement",
     "start": 4757730,
     "end": 4761970,
     "text": "Councilmember McQuillan. No. Okay. Motion failed three to three."
