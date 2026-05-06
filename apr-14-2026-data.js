@@ -1640,17 +1640,17 @@ const TRANSCRIPT_TURNS =[
     "text": "Okay. Is that what. Sorry, I couldn't hear the whole thing. So I was just needing a little bit of clarification on that. Thank you. I did want to mention to my council colleagues that I am the. I am the representative of the Food and Agricultural Regional Membership Policy Committee Farm. And we recently had a meeting in which. And I just want to share a few little updates and facts. This, this supports my position on the meals tax. You guys all know where I stand on that. I've been really open about that. National Restaurant association reporting this year says that 42% of operators were not profitable and had limited ability to raise menu prices further in 2025. It matters because restaurants do not absorb taxes, inflation, labor costs, inc. Insurance, rent and supply volatility in separate buckets. It's all in one. It all hits the same operating margin. Consumers are already paying more. The national CPI shows food away from home is up 3.8% over the year and full service meals are up 4.3%. That's their pricing. In the Washington region, food away from home went up 3.7% over the year with overall food prices up 4.4.5%. So this is not happening in a low inflation environment for food. Also, the Virginia gas prices being elevated. AAA is showing that Virginia's regular gas average is about $3.99 per gallon. And AAA's national reporting shows fuel prices climbed sharply in early April amid high crude prices and geopolitical disruption. That's affecting the grocery stores. It's affecting everyone in the food industry. We're seeing an uptick of food insecurity, especially among our lower middle class families. So please keep all of this in mind when we're discussing increasing the meals tax, because it doesn't. It's just not one meal. This is several meals. People eat hundreds of meals over their lifetime or over a year. So when we're talking about increasing the tax, yeah, it sounds like a small amount, but it's really hitting our restaurants hard and we like to brag. We're often celebrating the city's restaurant scene as unique and defining these cultural strengths. Just recognize that this is impacting those businesses when we do this. That's all I wanted to share. Thank you, Council Member Hall."
   },
   {
-    "speaker": "City Manager/Staff",
-    "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker": "Councilmember Billy M. Bates",
+    "speaker_source": "context_correction",
+    "speaker_source_detail": "personal BPOL/meals tax views, asking staff for responses; same speaker as turn 204",
     "start": 6245770,
     "end": 6490010,
     "text": "Thank you. In anticipation of the conversation about bpol, I reached out to two different people. One specifically with a very large car dealership who does repairs and car sales. And then another person that I reached out to is a professional in the legal area. So the. I think they're both. The car tax was or the car B poll conversation was more about the lesser of two evils of real estate taxes versus BPOL tax. The conversation that we had focused very heavily on the fact that the majority of the B poll, I actually didn't realize we collected it on car sales. I thought it was only on the service portion, but that is passed through to purchasers. So while that will have an impact on car dealerships and on service centers, the impact would be likely less than an increase to the real estate taxes. I did have concerns after speaking with multiple people about the rate and what we were discussing as far as the professional services. And I will be the first to say I was the one who asked these questions. And I was reached out to people intentionally to get additional information. So just to say that what they were suggesting was that unfortunately, people really might pick up and move to the county if we go from the $0.40 to the $0.48 or 0.48, whatever the phrasing is. And that, you know, the county, I think, is at 0.31 31 cents. So there was some concern that an abrupt hike like that would suggest that people are leaving or will leave in the coming years. This person also had some very interesting information with regard to the meals tax and specifically said that there's a restaurant that has a chain here that also has one near us in the county. And. And he said that he purposely doesn't go to the one in the city because it didn't because it had the 4% meals tax. So I think he was fairly shocked when he went to the county counterpart restaurant and found that that meals tax was there now. So he said, I guess I can go back to the local city one. However, what he did suggest was that maybe we consider reducing the meals tax rate to 2%. And I understand that will have financial impacts and I would also just like to have staff's thoughts and feelings on this. But would that be an opportunity for us to capitalize on the fact that county people are unhappy with this? It could be a huge promotion that we could do in combination with the chamber of commerce, all the restaurants, you know, maybe we talk about trying it for six months or a year or something and see how we are doing with it. I would be open to having this conversation if it's supported by others on Lada, to at least entertain it and see what staff thinks. I think, you know, we got an email from a woman today. I think everyone got it about, you know, she went to the grocery store and she bought a prepared chicken and, you know, the tax now was 4 cents higher than it was before. And I mean, she said 4 cents is not a lot, but 4 cents consistently all the time felt like a lot. And so she, you know, doing the correlation of just what that half cent would be. So, personally, I hate the meals tax. I've always hated the Meals tax. I'm happy the county now has one because I think it makes us comparable. I also do recognize that in order to generate that 1.25 million that the meals tax increase of a half a cent, sorry, half a percent, will bring in, would also require, I believe it's 1.417 cents on the real estate tax rate. So I understand it's a one or the other or both. But these are just some ideas and some thoughts that I would like to hear about. The other thing is, you know, everyone I talk to, when I talk about the lesser of two taxes or what if we only had to raise it $0.01, all they continue to ask back is, why are we not reducing our expenses? And so I'm happy to see some of the slides and things that you're showing forth here that are talking about reductions, but I think it's a very valid question. So I don't know."
   },
   {
-    "speaker": "City Manager/Staff",
-    "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker": "Councilmember Billy M. Bates",
+    "speaker_source": "context_correction",
+    "speaker_source_detail": "specific questions wanting staff response; follows turn 205",
     "start": 6490160,
     "end": 6573140,
     "text": "Expect a response. Now, I do have specific questions that I would like responses to, but I wanted to just give you some overall thoughts. I personally am very interested in seeing ways that we can try to bridge the gap between what the EDA was receiving and then is no longer receiving. I personally would really like to see the Renaissance program reinstated. I know I was the one, I believe, last year who suggested that maybe we put a pause on it. And it was truly meant to be a pause. It was not meant to be a removal from future consideration. I did reach out to the staff counterpart today and asked if it were to be reinstated, how many loans would we be able to service and get that similar information that we were provided with last year, which made me more willing to consider putting a pause on it. Now my questions are going to come in. So the conversation about the 6. $600,000 for the schools versus the 1.1 deferred. I understand or I don't understand. I see we have school board member Sarah Kelsey here as well as our superintendent Dustin Wright. And I understand that there was a meeting last night with the school board. I didn't get a chance to watch all of it. Are there. Was it a good conversation? Are the schools in favor of this? I'd like to just hear from the schools, if that's possible. Not to put you on the spot or anything, but you're here, so you probably expected to be brought up."
@@ -1776,9 +1776,9 @@ const TRANSCRIPT_TURNS =[
     "text": "Multi jurisdictional information that was previously presented. I'm just wondering if, in addition to the anecdotal conversations that we might have with residents, what sort of the trends show in terms of what actually happens in the. What actually has happened in the past when there have been those changes."
   },
   {
-    "speaker": "City Manager/Staff",
-    "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker": "Councilmember Tom Peterson",
+    "speaker_source": "context_correction",
+    "speaker_source_detail": "councilmember providing budget data that Stacey was asking about",
     "start": 7103920,
     "end": 7229800,
     "text": "I'm going to try to go off of memory. Council member. We, we did present something at a work session with some historical data that actually compared the city of Alexandria, who has a 5% meals tax compared to the city. They've had it for about 20 years, so very similar to our 4% as well. Additionally, in that presentation there was an actual number of increased restaurants over the same 10 to 15 year period in the city. So not necessarily a migration out, more of an expansion. I want to say it was on average two and a half or three and a half per year that we increased the restaurant count between the timeframe that we looked at 10 or 15 years. It was actually an increase, a net increase. Here goes. Excellent. Thank you, Ms. Riddle. So go to the next couple of slides and you can actually see the comparison. I don't have my glasses. Here we go. There you go. Go back one. There you go. So on there over the 20 year time frame, 2016 to 2025, a net increase of 59 restaurants or about 30% from where we started on average. Looking at. I can't read it from here, sorry. 3% per year. About 7U. Yeah, 7U per year increase. So we are seeing an increase overall. I think a lot of that has to do just with the work that our economic development office does. People want to move into the city. Also on the left hand side, it does show that about 3% is sort of past, through or back to the restaurants while they file their timely receipts to the city as well. So over that same course time frame, over $2 million was given back to these businesses as a form of collecting the tax on behalf of the city."
@@ -1848,9 +1848,9 @@ const TRANSCRIPT_TURNS =[
     "text": "Council Member Hall."
   },
   {
-    "speaker": "City Manager/Staff",
-    "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker": "Councilmember Stacy R. Hall",
+    "speaker_source": "context_correction",
+    "speaker_source_detail": "Hall question after Mayor called on her at turn 230",
     "start": 7445010,
     "end": 7469220,
     "text": "Thank you. I had one question I forgot to ask. You mentioned that the health insurance had gone up another 5%, which I think was about 400,000, 300 and some thousand. Okay. And I know that I've asked this question before and I'm sorry, I don't remember your answer, but when was the last time that we did bid and look at our provider and look at our plan types and see are we offering things that are competitive?"
@@ -1880,9 +1880,9 @@ const TRANSCRIPT_TURNS =[
     "text": "We're pretty much locked in because we are just advertising what those rates are to the employees. We have open enrollment May 1, so we would probably have to wait an entire year before we could do that. But we would do that legwork now in preparation for FY28."
   },
   {
-    "speaker": "City Manager/Staff",
-    "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker": "Councilmember Stacy R. Hall",
+    "speaker_source": "context_correction",
+    "speaker_source_detail": "personal statement \"I do this for my company\" - councilmember Hall",
     "start": 7520370,
     "end": 7556210,
     "text": "Okay. So I do this for my company as well. And so I know nobody likes to have two deductibles in a year, but what we ended up doing was we actually renewed January 1st instead of doing a July 1st renewal. So we had six months of one plan and then looped it back in. I understand we operate on a fiscal year, so that might create some challenges. But I would think that if it's attractive enough to consider a move, that we should potentially see what our timeline options are. My other question is, do we currently offer HSA compatible plans, like high deductible plans? We do."
@@ -1896,9 +1896,9 @@ const TRANSCRIPT_TURNS =[
     "text": "We do."
   },
   {
-    "speaker": "City Manager/Staff",
-    "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker": "Councilmember Stacy R. Hall",
+    "speaker_source": "context_correction",
+    "speaker_source_detail": "question about FSA options, Hall asking staff",
     "start": 7556610,
     "end": 7558650,
     "text": "And do we have the FSA options as well?"
@@ -1912,9 +1912,9 @@ const TRANSCRIPT_TURNS =[
     "text": "We do."
   },
   {
-    "speaker": "City Manager/Staff",
-    "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker": "Councilmember Stacy R. Hall",
+    "speaker_source": "context_correction",
+    "speaker_source_detail": "question about what employees choose for benefits, Hall asking staff",
     "start": 7559170,
     "end": 7563250,
     "text": "Okay. Do you know what our employees tend to choose?"
@@ -1984,9 +1984,9 @@ const TRANSCRIPT_TURNS =[
     "text": "Yeah."
   },
   {
-    "speaker": "City Manager/Staff",
-    "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker": "Councilmember Stacy R. Hall",
+    "speaker_source": "context_correction",
+    "speaker_source_detail": "Hall wrapping up with suggestion about tax letters",
     "start": 7674400,
     "end": 7710940,
     "text": "Okay. And I just have one other thing, and I know I've asked this a couple times previously, and I don't know that we've ever really come to a definitive yes or no. But I would like to suggest that when we either send out our final tax bills or when we send a response saying, hey, thank you for what you paid, I would strongly like to send a letter, not me personally, but the city, that says, thank you for paying your real estate taxes. Here are some of the things that you funded. And just make it a more of a personal impact opportunity to let people know that we know things are tough. So I don't know if that needs consensus from council or not, but that would be something that I would recommend to the Finance department. So thank you,"
