@@ -1928,9 +1928,9 @@ const TRANSCRIPT_TURNS =[
     "text": "Most of it varies. We looked at the plan. I'll look at Ms. Riddle if she remembers a little bit better. But we had those statistics. We just reviewed them again about a couple of weeks, maybe three weeks ago, when we got the renewal notices. I will say that given that the employer, the city, is not the only one taking some of this burden, the employee will also see a increase about 12%. That may actually move some people out of those higher plans into lower plans. So there may actually be some. When I say savings, lessen the impact of the 325 overall because they're going to see an increase in one plan while some other plans were stagnant. They may migrate to those."
   },
   {
-    "speaker": "City Manager/Staff",
-    "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker": "Councilmember Stacy R. Hall",
+    "speaker_source": "context_correction",
+    "speaker_source_detail": "Hall asking for cost-sharing info, personal interest statement",
     "start": 7610050,
     "end": 7637330,
     "text": "Okay. I know we're not the overseers of all of the things. I just happen to have a personal interest in, you know, education in this area. If it's possible, if it's on our website or you could direct me to somewhere that I could see what we pay versus what the employee pays, just so I can see what that cost sharing looks like. Is that an option? I'm just curious, like, if we cap at a certain rate or, you know, what we cover for families and other individuals and whatnot."
@@ -1944,9 +1944,9 @@ const TRANSCRIPT_TURNS =[
     "text": "The FY27 rates have not been released yet to employees, but 26, I believe, are on the website. And then I'm assuming you'll get it when 27 comes out as it goes to all employees."
   },
   {
-    "speaker": "City Manager/Staff",
-    "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker": "Councilmember Stacy R. Hall",
+    "speaker_source": "context_correction",
+    "speaker_source_detail": "Hall wrapping up insurance discussion, apologizing for going off-topic",
     "start": 7649890,
     "end": 7653570,
     "text": "Okay. My apologies. I wasn't really planning on discussing this in detail tonight, so I didn't look."
