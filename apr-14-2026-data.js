@@ -1072,9 +1072,9 @@ const TRANSCRIPT_TURNS =[
     "text": "Yes, of course. Go for it."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: council recusal - City Manager addressing Hardy Chandler",
     "start": 4297520,
     "end": 4314160,
     "text": "Council member Hardy Chandler, to my recollection, each time we have met to discuss this board and commission, you have recused yourself. Okay. So every single time we've had discussions and conversations, you have, on your own, chosen to remove yourself."
@@ -1088,9 +1088,9 @@ const TRANSCRIPT_TURNS =[
     "text": "That was without clarification that I could have input on the other candidates having Received that clarification. I want to exercise that I see an appointment for a four year term extending through April 14, 2030, and serving as a representative to Parks and Recreation Advisory Board as separate from the other appointment, which I recused myself from extending through September 30, 2029. These are separate independent appointments. If these candidates were coming up for candidacy separately, if that was without the second one, I would certainly have a voice on the other position. So in my opinion, with this new information, I do want to have input on this other position, which is a separate appointment."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: continuing recusal discussion",
     "start": 4366240,
     "end": 4392050,
     "text": "Okay. And I understand your perspective on it. I happen to disagree. And I think that if a spouse or family member serves on a board or commission, it makes perfect sense to be recusing. And clearly the state code seems to support that. I did have one other question in the meantime, before I pass the floor back to Council Member McQuillan. Mr. Lupkman, are you aware of any times in which the mayor has voted on a Border Commission nomination in the"
@@ -1120,9 +1120,9 @@ const TRANSCRIPT_TURNS =[
     "text": "That's the fair statement."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: mayor vote on appointments - asking City Attorney",
     "start": 4405210,
     "end": 4415470,
     "text": "So I think we can inter that to how we would like it to. But it sounds like in most cases a mayor's vote would not be needed. But is the charter wording such that the mayor does have a vote in"
@@ -1136,9 +1136,9 @@ const TRANSCRIPT_TURNS =[
     "text": "that the mayor can vote on procedural aspects related to the appointment. So, for example, deferring action on an appointment, those type of things are perfectly legitimate. I have always taken the position that the appointments to boards and commissions legally is the province of the city council. It is also true, and people throw the word tradition around. It is also not an incorrect statement how it was characterized previously as to previous actions by previous councils and mayors. But that is not a legal requirement. That is just simply an agreement among the parties."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: following up on City Attorney legal opinion",
     "start": 4453370,
     "end": 4475460,
     "text": "Okay. So I think if we have hired you as our attorney and we tend to consider you an expert in all things city legal, and we thank you very much for your service, frequently we should understand that you are making a statement that says that the mayor legally is not entitled to vote on these things and that it has been counseled that votes on boards and commission nominations."
@@ -1152,9 +1152,9 @@ const TRANSCRIPT_TURNS =[
     "text": "Yeah, I'm not making a legal statement on the mayor voting. I'm. I didn't write the city's charter."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: following up on City Attorney legal opinion",
     "start": 4480340,
     "end": 4484180,
     "text": "I understand. But we rely on you to interpret and to give us your best legal opinion."
@@ -1176,9 +1176,9 @@ const TRANSCRIPT_TURNS =[
     "text": "Yes."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: brief acknowledgment",
     "start": 4493950,
     "end": 4494150,
     "text": "Okay."
@@ -1264,9 +1264,9 @@ const TRANSCRIPT_TURNS =[
     "text": "Council member Amos. Aye. Council Member Hall."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Clerk",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: clerk - 'I'm sorry' during roll call",
     "start": 4731440,
     "end": 4732160,
     "text": "I'm sorry."
@@ -1504,17 +1504,17 @@ const TRANSCRIPT_TURNS =[
     "text": "Our work session item is discussion on the proposed FY 2027 budget. City Council identified topics. I'm going to recognize Daniel Alexander, our city manager, for the staff discussion."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "City Clerk announced Daniel Alexander at 5379.4s before this turn",
+    "speaker_source_detail": "context: budget work session intro - clerk announced Daniel Alexander",
     "start": 5390700,
     "end": 5442280,
     "text": "Good evening, Mayor and Council. To frame this discussion tonight will largely be a conversation around revenues and expenditures. It's not going to be the full picture. We've had some conversations up to this point. We have some moving items. We still have some things that we expect out of Richmond relative to their process. And so there will be some additional conversations around how those numbers are shifting. But I think for the most part, as where we are in the process, we're a good place to talk about some things that have come up regarding revenues and expenditures, answer some of the questions that you've asked around those items, and then prep us to move forward into a constructive markup session on the 28th and hopefully adoption on the 5th. So with that, I'm going to turn it over to our Assistant city manager and CFO, Mr. Martinez."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "Assistant City Manager/CFO",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: budget presentation - Mr. Martinez",
     "start": 5444030,
     "end": 5853850,
     "text": "Thank you, Mr. Alexander. Mayor, council this evening, if we can go to the next slide. Ms. Riddle, tonight's presentation is intended to provide a high level update on the FY 2027 budget, specifically focusing, as the manager stated, on revenues and expenditures assumptions. As a reminder, this is not the final iteration. Staff will return on April 28th with more detailed scenarios and options for council's consideration as we move toward finalizing the budget. We'll begin with revenues listed on the sheet that's on the screen. And before you are previously discussed, additional proposed changes of three revenue sources, two within the B poll and one on ToT. These three items were introduced earlier this evening and represent a potential maximum increase as communicated in several respective budget memos. The associated revenue from these increases are listed on the right side. Additionally, the Commissioner of the Revenue, in collaboration with the Budget Director, reviewed and revised upward the anticipated personal property revenue projection originally budgeted in the proposed FY27 budget by an additional $400,000. Let me be clear that this increase does not represent any change to the personal property tax rate and is solely due to a revised forecasting and modeling. Next slide Turning to expenditures, there are a few important updates to highlight. First, health insurance costs have increased beyond our original projections. Specifically, we are now projecting an additional 5.5% increase above the initial 8% forecast, largely driven by higher than anticipated claims activity. In response, staff is taking a proactive approach. We are meeting we have a meeting scheduled this Friday with our Insurance representative to explore strategies to help curtail future cost increases, including evaluating plan design options and potential rebidding of our insurance contract. Secondly, you will see personal expense savings reflected in the updated numbers. Approximately half of these savings result from a review of current staffing levels where we are prioritizing the reallocation of existing vacant positions rather than adding new FTEs. This approach allows us to meet operational needs while maintaining fiscal discipline. The remaining savings are anticipated from projected employee retirements and turnover which will increase the current budgeted vacancies savings factor not reflected on the current sheet are two additional items still under evaluation. First, there is a payment to vdot. Staff is currently assessing the most appropriate structure with a preliminary approach that would phase the payment approximately 1/3 in FY27 and the remaining 2/3 in FY28. Second, we are considering a modification to the timing of school related debt rather than committing the full 1.7 million in FY27, the proposed approach would include only 600,000 in the baseline budget through a contingency within the assigned fund balance, the remaining 1.1 million deferred for future consideration. This approach is intended to preserve flexibility as we monitor potential changes at the state level. Specifically, current Virginia Senate bill amendment language would authorize the 1% sales tax dedication to school projects contingent upon voter approval through local referendum. Importantly, those revenues would be restricted to construction or major renovation projects and could not be used to supplant existing local funding that has already been budgeted or appropriated. That is the key language and the change that is in the current draft language. The General assembly will be reconvening a special session and hopefully we will Know more by the end of this month or the beginning of May. Next Slide Fund Balance really quickly provides a high level look of our fund balance status. This is intended as a preview and a reminder of more detailed analysis that is regularly presented during our quarterly Financial review with Councils that our Budget Director does. Our next quarterly update is also scheduled for April 28. That will happen prior to the last budget work session. As part of those reviews, we not only walk through the fund balance levels, but also provide an updated snapshot of our current fiscal position, revenues versus Expenditures as well as a refreshed five year financial projection. And then lastly, next slide. Thank you, you're probably used to seeing this. We just want to reiterate. The last slide outlines our budget calendar and where we are in the process. At this point we are more than halfway through the FY27 budget development cycle and we are entering the phase where Council direction becomes critical in shaping the final document. I also want to highlight one upcoming engagement opportunity. The Engage Fairfax Fiscal Year 2027 Community Budget Exchange is scheduled for April 16th has been updated. Let me say that one more time has been updated to reflect a revised access link that will now be held via Zoom instead of teams. We were notified by Microsoft Teams that there was a bug so we had a pivot very quickly and as of this afternoon a few hours ago, the communication staff has updated all links and all distribution lists with the new Zoom updated Link. Looking ahead, April 28 is a key milestone with multiple public hearings and our final work session where staff will present again refined options and draft changes for Council deliberation. In closing, tonight's update is meant to keep Council informed of where things stand today. We will return on April 28th with more detailed analysis, refined assumptions and actionable options to to help guide your decision making. Happy to answer any questions. Councilmember Amos thank you."
@@ -1528,17 +1528,17 @@ const TRANSCRIPT_TURNS =[
     "text": "I know I submitted a number of questions prior to going on my trip and I know you're still working on those and I'm assuming generating response to circulate to everyone or to me, whatever works best. The only other question and follow up I'd like to discuss is specifically, I know that the Chamber just brought it up. I would like to have a more serious discussion on adding a sunset to the increase in the meals tax contingent on the 1% being activated. And I may be misunderstanding this, but Once we get the 1% for school construction, essentially restaurants will be at 5.5% versus 4.5% at least for the time being until they're paid off. Is that correct."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: responding to Bates on meals tax",
     "start": 5898730,
     "end": 5900010,
     "text": "It's going to depend on the."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: meals tax language and Richmond update",
     "start": 5900160,
     "end": 5927990,
     "text": "Current language. The last language I saw, I think on meals tax and looking at the budget director because I think she showed it to me, the language may not be applicable to meals or, or restaurant meals for the additional 1%. That is still something that is being evaluated. We won't know. And I think that's sort of the biggest predicament that we're in right now is there has been no final determination by Richmond. So we're trying to be as adaptive and as prudent as possible."
@@ -1552,9 +1552,9 @@ const TRANSCRIPT_TURNS =[
     "text": "Yeah, I know we're still waiting for legislative updates, but once we get that clarification, if that is the case, I think it's worth a follow up discussion. Thank you. Council Member Peterson, you went through a number of specifics and I don't think we had numbers on slides in front of us. Is there going to be a listing that we can refer back to with all of this?"
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: budget upload schedule, April 28 options",
     "start": 5955170,
     "end": 5982480,
     "text": "Definitely. So I think this traditionally is being uploaded the next morning. So tomorrow morning. And then as mentioned on April 28, we will present at least four to five options or scenarios. Very similarly what we did last year to council. It's my understanding that we also have meetings sort of scheduled one on ones. So I think starting next week with council to sort of walk through some of those potential scenarios. But definitely have it in a public forum on the 28th."
@@ -1568,9 +1568,9 @@ const TRANSCRIPT_TURNS =[
     "text": "And so. Thank you. To put this in context then, you had a series of numbers. Are these numbers tied to any particular scenario at this stage?"
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: revenues and expenditures explanation",
     "start": 6000640,
     "end": 6044040,
     "text": "Not 100%. So what was displayed in some of the other slides, the revenues and the expenditures are what we know of right now. The most traditional way that we've displayed this is the budget change sheet that will be a part of it. That's sort of the debit and the credits. The changes that have that are now known as of when the manager proposes budget at the end of February. We're keeping track of that. We're not anticipating any other changes between now and the end of May other than the two that we've identified that were not listed on here. The VDOT repayment and then the potential school deferral on debt. Besides that, we're trying to formulate an option and scenarios for council."
@@ -1624,9 +1624,9 @@ const TRANSCRIPT_TURNS =[
     "text": "Okay, sorry. Going back to what you stated prior to Council Member Amos question. Could you please repeat that?"
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: 1% sales tax for school capital",
     "start": 6095300,
     "end": 6102180,
     "text": "I think you're referring, Council Member, to the potential 1% sales tax for school capital."
@@ -1664,9 +1664,9 @@ const TRANSCRIPT_TURNS =[
     "text": "Certainly. Mr. Wright, if you would like to add something."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: brief thank you",
     "start": 6580900,
     "end": 6581460,
     "text": "Thank you."
@@ -1680,41 +1680,41 @@ const TRANSCRIPT_TURNS =[
     "text": "Thank you, Mayor Reid. And good evening to the council. Council member Hall, I was. I'm here to observe and listen, but I'm happy to answer your question that you just posed. The conversation last night was around our elementary school capital projects and the current state of them and, and the path moving forward. None of it was related to the proposal that you heard this evening? We were not aware of that proposal at that time."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: schools discussion - Peterson question",
     "start": 6620390,
     "end": 6628710,
     "text": "Thank you. Okay. I thought that was being discussed with the schools prior to our conversation tonight, Mr. Alexander."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: schools - Mr. Wright socialization with board",
     "start": 6628710,
     "end": 6644110,
     "text": "Yeah, so we. We have talked to council about it up to this point. We have talked today with them about it. And so I don't know the degree to which Mr. Wright has socialized that with the board yet. It is."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: schools option - brief",
     "start": 6644190,
     "end": 6644550,
     "text": "We're."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: schools option discussion continued",
     "start": 6644550,
     "end": 6657580,
     "text": "We're calling it an option in respect to, I think, the council and also in respect to schools. And so it's going to like the other things that we brought up tonight, beg some further conversation around that."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: acknowledging Peterson's question",
     "start": 6658380,
     "end": 6663980,
     "text": "Okay, thank you. Sorry to call out the very uncomfortable elephant in the room, but I was just curious where schools were on this. So thank you,"
@@ -1728,9 +1728,9 @@ const TRANSCRIPT_TURNS =[
     "text": "Councilman Peterson. I wanted to just build a little bit on some of the inflation related information that Councilmember McQuillan provided because it is an important part of the inflation equation, but it's only a part of equation. And just a note. We heard some testimony tonight about the concern about energy prices. We know from earlier information provided by staff that Dominion Energy has notified us we should be expecting a 32% increase in electricity. We know also that we're looking at a 13% increase in natural gas. So on the energy front, those are two sources that serve what we call the stationary source sector, buildings, facilities, et cetera. And it affects the city's own budget. And I understand that our projection on increased electricity costs, if that materializes, will knock on the door. $400,000 incremental expense. Is that a correct recollection of the impact of that cost increase?"
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: Dominion rate increase assumption",
     "start": 6736550,
     "end": 6754550,
     "text": "It is based off of the assumption that that rate increase is going to hold. That has not been confirmed. Dominion put that out. It is my understanding that that will more than likely not happen. You will have a more realistic increase based off historical Trends, probably around 10 or 12%, not 35."
@@ -1744,9 +1744,9 @@ const TRANSCRIPT_TURNS =[
     "text": "That would certainly be good news if that happened. I know there's a lot of concern that those rates are going to go up and that the unexpected changes will be on the upward side. But we're not there yet. It's good to know. But clearly energy is up. I would just note also that healthcare expenses are up and that maybe the highest and fastest rate of inflation for any household expenses that we experience. The latest that I saw for unreimbursed healthcare expenses, it's running an increase of 21.5% this year. And there's a big caveat there because Obamacare has not been refunded yet and it's not clear that it will be. So for people who are dependent upon that and the reimbursements associated with it, this is a big load for an average family of four in the city of Fairfax. The mean right now is looking at about $27,000 a year. You translate that out with other household expenses, including the ones we just heard about, and it's really saying that 150,000 median income is what you've got to have to swing it in terms of dealing with, with this cost load. So healthcare is a really big one. There isn't much, if anything, we can do about that except to stay well and get all the help we can doing that. But there are things we can control and Those are our property taxes, our real estate taxes, and other fees. So it's not surprising that people, as we've heard, are hoping that we will do everything we can to manage that cost agenda, recognizing that there are things that are changing in a major way that we cannot control, but there are things that we can control. To switch gears and go to the Renaissance housing Program, just out of curiosity, I believe, based on prior conversations and some of the staff consultations on housing issues of a variety of types, we're taking a really hard look at how we are approaching our housing programs here in the city. And that's not limited to affordable housing, but it's looking at the sector and what to do with that. As you if and as you come back with thoughts around any of our housing programs, but including the Renaissance housing program, I'm wondering if you might be able to think through what a slightly more integrated approach to something like the Renaissance Housing Program might be. Given that I know you're looking hard at what an integrated approach to this housing area maybe might look like in the future, I'm wondering if that might be a possible thing framed."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: integrated program response",
     "start": 6899550,
     "end": 6928260,
     "text": "Well, Councilmember, that certainly is part of the way we'd want to look at it. As you say, an integrated program. I don't believe that we're prepared to obviously introduce that as part of the current plan, but certainly should be, I think, should be part of the way we look at our complete approach to our housing. So that certainly will be something that we bring back to council as we discuss everything related to housing. So I think you framed it exactly the way we're looking at it."
@@ -1792,9 +1792,9 @@ const TRANSCRIPT_TURNS =[
     "text": "I'm impressed with how you had that available. So thank you very much. Shifting gears a little bit, the Renaissance Housing program. I believe that there was comment earlier about revenues coming back to the city because of property improvements. I'm also curious about whether or not there is flexibility in terms of. I'm not sure if the program's parameters allow flexibility to have input on some, some targeting around or developing matrices for who gets those loans. And if that hasn't been the case, do we have the flexibility to have input on how that might serve some of our longer term goals a little bit better or are the Program's parameters more rigid."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: Renaissance Housing Corporation question",
     "start": 7292680,
     "end": 7351930,
     "text": "Excellent question, Council Member. And unfortunately, the Renaissance Housing Corporation is its independent body. So it does not directly fall under the city. It receives almost exclusively all its generating revenues or funds from the city. When we do fund them, there are their own independent parameters of how they, how individuals would qualify for a loan, what those qualification standards are in the sense of disbursement. They have their own limitations. To me, it would make sense that if the city is providing the majority of the funding that we may, if council so choose and if the city attorney would help, we could probably create an agreement to sort of put some structure on, maybe put some X number percentage to lower income housing or lower thresholds that would impact a different population."
@@ -1856,25 +1856,25 @@ const TRANSCRIPT_TURNS =[
     "text": "Thank you. I had one question I forgot to ask. You mentioned that the health insurance had gone up another 5%, which I think was about 400,000, 300 and some thousand. Okay. And I know that I've asked this question before and I'm sorry, I don't remember your answer, but when was the last time that we did bid and look at our provider and look at our plan types and see are we offering things that are competitive?"
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: health insurance rates - meeting with rep",
     "start": 7470420,
     "end": 7498370,
     "text": "It's been a while is the best answer that I can give Right now. But. But as I stated, we are meeting with our rep this Friday. And given the increases year over year, I think Councilmember Peterson also alluded to these are one of those inflationary increases that we can't necessarily control, but we're going to try to get ahead of it and then, if need be, really look at a potential rebid on that contract or break away from that plan and go independent."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: health insurance fiscal year question",
     "start": 7498770,
     "end": 7504130,
     "text": "And is that something that could be done in this upcoming fiscal year or are we locked into what we have right now?"
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: health insurance locked - open enrollment May 1",
     "start": 7505090,
     "end": 7519810,
     "text": "We're pretty much locked in because we are just advertising what those rates are to the employees. We have open enrollment May 1, so we would probably have to wait an entire year before we could do that. But we would do that legwork now in preparation for FY28."
@@ -1888,9 +1888,9 @@ const TRANSCRIPT_TURNS =[
     "text": "Okay. So I do this for my company as well. And so I know nobody likes to have two deductibles in a year, but what we ended up doing was we actually renewed January 1st instead of doing a July 1st renewal. So we had six months of one plan and then looped it back in. I understand we operate on a fiscal year, so that might create some challenges. But I would think that if it's attractive enough to consider a move, that we should potentially see what our timeline options are. My other question is, do we currently offer HSA compatible plans, like high deductible plans? We do."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: brief confirmation",
     "start": 7556210,
     "end": 7556610,
     "text": "We do."
@@ -1904,9 +1904,9 @@ const TRANSCRIPT_TURNS =[
     "text": "And do we have the FSA options as well?"
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: brief confirmation",
     "start": 7558650,
     "end": 7559090,
     "text": "We do."
@@ -1920,9 +1920,9 @@ const TRANSCRIPT_TURNS =[
     "text": "Okay. Do you know what our employees tend to choose?"
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: benefits plan statistics",
     "start": 7563250,
     "end": 7609570,
     "text": "Most of it varies. We looked at the plan. I'll look at Ms. Riddle if she remembers a little bit better. But we had those statistics. We just reviewed them again about a couple of weeks, maybe three weeks ago, when we got the renewal notices. I will say that given that the employer, the city, is not the only one taking some of this burden, the employee will also see a increase about 12%. That may actually move some people out of those higher plans into lower plans. So there may actually be some. When I say savings, lessen the impact of the 325 overall because they're going to see an increase in one plan while some other plans were stagnant. They may migrate to those."
@@ -2008,9 +2008,9 @@ const TRANSCRIPT_TURNS =[
     "text": "Just another quick note on the inflation thing. Maybe this is good news, maybe it's not. But the latest numbers I saw for the area on housing is that the price of housing has gone down a third of a percent this year. The forecast, Northern Virginia Realtors through the end of the year. End of the year, the high end of that is 1.9%. So housing is not one of the inflationary variables in terms of price that's going up, but we know that the cost of housing nonetheless is high. Going back to the. A little bit of the big picture here in terms of what we will see as we go forward. I know other council members have talked with you about this in terms of information that is of interest, but I. So I think one of the things that would be helpful is to the best of your ability to forecast forward five years to see what this trajectory looks like for the city in terms of expenses and revenues to, to avoid us being on a yoyo, this destabilizing pattern that has happened in the past where we've gone too far up, too far down and then had to play catch up and it's had a destabilizing effect. So if we can understand to the best of your ability what a smoother trajectory looks like and how we are consistent with that, so we could avoid the deviations in either direction, that would really be very helpful."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: third quarter update",
     "start": 7802890,
     "end": 7819450,
     "text": "Yeah. The good thing is we're scheduled for third quarter, third quarter update, and within that, and I know, I've heard it from Councilman Rahal, too, of getting an idea of what we're projecting for the future. So the timing is right for us on the 28th to actually have that discussion in conjunction with our budget discussion."
@@ -2048,9 +2048,9 @@ const TRANSCRIPT_TURNS =[
     "text": "Yes, Mr. Martinez."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "Budget Director",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: meals tax clarification - Mary/Riddle",
     "start": 7931820,
     "end": 8006400,
     "text": "Thank you, Mary. Just want to add a couple clarifying notes regarding the meals tax. A potential 2% reduction with each half percent being about 1.3, that's $5.8 million, almost $6 million that would be reduced or I'm sorry, that would be 1.3. So about over $5 million or the equivalent of almost $0.06, 5.8 cents on the current real estate tax rate. And I think Councilmember hall made that statement. And then additionally, just to clarify, and it's not on the screen per se, but when the manager proposed his budget, the we realized about $1.3 million in savings from available balances, specifically in operating CIP funds that came over to the general fund side and now we've shown another $400,000. So in totality the city has saved about $1.7 million in the FY27 budget. So not an insignificant amount given our size. Just wanted to make those two statements."
@@ -2064,9 +2064,9 @@ const TRANSCRIPT_TURNS =[
     "text": "Council Member Peterson, am I correct that also in a prior session you indicated that we were looking at an unexpected increase in revenues of 2.7 million?"
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "Budget Director",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: second quarter financial review",
     "start": 8025130,
     "end": 8049930,
     "text": "We were. In the second quarter financial review, the budget director displayed a 2.7, 2 point some odd million dollar additional revenue that has not been realized but is anticipated for FY26 with the understanding that that additional revenue would go to unassigned or assigned fund balance to sort of bridge the gap for FY27."
@@ -2088,9 +2088,9 @@ const TRANSCRIPT_TURNS =[
     "text": "Sure. So, speaking of the unassigned fund balance, we had encumbered funds in anticipation of a repayment to VDOT out of the unassigned fund balance for this year, I believe. But now that we've actually gotten the bill from VDOT for the repayment, we are. There is. There is a plan, I believe, that is going to be explored about how to repay that. And I bring this up because we have the budget event on April 16, and I think we need to explain how the $3.5 million is going to be paid back and the fact that while we had, you know, we had encumbered but not actually allocated that money from the unassigned fund balance, there's now a different plan. And I just think it's important before we get to April 28th for people to understand what that plan is for the FY27 and potentially the FY28 budget. So will there be a budget memo or how. How will you kind of put this up for the sake of transparency to the public when they come to discuss the budget on the 16th? How will that be rolled out?"
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: budget change process",
     "start": 8131640,
     "end": 8154820,
     "text": "Yeah, we have a process for those changes on a change sheet. Getting a nod in the affirmative. That's one element of a few elements that we've discussed tonight that we're going to need to work through, some of which we've have kind of pushed out just recently. So all of those changes from a revenue and expenditure perspective will be part of the scenarios that we bring to you on the 28th."
@@ -2104,9 +2104,9 @@ const TRANSCRIPT_TURNS =[
     "text": "I guess my question is, will there be anything prior to the 28th that, you know, because we're having this event on the 16th and we have not discussed this since. It is a very new. It's a very new thing that just happened."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: revenue and expense discussion",
     "start": 8172170,
     "end": 8234260,
     "text": "Yeah, I think that. And again, I apologize. Even with the school things a little clunky. Right. As we have talked about our options there. So from a revenue and expense perspective, these things are going to change as we move along. I think the 28th is our opportunity for us to have a full discussion on all of those and all those scenarios, which will include how we have given the Council options for decisions on how to approach that. What we've even brought up tonight are options and suggestions. Council may not like those and we may need to pivot. And so we'll have those discussions over the next couple weeks. I think Thursday is a great opportunity for the public to come out and ask their questions, be engaged and be responsive, and we'll certainly bring that back to you. You don't have that yet either. You have. We've had plenty of hearings and engagement, engaged platforms been up. We've done a lot of that. But that's another element that we're going to bring to you on the 28th and have a fully transparent discussion around everything related to revenues and expenditures."
@@ -2184,9 +2184,9 @@ const TRANSCRIPT_TURNS =[
     "text": "Any other questions or comments before we. Okay, I'm now going to reconvene the regular meeting, Mr. Alexander, for future meeting topics."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: closing remarks - looking ahead to April 28",
     "start": 8371330,
     "end": 8486570,
     "text": "Thank you. Mayor and council looking ahead to the 28th. We've had a lot of conversation up to this point and so you know, much of this will be focused on public hearings related to the budget. There will be some items not requiring a public hearing to include significantly the Blenheim Boulevard project. And then as we mentioned before, we will be talking about Willard Sherwood and the items that you've we've talked about tonight. And also on there is the consideration of bond resolution for general obligation bonds for the school project. Work session wise, we are again planning the third quarter financial review, so we're looking forward to that. And then as we've discussed the budget draft changes presented and deliberated on that night, also May 5th committed to budget in its entirety. And then looking ahead, moving forward into May, significantly, we'll have items on public hearings on financial costs, capital costs related to sewer system and bonds related to that. Also. We will bring back the noise discussion on that night. We'll talk potential options for detached accessory dwelling units and the council salaries will be back on that night. We've talked to council up to this point getting later into May about Wilcoxon Trail extension. So we'll bring that back to you with a presentation and that gets us into June. Happy to answer any questions relative to what we've discussed on these meetings or looking out through the remainder of the year at council's pleasure."
@@ -2224,9 +2224,9 @@ const TRANSCRIPT_TURNS =[
     "text": "If there's no more questions on that, then we will look for council comments starting with the city manager."
   },
   {
-    "speaker": "City Manager/Staff",
+    "speaker": "City Manager",
     "speaker_source": "manual_review",
-    "speaker_source_detail": "Russ-verified council debate labels (PyAnnote behavioral mapping)",
+    "speaker_source_detail": "context: April 16 event reminder",
     "start": 8559580,
     "end": 8605350,
     "text": "Yeah, I will just reinforce our event on the 16th here in chambers at 6 o'. Clock. A few ways to participate remote in person and so and just watching on cable if you. If you so desire. So we look forward to engaging public around the fiscal year budget and as you know, most of our work has been around that. Look forward to over the next couple weeks engaging with council, answering questions. To Councilmember McQuillan's comment earlier, we're thankful to council. At the risk of sounding gratuitous, you presented a lot of challenges, a lot of questions, a lot of good food for thought relative to this process. Look forward to a little more of that over the next couple weeks and certainly help us and inform the process as we move forward. So thank you very much."
