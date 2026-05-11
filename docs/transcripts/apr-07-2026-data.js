@@ -5,28 +5,28 @@ const TRANSCRIPT_TURNS = [
     "turn_id": "turn_000001",
     "speaker": "Mayor Catherine Read",
     "speaker_source": "manual_fix",
-    "speaker_source_detail": "verified via video",
+    "speaker_source_detail": "re-verified: calls meeting to order",
     "start": 6.14,
     "end": 17.34,
-    "text": "Good evening, I would like to call the work session of April 7th, 2026 to order"
+    "text": "Good evening. I would like to call the regular meeting of April 7th, 2026 to order."
   },
   {
     "turn_id": "turn_000002",
     "speaker": "Ms Shinneberry",
     "speaker_source": "manual_fix",
-    "speaker_source_detail": "verified via video",
+    "speaker_source_detail": "re-verified: introduces Library representatives",
     "start": 17.55,
     "end": 29.68,
-    "text": "I recognize Stacey Sommerfield"
+    "text": "I will now ask Suzanne Levy, Eric Carson, and Alana Quarles with the City of Fairfax Library to come down for the proclamation acknowledging National Library Week."
   },
   {
     "turn_id": "turn_000003",
-    "speaker": "Stacey Sommerfield",
+    "speaker": "Suzanne Levy",
     "speaker_source": "manual_fix",
-    "speaker_source_detail": "verified via video - Library presentation",
+    "speaker_source_detail": "re-verified: Library presentation from re-transcription",
     "start": 29.68,
     "end": 998.00,
-    "text": "[Library Week presentation]"
+    "text": "Libraries spark creativity, fuel imagination, and inspire lifelong learning... Libraries serve as vibrant community hubs connecting people with knowledge, technology, and resources... Libraries provide free and equitable access to books, digital tools, and innovative programming... Libraries partner with schools, businesses, and organizations... Libraries empower job seekers, entrepreneurs, and lifelong learners... Libraries nurture young minds through story times, STEAM programs, and literacy initiatives... Libraries protect the right to read, think, and explore without censorship... Dedicated librarians and library workers provide welcoming spaces... Now therefore I, Catherine S. Reid, Mayor of the City of Fairfax, do hereby proclaim April 19th to the 25th, 2026, as National Library Week in the City of Fairfax, and encourage the community during this week to visit their library... Thank you Mayor. I'm honored to be your representative... Representative to the Fairfax County Public Library Board of Trustees... I'm in my second year as chairman of the board... And I wanted to introduce our library director Eric Carson... Elena Quarles is the branch manager at City of Fairfax, and Jackie Consalvo is the head of the Circulation Department... And if you don't have a library card, we have beautiful new cards that were designed by citizens in the community... Thank you so much."
   },
   {
     "turn_id": "turn_000004",
