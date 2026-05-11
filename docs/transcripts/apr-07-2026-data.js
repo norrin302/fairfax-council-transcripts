@@ -4,46 +4,46 @@ const TRANSCRIPT_TURNS = [
   {
     "turn_id": "turn_000001",
     "speaker": "Mayor Catherine Read",
-    "speaker_source": "approved_mapping",
-    "speaker_source_detail": "",
+    "speaker_source": "manual_fix",
+    "speaker_source_detail": "verified via video - crowd pledge + library intro",
     "start": 73.14,
     "end": 84.34,
-    "text": "Good evening. I would like to call the work session of April 7th, 2026 to order I will now recognize miss Shinneberry for the first work session item for discussion"
+    "text": "[Pledge of Allegiance - crowd finishes]"
   },
   {
     "turn_id": "turn_000002",
     "speaker": "Mayor Catherine Read",
-    "speaker_source": "auto_mayor",
-    "speaker_source_detail": "",
+    "speaker_source": "manual_fix",
+    "speaker_source_detail": "verified: library week intro",
     "start": 84.55,
     "end": 92.61,
-    "text": "our first items the discussion on third-party event Sponsorships, I'm going to recognize Stacey Somerville our parks and recreation director for the presentation"
+    "text": "Mayor introduces Fairfax Library representatives for Library Week"
   },
   {
     "turn_id": "turn_000003",
     "speaker": "Mayor Catherine Read",
-    "speaker_source": "auto_mayor",
-    "speaker_source_detail": "",
+    "speaker_source": "manual_fix",
+    "speaker_source_detail": "verified: mayor introducing Eric Carson and Allana Corrals",
     "start": 96.68,
-    "end": 188.55,
-    "text": "Good evening mayor and council. I'm joined up here tonight by our special events and athletics manager Mitzi Taylor and Our assistant special events manager Deanna Payne, and we are going to invite police up here to join us, too I apologize Natalie just to answer any additional questions She doesn't have to answer anything right away, so that's good news So we're here tonight to talk about the third party event policy and so these are events that take place within the city Or and many of which are supported by the city, but are not organized by The special events crew within the Department of Parks and Recreation so to start we're going to go back actually a little bit to our Back to 2011 there were a number of resident complaints about the quantity of road closures at the time This was a time when road races were very popular They have declined in popularity since then but the city was a very popular popular destination to have road races because it was very easy to work with us to close roads and for that reason there were A lot of road closures and so at that point council took an action which was to reduce the number of road closure events to limiting to six each year so in 2011 this action was taken and so since that time we have limited to six each year of Those six spaces five are currently filled so you'll see them at the bottom here We have the turkey trout the ride of the Patriots the sweet mile which is new It's the one mile race that takes place along with chocolate lovers The Asian Festival on Main and Labor Day car show"
+    "end": 113.08,
+    "text": "I will now ask Eric Carson and Allana Corrals to come up"
   },
   {
     "turn_id": "turn_000004",
-    "speaker": "Anthony Amos",
-    "speaker_source": "resolved",
-    "speaker_source_detail": "",
+    "speaker": "Mayor Catherine Read",
+    "speaker_source": "manual_fix",
+    "speaker_source_detail": "verified: mayor speaking",
     "start": 113.08,
-    "end": 113.76,
-    "text": "answer any additional"
+    "end": 120.00,
+    "text": "answer any questions"
   },
   {
     "turn_id": "turn_000005",
     "speaker": "Staff Member",
-    "speaker_source": "auto_staff",
-    "speaker_source_detail": "",
-    "start": 191.62,
-    "end": 268.25,
+    "speaker_source": "manual_fix",
+    "speaker_source_detail": "adjusted timing after library section",
+    "start": 124.00,
+    "end": 201.25,
     "text": "So at this time when we began limiting the number of road closure events. We also put into place a framework to Manage third-party events within the city and this has grown a little bit over time, but it stayed largely the same So we asked that groups submit an application 90 days in advance There is an application fee that is brought is Reduced for nonprofit groups we do ask each group to carry two million dollars in coverage Our risk management office here in the city can help groups find a way to get that coverage We ask that the city of Fairfax is listed as additionally insured For these groups we do have venue rental fees, which are very reasonable. I mean they're much reduced from our private rental fees We ask them to develop an action plan and an overall plan for the event Once Mitzi has all of those things from an organization that information goes out to the events management group, which is represented by police fire office of emergency management public works and The fire marshals office and parks and recreation So everyone is able to review the event application and weigh in as to whether or not they are willing to see the event Go forward So once the events team has agreed and approved then event fees are processed and we move forward"
   },
   {
