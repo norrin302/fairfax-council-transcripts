@@ -110,13 +110,13 @@
       "start": 40837,
       "end": 40918,
       "text": "Aye.",
-      "speaker": "Unknown (B)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "B",
       "speaker_public": "Unknown (B)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.925368011819293
     },
     {
       "turn_id": "turn_000003",
@@ -422,13 +422,13 @@
       "start": 2558639,
       "end": 2576016,
       "text": "Well, I just first want to make a comment, maybe to amplify what you've just said. And if I have my numbers straight. So first off, I think there are something like 300 elected officials that are appointed to boards and commissions with the Washington Council of Governments. Is that\u2014",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000027",
@@ -448,13 +448,13 @@
       "start": 2588446,
       "end": 2639632,
       "text": "So that's across about 24 jurisdictions. God help us. And you do very, very well with that many different political representatives from that many different jurisdictions coming together around these cooperative and coordinating programs. And they're complex because they cut across so many different areas. And just so people are aware, there's a world that happens outside this dais for the mayor and the city council here because we collectively I personally sit on 21 boards, regional boards and commissions, so this is an active part of our engagement. And just to cap also a little sense of the\u2014 well, I guess the scale, you mentioned that the COG region would be equivalent to the 14th largest state in the country. I think that's Michigan or something very close to it.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000029",
@@ -474,13 +474,13 @@
       "start": 2640692,
       "end": 2687967,
       "text": "Close, close enough anyway, which is equivalent to about the size of Belgium, which is the 23rd largest country in terms of economy. So we're a big kid on the block, and it does speak to the degree of not just cooperation that's needed, but honestly the degree of sophistication\u2014 [FOREIGN LANGUAGE] \u2014that is needed in terms of the approach. And so really I want to express great thanks and gratitude for the professionalism and the skill and the ability that you and the entire team at the Council of Governments provide to help us sort through all of that because as you indicated, this is a daunting task. So again, very much appreciated. I, I might have a question or two in a minute after others chime in, but again, I just wanted to thank you for the support that you've been providing us. Thank you.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000031",
@@ -656,13 +656,13 @@
       "start": 3289935,
       "end": 3354832,
       "text": "Councilmember Peterson, uh, just to maybe offer a response and a question on the BRT question, because this has come before the Northern Virginia, uh, Transit Authority, Transportation Authority, and where a lot of this road mapping, no pun intended, is playing out. I think that the sense\u2014 maybe I'll put this in the form of a question, and that is for that particular program, and this relates to other ones, what is the degree of flexibility and self-determination that the individual jurisdictions have in the actual design and implementation and service levels? Because at the micro scale, this makes a very, very big difference. With BRT, there are question marks of whether there will be a reserved lane, literally shutting down a lane, for instance. And that may or may not fit everywhere. What, generally speaking, how should people understand the level of flexibility that we would have here in the City of Fairfax around the actual implementation of a program like that?",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000045",
@@ -682,13 +682,13 @@
       "start": 3433476,
       "end": 3551783,
       "text": "Thank you. And then another question. You mentioned some of the growth forecast. \u2014yes\u2014that are driving the longer-term planning and investment expectations. And we are always trying to stay ahead of that curve by forecasting forward what those growth rates for housing demand, for travel demand are. But they change over time. And so my understanding is the last time we had a regional housing forecast was like 3 years ago. I'm not sure how far back we've done the most recent travel demand forecast, but I, I think what I would just note, and then put this in the form of a question, is we're seeing some major changes in the region right now. It's unclear how long they will last, but they could be persistent. Certainly have seen major changes just in the last year and the rate of population growth, 28% less in Virginia, for instance. But we're also seeing, um, record, uh, declines in two key areas of employment, federal jobs, and then, uh, business and white-collar professionals. And those are the two leading employment indicators and variables in terms of forecast impacts, um, on the region. And these are all happening at the same time. And those two employment indicators are down at record levels simultaneously. Possibly for the first time ever. I can't recall exactly what the history is, but it has the potential to really impact what we're looking at in the future. So you mentioned the size and the scale that was, um, the result of some past, past planning efforts. When will these forecasts be updated and start to capture the changes and conditions that we have experienced within this last year and that we potentially anticipate going forward.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000047",
@@ -708,13 +708,13 @@
       "start": 3781802,
       "end": 3883407,
       "text": "And if I could just maybe make 2 observations. First, the process by which we forecast that growth essentially is a bottom-up process that comes out of the jurisdictions. It does not come top-down out of COG. So the second thing is, just to go back to your last point, the part of the uniqueness of the period we're in now, and there's been quite a bit of research done through a regional center at George Mason, and the Northern Virginia Regional Commission has been doing this as well here for the Northern Virginia portion. So unlike the past when procurements have replaced federal jobs, FTEs, and there's been a compensatory effect, procurement is down as well. So we're seeing both of these coming down simultaneously at record levels at the same time. And then as you alluded to, there's a multiplier effect because for each dollar that goes through either the the job or the procurement, there is a ripple effect that goes through the economy that is dependent upon that. The consequence of that is a magnifying of these two things that are going down at the same time. And I think that's why there is quite a bit of interest and concern about trying to get a better understanding of what impact this really has, because the early indications are things like household growth in any a particular jurisdiction can actually be significantly affected by the changes that are taking place. So it's just a pitch, I think, for us in the city when it's our turn to submit inputs here, and Kanti, when you go forward with the aggregation of these, to just be sure we're on top of these issues because they're being spotted as potentially significant things.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000049",
@@ -1449,13 +1449,13 @@
       "start": 5663862,
       "end": 5700673,
       "text": "Uh, I have a clarifying question on the noise item. It's been an active month Mr. Mayor, thank you for noise. And I know there have been a number of things that have come up related to this. One of them is the issue of snow blowers. Another, we have heard a lot of comments about tonight, which is kind of this intersection between transportation and noise. I wonder if you could just help us sort of understand how to understand the current ordinance proposal that we have and what may have changed. Changed since the last time we spoke about this?",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000106",
@@ -1787,13 +1787,13 @@
       "start": 7941340,
       "end": 7958935,
       "text": "Commissioner Tregear. I think I have a procedural question, and that is whether we will be discussing this again when the item comes up for adoption, and that would occur after the public hearing, or whether our only opportunity for discussion is now.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000132",
@@ -1813,13 +1813,13 @@
       "start": 7972444,
       "end": 7983709,
       "text": "I think then I would like to wait on some questions and comments I have until we get through the public hearing to give people a chance to speak before we do that.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000134",
@@ -1995,13 +1995,13 @@
       "start": 8335225,
       "end": 8342739,
       "text": "Second, with the provision that I would like to have some discussion around a possible modification of that motion.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000148",
@@ -2021,13 +2021,13 @@
       "start": 8349258,
       "end": 8542625,
       "text": "Thank you. And just to restate what others have said, not just today but in the work session, this came up, and it's really been of course, of thanks to all who were involved in this. It's been a combined effort by so many people in the community. We thank the staff, we thank the consultants. This has been a really important engagement on a really important issue, and it really speaks to the opportunity for the city now to prioritize the protection and management of its forests in ways that have not been done to this point. That said, when I reviewed this, it's a detailed plan, very good read, but I had the impression that it did not include to the degree necessary targets and timelines for the actual achievement of things that are laid out as general goals. And so I sort of liken this to, you know, the process of playing tennis without a net. What this doesn't have is a safety net that's spelled out clearly enough in my judgment, specifically for losses in forest land and tree canopy. But it also speaks to, I think, some of the issues that were raised here earlier about tightening up the implementation. Timelines and targets associated with the plan. So I actually decided to double-check myself and ran this through, imperfect though it may be, an AI review of this, and it spelled out a series of strengthening measures that would be recommended for the plan, and I think they are worth considering, and I think The question I would have for City Manager is whether there is an avenue by which we might include a commitment to understand how we would proceed to tighten this thing up a little bit. Let me just read for you the couple things that came out of that. Number 1 was clear enforcement and accountability mechanisms for regulatory protections. The second was to establish explicit numerical canopy targets and timelines. The third was more robust private property and development protections. The fourth is expanded equity and climate resilience considerations. And the fifth is defined funding, staffing, and long-term maintenance commitments. The first two or three I think are particularly important because again, I think the\u2014 because of the importance of establishing a safety net for forest protection. we heard Fairfax County has tried to do that. It's not an uncomplicated process to establish targets and timelines, and yet it's essential to do so. And so what I think I would like to suggest is to hear whether the staff has thought a bit about how we might include some definition of process by which we might use to move forward to do that, and that might be folded in the action that we take today.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000150",
@@ -2086,13 +2086,13 @@
       "start": 8810704,
       "end": 8816294,
       "text": "Well, before I do that, let me just see if there's anything else to be added in terms of what might possibly\u2014",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000155",
@@ -2138,13 +2138,13 @@
       "start": 8921784,
       "end": 8978089,
       "text": "Councilmember Peterson. Yes. So I guess my, my follow-up. Be\u2014 there's really two issues here. One is targets and timelines, the other is teeth or regulatory requirements here. And it seems to me it would be good to have something a little bit more specific about the timing of when we intend to proceed to put in place those kinds of standards that will pick up some resolution of the targets. And again, that's not an uncomplicated process, but my\u2014 I think my request would be that we add something that becomes specific about a commitment for when that will happen, even if it is a matter of approving this with the expectation that sometime soon you will be coming back to us to explain how you would go about doing that and when you would do that, so that is more clear than it is currently. So that would be my request, if there is a way we could do that.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000159",
@@ -2190,13 +2190,13 @@
       "start": 9078504,
       "end": 9148095,
       "text": "[FOREIGN LANGUAGE] [Speaker:COMMISSIONER MILLER] And just to clarify that point, so that would mean that by the end of March or so, you would be coming back with a description of how the necessary regulatory standards and the necessary targets and timelines would be further developed and implemented to pursue these objectives, which would include addressing the loss of forest canopy and forest land loss. So we would have a clearer picture at that stage of how that would be done, and that would include an understanding of the actions the council would need to take to ensure that necessary standards are being adopted if they come out of that process, so that that wouldn't be an open-ended and unclear process. Process, we would have some clear understanding of the need for us and the opportunity for us to be able to take action to ensure that this is actually advanced. Is that a fair\u2014 is that the kind of thing we're going to be getting at the end of March?",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000163",
@@ -2216,13 +2216,13 @@
       "start": 9192981,
       "end": 9228429,
       "text": "[Speaker:COMMISSIONER MAY] Well, if I might, just at that point in March, would we have an understanding of how the City would be wanting to approach doing something similar to what Fairfax County did with its 60% goal so that we would, by the end of March, have some understanding of the procedure? Trajectory in terms of when and how we would do that. We would become involved in an active long-term target setting process. Is that something we can have as a part of this first annual examination of this in March?",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000165",
@@ -2268,13 +2268,13 @@
       "start": 9338377,
       "end": 9404038,
       "text": "Yeah, just to add, so I wouldn't be expecting an assessment would be completed by March, but what I would suggest we could and should do is establish this as a priority for report back in March to understand how we would move forward with the necessary steps to put in place the targets and timetables and teeth around this issue area. It's a very, very critical one. And in the work session, I won't go back through all the numbers again, but the documented decline in forest land loss regionally, and it's up and down in localities, but we've really felt this quite a bit, is substantial. 4,000 acres a year, the size of the City of Fairfax, is lost. In this city, that has been\u2014 we have been on track with that and losing, again, not every year, but up and down. So it is a critical issue that I don't think can wait for many years down the road. I think the long-term planning needs to start now to understand how we get ahead of that curve. So I would just appreciate it if we could have a commitment that in that report back in March we include an understanding of how we could proceed in this area.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000169",
@@ -2320,13 +2320,13 @@
       "start": 9440829,
       "end": 9455139,
       "text": "Yes, I would make a motion to amend to simply add that by the second quarter of the year we receive some kind of a report. Support back on how to progress in this area and take necessary actions.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000173",
@@ -2450,13 +2450,13 @@
       "start": 9739334,
       "end": 9759453,
       "text": "[SPEAKING SPANISH] [Speaker:COMMISSIONER PETERSON] Well, I think the second sample motion that we have is the approval with revisions, and it's the same as the first motion, but subject to the following modifications, and that would simply be in the report back that occurs in what appears to be now July that this be an item up to discussion for us to review.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000183",
@@ -2489,13 +2489,13 @@
       "start": 9812964,
       "end": 9884877,
       "text": "[Speaker:COMMISSIONER MAY] So the thing that is missing from the plan before us that we can adopt is an explanation of how we are going to be going about establishing these targets and timelines and for better\u2014 lack of a better term, teeth. It just simply isn't spelled out adequately as it is spelled out, it will become more clear whether or not and when Council action is required. But there is an important point of clarification that I think is missing from this and it speaks to this very important issue of dealing with forest land loss and getting a commitment that is clear that we are going to actually understand how to go ahead and do that and not leave it unclear. So, at some point\u2014 This certainly could, and I suspect would lead to Council action because it could lead to regulatory actions, it could lead to any number of things, but we simply haven't even clarified how we intend to go about a target setting process. Target setting is an essential part of all kinds of things we do here, but it would be really helpful, I think, to understand more clearly how we are going to do that and how people are going to be involved in that.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000186",
@@ -2515,13 +2515,13 @@
       "start": 9907741,
       "end": 9917231,
       "text": "GIBBS: It's not clear that this is a priority that follows in a timely manner, and that is the concern. I'd like to see that this is a priority that follows in a timely manner.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000188",
@@ -2554,13 +2554,13 @@
       "start": 9937526,
       "end": 9970282,
       "text": "Before we do that, there's\u2014 I want to respond to a comment that was made, um, just so it's clear. Following our work session when this issue was raised, I specifically asked for follow-up on this issue through the City Manager with staff and had extended conversations about this. So this issue was discussed at some real length. It's not a surprise for this to be under discussion this evening based on that. Just wanted everybody to be clear on that.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000191",
@@ -3269,13 +3269,13 @@
       "start": 14095045,
       "end": 14124879,
       "text": "Councilmember Peterson. Well, thanks. You guys have a hard job, no question about it. Just if you could help, because I\u2014 I haven't had the chance to be with you through all of your decision-making, and I'm just curious to know a little bit more on the method that you use for determining conformity with the Comprehensive Plan. Can you just for a moment explain how you go about making that determination?",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000246",
@@ -3295,13 +3295,13 @@
       "start": 14229662,
       "end": 14303594,
       "text": "If I could just maybe follow up on that, appreciate that, and certainly also appreciate the opportunity to be directed to that kind of assessment so that we could have the ability to review that before we have conversations like this. But as you do that, to what extent are you considering the impact and for that matter the opportunity for capital improvement projects to conform if they have changes in design or scale or timing and the effect that that might have on conformity. For instance, are there options for improving design and scale and timing that would make them conform even better? And are those design modifications things that you consider, and are they a part of what these final recommendations are? And for that matter, are you also asking as you go through conformity whether project cancellation is something that would actually be an important consideration in conformity with the Comprehensive Plan?",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000248",
@@ -3334,13 +3334,13 @@
       "start": 14385644,
       "end": 14444358,
       "text": "Well, I guess the question is whether you've actively, um, looked at alternatives and the potential that any of these projects might even perform better if there's some modification. Because what we've heard this evening a lot of and heard a lot of previously is the fact that we've already learned that some changes have made improvements and we may not be finished with that yet. The Katherine Johnson example. Is sort of a big one, and it speaks to the opportunity to be a little bit creative and see whether we can do better. Part of the reason we want to do that is because of the number of dollar bills that are at stake and whether there are better ways to reach these same goals through, you know, modifications of this that might do that, all sorts of different ways. If that doesn't take place in this process, that's just good to know, but that's a really kind of an important thing to watch for.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000251",
@@ -3373,13 +3373,13 @@
       "start": 14579342,
       "end": 14597791,
       "text": "Well, just maybe the other question is, as you're looking at conformity with the Comprehensive Plan, to what extent are you looking also at conformity with fiscal or tax objectives and concerns of the city?",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000254",
@@ -3464,13 +3464,13 @@
       "start": 14937116,
       "end": 15010602,
       "text": "I just wanted to thank everyone for the time to walk this through. This discussion has been really eye-opening. It's been interesting to watch the engagement go back and forth. I do want to echo Councilmember Hall's statement about education and communication to the public because that's the situation we're in, and that's why you're getting some of these questions, because we do have to\u2014 we're\u2014 our purview is different And it does\u2014 we do rely on our commissions and our boards to be our eyes, our ears, but also our voice. So please, you know, keep that in mind that we're also trying to communicate, educate our public on these things, the processes. Some people don't understand that it takes 7 to 10 years. So this is a process. We're in our own process as well. And I do see that, you know, we all have good intentions. We all have the passion here. Growth, we want to see development. We, we recognize your purview, and it's really appreciative that you recognize ours as well, and that this is a balancing act. We're competing with a lot of needs, very, very limited resources. So it's\u2014 it makes sense that we would have such a discussion like this. So thank you so much. I appreciate it. I really do.",
-      "speaker": "Unknown (B)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "B",
       "speaker_public": "Unknown (B)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.925368011819293
     },
     {
       "turn_id": "turn_000261",
@@ -3737,13 +3737,13 @@
       "start": 18054015,
       "end": 18093017,
       "text": "Thank you so much for that presentation, and I do have a lot of questions because, as you guys are aware, I only had 4 minutes at the end of our meeting recently, so I hung on to my questions, and I hope you don't mind. I really appreciate you taking the time. So let me start with\u2014 I have a general question I have a question regarding bond referendums. I noticed that in November 2020, the county put out a bond referendum for their portion of this building. Do you know if the city had similar discussion? Was that\u2014",
-      "speaker": "Unknown (B)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "B",
       "speaker_public": "Unknown (B)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.925368011819293
     },
     {
       "turn_id": "turn_000282",
@@ -3763,13 +3763,13 @@
       "start": 18105926,
       "end": 18146148,
       "text": "[Speaker] Okay, so I don't need to know the bond process since I went through that with the school board, but I was just curious as to if there was any discussion about that since the county recognized that there was gonna be public, probably want some weigh-in here on this. And I do appreciate going through the timeline. I have some questions about that portion of it. Let me get to it really quick. So during outreach, at what point\u2014 you said that you mentioned the costs associated with the building at certain points during your public outreach. Do you know how well attended those events were?",
-      "speaker": "Unknown (B)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "B",
       "speaker_public": "Unknown (B)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.925368011819293
     },
     {
       "turn_id": "turn_000284",
@@ -3789,13 +3789,13 @@
       "start": 18186579,
       "end": 18194447,
       "text": "I love that page. Yeah. Um, so my question, I guess, were operating costs ever discussed at that point?",
-      "speaker": "Unknown (B)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "B",
       "speaker_public": "Unknown (B)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.925368011819293
     },
     {
       "turn_id": "turn_000286",
@@ -3815,13 +3815,13 @@
       "start": 18239343,
       "end": 18252031,
       "text": "Now, does the cost recovery model\u2014 does that take into consideration the fact that the operating costs, since the majority are, are employee-related, they're to employ people, that's probably going to increase over time due to inflation?",
-      "speaker": "Unknown (B)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "B",
       "speaker_public": "Unknown (B)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.925368011819293
     },
     {
       "turn_id": "turn_000288",
@@ -3841,13 +3841,13 @@
       "start": 18288783,
       "end": 18305546,
       "text": "[Speaker:JAIN] Okay, good, thank you. Are there any elements of this center that were not included that originally were asked by or thought of as a need from the community for this?",
-      "speaker": "Unknown (B)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "B",
       "speaker_public": "Unknown (B)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.925368011819293
     },
     {
       "turn_id": "turn_000290",
@@ -3867,13 +3867,13 @@
       "start": 18343952,
       "end": 18365212,
       "text": "Okay, I was just curious as to what was presented, what they, you know, what the meet in those meetings, what came out of that, especially as I'm watching other communities deal with a very similar situation that we have here. So I'll come back, I'll give a few a few moments for somebody else to ask questions so I can get my thoughts organized, and then I'll ask some more questions.",
-      "speaker": "Unknown (B)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "B",
       "speaker_public": "Unknown (B)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.925368011819293
     },
     {
       "turn_id": "turn_000292",
@@ -3893,13 +3893,13 @@
       "start": 18369334,
       "end": 18377181,
       "text": "A couple quick things, then I'll let somebody else, um, hop in. It's just\u2014 term of debt is 25 years.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000294",
@@ -3919,13 +3919,13 @@
       "start": 18387593,
       "end": 18392619,
       "text": "Uh, will we be hiring a new construction manager for this?",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000296",
@@ -3945,13 +3945,13 @@
       "start": 18429533,
       "end": 18431284,
       "text": "So we don't have to hire anybody internally?",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000298",
@@ -3971,13 +3971,13 @@
       "start": 18438204,
       "end": 18502103,
       "text": "So I think we have some public health representatives from the City of Fairfax here. I'm sorry we have kept\u2014 or from Fairfax County, rather. I am so sorry that we've kept you up so late. So I want to go back just for clarity and understand maybe the scope of services. For the health side of this. And again, appreciate so much that you're here. I think I heard earlier that the intention was that this was going to be focused on preventive care. Can I just understand a little bit more clearly about that? The reason I'm asking is I have heard from members of the community and I've since taken a look, and this can all be very flawed information. My understanding that this will have a tuberculosis center, and that would be designed to, um, engage in preventive care but also treatment. Is that correct?",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000300",
@@ -4023,13 +4023,13 @@
       "start": 18711375,
       "end": 18733212,
       "text": "I mean, I'm interested in, um, geographically, uh, what sort of service area is this encompassing? I mean, is this\u2014 this sounds like this is a service that would be available for a market that's bigger than the size of the City of Fairfax. Is that correct?",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000304",
@@ -4075,13 +4075,13 @@
       "start": 18792959,
       "end": 18809629,
       "text": "That's very helpful. And I know there's, I believe, of the 5, one in Annandale, for instance. Hurdon and West Springfield and such. That's correct. Mount Vernon. Yeah. And then beyond TB, is this designed to treat a broader range of infectious diseases?",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000308",
@@ -4127,13 +4127,13 @@
       "start": 18873932,
       "end": 18892050,
       "text": "So then just to understand, going back to the original comment and squaring it up with this expanded understanding, please, if you could say one more time, what is the range or the scope of health services that are going to be provided?",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000312",
@@ -4153,13 +4153,13 @@
       "start": 18974681,
       "end": 18996404,
       "text": "And I believe that's it. So is this just, if I understand correctly, Is this a continuation of existing service scope and level? Yes. Okay. Thank you so much. I actually only have one more question, but it's not a health question. So if you'll permit me, I just real very quickly, uh, go ahead.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000314",
@@ -4231,13 +4231,13 @@
       "start": 19055446,
       "end": 19056152,
       "text": "Thank you very much.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000320",
@@ -4257,13 +4257,13 @@
       "start": 19070537,
       "end": 19109470,
       "text": "one more question, which again, not on health, but somebody else may have one for you. This goes back to a cost issue. If I heard correctly on the history of this, the construction numbers have stayed stable really from the get-go. They, they're pretty darn close to where they started and whenever that first year was, whether it was '22 or '23, something like that. But if I heard correctly, and I may not have, the maintenance and operations numbers started low and have gotten higher. Is that correct?",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000322",
@@ -4296,13 +4296,13 @@
       "start": 19164296,
       "end": 19190050,
       "text": "And that's fully inclusive of all labor, all FTEs, all employees, everybody? Yes. Okay. All right, so it started at 2.7 and then it came down. Correct. But I will say, unless I misheard you, the\u2014 looking at the numbers here, the construction numbers that haven't budged much. Am I reading that right?",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000325",
@@ -4322,13 +4322,13 @@
       "start": 19212688,
       "end": 19215575,
       "text": "And I wanted to express appreciation for you doing that.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000327",
@@ -4803,13 +4803,13 @@
       "start": 20358738,
       "end": 20437239,
       "text": "The very last item, Police and Human Services, appears to be one of three items covered in a prior resolution, and I'm wondering what became of the other two and which, which number and which\u2014 number 4, the last Last thing on February 24th, top of the page, the back page, the last thing is police and human services. We passed a resolution that included 3 components. One was the exploration of a partnership between community services and police. The second was the protection of City Hall by establishing this as a gun-free zone. And the third was looking at the better use of data and communications around it for assessment purposes, for analysis purposes on gun crime, but beyond that as well. So those were three specific things. And prior to this time when this has been on the agenda, they've been rolled together as a response to all of them, but at this particular time, it only includes the police and human services part, and I don't see anything on the remaining future items where those other items are, and I'm just wondering what may have happened here.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000364",
@@ -4907,13 +4907,13 @@
       "start": 20484205,
       "end": 20497612,
       "text": "Well, that, that's great, but is that going to be before us, and is the city attorney going to be making that presentation at that same time? Because I think the expectation was all three of these items that were resolved by the council would be coming back.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000372",
@@ -4959,13 +4959,13 @@
       "start": 20547073,
       "end": 20597193,
       "text": "it's a bucket, and the parks thing is a piece of the bucket, but I think that was a resolved issue. So it really ought to come back with everything else on schedule. Absolutely. And also, I, I kind of think that comes first, not last. We're looking at pre-applications, neither of which I'm familiar with. I'm not sure exactly why they're on the agenda. And then the city-level service study. But the gun issue was a big one, precedes all of these, and I would hate to see that shoved to the end of the night because it seems to me it could involve some quality time given that there are 3 things there and each of them are a bucket. So I would advocate that instead of this being the last of those work session items, that it becomes the first so that we have some quality time on it.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000376",
@@ -5037,13 +5037,13 @@
       "start": 20700020,
       "end": 20712092,
       "text": "If I might, just procedurally, and I suspect you're a step or two ahead of me, in a perfect world this conversation would happen up earlier and we have a little bit more time.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000382",
@@ -5063,13 +5063,13 @@
       "start": 20716166,
       "end": 20723463,
       "text": "Futures. The whole discussion. Oh, okay.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000384",
@@ -5115,13 +5115,13 @@
       "start": 20748576,
       "end": 20765219,
       "text": "Yeah, the actual request is just to ensure that it occurs earlier in the evening, which may require that we adjourn a little bit earlier than we are this evening and we allocate more time for this because it's a little bit difficult to go through this at this hour.",
-      "speaker": "Unknown (Councilmember Peterson)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "Councilmember Peterson",
       "speaker_public": "Unknown (Councilmember Peterson)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.9562192337849768
     },
     {
       "turn_id": "turn_000388",
@@ -5167,13 +5167,13 @@
       "start": 20832624,
       "end": 20867345,
       "text": "Councilmember McCullen. I agree. I think it's time for us to just move on. Um, We've been doing really good with our meetings. This is the first one that's gone this late. And honestly, had we not had to pull certain things out and have discussions about certain items earlier that staff had no clue would have taken that time, we wouldn't be in this position. So I think it's, it's heard. We understand nobody likes to be doing this, you know, at midnight after midnight, but I think the way it's been working has been fine. This is the first time this has happened.",
-      "speaker": "Unknown (B)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "B",
       "speaker_public": "Unknown (B)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.925368011819293
     },
     {
       "turn_id": "turn_000392",
@@ -5219,13 +5219,13 @@
       "start": 20922260,
       "end": 20935612,
       "text": "I just want to say that this month is Virginia School Board Association School Board Appreciation Month, and we have the best school board in the world. So I just want to give a big shout out and say that we appreciate you and thank you for all you do.",
-      "speaker": "Unknown (B)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "B",
       "speaker_public": "Unknown (B)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.925368011819293
     },
     {
       "turn_id": "turn_000396",

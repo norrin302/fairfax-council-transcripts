@@ -219,13 +219,13 @@
       "start": 382500,
       "end": 383109,
       "text": "We all good?",
-      "speaker": "Unknown (H)",
+      "speaker": "Councilmember Stacy Hardy-Chandler",
       "speaker_raw": "H",
       "speaker_public": "Unknown (H)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8998687362487409
     },
     {
       "turn_id": "turn_000012",
@@ -401,13 +401,13 @@
       "start": 710768,
       "end": 711419,
       "text": "Come forward!",
-      "speaker": "Unknown (L)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "L",
       "speaker_public": "Unknown (L)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8962325133074542
     },
     {
       "turn_id": "turn_000026",
@@ -440,13 +440,13 @@
       "start": 776661,
       "end": 778572,
       "text": "I move to adopt the agenda as presented.",
-      "speaker": "Unknown (H)",
+      "speaker": "Councilmember Stacy Hardy-Chandler",
       "speaker_raw": "H",
       "speaker_public": "Unknown (H)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8998687362487409
     },
     {
       "turn_id": "turn_000029",
@@ -609,13 +609,13 @@
       "start": 804278,
       "end": 804327,
       "text": "Aye.",
-      "speaker": "Unknown (H)",
+      "speaker": "Councilmember Stacy Hardy-Chandler",
       "speaker_raw": "H",
       "speaker_public": "Unknown (H)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8998687362487409
     },
     {
       "turn_id": "turn_000042",
@@ -687,13 +687,13 @@
       "start": 809577,
       "end": 809625,
       "text": "Aye.",
-      "speaker": "Unknown (H)",
+      "speaker": "Councilmember Stacy Hardy-Chandler",
       "speaker_raw": "H",
       "speaker_public": "Unknown (H)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8998687362487409
     },
     {
       "turn_id": "turn_000048",
@@ -1194,13 +1194,13 @@
       "start": 2727043,
       "end": 2734378,
       "text": "I move to approve the consent agenda items 6A through D as presented and the accompanying motions in the staff reports.",
-      "speaker": "Unknown (H)",
+      "speaker": "Councilmember Stacy Hardy-Chandler",
       "speaker_raw": "H",
       "speaker_public": "Unknown (H)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8998687362487409
     },
     {
       "turn_id": "turn_000087",
@@ -2117,13 +2117,13 @@
       "start": 4425743,
       "end": 4430582,
       "text": "I move to leave the public comment period open until\u2014 what's the date?",
-      "speaker": "Unknown (H)",
+      "speaker": "Councilmember Stacy Hardy-Chandler",
       "speaker_raw": "H",
       "speaker_public": "Unknown (H)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8998687362487409
     },
     {
       "turn_id": "turn_000158",
@@ -2143,13 +2143,13 @@
       "start": 4431223,
       "end": 4431784,
       "text": "May 12th.",
-      "speaker": "Unknown (H)",
+      "speaker": "Councilmember Stacy Hardy-Chandler",
       "speaker_raw": "H",
       "speaker_public": "Unknown (H)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8998687362487409
     },
     {
       "turn_id": "turn_000160",
@@ -2169,13 +2169,13 @@
       "start": 4437216,
       "end": 4440021,
       "text": "Continue the public hearing and defer council action. Thank you.",
-      "speaker": "Unknown (H)",
+      "speaker": "Councilmember Stacy Hardy-Chandler",
       "speaker_raw": "H",
       "speaker_public": "Unknown (H)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8998687362487409
     },
     {
       "turn_id": "turn_000162",
@@ -2195,13 +2195,13 @@
       "start": 4442104,
       "end": 4442600,
       "text": "There we go.",
-      "speaker": "Unknown (H)",
+      "speaker": "Councilmember Stacy Hardy-Chandler",
       "speaker_raw": "H",
       "speaker_public": "Unknown (H)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8998687362487409
     },
     {
       "turn_id": "turn_000164",
@@ -2481,13 +2481,13 @@
       "start": 4895101,
       "end": 4895213,
       "text": "Aye.",
-      "speaker": "Unknown (H)",
+      "speaker": "Councilmember Stacy Hardy-Chandler",
       "speaker_raw": "H",
       "speaker_public": "Unknown (H)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8998687362487409
     },
     {
       "turn_id": "turn_000186",
@@ -2572,13 +2572,13 @@
       "start": 4899658,
       "end": 4899706,
       "text": "Aye.",
-      "speaker": "Unknown (L)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "L",
       "speaker_public": "Unknown (L)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8962325133074542
     },
     {
       "turn_id": "turn_000193",
@@ -3066,13 +3066,13 @@
       "start": 7764927,
       "end": 7795254,
       "text": "Thank you. And I think you are starting to answer the question that I'm about to ask. Um, you talked repeatedly about that strategy being a common approach regionally, and I believe I heard you mention that we, um, there are, um, other examples that we've employed, but I think you mentioned specifically, um, something that was instituted in our city in 2023, and you followed that with success. And I'm wondering if you could speak a little bit more about that.",
-      "speaker": "Unknown (H)",
+      "speaker": "Councilmember Stacy Hardy-Chandler",
       "speaker_raw": "H",
       "speaker_public": "Unknown (H)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8998687362487409
     },
     {
       "turn_id": "turn_000231",
@@ -3404,13 +3404,13 @@
       "start": 8286151,
       "end": 8286488,
       "text": "Correct.",
-      "speaker": "Unknown (H)",
+      "speaker": "Councilmember Stacy Hardy-Chandler",
       "speaker_raw": "H",
       "speaker_public": "Unknown (H)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8998687362487409
     },
     {
       "turn_id": "turn_000257",
@@ -3560,13 +3560,13 @@
       "start": 8481237,
       "end": 8505429,
       "text": "Okay, going back to this, Council Member Hall asked a question regarding, I think it was, uh, also slide 15, and it was in regards to the 100 or 180% of revenue, uh, and projected to rise for long-term liabilities. My question is, what guardrails do we have in place to prevent us from exceeding our own debt service policy? I know we have them.",
-      "speaker": "Unknown (L)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "L",
       "speaker_public": "Unknown (L)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8962325133074542
     },
     {
       "turn_id": "turn_000269",
@@ -3599,13 +3599,13 @@
       "start": 8573318,
       "end": 8575069,
       "text": "And then, um, sorry, go ahead.",
-      "speaker": "Unknown (L)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "L",
       "speaker_public": "Unknown (L)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8962325133074542
     },
     {
       "turn_id": "turn_000272",
@@ -3638,13 +3638,13 @@
       "start": 8683211,
       "end": 8705149,
       "text": "Yeah, you read my mind because that was my, um, thought process, was you had mentioned that we have plenty of capacity and the 5% interest rate is really what I was concerned about. You had said that you plan for the rates conservatively, so that makes me feel good about it. But then I, of course, I always wonder what happens if that's off. So you just answered my question. Thank you so much, I appreciate that. And thank you, Mr. Martinez, appreciate that.",
-      "speaker": "Unknown (L)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "L",
       "speaker_public": "Unknown (L)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8962325133074542
     },
     {
       "turn_id": "turn_000275",
@@ -4444,13 +4444,13 @@
       "start": 11612086,
       "end": 11613609,
       "text": "[Speaker:COMMISSIONER TREGONING] Okay.",
-      "speaker": "Unknown (H)",
+      "speaker": "Councilmember Stacy Hardy-Chandler",
       "speaker_raw": "H",
       "speaker_public": "Unknown (H)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8998687362487409
     },
     {
       "turn_id": "turn_000337",
@@ -4561,13 +4561,13 @@
       "start": 11866267,
       "end": 11893920,
       "text": "So I believe I read that the goal really is about maintaining this as a self-supporting\u2014 or maintaining its self-supporting status, right? And that's about the process of the funding, not necessarily an aim to reduce debt or to increase the cash component. So can you just speak a little bit more about the elements that support maintaining self\u2014 the self-supporting status of this fund?",
-      "speaker": "Unknown (H)",
+      "speaker": "Councilmember Stacy Hardy-Chandler",
       "speaker_raw": "H",
       "speaker_public": "Unknown (H)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8998687362487409
     },
     {
       "turn_id": "turn_000346",
@@ -4600,13 +4600,13 @@
       "start": 11957810,
       "end": 11970346,
       "text": "[Speaker:MS. KELLY] So I was trying to find the slide that I got this off of, but I can't. In the funding strategy, it's proposed a 60% debt, 40% cash. How did we land that balance?",
-      "speaker": "Unknown (L)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "L",
       "speaker_public": "Unknown (L)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8962325133074542
     },
     {
       "turn_id": "turn_000349",
@@ -4652,13 +4652,13 @@
       "start": 12030994,
       "end": 12031572,
       "text": "Got it. Okay, thank you.",
-      "speaker": "Unknown (L)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "L",
       "speaker_public": "Unknown (L)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8962325133074542
     },
     {
       "turn_id": "turn_000353",
@@ -4678,13 +4678,13 @@
       "start": 12038115,
       "end": 12041432,
       "text": "[Speaker:COMMISSIONER TREGONING] I figured it was a balance, but I just wasn't\u2014 okay, that makes sense.",
-      "speaker": "Unknown (L)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "L",
       "speaker_public": "Unknown (L)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8962325133074542
     },
     {
       "turn_id": "turn_000355",
@@ -4704,13 +4704,13 @@
       "start": 12044381,
       "end": 12055486,
       "text": "And then so understanding that, that explains why it would, if it was heavier on one side or the other, it could add to the risk if it is not\u2014 okay, understood. Thank you.",
-      "speaker": "Unknown (L)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "L",
       "speaker_public": "Unknown (L)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8962325133074542
     },
     {
       "turn_id": "turn_000357",
@@ -4730,13 +4730,13 @@
       "start": 12141091,
       "end": 12173813,
       "text": "Sorry, your comment just made me think of something. Um, to that point, I think it's important that we communicate that to the public as far as we have this, this piece of equipment, we have this asset that requires maintenance. This is the deal, this is what it's going to cost over time. You're going to see this go up naturally. This is something that we cannot we're limited on what we can do. So I think just communicating that effectively and consistently to our community would, would go a long way. Thank you.",
-      "speaker": "Unknown (L)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "L",
       "speaker_public": "Unknown (L)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8962325133074542
     },
     {
       "turn_id": "turn_000359",
@@ -5263,13 +5263,13 @@
       "start": 13648237,
       "end": 13652442,
       "text": "I, I'm comfortable starting with the budget memo, but I will probably have a lot of questions, so thank you.",
-      "speaker": "Unknown (L)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "L",
       "speaker_public": "Unknown (L)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8962325133074542
     },
     {
       "turn_id": "turn_000400",
@@ -5523,13 +5523,13 @@
       "start": 13928230,
       "end": 13947527,
       "text": "In addition to that, I think that these meetings are more accessible broadly to the public. So when we talk about educating the public, these meetings are a part of that educational process, and I think that this is just\u2014 provides more transparency without the retreat, which is less accessible to our community.",
-      "speaker": "Unknown (H)",
+      "speaker": "Councilmember Stacy Hardy-Chandler",
       "speaker_raw": "H",
       "speaker_public": "Unknown (H)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8998687362487409
     },
     {
       "turn_id": "turn_000420",
@@ -5601,13 +5601,13 @@
       "start": 14050658,
       "end": 14075273,
       "text": "I agree with that. I, I have heard a lot from residents last year following the budget season that that was a very helpful thing to have that open house there, that they could walk in, they could ask any question of staff, things like that. I just heard a lot of overwhelming feedback, positive feedback about that. Um, and so I think it would be helpful and beneficial to our community to do that again this time.",
-      "speaker": "Unknown (L)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "L",
       "speaker_public": "Unknown (L)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8962325133074542
     },
     {
       "turn_id": "turn_000426",
@@ -5627,13 +5627,13 @@
       "start": 14079477,
       "end": 14153979,
       "text": "I think it was a disproportionately large amount of work for staff, um, relative to the community engagement. And so I think we can do something different. One of the things that came to mind was to connect the budget discussion, or\u2014 and I, I do think we need some time to develop it. I don't know if we can to do with this budget cycle, but to connect budget discussions to other events that we are already having and have it combined. But I think the work that the staff put into it and the reach was disproportionate. We are all supportive of educating the public and having them have access, but I think that there are probably other ways that we can do it to kind of piggyback on other interests and other events. For example, The expo that's happening for the community April 10th would be a great way to sort of combine resources, make it less of a heavy lift for staff. And I know that requires additional coordination, but I do think that that accesses more of the community than a separate standalone event.",
-      "speaker": "Unknown (H)",
+      "speaker": "Councilmember Stacy Hardy-Chandler",
       "speaker_raw": "H",
       "speaker_public": "Unknown (H)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8998687362487409
     },
     {
       "turn_id": "turn_000428",
@@ -5796,13 +5796,13 @@
       "start": 14762974,
       "end": 14824758,
       "text": "And, and that's excellent, and I, I think that there is a value value to\u2014 I know you're going to bring something back, but I do think there's a value to bringing the information to where people naturally are. In other words, Girl Scout cookies, right, being sold in front of a grocery store or whatever. So I just really sincerely value your time. I know the effort that you put in and the desire to consistently be responsive, but I do think that we have also a responsibility to be good stewards of your time. And so cumulative kinds of things like compiling themes and putting that on the Engage page, I absolutely support that because I do think your time requires stewardship as well. So just the\u2014 to the extent that you do not have to build something new, but can bring things to where people naturally are. That's what I support. Ms.",
-      "speaker": "Unknown (H)",
+      "speaker": "Councilmember Stacy Hardy-Chandler",
       "speaker_raw": "H",
       "speaker_public": "Unknown (H)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8998687362487409
     },
     {
       "turn_id": "turn_000441",
@@ -5874,13 +5874,13 @@
       "start": 14916379,
       "end": 14953923,
       "text": "Thank you, Mayor Reed. I do like a virtual option that you mentioned. I think it goes with what you are saying. I have noticed the Engage page. I actually kind of like to look at things there sometimes too. And having something with that virtual session on there so that people can partake and watch. And I think having that face-to-face, even though they're not going to be face-to-face with you, but having that feeling and getting that opportunity to meet with you in that way is very valuable. And I think that can help if there's time, of course, recognizing. Thank you.",
-      "speaker": "Unknown (L)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "L",
       "speaker_public": "Unknown (L)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8962325133074542
     },
     {
       "turn_id": "turn_000447",
@@ -5965,13 +5965,13 @@
       "start": 15236745,
       "end": 15304279,
       "text": "Uh, I agree with Councilmember Bates' comments, with the exception that I think that staff compensation and unfunded positions need to be considered first. I do I think that we do have to think about the obligations and the commitments that people are making to City Council, and that's fantastic. But I think for, um, for our city and the conversations that we have and the demands that we continuously put on staff to educate and do other things, I think we really need to look at this in sequence. And for me, the staff our police department, our fire department, um, come first, quite frankly. So for me, that would not be on the table unless we look at\u2014 and some of the requests for positions that are investments in our future and that speak to, um, the alignment of what we say we value. But all of those things need to be resourced. Things don't happen unless people do them. So So I agree with Councilmember Bates' comments, but only with the sequence putting staff first.",
-      "speaker": "Unknown (H)",
+      "speaker": "Councilmember Stacy Hardy-Chandler",
       "speaker_raw": "H",
       "speaker_public": "Unknown (H)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8998687362487409
     },
     {
       "turn_id": "turn_000454",
@@ -6563,13 +6563,13 @@
       "start": 16368162,
       "end": 16396084,
       "text": "And we have an obligation to connect the dots also because some of this information has been presented in work sessions. Tonight we talked about the recommendation for the wastewater utility rate to continue at 6%, for example. So we have to make those linkages between the information that's been previously introduced is to us and then is being introduced formally on the agenda. So I, I think that's the pre-work that we need to do.",
-      "speaker": "Unknown (H)",
+      "speaker": "Councilmember Stacy Hardy-Chandler",
       "speaker_raw": "H",
       "speaker_public": "Unknown (H)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8998687362487409
     },
     {
       "turn_id": "turn_000500",
@@ -6836,13 +6836,13 @@
       "start": 16721327,
       "end": 16741295,
       "text": "Two very quick things. I just wanted to, as I mentioned earlier, I want to encourage people to attend the Village in the City Expo. Lots of great information, very well attended, lots of engaged people, uh, really excited about that coming up. And, uh, just in general, progress being made on the Youth Sports Forum.",
-      "speaker": "Unknown (H)",
+      "speaker": "Councilmember Stacy Hardy-Chandler",
       "speaker_raw": "H",
       "speaker_public": "Unknown (H)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8998687362487409
     },
     {
       "turn_id": "turn_000521",
@@ -6901,13 +6901,13 @@
       "start": 16885508,
       "end": 16982026,
       "text": "Yes, thank you. I want to thank everyone who came out, made a public comment this evening. For all those who presented, thank you. And then I wanted to share a few opportunities for our community to come together in the days ahead. Tomorrow evening at 7:00, the Sherwood Center will host Story Sprint, presented in partnership with Fall for the Book Festival. It's an interactive event. 3 authors will have just 20 minutes to write a story using opening and closing lines suggested by the audience. It looked really neat, so I thought I would share that. Also this Thursday at Fairfax High School, they will host the Cultural Celebration Night beginning at 5:30. It's one of my favorite events that they hold there. They'll have cultural displays, food sales, student performances. The student performances start at 6:30. It's always a great evening. Do not miss that. Next week we have the Eggstream Night Egg Hunt. Event that's going to take place Thursday, April 2nd at 8:00 at historic Blenheim, offering another fun way for residents to gather and enjoy one of our city's unique events. On a more serious note, I also want to acknowledge the recent tragedy at Old Dominion University. My son is a student there, so this news felt especially close to home. My thoughts are with the students, the faculty, families, and first responders who were impacted. And on a personal note, that same son will be celebrating his 19th birthday next week, and I just have to give him a shout out and, uh, just tell everyone how proud I am of him. He's doing a great job there. And finally, with, uh, Easter weekend approaching, I just want to wish everyone who celebrates a happy Easter. Thank you.",
-      "speaker": "Unknown (L)",
+      "speaker": "Councilmember Anthony Amos",
       "speaker_raw": "L",
       "speaker_public": "Unknown (L)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8962325133074542
     },
     {
       "turn_id": "turn_000526",

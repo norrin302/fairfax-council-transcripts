@@ -360,13 +360,13 @@
       "start": 336324,
       "end": 336421,
       "text": "Chair.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000025",
@@ -1504,13 +1504,13 @@
       "start": 6215340,
       "end": 6626753,
       "text": "Thank you. Uh, I have a number of questions, so I might do around and then circle back in order to give other folks a chance to chime in. But I would like to just start by saying it's good to see you. It's been a lonely year without you. So I hope we'll be seeing more of you going forward. [FOREIGN LANGUAGE] Let's do it. I also want to just kind of big picture call out that in terms of our overall city government, I think there's an interplay here between the government and a citizen advisory committee that's very important and should be recognized here. Um, between the two of these bodies, what you've seen and heard tonight, I think, is systematic strategic thinking, and I think that's really quite critical for the city to have that capacity. And to nurture it and to actually use it. So really very much appreciate you demonstrating that with your thoughts here this evening. The other thing just to note, something that I learned when I had the good fortune to be with the Environmental Sustainability Committee for a few years and to be able to chair it, one of the roles that the committee plays in collaboration with the Sustainability Division is to initiate and incubate programs that go on to become implemented by the city. And so this catalytic function is very important. And I, I think one of\u2014 there are two very big examples that come to mind that I, I hope citizens will appreciate and be aware of. One is the solid waste program, and This has been a very big area of focus for the Environmental Sustainability Committee. It continues to be, and I hope it will. It's certainly a very high priority for the city, and it has become a center of excellence within the city operations, and it's something that the city and the citizens all can and should be proud of. But the Environmental Sustainability Committee and the staff working together really were able to engineer pathways for this to be where it is today and hopefully where it will continue to progress as we've seen tonight. And that's just been a very, very important thing. The\u2014 I think the other thing to recognize here is the interplay that exists between the work on and let's call it sustainability, but I think that's a kind of a basket here, and the rest of the government. And I think this is an area where we are seeing progression towards a whole-of-government approach. And that is a never-ending job, but in order for these efforts to be effective, they have to be a part of a larger whole. And not isolated. And so I very much appreciate that as you have been providing us thinking, part of that has been the migration of and the evolution of what you do to a broader and more integrated basis inside the government. And of course, it stretches outside the government as well. Again, I just call this out because I don't want it to be underappreciated by the public that the work that you do is so integrated in other areas. And that's a big part of your job, and that takes a special set of skills. Skills to do that. So really appreciate all that. A couple questions, and again, I may circle back for a second set, but one\u2014 and a comment, maybe a call-out to get the ball rolling. I very much appreciate your notation that we are living in an age that is characterized by changes and conditions. And these have accelerated, these changes have accelerated on a number of fronts as we speak. This past year and the year we live in now are defined, I think, historically by the changes in commission and conditions we are experiencing: environment, energy, economy, society, many different areas. And one of the challenges that all local governments have is being able to identify and respond to these changes. I think where that goes is the question mark of how we become broadly speaking more resilient. Again, the ability to know where these changes are taking place, what our exposure to risk is, and how we respond to that. Environment is a piece of that, but it's a broader fabric that we're caught up in. I think that maybe gets picked up in some of the things that you're recommending, And I will be curious as I go through this to know how we are connecting the dots to this broader set of changes that we're experiencing. For instance, energy and economy are, are very big areas. And you're not alone. This is something that local governments, uh, everywhere in the United States are going through. This is a particularly, uh, challenging time for everybody to try to work through this. Um, the the city council's goals that are in the presentation for 2023-2024, it would seem to me that this council could, through acclimation or whatever means necessary, agree that at least the environmental goals in there should be adopted for the current term of this council, which is 2025 and 2026. And I appreciate very much the point that the absence of them could potentially be misread as a de-emphasis of environment. And I don't think that is anybody's intent on the council, to my knowledge. But I, I hope we will find a way to raise that and rectify that so that it's not a question mark in anybody's mind. Um, a question that's kind of a little bit in the weeds, no pun intended, has to do with leaf blowers and As the city exercises leadership by example in making transitions to electric equipment, out of curiosity, and I'm looking out of the corner of my eye at Mr. Summers, and I may be spotting our chief financial officer who's hiding, uh, at the moment. As a matter of policy, are we able to establish preference or purchase of local sourced equipment? Can we buy equipment here in the City of Fairfax, or is that something that is not permissible under our procurement policies?",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000113",
@@ -1556,13 +1556,13 @@
       "start": 6656007,
       "end": 6668947,
       "text": "Thank you. And I would just only note that in point of fact, the City of Fairfax has a couple of retailers that carry this equipment, and it is high-performance equipment at a very competitive price. So I\u2014 just so that everybody is aware of that.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000117",
@@ -1595,13 +1595,13 @@
       "start": 6672778,
       "end": 6738574,
       "text": "one of the pillars of the sustainability program is collaboration. And if I'm not mistaken, when you look at the charter of the ESC, it might be the second or third objective, I forget which, is community education, essentially. But that's writ large. And I think once upon a time, the committee was focusing on that in a manner that would encourage and engender two-way communication and shared decision-making and public involvement, collaboration, all these terms which are all about two heads are better than one. I'm curious, I didn't see much of that kind of activity referenced in either of the presentations where we are focused on public involvement, focused on public engagement in a way that brings people in early and often to be a part of the decision-making process. From a program and a committee standpoint, can you comment on the vision and the thoughts of where that resides in your priorities?",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000120",
@@ -1634,13 +1634,13 @@
       "start": 6881196,
       "end": 6969422,
       "text": "Well, and I would maybe call out as a bit of a success story here the Urban Forest Master Plan development, which has specifically involved a lot of what we call co-development and co-design, bringing experts and non-experts together from a variety of perspectives to, to make decisions. And that's the kind of thing that that it seems to me could be enacted more broadly. So great to hear that. We're going to talk more in a little bit about Solid Waste Enterprise Fund and things like that. But I think perhaps a question for City Manager, not to put you on the spot, is the general strategy that that's a part of is transitioning cost centers to revenue centers, taking things that heretofore have been just outlays and finding ways to turn them into revenue sources and generators. So enterprise funds are one mechanism by which that might happen, but that's a part of the agenda of innovation and revenue generation. Is that as a matter of scope? Something that is included in the upcoming finance and efficiency audit, which I'm probably not describing correctly, or is that sitting somewhere else in terms of a whole of government approach here?",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000123",
@@ -1673,13 +1673,13 @@
       "start": 7007298,
       "end": 7027016,
       "text": "Well, I\u2014 so I think that it is an example of the potential more broadly that exists in the city to translate and transition things that are pure cost into things that have either blends of revenues or can become straight-out enterprise centers. So\u2014",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000126",
@@ -1699,13 +1699,13 @@
       "start": 7041188,
       "end": 7152050,
       "text": "[Speaker:CHAIRMAN BRYANT] Well, and then it will pick up an issue that's been raised in the presentations and raised earlier, which we can circle back to, which is there is an upfront cost associated with this. And so we'll need to understand where they are and what the returns are associated with them. And my last question from this set, and I would like to circle back because I've got a couple of things for the ESC folks, but to the question, I think your final question that was raised about where our priorities and suggestions would be, there's a heck of a lot of content in that slide, and I would find it helpful to maybe embellish that table a little bit. So it's, it's actually a matrix that tells us for each of these line items, you know, what's the cost? Do we anticipate that there will be revenues or cost savings associated with that cost? And if we could have some sense of who the beneficiaries are, how many people are we touching? How many people are we helping? Just so we can kind of weigh when you get to return on investment. You know, there's multiple criteria here. It would just be very helpful to have. It doesn't need to be enormously complex, but just a little bit of a cheat sheet here. And then I would like to have the opportunity\u2014 I hope others would agree\u2014 to have a little bit of time to look at that and circle back, because I think it's a very important discussion. It's one that I'm not sure I'm prepared to fully address tonight. I'd like to look at this a little bit further and might have a few more questions. Acceptable to others. I'd like to ask if we might, um, be given that opportunity. I'm not hearing any objections. And again, I have some additional questions, but I'm going to stop here and allow others to chime in.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000128",
@@ -2063,13 +2063,13 @@
       "start": 8080203,
       "end": 8152140,
       "text": "Energy. I didn't see, but maybe I missed it, anything in the presentations about load growth. And for those who are not familiar with the term, it is the increased demand for electricity that is potentially outstripping the supply of it. And the consequence of that is it exposes us to price increases and price shocks, possibly power outages. It also has indirect effects where it can find its way into other utility bills like water bills and what have you. Virginia is experiencing one of the most acute versions of this, and this is an area where forecasting makes a very, very big difference, because if you look at what the business as usual line has been and where it's going, they're taking off in very different directions. Is the committee focused on this issue as a part of sustainable energy now? And if not now, do you anticipate that this would be a principal component of a climate and energy plan?",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000156",
@@ -2102,13 +2102,13 @@
       "start": 8279559,
       "end": 8522610,
       "text": "So I\u2014 thank you very much. I think this is an area of strategy and scope for our climate and energy plan that is worth some further discussion as we contemplate how that actually becomes addressed. And I think that's a part of this review of the set of actions before us. This is a big-ticket item on that list, and it's a ball of clay to some degree And it raises the issue of priorities and focus. This is, I think, a big one worth consideration. There's the whole process, as you say, of reducing the causes of it, which means we are more efficient in the way we use energy, then we use less of it. And if that energy comes from renewable sources, then it has less pollution associated with it. But we're going to be experiencing the effects of that, like it or not. And just to remind everybody, this is not an issue that is just caused by artificial intelligence and data centers. The cold weather that we're having today is very much tied to radiative forcing. There's something that sits on the North Pole, it's kind of like a big donut of cold air, and when the globe warms, it stretches and bends and does funny things, particularly when there's a big warm mass on the other side of the globe in Asia, and while it's warm as heck over there, it pushes that cold air down on us. So ironically, what we call global warming can result in cold extremes, and we're in for more of them, although being able to forecast that is another matter. But the other thing I think that this raises in terms of, again, strategy and discussion discussion for how we approach this issue and other ones. A certain amount of what the city can do in response to this, it can do by its lonesome. We can do on our own here in the city with the help of citizens. But there are many things that we cannot, and we need the help of the state, or we need the help of our compadres across the region. And I would hope that as you contemplate the planning process, that there would be a place in that for identifying recommendations for actions that the state could take that would be of benefit, so that the council would know when it becomes our time to make those recommendations, we can draw upon the results of a plan like yours to guide us for that. So I, I will really very much look forward to knowing more about it. On the climate and energy plan, there's\u2014 again, it's on the list, it's a big ticket item. We've heard a lot about staffing. I think that there's a bit to unpack there. A question that maybe we can't answer tonight, but I'm curious to know, is whether our investment in staff possibly\u2014 I don't know what the $420,000 figure entirely comprises, but whether that investment reduces the consulting dollars that we need to expend on the issue. If we have an opportunity to invest in staff in a way that reduces those outlays for for third-party consultants, technical assistance, etc. It's certainly worth knowing that, and that could factor in to how we want to handle that budget. On the water issue, I, I caught a very interesting term there, which is consultation and stream restoration. And I'm just curious, we had some sessions about stream restoration in the past, and one of the key things that I think we agreed upon, but I'm very curious on your thoughts and follow-up here, was engaging stakeholders. In fact, having a stakeholder watershed management committee, but being able to bring the public into that planning process so that we're looking\u2014 so that people are understanding and agreeing upon the problem, if you will, but also what the full set of solutions are so that they can see the alternatives and work together to find the best ones. Is that the consultation process that was noted, or am I referring to something that hasn't happened yet?",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000159",
@@ -2128,13 +2128,13 @@
       "start": 8552394,
       "end": 8570205,
       "text": "But for individual projects, is there an active effort to work programmatically with the city and by the city to form some sort of citizen-based stakeholder group or group that would be involved in that planning process?",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000161",
@@ -2167,13 +2167,13 @@
       "start": 8613197,
       "end": 8750447,
       "text": "Well, it'd be great to follow up. I think that was a discussion point that we reached some agreement on with staff, and it would be great for you all to maybe collaborate with that. On urban agriculture, I think hiding in the back we may have an urban agriculture person. Is that right? I like playing in the dirt. So I want to make a pitch that you all continue to work on that and just pass on to give you some indicator of the enthusiasm around it, where I\u2014 in the neighborhood that I live Country Club Hills. Some of our residents are starting their own\u2014 here's a new word for you\u2014 yardin' club, right? Yards and Gardens. We have yardins. It's something that our community takes a lot of pride in, and they're trying to go community-wide with this. And so it would be great to sort of bring them into the fold. It does raise some interesting and important issues in terms of standards, for instance, so that when people are doing this, they're doing it in a way that's consistent with community standards. But I just wanted to note that that's an area that is of real interest and growth and enthusiasm. So look forward to anything more you can do on that. My final thought here\u2014 I'm thinking most of my questions related to forestry will probably wait until next week when we go through the forest\u2014 the master urban forest master plan. But I do just have one point of clarification, and that is that when I went through the area of focus on forestry, I, I'm not sure I read this as clearly as, as I might be able to, but the question mark was whether somewhere in there we have a very clear intentional goal to reduce the amount of tree canopy and forest loss in the city. And I didn't quite read that loud and clear. Again, I think that's a very big question mark for the master forest plan. But can you tell me whether that is something that is included and embedded? Because I see kind of a lot of stuff, but it didn't just out and out say, hey, you know, part of what we're trying to do here. Is minimize that loss rate.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000164",
@@ -2193,13 +2193,13 @@
       "start": 8765043,
       "end": 8829166,
       "text": "So let me maybe help a little bit here. So the Washington Council of Governments last week, I think it was, released an update to the assessment of tree canopy and forest land loss in the region. 4,000 acres a year over the past 7 years. That's the equivalent of the size of the City of Fairfax that's lost every year in the region. The region is just short of 2 million acres. What that shakes out as in terms of a rate is the city, if it was consistent with that rate, would be losing about 8 acres a year. That's like losing the equivalent of the Blenheim Estate every year and a half, or losing the equivalent of Van Dyke Park every 4 and a half years, or losing Daniels Run Park every 6 years. It doesn't sound like a lot, but it adds up real fast. So I think it calls into question, as a matter of policy and programming, what are we contemplating and what are we doing to help minimize that loss? And I'm just curious to know where that maps to the ESE's work?",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000166",
@@ -2245,13 +2245,13 @@
       "start": 8932199,
       "end": 9018871,
       "text": "Well, I look forward to maybe more discussion on it next week. I appreciate that. I just wanted to call that out because it has been a long-term area of focus for the committee. And so back to what I said at the outset, the Urban Forest Program itself was spearheaded by and incubated through the committee. And so it's played a very principal role in that. And, you know, would look forward to further advice. Let me just add one other thing on the matrix we talked about. I think that's worth a conversation about what goes into that in terms of the screening objectives. Uh, one thing that we often overlook is the potential for actions we take on the environment to stimulate local economic development. And one of the ways that happens is through local spending. And it's one of the reasons I asked the earlier question on leaf blowers is whether there are ways in which we take actions here to improve the environment that attracts a net accumulation of capital and then results in the spending of that here locally to help our businesses, etc. It also helps if that becomes an attribute of the city that attracts business location, etc. So I would just say that that's maybe a criteria we might want to think through. And with all of these, when we put together a table It would be great if you guys could take a swing at just saying, well, what's the high, medium, and low on these things? This, this is a criteria that it's fine, but is it a little thing? Is it a big thing? That might help us a little bit as well.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000170",
@@ -2271,13 +2271,13 @@
       "start": 9061792,
       "end": 9079104,
       "text": "Well, we'll talk to Parks and Rec about that. But we have a bunch of forest land here, and it's the tree city, and people do like to come here for that environment. So maybe we'll talk a bit more about that.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000172",
@@ -2297,13 +2297,13 @@
       "start": 9084643,
       "end": 9084932,
       "text": "Thank you.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000174",
@@ -2362,13 +2362,13 @@
       "start": 9252527,
       "end": 9253378,
       "text": "So that's it.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000179",
@@ -2466,13 +2466,13 @@
       "start": 9403408,
       "end": 9446332,
       "text": "So a broader point that can be picked up at whatever point is appropriate, I think more for the city manager and the chief financial officer, but I, I think the point is well taken that if for any reason it appears that actions that have been budgeted and appropriated by the council require rethinking, I think it's really quite important that those decisions come back for consideration by the council so that we're aware of them. I know in the past year apparently a number of those decisions were made without our knowledge, and I think that's probably not best practice. So we'll look forward to that being fixed a little bit.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000187",
@@ -2830,13 +2830,13 @@
       "start": 10828461,
       "end": 10830418,
       "text": "yeah, I'd like to jump in if I may.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000215",
@@ -2856,13 +2856,13 @@
       "start": 10832151,
       "end": 10838007,
       "text": "Um, 25 years our solid waste ordinance has not changed.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000217",
@@ -2882,13 +2882,13 @@
       "start": 10856559,
       "end": 10862629,
       "text": "So to me, almost non-negotiable, we have to update that ordinance.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000219",
@@ -2908,13 +2908,13 @@
       "start": 10890968,
       "end": 10893291,
       "text": "So my vote is for that ordinance.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000221",
@@ -2934,13 +2934,13 @@
       "start": 10898820,
       "end": 10998848,
       "text": "So thank you, and To build on that, maybe two things. One, I think a review of these areas and identification of update needs is something that you should do, not just kind of across the board, and figure out how to get on the right schedule to do that. I'm curious, this gets to the question mark of getting to know your customers, and let me just say the anecdote here to set this this up is that I think one of the things that maybe we discovered or made progress on or whatever with the rollout of the trash and recycling bins was a recognition that not all households are created equal. And the fancy term for that is market segmentation. And it's really all about understanding your different audiences the different segments of your population and how you will tailor your programs and your policies to address those unique but also overlapping needs. And that's obviously a cross-cutting issue. When I look into your presentation, it looks like you're doing work that relates directly to that through the surveys. And so you've got surveys and responses. What do you not have? From those surveys that you would need to go back in each of these areas and go through an update that would tailor things a little bit more to unique customer segments? Have you got what you need already, or do you need a little bit more interaction with folks, a little bit more homework to figure out how to tailor-make things a little bit better?",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000223",
@@ -2960,13 +2960,13 @@
       "start": 11070755,
       "end": 11090277,
       "text": "Well, thank you so much, and I think it's really important information to help us help you identify what to do here if we understand how at some systematic level, we're understanding our residents and what their needs are and how that fits in terms of our going forward plans. So thanks for doing that.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000225",
@@ -3233,13 +3233,13 @@
       "start": 12202662,
       "end": 12202774,
       "text": "Okay.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000246",
@@ -3623,13 +3623,13 @@
       "start": 13242098,
       "end": 13244738,
       "text": "I mean, a Tesla fully charged can go 200-300 miles.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000276",
@@ -3688,13 +3688,13 @@
       "start": 13323518,
       "end": 13335545,
       "text": "I agree. This seems like very solid analysis from your standpoint. Is there anything soft here in the analysis that we ought to know about or be concerned about that might not work out as expected?",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000281",
@@ -3714,13 +3714,13 @@
       "start": 13358120,
       "end": 13392312,
       "text": "Yeah, so you benchmarked this pretty hard against other jurisdictions, and I think that reduces the uncertainty around this, and I think that was a great thing to do. I mean, one thing I would just say is I think something that you're addressing here that has to be addressed that hurts EV charging station programs is the hogging business. If people think, you know, they're just going to run into somebody camped out there, it really is a big turnoff and makes them reconsider. So thank you so much for addressing that in a reasonable and effective way here, and I'm 100% supportive of this.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000283",
@@ -4156,13 +4156,13 @@
       "start": 14392091,
       "end": 14392411,
       "text": "Sure.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000317",
@@ -4195,13 +4195,13 @@
       "start": 14405055,
       "end": 14467610,
       "text": "Thanks for First off, for doing this, because I think it's\u2014 we were looking at a kind of a long agenda there when we got started. [FOREIGN LANGUAGE] On consent, what's the difference between a consent item and a regular discussion item? And I ask that because there are two elements of it. The first is whether the item One is read, and not just read, but explained, so somebody can say, \"Here's what this is,\" so we and others who are listening in will have the benefit of that. And so, that's one element of that. And the second is the element of questions. And when you're doing a regular discussion thing, certainly it's not uncommon to\u2014 accommodate a number of questions, and I don't know how that approach actually works here. I'm\u2014 well, let me just let you respond to that rather than guessing how that might work.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000320",
@@ -4221,13 +4221,13 @@
       "start": 14546199,
       "end": 14591563,
       "text": "[Speaker:COMMISSIONER MILLER] So, if I could guess at how that might work, would it be the case that when we are invited to ask questions, questions about consent items. At that stage, one of the first questions would be, \"What is this?\" And an explanation can be given. And then following that, it might become evident that this needs extended discussion, at which point we would say, \"Let's plan to pull this from the agenda.\" And at that point, it would go through the normal procedure or somebody saying, I'd like to go ahead and pull this so we can have a little bit more time to talk about it. Is that a realistic approach to\u2014",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000322",
@@ -4338,13 +4338,13 @@
       "start": 14768096,
       "end": 14815591,
       "text": "Just to clarify the comment I made about explaining the items, it wasn't my intention to suggest that the actual item should be read at length, but rather some quick summary of it, a lay translation if you will, and just to\u2014 and maybe any essential update. So as an example to that is the noise ordinance, which we have discussed before, but there's also been some flow of information here in the last week, particularly related to snow removal, that I think is worth calling out. And I think it would be well for the City Attorney to be able to explain how that's being addressed under, uh, what we already have. That wasn't necessarily totally clear beforehand. So that would be an example of an explanation that I think would be very helpful to everybody.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000331",
@@ -4364,13 +4364,13 @@
       "start": 14824133,
       "end": 14850948,
       "text": "Just a quick note on the Board and Commission interviews. I'm not sure what our roster looks like right now in terms of vacancies, but I believe we have vacancies for more than just the Planning Commission, and I'm just I was just wondering whether it was our intention to limit this only to those two or whether we might be able to look at the broader list. Can you help me understand the game plan there?",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000333",
@@ -4455,13 +4455,13 @@
       "start": 14901094,
       "end": 14913294,
       "text": "Thank you, that's, that's helpful. But I am curious, I think we got a note saying that only within the last day or two, uh, one spot has opened up on the Planning Commission.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000340",
@@ -4481,13 +4481,13 @@
       "start": 14914560,
       "end": 14929456,
       "text": "If that's the case, I'm wondering whether there has been really adequate time for people to express an interest so that we would have a full set of folks to talk to. I mean, this is like kind of an overnight deal.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000342",
@@ -4520,13 +4520,13 @@
       "start": 14953991,
       "end": 14964235,
       "text": "Okay. Well, as a practical matter, I assume that as is always the case, it would be the council's prerogative to invite additional applications if it sees fit.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000345",
@@ -4559,13 +4559,13 @@
       "start": 15004614,
       "end": 15017122,
       "text": "Just if I might, what is the start time for February 10th? I think we may have some earlier activities.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000348",
@@ -4598,13 +4598,13 @@
       "start": 15024777,
       "end": 15025034,
       "text": "Thank you.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000351",
@@ -4689,13 +4689,13 @@
       "start": 15078977,
       "end": 15161243,
       "text": "Councilmember Peterson, just to add to that, my appreciation, actually, just to note that at one point I inquired whether council might be able to express appreciation by stopping by the command center with donuts, and I was told they're too busy pushing snow to eat any donuts, so we'll deal with that later. But I do want to note that, yeah, the, the city operation on snow has been a full-court press. But just to note also, in my neighborhood on Sunday, we had not less than 5 water main breaks during the day, and that's something. So that all got resolved, and I do want to thank Fairfax Water because they really worked hard and fast to fix all that. And they had a long list of these things to do all across the city. But one of the things that's clear from the experience this year and last on that is these cold weather snaps have consequences. And, you know, it gets to the climate change plan we talked about earlier and forecasting extreme events. But I did have a long conversation with Fairfax Water, and they were very clear that this was a temperature-induced issue here. And so They're going to be updating their forecast statistics and modeling around, you know, repair and maintenance schedules and what have you. But I just want to note, uh, that that's been a particular big issue in, in addition to everything else.",
-      "speaker": "Unknown (J)",
+      "speaker": "Councilmember Tom Peterson",
       "speaker_raw": "J",
       "speaker_public": "Unknown (J)",
-      "speaker_status": "unresolved",
-      "needs_review": true,
+      "speaker_status": "resolved",
+      "needs_review": false,
       "review_reason": "AssemblyAI could not identify speaker",
-      "confidence": 0.0
+      "confidence": 0.8610875923055052
     },
     {
       "turn_id": "turn_000358",

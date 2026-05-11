@@ -1,0 +1,271 @@
+{
+  "meeting": "feb-10-2026",
+  "profile_meeting": "apr-14-2026",
+  "num_profiles": 5,
+  "results": [
+    {
+      "raw_speaker": "Councilmember Peterson",
+      "num_turns": 43,
+      "representative_start": 8349258,
+      "representative_end": 8542625,
+      "duration": 193367,
+      "top_match": "Councilmember Tom Peterson",
+      "top_score": 0.9562192337849768,
+      "margin": 0.6016407207932719,
+      "all_scores": [
+        [
+          "Councilmember Tom Peterson",
+          0.9562192337849768
+        ],
+        [
+          "Councilmember Stacy Hall",
+          0.3545785129917048
+        ],
+        [
+          "Councilmember Stacy Hardy-Chandler",
+          0.21344240911768844
+        ],
+        [
+          "Mayor Catherine Read",
+          0.15641349922067943
+        ],
+        [
+          "Councilmember Anthony Amos",
+          0.05915133097753507
+        ]
+      ],
+      "needs_review": false
+    },
+    {
+      "raw_speaker": "G",
+      "num_turns": 28,
+      "representative_start": 16270774,
+      "representative_end": 16838782,
+      "duration": 568008,
+      "top_match": "Councilmember Tom Peterson",
+      "top_score": 0.2790199999861599,
+      "margin": 0.019623782516534904,
+      "all_scores": [
+        [
+          "Councilmember Tom Peterson",
+          0.2790199999861599
+        ],
+        [
+          "Councilmember Stacy Hall",
+          0.259396217469625
+        ],
+        [
+          "Councilmember Stacy Hardy-Chandler",
+          0.06439327872106154
+        ],
+        [
+          "Mayor Catherine Read",
+          0.048216699192617125
+        ],
+        [
+          "Councilmember Anthony Amos",
+          0.014857847179495906
+        ]
+      ],
+      "needs_review": true
+    },
+    {
+      "raw_speaker": "Councilmember Amos",
+      "num_turns": 16,
+      "representative_start": 19972831,
+      "representative_end": 20083522,
+      "duration": 110691,
+      "top_match": "Councilmember Tom Peterson",
+      "top_score": 0.3672566456984252,
+      "margin": 0.024947197372273244,
+      "all_scores": [
+        [
+          "Councilmember Tom Peterson",
+          0.3672566456984252
+        ],
+        [
+          "Councilmember Stacy Hall",
+          0.34230944832615195
+        ],
+        [
+          "Councilmember Anthony Amos",
+          0.0921366686085583
+        ],
+        [
+          "Councilmember Stacy Hardy-Chandler",
+          0.07683083614292588
+        ],
+        [
+          "Mayor Catherine Read",
+          0.05840618699197718
+        ]
+      ],
+      "needs_review": true
+    },
+    {
+      "raw_speaker": "I",
+      "num_turns": 12,
+      "representative_start": 1487844,
+      "representative_end": 2154169,
+      "duration": 666325,
+      "top_match": "Councilmember Stacy Hardy-Chandler",
+      "top_score": 0.25602500310749016,
+      "margin": 0.08319460443559198,
+      "all_scores": [
+        [
+          "Councilmember Stacy Hardy-Chandler",
+          0.25602500310749016
+        ],
+        [
+          "Councilmember Tom Peterson",
+          0.17283039867189817
+        ],
+        [
+          "Mayor Catherine Read",
+          0.10240967993270017
+        ],
+        [
+          "Councilmember Anthony Amos",
+          0.09993962150948407
+        ],
+        [
+          "Councilmember Stacy Hall",
+          0.09788285311441738
+        ]
+      ],
+      "needs_review": true
+    },
+    {
+      "raw_speaker": "H",
+      "num_turns": 11,
+      "representative_start": 12157429,
+      "representative_end": 12297885,
+      "duration": 140456,
+      "top_match": "Councilmember Tom Peterson",
+      "top_score": 0.12992724934472427,
+      "margin": 0.02668666016316522,
+      "all_scores": [
+        [
+          "Councilmember Tom Peterson",
+          0.12992724934472427
+        ],
+        [
+          "Councilmember Stacy Hall",
+          0.10324058918155905
+        ],
+        [
+          "Councilmember Anthony Amos",
+          0.08479690154083458
+        ],
+        [
+          "Mayor Catherine Read",
+          0.06776285732559126
+        ],
+        [
+          "Councilmember Stacy Hardy-Chandler",
+          -0.10587750514462968
+        ]
+      ],
+      "needs_review": true
+    },
+    {
+      "raw_speaker": "B",
+      "num_turns": 10,
+      "representative_start": 14937116,
+      "representative_end": 15010602,
+      "duration": 73486,
+      "top_match": "Councilmember Anthony Amos",
+      "top_score": 0.925368011819293,
+      "margin": 0.8796937395060026,
+      "all_scores": [
+        [
+          "Councilmember Anthony Amos",
+          0.925368011819293
+        ],
+        [
+          "Mayor Catherine Read",
+          0.04567427231329031
+        ],
+        [
+          "Councilmember Stacy Hall",
+          0.020362686317018677
+        ],
+        [
+          "Councilmember Tom Peterson",
+          0.015591499423748099
+        ],
+        [
+          "Councilmember Stacy Hardy-Chandler",
+          -0.04050346854235865
+        ]
+      ],
+      "needs_review": false
+    },
+    {
+      "raw_speaker": "F",
+      "num_turns": 10,
+      "representative_start": 10054585,
+      "representative_end": 10248570,
+      "duration": 193985,
+      "top_match": "Councilmember Stacy Hardy-Chandler",
+      "top_score": 0.3389170272784003,
+      "margin": 0.09455110581250892,
+      "all_scores": [
+        [
+          "Councilmember Stacy Hardy-Chandler",
+          0.3389170272784003
+        ],
+        [
+          "Mayor Catherine Read",
+          0.24436592146589137
+        ],
+        [
+          "Councilmember Stacy Hall",
+          0.1908644798072253
+        ],
+        [
+          "Councilmember Anthony Amos",
+          0.15142835046234412
+        ],
+        [
+          "Councilmember Tom Peterson",
+          0.0060498564774851835
+        ]
+      ],
+      "needs_review": true
+    },
+    {
+      "raw_speaker": "Dr. Michael Nickens",
+      "num_turns": 1,
+      "representative_start": 355063,
+      "representative_end": 675410,
+      "duration": 320347,
+      "top_match": "Councilmember Stacy Hall",
+      "top_score": 0.07559853787883958,
+      "margin": 0.0024651690984681257,
+      "all_scores": [
+        [
+          "Councilmember Stacy Hall",
+          0.07559853787883958
+        ],
+        [
+          "Councilmember Tom Peterson",
+          0.07313336878037145
+        ],
+        [
+          "Mayor Catherine Read",
+          0.052980782654287406
+        ],
+        [
+          "Councilmember Stacy Hardy-Chandler",
+          0.04354677543513629
+        ],
+        [
+          "Councilmember Anthony Amos",
+          0.02046679615125865
+        ]
+      ],
+      "needs_review": true
+    }
+  ]
+}
