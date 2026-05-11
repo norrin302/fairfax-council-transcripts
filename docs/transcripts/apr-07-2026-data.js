@@ -4,29 +4,29 @@ const TRANSCRIPT_TURNS = [
   {
     "turn_id": "turn_000001",
     "speaker": "Mayor Catherine Read",
-    "speaker_source": "approved_mapping",
-    "speaker_source_detail": "",
+    "speaker_source": "manual_fix",
+    "speaker_source_detail": "verified via video",
     "start": 6.14,
     "end": 17.34,
-    "text": "Good evening. I would like to call the work session of April 7th, 2026 to order I will now recognize miss Shinneberry for the first work session item for discussion"
+    "text": "Good evening, I would like to call the work session of April 7th, 2026 to order"
   },
   {
     "turn_id": "turn_000002",
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "auto_mayor",
-    "speaker_source_detail": "",
+    "speaker": "Ms Shinneberry",
+    "speaker_source": "manual_fix",
+    "speaker_source_detail": "verified via video",
     "start": 17.55,
-    "end": 25.61,
-    "text": "our first items the discussion on third-party event Sponsorships, I'm going to recognize Stacey Somerville our parks and recreation director for the presentation"
+    "end": 29.68,
+    "text": "I recognize Stacey Sommerfield"
   },
   {
     "turn_id": "turn_000003",
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "auto_mayor",
-    "speaker_source_detail": "",
+    "speaker": "Stacey Sommerfield",
+    "speaker_source": "manual_fix",
+    "speaker_source_detail": "verified via video - Library presentation",
     "start": 29.68,
     "end": 998.00,
-    "text": "Good evening mayor and council. I'm joined up here tonight by our special events and athletics manager Mitzi Taylor and Our assistant special events manager Deanna Payne, and we are going to invite police up here to join us, too I apologize Natalie just to answer any additional questions She doesn't have to answer anything right away, so that's good news So we're here tonight to talk about the third party event policy and so these are events that take place within the city Or and many of which are supported by the city, but are not organized by The special events crew within the Department of Parks and Recreation so to start we're going to go back actually a little bit to our Back to 2011 there were a number of resident complaints about the quantity of road closures at the time This was a time when road races were very popular They have declined in popularity since then but the city was a very popular popular destination to have road races because it was very easy to work with us to close roads and for that reason there were A lot of road closures and so at that point council took an action which was to reduce the number of road closure events to limiting to six each year so in 2011 this action was taken and so since that time we have limited to six each year of Those six spaces five are currently filled so you'll see them at the bottom here We have the turkey trout the ride of the Patriots the sweet mile which is new It's the one mile race that takes place along with chocolate lovers The Asian Festival on Main and Labor Day car show"
+    "text": "[Library Week presentation]"
   },
   {
     "turn_id": "turn_000004",
