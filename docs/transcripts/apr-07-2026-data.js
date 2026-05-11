@@ -3,7 +3,7 @@
 const TRANSCRIPT_TURNS = [
   {
     "turn_id": "turn_000001",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 6.14,
@@ -12,7 +12,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000002",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_04",
     "speaker_source": "auto_mayor",
     "speaker_source_detail": "",
     "start": 17.55,
@@ -21,7 +21,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000003",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_02",
     "speaker_source": "auto_mayor",
     "speaker_source_detail": "",
     "start": 29.68,
@@ -30,7 +30,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000004",
-    "speaker": "Anthony Amos",
+    "speaker": "SPEAKER_00",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 46.08,
@@ -39,7 +39,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000005",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_02",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 124.62,
@@ -48,7 +48,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000006",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_02",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 203.48,
@@ -57,7 +57,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000007",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_02",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 275.87,
@@ -66,7 +66,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000008",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_02",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 355.65,
@@ -75,7 +75,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000009",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_02",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 454.73,
@@ -84,7 +84,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000010",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_02",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 505.98,
@@ -93,7 +93,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000011",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_02",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 570.78,
@@ -102,7 +102,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000012",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_02",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 689.98,
@@ -111,7 +111,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000013",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_02",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 843.04,
@@ -120,7 +120,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000014",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_02",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 871.96,
@@ -129,7 +129,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000015",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_02",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 881.11,
@@ -138,7 +138,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000016",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 933.12,
@@ -147,7 +147,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000017",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 939.28,
@@ -156,7 +156,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000018",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_02",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 967.22,
@@ -165,7 +165,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000019",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 969.21,
@@ -174,7 +174,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000020",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 997.78,
@@ -183,7 +183,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000021",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_02",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1006.1,
@@ -192,7 +192,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000022",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1018.47,
@@ -201,7 +201,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000023",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_11",
     "speaker_source": "auto_name_match",
     "speaker_source_detail": "",
     "start": 1021.59,
@@ -210,7 +210,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000024",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_08",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1024.71,
@@ -219,7 +219,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000025",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_02",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 1061.47,
@@ -228,16 +228,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000026",
-    "speaker": "Staff Member",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_10",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 1070.72,
     "end": 1070.73,
     "text": "no."
   },
   {
     "turn_id": "turn_000027",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_08",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1070.73,
@@ -246,7 +246,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000028",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_08",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1073.7,
@@ -255,7 +255,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000029",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_02",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1078.56,
@@ -264,7 +264,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000030",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_08",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1082.98,
@@ -273,7 +273,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000031",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_02",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1098.36,
@@ -282,7 +282,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000032",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_08",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1106.69,
@@ -291,7 +291,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000033",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_08",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1110.64,
@@ -300,7 +300,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000034",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_02",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1159.65,
@@ -309,7 +309,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000035",
-    "speaker": "Anthony Amos",
+    "speaker": "SPEAKER_00",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1166.87,
@@ -318,7 +318,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000036",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_08",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1225.41,
@@ -327,16 +327,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000037",
-    "speaker": "Stacey Hardy-Chandler",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_10",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 1268.37,
     "end": 1271.95,
     "text": "right. That's the key phrase that that's a main takeaway. Yeah,"
   },
   {
     "turn_id": "turn_000038",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_02",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1293.7,
@@ -345,7 +345,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000039",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_08",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1326.36,
@@ -354,7 +354,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000040",
-    "speaker": "Anthony Amos",
+    "speaker": "SPEAKER_00",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1352.48,
@@ -363,7 +363,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000041",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 1372.22,
@@ -372,7 +372,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000042",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 1377.47,
@@ -381,16 +381,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000043",
-    "speaker": "Daniel Alexander",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_16",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 1507.14,
     "end": 1512.32,
     "text": "Has economic development had a chance to weigh in on this at all by chance"
   },
   {
     "turn_id": "turn_000044",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_02",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 1513.67,
@@ -399,16 +399,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000045",
-    "speaker": "Staff Member",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_16",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 1525.29,
     "end": 1560.23,
     "text": "opinion given the shortness of the time that excellent I just think that that's really important. Obviously in this discussion is to ensure we understand exactly how Either the options would affect consumer behavior and attendance because I want to ensure that if we're doing this that we're continuing we our community really is Used to these certain they look forward to these events and it's part of our culture It's part of who we are So I just want to make sure that we fully understand exactly how that's going to affect things if we pick one of these Options, so I think that would be really helpful to have that information"
   },
   {
     "turn_id": "turn_000046",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 1562.2,
@@ -417,7 +417,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000047",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_17",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 1564.8,
@@ -426,16 +426,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000048",
-    "speaker": "Staff Member",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_20",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 1602.77,
     "end": 1651.99,
     "text": "Right now because these are these are considered we have the group Like Stacey was saying of city sponsored events, and then these are city supported events These are items that are mandated for our officers to work So if they move to a self-funded option to where they're you know not not city funded per se they Most of those currently for us are voluntary assignments that they can sign up for if they don't fill them Then it's just not filled the scale of some of these if they're not if the staffing is not filled That the event can't take place so Right now we mandate that officers work these larger scale events We do do we go through a process where they can sign up we do a voluntary window where you know We open the signups, but then as it gets closer. We have to mandate that these are duty assignments"
   },
   {
     "turn_id": "turn_000049",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 1652.75,
@@ -444,7 +444,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000050",
-    "speaker": "Anthony Amos",
+    "speaker": "SPEAKER_00",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1675.14,
@@ -453,7 +453,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000051",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1675.16,
@@ -462,7 +462,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000052",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1683.4,
@@ -471,7 +471,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000053",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_02",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 1693.98,
@@ -480,7 +480,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000054",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1714.77,
@@ -489,7 +489,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000055",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_02",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1736.18,
@@ -498,7 +498,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000056",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1751.86,
@@ -507,7 +507,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000057",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_02",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1754.96,
@@ -516,7 +516,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000058",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 1764.28,
@@ -525,7 +525,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000059",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_02",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1769.48,
@@ -534,7 +534,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000060",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1770.03,
@@ -543,7 +543,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000061",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1775.47,
@@ -552,7 +552,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000062",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_17",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 1779.79,
@@ -561,7 +561,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000063",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_02",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 1826.7,
@@ -570,7 +570,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000064",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1851.78,
@@ -579,34 +579,34 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000065",
-    "speaker": "Stacey Hardy-Chandler",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_20",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 1858.36,
     "end": 1859.74,
     "text": "in that just for those three years"
   },
   {
     "turn_id": "turn_000066",
-    "speaker": "Stacey Hardy-Chandler",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_16",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 1866.03,
     "end": 1867.81,
     "text": "initial first year?"
   },
   {
     "turn_id": "turn_000067",
-    "speaker": "Stacey Hardy-Chandler",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_16",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 1869.93,
     "end": 1870.17,
     "text": "that"
   },
   {
     "turn_id": "turn_000068",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_02",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 1904.46,
@@ -615,7 +615,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000069",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_17",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 1919.93,
@@ -624,16 +624,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000070",
-    "speaker": "Stacey Hardy-Chandler",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_10",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 2020.56,
     "end": 2020.59,
     "text": "is. Yep,"
   },
   {
     "turn_id": "turn_000071",
-    "speaker": "Anthony Amos",
+    "speaker": "SPEAKER_00",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 2034.95,
@@ -642,7 +642,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000072",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_00",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 2144.89,
@@ -651,7 +651,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000073",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 2176.16,
@@ -660,7 +660,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000074",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_01",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 2191.91,
@@ -669,7 +669,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000075",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 2220.14,
@@ -678,7 +678,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000076",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_02",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 2230.52,
@@ -687,7 +687,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000077",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_17",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 2249.37,
@@ -696,7 +696,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000078",
-    "speaker": "Anthony Amos",
+    "speaker": "SPEAKER_00",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 2397.24,
@@ -705,7 +705,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000079",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "auto_self_id",
     "speaker_source_detail": "",
     "start": 2431.82,
@@ -714,7 +714,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000080",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 2561.5,
@@ -723,25 +723,25 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000081",
-    "speaker": "Tom Peterson",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_16",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 2564.14,
     "end": 2567.39,
     "text": "Agree that we need a framework for sure"
   },
   {
     "turn_id": "turn_000082",
-    "speaker": "Staff Member",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_16",
+    "speaker_source": "auto_name_match",
+    "speaker_source_detail": "",
     "start": 2570.63,
     "end": 2636.67,
     "text": "Piggybacking off of councilmember Hall's comment about the meals tax I do wonder if we can just permitting or do something along that lines to make up some of What catch some of those fees that we're missing from not getting the meals tax or other things? That's the kind of information. I think that would be beneficial is to really know what the return on investment You know could be in Doing that like okay, we lose the meals tax if we bring in all these food trucks But if we have a permitting fee that is adjusted to compensate for some of that that could you know Maybe balance that out so that was my thought in bringing economic development into the mix was more of Looking at this and really trying to figure out a solution that like a hybrid as everyone is mentioning here Something along the line so still be able to help out the newer events or smaller events or provide a grant in some way But for you know the ones that are self-funded or the ones that we recognize can be self-funded I Think that more information is just what we need to be able to say which way we want to go with that"
   },
   {
     "turn_id": "turn_000083",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 2640.41,
@@ -750,7 +750,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000084",
-    "speaker": "Billy Bates",
+    "speaker": "SPEAKER_19",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 2643.63,
@@ -759,7 +759,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000085",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 2760.38,
@@ -768,7 +768,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000086",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_08",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 2761.86,
@@ -777,7 +777,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000087",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_02",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 2926.93,
@@ -786,7 +786,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000088",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 2927.03,
@@ -795,7 +795,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000089",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 3074.44,
@@ -804,7 +804,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000090",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 3124.98,
@@ -813,7 +813,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000091",
-    "speaker": "Anthony Amos",
+    "speaker": "SPEAKER_00",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 3206.52,
@@ -822,7 +822,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000092",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_00",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 3209.23,
@@ -831,7 +831,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000093",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 3289.85,
@@ -840,7 +840,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000094",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_02",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 3341.47,
@@ -849,7 +849,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000095",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 3374.88,
@@ -858,7 +858,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000096",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 3376.4,
@@ -867,7 +867,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000097",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_02",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 3377.7,
@@ -876,7 +876,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000098",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 3402.18,
@@ -885,7 +885,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000099",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_04",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 3447.91,
@@ -894,7 +894,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000100",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_03",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 3485.98,
@@ -903,7 +903,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000101",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_03",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 3641.0,
@@ -912,7 +912,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000102",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_03",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 3899.84,
@@ -921,7 +921,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000103",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_03",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 3970.6,
@@ -930,7 +930,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000104",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_03",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 4054.72,
@@ -939,7 +939,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000105",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_01",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 4317.89,
@@ -948,7 +948,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000106",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_14",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 4453.88,
@@ -957,7 +957,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000107",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_15",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 4728.07,
@@ -966,7 +966,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000108",
-    "speaker": "Jay (Community Paramedic)",
+    "speaker": "SPEAKER_12",
     "speaker_source": "auto_mayor",
     "speaker_source_detail": "",
     "start": 4910.98,
@@ -975,7 +975,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000109",
-    "speaker": "Carrie Jones (MPO)",
+    "speaker": "SPEAKER_18",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 5042.33,
@@ -984,7 +984,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000110",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_18",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 5192.05,
@@ -993,7 +993,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000111",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_03",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 5201.34,
@@ -1002,7 +1002,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000112",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 5498.28,
@@ -1011,7 +1011,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000113",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_08",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 5505.58,
@@ -1020,7 +1020,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000114",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_08",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 5661.46,
@@ -1029,7 +1029,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000115",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_03",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 5662.61,
@@ -1038,25 +1038,25 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000116",
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_15",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 5708.24,
     "end": 5751.37,
     "text": "I think one thing that we run into is when we're working with older adult services and wanting To get someone connected like we recognize the need and we want to get them connected to service However, their income may not allow them to receive that service from the county So we're back at square one again trying to find resources that will fit their income requirements And they're able to get the support that they need So I think that's something as a community that would be helpful and not having that income Requirement and Just allowing for if someone needs that support then they should be able to it should be available to them"
   },
   {
     "turn_id": "turn_000117",
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_12",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 5753.17,
     "end": 5788.54,
     "text": "Yeah, in addition to that I would say I've noticed over time that Many of our older adult citizens fall in the category where they're they're surviving, but they're not thriving And so that's the issue we run into some of the times because if you're well below the survival mark I can get you lots of services But if you're just treading water it makes it very hard for us to connect them to things that would be my area Of improvement for us more than anything else Is that is that that is a big barrier to care for a lot of people where if they were worse off slightly? I'd have a much easier opportunity"
   },
   {
     "turn_id": "turn_000118",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_08",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 5789.1,
@@ -1065,7 +1065,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000119",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_03",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 5834.48,
@@ -1074,7 +1074,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000120",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 5867.97,
@@ -1083,7 +1083,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000121",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 5935.19,
@@ -1092,7 +1092,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000122",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_17",
     "speaker_source": "auto_name_match",
     "speaker_source_detail": "",
     "start": 5935.2,
@@ -1101,7 +1101,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000123",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 6072.99,
@@ -1110,16 +1110,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000124",
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_16",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 6077.43,
     "end": 6110.77,
     "text": "I Did want to ask how often do you or do you refer people? To some of the organization clubs things like that that we have in the area that could you had mentioned that There's this need for socialization and our aging population, and we have some really great organizations here in the city that provide that kind of Contact and and ability that socialization do you often link them to like we have the women's club And things things like that in this area. I just see that we have a lot of activity I wasn't sure how much you"
   },
   {
     "turn_id": "turn_000125",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_03",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 6111.19,
@@ -1128,16 +1128,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000126",
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_10",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 6159.81,
     "end": 6160.22,
     "text": "them right so"
   },
   {
     "turn_id": "turn_000127",
-    "speaker": "Anthony Amos",
+    "speaker": "SPEAKER_00",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 6184.99,
@@ -1146,16 +1146,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000128",
-    "speaker": "Anthony Amos",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_16",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 6209.46,
     "end": 6252.03,
     "text": "Yeah, I was just thinking about the story that you told earlier that a lot of individuals aren't really in that threshold to receive some of these services and Sometimes just having that kind that communication that contact that support early on before you get to that point I I will put a little plug for our women's club here in the city is fantastic They send cards to people when they're ill they check on them. They you know wish them a happy birthday They do all of those little social interactions that allow you to feel recognized and help with that Isolation that we're experiencing and seeing in the area so that just was one of the ideas I thought was that might be a resource that we can you know greater coordination to provide that to people would be excellent. Thank"
   },
   {
     "turn_id": "turn_000129",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 6252.03,
@@ -1164,7 +1164,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000130",
-    "speaker": "Billy Bates",
+    "speaker": "SPEAKER_19",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 6257.04,
@@ -1173,7 +1173,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000131",
-    "speaker": "Billy Bates",
+    "speaker": "SPEAKER_19",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 6283.39,
@@ -1182,7 +1182,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000132",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 6343.17,
@@ -1191,7 +1191,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000133",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_08",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 6349.33,
@@ -1200,7 +1200,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000134",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_03",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 6556.02,
@@ -1209,7 +1209,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000135",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 6680.89,
@@ -1218,7 +1218,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000136",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 6683.8,
@@ -1227,7 +1227,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000137",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_03",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 6715.35,
@@ -1236,7 +1236,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000138",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_11",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 6825.56,
@@ -1245,16 +1245,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000139",
-    "speaker": "Staff Member",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_12",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 6872.32,
     "end": 6912.27,
     "text": "I Was just gonna tell you mr. Peterson that so for most of those cases That's one of the common things that I deal with as the people that again are surviving not thriving or slowly going towards That not surviving level Thanks to our partnerships with the more robust areas of the county. We have access to utility support We have access to food support We've access to numerous other things that I can connect people to that not only buy them time But bring in expertise so whether we can quickly help them in the case of like they are destitute and need financial support Or if it's hey, we're heading that way Can we start to direct you to or a better way of living whether it be downsizing or things in your home itself? That is one of the things we can take advantage of here in the city"
   },
   {
     "turn_id": "turn_000140",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_06",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 6912.72,
@@ -1263,7 +1263,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000141",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 6991.6,
@@ -1272,7 +1272,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000142",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_06",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 6999.53,
@@ -1281,7 +1281,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000143",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_03",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 7028.3,
@@ -1290,7 +1290,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000144",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 7032.01,
@@ -1299,7 +1299,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000145",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_03",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 7032.6,
@@ -1308,7 +1308,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000146",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 7035.56,
@@ -1317,7 +1317,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000147",
-    "speaker": "City Manager",
+    "speaker": "SPEAKER_12",
     "speaker_source": "auto_name_match",
     "speaker_source_detail": "",
     "start": 7047.87,
@@ -1326,7 +1326,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000148",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 7055.52,
@@ -1335,7 +1335,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000149",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 7060.23,
@@ -1344,7 +1344,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000150",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 7068.92,
@@ -1353,7 +1353,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000151",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_03",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 7241.77,
@@ -1362,7 +1362,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000152",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 7289.31,
@@ -1371,7 +1371,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000153",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_03",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 7353.6,
@@ -1380,7 +1380,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000154",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 7353.62,
@@ -1389,7 +1389,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000155",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 7362.48,
@@ -1398,16 +1398,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000156",
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_10",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 7409.02,
     "end": 7409.64,
     "text": "No"
   },
   {
     "turn_id": "turn_000157",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 7410.62,
@@ -1416,7 +1416,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000158",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 7502.03,
@@ -1425,7 +1425,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000159",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 7517.03,
@@ -1434,7 +1434,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000160",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 7530.5,
@@ -1443,7 +1443,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000161",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_04",
     "speaker_source": "auto_mayor",
     "speaker_source_detail": "",
     "start": 7540.76,
@@ -1452,7 +1452,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000162",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 7600.38,
@@ -1461,7 +1461,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000163",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_07",
     "speaker_source": "auto_mayor",
     "speaker_source_detail": "",
     "start": 7602.35,
@@ -1470,7 +1470,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000164",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_13",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 7726.37,
@@ -1479,7 +1479,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000165",
-    "speaker": "James Nichol (Consultant)",
+    "speaker": "SPEAKER_07",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 7867.36,
@@ -1488,7 +1488,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000166",
-    "speaker": "Anthony Amos",
+    "speaker": "SPEAKER_00",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 7881.58,
@@ -1497,7 +1497,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000167",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 7933.74,
@@ -1506,7 +1506,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000168",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 7941.1,
@@ -1515,7 +1515,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000169",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 7949.13,
@@ -1524,7 +1524,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000170",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 7958.37,
@@ -1533,7 +1533,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000171",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8019.94,
@@ -1542,7 +1542,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000172",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8044.02,
@@ -1551,7 +1551,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000173",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8048.34,
@@ -1560,7 +1560,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000174",
-    "speaker": "James Nichol (Consultant)",
+    "speaker": "SPEAKER_07",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8051.31,
@@ -1569,7 +1569,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000175",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8068.31,
@@ -1578,7 +1578,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000176",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 8068.95,
@@ -1587,7 +1587,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000177",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8088.39,
@@ -1596,7 +1596,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000178",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_17",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 8091.07,
@@ -1605,7 +1605,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000179",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8095.2,
@@ -1614,7 +1614,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000180",
-    "speaker": "James Nichol (Consultant)",
+    "speaker": "SPEAKER_07",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8120.92,
@@ -1623,7 +1623,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000181",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8135.37,
@@ -1632,7 +1632,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000182",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8135.96,
@@ -1641,7 +1641,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000183",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8143.35,
@@ -1650,7 +1650,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000184",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_08",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8143.5,
@@ -1659,7 +1659,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000185",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 8146.29,
@@ -1668,7 +1668,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000186",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_13",
     "speaker_source": "auto_self_id",
     "speaker_source_detail": "",
     "start": 8146.35,
@@ -1677,7 +1677,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000187",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_08",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8147.75,
@@ -1686,7 +1686,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000188",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8150.37,
@@ -1695,7 +1695,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000189",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 8154.22,
@@ -1704,16 +1704,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000190",
-    "speaker": "Tom Peterson",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_11",
+    "speaker_source": "auto_name_match",
+    "speaker_source_detail": "",
     "start": 8154.23,
     "end": 8217.04,
     "text": "It's amazing councilmember Peterson I don't know if you've checked quality control issues, but it'd be worth doing that So not not all translators are created equal right right and not all languages are easy Similar and ease to translate and sometimes you can get some goofs Sometimes they're problematic You know, I've used a lot of translators and a lot of public meetings in a lot of countries and you find it real quick that There are certain things that they have a tough time with and so technical things are a prime example of that It's often difficult for translation programs to be able to sort out Technical terminology jargon of different types and we use a lot of jargon politically in this country as well That's very difficult to translate into other countries and sometimes it translates in ways that are offensive or embarrassing and all that So just a long way of saying to the extent you can check it out To see how this has worked for others who've had to use it in this kind of an operating environment I think it'd be helpful to do."
   },
   {
     "turn_id": "turn_000191",
-    "speaker": "Anthony Amos",
+    "speaker": "SPEAKER_00",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8201.91,
@@ -1722,7 +1722,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000192",
-    "speaker": "Anthony Amos",
+    "speaker": "SPEAKER_00",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8205.55,
@@ -1731,16 +1731,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000193",
-    "speaker": "Anthony Amos",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_10",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 8205.58,
     "end": 8205.62,
     "text": "embarrassing"
   },
   {
     "turn_id": "turn_000194",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8217.04,
@@ -1749,7 +1749,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000195",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8247.18,
@@ -1758,7 +1758,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000196",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8251.8,
@@ -1767,7 +1767,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000197",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_11",
     "speaker_source": "auto_name_match",
     "speaker_source_detail": "",
     "start": 8255.31,
@@ -1776,16 +1776,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000198",
-    "speaker": "Tom Peterson",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_10",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 8257.15,
     "end": 8257.34,
     "text": "That's exactly"
   },
   {
     "turn_id": "turn_000199",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8281.52,
@@ -1794,7 +1794,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000200",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 8282.03,
@@ -1803,7 +1803,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000201",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_08",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8284.96,
@@ -1812,7 +1812,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000202",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_13",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 8312.12,
@@ -1821,7 +1821,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000203",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_08",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8346.63,
@@ -1830,7 +1830,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000204",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8354.74,
@@ -1839,7 +1839,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000205",
-    "speaker": "Anthony Amos",
+    "speaker": "SPEAKER_00",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8381.08,
@@ -1848,7 +1848,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000206",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_08",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8381.1,
@@ -1857,7 +1857,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000207",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_08",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8386.94,
@@ -1866,7 +1866,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000208",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8389.98,
@@ -1875,7 +1875,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000209",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_08",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8392.37,
@@ -1884,7 +1884,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000210",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8398.08,
@@ -1893,7 +1893,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000211",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 8399.92,
@@ -1902,7 +1902,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000212",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8407.66,
@@ -1911,7 +1911,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000213",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 8410.72,
@@ -1920,16 +1920,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000214",
-    "speaker": "Tom Peterson",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_10",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 8445.09,
     "end": 8445.39,
     "text": "or"
   },
   {
     "turn_id": "turn_000215",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8466.27,
@@ -1938,7 +1938,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000216",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8472.61,
@@ -1947,7 +1947,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000217",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8492.73,
@@ -1956,7 +1956,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000218",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8507.46,
@@ -1965,7 +1965,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000219",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8510.95,
@@ -1974,7 +1974,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000220",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8526.23,
@@ -1983,7 +1983,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000221",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 8527.51,
@@ -1992,7 +1992,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000222",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8595.99,
@@ -2001,7 +2001,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000223",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8601.76,
@@ -2010,7 +2010,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000224",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8601.79,
@@ -2019,7 +2019,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000225",
-    "speaker": "City Manager",
+    "speaker": "SPEAKER_13",
     "speaker_source": "auto_name_match",
     "speaker_source_detail": "",
     "start": 8604.51,
@@ -2028,7 +2028,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000226",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8643.88,
@@ -2037,7 +2037,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000227",
-    "speaker": "James Nichol (Consultant)",
+    "speaker": "SPEAKER_07",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8656.26,
@@ -2046,7 +2046,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000228",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8663.32,
@@ -2055,7 +2055,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000229",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8665.73,
@@ -2064,7 +2064,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000230",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 8668.18,
@@ -2073,7 +2073,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000231",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8679.97,
@@ -2082,7 +2082,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000232",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 8696.38,
@@ -2091,7 +2091,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000233",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 8745.04,
@@ -2100,7 +2100,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000234",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_08",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8811.89,
@@ -2109,7 +2109,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000235",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8832.09,
@@ -2118,7 +2118,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000236",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 8848.64,
@@ -2127,7 +2127,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000237",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8862.75,
@@ -2136,7 +2136,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000238",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8905.1,
@@ -2145,7 +2145,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000239",
-    "speaker": "James Nichol (Consultant)",
+    "speaker": "SPEAKER_07",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8951.46,
@@ -2154,7 +2154,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000240",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 8956.98,
@@ -2163,7 +2163,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000241",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 8957.8,
@@ -2172,7 +2172,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000242",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 8972.97,
@@ -2181,7 +2181,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000243",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_16",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9002.64,
@@ -2190,7 +2190,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000244",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 9026.77,
@@ -2199,7 +2199,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000245",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_13",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9034.57,
@@ -2208,7 +2208,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000246",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 9036.76,
@@ -2217,7 +2217,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000247",
-    "speaker": "James Nichol (Consultant)",
+    "speaker": "SPEAKER_07",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9041.03,
@@ -2226,7 +2226,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000248",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 9043.6,
@@ -2235,7 +2235,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000249",
-    "speaker": "City Manager",
+    "speaker": "SPEAKER_04",
     "speaker_source": "auto_name_match",
     "speaker_source_detail": "",
     "start": 9050.94,
@@ -2244,7 +2244,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000250",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 9061.74,
@@ -2253,7 +2253,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000251",
-    "speaker": "City Manager",
+    "speaker": "SPEAKER_06",
     "speaker_source": "auto_name_match",
     "speaker_source_detail": "",
     "start": 9073.08,
@@ -2262,7 +2262,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000252",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9168.03,
@@ -2271,7 +2271,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000253",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_06",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9177.03,
@@ -2280,7 +2280,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000254",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_06",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9180.12,
@@ -2289,7 +2289,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000255",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_06",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9186.93,
@@ -2298,7 +2298,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000256",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_06",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 9192.57,
@@ -2307,7 +2307,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000257",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9212.9,
@@ -2316,7 +2316,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000258",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_06",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 9218.76,
@@ -2325,16 +2325,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000259",
-    "speaker": "Councilmember McQuillen",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_11",
+    "speaker_source": "auto_self_id",
+    "speaker_source_detail": "",
     "start": 9343.7,
     "end": 9348.78,
     "text": "Councilmember Peterson just to clarify the last power the last two different"
   },
   {
     "turn_id": "turn_000260",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_06",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9350.06,
@@ -2343,7 +2343,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000261",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9355.24,
@@ -2352,7 +2352,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000262",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_06",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9360.53,
@@ -2361,7 +2361,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000263",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9365.45,
@@ -2370,7 +2370,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000264",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_06",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9377.81,
@@ -2379,7 +2379,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000265",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9396.22,
@@ -2388,16 +2388,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000266",
-    "speaker": "Tom Peterson",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_06",
+    "speaker_source": "auto_name_match",
+    "speaker_source_detail": "",
     "start": 9405.85,
     "end": 9461.22,
     "text": "Yes, and no so the less or is of property commercial side. We are at the max Based off of what the state would allow I Would assume that in some time in the past the state did not have a state maximum and Localities had different rates at some point the state came in and said this is the maximum and that's sort of where we are now If we were wanting to increase that we would have to petition the General Assembly to go anything above point two three Unlike the other half that you mentioned councilmember Peterson the professional real estate and financial where the state maximum is point five eight The city is currently at point four zero the Northern Virginia average is point four eight That one there would be room potentially to increase. So"
   },
   {
     "turn_id": "turn_000267",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9461.51,
@@ -2406,7 +2406,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000268",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_06",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9499.09,
@@ -2415,7 +2415,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000269",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_06",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9520.6,
@@ -2424,7 +2424,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000270",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 9521.68,
@@ -2433,7 +2433,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000271",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_06",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 9539.01,
@@ -2442,16 +2442,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000272",
-    "speaker": "Staff Member",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_06",
+    "speaker_source": "auto_name_match",
+    "speaker_source_detail": "",
     "start": 9543.79,
     "end": 9708.52,
     "text": "budget memo number six to the manager's point and I think to where I think councilmember Peterson maybe councilmember or other council members were sort of alluding to if We were to potentially increase that one segment in the people rate the That area specifically In professional real estate and financial from point four to the northern Virginia average of point four eight The Commissioner revenue did state that bringing that up by that amount would potentially generate an additional almost $700,000 so six hundred and ninety eight thousand he stated each additional One cent increase would yield about eighty seven thousand three hundred twenty five dollars, so that would be a potential Amount of additional revenue that has not been added or was included in the manager's proposed budget again I would need to follow up with the Commissioner revenue and try to get some of that economic data to see what the impact Would potentially be if we were to do something like that Aside again trying to increase that rates to the northern Virginia average of point four eight would potentially generate an additional $700,000 that has not previously been Advertised or incorporated in the FY 27 proposed budget that being said We are on somewhat of a tight timeline. I'm looking at the city clerk to verify this So April 14th, so next Tuesday seven days from today we will be advertising the introductions of certain rates Be pole is currently not listed in any staff report It is again not listed in the manager proposed budget if council were to give us direction Or the recommendation that we would give is to potentially add that in as a potential option or lever Doesn't necessarily mean we have to pull that lever at a later date We could just introduce it go through the administrative process if council so decides to not do anything to it We don't have to take any action on that item very similar to what transpired Last year with the meals rate where we introduced it it went all the way through budget adoption that night We actually affirmed no action made no change, but we went through the process So that would be a potential recommendation that staff would give given where we are sort of in the budget process and the administrative timing on the requirements to Introduce and advertise accordingly"
   },
   {
     "turn_id": "turn_000273",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 9711.58,
@@ -2460,7 +2460,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000274",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_17",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 9712.83,
@@ -2469,7 +2469,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000275",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 9765.0,
@@ -2478,7 +2478,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000276",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9767.84,
@@ -2487,7 +2487,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000277",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_08",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9773.31,
@@ -2496,7 +2496,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000278",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 9782.22,
@@ -2505,7 +2505,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000279",
-    "speaker": "Stacey Hardy-Chandler",
+    "speaker": "SPEAKER_08",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9784.29,
@@ -2514,7 +2514,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000280",
-    "speaker": "Billy Bates",
+    "speaker": "SPEAKER_19",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9784.31,
@@ -2523,7 +2523,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000281",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 9785.93,
@@ -2532,7 +2532,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000282",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9787.94,
@@ -2541,7 +2541,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000283",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 9789.03,
@@ -2550,7 +2550,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000284",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_17",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 9792.61,
@@ -2559,7 +2559,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000285",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9846.1,
@@ -2568,7 +2568,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000286",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_06",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9846.21,
@@ -2577,7 +2577,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000287",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9899.01,
@@ -2586,7 +2586,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000288",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9964.87,
@@ -2595,7 +2595,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000289",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_06",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9980.55,
@@ -2604,7 +2604,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000290",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9984.06,
@@ -2613,7 +2613,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000291",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 9993.09,
@@ -2622,7 +2622,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000292",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_06",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 10003.21,
@@ -2631,7 +2631,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000293",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 10011.48,
@@ -2640,7 +2640,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000294",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 10017.03,
@@ -2649,7 +2649,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000295",
-    "speaker": "Anthony Amos",
+    "speaker": "SPEAKER_00",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 10034.99,
@@ -2658,7 +2658,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000296",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 10047.0,
@@ -2667,7 +2667,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000297",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 10052.45,
@@ -2676,7 +2676,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000298",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_06",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 10068.67,
@@ -2685,7 +2685,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000299",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 10213.79,
@@ -2694,7 +2694,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000300",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 10278.34,
@@ -2703,7 +2703,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000301",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_06",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 10336.49,
@@ -2712,7 +2712,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000302",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_17",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 10383.34,
@@ -2721,7 +2721,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000303",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_06",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 10385.13,
@@ -2730,16 +2730,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000304",
-    "speaker": "Tom Peterson",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_10",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 10419.6,
     "end": 10421.78,
     "text": "I knew we were getting there together Alright,"
   },
   {
     "turn_id": "turn_000305",
-    "speaker": "Anthony Amos",
+    "speaker": "SPEAKER_00",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 10421.78,
@@ -2748,7 +2748,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000306",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 10430.97,
@@ -2757,7 +2757,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000307",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 10431.55,
@@ -2766,7 +2766,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000308",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_06",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 10493.94,
@@ -2775,7 +2775,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000309",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 10578.24,
@@ -2784,7 +2784,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000310",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 10597.02,
@@ -2793,7 +2793,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000311",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 10602.39,
@@ -2802,7 +2802,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000312",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_06",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 10623.27,
@@ -2811,7 +2811,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000313",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 10626.98,
@@ -2820,7 +2820,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000314",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_06",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 10652.05,
@@ -2829,7 +2829,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000315",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_06",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 10660.22,
@@ -2838,7 +2838,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000316",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 10717.68,
@@ -2847,7 +2847,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000317",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 10718.05,
@@ -2856,7 +2856,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000318",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 10817.28,
@@ -2865,7 +2865,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000319",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 10818.44,
@@ -2874,7 +2874,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000320",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 10895.14,
@@ -2883,7 +2883,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000321",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 10928.1,
@@ -2892,7 +2892,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000322",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 10971.33,
@@ -2901,7 +2901,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000323",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 10983.85,
@@ -2910,7 +2910,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000324",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 10999.21,
@@ -2919,7 +2919,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000325",
-    "speaker": "Anthony Amos",
+    "speaker": "SPEAKER_00",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 11005.84,
@@ -2928,16 +2928,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000326",
-    "speaker": "Tom Peterson",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_10",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 11005.96,
     "end": 11005.99,
     "text": "avoid"
   },
   {
     "turn_id": "turn_000327",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 11047.18,
@@ -2946,7 +2946,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000328",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 11094.53,
@@ -2955,16 +2955,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000329",
-    "speaker": "Daniel Alexander",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_10",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 11113.97,
     "end": 11114.29,
     "text": "So Again,"
   },
   {
     "turn_id": "turn_000330",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 11126.93,
@@ -2973,7 +2973,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000331",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_06",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 11130.6,
@@ -2982,7 +2982,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000332",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 11279.64,
@@ -2991,7 +2991,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000333",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_06",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 11284.6,
@@ -3000,7 +3000,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000334",
-    "speaker": "Anthony Amos",
+    "speaker": "SPEAKER_00",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 11306.23,
@@ -3009,7 +3009,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000335",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 11320.05,
@@ -3018,7 +3018,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000336",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_17",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 11321.74,
@@ -3027,7 +3027,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000337",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 11478.44,
@@ -3036,16 +3036,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000338",
-    "speaker": "Councilmember McQuillen",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_06",
+    "speaker_source": "auto_name_match",
+    "speaker_source_detail": "",
     "start": 11591.45,
     "end": 11677.48,
     "text": "No, so your memories correct councilmember Peterson at the November budget retreat we did show some CIP sandwich slides is what I called them In one of those slides it did show a projected future spend About half of it half half a billion dollars was attributable to a potential future renovation of the high school And then also the middle school Those two projects are not a hundred percent scope schools has not come forward It was just based off of the September 2023 feasibility study done by Mosley that identified all schools and at some point Those will be need need to be renovated as well. And those were the anticipated projections at that time Additionally, you also have other infrastructure internally the property yard being one of the larger ones at about a hundred and twenty hundred and sixty million dollars currently that's being projected as well, so Absolutely large ticket items. I think councilmember Hall summarized it very well. These are Generational investments probably the last time that the city had significant capital investments of this magnitude was when it was founded Sixty some odd years ago and now we're sort of at that point where we need to renovate and we're constructing you as well So absolutely correct, sir"
   },
   {
     "turn_id": "turn_000339",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 11682.56,
@@ -3054,7 +3054,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000340",
-    "speaker": "Billy Bates",
+    "speaker": "SPEAKER_19",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 11685.45,
@@ -3063,7 +3063,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000341",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_06",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 11702.34,
@@ -3072,7 +3072,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000342",
-    "speaker": "Billy Bates",
+    "speaker": "SPEAKER_19",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 11706.71,
@@ -3081,7 +3081,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000343",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_06",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 11711.35,
@@ -3090,7 +3090,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000344",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_06",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 11731.29,
@@ -3099,7 +3099,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000345",
-    "speaker": "Billy Bates",
+    "speaker": "SPEAKER_19",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 11732.19,
@@ -3108,16 +3108,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000346",
-    "speaker": "Tom Peterson",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_06",
+    "speaker_source": "auto_name_match",
+    "speaker_source_detail": "",
     "start": 11751.61,
     "end": 11793.82,
     "text": "I Think councilmember Hall was sort of bringing that up So we'll use the school referendum because that's pretty recent where once a referendum passes the clock starts You have eight years Where you can pull debt off of that approved referendum you could ask the circuit court for a two-year extension But beyond that so a maximum of ten years is the limit that you would have to pull debt Associated and directly tied to that approval of that referendum if you don't complete pulling debt within that time frame You would have to and if you need to do another referendum if you still need to renovate and or complete construction of That project"
   },
   {
     "turn_id": "turn_000347",
-    "speaker": "Billy Bates",
+    "speaker": "SPEAKER_19",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 11796.3,
@@ -3126,7 +3126,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000348",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_06",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 11816.28,
@@ -3135,7 +3135,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000349",
-    "speaker": "Billy Bates",
+    "speaker": "SPEAKER_19",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 11839.55,
@@ -3144,7 +3144,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000350",
-    "speaker": "Billy Bates",
+    "speaker": "SPEAKER_19",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 11845.52,
@@ -3153,7 +3153,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000351",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_06",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 11861.18,
@@ -3162,7 +3162,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000352",
-    "speaker": "Billy Bates",
+    "speaker": "SPEAKER_19",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 11861.5,
@@ -3171,7 +3171,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000353",
-    "speaker": "Billy Bates",
+    "speaker": "SPEAKER_19",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 11864.61,
@@ -3180,7 +3180,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000354",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_06",
     "speaker_source": "auto_name_match",
     "speaker_source_detail": "",
     "start": 11876.79,
@@ -3189,7 +3189,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000355",
-    "speaker": "Billy Bates",
+    "speaker": "SPEAKER_19",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 11920.29,
@@ -3198,7 +3198,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000356",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 11925.17,
@@ -3207,7 +3207,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000357",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_17",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 11926.83,
@@ -3216,7 +3216,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000358",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 11990.51,
@@ -3225,7 +3225,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000359",
-    "speaker": "Staff Member",
+    "speaker": "SPEAKER_17",
     "speaker_source": "auto_staff",
     "speaker_source_detail": "",
     "start": 11993.46,
@@ -3234,7 +3234,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000360",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 12052.19,
@@ -3243,16 +3243,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000361",
-    "speaker": "Councilmember McQuillen",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_11",
+    "speaker_source": "auto_name_match",
+    "speaker_source_detail": "",
     "start": 12079.32,
     "end": 12101.57,
     "text": "councilmember Peterson just to Clarify what we are doing with budget memo eight. It sounds like we're just looking forward at some point to hear more about how to Structure a thought process Around this I that's probably not the best way to describe this but we'll be hearing back from you at some point Is that where this is? Yeah, I it"
   },
   {
     "turn_id": "turn_000362",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 12098.07,
@@ -3261,7 +3261,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000363",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 12100.76,
@@ -3270,7 +3270,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000364",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 12142.98,
@@ -3279,7 +3279,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000365",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 12163.02,
@@ -3288,7 +3288,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000366",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 12205.52,
@@ -3297,7 +3297,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000367",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 12212.62,
@@ -3306,7 +3306,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000368",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 12263.89,
@@ -3315,16 +3315,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000369",
-    "speaker": "Daniel Alexander",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_17",
+    "speaker_source": "auto_name_match",
+    "speaker_source_detail": "",
     "start": 12276.36,
     "end": 12462.81,
     "text": "Hall. Sorry. Thank you Just to wrap up on the referendum thing I I What think maybe put a pin in it To borrow the mayor's phrase I'm interested in discussing it. I think We probably have bigger first to fry at the moment and it's not going to be another immediate need for a little bit later But I don't want to just let it completely go off the wayside. I do worry about putting something in that's too structured But I would like to revisit this in the future. It sounds like there's support for that as well So now off of budget for a moment just general thing, I know we don't get council comments tonight, but I did reach out to each of my colleagues the Only person I didn't hear back from was councilmember Amos, which is expected because he is away But I just wanted to bring this to Staffs attention. I know I emailed with Anna Safford our urban forester, but there have been several Properties in neighborhoods that have taken down an extraordinary number of trees without getting proper permits and It was heartbreaking to see what happened recently to a couple in my neighborhood And so I reached out with some questions and I was told that the current city code dates back to the 1970s With no update since then We back up just a minute. So people that need permits are in Zoning districts RL RM and RH and on a lot that is greater than or equal to one half acre and Only if the tree is greater than or equal to five inches in caliber, and I think that's at chest height So this really leaves which I didn't realize I was a pun But this leaves much of the city without a permit requirement even in single-family home and town home communities So what I was proposing to my colleagues was that could we Reconsider this for both lot size and the applicable zones Especially with all the new development coming in and that was when I had asked when it was last reviewed So just to be clear I shared that information with my colleagues and I said, you know, I had serious concerns about these things and there was support from everyone that responded to me so Five out of the six here including myself support looking into it and I understand that this is something that is likely Hopefully going to be covered in part of the tree conservation tax amendment package. It's coming up soon So I don't mean to put more work on staff, but I was really really Really devastated to see what happened in my neighborhood and the fact that Kind of putting all those steps together that anyone in most neighborhoods around here can just take out whatever trees they want at any time and I know I believe Anna Safford had said that I could be wrong 70% of our tree canopy is on private property and We're not protecting that as far as I'm concerned"
   },
   {
     "turn_id": "turn_000370",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 12465.32,
@@ -3333,16 +3333,16 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000371",
-    "speaker": "Mayor Catherine Read",
-    "speaker_source": "approved",
-    "speaker_source_detail": "video_verified",
+    "speaker": "SPEAKER_10",
+    "speaker_source": "needs_review",
+    "speaker_source_detail": "",
     "start": 12499.12,
     "end": 12499.23,
     "text": "wasn't"
   },
   {
     "turn_id": "turn_000372",
-    "speaker": "Anthony Amos",
+    "speaker": "SPEAKER_00",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 12499.23,
@@ -3351,7 +3351,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000373",
-    "speaker": "Stacy Hall",
+    "speaker": "SPEAKER_17",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 12607.8,
@@ -3360,7 +3360,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000374",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 12676.29,
@@ -3369,7 +3369,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000375",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 12691.48,
@@ -3378,7 +3378,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000376",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 12704.61,
@@ -3387,7 +3387,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000377",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 12727.04,
@@ -3396,7 +3396,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000378",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 12729.16,
@@ -3405,7 +3405,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000379",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 12773.88,
@@ -3414,7 +3414,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000380",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 12815.31,
@@ -3423,7 +3423,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000381",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 12819.23,
@@ -3432,7 +3432,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000382",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 12819.24,
@@ -3441,7 +3441,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000383",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 12822.63,
@@ -3450,7 +3450,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000384",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 12829.98,
@@ -3459,7 +3459,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000385",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 12852.0,
@@ -3468,7 +3468,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000386",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 12858.16,
@@ -3477,7 +3477,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000387",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 12863.74,
@@ -3486,7 +3486,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000388",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 12868.91,
@@ -3495,7 +3495,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000389",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 12870.91,
@@ -3504,7 +3504,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000390",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 12875.52,
@@ -3513,7 +3513,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000391",
-    "speaker": "Tom Peterson",
+    "speaker": "SPEAKER_11",
     "speaker_source": "needs_review",
     "speaker_source_detail": "",
     "start": 12880.25,
@@ -3522,7 +3522,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000392",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 12891.69,
@@ -3531,7 +3531,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000393",
-    "speaker": "Daniel Alexander",
+    "speaker": "SPEAKER_05",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 12894.35,
@@ -3540,7 +3540,7 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000394",
-    "speaker": "Mayor Catherine Read",
+    "speaker": "SPEAKER_09",
     "speaker_source": "approved_mapping",
     "speaker_source_detail": "",
     "start": 12963.74,
