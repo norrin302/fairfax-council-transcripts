@@ -12,30 +12,30 @@ const TRANSCRIPT_TURNS = [
   },
   {
     "turn_id": "turn_000002",
-    "speaker": "Ms Shinneberry",
+    "speaker": "Mayor Catherine Read",
     "speaker_source": "manual_fix",
-    "speaker_source_detail": "re-verified: introduces Library representatives",
+    "speaker_source_detail": "verified timeline: introduces Stacey at 0:17",
     "start": 17.55,
     "end": 29.68,
-    "text": "I will now ask Suzanne Levy, Eric Carson, and Alana Quarles with the City of Fairfax Library to come down for the proclamation acknowledging National Library Week."
+    "text": "Our first item is the discussion on third-party event sponsorships. I'm going to recognize Stacey Sommerfield, our Parks and Recreation Director, for the presentation."
   },
   {
     "turn_id": "turn_000003",
-    "speaker": "Suzanne Levy",
+    "speaker": "Stacey Sommerfield",
     "speaker_source": "manual_fix",
-    "speaker_source_detail": "re-verified: Library presentation from re-transcription",
+    "speaker_source_detail": "verified: Parks Director presenting from 0:29-16:38",
     "start": 29.68,
     "end": 998.00,
-    "text": "Libraries spark creativity, fuel imagination, and inspire lifelong learning... Libraries serve as vibrant community hubs connecting people with knowledge, technology, and resources... Libraries provide free and equitable access to books, digital tools, and innovative programming... Libraries partner with schools, businesses, and organizations... Libraries empower job seekers, entrepreneurs, and lifelong learners... Libraries nurture young minds through story times, STEAM programs, and literacy initiatives... Libraries protect the right to read, think, and explore without censorship... Dedicated librarians and library workers provide welcoming spaces... Now therefore I, Catherine S. Reid, Mayor of the City of Fairfax, do hereby proclaim April 19th to the 25th, 2026, as National Library Week in the City of Fairfax, and encourage the community during this week to visit their library... Thank you Mayor. I'm honored to be your representative... Representative to the Fairfax County Public Library Board of Trustees... I'm in my second year as chairman of the board... And I wanted to introduce our library director Eric Carson... Elena Quarles is the branch manager at City of Fairfax, and Jackie Consalvo is the head of the Circulation Department... And if you don't have a library card, we have beautiful new cards that were designed by citizens in the community... Thank you so much."
+    "text": "Good evening, Mayor and Council. I'm joined up here tonight by our Special Events and Athletics Manager, Mitzi Taylor, and our Assistant Special Events Manager, Deanna Payne, and we are going to invite police up here to join us, too. I apologize to Natalie, just to answer any additional questions. She doesn't have to answer anything right away, so that's good news. So we're here tonight to talk about the third-party event policy, and so these are events that take place within the city, and many of which are supported by the city, but are not organized by the special events crew within the Department of Parks and Recreation. So to start, we're going to go back, actually, a little bit to our, back to 2011. There were a number of resident complaints about the quantity of road closures at the time. This was a time when road races were very popular. They have declined in popularity since then, but the city was a very popular destination to have road races because it was very easy to work with us to close roads, and for that reason there were a lot of road closures, and so at that point, Council took an action, which was to reduce the number of road closure events to limiting to six each year. So in 2011, this action was taken, and so since that time, we have limited it to six each year. Of those six spaces, five are currently filled, so you'll see them at the bottom here. We have the Turkey Trot, the Ride of the Patriots, the Sweet Mile, which is new, it's the one mile race that takes place along with Chocolate Lovers, the Asian Festival on Main, and Labor Day Car Show. So at this time when we began limiting the number of road closure events, we also put into place a framework to manage third-party events within the city, and this has grown a little bit over time, but it's stayed largely the same. So we ask that groups submit an application 90 days in advance. There is an application fee that is reduced for non-profit groups. We do ask each group to carry $2 million in coverage. Our risk management office here in the city can help groups find a way to get that coverage. We ask that the City of Fairfax is listed as additionally insured. For these groups, we do have venue rental fees, which are very reasonable. I mean, they're much reduced from our private rental fees. We ask them to develop an action plan and an overall plan for the event. Once Mitzi has all of those things from an organization, that information goes out to the events management group, which is represented by police, fire, office of emergency management, public works, and the fire marshal's office, and parks and recreation. So everyone is able to review the event application and weigh in as to whether or not they are willing to see the event go forward. So once the events team has agreed and approved, then event fees are processed and we move forward."
   },
   {
     "turn_id": "turn_000004",
     "speaker": "Mayor Catherine Read",
     "speaker_source": "manual_fix",
-    "speaker_source_detail": "verified: mayor speaking after presentation ends at 16:38",
-    "start": 998.08,
+    "speaker_source_detail": "verified: mayor resumes at 16:38",
+    "start": 998.00,
     "end": 1010.00,
-    "text": "answer any additional questions"
+    "text": "We have questions from the dais. Council Member Peterson?"
   },
   {
     "turn_id": "turn_000005",
