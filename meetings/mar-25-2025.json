@@ -1,0 +1,17 @@
+{
+  "meeting_id": "mar-25-2025",
+  "meeting_date": "2025-03-25",
+  "display_date": "March 25, 2025",
+  "title": "City Council Regular Meeting",
+  "meeting_type": "regular",
+  "city": "Fairfax, VA",
+  "source_video_url": "https://fairfax.granicus.com/player/clip/4150",
+  "official_meetings_portal_url": "https://www.fairfaxva.gov/Government/Public-Meetings/City-Meetings",
+  "official_agenda_url": "https://fairfax.granicus.com/AgendaViewer.php?clip_id=4150",
+  "official_minutes_url": "https://fairfax.granicus.com/MinutesViewer.php?clip_id=4150",
+  "official_packet_url": null,
+  "transcript_url": "transcripts/mar-25-2025.html",
+  "transcript_turns_js": "docs/transcripts/mar-25-2025-data.js",
+  "duration_seconds": 8064,
+  "sections": []
+}
