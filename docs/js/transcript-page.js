@@ -18,10 +18,11 @@
       .trim();
   }
 
-  // Auto-detect timestamp unit: if values look like ms (>1000s), convert to seconds
+  // Auto-detect timestamp unit: if values look like ms (>360000 = 100h), convert to seconds
+  // (real meeting timestamps in seconds can be up to ~36000 for a 10h meeting)
   function toSec(msOrSec) {
     const v = Number(msOrSec) || 0;
-    return v > 1000 ? v / 1000 : v;
+    return v > 360000 ? v / 1000 : v;
   }
 
   function formatTime(seconds) {
